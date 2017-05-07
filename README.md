@@ -16,9 +16,11 @@ C'est le fichier qui contient les informations permettant d'afficher le time dan
 
 
 Exemple :
-```origin=Bakaclub
+```
+origin=Bakaclub
 aviname=Beck Mongorian Chop Squad - OP - Hit in the USA.avi
-file=dummy.ass```
+file=dummy.ass
+```
 
 * **origin** : Facultatif, stipule l'origine d'un karaoke. 
 * **aviname** : Nom du fichier vidéo, tel quel dans le dossier des Vidéos. Toyunda Mugen lit tout ce que peut lire mpv.
