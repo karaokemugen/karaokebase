@@ -14,7 +14,6 @@ Un karaoké Toyunda Mugen est composé de 3 éléments rangés dans les dossiers
 
 C'est le fichier qui contient les informations permettant d'afficher le time dans la liste et que le daemon Toyunda Mugen le gère ensuite. Il est dérivé du format des .ini de Toyunda d4epitanime
 
-
 Exemple :
 ```
 origin=Bakaclub
@@ -40,6 +39,6 @@ Contient le fichier de sous-titres tel que spécifié dans le .ini
 
 Contient le fichier de vidéo tel que spécifié dans le .ini
 
-Les vidéos ne sont pas fournies dans ce dépôt, par souci de place (et ça ferait un dépôt de 170 Go au bas mot). Des tas d'openings peuvent se retrouver sur Youtube.
+Les vidéos ne sont pas fournies dans ce dépôt, par souci de place (et ça ferait un dépôt de 170 Go au bas mot). Des tas d'openings peuvent se retrouver sur Youtube ou sur des sites de déluge.
 
 
