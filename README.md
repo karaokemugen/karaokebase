@@ -1,18 +1,18 @@
-# Base de données des times de Toyunda Mugen
+ï»¿# Base de donnÃ©es des times de Toyunda Mugen
 
-Ceci est la base de données des times de Toyunda Mugen. 
+Ceci est la base de donnÃ©es des times de Toyunda Mugen. 
 
 ## Format d'un time
 
-Un karaoké Toyunda Mugen est composé de 3 éléments rangés dans des dossiers
+Un karaokÃ© Toyunda Mugen est composÃ© de 3 Ã©lÃ©ments rangÃ©s dans des dossiers
 
 * Un fichier .ini dans le dossier ini
 * Un fichier .ass dans le dossier lyrics
-* Un fichier vidéo dans le dossier videos
+* Un fichier vidÃ©o dans le dossier videos
 
 ### Dossier "ini"
 
-C'est le fichier qui contient les informations permettant d'afficher le time dans la liste et que le daemon Toyunda Mugen le gère ensuite. Il est dérivé du format des .ini de Toyunda d'Epitanime.
+C'est le fichier qui contient les informations permettant d'afficher le time dans la liste et que le daemon Toyunda Mugen le gÃ¨re ensuite. Il est dÃ©rivÃ© du format des .ini de Toyunda d'Epitanime.
 
 Exemple :
 ```
@@ -22,25 +22,25 @@ file=dummy.ass
 ```
 
 * **origin** : Facultatif, stipule l'origine d'un karaoke. 
-* **aviname** : Nom du fichier vidéo, tel quel dans le dossier des Vidéos. Toyunda Mugen lit tout ce que peut lire mpv.
+* **aviname** : Nom du fichier vidÃ©o, tel quel dans le dossier des VidÃ©os. Toyunda Mugen lit tout ce que peut lire mpv.
 * **file** : Nom du fichier de sous-titres tel que trouvable dans le dossier lyrics
-	* Formats acceptés :
+	* Formats acceptÃ©s :
 		* ass
 		* srt
 		* vtt
 		* txt (format Toyunda)
-	* Cas spécial : dummy.ass qui n'existe pas et est utilisé quand le fichier vidéo contient déjà des sous-titres, soit incrustés (hardsub) soit embarqués (ass dans la piste sous-titres d'un mkv. Dans ce cas, Toyunda Mugen ira extraire le sous-titre à la volée avant la lecture du karaoké pour ajouter le titre de la chanson en bas de l'écran pendant quelques secondes.
+	* Cas spÃ©cial : dummy.ass qui n'existe pas et est utilisÃ© quand le fichier vidÃ©o contient dÃ©jÃ  des sous-titres, soit incrustÃ©s (hardsub) soit embarquÃ©s (ass dans la piste sous-titres d'un mkv. Dans ce cas, Toyunda Mugen ira extraire le sous-titre Ã  la volÃ©e avant la lecture du karaokÃ© pour ajouter le titre de la chanson en bas de l'Ã©cran pendant quelques secondes.
 
 ### Dossier "lyrics"
 
-Contient le fichier de sous-titres tel que spécifié dans le .ini
+Contient le fichier de sous-titres tel que spÃ©cifiÃ© dans le .ini
 
-Il s'agit d'un .ass généralement crée via AegisSub. Le format txt Toyunda d'Epitanime est aussi accepté (mais vivement déconseillé, ce format est obsolète et devrait périr dans un feu.)
+Il s'agit d'un .ass gÃ©nÃ©ralement crÃ©e via AegisSub. Le format txt Toyunda d'Epitanime est aussi acceptÃ© (mais vivement dÃ©conseillÃ©, ce format est obsolÃ¨te et devrait pÃ©rir dans un feu.)
 
 ### Dossier "videos"
 
-Contient le fichier de vidéo tel que spécifié dans le .ini
+Contient le fichier de vidÃ©o tel que spÃ©cifiÃ© dans le .ini
 
-Les vidéos ne sont pas fournies dans ce dépôt, par souci de place (et ça ferait un dépôt de 170 Go au bas mot). Des tas d'openings peuvent se retrouver sur Youtube ou sur des sites de déluge.
+Les vidÃ©os ne sont pas fournies dans ce dÃ©pÃ´t, par souci de place (et Ã§a ferait un dÃ©pÃ´t de 170 Go au bas mot). Des tas d'openings peuvent se retrouver sur Youtube ou sur des sites de dÃ©luge.
 
 
