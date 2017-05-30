@@ -31,6 +31,8 @@ file=dummy.ass
 		* txt (format Toyunda)
 	* Cas spécial : dummy.ass qui n'existe pas et est utilisé quand le fichier vidéo contient déjà des sous-titres, soit incrustés (hardsub) soit embarqués (ass dans la piste sous-titres d'un mkv. Dans ce cas, Toyunda Mugen ira extraire le sous-titre à la volée avant la lecture du karaoké pour ajouter le titre de la chanson en bas de l'écran pendant quelques secondes.
 
+Note : ce format est en cours d'évolution et va bientôt changer.
+
 ### Dossier "lyrics"
 
 Contient le fichier de sous-titres tel que spécifié dans le .ini
@@ -42,5 +44,4 @@ Il s'agit d'un .ass généralement crée via AegisSub. Le format txt Toyunda d'E
 Contient le fichier de vidéo tel que spécifié dans le .ini
 
 Les vidéos ne sont pas fournies dans ce dépôt, par souci de place (et ça ferait un dépôt de 170 Go au bas mot). Vous pouvez néanmoins lancer Mettre a jour videos.cmd (Windows) ou UpdateVideos.sh (OSX/Linux) pour récupérer les vidéos par rsync.
-
 
