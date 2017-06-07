@@ -107,13 +107,32 @@ Adaptez bien sûr la taille de la police selon la taille de votre vidéo (si vot
 - Un fichier de sous-titres .ass contenant votre kara
 - Une vidéo au format .avi, .mp4, .webm, .mov ou .mkv
 
-On s'occupe de créer le .ini derrière ainsi que de nommer les fichiers correctement.
+On s'occupe de créer le .kara derrière ainsi que de nommer les fichiers correctement.
 
-## Comment vous l'envoyer ?
+## Comment vous envoyer mon kara ?
 
 http://mei.do/toyundamugen
 
 Une fois validé, le karaoké sera ajouté à ce dépôt.
+
+## Et si je veux générer moi-même le .kara ?
+
+Le .kara est un fichier ini de base. Il faut deux infos primordiales :
+
+```
+videofile="nom_du_fichier.mp4"
+subfile="nom_du_karaoke.ass"
+```
+
+Les autres variables optionnelles sont (séparées par des virgules si plusieurs éléments) :
+
+* year= : L'année de production de la série / OP
+* singer= : Chanteur/euse
+* tags= : Série de tags pour caractériser le karaoké comme "Humour", "Animé", "Série TV", etc.
+* songwriter= : Compositeur et/ou parolier
+* additional_languages= : Autres langues que celle d'origine. Par exemple Oban Star Racers OP qui est en français et en japonais.
+* creator= : Entité créatrice de la vidéo. Par exemple le studio d'animation, la chaîne de télévision, etc.
+* author= : Auteur du karaoké.
 
 ## Je veux aider à maintenir la base des karaokés !
 
