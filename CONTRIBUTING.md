@@ -1,4 +1,4 @@
-?# Comment créer un karaoké ? 
+# Comment créer un karaoké ? 
 
 Vous aurez besoin du logiciel AegiSub
 
@@ -126,7 +126,7 @@ subfile="nom_du_karaoke.ass"
 
 Les autres variables optionnelles sont (séparées par des virgules si plusieurs éléments) :
 
-* year= : L'année de production de la série / OP
+* year= : L'année de production de l'opening. Attention, ce n'est pas l'année de production de la série. Par exemple pour One Piece des openings peuvent avoir des années différentes !
 * singer= : Chanteur/euse
 * tags= : Série de tags pour caractériser le karaoké comme "Humour", "Animé", "Série TV", etc.
 * songwriter= : Compositeur et/ou parolier
