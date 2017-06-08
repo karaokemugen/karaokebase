@@ -1,4 +1,4 @@
-?# Comment créer un karaoké ? 
+# Comment créer un karaoké ? 
 
 Vous aurez besoin du logiciel AegiSub
 
