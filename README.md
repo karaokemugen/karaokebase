@@ -6,36 +6,35 @@ Ceci est la base de données des times de Toyunda Mugen.
 
 Un karaoké Toyunda Mugen est composé de 3 éléments rangés dans des dossiers
 
-* Un fichier .ini dans le dossier ini
+* Un fichier .kara dans le dossier karas
 * Un fichier .ass dans le dossier lyrics
 * Un fichier vidéo dans le dossier videos
 
-### Dossier "ini"
+### Dossier "karas"
 
-C'est le fichier qui contient les informations permettant d'afficher le time dans la liste et que le daemon Toyunda Mugen le gère ensuite. Il est dérivé du format des .ini de Toyunda d'Epitanime.
+C'est le fichier qui contient les informations permettant d'afficher le time dans la liste et que le daemon Toyunda Mugen le gère ensuite. Il reprend le format d'un .ini classique.
 
 Exemple :
 ```
-origin=Bakaclub
-aviname=Beck Mongorian Chop Squad - OP - Hit in the USA.avi
-file=dummy.ass
+videofile="ANG - Porter Robinson & Madeon - CLIP - Shelter.mp4"
+subfile="ANG - Porter Robinson & Madeon - CLIP - Shelter.ass"
+year="2016"
+singer="Amy Millan"
+tags=""
+songwriter="Porter Robinson,Madeon"
+additional_languages=""
+creator="A-1 Pictures"
+author="karaokes.moe"
 ```
 
-* **origin** : Facultatif, stipule l'origine d'un karaoke. 
-* **aviname** : Nom du fichier vidéo, tel quel dans le dossier des Vidéos. Toyunda Mugen lit tout ce que peut lire mpv.
-* **file** : Nom du fichier de sous-titres tel que trouvable dans le dossier lyrics
-	* Formats acceptés :
-		* ass
-		* srt
-		* vtt
-		* txt (format Toyunda)
+* **author** : Facultatif, stipule l'origine d'un karaoke. 
+* **videofile** : Nom du fichier vidéo, tel quel dans le dossier des Vidéos. Toyunda Mugen lit tout ce que peut lire mpv.
+* **subfile** : Nom du fichier de sous-titres tel que trouvable dans le dossier lyrics (en .ass)
 	* Cas spécial : dummy.ass qui n'existe pas et est utilisé quand le fichier vidéo contient déjà des sous-titres, soit incrustés (hardsub) soit embarqués (ass dans la piste sous-titres d'un mkv. Dans ce cas, Toyunda Mugen ira extraire le sous-titre à la volée avant la lecture du karaoké pour ajouter le titre de la chanson en bas de l'écran pendant quelques secondes.
-
-Note : ce format est en cours d'évolution et va bientôt changer.
 
 ### Dossier "lyrics"
 
-Contient le fichier de sous-titres tel que spécifié dans le .ini
+Contient le fichier de sous-titres tel que spécifié dans le .kara
 
 Il s'agit d'un .ass généralement crée via AegisSub. Le format txt Toyunda d'Epitanime est aussi accepté (mais vivement déconseillé, ce format est obsolète et devrait périr dans un feu.)
 
