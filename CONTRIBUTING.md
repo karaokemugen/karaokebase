@@ -74,6 +74,9 @@ Exemple :
     * TOKU OP : Opening de tokusatsu / sentai
     * VOCA : Chanté par des vocaloid
     * VOCA AMV : AMV d'une série chantée par du vocaloid
+* Le numéro de générique : le premier générique d'ouverture sera qualifié d'OP1, etc. 
+    * S'il n'y a qu'un seul générique tout le long de la série ou saison, on omet le numéro et on met simplement OP ou ED selon le cas.
+    * Attention toutefois : il arrive souvent, notamment en début de série, que des génériques d'ouverture servent exceptionnellement de générique de clôture. Il ne faut pas pour autant qualifier cet OP d'ED1 et l'ED classique d'ED2 ! Exemple avec la série *Kekkai Sensen*, qui n'a qu'un OP et un ED : l'OP sert d'ED au premier épisode, mais le générique d'ouverture doit taggé OP et le générique de cloture ED, et ne pas mettre "ED2" pour le générique de fin 'classique' sous pretexte qu'il y a eu un autre générique pour un seul épisode.  
 * Le titre de la chanson, si vous l'avez. Respectez le plus possible son nom (sauf s'il contient des caractères spéciaux.)
 
 Concernant le nommage relatif à la langue japonaise, consultez les consignes relatives à l'écriture d'un karaoké plus bas, notamment sur les accents.
