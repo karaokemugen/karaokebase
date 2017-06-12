@@ -6,7 +6,7 @@ Suivez cet excellent guide de SilvoSwordo du Bakaclub : http://caignard.iiens.ne
 
 Une copie de ce guide existe dans le dépôt de l'app Toyunda Mugen, dans le dossier docs.
 
-Par ailleurs, si vous envisager de timer quoi que ce soit, n'hésitez pas à le signaler dans ce document, histoire d'éviter que plusieurs personnes se retrouvent à timer la même chose (valable surtout pour les œuvres récentes, mais pas que…) https://docs.google.com/spreadsheets/d/12KY9uAENP0Fwzn3IMQB-Wgd-qgYOjihphnGuSlHJziU/edit#gid=0
+Par ailleurs, si vous envisagez de timer quoi que ce soit, n'hésitez pas à le signaler dans ce document, histoire d'éviter que plusieurs personnes se retrouvent à timer la même chose (valable surtout pour les œuvres récentes, mais pas que…) https://docs.google.com/spreadsheets/d/12KY9uAENP0Fwzn3IMQB-Wgd-qgYOjihphnGuSlHJziU/edit#gid=0
 
 ## Consignes générales de nommage du karaoké
 
