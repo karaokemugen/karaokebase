@@ -34,14 +34,12 @@ Exemple :
     * POR : portugais
     * RUS : russe
     * SUE : suèdois
-    * JPOP : Cas spécial, utilisé pour les clips de J-Music (va être abandonné prochainement)
     * Enrichissez ce document si vous ajoutez de nouvelles langues !
 * Le nom de la série doit obligatoirement être un nom facilement reconnaissable. Il faut préférer le nom international s'il existe, ou un nom facilement connu du public. Exemple, si je vous parle de Spice & Wolf, ne soumettez pas votre kara sous le nom "Ôkami to Kôshinryô" sous peine de cassage de genoux. Personne ne connaît cet animé sous ce titre. Même exemple avec Full Metal Alchemist qu'il n'y a pas besoin d'écrire en japonais "Hagane no Renkinjutsushi" parce que PERSONNE de sensé n'irait taper ça dans un moteur de recherche, bande d'élitistes.
     * Par contre, Suzumiya Haruhi no Yuutsu est toléré, car "Suzumiya Haruhi" est facilement reconnaissable et connu du public.
 * Le type du karaoké peut être les suivants :
     * AMV : Anime Music Video. Peut-être utilisé pour des clips musicaux tout en animation
     * ANIMETAL OP : Opening style Animétal
-    * CLIP : Clip musical, pour tous les clips avec des personnes en 3D (opposé à de l'animation 2D)
     * CM : Publicité
     * ED : Ending d'un animé
     * GAME AMV : AMV de jeu vidéo (contient de l'animation 2D)
@@ -49,7 +47,7 @@ Exemple :
     * GAME IN : Insert song de jeu vidéo
     * GAME OP : Opening de jeu vidéo
     * GAME OT : "Autre" de jeu vidéo (images du jeu sur de la musique par exemple)
-    * GAME PV : Vidéo promotionnelle de jeu vidéo (trailer, bande-annonce, etc.)
+    * GAME TRAILER : Vidéo promotionnelle de jeu vidéo (trailer, bande-annonce, etc.)
     * GC GAME OP : Exemple d'opening de jeu version Gamecube. Utile quand préciser le support du jeu est nécessaire pour le diférencier.
     * IN : Insert song d'un animé
     * IN LIVE : Insert song d'une série TV live (avec des vrais gens en 3D dedans.)
@@ -64,7 +62,7 @@ Exemple :
     * OP : Opening d'animé
     * OP LIVE : Opening d'animé (version concert live)
     * OT : Autre / inclassable
-    * PV : Vidéo promotionnelle
+    * PV : Vidéo promotionnelle/Clip musical (avec des vrais gens en 3D dedans)
     * R18 GAME OP : Opening d'un jeu interdit aux mineurs
     * REMIX ED LIVE : Parodie live d'un ending d'animé.
     * REMIX GAME OP : Parodie d'un opening de jeu vidéo.
