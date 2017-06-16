@@ -6,17 +6,23 @@ Suivez cet excellent guide de SilvoSwordo du Bakaclub : http://caignard.iiens.ne
 
 Une copie de ce guide existe dans le dépôt de l'app Toyunda Mugen, dans le dossier docs.
 
-Par ailleurs, si vous envisagez de timer quoi que ce soit, n'hésitez pas à le signaler dans ce document, histoire d'éviter que plusieurs personnes se retrouvent à timer la même chose (valable surtout pour les œuvres récentes, mais pas que…) https://docs.google.com/spreadsheets/d/12KY9uAENP0Fwzn3IMQB-Wgd-qgYOjihphnGuSlHJziU/edit#gid=0
+Par ailleurs, si vous envisagez de timer quoi que ce soit, n'hésitez pas à le signaler dans ce document, histoire d'éviter que plusieurs personnes se retrouvent à timer la même chose (valable surtout pour les œuvres récentes, mais pas que…) 
+
+* [Google Doc sur les times en cours](https://docs.google.com/spreadsheets/d/12KY9uAENP0Fwzn3IMQB-Wgd-qgYOjihphnGuSlHJziU/edit#gid=0)
 
 ## Consignes générales de nommage du karaoké
 
 Le nommage du karaoké concerne son titre et le nom de la chanson. Cela se voit sur le nom donné au fichier .kara. Le format est le suivant :
 
-Langue - Série - Type - Titre
+Langue - Série/oeuvre - Type - Titre
 
 Exemple : 
 
 ```JAP - Macross Frontier - OP2 - LION```
+
+Pour les karaokés de clips musicaux / PV, la partie Série/oeuvre devient "nom du groupe". Exemple :
+
+```FR - Les Inconnus - MV - Vice et versa```
 
 * La langue est en MAJSUCULES, sur 2 à 4 caractères. Langues valides :
     * ALL : allemand
@@ -37,43 +43,17 @@ Exemple :
     * Enrichissez ce document si vous ajoutez de nouvelles langues !
 * Le nom de la série doit obligatoirement être un nom facilement reconnaissable. Il faut préférer le nom international s'il existe, ou un nom facilement connu du public. Exemple, si je vous parle de Spice & Wolf, ne soumettez pas votre kara sous le nom "Ôkami to Kôshinryô" sous peine de cassage de genoux. Personne ne connaît cet animé sous ce titre. Même exemple avec Full Metal Alchemist qu'il n'y a pas besoin d'écrire en japonais "Hagane no Renkinjutsushi" parce que PERSONNE de sensé n'irait taper ça dans un moteur de recherche, bande d'élitistes.
     * Par contre, Suzumiya Haruhi no Yuutsu est toléré, car "Suzumiya Haruhi" est facilement reconnaissable et connu du public.
-* Le type du karaoké peut être les suivants :
+    * Si vous avez ajouté une nouvelle série, mettez à jour le fichier series_altnames.csv dans le dossier racine ! Il contient la liste des noms alternatifs des séries.
+* Le type du karaoké peut être l'un des suivants :
     * AMV : Anime Music Video. Peut-être utilisé pour des clips musicaux tout en animation
-    * ANIMETAL OP : Opening style Animétal
     * CM : Publicité
     * ED : Ending d'un animé
-    * GAME AMV : AMV de jeu vidéo (contient de l'animation 2D)
-    * GAME ED : Ending de jeu vidéo
-    * GAME IN : Insert song de jeu vidéo
-    * GAME OP : Opening de jeu vidéo
-    * GAME OT : "Autre" de jeu vidéo (images du jeu sur de la musique par exemple)
-    * GAME TRAILER : Vidéo promotionnelle de jeu vidéo (trailer, bande-annonce, etc.)
-    * GC GAME OP : Exemple d'opening de jeu version Gamecube. Utile quand préciser le support du jeu est nécessaire pour le diférencier.
-    * IN : Insert song d'un animé
-    * IN LIVE : Insert song d'une série TV live (avec des vrais gens en 3D dedans.)
+    * IN : Insert song
+    * OT : Autre/inclassable
+    * TRAILER : Vidéo promotionnelle (trailer, bande-annonce, etc.)
     * LIVE : Concerts
-    * MOVIE ED : Ending de film d'animation
-    * MOVIE ED LIVE : Concert de fin de film d'animation
-    * MOVIE IN : Insert song de film d'animation
-    * MOVIE IN LIVE : Insert song de film live (avec des vrais gens en 3D dedans.)
-    * MOVIE OP : Opening de film d'animation
-    * OAV ED : Ending d'OAV
-    * OAV OP : Opening d'OAV
-    * OP : Opening d'animé
-    * OP LIVE : Opening d'animé (version concert live)
-    * OT : Autre / inclassable
-    * PV : Vidéo promotionnelle/Clip musical (avec des vrais gens en 3D dedans)
-    * R18 GAME OP : Opening d'un jeu interdit aux mineurs
-    * REMIX ED LIVE : Parodie live d'un ending d'animé.
-    * REMIX GAME OP : Parodie d'un opening de jeu vidéo.
-    * REMIX OP : Parodie d'un opening d'animé
-    * REMIX OP LIVE : Parodie live d'un opening d'animé.
-    * SPECIAL ED : Ending d'animé spécial
-    * SPECIAL OP : Opening d'animé spécial
-    * THEME : Thème musical
-    * TOKU OP : Opening de tokusatsu / sentai
-    * VOCA : Chanté par des vocaloid
-    * VOCA AMV : AMV d'une série chantée par du vocaloid
+    * OP : Opening
+    * MV : Vidéo musicale (clips musicaux)
 * Le numéro de générique : le premier générique d'ouverture sera qualifié d'OP1, etc. 
     * S'il n'y a qu'un seul générique tout le long de la série ou saison, on omet le numéro et on met simplement OP ou ED selon le cas.
     * Attention toutefois : il arrive souvent, notamment en début de série, que des génériques d'ouverture servent exceptionnellement de générique de clôture. Il ne faut pas pour autant qualifier cet OP d'ED1 et l'ED classique d'ED2 ! Exemple avec la série *Kekkai Sensen*, qui n'a qu'un OP et un ED : l'OP sert d'ED au premier épisode, mais le générique d'ouverture doit taggé OP et le générique de cloture ED, et ne pas mettre "ED2" pour le générique de fin 'classique' sous pretexte qu'il y a eu un autre générique pour un seul épisode.  
@@ -98,7 +78,8 @@ Ces consignes sont reprises de celles du site Karaokes.moe + quelques ajouts : h
 - Ne pas mettre de ponctuation.
 - Mettre une majuscule pour les noms propres.
 - Utilisez des vidéos de bonne qualité. 720p minimum, favoriser le Blu-ray Creditless.
-- Afficher les sous-titres avec au moins une demi-seconde d’avance. Idéalement 900ms.
+- Affichez les sous-titres avec au moins une demi-seconde d’avance. Idéalement 900ms.
+- Affichez les sous-titres EN HAUT de l'écran. Pas de sous-titres en bas, ça empêcherait certains de lire votre karaoké !
 - Evitez les polices trop fantaisistes ou difficiles à lire. Voici un style de base parfaitement utilisable :
 ```
 Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
@@ -116,7 +97,7 @@ On s'occupe de créer le .kara derrière ainsi que de nommer les fichiers correc
 
 http://mei.do/toyundamugen
 
-Une fois validé, le karaoké sera ajouté à ce dépôt.
+Une fois validé, le karaoké sera ajouté à ce dépôt. Vous pourrez alors le modifier au besoin.
 
 ## Et si je veux générer moi-même le .kara ?
 
@@ -127,15 +108,48 @@ videofile="nom_du_fichier.mp4"
 subfile="nom_du_karaoke.ass"
 ```
 
-Les autres variables optionnelles sont (séparées par des virgules si plusieurs éléments) :
+Les autres variables optionnelles sont (séparées par des virgules si plusieurs éléments, le tout entouré par des guillemets "") :
+
+Evitez autant que possible les caractères spéciaux dans les noms.
 
 * year= : L'année de production de l'opening. Attention, ce n'est pas l'année de production de la série. Par exemple pour One Piece des openings peuvent avoir des années différentes !
 * singer= : Chanteur/euse
-* tags= : Série de tags pour caractériser le karaoké comme "Humour", "Animé", "Série TV", etc.
+* tags= : Série de tags pour caractériser le karaoké comme "Humour", "Animé", "Série TV", etc. Voir plus bas
 * songwriter= : Compositeur et/ou parolier
 * additional_languages= : Autres langues que celle d'origine. Par exemple Oban Star Racers OP qui est en français et en japonais.
-* creator= : Entité créatrice de la vidéo. Par exemple le studio d'animation, la chaîne de télévision, etc.
+* creator= : Entité créatrice de la vidéo. Par exemple le studio d'animation ou la chaîne de télévision, l'éditeur d'un jeu vidéo, etc.
 * author= : Auteur du karaoké.
+* series= : Liste séparée par des virgules des séries contenues dans la vidéo. La série est normalement indiquée dans le nom du .kara sauf dans le cas où il s'agit d'une vidéo musicale / clip (dans ce cas le nom du fichier .kara contient le nom de l'artiste). Aussi utile pour les AMVs.
+
+### Tags autorisés 
+
+Si les champs décrits au dessus sont libres, le champ "tags" doit obéir à une nomenclature précise afin de pouvoir être traduits par le logiciel Toyunda Mugen.
+
+* Tokusatsu/Sentai : série TV japonaise de toku ou de sentai
+* OAV : Original Animation Video
+* Concert : Concert live d'une chanson
+* Parodie : Parodie d'une chanson (paroles changées, images changées, etc.)
+* Humour : Kara amusant (ou pas.)
+* Anime : Série animée. **Par défaut si les tags Jeu vidéo ou Non-anime sont absents.**
+* Non-anime : Tout ce qui n'est pas animation (avec des vrais morceaux de gens en 3D dedans.)
+* Film : Film (d'animation ou réel)
+* Série TV : Série télévisée. **Par défaut si les tags Jeu vidéo ou Film sont absents (ou le type est MV).**
+* Spoilers : La vidéo contient des gros spoilers de ouf.
+* Long : Vidéo longue. **Automatiquement ajouté si la vidéo dure plus de 150 secondes**
+* R18 : Vidéo contenant des images non montrables en publique (du SESKE.)
+* Vocaloid : Chansons chantées par des Vocaloid
+* Bande-annonce : Trailer, etc.
+
+Tags de support pour les jeux vidéo :
+
+* Gamecube
+* PSX
+* PS2
+* PS3
+* PSVita
+* PSP
+* XBOX 360
+* PC
 
 ## Je veux aider à maintenir la base des karaokés !
 
