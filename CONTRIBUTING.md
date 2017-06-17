@@ -24,7 +24,7 @@ Pour les karaokés de clips musicaux / PV, la partie Série/oeuvre devient "nom 
 
 ```FR - Les Inconnus - MV - Vice et versa```
 
-* La langue est en MAJSUCULES, sur 2 à 4 caractères. Langues valides :
+* La langue est en MAJSUCULES, sur 2 à 4 caractères. Elle permet juste de s'y retrouver dnas la liste des fichiers et c'est vous qui voyez ce que vous mettez. Idées de ceux déjà en place :
     * ALL : allemand
     * ANG : anglais
     * CHI : chinois
@@ -116,7 +116,12 @@ Evitez autant que possible les caractères spéciaux dans les noms.
 * singer= : Chanteur/euse
 * tags= : Série de tags pour caractériser le karaoké comme "Humour", "Animé", "Série TV", etc. Voir plus bas
 * songwriter= : Compositeur et/ou parolier
-* additional_languages= : Autres langues que celle d'origine. Par exemple Oban Star Racers OP qui est en français et en japonais.
+* lang= : langues du karaoke, séparées par des virgules. La notation suit la [norme ISO 639-1](https://fr.wikipedia.org/wiki/Liste_des_codes_ISO_639-1). Exemples :
+     * fr = Français
+     * en = Anglais
+     * de = Allemand
+     * jp = Japonais
+     * etc.
 * creator= : Entité créatrice de la vidéo. Par exemple le studio d'animation ou la chaîne de télévision, l'éditeur d'un jeu vidéo, etc.
 * author= : Auteur du karaoké.
 * series= : Liste séparée par des virgules des séries contenues dans la vidéo. La série est normalement indiquée dans le nom du .kara sauf dans le cas où il s'agit d'une vidéo musicale / clip (dans ce cas le nom du fichier .kara contient le nom de l'artiste). Aussi utile pour les AMVs.
