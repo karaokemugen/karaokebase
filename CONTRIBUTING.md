@@ -104,9 +104,18 @@ Une fois validé, le karaoké sera ajouté à ce dépôt. Vous pourrez alors le 
 Le .kara est un fichier ini de base. Il faut deux infos primordiales :
 
 ```
-videofile="nom_du_fichier.mp4"
-subfile="nom_du_karaoke.ass"
+videofile="ANG - Porter Robinson & Madeon - CLIP - Shelter.mp4"
+subfile="ANG - Porter Robinson & Madeon - CLIP - Shelter.ass"
+year="2016"
+singer="Amy Millan"
+tags=""
+songwriter="Porter Robinson,Madeon"
+lang="en"
+creator="A-1 Pictures"
+author="karaokes.moe"
+series="Shelter"
 ```
+
 
 Les autres variables optionnelles sont (séparées par des virgules si plusieurs éléments, le tout entouré par des guillemets "") :
 
