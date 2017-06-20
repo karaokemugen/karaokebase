@@ -24,7 +24,7 @@ Pour les karaokés de clips musicaux / PV, la partie Série/oeuvre devient "nom 
 
 ```FR - Les Inconnus - MV - Vice et versa```
 
-* La langue est en MAJSUCULES, sur 2 à 4 caractères. Elle permet juste de s'y retrouver dnas la liste des fichiers et c'est vous qui voyez ce que vous mettez. Idées de ceux déjà en place :
+* La langue est en MAJSUCULES, sur 2 à 4 caractères. Elle permet juste de s'y retrouver dnas la liste des fichiers et c'est vous qui voyez ce que vous mettez. Le facteur décisif étant le paramètre lang= dans le .kara. Idées de ceux déjà en place :
     * ALL : allemand
     * ANG : anglais
     * CHI : chinois
@@ -42,7 +42,7 @@ Pour les karaokés de clips musicaux / PV, la partie Série/oeuvre devient "nom 
     * SUE : suèdois
     * Enrichissez ce document si vous ajoutez de nouvelles langues !
 * Le nom de la série doit obligatoirement être un nom facilement reconnaissable. Il faut préférer le nom international s'il existe, ou un nom facilement connu du public. Exemple, si je vous parle de Spice & Wolf, ne soumettez pas votre kara sous le nom "Ôkami to Kôshinryô" sous peine de cassage de genoux. Personne ne connaît cet animé sous ce titre. Même exemple avec Full Metal Alchemist qu'il n'y a pas besoin d'écrire en japonais "Hagane no Renkinjutsushi" parce que PERSONNE de sensé n'irait taper ça dans un moteur de recherche, bande d'élitistes.
-    * Par contre, Suzumiya Haruhi no Yuutsu est toléré, car "Suzumiya Haruhi" est facilement reconnaissable et connu du public.
+    * Par contre, Suzumiya Haruhi no Yuutsu est toléré, car "Suzumiya Haruhi" est facilement reconnaissable et connu du public. Même chose pour Kidou Senki Gundam.
     * Si vous avez ajouté une nouvelle série, mettez à jour le fichier series_altnames.csv dans le dossier racine ! Il contient la liste des noms alternatifs des séries.
 * Le type du karaoké peut être l'un des suivants :
     * AMV : Anime Music Video. Peut-être utilisé pour des clips musicaux tout en animation
@@ -135,6 +135,7 @@ Si les champs décrits au dessus sont libres, le champ "tags" doit obéir à une
 * Concert : Concert live d'une chanson
 * Parodie : Parodie d'une chanson (paroles changées, images changées, etc.)
 * Humour : Kara amusant (ou pas.)
+* Romance : Kara d'une oeuvre romantique.
 * Anime : Série animée. **Par défaut si les tags Jeu vidéo ou Non-anime sont absents.**
 * Non-anime : Tout ce qui n'est pas animation (avec des vrais morceaux de gens en 3D dedans.)
 * Film : Film (d'animation ou réel)
@@ -145,7 +146,7 @@ Si les champs décrits au dessus sont libres, le champ "tags" doit obéir à une
 * Vocaloid : Chansons chantées par des Vocaloid
 * Bande-annonce : Trailer, etc.
 
-Tags de support pour les jeux vidéo :
+#### Tags de support pour les jeux vidéo
 
 * Gamecube
 * PSX

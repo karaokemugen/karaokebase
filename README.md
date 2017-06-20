@@ -22,25 +22,29 @@ year="2016"
 singer="Amy Millan"
 tags=""
 songwriter="Porter Robinson,Madeon"
-additional_languages=""
+lang="en"
 creator="A-1 Pictures"
 author="karaokes.moe"
+series="Shelter"
 ```
 
-* **author** : Facultatif, stipule l'origine d'un karaoke. 
+Les deux éléments obligatoires sont :
+
 * **videofile** : Nom du fichier vidéo, tel quel dans le dossier des Vidéos. Toyunda Mugen lit tout ce que peut lire mpv.
 * **subfile** : Nom du fichier de sous-titres tel que trouvable dans le dossier lyrics (en .ass)
 	* Cas spécial : dummy.ass qui n'existe pas et est utilisé quand le fichier vidéo contient déjà des sous-titres, soit incrustés (hardsub) soit embarqués (ass dans la piste sous-titres d'un mkv. Dans ce cas, Toyunda Mugen ira extraire le sous-titre à la volée avant la lecture du karaoké pour ajouter le titre de la chanson en bas de l'écran pendant quelques secondes.
+
+La description des autres éléments se trouvent dans [CONTRIBUTING.md]
 
 ### Dossier "lyrics"
 
 Contient le fichier de sous-titres tel que spécifié dans le .kara
 
-Il s'agit d'un .ass généralement crée via AegisSub. Le format txt Toyunda d'Epitanime est aussi accepté (mais vivement déconseillé, ce format est obsolète et devrait périr dans un feu.)
+Il s'agit d'un .ass généralement crée via AegisSub. Voyez [CONTRIBUTING.md] pour des tutoriels sur comment faire de bons karaokés via ce format.
 
 ### Dossier "videos"
 
-Contient le fichier de vidéo tel que spécifié dans le .ini
+Contient le fichier de vidéo tel que spécifié dans le .kara
 
-Les vidéos ne sont pas fournies dans ce dépôt, par souci de place (et ça ferait un dépôt de 170 Go au bas mot). Vous pouvez néanmoins lancer Mettre a jour videos.cmd (Windows) ou UpdateVideos.sh (OSX/Linux) pour récupérer les vidéos par rsync.
+Les vidéos ne sont pas fournies dans ce dépôt, par souci de place (et ça ferait un dépôt de 170 Go au bas mot). Vous pouvez néanmoins lancer Mettre a jour videos.cmd (Windows) ou UpdateVideos.sh (OSX/Linux) pour récupérer les vidéos par rsync depuis le serveur Shelter.
 
