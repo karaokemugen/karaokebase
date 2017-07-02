@@ -48,3 +48,4 @@ Contient le fichier de vidéo tel que spécifié dans le .kara
 
 Les vidéos ne sont pas fournies dans ce dépôt, par souci de place (et ça ferait un dépôt de 170 Go au bas mot). Vous pouvez néanmoins lancer Mettre a jour videos.cmd (Windows) ou UpdateVideos.sh (OSX/Linux) pour récupérer les vidéos par rsync depuis le serveur Shelter.
 
+ Bonjour, ceci est un test
