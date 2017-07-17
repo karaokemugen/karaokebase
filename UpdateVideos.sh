@@ -12,4 +12,11 @@ echo "Le mot de passe ne s'affiche pas, ceci n'est pas un bug, n'essayez pas de 
 echo "Le mot de passe est : musubi"
 echo "ATTENTION : Vous aurez besoin d'au moins 150 Go de libre pour recuperer les videos."
 
-rsync -ruvh --progress --delete-during --exclude=".git" --exclude="karas/" --exclude="lyrics/" --exclude=".gitignore" --exclude="CONTRIBUTING.md" --exclude="LICENSE.md" --exclude="README.md" $rsynclogin@$host::$ressource .
+if [ -e "./UpdateVideos.sh" ] 
+then
+	rsync -ruvh --progress --delete-during --exclude=".git" --exclude="karas/" --exclude="lyrics/" --exclude=".gitignore" --exclude="CONTRIBUTING.md" --exclude="LICENSE.md" --exclude="README.md" $rsynclogin@$host::$ressource .
+else
+	echo "Erreur : le script doit être lancé depuis son propre dossier !"
+	exit 1
+fi
+
