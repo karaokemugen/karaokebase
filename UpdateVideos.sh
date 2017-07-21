@@ -14,7 +14,7 @@ echo "ATTENTION : Vous aurez besoin d'au moins 150 Go de libre pour recuperer le
 
 if [ -e "./UpdateVideos.sh" ] 
 then
-	rsync -ruvh --progress --delete-during --exclude=".git" --exclude="karas/" --exclude="lyrics/" --exclude=".gitignore" --exclude="CONTRIBUTING.md" --exclude="LICENSE.md" --exclude="README.md" $rsynclogin@$host::$ressource .
+	rsync -ruvh --progress --delete-during --exclude=".git" --exclude=".gitlab" --exclude="karas/" --exclude="lyrics/" --exclude=".gitignore" --exclude="CONTRIBUTING.md" --exclude="LICENSE.md" --exclude="README.md" $rsynclogin@$host::$ressource .
 else
 	echo "Erreur : le script doit être lancé depuis son propre dossier !"
 	exit 1
