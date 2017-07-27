@@ -110,7 +110,7 @@ year="2016"
 singer="Amy Millan"
 tags=""
 songwriter="Porter Robinson,Madeon"
-lang="en"
+lang="eng"
 creator="A-1 Pictures"
 author="karaokes.moe"
 series="Shelter"
@@ -125,11 +125,11 @@ Evitez autant que possible les caractères spéciaux dans les noms.
 * singer= : Chanteur/euse
 * tags= : Série de tags pour caractériser le karaoké comme "Humour", "Animé", "Série TV", etc. Voir plus bas
 * songwriter= : Compositeur et/ou parolier
-* lang= : langues du karaoke, séparées par des virgules. La notation suit la [norme ISO 639-1](https://fr.wikipedia.org/wiki/Liste_des_codes_ISO_639-1). Exemples :
-     * fr = Français
-     * en = Anglais
-     * de = Allemand
-     * jp = Japonais
+* lang= : langues du karaoke, séparées par des virgules. La notation suit la [norme ISO 639-2B](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes). Exemples :
+     * fre = Français
+     * eng = Anglais
+     * ger = Allemand
+     * jpn = Japonais
      * etc.
 * creator= : Entité créatrice de la vidéo. Par exemple le studio d'animation ou la chaîne de télévision, l'éditeur d'un jeu vidéo, etc.
 * author= : Auteur du karaoké.
