@@ -34,19 +34,25 @@ Pour vous permettre de lire correctement les disques et de copier-coller les flu
 
 ##### Avec DVD Fab 
 
+DVD Fab est un logiciel, toujours actif en arrière-plan, qui décode *on-the-fly* (comprendre "à la volée") vos disques vidéo. Après que vous ayez inséré un DVD ou un Blu-Ray protégé dans votre lecteur, il mettra une dizaine de secondes à le déchiffrer.
+
+Vous pourrez ensuite soit le lire directement dans VLC (ou autre lecteur vidéo, je juge pas), soit extraire les flux *m2ts* qui vous intéressent d'un simple copier-coller. Les flux *m2ts* sont situés dans **/BDMV/STREAM/** à partir de la racine de votre disque. N'hésitez pas à identifier les fichiers suivant leur taille, et même à les lire, pour trouver le bon et n'extraire que votre générique fétiche.
+
+**Exemple :** bien que *Kazé* y ait intégré un Karaoké inchantable et non désactivable, l'OP de Chunibyô est le fichier **00005.m2ts** (240Mo) du Blu-Ray français.
+
 ##### Avec MakeMKV
 
-L'extraction de votre Blu-ray ou DVD passe par l'appui sur un simple bouton. Attention par défaut la durée minimale d'une vidéo est considérée de 120 secondes et se change dans les options. Comme un générique d'animé dure moins que ça, il faudra aller modifier cette option avant de tenter une extraction sinon *MakeMKV* ne verra pas ce que vous recherchez et ne vous proposera pas d'extraire la vidéo.
+L'extraction de votre Blu-Ray ou DVD passe par l'appui sur un simple bouton. **Attention :** par défaut, la durée minimale d'une vidéo est considérée de 120 secondes, et se change dans les options. Comme un générique d'animé dure moins que ça, il faudra aller modifier cette option avant de tenter une extraction sinon *MakeMKV* ne verra pas ce que vous recherchez et ne vous proposera pas d'extraire la vidéo.
 
-La vidéo extraite est un *.mkv* par vidéo (attention à ne pas capturer les épisodes lorsque vous selectionnez les vidéos à extraire ! Regardez la durée qu'ils font pour deviner s'il s'agit d'un générique)
+La vidéo extraite est un *.mkv* par vidéo. *(Attention à ne pas capturer les épisodes lorsque vous sélectionnez les vidéos à extraire ! Regardez la durée qu'ils font pour deviner s'il s'agit d'un générique).*
 
 ##### Dans un cas comme dans l'autre...
 
-Le réencodage est **primordial** car les fichiers extraits de façon brute sont très volumineux. Si on gardait les versions brut, on aurait une base frôlant le tera-octet très rapidement !
+Le réencodage est **primordial** car les fichiers extraits de façon brute sont très volumineux. Si on gardait les versions brutes, on aurait une base frôlant le tera-octet très rapidement !
 
-Le disque obtenu et le flux extrait, on va donc le **réencoder** pour le **compresser** un peu, et obtenir un bon vieux fichier **MP4** plutôt qu'un flux *m2ts* ou *VOB*. Y a plusieurs écoles, mais je vous conseille de jeter un œil à [MeGUI](https://sourceforge.net/projects/megui/). 
+Le disque obtenu et le flux extrait, on va donc le **réencoder** pour le **compresser** un peu, et obtenir un bon vieux fichier **MP4** plutôt qu'un flux *m2ts* ou *VOB*, empacté ou non dans un *MKV*. Y a plusieurs écoles, mais je vous conseille de jeter un œil à [MeGUI](https://sourceforge.net/projects/megui/). 
 
-Vous pouvez aussi utiliser [Handbrake](https://handbrake.fr/) ou si la ligne de commande ne vous effraie pas [FFMpeg](https://www.ffmpeg.org/).
+Vous pouvez aussi utiliser [Handbrake](https://handbrake.fr/) ou si la ligne de commande ne vous effraie pas, [FFMpeg](https://www.ffmpeg.org/).
 
 ### Trouver les "vraies" paroles
 Sujet plus délicat qu'il n'y paraît, tant les transcriptions à l'oreille foisonnent sur Internet. Si plusieurs sources fiables sont d'accord entre elles, on peut se dire que c'est bon. Autrement, il va falloir mener des enquêtes approfondies : bien souvent, en faisant soi-même une transcription à partir du livret officiel du CD où la chanson est parue. L'exercice peut être fastidieux si vous n'avez jamais appris vos kanas japonais, mais reste faisable à l'aide de ce tableau :
@@ -57,7 +63,7 @@ Si vous ne reconnaissez pas un kanji, le site [Japanese character recognition](h
 
 ***Attention à bien respecter ces règles sur la romajisation des paroles :***
 
-* Dans un karaoké japonais, les mots non japonais doivent être mis en majuscules pour bien les différencier.
+* Dans un Karaoké japonais, les mots non japonais doivent être mis en majuscules pour bien les différencier.
 * Les particules doivent être retranscrite wa, wo, he (et non wa, o, e).
 * Les voyelles longues comme "ou" sont notées ainsi et non avec un macaron ou un accent circonflexe.
 * Ne pas mettre de majuscules au début des phrases (sauf dans un karaoke non japonais).
@@ -72,7 +78,7 @@ Le format est le suivant :
 
 Exemple : **JAP - Macross Frontier - OP2 - LION**
 
-Pour les karaokés de clips musicaux / PV, la partie Série/oeuvre devient "nom du groupe".
+Pour les Karaokés de clips musicaux / PV, la partie "*Série/œuvre*" devient "*Nom du groupe*".
 
 Exemple : **FR - Les Inconnus - MV - Vice et versa**
 
@@ -94,7 +100,7 @@ Exemple : **FR - Les Inconnus - MV - Vice et versa**
     * SUE : suèdois
     * *Enrichissez ce document si vous ajoutez de nouvelles langues !*
     
-* Le nom de la série doit obligatoirement être un nom facilement reconnaissable. Il faut préférer le nom international s'il existe, ou un nom facilement connu du public. Exemple, si je vous parle de *Spice & Wolf*, ne soumettez pas votre kara sous le nom *Ôkami to Kôshinryô* sous peine de cassage de genoux. Personne ne connaît cet animé sous ce titre. Pareil avec **Full Metal Alchemist* qu'il n'y a pas besoin d'écrire en japonais "*Hagane no Renkinjutsushi*" parce que PERSONNE de sensé n'irait taper ça dans un moteur de recherche, bande d'élitistes.
+* Le nom de la série doit obligatoirement être un nom facilement reconnaissable. Il faut préférer le nom international s'il existe, ou un nom facilement connu du public. Exemple, si je vous parle de *Spice & Wolf*, ne soumettez pas votre kara sous le nom *Ôkami to Kôshinryô* sous peine de cassage de genoux. Personne ne connaît cet animé sous ce titre. Pareil avec *Full Metal Alchemist* qu'il n'y a pas besoin d'écrire en japonais "*Hagane no Renkinjutsushi*" parce que PERSONNE de sensé n'irait taper ça dans un moteur de recherche, bande d'élitistes.
     * Par contre, *Suzumiya Haruhi no Yuutsu* est toléré, car "Suzumiya Haruhi" est facilement reconnaissable et connu du public. Même chose pour *Kidou Senki Gundam*.
     * Si vous avez ajouté une nouvelle série, mettez à jour le fichier **series_altnames.csv** dans le dossier racine ! Il contient la liste des noms alternatifs des séries.
     
@@ -106,7 +112,7 @@ Exemple : **FR - Les Inconnus - MV - Vice et versa**
     * OT : Autre/inclassable.
     * TRAILER : Vidéo promotionnelle (trailer, bande-annonce, etc.).
     * LIVE : Concerts.
-    * OP : Opening.
+    * OP : Opening d'un animé.
     * MV : Vidéo musicale (clips musicaux).
     
 * Le numéro de générique : le premier générique d'ouverture sera qualifié d'OP1, etc. 
@@ -128,60 +134,103 @@ Exemple : **FR - Les Inconnus - MV - Vice et versa**
 #### L'espace de travail
 En ouvrant **Aegisub**, vous tombez tout d'abord sur une interface quasiment vide. Avant de se mettre au boulot, il faut la remplir.
 
-Tout d'abord, allez dans **"Vidéo > Ouvrir une vidéo"**, et sélectionnez votre vidéo afin de l'ouvrir. Puis, ouvrez votre fichier texte via **"Fichier > Ouvrir des sous-titres"** ou le bouton ![](img_tutos/IcoOuvrir.PNG).
+Tout d'abord, allez dans **"Vidéo > Ouvrir une vidéo"**, et sélectionnez votre vidéo pour l'ouvrir. Puis, ouvrez votre fichier texte via **"Fichier > Ouvrir des sous-titres"** ou le bouton ![](img_tutos/IcoOuvrir.PNG).
 
 Vous devriez donc avoir un écran similaire au mien, où je suis en train de réaliser le Karaoké de l'OP2 de *BTOOOM!*
 
 **Il peut y avoir deux différences, en rapport avec l'audio :**
 
-* Si vous n'avez pas la bande audio en haut à droite de l'écran, et si vous n'avez pas d'audio en jouant votre vidéo via le bouton ![](img_tutos/IcoLecture.PNG), alors le son n'est pas chargé. Remédiez-y via **"Audio > Ouvrir l'audio de la vidéo"**.
+* Si vous n'avez pas la bande audio en haut à droite de l'écran, et si vous n'avez pas de son en jouant votre vidéo via le bouton ![](img_tutos/IcoLecture.PNG), alors le son n'est pas chargé. Remédiez-y via **"Audio > Ouvrir l'audio de la vidéo"**.
 
-* Si vous n'avez pas le même type de bande audio que moi, c'est normal ! Et je vous conseille d'y remédier en cliquant sur l'icône ![](img_tutos/IcoSpectre.PNG). Ce type de représentation est plus simple selon moi, surtout pour le Karaoké.
+
+* Si vous n'avez pas le même type de bande audio, c'est normal ! Et je vous conseille d'y remédier en cliquant sur l'icône ![](img_tutos/IcoSpectre.PNG). Ce type de représentation est plus explicite.
 
 ![](img_tutos/Ecran01.PNG)
 
 
-Si tout est bon, **"Fichier > Enregistrer les sous-titres sous..."** afin de créer un fichier *ASS* (sous-titres) et non plus de *texte plat*. Nommez votre fichier *ASS* avec le même nom que choisi précédemment pour votre karaoké. Par exemple **JAP - Macross Frontier - OP2 - LION.ass**
+Si tout est bon, faites **"Fichier > Enregistrer les sous-titres sous..."** afin de créer un fichier *ASS* (sous-titres) et non plus de *texte plat*. Nommez votre fichier *ASS* avec le même nom que choisi précédemment pour votre karaoké. Par exemple **JAP - Macross Frontier - OP2 - LION.ass**
 
 
 #### Les styles de sous-titres
 Il vous faudra ensuite intégrer le "style" de sous-titres *Toyunda Mugen* à votre script. Pour cela, l'idéal est de commencer par définir la résolution de la vidéo au sein du script en allant dans le menu **"Fichier > Propriétés"**, puis de cliquer sur le bouton **"De la vidéo"**.
 
-Retournez ensuite sur Lab Shelter pour télécharger le script correspondant à votre résolution de vidéo, si vous ne l'avez pas déjà sur votre machine.
+Retournez ensuite sur Lab Shelter dans **/docs/samples_lyrics/** pour télécharger le script correspondant à votre résolution de vidéo, si vous ne l'avez pas déjà sur votre machine.
 
-Ensuite, allez dans **"Sous-titres > Gestionnaires de style"**. Cliquez sur **"Importer depuis un script"** et sélectionner le fichier téléchargé correspondant à votre résolution. Importez le style **"Default"** en cochant la case à sa gauche puis en cliquant sur **"OK"**, confirmez que vous voulez *remplacer le style existant*, et c'est bon !
+Ensuite, allez dans **"Sous-titres > Gestionnaires de style"**. Cliquez sur **"Importer depuis un script"** et sélectionnez le fichier téléchargé correspondant à votre résolution. Importez le style **"Default"** en cochant la case à sa gauche puis en cliquant sur **"OK"**, confirmez que vous voulez *remplacer le style existant*, et c'est bon !
+
+***Si la résolution sur laquelle vous voulez travailler n'est pas disponible, n'hésitez pas à le signaler sur le Discord !***
+
+Autrement, sélectionnez la résolution la plus proche et vous ajusterez légèrement le style Default plus tard, lorsque vos sous-titres seront presque prêts. Pour cela, dans le **Gestionnaire des Styles**, sélectionnez le style **"Default"** et cliquez sur **"Edition"**.
+
+![](img_tutos/EditeurStyles.PNG)
+
+Laissez les paramètres **"Divers"**, notamment les **"Échelle X%"** et **"Échelle Y%"** qui doivent rester à 100 sous peine d'être rattrapé par la police du bon goût. En revanche, pour adapter votre style à une résolution un peu exotique, n'hésitez pas à changer la taille de la police, mais également celle du contour afin que votre Karaoké reste lisible.
+
+Ce menu peut également vous servir si l'une de vos paroles se retrouve sur deux lignes à un poil d'image près.
+
 
 #### La synchronisation "simple" (ou *timing*)
-On est prêts pour bosser ! Pour toute cette étape, je vous conseille de désactiver le *"Replçage automatique du curseur vidéo au temps de début de la ligne active"* en cliquant sur le bouton ![](img_tutos/IcoAuto.PNG). Ça vous évitera une crise de nerfs.
+On est prêts pour bosser ! Pour toute cette étape, je vous conseille de désactiver le *"Replçage automatique du curseur vidéo au temps de début de la ligne active"* en cliquant sur le bouton ![](img_tutos/IcoAuto.PNG). Ça vous évitera la crise de nerfs.
 
-### Testez votre karaoké !
+Le but de cet étape est de synchroniser chaque *ligne* de paroles à l'écran. On ne s'occupera du syllabe-par-syllabe qu'ensuite.
 
-Ouvrez votre lecteur favori et chargez votre vidéo, puis demandez à charger les sous-titres en ajoutant une piste de sous-titre à votre lecteur. Cela vous permettra de tester une dernière fois avant de l'envoyer.
+***J'aimerais attirer votre attention sur trois éléments de la "box sous-titres" :***
 
-### Envoyer votre karaoké (ou pas)
+![](img_tutos/BoxSousTitres.PNG)
 
-Vous avez la possibilité de partager avec la base *Toyunda Mugen* mais il n'y a aucune obligation à cela. Vous pouvez très bien utiliser votre karaoké pour vous et c'est tout.
+*(1) : le temps de début d'apparition de votre sous-titre.*
 
-#### Garder votre karaoké pour vous
+*(2) : le temps de fin d'apparition de votre sous-titre.*
 
-Bravo, vous n'avez plus rien à faire, félicitations !
+*(3) : le "CPS" (Character Per Second) de votre sous-titre : le nombre de caractères de votre sous-titre divisé par le nombre de secondes. Il doit être TOUJOURS inférieur à 15.*
 
-#### Envoyer le karaoké à la base
+Vous l'aurez compris, le but de cet étape, c'est grosso-merdo de renseigner le temps de début d'apparition et de fin d'apparition du sous-titre, en respectant le CPS. 
 
-Vous pouvez le faire via [cette page](http://leafa.mahoro-net.org/toyunda-mugen). Un gentil administrateur verra votre karaoké et si vous avez bien rempli le formulaire, il sera tout propre pour une utilisation dans *Toyunda Mugen*.
+***Une règle fondamentale du Karaoké Toyunda Mugen est que le Karaoké doit être lisible : ainsi, une ligne de sous-titres apparaîtra  ~1s avant qu'elle ne commence à être chantée.***
+
+*Pour résumer, afin de renseigner chaque ligne, vous allez :*
+
+1°) Lire votre vidéo via le bouton ![](img_tutos/IcoLecture.PNG) en-dessous de la prévisualisation de celle-ci, et faire pause avec ![](img_tutos/IcoPause.PNG). Juste à droite du bouton ![](img_tutos/IcoAuto.PNG).
+
+2°) Vous aurez alors l'information concernant le temps où vous avez fait pause, sous le format *"heure:minute:seconde:centièmeSeconde"*. Recopiez ce temps auquel vous aurez soustrait une seconde dans le "*Temps de début*" de votre ligne concernée. 
+
+3°) Reprenez ensuite la lecture et faites pause peu après la fin du chant de votre ligne courante.
+
+4°) Recopiez le temps où vous avez pause dans le "*Temps de fin*" de votre ligne concernée. 
+
+5°) Sélectionnez la ligne suivante et continuez progressivement votre lecture jusqu'à synchroniser toutes vos lignes ! 
+
+**Notez que si vous progressez trop vite dans votre lecture, le bouton ![](img_tutos/IcoLectureLigne.PNG) vous permet de recommencer la lecture à partir du temps de début d'une ligne. Pratique si vous avez des difficultés avez le curseur sous la prévisualisation de la vidéo ! Vous pouvez aussi utiliser les flèches gauche et droite de votre clavier, qui par défaut vous font respectivement reculer et avancer d'une image au sein de votre vidéo.**
+
+*Si vous êtes un poil perfectionniste, une fois votre synchronisation terminée, vous pouvez utiliser les astuces ci-dessus afin d'ajuster votre premier jet via les "timeplans" : il s'agit de synchroniser les changements de plans de la vidéo avec les sous-titres, le cas échéant. Ça peut éviter des maux de crâne à vos spectacteurs les plus sensibles. L'idée est donc de lire chacun de vos sous-titres, et d'ajuster les temps pour correspondre à l'image près à un changement de plan si cela est possible sans perdre l'avance d'une seconde qui est bien plus importante !*
+
+#### La synchronisation "simple" (ou *timing*)
+***À rédiger... Coming soon :D***
+
+
+### Testez votre Karaoké !
+
+Ouvrez votre lecteur favori et chargez votre vidéo, puis demandez à charger les sous-titres en ajoutant une piste de sous-titre à votre lecteur. Cela vous permettra de tester une dernière fois avant de l'exploiter au sein de Toyunda Mugen.
+
+### Envoyer votre Karaoké (ou pas)
+
+Vous avez la possibilité de partager avec la base *Toyunda Mugen* mais il n'y a aucune obligation à cela. Vous pouvez très bien utiliser votre Karaoké pour vous et c'est tout.
+
+Vous pouvez l'envoyer via [cette page](http://leafa.mahoro-net.org/toyunda-mugen). Un gentil administrateur contrôlera alors votre Karaoké, et si vous avez bien rempli le formulaire, il sera tout propre pour une utilisation dans *Toyunda Mugen*.
 
 Quelques infos sur comment remplir les cases :
+
 * **Pseudo** : Il s'agit de votre pseudo à vous.
 * **Vidéo** et **Sous-titre** : Choisissez votre vidéo et votre fichier *ASS* sur votre ordinateur.
-* **Langue** : Choisissez la langue du karaoké. Si la langue ne figure pas, contactez quelqu'un sur le Discord [*Le Eden de la Nanami*](https://discordapp.com/invite/a8dMYek)
+* **Langue** : Choisissez la langue du karaoké. Si la langue ne figure pas, contactez quelqu'un sur le Discord [*Le Eden de la Nanami*](https://discordapp.com/invite/a8dMYek).
 * **Langue supplémentaire** : Si votre karaoké est en plusieurs langues, comme par exemple l'opening de *Oban Star Racers*, alors précisez-le ici.
 * **Type** et **Ordre** : Choisissez un type ainsi qu'un numéro.
 * **Titre de l'animé/série/groupe** : Ça devrait être évident.
 * **Titre de la chanson** : Ça aussi je crois.
-* **Année** : L'année de l'animé, ou de la chanson s'il s'agit d'un karaoké de clip musical
-* **Chanteur** : Le nom du chanteur si vous l'avez. L'ordre est **prénom puis nom**
-* **Tags** : Indiquez des infos supplémentaires : s'agit-il d'un jeu vidéo, d'un tokusatsu/sentaï, etc. ? Une liste non exhaustive de tags :
-	* TAG_SPECIAL : Special
+* **Année** : L'année de l'animé, ou de la chanson s'il s'agit d'un karaoké de clip musical.
+* **Chanteur** : Le nom du chanteur si vous l'avez. L'ordre est "**prénom** puis **nom**".
+* **Tags** : Indiquez des infos supplémentaires : s'il s'agit d'un jeu vidéo, d'un tokusatsu/sentai, etc. Une liste non exhaustive de tags :
+	* TAG_SPECIAL : Spécial
 	* TAG_GAMECUBE : Gamecube
 	* TAG_TOKU : Tokusatsu/Sentai
 	* TAG_OVA : OAV
@@ -189,12 +238,12 @@ Quelques infos sur comment remplir les cases :
 	* TAG_PARODY : Parodie
 	* TAG_HUMOR : Humour
 	* TAG_ANIME : Anime
-	* TAG_REAL : Non-anime
+	* TAG_REAL : Non-animé
 	* TAG_VIDEOGAME : Jeu vidéo
 	* TAG_MOVIE : Film
 	* TAG_TVSHOW : Série
 	* TAG_SPOIL : Spoilers
-	* TAG_LONG : Long
+	* TAG_LONG : Long (plus de 5 minutes)
 	* TAG_PS2 : PS2
 	* TAG_PS3 : PS3
 	* TAG_PSV : PSVita
@@ -206,9 +255,8 @@ Quelques infos sur comment remplir les cases :
 	* TAG_PC : PC
 	* TAG_SEGACD : Mega CD
 	* TAG_REMIX : Remix (version alternative, parodique le plus souvent)
-* **Compositeur / parolier** : Evident. Toujours **prénom puis nom**
-* **Studio d'animation / origine** : Pour un animé il s'agit d'un studio d'animation, sinon on précise le nom de la boîte de production qui a crée le clip, par exemple
-* **Auteur** : L'auteur du karaoké. Cela peut être vous ou pas si vous envoyez le kara de quelqu'un d'autre. Il sera ajouté dans le fichier .kara pour référence en tant qu'auteur du karaoké.
+* **Compositeur / parolier** : C'est évident. Toujours "**prénom** puis **nom**".
+* **Studio d'animation / origine** : Pour un animé, il s'agit d'un studio d'animation, sinon on précise le nom de la boîte de production qui a crée le clip, par exemple.
+* **Auteur** : L'auteur du karaoké. Cela peut être vous ou pas, si vous envoyez le kara de quelqu'un d'autre. Il sera ajouté dans le fichier .kara pour référence en tant qu'auteur du karaoké.
 
-Une fois que vous avez choisi d'envoyer, il n'y a plus qu'à attendre que quelqu'un mette à jour la base de karaokés !
-
+Une fois que vous avez choisi d'envoyer, il n'y a plus qu'à attendre que quelqu'un mette à jour la base de Karaokés !
