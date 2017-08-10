@@ -154,7 +154,7 @@ Si tout est bon, faites **"Fichier > Enregistrer les sous-titres sous..."** afin
 #### Les styles de sous-titres
 Il vous faudra ensuite intégrer le "style" de sous-titres *Toyunda Mugen* à votre script. Pour cela, l'idéal est de commencer par définir la résolution de la vidéo au sein du script en allant dans le menu **"Fichier > Propriétés"**, puis de cliquer sur le bouton **"De la vidéo"**.
 
-Retournez ensuite sur Lab Shelter dans **/docs/samples_lyrics/** pour télécharger le script correspondant à votre résolution de vidéo, si vous ne l'avez pas déjà sur votre machine.
+Retournez ensuite sur Lab Shelter dans [**/docs/samples_lyrics/**](https://lab.shelter.moe/toyundamugen/times/tree/master/docs/sample_lyrics) pour télécharger le script correspondant à votre résolution de vidéo, si vous ne l'avez pas déjà sur votre machine.
 
 Ensuite, allez dans **"Sous-titres > Gestionnaires de style"**. Cliquez sur **"Importer depuis un script"** et sélectionnez le fichier téléchargé correspondant à votre résolution. Importez le style **"Default"** en cochant la case à sa gauche puis en cliquant sur **"OK"**, confirmez que vous voulez *remplacer le style existant*, et c'est bon !
 
@@ -286,7 +286,9 @@ Quelques infos sur comment remplir les cases :
 * **Titre de la chanson** : Ça aussi je crois.
 * **Année** : L'année de l'animé, ou de la chanson s'il s'agit d'un karaoké de clip musical.
 * **Chanteur** : Le nom du chanteur si vous l'avez. L'ordre est "**prénom** puis **nom**".
-* **Tags** : Indiquez des infos supplémentaires : s'il s'agit d'un jeu vidéo, d'un tokusatsu/sentai, etc. Une liste non exhaustive de tags :
+* **Tags** : Indiquez des infos supplémentaires : s'il s'agit d'un jeu vidéo, d'un tokusatsu/sentai, etc. Vous pouvez ajouter plusieurs tags en les séparant d'un point-virgule, "**;**".
+
+* Une liste non exhaustive de tags :
 	* TAG_SPECIAL : Spécial
 	* TAG_GAMECUBE : Gamecube
 	* TAG_TOKU : Tokusatsu/Sentai
@@ -312,6 +314,7 @@ Quelques infos sur comment remplir les cases :
 	* TAG_PC : PC
 	* TAG_SEGACD : Mega CD
 	* TAG_REMIX : Remix (version alternative, parodique le plus souvent)
+	
 * **Compositeur / parolier** : C'est évident. Toujours "**prénom** puis **nom**".
 * **Studio d'animation / origine** : Pour un animé, il s'agit d'un studio d'animation, sinon on précise le nom de la boîte de production qui a crée le clip, par exemple.
 * **Auteur** : L'auteur du karaoké. Cela peut être vous ou pas, si vous envoyez le kara de quelqu'un d'autre. Il sera ajouté dans le fichier .kara pour référence en tant qu'auteur du karaoké.
