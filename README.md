@@ -1,10 +1,10 @@
-﻿# Base de données des times de Toyunda Mugen
+﻿# Base de données des times de Karaoke Mugen
 
-Ceci est la base de données des times de Toyunda Mugen. 
+Ceci est la base de données des times de Karaoke Mugen. 
 
 ## Format d'un time
 
-Un karaoké Toyunda Mugen est composé de 3 éléments rangés dans des dossiers
+Un karaoké Karaoke Mugen est composé de 3 éléments rangés dans des dossiers
 
 * Un fichier .kara dans le dossier karas
 * Un fichier .ass dans le dossier lyrics
@@ -12,7 +12,7 @@ Un karaoké Toyunda Mugen est composé de 3 éléments rangés dans des dossiers
 
 ### Dossier "karas"
 
-C'est le fichier qui contient les informations permettant d'afficher le time dans la liste et que le daemon Toyunda Mugen le gère ensuite. Il reprend le format d'un .ini classique.
+C'est le fichier qui contient les informations permettant d'afficher le time dans la liste et que le daemon Karaoke Mugen le gère ensuite. Il reprend le format d'un .ini classique.
 
 Exemple :
 ```
@@ -28,11 +28,12 @@ author="karaokes.moe"
 series="Shelter"
 ```
 
-Les deux éléments obligatoires sont :
+Les trois éléments obligatoires sont :
 
-* **videofile** : Nom du fichier vidéo, tel quel dans le dossier des Vidéos. Toyunda Mugen lit tout ce que peut lire mpv.
+* **videofile** : Nom du fichier vidéo, tel quel dans le dossier des Vidéos. Karaoke Mugen lit tout ce que peut lire mpv.
 * **subfile** : Nom du fichier de sous-titres tel que trouvable dans le dossier lyrics (en .ass)
-	* Cas spécial : dummy.ass qui n'existe pas et est utilisé quand le fichier vidéo contient déjà des sous-titres, soit incrustés (hardsub) soit embarqués (ass dans la piste sous-titres d'un mkv. Dans ce cas, Toyunda Mugen ira extraire le sous-titre à la volée avant la lecture du karaoké pour ajouter le titre de la chanson en bas de l'écran pendant quelques secondes.
+	* Cas spécial : dummy.ass qui n'existe pas et est utilisé quand le fichier vidéo contient déjà des sous-titres, soit incrustés (hardsub) soit embarqués (ass dans la piste sous-titres d'un mkv. Dans ce cas, Karaoke Mugen ira extraire le sous-titre à la volée avant la lecture du karaoké pour ajouter le titre de la chanson en bas de l'écran pendant quelques secondes.
+* **lang** : code ISO 639-2B de la langue utilisée.
 
 La description des autres éléments se trouvent dans [CONTRIBUTING.md]
 
