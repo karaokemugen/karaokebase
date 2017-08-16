@@ -1,8 +1,8 @@
-# Créer un Karaoké Toyunda Mugen
+# Créer un Karaoké pour Karaoke Mugen
 
-Bien le bonjour ! Votre générique préféré n'est pas dans la base Toyunda Mugen et ça vous rend très triste ?
+Bien le bonjour ! Votre générique préféré n'est pas dans la base Karaoke Mugen et ça vous rend très triste ?
 
-**Deux solutions :** soit vous déposez une *issue* via le [formulaire](https://lab.shelter.moe/toyundamugen/times/issues/new) avec le template "*Suggestion de Kara*", et espérez qu'un mécène fasse le travail... Soit vous le réalisez vous-même ! C'est simple, et on va tout vous expliquer dans ce tutoriel. Allez, c'est parti ! :)
+**Deux solutions :** soit vous déposez une *issue* via le [formulaire](https://lab.shelter.moe/Karaokemugen/times/issues/new) avec le template "*Suggestion de Kara*", et espérez qu'un mécène fasse le travail... Soit vous le réalisez vous-même ! C'est simple, et on va tout vous expliquer dans ce tutoriel. Allez, c'est parti ! :)
 
 ## Se préparer
 
@@ -152,9 +152,9 @@ Si tout est bon, faites **"Fichier > Enregistrer les sous-titres sous..."** afin
 
 
 #### Les styles de sous-titres
-Il vous faudra ensuite intégrer le "style" de sous-titres *Toyunda Mugen* à votre script. Pour cela, l'idéal est de commencer par définir la résolution de la vidéo au sein du script en allant dans le menu **"Fichier > Propriétés"**, puis de cliquer sur le bouton **"De la vidéo"**.
+Il vous faudra ensuite intégrer le "style" de sous-titres *Karaoke Mugen* à votre script. Pour cela, l'idéal est de commencer par définir la résolution de la vidéo au sein du script en allant dans le menu **"Fichier > Propriétés"**, puis de cliquer sur le bouton **"De la vidéo"**.
 
-Retournez ensuite sur Lab Shelter dans [**/docs/samples_lyrics/**](https://lab.shelter.moe/toyundamugen/times/tree/master/docs/sample_lyrics) pour télécharger le script correspondant à votre résolution de vidéo, si vous ne l'avez pas déjà sur votre machine.
+Retournez ensuite sur Lab Shelter dans [**/docs/samples_lyrics/**](https://lab.shelter.moe/Karaokemugen/times/tree/master/docs/sample_lyrics) pour télécharger le script correspondant à votre résolution de vidéo, si vous ne l'avez pas déjà sur votre machine.
 
 Ensuite, allez dans **"Sous-titres > Gestionnaires de style"**. Cliquez sur **"Importer depuis un script"** et sélectionnez le fichier téléchargé correspondant à votre résolution. Importez le style **"Default"** en cochant la case à sa gauche puis en cliquant sur **"OK"**, confirmez que vous voulez *remplacer le style existant*, et c'est bon !
 
@@ -186,7 +186,7 @@ Le but de cet étape est de synchroniser chaque *ligne* de paroles à l'écran. 
 
 Vous l'aurez compris, le but de cet étape, c'est grosso-merdo de renseigner le temps de début d'apparition et de fin d'apparition du sous-titre, en respectant le CPS. 
 
-***Une règle fondamentale du Karaoké Toyunda Mugen est que le Karaoké doit être lisible : ainsi, une ligne de sous-titres apparaîtra  ~1s avant qu'elle ne commence à être chantée.***
+***Une règle fondamentale du Karaoké Karaoke Mugen est que le Karaoké doit être lisible : ainsi, une ligne de sous-titres apparaîtra  ~1s avant qu'elle ne commence à être chantée.***
 
 *Pour résumer, afin de renseigner chaque ligne, vous allez :*
 
@@ -258,7 +258,7 @@ Si vous corrigez certains Karaokés, vous pourrez trouver d'autres balises. La l
 
 * **{\fad(xxx,yyy)}** : cette balise indique un temps d'apparition et/ou disparition progressif du texte le suivant. **"xxx"** étant le temps d'apparition et **"yyy"** le temps de disparition. Les temps sont une fois encore, en centièmes de seconde.
 
-* **{\anX}** : cette balise change le "point d'attache" des lignes de sous-titres. Le point d'attache est originellement défini dans le style de la ligne active, mais peut aussi être changé au sein de celle-ci via cette balise. "X" dépend de là où vous voulez faire appararaître votre sous-titre, selon la grille ci-dessous. Dans le style Toyunda Mugen, il est par défaut *8*, mais ce peut être différent sur de vieux Karaokés !
+* **{\anX}** : cette balise change le "point d'attache" des lignes de sous-titres. Le point d'attache est originellement défini dans le style de la ligne active, mais peut aussi être changé au sein de celle-ci via cette balise. "X" dépend de là où vous voulez faire appararaître votre sous-titre, selon la grille ci-dessous. Dans le style Karaoke Mugen, il est par défaut *8*, mais ce peut être différent sur de vieux Karaokés !
 
 ![](img_tutos/PointAttache.PNG)
 
@@ -267,13 +267,13 @@ Si vous corrigez certains Karaokés, vous pourrez trouver d'autres balises. La l
 
 ### Testez votre Karaoké !
 
-Ouvrez votre lecteur favori et chargez votre vidéo, puis demandez à charger les sous-titres en ajoutant une piste de sous-titre à votre lecteur. Cela vous permettra de tester une dernière fois avant de l'exploiter au sein de Toyunda Mugen.
+Ouvrez votre lecteur favori et chargez votre vidéo, puis demandez à charger les sous-titres en ajoutant une piste de sous-titre à votre lecteur. Cela vous permettra de tester une dernière fois avant de l'exploiter au sein de Karaoke Mugen.
 
 ### Envoyer votre Karaoké (ou pas)
 
-Vous avez la possibilité de partager avec la base *Toyunda Mugen* mais il n'y a aucune obligation à cela. Vous pouvez très bien utiliser votre Karaoké pour vous et c'est tout.
+Vous avez la possibilité de partager avec la base *Karaoke Mugen* mais il n'y a aucune obligation à cela. Vous pouvez très bien utiliser votre Karaoké pour vous et c'est tout.
 
-Vous pouvez l'envoyer via [cette page](http://leafa.mahoro-net.org/toyunda-mugen). Un gentil administrateur contrôlera alors votre Karaoké, et si vous avez bien rempli le formulaire, il sera tout propre pour une utilisation dans *Toyunda Mugen*.
+Vous pouvez l'envoyer via [cette page](http://leafa.mahoro-net.org/Karaoke-mugen). Un gentil administrateur contrôlera alors votre Karaoké, et si vous avez bien rempli le formulaire, il sera tout propre pour une utilisation dans *Karaoke Mugen*.
 
 Quelques infos sur comment remplir les cases :
 
