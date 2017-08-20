@@ -293,6 +293,7 @@ Quelques infos sur comment remplir les cases :
 	* TAG_GAMECUBE : Gamecube
 	* TAG_TOKU : Tokusatsu/Sentai
 	* TAG_OVA : OAV
+	* TAG_MECHA : Animé de méchas
 	* TAG_CONCERT : Concert
 	* TAG_PARODY : Parodie
 	* TAG_HUMOR : Humour
