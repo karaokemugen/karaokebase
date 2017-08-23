@@ -290,6 +290,7 @@ Quelques infos sur comment remplir les cases :
 
 * Une liste non exhaustive de tags :
 	* TAG_SPECIAL : Spécial
+	* TAG_VOICELESS : Karaoké sans voix (si si)
 	* TAG_GAMECUBE : Gamecube
 	* TAG_TOKU : Tokusatsu/Sentai
 	* TAG_OVA : OAV
