@@ -273,7 +273,7 @@ Ouvrez votre lecteur favori et chargez votre vidéo, puis demandez à charger le
 
 Vous avez la possibilité de partager avec la base *Karaoke Mugen* mais il n'y a aucune obligation à cela. Vous pouvez très bien utiliser votre Karaoké pour vous et c'est tout.
 
-Vous pouvez l'envoyer via [cette page](http://leafa.mahoro-net.org/Karaoke-mugen). Un gentil administrateur contrôlera alors votre Karaoké, et si vous avez bien rempli le formulaire, il sera tout propre pour une utilisation dans *Karaoke Mugen*.
+Vous pouvez l'envoyer via [cette page](http://leafa.mahoro-net.org/karaoke-mugen). Un gentil administrateur contrôlera alors votre Karaoké, et si vous avez bien rempli le formulaire, il sera tout propre pour une utilisation dans *Karaoke Mugen*.
 
 Quelques infos sur comment remplir les cases :
 
