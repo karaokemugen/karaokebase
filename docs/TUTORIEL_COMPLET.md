@@ -1,4 +1,4 @@
-# Créer un Karaoké pour Karaoke Mugen
+# Tutoriel complet : création et envoi de Karaoké Mugen
 
 Bien le bonjour ! Votre générique préféré n'est pas dans la base Karaoke Mugen et ça vous rend très triste ?
 
