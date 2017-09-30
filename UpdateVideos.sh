@@ -10,7 +10,7 @@ echo
 echo "Entrez le mot de passe pour mettre a jour votre Karaoke Mugen"
 echo "Le mot de passe ne s'affiche pas, ceci n'est pas un bug, n'essayez pas de regler votre ecran."
 echo "Le mot de passe est : musubi"
-echo "ATTENTION : Vous aurez besoin d'au moins 150 Go de libre pour recuperer les videos."
+echo "ATTENTION : Vous aurez besoin d'au moins 200 Go de libre pour recuperer les videos."
 
 if [ -e "./UpdateVideos.sh" ] 
 then
