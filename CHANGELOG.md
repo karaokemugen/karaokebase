@@ -1,3 +1,34 @@
+# September 2017
+
+## Added
+
+* ANG - Danny Wiessner - MV - The World is Saved
+* ANG - Fairy Fencer F - GAME OP2 - Full Contact
+* ANG - Initial D - AMV - Night of Fire
+* FR - Les MusclÃ©s - MV - La fÃªte au village
+* ITA - Yu-Gi-Oh! 5D's - MOVIE OP - YU-Gi-Oh Duel Runner Ful Version
+* JAP - Himitsu no Akko-chan 2 - ED - Don't you...
+* JAP - Kidou Senshi Victory Gundam - OP2 - Don't stop carry on
+* JAP - Kono Subarashii Sekai ni Shukufuku wo - ED - Chiisana Boukensha
+* JAP - Kono Subarashii Sekai ni Shukufuku wo! 2 - ED - Ouchi ni Kaeritai
+* JAP - Little Busters! - OP - Little Busters! Alternative Vers.
+* JAP - Monogatari Series Second Season - ED3 - Sono Koe wo Oboeteru
+* JAP - Natsume Yuujinchou Go - ED - Akane Sasu
+* JAP - Natsume Yuujinchou Go - OP - Takarabako
+* JAP - Nekomonogatari Kuro - ED1 - Kieru Daydream
+* JAP - Nico Nico Douga - OT - Nico Nico Kumikyoku Kai
+* JAP - To Aru Majutsu no Index II - ED1 - Magic World
+* JAP - Twin Star Exorcists - OP2 - Re Call
+* JAP - World Trigger - OP2 - Ashita no Hikari
+
+## Fixed
+
+Too many to list here.
+
+Consult the [commits from August to September 2017](https://lab.shelter.moe/karaokemugen/karaokebase/compare/201708...201709)
+
+Many karaokes have been retimed and fixed. Also, videos have been replaced with HD versions, most often creditless.
+
 # August 2017
 
 ## Added
@@ -61,7 +92,7 @@
 - JAP - Kemono Friends - OP - Youkoso Japari Park e
 - JAP - Ushio to Tora - OP1 - Mazeru na kikken
 - ANG - Gankutsuou - ED - You Won't See Me Coming
-- FR - Dorothée - MV - Allo, allo monsieur l'ordinateur
+- FR - Dorothï¿½e - MV - Allo, allo monsieur l'ordinateur
 - ITA - Gundam Wing - AMV - Gundam Wing full version
 - JAP - Akatsuki no Yona - OP2 - Akatsuki no Hana
 - JAP - Alice & Zoroku - OP - Wonder Drive
@@ -79,7 +110,7 @@
 - JAP - Rin Kagamine - MV - Nanchoukei Danshi ga Taosenai
 - JAP - Saki - ED3 - Shikakui Uchuu de Matteru yo
 - JAP - Shinryaku! Ika Musume - IN - Kore ga Umi e no Ai Jana-ika
-- JAP - Shirokuma Café - OP1 - Boku ni Invitation
+- JAP - Shirokuma Cafï¿½ - OP1 - Boku ni Invitation
 - JAP - Tamako Market - ED1 - Neguse
 
 ## Fixed 
