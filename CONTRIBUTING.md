@@ -2,7 +2,7 @@
 
 Nous avons écrit un document à ce sujet que vous trouverez ici :
 
-https://lab.shelter.moe/karaokemugen/karaokebase/blob/master/docs/TUTORIEL.md
+[Tutorial de karaoké](https://lab.shelter.moe/karaokemugen/karaokebase/blob/master/docs/tutorial.md)
 
 # Je veux aider à maintenir la base des karaokés !
 
@@ -16,8 +16,6 @@ Si rien de tout cela ne vous botte, il y a toujours le boulot de tag les karaok�
 
 # J'ai besoin d'aide !
 
-Venez sur le discord de l'Eden de la Nanami : 
-
-https://discord.gg/a8dMYek
+Venez sur [le discord de l'Eden de la Nanami](https://discord.gg/a8dMYek)
 
 Et dirigez-vous sur le salon #karaoke !
