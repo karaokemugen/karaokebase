@@ -24,7 +24,7 @@ Style: Default,Arial,20,&H000073FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!\N{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 1,0:00:14.01,0:00:16.49,Default,,0,0,0,karaoke,{\k13}Aime{\k17}rais{\k79}-tu {\k71}en {\k17}ce {\k50}monde
 Comment: 1,0:00:16.47,0:00:20.54,Default,,0,0,0,karaoke,{\k50}Voir {\k38}quel{\k46}que {\k142}chose {\k17}s'e{\k21}ffa{\k117}cer
 Comment: 1,0:00:20.98,0:00:23.54,Default,,0,0,0,karaoke,{\k13}Et {\k21}que {\k79}l'air {\k75}soit {\k21}plus {\k50}pur
@@ -48,26 +48,26 @@ Comment: 1,0:01:56.51,0:02:02.81,Default,,0,0,0,karaoke,{\k142}Sa{\k42}voure {\k
 Comment: 1,0:02:03.69,0:02:09.94,Default,,0,0,0,karaoke,{\k129}Vois {\k42}que {\k42}tout {\k46}est {\k67}e{\k21}ssen{\k284}tiel
 Comment: 1,0:02:10.82,0:02:16.07,Default,,0,0,0,karaoke,{\k125}Et {\k38}com{\k46}prend {\k46}que {\k67}toi {\k17}au{\k200}ssi
 Comment: 1,0:02:16.57,0:02:23.99,Default,,0,0,0,karaoke,{\k38}Tu {\k42}en {\k42}é{\k204}cris {\k21}{\k38}la {\k71}mé{\k17}lo{\k288}die
-Dialogue: 0,0:00:13.11,0:00:16.69,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k13}Aime{\k17}rais{\k79}-tu {\k71}en {\k17}ce {\k50}monde
-Dialogue: 0,0:00:15.57,0:00:20.74,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k50}Voir {\k38}quel{\k46}que {\k142}chose {\k17}s'e{\k21}ffa{\k117}cer
-Dialogue: 0,0:00:20.08,0:00:23.74,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k13}Et {\k21}que {\k79}l'air {\k75}soit {\k21}plus {\k50}pur
-Dialogue: 0,0:00:22.66,0:00:27.83,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k42}Le {\k46}coeur {\k42}des {\k138}Hommes {\k21}trans{\k17}for{\k117}mé
-Dialogue: 0,0:00:27.21,0:00:31.75,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k17}Et {\k17}pour{\k75}tant {\k75}tout {\k17}est {\k50}si {\k42}fra{\k50}gile
-Dialogue: 0,0:00:30.63,0:00:34.75,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k46}I{\k129}ci {\k17}sur {\k17}la {\k121}Terre
-Dialogue: 0,0:00:34.21,0:00:41.05,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k17}Il {\k21}n'est {\k25}rien {\k17}qui {\k83}soit {\k38}fu{\k129}tile {\k42}tu {\k250}sais
-Dialogue: 0,0:00:51.85,0:00:55.52,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k17}D'un {\k17}cô{\k79}té {\k75}beau {\k21}ou {\k50}bon
-Dialogue: 0,0:00:54.44,0:00:59.48,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k42}Et {\k42}quel{\k42}ques {\k146}fois {\k17}pro{\k21}di{\k108}gieux
-Dialogue: 0,0:00:58.90,0:01:02.65,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k17}Et {\k21}de {\k83}l'autre {\k83}laids {\k17}ou {\k46}pauvres
-Dialogue: 0,0:01:01.57,0:01:06.57,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k38}Et {\k42}bien {\k42}sou{\k133}vent {\k17}mons{\k21}tru{\k129}eux
-Dialogue: 0,0:01:05.99,0:01:09.58,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k13}Qu'im{\k21}porte {\k75}ce {\k79}que {\k17}ton {\k46}coeur
-Dialogue: 0,0:01:08.49,0:01:13.66,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k46}Te {\k42}dic{\k46}te{\k129}ra {\k25}sou{\k21}viens{\k100}-toi
-Dialogue: 0,0:01:12.99,0:01:19.88,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k21}Que {\k21}la {\k21}di{\k21}ffé{\k92}rence {\k33}naît {\k133}dans {\k38}tes {\k275}yeux
-Dialogue: 0,0:01:20.46,0:01:28.01,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k88}Chante {\k88}toutes {\k79}les {\k96}cou{\k79}leurs {\k17}du {\k209}monde
-Dialogue: 0,0:01:27.55,0:01:35.27,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k88}Sans {\k83}man{\k83}quer {\k71}une {\k21}seule {\k313}note
-Dialogue: 0,0:01:34.60,0:01:41.07,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k83}Chaque {\k88}chose {\k75}a {\k92}sa {\k71}place {\k21}i{\k142}ci
-Dialogue: 0,0:01:40.73,0:01:48.03,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k42}Chaque {\k46}é{\k221}moi {\k46}{\k46}forme {\k46}la {\k17}sym{\k17}pho{\k167}nie
-Dialogue: 0,0:01:47.40,0:01:51.83,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k42}De {\k67}no{\k17}tre {\k246}vie
-Dialogue: 0,0:01:55.61,0:02:03.01,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k142}Sa{\k42}voure {\k46}l'har{\k42}mo{\k67}nie {\k17}du {\k263}ciel
-Dialogue: 0,0:02:02.79,0:02:10.14,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k129}Vois {\k42}que {\k42}tout {\k46}est {\k67}e{\k21}ssen{\k284}tiel
-Dialogue: 0,0:02:09.92,0:02:16.27,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k125}Et {\k38}com{\k46}prend {\k46}que {\k67}toi {\k17}au{\k200}ssi
-Dialogue: 0,0:02:15.67,0:02:24.19,Default,,0,0,0,fx,\N{\k90\fad(300,200){\k38}Tu {\k42}en {\k42}é{\k204}cris {\k21}{\k38}la {\k71}mé{\k17}lo{\k288}die
+Dialogue: 0,0:00:13.11,0:00:16.69,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Aime{\k17}rais{\k79}-tu {\k71}en {\k17}ce {\k50}monde
+Dialogue: 0,0:00:15.57,0:00:20.74,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Voir {\k38}quel{\k46}que {\k142}chose {\k17}s'e{\k21}ffa{\k117}cer
+Dialogue: 0,0:00:20.08,0:00:23.74,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Et {\k21}que {\k79}l'air {\k75}soit {\k21}plus {\k50}pur
+Dialogue: 0,0:00:22.66,0:00:27.83,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Le {\k46}coeur {\k42}des {\k138}Hommes {\k21}trans{\k17}for{\k117}mé
+Dialogue: 0,0:00:27.21,0:00:31.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Et {\k17}pour{\k75}tant {\k75}tout {\k17}est {\k50}si {\k42}fra{\k50}gile
+Dialogue: 0,0:00:30.63,0:00:34.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}I{\k129}ci {\k17}sur {\k17}la {\k121}Terre
+Dialogue: 0,0:00:34.21,0:00:41.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Il {\k21}n'est {\k25}rien {\k17}qui {\k83}soit {\k38}fu{\k129}tile {\k42}tu {\k250}sais
+Dialogue: 0,0:00:51.85,0:00:55.52,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}D'un {\k17}cô{\k79}té {\k75}beau {\k21}ou {\k50}bon
+Dialogue: 0,0:00:54.44,0:00:59.48,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Et {\k42}quel{\k42}ques {\k146}fois {\k17}pro{\k21}di{\k108}gieux
+Dialogue: 0,0:00:58.90,0:01:02.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Et {\k21}de {\k83}l'autre {\k83}laids {\k17}ou {\k46}pauvres
+Dialogue: 0,0:01:01.57,0:01:06.57,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Et {\k42}bien {\k42}sou{\k133}vent {\k17}mons{\k21}tru{\k129}eux
+Dialogue: 0,0:01:05.99,0:01:09.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Qu'im{\k21}porte {\k75}ce {\k79}que {\k17}ton {\k46}coeur
+Dialogue: 0,0:01:08.49,0:01:13.66,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Te {\k42}dic{\k46}te{\k129}ra {\k25}sou{\k21}viens{\k100}-toi
+Dialogue: 0,0:01:12.99,0:01:19.88,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Que {\k21}la {\k21}di{\k21}ffé{\k92}rence {\k33}naît {\k133}dans {\k38}tes {\k275}yeux
+Dialogue: 0,0:01:20.46,0:01:28.01,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k88}Chante {\k88}toutes {\k79}les {\k96}cou{\k79}leurs {\k17}du {\k209}monde
+Dialogue: 0,0:01:27.55,0:01:35.27,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k88}Sans {\k83}man{\k83}quer {\k71}une {\k21}seule {\k313}note
+Dialogue: 0,0:01:34.60,0:01:41.07,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k83}Chaque {\k88}chose {\k75}a {\k92}sa {\k71}place {\k21}i{\k142}ci
+Dialogue: 0,0:01:40.73,0:01:48.03,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Chaque {\k46}é{\k221}moi {\k46}{\k46}forme {\k46}la {\k17}sym{\k17}pho{\k167}nie
+Dialogue: 0,0:01:47.40,0:01:51.83,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}De {\k67}no{\k17}tre {\k246}vie
+Dialogue: 0,0:01:55.61,0:02:03.01,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k142}Sa{\k42}voure {\k46}l'har{\k42}mo{\k67}nie {\k17}du {\k263}ciel
+Dialogue: 0,0:02:02.79,0:02:10.14,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k129}Vois {\k42}que {\k42}tout {\k46}est {\k67}e{\k21}ssen{\k284}tiel
+Dialogue: 0,0:02:09.92,0:02:16.27,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k125}Et {\k38}com{\k46}prend {\k46}que {\k67}toi {\k17}au{\k200}ssi
+Dialogue: 0,0:02:15.67,0:02:24.19,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Tu {\k42}en {\k42}é{\k204}cris {\k21}{\k38}la {\k71}mé{\k17}lo{\k288}die
