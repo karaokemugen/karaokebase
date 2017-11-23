@@ -1,3 +1,73 @@
+# October 2017
+
+## General
+
+Many karas have seen their metadata info added, starting in alphabetical order
+
+## Added
+
+- ANG - Aldnoah.Zero - ED - aLIEz (ParodyCover by Sapphire)
+- ANG - Big Bad Bosses - MV - I'm the boss
+- FIN - Aksuli - MV - Nyt!
+- ITA - Digimon Adventure - OP - Digimon
+- ITA - Giorgio Vanni - MV - Pokémon Go
+- JAP - A Channel+smile - ED1 - Smile Houteishiki
+- JAP - A Channel+smile - OP1 - Balloon Theatre
+- JAP - Alice & Zoroku - ED1 - Chant
+- JAP - Anne Happy - ED - Ashita de Ii kara
+- JAP - Captain Future - IN - Oira wa sabishii SPACEMAN
+- JAP - Digimon Adventure Tri - AMV - Brave Heart - Tri. Version
+- JAP - Doujin Work - ED1 - Yume Miru Otome
+- JAP - GA ~ Geijutsuka Art Design Class - ED1 - Coloring palettes Tomokane-iro
+- JAP - GA ~ Geijutsuka Art Design Class - ED2 - Coloring palettes Kisaragi-iro
+- JAP - GA ~ Geijutsuka Art Design Class - ED3 - Coloring palettes Nodamiki-iro
+- JAP - GA ~ Geijutsuka Art Design Class - ED4 - Coloring palettes Kyouju-iro
+- JAP - GA ~ Geijutsuka Art Design Class - ED6 - Kokoro-iro Palettes
+- JAP - Gakkou Gurashi! - ED1 - Harmonize Clover
+- JAP - Gochuumon wa Usagi Desu ka - ED1 - Poppin Jump
+- JAP - Gundam Build Fighters - ED1 - Imagination Reality
+- JAP - Gundam Build Fighters - ED2 - Hanpan Spirit
+- JAP - Hello!! Kiniro Mosaic - ED - My Best Friends
+- JAP - Hidamari Sketch - OP1 - Sketch Switch
+- JAP - Hidamari Sketch - OP2 - Sketch Switch (SP)
+- JAP - Hidamari Sketch ~ Sae Hiro Sotsugyou Hen - OAV ED -  Mata ne, Youkos
+o, Hidamarisou
+- JAP - Hidamari Sketch ~ Sae Hiro Sotsugyou Hen - OAV OP - Open Canvas (OVA
+)
+- JAP - Hidamari Sketch x 365 - ED1 - Ryuusei Record
+- JAP - Hidamari Sketch x Honeycomb - ED - Yume Gumo
+- JAP - Hidamari Sketch x Honeycomb - OP - Open Canvas
+- JAP - Hidamari Sketch x SP - ED1 - nora
+- JAP - Hidamari Sketch x SP - OP1 - Kimagure, Jan-ken-pon!
+- JAP - Hyakka Ryouran Samurai Girls - ED - Koi ni Sesse Tooryanse
+- JAP - Initial D Fifth Stage - OP - Raise Up
+- JAP - Joukamachi no Dandelion - ED1 - Honey Come!!
+- JAP - Kamen Rider Build - TOKU OP - Be the One
+- JAP - Kamen Rider Ryuki - TOKU OP - Alive A life
+- JAP - Kiniro Mosaic - ED - Your Voice
+- JAP - Kiniro Mosaic ~ Pretty Days - OP1 - Happy Pretty Clover
+- JAP - Koufuku Graffiti - ED - Egao ni Naru
+- JAP - Koyomimonogatari - ED1 - whiz
+- JAP - Le vent se lève - MV - Hikoukigumo
+- JAP - Monogatari Series Second Season - ED3 - snowdrop
+- JAP - New Game!! - ED1 - JUMPin' JUMP UP!!!!
+- JAP - New Game!! - ED2 - Yume-iro Compass
+- JAP - New Game!! - OP1 - STEP by STEP UP
+- JAP - Sakura Trick - ED1 - Kiss(and)Love
+- JAP - Sakura Trick - ED2 - Sakura Sweet Kiss
+- JAP - Sansha Sanyou - ED1 - Guuchoki Parade
+- JAP - Stella no Mahou - ED1 - Yonaka Jikaru
+- JAP - Stella no Mahou - OP1 - God Save the Girls
+- JAP - Urara Meirochou - ED - Go to Romance
+- JAP - Yuyushiki - ED - Affection
+- JAP - Yuyushiki - OP - Seeno!
+- JAP - Yuyushiki OVA - ED1 - Aozora no Tsukurikata
+- JAP - Yuyushiki OVA - OP1 - Kirameki! no Hi
+
+## Fixed
+
+As usual, too many to list here. Rahxephon OP and Ichigo 100% ED have been retimed, for instance.
+
 # September 2017
 
 ## Added
