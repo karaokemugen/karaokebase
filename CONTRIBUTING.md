@@ -10,7 +10,7 @@ C'est sûr que plus on est nombreux, plus ça va vite de maintenir cette base à
 
 Discutons-en sur Discord (voir plus bas). On prend toutes les bonnes volontés !
 
-Il y a notamment des karaokés dont il faut vérifier le titre, mais aussi les paroles. 
+Il y a notamment des karaokés dont il faut vérifier le titre, mais aussi les paroles.
 
 Si rien de tout cela ne vous botte, il y a toujours le boulot de tag les karaokés, c'est à dire remplir leurs .kara d'informations comme l'année de l'animé, le studio de production, le chanteur ou le compositeur, etc.
 
