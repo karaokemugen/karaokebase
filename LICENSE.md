@@ -4,10 +4,11 @@ Les vidéos accessibles depuis le script disponible dans le dépôt sont la prop
 
 Dans la mesure du possible, l'auteur d'un karaoké est indiqué dans le .kara correspondant, mais nombre de karaokés n'ont aucun auteur déclaré.
 
-Vous pouvez utiliser cette base comme bon vous semble tant qu'elle est créditée quelque part. 
+Vous pouvez utiliser cette base comme bon vous semble tant qu'elle est créditée quelque part.
 
 La base en elle-même utilise une license MIT
 
+```
 MIT License
 
 Copyright (c) [year] [fullname]
@@ -29,5 +30,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
+```

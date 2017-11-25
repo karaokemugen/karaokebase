@@ -7,17 +7,20 @@ Bien le bonjour ! Votre générique préféré n'est pas dans la base Karaoke Mu
 ## Se préparer
 
 ### Installer Aegisub
+
 Pour réaliser des *Karaokés* et même des *sous-titres* de façon générale, vous aurez besoin du logiciel **Aegisub**. Vous pouvez télécharger une **installation complète** *(full install)* ou une **installation portable** *(portable version)* via la page [Téléchargements](http://www.aegisub.org/downloads) du [site officiel](http://www.aegisub.org).
 
 L'**installation portable** est utile quand vous voulez la mettre sur une clé USB et l'utiliser sur n'importe quel ordinateur sans avoir à installer quoi que ce soit. Dans le doute, prenez l'**installation complète**.
 
 
 ### Trouver une bonne source vidéo
+
 Il pourrait être tentant d'inclure dans la base la première vidéo **YouTube** qui passe. Cependant, la qualité n'est pas forcément au rendez-vous, ou bien le titre est tout simplement introuvable. Dans le cas d'*animés* récents, il serait même préférable d'inclure une vidéo qui soit *creditless* (sans texte de générique), et au minimum en 720p. Il vous faudra donc une source DVD / Blu-Ray.
 
 **Plusieurs solutions s'offrent à vous :**
 
 #### Trouver un *rip* sur les interwebs
+
 Faut-il encore présenter [NyaaTorrents](http://nyaa.si) ? Si vous avez un compte [Asian DVD Club](https://asiandvdclub.org), ça peut aussi vous aider. Et globalement, ***Google est votre ami***.
 
 #### Demander aux potos
@@ -32,7 +35,7 @@ Une fois que vous avez ça, il vous faut un lecteur DVD ou Blu-Ray pour PC, selo
 
 Pour vous permettre de lire correctement les disques et de copier-coller les flux qui vous intéressent, je vous conseille le logiciel *DVD Fab Passkey* [(site officiel)](http://fr.dvdfab.cn/passkey-lite.htm) ou *MakeMKV* [(site officiel)](http://www.makemkv.com/)
 
-##### Avec DVD Fab 
+##### Avec DVD Fab
 
 DVD Fab est un logiciel, toujours actif en arrière-plan, qui décode *on-the-fly* (comprendre "à la volée") vos disques vidéo. Après que vous ayez inséré un DVD ou un Blu-Ray protégé dans votre lecteur, il mettra une dizaine de secondes à le déchiffrer.
 
@@ -55,6 +58,7 @@ Le disque obtenu et le flux extrait, on va donc le **réencoder** pour le **comp
 Vous pouvez aussi utiliser [Handbrake](https://handbrake.fr/) ou si la ligne de commande ne vous effraie pas, [FFMpeg](https://www.ffmpeg.org/).
 
 ### Trouver les "vraies" paroles
+
 Sujet plus délicat qu'il n'y paraît, tant les transcriptions à l'oreille foisonnent sur Internet. Si plusieurs sources fiables sont d'accord entre elles, on peut se dire que c'est bon. Autrement, il va falloir mener des enquêtes approfondies : bien souvent, en faisant soi-même une transcription à partir du livret officiel du CD où la chanson est parue. L'exercice peut être fastidieux si vous n'avez jamais appris vos kanas japonais, mais reste faisable à l'aide de ce tableau :
 
 ![](img_tutos/TableKana.png)
@@ -71,9 +75,11 @@ Si vous ne reconnaissez pas un kanji, le site [Japanese character recognition](h
 * Mettre une majuscule pour les noms propres.
 
 ### Nommer son matériel
-Vous devez maintenant avoir une vidéo et un fichier texte correspondant aux paroles de cette dernière. Le nommage de tous vos fichiers concernera le titre et le nom de la chanson. 
+
+Vous devez maintenant avoir une vidéo et un fichier texte correspondant aux paroles de cette dernière. Le nommage de tous vos fichiers concernera le titre et le nom de la chanson.
 
 Le format est le suivant : 
+
 ***Langue - Série/oeuvre - Type - Titre***
 
 Exemple : **JAP - Macross Frontier - OP2 - LION**
@@ -100,38 +106,37 @@ Exemple : **FR - Les Inconnus - MV - Vice et versa**
     * SUE : suèdois
     * *Enrichissez ce document si vous ajoutez de nouvelles langues !*
     
-* Le nom de la série doit obligatoirement être un nom facilement reconnaissable. Il faut préférer le nom international s'il existe, ou un nom facilement connu du public. Exemple, si je vous parle de *Spice & Wolf*, ne soumettez pas votre kara sous le nom *Ôkami to Kôshinryô* sous peine de cassage de genoux. Personne ne connaît cet animé sous ce titre. Pareil avec *Full Metal Alchemist* qu'il n'y a pas besoin d'écrire en japonais "*Hagane no Renkinjutsushi*" parce que PERSONNE de sensé n'irait taper ça dans un moteur de recherche, bande d'élitistes.
+* Le nom de la série doit obligatoirement être un nom facilement reconnaissable. Il faut préférer le nom international s'il existe, ou un nom facilement connu du public. Exemple, si je vous parle de *Spice & Wolf*, ne soumettez pas votre kara sous le nom *Ôkami to Kôshinryô* sous peine de cassage de genoux. Personne ne connaît cet animé sous ce titre. Pareil avec *FullMetal Alchemist* qu'il n'y a pas besoin d'écrire en japonais "*Hagane no Renkinjutsushi*" parce que PERSONNE de sensé n'irait taper ça dans un moteur de recherche, bande d'élitistes.
     * Par contre, *Suzumiya Haruhi no Yuutsu* est toléré, car "Suzumiya Haruhi" est facilement reconnaissable et connu du public. Même chose pour *Kidou Senki Gundam*.
-    * Si vous avez ajouté une nouvelle série, mettez à jour le fichier **series_altnames.csv** dans le dossier racine ! Il contient la liste des noms alternatifs des séries.
-    
+    * Si vous avez ajouté une nouvelle série, mettez à jour le fichier **series_altnames.csv** dans le dossier racine ! Il contient la liste des noms alternatifs des séries. Par exemple le nom japonais de *FullMetal Alchemist* peut être indiqué dans ce fichier. Cela permet au moteur de recherche de Karaoké Mugen de retrouver la série en japonais.
 * Le type du karaoké peut être l'un des suivants :
-    * AMV : Anime Music Video. Peut être utilisé pour des clips musicaux tout en animation.
-    * CM : Publicité.
-    * ED : Ending d'un animé.
-    * IN : Insert song.
-    * OT : Autre/inclassable.
-    * TRAILER : Vidéo promotionnelle (trailer, bande-annonce, etc.).
-    * LIVE : Concerts.
-    * OP : Opening d'un animé.
-    * MV : Vidéo musicale (clips musicaux).
-    
+    * `AMV` : Anime Music Video. Peut être utilisé pour des clips musicaux tout en animation.
+    * `CM` : Publicité.
+    * `ED` : Ending d'un animé.
+    * `IN` : Insert song.
+    * `OT` : Autre/inclassable.
+    * `TRAILER` : Vidéo promotionnelle (trailer, bande-annonce, etc.).
+    * `LIVE` : Concerts.
+    * `OP` : Opening d'un animé.
+    * `MV` : Vidéo musicale (clips musicaux).
 * Le numéro de générique : le premier générique d'ouverture sera qualifié d'OP1, etc. 
     * S'il n'y a qu'un seul générique tout le long de la série ou saison, on omet le numéro et on met simplement OP ou ED selon le cas.
-    * Attention toutefois : il arrive souvent, notamment en début de série, que des génériques d'ouverture servent exceptionnellement de générique de clôture. Il ne faut pas pour autant qualifier cet OP d'ED1 et l'ED classique d'ED2 ! Exemple avec la série *Kekkai Sensen*, qui n'a qu'un OP et un ED : l'OP sert d'ED au premier épisode, mais le générique d'ouverture doit ête taggé OP et le générique de clôture ED, et ne pas mettre "ED2" pour le générique de fin 'classique' sous prétexte qu'il y a eu un autre générique pour un seul épisode.  
-    
-* Le titre de la chanson, si vous l'avez. Respectez le plus possible son nom (sauf s'il contient des caractères spéciaux qui sont interdits.)
+    * Attention toutefois : il arrive souvent, notamment en début de série, que des génériques d'ouverture servent exceptionnellement de générique de clôture. Il ne faut pas pour autant qualifier cet OP d'ED1 et l'ED classique d'ED2 ! Exemple avec la série *Kekkai Sensen*, qui n'a qu'un OP et un ED : l'OP sert d'ED au premier épisode, mais le générique d'ouverture doit ête taggé OP et le générique de clôture ED, et ne pas mettre "ED2" pour le générique de fin 'classique' sous prétexte qu'il y a eu un autre générique pour un seul épisode.
+* Le titre de la chanson, si vous l'avez. Respectez le plus possible son nom (sauf s'il contient des caractères spéciaux qui sont interdits dans les noms de fichier.)
 	- Pour les caractères spéciaux, trouvez des équivalents avec de vrais caractères lisibles par n'importe quel clavier. Exemples :
-		+ Les signes de ponctuation ?, : ou encore /. De toutes façons votre système d'exploitation vous l'interdira la plupart du temps.
-		+ Le signe de ponctuation ! est aussi vivement déconseillé.
-		+ Le symbole mathématique delta (𝚫) de Macross Delta
-		+ Le symbole mathématique multiplier (×) couramment utilisé dans beaucoup de titres de séries comme Kiss × Sis peut être remplacé par un simple x (la lettre x comme dans xylophone).
-	
+		- Les signes de ponctuation ?, :, ; ou encore /. De toutes façons votre système d'exploitation vous l'interdira la plupart du temps.
+		- Le signe de ponctuation ! est aussi vivement déconseillé.
+		- Le symbole mathématique delta (𝚫) de Macross Delta
+		- Le symbole mathématique multiplier (×) couramment utilisé dans beaucoup de titres de séries comme Kiss × Sis peut être remplacé par un simple x (la lettre x comme dans xylophone).
+
+**NOTE :** Si vous tenez absolument à retranscrire les caractères spéciaux, indiquez-les à l'intérieur du fichier .kara (voir plus bas)
 
 ## Se lancer
 
 ### Réaliser le karaoké en lui-même 
 
 #### L'espace de travail
+
 En ouvrant **Aegisub**, vous tombez tout d'abord sur une interface quasiment vide. Avant de se mettre au boulot, il faut la remplir.
 
 Tout d'abord, allez dans **"Vidéo > Ouvrir une vidéo"**, et sélectionnez votre vidéo pour l'ouvrir. Puis, ouvrez votre fichier texte via **"Fichier > Ouvrir des sous-titres"** ou le bouton ![](img_tutos/IcoOuvrir.PNG).
@@ -142,16 +147,14 @@ Vous devriez donc avoir un écran similaire au mien, où je suis en train de ré
 
 * Si vous n'avez pas la bande audio en haut à droite de l'écran, et si vous n'avez pas de son en jouant votre vidéo via le bouton ![](img_tutos/IcoLecture.PNG), alors le son n'est pas chargé. Remédiez-y via **"Audio > Ouvrir l'audio de la vidéo"**.
 
-
 * Si vous n'avez pas le même type de bande audio, c'est normal ! Et je vous conseille d'y remédier en cliquant sur l'icône ![](img_tutos/IcoSpectre.PNG). Ce type de représentation est plus explicite.
 
 ![](img_tutos/Ecran01.PNG)
 
-
 Si tout est bon, faites **"Fichier > Enregistrer les sous-titres sous..."** afin de créer un fichier *ASS* (sous-titres) et non plus de *texte plat*. Nommez votre fichier *ASS* avec le même nom que choisi précédemment pour votre karaoké. Par exemple **JAP - Macross Frontier - OP2 - LION.ass**
 
-
 #### Les styles de sous-titres
+
 Il vous faudra ensuite intégrer le "style" de sous-titres *Karaoke Mugen* à votre script. Pour cela, l'idéal est de commencer par définir la résolution de la vidéo au sein du script en allant dans le menu **"Fichier > Propriétés"**, puis de cliquer sur le bouton **"De la vidéo"**.
 
 Retournez ensuite sur Lab Shelter dans [**/docs/samples_lyrics/**](https://lab.shelter.moe/Karaokemugen/karaokebase/tree/master/docs/sample_lyrics) pour télécharger le script correspondant à votre résolution de vidéo, si vous ne l'avez pas déjà sur votre machine.
@@ -168,8 +171,8 @@ Laissez les paramètres **"Divers"**, notamment les **"Échelle X%"** et **"Éch
 
 Ce menu peut également vous servir si l'une de vos paroles se retrouve sur deux lignes à un poil d'image près.
 
-
 #### La synchronisation "simple" (ou *timing*)
+
 On est prêts pour bosser ! Pour toute cette étape, je vous conseille de désactiver le *"Replçage automatique du curseur vidéo au temps de début de la ligne active"* en cliquant sur le bouton ![](img_tutos/IcoAuto.PNG). Ça vous évitera la crise de nerfs.
 
 Le but de cet étape est de synchroniser chaque *ligne* de paroles à l'écran. On ne s'occupera du syllabe-par-syllabe qu'ensuite.
@@ -184,7 +187,7 @@ Le but de cet étape est de synchroniser chaque *ligne* de paroles à l'écran. 
 
 *(3) : le "CPS" (Character Per Second) de votre sous-titre : le nombre de caractères de votre sous-titre divisé par le nombre de secondes. Il doit être TOUJOURS inférieur à 15.*
 
-Vous l'aurez compris, le but de cet étape, c'est grosso-merdo de renseigner le temps de début d'apparition et de fin d'apparition du sous-titre, en respectant le CPS. 
+Vous l'aurez compris, le but de cet étape, c'est grosso-merdo de renseigner le temps de début d'apparition et de fin d'apparition du sous-titre, en respectant le CPS.
 
 ***Une règle fondamentale du Karaoké Karaoke Mugen est que le Karaoké doit être lisible : ainsi, une ligne de sous-titres apparaîtra  ~1s avant qu'elle ne commence à être chantée.***
 
@@ -244,13 +247,11 @@ Ensuite, il ne vous reste plus qu'à, à l'oreille via les boutons ![](img_tutos
 
 Cette étape est longue et laborieuse, et vous ne serez pas forcément en rythme lors de vos premières réalisations, mais ne perdez pas espoir : la rapidité comme la précision viennent à force d'entraînement. Promis juré, petit scarabée.
 
-
 ##### Pour les Karaokés non-japonais
 
 Les langues latines ayant des coupes moins franches au niveau du découpage par syllabe, il se peut que vous préfériez un remplissage "progressif" de la couleur blanche sur la couleur orange. Parfait : la balise **{\kf}** est là pour ça !
 
 Une fois l'intégralité de votre Karaoké timé selon le processus ci-dessus, allez dans **"Edition > Rechercher et remplacer"**, et cherchez **"{\k"** (oui oui, sans fermer le crochet) pour le remplacer par **"{\kf"** (idem, ne fermez pas le crochet). Cliquez sur **"Remplacer tout"** et hop, la magie opère et votre Karaoké a désormais un remplissage syllabique progressif ! C'est beau.
-
 
 #### Autres types de balises
 
@@ -264,8 +265,7 @@ Si vous corrigez certains Karaokés, vous pourrez trouver d'autres balises. La l
 
 * ***Liste à compléter au fil des demandes récurrentes***
 
-
-### Testez votre Karaoké !
+### Testez votre Karaoké
 
 Ouvrez votre lecteur favori et chargez votre vidéo, puis demandez à charger les sous-titres en ajoutant une piste de sous-titre à votre lecteur. Cela vous permettra de tester une dernière fois avant de l'exploiter au sein de Karaoke Mugen.
 
@@ -316,7 +316,9 @@ Quelques infos sur comment remplir les cases :
 	* TAG_PC : PC
 	* TAG_SEGACD : Mega CD
 	* TAG_REMIX : Remix (version alternative, parodique le plus souvent)
-	
+
+Consultez la [documentation sur le format des .kara](karaformat.md) pour une liste complète.
+
 * **Compositeur / parolier** : C'est évident. Toujours "**prénom** puis **nom**".
 * **Studio d'animation / origine** : Pour un animé, il s'agit d'un studio d'animation, sinon on précise le nom de la boîte de production qui a crée le clip, par exemple.
 * **Auteur** : L'auteur du karaoké. Cela peut être vous ou pas, si vous envoyez le kara de quelqu'un d'autre. Il sera ajouté dans le fichier .kara pour référence en tant qu'auteur du karaoké.
