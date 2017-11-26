@@ -1,23 +1,21 @@
-Indiquez dans le titre le nom du kara que vous aimeriez voir dans la base et remplissez le formulaire ci-dessous :
-
-# Suggestion de karaok�
+# Suggestion de karaoké
 
 ## Informations obligatoires
 
-**S�rie et type de chanson** :
+**Série et type de chanson** :
 (exemple : Bleach ED2)
 
 **Titre de la chanson** :
 
 ## Informations optionelles
 
-**Lien vers une vid�o** :
-(de pr�f�rence de bonne qualit�, Youtube, Dropbox, GDrive, OneDrive, etc.)
+**Lien vers une vidéo** :
+(de préférence de bonne qualité, Youtube, Dropbox, GDrive, OneDrive, etc.)
 
 **Lien vers les paroles** :
 (lien animelyrics ou autre)
 
-**Ann�e de production** : 
+**Année de production** : 
 
 **Langue(s)** :
 
@@ -25,17 +23,18 @@ Indiquez dans le titre le nom du kara que vous aimeriez voir dans la base et rem
 
 **Compositeur(s)** :
 
-**Cr�ateur(s)** : 
-Quel studio a cr�e l'oeuvre ?
+**Créateur(s)** : 
+Quel studio a crée l'oeuvre ? Ou quelle entité (Bandai Namco pour Tales Of, par exemple.)
 
-**Tags suppl�mentaires** :
-(Concert? Pas anim�? Parodie? Tokusatsu? Mecha?)
+**Tags supplémentaires** :
+(Concert? Pas animé? Parodie? Tokusatsu? Mecha?)
 
 Liste des tags pour vous aider à choisir: (merci de supprimer ces lignes pour eviter de faire un message torp long)
 	"TAG_SPECIAL": "Special",
 	"TAG_GAMECUBE": "Gamecube",
 	"TAG_TOKU": "Tokusatsu/Sentai",
 	"TAG_OVA": "OAV",
+	"TAG_ONA": "ONA",
 	"TAG_CONCERT": "Concert",
 	"TAG_PARODY": "Parodie",
 	"TAG_HUMOR": "Humour",

@@ -1,10 +1,6 @@
-Indiquez dans le titre de l'issue le nom du kara impacté.
+# KaraokÃ© mal timÃ© / dÃ©fectueux
 
-# Karaoké mal timé / defectueux
+**Nom complet du karaokÃ©** :
 
-Veuillez remplir le formulaire suivant : 
-
-**Nom complet du karaoké** :
-
-**Problème rencontré** :
+**ProblÃ¨me rencontrÃ©** :
 
