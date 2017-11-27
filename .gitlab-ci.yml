@@ -4,9 +4,6 @@ cache:
   paths:
   - karaokemugen-app/node_modules/
   
-before_script:
-  - apt-get update -qq && apt-get install -y -qq ffmpeg mpv rsync
-
 stages:
   - install
   - test
@@ -40,6 +37,8 @@ generateDB:
     paths:
       - karaokemugen-app/app/db  
   script:
+    - apt-get update -qq && apt-get install -y -qq ffmpeg mpv
+    - cd karaokemugen-app
     - npm start -- --debug --generate        
   only:
     - 399-revoir-l-organisation-et-la-mise-a-jour-du-depot
