@@ -8,11 +8,12 @@ before_script:
   - apt-get update -qq && apt-get install -y -qq ffmpeg mpv rsync
 
 stages:
+  - install
   - test
   - deploy
 
 installKM:
-  stage: test
+  stage: install
   artifacts:
     expire_in: 1 day
     paths:
