@@ -11,7 +11,7 @@ stages:
   - test
   - deploy
 
-install:
+installKM:
   stage: test
   artifacts:
     expire_in: 1 day
@@ -29,21 +29,21 @@ install:
   only:
     - 399-revoir-l-organisation-et-la-mise-a-jour-du-depot
 
-generate_db:
+generateDB:
   stage: test
+  dependencies:
+    - installKM
   artifacts:
     name: "$CI_COMMIT_REF_NAME-db"
     expire_in: 1 day
     paths:
-      - karaokemugen-app/app/db
-  dependencies:
-    - install
+      - karaokemugen-app/app/db  
   script:
     - npm start -- --debug --generate        
   only:
     - 399-revoir-l-organisation-et-la-mise-a-jour-du-depot
 
-deploy:
+shelter:
   stage: deploy
   artifacts:
     name: "$CI_COMMIT_REF_NAME-db"
