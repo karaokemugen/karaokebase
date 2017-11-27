@@ -35,6 +35,9 @@ generateDB:
   script:
     - apt-get update -qq && apt-get install -y -qq ffmpeg mpv
     - cd karaokemugen-app
+    - ls -la /shelter
+    - ls -la ../karas/
+    - ls -la ../lyrics/
     - npm start -- --debug --generate        
   only:
     - 399-revoir-l-organisation-et-la-mise-a-jour-du-depot
