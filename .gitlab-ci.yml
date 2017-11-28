@@ -1,0 +1,44 @@
+image: node:8-stretch
+
+stages:
+  - test
+  - deploy
+
+test:
+  stage: test
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - db
+  script:
+    - mkdir -p db
+    - apt-get update -qq && apt-get install -y -qq xz-utils    
+    - wget -c https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz    
+    - tar xf ffmpeg-release-64bit-static.tar.xz    
+    - git clone https://lab.shelter.moe/karaokemugen/karaokemugen-app.git
+    - cd karaokemugen-app
+    - npm install -g yarn
+    - yarn install
+    - touch mpv
+    - echo "PathKaras=../karas" >config.ini
+    - echo "PathSubs=../lyrics" >>config.ini
+    - echo "PathVideos=/shelter/data/videos" >>config.ini 
+    - echo "BinffmpegLinux=../ffmpeg-3.4-64bit-static/ffmpeg" >>config.ini
+    - echo "BinffprobeLinux=../ffmpeg-3.4-64bit-static/ffprobe" >>config.ini
+    - echo "BinPlayerLinux=mpv" >>config.ini
+    - echo "PathDB=../db" >>config.ini
+    - echo "PathAltname=../series_altnames.csv" >>config.ini
+    - npm start -- --debug --generate        
+  only:
+    - master
+
+
+shelter:
+  stage: deploy
+  dependencies: test
+  script:
+    - cp -f db/karas.sqlite3 /shelter/db/karas.sqlite3
+    - cd /shelter/data/
+    - git pull
+  only:
+    - master
