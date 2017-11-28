@@ -14,12 +14,19 @@ installKM:
   script:
     - echo test
     - git clone https://lab.shelter.moe/karaokemugen/karaokemugen-app.git
+    - apt-get update -qq && apt-get install -y -qq xz-utils
+    - wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz
+    - tar xf ffmpeg-release-64bit-static.tar.xz    
+    - cp -f ffmpeg-3.4-64bit-static/ffmpeg /usr/local/bin
+    - cp -f ffmpeg-3.4-64bit-static/ffprobe /usr/local/bin
     - cd karaokemugen-app
     - npm install -g yarn
     - yarn install
     - echo "PathKaras=../karas" >config.ini
     - echo "PathSubs=../lyrics" >>config.ini
-    - echo "PathVideos=/shelter/data/videos" >>config.ini    
+    - echo "PathVideos=/shelter/data/videos" >>config.ini 
+    - echo "BinffmpegLinux=/usr/local/bin/ffmpeg" >>config.ini
+    - echo "BinffprobeLinux=/usr/local/bin/ffprobe" >>config.ini
   only:
     - 399-revoir-l-organisation-et-la-mise-a-jour-du-depot
 
@@ -32,8 +39,7 @@ generateDB:
     expire_in: 1 day
     paths:
       - karaokemugen-app/app/db  
-  script:
-    - apt-get update -qq && apt-get install -y -qq ffmpeg
+  script:    
     - cd karaokemugen-app
     - npm start -- --debug --generate        
   only:
