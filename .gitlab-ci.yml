@@ -1,22 +1,16 @@
 image: node:8-stretch
 
-cache:
-  paths:
-    - ffmpeg-release-64bit-static.tar.xz
-
 stages:
-  - install
   - test
   - deploy
 
-installKM:
-  stage: install
-  artifacts:
-    expire_in: 1 day
-    paths:
-      - karaokemugen-app
+test:
+  stage: test
   script:
     - echo test
+    - apt-get update -qq && apt-get install -y -qq xz-utils    
+    - wget -c https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz    
+    - tar xf ffmpeg-release-64bit-static.tar.xz    
     - git clone https://lab.shelter.moe/karaokemugen/karaokemugen-app.git
     - cd karaokemugen-app
     - npm install -g yarn
@@ -26,26 +20,10 @@ installKM:
     - echo "PathVideos=/shelter/data/videos" >>config.ini 
     - echo "BinffmpegLinux=../ffmpeg-3.4-64bit-static/ffmpeg" >>config.ini
     - echo "BinffprobeLinux=../ffmpeg-3.4-64bit-static/ffprobe" >>config.ini
-  only:
-    - 399-revoir-l-organisation-et-la-mise-a-jour-du-depot
-
-generateDB:
-  stage: test
-  dependencies:
-    - installKM
-  artifacts:
-    name: "$CI_COMMIT_REF_NAME-db"
-    expire_in: 1 day
-    paths:
-      - karaokemugen-app/app/db  
-  script:    
-    - apt-get update -qq && apt-get install -y -qq xz-utils
-    - wget -c https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz
-    - tar xf ffmpeg-release-64bit-static.tar.xz    
-    - cd karaokemugen-app
     - npm start -- --debug --generate        
   only:
     - 399-revoir-l-organisation-et-la-mise-a-jour-du-depot
+
 
 shelter:
   stage: deploy
