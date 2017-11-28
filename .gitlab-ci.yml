@@ -1,5 +1,8 @@
 image: node:8-stretch
-  
+
+cache:
+  - ffmpeg-release-64bit-static.tar.xz
+
 stages:
   - install
   - test
@@ -36,7 +39,7 @@ generateDB:
       - karaokemugen-app/app/db  
   script:    
     - apt-get update -qq && apt-get install -y -qq xz-utils
-    - wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz
+    - wget -c https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz
     - tar xf ffmpeg-release-64bit-static.tar.xz    
     - cd karaokemugen-app
     - npm start -- --debug --generate        
