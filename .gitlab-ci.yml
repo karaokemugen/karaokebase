@@ -18,7 +18,7 @@ installKM:
     - npm install -g yarn
     - yarn install
     - echo "PathKaras=../karas" >config.ini
-    - echo "PathLyrics=../lyrics" >>config.ini
+    - echo "PathSubs=../lyrics" >>config.ini
     - echo "PathVideos=/shelter/data/videos" >>config.ini    
   only:
     - 399-revoir-l-organisation-et-la-mise-a-jour-du-depot
@@ -33,11 +33,8 @@ generateDB:
     paths:
       - karaokemugen-app/app/db  
   script:
-    - apt-get update -qq && apt-get install -y -qq ffmpeg mpv
+    - apt-get update -qq && apt-get install -y -qq ffmpeg
     - cd karaokemugen-app
-    - ls -la /shelter
-    - ls -la ../karas/
-    - ls -la ../lyrics/
     - npm start -- --debug --generate        
   only:
     - 399-revoir-l-organisation-et-la-mise-a-jour-du-depot
