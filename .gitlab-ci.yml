@@ -30,18 +30,15 @@ test:
     - echo "PathAltname=../series_altnames.csv" >>config.ini
     - npm start -- --debug --generate        
   only:
-    - 399-revoir-l-organisation-et-la-mise-a-jour-du-depot
+    - master
 
 
 shelter:
   stage: deploy
-  artifacts:
-    expire_in: 1 day
-    paths:
-      - db
+  dependencies: test
   script:
     - cp -f db/karas.sqlite3 /shelter/db/karas.sqlite3
     - cd /shelter/data/
     - git pull
   only:
-    - 399-revoir-l-organisation-et-la-mise-a-jour-du-depot
+    - master
