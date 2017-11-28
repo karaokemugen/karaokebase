@@ -35,7 +35,8 @@ test:
 
 shelter:
   stage: deploy
-  dependencies: test
+  dependencies:
+    - test
   script:
     - cp -f db/karas.sqlite3 /shelter/db/karas.sqlite3
     - cd /shelter/data/
