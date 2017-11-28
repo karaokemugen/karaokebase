@@ -11,13 +11,9 @@ installKM:
     expire_in: 1 day
     paths:
       - karaokemugen-app
-      - ffmpeg-3.4-64bit-static
   script:
     - echo test
     - git clone https://lab.shelter.moe/karaokemugen/karaokemugen-app.git
-    - apt-get update -qq && apt-get install -y -qq xz-utils
-    - wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz
-    - tar xf ffmpeg-release-64bit-static.tar.xz    
     - cd karaokemugen-app
     - npm install -g yarn
     - yarn install
@@ -39,6 +35,9 @@ generateDB:
     paths:
       - karaokemugen-app/app/db  
   script:    
+    - apt-get update -qq && apt-get install -y -qq xz-utils
+    - wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz
+    - tar xf ffmpeg-release-64bit-static.tar.xz    
     - cd karaokemugen-app
     - npm start -- --debug --generate        
   only:
