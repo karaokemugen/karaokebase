@@ -20,5 +20,5 @@ echo ATTENTION : Au moins 160 Go sont requis pour recuperer l'integralite des vi
 echo.
 echo Vous pouvez couper le telechargement a tout moment et le reprendre plus tard.
 
-Updater\rsync -ruvh --progress --delete-during --exclude=".git" --exclude=".git*" --exclude="karas/" --exclude="docs/" --exclude="lyrics/" --exclude="/dev" --exclude="/cygdrive" --exclude="Mettre a jour videos.cmd" --exclude="UpdateVideos.sh" --exclude="*.md" --exclude="*.csv" --exclude="/proc" %LOGIN%@%HOST%::%RSYNCRESSOURCE% .
+Updater\rsync -ruvh --progress --delete-during --exclude=".git" --exclude=".git*" --exclude="karas/" --exclude="docs/" --exclude="lyrics/" --exclude=".tmb/" --exclude="/dev" --exclude="/cygdrive" --exclude="Mettre a jour videos.cmd" --exclude="UpdateVideos.sh" --exclude="*.md" --exclude="*.csv" --exclude="/proc" %LOGIN%@%HOST%::%RSYNCRESSOURCE% .
 pause
