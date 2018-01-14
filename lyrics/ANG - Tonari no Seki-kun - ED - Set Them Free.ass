@@ -1,0 +1,40 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 0
+PlayResY: 0
+Audio URI: ..\ED.mp4
+Scroll Position: 0
+Active Line: 1
+Video Zoom Percent: 0.625
+Video File: ..\ED.mp4
+Video Aspect Ratio: c1.77778
+Video Position: 320
+Last Style Storage: Default
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default-furigana,Arial,10,&H000073FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,0,8,10,10,20,1
+Style: Default,Arial,20,&H000073FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,10,10,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:13.32,0:00:17.16,Default,,0,0,0,karaoke,{\k23}I {\k20}wan{\k26}na {\k69}feel {\k40}you {\k40}set {\k21}them {\k145}free
+Comment: 0,0:00:17.45,0:00:18.87,Default,,0,0,0,karaoke,{\k85}I {\k57}say
+Comment: 0,0:00:19.12,0:00:20.79,Default,,0,0,0,karaoke,{\k29}Turn {\k14}it {\k23}up {\k24}and {\k19}feel {\k14}the {\k44}heat
+Comment: 0,0:00:21.29,0:00:23.16,Default,,0,0,0,karaoke,{\k47}Wake {\k35}up {\k29}in {\k21}the {\k55}dream
+Comment: 0,0:00:23.16,0:00:25.12,Default,,0,0,0,karaoke,{\k54}Yeah {\k40}yeah {\k102}yeah
+Comment: 0,0:00:35.26,0:00:38.01,Default,,0,0,0,karaoke,{\k49}Try {\k42}to {\k89}feel {\k95}it
+Comment: 0,0:00:38.43,0:00:43.73,Default,,0,0,0,karaoke,{\k47}E{\k40}ven {\k41}though {\k96}wil{\k59}dest {\k247}days
+Dialogue: 0,0:00:12.42,0:00:17.36,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k20}wan{\k26}na {\k69}feel {\k40}you {\k40}set {\k21}them {\k145}free
+Dialogue: 0,0:00:16.55,0:00:19.07,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k85}I {\k57}say
+Dialogue: 0,0:00:18.22,0:00:20.99,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Turn {\k14}it {\k23}up {\k24}and {\k19}feel {\k14}the {\k44}heat
+Dialogue: 0,0:00:20.39,0:00:23.36,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Wake {\k35}up {\k29}in {\k21}the {\k55}dream
+Dialogue: 0,0:00:22.26,0:00:25.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k54}Yeah {\k40}yeah {\k102}yeah
+Dialogue: 0,0:00:34.36,0:00:38.21,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k49}Try {\k42}to {\k89}feel {\k95}it
+Dialogue: 0,0:00:37.53,0:00:43.93,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}E{\k40}ven {\k41}though {\k96}wil{\k59}dest {\k247}days
