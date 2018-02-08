@@ -173,7 +173,7 @@ Ce menu peut également vous servir si l'une de vos paroles se retrouve sur deux
 
 #### La synchronisation "simple" (ou *timing*)
 
-On est prêts pour bosser ! Pour toute cette étape, je vous conseille de désactiver le *"Replçage automatique du curseur vidéo au temps de début de la ligne active"* en cliquant sur le bouton ![](img_tutos/IcoAuto.PNG). Ça vous évitera la crise de nerfs.
+On est prêts pour bosser ! Pour toute cette étape, je vous conseille de désactiver le *"Replaçage automatique du curseur vidéo au temps de début de la ligne active"* en cliquant sur le bouton ![](img_tutos/IcoAuto.PNG). Ça vous évitera la crise de nerfs.
 
 Le but de cet étape est de synchroniser chaque *ligne* de paroles à l'écran. On ne s'occupera du syllabe-par-syllabe qu'ensuite.
 
@@ -189,23 +189,43 @@ Le but de cet étape est de synchroniser chaque *ligne* de paroles à l'écran. 
 
 Vous l'aurez compris, le but de cet étape, c'est grosso-merdo de renseigner le temps de début d'apparition et de fin d'apparition du sous-titre, en respectant le CPS.
 
-***Une règle fondamentale du Karaoké Karaoke Mugen est que le Karaoké doit être lisible : ainsi, une ligne de sous-titres apparaîtra  ~1s avant qu'elle ne commence à être chantée.***
+***Voici les étapes afin de renseigner chaque ligne :***
 
-*Pour résumer, afin de renseigner chaque ligne, vous allez :*
+1°) Lisez votre vidéo via le bouton ![](img_tutos/IcoLecture.PNG) en-dessous de la prévisualisation de celle-ci, et faites pause avec ![](img_tutos/IcoPause.PNG). Juste à droite du bouton ![](img_tutos/IcoAuto.PNG). Vous aurez alors l'information concernant le temps où vous avez fait pause, sous le format *"heure:minute:seconde:centièmeSeconde"*.
 
-1°) Lire votre vidéo via le bouton ![](img_tutos/IcoLecture.PNG) en-dessous de la prévisualisation de celle-ci, et faire pause avec ![](img_tutos/IcoPause.PNG). Juste à droite du bouton ![](img_tutos/IcoAuto.PNG).
+2°) En étant placé sur la bonne ligne, maintenez *CTRL+3* pour que ce temps devienne celui du début de votre ligne.
 
-2°) Vous aurez alors l'information concernant le temps où vous avez fait pause, sous le format *"heure:minute:seconde:centièmeSeconde"*. Recopiez ce temps auquel vous aurez soustrait une seconde dans le "*Temps de début*" de votre ligne concernée. 
+3°) Reprenez ensuite la lecture et faites pause à la fin du chant de votre ligne courante.
 
-3°) Reprenez ensuite la lecture et faites pause peu après la fin du chant de votre ligne courante.
-
-4°) Recopiez le temps où vous avez pause dans le "*Temps de fin*" de votre ligne concernée. 
+4°) En étant placé sur la bonne ligne, maintenez *CTRL+4* pour que ce temps devienne celui de la fin de votre ligne.
 
 5°) Sélectionnez la ligne suivante et continuez progressivement votre lecture jusqu'à synchroniser toutes vos lignes ! 
 
 **Notez que si vous progressez trop vite dans votre lecture, le bouton ![](img_tutos/IcoLectureLigne.PNG) vous permet de recommencer la lecture à partir du temps de début d'une ligne. Pratique si vous avez des difficultés avec le curseur sous la prévisualisation de la vidéo ! Vous pouvez aussi utiliser les flèches gauche et droite de votre clavier, qui par défaut vous font respectivement reculer et avancer d'une image au sein de votre vidéo.**
 
 *Si vous êtes un poil perfectionniste, une fois votre synchronisation terminée, vous pouvez utiliser les astuces ci-dessus afin d'ajuster votre premier jet via les "timeplans" : il s'agit de synchroniser les changements de plans de la vidéo avec les sous-titres, le cas échéant. Ça peut éviter des maux de crâne à vos spectacteurs les plus sensibles. L'idée est donc de lire chacun de vos sous-titres, et d'ajuster les temps pour correspondre à l'image près à un changement de plan si cela est possible sans perdre l'avance d'une seconde qui est bien plus importante !*
+
+#### Application du script ####
+
+***Une règle fondamentale du Karaoké Karaoke Mugen est que le Karaoké doit être lisible : ainsi, une ligne de sous-titres apparaîtra  ~1s avant qu'elle ne commence à être chantée.***
+
+Une fois la synchronisation terminée, il suffit d'appliquer un script, qui permettra à la fois de faire apparaître chaque ligne 1 seconde plus tôt et d'ajouter un effet de fondue aux phrases.
+
+1°) Insérez une ligne tout en haut : *clic droit > Insérer (avant)*
+
+2°) Mettez dans le champ *Texte* le code suivant :
+
+    !retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}
+    
+3°) Ajoutez ceci dans le champ *Effet* :
+
+    template pre-line all keeptags
+
+4°) Cochez "Commentaire"
+
+5°) Appliquez-le en allant dans : Automatisme > Appliquer le modèle karaoké
+
+Si tout est bon vous obtenez ça : ![Capture_d_écran_2017-09-24_à_14.18.26](/uploads/c8a24da60f1178ec1208e0c674c8d340/Capture_d_écran_2017-09-24_à_14.18.26.png)
 
 #### La synchronisation "par syllabe" (ou *time en k*)
 
@@ -244,6 +264,8 @@ Une fois validé, vous voyez quelques changements sur l'interface : le découpag
 La première chose à faire alors, c'est de modifier manuellement la première balise *k* via l'interface texte, et la passer de **"{\k0}"** à **"{\k100}"** Ou une valeur différente, si vous avez fait le malin. **L'astuce**, c'est de retirer ensuite un peu plus de cent centièmes de seconde à toutes les balises suivantes, puisque Aegisub a généré des temps aléatoires pour un total correspondant tout de même à la durée de la ligne active.
 
 Ensuite, il ne vous reste plus qu'à, à l'oreille via les boutons ![](img_tutos/IcoLecture.PNG), ![](img_tutos/IcoPause.PNG) et ![](img_tutos/IcoLectureLigne.PNG) que vous connaissez déjà par cœur, et via le spectre audio... À faire joujou avec les lignes jaunes pointillées du spectre pour faire correspondre chaque zone de ce dernier à une syllabe ! Notez qu'une barre blanche s'affiche lors de la lecture pour vous indiquer ou en est la vidéo, mais qu'elle ne reste malheureusement pas affichée lors de la pause.
+
+N'hésitez pas à utiliser les flèches droite et gauche du clavier lorsque vous êtes sur le spectre audio pour bien réécouter chaque syllabe, et ajuste les lignes jaunes avec précision.
 
 Cette étape est longue et laborieuse, et vous ne serez pas forcément en rythme lors de vos premières réalisations, mais ne perdez pas espoir : la rapidité comme la précision viennent à force d'entraînement. Promis juré, petit scarabée.
 
