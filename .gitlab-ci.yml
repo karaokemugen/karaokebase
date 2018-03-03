@@ -23,7 +23,7 @@ test:
     - touch mpv
     - echo "PathKaras=../karas" >config.ini
     - echo "PathSubs=../lyrics" >>config.ini
-    - echo "PathVideos=/shelter/data/videos" >>config.ini 
+    - echo "PathVideos=/shelter/app/data/videos" >>config.ini 
     - echo "BinffmpegLinux=../ffmpeg/ffmpeg" >>config.ini
     - echo "BinffprobeLinux=../ffmpeg/ffprobe" >>config.ini
     - echo "BinPlayerLinux=mpv" >>config.ini
@@ -39,7 +39,7 @@ shelter:
   dependencies:
     - test
   script:
-    - cp -f db/karas.sqlite3 /shelter/db/karas.sqlite3
+    - cp -f db/karas.sqlite3 /shelter/app/db/karas.sqlite3
     - cd /shelter/data/
     - git pull
   only:
