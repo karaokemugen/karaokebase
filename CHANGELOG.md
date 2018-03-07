@@ -1,3 +1,195 @@
+# February 2018
+
+## Added
+
+* ALL - Shingeki no Kyojin Kuinaki Sentaku - IN - So ist es immer
+* ANG - The Transformers The Movie - IN - The Touch
+* ANG - WarioWare Touched! - AMV - Ashley's Song
+* FR - Crossed - MV - Attention Dino Danger
+* FR - Donkey Kong - OP
+* FR - Joueur du Grenier - MV - Chanson d'Infogrames
+* FR - Les Nuls - MV - Vous me subirez
+* FR - Minifee - OP
+* JAP - 3-gatsu no Lion - OP3 - Flag wo Tatero
+* JAP - Blend S - OP - Bon Appétit S
+* JAP - Boku no Hero Academia - OP2 - Peace Sign
+* JAP - Choujin Sentai Baratack - OP - Choujin Sentai Baratack
+* JAP - Danganronpa 3 Despair Arc - OP1 - Kamiiroawase
+* JAP - Danganronpa 3 Future Arc - OP1 - Dead or Lie
+* JAP - Darling in the FRANXX - ED1 - Tori Kago
+* JAP - Devilman Crybaby - IS - Devilman no Uta
+* JAP - DiGi Charat Fantasy - GAME OP - Welcome! 2000
+* JAP - Dragon Ball Z - MV - Ginyu Tokusentai
+* JAP - Honoo no Tenkousei - OP - Honoo no Tenkousei
+* JAP - Houseki no Kuni - ED1 - Kirameku Hamabe
+* JAP - Houseki no Kuni - ED2 - Liquescimus
+* JAP - Houseki no Kuni - ED3 - Kyoumen no Nami Orchestra Ver
+* JAP - Hugtto! Precure - OP - We can!! Hugtto! Precure
+* JAP - Hugtto! Precure - ED1 - Future Dreamer
+* JAP - Ikinari Anata ni Koishiteru - OP - I wo Tokinasai
+* JAP - Island - OP - Traveler's Tale
+* JAP - Kidou Keisatsu Patlabor Early Days - OP - Miraiha Lovers
+* JAP - Koi wa Ameagari no You ni - OP - Nostalgic Rainfall
+* JAP - Koi wa Ameagari no You ni - ED - Refrain
+* JAP - Kokkoku - OP1 - Flashback
+* JAP - Made in Abyss - OP1 - Deep in Abyss
+* JAP - Nihon Animator Mihonichi - IN - Sentimental na Yokan
+* JAP - Peter Pan no Bouken - OP - Mou Ichido Peter Pan
+* JAP - Sakura no Uta - OP - Poem of Sakura
+* JAP - Shingeki no Kyojin - OP3 - Shinzou wo sasageyo
+* JAP - Subarashiki Hibi - OP - Kuukirikigaku Shoujo to Shounen to Uta
+* JAP - Tales of Eternia the animation - OP - Sora ni Kakeru Hashi
+* JAP - Uchuu Yori mo Tooi Basho - OP - The Girls Are Alright!
+* JAP - Uchuu Yori mo Tooi Basho - ED - Koko kara, Koko kara
+* JAP - Umineko no Naku Koro ni - GAME ED - Fishy Aroma
+* JAP - Umineko no Naku Koro ni - GAME ED - Birth of a new Witch
+* JAP - Yakuza 0 - GAME IN - 24 Jikan Cinderella
+* JAP - Yakuza 0 - GAME IN - Baka Mitai
+* JAP - Yu Yu Hakusho - ED1 - Homework Ga Owaranai
+* JAP - Yu Yu Hakusho - ED2 - Sayonara Bye Bye
+* JAP - Yu Yu Hakusho - ED3 - Unbalance Na Kiss o Shite
+* JAP - Yu Yu Hakusho - ED4 - Taiyou ga Mata Kagayaku Toki
+* JAP - Yu Yu Hakusho - ED5 - Daydream Generation
+* JAP - Yu Yu Hakusho - OP1 - Hohoemi no Bakudan
+* JAP - Yu Yu Hakusho - OP2 - Hohoemi no Bakudan
+* JAP - Yu Yu Hakusho - OP3 - Hohoemi no Bakudan
+* JAP - Yuru Camp - OP - Shiny Days
+* JAP - Yuru Camp - ED - Fuyubiyori
+* JAP - Violet Evergarden - OP - Sincerely
+* JAP - Violet Evergarden - ED - Michishirube 
+
+# January 2018
+
+## Added
+
+- ANG - Tonari no Seki-kun - ED - Set them free
+- JAP - No Game No Life - ED1 - Oracion Alternative Vers.
+- JAP - Owarimonogatari - ED2 - SHIORI Ougi Vers.
+- JAP - SCANDAL - MV - Secret Base ~Kimi ga Kureta Mono~ (10 years after Ver.)
+- JAP - The Ancient Magus Bride - ED1 - Wa Cycle
+- JAP - Tonari no Seki-kun - IN - Danran! Robot Kazoku
+- JAP - ZONE - LIVE - Secret Base ~Kimi ga Kureta Mono~
+
+# December 2017
+
+## Added
+
+- ANG - Princess Principal - ED - A Page of My Story
+- ANG - Princess Principal - OP - The Other Side of the Wall
+- FR - 3615 Usul - MV - Ninja Impact
+- JAP - Aikatsu! - IN - Eien no Tomoshibi
+- JAP - Bakemonogatari - AMV - Ninja Re Bang Bang
+- JAP - Dokidoki! Precure - OP - Happy Go Lucky! Dokidoki! Precure
+- JAP - Eureka Seven Hi-Evolution - MV - Glory Days
+- JAP - Go! Princess Precure - ED1 - Dreaming Princess Precure
+- JAP - Go! Princess Precure - ED2 - Yume wa Mirai he no Michi
+- JAP - Happiness Charge Precure! - ED2 - Party Has Come
+- JAP - Houseki no Kuni - OP - Kyoumen no Nami
+- JAP - Hyouka - ED1 - Madoromi no Yakusoku
+- JAP - Kakegurui - ED - LAYon-theLINE
+- JAP - Kakegurui - OP - Deal with the Devil
+- JAP - Kirakira Precure A la Mode - ED2 - Shubidubi Sweets Time
+- JAP - Kujira no Kora wa Sajou ni Utau - OP - Sono Saki he
+- JAP - Osomatsu-san 2 - OP - Kunshi Ayauku mo Chikauyore
+- JAP - Owarimonogatari - ED2 - SHIORI Mayoi Vers.
+- JAP - Owarimonogatari - ED2 - SHIORI Hitagi Vers.
+- JAP - Owarimonogatari - OP6 - dreamy date drive
+- JAP - Owarimonogatari - OP6 - terminal terminal
+- JAP - Owarimonogatari - ED2 - SHIORI
+- JAP - PriPara - IN - Pure Amore Ai
+- JAP - Sakura Quest - ED1 - Freesia
+- JAP - Shoujo Shuumatsu Ryokou - ED - More One Night
+- JAP - Shoujo Shuumatsu Ryokou - OP - Ugoku, Ugoku
+- JAP - Smile Precure! - ED2 - Mankai Smile
+- JAP - Suite Precure - ED2 - Kibou Rainbow
+- JAP - The Ancient Magus Bride - OP - Here
+- JAP - Yes! Precure 5 GoGo! - ED2 - Ganbalance de Dance ~Kibou no Relay~
+- JAP - Youjo Senki - ED2 - Los! Los! Los!
+
+
+# November 2017
+
+## Added
+
+- FR - Jimmy Neutron - OP
+- FR - My Little Poney - OP - Friendship is magic
+- ANG - Code Lyoko - OP - A world without danger
+- ANG - Drifters - OP - Gospel of the throttle
+- ANG - Macron 1 - OP
+- JAP - Aikatsu Stars! - IN - Mirai transit
+- JAP - Aikatsu Stars! - IN - One, Two Sing for you
+- JAP - Aikatsu Stars! - IN - So beautiful story
+- JAP - Aikatsu Stars! - IN - Star Jet
+- JAP - Aikatsu Stars! - IN - Start Line
+- JAP - Aikatsu Stars! - IN - Summer tears diary
+- JAP - Aikatsu Stars! - IN - TSU BO MI Azayaka na mirai he
+- JAP - Aikatsu! - IN - Angel Snow
+- JAP - Aikatsu! - IN - Chica x Chica
+- JAP - Aikatsu! - IN - Magical Time.
+- JAP - Aikatsu! - IN - Move on now
+- JAP - Aikatsu! - IN - Signalize
+- JAP - Aikatsu! - IN - Take me higher
+- JAP - Comet Lucifer - PV - Story of Lucifer
+- JAP - Fairy Tale - ED03 - Gomen ne Watashi
+- JAP - Fairy Tale - ED05 - Holy Shine
+- JAP - Fairy Tale - ED07 - Lonely Person
+- JAP - Fairy Tale - ED09 - Kono Te Nobashite
+- JAP - Fairy Tale - ED10 - Boys Be Ambitious
+- JAP - Fairy Tale - ED11 - Glitter
+- JAP - Fairy Tale - ED12 - YELL Kagayaku Tame no Mono
+- JAP - Fairy Tale - ED13 - Kimi ga Kureta Mono
+- JAP - Fairy Tale - OP10 - I wish
+- JAP - Fairy Tale - OP11 - Hajimari no Sora
+- JAP - Fairy Tale - OP13 - Break through
+- JAP - Fate Hollow Ataraxia - PSV GAME OP - broKen NIGHT
+- JAP - Fire Emblem Birthright - GAME IN - Hitori omou
+- JAP - Futari wa Precure Max Heart - ED2 - Wonder Winter Yattaa!!
+- JAP - Futari wa Precure Max Heart - ED1 - Murimuri Ariari IN jana~i
+- JAP - Futari wa Precure Splash Star - ED2 - Ganbalance de Dance
+- JAP - Goku Sayonara Ztsubou Sensei - OP1 - Kuusou Rumba
+- JAP - Hataraki Man - ED - Shangri-La
+- JAP - High School Star Musical - IN - Ayanagi Showtime
+- JAP - High School Star Musical - IN - Warera ayanagi gakuen kao-kai Ancients ver
+- JAP - JAM Project - LIVE - Skill
+- JAP - Kamen Rider Ex-Aid - IN - People Game
+- JAP - Kirakira Precure A la Mode - ED - Let's la Cooking Showtime
+- JAP - Kirakira Precure A la Mode - OP - Shine!! Kirakira Precure A la Mode
+- JAP - Kubikiri Cycle Aoiro Savant to Zaregototsukai - ED - Marchen
+- JAP - Kubikiri Cycle Aoiro Savant to Zaregototsukai - OP - Cobalt World
+- JAP - Love Live! School Idol Project 2nd Season - IN - Intro
+- JAP - Mahoujin Guru Guru (2017) - OP - Trip Trip Trip
+- JAP - Maria Holic Alive - ED1 - Dou ni mo tomaranai
+- JAP - Maria Holic Alive - ED2 - Donmai Donmai
+- JAP - Maria Holic Alive - OP1 - Mousou Senshi Miyamae Kanako
+- JAP - Maria Holic Alive - OP2 - Runrunriru Ranranrara
+- JAP - Miyakawa-ke no Kuufuku - ED - Makegumi
+- JAP - Moyashimon - OP - Curriculum
+- JAP - One Piece - OP16 - Hands Up
+- JAP - Precure All Stars Movie DX2 Kibou no Hikari Rainbow Jewel wo Mamore! - ED - 17jewels ~Pretty Cure Medley 2010~
+- JAP - Re Creators - OP1 - gravityWall
+- JAP - Saiyuki Reload Blast - OP
+- JAP - Sakura Quest - OP1 - Morning Glory
+- JAP - Senki Zesshou Symphogear AXZ - OP - TESTAMENT
+- JAP - Shirobako Specials - ED2 - Angel Fly (Third Aerial Girls Squad)
+- JAP - Shisukon - GAME OP - Itsudemo Love Tension
+- JAP - Shuumatsu Nani Shitemasu ka Isogashii desu ka Sukutte Moratte Ii desu ka - IN - Scarborough Fair
+- JAP - Solatorobo RED the Hunter - GAME OP2
+- JAP - Tetsuwan Atom 2000 - OP2 - Now Or Never
+- JAP - Touhou - MV - Akai Tsuki no Waltz
+- JAP - Touhou - MV - Artificial Children
+- JAP - Touhou - MV - Hiirogekka, Hyousai no Zetsu
+- JAP - Ultraman Geed - OP1 - GEED no Akashi
+- JAP - Wanwan, Moomoo, Usausa, Koon! - GAME OP - Awadaccha Panikuri Vanilla
+- JAP - World of Final Fantasy - GAME OP - Innocent²
+- JAP - Yakitate Japan - OP2 - Promise
+- JAP - Yes! Precure 5 - ED1 - Kirakira Shichatte My True Love!
+- JAP - Yes! Precure 5 - ED2 - Ganbalance de Dance ~Yume Miru Kisekitachi~
+- JAP - Yu-Gi-Oh GX - OP1 - Kaisei Joshou Hallelujah
+- JAP - Yumeiro Patissiere SP Professional - OP - Sweet Romance
+- JAP - Kaiju Club - IN - Recollections
+- ANG - Inuyashiki Last Hero - OP1 - My Hero
+- JAP - Owarimonogatari S2 - OP2 - Dark Cherry Mystery
+
 # October 2017
 
 ## General
