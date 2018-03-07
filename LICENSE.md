@@ -1,13 +1,12 @@
-Tous les karaokés sont la propriété de leurs auteurs respectifs.
+All karaokes are property of their respective authors.
 
-Les vidéos accessibles depuis le script disponible dans le dépôt sont la propriété de leurs ayants droits respectifs.
+Videos stored on Shelter are the property of their respective right holders.
 
-Dans la mesure du possible, l'auteur d'un karaoké est indiqué dans le .kara correspondant, mais nombre de karaokés n'ont aucun auteur déclaré.
+We try, as much as possible, to fill the `author=` tag in a `.kara` file to credit the author of a karaoke. Some of them are empty simply because we are not aware of who created them. If you know, please submit a pull request.
 
-Vous pouvez utiliser cette base comme bon vous semble tant qu'elle est créditée quelque part.
+You can use this database as you wish as long as it is credited somewhere.
 
-La base en elle-même utilise une license MIT
-
+The database in itself uses a MIT license.
 
 ```
 MIT License

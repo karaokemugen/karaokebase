@@ -7,16 +7,16 @@ ressource="karaokevideos"
 echo Karaoke Mugen Videos
 echo ====================
 echo
-echo "Entrez le mot de passe pour mettre a jour votre Karaoke Mugen"
-echo "Le mot de passe ne s'affiche pas, ceci n'est pas un bug, n'essayez pas de regler votre ecran."
-echo "Le mot de passe est : musubi"
-echo "ATTENTION : Vous aurez besoin d'au moins 200 Go de libre pour recuperer les videos."
+echo Enter password to update Karaoke Mugen videos
+echo The password is not displayed, that is normal.
+echo the passowrd is : musubi
+echo WARNING : You need at least 170 Gb of free space to download this.
 
 if [ -e "./UpdateVideos.sh" ] 
 then
-	rsync -ruvh --progress --delete-during --exclude=".git" --exclude=".git*" --exclude="karas/" --exclude="docs/" --exclude="lyrics/" --exclude="/dev" --exclude="/cygdrive" --exclude="Mettre a jour videos.cmd" --exclude="UpdateVideos.sh" --exclude="*.md" --exclude="*.csv" --exclude="/proc" --exclude=".tmb/" $rsynclogin@$host::$ressource .
+	rsync -ruvh --progress --delete-after --exclude=".tmb/" $rsynclogin@$host::$ressource/videos/ videos/
 else
-	echo "Erreur : le script doit être lancé depuis son propre dossier !"
+	echo "Error : this script must be launched in its own folder."
 	exit 1
 fi
 
