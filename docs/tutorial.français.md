@@ -205,28 +205,6 @@ Vous l'aurez compris, le but de cet étape, c'est grosso-merdo de renseigner le 
 
 *Si vous êtes un poil perfectionniste, une fois votre synchronisation terminée, vous pouvez utiliser les astuces ci-dessus afin d'ajuster votre premier jet via les "timeplans" : il s'agit de synchroniser les changements de plans de la vidéo avec les sous-titres, le cas échéant. Ça peut éviter des maux de crâne à vos spectacteurs les plus sensibles. L'idée est donc de lire chacun de vos sous-titres, et d'ajuster les temps pour correspondre à l'image près à un changement de plan si cela est possible sans perdre l'avance d'une seconde qui est bien plus importante !*
 
-#### Application du script ####
-
-***Une règle fondamentale du Karaoké Karaoke Mugen est que le Karaoké doit être lisible : ainsi, une ligne de sous-titres apparaîtra  ~1s avant qu'elle ne commence à être chantée.***
-
-Une fois la synchronisation terminée, il suffit d'appliquer un script, qui permettra à la fois de faire apparaître chaque ligne 1 seconde plus tôt et d'ajouter un effet de fondue aux phrases.
-
-1°) Insérez une ligne tout en haut : *clic droit > Insérer (avant)*
-
-2°) Mettez dans le champ *Texte* le code suivant :
-
-    !retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}
-    
-3°) Ajoutez ceci dans le champ *Effet* :
-
-    template pre-line all keeptags
-
-4°) Cochez "Commentaire"
-
-5°) Appliquez-le en allant dans : Automatisme > Appliquer le modèle karaoké
-
-Si tout est bon vous obtenez ça : ![Capture_d_écran_2017-09-24_à_14.18.26](/uploads/c8a24da60f1178ec1208e0c674c8d340/Capture_d_écran_2017-09-24_à_14.18.26.png)
-
 #### La synchronisation "par syllabe" (ou *time en k*)
 
 C'est bon, toutes vos lignes sont synchronisées au petits oignons ? Parfait, le vrai *fun* commence ! Car un vrai Karaoké, c'est aussi guider vos potes qui ne connaissent pas la chanson, il est temps de réaliser la synchronisation syllabe-par-syllabe de vos lignes !
@@ -286,6 +264,28 @@ Si vous corrigez certains Karaokés, vous pourrez trouver d'autres balises. La l
 ![](img_tutos/PointAttache.PNG)
 
 * ***Liste à compléter au fil des demandes récurrentes***
+
+#### Application du script ####
+
+***Une règle fondamentale du Karaoké Karaoke Mugen est que le Karaoké doit être lisible : ainsi, une ligne de sous-titres apparaîtra  ~1s avant qu'elle ne commence à être chantée.***
+
+Une fois la synchronisation terminée, il suffit d'appliquer un script, qui permettra à la fois de faire apparaître chaque ligne 1 seconde plus tôt et d'ajouter un effet de fondue aux phrases.
+
+1°) Insérez une ligne tout en haut : *clic droit > Insérer (avant)*
+
+2°) Mettez dans le champ *Texte* le code suivant :
+
+    !retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}
+    
+3°) Ajoutez ceci dans le champ *Effet* :
+
+    template pre-line all keeptags
+
+4°) Cochez "Commentaire"
+
+5°) Appliquez-le en allant dans : Automatisme > Appliquer le modèle karaoké
+
+Si tout est bon vous obtenez ça : ![Capture_d_écran_2017-09-24_à_14.18.26](/uploads/c8a24da60f1178ec1208e0c674c8d340/Capture_d_écran_2017-09-24_à_14.18.26.png)
 
 ### Testez votre Karaoké
 
