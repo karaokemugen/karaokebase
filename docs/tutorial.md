@@ -1,7 +1,5 @@
 # Tutoriel complet : création et envoi de Karaoké Mugen
 
-[[_TOC_]]
-
 Bien le bonjour ! Votre générique préféré n'est pas dans la base Karaoke Mugen et ça vous rend très triste ?
 
 **Deux solutions :** soit vous déposez une *issue* via le [formulaire](https://lab.shelter.moe/Karaokemugen/karaokebase/issues/new) avec le template "*Suggestion de Kara*", et espérez qu'un mécène fasse le travail... Soit vous le réalisez vous-même ! C'est simple, et on va tout vous expliquer dans ce tutoriel. Allez, c'est parti ! :)
@@ -341,7 +339,7 @@ Quelques infos sur comment remplir les cases :
 	* TAG_SEGACD : Mega CD
 	* TAG_REMIX : Remix (version alternative, parodique le plus souvent)
 
-Consultez la [documentation sur le format des .kara](karaformat.français.md) pour une liste complète.
+Consultez la [documentation sur le format des .kara](karaformat.md) pour une liste complète.
 
 * **Compositeur / parolier** : C'est évident. Toujours "**prénom** puis **nom**".
 * **Studio d'animation / origine** : Pour un animé, il s'agit d'un studio d'animation, sinon on précise le nom de la boîte de production qui a crée le clip, par exemple.

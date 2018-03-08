@@ -6,7 +6,7 @@
 
 There's a tutorial describing how to make one here :
 
-* [Karaoke Tutorial](docs/tutorial.french.md) (in french for now)
+* [Karaoke Tutorial](docs/tutorial.md) (in french for now)
 
 ## I already have some karaoke files, I would like to add them to this database
 
@@ -66,7 +66,7 @@ And go to the #karaoke channel!
 
 Nous avons écrit un document à ce sujet que vous trouverez ici :
 
-[Tutorial de karaoké](docs/tutorial.français.md)
+[Tutorial de karaoké](docs/tutorial.md)
 
 ## J'ai des karaokés, je voudrais les voir dans la base de karaokés !
 
