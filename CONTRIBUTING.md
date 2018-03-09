@@ -68,39 +68,9 @@ Nous avons écrit un document à ce sujet que vous trouverez ici :
 
 [Tutorial de karaoké](docs/tutorial.md)
 
-## J'ai des karaokés, je voudrais les voir dans la base de karaokés !
+## J'ai déjà des karaokés, comment vous les envoyer ?
 
-Si vos fichiers sont déjà prêts, vous avez plusieurs solutions.
-
-### Je ne sais pas utiliser git
-
-[Passez sur Discord](https://discord.gg/a8dMYek) (dans le canal #karaoke) et nous verrons comment faire pour ajouter vos karaokés. L'utilisation de git est recommandée cependant.
-
-### Je sais utiliser git
-
-Cette partie concerne les mainteneurs de la base de karaokés mais pas que. Si vous n'êtes pas mainteneur de la base, vos corrections sont les bienvenues via des pull requests git.
-
-Les mainteneurs bénéficient d'un accès au dépôt git de la base ainsi qu'au FTP avec les vidéos. Si vous souhaitez devenir mainteneur et ne profiter d'aucun avantage si ce n'est une satisfaction personnelle à contribuer, lisez la section juste en dessous. Si vous êtes déjà mainteneur, continuez :
-
-- Clonez le dépôt git chez vous
-- Placez les vidéos au bon endroit (dans videos, quoi.)
-- Faites vos modifs, ou ajoutez vos karaokés, en réutilisant un .kara déjà existant comme modèle.
-- S'il s'agit d'un nouveau kara, supprimez les lignes `KID`, `dateadded`, `datemodif`, ainsi que tout ce qui commence par `video`.
-- [Configurez Karaoke Mugen](http://mugen.karaokes.moe/docs/user-guide/configuration/) pour utiliser votre dépôt local git avec ses vidéos et générez une nouvelle base avec :
-
-```sh
-KaraokeMugen.exe --validate
-```
-
-ou si vous utilisez la version git de Karaoke Mugen :
-
-```sh
-npm start -- --validate
-```
-
-- Si la génération ne retourne aucune erreur alors vous pouvez continuer, sinon vérifiez vos fichiers .kara.
-- Uploadez vos vidéos sur Shelter ou renommez-les s'il s'agit simplement d'un changement de nom.
-- Faites votre commit une fois que vos vidéos sont prêtes !
+[Consultez la section sur l'envoi de karaokés](docs/french/upload.md) de la documentation.
 
 ## Je veux aider à maintenir la base des karaokés !
 
