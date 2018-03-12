@@ -86,7 +86,9 @@ La première étape pour *timer en k* une ligne via l'assistant Karaoké, c'est 
 
 Quelques règles pour se faire :
 
-* Dans le cas de Karaokés japonais, on entend par "syllabe" l'équivalent d'un Kana (voir tableau plus haut).
+![](../img_tutos/TableKana.png)
+
+* Dans le cas de Karaokés japonais, on entend par "syllabe" l'équivalent d'un Kana (voir tableau ci-dessous).
 
 * Dans le cas de lettres dédoublées *(ex : somatta)*, deux solutions selon ce qu'on entend : soit on découpe **"so | mat | ta"** si on estime que le "*a*" n'est pas prononcé deux fois, soit **so | ma | t | ta** dans le cas inverse. Le "*t*" seul servira alors à marquer la 2e prononciation du a.
 
