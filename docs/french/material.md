@@ -44,6 +44,16 @@ Le disque obtenu et le flux extrait, on va donc le **réencoder** pour le **comp
 
 Vous pouvez aussi utiliser [Handbrake](https://handbrake.fr/) ou si la ligne de commande ne vous effraie pas, [FFMpeg](https://www.ffmpeg.org/).
 
+### Les formats vidéos à respecter
+
+Que vous ayez trouvé une source sur Internet ou que vous ayez effectué une extraction vous-mêmes, vous serez **obligé** de passer par la case réencodage si votre vidéo ne respecte pas les conditions suivantes :
+
+* Votre conteneur doit être le **MP4** ou éventuellement le MKV (mais on privilégie vraiment le MP4). Par pitié, ne nous envoyez pas de AVI : on n'est plus en 2008 !
+* Votre codec vidéo est libre, mais on privilégiera le **h264** ou le h265 qui sont les codecs habituels du MP4.
+* Vous devrez respecter le tableau de relation ***résolution / bitrate vidéo maximum*** suivant, tout en gardant à l'esprit que si votre générique est plutôt fixe, il peut largement aller en-dessous :
+![](../img_tutos/ResolutionBitrate.png)
+* Votre codec audio est libre, mais on vous encourage à retenir le **AAC** ou le **AC3** et de garder le paramètre de qualité par défaut.
+
 ## Trouver les "vraies" paroles
 
 Sujet plus délicat qu'il n'y paraît, tant les transcriptions à l'oreille foisonnent sur Internet. Si plusieurs sources fiables sont d'accord entre elles, on peut se dire que c'est bon. Autrement, il va falloir mener des enquêtes approfondies : bien souvent, en faisant soi-même une transcription à partir du livret officiel du CD où la chanson est parue. L'exercice peut être fastidieux si vous n'avez jamais appris vos kanas japonais, mais reste faisable à l'aide de ce tableau :
