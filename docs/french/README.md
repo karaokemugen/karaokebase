@@ -7,8 +7,8 @@ Bien le bonjour ! Votre générique préféré n'est pas dans la base Karaoke Mu
 Il est conseillé de suivre les étapes dans l'ordre.
 
 1. Se préparer
+   1. [Réunir le matériel](material.md)
    1. [Préparer ses outils](install.md)
-   1. [Préparer son matériel](material.md)
    1. [Nommage de votre karaoké](naming.md)
 1. Se lancer
    1. [Réaliser le karaoké en lui-même](karaoke.md)
