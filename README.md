@@ -106,7 +106,7 @@ version=1
 
 Certains éléments sont obligatoires, d'autres sont générés par le logiciel Karaoke Mugen lors de la validation des fichiers .kara
 
-Pour plus d'informations, consultez la [documentation sur le format](docs/karaformat.md)
+Pour plus d'informations, consultez la [documentation sur le format](docs/french/karaoke.md)
 
 #### Dossier `lyrics`
 
