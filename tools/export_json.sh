@@ -4,7 +4,9 @@
 # First argument is the kara folder
 # Second argument is the JSON file you want to build
 
-ls "$1/*.kara" >karas.txt
+cd $1 
+ls *.kara >../karas.txt
+cd ..
 
 FILE=$2
 
