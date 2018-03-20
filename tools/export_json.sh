@@ -58,4 +58,5 @@ done <karas.txt
 echo "]}" >>$FILE
 sed 'x; ${s/,//;p;x}; 1d' -i $FILE
 sed 's/\\//g' -i $FILE
+sed '1s/.*/{"karas": \[/' -i file.txt
 rm karas.txt
