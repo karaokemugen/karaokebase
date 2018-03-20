@@ -51,7 +51,7 @@ echo "  \"tags\": \"$TAGS\"," >>$FILE
 echo "  \"dateadded\": \"$DATEADDED\"," >>$FILE
 echo "  \"datemodif\": \"$DATEMODIF\"," >>$FILE
 echo "  \"kid\": \"$KID\"," >>$FILE
-echo "  \"audiogain\": \"$AUDIOGAIN\"," >>$FILE
+echo "  \"audiogain\": \"$AUDIOGAIN\"" >>$FILE
 echo " }," >>$FILE
 done <karas.txt
 echo "]}" >>$FILE
