@@ -4,7 +4,8 @@
 # First argument is the kara folder
 # Second argument is the JSON file you want to build
 
-cd $1 
+cd $1
+dos2unix *.kara
 ls *.kara >../karas.txt
 cd ..
 
