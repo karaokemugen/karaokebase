@@ -11,7 +11,7 @@ cd ..
 
 FILE=$2
 
-echo "{ \"karas\": [ " >$FILE
+echo "{\"karas\": [ " >$FILE
 
 while read kara 
 do
