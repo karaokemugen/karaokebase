@@ -1,7 +1,7 @@
 image: node:8-stretch
 
 before_script:
-  - apt-get update -qq && apt-get install -y -qq xz-utils lftp
+  - apt-get update -qq && apt-get install -y -qq xz-utils lftp dos2unix
 
 stages:
   - test
@@ -44,7 +44,7 @@ shelter:
     - cd /shelter/app/data/
     - git pull
   only:
-    - master
+    - master_disabled
 
 export_website:
   stage: deploy
