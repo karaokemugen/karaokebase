@@ -5,13 +5,12 @@
 # Second argument is the JSON file you want to build
 
 cd $1
-dos2unix *.kara
 ls *.kara >../karas.txt
 cd ..
 
 FILE=$2
 
-echo "{\"karas\": [ " >$FILE
+echo "{\"karas\": [" >$FILE
 
 while read kara 
 do
@@ -58,5 +57,5 @@ done <karas.txt
 echo "]}" >>$FILE
 sed 'x; ${s/,//;p;x}; 1d' -i $FILE
 sed 's/\\//g' -i $FILE
-sed '1s/.*/{"karas": \[/' -i file.txt
+#sed '1s/.*/{"karas": \[/' -i file.txt
 rm karas.txt
