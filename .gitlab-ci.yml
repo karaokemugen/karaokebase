@@ -1,5 +1,8 @@
 image: node:8-stretch
 
+before_script:
+  - apt-get update -qq && apt-get install -y -qq xz-utils lftp
+
 stages:
   - test
   - deploy
@@ -11,8 +14,7 @@ test:
     paths:
       - db
   script:
-    - mkdir -p db
-    - apt-get update -qq && apt-get install -y -qq xz-utils    
+    - mkdir -p db    
     - wget -c https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz    
     - tar xf ffmpeg-release-64bit-static.tar.xz
     - mv ffmpeg-3* ffmpeg
@@ -43,3 +45,13 @@ shelter:
     - git pull
   only:
     - master
+
+export_website:
+  stage: deploy
+  dependencies: 
+    - test
+  script:
+    - bash tools/export_json.sh karas karas.json
+    - lftp -c "set ftp:ssl-allow no; open -u $USERNAME,$PASSWORD $HOST; cd downloads; put karas.json"
+    - rm -f karas.json
+    - "curl -X POST -F token=$TRIGGERWEB -F ref=master https://lab.shelter.moe/api/v4/projects/28/trigger/pipeline"
