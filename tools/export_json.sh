@@ -12,7 +12,6 @@ cd ..
 FILE=$2
 
 echo "{\"karas\": [" >$FILE
-echo "year,singer,songwriter,creator,author,series,lang,duration,title,type,order,tags,dateadded,datemodif,KID,audiogain,videosize,videofile"
 while read kara 
 do
 YEAR=`cat "$1/$kara" | grep year= | awk -F= {'print $2'}`
