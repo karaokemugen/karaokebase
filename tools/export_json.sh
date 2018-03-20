@@ -14,25 +14,25 @@ echo "{ \"karas\": [ " >$FILE
 
 while read kara 
 do
-YEAR=`cat "$kara" | grep year= | awk -F= {'print $2'}`
-SINGER=`cat "$kara" | grep singer= | awk -F= {'print $2'}`
-SONGWRITER=`cat "$kara" | grep songwriter= | awk -F= {'print $2'}`
-CREATOR=`cat "$kara" | grep creator= | awk -F= {'print $2'}`
-AUTHOR=`cat "$kara" | grep author= | awk -F= {'print $2'}`
-SERIES=`cat "$kara" | grep series= | awk -F= {'print $2'}`
-LANG=`cat "$kara" | grep lang= | awk -F= {'print $2'}`
-DURATION=`cat "$kara" | grep videoduration= | awk -F= {'print $2'}`
-TITLE=`cat "$kara" | grep title= | awk -F= {'print $2'}`
-TYPE=`cat "$kara" | grep type= | awk -F= {'print $2'}`
-ORDER=`cat "$kara" | grep order= | awk -F= {'print $2'}`
-TAGS=`cat "$kara" | grep tags= | awk -F= {'print $2'}`
-DATEADDED=`cat "$kara" | grep dateadded | awk -F= {'print $2'}`
-DATEMODIF=`cat "$kara" | grep datemodif | awk -F= {'print $2'}`
-KID=`cat "$kara" | grep KID | awk -F= {'print $2'}`
-AUDIOGAIN=`cat "$kara" | grep videogain | awk -F= {'print $2'}`
-VIDEOSIZE=`cat "$kara" | grep videosize | awk -F= {'print $2'}`
-VIDEOFILE=`cat "$kara" | grep videofile | awk -F= {'print $2'}`
-SUBFILE=`cat "$kara" | grep subfile | awk -F= {'print $2'}`
+YEAR=`cat "$1/$kara" | grep year= | awk -F= {'print $2'}`
+SINGER=`cat "$1/$kara" | grep singer= | awk -F= {'print $2'}`
+SONGWRITER=`cat "$1/$kara" | grep songwriter= | awk -F= {'print $2'}`
+CREATOR=`cat "$1/$kara" | grep creator= | awk -F= {'print $2'}`
+AUTHOR=`cat "$1/$kara" | grep author= | awk -F= {'print $2'}`
+SERIES=`cat "$1/$kara" | grep series= | awk -F= {'print $2'}`
+LANG=`cat "$1/$kara" | grep lang= | awk -F= {'print $2'}`
+DURATION=`cat "$1/$kara" | grep videoduration= | awk -F= {'print $2'}`
+TITLE=`cat "$1/$kara" | grep title= | awk -F= {'print $2'}`
+TYPE=`cat "$1/$kara" | grep type= | awk -F= {'print $2'}`
+ORDER=`cat "$1/$kara" | grep order= | awk -F= {'print $2'}`
+TAGS=`cat "$1/$kara" | grep tags= | awk -F= {'print $2'}`
+DATEADDED=`cat "$1/$kara" | grep dateadded | awk -F= {'print $2'}`
+DATEMODIF=`cat "$1/$kara" | grep datemodif | awk -F= {'print $2'}`
+KID=`cat "$1/$kara" | grep KID | awk -F= {'print $2'}`
+AUDIOGAIN=`cat "$1/$kara" | grep videogain | awk -F= {'print $2'}`
+VIDEOSIZE=`cat "$1/$kara" | grep videosize | awk -F= {'print $2'}`
+VIDEOFILE=`cat "$1/$kara" | grep videofile | awk -F= {'print $2'}`
+SUBFILE=`cat "$1/$kara" | grep subfile | awk -F= {'print $2'}`
 
 echo " {\"year\": \"$YEAR\"," >>$FILE
 echo "  \"subfile\": \"$SUBFILE\"," >>$FILE
