@@ -1,4 +1,4 @@
-# Build a JSON export from a karas directory
+# Build a CSV export from a karas directory
 # Export is pretty basic and could be prettified.
 # Comma separated lists aren't transformed into arrays, that's not a bug, it's a feature.'
 # First argument is the kara folder
@@ -10,8 +10,8 @@ cd ..
 
 FILE=$2
 
-echo "{\"karas\": [" >$FILE
-echo "year,singer,songwriter,creator,author,series,lang,duration,title,type,order,tags,dateadded,datemodif,KID,audiogain,videosize,videofile"
+echo "year,singer,songwriter,creator,author,series,lang,duration,title,type,order,tags,dateadded,datemodif,kid,audiogain,videosize,videofile" >$FILE
+
 while read kara 
 do
 YEAR=`cat "$1/$kara" | grep year= | awk -F= {'print $2'}`
@@ -34,28 +34,7 @@ VIDEOSIZE=`cat "$1/$kara" | grep videosize | awk -F= {'print $2'}`
 VIDEOFILE=`cat "$1/$kara" | grep videofile | awk -F= {'print $2'}`
 SUBFILE=`cat "$1/$kara" | grep subfile | awk -F= {'print $2'}`
 
-echo " {\"year\": \"$YEAR\"," >>$FILE
-echo "  \"subfile\": \"$SUBFILE\"," >>$FILE
-echo "  \"videofile\": \"$VIDEOFILE\"," >>$FILE
-echo "  \"singer\": \"$SINGER\"," >>$FILE
-echo "  \"songwriter\": \"$SONGWRITER\"," >>$FILE
-echo "  \"creator\": \"$CREATOR\"," >>$FILE
-echo "  \"author\": \"$AUTHOR\"," >>$FILE
-echo "  \"series\": \"$SERIES\"," >>$FILE
-echo "  \"lang\": \"$LANG\"," >>$FILE
-echo "  \"duration\": $DURATION," >>$FILE
-echo "  \"title\": \"$TITLE\"," >>$FILE
-echo "  \"type\": \"$TYPE\"," >>$FILE
-echo "  \"order\": \"$ORDER\"," >>$FILE
-echo "  \"tags\": \"$TAGS\"," >>$FILE
-echo "  \"dateadded\": \"$DATEADDED\"," >>$FILE
-echo "  \"datemodif\": \"$DATEMODIF\"," >>$FILE
-echo "  \"kid\": \"$KID\"," >>$FILE
-echo "  \"audiogain\": \"$AUDIOGAIN\"" >>$FILE
-echo " }," >>$FILE
+echo "\"$YEAR\",\"$SINGER\",\"$SONGWRITER\",\"$CREATOR\",\"$AUTHOR\",\"$SERIES\",\"$LANG\",\"$DURATION\",\"$TITLE\",\"$TYPE\",\"$ORDER\",\"$TAGS\",\"$DATEADDED\",\"$DATEMODIF\",\"$KID\",\"$AUDIOGAIN\",\"$VIDEOSIZE\",\"$VIDEOFILE\"" >>$FILE
+
 done <karas.txt
-echo "]}" >>$FILE
-sed 'x; ${s/,//;p;x}; 1d' -i $FILE
-sed 's/\\//g' -i $FILE
-#sed '1s/.*/{"karas": \[/' -i file.txt
 rm karas.txt
