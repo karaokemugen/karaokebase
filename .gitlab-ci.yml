@@ -1,7 +1,7 @@
 image: node:8-stretch
 
 before_script:
-  - apt-get update -qq && apt-get install -y -qq xz-utils lftp dos2unix
+  - apt-get update -qq && apt-get install -y -qq xz-utils lftp
 
 stages:
   - test
@@ -51,7 +51,7 @@ export_website:
   script:
     - bash tools/export_csv.sh karas karas.csv
     - lftp -c "set ftp:ssl-allow no; open -u $USERNAME,$PASSWORD $HOST; cd downloads; put karas.csv"
-    - rm -f karas.json
+    - rm -f karas.csv
     - "curl -X POST -F token=$TRIGGERWEB -F ref=master https://lab.shelter.moe/api/v4/projects/28/trigger/pipeline"
   only:
     - master
