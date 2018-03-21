@@ -49,10 +49,9 @@ shelter:
 export_website:
   stage: deploy
   script:
-    - bash tools/export_csv.sh karas karas.csv
     - bash tools/export_json.sh karas karas.json
-    - lftp -c "set ftp:ssl-allow no; open -u $USERNAME,$PASSWORD $HOST; cd downloads; put karas.csv; put karas.json"
-    - rm -f karas.csv
+    - lftp -c "set ftp:ssl-allow no; open -u $USERNAME,$PASSWORD $HOST; cd downloads; put karas.json"
+    - rm -f karas.json
     - "curl -X POST -F token=$TRIGGERWEB -F ref=master https://lab.shelter.moe/api/v4/projects/28/trigger/pipeline"
   only:
     - master
