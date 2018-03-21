@@ -1,7 +1,4 @@
-image: node:8-stretch
-
-before_script:
-  - apt-get update -qq && apt-get install -y -qq xz-utils lftp sqlite3
+image: node:8-stretch  
 
 stages:
   - test
@@ -14,7 +11,8 @@ test:
     paths:
       - db
   script:
-    - mkdir -p db    
+    - mkdir -p db
+    - apt-get update -qq && apt-get install -y -qq xz-utils 
     - wget -c https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz    
     - tar xf ffmpeg-release-64bit-static.tar.xz
     - mv ffmpeg-3* ffmpeg
@@ -49,6 +47,7 @@ shelter:
 export_website:
   stage: deploy
   script:
+    - apt-get update -qq && apt-get install -y -qq lftp sqlite3
     - bash tools/export_json.sh db/karas.sqlite3 >karas.json
     - bash tools/stats.sh db/karas.sqlite3 >stats.json
     - lftp -c "set ftp:ssl-allow no; open -u $USERNAME,$PASSWORD $HOST; cd downloads; put karas.json; put stats.json"
