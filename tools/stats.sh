@@ -10,7 +10,7 @@ OUTPUT=$2
 KARAS=`sqlite3 $1 "SELECT COUNT(*) FROM kara;"`
 ARTISTS=`sqlite3 $1 "SELECT COUNT(*) FROM tag WHERE tagtype = 2;"`
 LANGS=`sqlite3 $1 "SELECT COUNT(*) FROM tag WHERE tagtype = 5;"`
-DURATION=`sqlite3 $1 "SELECT SUM(videolength) AS totalduration FROM kara;""`
+DURATION=`sqlite3 $1 "SELECT SUM(videolength) FROM kara;"`
 
 echo "{ \"karas\": $KARAS," >$OUTPUT
 echo "  \"singers\": $ARTISTS," >>$OUTPUT
