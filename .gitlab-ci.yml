@@ -1,7 +1,7 @@
 image: node:8-stretch
 
 before_script:
-  - apt-get update -qq && apt-get install -y -qq xz-utils lftp dos2unix sqlite3
+  - apt-get update -qq && apt-get install -y -qq xz-utils lftp sqlite3
 
 stages:
   - test
@@ -49,8 +49,8 @@ shelter:
 export_website:
   stage: deploy
   script:
-    - bash tools/export_json.sh karas karas.json
-    - bash tools/stats.sh db/karas.sqlite3 stats.json
+    - bash tools/export_json.sh db/karas.sqlite3 >karas.json
+    - bash tools/stats.sh db/karas.sqlite3 >stats.json
     - lftp -c "set ftp:ssl-allow no; open -u $USERNAME,$PASSWORD $HOST; cd downloads; put karas.json; put stats.json"
     - rm -f *.json
     - "curl -X POST -F token=$TRIGGERWEB -F ref=master https://lab.shelter.moe/api/v4/projects/28/trigger/pipeline"

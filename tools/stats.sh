@@ -5,15 +5,14 @@
 # You also need a karas.sqlite3 database generated via Karaoke Mugen.
 
 DB=$1
-OUTPUT=$2 
 
 KARAS=`sqlite3 $1 "SELECT COUNT(*) FROM kara;"`
 ARTISTS=`sqlite3 $1 "SELECT COUNT(*) FROM tag WHERE tagtype = 2;"`
 LANGS=`sqlite3 $1 "SELECT COUNT(*) FROM tag WHERE tagtype = 5;"`
 DURATION=`sqlite3 $1 "SELECT SUM(videolength) FROM kara;"`
 
-echo "{ \"karas\": $KARAS," >$OUTPUT
-echo "  \"singers\": $ARTISTS," >>$OUTPUT
-echo "  \"languages\": $LANGS," >>$OUTPUT
-echo "  \"duration\": $DURATION" >>$OUTPUT
-echo "}" >>$OUTPUT
+echo "{ \"karas\": $KARAS,"
+echo "  \"singers\": $ARTISTS,"
+echo "  \"languages\": $LANGS,"
+echo "  \"duration\": $DURATION"
+echo "}"
