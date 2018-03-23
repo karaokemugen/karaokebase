@@ -88,7 +88,12 @@ N'ayez pas peur, tout n'est pas à remplir par vous-même (mais une grande parti
   - `TAG_SPECIAL` : Spécial.
   - `TAG_REMIX` : Remix (version alternative des paroles, parodique le plus souvent).
   - `TAG_VOICELESS` : Karaoké sans voix (si si).
+  - `TAG_CONCERT` : Concert.
+  - `TAG_PARODY` : Parodie.
+  - `TAG_HUMOR` : Humour.
   - `TAG_R18` : Pour adultes (on sait que vous allez les rechercher tout de suite).
+  - `TAG_SPOIL` : Spoilers (tout le monde ne sait pas qui est le père de Luke).
+  - `TAG_LONG` : Chanson estimée longue (plus de 5 minutes).
   - `TAG_VOCALOID` : Vocaloid.
   - `TAG_TOKU` : Tokusatsu/Sentai.
   - `TAG_REAL` : Non-animé.
@@ -110,21 +115,16 @@ N'ayez pas peur, tout n'est pas à remplir par vous-même (mais une grande parti
   - `TAG_YAOI` : Animé impliquant des relations entre hommes.
   - `TAG_SCHOOL` : Animé se passant en milieu scolaire.
   - `TAG_ROMANCE` : Animé traitant de romance.
-  - `TAG_CONCERT` : Concert.
-  - `TAG_PARODY` : Parodie.
-  - `TAG_HUMOR` : Humour.
   - `TAG_VIDEOGAME` : Jeu vidéo (sans tiret, sans S).
-  - `TAG_SPOIL` : Spoilers (tout le monde ne sait pas qui est le père de Luke).
-  - `TAG_LONG` : Chanson estimée longue (plus de 5 minutes).
   - `TAG_PSX` : PSOne.
   - `TAG_PS2` : PS2.
   - `TAG_PS3` : PS3.
   - `TAG_PS4` : PS4.
-  - `TAG_PSV` : PSVita.
   - `TAG_PSP` : PSP.
-  - `TAG_DS` : Nintendo DS.
-  - `TAG_GAMECUBE` : Gamecube.
+  - `TAG_PSV` : PSVita.
   - `TAG_XBOX360` : XBOX 360.
+  - `TAG_GAMECUBE` : Gamecube.
+  - `TAG_DS` : Nintendo DS.
   - `TAG_PC` : PC.
   - `TAG_SEGACD` : Mega CD.
 - `songwriter` : Nom du ou des compositeurs. Séparer par des virgules si plusieurs compositeurs. L'ordre est "**prénom** puis **nom**".
