@@ -206,7 +206,7 @@ Sur MyAnimeList, le nom des artistes / personnages sont toujours notés comme su
 
 Sur anidb c'est la même chose : **[Nom] [Prénom]**
 
-![AniDB](../img_tuto/anidb.png)
+![AniDB](../img_tutos/anidb.png)
 
 La bonne réponse est Megumi Hayashibara, donc.
 
