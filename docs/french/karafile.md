@@ -152,7 +152,100 @@ Les quatre dernières lignes sont remplies automatiquement par **Karaoke Mugen**
 - `videosize` : Taille en octets de la vidéo, cela permet à **Karaoke Mugen** de repérer si vous avez remplacé le fichier vidéo. Si c'est le cas, la base de données sera regénérée et les valeurs suivantes recalculées.
 - `videogain` : Gain audio de la vidéo. Il est calculé lors de la génération via *FFMPEG*. Cela permet d'égaliser le son de toutes les vidéos de votre base de données pour éviter les sursauts de changement de volume lors du passage d'une chanson à l'autre.
 - `videoduration` : Détecté aussi lors de la génération de la base de données, il permet de savoir combien de temps en secondes dure la vidéo. Cette valeur permet ensuite de gérer l'animation de la barre de progression sur l'interface utilisateur.
-- `dateadded` : Date when it was added in the database.
+- `dateadded` : Date d'ajout dans la base de données
+- `datemodif` : Date de dernière modification
+
+#### Lorsque vous modifiez un .kara existant
+
+Supprimez les lignes suivantes :
+
+- `datemodif`
+
+#### Lorsque vous créez un nouveau .kara en prenant un autre .kara comme modèle
+
+Supprimez les lignes suivantes pour qu'elles soient regénérées :
+
+- `kid`
+- `datemodif`
+- `dateadded`
+
+Les données vidéo seront regénérées toute seule si une modification est détectée.
+
+#### Protips de remplissage de .kara
+
+Tout d'abord, quand vous remplissez le .kara, il est important d'avoir de bonnes références pour ne pas se tromper sur les artistes / chanteurs / compositeurs / studio / etc.
+
+##### Références
+
+- Pour les .karas d'animes, on se référera sur :
+  - [MyAnimeList](http://myanimelist.net/)
+  - [anidb](https://anidb.net/) (onglet _songs_, après la section _Anime Tags_)
+- Pour les .karas de Visual Novel :
+  - [vndb](https://vndb.org/)
+- Pour les jeux vidéo :
+  - [vgmdb](http://vgmdb.net/)
+
+Si vraiment vous galérez à trouver une info en particulier, Google, NicoNico, ou Internet de manière générale restent de très bons alliés. Il y a des infos, comme par exemple des auteurs d'AMV des années 2000 qui sont difficiles à trouver. On ne vous fouettera pas sur la place publique si vous ne remplissez pas toutes les informations.
+
+##### Normes des noms
+
+Lors du remplissage, merci de toujours noter les personnes impliqués dans cet ordre : **[Prénom] [Nom]**
+
+Par exemple :
+
+- Hatsune Miku / Megurine Luka / Kagamine Len ✖
+- **Miku Hatsune / Luka Megurine / Len Kagamine** ✔
+- Ayanami Rei / Shinkai Makoto / Nagato Yuki ✖
+- **Rei Ayanami / Makoto Shinkai / Yuki Nagato** ✔
+
+Comment ne pas se tromper ?
+
+Sur MyAnimeList, le nom des artistes / personnages sont toujours notés comme suit : **[Nom], [Prénom]**
+
+[Ceci est un exemple](https://myanimelist.net/people/1117) où il suffit juste d'inverser.
+
+Sur anidb c'est la même chose : **[Nom] [Prénom]**
+
+![AniDB](../img_tuto/anidb.png)
+
+La bonne réponse est Megumi Hayashibara, donc.
+
+##### Normes de nommage des noms de fichiers
+
+Si vous voyez un .kara (donc une vidéo) qui porte un nom inexact, vous pouvez tout à fait le renommer. Mais **ATTENTION**, il faut tout renommer :
+
+- **le nom du .kara en lui-même** (machin.kara -> truc.kara)
+- **les données dans ledit .kara** (à savoir les lignes "videofile" et "subfile")
+- **le .ass** (que vous venez à l'instant de renommer dans le .kara avec "subfile")
+
+Mais ce n'est pas encore complètement terminé, car il reste à renommer la vidéo. Pour ça, [demandez sur Discord dans le canal #karaoke](https://discord.gg/a8dMYek) de vous donner un accès au ftp pour renommer vous-même les vidéos. 
+
+##### Les noms alternatifs de séries
+
+Si, pendant vos merveilleuses sessions de remplissage, vous trouvez des nom alternatifs de série, rajoutez-les à la base de noms alternatifs déjà existante.
+
+Ça s'appelle **_series_altnames.csv_** et ça se trouve à la racine même de votre dossier **_karaokebase_**
+
+**J'attire bien votre attention sur l'édition de ce fichier, car si vous l'enregistrez dans un autre format que son UTF-8, l'univers va imploser.**
+
+**Bref, ne vous posez pas de question, installez [Sublime Text](http://www.sublimetext.com) et enregistrez avec le ctrl+S habituel, comme ça aucun risque de casser le fichier. Sublime Text est aussi le must-have pour remplir les .karas**
+
+Pour ajouter un nom alternatif, on va prendre un exemple :
+
+```3-gatsu no Lion":"March comes in like a lion/Sangatsu no Lion```
+
+**3-gatsu no Lion** étant le nom original de la vidéo et **March comes in like a lion** et **Sangatsu no Lion** les noms alternatifs, vous devinez donc que si vous voulez en rajouter un, vous rajoutez un slash suivi de votre nom (sans espace après le slash, svp)
+
+##### Le champ `creator`
+
+Petit point sur la partie « Creator » :
+
+Nock [a fait un tableau](https://docs.google.com/spreadsheets/d/1ULoVCi7UvTG0qSMVUhnPLOOiehH5jVrVYZMsuYi9O7s/edit#gid=18648527
+) de la majorité des studios d'animation / de jeux vidéo / de toku / de films live, avec leur nom **officiel**. Servez-vous en de référence pour remplir la ligne « Creator » des .karas, par exemple n'écrivez pas **Shaft**, mais **SHAFT**. Cela évite que la base de données interprète cela comme deux noms de studio différents.
+
+##### Les bons réflexes
+
+comme la grosse majorité des .karas que vous allez remplir proviennent de séries TV japonaise, par réflexe, n'oubliez pas le petit «TAG_ANIME,TAG_TVSHOW» dans la ligne `tag`.
 
 ### Valider un .kara par Karaoke Mugen
 
