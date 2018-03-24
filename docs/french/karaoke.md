@@ -142,7 +142,7 @@ Une fois la synchronisation terminée, il suffit d'appliquer un script, qui perm
 1. Cochez "Commentaire"
 1. Appliquez-le en allant dans : Automatisme > Appliquer le modèle karaoké
 
-(Alternativement, il est possible de copier-coller le texte suivant en sélectionnant la première ligne de votre Karaoké :  
-```Comment: 0,0:00:00.00,0:00:00.62,Default,,0,0,0,template pre-line all keeptags,!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}```  )
+Alternativement, il est possible de copier-coller le texte suivant en sélectionnant la première ligne de votre Karaoké :  
+```Comment: 0,0:00:00.00,0:00:00.62,Default,,0,0,0,template pre-line all keeptags,!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}```
 
 Si tout est bon vous obtenez ça : ![Capture_d_écran_2017-09-24_à_14.18.26](/uploads/c8a24da60f1178ec1208e0c674c8d340/Capture_d_écran_2017-09-24_à_14.18.26.png) (réparer la capture d'écran)
