@@ -85,21 +85,21 @@ N'ayez pas peur, tout n'est pas à remplir par vous-même (mais une grande parti
 - `year` : Année de production de la série/vidéo.
 - `singer` : Chanteur/euse, ou groupe qui chante. Si plusieurs chanteurs, séparer par des virgules. L'ordre est "**prénom** puis **nom**".
 - `tags` : Une liste de tags séparés par des virgules, pouvant servir à mieux catégoriser votre karoaké. Voici la liste des tags reconnus actuellement :
-  - `TAG_SPECIAL` : Spécial.
-  - `TAG_REMIX` : Remix (version alternative des paroles, parodique le plus souvent).
-  - `TAG_VOICELESS` : Karaoké sans voix (si si).
-  - `TAG_CONCERT` : Concert.
-  - `TAG_PARODY` : Parodie.
-  - `TAG_HUMOR` : Humour.
-  - `TAG_R18` : Pour adultes (on sait que vous allez les rechercher tout de suite).
-  - `TAG_SPOIL` : Spoilers (tout le monde ne sait pas qui est le père de Luke).
+  - `TAG_SPECIAL` : Spécial
+  - `TAG_REMIX` : Remix (version alternative des paroles, parodique le plus souvent)
+  - `TAG_VOICELESS` : Karaoké sans voix (si si)
+  - `TAG_CONCERT` : Concert
+  - `TAG_PARODY` : Parodie
+  - `TAG_HUMOR` : Humour
+  - `TAG_R18` : Pour adultes (on sait que vous allez les rechercher tout de suite)
+  - `TAG_SPOIL` : Spoilers (tout le monde ne sait pas qui est le père de Luke)
   - `TAG_LONG` : Chanson estimée longue (plus de 5 minutes).
-  - `TAG_VOCALOID` : Vocaloid.
-  - `TAG_TOKU` : Tokusatsu/Sentai.
+  - `TAG_VOCALOID` : Vocaloid
+  - `TAG_TOKU` : Tokusatsu/Sentai
   - `TAG_REAL` : Non-animé.
-  - `TAG_ANIME` : Anime.
-  - `TAG_MOVIE` : Film.
-  - `TAG_TVSHOW` : Série.
+  - `TAG_ANIME` : Anime
+  - `TAG_MOVIE` : Film
+  - `TAG_TVSHOW` : Série télé
   - `TAG_OVA` : Original Video Animation, réservé aux séries qui n'ont pas eu de diffusion télé mais uniquement sur support (VHS/DVD/BR).
   - `TAG_ONA` : Original Network Animation, réservé aux webséries.
   - `TAG_MECHA` : Animé avec des robots.
@@ -115,18 +115,20 @@ N'ayez pas peur, tout n'est pas à remplir par vous-même (mais une grande parti
   - `TAG_YAOI` : Animé impliquant des relations entre hommes.
   - `TAG_SCHOOL` : Animé se passant en milieu scolaire.
   - `TAG_ROMANCE` : Animé traitant de romance.
-  - `TAG_VIDEOGAME` : Jeu vidéo (sans tiret, sans S).
-  - `TAG_PSX` : PSOne.
-  - `TAG_PS2` : PS2.
-  - `TAG_PS3` : PS3.
-  - `TAG_PS4` : PS4.
-  - `TAG_PSP` : PSP.
-  - `TAG_PSV` : PSVita.
-  - `TAG_XBOX360` : XBOX 360.
-  - `TAG_GAMECUBE` : Gamecube.
-  - `TAG_DS` : Nintendo DS.
-  - `TAG_PC` : PC.
-  - `TAG_SEGACD` : Mega CD.
+  - `TAG_VIDEOGAME` : Jeu vidéo (sans tiret, sans S)
+  - `TAG_PSX` : Visual Novel
+  - `TAG_MOBAGE` : Jeu pour smartphone
+  - `TAG_PSX` : PSOne
+  - `TAG_PS2` : PS2
+  - `TAG_PS3` : PS3
+  - `TAG_PS4` : PS4
+  - `TAG_PSP` : PSP
+  - `TAG_PSV` : PSVita
+  - `TAG_XBOX360` : XBOX 360
+  - `TAG_GAMECUBE` : Gamecube
+  - `TAG_DS` : Nintendo DS
+  - `TAG_PC` : PC
+  - `TAG_SEGACD` : Mega CD
 - `songwriter` : Nom du ou des compositeurs. Séparer par des virgules si plusieurs compositeurs. L'ordre est "**prénom** puis **nom**".
 - `creator` : Nom de l'entité qui a crée la série/vidéo. Studio d'animation ou boîte de production selon les cas.
 - `author` : C'est vous ! Mettez votre pseudonyme pour montrer à la terre entière que vous avez écrit un karaoké !
