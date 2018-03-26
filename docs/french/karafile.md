@@ -212,7 +212,13 @@ Sur anidb c'est la même chose : **[Nom] [Prénom]**
 
 La bonne réponse est Megumi Hayashibara, donc.
 
-Enfin, dans un souci d'harmonisation des artistes, vous êtes prié de transcrire les "ou" en "ô".
+Enfin, dans un souci d'harmonisation des artistes, vous êtes prié de respecter les rêgles suivantes :
+
+Un nom avec un "a" long (aa) devient "â"
+Un nom avec un "i" long (ii) reste "ii"
+Un nom avec un "u" long (uu) devient "û"
+Un nom avec un "e" long (ee) devient "ê"
+Un nom avec un "o" long (ou) devient "ô"
 
 Par exemple, "Chiwa Saitou" sur anidb devient "Chiwa Saitô" dans le .kara.
 
