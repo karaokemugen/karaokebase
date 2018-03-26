@@ -212,6 +212,10 @@ Sur anidb c'est la même chose : **[Nom] [Prénom]**
 
 La bonne réponse est Megumi Hayashibara, donc.
 
+Enfin, dans un souci d'harmonisation des artistes, vous êtes prié de transcrire les "ou" en "ô".
+
+Par exemple, "Chiwa Saitou" sur anidb devient "Chiwa Saitô" dans le .kara.
+
 ##### Normes de nommage des noms de fichiers
 
 Si vous voyez un .kara (donc une vidéo) qui porte un nom inexact, vous pouvez tout à fait le renommer. Mais **ATTENTION**, il faut tout renommer :
