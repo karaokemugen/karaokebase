@@ -5,8 +5,6 @@ Title: Default Aegisub file
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
-PlayResX: 1280
-PlayResY: 720
 Video Aspect Ratio: c1.77778
 YCbCr Matrix: TV.601
 
@@ -18,47 +16,34 @@ Keyframes File: ../[Leopard-Raws] Macross Delta - 16 RAW (BS11 1280x720 x264 AAC
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.625000
+Active Line: 6
 Video Position: 33483
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: título-furigana,Signika,25,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,94,97,0,0,1,0,0,2,40,40,42,1
-Style: OP2 ESP-furigana,Tw Cen MT Condensed Extra Bold,24.5,&H10EFB9F8,&H707C0E73,&H00E1419C,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,2,30,30,18,1
-Style: OP2 JAP-furigana,Continuum Bold,24,&H10EFB9F8,&H707C0E73,&H00E1419C,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,30,30,18,1
-Style: God bless you 2-furigana,Clearface Gothic LT Std Black,19,&H00FFFFFF,&H0062251F,&H00ECAFA6,&H00000000,0,0,0,0,100,100,0,0,1,1,0,1,22,22,22,1
-Style: God bless you-furigana,Clearface Gothic LT Std Black,19,&H00ECAFA6,&H00FFFFFF,&H0062251F,&H00000000,0,0,0,0,100,100,0,0,1,1,0,7,22,22,22,1
-Style: Kaze wa yokoku naku fuku-furigana,Source Sans Pro Black,23,&H006EE0E2,&H00E0FBFC,&H00094559,&H00000000,0,0,0,0,89,100,0,0,1,1,0,7,23,23,23,1
-Style: Sign-furigana,Open Sans Semibold,27,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.275,0,8,40,40,42,1
-Style: Default-furigana,Prototype,23,&H00FFFFFF,&H00032031,&H00232323,&H00000000,0,0,0,0,90,100,0,0,1,1.15,0,2,25,25,25,0
-Style: Default,Prototype,46,&H00FFFFFF,&H00032031,&H00232323,&H00000000,0,0,0,0,90,100,0,0,1,2.3,0,2,25,25,25,0
-Style: Sign,Open Sans Semibold,54,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.55,0,8,40,40,42,1
-Style: Kaze wa yokoku naku fuku,Source Sans Pro Black,46,&H006EE0E2,&H00E0FBFC,&H00094559,&H00000000,0,0,0,0,89,100,0,0,1,2,0,7,23,23,23,1
-Style: God bless you,Clearface Gothic LT Std Black,38,&H00ECAFA6,&H00FFFFFF,&H0062251F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,22,22,22,1
-Style: God bless you 2,Clearface Gothic LT Std Black,38,&H00FFFFFF,&H0062251F,&H00ECAFA6,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,22,22,22,1
-Style: OP2 JAP,Continuum Bold,48,&H10EFB9F8,&H707C0E73,&H00E1419C,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,30,30,18,1
-Style: OP2 ESP,Tw Cen MT Condensed Extra Bold,49,&H10EFB9F8,&H707C0E73,&H00E1419C,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,30,30,18,1
-Style: título,Signika,50,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,94,97,0,0,1,0,0,2,40,40,42,1
+Style: God bless you-furigana,Arial,10,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,10,10,10,1
+Style: God bless you,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:03.68,0:00:06.06,God bless you,,0,0,0,karaoke,{\an9}{\k90}GOD {\k79}BLESS {\k68}YOU
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}
+Comment: 0,0:00:03.68,0:00:06.06,God bless you,,0,0,0,karaoke,{\k90}GOD {\k79}BLESS {\k68}YOU
 Comment: 0,0:00:06.06,0:00:10.90,God bless you,,0,0,0,karaoke,{\k52}ko{\k18}n{\k35}na{\k19}ni{\k19}mo {\k40}da{\k18}re{\k21}ka {\k32}wo {\k26}a{\k9}i{\k33}se{\k31}ru {\k28}na{\k36}n{\k67}te
-Comment: 0,0:00:10.90,0:00:18.53,God bless you,,0,0,0,karaoke,{\k28}shi{\k18}ra{\k20}na{\k53}ka{\k65}tta {\k17}ko{\k15}no {\k38}o{\k23}mo{\k71}i {\k25}mo{\k21}do{\k17}re{\k13}ru {\k25}ha{\k21}zu {\k25}na{\k12}n{\k37}te {\k25}na{\k12}i {\k41}ka{\k141}ra
-Comment: 0,0:00:18.53,0:00:23.33,God bless you,,0,0,0,karaoke,{\k28}ko{\k23}n{\k34}na {\k21}se{\k26}ka{\k16}i {\k19}de{\k34}ta{\k24}tta {\k17}hi{\k19}to{\k18}tsu {\k18}no {\k44}shi{\k22}a{\k31}wa{\k87}se
+Comment: 0,0:00:10.90,0:00:18.53,God bless you,,0,0,0,karaoke,{\k28}shi{\k18}ra{\k20}na{\k53}kat{\k65}ta {\k17}ko{\k15}no {\k38}o{\k23}mo{\k71}i {\k25}mo{\k21}do{\k17}re{\k13}ru {\k25}ha{\k21}zu {\k25}na{\k12}n{\k37}te {\k25}na{\k12}i {\k41}ka{\k141}ra
+Comment: 0,0:00:18.53,0:00:23.33,God bless you,,0,0,0,karaoke,{\k28}ko{\k23}n{\k34}na {\k21}se{\k26}ka{\k16}i {\k19}de{\k34}tat{\k24}ta {\k17}hi{\k19}to{\k18}tsu {\k18}no {\k44}shi{\k22}a{\k31}wa{\k87}se
 Comment: 0,0:00:23.33,0:00:35.63,God bless you,,0,0,0,karaoke,{\k31}wa{\k17}ka{\k42}chi{\k26}a{\k54}u {\k15}yo{\k17}ro{\k43}ko{\k15}bi {\k74}mo {\k23}a{\k20}fu{\k13}re{\k23}so{\k17}u {\k62}na {\k18}na{\k24}mi{\k18}da {\k17}no {\k35}wa{\k26}ke {\k599}mo
 Comment: 0,0:00:37.17,0:00:45.39,God bless you,,0,0,0,karaoke,{\k23}mo{\k28}shi{\k40}mo {\k15}i{\k20}ma {\k40}ki{\k19}mi {\k14}no {\k42}mu{\k21}na{\k41}mo{\k18}to {\k76}ni {\k39}hi{\k116}to{\k62}tsu{\k16}bu {\k192}no
-Comment: 0,0:00:44.51,0:00:48.77,God bless you,,0,0,0,karaoke,{\an9}{\k49}a{\k39}o{\k108}i {\k87}ka{\k25}na{\k27}shi{\k92}mi
+Comment: 0,0:00:44.51,0:00:48.77,God bless you,,0,0,0,karaoke,{\k49}a{\k39}o{\k108}i {\k87}ka{\k25}na{\k27}shi{\k92}mi
 Comment: 0,0:00:49.44,0:00:56.86,God bless you,,0,0,0,karaoke,{\k34}o{\k18}chi{\k38}te{\k21}ki{\k17}ta {\k28}to {\k27}shi{\k40}te{\k93}mo {\k23}hi{\k23}ka{\k35}ri {\k38}no {\k38}ya {\k39}mo {\k40}ha{\k17}na{\k172}chi
-Comment: 0,0:00:56.86,0:00:59.82,God bless you,,0,0,0,karaoke,{\an9}{\k40}u{\k40}chi{\k117}nu{\k98}kou
+Comment: 0,0:00:56.86,0:00:59.82,God bless you,,0,0,0,karaoke,{\k40}u{\k40}chi{\k117}nu{\k98}kou
 Comment: 0,0:00:59.82,0:01:15.54,God bless you,,0,0,0,karaoke,{\k36}ki{\k20}se{\k20}ki {\k52}na{\k79}ra {\k22}ka{\k48}mi{\k28}sa{\k60}ma {\k17}ko{\k57}no {\k29}a{\k50}i {\k18}wo {\k22}su{\k34}be{\k21}te {\k244}wo {\k41}mi{\k45}chi{\k37}bi{\k38}i{\k554}te
-Dialogue: 0,0:00:02.78,0:00:06.26,God bless you,,0,0,0,fx,{\k90\fad(300,200)}{\an9}{\k90}GOD {\k79}BLESS {\k68}YOU
-Dialogue: 0,0:00:05.16,0:00:11.10,God bless you,,0,0,0,fx,{\k90\fad(300,200)}{\k52}ko{\k18}n{\k35}na{\k19}ni{\k19}mo {\k40}da{\k18}re{\k21}ka {\k32}wo {\k26}a{\k9}i{\k33}se{\k31}ru {\k28}na{\k36}n{\k67}te
-Dialogue: 0,0:00:10.00,0:00:18.73,God bless you,,0,0,0,fx,{\k90\fad(300,200)}{\k28}shi{\k18}ra{\k20}na{\k53}ka{\k65}tta {\k17}ko{\k15}no {\k38}o{\k23}mo{\k71}i {\k25}mo{\k21}do{\k17}re{\k13}ru {\k25}ha{\k21}zu {\k25}na{\k12}n{\k37}te {\k25}na{\k12}i {\k41}ka{\k141}ra
-Dialogue: 0,0:00:17.63,0:00:23.53,God bless you,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ko{\k23}n{\k34}na {\k21}se{\k26}ka{\k16}i {\k19}de{\k34}ta{\k24}tta {\k17}hi{\k19}to{\k18}tsu {\k18}no {\k44}shi{\k22}a{\k31}wa{\k87}se
-Dialogue: 0,0:00:22.43,0:00:35.83,God bless you,,0,0,0,fx,{\k90\fad(300,200)}{\k31}wa{\k17}ka{\k42}chi{\k26}a{\k54}u {\k15}yo{\k17}ro{\k43}ko{\k15}bi {\k74}mo {\k23}a{\k20}fu{\k13}re{\k23}so{\k17}u {\k62}na {\k18}na{\k24}mi{\k18}da {\k17}no {\k35}wa{\k26}ke {\k599}mo
-Dialogue: 0,0:00:36.27,0:00:45.59,God bless you,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mo{\k28}shi{\k40}mo {\k15}i{\k20}ma {\k40}ki{\k19}mi {\k14}no {\k42}mu{\k21}na{\k41}mo{\k18}to {\k76}ni {\k39}hi{\k116}to{\k62}tsu{\k16}bu {\k192}no
-Dialogue: 0,0:00:43.61,0:00:48.97,God bless you,,0,0,0,fx,{\k90\fad(300,200)}{\an9}{\k49}a{\k39}o{\k108}i {\k87}ka{\k25}na{\k27}shi{\k92}mi
-Dialogue: 0,0:00:48.54,0:00:57.06,God bless you,,0,0,0,fx,{\k90\fad(300,200)}{\k34}o{\k18}chi{\k38}te{\k21}ki{\k17}ta {\k28}to {\k27}shi{\k40}te{\k93}mo {\k23}hi{\k23}ka{\k35}ri {\k38}no {\k38}ya {\k39}mo {\k40}ha{\k17}na{\k172}chi
-Dialogue: 0,0:00:55.96,0:01:00.02,God bless you,,0,0,0,fx,{\k90\fad(300,200)}{\an9}{\k40}u{\k40}chi{\k117}nu{\k98}kou
-Dialogue: 0,0:00:58.92,0:01:15.74,God bless you,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ki{\k20}se{\k20}ki {\k52}na{\k79}ra {\k22}ka{\k48}mi{\k28}sa{\k60}ma {\k17}ko{\k57}no {\k29}a{\k50}i {\k18}wo {\k22}su{\k34}be{\k21}te {\k244}wo {\k41}mi{\k45}chi{\k37}bi{\k38}i{\k554}te
+Dialogue: 0,0:00:02.68,0:00:06.16,God bless you,,0,0,0,fx,{\fade(255,0,255,0,850,3380,3480)\k90}{\k90}GOD {\k79}BLESS {\k68}YOU
+Dialogue: 0,0:00:05.06,0:00:11.00,God bless you,,0,0,0,fx,{\fade(255,0,255,0,850,5840,5940)\k90}{\k52}ko{\k18}n{\k35}na{\k19}ni{\k19}mo {\k40}da{\k18}re{\k21}ka {\k32}wo {\k26}a{\k9}i{\k33}se{\k31}ru {\k28}na{\k36}n{\k67}te
+Dialogue: 0,0:00:09.90,0:00:18.63,God bless you,,0,0,0,fx,{\fade(255,0,255,0,850,8630,8730)\k90}{\k28}shi{\k18}ra{\k20}na{\k53}kat{\k65}ta {\k17}ko{\k15}no {\k38}o{\k23}mo{\k71}i {\k25}mo{\k21}do{\k17}re{\k13}ru {\k25}ha{\k21}zu {\k25}na{\k12}n{\k37}te {\k25}na{\k12}i {\k41}ka{\k141}ra
+Dialogue: 0,0:00:17.53,0:00:23.43,God bless you,,0,0,0,fx,{\fade(255,0,255,0,850,5800,5900)\k90}{\k28}ko{\k23}n{\k34}na {\k21}se{\k26}ka{\k16}i {\k19}de{\k34}tat{\k24}ta {\k17}hi{\k19}to{\k18}tsu {\k18}no {\k44}shi{\k22}a{\k31}wa{\k87}se
+Dialogue: 0,0:00:22.33,0:00:35.73,God bless you,,0,0,0,fx,{\fade(255,0,255,0,850,13300,13400)\k90}{\k31}wa{\k17}ka{\k42}chi{\k26}a{\k54}u {\k15}yo{\k17}ro{\k43}ko{\k15}bi {\k74}mo {\k23}a{\k20}fu{\k13}re{\k23}so{\k17}u {\k62}na {\k18}na{\k24}mi{\k18}da {\k17}no {\k35}wa{\k26}ke {\k599}mo
+Dialogue: 0,0:00:36.17,0:00:45.49,God bless you,,0,0,0,fx,{\fade(255,0,255,0,850,9220,9320)\k90}{\k23}mo{\k28}shi{\k40}mo {\k15}i{\k20}ma {\k40}ki{\k19}mi {\k14}no {\k42}mu{\k21}na{\k41}mo{\k18}to {\k76}ni {\k39}hi{\k116}to{\k62}tsu{\k16}bu {\k192}no
+Dialogue: 0,0:00:43.51,0:00:48.87,God bless you,,0,0,0,fx,{\fade(255,0,255,0,850,5260,5360)\k90}{\k49}a{\k39}o{\k108}i {\k87}ka{\k25}na{\k27}shi{\k92}mi
+Dialogue: 0,0:00:48.44,0:00:56.96,God bless you,,0,0,0,fx,{\fade(255,0,255,0,850,8420,8520)\k90}{\k34}o{\k18}chi{\k38}te{\k21}ki{\k17}ta {\k28}to {\k27}shi{\k40}te{\k93}mo {\k23}hi{\k23}ka{\k35}ri {\k38}no {\k38}ya {\k39}mo {\k40}ha{\k17}na{\k172}chi
+Dialogue: 0,0:00:55.86,0:00:59.92,God bless you,,0,0,0,fx,{\fade(255,0,255,0,850,3960,4060)\k90}{\k40}u{\k40}chi{\k117}nu{\k98}kou
+Dialogue: 0,0:00:58.82,0:01:15.64,God bless you,,0,0,0,fx,{\fade(255,0,255,0,850,16720,16820)\k90}{\k36}ki{\k20}se{\k20}ki {\k52}na{\k79}ra {\k22}ka{\k48}mi{\k28}sa{\k60}ma {\k17}ko{\k57}no {\k29}a{\k50}i {\k18}wo {\k22}su{\k34}be{\k21}te {\k244}wo {\k41}mi{\k45}chi{\k37}bi{\k38}i{\k554}te
