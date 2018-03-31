@@ -32,20 +32,8 @@ test:
     - npm start -- --debug --generate        
   only:
     - master
-
-
-shelter:
-  stage: deploy
-  dependencies:
-    - test
-  script:
-    - cp -f db/karas.sqlite3 /shelter/app/db/karas.sqlite3
-    - cd /shelter/app/data/
-    - git pull
-  only:
-    - master
-
-export_website:
+  
+export_website:  
   stage: deploy
   script:
     - apt-get update -qq && apt-get install -y -qq lftp sqlite3
