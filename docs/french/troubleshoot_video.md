@@ -17,12 +17,13 @@ Il est déjà arrivé que des vidéos aient une métadonnée "duration" complèt
 
 ### Vidéos beaucoup trop lourdes
 
-Bien qu'un [standard](material.md#les-formats-vidéos-à-respecter) ait été convenu sur le tard afin d'éviter que la base de vidéos ne pèse trop lourd, beaucoup de vidéos ne respectent pas ce dernier. Il faudra donc se servir des outils cités en première partie de ce tutoriel pour faire respecter la loi liant résolution et bitrate. De même, un plan d'extermination des AVI et WEBM sera mené... un jour.
+Bien qu'un [standard](material.md#les-formats-vidéos-à-respecter) ait été convenu sur le tard afin d'éviter que la base de vidéos ne pèse trop lourd, beaucoup de vidéos ne respectent pas ce dernier. Il faudra donc se servir des outils cités en première partie de cette page pour faire respecter la loi liant résolution et bitrate. De même, un plan d'extermination des AVI et WEBM sera mené... un jour.
 
 Pour rappel, la convention "SLIMFAST" admet les correspondances suivantes :
 
-| Résolution vidéo (axe Y) | Bitrate maximum | Poids fichier approximatif, pour 1 min 30 |
+| **Résolution vidéo (axe Y)** | **Bitrate maximum** | **Poids fichier approximatif, pour 1 min 30** |
 | -------------------------------- | ---------------------- | ------------------------------------------------------ |
+| 4K | 10000 Kbps | 100Mo |
 | 1080p | 8000Kbps | 80Mo |
 | 720p | 4000Kbps | 40Mo |
 | 480p | 3000Kbps | 30Mo |

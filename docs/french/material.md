@@ -52,8 +52,9 @@ Que vous ayez trouvé une source sur Internet ou que vous ayez effectué une ext
 * Votre codec vidéo est libre, mais on privilégiera le **h264** ou le h265 qui sont les codecs habituels du MP4.
 * Vous devrez respecter le tableau de relation ***résolution / bitrate vidéo maximum*** suivant, tout en gardant à l'esprit que si votre générique est plutôt fixe, il peut largement aller en-dessous :
 
-| Résolution vidéo (axe Y) | Bitrate maximum | Poids fichier approximatif, pour 1 min 30 |
+| **Résolution vidéo (axe Y)** | **Bitrate maximum** | **Poids fichier approximatif, pour 1 min 30** |
 | -------------------------------- | ---------------------- | ------------------------------------------------------ |
+| 4K | 10000 Kbps | 100Mo |
 | 1080p | 8000Kbps | 80Mo |
 | 720p | 4000Kbps | 40Mo |
 | 480p | 3000Kbps | 30Mo |
