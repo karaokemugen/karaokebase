@@ -51,7 +51,14 @@ Que vous ayez trouvé une source sur Internet ou que vous ayez effectué une ext
 * Votre conteneur doit être le **MP4** ou éventuellement le MKV (mais on privilégie vraiment le MP4). Par pitié, ne nous envoyez pas de AVI : on n'est plus en 2008 !
 * Votre codec vidéo est libre, mais on privilégiera le **h264** ou le h265 qui sont les codecs habituels du MP4.
 * Vous devrez respecter le tableau de relation ***résolution / bitrate vidéo maximum*** suivant, tout en gardant à l'esprit que si votre générique est plutôt fixe, il peut largement aller en-dessous :
-![](../img_tutos/ResolutionBitrate.png)
+
+| Résolution vidéo (axe Y) | Bitrate maximum | Poids fichier approximatif, pour 1 min 30 |
+| -------------------------------- | ---------------------- | ------------------------------------------------------ |
+| 1080p | 8000Kbps | 80Mo |
+| 720p | 4000Kbps | 40Mo |
+| 480p | 3000Kbps | 30Mo |
+| 360p | 2000Kbps | 20Mo |
+
 * Votre codec audio est libre, mais on vous encourage à retenir le **AAC** ou le **AC3** et de garder le paramètre de qualité par défaut.
 
 ## Trouver les "vraies" paroles
