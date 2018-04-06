@@ -4,7 +4,7 @@ Bien le bonjour ! Votre générique préféré n'est pas dans la base Karaoke Mu
 
 **Deux solutions :** soit vous déposez une *issue* via le [formulaire](https://lab.shelter.moe/Karaokemugen/karaokebase/issues/new) avec le template "*Suggestion de Kara*", et espérez qu'une brave âme fasse le travail... Soit vous le réalisez vous-même ! C'est simple, et on va tout vous expliquer dans ce tutoriel. Allez, c'est parti ! :)
 
-Il est conseillé de suivre les étapes dans l'ordre.
+Il est conseillé de suivre les étapes dans l'ordre, excepté pour la section "*Outils de dépannage & erreurs récurrentes*" qui vous donnera des astuces en vrac pour corriger les problèmes que peut rencontrer la base.
 
 1. Se préparer
    1. [Réunir le matériel](material.md)
@@ -18,4 +18,8 @@ Il est conseillé de suivre les étapes dans l'ordre.
    1. [Chanter sur votre karaoké](sing.md)
 1. Contribuer à la base
    1. [Envoyer votre karaoké](upload.md)
+1. Outils de dépannage & erreurs récurrentes
+   1. [Le .kara](troubleshoot_kara.md)
+   1. [Le .ass](troubleshoot_sub.md)
+   1. [Les vidéos](troubleshoot_video.md)
 1. [Foire aux questions](faq.md)
