@@ -1,3 +1,52 @@
+# March 2018
+
+## Added
+
+- ANG - ACCA 13-ku Kansatsuka - Shadow and Truth
+- ANG - Beck - ED1 - My World Down
+- ANG - Kingdom Hearts - OP - Simple and clean
+- ANG - Masaaki Endoh - MV - GO GO POWER RANGERS
+- ANG - Metal Gear Solid 3 - ED - Way To Fall
+- ANG - Metal Gear Solid 5 - MV - Nuclear
+- ANG - Xenogears - ED - Small Two of Pieces
+- ANG - Xenogears - MV - Stars of Tears
+- FIC - Les Petits Chanteurs de la Crois de Bois - MV - Duet for Two Cats
+- FR - Animaniacs - IN - Le Monde par Yakko
+- FR - Crossed - MV - Attention Dino Danger
+- FR - Itoura Moussongo - MV - Steph
+- FR - Kad et Olivier - MV - Compilation des chanteurs inconnus
+- FR - Kizumonogatari II Nekketsu-hen - ED - Etoile et toi
+- FR - Kizumonogatari III Reiketsu-hen - ED - Etoile et toi (edition le blanc)
+- FR - Les Inconnus - MV - Le Hit des Hit
+- FR - Michel Vedette - MV - Le Cruiser (Et voilà!)
+- FR - Mimi wo Sumaseba - IN - Country Road
+- FR - Odin Sphere - OP - Odin Sphere Theme
+- FR - Pokémon 3 : Le Pouvoir des Zarbi - OP
+- FR - Un AMV francais - ED - Ces soirees-la
+- GLE - Metal Gear Solid - The Best Is Yet To Come
+- JAP - Aikatsu! - IN - Tarte Tatin
+- JAP - Aikatsu! Photo on Stage!! - MV - Kindan Hide & Seek
+- JAP - Burning Rangers - AMV - Burning Hearts ~Angel~
+- JAP - Bungou Stray Dogs - OP2 - Reason Living (Kuro no Jidai ver.1) (2 et 3 aussi)
+- JAP - Fireworks - MV - Uchiage Hanabi
+- JAP - Juuni Taisen - OP - Rapture
+- JAP - Hakaba Kitarou - OP - Mononoke Dance
+- JAP - Kaitou Sentai Lupinranger VS Keisatsu Sentai Patranger - OP
+- JAP - Karakai Jouzu no Takagi-san - OP - Iwanai kedo ne.
+- JAP - Katsugeki Touken Ranbu - OP1 - Hikari Tatsu Ame
+- JAP - Kingdom Hearts - OP - Hikari
+- JAP - Otaku no video - OP - Tatakae Otaking
+- JAP - Pokemon Sun & Moon - OP - Alola!!
+- JAP - Shokugeki no Souma San no Sara - OP - BRAVER
+- JAP - Shoukoku no Altair - OP2 - akairo
+- JAP - Shouwa Genroku Rakugo Shinjuu Sukeroku Futatabi-hen - OP - Imawa no Shinigami
+- JAP - Soukihei MD Geist - AMV - Merciless Soldier
+- JAP - Touhou - OT - Okuu's Nuclear Fusion Dojo
+- JAP - Touken Ranbu ONLINE - OP - Mugen Ranbu Shou
+- JAP - Tsuki ga Kirei - OP - Ima Koko
+- JAP - Youjo Senki - OP - JINGO JUNGLE
+- INT - Pokemon - OP - Gotta catch'em all
+
 # February 2018
 
 ## Added
