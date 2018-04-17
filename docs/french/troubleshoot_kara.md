@@ -6,30 +6,7 @@ Pour l'instant, les fichiers **.kara** doivent être tous créés et remplis man
 
 ### Créer un .kara valide
 La [documentation complète](karafile.md) fait foi pour s'assurer de la validité d'un *.kara*, mais rappelons par l'exemple les champs nécessaires à ces derniers :
-
-```
-***videofile=ALL - Dschinghis Khan - MV - Moskau.mp4***
-***subfile=ALL - Dschinghis Khan - MV - Moskau.ass***
-*subchecksum=3323b862f506468fecadd14fa5d98452*
-***title=Moskau***
-**series=**
-***type=MV***
-**order=**
-***year=1980***
-***singer=Dschinghis Khan***
-**tags=TAG_CONCERT,TAG_REAL**
-**songwriter=Ralph Siegel**
-**creator=Eurovision**
-**author=**
-***lang=ger***
-*KID=d9bb6a76-2b7d-469e-ba44-6acfc463202e*
-*dateadded=1507741391*
-*datemodif=1522051346*
-*videosize=21563860*
-*videogain=-3.59*
-*videoduration=190*
-*version=2*
-```
+![](../img_tutos/KaraType.png)
 
 Les champs **en gras** ci-dessus sont les champs dont la présence est obligatoire lorsque vous créerez "*à la main*" vos fichiers *.kara*. Les autres sont générés par Karaoké Mugen lors de la création de la base de données. Si ces champs n'existent pas, votre base de données ne sera pas générée.
 
