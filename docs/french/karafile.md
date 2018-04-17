@@ -117,7 +117,7 @@ N'ayez pas peur, tout n'est pas à remplir par vous-même (mais une grande parti
   - `TAG_SCHOOL` : Animé se passant en milieu scolaire.
   - `TAG_ROMANCE` : Animé traitant de romance.
   - `TAG_VIDEOGAME` : Jeu vidéo (sans tiret, sans S)
-  - `TAG_PSX` : Visual Novel
+  - `TAG_VN` : Visual Novel
   - `TAG_MOBAGE` : Jeu pour smartphone
   - `TAG_PSX` : PSOne
   - `TAG_PS2` : PS2
