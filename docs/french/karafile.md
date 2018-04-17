@@ -94,7 +94,7 @@ N'ayez pas peur, tout n'est pas à remplir par vous-même (mais une grande parti
   - `TAG_R18` : Pour adultes (on sait que vous allez les rechercher tout de suite)
   - `TAG_SPOIL` : Spoilers (tout le monde ne sait pas qui est le père de Luke)
   - `TAG_LONG` : Chanson estimée longue (plus de 5 minutes).
-  - `TAG_HARDCORE` : Bonne chance ;)
+  - `TAG_HARDMODE` : Bonne chance ;)
   - `TAG_VOCALOID` : Vocaloid
   - `TAG_TOKU` : Tokusatsu/Sentai
   - `TAG_REAL` : Non-animé.
