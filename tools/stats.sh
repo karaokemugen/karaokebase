@@ -9,7 +9,7 @@ DB=$1
 KARAS=`sqlite3 $1 "SELECT COUNT(*) FROM kara;"`
 ARTISTS=`sqlite3 $1 "SELECT COUNT(*) FROM tag WHERE tagtype = 2;"`
 LANGS=`sqlite3 $1 "SELECT COUNT(*) FROM tag WHERE tagtype = 5;"`
-DURATION=`sqlite3 $1 "SELECT SUM(videolength) FROM kara;"`
+DURATION=`sqlite3 $1 "SELECT SUM(duration) FROM kara;"`
 
 echo "{ \"karas\": $KARAS,"
 echo "  \"singers\": $ARTISTS,"
