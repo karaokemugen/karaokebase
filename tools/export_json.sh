@@ -4,4 +4,4 @@
 
 DB=$1
 
-sqlite3 $DB "SELECT '{\"karas\":[' || group_concat(json_object('kid',kid,'title',title,'duration',medialength,'audiogain',gain,'year',year,'mediafile',mediafile,'dateadded',created_at,'datemodif',modified_at,'order',songorder,'serie',serie,'singer',singer,'type',songtype,'creator',creator,'lang',language,'author',author,'tags',misc,'songwriter',songwriter)) || ']}' FROM all_karas;"
+sqlite3 $DB "SELECT '{\"karas\":[' || group_concat(json_object('kid',kid,'title',title,'duration',duration,'audiogain',gain,'year',year,'mediafile',mediafile,'dateadded',created_at,'datemodif',modified_at,'order',songorder,'serie',serie,'singer',singer,'type',songtype,'creator',creator,'lang',language,'author',author,'tags',misc,'songwriter',songwriter)) || ']}' FROM all_karas;"
