@@ -23,15 +23,12 @@ test:
     - touch mpv
     - echo "PathKaras=../karas" >config.ini
     - echo "PathSubs=../lyrics" >>config.ini
-    - echo "PathVideos=/shelter/app/data/videos" >>config.ini 
+    - echo "PathMedias=/shelter/app/data/videos" >>config.ini 
     - echo "BinffmpegLinux=../ffmpeg/ffmpeg" >>config.ini
     - echo "BinffprobeLinux=../ffmpeg/ffprobe" >>config.ini
     - echo "BinPlayerLinux=mpv" >>config.ini
     - echo "PathDB=../db" >>config.ini
     - echo "PathAltname=../series_altnames.csv" >>config.ini
-    - ls /shelter
-    - ls /shelter/app
-    - ls /shelter/app/data
     - npm start -- --debug --generate --strict      
   only:
     - master
