@@ -24,35 +24,35 @@ Style: Default,Gabriola,110,&H00C968D3,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\c!line.styleref.color3!\pos(!syl.center+line.left!,!$y-20!)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\3a&HFF&\c!line.styleref.color2!\pos(!syl.center+line.left!,!$y-20!)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move(!syl.center+line.left!,!$y-20!,!syl.center+line.left!,!$y-($height/12)-20!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\3a&HFF&\c!line.styleref.color2!\t(0,!$dur/3!,\c!line.styleref.color1!)\move(!syl.center+line.left!,!$y-20!,!syl.center+line.left!,!$y-($height/12)-20!,0,!$dur/3!)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move(!syl.center+line.left!,!$y-($height/12)-20!,!syl.center+line.left!,!$y-20!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\3a&HFF&\move(!syl.center+line.left!,!$y-($height/12)-20!,!syl.center+line.left!,!$y-20!,0,!$dur/3!)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,200)\c!line.styleref.color3!\pos(!syl.center+line.left!,!$y-20!)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,200)\3a&HFF&\pos(!syl.center+line.left!,!$y-20!)}
-Comment: 0,0:00:00.64,0:00:05.22,Default,,0,0,0,karaoke,{\k15}Se{\k18}ka{\k14}i {\k17}no {\k32}do {\k20}ma{\k26}n{\k16}na{\k30}ka {\k17}de {\k32}ki{\k15}mi {\k31}to {\k29}de{\k32}a{\k25}t{\k89}te
-Comment: 0,0:00:05.61,0:00:10.11,Default,,0,0,70,karaoke,{\k17}Ko{\k18}kyu{\k14}u {\k16}mo {\k28}de{\k20}ki{\k32}na{\k29}i {\k44}ku{\k39}ra{\k30}i {\k31}ni {\k28}na{\k20}t{\k84}te
-Comment: 0,0:00:10.63,0:00:14.60,Default,,0,0,0,karaoke,{\k16}Chi{\k17}i{\k12}sa{\k19}ku {\k31}to{\k17}ku{\k31}n {\k13}to{\k35}ku{\k17}n {\k27}to {\k21}ha{\k27}ji{\k33}ma{\k81}ru
-Comment: 0,0:00:14.97,0:00:17.85,Default,,0,0,70,karaoke,{\k38}Ki{\k30}mi {\k31}to {\k27}bo{\k35}ku {\k19}no {\k31}na{\k13}ni {\k64}ka
-Comment: 0,0:00:18.14,0:00:24.99,Default,,0,0,0,karaoke,{\k17}Sa{\k16}a {\k31}mou {\k61}ik{\k34}kai{\k32} {\k25}so{\k22}ra {\k29}wo {\k32}o{\k27}shi{\k17}e{\k342}te
-Comment: 0,0:00:25.64,0:00:30.16,Default,,0,0,70,karaoke,{\k19}To{\k12}ri {\k15}da{\k18}ke {\k34}ga {\k14}shi{\k44}ru {\k33}ha{\k29}ba{\k30}ta{\k30}ku {\k35}ha{\k32}ne {\k16}no {\k33}o{\k28}mo {\k30}sa
-Comment: 0,0:00:30.65,0:00:35.31,Default,,0,0,0,karaoke,{\k17}Mi{\k17}n{\k13}na {\k15}wa {\k31}na{\k18}ni {\k15}mo{\k32} {\k28}shi{\k35}ra{\k29}zu {\k30}ni {\k30}a{\k32}ko{\k19}ga{\k31}re{\k30}te{\k44}ru
-Comment: 0,0:00:35.60,0:00:42.55,Default,,0,0,70,karaoke,{\k36}Ki{\k30}mi {\k28}wa{\k37} {\k62}chot{\k28}to{\k37} {\k63}se{\k28}tsu{\k19}na{\k40}i {\k22}ka{\k12}o {\k47}de {\k17}wa{\k45}ra{\k16}t{\k128}ta
-Comment: 0,0:00:43.75,0:00:45.93,Default,,0,0,0,karaoke,{\k15}Bo{\k19}ku {\k16}ni {\k16}ha{\k48}ne {\k32}na{\k12}ni {\k18}mo {\k12}na{\k30}i
-Comment: 0,0:00:46.27,0:00:48.46,Default,,0,0,70,karaoke,{\k17}De{\k12}mo {\k18}ki{\k16}mi {\k17}no {\k16}na{\k14}mi{\k15}da {\k31}ga {\k33}het{\k30}te
-Comment: 0,0:00:48.75,0:00:50.92,Default,,0,0,0,karaoke,{\k18}Ho{\k17}n{\k15}ki {\k13}no {\k14}ka{\k19}o {\k16}de {\k30}wa{\k14}ra{\k20}u {\k16}na{\k25}ra
-Comment: 0,0:00:51.21,0:00:53.58,Default,,0,0,70,karaoke,{\k37}HE{\k30}RO {\k31}dat{\k33}te {\k31}don{\k30}nan {\k31}dat{\k14}te
-Comment: 0,0:00:53.75,0:00:55.97,Default,,0,0,0,karaoke,{\k17}Na{\k16}ri{\k31}kit{\k31}te {\k17}ya{\k14}ru {\k33}ka{\k32}ra {\k31}sa
-Comment: 0,0:00:56.26,0:01:00.17,Default,,0,0,70,karaoke,{\k29}Zet{\k21}tai {\k28}zet{\k18}tai {\k29}zet{\k19}tai {\k30}zet{\k18}tai {\k29}ha{\k31}na{\k30}sa{\k19}na{\k90}i
-Comment: 0,0:01:00.63,0:01:04.97,Default,,0,0,0,karaoke,{\k16}Shi{\k14}n {\k16}de{\k17}mo {\k34}ki{\k15}mi {\k29}da{\k35}ke {\k45}no {\k29}KNI{\k34}GH{\k28}T {\k33}de {\k19}i{\k70}ru
-Comment: 0,0:01:05.63,0:01:09.60,Default,,0,0,70,karaoke,{\k17}De{\k16}mo {\k16}ho{\k12}n{\k33}ki {\k21}de {\k14}na{\k15}i{\k14}te {\k31}ki{\k16}mi {\k29}wa {\k18}o{\k30}ko{\k35}t{\k80}ta
-Comment: 0,0:01:10.01,0:01:12.92,Default,,0,0,0,karaoke,{\k34}Tsu{\k31}me{\k29}ta{\k31}ku {\k33}nan{\k18}te {\k31}sa{\k17}se {\k67}nai
-Comment: 0,0:01:13.14,0:01:15.67,Default,,0,0,70,karaoke,{\k17}Bo{\k16}ku {\k15}wa {\k17}na{\k30}mi{\k12}da {\k35}wo {\k15}fu{\k96}ku
-Comment: 0,0:01:15.95,0:01:18.30,Default,,0,0,0,karaoke,{\k29}Sei{\k36}ken {\k29}nan{\k32}te {\k15}na{\k15}ku {\k33}tat{\k16}te {\k30}ii
-Comment: 0,0:01:18.46,0:01:21.25,Default,,0,0,70,karaoke,{\k12}Yu{\k21}u{\k15}sha {\k13}ja {\k17}na{\k14}ku {\k33}tat{\k14}te {\k17}ka{\k31}ma{\k19}wa {\k73}nai
-Comment: 0,0:01:21.56,0:01:28.80,Default,,0,0,0,karaoke,{\k38}Ki{\k29}mi {\k27}hi{\k65}to{\k63}ri {\k63}wo{\k31} {\k14}ma{\k14}mo{\k31}ri{\k18}ki{\k46}re{\k32}ru {\k29}na{\k17}ra {\k207}ba
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\c!line.styleref.color3!\pos(!syl.center+line.left!,!$y-20!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\3a&HFF&\c!line.styleref.color2!\pos(!syl.center+line.left!,!$y-20!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move(!syl.center+line.left!,!$y-20!,!syl.center+line.left!,!$y-($height/12)-20!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\3a&HFF&\c!line.styleref.color2!\t(0,!$dur/3!,\c!line.styleref.color1!)\move(!syl.center+line.left!,!$y-20!,!syl.center+line.left!,!$y-($height/12)-20!,0,!$dur/3!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move(!syl.center+line.left!,!$y-($height/12)-20!,!syl.center+line.left!,!$y-20!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\3a&HFF&\move(!syl.center+line.left!,!$y-($height/12)-20!,!syl.center+line.left!,!$y-20!,0,!$dur/3!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,200)\c!line.styleref.color3!\pos(!syl.center+line.left!,!$y-20!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,200)\3a&HFF&\pos(!syl.center+line.left!,!$y-20!)}
+Dialogue: 0,0:00:00.64,0:00:05.22,Default,,0,0,0,karaoke,{\k15}Se{\k18}ka{\k14}i {\k17}no {\k32}do {\k20}ma{\k26}n{\k16}na{\k30}ka {\k17}de {\k32}ki{\k15}mi {\k31}to {\k29}de{\k32}a{\k25}t{\k89}te
+Dialogue: 0,0:00:05.61,0:00:10.11,Default,,0,0,70,karaoke,{\k17}Ko{\k18}kyu{\k14}u {\k16}mo {\k28}de{\k20}ki{\k32}na{\k29}i {\k44}ku{\k39}ra{\k30}i {\k31}ni {\k28}na{\k20}t{\k84}te
+Dialogue: 0,0:00:10.63,0:00:14.60,Default,,0,0,0,karaoke,{\k16}Chi{\k17}i{\k12}sa{\k19}ku {\k31}to{\k17}ku{\k31}n {\k13}to{\k35}ku{\k17}n {\k27}to {\k21}ha{\k27}ji{\k33}ma{\k81}ru
+Dialogue: 0,0:00:14.97,0:00:17.85,Default,,0,0,70,karaoke,{\k38}Ki{\k30}mi {\k31}to {\k27}bo{\k35}ku {\k19}no {\k31}na{\k13}ni {\k64}ka
+Dialogue: 0,0:00:18.14,0:00:24.99,Default,,0,0,0,karaoke,{\k17}Sa{\k16}a {\k31}mou {\k61}ik{\k34}kai{\k32} {\k25}so{\k22}ra {\k29}wo {\k32}o{\k27}shi{\k17}e{\k342}te
+Dialogue: 0,0:00:25.64,0:00:30.16,Default,,0,0,70,karaoke,{\k19}To{\k12}ri {\k15}da{\k18}ke {\k34}ga {\k14}shi{\k44}ru {\k33}ha{\k29}ba{\k30}ta{\k30}ku {\k35}ha{\k32}ne {\k16}no {\k33}o{\k28}mo {\k30}sa
+Dialogue: 0,0:00:30.65,0:00:35.31,Default,,0,0,0,karaoke,{\k17}Mi{\k17}n{\k13}na {\k15}wa {\k31}na{\k18}ni {\k15}mo{\k32} {\k28}shi{\k35}ra{\k29}zu {\k30}ni {\k30}a{\k32}ko{\k19}ga{\k31}re{\k30}te{\k44}ru
+Dialogue: 0,0:00:35.60,0:00:42.55,Default,,0,0,70,karaoke,{\k36}Ki{\k30}mi {\k28}wa{\k37} {\k62}chot{\k28}to{\k37} {\k63}se{\k28}tsu{\k19}na{\k40}i {\k22}ka{\k12}o {\k47}de {\k17}wa{\k45}ra{\k16}t{\k128}ta
+Dialogue: 0,0:00:43.75,0:00:45.93,Default,,0,0,0,karaoke,{\k15}Bo{\k19}ku {\k16}ni {\k16}ha{\k48}ne {\k32}na{\k12}ni {\k18}mo {\k12}na{\k30}i
+Dialogue: 0,0:00:46.27,0:00:48.46,Default,,0,0,70,karaoke,{\k17}De{\k12}mo {\k18}ki{\k16}mi {\k17}no {\k16}na{\k14}mi{\k15}da {\k31}ga {\k33}het{\k30}te
+Dialogue: 0,0:00:48.75,0:00:50.92,Default,,0,0,0,karaoke,{\k18}Ho{\k17}n{\k15}ki {\k13}no {\k14}ka{\k19}o {\k16}de {\k30}wa{\k14}ra{\k20}u {\k16}na{\k25}ra
+Dialogue: 0,0:00:51.21,0:00:53.58,Default,,0,0,70,karaoke,{\k37}HE{\k30}RO {\k31}dat{\k33}te {\k31}don{\k30}nan {\k31}dat{\k14}te
+Dialogue: 0,0:00:53.75,0:00:55.97,Default,,0,0,0,karaoke,{\k17}Na{\k16}ri{\k31}kit{\k31}te {\k17}ya{\k14}ru {\k33}ka{\k32}ra {\k31}sa
+Dialogue: 0,0:00:56.26,0:01:00.17,Default,,0,0,70,karaoke,{\k29}Zet{\k21}tai {\k28}zet{\k18}tai {\k29}zet{\k19}tai {\k30}zet{\k18}tai {\k29}ha{\k31}na{\k30}sa{\k19}na{\k90}i
+Dialogue: 0,0:01:00.63,0:01:04.97,Default,,0,0,0,karaoke,{\k16}Shi{\k14}n {\k16}de{\k17}mo {\k34}ki{\k15}mi {\k29}da{\k35}ke {\k45}no {\k29}KNI{\k34}GH{\k28}T {\k33}de {\k19}i{\k70}ru
+Dialogue: 0,0:01:05.63,0:01:09.60,Default,,0,0,70,karaoke,{\k17}De{\k16}mo {\k16}ho{\k12}n{\k33}ki {\k21}de {\k14}na{\k15}i{\k14}te {\k31}ki{\k16}mi {\k29}wa {\k18}o{\k30}ko{\k35}t{\k80}ta
+Dialogue: 0,0:01:10.01,0:01:12.92,Default,,0,0,0,karaoke,{\k34}Tsu{\k31}me{\k29}ta{\k31}ku {\k33}nan{\k18}te {\k31}sa{\k17}se {\k67}nai
+Dialogue: 0,0:01:13.14,0:01:15.67,Default,,0,0,70,karaoke,{\k17}Bo{\k16}ku {\k15}wa {\k17}na{\k30}mi{\k12}da {\k35}wo {\k15}fu{\k96}ku
+Dialogue: 0,0:01:15.95,0:01:18.30,Default,,0,0,0,karaoke,{\k29}Sei{\k36}ken {\k29}nan{\k32}te {\k15}na{\k15}ku {\k33}tat{\k16}te {\k30}ii
+Dialogue: 0,0:01:18.46,0:01:21.25,Default,,0,0,70,karaoke,{\k12}Yu{\k21}u{\k15}sha {\k13}ja {\k17}na{\k14}ku {\k33}tat{\k14}te {\k17}ka{\k31}ma{\k19}wa {\k73}nai
+Dialogue: 0,0:01:21.56,0:01:28.80,Default,,0,0,0,karaoke,{\k38}Ki{\k29}mi {\k27}hi{\k65}to{\k63}ri {\k63}wo{\k31} {\k14}ma{\k14}mo{\k31}ri{\k18}ki{\k46}re{\k32}ru {\k29}na{\k17}ra {\k207}ba
 

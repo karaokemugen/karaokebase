@@ -27,53 +27,53 @@ Style: Default 2,Coaster,70,&H00F4AF00,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
-Comment: 0,0:00:09.95,0:00:10.70,Default,,0,0,0,karaoke,{\k75}Splash!
-Comment: 0,0:00:11.01,0:00:12.75,Default,,0,0,80,karaoke,{\k51}In {\k52}my {\k71}dream
-Comment: 0,0:00:13.08,0:00:13.98,Default,,0,0,0,karaoke,{\k27}Ma{\k12}king {\k27}new {\k24}days!
-Comment: 0,0:00:14.12,0:00:14.83,Default,,0,0,80,karaoke,{\k71}Splash!
-Comment: 0,0:00:15.18,0:00:16.97,Default,,0,0,0,karaoke,{\k52}In {\k55}my {\k72}dream
-Comment: 0,0:00:17.11,0:00:18.16,Default,,0,0,80,karaoke,{\k38}Le{\k15}t's {\k32}figh{\k20}ting!
-Comment: 0,0:00:18.56,0:00:19.69,Default,,0,0,0,karaoke,{\k26}Iku {\k13}shi{\k14}ka {\k26}nai {\k34}Dive!
-Comment: 0,0:00:19.82,0:00:23.80,Default,,0,0,80,karaoke,{\k32}Hi{\k25}bi{\k27}ku {\k16}ta{\k25}ka{\k23}na{\k36}ri{\k54} {\k15}ji{\k15}ka{\k22}ku {\k17}shi{\k27}ta {\k26}na{\k38}ra
-Comment: 0,0:00:24.30,0:00:27.92,Default,,0,0,0,karaoke,{\k17}To{\k13}bi{\k22}ko{\k16}e{\k26}na{\k23}ku{\k39}cha{\k49} {\k17}S{\k13}TA{\k27}R{\k17}T {\k36}L{\k25}I{\k22}NE
-Comment: 0,0:00:28.21,0:00:32.16,Default,,0,0,80,karaoke,{\k23}Ha{\k28}ji{\k31}mat{\k15}ta {\k24}yu{\k24}me {\k38}ga{\k53} {\k13}shi{\k13}bu{\k25}ki {\k17}a{\k25}ge{\k25}ru {\k41}yo
-Comment: 0,0:00:32.65,0:00:35.81,Default,,0,0,0,karaoke,{\k27}Kyou {\k26}no {\k13}mi{\k27}ra{\k29}i {\k26}ni{\k36} {\k25}a{\k27}ko{\k25}ga{\k16}re{\k39}te
-Comment: 0,0:00:37.07,0:00:40.19,Default,,0,0,0,karaoke,{\k32}Jou{\k27}ne{\k43}tsu {\k33}han{\k28}ra{\k46}n {\k28}TEN{\k27}SIO{\k48}N
-Comment: 0,0:00:40.19,0:00:41.18,Default,,0,0,80,karaoke,{\k43}Big {\k56}Bang
-Comment: 0,0:00:41.22,0:00:44.35,Default,,0,0,0,karaoke,{\k30}Zen{\k26}re{\k50}i {\k23}AP{\k36}PROA{\k48}CH {\k27}kou{\k34}rya{\k39}ku
-Comment: 0,0:00:44.35,0:00:45.16,Default,,0,0,80,karaoke,{\k43}New {\k38}Wave
-Comment: 0,0:00:45.16,0:00:48.48,Default,,0,0,0,karaoke,{\k26}Mo{\k41}e{\k40}ta{\k24}i {\k40}ne{\k32} {\k33}My {\k96}Life!
-Comment: 0,0:00:49.07,0:00:52.21,Default,,0,0,80,karaoke,{\k14}I{\k14}do{\k25}me {\k79}ji{\k31}bu{\k36}n {\k40}shi{\k29}jo{\k46}u
-Comment: 0,0:00:52.46,0:00:54.28,Default,,0,0,0,karaoke,{\k29}Kou{\k34}shin {\k44}shi{\k25}te {\k50}Win
-Comment: 0,0:00:53.78,0:00:54.70,Default 2,,0,0,0,karaoke,{\k26}Win {\k25}oh {\k41}yeah!
-Comment: 0,0:00:54.56,0:00:55.39,Default,,0,0,80,karaoke,{\k27}E{\k56}ven
-Comment: 0,0:00:55.05,0:00:55.60,Default 2,,0,0,80,karaoke,{\k26}Oh {\k29}yeah!
-Comment: 0,0:00:55.60,0:00:56.37,Default,,0,0,0,karaoke,{\k28}Death {\k49}match
-Comment: 0,0:00:56.16,0:00:56.79,Default 2,,0,0,0,karaoke,{\k22}Oh {\k41}yeah!
-Comment: 0,0:00:56.65,0:00:57.68,Default,,0,0,80,karaoke,{\k25}A{\k29}ri {\k12}de{\k37}shou
-Comment: 0,0:00:57.93,0:01:00.49,Default,,0,0,0,karaoke,{\k81}I{\k30}ma {\k36}ni {\k37}zen{\k29}ryo{\k43}ku
-Comment: 0,0:01:00.83,0:01:03.68,Default,,0,0,80,karaoke,{\k25}Ma{\k41}ke{\k37}na{\k30}i {\k152}yo
-Comment: 0,0:01:03.95,0:01:06.06,Default,,0,0,0,karaoke,{\k26}D{\k41}REA{\k35}M {\k17}S{\k12}C{\k39}RAM{\k41}BLE!
-Comment: 0,0:01:06.30,0:01:08.01,Default,,0,0,80,karaoke,{\k27}Ga{\k26}mu{\k27}sha{\k26}ra {\k39}GIR{\k26}LISH
-Comment: 0,0:01:08.00,0:01:10.23,Default,,0,0,0,karaoke,{\k28}Mot{\k12}to {\k24}mu{\k26}chu{\k28}u {\k24}ni {\k27}na{\k13}ro{\k41}u!
-Comment: 0,0:01:06.56,0:01:10.51,Default 2,,0,0,0,karaoke,{\k54}Hai! {\k51}Hai! {\k54}Hai! {\k48}Hai! {\k54}Hai! {\k53}Hai! {\k52}Hai! {\k29}Hai!
-Comment: 0,0:01:10.51,0:01:12.15,Default,,0,0,80,karaoke,{\k23}Ha{\k26}cha{\k27}me{\k27}cha {\k37}NEW {\k24}LIFE
-Comment: 0,0:01:12.18,0:01:14.35,Default,,0,0,0,karaoke,{\k28}Kit{\k12}to {\k25}e{\k26}ga{\k26}o {\k24}ni {\k28}na{\k18}re{\k30}ru!
-Comment: 0,0:01:10.73,0:01:14.67,Default 2,,0,0,80,karaoke,{\k54}Hai! {\k51}Hai! {\k54}Hai! {\k48}Hai! {\k54}Hai! {\k53}Hai! {\k52}Hai! {\k28}Hai!
-Comment: 0,0:01:14.63,0:01:17.72,Default,,0,0,80,karaoke,{\k42}Ka{\k38}ku{\k24}go {\k27}wa{\k28} {\k51}Al{\k99}right!
-Comment: 0,0:01:18.82,0:01:19.57,Default,,0,0,0,karaoke,{\k75}Splash!
-Comment: 0,0:01:19.87,0:01:21.61,Default,,0,0,80,karaoke,{\k52}In {\k52}my {\k70}dream
-Comment: 0,0:01:21.94,0:01:22.91,Default,,0,0,0,karaoke,{\k26}Ma{\k15}king {\k25}new {\k31}days!
-Comment: 0,0:01:22.99,0:01:23.74,Default,,0,0,80,karaoke,{\k75}Splash!
-Comment: 0,0:01:24.06,0:01:25.75,Default,,0,0,0,karaoke,{\k44}In {\k58}my {\k67}dream
-Comment: 0,0:01:26.11,0:01:27.07,Default,,0,0,80,karaoke,{\k26}Le{\k15}t's {\k27}go {\k28}now!
-Comment: 0,0:01:27.43,0:01:28.63,Default,,0,0,0,karaoke,{\k13}I{\k14}ku {\k13}shi{\k14}ka {\k25}nai {\k41}Dive!
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
+Dialogue: 0,0:00:09.95,0:00:10.70,Default,,0,0,0,karaoke,{\k75}Splash!
+Dialogue: 0,0:00:11.01,0:00:12.75,Default,,0,0,80,karaoke,{\k51}In {\k52}my {\k71}dream
+Dialogue: 0,0:00:13.08,0:00:13.98,Default,,0,0,0,karaoke,{\k27}Ma{\k12}king {\k27}new {\k24}days!
+Dialogue: 0,0:00:14.12,0:00:14.83,Default,,0,0,80,karaoke,{\k71}Splash!
+Dialogue: 0,0:00:15.18,0:00:16.97,Default,,0,0,0,karaoke,{\k52}In {\k55}my {\k72}dream
+Dialogue: 0,0:00:17.11,0:00:18.16,Default,,0,0,80,karaoke,{\k38}Le{\k15}t's {\k32}figh{\k20}ting!
+Dialogue: 0,0:00:18.56,0:00:19.69,Default,,0,0,0,karaoke,{\k26}Iku {\k13}shi{\k14}ka {\k26}nai {\k34}Dive!
+Dialogue: 0,0:00:19.82,0:00:23.80,Default,,0,0,80,karaoke,{\k32}Hi{\k25}bi{\k27}ku {\k16}ta{\k25}ka{\k23}na{\k36}ri{\k54} {\k15}ji{\k15}ka{\k22}ku {\k17}shi{\k27}ta {\k26}na{\k38}ra
+Dialogue: 0,0:00:24.30,0:00:27.92,Default,,0,0,0,karaoke,{\k17}To{\k13}bi{\k22}ko{\k16}e{\k26}na{\k23}ku{\k39}cha{\k49} {\k17}S{\k13}TA{\k27}R{\k17}T {\k36}L{\k25}I{\k22}NE
+Dialogue: 0,0:00:28.21,0:00:32.16,Default,,0,0,80,karaoke,{\k23}Ha{\k28}ji{\k31}mat{\k15}ta {\k24}yu{\k24}me {\k38}ga{\k53} {\k13}shi{\k13}bu{\k25}ki {\k17}a{\k25}ge{\k25}ru {\k41}yo
+Dialogue: 0,0:00:32.65,0:00:35.81,Default,,0,0,0,karaoke,{\k27}Kyou {\k26}no {\k13}mi{\k27}ra{\k29}i {\k26}ni{\k36} {\k25}a{\k27}ko{\k25}ga{\k16}re{\k39}te
+Dialogue: 0,0:00:37.07,0:00:40.19,Default,,0,0,0,karaoke,{\k32}Jou{\k27}ne{\k43}tsu {\k33}han{\k28}ra{\k46}n {\k28}TEN{\k27}SIO{\k48}N
+Dialogue: 0,0:00:40.19,0:00:41.18,Default,,0,0,80,karaoke,{\k43}Big {\k56}Bang
+Dialogue: 0,0:00:41.22,0:00:44.35,Default,,0,0,0,karaoke,{\k30}Zen{\k26}re{\k50}i {\k23}AP{\k36}PROA{\k48}CH {\k27}kou{\k34}rya{\k39}ku
+Dialogue: 0,0:00:44.35,0:00:45.16,Default,,0,0,80,karaoke,{\k43}New {\k38}Wave
+Dialogue: 0,0:00:45.16,0:00:48.48,Default,,0,0,0,karaoke,{\k26}Mo{\k41}e{\k40}ta{\k24}i {\k40}ne{\k32} {\k33}My {\k96}Life!
+Dialogue: 0,0:00:49.07,0:00:52.21,Default,,0,0,80,karaoke,{\k14}I{\k14}do{\k25}me {\k79}ji{\k31}bu{\k36}n {\k40}shi{\k29}jo{\k46}u
+Dialogue: 0,0:00:52.46,0:00:54.28,Default,,0,0,0,karaoke,{\k29}Kou{\k34}shin {\k44}shi{\k25}te {\k50}Win
+Dialogue: 0,0:00:53.78,0:00:54.70,Default 2,,0,0,0,karaoke,{\k26}Win {\k25}oh {\k41}yeah!
+Dialogue: 0,0:00:54.56,0:00:55.39,Default,,0,0,80,karaoke,{\k27}E{\k56}ven
+Dialogue: 0,0:00:55.05,0:00:55.60,Default 2,,0,0,80,karaoke,{\k26}Oh {\k29}yeah!
+Dialogue: 0,0:00:55.60,0:00:56.37,Default,,0,0,0,karaoke,{\k28}Death {\k49}match
+Dialogue: 0,0:00:56.16,0:00:56.79,Default 2,,0,0,0,karaoke,{\k22}Oh {\k41}yeah!
+Dialogue: 0,0:00:56.65,0:00:57.68,Default,,0,0,80,karaoke,{\k25}A{\k29}ri {\k12}de{\k37}shou
+Dialogue: 0,0:00:57.93,0:01:00.49,Default,,0,0,0,karaoke,{\k81}I{\k30}ma {\k36}ni {\k37}zen{\k29}ryo{\k43}ku
+Dialogue: 0,0:01:00.83,0:01:03.68,Default,,0,0,80,karaoke,{\k25}Ma{\k41}ke{\k37}na{\k30}i {\k152}yo
+Dialogue: 0,0:01:03.95,0:01:06.06,Default,,0,0,0,karaoke,{\k26}D{\k41}REA{\k35}M {\k17}S{\k12}C{\k39}RAM{\k41}BLE!
+Dialogue: 0,0:01:06.30,0:01:08.01,Default,,0,0,80,karaoke,{\k27}Ga{\k26}mu{\k27}sha{\k26}ra {\k39}GIR{\k26}LISH
+Dialogue: 0,0:01:08.00,0:01:10.23,Default,,0,0,0,karaoke,{\k28}Mot{\k12}to {\k24}mu{\k26}chu{\k28}u {\k24}ni {\k27}na{\k13}ro{\k41}u!
+Dialogue: 0,0:01:06.56,0:01:10.51,Default 2,,0,0,0,karaoke,{\k54}Hai! {\k51}Hai! {\k54}Hai! {\k48}Hai! {\k54}Hai! {\k53}Hai! {\k52}Hai! {\k29}Hai!
+Dialogue: 0,0:01:10.51,0:01:12.15,Default,,0,0,80,karaoke,{\k23}Ha{\k26}cha{\k27}me{\k27}cha {\k37}NEW {\k24}LIFE
+Dialogue: 0,0:01:12.18,0:01:14.35,Default,,0,0,0,karaoke,{\k28}Kit{\k12}to {\k25}e{\k26}ga{\k26}o {\k24}ni {\k28}na{\k18}re{\k30}ru!
+Dialogue: 0,0:01:10.73,0:01:14.67,Default 2,,0,0,80,karaoke,{\k54}Hai! {\k51}Hai! {\k54}Hai! {\k48}Hai! {\k54}Hai! {\k53}Hai! {\k52}Hai! {\k28}Hai!
+Dialogue: 0,0:01:14.63,0:01:17.72,Default,,0,0,80,karaoke,{\k42}Ka{\k38}ku{\k24}go {\k27}wa{\k28} {\k51}Al{\k99}right!
+Dialogue: 0,0:01:18.82,0:01:19.57,Default,,0,0,0,karaoke,{\k75}Splash!
+Dialogue: 0,0:01:19.87,0:01:21.61,Default,,0,0,80,karaoke,{\k52}In {\k52}my {\k70}dream
+Dialogue: 0,0:01:21.94,0:01:22.91,Default,,0,0,0,karaoke,{\k26}Ma{\k15}king {\k25}new {\k31}days!
+Dialogue: 0,0:01:22.99,0:01:23.74,Default,,0,0,80,karaoke,{\k75}Splash!
+Dialogue: 0,0:01:24.06,0:01:25.75,Default,,0,0,0,karaoke,{\k44}In {\k58}my {\k67}dream
+Dialogue: 0,0:01:26.11,0:01:27.07,Default,,0,0,80,karaoke,{\k26}Le{\k15}t's {\k27}go {\k28}now!
+Dialogue: 0,0:01:27.43,0:01:28.63,Default,,0,0,0,karaoke,{\k13}I{\k14}ku {\k13}shi{\k14}ka {\k25}nai {\k41}Dive!
 

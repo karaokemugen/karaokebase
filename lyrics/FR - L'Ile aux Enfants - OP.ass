@@ -26,30 +26,30 @@ Style: Default,Segoe Print,40,&H001250FF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*100,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*100,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*100))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*100))!{\fad(0,150)\bord0\pos($x,$y)}
-Comment: 0,0:00:03.43,0:00:07.56,Default,,0,0,0,karaoke,{\k20}Voi{\k27}ci {\k17}ve{\k71}nu {\k29}le {\k77}temps {\k22}des {\k34}rires {\k16}et {\k22}des {\k78}chants
-Comment: 0,0:00:07.80,0:00:09.21,Default,,0,0,50,karaoke,{\k25}Dans {\k27}l'île {\k18}aux {\k31}en{\k40}fants
-Comment: 0,0:00:09.27,0:00:10.97,Default,,0,0,0,karaoke,{\k22}C'est {\k26}tous {\k22}les {\k26}jours {\k22}le {\k28}prin{\k24}temps
-Comment: 0,0:00:11.24,0:00:15.20,Default,,0,0,50,karaoke,{\k20}C'est {\k26}le {\k19}pa{\k66}ys {\k31}jo{\k51}yeux{\k27} {\k21}des {\k30}en{\k18}fants {\k30}heu{\k57}reux
-Comment: 0,0:00:15.58,0:00:16.94,Default,,0,0,0,karaoke,{\k20}Des {\k32}mons{\k15}tres {\k26}gen{\k43}tils
-Comment: 0,0:00:16.98,0:00:18.75,Default,,0,0,50,karaoke,{\k22}Oui {\k19}c'est {\k23}un {\k29}pa{\k48}ra{\k36}dis
-Comment: 0,0:00:19.45,0:00:22.67,Default,,0,0,0,karaoke,{\k39}Ce {\k39}jar{\k102}din {\k40}n'est {\k38}pas {\k64}loin
-Comment: 0,0:00:23.09,0:00:26.63,Default,,0,0,50,karaoke,{\k30}Car {\k45}il {\k25}suf{\k46}fit {\k32}d'un {\k51}peu {\k16}d'i{\k23}ma{\k24}gi{\k24}na{\k38}tion
-Comment: 0,0:00:26.91,0:00:30.10,Default,,0,0,0,karaoke,{\k37}Pour {\k38}que {\k63}tout,{\k44} {\k36}tout {\k22}près {\k20}de {\k59}vous
-Comment: 0,0:00:30.55,0:00:33.67,Default,,0,0,50,karaoke,{\k37}Pous{\k13}sent {\k24}ces {\k56}fleurs, {\k14}ces {\k46}rires {\k31}et {\k20}ces {\k27}chan{\k44}sons
-Comment: 0,0:00:33.67,0:00:37.48,Default,,0,0,0,karaoke,{\k21}Voi{\k29}ci {\k18}ve{\k70}nu {\k22}le {\k71}temps {\k25}des {\k33}rires {\k15}et {\k28}des {\k49}chants
-Comment: 0,0:00:37.92,0:00:39.25,Default,,0,0,50,karaoke,{\k23}Dans {\k30}l'île {\k17}aux {\k31}en{\k32}fants
-Comment: 0,0:00:39.30,0:00:40.98,Default,,0,0,0,karaoke,{\k28}C'est {\k26}tous {\k22}les {\k22}jours {\k23}le {\k26}prin{\k21}temps
-Comment: 0,0:00:41.27,0:00:45.22,Default,,0,0,50,karaoke,{\k22}C'est {\k28}le {\k15}pa{\k73}ys {\k24}jo{\k50}yeux{\k28} {\k23}des {\k31}en{\k14}fants {\k30}heu{\k57}reux
-Comment: 0,0:00:45.53,0:00:46.93,Default,,0,0,0,karaoke,{\k24}Des {\k30}mons{\k16}tres {\k30}gen{\k40}tils
-Comment: 0,0:00:46.93,0:00:48.65,Default,,0,0,50,karaoke,{\k30}Oui {\k23}c'est {\k18}un {\k29}pa{\k39}ra{\k33}dis
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*100,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*100,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*100))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*100))!{\fad(0,150)\bord0\pos($x,$y)}
+Dialogue: 0,0:00:03.43,0:00:07.56,Default,,0,0,0,karaoke,{\k20}Voi{\k27}ci {\k17}ve{\k71}nu {\k29}le {\k77}temps {\k22}des {\k34}rires {\k16}et {\k22}des {\k78}chants
+Dialogue: 0,0:00:07.80,0:00:09.21,Default,,0,0,50,karaoke,{\k25}Dans {\k27}l'île {\k18}aux {\k31}en{\k40}fants
+Dialogue: 0,0:00:09.27,0:00:10.97,Default,,0,0,0,karaoke,{\k22}C'est {\k26}tous {\k22}les {\k26}jours {\k22}le {\k28}prin{\k24}temps
+Dialogue: 0,0:00:11.24,0:00:15.20,Default,,0,0,50,karaoke,{\k20}C'est {\k26}le {\k19}pa{\k66}ys {\k31}jo{\k51}yeux{\k27} {\k21}des {\k30}en{\k18}fants {\k30}heu{\k57}reux
+Dialogue: 0,0:00:15.58,0:00:16.94,Default,,0,0,0,karaoke,{\k20}Des {\k32}mons{\k15}tres {\k26}gen{\k43}tils
+Dialogue: 0,0:00:16.98,0:00:18.75,Default,,0,0,50,karaoke,{\k22}Oui {\k19}c'est {\k23}un {\k29}pa{\k48}ra{\k36}dis
+Dialogue: 0,0:00:19.45,0:00:22.67,Default,,0,0,0,karaoke,{\k39}Ce {\k39}jar{\k102}din {\k40}n'est {\k38}pas {\k64}loin
+Dialogue: 0,0:00:23.09,0:00:26.63,Default,,0,0,50,karaoke,{\k30}Car {\k45}il {\k25}suf{\k46}fit {\k32}d'un {\k51}peu {\k16}d'i{\k23}ma{\k24}gi{\k24}na{\k38}tion
+Dialogue: 0,0:00:26.91,0:00:30.10,Default,,0,0,0,karaoke,{\k37}Pour {\k38}que {\k63}tout,{\k44} {\k36}tout {\k22}près {\k20}de {\k59}vous
+Dialogue: 0,0:00:30.55,0:00:33.67,Default,,0,0,50,karaoke,{\k37}Pous{\k13}sent {\k24}ces {\k56}fleurs, {\k14}ces {\k46}rires {\k31}et {\k20}ces {\k27}chan{\k44}sons
+Dialogue: 0,0:00:33.67,0:00:37.48,Default,,0,0,0,karaoke,{\k21}Voi{\k29}ci {\k18}ve{\k70}nu {\k22}le {\k71}temps {\k25}des {\k33}rires {\k15}et {\k28}des {\k49}chants
+Dialogue: 0,0:00:37.92,0:00:39.25,Default,,0,0,50,karaoke,{\k23}Dans {\k30}l'île {\k17}aux {\k31}en{\k32}fants
+Dialogue: 0,0:00:39.30,0:00:40.98,Default,,0,0,0,karaoke,{\k28}C'est {\k26}tous {\k22}les {\k22}jours {\k23}le {\k26}prin{\k21}temps
+Dialogue: 0,0:00:41.27,0:00:45.22,Default,,0,0,50,karaoke,{\k22}C'est {\k28}le {\k15}pa{\k73}ys {\k24}jo{\k50}yeux{\k28} {\k23}des {\k31}en{\k14}fants {\k30}heu{\k57}reux
+Dialogue: 0,0:00:45.53,0:00:46.93,Default,,0,0,0,karaoke,{\k24}Des {\k30}mons{\k16}tres {\k30}gen{\k40}tils
+Dialogue: 0,0:00:46.93,0:00:48.65,Default,,0,0,50,karaoke,{\k30}Oui {\k23}c'est {\k18}un {\k29}pa{\k39}ra{\k33}dis
 

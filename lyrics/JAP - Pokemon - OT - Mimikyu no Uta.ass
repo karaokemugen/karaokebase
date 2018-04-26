@@ -43,38 +43,38 @@ Style: Vert sur Rouge PT SHERIF,PT Serif,70,&H0043B600,&H000000FF,&H00FFBCFD,&H0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0, 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*600,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("start2syl",-1200+ci[2]/cn*600,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(7)!!retime("syl2end",$dur/12,200+(ci[7]/cn*600))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(8)!!retime("syl2end",$dur/12,200+(ci[8]/cn*600))!{\fad(0,150)\bord0\pos($x,$y)}
-Comment: 0,0:00:11.12,0:00:14.94,orange PT sherif,,0,0,0,karaoke,{\k28}Yo {\k42}yo{\k29} {\k25}ki{\k18}te {\k11}ku{\k14}da{\k32}sai{\k21} {\k15}Mi{\k17}mi{\k22}kyu {\k16}no {\k17}RA{\k18}P {\k17}da {\k40}yo!
-Comment: 0,0:00:15.69,0:00:17.96,orange PT sherif,,0,0,145,karaoke,{\k15}Pi{\k20}ka{\k24}chu {\k20}ja {\k31}nai {\k16}yo {\k15}Mi{\k22}mi{\k23}kyu {\k17}da {\k24}yo
-Comment: 0,0:00:18.22,0:00:20.50,orange PT sherif,,0,0,0,karaoke,{\k27}Sa{\k11}mi{\k18}shi {\k16}ga{\k13}ri{\k20}ya {\k14}no {\k18}Mi{\k25}mi{\k23}kyu {\k13}da {\k30}yo
-Comment: 0,0:00:20.81,0:00:23.02,orange PT sherif,,0,0,145,karaoke,{\k13}O{\k11}hi{\k22}sa{\k19}ma {\k12}o{\k18}hi{\k17}sa{\k14}ma {\k27}chot{\k21}to {\k15}ko{\k32}wai
-Comment: 0,0:00:23.22,0:00:25.59,orange PT sherif,,0,0,0,karaoke,{\k24}Mak{\k20}ku{\k14}ra {\k20}na {\k14}to{\k17}ko {\k29}ga {\k18}su{\k16}ki {\k30}nan{\k35}dai
-Comment: 0,0:00:25.84,0:00:27.99,orange PT sherif,,0,0,145,karaoke,{\k23}Mi{\k21}na {\k18}to {\k14}na{\k14}ka{\k15}yo{\k19}ku {\k18}na{\k17}ri{\k13}ta{\k15}ku{\k28}te
-Comment: 0,0:00:28.22,0:00:30.52,orange PT sherif,,0,0,0,karaoke,{\k15}Pi{\k15}ka{\k26}chu {\k21}no {\k14}ma{\k24}nek{\k19}ko {\k18}shi{\k12}te{\k18}i{\k12}ma{\k36}su
-Comment: 0,0:00:30.91,0:00:32.98,orange PT sherif,,0,0,145,karaoke,{\k21}Ko{\k16}no {\k14}o{\k31}you{\k16}fu{\k14}ku {\k21}ni{\k17}te{\k14}ru {\k12}de{\k31}sho?
-Comment: 0,0:00:33.34,0:00:35.54,orange PT sherif,,0,0,0,karaoke,{\k12}Te{\k17}zu{\k15}ku{\k14}ri {\k36}nan{\k16}de {\k33}su{\k26}goi {\k12}de{\k39}sho?
-Comment: 0,0:00:35.80,0:00:37.99,orange PT sherif,,0,0,145,karaoke,{\k18}Me{\k19}kuc{\k29}cha {\k13}da{\k20}me {\k11}da {\k15}yo {\k34}zet{\k25}tai {\k35}ni
-Comment: 0,0:00:38.47,0:00:40.48,orange PT sherif,,0,0,0,karaoke,{\k17}Mi{\k15}ta{\k15}ra {\k14}no{\k17}ro{\k12}wa{\k15}re{\k22}cha{\k14}u {\k12}ka{\k17}mo {\k31}yo
-Comment: 0,0:00:40.72,0:00:43.01,orange PT sherif,,0,0,145,karaoke,{\k14}Pi{\k18}ka{\k24}chu {\k20}ja {\k26}nai {\k18}yo {\k16}Mi{\k26}mi{\k21}kyu {\k15}da {\k31}yo
-Comment: 0,0:00:43.35,0:00:45.48,orange PT sherif,,0,0,0,karaoke,{\k12}O{\k14}ba{\k15}ke {\k17}ja {\k28}nai {\k25}yo {\k14}Mi{\k27}mi{\k19}kyu {\k16}da {\k26}yo
-Comment: 0,0:00:45.84,0:00:48.24,orange PT sherif,,0,0,145,karaoke,{\k14}O{\k13}o{\k18}ki {\k20}na {\k14}tsu{\k14}me {\k31}de {\k14}ki{\k16}mi {\k20}o {\k16}ma{\k17}mo{\k8}ru{\k25}zo
-Comment: 0,0:00:48.33,0:00:50.84,orange PT sherif,,0,0,0,karaoke,{\k22}Jyu{\k9}u{\k23}man{\k20}bo{\k20}ru{\k15}to {\k16}de {\k15}o{\k15}ya{\k14}ku {\k21}ni {\k16}ta{\k9}tsu {\k36}zo
-Comment: 0,0:00:50.84,0:00:53.06,orange PT sherif,,0,0,145,karaoke,{\k14}Ta{\k14}yo{\k14}re{\k22}ru {\k11}Po{\k11}ké{\k22}mon {\k15}ni {\k18}so{\k15}da{\k18}tsu {\k15}ka{\k33}ra
-Comment: 0,0:00:53.37,0:00:55.54,orange PT sherif,,0,0,0,karaoke,{\k10}A{\k20}na{\k11}ta {\k13}no {\k17}na{\k19}ka{\k14}ma {\k15}ni {\k17}shi{\k17}te {\k14}ku{\k10}da{\k40}sai
-Comment: 0,0:00:55.70,0:00:57.95,orange PT sherif,,0,0,145,karaoke,{\k14}Pi{\k15}ka{\k27}chu {\k22}ja {\k31}nai {\k16}yo {\k14}Mi{\k27}mi{\k16}kyu {\k18}da {\k25}yo
-Comment: 0,0:00:58.17,0:01:00.47,orange PT sherif,,0,0,0,karaoke,{\k12}To{\k14}mo{\k20}da{\k16}chi {\k17}ni {\k16}na{\k32}rou {\k15}Mi{\k27}mi{\k19}kyu {\k16}da {\k26}yo
-Comment: 0,0:01:00.71,0:01:02.94,orange PT sherif,,0,0,145,karaoke,{\k14}Pi{\k15}ka{\k29}chu {\k19}ja {\k31}nai {\k18}yo {\k14}Mi{\k26}mi{\k18}kyu {\k17}da {\k22}yo
-Comment: 0,0:01:03.24,0:01:05.44,orange PT sherif,,0,0,0,karaoke,{\k22}Sa{\k14}mi{\k22}shi {\k16}ga{\k14}ri{\k19}ya {\k13}no {\k14}Mi{\k30}mi{\k15}kyu {\k18}da {\k23}yo
-Comment: 0,0:01:05.70,0:01:07.97,orange PT sherif,,0,0,145,karaoke,{\k14}Pi{\k14}ka{\k28}chu {\k17}ja {\k33}nai {\k18}yo {\k15}Mi{\k32}mi{\k13}kyu {\k14}da {\k29}yo
-Comment: 0,0:01:08.34,0:01:10.47,orange PT sherif,,0,0,0,karaoke,{\k12}O{\k14}ba{\k15}ke {\k17}ja {\k28}nai {\k24}yo {\k15}Mi{\k27}mi{\k19}kyu {\k16}da {\k26}yo
-Comment: 0,0:01:10.74,0:01:13.01,orange PT sherif,,0,0,145,karaoke,{\k11}Pi{\k18}ka{\k22}chu {\k23}ja {\k28}nai {\k20}yo {\k18}Mi{\k26}mi{\k18}kyu {\k16}da {\k27}yo
-Comment: 0,0:01:13.12,0:01:15.42,orange PT sherif,,0,0,0,karaoke,{\k16}To{\k20}mo{\k14}da{\k17}chi {\k16}ni {\k20}na{\k24}rou {\k15}Mi{\k27}mi{\k19}kyu {\k16}da {\k26}yo
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0, 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*600,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("start2syl",-1200+ci[2]/cn*600,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(7)!!retime("syl2end",$dur/12,200+(ci[7]/cn*600))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(8)!!retime("syl2end",$dur/12,200+(ci[8]/cn*600))!{\fad(0,150)\bord0\pos($x,$y)}
+Dialogue: 0,0:00:11.12,0:00:14.94,orange PT sherif,,0,0,0,karaoke,{\k28}Yo {\k42}yo{\k29} {\k25}ki{\k18}te {\k11}ku{\k14}da{\k32}sai{\k21} {\k15}Mi{\k17}mi{\k22}kyu {\k16}no {\k17}RA{\k18}P {\k17}da {\k40}yo!
+Dialogue: 0,0:00:15.69,0:00:17.96,orange PT sherif,,0,0,145,karaoke,{\k15}Pi{\k20}ka{\k24}chu {\k20}ja {\k31}nai {\k16}yo {\k15}Mi{\k22}mi{\k23}kyu {\k17}da {\k24}yo
+Dialogue: 0,0:00:18.22,0:00:20.50,orange PT sherif,,0,0,0,karaoke,{\k27}Sa{\k11}mi{\k18}shi {\k16}ga{\k13}ri{\k20}ya {\k14}no {\k18}Mi{\k25}mi{\k23}kyu {\k13}da {\k30}yo
+Dialogue: 0,0:00:20.81,0:00:23.02,orange PT sherif,,0,0,145,karaoke,{\k13}O{\k11}hi{\k22}sa{\k19}ma {\k12}o{\k18}hi{\k17}sa{\k14}ma {\k27}chot{\k21}to {\k15}ko{\k32}wai
+Dialogue: 0,0:00:23.22,0:00:25.59,orange PT sherif,,0,0,0,karaoke,{\k24}Mak{\k20}ku{\k14}ra {\k20}na {\k14}to{\k17}ko {\k29}ga {\k18}su{\k16}ki {\k30}nan{\k35}dai
+Dialogue: 0,0:00:25.84,0:00:27.99,orange PT sherif,,0,0,145,karaoke,{\k23}Mi{\k21}na {\k18}to {\k14}na{\k14}ka{\k15}yo{\k19}ku {\k18}na{\k17}ri{\k13}ta{\k15}ku{\k28}te
+Dialogue: 0,0:00:28.22,0:00:30.52,orange PT sherif,,0,0,0,karaoke,{\k15}Pi{\k15}ka{\k26}chu {\k21}no {\k14}ma{\k24}nek{\k19}ko {\k18}shi{\k12}te{\k18}i{\k12}ma{\k36}su
+Dialogue: 0,0:00:30.91,0:00:32.98,orange PT sherif,,0,0,145,karaoke,{\k21}Ko{\k16}no {\k14}o{\k31}you{\k16}fu{\k14}ku {\k21}ni{\k17}te{\k14}ru {\k12}de{\k31}sho?
+Dialogue: 0,0:00:33.34,0:00:35.54,orange PT sherif,,0,0,0,karaoke,{\k12}Te{\k17}zu{\k15}ku{\k14}ri {\k36}nan{\k16}de {\k33}su{\k26}goi {\k12}de{\k39}sho?
+Dialogue: 0,0:00:35.80,0:00:37.99,orange PT sherif,,0,0,145,karaoke,{\k18}Me{\k19}kuc{\k29}cha {\k13}da{\k20}me {\k11}da {\k15}yo {\k34}zet{\k25}tai {\k35}ni
+Dialogue: 0,0:00:38.47,0:00:40.48,orange PT sherif,,0,0,0,karaoke,{\k17}Mi{\k15}ta{\k15}ra {\k14}no{\k17}ro{\k12}wa{\k15}re{\k22}cha{\k14}u {\k12}ka{\k17}mo {\k31}yo
+Dialogue: 0,0:00:40.72,0:00:43.01,orange PT sherif,,0,0,145,karaoke,{\k14}Pi{\k18}ka{\k24}chu {\k20}ja {\k26}nai {\k18}yo {\k16}Mi{\k26}mi{\k21}kyu {\k15}da {\k31}yo
+Dialogue: 0,0:00:43.35,0:00:45.48,orange PT sherif,,0,0,0,karaoke,{\k12}O{\k14}ba{\k15}ke {\k17}ja {\k28}nai {\k25}yo {\k14}Mi{\k27}mi{\k19}kyu {\k16}da {\k26}yo
+Dialogue: 0,0:00:45.84,0:00:48.24,orange PT sherif,,0,0,145,karaoke,{\k14}O{\k13}o{\k18}ki {\k20}na {\k14}tsu{\k14}me {\k31}de {\k14}ki{\k16}mi {\k20}o {\k16}ma{\k17}mo{\k8}ru{\k25}zo
+Dialogue: 0,0:00:48.33,0:00:50.84,orange PT sherif,,0,0,0,karaoke,{\k22}Jyu{\k9}u{\k23}man{\k20}bo{\k20}ru{\k15}to {\k16}de {\k15}o{\k15}ya{\k14}ku {\k21}ni {\k16}ta{\k9}tsu {\k36}zo
+Dialogue: 0,0:00:50.84,0:00:53.06,orange PT sherif,,0,0,145,karaoke,{\k14}Ta{\k14}yo{\k14}re{\k22}ru {\k11}Po{\k11}ké{\k22}mon {\k15}ni {\k18}so{\k15}da{\k18}tsu {\k15}ka{\k33}ra
+Dialogue: 0,0:00:53.37,0:00:55.54,orange PT sherif,,0,0,0,karaoke,{\k10}A{\k20}na{\k11}ta {\k13}no {\k17}na{\k19}ka{\k14}ma {\k15}ni {\k17}shi{\k17}te {\k14}ku{\k10}da{\k40}sai
+Dialogue: 0,0:00:55.70,0:00:57.95,orange PT sherif,,0,0,145,karaoke,{\k14}Pi{\k15}ka{\k27}chu {\k22}ja {\k31}nai {\k16}yo {\k14}Mi{\k27}mi{\k16}kyu {\k18}da {\k25}yo
+Dialogue: 0,0:00:58.17,0:01:00.47,orange PT sherif,,0,0,0,karaoke,{\k12}To{\k14}mo{\k20}da{\k16}chi {\k17}ni {\k16}na{\k32}rou {\k15}Mi{\k27}mi{\k19}kyu {\k16}da {\k26}yo
+Dialogue: 0,0:01:00.71,0:01:02.94,orange PT sherif,,0,0,145,karaoke,{\k14}Pi{\k15}ka{\k29}chu {\k19}ja {\k31}nai {\k18}yo {\k14}Mi{\k26}mi{\k18}kyu {\k17}da {\k22}yo
+Dialogue: 0,0:01:03.24,0:01:05.44,orange PT sherif,,0,0,0,karaoke,{\k22}Sa{\k14}mi{\k22}shi {\k16}ga{\k14}ri{\k19}ya {\k13}no {\k14}Mi{\k30}mi{\k15}kyu {\k18}da {\k23}yo
+Dialogue: 0,0:01:05.70,0:01:07.97,orange PT sherif,,0,0,145,karaoke,{\k14}Pi{\k14}ka{\k28}chu {\k17}ja {\k33}nai {\k18}yo {\k15}Mi{\k32}mi{\k13}kyu {\k14}da {\k29}yo
+Dialogue: 0,0:01:08.34,0:01:10.47,orange PT sherif,,0,0,0,karaoke,{\k12}O{\k14}ba{\k15}ke {\k17}ja {\k28}nai {\k24}yo {\k15}Mi{\k27}mi{\k19}kyu {\k16}da {\k26}yo
+Dialogue: 0,0:01:10.74,0:01:13.01,orange PT sherif,,0,0,145,karaoke,{\k11}Pi{\k18}ka{\k22}chu {\k23}ja {\k28}nai {\k20}yo {\k18}Mi{\k26}mi{\k18}kyu {\k16}da {\k27}yo
+Dialogue: 0,0:01:13.12,0:01:15.42,orange PT sherif,,0,0,0,karaoke,{\k16}To{\k20}mo{\k14}da{\k17}chi {\k16}ni {\k20}na{\k24}rou {\k15}Mi{\k27}mi{\k19}kyu {\k16}da {\k26}yo

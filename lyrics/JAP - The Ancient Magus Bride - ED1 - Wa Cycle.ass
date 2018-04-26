@@ -35,21 +35,21 @@ Style: Ligne 1 - Bas,Arial,50,&H00E0A862,&H00FFFFFF,&H00000000,&H00000000,-1,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0, 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*600,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("start2syl",-1200+ci[2]/cn*600,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(7)!!retime("syl2end",$dur/12,200+(ci[7]/cn*600))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(8)!!retime("syl2end",$dur/12,200+(ci[8]/cn*600))!{\fad(0,150)\bord0\pos($x,$y)}
-Comment: 0,0:00:14.25,0:00:20.54,Ligne 1,,0,0,0,karaoke,{\k44}e{\k39}da {\k33}ni {\k35}mu{\k47}su{\k73}bu{\k46} {\k45}mi {\k32}ga {\k42}ju{\k35}ku{\k47}su {\k21}ma{\k20}e {\k70}ni
-Comment: 0,0:00:20.63,0:00:25.01,Ligne 2,,0,0,0,karaoke,{\k30}o{\k46}chi{\k68}te {\k37}shi{\k18}ma{\k35}wa{\k40}nu {\k45}yo{\k119}u
-Comment: 0,0:00:26.90,0:00:32.88,Ligne 1,,0,0,0,karaoke,{\k43}ku{\k36}ru{\k44}shi{\k37}i {\k27}ho{\k50}do {\k78}ni {\k44}ma{\k31}ta {\k48}sa{\k42}ki{\k40}mi{\k19}da{\k20}re{\k39}ru
-Comment: 0,0:00:33.24,0:00:38.00,Ligne 2,,0,0,0,karaoke,{\k30}a{\k46}sa{\k73}e {\k48}tsu{\k38}na{\k44}gu {\k40}yo{\k157}u
-Comment: 0,0:00:38.28,0:00:50.20,Ligne 1,,0,0,0,karaoke,{\k91}na{\k73}n{\k123}do {\k42}ku{\k35}ri{\k43}ka{\k35}e{\k161}shi {\k41}ku{\k34}ri{\k42}ka{\k38}e{\k161}shi {\k36}u{\k43}ma{\k38}re{\k43}te{\k113}mo
-Comment: 0,0:00:50.99,0:01:03.60,Ligne 2,,0,0,0,karaoke,{\k77}i{\k82}tsu{\k120}mo {\k38}a{\k44}ta{\k35}ra{\k45}shi{\k180}i {\k53}so{\k38}ra {\k40}wo {\k45}mi{\k33}se{\k117}te {\k81}a{\k38}ge{\k195}you
-Comment: 0,0:01:03.60,0:01:15.45,Ligne 1,,0,0,0,karaoke,{\k79}da{\k83}re{\k116}mo {\k44}ma{\k38}da {\k40}da{\k40}re{\k153}mo {\k47}ka{\k39}i{\k36}te{\k45}na{\k151}i {\k38}mo{\k39}no{\k41}ga{\k40}ta{\k116}ri
-Comment: 0,0:01:16.09,0:01:29.65,Ligne 2,,0,0,0,karaoke,{\k95}shi{\k79}ro{\k120}i {\k40}ma{\k34}s{\k45}shi{\k42}ro{\k188}i {\k47}chi{\k38}zu {\k40}ni {\k56}ka{\k24}i{\k118}te {\k78}yu{\k41}ko{\k271}u
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0, 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*600,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("start2syl",-1200+ci[2]/cn*600,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(7)!!retime("syl2end",$dur/12,200+(ci[7]/cn*600))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(8)!!retime("syl2end",$dur/12,200+(ci[8]/cn*600))!{\fad(0,150)\bord0\pos($x,$y)}
+Dialogue: 0,0:00:14.25,0:00:20.54,Ligne 1,,0,0,0,karaoke,{\k44}e{\k39}da {\k33}ni {\k35}mu{\k47}su{\k73}bu{\k46} {\k45}mi {\k32}ga {\k42}ju{\k35}ku{\k47}su {\k21}ma{\k20}e {\k70}ni
+Dialogue: 0,0:00:20.63,0:00:25.01,Ligne 2,,0,0,0,karaoke,{\k30}o{\k46}chi{\k68}te {\k37}shi{\k18}ma{\k35}wa{\k40}nu {\k45}yo{\k119}u
+Dialogue: 0,0:00:26.90,0:00:32.88,Ligne 1,,0,0,0,karaoke,{\k43}ku{\k36}ru{\k44}shi{\k37}i {\k27}ho{\k50}do {\k78}ni {\k44}ma{\k31}ta {\k48}sa{\k42}ki{\k40}mi{\k19}da{\k20}re{\k39}ru
+Dialogue: 0,0:00:33.24,0:00:38.00,Ligne 2,,0,0,0,karaoke,{\k30}a{\k46}sa{\k73}e {\k48}tsu{\k38}na{\k44}gu {\k40}yo{\k157}u
+Dialogue: 0,0:00:38.28,0:00:50.20,Ligne 1,,0,0,0,karaoke,{\k91}na{\k73}n{\k123}do {\k42}ku{\k35}ri{\k43}ka{\k35}e{\k161}shi {\k41}ku{\k34}ri{\k42}ka{\k38}e{\k161}shi {\k36}u{\k43}ma{\k38}re{\k43}te{\k113}mo
+Dialogue: 0,0:00:50.99,0:01:03.60,Ligne 2,,0,0,0,karaoke,{\k77}i{\k82}tsu{\k120}mo {\k38}a{\k44}ta{\k35}ra{\k45}shi{\k180}i {\k53}so{\k38}ra {\k40}wo {\k45}mi{\k33}se{\k117}te {\k81}a{\k38}ge{\k195}you
+Dialogue: 0,0:01:03.60,0:01:15.45,Ligne 1,,0,0,0,karaoke,{\k79}da{\k83}re{\k116}mo {\k44}ma{\k38}da {\k40}da{\k40}re{\k153}mo {\k47}ka{\k39}i{\k36}te{\k45}na{\k151}i {\k38}mo{\k39}no{\k41}ga{\k40}ta{\k116}ri
+Dialogue: 0,0:01:16.09,0:01:29.65,Ligne 2,,0,0,0,karaoke,{\k95}shi{\k79}ro{\k120}i {\k40}ma{\k34}s{\k45}shi{\k42}ro{\k188}i {\k47}chi{\k38}zu {\k40}ni {\k56}ka{\k24}i{\k118}te {\k78}yu{\k41}ko{\k271}u

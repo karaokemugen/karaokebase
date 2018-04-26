@@ -35,77 +35,77 @@ Style: SOX 2,Comic Book,120,&H00F5E881,&H00FFFFFF,&H00780200,&H00000000,-1,0,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:01.00,Default 1,,0,0,0,template syl noblank,rn = { 0 }; rx = { 0 }; colors = { "&HF15FFB&" , "&H27E9E7&" , "&HEF800E&", "&H00B4FF&" , "&H10F411&" }; math.randomseed( _G.os.time());
-Comment: 0,0:00:00.00,0:00:01.00,Default 1,,0,0,0,template syl noblank,function randnum(ref) rn[ref] = math.random(1,5); return "" end
-Comment: 0,0:00:00.00,0:00:01.00,Default 1,,0,0,0,template syl noblank,function randx(ref) rx[ref] = math.random(); return "" end
-Comment: 0,0:00:00.00,0:00:00.00,Default 1,,0,0,0,template syl noblank,!randnum(syl.i)!!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default 1,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Comment: 0,0:00:00.00,0:00:00.00,Default 1,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default 1,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!colors[rn[syl.i]]!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 0,0:00:00.00,0:00:00.00,Default 1,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!colors[rn[syl.i]]!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Comment: 3,0:00:00.00,0:00:00.00,Default 1,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\c!colors[rn[syl.i]]!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Comment: 0,0:00:00.00,0:00:00.00,Default 1,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!colors[rn[syl.i]]!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default 1,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\c!colors[rn[syl.i]]!\pos($x,$y)}
-Comment: 0,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Comment: 0,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 0,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Comment: 3,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Comment: 0,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
-Comment: 0,0:00:00.00,0:00:00.00,Default 3,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default 3,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Comment: 0,0:00:00.00,0:00:00.00,Default 3,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default 3,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 0,0:00:00.00,0:00:00.00,Default 3,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Comment: 3,0:00:00.00,0:00:00.00,Default 3,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Comment: 0,0:00:00.00,0:00:00.00,Default 3,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default 3,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
-Comment: 0,0:00:00.00,0:00:00.00,SOX,,0,0,0,template syl noblank,!randx(syl.i)!!retime("presyl",-700,-400+(rx[syl.i]*100))!{\move($x,-150,$x,$y,0,!300+(rx[syl.i]*100)!)}
-Comment: 1,0:00:00.00,0:00:00.00,SOX,,0,0,0,template syl noblank,!retime("presyl",-700,-400+(rx[syl.i]*100))!{\bord0\move($x,-150,$x,$y,0,!300+(rx[syl.i]*100)!)}
-Comment: 0,0:00:00.00,0:00:00.00,SOX,,0,0,0,template syl noblank,!retime("presyl",-400+(rx[syl.i]*100),-50)!{\move($x,$y,$x,!$y+(rx[syl.i]*50)!,0,!350+(rx[syl.i]*100)!)}
-Comment: 1,0:00:00.00,0:00:00.00,SOX,,0,0,0,template syl noblank,!retime("presyl",-400+(rx[syl.i]*100),-50)!{\bord0\move($x,$y,$x,!$y+(rx[syl.i]*50)!,0,!350+(rx[syl.i]*100)!)}
-Comment: 0,0:00:00.00,0:00:00.00,SOX,,0,0,0,template syl noblank,!retime("syl",-50,$dur)!{\org(0,20)\t(0,!$dur*2!,\frz-120)\pos($x,!$y+(rx[syl.i]*50)!)}
-Comment: 3,0:00:00.00,0:00:00.00,SOX,,0,0,0,template syl noblank,!retime("syl",-50,$dur)!{\bord0)\org(0,20)\t(0,!$dur*2!,\frz-120)\pos($x,!$y+(rx[syl.i]*50)!)}
-Comment: 0,0:00:00.00,0:00:00.00,SOX 2,,0,0,0,template syl noblank,!randx(syl.i)!!retime("presyl",-700,-400+(rx[syl.i]*100))!{\move($x,-150,$x,$y,0,!300+(rx[syl.i]*100)!)}
-Comment: 1,0:00:00.00,0:00:00.00,SOX 2,,0,0,0,template syl noblank,!retime("presyl",-700,-400+(rx[syl.i]*100))!{\bord0\move($x,-150,$x,$y,0,!300+(rx[syl.i]*100)!)}
-Comment: 0,0:00:00.00,0:00:00.00,SOX 2,,0,0,0,template syl noblank,!retime("presyl",-400+(rx[syl.i]*100),-50)!{\move($x,$y,$x,!$y+(rx[syl.i]*50)!,0,!350+(rx[syl.i]*100)!)}
-Comment: 1,0:00:00.00,0:00:00.00,SOX 2,,0,0,0,template syl noblank,!retime("presyl",-400+(rx[syl.i]*100),-50)!{\bord0\move($x,$y,$x,!$y+(rx[syl.i]*50)!,0,!350+(rx[syl.i]*100)!)}
-Comment: 0,0:00:00.00,0:00:00.00,SOX 2,,0,0,0,template syl noblank,!retime("syl",-50,$dur)!{\org(0,20)\t(0,!$dur*2!,\fscx400\fscy400)\t(!3*$dur/2!,!2*$dur!,\frz-90)\move($x,!$y+(rx[syl.i]*50)!,!$x+500!,!$y+(rx[syl.i]*50)!)}
-Comment: 3,0:00:00.00,0:00:00.00,SOX 2,,0,0,0,template syl noblank,!retime("syl",-50,$dur)!{\bord0)\org(0,20)\t(0,!$dur*2!,\fscx400\fscy400)\t(!3*$dur/2!,!2*$dur!,\frz-90)\move($x,!$y+(rx[syl.i]*50)!,!$x+500!,!$y+(rx[syl.i]*50)!)}
-Comment: 0,0:00:03.56,0:00:07.05,Default 1,,0,0,0,karaoke,{\k45}as{\k44}sei {\k33}nan{\k47}te{\k32} {\k21}bu{\k23}t{\k22}to{\k34}bash'{\k48}te
-Comment: 0,0:00:07.12,0:00:10.01,Default 1,,0,0,70,karaoke,{\k12}su{\k12}na{\k12}o {\k10}ni {\k20}nac{\k24}chae {\k10}ho{\k11}ra{\k12}ho{\k10}ra {\k13}i{\k22}in{\k10}da {\k111}do
-Comment: 0,0:00:10.67,0:00:14.06,Default 1,,0,0,0,karaoke,{\k45}jin{\k45}sei {\k33}ou{\k48}ka{\k29} {\k23}bon{\k22}nou {\k22}no {\k33}FI{\k39}RE
-Comment: 0,0:00:14.23,0:00:17.28,Default 1,,0,0,70,karaoke,{\k13}ko{\k9}ko{\k12}ro {\k11}no {\k22}sa{\k22}ke{\k34}bi{\k33} {\k23}dash'{\k19}tai {\k14}yo{\k10}ne {\k23}ze{\k22}n{\k38}bu
-Comment: 0,0:00:17.57,0:00:20.72,Default 1,,0,0,0,karaoke,{\k21}ka{\k23}ra{\k23}da {\k22}no {\k42}shin {\k23}ka{\k24}ra {\k43}ic{\k44}chai{\k50}masu
-Comment: 0,0:00:30.40,0:00:33.33,Default 2,,0,0,0,karaoke,{\k27}yo{\k24}ku{\k23}se{\k65}i {\k21}no {\k17}na{\k29}ka {\k22}ni {\k65}wa
-Comment: 0,0:00:33.76,0:00:36.89,Default 3,,0,0,70,karaoke,{\k47}se{\k43}i{\k24}yo{\k23}ku {\k22}ga {\k44}hi{\k22}so{\k23}n{\k22}de{\k43}ru
-Comment: 0,0:00:37.53,0:00:40.44,Default 2,,0,0,0,karaoke,{\k26}ki{\k23}se{\k22}i {\k65}no {\k23}na{\k44}ka {\k23}ni {\k65}wa
-Comment: 0,0:00:41.08,0:00:44.00,Default 3,,0,0,70,karaoke,{\k51}se{\k20}i{\k67}ki {\k22}ga {\k22}ka{\k19}ku{\k25}re{\k22}te{\k44}ru
-Comment: 0,0:00:44.40,0:00:50.87,Default 2,,0,0,0,karaoke,{\k51}shi{\k43}me{\k68}t{\k21}ta {\k45}ma{\k22}na{\k64}ko{\k43} {\k27}shi{\k22}ta{\k22}ta{\k19}ru {\k49}shi{\k43}zu{\k108}ku
-Comment: 0,0:00:51.56,0:00:54.81,Default 2,,0,0,70,karaoke,{\k45}pe{\k44}ro{\k45}ri {\k22}pe{\k22}ro {\k44}pe{\k22}ro {\k24}pe{\k57}ro
-Comment: 0,0:00:55.29,0:00:58.00,Default 2,,0,0,0,karaoke,{\k27}wa{\k25}ta{\k19}shi {\k23}pe{\k22}ro{\k23}ri{\k22}su{\k110}to
-Comment: 0,0:00:58.45,0:00:59.80,Default 2,,0,0,70,karaoke,{\k23}pe{\k22}ro {\k21}pe{\k24}ro {\k22}pe{\k23}ro!
-Comment: 0,0:01:00.46,0:01:03.94,Default 1,,0,0,0,karaoke,{\k45}as{\k44}sei {\k33}nan{\k47}te{\k32} {\k21}bu{\k23}t{\k22}to{\k34}bash'{\k48}te
-Comment: 0,0:01:04.00,0:01:06.91,Default 1,,0,0,70,karaoke,{\k12}su{\k12}na{\k12}o {\k10}ni {\k20}nac{\k24}chae {\k10}ho{\k11}ra{\k12}ho{\k10}ra {\k13}i{\k22}in{\k10}da {\k111}do
-Comment: 0,0:01:07.54,0:01:10.97,Default 1,,0,0,0,karaoke,{\k45}jin{\k45}sei {\k33}ou{\k48}ka{\k29} {\k23}bon{\k22}nou {\k22}no {\k33}FI{\k39}RE
-Comment: 0,0:01:11.12,0:01:14.26,Default 1,,0,0,70,karaoke,{\k13}ko{\k9}ko{\k12}ro {\k11}no {\k22}sa{\k22}ke{\k34}bi{\k33} {\k23}dash'{\k19}tai {\k14}yo{\k10}ne {\k23}ze{\k22}n{\k38}bu
-Comment: 0,0:01:14.45,0:01:17.70,Default 1,,0,0,0,karaoke,{\k21}ka{\k23}ra{\k23}da {\k22}no {\k42}shin {\k23}ka{\k24}ra {\k43}ic{\k44}chai{\k50}masu
-Comment: 0,0:00:21.35,0:00:22.04,SOX,,0,0,0,karaoke,{\k21}S{\k23}O{\k25}X
-Comment: 0,0:00:22.24,0:00:22.90,SOX,,0,0,0,karaoke,{\k21}S{\k23}O{\k22}X
-Comment: 0,0:00:23.12,0:00:23.80,SOX,,0,0,0,karaoke,{\k22}S{\k23}O{\k23}X
-Comment: 0,0:00:24.00,0:00:24.72,SOX,,0,0,0,karaoke,{\k24}S{\k22}O{\k26}X
-Comment: 0,0:00:24.89,0:00:25.60,SOX,,0,0,0,karaoke,{\k24}S{\k22}O{\k25}X
-Comment: 0,0:00:25.79,0:00:26.48,SOX,,0,0,0,karaoke,{\k23}S{\k21}O{\k25}X
-Comment: 0,0:00:26.67,0:00:27.37,SOX,,0,0,0,karaoke,{\k23}S{\k23}O{\k24}X
-Comment: 0,0:00:27.56,0:00:28.25,SOX 2,,0,0,0,karaoke,{\k69}SOX!
-Comment: 0,0:01:18.23,0:01:18.93,SOX,,0,0,0,karaoke,{\k26}S{\k20}O{\k24}X
-Comment: 0,0:01:19.11,0:01:19.82,SOX,,0,0,0,karaoke,{\k23}S{\k24}O{\k24}X
-Comment: 0,0:01:20.00,0:01:20.72,SOX,,0,0,0,karaoke,{\k23}S{\k23}O{\k26}X
-Comment: 0,0:01:20.89,0:01:21.61,SOX,,0,0,0,karaoke,{\k24}S{\k22}O{\k26}X
-Comment: 0,0:01:21.79,0:01:22.50,SOX,,0,0,0,karaoke,{\k21}S{\k23}O{\k27}X
-Comment: 0,0:01:22.67,0:01:23.37,SOX,,0,0,0,karaoke,{\k24}S{\k22}O{\k24}X
-Comment: 0,0:01:23.57,0:01:24.27,SOX,,0,0,0,karaoke,{\k23}S{\k22}O{\k25}X
-Comment: 0,0:01:24.45,0:01:25.06,SOX 2,,0,0,0,karaoke,{\k61}SOX!
+Dialogue: 0,0:00:00.00,0:00:01.00,Default 1,,0,0,0,template syl noblank,rn = { 0 }; rx = { 0 }; colors = { "&HF15FFB&" , "&H27E9E7&" , "&HEF800E&", "&H00B4FF&" , "&H10F411&" }; math.randomseed( _G.os.time());
+Dialogue: 0,0:00:00.00,0:00:01.00,Default 1,,0,0,0,template syl noblank,function randnum(ref) rn[ref] = math.random(1,5); return "" end
+Dialogue: 0,0:00:00.00,0:00:01.00,Default 1,,0,0,0,template syl noblank,function randx(ref) rx[ref] = math.random(); return "" end
+Dialogue: 0,0:00:00.00,0:00:00.00,Default 1,,0,0,0,template syl noblank,!randnum(syl.i)!!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default 1,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default 1,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default 1,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!colors[rn[syl.i]]!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default 1,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!colors[rn[syl.i]]!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default 1,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\c!colors[rn[syl.i]]!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default 1,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!colors[rn[syl.i]]!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default 1,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\c!colors[rn[syl.i]]!\pos($x,$y)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default 3,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default 3,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default 3,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default 3,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default 3,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default 3,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default 3,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default 3,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
+Dialogue: 0,0:00:00.00,0:00:00.00,SOX,,0,0,0,template syl noblank,!randx(syl.i)!!retime("presyl",-700,-400+(rx[syl.i]*100))!{\move($x,-150,$x,$y,0,!300+(rx[syl.i]*100)!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,SOX,,0,0,0,template syl noblank,!retime("presyl",-700,-400+(rx[syl.i]*100))!{\bord0\move($x,-150,$x,$y,0,!300+(rx[syl.i]*100)!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,SOX,,0,0,0,template syl noblank,!retime("presyl",-400+(rx[syl.i]*100),-50)!{\move($x,$y,$x,!$y+(rx[syl.i]*50)!,0,!350+(rx[syl.i]*100)!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,SOX,,0,0,0,template syl noblank,!retime("presyl",-400+(rx[syl.i]*100),-50)!{\bord0\move($x,$y,$x,!$y+(rx[syl.i]*50)!,0,!350+(rx[syl.i]*100)!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,SOX,,0,0,0,template syl noblank,!retime("syl",-50,$dur)!{\org(0,20)\t(0,!$dur*2!,\frz-120)\pos($x,!$y+(rx[syl.i]*50)!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,SOX,,0,0,0,template syl noblank,!retime("syl",-50,$dur)!{\bord0)\org(0,20)\t(0,!$dur*2!,\frz-120)\pos($x,!$y+(rx[syl.i]*50)!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,SOX 2,,0,0,0,template syl noblank,!randx(syl.i)!!retime("presyl",-700,-400+(rx[syl.i]*100))!{\move($x,-150,$x,$y,0,!300+(rx[syl.i]*100)!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,SOX 2,,0,0,0,template syl noblank,!retime("presyl",-700,-400+(rx[syl.i]*100))!{\bord0\move($x,-150,$x,$y,0,!300+(rx[syl.i]*100)!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,SOX 2,,0,0,0,template syl noblank,!retime("presyl",-400+(rx[syl.i]*100),-50)!{\move($x,$y,$x,!$y+(rx[syl.i]*50)!,0,!350+(rx[syl.i]*100)!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,SOX 2,,0,0,0,template syl noblank,!retime("presyl",-400+(rx[syl.i]*100),-50)!{\bord0\move($x,$y,$x,!$y+(rx[syl.i]*50)!,0,!350+(rx[syl.i]*100)!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,SOX 2,,0,0,0,template syl noblank,!retime("syl",-50,$dur)!{\org(0,20)\t(0,!$dur*2!,\fscx400\fscy400)\t(!3*$dur/2!,!2*$dur!,\frz-90)\move($x,!$y+(rx[syl.i]*50)!,!$x+500!,!$y+(rx[syl.i]*50)!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,SOX 2,,0,0,0,template syl noblank,!retime("syl",-50,$dur)!{\bord0)\org(0,20)\t(0,!$dur*2!,\fscx400\fscy400)\t(!3*$dur/2!,!2*$dur!,\frz-90)\move($x,!$y+(rx[syl.i]*50)!,!$x+500!,!$y+(rx[syl.i]*50)!)}
+Dialogue: 0,0:00:03.56,0:00:07.05,Default 1,,0,0,0,karaoke,{\k45}as{\k44}sei {\k33}nan{\k47}te{\k32} {\k21}bu{\k23}t{\k22}to{\k34}bash'{\k48}te
+Dialogue: 0,0:00:07.12,0:00:10.01,Default 1,,0,0,70,karaoke,{\k12}su{\k12}na{\k12}o {\k10}ni {\k20}nac{\k24}chae {\k10}ho{\k11}ra{\k12}ho{\k10}ra {\k13}i{\k22}in{\k10}da {\k111}do
+Dialogue: 0,0:00:10.67,0:00:14.06,Default 1,,0,0,0,karaoke,{\k45}jin{\k45}sei {\k33}ou{\k48}ka{\k29} {\k23}bon{\k22}nou {\k22}no {\k33}FI{\k39}RE
+Dialogue: 0,0:00:14.23,0:00:17.28,Default 1,,0,0,70,karaoke,{\k13}ko{\k9}ko{\k12}ro {\k11}no {\k22}sa{\k22}ke{\k34}bi{\k33} {\k23}dash'{\k19}tai {\k14}yo{\k10}ne {\k23}ze{\k22}n{\k38}bu
+Dialogue: 0,0:00:17.57,0:00:20.72,Default 1,,0,0,0,karaoke,{\k21}ka{\k23}ra{\k23}da {\k22}no {\k42}shin {\k23}ka{\k24}ra {\k43}ic{\k44}chai{\k50}masu
+Dialogue: 0,0:00:30.40,0:00:33.33,Default 2,,0,0,0,karaoke,{\k27}yo{\k24}ku{\k23}se{\k65}i {\k21}no {\k17}na{\k29}ka {\k22}ni {\k65}wa
+Dialogue: 0,0:00:33.76,0:00:36.89,Default 3,,0,0,70,karaoke,{\k47}se{\k43}i{\k24}yo{\k23}ku {\k22}ga {\k44}hi{\k22}so{\k23}n{\k22}de{\k43}ru
+Dialogue: 0,0:00:37.53,0:00:40.44,Default 2,,0,0,0,karaoke,{\k26}ki{\k23}se{\k22}i {\k65}no {\k23}na{\k44}ka {\k23}ni {\k65}wa
+Dialogue: 0,0:00:41.08,0:00:44.00,Default 3,,0,0,70,karaoke,{\k51}se{\k20}i{\k67}ki {\k22}ga {\k22}ka{\k19}ku{\k25}re{\k22}te{\k44}ru
+Dialogue: 0,0:00:44.40,0:00:50.87,Default 2,,0,0,0,karaoke,{\k51}shi{\k43}me{\k68}t{\k21}ta {\k45}ma{\k22}na{\k64}ko{\k43} {\k27}shi{\k22}ta{\k22}ta{\k19}ru {\k49}shi{\k43}zu{\k108}ku
+Dialogue: 0,0:00:51.56,0:00:54.81,Default 2,,0,0,70,karaoke,{\k45}pe{\k44}ro{\k45}ri {\k22}pe{\k22}ro {\k44}pe{\k22}ro {\k24}pe{\k57}ro
+Dialogue: 0,0:00:55.29,0:00:58.00,Default 2,,0,0,0,karaoke,{\k27}wa{\k25}ta{\k19}shi {\k23}pe{\k22}ro{\k23}ri{\k22}su{\k110}to
+Dialogue: 0,0:00:58.45,0:00:59.80,Default 2,,0,0,70,karaoke,{\k23}pe{\k22}ro {\k21}pe{\k24}ro {\k22}pe{\k23}ro!
+Dialogue: 0,0:01:00.46,0:01:03.94,Default 1,,0,0,0,karaoke,{\k45}as{\k44}sei {\k33}nan{\k47}te{\k32} {\k21}bu{\k23}t{\k22}to{\k34}bash'{\k48}te
+Dialogue: 0,0:01:04.00,0:01:06.91,Default 1,,0,0,70,karaoke,{\k12}su{\k12}na{\k12}o {\k10}ni {\k20}nac{\k24}chae {\k10}ho{\k11}ra{\k12}ho{\k10}ra {\k13}i{\k22}in{\k10}da {\k111}do
+Dialogue: 0,0:01:07.54,0:01:10.97,Default 1,,0,0,0,karaoke,{\k45}jin{\k45}sei {\k33}ou{\k48}ka{\k29} {\k23}bon{\k22}nou {\k22}no {\k33}FI{\k39}RE
+Dialogue: 0,0:01:11.12,0:01:14.26,Default 1,,0,0,70,karaoke,{\k13}ko{\k9}ko{\k12}ro {\k11}no {\k22}sa{\k22}ke{\k34}bi{\k33} {\k23}dash'{\k19}tai {\k14}yo{\k10}ne {\k23}ze{\k22}n{\k38}bu
+Dialogue: 0,0:01:14.45,0:01:17.70,Default 1,,0,0,0,karaoke,{\k21}ka{\k23}ra{\k23}da {\k22}no {\k42}shin {\k23}ka{\k24}ra {\k43}ic{\k44}chai{\k50}masu
+Dialogue: 0,0:00:21.35,0:00:22.04,SOX,,0,0,0,karaoke,{\k21}S{\k23}O{\k25}X
+Dialogue: 0,0:00:22.24,0:00:22.90,SOX,,0,0,0,karaoke,{\k21}S{\k23}O{\k22}X
+Dialogue: 0,0:00:23.12,0:00:23.80,SOX,,0,0,0,karaoke,{\k22}S{\k23}O{\k23}X
+Dialogue: 0,0:00:24.00,0:00:24.72,SOX,,0,0,0,karaoke,{\k24}S{\k22}O{\k26}X
+Dialogue: 0,0:00:24.89,0:00:25.60,SOX,,0,0,0,karaoke,{\k24}S{\k22}O{\k25}X
+Dialogue: 0,0:00:25.79,0:00:26.48,SOX,,0,0,0,karaoke,{\k23}S{\k21}O{\k25}X
+Dialogue: 0,0:00:26.67,0:00:27.37,SOX,,0,0,0,karaoke,{\k23}S{\k23}O{\k24}X
+Dialogue: 0,0:00:27.56,0:00:28.25,SOX 2,,0,0,0,karaoke,{\k69}SOX!
+Dialogue: 0,0:01:18.23,0:01:18.93,SOX,,0,0,0,karaoke,{\k26}S{\k20}O{\k24}X
+Dialogue: 0,0:01:19.11,0:01:19.82,SOX,,0,0,0,karaoke,{\k23}S{\k24}O{\k24}X
+Dialogue: 0,0:01:20.00,0:01:20.72,SOX,,0,0,0,karaoke,{\k23}S{\k23}O{\k26}X
+Dialogue: 0,0:01:20.89,0:01:21.61,SOX,,0,0,0,karaoke,{\k24}S{\k22}O{\k26}X
+Dialogue: 0,0:01:21.79,0:01:22.50,SOX,,0,0,0,karaoke,{\k21}S{\k23}O{\k27}X
+Dialogue: 0,0:01:22.67,0:01:23.37,SOX,,0,0,0,karaoke,{\k24}S{\k22}O{\k24}X
+Dialogue: 0,0:01:23.57,0:01:24.27,SOX,,0,0,0,karaoke,{\k23}S{\k22}O{\k25}X
+Dialogue: 0,0:01:24.45,0:01:25.06,SOX 2,,0,0,0,karaoke,{\k61}SOX!
 

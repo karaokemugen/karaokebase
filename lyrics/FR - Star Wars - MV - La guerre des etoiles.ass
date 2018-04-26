@@ -29,84 +29,84 @@ Style: Default - Copier,Aurebesh,50,&H00FFFFFF,&H0027F3FB,&H00000000,&H00000000,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*100,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*100,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*100))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*100))!{\fad(0,150)\bord0\pos($x,$y)}
-Comment: 1,0:00:15.59,0:00:21.95,Default,,0,0,0,karaoke,{\k107}Là{\k121}-bas,{\k81} {\k25}dans {\k24}les {\k27}é{\k125}toi{\k126}les
-Comment: 0,0:00:22.45,0:00:26.14,Default,,0,0,85,karaoke,{\k20}{\k26}La {\k25}guer{\k46}re {\k126}pa{\k126}sse
-Comment: 0,0:00:26.64,0:00:29.95,Default,,0,0,0,karaoke,{\k30}Comme {\k27}un {\k43}so{\k231}leil
-Comment: 0,0:00:31.42,0:00:37.81,Default,,0,0,85,karaoke,{\k117}Là{\k132}-bas,{\k53} {\k46}le {\k23}fer {\k37}s'em{\k108}bal{\k123}le
-Comment: 0,0:00:38.42,0:00:42.10,Default,,0,0,0,karaoke,{\k43}Les {\k23}fu{\k29}sées {\k140}cra{\k133}chent
-Comment: 0,0:00:42.59,0:00:45.58,Default,,0,0,85,karaoke,{\k21}Du {\k49}sang {\k31}ver{\k198}meil
-Comment: 0,0:00:47.31,0:00:52.20,Default,,0,0,0,karaoke,{\k24}Pour {\k119}toi,{\k53} {\k17}les {\k114}hommes {\k69}et {\k30}les {\k63}bêtes
-Comment: 0,0:00:52.20,0:00:54.92,Default,,0,0,85,karaoke,{\k21}Ont {\k16}re{\k66}pris {\k23}les {\k106}ar{\k40}mes
-Comment: 0,0:00:55.36,0:01:02.18,Default,,0,0,0,karaoke,{\k15}Pour {\k121}toi,{\k54} {\k23}ils {\k72}vont {\k28}tra{\k40}ver{\k28}ser {\k100}la {\k201}nuit
-Comment: 0,0:01:03.18,0:01:07.74,Default,,0,0,85,karaoke,{\k15}Pour {\k124}toi{\k62} {\k93}du {\k22}fond {\k73}des {\k25}dé{\k42}serts
-Comment: 0,0:01:08.07,0:01:10.57,Default,,0,0,0,karaoke,{\k8}Et {\k16}des {\k62}mer{\k14}s {\k19}s'é{\k99}lan{\k32}cent
-Comment: 0,0:01:11.02,0:01:17.76,Default,,0,0,85,karaoke,{\k25}Tous {\k99}ceux {\k78}que {\k27}la {\k80}peur {\k20}n'a {\k60}pas {\k29}sé{\k256}duits
-Comment: 0,0:01:18.22,0:01:25.27,Default,,0,0,85,karaoke,{\k63}Tous {\k130}ceux {\k77}que {\k25}la {\k74}peur {\k24}n'a {\k71}pas {\k35}sé{\k206}duits
-Comment: 0,0:01:27.44,0:01:33.88,Default,,0,0,0,karaoke,{\k113}Là{\k123}-bas, {\k87}{\k26}dans {\k24}les {\k19}é{\k131}toi{\k121}les,
-Comment: 0,0:01:34.70,0:01:37.96,Default,,0,0,85,karaoke,{\k31}Dans {\k18}la {\k38}nuit {\k112}pâ{\k127}le
-Comment: 0,0:01:38.49,0:01:42.20,Default,,0,0,0,karaoke,{\k61}Loin {\k21}du {\k36}so{\k253}leil
-Comment: 0,0:01:43.52,0:01:50.15,Default,,0,0,85,karaoke,{\k123}Là{\k118}-bas {\k59}{\k37}le {\k34}ciel {\k34}em{\k138}bra{\k120}se
-Comment: 0,0:01:50.76,0:01:54.10,Default,,0,0,0,karaoke,{\k29}D'or {\k20}et {\k26}de {\k130}flam{\k129}mes
-Comment: 0,0:01:54.54,0:01:57.80,Default,,0,0,85,karaoke,{\k47}Les {\k30}guer{\k15}res {\k27}nou{\k207}velles
-Comment: 0,0:01:59.50,0:02:07.28,Default,,0,0,0,karaoke,{\k29}Là{\k120}-bas, {\k57}{\k102}près {\k22}de {\k88}la {\k16}fron{\k75}tiè{\k10}re {\k16}de {\k69}l'es{\k18}pé{\k105}ran{\k51}ce
-Comment: 0,0:02:07.71,0:02:14.46,Default,,0,0,85,karaoke,{\k39}On {\k101}voit{\k48} {\k30}un {\k43}cer{\k53}veau {\k44}de {\k40}fer {\k84}qui {\k193}luit
-Comment: 0,0:02:15.62,0:02:20.18,Default,,0,0,0,karaoke,{\k2}(Vêtu) {\k183}d'une {\k104}gran{\k20}de {\k78}ca{\k20}pe {\k49}noire
-Comment: 0,0:02:20.59,0:02:23.02,Default,,0,0,85,karaoke,{\k8}Et {\k9}un {\k67}mas{\k19}que {\k116}sans {\k24}vie
-Comment: 0,0:02:23.56,0:02:29.97,Default,,0,0,0,karaoke,{\k95}L'é{\k24}pée {\k46}de {\k31}lu{\k69}miè{\k40}re {\k11}est {\k78}a{\k19}vec {\k228}lui
-Comment: 0,0:02:30.68,0:02:38.94,Default,,0,0,85,karaoke,{\k63}Et {\k122}l'é{\k14}pée {\k78}de {\k24}lu{\k34}miè{\k14}re{\k35} {\k25}est {\k62}a{\k38}vec {\k317}lui
-Comment: 0,0:02:40.16,0:02:42.88,Default,,0,0,0,karaoke,{\k135}Là{\k137}-bas
-Comment: 0,0:02:43.57,0:02:47.03,Default,,0,0,85,karaoke,{\k28}Dans {\k21}les {\k27}é{\k127}toi{\k143}les
-Comment: 0,0:02:47.46,0:02:51.12,Default,,0,0,0,karaoke,{\k41}La {\k24}guer{\k28}re {\k0}{\k128}pa{\k145}sse
-Comment: 0,0:02:51.68,0:02:54.96,Default,,0,0,85,karaoke,{\k35}Comme {\k24}un {\k42}so{\k227}leil
-Comment: 0,0:02:56.60,0:02:59.00,Default,,0,0,0,karaoke,{\k113}Là{\k127}-bas
-Comment: 0,0:02:59.56,0:03:03.08,Default,,0,0,85,karaoke,{\k49}Le {\k33}fer {\k34}s'em{\k112}bal{\k124}le
-Comment: 0,0:03:03.63,0:03:07.34,Default,,0,0,0,karaoke,{\k45}Les {\k25}fu{\k24}sées {\k124}cra{\k153}chent
-Comment: 0,0:03:07.93,0:03:10.97,Default,,0,0,85,karaoke,{\k21}Du {\k55}sang {\k25}ver{\k203}meil
-Comment: 0,0:03:12.86,0:03:19.30,Default,,0,0,0,karaoke,{\k112}Là{\k117}-bas, {\k86}{\k30}dans {\k19}les {\k34}é{\k123}toi{\k123}les
-Comment: 0,0:03:19.78,0:03:21.38,Default,,0,0,85,karaoke,{\k27}{\k30}Dans {\k20}la {\k43}nuit {\k40}pâle
-Comment: 1,0:00:15.59,0:00:21.95,Default - Copier,,0,0,0,karaoke,{\k107}La{\k121}-bas,{\k81} {\k25}dans {\k24}les {\k27}e{\k125}toi{\k126}les
-Comment: 0,0:00:22.45,0:00:26.14,Default - Copier,,0,0,85,karaoke,{\k20}{\k26}La {\k25}guer{\k46}re {\k126}pa{\k126}sse
-Comment: 0,0:00:26.64,0:00:29.95,Default - Copier,,0,0,0,karaoke,{\k30}Comme {\k27}un {\k43}so{\k231}leil
-Comment: 0,0:00:31.42,0:00:37.81,Default - Copier,,0,0,85,karaoke,{\k117}La{\k132}-bas,{\k53} {\k46}le {\k23}fer {\k37}s'em{\k108}bal{\k123}le
-Comment: 0,0:00:38.42,0:00:42.10,Default - Copier,,0,0,0,karaoke,{\k43}Les {\k23}fu{\k29}sees {\k140}cra{\k133}chent
-Comment: 0,0:00:42.59,0:00:45.58,Default - Copier,,0,0,85,karaoke,{\k21}Du {\k49}sang {\k31}ver{\k198}meil
-Comment: 0,0:00:47.31,0:00:52.20,Default - Copier,,0,0,0,karaoke,{\k24}Pour {\k119}toi,{\k53} {\k17}les {\k114}hommes {\k69}et {\k30}les {\k63}betes
-Comment: 0,0:00:52.20,0:00:54.92,Default - Copier,,0,0,85,karaoke,{\k21}Ont {\k16}re{\k66}pris {\k23}les {\k106}ar{\k40}mes
-Comment: 0,0:00:55.36,0:01:02.18,Default - Copier,,0,0,0,karaoke,{\k15}Pour {\k121}toi,{\k54} {\k23}ils {\k72}vont {\k28}tra{\k40}ver{\k28}ser {\k100}la {\k201}nuit
-Comment: 0,0:01:03.18,0:01:07.74,Default - Copier,,0,0,85,karaoke,{\k15}Pour {\k124}toi{\k62} {\k93}du {\k22}fond {\k73}des {\k25}de{\k42}serts
-Comment: 0,0:01:08.07,0:01:10.57,Default - Copier,,0,0,0,karaoke,{\k8}Et {\k16}des {\k62}mer{\k14}s {\k19}s'e{\k99}lan{\k32}cent
-Comment: 0,0:01:11.02,0:01:17.76,Default - Copier,,0,0,85,karaoke,{\k25}Tous {\k99}ceux {\k78}que {\k27}la {\k80}peur {\k20}n'a {\k60}pas {\k29}se{\k256}duits
-Comment: 0,0:01:18.22,0:01:25.27,Default - Copier,,0,0,85,karaoke,{\k63}Tous {\k130}ceux {\k77}que {\k25}la {\k74}peur {\k24}n'a {\k71}pas {\k35}se{\k206}duits
-Comment: 0,0:01:27.44,0:01:33.88,Default - Copier,,0,0,0,karaoke,{\k113}La{\k123}-bas, {\k87}{\k26}dans {\k24}les {\k19}e{\k131}toi{\k121}les,
-Comment: 0,0:01:34.70,0:01:37.96,Default - Copier,,0,0,85,karaoke,{\k31}Dans {\k18}la {\k38}nuit {\k112}pa{\k127}le
-Comment: 0,0:01:38.49,0:01:42.20,Default - Copier,,0,0,0,karaoke,{\k61}Loin {\k21}du {\k36}so{\k253}leil
-Comment: 0,0:01:43.52,0:01:50.15,Default - Copier,,0,0,85,karaoke,{\k123}La{\k118}-bas {\k59}{\k37}le {\k34}ciel {\k34}em{\k138}bra{\k120}se
-Comment: 0,0:01:50.76,0:01:54.10,Default - Copier,,0,0,0,karaoke,{\k29}D'or {\k20}et {\k26}de {\k130}flam{\k129}mes
-Comment: 0,0:01:54.54,0:01:57.80,Default - Copier,,0,0,85,karaoke,{\k47}Les {\k30}guer{\k15}res {\k27}nou{\k207}velles
-Comment: 0,0:01:59.50,0:02:07.28,Default - Copier,,0,0,0,karaoke,{\k29}La{\k120}-bas, {\k57}{\k102}pres {\k22}de {\k88}la {\k16}fron{\k75}tie{\k10}re {\k16}de {\k69}l'es{\k18}pe{\k105}ran{\k51}ce
-Comment: 0,0:02:07.71,0:02:14.46,Default - Copier,,0,0,85,karaoke,{\k39}On {\k101}voit{\k48} {\k30}un {\k43}cer{\k53}veau {\k44}de {\k40}fer {\k84}qui {\k193}luit
-Comment: 0,0:02:15.62,0:02:20.18,Default - Copier,,0,0,0,karaoke,{\k2}(Vetu) {\k183}d'une {\k104}gran{\k20}de {\k78}ca{\k20}pe {\k49}noire
-Comment: 0,0:02:20.59,0:02:23.02,Default - Copier,,0,0,85,karaoke,{\k8}Et {\k9}un {\k67}mas{\k19}que {\k116}sans {\k24}vie
-Comment: 0,0:02:23.56,0:02:29.97,Default - Copier,,0,0,0,karaoke,{\k95}L'e{\k24}pee {\k46}de {\k31}lu{\k69}mie{\k40}re {\k11}est {\k78}a{\k19}vec {\k228}lui
-Comment: 0,0:02:30.68,0:02:38.94,Default - Copier,,0,0,85,karaoke,{\k63}Et {\k122}l'e{\k14}pee {\k78}de {\k24}lu{\k34}mie{\k14}re{\k35} {\k25}est {\k62}a{\k38}vec {\k317}lui
-Comment: 0,0:02:40.16,0:02:42.88,Default - Copier,,0,0,0,karaoke,{\k135}La{\k137}-bas
-Comment: 0,0:02:43.57,0:02:47.03,Default - Copier,,0,0,85,karaoke,{\k28}Dans {\k21}les {\k27}e{\k127}toi{\k143}les
-Comment: 0,0:02:47.46,0:02:51.12,Default - Copier,,0,0,0,karaoke,{\k41}La {\k24}guer{\k28}re {\k0}{\k128}pa{\k145}sse
-Comment: 0,0:02:51.68,0:02:54.96,Default - Copier,,0,0,85,karaoke,{\k35}Comme {\k24}un {\k42}so{\k227}leil
-Comment: 0,0:02:56.60,0:02:59.00,Default - Copier,,0,0,0,karaoke,{\k113}La{\k127}-bas
-Comment: 0,0:02:59.56,0:03:03.08,Default - Copier,,0,0,85,karaoke,{\k49}Le {\k33}fer {\k34}s'em{\k112}bal{\k124}le
-Comment: 0,0:03:03.63,0:03:07.34,Default - Copier,,0,0,0,karaoke,{\k45}Les {\k25}fu{\k24}sees {\k124}cra{\k153}chent
-Comment: 0,0:03:07.93,0:03:10.97,Default - Copier,,0,0,85,karaoke,{\k21}Du {\k55}sang {\k25}ver{\k203}meil
-Comment: 0,0:03:12.86,0:03:19.30,Default - Copier,,0,0,0,karaoke,{\k112}La{\k117}-bas, {\k86}{\k30}dans {\k19}les {\k34}e{\k123}toi{\k123}les
-Comment: 0,0:03:19.78,0:03:21.38,Default - Copier,,0,0,85,karaoke,{\k27}{\k30}Dans {\k20}la {\k43}nuit {\k40}pale
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*100,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*100,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*100))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*100))!{\fad(0,150)\bord0\pos($x,$y)}
+Dialogue: 1,0:00:15.59,0:00:21.95,Default,,0,0,0,karaoke,{\k107}Là{\k121}-bas,{\k81} {\k25}dans {\k24}les {\k27}é{\k125}toi{\k126}les
+Dialogue: 0,0:00:22.45,0:00:26.14,Default,,0,0,85,karaoke,{\k20}{\k26}La {\k25}guer{\k46}re {\k126}pa{\k126}sse
+Dialogue: 0,0:00:26.64,0:00:29.95,Default,,0,0,0,karaoke,{\k30}Comme {\k27}un {\k43}so{\k231}leil
+Dialogue: 0,0:00:31.42,0:00:37.81,Default,,0,0,85,karaoke,{\k117}Là{\k132}-bas,{\k53} {\k46}le {\k23}fer {\k37}s'em{\k108}bal{\k123}le
+Dialogue: 0,0:00:38.42,0:00:42.10,Default,,0,0,0,karaoke,{\k43}Les {\k23}fu{\k29}sées {\k140}cra{\k133}chent
+Dialogue: 0,0:00:42.59,0:00:45.58,Default,,0,0,85,karaoke,{\k21}Du {\k49}sang {\k31}ver{\k198}meil
+Dialogue: 0,0:00:47.31,0:00:52.20,Default,,0,0,0,karaoke,{\k24}Pour {\k119}toi,{\k53} {\k17}les {\k114}hommes {\k69}et {\k30}les {\k63}bêtes
+Dialogue: 0,0:00:52.20,0:00:54.92,Default,,0,0,85,karaoke,{\k21}Ont {\k16}re{\k66}pris {\k23}les {\k106}ar{\k40}mes
+Dialogue: 0,0:00:55.36,0:01:02.18,Default,,0,0,0,karaoke,{\k15}Pour {\k121}toi,{\k54} {\k23}ils {\k72}vont {\k28}tra{\k40}ver{\k28}ser {\k100}la {\k201}nuit
+Dialogue: 0,0:01:03.18,0:01:07.74,Default,,0,0,85,karaoke,{\k15}Pour {\k124}toi{\k62} {\k93}du {\k22}fond {\k73}des {\k25}dé{\k42}serts
+Dialogue: 0,0:01:08.07,0:01:10.57,Default,,0,0,0,karaoke,{\k8}Et {\k16}des {\k62}mer{\k14}s {\k19}s'é{\k99}lan{\k32}cent
+Dialogue: 0,0:01:11.02,0:01:17.76,Default,,0,0,85,karaoke,{\k25}Tous {\k99}ceux {\k78}que {\k27}la {\k80}peur {\k20}n'a {\k60}pas {\k29}sé{\k256}duits
+Dialogue: 0,0:01:18.22,0:01:25.27,Default,,0,0,85,karaoke,{\k63}Tous {\k130}ceux {\k77}que {\k25}la {\k74}peur {\k24}n'a {\k71}pas {\k35}sé{\k206}duits
+Dialogue: 0,0:01:27.44,0:01:33.88,Default,,0,0,0,karaoke,{\k113}Là{\k123}-bas, {\k87}{\k26}dans {\k24}les {\k19}é{\k131}toi{\k121}les,
+Dialogue: 0,0:01:34.70,0:01:37.96,Default,,0,0,85,karaoke,{\k31}Dans {\k18}la {\k38}nuit {\k112}pâ{\k127}le
+Dialogue: 0,0:01:38.49,0:01:42.20,Default,,0,0,0,karaoke,{\k61}Loin {\k21}du {\k36}so{\k253}leil
+Dialogue: 0,0:01:43.52,0:01:50.15,Default,,0,0,85,karaoke,{\k123}Là{\k118}-bas {\k59}{\k37}le {\k34}ciel {\k34}em{\k138}bra{\k120}se
+Dialogue: 0,0:01:50.76,0:01:54.10,Default,,0,0,0,karaoke,{\k29}D'or {\k20}et {\k26}de {\k130}flam{\k129}mes
+Dialogue: 0,0:01:54.54,0:01:57.80,Default,,0,0,85,karaoke,{\k47}Les {\k30}guer{\k15}res {\k27}nou{\k207}velles
+Dialogue: 0,0:01:59.50,0:02:07.28,Default,,0,0,0,karaoke,{\k29}Là{\k120}-bas, {\k57}{\k102}près {\k22}de {\k88}la {\k16}fron{\k75}tiè{\k10}re {\k16}de {\k69}l'es{\k18}pé{\k105}ran{\k51}ce
+Dialogue: 0,0:02:07.71,0:02:14.46,Default,,0,0,85,karaoke,{\k39}On {\k101}voit{\k48} {\k30}un {\k43}cer{\k53}veau {\k44}de {\k40}fer {\k84}qui {\k193}luit
+Dialogue: 0,0:02:15.62,0:02:20.18,Default,,0,0,0,karaoke,{\k2}(Vêtu) {\k183}d'une {\k104}gran{\k20}de {\k78}ca{\k20}pe {\k49}noire
+Dialogue: 0,0:02:20.59,0:02:23.02,Default,,0,0,85,karaoke,{\k8}Et {\k9}un {\k67}mas{\k19}que {\k116}sans {\k24}vie
+Dialogue: 0,0:02:23.56,0:02:29.97,Default,,0,0,0,karaoke,{\k95}L'é{\k24}pée {\k46}de {\k31}lu{\k69}miè{\k40}re {\k11}est {\k78}a{\k19}vec {\k228}lui
+Dialogue: 0,0:02:30.68,0:02:38.94,Default,,0,0,85,karaoke,{\k63}Et {\k122}l'é{\k14}pée {\k78}de {\k24}lu{\k34}miè{\k14}re{\k35} {\k25}est {\k62}a{\k38}vec {\k317}lui
+Dialogue: 0,0:02:40.16,0:02:42.88,Default,,0,0,0,karaoke,{\k135}Là{\k137}-bas
+Dialogue: 0,0:02:43.57,0:02:47.03,Default,,0,0,85,karaoke,{\k28}Dans {\k21}les {\k27}é{\k127}toi{\k143}les
+Dialogue: 0,0:02:47.46,0:02:51.12,Default,,0,0,0,karaoke,{\k41}La {\k24}guer{\k28}re {\k0}{\k128}pa{\k145}sse
+Dialogue: 0,0:02:51.68,0:02:54.96,Default,,0,0,85,karaoke,{\k35}Comme {\k24}un {\k42}so{\k227}leil
+Dialogue: 0,0:02:56.60,0:02:59.00,Default,,0,0,0,karaoke,{\k113}Là{\k127}-bas
+Dialogue: 0,0:02:59.56,0:03:03.08,Default,,0,0,85,karaoke,{\k49}Le {\k33}fer {\k34}s'em{\k112}bal{\k124}le
+Dialogue: 0,0:03:03.63,0:03:07.34,Default,,0,0,0,karaoke,{\k45}Les {\k25}fu{\k24}sées {\k124}cra{\k153}chent
+Dialogue: 0,0:03:07.93,0:03:10.97,Default,,0,0,85,karaoke,{\k21}Du {\k55}sang {\k25}ver{\k203}meil
+Dialogue: 0,0:03:12.86,0:03:19.30,Default,,0,0,0,karaoke,{\k112}Là{\k117}-bas, {\k86}{\k30}dans {\k19}les {\k34}é{\k123}toi{\k123}les
+Dialogue: 0,0:03:19.78,0:03:21.38,Default,,0,0,85,karaoke,{\k27}{\k30}Dans {\k20}la {\k43}nuit {\k40}pâle
+Dialogue: 1,0:00:15.59,0:00:21.95,Default - Copier,,0,0,0,karaoke,{\k107}La{\k121}-bas,{\k81} {\k25}dans {\k24}les {\k27}e{\k125}toi{\k126}les
+Dialogue: 0,0:00:22.45,0:00:26.14,Default - Copier,,0,0,85,karaoke,{\k20}{\k26}La {\k25}guer{\k46}re {\k126}pa{\k126}sse
+Dialogue: 0,0:00:26.64,0:00:29.95,Default - Copier,,0,0,0,karaoke,{\k30}Comme {\k27}un {\k43}so{\k231}leil
+Dialogue: 0,0:00:31.42,0:00:37.81,Default - Copier,,0,0,85,karaoke,{\k117}La{\k132}-bas,{\k53} {\k46}le {\k23}fer {\k37}s'em{\k108}bal{\k123}le
+Dialogue: 0,0:00:38.42,0:00:42.10,Default - Copier,,0,0,0,karaoke,{\k43}Les {\k23}fu{\k29}sees {\k140}cra{\k133}chent
+Dialogue: 0,0:00:42.59,0:00:45.58,Default - Copier,,0,0,85,karaoke,{\k21}Du {\k49}sang {\k31}ver{\k198}meil
+Dialogue: 0,0:00:47.31,0:00:52.20,Default - Copier,,0,0,0,karaoke,{\k24}Pour {\k119}toi,{\k53} {\k17}les {\k114}hommes {\k69}et {\k30}les {\k63}betes
+Dialogue: 0,0:00:52.20,0:00:54.92,Default - Copier,,0,0,85,karaoke,{\k21}Ont {\k16}re{\k66}pris {\k23}les {\k106}ar{\k40}mes
+Dialogue: 0,0:00:55.36,0:01:02.18,Default - Copier,,0,0,0,karaoke,{\k15}Pour {\k121}toi,{\k54} {\k23}ils {\k72}vont {\k28}tra{\k40}ver{\k28}ser {\k100}la {\k201}nuit
+Dialogue: 0,0:01:03.18,0:01:07.74,Default - Copier,,0,0,85,karaoke,{\k15}Pour {\k124}toi{\k62} {\k93}du {\k22}fond {\k73}des {\k25}de{\k42}serts
+Dialogue: 0,0:01:08.07,0:01:10.57,Default - Copier,,0,0,0,karaoke,{\k8}Et {\k16}des {\k62}mer{\k14}s {\k19}s'e{\k99}lan{\k32}cent
+Dialogue: 0,0:01:11.02,0:01:17.76,Default - Copier,,0,0,85,karaoke,{\k25}Tous {\k99}ceux {\k78}que {\k27}la {\k80}peur {\k20}n'a {\k60}pas {\k29}se{\k256}duits
+Dialogue: 0,0:01:18.22,0:01:25.27,Default - Copier,,0,0,85,karaoke,{\k63}Tous {\k130}ceux {\k77}que {\k25}la {\k74}peur {\k24}n'a {\k71}pas {\k35}se{\k206}duits
+Dialogue: 0,0:01:27.44,0:01:33.88,Default - Copier,,0,0,0,karaoke,{\k113}La{\k123}-bas, {\k87}{\k26}dans {\k24}les {\k19}e{\k131}toi{\k121}les,
+Dialogue: 0,0:01:34.70,0:01:37.96,Default - Copier,,0,0,85,karaoke,{\k31}Dans {\k18}la {\k38}nuit {\k112}pa{\k127}le
+Dialogue: 0,0:01:38.49,0:01:42.20,Default - Copier,,0,0,0,karaoke,{\k61}Loin {\k21}du {\k36}so{\k253}leil
+Dialogue: 0,0:01:43.52,0:01:50.15,Default - Copier,,0,0,85,karaoke,{\k123}La{\k118}-bas {\k59}{\k37}le {\k34}ciel {\k34}em{\k138}bra{\k120}se
+Dialogue: 0,0:01:50.76,0:01:54.10,Default - Copier,,0,0,0,karaoke,{\k29}D'or {\k20}et {\k26}de {\k130}flam{\k129}mes
+Dialogue: 0,0:01:54.54,0:01:57.80,Default - Copier,,0,0,85,karaoke,{\k47}Les {\k30}guer{\k15}res {\k27}nou{\k207}velles
+Dialogue: 0,0:01:59.50,0:02:07.28,Default - Copier,,0,0,0,karaoke,{\k29}La{\k120}-bas, {\k57}{\k102}pres {\k22}de {\k88}la {\k16}fron{\k75}tie{\k10}re {\k16}de {\k69}l'es{\k18}pe{\k105}ran{\k51}ce
+Dialogue: 0,0:02:07.71,0:02:14.46,Default - Copier,,0,0,85,karaoke,{\k39}On {\k101}voit{\k48} {\k30}un {\k43}cer{\k53}veau {\k44}de {\k40}fer {\k84}qui {\k193}luit
+Dialogue: 0,0:02:15.62,0:02:20.18,Default - Copier,,0,0,0,karaoke,{\k2}(Vetu) {\k183}d'une {\k104}gran{\k20}de {\k78}ca{\k20}pe {\k49}noire
+Dialogue: 0,0:02:20.59,0:02:23.02,Default - Copier,,0,0,85,karaoke,{\k8}Et {\k9}un {\k67}mas{\k19}que {\k116}sans {\k24}vie
+Dialogue: 0,0:02:23.56,0:02:29.97,Default - Copier,,0,0,0,karaoke,{\k95}L'e{\k24}pee {\k46}de {\k31}lu{\k69}mie{\k40}re {\k11}est {\k78}a{\k19}vec {\k228}lui
+Dialogue: 0,0:02:30.68,0:02:38.94,Default - Copier,,0,0,85,karaoke,{\k63}Et {\k122}l'e{\k14}pee {\k78}de {\k24}lu{\k34}mie{\k14}re{\k35} {\k25}est {\k62}a{\k38}vec {\k317}lui
+Dialogue: 0,0:02:40.16,0:02:42.88,Default - Copier,,0,0,0,karaoke,{\k135}La{\k137}-bas
+Dialogue: 0,0:02:43.57,0:02:47.03,Default - Copier,,0,0,85,karaoke,{\k28}Dans {\k21}les {\k27}e{\k127}toi{\k143}les
+Dialogue: 0,0:02:47.46,0:02:51.12,Default - Copier,,0,0,0,karaoke,{\k41}La {\k24}guer{\k28}re {\k0}{\k128}pa{\k145}sse
+Dialogue: 0,0:02:51.68,0:02:54.96,Default - Copier,,0,0,85,karaoke,{\k35}Comme {\k24}un {\k42}so{\k227}leil
+Dialogue: 0,0:02:56.60,0:02:59.00,Default - Copier,,0,0,0,karaoke,{\k113}La{\k127}-bas
+Dialogue: 0,0:02:59.56,0:03:03.08,Default - Copier,,0,0,85,karaoke,{\k49}Le {\k33}fer {\k34}s'em{\k112}bal{\k124}le
+Dialogue: 0,0:03:03.63,0:03:07.34,Default - Copier,,0,0,0,karaoke,{\k45}Les {\k25}fu{\k24}sees {\k124}cra{\k153}chent
+Dialogue: 0,0:03:07.93,0:03:10.97,Default - Copier,,0,0,85,karaoke,{\k21}Du {\k55}sang {\k25}ver{\k203}meil
+Dialogue: 0,0:03:12.86,0:03:19.30,Default - Copier,,0,0,0,karaoke,{\k112}La{\k117}-bas, {\k86}{\k30}dans {\k19}les {\k34}e{\k123}toi{\k123}les
+Dialogue: 0,0:03:19.78,0:03:21.38,Default - Copier,,0,0,85,karaoke,{\k27}{\k30}Dans {\k20}la {\k43}nuit {\k40}pale
 

@@ -50,38 +50,38 @@ Style: Default - Copier,immortal,110,&H000000FF,&H00FFFFFF,&H00000000,&H00000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0, 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*600,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("start2syl",-1200+ci[2]/cn*600,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(7)!!retime("syl2end",$dur/12,200+(ci[7]/cn*600))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(8)!!retime("syl2end",$dur/12,200+(ci[8]/cn*600))!{\fad(0,150)\bord0\pos($x,$y)}
-Comment: 0,0:00:07.69,0:00:09.57,Default,,0,0,25,karaoke,{\k36}Just {\k30}give {\k29}me {\k19}the {\k45}fee{\k29}ling
-Comment: 0,0:00:09.57,0:00:12.30,Default,,0,0,135,karaoke,{\k31}Push {\k30}my {\k33}mo{\k30}tor {\k32}e{\k17}very{\k100}day
-Comment: 0,0:00:12.68,0:00:14.54,Default,,0,0,25,karaoke,{\k30}Gos{\k29}pel {\k33}of {\k15}the {\k50}throt{\k29}tle
-Comment: 0,0:00:14.54,0:00:17.61,Default,,0,0,135,karaoke,{\k32}Push {\k32}my {\k24}en{\k35}gine {\k30}all {\k18}the {\k61}way, {\k22}sin{\k42}ging
-Comment: 0,0:00:17.64,0:00:21.82,Default,,0,0,35,karaoke,{\k61}Na {\k30}Na {\k17}Na {\k29}Na {\k32}Na {\k77}Na {\k27}Na {\k34}Na {\k20}Na {\k28}Na {\k63}Na
-Comment: 0,0:00:22.55,0:00:26.74,Default,,0,0,35,karaoke,{\k61}Na {\k30}Na {\k17}Na {\k29}Na {\k32}Na {\k77}Na {\k27}Na {\k34}Na {\k20}Na {\k28}Na {\k63}Na
-Comment: 0,0:00:27.53,0:00:31.23,Default,,0,0,135,karaoke,{\k66}Dri{\k49}ving {\k40}twis{\k27}ting {\k36}tur{\k23}ning {\k70}side{\k59}ways
-Comment: 0,0:00:31.30,0:00:33.98,Default,,0,0,25,karaoke,{\k23}I {\k28}can't {\k34}take {\k30}this {\k35}pres{\k29}sure {\k32}no {\k57}more
-Comment: 0,0:00:34.34,0:00:37.77,Default,,0,0,135,karaoke,{\k31}Got {\k31}a {\k66}love {\k27}like {\k31}a {\k31}hur{\k27}ri{\k99}cane
-Comment: 0,0:00:38.36,0:00:40.20,Default,,0,0,25,karaoke,{\k16}And {\k25}I {\k34}got {\k16}my {\k93}love
-Comment: 0,0:00:40.85,0:00:42.70,Default,,0,0,135,karaoke,{\k15}I {\k27}got {\k39}this {\k104}love
-Comment: 0,0:00:43.31,0:00:45.50,Default,,0,0,25,karaoke,{\k14}I {\k28}got {\k34}my {\k46}hur{\k24}ri{\k73}cane
-Comment: 0,0:00:47.29,0:00:49.08,Default,,0,0,25,karaoke,{\k38}Catch {\k23}me {\k23}if {\k15}I'm {\k60}spee{\k20}ding
-Comment: 0,0:00:49.13,0:00:51.97,Default,,0,0,135,karaoke,{\k31}Push {\k36}my {\k27}mo{\k35}tor {\k27}e{\k17}very{\k111}day
-Comment: 0,0:00:52.24,0:00:54.10,Default,,0,0,25,karaoke,{\k35}Hus{\k29}tle {\k31}of {\k12}the {\k57}mus{\k22}cle
-Comment: 0,0:00:54.10,0:00:57.18,Default,,0,0,135,karaoke,{\k32}Push {\k32}my {\k24}en{\k35}gine {\k30}all {\k18}the {\k61}way, {\k20}e{\k13}very{\k14}bo{\k13}dy
-Comment: 0,0:00:57.20,0:01:01.45,Default,,0,0,25,karaoke,{\k61}Na {\k30}Na {\k17}Na {\k29}Na {\k32}Na {\k77}Na {\k27}Na {\k34}Na {\k20}Na {\k28}Na {\k63}Na
-Comment: 0,0:01:02.17,0:01:06.47,Default,,0,0,25,karaoke,{\k61}Na {\k30}Na {\k17}Na {\k29}Na {\k32}Na {\k77}Na {\k27}Na {\k34}Na {\k20}Na {\k28}Na {\k63}Na
-Comment: 0,0:01:07.07,0:01:10.82,Default,,0,0,135,karaoke,{\k66}Dri{\k53}ving {\k39}twis{\k28}ting {\k35}tur{\k23}ning {\k69}side{\k62}ways
-Comment: 0,0:01:10.84,0:01:13.89,Default,,0,0,25,karaoke,{\k28}I {\k30}can't {\k31}take {\k30}this {\k34}pres{\k26}sure {\k32}no {\k94}more
-Comment: 0,0:01:13.89,0:01:17.33,Default,,0,0,135,karaoke,{\k31}Got {\k25}a {\k72}love {\k27}like {\k31}a {\k35}hur{\k27}ri{\k96}cane
-Comment: 0,0:01:17.93,0:01:20.02,Default,,0,0,25,karaoke,{\k16}And {\k25}I {\k34}got {\k16}my {\k93}love
-Comment: 0,0:01:20.41,0:01:22.46,Default,,0,0,135,karaoke,{\k15}I {\k27}got {\k39}this {\k104}love
-Comment: 0,0:01:22.87,0:01:25.09,Default,,0,0,25,karaoke,{\k14}I {\k28}got {\k34}my {\k46}hur{\k24}ri{\k73}cane
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0, 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*600,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("start2syl",-1200+ci[2]/cn*600,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(7)!!retime("syl2end",$dur/12,200+(ci[7]/cn*600))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(8)!!retime("syl2end",$dur/12,200+(ci[8]/cn*600))!{\fad(0,150)\bord0\pos($x,$y)}
+Dialogue: 0,0:00:07.69,0:00:09.57,Default,,0,0,25,karaoke,{\k36}Just {\k30}give {\k29}me {\k19}the {\k45}fee{\k29}ling
+Dialogue: 0,0:00:09.57,0:00:12.30,Default,,0,0,135,karaoke,{\k31}Push {\k30}my {\k33}mo{\k30}tor {\k32}e{\k17}very{\k100}day
+Dialogue: 0,0:00:12.68,0:00:14.54,Default,,0,0,25,karaoke,{\k30}Gos{\k29}pel {\k33}of {\k15}the {\k50}throt{\k29}tle
+Dialogue: 0,0:00:14.54,0:00:17.61,Default,,0,0,135,karaoke,{\k32}Push {\k32}my {\k24}en{\k35}gine {\k30}all {\k18}the {\k61}way, {\k22}sin{\k42}ging
+Dialogue: 0,0:00:17.64,0:00:21.82,Default,,0,0,35,karaoke,{\k61}Na {\k30}Na {\k17}Na {\k29}Na {\k32}Na {\k77}Na {\k27}Na {\k34}Na {\k20}Na {\k28}Na {\k63}Na
+Dialogue: 0,0:00:22.55,0:00:26.74,Default,,0,0,35,karaoke,{\k61}Na {\k30}Na {\k17}Na {\k29}Na {\k32}Na {\k77}Na {\k27}Na {\k34}Na {\k20}Na {\k28}Na {\k63}Na
+Dialogue: 0,0:00:27.53,0:00:31.23,Default,,0,0,135,karaoke,{\k66}Dri{\k49}ving {\k40}twis{\k27}ting {\k36}tur{\k23}ning {\k70}side{\k59}ways
+Dialogue: 0,0:00:31.30,0:00:33.98,Default,,0,0,25,karaoke,{\k23}I {\k28}can't {\k34}take {\k30}this {\k35}pres{\k29}sure {\k32}no {\k57}more
+Dialogue: 0,0:00:34.34,0:00:37.77,Default,,0,0,135,karaoke,{\k31}Got {\k31}a {\k66}love {\k27}like {\k31}a {\k31}hur{\k27}ri{\k99}cane
+Dialogue: 0,0:00:38.36,0:00:40.20,Default,,0,0,25,karaoke,{\k16}And {\k25}I {\k34}got {\k16}my {\k93}love
+Dialogue: 0,0:00:40.85,0:00:42.70,Default,,0,0,135,karaoke,{\k15}I {\k27}got {\k39}this {\k104}love
+Dialogue: 0,0:00:43.31,0:00:45.50,Default,,0,0,25,karaoke,{\k14}I {\k28}got {\k34}my {\k46}hur{\k24}ri{\k73}cane
+Dialogue: 0,0:00:47.29,0:00:49.08,Default,,0,0,25,karaoke,{\k38}Catch {\k23}me {\k23}if {\k15}I'm {\k60}spee{\k20}ding
+Dialogue: 0,0:00:49.13,0:00:51.97,Default,,0,0,135,karaoke,{\k31}Push {\k36}my {\k27}mo{\k35}tor {\k27}e{\k17}very{\k111}day
+Dialogue: 0,0:00:52.24,0:00:54.10,Default,,0,0,25,karaoke,{\k35}Hus{\k29}tle {\k31}of {\k12}the {\k57}mus{\k22}cle
+Dialogue: 0,0:00:54.10,0:00:57.18,Default,,0,0,135,karaoke,{\k32}Push {\k32}my {\k24}en{\k35}gine {\k30}all {\k18}the {\k61}way, {\k20}e{\k13}very{\k14}bo{\k13}dy
+Dialogue: 0,0:00:57.20,0:01:01.45,Default,,0,0,25,karaoke,{\k61}Na {\k30}Na {\k17}Na {\k29}Na {\k32}Na {\k77}Na {\k27}Na {\k34}Na {\k20}Na {\k28}Na {\k63}Na
+Dialogue: 0,0:01:02.17,0:01:06.47,Default,,0,0,25,karaoke,{\k61}Na {\k30}Na {\k17}Na {\k29}Na {\k32}Na {\k77}Na {\k27}Na {\k34}Na {\k20}Na {\k28}Na {\k63}Na
+Dialogue: 0,0:01:07.07,0:01:10.82,Default,,0,0,135,karaoke,{\k66}Dri{\k53}ving {\k39}twis{\k28}ting {\k35}tur{\k23}ning {\k69}side{\k62}ways
+Dialogue: 0,0:01:10.84,0:01:13.89,Default,,0,0,25,karaoke,{\k28}I {\k30}can't {\k31}take {\k30}this {\k34}pres{\k26}sure {\k32}no {\k94}more
+Dialogue: 0,0:01:13.89,0:01:17.33,Default,,0,0,135,karaoke,{\k31}Got {\k25}a {\k72}love {\k27}like {\k31}a {\k35}hur{\k27}ri{\k96}cane
+Dialogue: 0,0:01:17.93,0:01:20.02,Default,,0,0,25,karaoke,{\k16}And {\k25}I {\k34}got {\k16}my {\k93}love
+Dialogue: 0,0:01:20.41,0:01:22.46,Default,,0,0,135,karaoke,{\k15}I {\k27}got {\k39}this {\k104}love
+Dialogue: 0,0:01:22.87,0:01:25.09,Default,,0,0,25,karaoke,{\k14}I {\k28}got {\k34}my {\k46}hur{\k24}ri{\k73}cane
 

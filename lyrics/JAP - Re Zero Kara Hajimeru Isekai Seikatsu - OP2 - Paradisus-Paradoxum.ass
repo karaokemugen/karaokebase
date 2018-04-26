@@ -30,24 +30,24 @@ Style: ReZero,Perpetua,75,&H0049494A,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,8
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,ReZero,,0,0,0,code once all,function AutoTags(Intervalo,Dato1,Dato2)            local RESULTADO=""     local SUERTE = 0     local CONTADOR = 0     local ARREGLO = 0                           local count = math.ceil(line.duration/Intervalo)                 			ARREGLO = {Dato1,Dato2}    			              for i = 1, count do               CONTADOR = i    	    	    		if Dato1 and Dato2 then     					if  CONTADOR%2 ==0 then    								SUERTE = ARREGLO[1]    					else    								SUERTE = ARREGLO[2]    					end	    		end     				    	RESULTADO = RESULTADO .."\\t(" ..(i-1)*Intervalo.. "," ..i*Intervalo.. ",\\" ..SUERTE..")"..""     			     end         		     return RESULTADO	  	    	               end
-Comment: 0,0:00:00.00,0:00:00.00,ReZero,,0,0,0,code once,xres, yres = _G.aegisub.video_size() if xres == nil  then x_rat = 1 y_rat = 1 else x_rat = xres/720 y_rat = x_rat end if (xres and xres ~= meta.res_x) or (yres and yres ~= meta.res_y) then _G.aegisub.debug.out(2, "Warning: script resolution %dx%d does not match with loaded video resolution %dx%d resample script resolution", meta.res_x, meta.res_y, xres, yres) end
-Comment: 1,0:00:00.00,0:00:00.00,ReZero,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\kf" .. ($start/10) or "\\kf90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:00.00,0:00:00.00,ReZero,,0,0,0,template syl repeat 3,!retime("syl",0,0)!{\bord0\move(!$x+math.random(-20,20)!,!$y+math.random(-20,20)!,!$x+math.random(-20,20)!,!$y+math.random(-20,20)!,-1000,!1000+$sdur!)\alpha&H44\c&H8C8C8C&!AutoTags(math.random(100,200),'alpha&H80','alpha&HB0')!!AutoTags(math.random(100,200),'fscx100\\fscy100','fscx95\\fscy95')!}
-Comment: 0,0:00:09.11,0:00:11.27,ReZero,,0,0,0,karaoke,{\k35}NOW {\k27}LET {\k30}ME {\k18}O{\k31}PEN {\k26}THIS {\k49}SCAR
-Comment: 0,0:00:11.55,0:00:14.05,ReZero,,0,0,100,karaoke,{\k29}to{\k29}ke{\k28}a{\k16}t{\k30}ta {\k33}VI{\k85}RUS
-Comment: 0,0:00:14.82,0:00:23.15,ReZero,,0,0,0,karaoke,{\k28}ni{\k27}ji {\k30}ni {\k34}ku{\k32}ro {\k28}wo {\k28}sa{\k108}shi {\k25}to{\k20}{\k42}bi{\k46}ta{\k167}tsu {\k25}{\k20}ah {\k36}ah {\k137}ah
-Comment: 0,0:00:29.18,0:00:38.38,ReZero,,0,0,0,karaoke,{\k44}a{\k47}ka{\k41}i {\k46}ha{\k26}na {\k93}no {\k39}mitsu {\k20}{\k47}nu{\k47}re{\k65}te {\k21}{\k59}ka{\k59}ku{\k12}re{\k19}ta {\k235}NOISE
-Comment: 0,0:00:38.70,0:00:47.12,ReZero,,0,0,100,karaoke,{\k47}mu{\k45}ne {\k43}ni {\k49}hai{\k27}yo{\k88}ru {\k49}no {\k16}{\k37}"u{\k49}ma{\k120}re{\k30}{\k14}ka{\k31}wa{\k41}ri{\k44}tai {\k10}no {\k8}de{\k94}shou?"
-Comment: 0,0:00:47.41,0:00:51.92,ReZero,,0,0,0,karaoke,{\k27}e{\k28}i{\k38}en {\k23}{\k26}ne{\k33}mu{\k30}t{\k31}{\k29}te{\k30}i{\k28}ta {\k29}{\k33}PA{\k30}RA{\k36}DIGM
-Comment: 0,0:00:52.10,0:00:57.95,ReZero,,0,0,100,karaoke,{\k34}shi{\k31}n {\k31}wo {\k30}{\k29}ku{\k30}t{\k30}te {\k25}{\k34}shi{\k31}n{\k39}shoku {\k16}shi{\k14}te{\k16}i{\k16}ta-{\k16}i{\k19}ya{\k10}i{\k17}ya{\k13}i{\k17}ya{\k14}i{\k16}ya{\k13}i{\k44}ya
-Comment: 0,0:00:59.26,0:01:01.54,ReZero,,0,0,0,karaoke,{\k36}NOW {\k28}LET {\k26}ME {\k21}O{\k27}PEN {\k29}THIS {\k61}SCAR
-Comment: 0,0:01:01.70,0:01:03.93,ReZero,,0,0,100,karaoke,{\k30}to{\k27}ke{\k31}a{\k17}t{\k28}ta {\k30}VI{\k60}RUS
-Comment: 0,0:01:04.08,0:01:08.60,ReZero,,0,0,0,karaoke,{\k32}fu{\k28}re{\k34}te {\k24}{\k30}a{\k30}ra{\k28}wa {\k34}ni {\k40}na{\k19}ru {\k119}hon{\k34}nou
-Comment: 0,0:01:08.86,0:01:11.03,ReZero,,0,0,100,karaoke,{\k29}GREW {\k31}UP {\k29}IN {\k17}THE {\k30}LONE{\k24}LI{\k57}NESS
-Comment: 0,0:01:11.24,0:01:13.50,ReZero,,0,0,0,karaoke,{\k33}ko{\k25}wa{\k29}re{\k17}ta {\k10}RE{\k21}A{\k30}LI{\k61}TY
-Comment: 0,0:01:14.48,0:01:22.88,ReZero,,0,0,100,karaoke,{\k32}ni{\k31}ji {\k27}ni {\k36}ku{\k25}ro {\k30}wo {\k29}sa{\k108}shi {\k25}to{\k21}{\k41}bi{\k45}ta{\k168}tsu{\k28} {\k22}ah {\k34}ah {\k138}ah
-Comment: 0,0:01:23.18,0:01:25.99,ReZero,,0,0,0,karaoke,{\k13}i{\k15}ma {\k17}su{\k17}gu {\k16}nu{\k14}ke{\k17}da{\k12}shi{\k22}te{\k17} {\k20}sho{\k18}u{\k9}ki {\k18}no {\k13}me{\k20}i{\k23}ro
-Comment: 0,0:01:25.99,0:01:28.94,ReZero,,0,0,100,karaoke,{\k35}han{\k20}ten {\k18}shi{\k48}ta {\k32}CON{\k14}T{\k14}RA{\k16}S{\k19}T {\k79}e
-Comment: 0,0:01:28.94,0:01:30.94,ReZero,,0,0,0,karaoke,
+Dialogue: 0,0:00:00.00,0:00:00.00,ReZero,,0,0,0,code once all,function AutoTags(Intervalo,Dato1,Dato2)            local RESULTADO=""     local SUERTE = 0     local CONTADOR = 0     local ARREGLO = 0                           local count = math.ceil(line.duration/Intervalo)                 			ARREGLO = {Dato1,Dato2}    			              for i = 1, count do               CONTADOR = i    	    	    		if Dato1 and Dato2 then     					if  CONTADOR%2 ==0 then    								SUERTE = ARREGLO[1]    					else    								SUERTE = ARREGLO[2]    					end	    		end     				    	RESULTADO = RESULTADO .."\\t(" ..(i-1)*Intervalo.. "," ..i*Intervalo.. ",\\" ..SUERTE..")"..""     			     end         		     return RESULTADO	  	    	               end
+Dialogue: 0,0:00:00.00,0:00:00.00,ReZero,,0,0,0,code once,xres, yres = _G.aegisub.video_size() if xres == nil  then x_rat = 1 y_rat = 1 else x_rat = xres/720 y_rat = x_rat end if (xres and xres ~= meta.res_x) or (yres and yres ~= meta.res_y) then _G.aegisub.debug.out(2, "Warning: script resolution %dx%d does not match with loaded video resolution %dx%d resample script resolution", meta.res_x, meta.res_y, xres, yres) end
+Dialogue: 1,0:00:00.00,0:00:00.00,ReZero,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\kf" .. ($start/10) or "\\kf90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:00.00,ReZero,,0,0,0,template syl repeat 3,!retime("syl",0,0)!{\bord0\move(!$x+math.random(-20,20)!,!$y+math.random(-20,20)!,!$x+math.random(-20,20)!,!$y+math.random(-20,20)!,-1000,!1000+$sdur!)\alpha&H44\c&H8C8C8C&!AutoTags(math.random(100,200),'alpha&H80','alpha&HB0')!!AutoTags(math.random(100,200),'fscx100\\fscy100','fscx95\\fscy95')!}
+Dialogue: 0,0:00:09.11,0:00:11.27,ReZero,,0,0,0,karaoke,{\k35}NOW {\k27}LET {\k30}ME {\k18}O{\k31}PEN {\k26}THIS {\k49}SCAR
+Dialogue: 0,0:00:11.55,0:00:14.05,ReZero,,0,0,100,karaoke,{\k29}to{\k29}ke{\k28}a{\k16}t{\k30}ta {\k33}VI{\k85}RUS
+Dialogue: 0,0:00:14.82,0:00:23.15,ReZero,,0,0,0,karaoke,{\k28}ni{\k27}ji {\k30}ni {\k34}ku{\k32}ro {\k28}wo {\k28}sa{\k108}shi {\k25}to{\k20}{\k42}bi{\k46}ta{\k167}tsu {\k25}{\k20}ah {\k36}ah {\k137}ah
+Dialogue: 0,0:00:29.18,0:00:38.38,ReZero,,0,0,0,karaoke,{\k44}a{\k47}ka{\k41}i {\k46}ha{\k26}na {\k93}no {\k39}mitsu {\k20}{\k47}nu{\k47}re{\k65}te {\k21}{\k59}ka{\k59}ku{\k12}re{\k19}ta {\k235}NOISE
+Dialogue: 0,0:00:38.70,0:00:47.12,ReZero,,0,0,100,karaoke,{\k47}mu{\k45}ne {\k43}ni {\k49}hai{\k27}yo{\k88}ru {\k49}no {\k16}{\k37}"u{\k49}ma{\k120}re{\k30}{\k14}ka{\k31}wa{\k41}ri{\k44}tai {\k10}no {\k8}de{\k94}shou?"
+Dialogue: 0,0:00:47.41,0:00:51.92,ReZero,,0,0,0,karaoke,{\k27}e{\k28}i{\k38}en {\k23}{\k26}ne{\k33}mu{\k30}t{\k31}{\k29}te{\k30}i{\k28}ta {\k29}{\k33}PA{\k30}RA{\k36}DIGM
+Dialogue: 0,0:00:52.10,0:00:57.95,ReZero,,0,0,100,karaoke,{\k34}shi{\k31}n {\k31}wo {\k30}{\k29}ku{\k30}t{\k30}te {\k25}{\k34}shi{\k31}n{\k39}shoku {\k16}shi{\k14}te{\k16}i{\k16}ta-{\k16}i{\k19}ya{\k10}i{\k17}ya{\k13}i{\k17}ya{\k14}i{\k16}ya{\k13}i{\k44}ya
+Dialogue: 0,0:00:59.26,0:01:01.54,ReZero,,0,0,0,karaoke,{\k36}NOW {\k28}LET {\k26}ME {\k21}O{\k27}PEN {\k29}THIS {\k61}SCAR
+Dialogue: 0,0:01:01.70,0:01:03.93,ReZero,,0,0,100,karaoke,{\k30}to{\k27}ke{\k31}a{\k17}t{\k28}ta {\k30}VI{\k60}RUS
+Dialogue: 0,0:01:04.08,0:01:08.60,ReZero,,0,0,0,karaoke,{\k32}fu{\k28}re{\k34}te {\k24}{\k30}a{\k30}ra{\k28}wa {\k34}ni {\k40}na{\k19}ru {\k119}hon{\k34}nou
+Dialogue: 0,0:01:08.86,0:01:11.03,ReZero,,0,0,100,karaoke,{\k29}GREW {\k31}UP {\k29}IN {\k17}THE {\k30}LONE{\k24}LI{\k57}NESS
+Dialogue: 0,0:01:11.24,0:01:13.50,ReZero,,0,0,0,karaoke,{\k33}ko{\k25}wa{\k29}re{\k17}ta {\k10}RE{\k21}A{\k30}LI{\k61}TY
+Dialogue: 0,0:01:14.48,0:01:22.88,ReZero,,0,0,100,karaoke,{\k32}ni{\k31}ji {\k27}ni {\k36}ku{\k25}ro {\k30}wo {\k29}sa{\k108}shi {\k25}to{\k21}{\k41}bi{\k45}ta{\k168}tsu{\k28} {\k22}ah {\k34}ah {\k138}ah
+Dialogue: 0,0:01:23.18,0:01:25.99,ReZero,,0,0,0,karaoke,{\k13}i{\k15}ma {\k17}su{\k17}gu {\k16}nu{\k14}ke{\k17}da{\k12}shi{\k22}te{\k17} {\k20}sho{\k18}u{\k9}ki {\k18}no {\k13}me{\k20}i{\k23}ro
+Dialogue: 0,0:01:25.99,0:01:28.94,ReZero,,0,0,100,karaoke,{\k35}han{\k20}ten {\k18}shi{\k48}ta {\k32}CON{\k14}T{\k14}RA{\k16}S{\k19}T {\k79}e
+Dialogue: 0,0:01:28.94,0:01:30.94,ReZero,,0,0,0,karaoke,
 

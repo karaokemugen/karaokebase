@@ -29,28 +29,28 @@ Style: Miku,Berlin Sans FB,50,&H00FFFF00,&H00FFFEDC,&H00000000,&H00000000,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code line all,ci = { 0, 0 }; cn = _G.unicode.len(orgline.text_stripped); dim = 1080; pos = 40
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-500+ci[1]/cn*300,0)!{\alpha&HFF&\an5\1c!line.styleref.color2!\pos(!syl.center+line.left!,!line.middle!)\t(0,300,\alpha&H00&)}
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template all,!retime("syl",0,0)!!relayer(1)!{\an5\k$kdur\pos(!syl.center+line.left!,!line.middle!)\t(0,1,\fscx130\fscy130)\t(0,!($ldur > $end) and $dur or ($dur-300-(cn-ci[2])/cn*300)!,\fscx!130-(($ldur > $end) and 30 or (30/$dur)*($dur-300-(cn-ci[2])/cn*300))!\fscy!130-(($ldur > $end) and 30 or (30/$dur)*($dur-300-(cn-ci[2])/cn*300))!\alpha&H99&)\t(!($ldur > $end) and $dur or $dur-300-(cn-ci[2])/cn*300!,$dur,\fscx100\fscy100\alpha&HFF&)}
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("syl2end",($ldur == $end) and (-(cn-ci[2])/cn*300) or 0,-(cn-ci[2])/cn*300)!{\an5\pos(!syl.center+line.left!,!line.middle!)\alpha&H99&\t(!(line.duration > 300) and line.duration-300 or 0!,!(line.duration > 0) and line.duration or 0!,\alpha&HFF&)}
-Comment: 0,0:00:15.36,0:00:17.36,Miku,,0,0,0,karaoke,
-Comment: 0,0:00:17.36,0:00:22.48,Miku,,0,0,0,karaoke,{\k17}Na{\k18}ma{\k31}e {\k19}mo {\k20}ka{\k31}o {\k15}mo {\k22}shi{\k30}ra{\k22}na{\k13}i {\k33}ki{\k22}mi {\k18}ni {\k36}a{\k31}i {\k32}ni {\k31}yu{\kf71}ku
-Comment: 0,0:00:22.81,0:00:27.95,Miku,,0,0,0,karaoke,{\k18}Ya{\k16}sa{\k35}shii {\k18}hi{\k19}to {\k32}na{\k20}no {\k17}ka{\k29}na {\k24}su{\k16}de {\k28}ni {\k23}sa{\k19}i{\k37}bo{\k30}o{\k32}gu {\k32}ka{\kf69}na
-Comment: 0,0:00:28.36,0:00:33.59,Miku,,0,0,0,karaoke,{\k17}Te{\k15}n{\k32}mon{\k18}ga{\k20}ku{\k28}te{\k21}ki {\k16}ka{\k36}ku{\k14}ri{\k19}tsu {\k36}mu{\k17}da{\k17}dzu{\k19}ka{\k12}i {\k37}shi{\k34}na{\k31}ga{\kf84}ra
-Comment: 0,0:00:33.77,0:00:38.04,Miku,,0,0,0,karaoke,{\k21}Ku{\k18}da{\k34}ra{\k19}na{\k18}i {\k31}ba{\k18}ka{\k18}ba{\k30}na{\k19}shi {\k19}shi{\k35}ta{\k34}i {\kf113}na
-Comment: 0,0:00:39.43,0:00:44.32,Miku,,0,0,0,karaoke,{\k19}Tsu{\k20}ki {\k51}ni{\k19} {\k36}ka{\k26}n{\k55}shi {\k20}sa{\k32}re{\k35}te {\k23}o{\k11}{\k17}do{\k19}ro{\k17}{\k32}u {\k57}yo
-Comment: 0,0:00:44.62,0:00:49.20,Miku,,0,0,0,karaoke,{\k31}A{\k36}sa{\k33}hi {\k20}ni {\k33}ke{\k38}mu{\k65}ru{\k20} {\k29}ra{\k40}men {\k33}ta{\k18}be{\k17}ta{\k17}i {\k28}yo
-Comment: 0,0:00:49.20,0:00:52.19,Miku,,0,0,60,karaoke,{\k21}Mi{\k23}ra{\k16}i {\k17}de {\k14}i{\k12}{\k38}ssho {\k158}ni
-Comment: 0,0:00:53.09,0:00:55.93,Miku,,0,0,0,karaoke,{\k39}Sou {\k31}a{\k15}i {\k17}o {\k11}u{\k23}ta{\k12}i {\k24}a{\k12}i {\k21}o {\k11}u{\k34}ta{\k23}ga{\k11}u
-Comment: 0,0:00:55.93,0:00:58.16,Miku,,0,0,60,karaoke,{\k40}Men{\k17}do{\k13}ku{\k20}sa{\k14}i {\k18}sei{\k17}{\k23}bu{\k15}tsu {\k46}ni
-Comment: 0,0:00:58.22,0:01:01.38,Miku,,0,0,0,karaoke,{\k30}Sa{\k31}sa{\k18}ya{\k28}ka {\k11}na {\k17}ni{\k15}chi{\k29}jou{\k16} {\k19}no {\k22}nu{\k16}ku{\k23}mo{\k11}ri {\k30}o
-Comment: 0,0:01:01.56,0:01:04.03,Miku,,0,0,0,karaoke,{\k21}Su{\k17}ko{\k16}shi{\k16} {\k20}ki{\k34}tai{\k14} {\k19}shi{\k33}na{\k19}ga{\k38}ra
-Comment: 0,0:01:04.15,0:01:09.32,Miku,,0,0,0,karaoke,{\k37}Aa {\k31}ten{\k22}go{\k17}ku {\k18}to {\k15}ji{\k24}go{\k9}ku {\k31}no {\k38}chuu{\k34}kan{\k34}ten {\k34}ki{\k35}mi {\k35}ga {\k33}i{\k70}ta
-Comment: 0,0:01:09.60,0:01:13.06,Miku,,0,0,0,karaoke,{\k19}Ha{\k21}ji{\k50}me{\k15}{\k20}ma{\k11}shi{\k24}te {\k16}chi{\k49}kyuu{\k52}jin{\k69}-san
-Comment: 0,0:01:13.38,0:01:15.12,Miku,,0,0,0,karaoke,{\k22}Ma{\k16}da {\k16}u{\k18}ta{\k21}na{\k15}i{\k14}de {\k52}ne
-Comment: 0,0:01:15.14,0:01:18.70,Miku,,0,0,0,karaoke,{\k16}Ha{\k17}ji{\k53}me{\k14}{\k22}ma{\k14}shi{\k19}te {\k16}chi{\k51}kyuu{\k52}jin{\k82}-san
-Comment: 0,0:01:18.87,0:01:24.42,Miku,,0,0,0,karaoke,{\k69}Ki{\k59}ko{\k12}e{\k48}ma{\k22}su {\k345}ka?
-Comment: 0,0:01:26.06,0:01:26.78,Miku,,0,0,0,karaoke,{\k21}Ne{\k51}e
-Comment: 0,0:00:00.00,0:00:05.00,Miku,,0,0,0,karaoke,
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code line all,ci = { 0, 0 }; cn = _G.unicode.len(orgline.text_stripped); dim = 1080; pos = 40
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-500+ci[1]/cn*300,0)!{\alpha&HFF&\an5\1c!line.styleref.color2!\pos(!syl.center+line.left!,!line.middle!)\t(0,300,\alpha&H00&)}
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template all,!retime("syl",0,0)!!relayer(1)!{\an5\k$kdur\pos(!syl.center+line.left!,!line.middle!)\t(0,1,\fscx130\fscy130)\t(0,!($ldur > $end) and $dur or ($dur-300-(cn-ci[2])/cn*300)!,\fscx!130-(($ldur > $end) and 30 or (30/$dur)*($dur-300-(cn-ci[2])/cn*300))!\fscy!130-(($ldur > $end) and 30 or (30/$dur)*($dur-300-(cn-ci[2])/cn*300))!\alpha&H99&)\t(!($ldur > $end) and $dur or $dur-300-(cn-ci[2])/cn*300!,$dur,\fscx100\fscy100\alpha&HFF&)}
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("syl2end",($ldur == $end) and (-(cn-ci[2])/cn*300) or 0,-(cn-ci[2])/cn*300)!{\an5\pos(!syl.center+line.left!,!line.middle!)\alpha&H99&\t(!(line.duration > 300) and line.duration-300 or 0!,!(line.duration > 0) and line.duration or 0!,\alpha&HFF&)}
+Dialogue: 0,0:00:15.36,0:00:17.36,Miku,,0,0,0,karaoke,
+Dialogue: 0,0:00:17.36,0:00:22.48,Miku,,0,0,0,karaoke,{\k17}Na{\k18}ma{\k31}e {\k19}mo {\k20}ka{\k31}o {\k15}mo {\k22}shi{\k30}ra{\k22}na{\k13}i {\k33}ki{\k22}mi {\k18}ni {\k36}a{\k31}i {\k32}ni {\k31}yu{\kf71}ku
+Dialogue: 0,0:00:22.81,0:00:27.95,Miku,,0,0,0,karaoke,{\k18}Ya{\k16}sa{\k35}shii {\k18}hi{\k19}to {\k32}na{\k20}no {\k17}ka{\k29}na {\k24}su{\k16}de {\k28}ni {\k23}sa{\k19}i{\k37}bo{\k30}o{\k32}gu {\k32}ka{\kf69}na
+Dialogue: 0,0:00:28.36,0:00:33.59,Miku,,0,0,0,karaoke,{\k17}Te{\k15}n{\k32}mon{\k18}ga{\k20}ku{\k28}te{\k21}ki {\k16}ka{\k36}ku{\k14}ri{\k19}tsu {\k36}mu{\k17}da{\k17}dzu{\k19}ka{\k12}i {\k37}shi{\k34}na{\k31}ga{\kf84}ra
+Dialogue: 0,0:00:33.77,0:00:38.04,Miku,,0,0,0,karaoke,{\k21}Ku{\k18}da{\k34}ra{\k19}na{\k18}i {\k31}ba{\k18}ka{\k18}ba{\k30}na{\k19}shi {\k19}shi{\k35}ta{\k34}i {\kf113}na
+Dialogue: 0,0:00:39.43,0:00:44.32,Miku,,0,0,0,karaoke,{\k19}Tsu{\k20}ki {\k51}ni{\k19} {\k36}ka{\k26}n{\k55}shi {\k20}sa{\k32}re{\k35}te {\k23}o{\k11}{\k17}do{\k19}ro{\k17}{\k32}u {\k57}yo
+Dialogue: 0,0:00:44.62,0:00:49.20,Miku,,0,0,0,karaoke,{\k31}A{\k36}sa{\k33}hi {\k20}ni {\k33}ke{\k38}mu{\k65}ru{\k20} {\k29}ra{\k40}men {\k33}ta{\k18}be{\k17}ta{\k17}i {\k28}yo
+Dialogue: 0,0:00:49.20,0:00:52.19,Miku,,0,0,60,karaoke,{\k21}Mi{\k23}ra{\k16}i {\k17}de {\k14}i{\k12}{\k38}ssho {\k158}ni
+Dialogue: 0,0:00:53.09,0:00:55.93,Miku,,0,0,0,karaoke,{\k39}Sou {\k31}a{\k15}i {\k17}o {\k11}u{\k23}ta{\k12}i {\k24}a{\k12}i {\k21}o {\k11}u{\k34}ta{\k23}ga{\k11}u
+Dialogue: 0,0:00:55.93,0:00:58.16,Miku,,0,0,60,karaoke,{\k40}Men{\k17}do{\k13}ku{\k20}sa{\k14}i {\k18}sei{\k17}{\k23}bu{\k15}tsu {\k46}ni
+Dialogue: 0,0:00:58.22,0:01:01.38,Miku,,0,0,0,karaoke,{\k30}Sa{\k31}sa{\k18}ya{\k28}ka {\k11}na {\k17}ni{\k15}chi{\k29}jou{\k16} {\k19}no {\k22}nu{\k16}ku{\k23}mo{\k11}ri {\k30}o
+Dialogue: 0,0:01:01.56,0:01:04.03,Miku,,0,0,0,karaoke,{\k21}Su{\k17}ko{\k16}shi{\k16} {\k20}ki{\k34}tai{\k14} {\k19}shi{\k33}na{\k19}ga{\k38}ra
+Dialogue: 0,0:01:04.15,0:01:09.32,Miku,,0,0,0,karaoke,{\k37}Aa {\k31}ten{\k22}go{\k17}ku {\k18}to {\k15}ji{\k24}go{\k9}ku {\k31}no {\k38}chuu{\k34}kan{\k34}ten {\k34}ki{\k35}mi {\k35}ga {\k33}i{\k70}ta
+Dialogue: 0,0:01:09.60,0:01:13.06,Miku,,0,0,0,karaoke,{\k19}Ha{\k21}ji{\k50}me{\k15}{\k20}ma{\k11}shi{\k24}te {\k16}chi{\k49}kyuu{\k52}jin{\k69}-san
+Dialogue: 0,0:01:13.38,0:01:15.12,Miku,,0,0,0,karaoke,{\k22}Ma{\k16}da {\k16}u{\k18}ta{\k21}na{\k15}i{\k14}de {\k52}ne
+Dialogue: 0,0:01:15.14,0:01:18.70,Miku,,0,0,0,karaoke,{\k16}Ha{\k17}ji{\k53}me{\k14}{\k22}ma{\k14}shi{\k19}te {\k16}chi{\k51}kyuu{\k52}jin{\k82}-san
+Dialogue: 0,0:01:18.87,0:01:24.42,Miku,,0,0,0,karaoke,{\k69}Ki{\k59}ko{\k12}e{\k48}ma{\k22}su {\k345}ka?
+Dialogue: 0,0:01:26.06,0:01:26.78,Miku,,0,0,0,karaoke,{\k21}Ne{\k51}e
+Dialogue: 0,0:00:00.00,0:00:05.00,Miku,,0,0,0,karaoke,
 

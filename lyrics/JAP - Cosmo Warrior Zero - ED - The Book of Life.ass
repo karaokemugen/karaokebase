@@ -26,25 +26,25 @@ Style: Default,Caslon Antique,40,&H00B79B83,&H000000FD,&H00000000,&H00000000,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*100,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*100,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*100))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*100))!{\fad(0,150)\bord0\pos($x,$y)}
-Comment: 0,0:00:12.17,0:00:17.50,Default,,0,0,0,karaoke,{\k51}Long {\k40}a{\k29}go {\k75}some{\k62}where {\k28}in {\k41}the {\k125}fu{\k82}ture
-Comment: 0,0:00:18.35,0:00:23.03,Default,,0,0,50,karaoke,{\k28}In {\k30}a {\k56}place {\k33}be{\k73}yond {\k71}space {\k28}and {\k149}time
-Comment: 0,0:00:23.47,0:00:26.40,Default,,0,0,0,karaoke,{\k40}There's {\k28}a {\k29}book {\k50}for {\k32}all {\k30}to {\k84}see
-Comment: 0,0:00:26.78,0:00:35.60,Default,,0,0,50,karaoke,{\k46}What {\k30}has {\k54}been, {\k35}what {\k40}could {\k78}be, {\k48}{\k64}pro{\k37}phe{\k41}cies {\k85}of {\k75}the {\k129}a{\k120}ges
-Comment: 0,0:00:36.08,0:00:41.28,Default,,0,0,0,karaoke,{\k31}E{\k36}very {\k31}lit{\k24}tle {\k100}joy,{\k31} {\k30}e{\k22}very {\k133}sor{\k82}row
-Comment: 0,0:00:42.00,0:00:46.98,Default,,0,0,50,karaoke,{\k38}E{\k31}very {\k21}lit{\k29}tle {\k138}tear {\k29}that {\k33}is {\k179}cried
-Comment: 0,0:00:47.89,0:00:53.75,Default,,0,0,0,karaoke,{\k41}E{\k33}very {\k40}word {\k36}and {\k49}deed {\k28}{\k30}e{\k24}very {\k90}thought {\k73}and {\k77}feel{\k65}ing
-Comment: 0,0:00:53.94,0:01:00.38,Default,,0,0,50,karaoke,{\k59}All {\k36}writ{\k44}ten {\k68}there {\k43}on {\k37}the {\k143}pa{\k214}ges
-Comment: 0,0:01:00.98,0:01:11.76,Default,,0,0,0,karaoke,{\k144}Some {\k39}em{\k65}brace {\k39}on{\k50}ly {\k127}sha{\k96}dow, {\k37}{\k135}some {\k34}em{\k76}brace {\k61}the {\k175}light
-Comment: 0,0:01:12.27,0:01:18.57,Default,,0,0,50,karaoke,{\k41}But {\k37}the {\k75}lives {\k36}that {\k41}we {\k73}lead {\k53}are {\k27}the {\k69}sto{\k43}ries {\k28}we {\k107}leave
-Comment: 0,0:01:19.00,0:01:26.00,Default,,0,0,0,karaoke,{\k85}There {\k33}in {\k43}the {\k58}Book {\k65}of {\k416}Life
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*100,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*100,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*100))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*100))!{\fad(0,150)\bord0\pos($x,$y)}
+Dialogue: 0,0:00:12.17,0:00:17.50,Default,,0,0,0,karaoke,{\k51}Long {\k40}a{\k29}go {\k75}some{\k62}where {\k28}in {\k41}the {\k125}fu{\k82}ture
+Dialogue: 0,0:00:18.35,0:00:23.03,Default,,0,0,50,karaoke,{\k28}In {\k30}a {\k56}place {\k33}be{\k73}yond {\k71}space {\k28}and {\k149}time
+Dialogue: 0,0:00:23.47,0:00:26.40,Default,,0,0,0,karaoke,{\k40}There's {\k28}a {\k29}book {\k50}for {\k32}all {\k30}to {\k84}see
+Dialogue: 0,0:00:26.78,0:00:35.60,Default,,0,0,50,karaoke,{\k46}What {\k30}has {\k54}been, {\k35}what {\k40}could {\k78}be, {\k48}{\k64}pro{\k37}phe{\k41}cies {\k85}of {\k75}the {\k129}a{\k120}ges
+Dialogue: 0,0:00:36.08,0:00:41.28,Default,,0,0,0,karaoke,{\k31}E{\k36}very {\k31}lit{\k24}tle {\k100}joy,{\k31} {\k30}e{\k22}very {\k133}sor{\k82}row
+Dialogue: 0,0:00:42.00,0:00:46.98,Default,,0,0,50,karaoke,{\k38}E{\k31}very {\k21}lit{\k29}tle {\k138}tear {\k29}that {\k33}is {\k179}cried
+Dialogue: 0,0:00:47.89,0:00:53.75,Default,,0,0,0,karaoke,{\k41}E{\k33}very {\k40}word {\k36}and {\k49}deed {\k28}{\k30}e{\k24}very {\k90}thought {\k73}and {\k77}feel{\k65}ing
+Dialogue: 0,0:00:53.94,0:01:00.38,Default,,0,0,50,karaoke,{\k59}All {\k36}writ{\k44}ten {\k68}there {\k43}on {\k37}the {\k143}pa{\k214}ges
+Dialogue: 0,0:01:00.98,0:01:11.76,Default,,0,0,0,karaoke,{\k144}Some {\k39}em{\k65}brace {\k39}on{\k50}ly {\k127}sha{\k96}dow, {\k37}{\k135}some {\k34}em{\k76}brace {\k61}the {\k175}light
+Dialogue: 0,0:01:12.27,0:01:18.57,Default,,0,0,50,karaoke,{\k41}But {\k37}the {\k75}lives {\k36}that {\k41}we {\k73}lead {\k53}are {\k27}the {\k69}sto{\k43}ries {\k28}we {\k107}leave
+Dialogue: 0,0:01:19.00,0:01:26.00,Default,,0,0,0,karaoke,{\k85}There {\k33}in {\k43}the {\k58}Book {\k65}of {\k416}Life
 

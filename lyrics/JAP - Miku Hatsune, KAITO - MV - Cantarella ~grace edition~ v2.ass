@@ -22,42 +22,42 @@ Style: KAITO,French Script MT,90,&H00FF7445,&H00FFBDA5,&H00000000,&H00000000,-1,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code line all,ci = { 0, 0 }; cn = _G.unicode.len(orgline.text_stripped); dim = 1080; pos = 40
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-500+ci[1]/cn*300,0)!{\alpha&HFF&\an5\1c!line.styleref.color2!\pos(!syl.center+line.left!,!line.middle!)\t(0,300,\alpha&H00&)}
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template all,!retime("syl",0,0)!!relayer(1)!{\an5\k$kdur\pos(!syl.center+line.left!,!line.middle!)\t(0,1,\fscx130\fscy130)\t(0,!($ldur > $end) and $dur or ($dur-300-(cn-ci[2])/cn*300)!,\fscx!130-(($ldur > $end) and 30 or (30/$dur)*($dur-300-(cn-ci[2])/cn*300))!\fscy!130-(($ldur > $end) and 30 or (30/$dur)*($dur-300-(cn-ci[2])/cn*300))!\alpha&H99&)\t(!($ldur > $end) and $dur or $dur-300-(cn-ci[2])/cn*300!,$dur,\fscx100\fscy100\alpha&HFF&)}
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("syl2end",($ldur == $end) and (-(cn-ci[2])/cn*300) or 0,-(cn-ci[2])/cn*300)!{\an5\pos(!syl.center+line.left!,!line.middle!)\alpha&H99&\t(!(line.duration > 300) and line.duration-300 or 0!,!(line.duration > 0) and line.duration or 0!,\alpha&HFF&)}
-Comment: 0,0:00:15.04,0:00:18.00,KAITO,,0,0,0,karaoke,{\k19}mi{\k27}tsu{\k17}me{\k25}a{\k41}u{\k37} {\k22}so{\k21}no {\k23}shi{\k21}se{\k43}n
-Comment: 0,0:00:18.00,0:00:21.12,KAITO,,0,0,0,karaoke,{\k14}to{\k26}ji{\k32}ta{\k26} {\k24}se{\k24}ka{\k20}i {\k20}no {\k21}na{\k105}ka
-Comment: 0,0:00:21.68,0:00:24.65,KAITO,,0,0,0,karaoke,{\k20}ki{\k22}zu{\k27}ka{\k19}na{\k33}i{\k29} {\k23}fu{\k15}ri {\k17}wo {\k29}shi{\k20}te {\k43}mo
-Comment: 0,0:00:24.65,0:00:27.80,KAITO,,0,0,0,karaoke,{\k22}yo{\k22}i {\k32}wo{\k25} {\k23}sa{\k23}to{\k21}ra{\k19}re{\k22}so{\k106}u
-Comment: 0,0:00:28.35,0:00:31.02,KAITO,,0,0,0,karaoke,{\k23}ya{\k20}ke{\k20}tsu{\k37}ku{\k49} {\k22}ko{\k20}no {\k23}ko{\k22}ko{\k31}ro
-Comment: 0,0:00:31.72,0:00:34.66,KAITO,,0,0,0,karaoke,{\k22}ka{\k15}ku{\k25}shi{\k36}te{\k37} {\k30}chi{\k21}ka{\k24}zu{\k21}i{\k63}te
-Comment: 0,0:00:35.07,0:00:37.80,KAITO,,0,0,0,karaoke,{\k36}to{\k24}i{\k57}ki{\k27} {\k36}kan{\k29}ji{\k20}re{\k44}ba
-Comment: 0,0:00:38.09,0:00:40.88,KAITO,,0,0,0,karaoke,{\k29}shi{\k68}bi{\k35}re{\k23}ru {\k25}ho{\k99}do
-Comment: 0,0:00:41.71,0:00:45.45,KAITO,,0,0,0,karaoke,{\k45}a{\k21}ri{\k43}fu{\k25}re{\k19}{\k54}ta {\k25}ko{\k41}i{\k18}go{\k23}ko{\k22}ro {\k38}ni
-Comment: 0,0:00:45.71,0:00:48.27,KAITO,,0,0,0,karaoke,{\k19}i{\k35}ma{\k29} {\k20}wa{\k32}na {\k28}wo {\k23}shi{\k18}ka{\k24}ke{\k28}te
-Comment: 0,0:00:48.39,0:00:52.96,KAITO,,0,0,0,karaoke,{\k43}wa{\k19}zu{\k44}ka{\k25}na{\k16} {\k60}su{\k21}ki{\k47}ma {\k17}ni{\k19}mo {\k15}a{\k41}shi{\k30}{\k19}a{\k41}to
-Comment: 0,0:00:53.17,0:00:56.23,KAITO,,0,0,0,karaoke,{\k24}no{\k60}ko{\k34}sa{\k11}{\k19}na{\k18}i {\k140}yo
-Comment: 0,0:01:08.28,0:01:11.24,KAITO,,0,0,0,karaoke,{\k26}mi{\k28}e{\k20}su{\k21}i{\k43}ta{\k39} {\k23}ko{\k22}to{\k20}ba {\k20}da{\k34}to
-Comment: 0,0:01:11.33,0:01:14.24,KAITO,,0,0,0,karaoke,{\k18}ki{\k24}mi {\k33}wa{\k27} {\k23}yu{\k28}dan {\k31}shi{\k23}te{\k84}ru
-Comment: 0,0:01:15.05,0:01:17.83,KAITO,,0,0,0,karaoke,{\k22}yo{\k15}ku {\k20}shi{\k26}t{\k45}ta{\k21} {\k16}ge{\k24}ki{\k23}ya{\k18}ku {\k22}na{\k26}ra
-Comment: 0,0:01:17.99,0:01:21.20,KAITO,,0,0,0,karaoke,{\k18}no{\k22}mi{\k62}ho{\k22}se{\k19}ru {\k23}ki{\k16}ga{\k26}shi{\k113}ta
-Comment: 0,0:01:21.69,0:01:24.64,KAITO,,0,0,0,karaoke,{\k25}sa{\k18}bi{\k20}tsu{\k43}ku{\k42} {\k20}ku{\k24}sa{\k20}ri {\k23}ka{\k60}ra
-Comment: 0,0:01:25.06,0:01:27.96,KAITO,,0,0,0,karaoke,{\k22}no{\k21}ga{\k19}re{\k38}ru{\k48} {\k17}a{\k23}te{\k21}mo{\k20}na{\k61}i
-Comment: 0,0:01:28.38,0:01:31.07,KAITO,,0,0,0,karaoke,{\k44}hi{\k16}bi{\k35}ku{\k55} {\k33}byou{\k31}shi{\k18}n {\k37}ni
-Comment: 0,0:01:31.53,0:01:34.29,KAITO,,0,0,0,karaoke,{\k20}a{\k64}ra{\k39}ga{\k24}u {\k23}ho{\k106}do
-Comment: 0,0:01:35.04,0:01:38.83,KAITO,,0,0,0,karaoke,{\k43}ta{\k27}to{\k40}e{\k31}ba{\k14} {\k57}fu{\k22}ka{\k29}i {\k31}shi{\k22}ge{\k20}mi {\k43}no
-Comment: 0,0:01:38.97,0:01:41.59,KAITO,,0,0,0,karaoke,{\k26}na{\k41}ka{\k23} {\k20}su{\k44}be{\k21}ri{\k19}ko{\k13}ma{\k25}se{\k30}te
-Comment: 0,0:01:41.68,0:01:45.48,KAITO,,0,0,0,karaoke,{\k47}tsu{\k26}na{\k36}i{\k31}da{\k15} {\k50}a{\k27}se {\k44}no {\k23}ka{\k20}o{\k19}ri {\k42}ni
-Comment: 0,0:01:45.70,0:01:49.48,KAITO,,0,0,0,karaoke,{\k20}ta{\k36}da{\k26} {\k20}o{\k61}ka{\k43}sa{\k17}re{\k23}so{\k132}u
-Comment: 0,0:02:15.07,0:02:18.83,KAITO,,0,0,0,karaoke,{\k44}a{\k22}ri{\k41}fu{\k32}re{\k13}{\k58}ta {\k21}ko{\k40}i{\k21}go{\k19}ko{\k25}ro {\k40}ni
-Comment: 0,0:02:19.07,0:02:21.60,KAITO,,0,0,0,karaoke,{\k18}i{\k39}ma{\k26} {\k19}wa{\k37}na {\k15}wo {\k29}shi{\k19}ka{\k26}ke{\k25}ru
-Comment: 0,0:02:21.74,0:02:26.08,KAITO,,0,0,0,karaoke,{\k34}wa{\k29}zu{\k45}ka{\k24}na{\k22} {\k52}su{\k24}ki{\k40}ma {\k18}no{\k24}zo{\k23}ke{\k99}ba
-Comment: 0,0:02:26.50,0:02:28.08,KAITO,,0,0,0,karaoke,{\k19}tsu{\k22}ka{\k21}ma{\k22}e{\k74}te
-Comment: 0,0:02:28.38,0:02:32.14,KAITO,,0,0,0,karaoke,{\k41}ta{\k21}to{\k44}e{\k28}ba{\k16} {\k58}fu{\k20}ka{\k44}i {\k20}shi{\k20}ge{\k22}mi {\k42}no
-Comment: 0,0:02:32.36,0:02:34.90,KAITO,,0,0,0,karaoke,{\k19}na{\k41}ka{\k23} {\k20}su{\k40}be{\k23}ri{\k22}ko{\k13}ma{\k26}se{\k27}te
-Comment: 0,0:02:34.97,0:02:38.84,KAITO,,0,0,0,karaoke,{\k48}tsu{\k28}na{\k38}i{\k29}da{\k11} {\k60}a{\k24}se {\k43}no {\k20}ka{\k25}o{\k17}ri {\k44}ni
-Comment: 0,0:02:39.04,0:02:43.36,KAITO,,0,0,0,karaoke,{\k20}ta{\k34}da{\k26} {\k21}o{\k61}ka{\k48}sa{\k16}re{\k24}te{\k182}ru
-Comment: 0,0:00:00.00,0:00:05.00,KAITO,,0,0,0,karaoke,
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code line all,ci = { 0, 0 }; cn = _G.unicode.len(orgline.text_stripped); dim = 1080; pos = 40
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-500+ci[1]/cn*300,0)!{\alpha&HFF&\an5\1c!line.styleref.color2!\pos(!syl.center+line.left!,!line.middle!)\t(0,300,\alpha&H00&)}
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template all,!retime("syl",0,0)!!relayer(1)!{\an5\k$kdur\pos(!syl.center+line.left!,!line.middle!)\t(0,1,\fscx130\fscy130)\t(0,!($ldur > $end) and $dur or ($dur-300-(cn-ci[2])/cn*300)!,\fscx!130-(($ldur > $end) and 30 or (30/$dur)*($dur-300-(cn-ci[2])/cn*300))!\fscy!130-(($ldur > $end) and 30 or (30/$dur)*($dur-300-(cn-ci[2])/cn*300))!\alpha&H99&)\t(!($ldur > $end) and $dur or $dur-300-(cn-ci[2])/cn*300!,$dur,\fscx100\fscy100\alpha&HFF&)}
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("syl2end",($ldur == $end) and (-(cn-ci[2])/cn*300) or 0,-(cn-ci[2])/cn*300)!{\an5\pos(!syl.center+line.left!,!line.middle!)\alpha&H99&\t(!(line.duration > 300) and line.duration-300 or 0!,!(line.duration > 0) and line.duration or 0!,\alpha&HFF&)}
+Dialogue: 0,0:00:15.04,0:00:18.00,KAITO,,0,0,0,karaoke,{\k19}mi{\k27}tsu{\k17}me{\k25}a{\k41}u{\k37} {\k22}so{\k21}no {\k23}shi{\k21}se{\k43}n
+Dialogue: 0,0:00:18.00,0:00:21.12,KAITO,,0,0,0,karaoke,{\k14}to{\k26}ji{\k32}ta{\k26} {\k24}se{\k24}ka{\k20}i {\k20}no {\k21}na{\k105}ka
+Dialogue: 0,0:00:21.68,0:00:24.65,KAITO,,0,0,0,karaoke,{\k20}ki{\k22}zu{\k27}ka{\k19}na{\k33}i{\k29} {\k23}fu{\k15}ri {\k17}wo {\k29}shi{\k20}te {\k43}mo
+Dialogue: 0,0:00:24.65,0:00:27.80,KAITO,,0,0,0,karaoke,{\k22}yo{\k22}i {\k32}wo{\k25} {\k23}sa{\k23}to{\k21}ra{\k19}re{\k22}so{\k106}u
+Dialogue: 0,0:00:28.35,0:00:31.02,KAITO,,0,0,0,karaoke,{\k23}ya{\k20}ke{\k20}tsu{\k37}ku{\k49} {\k22}ko{\k20}no {\k23}ko{\k22}ko{\k31}ro
+Dialogue: 0,0:00:31.72,0:00:34.66,KAITO,,0,0,0,karaoke,{\k22}ka{\k15}ku{\k25}shi{\k36}te{\k37} {\k30}chi{\k21}ka{\k24}zu{\k21}i{\k63}te
+Dialogue: 0,0:00:35.07,0:00:37.80,KAITO,,0,0,0,karaoke,{\k36}to{\k24}i{\k57}ki{\k27} {\k36}kan{\k29}ji{\k20}re{\k44}ba
+Dialogue: 0,0:00:38.09,0:00:40.88,KAITO,,0,0,0,karaoke,{\k29}shi{\k68}bi{\k35}re{\k23}ru {\k25}ho{\k99}do
+Dialogue: 0,0:00:41.71,0:00:45.45,KAITO,,0,0,0,karaoke,{\k45}a{\k21}ri{\k43}fu{\k25}re{\k19}{\k54}ta {\k25}ko{\k41}i{\k18}go{\k23}ko{\k22}ro {\k38}ni
+Dialogue: 0,0:00:45.71,0:00:48.27,KAITO,,0,0,0,karaoke,{\k19}i{\k35}ma{\k29} {\k20}wa{\k32}na {\k28}wo {\k23}shi{\k18}ka{\k24}ke{\k28}te
+Dialogue: 0,0:00:48.39,0:00:52.96,KAITO,,0,0,0,karaoke,{\k43}wa{\k19}zu{\k44}ka{\k25}na{\k16} {\k60}su{\k21}ki{\k47}ma {\k17}ni{\k19}mo {\k15}a{\k41}shi{\k30}{\k19}a{\k41}to
+Dialogue: 0,0:00:53.17,0:00:56.23,KAITO,,0,0,0,karaoke,{\k24}no{\k60}ko{\k34}sa{\k11}{\k19}na{\k18}i {\k140}yo
+Dialogue: 0,0:01:08.28,0:01:11.24,KAITO,,0,0,0,karaoke,{\k26}mi{\k28}e{\k20}su{\k21}i{\k43}ta{\k39} {\k23}ko{\k22}to{\k20}ba {\k20}da{\k34}to
+Dialogue: 0,0:01:11.33,0:01:14.24,KAITO,,0,0,0,karaoke,{\k18}ki{\k24}mi {\k33}wa{\k27} {\k23}yu{\k28}dan {\k31}shi{\k23}te{\k84}ru
+Dialogue: 0,0:01:15.05,0:01:17.83,KAITO,,0,0,0,karaoke,{\k22}yo{\k15}ku {\k20}shi{\k26}t{\k45}ta{\k21} {\k16}ge{\k24}ki{\k23}ya{\k18}ku {\k22}na{\k26}ra
+Dialogue: 0,0:01:17.99,0:01:21.20,KAITO,,0,0,0,karaoke,{\k18}no{\k22}mi{\k62}ho{\k22}se{\k19}ru {\k23}ki{\k16}ga{\k26}shi{\k113}ta
+Dialogue: 0,0:01:21.69,0:01:24.64,KAITO,,0,0,0,karaoke,{\k25}sa{\k18}bi{\k20}tsu{\k43}ku{\k42} {\k20}ku{\k24}sa{\k20}ri {\k23}ka{\k60}ra
+Dialogue: 0,0:01:25.06,0:01:27.96,KAITO,,0,0,0,karaoke,{\k22}no{\k21}ga{\k19}re{\k38}ru{\k48} {\k17}a{\k23}te{\k21}mo{\k20}na{\k61}i
+Dialogue: 0,0:01:28.38,0:01:31.07,KAITO,,0,0,0,karaoke,{\k44}hi{\k16}bi{\k35}ku{\k55} {\k33}byou{\k31}shi{\k18}n {\k37}ni
+Dialogue: 0,0:01:31.53,0:01:34.29,KAITO,,0,0,0,karaoke,{\k20}a{\k64}ra{\k39}ga{\k24}u {\k23}ho{\k106}do
+Dialogue: 0,0:01:35.04,0:01:38.83,KAITO,,0,0,0,karaoke,{\k43}ta{\k27}to{\k40}e{\k31}ba{\k14} {\k57}fu{\k22}ka{\k29}i {\k31}shi{\k22}ge{\k20}mi {\k43}no
+Dialogue: 0,0:01:38.97,0:01:41.59,KAITO,,0,0,0,karaoke,{\k26}na{\k41}ka{\k23} {\k20}su{\k44}be{\k21}ri{\k19}ko{\k13}ma{\k25}se{\k30}te
+Dialogue: 0,0:01:41.68,0:01:45.48,KAITO,,0,0,0,karaoke,{\k47}tsu{\k26}na{\k36}i{\k31}da{\k15} {\k50}a{\k27}se {\k44}no {\k23}ka{\k20}o{\k19}ri {\k42}ni
+Dialogue: 0,0:01:45.70,0:01:49.48,KAITO,,0,0,0,karaoke,{\k20}ta{\k36}da{\k26} {\k20}o{\k61}ka{\k43}sa{\k17}re{\k23}so{\k132}u
+Dialogue: 0,0:02:15.07,0:02:18.83,KAITO,,0,0,0,karaoke,{\k44}a{\k22}ri{\k41}fu{\k32}re{\k13}{\k58}ta {\k21}ko{\k40}i{\k21}go{\k19}ko{\k25}ro {\k40}ni
+Dialogue: 0,0:02:19.07,0:02:21.60,KAITO,,0,0,0,karaoke,{\k18}i{\k39}ma{\k26} {\k19}wa{\k37}na {\k15}wo {\k29}shi{\k19}ka{\k26}ke{\k25}ru
+Dialogue: 0,0:02:21.74,0:02:26.08,KAITO,,0,0,0,karaoke,{\k34}wa{\k29}zu{\k45}ka{\k24}na{\k22} {\k52}su{\k24}ki{\k40}ma {\k18}no{\k24}zo{\k23}ke{\k99}ba
+Dialogue: 0,0:02:26.50,0:02:28.08,KAITO,,0,0,0,karaoke,{\k19}tsu{\k22}ka{\k21}ma{\k22}e{\k74}te
+Dialogue: 0,0:02:28.38,0:02:32.14,KAITO,,0,0,0,karaoke,{\k41}ta{\k21}to{\k44}e{\k28}ba{\k16} {\k58}fu{\k20}ka{\k44}i {\k20}shi{\k20}ge{\k22}mi {\k42}no
+Dialogue: 0,0:02:32.36,0:02:34.90,KAITO,,0,0,0,karaoke,{\k19}na{\k41}ka{\k23} {\k20}su{\k40}be{\k23}ri{\k22}ko{\k13}ma{\k26}se{\k27}te
+Dialogue: 0,0:02:34.97,0:02:38.84,KAITO,,0,0,0,karaoke,{\k48}tsu{\k28}na{\k38}i{\k29}da{\k11} {\k60}a{\k24}se {\k43}no {\k20}ka{\k25}o{\k17}ri {\k44}ni
+Dialogue: 0,0:02:39.04,0:02:43.36,KAITO,,0,0,0,karaoke,{\k20}ta{\k34}da{\k26} {\k21}o{\k61}ka{\k48}sa{\k16}re{\k24}te{\k182}ru
+Dialogue: 0,0:00:00.00,0:00:05.00,KAITO,,0,0,0,karaoke,
 

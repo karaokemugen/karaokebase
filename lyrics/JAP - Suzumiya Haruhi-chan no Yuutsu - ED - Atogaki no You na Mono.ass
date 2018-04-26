@@ -36,58 +36,58 @@ Style: Default - Haruhi,Comic Book,60,&H00FFFFFF,&H0032B1FB,&H00000000,&H0000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
-Comment: 0,0:00:00.00,0:00:00.00,Default - Koizumi,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:00.00,0:00:00.00,Default - Kyon,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:00.00,0:00:00.00,Default - Yuki,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:00.00,0:00:00.00,Default - Mikuru,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:00.00,0:00:00.00,Default - Haruhi,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:03.52,0:00:04.99,Default,,0,0,0,karaoke,{\k41}Yo{\k19}ko{\k23}ku {\k20}mo {\k18}na{\k26}shi
-Comment: 0,0:00:05.17,0:00:06.65,Default,,0,0,70,karaoke,{\k40}Se{\k23}n{\k21}de{\k21}n {\k17}na{\k26}shi
-Comment: 0,0:00:06.81,0:00:09.17,Default,,0,0,0,karaoke,{\k40}Tsu{\k22}zu{\k21}ki {\k20}wa {\k36}dou{\k29}shi{\k68}you
-Comment: 0,0:00:10.10,0:00:11.60,Default,,0,0,0,karaoke,{\k41}A{\k23}tsu{\k21}ma{\k19}ru {\k22}na{\k24}ra
-Comment: 0,0:00:11.73,0:00:14.79,Default,,0,0,70,karaoke,{\k43}So{\k22}no {\k18}to{\k25}ki {\k41}wa {\k38}i{\k119}tsu
-Comment: 0,0:00:15.19,0:00:16.20,Default,,0,0,0,karaoke,{\k25}Shi{\k19}ra{\k25}na{\k32}i
-Comment: 0,0:00:16.66,0:00:18.08,Default,,0,0,70,karaoke,{\k43}Ki{\k21}ta{\k18}i {\k22}mo {\k22}a{\k16}ri
-Comment: 0,0:00:18.33,0:00:19.74,Default,,0,0,0,karaoke,{\k40}Do{\k20}u{\k22}ki {\k22}mo {\k20}a{\k17}ri
-Comment: 0,0:00:19.97,0:00:22.62,Default,,0,0,70,karaoke,{\k43}Tsu{\k20}zu{\k20}ki {\k24}wo {\k37}mat{\k20}te{\k101}ru
-Comment: 0,0:00:23.29,0:00:24.78,Default,,0,0,0,karaoke,{\k40}U{\k18}wa{\k20}sa {\k20}da{\k24}ke {\k27}de
-Comment: 0,0:00:24.92,0:00:28.04,Default,,0,0,70,karaoke,{\k41}Go{\k22}me{\k17}n {\k21}ne {\k38}min{\k41}na-{\k132}san
-Comment: 0,0:00:29.41,0:00:32.61,Default,,0,0,0,karaoke,{\k22}La{\k19}la{\k21}la {\k23}ko{\k40}n{\k42}ya {\k18}bu{\k19}ta{\k23}i {\k23}a{\k34}i{\k36}sats'
-Comment: 0,0:00:32.72,0:00:35.51,Default,,0,0,70,karaoke,{\k23}Da{\k17}re {\k21}ga {\k21}da{\k19}re{\k18}ka {\k23}wo {\k18}a{\k22}ge{\k20}te {\k26}mi{\k19}yo{\k32}u
-Comment: 0,0:00:36.01,0:00:39.12,Default,,0,0,0,karaoke,{\k19}U{\k22}chu{\k17}u{\k26}ji{\k37}n {\k38}no {\k25}yo{\k17}ru {\k24}wa {\k22}na{\k41}ga{\k23}i
-Comment: 0,0:00:39.29,0:00:42.39,Default,,0,0,70,karaoke,{\k21}Ko{\k21}ko{\k23}ro {\k14}no {\k25}ka{\k15}be {\k23}yo{\k23}chi {\k19}yo{\k20}chi {\k22}to{\k84}be
-Comment: 0,0:00:42.58,0:00:45.87,Default,,0,0,0,karaoke,{\k20}Wa{\k20}ka{\k22}ri{\k19}ma{\k37}su{\k44} {\k20}a{\k24}ki{\k17}ru {\k63}ho{\k43}do
-Comment: 0,0:00:45.88,0:00:49.23,Default,,0,0,70,karaoke,{\k20}Wa{\k22}ka{\k21}ri{\k15}ma{\k39}su{\k49} {\k19}mi{\k15}ma{\k26}shi{\k61}ta {\k48}yo
-Comment: 0,0:00:49.34,0:00:55.15,Default,,0,0,0,karaoke,{\k23}De{\k20}mo {\k41}shu{\k38}ya{\k42}ku {\k42}wa {\k42}ki{\k39}mi {\k42}shi{\k42}da{\k210}i
-Comment: 0,0:00:56.31,0:00:59.08,Default,,0,0,0,karaoke,{\k20}O{\k21}tsu{\k21}ka{\k41}re-{\k23}sa{\k39}ma {\k102}de{\k10}su!
-Comment: 0,0:00:08.84,0:00:09.79,Default - Kyon,,0,0,0,karaoke,{\kf25}Iya, {\kf39}kimatteru {\kf15}kara {\kf16}ne!
-Comment: 0,0:00:08.96,0:00:10.09,Default - Koizumi,,0,0,0,karaoke,{\kf28}Dou {\kf39}shimashou {\kf23}ka {\kf23}ne...
-Comment: 0,0:00:14.05,0:00:14.44,Default - Kyon,,0,0,0,karaoke,{\kf9}I{\kf10}tsu {\kf9}na{\kf11}no?
-Comment: 0,0:00:15.94,0:00:16.64,Default - Kyon,,0,0,0,karaoke,{\kf14}Shi{\kf15}ra{\kf14}nee {\kf11}no {\kf16}ka!
-Comment: 0,0:00:19.78,0:00:20.96,Default - Kyon,,0,0,0,karaoke,{\kf10}Ore {\kf15}wa {\kf27}douki {\kf10}ga {\kf35}tomannai {\kf21}yo
-Comment: 0,0:00:21.90,0:00:23.36,Default - Koizumi,,0,0,0,karaoke,{\kf45}Hayaku {\kf33}mitai {\kf20}desu {\kf10}yo {\kf38}ne
-Comment: 0,0:00:22.41,0:00:22.74,Default - Kyon,,0,0,0,karaoke,{\kf13}Sou {\kf10}da {\kf10}yo!
-Comment: 0,0:00:27.09,0:00:27.65,Default - Kyon,,0,0,0,karaoke,{\kf15}A{\kf41}cha!
-Comment: 0,0:00:28.08,0:00:28.99,Default - Kyon,,0,0,0,karaoke,{\kf35}NICE {\kf13}na {\kf20}BOA{\kf23}T!
-Comment: 0,0:00:35.30,0:00:36.11,Default - Koizumi,,0,0,0,karaoke,{\kf15}Su {\kf20}QUIZ {\kf17}desu {\kf29}ne
-Comment: 0,0:00:35.38,0:00:35.62,Default - Kyon,,0,0,0,karaoke,{\kf24}Choi!
-Comment: 0,0:00:36.11,0:00:38.25,Default - Yuki,,0,0,0,karaoke,{\kf18}U{\kf36}chuu{\kf42}jin {\kf16}no {\kf18}yo{\kf20}ru {\kf19}wa {\kf17}na{\kf28}gai
-Comment: 0,0:00:39.40,0:00:40.33,Default - Koizumi,,0,0,0,karaoke,{\kf44}Kokoro {\kf17}no {\kf32}kabe
-Comment: 0,0:00:40.48,0:00:41.55,Default - Yuki,,0,0,0,karaoke,{\kf22}Yo{\kf23}chi {\kf21}yo{\kf41}chi!
-Comment: 0,0:00:41.32,0:00:42.39,Default - Haruhi,,0,0,0,karaoke,{\kf24}To{\kf83}be!
-Comment: 0,0:00:42.08,0:00:42.51,Default - Kyon,,0,0,0,karaoke,{\kf5}U{\kf7}ru{\kf31}se!
-Comment: 0,0:00:45.19,0:00:46.59,Default - Koizumi,,0,0,0,karaoke,{\kf26}NE{\kf15}T {\kf15}hai{\kf12}shin {\kf15}desu {\kf28}kara {\kf29}ne
-Comment: 0,0:00:46.66,0:00:46.96,Default - Kyon,,0,0,0,karaoke,{\kf30}Aa!
-Comment: 0,0:00:48.64,0:00:49.27,Default - Kyon,,0,0,0,karaoke,{\kf40}Kurikaeshi {\kf23}ne
-Comment: 0,0:00:53.57,0:00:55.30,Default - Kyon,,0,0,0,karaoke,{\kf19}MA{\kf8}D {\kf16}saku{\kf20}sei {\kf19}wa{\kf24} {\kf20}hodo {\kf19}hodo {\kf12}ni {\kf16}ne!
-Comment: 0,0:00:58.35,0:00:59.45,Default - Koizumi,,0,0,0,karaoke,{\kf13}O{\kf9}tsu{\kf10}ka{\kf9}re-{\kf15}sa{\kf16}ma {\kf38}desu!
-Comment: 0,0:00:59.22,0:00:59.51,Default - Kyon,,0,0,0,karaoke,{\kf3}O{\kf7}tsu{\kf6}ka{\kf13}re!
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default - Koizumi,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default - Kyon,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default - Yuki,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default - Mikuru,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default - Haruhi,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:03.52,0:00:04.99,Default,,0,0,0,karaoke,{\k41}Yo{\k19}ko{\k23}ku {\k20}mo {\k18}na{\k26}shi
+Dialogue: 0,0:00:05.17,0:00:06.65,Default,,0,0,70,karaoke,{\k40}Se{\k23}n{\k21}de{\k21}n {\k17}na{\k26}shi
+Dialogue: 0,0:00:06.81,0:00:09.17,Default,,0,0,0,karaoke,{\k40}Tsu{\k22}zu{\k21}ki {\k20}wa {\k36}dou{\k29}shi{\k68}you
+Dialogue: 0,0:00:10.10,0:00:11.60,Default,,0,0,0,karaoke,{\k41}A{\k23}tsu{\k21}ma{\k19}ru {\k22}na{\k24}ra
+Dialogue: 0,0:00:11.73,0:00:14.79,Default,,0,0,70,karaoke,{\k43}So{\k22}no {\k18}to{\k25}ki {\k41}wa {\k38}i{\k119}tsu
+Dialogue: 0,0:00:15.19,0:00:16.20,Default,,0,0,0,karaoke,{\k25}Shi{\k19}ra{\k25}na{\k32}i
+Dialogue: 0,0:00:16.66,0:00:18.08,Default,,0,0,70,karaoke,{\k43}Ki{\k21}ta{\k18}i {\k22}mo {\k22}a{\k16}ri
+Dialogue: 0,0:00:18.33,0:00:19.74,Default,,0,0,0,karaoke,{\k40}Do{\k20}u{\k22}ki {\k22}mo {\k20}a{\k17}ri
+Dialogue: 0,0:00:19.97,0:00:22.62,Default,,0,0,70,karaoke,{\k43}Tsu{\k20}zu{\k20}ki {\k24}wo {\k37}mat{\k20}te{\k101}ru
+Dialogue: 0,0:00:23.29,0:00:24.78,Default,,0,0,0,karaoke,{\k40}U{\k18}wa{\k20}sa {\k20}da{\k24}ke {\k27}de
+Dialogue: 0,0:00:24.92,0:00:28.04,Default,,0,0,70,karaoke,{\k41}Go{\k22}me{\k17}n {\k21}ne {\k38}min{\k41}na-{\k132}san
+Dialogue: 0,0:00:29.41,0:00:32.61,Default,,0,0,0,karaoke,{\k22}La{\k19}la{\k21}la {\k23}ko{\k40}n{\k42}ya {\k18}bu{\k19}ta{\k23}i {\k23}a{\k34}i{\k36}sats'
+Dialogue: 0,0:00:32.72,0:00:35.51,Default,,0,0,70,karaoke,{\k23}Da{\k17}re {\k21}ga {\k21}da{\k19}re{\k18}ka {\k23}wo {\k18}a{\k22}ge{\k20}te {\k26}mi{\k19}yo{\k32}u
+Dialogue: 0,0:00:36.01,0:00:39.12,Default,,0,0,0,karaoke,{\k19}U{\k22}chu{\k17}u{\k26}ji{\k37}n {\k38}no {\k25}yo{\k17}ru {\k24}wa {\k22}na{\k41}ga{\k23}i
+Dialogue: 0,0:00:39.29,0:00:42.39,Default,,0,0,70,karaoke,{\k21}Ko{\k21}ko{\k23}ro {\k14}no {\k25}ka{\k15}be {\k23}yo{\k23}chi {\k19}yo{\k20}chi {\k22}to{\k84}be
+Dialogue: 0,0:00:42.58,0:00:45.87,Default,,0,0,0,karaoke,{\k20}Wa{\k20}ka{\k22}ri{\k19}ma{\k37}su{\k44} {\k20}a{\k24}ki{\k17}ru {\k63}ho{\k43}do
+Dialogue: 0,0:00:45.88,0:00:49.23,Default,,0,0,70,karaoke,{\k20}Wa{\k22}ka{\k21}ri{\k15}ma{\k39}su{\k49} {\k19}mi{\k15}ma{\k26}shi{\k61}ta {\k48}yo
+Dialogue: 0,0:00:49.34,0:00:55.15,Default,,0,0,0,karaoke,{\k23}De{\k20}mo {\k41}shu{\k38}ya{\k42}ku {\k42}wa {\k42}ki{\k39}mi {\k42}shi{\k42}da{\k210}i
+Dialogue: 0,0:00:56.31,0:00:59.08,Default,,0,0,0,karaoke,{\k20}O{\k21}tsu{\k21}ka{\k41}re-{\k23}sa{\k39}ma {\k102}de{\k10}su!
+Dialogue: 0,0:00:08.84,0:00:09.79,Default - Kyon,,0,0,0,karaoke,{\kf25}Iya, {\kf39}kimatteru {\kf15}kara {\kf16}ne!
+Dialogue: 0,0:00:08.96,0:00:10.09,Default - Koizumi,,0,0,0,karaoke,{\kf28}Dou {\kf39}shimashou {\kf23}ka {\kf23}ne...
+Dialogue: 0,0:00:14.05,0:00:14.44,Default - Kyon,,0,0,0,karaoke,{\kf9}I{\kf10}tsu {\kf9}na{\kf11}no?
+Dialogue: 0,0:00:15.94,0:00:16.64,Default - Kyon,,0,0,0,karaoke,{\kf14}Shi{\kf15}ra{\kf14}nee {\kf11}no {\kf16}ka!
+Dialogue: 0,0:00:19.78,0:00:20.96,Default - Kyon,,0,0,0,karaoke,{\kf10}Ore {\kf15}wa {\kf27}douki {\kf10}ga {\kf35}tomannai {\kf21}yo
+Dialogue: 0,0:00:21.90,0:00:23.36,Default - Koizumi,,0,0,0,karaoke,{\kf45}Hayaku {\kf33}mitai {\kf20}desu {\kf10}yo {\kf38}ne
+Dialogue: 0,0:00:22.41,0:00:22.74,Default - Kyon,,0,0,0,karaoke,{\kf13}Sou {\kf10}da {\kf10}yo!
+Dialogue: 0,0:00:27.09,0:00:27.65,Default - Kyon,,0,0,0,karaoke,{\kf15}A{\kf41}cha!
+Dialogue: 0,0:00:28.08,0:00:28.99,Default - Kyon,,0,0,0,karaoke,{\kf35}NICE {\kf13}na {\kf20}BOA{\kf23}T!
+Dialogue: 0,0:00:35.30,0:00:36.11,Default - Koizumi,,0,0,0,karaoke,{\kf15}Su {\kf20}QUIZ {\kf17}desu {\kf29}ne
+Dialogue: 0,0:00:35.38,0:00:35.62,Default - Kyon,,0,0,0,karaoke,{\kf24}Choi!
+Dialogue: 0,0:00:36.11,0:00:38.25,Default - Yuki,,0,0,0,karaoke,{\kf18}U{\kf36}chuu{\kf42}jin {\kf16}no {\kf18}yo{\kf20}ru {\kf19}wa {\kf17}na{\kf28}gai
+Dialogue: 0,0:00:39.40,0:00:40.33,Default - Koizumi,,0,0,0,karaoke,{\kf44}Kokoro {\kf17}no {\kf32}kabe
+Dialogue: 0,0:00:40.48,0:00:41.55,Default - Yuki,,0,0,0,karaoke,{\kf22}Yo{\kf23}chi {\kf21}yo{\kf41}chi!
+Dialogue: 0,0:00:41.32,0:00:42.39,Default - Haruhi,,0,0,0,karaoke,{\kf24}To{\kf83}be!
+Dialogue: 0,0:00:42.08,0:00:42.51,Default - Kyon,,0,0,0,karaoke,{\kf5}U{\kf7}ru{\kf31}se!
+Dialogue: 0,0:00:45.19,0:00:46.59,Default - Koizumi,,0,0,0,karaoke,{\kf26}NE{\kf15}T {\kf15}hai{\kf12}shin {\kf15}desu {\kf28}kara {\kf29}ne
+Dialogue: 0,0:00:46.66,0:00:46.96,Default - Kyon,,0,0,0,karaoke,{\kf30}Aa!
+Dialogue: 0,0:00:48.64,0:00:49.27,Default - Kyon,,0,0,0,karaoke,{\kf40}Kurikaeshi {\kf23}ne
+Dialogue: 0,0:00:53.57,0:00:55.30,Default - Kyon,,0,0,0,karaoke,{\kf19}MA{\kf8}D {\kf16}saku{\kf20}sei {\kf19}wa{\kf24} {\kf20}hodo {\kf19}hodo {\kf12}ni {\kf16}ne!
+Dialogue: 0,0:00:58.35,0:00:59.45,Default - Koizumi,,0,0,0,karaoke,{\kf13}O{\kf9}tsu{\kf10}ka{\kf9}re-{\kf15}sa{\kf16}ma {\kf38}desu!
+Dialogue: 0,0:00:59.22,0:00:59.51,Default - Kyon,,0,0,0,karaoke,{\kf3}O{\kf7}tsu{\kf6}ka{\kf13}re!
 

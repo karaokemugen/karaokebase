@@ -28,42 +28,42 @@ Style: Aïoli 2,Project Paintball,60,&H00FFFFFF,&H00FF7000,&H00000000,&H00000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0, 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*600,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("start2syl",-1200+ci[2]/cn*600,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(7)!!retime("syl2end",$dur/12,200+(ci[7]/cn*600))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(8)!!retime("syl2end",$dur/12,200+(ci[8]/cn*600))!{\fad(0,150)\bord0\pos($x,$y)}
-Comment: 0,0:00:15.41,0:00:18.12,Aïoli,,0,0,0,karaoke,{\k60}{\k60}Ya, {\k27}ue{\k59}ri, {\k25}pa{\k40}re
-Comment: 0,0:00:17.71,0:00:22.39,Aïoli 2,,0,0,0,karaoke,{\k60}{\k21}mi{\k18}re{\k22}kya{\k25}ra{\k21}hi{\k54}re, {\k28}chu{\k40}ri,{\k20} {\k19}nyu{\k16}mi{\k21}re{\k22}ke{\k24}ra{\k57}so
-Comment: 0,0:00:21.81,0:00:26.03,Aïoli,,0,0,0,karaoke,{\k60}{\k21}hi{\k31}re,{\k36} {\k21}kya{\k16}ri,{\k43} {\k22}nyo{\k22}nyu{\k18}he{\k18}ra {\k25}he{\k20}ryu{\k19}ra{\k25}ha{\k25}ra
-Comment: 0,0:00:25.42,0:00:29.84,Aïoli 2,,0,0,0,karaoke,{\k60}{\k36}hon {\k20}nya{\k26}ra{\k37}hon {\k19}be{\k19}ra{\k26}nya{\k20}ra{\k19}me{\k20}ra{\k39}mii {\k25}me{\k18}ro{\k58}dii
-Comment: 0,0:00:41.86,0:00:44.53,Aïoli,,0,0,0,karaoke,{\k60}{\k48}Chan {\k19}me{\k20}ri {\k120}poo,
-Comment: 0,0:00:43.96,0:00:48.73,Aïoli 2,,0,0,0,karaoke,{\k60}{\k34}shu{\k25}ra{\k20}shu{\k27}ra{\k60}peran {\k24}nyu{\k20}ru{\k59}rii{\k21}re, {\k20}ri{\k24}po{\k17}pe{\k24}ra {\k42}hi
-Comment: 0,0:00:48.30,0:00:52.83,Aïoli,,0,0,0,karaoke,{\k60}{\k59}han {\k25}nyu{\k22}ru{\k61}rii {\k20}re{\k21}na{\k20}i {\k18}ra{\k24}chu{\k20}ra{\k21}ha{\k19}ra{\k63}hi
-Comment: 0,0:00:52.23,0:00:55.34,Aïoli 2,,0,0,0,karaoke,{\k60}{\k22}nyu{\k20}ra{\k23}ri{\k19}re{\k19}ha{\k22}ra, {\k40}me {\k45}me {\k41}me
-Comment: 0,0:00:55.14,0:00:59.56,Aïoli,,0,0,0,karaoke,{\k60}{\k62}Ya, {\k23}ue{\k37}ri,{\k23} {\k19}ma{\k57}re,{\k9} {\k17}mi{\k23}re{\k20}kya{\k22}ra{\k20}hi{\k50}re
-Comment: 0,0:00:59.06,0:01:01.76,Aïoli 2,,0,0,0,karaoke,{\k60}{\k22}chu{\k58}re, {\k30}nyu{\k20}mi{\k20}re{\k20}ke{\k19}ra{\k21}so
-Comment: 0,0:01:01.52,0:01:05.67,Aïoli,,0,0,0,karaoke,{\k60}{\k23}ki{\k41}re,{\k19} {\k25}nyo{\k32}ri,{\k30} {\k19}nyo{\k18}ri{\k21}he{\k20}ra{\k27}he{\k20}myu{\k17}ra{\k25}ha{\k18}ra
-Comment: 0,0:01:05.07,0:01:08.98,Aïoli 2,,0,0,0,karaoke,{\k60}{\k42}hon{\k22}rya{\k15}ra{\k46}hou{\k22}be{\k19}ra{\k23}mew{\k19}ra{\k20}na{\k21}ra{\k41}mii {\k20}me{\k21}ra
-Comment: 0,0:01:08.41,0:01:12.72,Aïoli,,0,0,0,karaoke,{\k60}{\k62}na, {\k19}mi{\k29}re,{\k30} {\k24}chu{\k39}te,{\k22} {\k21}mi{\k21}re{\k19}kya{\k16}ra{\k25}he{\k44}rya
-Comment: 0,0:01:12.33,0:01:15.13,Aïoli 2,,0,0,0,karaoke,{\k60}{\k20}mi{\k54}re, {\k21}yu{\k28}mi{\k19}ra{\k21}kya{\k22}ra{\k35}son
-Comment: 0,0:01:14.76,0:01:18.87,Aïoli,,0,0,0,karaoke,{\k60}{\k24}hi{\k29}re,{\k35} {\k22}kya{\k59}ri, {\k23}be{\k18}ri {\k23}he{\k13}ra{\k28}he {\k19}gya{\k20}ra{\k21}he{\k17}ra
-Comment: 0,0:01:18.10,0:01:22.57,Aïoli 2,,0,0,0,karaoke,{\k60}{\k24}ha{\k37}han {\k23}mya{\k21}ra{\k42}hou{\k19}ne{\k24}re{\k18}ya{\k22}ra{\k20}be{\k20}ya{\k41}fii {\k20}me{\k24}ro{\k32}dii
-Comment: 0,0:01:34.89,0:01:37.53,Aïoli,,0,0,0,karaoke,{\k60}{\k39}Chan {\k20}me{\k20}ri {\k125}poo,
-Comment: 0,0:01:37.08,0:01:41.68,Aïoli 2,,0,0,0,karaoke,{\k60}{\k26}shu{\k17}ra{\k23}shu{\k21}ra{\k17}pe{\k47}ran {\k22}nyu{\k21}ru{\k39}rii{\k41}re, {\k18}ri{\k25}po{\k20}pe{\k19}ra {\k44}hi
-Comment: 0,0:01:41.51,0:01:45.45,Aïoli,,0,0,0,karaoke,{\k60}{\k42}han {\k33}nyu{\k22}ru{\k44}rii {\k20}re{\k23}na{\k18}i {\k20}ra{\k22}chu{\k20}ra{\k20}ha{\k21}ra{\k29}hi
-Comment: 0,0:01:45.20,0:01:48.29,Aïoli 2,,0,0,0,karaoke,{\k60}{\k21}nyu{\k21}ra{\k22}ri{\k16}re{\k20}ha{\k26}ra, {\k38}me {\k45}me {\k40}me
-Comment: 0,0:01:48.10,0:01:52.38,Aïoli,,0,0,0,karaoke,{\k60}{\k42}Ya,{\k22} {\k21}ue{\k23}ri,{\k39} {\k18}ma{\k24}re,{\k39} {\k16}mi{\k24}re{\k24}kya{\k19}ra{\k19}hi{\k38}re
-Comment: 0,0:01:52.05,0:01:54.92,Aïoli 2,,0,0,0,karaoke,{\k60}{\k23}chu{\k39}re,{\k22} {\k24}nyu{\k17}mi{\k19}re{\k16}ke{\k21}ra{\k46}so
-Comment: 0,0:01:54.54,0:01:58.69,Aïoli,,0,0,0,karaoke,{\k60}{\k22}ki{\k43}re, {\k32}nyo{\k43}ri, {\k43}nyo{\k20}ri{\k22}he{\k19}ra{\k21}he{\k25}myu{\k19}ra{\k23}ha{\k23}ra
-Comment: 0,0:01:58.09,0:02:01.98,Aïoli 2,,0,0,0,karaoke,{\k60}{\k36}hon{\k22}rya{\k21}ra{\k34}hou{\k27}be{\k22}ra{\k22}mya{\k20}ra{\k20}na{\k21}ra{\k41}mii {\k21}me{\k22}ra
-Comment: 0,0:02:01.38,0:02:05.68,Aïoli,,0,0,0,karaoke,{\k60}{\k36}na,{\k25} {\k20}mi{\k29}re,{\k28} {\k23}chu{\k43}te,{\k21} {\k26}mi{\k29}re{\k30}kya{\k9}ra{\k20}he{\k31}rya
-Comment: 0,0:02:05.30,0:02:08.11,Aïoli 2,,0,0,0,karaoke,{\k60}{\k21}mi{\k39}re,{\k22} {\k20}yu{\k20}mi{\k21}ra{\k23}kya{\k18}ra{\k37}son
-Comment: 0,0:02:07.73,0:02:11.92,Aïoli,,0,0,0,karaoke,{\k60}{\k22}hi{\k42}re,{\k23} {\k22}kya{\k38}ri,{\k23} {\k22}be{\k19}ri {\k17}he{\k21}ra{\k19}he{\k18}he {\k12}gya{\k18}ra{\k17}he{\k26}ra
-Comment: 0,0:02:11.14,0:02:15.52,Aïoli 2,,0,0,0,karaoke,{\k80}{\k36}an {\k22}mya{\k21}ra{\k42}hou{\k20}ne{\k19}re{\k20}nya{\k21}ra{\k21}ba{\k21}ya{\k43}fii {\k18}me{\k20}ro{\k31}dii{\k3}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0, 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*600,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("start2syl",-1200+ci[2]/cn*600,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(7)!!retime("syl2end",$dur/12,200+(ci[7]/cn*600))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(8)!!retime("syl2end",$dur/12,200+(ci[8]/cn*600))!{\fad(0,150)\bord0\pos($x,$y)}
+Dialogue: 0,0:00:15.41,0:00:18.12,Aïoli,,0,0,0,karaoke,{\k60}{\k60}Ya, {\k27}ue{\k59}ri, {\k25}pa{\k40}re
+Dialogue: 0,0:00:17.71,0:00:22.39,Aïoli 2,,0,0,0,karaoke,{\k60}{\k21}mi{\k18}re{\k22}kya{\k25}ra{\k21}hi{\k54}re, {\k28}chu{\k40}ri,{\k20} {\k19}nyu{\k16}mi{\k21}re{\k22}ke{\k24}ra{\k57}so
+Dialogue: 0,0:00:21.81,0:00:26.03,Aïoli,,0,0,0,karaoke,{\k60}{\k21}hi{\k31}re,{\k36} {\k21}kya{\k16}ri,{\k43} {\k22}nyo{\k22}nyu{\k18}he{\k18}ra {\k25}he{\k20}ryu{\k19}ra{\k25}ha{\k25}ra
+Dialogue: 0,0:00:25.42,0:00:29.84,Aïoli 2,,0,0,0,karaoke,{\k60}{\k36}hon {\k20}nya{\k26}ra{\k37}hon {\k19}be{\k19}ra{\k26}nya{\k20}ra{\k19}me{\k20}ra{\k39}mii {\k25}me{\k18}ro{\k58}dii
+Dialogue: 0,0:00:41.86,0:00:44.53,Aïoli,,0,0,0,karaoke,{\k60}{\k48}Chan {\k19}me{\k20}ri {\k120}poo,
+Dialogue: 0,0:00:43.96,0:00:48.73,Aïoli 2,,0,0,0,karaoke,{\k60}{\k34}shu{\k25}ra{\k20}shu{\k27}ra{\k60}peran {\k24}nyu{\k20}ru{\k59}rii{\k21}re, {\k20}ri{\k24}po{\k17}pe{\k24}ra {\k42}hi
+Dialogue: 0,0:00:48.30,0:00:52.83,Aïoli,,0,0,0,karaoke,{\k60}{\k59}han {\k25}nyu{\k22}ru{\k61}rii {\k20}re{\k21}na{\k20}i {\k18}ra{\k24}chu{\k20}ra{\k21}ha{\k19}ra{\k63}hi
+Dialogue: 0,0:00:52.23,0:00:55.34,Aïoli 2,,0,0,0,karaoke,{\k60}{\k22}nyu{\k20}ra{\k23}ri{\k19}re{\k19}ha{\k22}ra, {\k40}me {\k45}me {\k41}me
+Dialogue: 0,0:00:55.14,0:00:59.56,Aïoli,,0,0,0,karaoke,{\k60}{\k62}Ya, {\k23}ue{\k37}ri,{\k23} {\k19}ma{\k57}re,{\k9} {\k17}mi{\k23}re{\k20}kya{\k22}ra{\k20}hi{\k50}re
+Dialogue: 0,0:00:59.06,0:01:01.76,Aïoli 2,,0,0,0,karaoke,{\k60}{\k22}chu{\k58}re, {\k30}nyu{\k20}mi{\k20}re{\k20}ke{\k19}ra{\k21}so
+Dialogue: 0,0:01:01.52,0:01:05.67,Aïoli,,0,0,0,karaoke,{\k60}{\k23}ki{\k41}re,{\k19} {\k25}nyo{\k32}ri,{\k30} {\k19}nyo{\k18}ri{\k21}he{\k20}ra{\k27}he{\k20}myu{\k17}ra{\k25}ha{\k18}ra
+Dialogue: 0,0:01:05.07,0:01:08.98,Aïoli 2,,0,0,0,karaoke,{\k60}{\k42}hon{\k22}rya{\k15}ra{\k46}hou{\k22}be{\k19}ra{\k23}mew{\k19}ra{\k20}na{\k21}ra{\k41}mii {\k20}me{\k21}ra
+Dialogue: 0,0:01:08.41,0:01:12.72,Aïoli,,0,0,0,karaoke,{\k60}{\k62}na, {\k19}mi{\k29}re,{\k30} {\k24}chu{\k39}te,{\k22} {\k21}mi{\k21}re{\k19}kya{\k16}ra{\k25}he{\k44}rya
+Dialogue: 0,0:01:12.33,0:01:15.13,Aïoli 2,,0,0,0,karaoke,{\k60}{\k20}mi{\k54}re, {\k21}yu{\k28}mi{\k19}ra{\k21}kya{\k22}ra{\k35}son
+Dialogue: 0,0:01:14.76,0:01:18.87,Aïoli,,0,0,0,karaoke,{\k60}{\k24}hi{\k29}re,{\k35} {\k22}kya{\k59}ri, {\k23}be{\k18}ri {\k23}he{\k13}ra{\k28}he {\k19}gya{\k20}ra{\k21}he{\k17}ra
+Dialogue: 0,0:01:18.10,0:01:22.57,Aïoli 2,,0,0,0,karaoke,{\k60}{\k24}ha{\k37}han {\k23}mya{\k21}ra{\k42}hou{\k19}ne{\k24}re{\k18}ya{\k22}ra{\k20}be{\k20}ya{\k41}fii {\k20}me{\k24}ro{\k32}dii
+Dialogue: 0,0:01:34.89,0:01:37.53,Aïoli,,0,0,0,karaoke,{\k60}{\k39}Chan {\k20}me{\k20}ri {\k125}poo,
+Dialogue: 0,0:01:37.08,0:01:41.68,Aïoli 2,,0,0,0,karaoke,{\k60}{\k26}shu{\k17}ra{\k23}shu{\k21}ra{\k17}pe{\k47}ran {\k22}nyu{\k21}ru{\k39}rii{\k41}re, {\k18}ri{\k25}po{\k20}pe{\k19}ra {\k44}hi
+Dialogue: 0,0:01:41.51,0:01:45.45,Aïoli,,0,0,0,karaoke,{\k60}{\k42}han {\k33}nyu{\k22}ru{\k44}rii {\k20}re{\k23}na{\k18}i {\k20}ra{\k22}chu{\k20}ra{\k20}ha{\k21}ra{\k29}hi
+Dialogue: 0,0:01:45.20,0:01:48.29,Aïoli 2,,0,0,0,karaoke,{\k60}{\k21}nyu{\k21}ra{\k22}ri{\k16}re{\k20}ha{\k26}ra, {\k38}me {\k45}me {\k40}me
+Dialogue: 0,0:01:48.10,0:01:52.38,Aïoli,,0,0,0,karaoke,{\k60}{\k42}Ya,{\k22} {\k21}ue{\k23}ri,{\k39} {\k18}ma{\k24}re,{\k39} {\k16}mi{\k24}re{\k24}kya{\k19}ra{\k19}hi{\k38}re
+Dialogue: 0,0:01:52.05,0:01:54.92,Aïoli 2,,0,0,0,karaoke,{\k60}{\k23}chu{\k39}re,{\k22} {\k24}nyu{\k17}mi{\k19}re{\k16}ke{\k21}ra{\k46}so
+Dialogue: 0,0:01:54.54,0:01:58.69,Aïoli,,0,0,0,karaoke,{\k60}{\k22}ki{\k43}re, {\k32}nyo{\k43}ri, {\k43}nyo{\k20}ri{\k22}he{\k19}ra{\k21}he{\k25}myu{\k19}ra{\k23}ha{\k23}ra
+Dialogue: 0,0:01:58.09,0:02:01.98,Aïoli 2,,0,0,0,karaoke,{\k60}{\k36}hon{\k22}rya{\k21}ra{\k34}hou{\k27}be{\k22}ra{\k22}mya{\k20}ra{\k20}na{\k21}ra{\k41}mii {\k21}me{\k22}ra
+Dialogue: 0,0:02:01.38,0:02:05.68,Aïoli,,0,0,0,karaoke,{\k60}{\k36}na,{\k25} {\k20}mi{\k29}re,{\k28} {\k23}chu{\k43}te,{\k21} {\k26}mi{\k29}re{\k30}kya{\k9}ra{\k20}he{\k31}rya
+Dialogue: 0,0:02:05.30,0:02:08.11,Aïoli 2,,0,0,0,karaoke,{\k60}{\k21}mi{\k39}re,{\k22} {\k20}yu{\k20}mi{\k21}ra{\k23}kya{\k18}ra{\k37}son
+Dialogue: 0,0:02:07.73,0:02:11.92,Aïoli,,0,0,0,karaoke,{\k60}{\k22}hi{\k42}re,{\k23} {\k22}kya{\k38}ri,{\k23} {\k22}be{\k19}ri {\k17}he{\k21}ra{\k19}he{\k18}he {\k12}gya{\k18}ra{\k17}he{\k26}ra
+Dialogue: 0,0:02:11.14,0:02:15.52,Aïoli 2,,0,0,0,karaoke,{\k80}{\k36}an {\k22}mya{\k21}ra{\k42}hou{\k20}ne{\k19}re{\k20}nya{\k21}ra{\k21}ba{\k21}ya{\k43}fii {\k18}me{\k20}ro{\k31}dii{\k3}
 

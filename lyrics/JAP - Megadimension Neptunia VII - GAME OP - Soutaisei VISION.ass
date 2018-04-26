@@ -28,28 +28,28 @@ Style: Neptunia,Segoe Print,70,&H00F079D9,&H00FFFFFF,&H00000000,&H00000000,-1,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos(!syl.center+line.left!,$y)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,150)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,150)\bord0\pos(!syl.center+line.left!,$y)}
-Comment: 0,0:00:17.92,0:00:22.13,Neptunia,,0,0,0,karaoke,{\k32}Do{\k16}ko {\k47}ma{\k18}de {\k44}mo {\k20}ha{\k48}te{\k18}na{\k178}ku
-Comment: 0,0:00:23.10,0:00:27.61,Neptunia,,0,0,70,karaoke,{\k30}tsu{\k36}dzu{\k31}i{\k17}te{\k66}ku{\k13} {\k35}chi{\k32}he{\k75}i{\k41}sen {\k75}ni
-Comment: 0,0:00:28.27,0:00:32.20,Neptunia,,0,0,0,karaoke,{\k34}ko {\k16}wo {\k48}e{\k17}ga{\k42}ku {\k25}se{\k45}n{\k20}ko{\k146}u
-Comment: 0,0:00:33.47,0:00:37.04,Neptunia,,0,0,70,karaoke,{\k32}ne{\k32}ga{\k33}i {\k16}wo {\k31}ka{\k35}ze {\k29}ni {\k13}no{\k23}se{\k113}te
-Comment: 0,0:00:37.64,0:00:43.76,Neptunia,,0,0,0,karaoke,{\k18}i{\k12}tsu {\k20}shi{\k51}ka{\k36} {\k15}to{\k9}za{\k23}sa{\k33}re{\k77}ta{\k32} {\k32}hi{\k35}ka{\k14}ri {\k32}to {\k19}ka{\k18}ge {\k136}wa
-Comment: 0,0:00:44.49,0:00:47.68,Neptunia,,0,0,70,karaoke,{\k34}ka{\k22}ku{\k44}se{\k16}i {\k42}o {\k19}shi{\k142}te
-Comment: 0,0:00:47.96,0:00:54.08,Neptunia,,0,0,0,karaoke,{\k25}su{\k19}be{\k16}te {\k49}no{\k31} {\k18}yo{\k12}ro{\k20}ko{\k34}bi {\k82}mo{\k29} {\k31}ka{\k26}na{\k23}shi{\k24}mi {\k27}sa{\k15}e {\k131}mo
-Comment: 0,0:00:54.72,0:00:56.30,Neptunia,,0,0,70,karaoke,{\k18}ME{\k30}GA {\k31}DI{\k49}MEN{\k30}SION
-Comment: 0,0:00:56.49,0:01:02.00,Neptunia,,0,0,0,karaoke,{\k18}chi{\k16}zu {\k47}no {\k48}na{\k39}i {\k28}so{\k16}no {\k11}ba{\k22}sho {\k26}e {\k280}tou
-Comment: 0,0:01:03.56,0:01:08.89,Neptunia,,0,0,0,karaoke,{\k26}so{\k15}ra {\k13}ni {\k35}ha{\k61}na{\k83}te{\k32} {\k19}ha{\k16}ru{\k16}ka{\k27}na {\k20}VI{\k55}SIO{\k40}N {\k75}e
-Comment: 0,0:01:09.14,0:01:13.97,Neptunia,,0,0,70,karaoke,{\k16}mi{\k28}t{\k55}tsu {\k14}no {\k34}ji{\k32}ge{\k48}n{\k30} {\k37}me{\k32}ku{\k15}ru {\k33}me{\k12}ku {\k36}se{\k21}ka{\k40}i
-Comment: 0,0:01:14.04,0:01:19.26,Neptunia,,0,0,0,karaoke,{\k13}ma{\k16}yo{\k17}i{\k33}ko{\k66}n{\k71}da{\k40} {\k16}mo{\k15}u{\k19}so{\k34}u {\k18}Ry{\k47}ou{\k46}i{\k71}ki
-Comment: 0,0:01:19.51,0:01:24.02,Neptunia,,0,0,70,karaoke,{\k36}ki{\k31}mi {\k30}to{\k19}na{\k47}ra {\k21}no{\k14}ri{\k22}ko{\k22}e{\k38}ra{\k26}re{\k145}ru
-Comment: 0,0:01:24.69,0:01:28.03,Neptunia,,0,0,0,karaoke,{\k34}a{\k32}shi{\k28}ta {\k23}e {\k49}no {\k29}CON{\k21}TI{\k29}NUE {\k30}O{\k59}K!?
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos(!syl.center+line.left!,$y)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,150)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,150)\bord0\pos(!syl.center+line.left!,$y)}
+Dialogue: 0,0:00:17.92,0:00:22.13,Neptunia,,0,0,0,karaoke,{\k32}Do{\k16}ko {\k47}ma{\k18}de {\k44}mo {\k20}ha{\k48}te{\k18}na{\k178}ku
+Dialogue: 0,0:00:23.10,0:00:27.61,Neptunia,,0,0,70,karaoke,{\k30}tsu{\k36}dzu{\k31}i{\k17}te{\k66}ku{\k13} {\k35}chi{\k32}he{\k75}i{\k41}sen {\k75}ni
+Dialogue: 0,0:00:28.27,0:00:32.20,Neptunia,,0,0,0,karaoke,{\k34}ko {\k16}wo {\k48}e{\k17}ga{\k42}ku {\k25}se{\k45}n{\k20}ko{\k146}u
+Dialogue: 0,0:00:33.47,0:00:37.04,Neptunia,,0,0,70,karaoke,{\k32}ne{\k32}ga{\k33}i {\k16}wo {\k31}ka{\k35}ze {\k29}ni {\k13}no{\k23}se{\k113}te
+Dialogue: 0,0:00:37.64,0:00:43.76,Neptunia,,0,0,0,karaoke,{\k18}i{\k12}tsu {\k20}shi{\k51}ka{\k36} {\k15}to{\k9}za{\k23}sa{\k33}re{\k77}ta{\k32} {\k32}hi{\k35}ka{\k14}ri {\k32}to {\k19}ka{\k18}ge {\k136}wa
+Dialogue: 0,0:00:44.49,0:00:47.68,Neptunia,,0,0,70,karaoke,{\k34}ka{\k22}ku{\k44}se{\k16}i {\k42}o {\k19}shi{\k142}te
+Dialogue: 0,0:00:47.96,0:00:54.08,Neptunia,,0,0,0,karaoke,{\k25}su{\k19}be{\k16}te {\k49}no{\k31} {\k18}yo{\k12}ro{\k20}ko{\k34}bi {\k82}mo{\k29} {\k31}ka{\k26}na{\k23}shi{\k24}mi {\k27}sa{\k15}e {\k131}mo
+Dialogue: 0,0:00:54.72,0:00:56.30,Neptunia,,0,0,70,karaoke,{\k18}ME{\k30}GA {\k31}DI{\k49}MEN{\k30}SION
+Dialogue: 0,0:00:56.49,0:01:02.00,Neptunia,,0,0,0,karaoke,{\k18}chi{\k16}zu {\k47}no {\k48}na{\k39}i {\k28}so{\k16}no {\k11}ba{\k22}sho {\k26}e {\k280}tou
+Dialogue: 0,0:01:03.56,0:01:08.89,Neptunia,,0,0,0,karaoke,{\k26}so{\k15}ra {\k13}ni {\k35}ha{\k61}na{\k83}te{\k32} {\k19}ha{\k16}ru{\k16}ka{\k27}na {\k20}VI{\k55}SIO{\k40}N {\k75}e
+Dialogue: 0,0:01:09.14,0:01:13.97,Neptunia,,0,0,70,karaoke,{\k16}mi{\k28}t{\k55}tsu {\k14}no {\k34}ji{\k32}ge{\k48}n{\k30} {\k37}me{\k32}ku{\k15}ru {\k33}me{\k12}ku {\k36}se{\k21}ka{\k40}i
+Dialogue: 0,0:01:14.04,0:01:19.26,Neptunia,,0,0,0,karaoke,{\k13}ma{\k16}yo{\k17}i{\k33}ko{\k66}n{\k71}da{\k40} {\k16}mo{\k15}u{\k19}so{\k34}u {\k18}Ry{\k47}ou{\k46}i{\k71}ki
+Dialogue: 0,0:01:19.51,0:01:24.02,Neptunia,,0,0,70,karaoke,{\k36}ki{\k31}mi {\k30}to{\k19}na{\k47}ra {\k21}no{\k14}ri{\k22}ko{\k22}e{\k38}ra{\k26}re{\k145}ru
+Dialogue: 0,0:01:24.69,0:01:28.03,Neptunia,,0,0,0,karaoke,{\k34}a{\k32}shi{\k28}ta {\k23}e {\k49}no {\k29}CON{\k21}TI{\k29}NUE {\k30}O{\k59}K!?
 

@@ -20,39 +20,39 @@ Style: Default,Prototype,25,&H00CD5F3A,&H00FFFFFF,&H004D0500,&H00000000,0,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos(!syl.center+line.left!,$y)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,150)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,150)\bord0\pos(!syl.center+line.left!,$y)}
-Comment: 0,0:00:02.94,0:00:03.98,Default,,0,0,0,karaoke,{\k16}Les {\k39}trois {\k28}sont {\k21}nés
-Comment: 0,0:00:04.32,0:00:05.60,Default,,0,0,50,karaoke,{\k15}Le {\k26}trône {\k24}est {\k31}sans {\k32}roi
-Comment: 0,0:00:05.95,0:00:08.84,Default,,0,0,0,karaoke,{\k24}Fa{\k28}tale {\k27}des{\k24}ti{\k25}née {\k29}par {\k21}l'o{\k26}racle {\k27}an{\k25}non{\k33}cée
-Comment: 0,0:00:09.01,0:00:10.08,Default,,0,0,50,karaoke,{\k21}Ar{\k31}ra{\k29}che {\k26}les
-Comment: 0,0:00:10.52,0:00:11.75,Default,,0,0,0,karaoke,{\k42}Loin {\k27}de {\k54}toi
-Comment: 0,0:00:11.94,0:00:13.29,Default,,0,0,50,karaoke,{\k20}At{\k28}tends {\k30}dans {\k57}l'ombre
-Comment: 0,0:00:13.46,0:00:15.01,Default,,0,0,0,karaoke,{\k22}Et {\k27}l'heure {\k31}vien{\k75}dra
-Comment: 0,0:00:15.19,0:00:17.78,Default,,0,0,50,karaoke,{\k38}So{\k31}nic {\k40}le {\k36}re{\k114}belle
-Comment: 0,0:00:18.18,0:00:20.77,Default,,0,0,0,karaoke,{\k34}So{\k75}nic {\k11}le {\k27}re{\k112}belle
-Comment: 0,0:00:20.95,0:00:25.47,Default,,0,0,50,karaoke,{\k20}Ils {\k37}se {\k24}ju{\k33}rèrent {\k61}de {\k20}re{\k34}trou{\k39}ver {\k36}leur {\k148}mère
-Comment: 0,0:00:26.99,0:00:28.07,Default,,0,0,0,karaoke,{\k21}Au {\k28}fil {\k28}des {\k31}ans
-Comment: 0,0:00:28.26,0:00:29.93,Default,,0,0,50,karaoke,{\k24}Ils {\k22}s'ins{\k31}truisent {\k24}et {\k19}dé{\k47}fendent
-Comment: 0,0:00:30.14,0:00:32.61,Default,,0,0,0,karaoke,{\k34}La {\k29}jus{\k36}tice {\k34}et {\k22}la {\k22}li{\k33}ber{\k37}té
-Comment: 0,0:00:32.96,0:00:34.44,Default,,0,0,50,karaoke,{\k10}Et {\k12}la {\k36}mère {\k33}tant {\k31}cher{\k26}chée
-Comment: 0,0:00:34.45,0:00:35.83,Default,,0,0,0,karaoke,{\k24}En{\k29}tend {\k29}leurs {\k56}voix
-Comment: 0,0:00:36.08,0:00:37.46,Default,,0,0,50,karaoke,{\k37}Est-{\k27}ce {\k74}l'heure ?
-Comment: 0,0:00:37.56,0:00:39.16,Default,,0,0,0,karaoke,{\k20}Sau{\k25}rais-je {\k20}en {\k95}moi
-Comment: 0,0:00:39.37,0:00:42.02,Default,,0,0,50,karaoke,{\k11}Si {\k14}la {\k17}pro{\k21}phé{\k26}tie {\k21}s'ré{\k23}a{\k31}lise{\k101}ra
-Comment: 0,0:00:42.18,0:00:44.88,Default,,0,0,0,karaoke,{\k35}So{\k36}nic {\k38}le {\k39}re{\k122}belle
-Comment: 0,0:00:45.15,0:00:47.96,Default,,0,0,50,karaoke,{\k26}So{\k39}nic{\k31} {\k37}le {\k17}re{\k131}belle
-Comment: 0,0:00:48.50,0:00:49.73,Default,,0,0,0,karaoke,{\k25}J'aime{\k20}rais {\k20}voir {\k15}mes {\k23}en{\k20}fants
-Comment: 0,0:00:49.74,0:00:50.82,Default,,0,0,50,karaoke,{\k14}mais {\k15}j'at{\k20}tends {\k12}à {\k18}de{\k29}main
-Comment: 0,0:00:51.49,0:00:53.62,Default,,0,0,0,karaoke,{\k11}Se {\k18}hâ{\k18}ter {\k21}ris{\k16}que{\k11}rait {\k17}de {\k30}for{\k16}cer {\k13}leur {\k27}des{\k15}tin
-Comment: 0,0:00:53.97,0:00:57.41,Default,,0,0,50,karaoke,{\k24}Ils {\k24}se {\k28}ju{\k40}rèrent {\k54}de {\k18}re{\k42}trou{\k34}ver {\k35}leur {\k45}mère
-Comment: 0,0:00:57.51,0:00:58.60,Default,,0,0,0,karaoke,{\k21}So{\k16}nic {\k20}le {\k19}re{\k33}belle !
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos(!syl.center+line.left!,$y)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,150)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,150)\bord0\pos(!syl.center+line.left!,$y)}
+Dialogue: 0,0:00:02.94,0:00:03.98,Default,,0,0,0,karaoke,{\k16}Les {\k39}trois {\k28}sont {\k21}nés
+Dialogue: 0,0:00:04.32,0:00:05.60,Default,,0,0,50,karaoke,{\k15}Le {\k26}trône {\k24}est {\k31}sans {\k32}roi
+Dialogue: 0,0:00:05.95,0:00:08.84,Default,,0,0,0,karaoke,{\k24}Fa{\k28}tale {\k27}des{\k24}ti{\k25}née {\k29}par {\k21}l'o{\k26}racle {\k27}an{\k25}non{\k33}cée
+Dialogue: 0,0:00:09.01,0:00:10.08,Default,,0,0,50,karaoke,{\k21}Ar{\k31}ra{\k29}che {\k26}les
+Dialogue: 0,0:00:10.52,0:00:11.75,Default,,0,0,0,karaoke,{\k42}Loin {\k27}de {\k54}toi
+Dialogue: 0,0:00:11.94,0:00:13.29,Default,,0,0,50,karaoke,{\k20}At{\k28}tends {\k30}dans {\k57}l'ombre
+Dialogue: 0,0:00:13.46,0:00:15.01,Default,,0,0,0,karaoke,{\k22}Et {\k27}l'heure {\k31}vien{\k75}dra
+Dialogue: 0,0:00:15.19,0:00:17.78,Default,,0,0,50,karaoke,{\k38}So{\k31}nic {\k40}le {\k36}re{\k114}belle
+Dialogue: 0,0:00:18.18,0:00:20.77,Default,,0,0,0,karaoke,{\k34}So{\k75}nic {\k11}le {\k27}re{\k112}belle
+Dialogue: 0,0:00:20.95,0:00:25.47,Default,,0,0,50,karaoke,{\k20}Ils {\k37}se {\k24}ju{\k33}rèrent {\k61}de {\k20}re{\k34}trou{\k39}ver {\k36}leur {\k148}mère
+Dialogue: 0,0:00:26.99,0:00:28.07,Default,,0,0,0,karaoke,{\k21}Au {\k28}fil {\k28}des {\k31}ans
+Dialogue: 0,0:00:28.26,0:00:29.93,Default,,0,0,50,karaoke,{\k24}Ils {\k22}s'ins{\k31}truisent {\k24}et {\k19}dé{\k47}fendent
+Dialogue: 0,0:00:30.14,0:00:32.61,Default,,0,0,0,karaoke,{\k34}La {\k29}jus{\k36}tice {\k34}et {\k22}la {\k22}li{\k33}ber{\k37}té
+Dialogue: 0,0:00:32.96,0:00:34.44,Default,,0,0,50,karaoke,{\k10}Et {\k12}la {\k36}mère {\k33}tant {\k31}cher{\k26}chée
+Dialogue: 0,0:00:34.45,0:00:35.83,Default,,0,0,0,karaoke,{\k24}En{\k29}tend {\k29}leurs {\k56}voix
+Dialogue: 0,0:00:36.08,0:00:37.46,Default,,0,0,50,karaoke,{\k37}Est-{\k27}ce {\k74}l'heure ?
+Dialogue: 0,0:00:37.56,0:00:39.16,Default,,0,0,0,karaoke,{\k20}Sau{\k25}rais-je {\k20}en {\k95}moi
+Dialogue: 0,0:00:39.37,0:00:42.02,Default,,0,0,50,karaoke,{\k11}Si {\k14}la {\k17}pro{\k21}phé{\k26}tie {\k21}s'ré{\k23}a{\k31}lise{\k101}ra
+Dialogue: 0,0:00:42.18,0:00:44.88,Default,,0,0,0,karaoke,{\k35}So{\k36}nic {\k38}le {\k39}re{\k122}belle
+Dialogue: 0,0:00:45.15,0:00:47.96,Default,,0,0,50,karaoke,{\k26}So{\k39}nic{\k31} {\k37}le {\k17}re{\k131}belle
+Dialogue: 0,0:00:48.50,0:00:49.73,Default,,0,0,0,karaoke,{\k25}J'aime{\k20}rais {\k20}voir {\k15}mes {\k23}en{\k20}fants
+Dialogue: 0,0:00:49.74,0:00:50.82,Default,,0,0,50,karaoke,{\k14}mais {\k15}j'at{\k20}tends {\k12}à {\k18}de{\k29}main
+Dialogue: 0,0:00:51.49,0:00:53.62,Default,,0,0,0,karaoke,{\k11}Se {\k18}hâ{\k18}ter {\k21}ris{\k16}que{\k11}rait {\k17}de {\k30}for{\k16}cer {\k13}leur {\k27}des{\k15}tin
+Dialogue: 0,0:00:53.97,0:00:57.41,Default,,0,0,50,karaoke,{\k24}Ils {\k24}se {\k28}ju{\k40}rèrent {\k54}de {\k18}re{\k42}trou{\k34}ver {\k35}leur {\k45}mère
+Dialogue: 0,0:00:57.51,0:00:58.60,Default,,0,0,0,karaoke,{\k21}So{\k16}nic {\k20}le {\k19}re{\k33}belle !
 

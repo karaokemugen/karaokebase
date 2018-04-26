@@ -24,26 +24,26 @@ Style: Test,Arial,40,&H00000000,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,10
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code syl all,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code line all,ci = { 0, 0 }; cie = { 0 }; cn = _G.unicode.len(orgline.text_stripped:gsub(" ","")); dim = 720
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-500+ci[1]/cn*300,0)!{\alpha&HFF&\an5\1c!line.styleref.color2!\pos($x,!(line.styleref.name == "Default Sec") and dim-40 or 40!)\t(0,300,\alpha&H00&)}
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template all,!retime("syl",0,0)!!relayer(1)!{\an5\k$kdur\pos($x,!(line.styleref.name == "Default Sec") and dim-40 or 40!)\t(0,1,\fscx130\fscy130)\t(0,!($ldur > $end) and $dur or ($dur-300-(cn-ci[2])/cn*300)!,\fscx!130-(($ldur > $end) and 30 or (30/$dur)*($dur-300-(cn-ci[2])/cn*300))!\fscy!130-(($ldur > $end) and 30 or (30/$dur)*($dur-300-(cn-ci[2])/cn*300))!\alpha&H99&)\t(!($ldur > $end) and $dur or $dur-300-(cn-ci[2])/cn*300!,$dur,\fscx100\fscy100\alpha&HFF&)}
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all noblank,!char_counter(2)!!retime("syl2end",($ldur == $end) and (-(cn-ci[2])/cn*300) or 0,-(cn-ci[2])/cn*300)!{\an5\pos($x,!(line.styleref.name == "Default Sec") and dim-40 or 40!)\alpha&H99&\t(!(line.duration > 300) and line.duration-300 or 0!,!(line.duration > 0) and line.duration or 0!,\alpha&HFF&)}
-Comment: 0,0:00:00.16,0:00:02.74,Default,,0,0,0,karaoke,{\k19}Seid {\k14}ihr {\k17}das {\k26}Es{\k26}sen? {\k15}Nein, {\k34}wir {\k15}sind {\k16}der {\k35}Jä{\k41}ger!
-Comment: 0,0:00:03.19,0:00:08.15,Default,,0,0,0,,ah... ah... ah... ah... ah... attack on titan!
-Comment: 0,0:00:08.46,0:00:13.42,Default,,0,0,0,,ah... ah... ah... ah... ah... attack on titan!
-Comment: 0,0:00:15.10,0:00:19.90,Default,,0,0,0,karaoke,{\k19}fu{\k31}ma{\k34}re{\k35}ta {\k33}ha{\k31}na {\k18}no{\k33} {\k34}na{\k15}ma{\k31}e {\k34}mo {\k36}shi{\k34}ra{\k33}zu {\k29}ni
-Comment: 0,0:00:20.08,0:00:25.17,Default,,0,0,0,karaoke,{\k37}chi {\k15}ni {\k31}o{\k32}chi{\k35}ta {\k35}to{\k33}ri {\k28}wa{\k19} {\k35}ka{\k18}ze {\k33}wo {\k32}ma{\k34}chi{\k33}wa{\k32}bi{\k27}ru
-Comment: 0,0:00:25.39,0:00:30.52,Default,,0,0,0,karaoke,{\k35}i{\k18}no{\k33}t{\k33}ta {\k31}to{\k35}ko{\k32}ro {\k30}de{\k20} {\k33}na{\k17}ni {\k32}mo {\k31}ka{\k35}wa{\k33}ra{\k34}na{\k31}i
-Comment: 0,0:00:30.69,0:00:35.92,Default,,0,0,0,karaoke,{\k37}i{\k16}ma {\k32}wo {\k35}ka{\k33}e{\k33}ru {\k32}no {\k32}wa{\k19} {\k33}ta{\k16}ta{\k33}ka{\k31}u {\k36}ka{\k33}ku{\k29}go {\k43}da...
-Comment: 0,0:00:36.04,0:00:37.98,Default,,0,0,0,karaoke,{\k51}shi{\k15}ka{\k17}ba{\k16}ne {\k17}fu{\k16}mi{\k17}ko{\k15}e{\k30}te
-Comment: 0,0:00:38.38,0:00:41.17,Default,,0,0,0,karaoke,{\k23}su{\k9}su{\k30}mu {\k24}i{\k10}shi {\k36}wo {\k22}wa{\k10}ra{\k36}u {\k21}bu{\k8}ta {\k50}yo
-Comment: 0,0:00:41.17,0:00:42.63,Default,,0,0,0,karaoke,{\k39}ka{\k9}chi{\k20}ku {\k16}no {\k31}an{\k31}nei
-Comment: 0,0:00:42.63,0:00:43.76,Default,,0,0,0,karaoke,{\k25}kyo{\k14}gi {\k16}no {\k31}ha{\k27}nei
-Comment: 0,0:00:43.83,0:00:46.64,Default,,0,0,0,karaoke,{\k35}shi{\k16}se{\k16}ru {\k18}ga{\k32}rou {\k17}no {\k17}"ji{\k63}yuu" {\k67}wo!
-Comment: 0,0:00:46.64,0:00:51.86,Default,,0,0,0,karaoke,{\k18}to{\k18}ra{\k18}wa{\k32}re{\k16}ta{\k16} {\k32}ku{\k18}tsu{\k18}jo{\k33}ku {\k31}wa{\k18} {\k17}ha{\k16}n{\k17}ge{\k35}ki {\k28}no {\k51}ko{\k19}u{\k32}shi {\k39}da
-Comment: 0,0:00:51.97,0:00:57.07,Default,,0,0,0,karaoke,{\k18}jo{\k15}u{\k17}he{\k36}ki {\k30}no {\k35}so{\k16}no {\k19}ka{\k32}na{\k24}ta{\k23} {\k16}e{\k18}mo{\k17}no {\k32}wo {\k17}ho{\k18}ru{\k28}fu {\k54}Jä{\k45}ger
-Comment: 0,0:00:57.28,0:01:02.48,Default,,0,0,0,karaoke,{\k17}ho{\k16}to {\k15}ba{\k35}shi{\k34}ru {\k34}sho{\k16}u{\k15}do{\k35}u {\k49}ni {\k16}so{\k18}no {\k17}mi {\k30}wo {\k33}ya{\k53}ki{\k16}na{\k31}ga{\k40}ra
-Comment: 0,0:01:02.60,0:01:05.06,Default,,0,0,0,karaoke,{\k16}ta{\k15}so{\k14}ga{\k39}re {\k20}ni{\k16} {\k30}hi {\k15}wo {\k16}u{\k33}ga{\k32}tsu
-Comment: 0,0:01:05.09,0:01:09.12,Default,,0,0,0,karaoke,{\k15}gu{\k37}re{\k16}n {\k29}no {\k18}yu{\k17}mi{\k271}ya
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code syl all,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code line all,ci = { 0, 0 }; cie = { 0 }; cn = _G.unicode.len(orgline.text_stripped:gsub(" ","")); dim = 720
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-500+ci[1]/cn*300,0)!{\alpha&HFF&\an5\1c!line.styleref.color2!\pos($x,!(line.styleref.name == "Default Sec") and dim-40 or 40!)\t(0,300,\alpha&H00&)}
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template all,!retime("syl",0,0)!!relayer(1)!{\an5\k$kdur\pos($x,!(line.styleref.name == "Default Sec") and dim-40 or 40!)\t(0,1,\fscx130\fscy130)\t(0,!($ldur > $end) and $dur or ($dur-300-(cn-ci[2])/cn*300)!,\fscx!130-(($ldur > $end) and 30 or (30/$dur)*($dur-300-(cn-ci[2])/cn*300))!\fscy!130-(($ldur > $end) and 30 or (30/$dur)*($dur-300-(cn-ci[2])/cn*300))!\alpha&H99&)\t(!($ldur > $end) and $dur or $dur-300-(cn-ci[2])/cn*300!,$dur,\fscx100\fscy100\alpha&HFF&)}
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all noblank,!char_counter(2)!!retime("syl2end",($ldur == $end) and (-(cn-ci[2])/cn*300) or 0,-(cn-ci[2])/cn*300)!{\an5\pos($x,!(line.styleref.name == "Default Sec") and dim-40 or 40!)\alpha&H99&\t(!(line.duration > 300) and line.duration-300 or 0!,!(line.duration > 0) and line.duration or 0!,\alpha&HFF&)}
+Dialogue: 0,0:00:00.16,0:00:02.74,Default,,0,0,0,karaoke,{\k19}Seid {\k14}ihr {\k17}das {\k26}Es{\k26}sen? {\k15}Nein, {\k34}wir {\k15}sind {\k16}der {\k35}Jä{\k41}ger!
+Dialogue: 0,0:00:03.19,0:00:08.15,Default,,0,0,0,,ah... ah... ah... ah... ah... attack on titan!
+Dialogue: 0,0:00:08.46,0:00:13.42,Default,,0,0,0,,ah... ah... ah... ah... ah... attack on titan!
+Dialogue: 0,0:00:15.10,0:00:19.90,Default,,0,0,0,karaoke,{\k19}fu{\k31}ma{\k34}re{\k35}ta {\k33}ha{\k31}na {\k18}no{\k33} {\k34}na{\k15}ma{\k31}e {\k34}mo {\k36}shi{\k34}ra{\k33}zu {\k29}ni
+Dialogue: 0,0:00:20.08,0:00:25.17,Default,,0,0,0,karaoke,{\k37}chi {\k15}ni {\k31}o{\k32}chi{\k35}ta {\k35}to{\k33}ri {\k28}wa{\k19} {\k35}ka{\k18}ze {\k33}wo {\k32}ma{\k34}chi{\k33}wa{\k32}bi{\k27}ru
+Dialogue: 0,0:00:25.39,0:00:30.52,Default,,0,0,0,karaoke,{\k35}i{\k18}no{\k33}t{\k33}ta {\k31}to{\k35}ko{\k32}ro {\k30}de{\k20} {\k33}na{\k17}ni {\k32}mo {\k31}ka{\k35}wa{\k33}ra{\k34}na{\k31}i
+Dialogue: 0,0:00:30.69,0:00:35.92,Default,,0,0,0,karaoke,{\k37}i{\k16}ma {\k32}wo {\k35}ka{\k33}e{\k33}ru {\k32}no {\k32}wa{\k19} {\k33}ta{\k16}ta{\k33}ka{\k31}u {\k36}ka{\k33}ku{\k29}go {\k43}da...
+Dialogue: 0,0:00:36.04,0:00:37.98,Default,,0,0,0,karaoke,{\k51}shi{\k15}ka{\k17}ba{\k16}ne {\k17}fu{\k16}mi{\k17}ko{\k15}e{\k30}te
+Dialogue: 0,0:00:38.38,0:00:41.17,Default,,0,0,0,karaoke,{\k23}su{\k9}su{\k30}mu {\k24}i{\k10}shi {\k36}wo {\k22}wa{\k10}ra{\k36}u {\k21}bu{\k8}ta {\k50}yo
+Dialogue: 0,0:00:41.17,0:00:42.63,Default,,0,0,0,karaoke,{\k39}ka{\k9}chi{\k20}ku {\k16}no {\k31}an{\k31}nei
+Dialogue: 0,0:00:42.63,0:00:43.76,Default,,0,0,0,karaoke,{\k25}kyo{\k14}gi {\k16}no {\k31}ha{\k27}nei
+Dialogue: 0,0:00:43.83,0:00:46.64,Default,,0,0,0,karaoke,{\k35}shi{\k16}se{\k16}ru {\k18}ga{\k32}rou {\k17}no {\k17}"ji{\k63}yuu" {\k67}wo!
+Dialogue: 0,0:00:46.64,0:00:51.86,Default,,0,0,0,karaoke,{\k18}to{\k18}ra{\k18}wa{\k32}re{\k16}ta{\k16} {\k32}ku{\k18}tsu{\k18}jo{\k33}ku {\k31}wa{\k18} {\k17}ha{\k16}n{\k17}ge{\k35}ki {\k28}no {\k51}ko{\k19}u{\k32}shi {\k39}da
+Dialogue: 0,0:00:51.97,0:00:57.07,Default,,0,0,0,karaoke,{\k18}jo{\k15}u{\k17}he{\k36}ki {\k30}no {\k35}so{\k16}no {\k19}ka{\k32}na{\k24}ta{\k23} {\k16}e{\k18}mo{\k17}no {\k32}wo {\k17}ho{\k18}ru{\k28}fu {\k54}Jä{\k45}ger
+Dialogue: 0,0:00:57.28,0:01:02.48,Default,,0,0,0,karaoke,{\k17}ho{\k16}to {\k15}ba{\k35}shi{\k34}ru {\k34}sho{\k16}u{\k15}do{\k35}u {\k49}ni {\k16}so{\k18}no {\k17}mi {\k30}wo {\k33}ya{\k53}ki{\k16}na{\k31}ga{\k40}ra
+Dialogue: 0,0:01:02.60,0:01:05.06,Default,,0,0,0,karaoke,{\k16}ta{\k15}so{\k14}ga{\k39}re {\k20}ni{\k16} {\k30}hi {\k15}wo {\k16}u{\k33}ga{\k32}tsu
+Dialogue: 0,0:01:05.09,0:01:09.12,Default,,0,0,0,karaoke,{\k15}gu{\k37}re{\k16}n {\k29}no {\k18}yu{\k17}mi{\k271}ya
 

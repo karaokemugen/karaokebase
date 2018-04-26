@@ -40,30 +40,30 @@ Style: P4Jaune,Typo Round Regular Demo,42,&H0000FFFF,&H00FFFFFF,&H00000000,&H000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0, 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*600,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("start2syl",-1200+ci[2]/cn*600,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(7)!!retime("syl2end",$dur/12,200+(ci[7]/cn*600))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(8)!!retime("syl2end",$dur/12,200+(ci[8]/cn*600))!{\fad(0,150)\bord0\pos($x,$y)}
-Comment: 0,0:00:19.69,0:00:22.23,Default Joli 1,,0,0,5,karaoke,{\k12}na{\k17}ni {\k20}wo {\k18}sa{\k22}ga{\k28}shi{\k34}te {\k35}i{\k34}ru {\k34}no?
-Comment: 0,0:00:22.23,0:00:24.92,Default Joli 1,,0,0,60,karaoke,{\k14}yo{\k17}ku{\k15}bo{\k21}u {\k14}ga {\k34}tsu{\k20}ki {\k32}no {\k38}yo{\k32}u {\k32}ni
-Comment: 0,0:00:24.92,0:00:29.90,Default Joli 1,,0,0,5,karaoke,{\k15}ya{\k37}mi {\k137}wo{\kf48} {\k36}loo{\k12}p {\k56}shi{\k51}te{\k106}ru
-Comment: 0,0:00:30.06,0:00:33.09,Default Joli 1,,0,0,60,karaoke,{\k38}sou {\k23}hi{\k18}bi{\k18}wa{\k15}re{\k36}ta {\k16}ge{\k28}n{\k36}ji{\k36}tsu {\k39}ni
-Comment: 0,0:00:33.09,0:00:37.70,Default Joli 1,,0,0,5,karaoke,{\k12}o{\k13}ki{\k23}za{\k17}ri {\k16}ni {\k36}shi{\k14}te {\k36}ki{\k32}ta {\k36}mo{\k23}no {\k26}su{\k36}be{\kf141}te
-Comment: 0,0:00:37.84,0:00:41.10,Default Joli 1,,0,0,60,karaoke,{\k14}chi{\k16}ka{\k17}ra {\k15}ni {\k17}ka{\k36}e{\k19}te {\k32}yu{\k33}ku {\kf127}yo
-Comment: 0,0:00:41.39,0:00:43.72,Default Joli 1,,0,0,5,karaoke,{\k26}mi{\k40}ju{\k34}ku {\k18}na {\k33}ko{\k17}no {\k33}te {\k32}ni
-Comment: 0,0:00:43.72,0:00:46.74,Default Joli 1,,0,0,60,karaoke,{\k17}a{\k21}fu{\k20}re {\k45}sou {\k50}na {\k24}ri{\k29}so{\k32}u {\k64}ga
-Comment: 0,0:00:46.83,0:00:51.25,Default Joli 1,,0,0,5,karaoke,{\k30}to{\k29}o{\k33}ku {\k22}ka{\k34}ga{\k19}ya{\k32}i{\k35}ta {\k33}a{\kf175}no
-Comment: 0,0:00:51.41,0:00:54.23,Default Joli 1,,0,0,60,karaoke,{\k13}ho{\k14}shi {\k18}wo {\k19}tsu{\k14}ka{\k51}mu {\k19}ma{\kf134}de
-Comment: 0,0:00:54.69,0:00:57.11,Default Joli 1,,0,0,5,karaoke,{\k23}se{\k17}n{\k17}ko{\k21}u {\k15}no {\k35}yu{\k15}me {\k33}ga {\k37}ho{\k29}ra
-Comment: 0,0:00:57.11,0:00:59.86,Default Joli 1,,0,0,60,karaoke,{\k19}ko{\k13}no {\k20}mu{\k35}ne {\k16}ni {\k32}fu{\k29}ri{\k39}so{\k34}so{\k41}gu
-Comment: 0,0:00:59.89,0:01:05.66,Default Joli 1,,0,0,5,karaoke,{\k12}ta{\k14}do{\k16}ri{\k56}tsu{\k19}ke{\k48}ru {\k11}ki{\k56}se{\k19}ki {\k47}wo {\k20}shi{\k29}n{\k22}ji {\k32}na{\k31}ga{\k145}ra
-Comment: 0,0:01:05.66,0:01:08.00,Default Joli 1,,0,0,60,karaoke,{\k11}na{\k15}ri{\k21}ya{\k16}ma{\k17}na{\k35}i {\k15}i{\k31}ta{\k33}mi {\k40}mo
-Comment: 0,0:01:08.00,0:01:11.93,Default Joli 1,,0,0,5,karaoke,{\k15}ka{\k17}ki{\k17}ke{\k33}su {\k19}ho{\k30}do {\k34}ko{\k37}e {\k33}wo {\k30}a{\k37}ge{\k91}te
-Comment: 0,0:01:11.93,0:01:16.97,Default Joli 1,,0,0,60,karaoke,{\k56}a{\k41}su {\k15}wo {\k35}ma{\k34}mo{\kf251}ru {\k21}ka{\k51}ra
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0, 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*600,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("start2syl",-1200+ci[2]/cn*600,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(7)!!retime("syl2end",$dur/12,200+(ci[7]/cn*600))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(8)!!retime("syl2end",$dur/12,200+(ci[8]/cn*600))!{\fad(0,150)\bord0\pos($x,$y)}
+Dialogue: 0,0:00:19.69,0:00:22.23,Default Joli 1,,0,0,5,karaoke,{\k12}na{\k17}ni {\k20}wo {\k18}sa{\k22}ga{\k28}shi{\k34}te {\k35}i{\k34}ru {\k34}no?
+Dialogue: 0,0:00:22.23,0:00:24.92,Default Joli 1,,0,0,60,karaoke,{\k14}yo{\k17}ku{\k15}bo{\k21}u {\k14}ga {\k34}tsu{\k20}ki {\k32}no {\k38}yo{\k32}u {\k32}ni
+Dialogue: 0,0:00:24.92,0:00:29.90,Default Joli 1,,0,0,5,karaoke,{\k15}ya{\k37}mi {\k137}wo{\kf48} {\k36}loo{\k12}p {\k56}shi{\k51}te{\k106}ru
+Dialogue: 0,0:00:30.06,0:00:33.09,Default Joli 1,,0,0,60,karaoke,{\k38}sou {\k23}hi{\k18}bi{\k18}wa{\k15}re{\k36}ta {\k16}ge{\k28}n{\k36}ji{\k36}tsu {\k39}ni
+Dialogue: 0,0:00:33.09,0:00:37.70,Default Joli 1,,0,0,5,karaoke,{\k12}o{\k13}ki{\k23}za{\k17}ri {\k16}ni {\k36}shi{\k14}te {\k36}ki{\k32}ta {\k36}mo{\k23}no {\k26}su{\k36}be{\kf141}te
+Dialogue: 0,0:00:37.84,0:00:41.10,Default Joli 1,,0,0,60,karaoke,{\k14}chi{\k16}ka{\k17}ra {\k15}ni {\k17}ka{\k36}e{\k19}te {\k32}yu{\k33}ku {\kf127}yo
+Dialogue: 0,0:00:41.39,0:00:43.72,Default Joli 1,,0,0,5,karaoke,{\k26}mi{\k40}ju{\k34}ku {\k18}na {\k33}ko{\k17}no {\k33}te {\k32}ni
+Dialogue: 0,0:00:43.72,0:00:46.74,Default Joli 1,,0,0,60,karaoke,{\k17}a{\k21}fu{\k20}re {\k45}sou {\k50}na {\k24}ri{\k29}so{\k32}u {\k64}ga
+Dialogue: 0,0:00:46.83,0:00:51.25,Default Joli 1,,0,0,5,karaoke,{\k30}to{\k29}o{\k33}ku {\k22}ka{\k34}ga{\k19}ya{\k32}i{\k35}ta {\k33}a{\kf175}no
+Dialogue: 0,0:00:51.41,0:00:54.23,Default Joli 1,,0,0,60,karaoke,{\k13}ho{\k14}shi {\k18}wo {\k19}tsu{\k14}ka{\k51}mu {\k19}ma{\kf134}de
+Dialogue: 0,0:00:54.69,0:00:57.11,Default Joli 1,,0,0,5,karaoke,{\k23}se{\k17}n{\k17}ko{\k21}u {\k15}no {\k35}yu{\k15}me {\k33}ga {\k37}ho{\k29}ra
+Dialogue: 0,0:00:57.11,0:00:59.86,Default Joli 1,,0,0,60,karaoke,{\k19}ko{\k13}no {\k20}mu{\k35}ne {\k16}ni {\k32}fu{\k29}ri{\k39}so{\k34}so{\k41}gu
+Dialogue: 0,0:00:59.89,0:01:05.66,Default Joli 1,,0,0,5,karaoke,{\k12}ta{\k14}do{\k16}ri{\k56}tsu{\k19}ke{\k48}ru {\k11}ki{\k56}se{\k19}ki {\k47}wo {\k20}shi{\k29}n{\k22}ji {\k32}na{\k31}ga{\k145}ra
+Dialogue: 0,0:01:05.66,0:01:08.00,Default Joli 1,,0,0,60,karaoke,{\k11}na{\k15}ri{\k21}ya{\k16}ma{\k17}na{\k35}i {\k15}i{\k31}ta{\k33}mi {\k40}mo
+Dialogue: 0,0:01:08.00,0:01:11.93,Default Joli 1,,0,0,5,karaoke,{\k15}ka{\k17}ki{\k17}ke{\k33}su {\k19}ho{\k30}do {\k34}ko{\k37}e {\k33}wo {\k30}a{\k37}ge{\k91}te
+Dialogue: 0,0:01:11.93,0:01:16.97,Default Joli 1,,0,0,60,karaoke,{\k56}a{\k41}su {\k15}wo {\k35}ma{\k34}mo{\kf251}ru {\k21}ka{\k51}ra
 

@@ -31,46 +31,46 @@ Style: Yozora,KG Ray of Sunshine,100,&H00F679C6,&H00FFFFFF,&H007A0A4F,&H00F679C6
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code line all,ci = { 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped:gsub(" ","")); pos = 500
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 0,0:00:00.00,0:00:01.00,Mahiru,,0,0,0,template char,!char_counter(1)!!retime("start2syl",-1000+ci[1]/cn*500,0)!{\alpha&HFF&\an5\1c!line.styleref.color2!\pos(!syl.center+line.left!,!pos+$margin_v!)\t(0,500,\alpha&H00&)}
-Comment: 0,0:00:00.00,0:00:01.00,Mahiru,,0,0,0,template multi,!retime("syl",-1,0)!!relayer(1)!{\an5\k$kdur\pos(!syl.center+line.left!,!pos+$margin_v!)\alpha&HFF&\t(0,1,\alpha&H00&\fscx130\fscy130\1c!line.styleref.color4!)\t(0,$dur,\fscx100\fscy100\1c!line.styleref.color1!)}
-Comment: 0,0:00:00.00,0:00:01.00,Mahiru,,0,0,0,template char,!char_counter(2)!!retime("syl2end",0,300+ci[2]/cn*300)!{\an5\pos(!syl.center+line.left!,!pos+$margin_v!)\t(!$ldur-$send+ci[2]/cn*300!,!$ldur-$send+ci[2]/cn*300+300!,\alpha&HFF&)}
-Comment: 0,0:00:00.00,0:00:01.00,Yozora,,0,0,0,template char,!char_counter(1)!!retime("start2syl",-1000+ci[1]/cn*500,0)!{\alpha&HFF&\an5\1c!line.styleref.color2!\pos(!syl.center+line.left!,!pos+$margin_v!)\t(0,500,\alpha&H00&)}
-Comment: 0,0:00:00.00,0:00:01.00,Yozora,,0,0,0,template multi,!retime("syl",-1,0)!!relayer(1)!{\an5\k$kdur\pos(!syl.center+line.left!,!pos+$margin_v!)\alpha&HFF&\t(0,1,\alpha&H00&\fscx130\fscy130\1c!line.styleref.color4!)\t(0,$dur,\fscx100\fscy100\1c!line.styleref.color1!)}
-Comment: 0,0:00:00.00,0:00:01.00,Yozora,,0,0,0,template char,!char_counter(2)!!retime("syl2end",0,300+ci[2]/cn*300)!{\an5\pos(!syl.center+line.left!,!pos+$margin_v!)\t(!$ldur-$send+ci[2]/cn*300!,!$ldur-$send+ci[2]/cn*300+300!,\alpha&HFF&)}
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char noblank,!char_counter(1)!!retime("start2syl",-1000+ci[1]/cn*500,0)!!restyle((ci[1]%2 == 1) and "Mahiru" or "Yozora")!{\alpha&HFF&\an5\1c!line.styleref.color2!\pos(!syl.center+line.left!,!pos+$margin_v!)\t(0,500,\alpha&H00&)}
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char noblank,!char_counter(3)!!retime("syl",0,0)!!relayer(1)!!restyle((ci[3]%2 == 1) and "Mahiru" or "Yozora")!{\an5\alpha&HFF&\k$kdur\move(!basesyl.center+line.left+(syl.center-basesyl.center)*1.3!,!pos+$margin_v!,!syl.center+line.left!,!pos+$margin_v!,1,$dur)\t(0,1,\alpha&H00&\fscx130\fscy130\1c!line.styleref.color4!)\t(0,$dur,\fscx100\fscy100\1c!line.styleref.color1!)}
-Comment: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char noblank,!char_counter(2)!!retime("syl2end",0,300+ci[2]/cn*300)!!restyle((ci[2]%2 == 1) and "Mahiru" or "Yozora")!{\an5\pos(!syl.center+line.left!,!pos+$margin_v!)\t(!$ldur-$send+ci[2]/cn*300!,!$ldur-$send+ci[2]/cn*300+300!,\alpha&HFF&)}
-Comment: 0,0:00:06.30,0:00:08.91,Yozora,,0,0,0,karaoke,{\k30}ki{\k38}ra{\kf63}ri {\kf57}yo{\k23}zo{\kf50}ra
-Comment: 0,0:00:08.96,0:00:11.18,Yozora,,0,0,130,karaoke,{\k23}to{\k43}ba{\k25}su {\kf47}na{\k29}mi{\kf55}da
-Comment: 0,0:00:11.52,0:00:14.12,Yozora,,0,0,0,karaoke,{\k19}a{\k19}ki {\k35}no {\kf45}se{\k14}i{\kf46}za {\k25}ma{\kf57}de
-Comment: 0,0:00:14.51,0:00:17.25,Yozora,,0,0,130,karaoke,{\k19}ta{\k17}do{\k36}ri{\k36}tsu{\k25}ku {\kf47}ma{\k25}e {\kf69}ni
-Comment: 0,0:00:17.46,0:00:19.64,Yozora,,0,0,0,karaoke,{\k45}mot{\kf173}to
-Comment: 0,0:00:18.56,0:00:21.20,Mahiru,,0,0,130,karaoke,{\k34}DON'T {\k44}CRY{\k21} {\k27}wa{\k49}ra{\k14}i{\k35}at{\k40}te
-Comment: 0,0:00:21.57,0:00:24.17,Yozora,,0,0,0,karaoke,{\k36}gyut{\k42}to{\k14} {\k42}ya{\k29}ki{\k20}tsu{\k39}ke{\k38}ru
-Comment: 0,0:00:24.52,0:00:27.54,Default,,0,0,130,karaoke,{\k33}DON'T {\k45}CRY{\k16} {\k40}ko{\k38}no {\k14}na{\k36}tsu {\kf80}wo
-Comment: 0,0:00:30.54,0:00:32.10,Yozora,,0,0,0,karaoke,{\k30}a{\k43}no {\k18}to{\kf65}ki
-Comment: 0,0:00:32.32,0:00:35.00,Yozora,,0,0,130,karaoke,{\k25}ji{\k12}ka{\k36}n {\k45}ga {\k34}to{\k41}ma{\k19}t{\kf56}te
-Comment: 0,0:00:35.40,0:00:37.74,Mahiru,,0,0,0,karaoke,{\k34}fu{\k38}ta{\kf56}ri {\k17}wa {\k15}ta{\k25}shi{\k16}ka {\k33}ni
-Comment: 0,0:00:38.34,0:00:41.98,Mahiru,,0,0,130,karaoke,{\k35}o{\k33}ta{\k47}ga{\k21}i {\kf50}wo {\k21}mi{\kf52}tsu{\k22}ke{\kf83}ta
-Comment: 0,0:00:42.42,0:00:46.30,Default,,0,0,0,karaoke,{\k31}i{\k47}ma {\k20}ma{\k53}de {\k21}no {\k53}da{\k37}re {\k38}yo{\k19}ri {\kf69}mo
-Comment: 0,0:00:47.27,0:00:51.33,Default,,0,0,130,karaoke,{\k28}to{\k37}ku{\k45}be{\k22}tsu {\k47}na {\k33}ka{\kf52}n{\k22}ke{\k29}i {\k20}da {\k18}yo {\k53}ne
-Comment: 0,0:00:53.24,0:00:56.02,Yozora,,0,0,0,karaoke,{\k39}ku{\k36}ga{\k39}tsu {\k34}ni {\k40}na{\k22}re{\kf68}ba
-Comment: 0,0:00:56.20,0:00:58.79,Yozora,,0,0,130,karaoke,{\k42}to{\k37}o{\k34}ku {\k39}ha{\k39}na{\k19}re{\kf49}te
-Comment: 0,0:00:59.18,0:01:03.31,Yozora,,0,0,0,karaoke,{\k32}chi{\k46}ga{\k34}u {\k23}se{\kf55}i{\k19}fu{\kf59}ku {\k15}wo {\k18}ki{\k21}i{\k24}te{\k11}ru {\kf56}no
-Comment: 0,0:01:05.16,0:01:07.71,Mahiru,,0,0,0,karaoke,{\k32}ko{\k45}ko{\k35}ro {\k18}da{\k51}ke {\k25}na{\k49}ze
-Comment: 0,0:01:07.98,0:01:10.75,Mahiru,,0,0,130,karaoke,{\k52}sa{\k36}ki {\k33}ma{\k25}wa{\k48}ri{\k29}shi{\k54}te
-Comment: 0,0:01:11.12,0:01:13.52,Mahiru,,0,0,0,karaoke,{\k37}mo{\kf203}u
-Comment: 0,0:01:14.02,0:01:17.50,Mahiru,,0,0,130,karaoke,{\k27}se{\k20}tsu{\k28}na{\k48}sa {\k24}ga {\k44}a{\k23}fu{\k56}re{\k33}da{\k45}su
-Comment: 0,0:01:17.82,0:01:20.44,Default,,0,0,0,karaoke,{\k29}ki{\k43}ra{\k59}ri {\kf51}yo{\k21}zo{\kf59}ra
-Comment: 0,0:01:20.44,0:01:22.81,Default,,0,0,130,karaoke,{\k30}to{\k36}ba{\k25}su {\kf55}na{\k21}mi{\kf55}da
-Comment: 0,0:01:23.05,0:01:25.70,Default,,0,0,0,karaoke,{\k18}a{\k23}ki {\k30}no {\k41}se{\k22}i{\kf52}za {\k22}ma{\kf57}de
-Comment: 0,0:01:26.03,0:01:29.43,Default,,0,0,130,karaoke,{\k22}ta{\k25}do{\k28}ri{\k40}tsu{\k19}ku {\k49}ma{\k27}e {\k48}ni {\k16}a{\k66}ah
-Comment: 0,0:01:29.78,0:01:34.68,Yozora,,0,0,0,karaoke,{\k37}fu{\k37}ta{\k54}ri {\kf52}yo{\k25}zo{\kf53}ra {\k40}mi{\kf36}o{\kf26}ku{\kf48}ru {\k20}na{\k30}tsu
-Comment: 0,0:01:34.97,0:01:37.69,Mahiru,,0,0,130,karaoke,{\k21}a{\k21}ta{\k31}ra{\k42}shii {\k18}ba{\kf57}sho {\k22}de{\kf60}mo
-Comment: 0,0:01:37.99,0:01:43.16,Mahiru,,0,0,0,karaoke,{\k19}ki{\k18}mi {\k36}wa {\k35}ki{\k23}mi {\k48}ra{\k23}shi{\k90}ku {\k42}dou{\kf183}ka
-Comment: 0,0:01:42.06,0:01:44.83,Default,,0,0,130,karaoke,{\k21}DON'T {\k57}CRY{\k16} {\k32}wa{\k49}ra{\k14}i{\k29}at{\k59}te
-Comment: 0,0:01:45.03,0:01:47.59,Default,,0,0,0,karaoke,{\k36}chan{\k39}to{\k24} {\k25}i{\k41}e{\k21}ru {\k39}you {\k31}ni
-Comment: 0,0:01:48.00,0:01:50.79,Default,,0,0,130,karaoke,{\k40}DON'T {\k39}CRY {\k16}{\k34}sa{\k41}yo{\k27}na{\k23}ra {\k59}tte
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code line all,ci = { 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped:gsub(" ","")); pos = 500
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 0,0:00:00.00,0:00:01.00,Mahiru,,0,0,0,template char,!char_counter(1)!!retime("start2syl",-1000+ci[1]/cn*500,0)!{\alpha&HFF&\an5\1c!line.styleref.color2!\pos(!syl.center+line.left!,!pos+$margin_v!)\t(0,500,\alpha&H00&)}
+Dialogue: 0,0:00:00.00,0:00:01.00,Mahiru,,0,0,0,template multi,!retime("syl",-1,0)!!relayer(1)!{\an5\k$kdur\pos(!syl.center+line.left!,!pos+$margin_v!)\alpha&HFF&\t(0,1,\alpha&H00&\fscx130\fscy130\1c!line.styleref.color4!)\t(0,$dur,\fscx100\fscy100\1c!line.styleref.color1!)}
+Dialogue: 0,0:00:00.00,0:00:01.00,Mahiru,,0,0,0,template char,!char_counter(2)!!retime("syl2end",0,300+ci[2]/cn*300)!{\an5\pos(!syl.center+line.left!,!pos+$margin_v!)\t(!$ldur-$send+ci[2]/cn*300!,!$ldur-$send+ci[2]/cn*300+300!,\alpha&HFF&)}
+Dialogue: 0,0:00:00.00,0:00:01.00,Yozora,,0,0,0,template char,!char_counter(1)!!retime("start2syl",-1000+ci[1]/cn*500,0)!{\alpha&HFF&\an5\1c!line.styleref.color2!\pos(!syl.center+line.left!,!pos+$margin_v!)\t(0,500,\alpha&H00&)}
+Dialogue: 0,0:00:00.00,0:00:01.00,Yozora,,0,0,0,template multi,!retime("syl",-1,0)!!relayer(1)!{\an5\k$kdur\pos(!syl.center+line.left!,!pos+$margin_v!)\alpha&HFF&\t(0,1,\alpha&H00&\fscx130\fscy130\1c!line.styleref.color4!)\t(0,$dur,\fscx100\fscy100\1c!line.styleref.color1!)}
+Dialogue: 0,0:00:00.00,0:00:01.00,Yozora,,0,0,0,template char,!char_counter(2)!!retime("syl2end",0,300+ci[2]/cn*300)!{\an5\pos(!syl.center+line.left!,!pos+$margin_v!)\t(!$ldur-$send+ci[2]/cn*300!,!$ldur-$send+ci[2]/cn*300+300!,\alpha&HFF&)}
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char noblank,!char_counter(1)!!retime("start2syl",-1000+ci[1]/cn*500,0)!!restyle((ci[1]%2 == 1) and "Mahiru" or "Yozora")!{\alpha&HFF&\an5\1c!line.styleref.color2!\pos(!syl.center+line.left!,!pos+$margin_v!)\t(0,500,\alpha&H00&)}
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char noblank,!char_counter(3)!!retime("syl",0,0)!!relayer(1)!!restyle((ci[3]%2 == 1) and "Mahiru" or "Yozora")!{\an5\alpha&HFF&\k$kdur\move(!basesyl.center+line.left+(syl.center-basesyl.center)*1.3!,!pos+$margin_v!,!syl.center+line.left!,!pos+$margin_v!,1,$dur)\t(0,1,\alpha&H00&\fscx130\fscy130\1c!line.styleref.color4!)\t(0,$dur,\fscx100\fscy100\1c!line.styleref.color1!)}
+Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char noblank,!char_counter(2)!!retime("syl2end",0,300+ci[2]/cn*300)!!restyle((ci[2]%2 == 1) and "Mahiru" or "Yozora")!{\an5\pos(!syl.center+line.left!,!pos+$margin_v!)\t(!$ldur-$send+ci[2]/cn*300!,!$ldur-$send+ci[2]/cn*300+300!,\alpha&HFF&)}
+Dialogue: 0,0:00:06.30,0:00:08.91,Yozora,,0,0,0,karaoke,{\k30}ki{\k38}ra{\kf63}ri {\kf57}yo{\k23}zo{\kf50}ra
+Dialogue: 0,0:00:08.96,0:00:11.18,Yozora,,0,0,130,karaoke,{\k23}to{\k43}ba{\k25}su {\kf47}na{\k29}mi{\kf55}da
+Dialogue: 0,0:00:11.52,0:00:14.12,Yozora,,0,0,0,karaoke,{\k19}a{\k19}ki {\k35}no {\kf45}se{\k14}i{\kf46}za {\k25}ma{\kf57}de
+Dialogue: 0,0:00:14.51,0:00:17.25,Yozora,,0,0,130,karaoke,{\k19}ta{\k17}do{\k36}ri{\k36}tsu{\k25}ku {\kf47}ma{\k25}e {\kf69}ni
+Dialogue: 0,0:00:17.46,0:00:19.64,Yozora,,0,0,0,karaoke,{\k45}mot{\kf173}to
+Dialogue: 0,0:00:18.56,0:00:21.20,Mahiru,,0,0,130,karaoke,{\k34}DON'T {\k44}CRY{\k21} {\k27}wa{\k49}ra{\k14}i{\k35}at{\k40}te
+Dialogue: 0,0:00:21.57,0:00:24.17,Yozora,,0,0,0,karaoke,{\k36}gyut{\k42}to{\k14} {\k42}ya{\k29}ki{\k20}tsu{\k39}ke{\k38}ru
+Dialogue: 0,0:00:24.52,0:00:27.54,Default,,0,0,130,karaoke,{\k33}DON'T {\k45}CRY{\k16} {\k40}ko{\k38}no {\k14}na{\k36}tsu {\kf80}wo
+Dialogue: 0,0:00:30.54,0:00:32.10,Yozora,,0,0,0,karaoke,{\k30}a{\k43}no {\k18}to{\kf65}ki
+Dialogue: 0,0:00:32.32,0:00:35.00,Yozora,,0,0,130,karaoke,{\k25}ji{\k12}ka{\k36}n {\k45}ga {\k34}to{\k41}ma{\k19}t{\kf56}te
+Dialogue: 0,0:00:35.40,0:00:37.74,Mahiru,,0,0,0,karaoke,{\k34}fu{\k38}ta{\kf56}ri {\k17}wa {\k15}ta{\k25}shi{\k16}ka {\k33}ni
+Dialogue: 0,0:00:38.34,0:00:41.98,Mahiru,,0,0,130,karaoke,{\k35}o{\k33}ta{\k47}ga{\k21}i {\kf50}wo {\k21}mi{\kf52}tsu{\k22}ke{\kf83}ta
+Dialogue: 0,0:00:42.42,0:00:46.30,Default,,0,0,0,karaoke,{\k31}i{\k47}ma {\k20}ma{\k53}de {\k21}no {\k53}da{\k37}re {\k38}yo{\k19}ri {\kf69}mo
+Dialogue: 0,0:00:47.27,0:00:51.33,Default,,0,0,130,karaoke,{\k28}to{\k37}ku{\k45}be{\k22}tsu {\k47}na {\k33}ka{\kf52}n{\k22}ke{\k29}i {\k20}da {\k18}yo {\k53}ne
+Dialogue: 0,0:00:53.24,0:00:56.02,Yozora,,0,0,0,karaoke,{\k39}ku{\k36}ga{\k39}tsu {\k34}ni {\k40}na{\k22}re{\kf68}ba
+Dialogue: 0,0:00:56.20,0:00:58.79,Yozora,,0,0,130,karaoke,{\k42}to{\k37}o{\k34}ku {\k39}ha{\k39}na{\k19}re{\kf49}te
+Dialogue: 0,0:00:59.18,0:01:03.31,Yozora,,0,0,0,karaoke,{\k32}chi{\k46}ga{\k34}u {\k23}se{\kf55}i{\k19}fu{\kf59}ku {\k15}wo {\k18}ki{\k21}i{\k24}te{\k11}ru {\kf56}no
+Dialogue: 0,0:01:05.16,0:01:07.71,Mahiru,,0,0,0,karaoke,{\k32}ko{\k45}ko{\k35}ro {\k18}da{\k51}ke {\k25}na{\k49}ze
+Dialogue: 0,0:01:07.98,0:01:10.75,Mahiru,,0,0,130,karaoke,{\k52}sa{\k36}ki {\k33}ma{\k25}wa{\k48}ri{\k29}shi{\k54}te
+Dialogue: 0,0:01:11.12,0:01:13.52,Mahiru,,0,0,0,karaoke,{\k37}mo{\kf203}u
+Dialogue: 0,0:01:14.02,0:01:17.50,Mahiru,,0,0,130,karaoke,{\k27}se{\k20}tsu{\k28}na{\k48}sa {\k24}ga {\k44}a{\k23}fu{\k56}re{\k33}da{\k45}su
+Dialogue: 0,0:01:17.82,0:01:20.44,Default,,0,0,0,karaoke,{\k29}ki{\k43}ra{\k59}ri {\kf51}yo{\k21}zo{\kf59}ra
+Dialogue: 0,0:01:20.44,0:01:22.81,Default,,0,0,130,karaoke,{\k30}to{\k36}ba{\k25}su {\kf55}na{\k21}mi{\kf55}da
+Dialogue: 0,0:01:23.05,0:01:25.70,Default,,0,0,0,karaoke,{\k18}a{\k23}ki {\k30}no {\k41}se{\k22}i{\kf52}za {\k22}ma{\kf57}de
+Dialogue: 0,0:01:26.03,0:01:29.43,Default,,0,0,130,karaoke,{\k22}ta{\k25}do{\k28}ri{\k40}tsu{\k19}ku {\k49}ma{\k27}e {\k48}ni {\k16}a{\k66}ah
+Dialogue: 0,0:01:29.78,0:01:34.68,Yozora,,0,0,0,karaoke,{\k37}fu{\k37}ta{\k54}ri {\kf52}yo{\k25}zo{\kf53}ra {\k40}mi{\kf36}o{\kf26}ku{\kf48}ru {\k20}na{\k30}tsu
+Dialogue: 0,0:01:34.97,0:01:37.69,Mahiru,,0,0,130,karaoke,{\k21}a{\k21}ta{\k31}ra{\k42}shii {\k18}ba{\kf57}sho {\k22}de{\kf60}mo
+Dialogue: 0,0:01:37.99,0:01:43.16,Mahiru,,0,0,0,karaoke,{\k19}ki{\k18}mi {\k36}wa {\k35}ki{\k23}mi {\k48}ra{\k23}shi{\k90}ku {\k42}dou{\kf183}ka
+Dialogue: 0,0:01:42.06,0:01:44.83,Default,,0,0,130,karaoke,{\k21}DON'T {\k57}CRY{\k16} {\k32}wa{\k49}ra{\k14}i{\k29}at{\k59}te
+Dialogue: 0,0:01:45.03,0:01:47.59,Default,,0,0,0,karaoke,{\k36}chan{\k39}to{\k24} {\k25}i{\k41}e{\k21}ru {\k39}you {\k31}ni
+Dialogue: 0,0:01:48.00,0:01:50.79,Default,,0,0,130,karaoke,{\k40}DON'T {\k39}CRY {\k16}{\k34}sa{\k41}yo{\k27}na{\k23}ra {\k59}tte
 

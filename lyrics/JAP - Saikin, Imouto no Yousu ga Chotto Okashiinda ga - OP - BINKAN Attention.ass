@@ -27,38 +27,38 @@ Style: Binkan 2,Odin Rounded,45,&H008B21F0,&H00FFFFFF,&H00000000,&H00000000,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Binkan,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Comment: 0,0:00:00.00,0:00:00.00,Binkan,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 0,0:00:00.00,0:00:00.00,Binkan,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,0)!{\fad(200,0)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Binkan,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1300+ci[1]/cn*200,0)!{\fad(300,0)\3a&HFF&\c!line.styleref.color2!\pos(!syl.center+line.left!,$y)}
-Comment: 0,0:00:00.00,0:00:00.00,Binkan,,0,0,0,template char all,!retime("syl",0,-$dur/4)!{\c!line.styleref.color2!\t(0,100,\c!line.styleref.color1!)\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,80)}
-Comment: 0,0:00:00.00,0:00:00.00,Binkan,,0,0,0,template char all,!retime("postsyl",-$dur/4,$dur/12)!{\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
-Comment: 0,0:00:00.00,0:00:00.00,Binkan,,0,0,0,template char all,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]*200/cn))!{\fad(0,300)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)\t($end,$end,\1c&HFF&)}
-Comment: 1,0:00:00.00,0:00:00.00,Binkan,,0,0,0,template char all,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]*200/cn))!{\fad(0,300)\3a&HFF&\pos(!syl.center+line.left!,$y)}
-Comment: 0,0:00:00.76,0:00:04.33,Binkan,,0,0,0,karaoke,{\k15}BI{\k17}N{\k17}KA{\k19}N {\k31}ni {\k19}At{\k18}te{\k16}n{\k18}tio{\k16}n{\k86} {\k17}ki{\k17}zu{\k18}i{\k17}te {\k16}yo
-Comment: 0,0:00:06.24,0:00:11.17,Binkan,,0,0,0,karaoke,{\k16}BI{\k15}N{\k19}KA{\k18}N {\k35}ni {\k16}So{\k18}lu{\k16}ti{\k18}o{\k16}n{\k88} {\k14}ji{\k19}wa {\k16}ji{\k17}wa {\k17}kit{\k17}te{\k118}ru
-Comment: 0,0:00:22.50,0:00:24.56,Binkan,,0,0,0,karaoke,{\k15}Ko{\k20}ko{\k18}ro {\k34}a{\k35}net{\k34}tai {\k35}chuu{\k15}i
-Comment: 0,0:00:24.91,0:00:29.02,Binkan,,0,0,70,karaoke,{\k16}U{\k36}ki{\k16}u{\k18}ki {\k36}na{\k15}mi{\k17}da {\k34}yo{\k35}hou {\k35}shi {\k33}Tell {\k120}Me
-Comment: 0,0:00:28.17,0:00:30.05,Binkan 2,,0,0,0,karaoke,{\k17}Ku{\k18}mo{\k17}yu{\k17}ki {\k33}wa {\k17}na{\k18}ri{\k17}yu{\k15}ki {\k19}wa
-Comment: 0,0:00:30.05,0:00:31.93,Binkan,,0,0,0,karaoke,{\k18}A{\k16}ta{\k18}shi {\k33}ten{\k19}ki {\k16}ni {\k35}naa{\k33}re
-Comment: 0,0:00:30.89,0:00:32.80,Binkan 2,,0,0,65,karaoke,{\k18}Ten{\k19}ki {\k21}ma{\k15}ka{\k32}se {\k17}un{\k18}mu {\k17}ma{\k17}ka{\k17}se
-Comment: 0,0:00:32.95,0:00:35.68,Binkan,,0,0,70,karaoke,{\k19}Ki{\k17}mi {\k36}wa {\k31}on{\k35}dan{\k18}ka {\k19}no {\k33}o{\k16}n{\k20}sho{\k29}u
-Comment: 0,0:00:35.87,0:00:39.81,Binkan,,0,0,0,karaoke,{\k19}HE{\k34}AR{\k17}T {\k18}wa {\k33}mon{\k17}da{\k18}i {\k35}wo {\k17}sa{\k17}ke{\k34}bu{\k34}n{\k101}da
-Comment: 0,0:00:39.12,0:00:41.03,Binkan 2,,0,0,0,karaoke,{\k19}Tsu{\k18}ki{\k17}a{\k17}t{\k35}te {\k16}mu{\k17}ki{\k17}a{\k17}t{\k18}te
-Comment: 0,0:00:41.03,0:00:43.98,Binkan,,0,0,70,karaoke,{\k16}Se{\k17}ki{\k18}ni{\k86}n {\k52}tot{\k67}te {\k17}yo {\k22}ne
-Comment: 0,0:00:41.88,0:00:42.73,Binkan 2,,0,0,65,karaoke,{\k17}Ku{\k18}re{\k16}ru {\k18}de{\k16}shou?
-Comment: 0,0:00:44.44,0:00:46.71,Binkan,,0,0,0,karaoke,{\k21}Kyu{\k14}n {\k22}to {\k30}su{\k17}ru {\k18}no {\k105}wa
-Comment: 0,0:00:47.19,0:00:49.11,Binkan,,0,0,70,karaoke,{\k17}Da{\k19}re {\k18}no {\k32}se{\k18}i {\k17}na {\k71}no
-Comment: 0,0:00:49.42,0:00:52.21,Binkan,,0,0,0,karaoke,{\k17}E{\k17}i{\k34}kyo{\k18}u {\k20}wa {\k31}mou{\k53} {\k19}ji{\k15}n{\k19}da{\k36}i
-Comment: 0,0:00:52.86,0:00:55.45,Binkan,,0,0,70,karaoke,{\k17}Mo{\k18}do{\k34}re{\k16}na{\k19}i {\k36}to {\k13}shi{\k18}t{\k34}te{\k17}i{\k18}te{\k19}mo
-Comment: 0,0:00:55.60,0:00:57.66,Binkan,,0,0,0,karaoke,{\k16}Se{\k18}me{\k17}te {\k17}mo{\k35}no {\k17}wa{\k17}ru{\k17}a{\k16}ga{\k36}ki?
-Comment: 0,0:00:57.66,0:00:58.16,Binkan 2,,0,0,0,karaoke,{\k17}Shi{\k18}cha{\k15}u
-Comment: 0,0:00:58.35,0:01:00.83,Binkan,,0,0,70,karaoke,{\k16}So{\k16}c{\k18}chi {\k18}ka{\k34}ra {\k17}fu{\k18}ri{\k16}mu{\k17}i{\k78}te
-Comment: 0,0:01:01.25,0:01:06.08,Binkan,,0,0,0,karaoke,{\k34}Mu{\k36}ne {\k33}no {\k51}o{\k18}ku {\k50}ga {\k19}ki{\k34}mi {\k17}wo {\k35}e{\k16}ra{\k19}bu {\k121}no
-Comment: 0,0:01:06.73,0:01:11.71,Binkan,,0,0,70,karaoke,{\k35}BI{\k33}N{\k36}KA{\k51}N {\k17}ni {\k50}ne {\k19}ki{\k34}mi {\k17}wo {\k36}kan{\k16}ji{\k19}te{\k135}ru
-Comment: 0,0:01:12.40,0:01:18.63,Binkan,,0,0,0,karaoke,{\k17}O{\k16}n{\k18}na{\k17}no{\k17}ko {\k51}no{\k37} {\k15}hi{\k19}mi{\k66}tsu {\k18}ma{\k18}da {\k16}ho{\k17}n{\k18}to {\k51}wa{\k34} {\k18}o{\k17}shi{\k17}e{\k29}ta{\k24}ku{\k15}na{\k19}i {\k15}no {\k24}ni
-Comment: 0,0:01:18.90,0:01:21.28,Binkan,,0,0,70,karaoke,{\k18}Ha{\k17}n{\k17}no{\k19}u {\k35}no {\k15}ha{\k16}n{\k17}ke{\k20}i {\k64}wa
-Comment: 0,0:01:20.79,0:01:21.48,Binkan 2,,0,0,0,karaoke,{\k18}Do{\k17}ki {\k17}do{\k17}ki
-Comment: 0,0:01:21.65,0:01:25.25,Binkan,,0,0,0,karaoke,{\k17}Ka{\k18}gi{\k17}ri{\k17}na{\k35}ku {\k51}ze{\k30}ro {\k22}chi{\k33}ten {\k120}e
-Comment: 0,0:01:25.59,0:01:27.11,Binkan,,0,0,70,karaoke,{\k34}At{\k34}te{\k34}n{\k19}tio{\k31}n
+Dialogue: 0,0:00:00.00,0:00:00.00,Binkan,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
+Dialogue: 0,0:00:00.00,0:00:00.00,Binkan,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 0,0:00:00.00,0:00:00.00,Binkan,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,0)!{\fad(200,0)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Binkan,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1300+ci[1]/cn*200,0)!{\fad(300,0)\3a&HFF&\c!line.styleref.color2!\pos(!syl.center+line.left!,$y)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Binkan,,0,0,0,template char all,!retime("syl",0,-$dur/4)!{\c!line.styleref.color2!\t(0,100,\c!line.styleref.color1!)\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,80)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Binkan,,0,0,0,template char all,!retime("postsyl",-$dur/4,$dur/12)!{\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
+Dialogue: 0,0:00:00.00,0:00:00.00,Binkan,,0,0,0,template char all,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]*200/cn))!{\fad(0,300)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)\t($end,$end,\1c&HFF&)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Binkan,,0,0,0,template char all,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]*200/cn))!{\fad(0,300)\3a&HFF&\pos(!syl.center+line.left!,$y)}
+Dialogue: 0,0:00:00.76,0:00:04.33,Binkan,,0,0,0,karaoke,{\k15}BI{\k17}N{\k17}KA{\k19}N {\k31}ni {\k19}At{\k18}te{\k16}n{\k18}tio{\k16}n{\k86} {\k17}ki{\k17}zu{\k18}i{\k17}te {\k16}yo
+Dialogue: 0,0:00:06.24,0:00:11.17,Binkan,,0,0,0,karaoke,{\k16}BI{\k15}N{\k19}KA{\k18}N {\k35}ni {\k16}So{\k18}lu{\k16}ti{\k18}o{\k16}n{\k88} {\k14}ji{\k19}wa {\k16}ji{\k17}wa {\k17}kit{\k17}te{\k118}ru
+Dialogue: 0,0:00:22.50,0:00:24.56,Binkan,,0,0,0,karaoke,{\k15}Ko{\k20}ko{\k18}ro {\k34}a{\k35}net{\k34}tai {\k35}chuu{\k15}i
+Dialogue: 0,0:00:24.91,0:00:29.02,Binkan,,0,0,70,karaoke,{\k16}U{\k36}ki{\k16}u{\k18}ki {\k36}na{\k15}mi{\k17}da {\k34}yo{\k35}hou {\k35}shi {\k33}Tell {\k120}Me
+Dialogue: 0,0:00:28.17,0:00:30.05,Binkan 2,,0,0,0,karaoke,{\k17}Ku{\k18}mo{\k17}yu{\k17}ki {\k33}wa {\k17}na{\k18}ri{\k17}yu{\k15}ki {\k19}wa
+Dialogue: 0,0:00:30.05,0:00:31.93,Binkan,,0,0,0,karaoke,{\k18}A{\k16}ta{\k18}shi {\k33}ten{\k19}ki {\k16}ni {\k35}naa{\k33}re
+Dialogue: 0,0:00:30.89,0:00:32.80,Binkan 2,,0,0,65,karaoke,{\k18}Ten{\k19}ki {\k21}ma{\k15}ka{\k32}se {\k17}un{\k18}mu {\k17}ma{\k17}ka{\k17}se
+Dialogue: 0,0:00:32.95,0:00:35.68,Binkan,,0,0,70,karaoke,{\k19}Ki{\k17}mi {\k36}wa {\k31}on{\k35}dan{\k18}ka {\k19}no {\k33}o{\k16}n{\k20}sho{\k29}u
+Dialogue: 0,0:00:35.87,0:00:39.81,Binkan,,0,0,0,karaoke,{\k19}HE{\k34}AR{\k17}T {\k18}wa {\k33}mon{\k17}da{\k18}i {\k35}wo {\k17}sa{\k17}ke{\k34}bu{\k34}n{\k101}da
+Dialogue: 0,0:00:39.12,0:00:41.03,Binkan 2,,0,0,0,karaoke,{\k19}Tsu{\k18}ki{\k17}a{\k17}t{\k35}te {\k16}mu{\k17}ki{\k17}a{\k17}t{\k18}te
+Dialogue: 0,0:00:41.03,0:00:43.98,Binkan,,0,0,70,karaoke,{\k16}Se{\k17}ki{\k18}ni{\k86}n {\k52}tot{\k67}te {\k17}yo {\k22}ne
+Dialogue: 0,0:00:41.88,0:00:42.73,Binkan 2,,0,0,65,karaoke,{\k17}Ku{\k18}re{\k16}ru {\k18}de{\k16}shou?
+Dialogue: 0,0:00:44.44,0:00:46.71,Binkan,,0,0,0,karaoke,{\k21}Kyu{\k14}n {\k22}to {\k30}su{\k17}ru {\k18}no {\k105}wa
+Dialogue: 0,0:00:47.19,0:00:49.11,Binkan,,0,0,70,karaoke,{\k17}Da{\k19}re {\k18}no {\k32}se{\k18}i {\k17}na {\k71}no
+Dialogue: 0,0:00:49.42,0:00:52.21,Binkan,,0,0,0,karaoke,{\k17}E{\k17}i{\k34}kyo{\k18}u {\k20}wa {\k31}mou{\k53} {\k19}ji{\k15}n{\k19}da{\k36}i
+Dialogue: 0,0:00:52.86,0:00:55.45,Binkan,,0,0,70,karaoke,{\k17}Mo{\k18}do{\k34}re{\k16}na{\k19}i {\k36}to {\k13}shi{\k18}t{\k34}te{\k17}i{\k18}te{\k19}mo
+Dialogue: 0,0:00:55.60,0:00:57.66,Binkan,,0,0,0,karaoke,{\k16}Se{\k18}me{\k17}te {\k17}mo{\k35}no {\k17}wa{\k17}ru{\k17}a{\k16}ga{\k36}ki?
+Dialogue: 0,0:00:57.66,0:00:58.16,Binkan 2,,0,0,0,karaoke,{\k17}Shi{\k18}cha{\k15}u
+Dialogue: 0,0:00:58.35,0:01:00.83,Binkan,,0,0,70,karaoke,{\k16}So{\k16}c{\k18}chi {\k18}ka{\k34}ra {\k17}fu{\k18}ri{\k16}mu{\k17}i{\k78}te
+Dialogue: 0,0:01:01.25,0:01:06.08,Binkan,,0,0,0,karaoke,{\k34}Mu{\k36}ne {\k33}no {\k51}o{\k18}ku {\k50}ga {\k19}ki{\k34}mi {\k17}wo {\k35}e{\k16}ra{\k19}bu {\k121}no
+Dialogue: 0,0:01:06.73,0:01:11.71,Binkan,,0,0,70,karaoke,{\k35}BI{\k33}N{\k36}KA{\k51}N {\k17}ni {\k50}ne {\k19}ki{\k34}mi {\k17}wo {\k36}kan{\k16}ji{\k19}te{\k135}ru
+Dialogue: 0,0:01:12.40,0:01:18.63,Binkan,,0,0,0,karaoke,{\k17}O{\k16}n{\k18}na{\k17}no{\k17}ko {\k51}no{\k37} {\k15}hi{\k19}mi{\k66}tsu {\k18}ma{\k18}da {\k16}ho{\k17}n{\k18}to {\k51}wa{\k34} {\k18}o{\k17}shi{\k17}e{\k29}ta{\k24}ku{\k15}na{\k19}i {\k15}no {\k24}ni
+Dialogue: 0,0:01:18.90,0:01:21.28,Binkan,,0,0,70,karaoke,{\k18}Ha{\k17}n{\k17}no{\k19}u {\k35}no {\k15}ha{\k16}n{\k17}ke{\k20}i {\k64}wa
+Dialogue: 0,0:01:20.79,0:01:21.48,Binkan 2,,0,0,0,karaoke,{\k18}Do{\k17}ki {\k17}do{\k17}ki
+Dialogue: 0,0:01:21.65,0:01:25.25,Binkan,,0,0,0,karaoke,{\k17}Ka{\k18}gi{\k17}ri{\k17}na{\k35}ku {\k51}ze{\k30}ro {\k22}chi{\k33}ten {\k120}e
+Dialogue: 0,0:01:25.59,0:01:27.11,Binkan,,0,0,70,karaoke,{\k34}At{\k34}te{\k34}n{\k19}tio{\k31}n
 

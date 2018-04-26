@@ -35,90 +35,90 @@ Style: Side Miki,Hand Of Sean (Demo),28,&H00FFFFFF,&H0024FDE1,&H00000000,&H00000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0, 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*600,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("start2syl",-1200+ci[2]/cn*600,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/10)!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/10)!,0,!$dur/3!)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/10)!,$x,!$y!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/10)!,$x,!$y!,0,!$dur/3!)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(7)!!retime("syl2end",$dur/12,200+(ci[7]/cn*600))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(8)!!retime("syl2end",$dur/12,200+(ci[8]/cn*600))!{\fad(0,150)\bord0\pos($x,$y)}
-Comment: 0,0:00:02.24,0:00:05.38,Main Yukiho,,0,0,0,karaoke,{\k33}Ki{\k12}mi {\k19}ga {\k20}ku{\k22}ri{\k22}ka{\k14}e{\k21}shi {\k28}o{\k17}to{\k26}na {\k21}ni {\k43}nat{\k16}te
-Comment: 0,0:00:05.67,0:00:08.86,Main Yukiho,,0,0,50,karaoke,{\k43}Nan{\k17}do{\k25}mo {\k41}nan{\k21}do{\k17}mo {\k28}to{\k24}o{\k17}ku {\k24}e {\k41}it{\k21}te
-Comment: 0,0:00:09.07,0:00:12.35,Main Yukiho,,0,0,0,karaoke,{\k25}Mi{\k18}ma{\k23}mo{\k21}ru {\k20}bo{\k20}ku {\k22}ga {\k21}ne{\k19}mu{\k23}re{\k21}na{\k23}i {\k40}bo{\k16}ku {\k16}ga
-Comment: 0,0:00:12.47,0:00:18.17,Main Yukiho,,0,0,50,karaoke,{\k36}Ku{\k48}shya {\k20}ku{\k18}shya {\k25}ni{\k25} {\k42}nat{\k18}ta {\k13}to {\k13}sh'{\k32}te{\k280}mo
-Comment: 0,0:00:18.83,0:00:21.57,Main Yukiho,,0,0,0,karaoke,{\k43}Oh {\k44}o{\k24}oh {\k42}o{\k43}oh {\k78}oh
-Comment: 0,0:00:21.69,0:00:25.00,Main Yukiho,,0,0,50,karaoke,{\k46}Oh {\k17}o{\k28}oh {\k22}o{\k218}oh
-Comment: 0,0:00:25.80,0:00:31.53,Main Yukiho,,0,0,0,karaoke,{\k48}Ki{\k40}mi {\k24}no {\k21}na {\k17}wo {\k27}u{\k36}ta{\k24}u {\k24}ta{\k45}me {\k267}ni
-Comment: 0,0:00:47.28,0:00:56.18,Main Yukiho,,0,0,0,karaoke,{\k77}Ge{\k29}ne{\k131}sis{\k227} {\k96}of {\k77}A{\k46}qua{\k31}ri{\k176}on
-Comment: 0,0:00:46.80,0:00:53.05,Side Chihaya,,0,0,0,karaoke,{\k126}Ge{\k28}ne{\k106}sis{\k45} {\k18}of {\k26}A{\k126}qua{\k22}ri{\k128}on
-Comment: 0,0:00:49.32,0:00:50.24,Side Ritsuko,,0,0,33,karaoke,{\k24}Ge{\k22}ne{\k46}sis
-Comment: 0,0:00:53.64,0:00:59.75,Side Chihaya,,0,0,0,karaoke,{\k130}Ge{\k24}ne{\k105}sis{\k38} {\k20}of {\k26}A{\k125}qua{\k18}ri{\k125}on
-Comment: 0,0:01:00.02,0:01:02.80,Main Yukiho,,0,0,0,karaoke,{\k20}I {\k20}re{\k46}mem{\k15}ber {\k45}sit{\k27}ting {\k43}with {\k62}you
-Comment: 0,0:01:02.14,0:01:05.15,Side Chihaya,,0,0,0,karaoke,{\k39}Sit{\k30}ting {\k62}there {\k46}with {\k124}you
-Comment: 0,0:01:03.35,0:01:06.30,Main Yukiho,,0,0,50,karaoke,{\k29}Un{\k27}der{\k45}neath {\k18}the {\k68}tree {\k41}of {\k67}life
-Comment: 0,0:01:05.46,0:01:10.01,Side Chihaya,,0,0,33,karaoke,{\k18}Be{\k44}neath {\k16}the {\k68}tree {\k41}of {\k268}life
-Comment: 0,0:01:07.04,0:01:09.92,Main Yukiho,,0,0,0,karaoke,{\k27}We {\k27}lis{\k16}tened {\k23}to {\k48}e{\k43}very {\k39}fain{\k15}ted {\k50}cry
-Comment: 0,0:01:10.26,0:01:11.90,Main Yukiho,,0,0,50,karaoke,{\k26}Of {\k19}the {\k23}crea{\k48}tures {\k48}there
-Comment: 0,0:01:11.98,0:01:13.52,Main Yukiho,,0,0,0,karaoke,{\k23}On {\k18}the {\k35}day {\k12}the {\k24}world {\k19}be{\k23}gan
-Comment: 0,0:01:10.70,0:01:13.91,Side Chihaya,,0,0,33,karaoke,{\k169}U{\k90}a{\k62}ah!
-Comment: 0,0:01:13.53,0:01:16.45,Main Yukiho,,0,0,50,karaoke,{\k18}Loo{\k20}king {\k22}at {\k41}e{\k24}very{\k40}thing {\k20}that {\k40}I've {\k67}lost
-Comment: 0,0:01:15.78,0:01:18.43,Side Miki,,0,0,0,karaoke,{\k46}E{\k23}very{\k59}thing {\k43}I've {\k94}lost
-Comment: 0,0:01:16.90,0:01:19.61,Main Yukiho,,0,0,0,karaoke,{\k18}And {\k19}al{\k22}most {\k36}e{\k28}very{\k38}thing {\k21}that {\k40}I've {\k49}loved
-Comment: 0,0:01:19.11,0:01:20.77,Side Miki,,0,0,33,karaoke,{\k64}E{\k62}very{\k40}thing
-Comment: 0,0:01:20.42,0:01:23.39,Main Yukiho,,0,0,50,karaoke,{\k33}I'll {\k31}hold {\k19}them {\k16}all {\k48}tight{\k43}ly {\k38}in {\k20}my {\k49}arms
-Comment: 0,0:01:20.81,0:01:23.58,Side Chihaya,,0,0,0,karaoke,{\k83}In {\k85}my {\k109}arms
-Comment: 0,0:01:23.73,0:01:25.42,Main Yukiho,,0,0,0,karaoke,{\k22}Won{\k20}de{\k25}ring {\k16}where {\k23}I {\k63}am
-Comment: 0,0:01:25.58,0:01:27.18,Main Yukiho,,0,0,50,karaoke,{\k21}So {\k23}please {\k21}tell {\k23}me {\k28}where {\k15}to {\k29}go
-Comment: 0,0:01:25.79,0:01:26.23,Side Chihaya,,0,0,0,karaoke,{\k44}Please
-Comment: 0,0:01:27.47,0:01:31.53,Main Yukiho,,0,0,0,karaoke,{\k43}All {\k18}of {\k18}the {\k40}an{\k25}swers {\k20}you {\k40}seek {\k40}lie {\k23}hid{\k24}den {\k23}in {\k13}the {\k79}sun
-Comment: 0,0:01:27.47,0:01:29.60,Side Chihaya,,0,0,33,karaoke,{\k43}All {\k18}of {\k18}the {\k40}an{\k25}swers {\k20}you {\k49}seek
-Comment: 0,0:01:30.78,0:01:34.11,Side Chihaya,,0,0,0,karaoke,{\k44}Ta{\k43}{\k86}i{\k41}yo{\k39}{\k80}u
-Comment: 0,0:01:34.17,0:01:36.21,Main Yukiho,,0,0,0,karaoke,{\k20}If {\k17}I {\k25}ha{\k18}dn't {\k38}met {\k24}you {\k20}my {\k42}life
-Comment: 0,0:01:34.17,0:01:36.21,Side Chihaya,,0,0,33,karaoke,{\k20}If {\k17}I {\k25}ha{\k18}dn't {\k38}met {\k24}you {\k20}my {\k42}life
-Comment: 0,0:01:36.63,0:01:39.92,Main Yukiho,,0,0,50,karaoke,{\k24}Would {\k17}have {\k23}been {\k60}in {\k40}the {\k24}dark{\k20}ness {\k25}for{\k61}e{\k35}ver
-Comment: 0,0:01:37.86,0:01:40.49,Side Chihaya,,0,0,0,karaoke,{\k18}In {\k23}the {\k24}dark{\k21}ness {\k23}for{\k62}e{\k40}ver {\k52}yeah
-Comment: 0,0:01:40.74,0:01:45.08,Main Yukiho,,0,0,0,karaoke,{\k51}In {\k42}my {\k42}wings {\k22}are {\k21}the {\k46}po{\k13}wers {\k24}of {\k23}im{\k15}mor{\k28}ta{\k18}li{\k89}ty
-Comment: 0,0:01:40.84,0:01:43.53,Side Chihaya,,0,0,33,karaoke,{\k83}In {\k85}my {\k101}wings
-Comment: 0,0:01:44.18,0:01:47.03,Side Chihaya,,0,0,0,karaoke,{\k174}A{\k111}ah
-Comment: 0,0:01:46.67,0:01:49.95,Main Yukiho,,0,0,0,karaoke,{\k21}But {\k23}by {\k19}mee{\k23}ting {\k44}you, {\k41}my {\k17}whole {\k22}life {\k20}has {\k98}changed
-Comment: 0,0:01:47.52,0:01:47.96,Side Chihaya,,0,0,33,karaoke,{\k44}You
-Comment: 0,0:01:48.93,0:01:49.97,Side Chihaya,,0,0,0,karaoke,{\k104}Changed
-Comment: 0,0:01:50.45,0:01:52.32,Main Yukiho,,0,0,50,karaoke,{\k20}You {\k19}give {\k25}light {\k20}to {\k15}me, {\k44}hope {\k23}to {\k21}me
-Comment: 0,0:01:52.37,0:01:57.06,Main Yukiho,,0,0,0,karaoke,{\k56}Strength {\k33}in{\k49}to {\k33}my {\k298}life
-Comment: 0,0:01:50.82,0:01:57.06,Side Chihaya,,0,0,33,karaoke,{\k36}Ah{\k26} {\k44}ah{\k57} {\k38}ah{\k44} {\k43}ah{\k39} {\k297}life!
-Comment: 0,0:01:57.43,0:02:00.36,Main Yukiho,,0,0,0,karaoke,{\k47}All {\k39}this {\k45}time {\k37}these {\k45}twelve {\k21}thou{\k21}sand {\k38}years
-Comment: 0,0:01:57.43,0:02:00.36,Side Chihaya,,0,0,0,karaoke,{\k48}All {\k38}this {\k45}time {\k37}these {\k45}twelve {\k21}thou{\k21}sand {\k38}years
-Comment: 0,0:02:00.40,0:02:03.49,Main Yukiho,,0,0,50,karaoke,{\k23}I {\k18}know, {\k40}a{\k36}i{\k45}shi{\k42}te{\k105}ru!
-Comment: 0,0:02:02.43,0:02:06.99,Side Chihaya,,0,0,0,karaoke,{\k55}I'm {\k34}in {\k38}love {\k41}with {\k288}you
-Comment: 0,0:02:04.10,0:02:07.22,Main Yukiho,,0,0,0,karaoke,{\k42}Eight {\k17}thou{\k22}sand {\k40}years {\k26}from {\k16}the {\k47}time {\k18}that {\k22}I've {\k41}met {\k21}you
-Comment: 0,0:02:07.22,0:02:10.27,Main Yukiho,,0,0,50,karaoke,{\k23}My {\k20}love {\k16}grows {\k26}strong {\k18}than {\k19}e{\k20}ver {\k26}be{\k137}fore
-Comment: 0,0:02:07.43,0:02:10.27,Side Chihaya,,0,0,33,karaoke,{\k166}Oh {\k67}my {\k51}love
-Comment: 0,0:02:10.74,0:02:13.76,Main Yukiho,,0,0,0,karaoke,{\k39}Words {\k37}can't {\k53}say {\k16}of {\k19}this {\k41}time {\k23}I've {\k20}been {\k41}wai{\k13}ting
-Comment: 0,0:02:10.74,0:02:13.76,Side Chihaya,,0,0,0,karaoke,{\k39}Words {\k37}can't {\k53}say {\k16}of {\k19}this {\k41}time {\k23}I've {\k20}been {\k41}wai{\k13}ting
-Comment: 0,0:02:13.82,0:02:16.60,Main Yukiho,,0,0,50,karaoke,{\k21}To {\k43}share {\k38}my {\k43}love {\k40}with {\k93}you
-Comment: 0,0:02:15.67,0:02:20.21,Side Chihaya,,0,0,0,karaoke,{\k45}A{\k34}i{\k42}shi{\k40}te{\k293}ru
-Comment: 0,0:02:17.11,0:02:20.17,Main Yukiho,,0,0,0,karaoke,{\k17}I'd {\k20}give {\k24}you {\k22}my {\k40}life, {\k21}I {\k40}would {\k43}give {\k19}you {\k17}the {\k43}world
-Comment: 0,0:02:20.42,0:02:23.47,Main Yukiho,,0,0,50,karaoke,{\k17}To {\k23}see {\k26}you {\k19}smi{\k19}ling {\k18}e{\k23}ve{\k25}ry {\k135}day
-Comment: 0,0:02:20.60,0:02:23.46,Side Chihaya,,0,0,33,karaoke,{\k127}Smi{\k41}ling {\k60}e{\k22}very {\k36}day
-Comment: 0,0:02:23.88,0:02:25.28,Main Yukiho,,0,0,0,karaoke,{\k31}One {\k29}hun{\k21}dred {\k41}mil{\k18}lion
-Comment: 0,0:02:23.88,0:02:26.72,Side Chihaya,,0,0,0,karaoke,{\k34}One {\k26}hun{\k21}dred {\k42}mil{\k19}lion {\k18}and {\k42}two {\k24}thou{\k14}sand {\k44}years
-Comment: 0,0:02:25.30,0:02:29.87,Main Yukiho,,0,0,50,karaoke,{\k19}And {\k41}two {\k25}thou{\k15}sand {\k43}years {\k22}from {\k20}now, {\k40}a{\k37}i{\k43}shi{\k30}te{\k12}i{\k110}ru!
-Comment: 0,0:02:28.77,0:02:33.88,Side Chihaya,,0,0,0,karaoke,{\k49}I {\k36}will {\k41}still {\k44}love {\k341}you
-Comment: 0,0:02:30.29,0:02:33.24,Main Yukiho,,0,0,0,karaoke,{\k12}I {\k24}want {\k22}you {\k19}to {\k35}know {\k23}since {\k41}you {\k49}came {\k16}in {\k26}my {\k28}life
-Comment: 0,0:02:33.94,0:02:38.49,Side Chihaya,,0,0,33,karaoke,{\k196}Ooh {\k259}aah
-Comment: 0,0:02:33.38,0:02:35.34,Main Yukiho,,0,0,50,karaoke,{\k21}E{\k32}very {\k53}day, {\k22}e{\k29}very {\k39}night
-Comment: 0,0:02:35.40,0:02:42.34,Main Yukiho,,0,0,0,karaoke,{\k31}You {\k28}give {\k51}light {\k44}in{\k44}to {\k25}the {\k38}dar{\k126}kest{\k23} {\k284}skies
-Comment: 0,0:02:39.50,0:02:42.30,Side Chihaya,,0,0,0,karaoke,{\k280}Skies
-Comment: 0,0:02:42.64,0:02:46.59,Main Yukiho,,0,0,50,karaoke,{\k26}Oh{\k76} {\k25}oh,{\k140} {\k29}oh{\k66} {\k33}oh!
-Comment: 0,0:02:43.35,0:02:43.91,Side Ritsuko,,0,0,33,karaoke,{\k56}Skies
-Comment: 0,0:02:44.64,0:02:45.30,Side Ritsuko,,0,0,0,karaoke,{\k66}Skies
-Comment: 0,0:02:46.59,0:02:49.99,Side Ritsuko,,0,0,33,karaoke,{\k32}A{\k30}qua{\k29}ri{\k249}on
-Comment: 0,0:02:47.81,0:02:51.73,Main Yukiho,,0,0,0,karaoke,{\k30}Oh{\k65} {\k35}oh,{\k118} {\k93}o{\k51}oh!
-Comment: 0,0:02:50.29,0:02:51.73,Side Ritsuko,,0,0,0,karaoke,{\k31}Twelve {\k30}thou{\k31}sand {\k52}years
-Comment: 0,0:02:52.70,0:03:01.21,Main Yukiho,,0,0,50,karaoke,{\k38}All{\k55} {\k48}these{\k102} {\k32}twelve {\k33}thou{\k26}sand {\k46}years,{\k105} {\k36}I've{\k53} {\k44}been{\k108} {\k58}lo{\k31}ving {\k36}you
-Comment: 0,0:02:52.70,0:03:01.21,Side Miki,,0,0,33,karaoke,{\k38}All{\k55} {\k48}these{\k102} {\k32}twelve {\k33}thou{\k26}sand {\k46}years,{\k105} {\k36}I've{\k53} {\k44}been{\k108} {\k58}lo{\k31}ving {\k36}you
-Comment: 0,0:03:01.57,0:03:07.89,Main Yukiho,,0,0,0,karaoke,{\k120}O{\k11}o{\k14}o{\k14}o{\k17}o{\k456}oh
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0, 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*600,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("start2syl",-1200+ci[2]/cn*600,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/10)!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/10)!,0,!$dur/3!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/10)!,$x,!$y!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/10)!,$x,!$y!,0,!$dur/3!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(7)!!retime("syl2end",$dur/12,200+(ci[7]/cn*600))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(8)!!retime("syl2end",$dur/12,200+(ci[8]/cn*600))!{\fad(0,150)\bord0\pos($x,$y)}
+Dialogue: 0,0:00:02.24,0:00:05.38,Main Yukiho,,0,0,0,karaoke,{\k33}Ki{\k12}mi {\k19}ga {\k20}ku{\k22}ri{\k22}ka{\k14}e{\k21}shi {\k28}o{\k17}to{\k26}na {\k21}ni {\k43}nat{\k16}te
+Dialogue: 0,0:00:05.67,0:00:08.86,Main Yukiho,,0,0,50,karaoke,{\k43}Nan{\k17}do{\k25}mo {\k41}nan{\k21}do{\k17}mo {\k28}to{\k24}o{\k17}ku {\k24}e {\k41}it{\k21}te
+Dialogue: 0,0:00:09.07,0:00:12.35,Main Yukiho,,0,0,0,karaoke,{\k25}Mi{\k18}ma{\k23}mo{\k21}ru {\k20}bo{\k20}ku {\k22}ga {\k21}ne{\k19}mu{\k23}re{\k21}na{\k23}i {\k40}bo{\k16}ku {\k16}ga
+Dialogue: 0,0:00:12.47,0:00:18.17,Main Yukiho,,0,0,50,karaoke,{\k36}Ku{\k48}shya {\k20}ku{\k18}shya {\k25}ni{\k25} {\k42}nat{\k18}ta {\k13}to {\k13}sh'{\k32}te{\k280}mo
+Dialogue: 0,0:00:18.83,0:00:21.57,Main Yukiho,,0,0,0,karaoke,{\k43}Oh {\k44}o{\k24}oh {\k42}o{\k43}oh {\k78}oh
+Dialogue: 0,0:00:21.69,0:00:25.00,Main Yukiho,,0,0,50,karaoke,{\k46}Oh {\k17}o{\k28}oh {\k22}o{\k218}oh
+Dialogue: 0,0:00:25.80,0:00:31.53,Main Yukiho,,0,0,0,karaoke,{\k48}Ki{\k40}mi {\k24}no {\k21}na {\k17}wo {\k27}u{\k36}ta{\k24}u {\k24}ta{\k45}me {\k267}ni
+Dialogue: 0,0:00:47.28,0:00:56.18,Main Yukiho,,0,0,0,karaoke,{\k77}Ge{\k29}ne{\k131}sis{\k227} {\k96}of {\k77}A{\k46}qua{\k31}ri{\k176}on
+Dialogue: 0,0:00:46.80,0:00:53.05,Side Chihaya,,0,0,0,karaoke,{\k126}Ge{\k28}ne{\k106}sis{\k45} {\k18}of {\k26}A{\k126}qua{\k22}ri{\k128}on
+Dialogue: 0,0:00:49.32,0:00:50.24,Side Ritsuko,,0,0,33,karaoke,{\k24}Ge{\k22}ne{\k46}sis
+Dialogue: 0,0:00:53.64,0:00:59.75,Side Chihaya,,0,0,0,karaoke,{\k130}Ge{\k24}ne{\k105}sis{\k38} {\k20}of {\k26}A{\k125}qua{\k18}ri{\k125}on
+Dialogue: 0,0:01:00.02,0:01:02.80,Main Yukiho,,0,0,0,karaoke,{\k20}I {\k20}re{\k46}mem{\k15}ber {\k45}sit{\k27}ting {\k43}with {\k62}you
+Dialogue: 0,0:01:02.14,0:01:05.15,Side Chihaya,,0,0,0,karaoke,{\k39}Sit{\k30}ting {\k62}there {\k46}with {\k124}you
+Dialogue: 0,0:01:03.35,0:01:06.30,Main Yukiho,,0,0,50,karaoke,{\k29}Un{\k27}der{\k45}neath {\k18}the {\k68}tree {\k41}of {\k67}life
+Dialogue: 0,0:01:05.46,0:01:10.01,Side Chihaya,,0,0,33,karaoke,{\k18}Be{\k44}neath {\k16}the {\k68}tree {\k41}of {\k268}life
+Dialogue: 0,0:01:07.04,0:01:09.92,Main Yukiho,,0,0,0,karaoke,{\k27}We {\k27}lis{\k16}tened {\k23}to {\k48}e{\k43}very {\k39}fain{\k15}ted {\k50}cry
+Dialogue: 0,0:01:10.26,0:01:11.90,Main Yukiho,,0,0,50,karaoke,{\k26}Of {\k19}the {\k23}crea{\k48}tures {\k48}there
+Dialogue: 0,0:01:11.98,0:01:13.52,Main Yukiho,,0,0,0,karaoke,{\k23}On {\k18}the {\k35}day {\k12}the {\k24}world {\k19}be{\k23}gan
+Dialogue: 0,0:01:10.70,0:01:13.91,Side Chihaya,,0,0,33,karaoke,{\k169}U{\k90}a{\k62}ah!
+Dialogue: 0,0:01:13.53,0:01:16.45,Main Yukiho,,0,0,50,karaoke,{\k18}Loo{\k20}king {\k22}at {\k41}e{\k24}very{\k40}thing {\k20}that {\k40}I've {\k67}lost
+Dialogue: 0,0:01:15.78,0:01:18.43,Side Miki,,0,0,0,karaoke,{\k46}E{\k23}very{\k59}thing {\k43}I've {\k94}lost
+Dialogue: 0,0:01:16.90,0:01:19.61,Main Yukiho,,0,0,0,karaoke,{\k18}And {\k19}al{\k22}most {\k36}e{\k28}very{\k38}thing {\k21}that {\k40}I've {\k49}loved
+Dialogue: 0,0:01:19.11,0:01:20.77,Side Miki,,0,0,33,karaoke,{\k64}E{\k62}very{\k40}thing
+Dialogue: 0,0:01:20.42,0:01:23.39,Main Yukiho,,0,0,50,karaoke,{\k33}I'll {\k31}hold {\k19}them {\k16}all {\k48}tight{\k43}ly {\k38}in {\k20}my {\k49}arms
+Dialogue: 0,0:01:20.81,0:01:23.58,Side Chihaya,,0,0,0,karaoke,{\k83}In {\k85}my {\k109}arms
+Dialogue: 0,0:01:23.73,0:01:25.42,Main Yukiho,,0,0,0,karaoke,{\k22}Won{\k20}de{\k25}ring {\k16}where {\k23}I {\k63}am
+Dialogue: 0,0:01:25.58,0:01:27.18,Main Yukiho,,0,0,50,karaoke,{\k21}So {\k23}please {\k21}tell {\k23}me {\k28}where {\k15}to {\k29}go
+Dialogue: 0,0:01:25.79,0:01:26.23,Side Chihaya,,0,0,0,karaoke,{\k44}Please
+Dialogue: 0,0:01:27.47,0:01:31.53,Main Yukiho,,0,0,0,karaoke,{\k43}All {\k18}of {\k18}the {\k40}an{\k25}swers {\k20}you {\k40}seek {\k40}lie {\k23}hid{\k24}den {\k23}in {\k13}the {\k79}sun
+Dialogue: 0,0:01:27.47,0:01:29.60,Side Chihaya,,0,0,33,karaoke,{\k43}All {\k18}of {\k18}the {\k40}an{\k25}swers {\k20}you {\k49}seek
+Dialogue: 0,0:01:30.78,0:01:34.11,Side Chihaya,,0,0,0,karaoke,{\k44}Ta{\k43}{\k86}i{\k41}yo{\k39}{\k80}u
+Dialogue: 0,0:01:34.17,0:01:36.21,Main Yukiho,,0,0,0,karaoke,{\k20}If {\k17}I {\k25}ha{\k18}dn't {\k38}met {\k24}you {\k20}my {\k42}life
+Dialogue: 0,0:01:34.17,0:01:36.21,Side Chihaya,,0,0,33,karaoke,{\k20}If {\k17}I {\k25}ha{\k18}dn't {\k38}met {\k24}you {\k20}my {\k42}life
+Dialogue: 0,0:01:36.63,0:01:39.92,Main Yukiho,,0,0,50,karaoke,{\k24}Would {\k17}have {\k23}been {\k60}in {\k40}the {\k24}dark{\k20}ness {\k25}for{\k61}e{\k35}ver
+Dialogue: 0,0:01:37.86,0:01:40.49,Side Chihaya,,0,0,0,karaoke,{\k18}In {\k23}the {\k24}dark{\k21}ness {\k23}for{\k62}e{\k40}ver {\k52}yeah
+Dialogue: 0,0:01:40.74,0:01:45.08,Main Yukiho,,0,0,0,karaoke,{\k51}In {\k42}my {\k42}wings {\k22}are {\k21}the {\k46}po{\k13}wers {\k24}of {\k23}im{\k15}mor{\k28}ta{\k18}li{\k89}ty
+Dialogue: 0,0:01:40.84,0:01:43.53,Side Chihaya,,0,0,33,karaoke,{\k83}In {\k85}my {\k101}wings
+Dialogue: 0,0:01:44.18,0:01:47.03,Side Chihaya,,0,0,0,karaoke,{\k174}A{\k111}ah
+Dialogue: 0,0:01:46.67,0:01:49.95,Main Yukiho,,0,0,0,karaoke,{\k21}But {\k23}by {\k19}mee{\k23}ting {\k44}you, {\k41}my {\k17}whole {\k22}life {\k20}has {\k98}changed
+Dialogue: 0,0:01:47.52,0:01:47.96,Side Chihaya,,0,0,33,karaoke,{\k44}You
+Dialogue: 0,0:01:48.93,0:01:49.97,Side Chihaya,,0,0,0,karaoke,{\k104}Changed
+Dialogue: 0,0:01:50.45,0:01:52.32,Main Yukiho,,0,0,50,karaoke,{\k20}You {\k19}give {\k25}light {\k20}to {\k15}me, {\k44}hope {\k23}to {\k21}me
+Dialogue: 0,0:01:52.37,0:01:57.06,Main Yukiho,,0,0,0,karaoke,{\k56}Strength {\k33}in{\k49}to {\k33}my {\k298}life
+Dialogue: 0,0:01:50.82,0:01:57.06,Side Chihaya,,0,0,33,karaoke,{\k36}Ah{\k26} {\k44}ah{\k57} {\k38}ah{\k44} {\k43}ah{\k39} {\k297}life!
+Dialogue: 0,0:01:57.43,0:02:00.36,Main Yukiho,,0,0,0,karaoke,{\k47}All {\k39}this {\k45}time {\k37}these {\k45}twelve {\k21}thou{\k21}sand {\k38}years
+Dialogue: 0,0:01:57.43,0:02:00.36,Side Chihaya,,0,0,0,karaoke,{\k48}All {\k38}this {\k45}time {\k37}these {\k45}twelve {\k21}thou{\k21}sand {\k38}years
+Dialogue: 0,0:02:00.40,0:02:03.49,Main Yukiho,,0,0,50,karaoke,{\k23}I {\k18}know, {\k40}a{\k36}i{\k45}shi{\k42}te{\k105}ru!
+Dialogue: 0,0:02:02.43,0:02:06.99,Side Chihaya,,0,0,0,karaoke,{\k55}I'm {\k34}in {\k38}love {\k41}with {\k288}you
+Dialogue: 0,0:02:04.10,0:02:07.22,Main Yukiho,,0,0,0,karaoke,{\k42}Eight {\k17}thou{\k22}sand {\k40}years {\k26}from {\k16}the {\k47}time {\k18}that {\k22}I've {\k41}met {\k21}you
+Dialogue: 0,0:02:07.22,0:02:10.27,Main Yukiho,,0,0,50,karaoke,{\k23}My {\k20}love {\k16}grows {\k26}strong {\k18}than {\k19}e{\k20}ver {\k26}be{\k137}fore
+Dialogue: 0,0:02:07.43,0:02:10.27,Side Chihaya,,0,0,33,karaoke,{\k166}Oh {\k67}my {\k51}love
+Dialogue: 0,0:02:10.74,0:02:13.76,Main Yukiho,,0,0,0,karaoke,{\k39}Words {\k37}can't {\k53}say {\k16}of {\k19}this {\k41}time {\k23}I've {\k20}been {\k41}wai{\k13}ting
+Dialogue: 0,0:02:10.74,0:02:13.76,Side Chihaya,,0,0,0,karaoke,{\k39}Words {\k37}can't {\k53}say {\k16}of {\k19}this {\k41}time {\k23}I've {\k20}been {\k41}wai{\k13}ting
+Dialogue: 0,0:02:13.82,0:02:16.60,Main Yukiho,,0,0,50,karaoke,{\k21}To {\k43}share {\k38}my {\k43}love {\k40}with {\k93}you
+Dialogue: 0,0:02:15.67,0:02:20.21,Side Chihaya,,0,0,0,karaoke,{\k45}A{\k34}i{\k42}shi{\k40}te{\k293}ru
+Dialogue: 0,0:02:17.11,0:02:20.17,Main Yukiho,,0,0,0,karaoke,{\k17}I'd {\k20}give {\k24}you {\k22}my {\k40}life, {\k21}I {\k40}would {\k43}give {\k19}you {\k17}the {\k43}world
+Dialogue: 0,0:02:20.42,0:02:23.47,Main Yukiho,,0,0,50,karaoke,{\k17}To {\k23}see {\k26}you {\k19}smi{\k19}ling {\k18}e{\k23}ve{\k25}ry {\k135}day
+Dialogue: 0,0:02:20.60,0:02:23.46,Side Chihaya,,0,0,33,karaoke,{\k127}Smi{\k41}ling {\k60}e{\k22}very {\k36}day
+Dialogue: 0,0:02:23.88,0:02:25.28,Main Yukiho,,0,0,0,karaoke,{\k31}One {\k29}hun{\k21}dred {\k41}mil{\k18}lion
+Dialogue: 0,0:02:23.88,0:02:26.72,Side Chihaya,,0,0,0,karaoke,{\k34}One {\k26}hun{\k21}dred {\k42}mil{\k19}lion {\k18}and {\k42}two {\k24}thou{\k14}sand {\k44}years
+Dialogue: 0,0:02:25.30,0:02:29.87,Main Yukiho,,0,0,50,karaoke,{\k19}And {\k41}two {\k25}thou{\k15}sand {\k43}years {\k22}from {\k20}now, {\k40}a{\k37}i{\k43}shi{\k30}te{\k12}i{\k110}ru!
+Dialogue: 0,0:02:28.77,0:02:33.88,Side Chihaya,,0,0,0,karaoke,{\k49}I {\k36}will {\k41}still {\k44}love {\k341}you
+Dialogue: 0,0:02:30.29,0:02:33.24,Main Yukiho,,0,0,0,karaoke,{\k12}I {\k24}want {\k22}you {\k19}to {\k35}know {\k23}since {\k41}you {\k49}came {\k16}in {\k26}my {\k28}life
+Dialogue: 0,0:02:33.94,0:02:38.49,Side Chihaya,,0,0,33,karaoke,{\k196}Ooh {\k259}aah
+Dialogue: 0,0:02:33.38,0:02:35.34,Main Yukiho,,0,0,50,karaoke,{\k21}E{\k32}very {\k53}day, {\k22}e{\k29}very {\k39}night
+Dialogue: 0,0:02:35.40,0:02:42.34,Main Yukiho,,0,0,0,karaoke,{\k31}You {\k28}give {\k51}light {\k44}in{\k44}to {\k25}the {\k38}dar{\k126}kest{\k23} {\k284}skies
+Dialogue: 0,0:02:39.50,0:02:42.30,Side Chihaya,,0,0,0,karaoke,{\k280}Skies
+Dialogue: 0,0:02:42.64,0:02:46.59,Main Yukiho,,0,0,50,karaoke,{\k26}Oh{\k76} {\k25}oh,{\k140} {\k29}oh{\k66} {\k33}oh!
+Dialogue: 0,0:02:43.35,0:02:43.91,Side Ritsuko,,0,0,33,karaoke,{\k56}Skies
+Dialogue: 0,0:02:44.64,0:02:45.30,Side Ritsuko,,0,0,0,karaoke,{\k66}Skies
+Dialogue: 0,0:02:46.59,0:02:49.99,Side Ritsuko,,0,0,33,karaoke,{\k32}A{\k30}qua{\k29}ri{\k249}on
+Dialogue: 0,0:02:47.81,0:02:51.73,Main Yukiho,,0,0,0,karaoke,{\k30}Oh{\k65} {\k35}oh,{\k118} {\k93}o{\k51}oh!
+Dialogue: 0,0:02:50.29,0:02:51.73,Side Ritsuko,,0,0,0,karaoke,{\k31}Twelve {\k30}thou{\k31}sand {\k52}years
+Dialogue: 0,0:02:52.70,0:03:01.21,Main Yukiho,,0,0,50,karaoke,{\k38}All{\k55} {\k48}these{\k102} {\k32}twelve {\k33}thou{\k26}sand {\k46}years,{\k105} {\k36}I've{\k53} {\k44}been{\k108} {\k58}lo{\k31}ving {\k36}you
+Dialogue: 0,0:02:52.70,0:03:01.21,Side Miki,,0,0,33,karaoke,{\k38}All{\k55} {\k48}these{\k102} {\k32}twelve {\k33}thou{\k26}sand {\k46}years,{\k105} {\k36}I've{\k53} {\k44}been{\k108} {\k58}lo{\k31}ving {\k36}you
+Dialogue: 0,0:03:01.57,0:03:07.89,Main Yukiho,,0,0,0,karaoke,{\k120}O{\k11}o{\k14}o{\k14}o{\k17}o{\k456}oh
 

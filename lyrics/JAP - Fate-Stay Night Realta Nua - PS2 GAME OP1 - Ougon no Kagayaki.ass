@@ -44,30 +44,30 @@ Style: Default - Rouge,Nyala,75,&H000000FF,&H00FFFFFF,&H00000000,&H00000000,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0, 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*600,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("start2syl",-1200+ci[2]/cn*600,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Comment: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(7)!!retime("syl2end",$dur/12,200+(ci[7]/cn*600))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Comment: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(8)!!retime("syl2end",$dur/12,200+(ci[8]/cn*600))!{\fad(0,150)\bord0\pos($x,$y)}
-Comment: 0,0:00:15.90,0:00:20.06,Nyala - Fate,,0,0,15,karaoke,{\k12}Mu{\k17}ne {\k12}no {\k16}o{\k47}ku {\k30}fu{\k13}ka{\k33}ku{\k28} {\k13}hi{\k11}so{\k13}mu {\k17}ko{\k48}no {\k25}ki{\k16}zu {\k65}wa
-Comment: 0,0:00:20.30,0:00:23.97,Nyala - Fate,,0,0,90,karaoke,{\k27}I{\k39}ya{\k35}sa{\k27}re{\k37}ru {\k37}ko{\k30}to {\k25}wa {\k18}na{\k92}i
-Comment: 0,0:00:24.12,0:00:28.16,Nyala - Fate,,0,0,15,karaoke,{\k18}Da{\k11}ra{\k12}ka {\k15}bo{\k50}ku {\k22}ta{\k17}chi {\k64}wa {\k15}ko{\k9}no {\k10}mi {\k19}su{\k48}te{\k29}sa{\k20}t{\k45}te
-Comment: 0,0:00:28.48,0:00:32.14,Nyala - Fate,,0,0,90,karaoke,{\k28}Tsu{\k40}yo{\k30}ku{\k32}na{\k41}rou {\k33}to {\k30}chi{\k40}kat{\k92}ta
-Comment: 0,0:00:32.59,0:00:36.12,Nyala - Fate,,0,0,15,karaoke,{\k26}Da{\k72}re {\k30}mo {\k53}ga {\k32}ne{\k46}ga{\k94}i {\k0}
-Comment: 0,0:00:36.72,0:00:40.22,Nyala - Fate,,0,0,90,karaoke,{\k25}I{\k69}no{\k35}chi {\k45}bu{\k31}tsu{\k52}ke {\k25}a{\k68}u
-Comment: 0,0:00:40.77,0:00:44.15,Nyala - Fate,,0,0,15,karaoke,{\k31}Ma{\k78}yo{\k21}i {\k55}wa {\k24}i{\k52}ra{\k77}nai
-Comment: 0,0:00:44.88,0:00:49.42,Nyala - Fate,,0,0,90,karaoke,{\k29}Ta{\k77}ta{\k31}ka{\k44}u {\k25}to {\k24}ki{\k28}me{\k27}ta {\k30}ka{\k139}ra
-Comment: 0,0:00:50.33,0:00:54.64,Nyala - Fate,,0,0,15,karaoke,{\k51}Fu{\k48}ri{\k25}ka{\k37}zu {\k14}o{\k18}u{\k30}go{\k26}n {\k28}no {\k29}ka{\k33}ga{\k17}ya{\k75}ki
-Comment: 0,0:00:54.92,0:00:58.64,Nyala - Fate,,0,0,90,karaoke,{\k21}To{\k24}za{\k26}sa{\k18}re{\k24}ta {\k15}yo{\k17}ru {\k30}wo {\k22}hi{\k27}ra{\k29}ku {\k37}ya{\k19}i{\k63}ba
-Comment: 0,0:00:58.97,0:01:02.88,Nyala - Fate,,0,0,15,karaoke,{\k29}Ko{\k29}ta{\k22}e {\k19}na{\k18}do {\k12}na{\k21}i{\k33}to {\k29}shi{\k25}t{\k24}te {\k33}i{\k18}te {\k79}mo
-Comment: 0,0:01:03.09,0:01:06.99,Nyala - Fate,,0,0,90,karaoke,{\k25}Ri{\k29}so{\k20}u {\k20}no {\k32}ha{\k19}te {\k35}wo {\k28}mo{\k21}to{\k12}me {\k16}tsu{\k39}zu{\k17}ke{\k77}ru
-Comment: 0,0:01:07.23,0:01:11.21,Nyala - Fate,,0,0,15,karaoke,{\k26}A{\k18}no {\k32}hi {\k15}mi{\k35}a{\k17}ge{\k36}ta {\k23}ho{\k25}shi {\k32}wa {\k24}i{\k25}ma {\k90}mo
-Comment: 0,0:01:11.27,0:01:15.15,Nyala - Fate,,0,0,90,karaoke,{\k28}Ya{\k24}ki{\k26}tsu{\k17}i{\k21}te {\k18}ki{\k15}e{\k37}ru {\k21}ko{\k32}to {\k25}wa {\k29}na{\k25}i {\k70}yo
-Comment: 0,0:01:15.41,0:01:19.12,Nyala - Fate,,0,0,15,karaoke,{\k28}Ta{\k23}t{\k22}ta {\k19}hi{\k32}to{\k20}tsu {\k38}no {\k19}ta{\k27}shi{\k31}ka{\k34}na {\k17}mo{\k61}no
-Comment: 0,0:01:19.51,0:01:23.97,Nyala - Fate,,0,0,90,karaoke,{\k27}Ha{\k21}ji{\k26}ma{\k21}ri {\k20}no {\k15}ji{\k17}bu{\k34}n {\k24}o{\k24}i{\k31}ka{\k34}ke{\k20}tei{\k132}ku
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0, 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*600,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("start2syl",-1200+ci[2]/cn*600,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
+Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(7)!!retime("syl2end",$dur/12,200+(ci[7]/cn*600))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
+Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(8)!!retime("syl2end",$dur/12,200+(ci[8]/cn*600))!{\fad(0,150)\bord0\pos($x,$y)}
+Dialogue: 0,0:00:15.90,0:00:20.06,Nyala - Fate,,0,0,15,karaoke,{\k12}Mu{\k17}ne {\k12}no {\k16}o{\k47}ku {\k30}fu{\k13}ka{\k33}ku{\k28} {\k13}hi{\k11}so{\k13}mu {\k17}ko{\k48}no {\k25}ki{\k16}zu {\k65}wa
+Dialogue: 0,0:00:20.30,0:00:23.97,Nyala - Fate,,0,0,90,karaoke,{\k27}I{\k39}ya{\k35}sa{\k27}re{\k37}ru {\k37}ko{\k30}to {\k25}wa {\k18}na{\k92}i
+Dialogue: 0,0:00:24.12,0:00:28.16,Nyala - Fate,,0,0,15,karaoke,{\k18}Da{\k11}ra{\k12}ka {\k15}bo{\k50}ku {\k22}ta{\k17}chi {\k64}wa {\k15}ko{\k9}no {\k10}mi {\k19}su{\k48}te{\k29}sa{\k20}t{\k45}te
+Dialogue: 0,0:00:28.48,0:00:32.14,Nyala - Fate,,0,0,90,karaoke,{\k28}Tsu{\k40}yo{\k30}ku{\k32}na{\k41}rou {\k33}to {\k30}chi{\k40}kat{\k92}ta
+Dialogue: 0,0:00:32.59,0:00:36.12,Nyala - Fate,,0,0,15,karaoke,{\k26}Da{\k72}re {\k30}mo {\k53}ga {\k32}ne{\k46}ga{\k94}i {\k0}
+Dialogue: 0,0:00:36.72,0:00:40.22,Nyala - Fate,,0,0,90,karaoke,{\k25}I{\k69}no{\k35}chi {\k45}bu{\k31}tsu{\k52}ke {\k25}a{\k68}u
+Dialogue: 0,0:00:40.77,0:00:44.15,Nyala - Fate,,0,0,15,karaoke,{\k31}Ma{\k78}yo{\k21}i {\k55}wa {\k24}i{\k52}ra{\k77}nai
+Dialogue: 0,0:00:44.88,0:00:49.42,Nyala - Fate,,0,0,90,karaoke,{\k29}Ta{\k77}ta{\k31}ka{\k44}u {\k25}to {\k24}ki{\k28}me{\k27}ta {\k30}ka{\k139}ra
+Dialogue: 0,0:00:50.33,0:00:54.64,Nyala - Fate,,0,0,15,karaoke,{\k51}Fu{\k48}ri{\k25}ka{\k37}zu {\k14}o{\k18}u{\k30}go{\k26}n {\k28}no {\k29}ka{\k33}ga{\k17}ya{\k75}ki
+Dialogue: 0,0:00:54.92,0:00:58.64,Nyala - Fate,,0,0,90,karaoke,{\k21}To{\k24}za{\k26}sa{\k18}re{\k24}ta {\k15}yo{\k17}ru {\k30}wo {\k22}hi{\k27}ra{\k29}ku {\k37}ya{\k19}i{\k63}ba
+Dialogue: 0,0:00:58.97,0:01:02.88,Nyala - Fate,,0,0,15,karaoke,{\k29}Ko{\k29}ta{\k22}e {\k19}na{\k18}do {\k12}na{\k21}i{\k33}to {\k29}shi{\k25}t{\k24}te {\k33}i{\k18}te {\k79}mo
+Dialogue: 0,0:01:03.09,0:01:06.99,Nyala - Fate,,0,0,90,karaoke,{\k25}Ri{\k29}so{\k20}u {\k20}no {\k32}ha{\k19}te {\k35}wo {\k28}mo{\k21}to{\k12}me {\k16}tsu{\k39}zu{\k17}ke{\k77}ru
+Dialogue: 0,0:01:07.23,0:01:11.21,Nyala - Fate,,0,0,15,karaoke,{\k26}A{\k18}no {\k32}hi {\k15}mi{\k35}a{\k17}ge{\k36}ta {\k23}ho{\k25}shi {\k32}wa {\k24}i{\k25}ma {\k90}mo
+Dialogue: 0,0:01:11.27,0:01:15.15,Nyala - Fate,,0,0,90,karaoke,{\k28}Ya{\k24}ki{\k26}tsu{\k17}i{\k21}te {\k18}ki{\k15}e{\k37}ru {\k21}ko{\k32}to {\k25}wa {\k29}na{\k25}i {\k70}yo
+Dialogue: 0,0:01:15.41,0:01:19.12,Nyala - Fate,,0,0,15,karaoke,{\k28}Ta{\k23}t{\k22}ta {\k19}hi{\k32}to{\k20}tsu {\k38}no {\k19}ta{\k27}shi{\k31}ka{\k34}na {\k17}mo{\k61}no
+Dialogue: 0,0:01:19.51,0:01:23.97,Nyala - Fate,,0,0,90,karaoke,{\k27}Ha{\k21}ji{\k26}ma{\k21}ri {\k20}no {\k15}ji{\k17}bu{\k34}n {\k24}o{\k24}i{\k31}ka{\k34}ke{\k20}tei{\k132}ku
 

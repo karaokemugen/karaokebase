@@ -26,40 +26,40 @@ Style: Default 2,KG Ray of Sunshine,30,&H1A42E7DB,&H00EADF54,&H00000000,&H000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 0,0:01:28.84,0:01:29.34,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1000+ci[1]/cn*200,-50)!{\fad(200,0)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
-Comment: 1,0:01:28.84,0:01:29.34,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1000+ci[1]/cn*200,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos(!syl.center+line.left!,$y)}
-Comment: 0,0:01:28.84,0:01:29.34,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 3,0:01:28.84,0:01:29.34,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,!$dur/3!)}
-Comment: 0,0:01:28.84,0:01:29.34,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
-Comment: 3,0:01:28.84,0:01:29.34,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
-Comment: 0,0:01:28.84,0:01:29.34,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,100+(ci[1]/cn*200))!{\fad(0,150)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
-Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,100+(ci[1]/cn*200))!{\fad(0,150)\bord0\pos(!syl.center+line.left!,$y)}
-Comment: 0,0:00:02.42,0:00:04.78,Default,,0,0,0,karaoke,{\k20}Nous{\k17} {\k41}on {\k17}est{\k23} {\k20}des {\k19}sor{\k15}cières {\k24}à {\k20}l'é{\k20}cole
-Comment: 0,0:00:05.49,0:00:06.89,Default,,0,0,40,karaoke,{\k28}Ho{\k11}pa{\k9}la {\k20}ho{\k13}pa{\k8}la {\k17}ho{\k13}pa{\k9}la{\k12}hop
-Comment: 0,0:00:06.97,0:00:08.14,Default,,0,0,0,karaoke,{\k18}On {\k22}s'a{\k17}msue {\k20}comme {\k21}des {\k19}folles
-Comment: 0,0:00:08.30,0:00:08.81,Default 2,,0,0,0,karaoke,{\k23}C'est {\k28}vrai !
-Comment: 0,0:00:08.81,0:00:11.09,Default,,0,0,40,karaoke,{\k13}Nous{\k20} {\k40}on {\k39}aime {\k20}s'a{\k19}mu{\k20}ser {\k19}et {\k20}jou{\k18}er
-Comment: 0,0:00:11.80,0:00:13.21,Default,,0,0,0,karaoke,{\k28}Hou{\k13}pa{\k12}la {\k18}hou{\k10}pa{\k9}la {\k18}hou{\k13}pa{\k8}la{\k12}houp
-Comment: 0,0:00:13.28,0:00:14.41,Default,,0,0,40,karaoke,{\k18}Nous {\k20}on {\k20}a{\k21}dore {\k18}bou{\k16}ger
-Comment: 0,0:00:14.43,0:00:14.93,Default 2,,0,0,0,karaoke,{\k21}Bou{\k29}ger !
-Comment: 0,0:00:15.42,0:00:19.07,Default,,0,0,0,karaoke,{\k80}On {\k40}at{\k23}tend {\k17}que {\k19}l'é{\k20}cole {\k21}soit {\k40}fi{\k105}nie
-Comment: 0,0:00:19.34,0:00:20.06,Default,,0,0,40,karaoke,{\k23}Oh {\k49}oui !
-Comment: 0,0:00:21.75,0:00:25.61,Default,,0,0,0,karaoke,{\k41}Pour {\k22}pou{\k38}voir {\k57}dan{\k14}ser{\k26} {\k20}et {\k41}chan{\k127}ter,
-Comment: 0,0:00:25.61,0:00:26.09,Default,,0,0,40,karaoke,{\k28}Chan{\k20}ter !
-Comment: 0,0:00:27.48,0:00:28.99,Default,,0,0,0,karaoke,{\k38}Nos {\k20}ba{\k20}guettes {\k20}sont {\k20}ma{\k33}giques
-Comment: 0,0:00:29.04,0:00:30.50,Default,,0,0,40,karaoke,{\k42}Nos {\k15}pou{\k24}voirs {\k17}fan{\k22}tas{\k26}tiques
-Comment: 0,0:00:30.75,0:00:32.55,Default,,0,0,0,karaoke,{\k27}Viens {\k19}a{\k21}vec {\k19}nous {\k21}t'a{\k39}mu{\k34}ser
-Comment: 0,0:00:32.57,0:00:33.19,Default 2,,0,0,0,karaoke,{\k21}Al{\k41}lez !
-Comment: 0,0:00:33.20,0:00:35.55,Default,,0,0,40,karaoke,{\k20}C'est {\k18}nous {\k23}Ma{\k17}gi{\k41}cal {\k75}Do{\k24}re{\k17}mi
-Comment: 0,0:00:35.77,0:00:37.28,Default,,0,0,0,karaoke,{\k19}On {\k20}peut {\k20}faire {\k22}des {\k18}tours {\k19}de {\k20}ma{\k13}gie
-Comment: 0,0:00:37.54,0:00:38.71,Default,,0,0,40,karaoke,{\k20}Et {\k20}des {\k39}p'tites {\k22}fo{\k16}lies
-Comment: 0,0:00:39.50,0:00:41.85,Default,,0,0,0,karaoke,{\k22}C'est {\k20}nous {\k19}Ma{\k21}gi{\k39}cal {\k78}Do{\k20}re{\k16}mi
-Comment: 0,0:00:42.09,0:00:43.61,Default,,0,0,40,karaoke,{\k19}On {\k21}peut {\k19}de{\k20}man{\k19}der {\k20}tout {\k19}c'qu'on {\k15}veut,
-Comment: 0,0:00:43.66,0:00:45.11,Default,,0,0,0,karaoke,{\k21}Oui {\k20}comme {\k19}c'est {\k19}beau {\k41}la {\k25}vie
-Comment: 0,0:00:45.79,0:00:47.21,Default,,0,0,40,karaoke,{\k23}Et {\k19}en {\k23}plus {\k19}on {\k58}danse,
-Comment: 0,0:00:47.21,0:00:48.79,Default,,0,0,0,karaoke,{\k59}Danse, {\k59}danse, {\k40}danse,
-Comment: 0,0:00:48.94,0:00:49.74,Default,,0,0,40,karaoke,{\k24}Quelle {\k19}am{\k37}biance !
-Comment: 0,0:00:50.18,0:00:51.00,Default,,0,0,0,karaoke,{\k21}Ve{\k18}nez {\k26}on {\k17}rit !
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Dialogue: 0,0:01:28.84,0:01:29.34,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1000+ci[1]/cn*200,-50)!{\fad(200,0)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
+Dialogue: 1,0:01:28.84,0:01:29.34,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1000+ci[1]/cn*200,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos(!syl.center+line.left!,$y)}
+Dialogue: 0,0:01:28.84,0:01:29.34,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 3,0:01:28.84,0:01:29.34,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,!$dur/3!)}
+Dialogue: 0,0:01:28.84,0:01:29.34,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
+Dialogue: 3,0:01:28.84,0:01:29.34,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
+Dialogue: 0,0:01:28.84,0:01:29.34,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,100+(ci[1]/cn*200))!{\fad(0,150)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
+Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,100+(ci[1]/cn*200))!{\fad(0,150)\bord0\pos(!syl.center+line.left!,$y)}
+Dialogue: 0,0:00:02.42,0:00:04.78,Default,,0,0,0,karaoke,{\k20}Nous{\k17} {\k41}on {\k17}est{\k23} {\k20}des {\k19}sor{\k15}cières {\k24}à {\k20}l'é{\k20}cole
+Dialogue: 0,0:00:05.49,0:00:06.89,Default,,0,0,40,karaoke,{\k28}Ho{\k11}pa{\k9}la {\k20}ho{\k13}pa{\k8}la {\k17}ho{\k13}pa{\k9}la{\k12}hop
+Dialogue: 0,0:00:06.97,0:00:08.14,Default,,0,0,0,karaoke,{\k18}On {\k22}s'a{\k17}msue {\k20}comme {\k21}des {\k19}folles
+Dialogue: 0,0:00:08.30,0:00:08.81,Default 2,,0,0,0,karaoke,{\k23}C'est {\k28}vrai !
+Dialogue: 0,0:00:08.81,0:00:11.09,Default,,0,0,40,karaoke,{\k13}Nous{\k20} {\k40}on {\k39}aime {\k20}s'a{\k19}mu{\k20}ser {\k19}et {\k20}jou{\k18}er
+Dialogue: 0,0:00:11.80,0:00:13.21,Default,,0,0,0,karaoke,{\k28}Hou{\k13}pa{\k12}la {\k18}hou{\k10}pa{\k9}la {\k18}hou{\k13}pa{\k8}la{\k12}houp
+Dialogue: 0,0:00:13.28,0:00:14.41,Default,,0,0,40,karaoke,{\k18}Nous {\k20}on {\k20}a{\k21}dore {\k18}bou{\k16}ger
+Dialogue: 0,0:00:14.43,0:00:14.93,Default 2,,0,0,0,karaoke,{\k21}Bou{\k29}ger !
+Dialogue: 0,0:00:15.42,0:00:19.07,Default,,0,0,0,karaoke,{\k80}On {\k40}at{\k23}tend {\k17}que {\k19}l'é{\k20}cole {\k21}soit {\k40}fi{\k105}nie
+Dialogue: 0,0:00:19.34,0:00:20.06,Default,,0,0,40,karaoke,{\k23}Oh {\k49}oui !
+Dialogue: 0,0:00:21.75,0:00:25.61,Default,,0,0,0,karaoke,{\k41}Pour {\k22}pou{\k38}voir {\k57}dan{\k14}ser{\k26} {\k20}et {\k41}chan{\k127}ter,
+Dialogue: 0,0:00:25.61,0:00:26.09,Default,,0,0,40,karaoke,{\k28}Chan{\k20}ter !
+Dialogue: 0,0:00:27.48,0:00:28.99,Default,,0,0,0,karaoke,{\k38}Nos {\k20}ba{\k20}guettes {\k20}sont {\k20}ma{\k33}giques
+Dialogue: 0,0:00:29.04,0:00:30.50,Default,,0,0,40,karaoke,{\k42}Nos {\k15}pou{\k24}voirs {\k17}fan{\k22}tas{\k26}tiques
+Dialogue: 0,0:00:30.75,0:00:32.55,Default,,0,0,0,karaoke,{\k27}Viens {\k19}a{\k21}vec {\k19}nous {\k21}t'a{\k39}mu{\k34}ser
+Dialogue: 0,0:00:32.57,0:00:33.19,Default 2,,0,0,0,karaoke,{\k21}Al{\k41}lez !
+Dialogue: 0,0:00:33.20,0:00:35.55,Default,,0,0,40,karaoke,{\k20}C'est {\k18}nous {\k23}Ma{\k17}gi{\k41}cal {\k75}Do{\k24}re{\k17}mi
+Dialogue: 0,0:00:35.77,0:00:37.28,Default,,0,0,0,karaoke,{\k19}On {\k20}peut {\k20}faire {\k22}des {\k18}tours {\k19}de {\k20}ma{\k13}gie
+Dialogue: 0,0:00:37.54,0:00:38.71,Default,,0,0,40,karaoke,{\k20}Et {\k20}des {\k39}p'tites {\k22}fo{\k16}lies
+Dialogue: 0,0:00:39.50,0:00:41.85,Default,,0,0,0,karaoke,{\k22}C'est {\k20}nous {\k19}Ma{\k21}gi{\k39}cal {\k78}Do{\k20}re{\k16}mi
+Dialogue: 0,0:00:42.09,0:00:43.61,Default,,0,0,40,karaoke,{\k19}On {\k21}peut {\k19}de{\k20}man{\k19}der {\k20}tout {\k19}c'qu'on {\k15}veut,
+Dialogue: 0,0:00:43.66,0:00:45.11,Default,,0,0,0,karaoke,{\k21}Oui {\k20}comme {\k19}c'est {\k19}beau {\k41}la {\k25}vie
+Dialogue: 0,0:00:45.79,0:00:47.21,Default,,0,0,40,karaoke,{\k23}Et {\k19}en {\k23}plus {\k19}on {\k58}danse,
+Dialogue: 0,0:00:47.21,0:00:48.79,Default,,0,0,0,karaoke,{\k59}Danse, {\k59}danse, {\k40}danse,
+Dialogue: 0,0:00:48.94,0:00:49.74,Default,,0,0,40,karaoke,{\k24}Quelle {\k19}am{\k37}biance !
+Dialogue: 0,0:00:50.18,0:00:51.00,Default,,0,0,0,karaoke,{\k21}Ve{\k18}nez {\k26}on {\k17}rit !
 
