@@ -26,14 +26,6 @@ Style: Default,Comic Book,65,&H00FF38CF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
 Dialogue: 0,0:00:08.20,0:00:14.87,Default,,0,0,0,karaoke,{\k24}Ri{\k49}sou {\k47}nan{\k47}te {\k44}gen{\k51}sou {\k46}tte {\k52}ji{\k51}da{\k46}i {\k210}de
 Dialogue: 0,0:00:15.87,0:00:22.03,Default,,0,0,0,karaoke,{\k27}A{\k46}na{\k47}ta {\k50}wa {\k48}do{\k49}ko {\k47}he {\k48}te {\k50}wo {\k46}no{\k43}ba{\k53}su {\k62}no
 Dialogue: 0,0:00:22.37,0:00:24.52,Default,,0,0,80,karaoke,{\k22}Tat{\k14}ta {\k21}hi{\k26}to{\k12}ri {\k120}de

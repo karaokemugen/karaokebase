@@ -51,16 +51,6 @@ Style: orange PT sherif - FILLES,PT Serif,65,&H0017A5FF,&H00E392F3,&H00000000,&H
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0, 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*100,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("start2syl",-1200+ci[2]/cn*100,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(7)!!retime("syl2end",$dur/12,200+(ci[7]/cn*100))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(8)!!retime("syl2end",$dur/12,200+(ci[8]/cn*100))!{\fad(0,150)\bord0\pos($x,$y)}
 Dialogue: 0,0:00:26.65,0:00:31.25,orange PT sherif - FILLES,,0,0,0,karaoke,{\k30}Ta{\k46}to {\k17}ta{\k27}na{\k22}ta {\k36}fo{\k71}law{\k56} {\k16}va{\k17}la {\k31}a{\k42}wi{\k49}na
 Dialogue: 0,0:00:31.51,0:00:36.16,orange PT sherif - FILLES,,0,0,72,karaoke,{\k33}Lé {\k33}tou {\k26}lé {\k31}sa{\k29}mi {\k32}té{\k171}lé {\k16}é {\k20}o{\k23}ma{\k51}i
 Dialogue: 0,0:00:36.50,0:00:39.26,orange PT sherif - FILLES,,0,0,0,karaoke,{\k10}Hou {\k19}on{\k29}va {\k11}é{\k16}lé{\k16}lu {\k13}i{\k21}ta{\k17}ou {\k11}é{\k14}lé{\k99}ley

@@ -28,18 +28,6 @@ Style: Default - Copier,SF Speedwaystar Condensed,40,&H002673E6,&H00FFFFFF,&H007
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:01.00,Inazuma,,0,0,0,code once,rr = { 0 }; math.randomseed( _G.os.time());
-Dialogue: 0,0:00:00.00,0:00:01.00,Inazuma,,0,0,0,code once,function randrot(ref) rr[ref] = (math.random()*700)+500; return "" end
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!randrot(syl.i)!!retime("start2syl",-2500,-50)!{\alpha&HFF&\t(300,500,\alpha&H00&)\bord3\c!line.styleref.color3!\move($x,!$y-100!,$x,$y,0,!rr[syl.i]!)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("start2syl",-2500,-50)!{\alpha&HFF&\t(300,500,\alpha&H00&)\bord0\c!line.styleref.color2!\move($x,!$y-100!,$x,$y,0,!rr[syl.i]!)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default - Copier,,0,0,0,template syl noblank,!randrot(syl.i)!!retime("start2syl",-2500,-50)!{\alpha&HFF&\t(300,500,\alpha&H00&)\bord3\c!line.styleref.color3!\move($x,!$y+100!,$x,$y,0,!rr[syl.i]!)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Default - Copier,,0,0,0,template syl noblank,!retime("start2syl",-2500,-50)!{\alpha&HFF&\t(300,500,\alpha&H00&)\bord0\c!line.styleref.color2!\move($x,!$y+100!,$x,$y,0,!rr[syl.i]!)\3c&H790EB4&}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\bord3\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 4,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 70 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\bord3\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 4,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\bord3\pos($x,$y)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
 Dialogue: 0,0:00:15.79,0:00:19.23,Default,,0,0,0,karaoke,{\k22}U{\k24}shi{\k23}na{\k24}u {\k22}ko{\k23}to {\k25}ga {\k45}ko{\k23}wa{\k46}ku{\k67}te
 Dialogue: 0,0:00:19.45,0:00:22.79,Default - Copier,,0,0,60,karaoke,{\k26}Ki{\k22}mo{\k24}chi {\k23}ka{\k24}ku{\k16}shi {\k27}tsu{\k67}zu{\k26}ke{\k79}te
 Dialogue: 0,0:00:23.39,0:00:28.42,Default,,0,0,0,karaoke,{\k46}Hi{\k23}to{\k71}ri {\k46}na{\k23}ya{\k47}n{\k45}de{\k202}ta

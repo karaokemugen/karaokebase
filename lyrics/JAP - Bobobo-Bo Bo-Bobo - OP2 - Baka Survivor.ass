@@ -26,20 +26,6 @@ Style: BAKA,Big_Bottom_Cartoon,270,&H000837FB,&H000837FB,&H0050FFFF,&H00000000,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:01.00,Inazuma,,0,0,0,code once,rr = { 0 }; math.randomseed( _G.os.time());
-Dialogue: 0,0:00:00.00,0:00:01.00,Inazuma,,0,0,0,code once,function randrot(ref) rr[ref] = (math.random()*720)-360; return "" end
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,BAKA,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,BAKA,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,BAKA,,0,0,0,template syl noblank,!randrot(syl.i)!!retime("syl2end",-50-$dur,$dur/3)!{\org(320,240)\c!line.styleref.color3!\fad(0,!$dur/3!)\t(\fs500\frz!rr[syl.i]!)\move($x,$y,320,-20,0,!$dur*4/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,BAKA,,0,0,0,template syl noblank,!retime("syl2end",-50-$dur,$dur/3)!{\org(320,240)\bord0\c!line.styleref.color2!\fad(0,!$dur/3!)\t(\fs500\frz!rr[syl.i]!)\move($x,$y,320,-20,0,!$dur*4/3!)}
 Dialogue: 0,0:00:00.66,0:00:01.10,Default,,0,0,0,karaoke,{\k44}Hai!
 Dialogue: 0,0:00:03.37,0:00:04.28,Default,,0,0,0,karaoke,{\k47}Ha! {\k44}Ha!
 Dialogue: 0,0:00:04.30,0:00:05.83,Default,,0,0,40,karaoke,{\k22}BA{\k23}KA {\k25}SUR{\k47}VI{\k36}VOR

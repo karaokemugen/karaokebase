@@ -22,11 +22,6 @@ Style: Default,MV Boli,80,&H0020E2FF,&H00CFF8FF,&H00000000,&H0000B5F0,-1,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code line all,ci = { 0, 0 }; cn = _G.unicode.len(orgline.text_stripped); pos = 40
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1000+ci[1]/cn*500,0)!{\alpha&HFF&\an5\1c!line.styleref.color2!\pos(!syl.center+line.left!,!pos+$margin_v!)\t(0,500,\alpha&H00&)}
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template multi all,!retime("syl",-1,0)!!relayer(1)!{\an5\k$kdur\pos(!syl.center+line.left!,!pos+$margin_v!)\alpha&HFF&\t(0,1,\alpha&H00&\fscx130\fscy130\1c!line.styleref.color4!)\t(0,$dur,\fscx100\fscy100\1c!line.styleref.color1!)}
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("syl2end",0,300+ci[2]/cn*300)!{\an5\pos(!syl.center+line.left!,!pos+$margin_v!)\t(!$ldur-$send+ci[2]/cn*300!,!$ldur-$send+ci[2]/cn*300+300!,\alpha&HFF&)}
 Dialogue: 0,0:00:08.53,0:00:15.47,Default,,0,0,0,karaoke,{\k22}a{\k22}shi{\k45}ta {\k91}mo {\k48}ko{\k22}u{\k22}shi{\k76}te{\k59} {\k24}ki{\k21}mi {\k24}no {\k46}so{\k26}ba {\k43}ni {\k44}i{\k59}te
 Dialogue: 0,0:00:16.23,0:00:22.13,Default,,0,0,80,karaoke,{\k23}o{\k24}na{\k23}ji {\k44}to{\k29}ki {\k62}wo {\k46}su{\k73}go{\k64}shi{\k23}te{\k22}i{\k67}ta{\k24}i {\k66}na
 Dialogue: 0,0:00:23.08,0:00:30.00,Default,,0,0,0,karaoke,{\k44}yuk{\k49}ku{\k88}ri {\k46}PA{\k17}#{\k29}GE {\k78}wo{\k51} {\k25}me{\k23}ku{\k25}ru {\k68}you{\k46}ni {\k46}nat{\k57}ta

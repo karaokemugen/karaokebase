@@ -26,14 +26,6 @@ Style: Kirby,Cooper Std Black,37,&H00C5C5FF,&H00BE7DE4,&H00000000,&H003A3A3A,-1,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,Kirby,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Kirby,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Kirby,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Kirby,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Kirby,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 3,0:00:00.00,0:00:00.00,Kirby,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 0,0:00:00.00,0:00:00.00,Kirby,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Kirby,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
 Dialogue: 0,0:00:17.19,0:00:22.56,Kirby,,0,0,0,karaoke,{\k91}Kir{\k86}by!{\k48} {\k44}Yu{\k46}me {\k44}no {\k63}TAM{\k31}BOU{\k84}RINE
 Dialogue: 0,0:00:23.46,0:00:29.76,Kirby,,0,0,60,karaoke,{\k34}Na{\k36}ra{\k20}shi {\k55}ha{\k30}{\k49}ji{\k28}me{\k27}you{\k35} {\k45}i{\k44}ma{\k24}su{\k203}gu
 Dialogue: 0,0:00:30.84,0:00:34.20,Kirby,,0,0,0,karaoke,{\k21}A{\k22}o{\k24}i {\k46}so{\k24}ra {\k17}mi{\k25}tsu{\k23}ke{\k23}ta {\k44}PINK {\k23}BAL{\k44}LOON

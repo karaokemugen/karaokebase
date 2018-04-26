@@ -35,16 +35,6 @@ Style: Ligne 1 - Bas,Arial,50,&H00E0A862,&H00FFFFFF,&H00000000,&H00000000,-1,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0, 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*600,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("start2syl",-1200+ci[2]/cn*600,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/8)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/8)!,0,!$dur/3!)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/8)!,$x,!$y!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/8)!,$x,!$y!,0,!$dur/3!)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(7)!!retime("syl2end",$dur/12,200+(ci[7]/cn*600))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(8)!!retime("syl2end",$dur/12,200+(ci[8]/cn*600))!{\fad(0,150)\bord0\pos($x,$y)}
 Dialogue: 0,0:00:21.67,0:00:26.07,Ligne 1,,0,0,0,karaoke,{\k17}ka{\k47}mi{\k19}sa{\k33}ma {\k18}no {\k19}ko{\k64}e {\k15}ku{\k34}u{\k19}ki{\k31}ri{\k34}ki{\k30}ga{\k60}ku
 Dialogue: 0,0:00:26.30,0:00:31.74,Ligne 2,,0,0,0,karaoke,{\k19}GI{\k31}RI{\k19}GI{\k19}RI {\k61}no {\k32}ba{\k18}sho {\k19}ni {\k29}ta{\k50}chi {\k34}mi{\k17}a{\k34}ge{\k31}ru {\k32}se{\k18}ka{\k20}i {\k61}de
 Dialogue: 0,0:00:32.13,0:00:36.69,Ligne 1,,0,0,0,karaoke,{\k29}u{\k48}ma{\k18}re{\k33}ta {\k17}ko{\k15}to{\k62}ba {\k21}so{\k33}ra {\k18}wo {\k32}u{\k29}me{\k35}tsu{\k16}ku{\k17}su {\k33}yo

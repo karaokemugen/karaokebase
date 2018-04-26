@@ -35,16 +35,6 @@ Style: Ligne 1 - Bas,Arial,50,&H00E0A862,&H00FFFFFF,&H00000000,&H00000000,-1,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0, 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*600,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("start2syl",-1200+ci[2]/cn*600,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(7)!!retime("syl2end",$dur/12,200+(ci[7]/cn*600))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(8)!!retime("syl2end",$dur/12,200+(ci[8]/cn*600))!{\fad(0,150)\bord0\pos($x,$y)}
 Dialogue: 0,0:00:13.41,0:00:19.28,Ligne 1,,0,0,0,karaoke,{\k33}kyo{\k28}shi{\k23}tsu {\k31}no{\k48} {\k16}ma{\k16}do{\k16}go{\k20}shi {\k28}ni{\k56} {\k29}bon'{\k30}ya{\k17}ri {\k33}to{\k37} {\k25}so{\k19}ra {\k21}ni {\k21}to{\k40}u
 Dialogue: 0,0:00:19.63,0:00:25.46,Ligne 2,,0,0,0,karaoke,{\k40}nan {\k20}no {\k23}ta{\k37}me{\k37} {\k18}bo{\k21}ku {\k19}wa {\k37}i{\k21}ki{\k40}te {\k21}i{\k17}ru {\k54}no {\k21}wa{\k39}kan{\k41}nai {\k77}yo
 Dialogue: 0,0:00:25.65,0:00:31.67,Ligne 1,,0,0,0,karaoke,{\k41}shi{\k18}ri{\k18}ta{\k20}i {\k35}to{\k44} {\k16}o{\k18}mo{\k18}wa{\k26}na{\k26}i{\k49} {\k20}ko{\k20}to {\k18}ba{\k22}ka{\k34}ri{\k37} {\k19}ma{\k23}na{\k16}ba{\k20}sa{\k44}re

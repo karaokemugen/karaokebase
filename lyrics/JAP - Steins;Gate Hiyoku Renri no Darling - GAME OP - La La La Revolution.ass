@@ -26,19 +26,6 @@ Style: Default,rainyhearts,30,&H00BF8500,&H00C347FF,&H00FFFFFF,&H5A000000,-1,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:01.00,Inazuma,,0,0,0,code once,rr = { 0 }; math.randomseed( _G.os.time());
-Dialogue: 0,0:00:00.00,0:00:01.00,Inazuma,,0,0,0,code once,function randrot(ref) rr[ref] = (math.random()*15)-7.5; return "" end
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord3\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\pos($x,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!randrot(syl.i)!!retime("syl",-50,-50-$dur/4)!{\org($center,$middle)\fad(!$dur/3!,0)\c!line.styleref.color1!\3c!line.styleref.color2!\bord6\t(0,!$dur/3!,\frz!rr[syl.i]!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\org($center,$middle)\c!line.styleref.color3!\bord3\t(0,!$dur/3!,\frz!rr[syl.i]!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 4,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\org($center,$middle)\bord0\c!line.styleref.color2!\t(0,!$dur/3!,\frz!rr[syl.i]!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\org($center,$middle)\c!line.styleref.color1!\3c!line.styleref.color2!\bord6\frz!rr[syl.i]!\t(0,!$dur/3!,\frz0)\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\org($center,$middle)\c!line.styleref.color3!\bord3\frz!rr[syl.i]!\t(0,!$dur/3!,\frz0)\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\org($center,$middle)\bord0\c!line.styleref.color2!\frz!rr[syl.i]!\t(0,!$dur/3!,\frz0)\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord6\c!line.styleref.color1!\3c!line.styleref.color2!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord3\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\c!line.styleref.color2!\pos($x,$y)}
 Dialogue: 0,0:00:05.04,0:00:08.04,Default,,0,0,0,karaoke,{\k39}Dar{\k37}ling {\k19}Dar{\k37}ling {\k37}Dar{\k34}ling {\k37}Chu! {\k20}Chu! {\k40}Chu!
 Dialogue: 0,0:00:08.04,0:00:10.85,Default,,0,0,60,karaoke,{\k38}Dar{\k39}ling {\k17}Dar{\k39}ling {\k36}Dar{\k37}ling {\k35}Yeah! {\k40}Yeah!
 Dialogue: 0,0:00:11.06,0:00:14.04,Default,,0,0,0,karaoke,{\k39}Dar{\k37}ling {\k19}Dar{\k37}ling {\k37}Dar{\k34}ling {\k37}Chu! {\k20}Chu! {\k40}Chu!

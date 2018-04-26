@@ -28,11 +28,6 @@ Style: Neptunia,Segoe Print,70,&H00F079D9,&H00FFFFFF,&H00000000,&H00000000,-1,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code line all,ci = { 0, 0 }; cn = _G.unicode.len(orgline.text_stripped); dim = 1080; pos = 40
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-500+ci[1]/cn*300,0)!{\alpha&HFF&\an5\1c!line.styleref.color2!\pos(!syl.center+line.left!,!line.middle!)\t(0,300,\alpha&H00&)}
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template all,!retime("syl",0,0)!!relayer(1)!{\an5\k$kdur\pos(!syl.center+line.left!,!line.middle!)\t(0,1,\fscx130\fscy130)\t(0,!($ldur > $end) and $dur or ($dur-300-(cn-ci[2])/cn*300)!,\fscx!130-(($ldur > $end) and 30 or (30/$dur)*($dur-300-(cn-ci[2])/cn*300))!\fscy!130-(($ldur > $end) and 30 or (30/$dur)*($dur-300-(cn-ci[2])/cn*300))!\alpha&H99&)\t(!($ldur > $end) and $dur or $dur-300-(cn-ci[2])/cn*300!,$dur,\fscx100\fscy100\alpha&HFF&)}
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("syl2end",($ldur == $end) and (-(cn-ci[2])/cn*300) or 0,-(cn-ci[2])/cn*300)!{\an5\pos(!syl.center+line.left!,!line.middle!)\alpha&H99&\t(!(line.duration > 300) and line.duration-300 or 0!,!(line.duration > 0) and line.duration or 0!,\alpha&HFF&)}
 Dialogue: 0,0:00:01.78,0:00:09.93,Neptunia,,0,0,0,karaoke,{\k48}De{\k16}n{\k34}se{\k39}tsu{\k11} {\k23}te{\k27}ki {\k47}na{\k23} {\k54}ma{\k49}o{\k46}u {\k61}ga{\k35} {\k49}ko{\k51}u{\k25}ri{\k42}n {\k57}shi{\k78}ta
 Dialogue: 0,0:00:10.87,0:00:15.84,Neptunia,,0,0,0,karaoke,{\k49}Ki{\k41}mi {\k52}mo {\k48}i{\k41}s{\k57}sho {\k209}ni
 Dialogue: 0,0:00:16.29,0:00:21.85,Neptunia,,0,0,0,karaoke,{\k29}To{\k42}bi{\k30}ko{\k22}mo{\k433}u

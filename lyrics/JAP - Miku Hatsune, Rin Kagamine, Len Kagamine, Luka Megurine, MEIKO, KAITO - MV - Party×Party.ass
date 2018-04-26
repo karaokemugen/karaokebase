@@ -38,11 +38,6 @@ Style: Choeurs,PetitaMedium,50,&H00FF00B6,&H00FF85DC,&H00000000,&H00000000,0,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code line all,ci = { 0, 0 }; cn = _G.unicode.len(orgline.text_stripped); dim = 1080; pos = 40
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-500+ci[1]/cn*300,0)!{\alpha&HFF&\an5\1c!line.styleref.color2!\pos(!syl.center+line.left!,!line.middle!)\t(0,300,\alpha&H00&)}
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template all,!retime("syl",0,0)!!relayer(1)!{\an5\k$kdur\pos(!syl.center+line.left!,!line.middle!)\t(0,1,\fscx130\fscy130)\t(0,!($ldur > $end) and $dur or ($dur-300-(cn-ci[2])/cn*300)!,\fscx!130-(($ldur > $end) and 30 or (30/$dur)*($dur-300-(cn-ci[2])/cn*300))!\fscy!130-(($ldur > $end) and 30 or (30/$dur)*($dur-300-(cn-ci[2])/cn*300))!\alpha&H99&)\t(!($ldur > $end) and $dur or $dur-300-(cn-ci[2])/cn*300!,$dur,\fscx100\fscy100\alpha&HFF&)}
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("syl2end",($ldur == $end) and (-(cn-ci[2])/cn*300) or 0,-(cn-ci[2])/cn*300)!{\an5\pos(!syl.center+line.left!,!line.middle!)\alpha&H99&\t(!(line.duration > 300) and line.duration-300 or 0!,!(line.duration > 0) and line.duration or 0!,\alpha&HFF&)}
 Dialogue: 0,0:00:23.68,0:00:25.68,Miku,,0,0,0,karaoke,
 Dialogue: 0,0:00:27.68,0:00:31.43,Miku,,0,0,0,karaoke,{\k14}Tsu{\k30}ki{\k16}a{\k25}ka{\k16}ri {\k17}ga {\k9}a{\k19}ya{\k27}shi{\k27}ku {\k15}sa{\k24}sou {\k47}yo{\k89}ru
 Dialogue: 0,0:00:31.97,0:00:35.86,Miku,,0,0,0,karaoke,{\k15}Ko{\k12}n{\k12}na {\k29}yo{\k19}ru {\k29}ni {\k10}o-{\k17}hi{\k10}to{\k24}ri-{\k12}bo{\k31}c{\k34}chi {\k11}wa {\k102}i{\k22}ya!

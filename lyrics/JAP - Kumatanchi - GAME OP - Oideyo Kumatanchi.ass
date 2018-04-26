@@ -26,20 +26,6 @@ Style: Default 2,AmateurComic,23,&H00009E1B,&H00FFFFFF,&H00000000,&H00000000,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos(!syl.center+line.left!,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template char noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template char noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos(!syl.center+line.left!,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,150)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,150)\bord0\pos(!syl.center+line.left!,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template char noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template char noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos(!syl.center+line.left!,$y)}
 Dialogue: 0,0:00:03.89,0:00:04.28,Default 2,,0,0,0,karaoke,{\k17}Ku{\k22}ma!
 Dialogue: 0,0:00:08.29,0:00:11.87,Default 2,,0,0,0,karaoke,{\k239}Uuuuuh {\k18}Ku{\k18}ma{\k35}tan {\k48}Chi!
 Dialogue: 0,0:00:12.69,0:00:14.82,Default,,0,0,0,karaoke,{\k19}Ku{\k18}ma{\k18}tan{\k65} {\k37}o{\k15}i{\k19}de{\k22}yo

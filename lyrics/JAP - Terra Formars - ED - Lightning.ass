@@ -26,14 +26,6 @@ Style: Default,Edo SZ,45,&H0066785A,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,10
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\t(0,!$dur/3!,\fscx130\fscy130)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 4,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\t(0,!$dur/3!,\fscx130\fscy130)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\fscx130\fscy130\t(0,!$dur/3!,\fscx100\fscy100)\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 4,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\fscx130\fscy130\t(0,!$dur/3!,\fscx100\fscy100)\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
 Dialogue: 0,0:00:10.20,0:00:14.95,Default,,0,0,0,karaoke,{\k18}I{\k58}ma {\k19}sa{\k18}ra {\k16}ne{\k15}ga{\k29}ou {\k33}to{\k32} {\k16}ki{\k47}ro {\k15}ni {\k16}mo{\k15}do{\k17}re {\k15}ga {\k17}shi{\k32}nain{\k47}da
 Dialogue: 0,0:00:15.25,0:00:19.96,Default,,0,0,65,karaoke,{\k17}Te {\k27}no{\k37} {\k13}to{\k18}do{\k14}ku {\k18}kyo{\k30}ri {\k34}de {\k31}sei{\k30}zei {\k33}wa{\k15}ru{\k14}a{\k16}ga{\k34}ki {\k16}shi{\k15}te{\k16}i{\k43}ke
 Dialogue: 0,0:00:20.30,0:00:24.84,Default,,0,0,0,karaoke,{\k20}Ma{\k37}da{\k22} {\k16}a{\k17}ma{\k15}i {\k17}yu{\k32}me {\k30}wo{\k33} {\k16}shi{\k15}n{\k31}ji{\k15}te{\k18}ta{\k8}ra {\k14}na{\k9}n{\k15}te {\k16}ma{\k33}sa{\k25}ka

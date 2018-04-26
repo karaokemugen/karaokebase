@@ -28,24 +28,6 @@ Style: Default,Cambria,60,&H00886748,&H00000000,&H00C1AD9D,&H00FFFFFF,-1,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code once,rc = { 0 }; math.randomseed( _G.os.time());
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code once,function randc(ref) rc[ref] = math.random(-2,2); return "" end
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function clignoteA(t, c, r) return "\\1a&HFF&\\t(".. t+c+r*80 ..",".. t+c+r*80 ..",\\1a&H00&)" end
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function clignoteB(t, c, r) return "\\t(".. t+c+r*80 ..",".. t+c+r*80 ..",\\1a&HFF&)\\t(".. 40+t+c+r*80 ..",".. 40+t+c+r*80 ..",\\1a&H00&)" end
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function clignote(t, c, r1, r2) return clignoteA(t, c, r1) .. clignoteB(t+40, c, r1) .. (r2 < 0 and "" or clignoteB(t+120, c, r1)) .. (r2 < 2 and "" or clignoteB(t+200, c, r1)) end
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char noblank,!char_counter(1)!!retime("start2syl",-1200,-50)!{\alpha&HFF&\t(!ci[1]*40!,!ci[1]*40!,\alpha&H00&)\c!line.styleref.color3!\3c!line.styleref.color3!\move($x,!ci[1] % 2 == 0 and $y+10 or $y-10!,$x,$y,!ci[1]*40!,!ci[1]*40+800!)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char noblank,!char_counter(2)!!randc(1)!!randc(2)!!retime("start2syl",-1200,-50)!{!clignote(320, ci[2]*80, rc[1], rc[2])!\bord0\c!line.styleref.color2!\move($x,!ci[2] % 2 == 0 and $y+10 or $y-10!,$x,$y,!ci[2]*40!,!ci[2]*40+800!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\3c!line.styleref.color3!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color4!\3c!line.styleref.color4!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 100) and $dur/12 or $lend - $lstart - $send + 100)!{\c!line.styleref.color4!\3c!line.styleref.color4!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 100) and $dur/12 or $lend - $lstart - $send + 100)!{\bord0\c!line.styleref.color1!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char noblank,!retime("syl2end",$dur/12,100)!{\c!line.styleref.color4!\3c!line.styleref.color4!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char noblank,!retime("syl2end",$dur/12,100)!{\bord0\c!line.styleref.color1!\pos($x,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char noblank,!char_counter(3)!!randc(ci[3])!!retime("postline",100,800)!{\c!line.styleref.color4!\3c!line.styleref.color4!\clip(!$x-40!,0,!$x+40!,720)\move($x,$y,$x,!$y+rc[ci[3]]*5!,0,160)\t(400,700,\clip(!$x+40!,0,!$x+40!,720))}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char noblank,!char_counter(4)!!retime("postline",100,800)!{\bord0\c!line.styleref.color1!\clip(!$x-40!,0,!$x+40!,720)\move($x,$y,$x,!$y+rc[ci[4]]*5!,0,160)\t(400,700,\clip(!$x+40!,0,!$x+40!,720))}
-Dialogue: 0,0:00:00.00,0:00:00.00,talk,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)\frx(10)\move(!$x+math.random(-50,50)!,$y,!$x+math.random(-50,50)!,$y}
 Dialogue: 0,0:00:07.63,0:00:10.67,Default,,0,0,0,karaoke,{\k63}O{\k22}to {\k34}mo {\k30}na{\k21}i {\k34}se{\k37}ka{\k18}i {\k45}ni
 Dialogue: 0,0:00:11.04,0:00:14.47,Default,,0,0,90,karaoke,{\k66}Ma{\k21}i{\k34}o{\k30}ri{\k24}ta {\k29}I {\k33}was {\k106}snow
 Dialogue: 0,0:00:25.64,0:00:27.30,talk,,0,0,0,karaoke,{\kf14}U{\kf12}mi{\kf16}da{\kf8}sa{\kf12}re{\kf10}te {\kf13}ka{\kf12}ra {\kf26}san{\kf27}nen{\kf16}kan,

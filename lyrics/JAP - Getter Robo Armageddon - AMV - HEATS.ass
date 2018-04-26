@@ -29,14 +29,6 @@ Style: Getter 2,Edo SZ,25,&H000000FF,&H0000F9FF,&H00000000,&H00000000,0,0,0,0,10
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,Getter,,0,0,0,template syl,!retime("start2syl",-900,0)!{\fad(300,0)\pos($x,$y)\c&H000000&}
-Dialogue: 2,0:00:00.00,0:00:00.00,Getter,,0,0,0,template syl,!relayer(syl.i*2)!!retime("syl",0,0)!{\c&H000000&\t(0,100,\fscx120\fscy120)\move($x,$y,$x,!$y-($height/12)!,0,100)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Getter,,0,0,0,template syl,!retime("syl2end",0,300)!{\fad(0,200)\c&H000000&\fscx120\fscy120\t(0,!$dur/4!,\fscx100\fscy100)\move($x,!$y-($height/12)!,$x,!$y!,0,!$dur/4!)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Getter,,0,0,0,template syl,!retime("start2syl",-900,0)!{\fad(300,0)\pos($x,$y)\3a&HFF&}
-Dialogue: 3,0:00:00.00,0:00:00.00,Getter,,0,0,0,template syl,!relayer(syl.i*2+1)!!retime("syl",0,0)!{\3a&HFF&\t(0,100,\c&H0000FF&\fscx120\fscy120)\move($x,$y,$x,!$y-($height/12)!,0,100)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Getter,,0,0,0,template syl,!retime("syl2end",0,300)!{\3a&HFF&\fad(0,200)\c&H0000FF&\fscx120\fscy120\t(0,!$dur/4!,\fscx100\fscy100)\move($x,!$y-($height/12)!,$x,!$y!,0,!$dur/4!)}
-Dialogue: 0,0:00:01.24,0:00:03.24,Getter 2,,0,0,0,template pre-line k90,!retime("line",$start < 900 and 0 or -900,200)!{!$start < 900 and "" or "\\k90"!\fad(!$start < 900 and 0 or 300!,200)}
-Dialogue: 0,0:00:03.24,0:00:03.24,Getter 2,,0,0,0,template line k90,{\kf$kdur}
 Dialogue: 0,0:00:02.98,0:00:06.89,Getter,,0,0,0,karaoke,{\k16}A{\k23}tsu{\k29}ku {\k26}na{\k38}re {\k24}yu{\k19}me {\k13}mi{\k36}ta {\k27}a{\k36}shi{\k51}ta {\k53}wo
 Dialogue: 0,0:00:07.18,0:00:09.89,Getter,,0,0,40,karaoke,{\k25}Ka{\k14}na{\k36}ra{\k18}zu {\k18}i{\k23}tsu{\k22}ka {\k24}tsu{\k33}ka{\k22}ma{\k16}e{\k20}ru
 Dialogue: 0,0:00:10.14,0:00:14.05,Getter,,0,0,0,karaoke,{\k22}Ha{\k25}shi{\k17}ri{\k27}da{\k24}se{\k20} {\k21}fu{\k20}ri{\k10}mu{\k32}ku {\k29}ko{\k44}to {\k45}na{\k55}ku

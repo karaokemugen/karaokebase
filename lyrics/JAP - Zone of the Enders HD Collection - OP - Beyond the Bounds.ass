@@ -29,31 +29,6 @@ Style: Eng,DAGGERSQUARE,65,&H0098E24B,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:01.00,Main,,0,0,0,code once,rc = { 0 };rc2 = { 0 };rc3 = { 0 }; math.randomseed( _G.os.time());
-Dialogue: 0,0:00:00.00,0:00:01.00,Main,,0,0,0,code once,function randc(ref) rc[ref] = math.random(-2,2); return "" end
-Dialogue: 0,0:00:00.00,0:00:01.00,Main,,0,0,0,code once,function randc2(ref) rc2[ref] = math.random(-2,2); return "" end
-Dialogue: 0,0:00:00.00,0:00:01.00,Main,,0,0,0,code once,function randc3(ref) rc3[ref] = math.random(-2,2); return "" end
-Dialogue: 0,0:00:00.00,0:00:00.00,Main,,0,0,0,code line all,ci = { 0, 0, 0, 0, 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Dialogue: 0,0:00:00.00,0:00:00.00,Main,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Dialogue: 0,0:00:00.00,0:00:00.00,Main,,0,0,0,code once,function clignoteA(t, c, r) return "\\1a&HFF&\\t(".. t+c+r*80 ..",".. t+c+r*80 ..",\\1a&H00&)" end
-Dialogue: 0,0:00:00.00,0:00:00.00,Main,,0,0,0,code once,function clignoteB(t, c, r) return "\\t(".. t+c+r*80 ..",".. t+c+r*80 ..",\\1a&HFF&)\\t(".. 40+t+c+r*80 ..",".. 40+t+c+r*80 ..",\\1a&H00&)" end
-Dialogue: 0,0:00:00.00,0:00:00.00,Main,,0,0,0,code once,function clignote(t, c, r1, r2) return clignoteA(t, c, r1) .. clignoteB(t+40, c, r1) .. (r2 < 0 and "" or clignoteB(t+120, c, r1)) .. (r2 < 2 and "" or clignoteB(t+200, c, r1)) end
-Dialogue: 0,0:00:00.00,0:00:00.00,Main,,0,0,0,template char noblank,!char_counter(1)!!retime("start2syl",-1200,-50)!{\alpha&HFF&\1c&H565656&\t(!ci[1]*40!,!ci[1]*40!,\alpha&H00&)\3c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Main,,0,0,0,template char noblank,!char_counter(2)!!randc(1)!!randc(2)!!retime("start2syl",-1200,-50)!{!clignote(320, ci[2]*34, rc[1], rc[2])!\bord0\c!line.styleref.color2!\pos($x,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Main,,0,0,0,template char noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\3c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Main,,0,0,0,template char noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Main,,0,0,0,template char noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 100) and $dur/12 or $lend - $lstart - $send + 100)!{\c!line.styleref.color3!\3c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Main,,0,0,0,template char noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 100) and $dur/12 or $lend - $lstart - $send + 100)!{\bord0\c!line.styleref.color1!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Main,,0,0,0,template char noblank,!retime("syl2end",$dur/12,600)!{\c!line.styleref.color4!\3c!line.styleref.color3!\pos($x,$y)\fad(0,200)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Main,,0,0,0,template char noblank,!retime("syl2end",$dur/12,600)!{\bord0\1c&H6FC70B&\pos($x,$y)\fad(0,200)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Eng,,0,0,0,template char,!char_counter(3)!!randc(ci[3])!!randc2(ci[3])!!randc3(ci[3])!!retime("start2syl",-1200+ci[3]/cn*600,-50)!{\fad(200,0)\c!line.styleref.color3!\move(!$x+(rc[ci[3]]*20)!,!$y+(rc2[ci[3]]*20)!,$x,$y,0,700)\frz!rc3[ci[3]]*10!\t(0,700,\frz0)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Eng,,0,0,0,template char,!char_counter(4)!!retime("start2syl",-1200+ci[4]/cn*600,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\move(!$x+(rc[ci[4]]*10)!,!$y+(rc2[ci[4]]*10)!,$x,$y,0,700)\frz!rc3[ci[4]]*10!\t(0,700,\frz0)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Eng,,0,0,0,template char,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Eng,,0,0,0,template char,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Eng,,0,0,0,template char,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Eng,,0,0,0,template char,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Eng,,0,0,0,template char,!char_counter(5)!!retime("syl2end",$dur/12,200+(ci[5]/cn*600))!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Eng,,0,0,0,template char,!char_counter(6)!!retime("syl2end",$dur/12,200+(ci[6]/cn*600))!{\fad(0,150)\bord0\pos($x,$y)}
 Dialogue: 0,0:00:55.04,0:00:56.89,Main,,0,0,0,karaoke,{\k15}Ra{\k20}nar {\k16}li{\k33}kul {\k15}vi{\k7}er{\k11}no{\k25}pa{\k10}lu {\k10}ka{\k23}ra
 Dialogue: 0,0:00:56.89,0:00:58.44,Main,,0,0,80,karaoke,{\k17}Ra{\k19}nar {\k16}li{\k29}kul {\k13}vi{\k9}er{\k12}no{\k40}pal
 Dialogue: 0,0:00:58.73,0:01:00.56,Main,,0,0,0,karaoke,{\k12}Le{\k24}nar {\k11}pa{\k29}nar {\k15}vi{\k12}ra{\k13}ke{\k23}ra{\k14}lu {\k11}ka{\k19}ra

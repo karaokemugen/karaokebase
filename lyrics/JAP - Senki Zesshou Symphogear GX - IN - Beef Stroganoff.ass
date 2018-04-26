@@ -27,14 +27,6 @@ Style: Default,Complete in Him,70,&H0037C7F7,&H00FFFFFF,&H00000000,&H00000000,-1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
 Dialogue: 0,0:00:06.53,0:00:12.25,Default,,0,0,0,karaoke,{\k18}Ho{\k18}n{\k12}ji{\k38}tsu {\k37}no {\k40}chou{\k23}ri {\k35}ji{\k17}shi{\k23}n {\k39}wa {\k13}BE{\k22}E{\k11}F {\k39}S{\k26}T{\k13}RO{\k25}GA{\k35}NO{\k88}FF
 Dialogue: 0,0:00:12.51,0:00:18.25,Default,,0,0,80,karaoke,{\k14}A{\k23}NI{\k14}ME {\k36}ya {\k37}MAN{\k38}GA {\k25}de {\k13}o{\k24}na{\k14}ji{\k24}mi {\k39}no {\k12}BE{\k24}E{\k13}F {\k36}S{\k28}T{\k12}RO{\k27}GA{\k35}NO{\k86}FF
 Dialogue: 0,0:00:18.51,0:00:21.49,Default,,0,0,0,karaoke,{\k14}Ta{\k24}ma{\k13}ne{\k36}gi {\k39}wa {\k24}ta{\k12}te {\k39}ni {\k23}fu{\k14}ta{\k27}tsu {\k11}gi{\k22}ri

@@ -24,16 +24,6 @@ Style: Default,Gabriola,110,&H00C968D3,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\c!line.styleref.color3!\pos(!syl.center+line.left!,!$y-20!)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\3a&HFF&\c!line.styleref.color2!\pos(!syl.center+line.left!,!$y-20!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move(!syl.center+line.left!,!$y-20!,!syl.center+line.left!,!$y-($height/12)-20!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("syl",-50,-50-$dur/4)!{\3a&HFF&\c!line.styleref.color2!\t(0,!$dur/3!,\c!line.styleref.color1!)\move(!syl.center+line.left!,!$y-20!,!syl.center+line.left!,!$y-($height/12)-20!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move(!syl.center+line.left!,!$y-($height/12)-20!,!syl.center+line.left!,!$y-20!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!retime("postsyl",-50-$dur/4,$dur/12)!{\3a&HFF&\move(!syl.center+line.left!,!$y-($height/12)-20!,!syl.center+line.left!,!$y-20!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,200)\c!line.styleref.color3!\pos(!syl.center+line.left!,!$y-20!)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,200)\3a&HFF&\pos(!syl.center+line.left!,!$y-20!)}
 Dialogue: 0,0:00:00.64,0:00:05.22,Default,,0,0,0,karaoke,{\k15}Se{\k18}ka{\k14}i {\k17}no {\k32}do {\k20}ma{\k26}n{\k16}na{\k30}ka {\k17}de {\k32}ki{\k15}mi {\k31}to {\k29}de{\k32}a{\k25}t{\k89}te
 Dialogue: 0,0:00:05.61,0:00:10.11,Default,,0,0,70,karaoke,{\k17}Ko{\k18}kyu{\k14}u {\k16}mo {\k28}de{\k20}ki{\k32}na{\k29}i {\k44}ku{\k39}ra{\k30}i {\k31}ni {\k28}na{\k20}t{\k84}te
 Dialogue: 0,0:00:10.63,0:00:14.60,Default,,0,0,0,karaoke,{\k16}Chi{\k17}i{\k12}sa{\k19}ku {\k31}to{\k17}ku{\k31}n {\k13}to{\k35}ku{\k17}n {\k27}to {\k21}ha{\k27}ji{\k33}ma{\k81}ru

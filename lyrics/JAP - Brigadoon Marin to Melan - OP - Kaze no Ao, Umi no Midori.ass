@@ -25,14 +25,6 @@ Style: Default,BlackChancery2,40,&H00F56F3D,&H00FFFFFF,&H00160304,&H00000000,-1,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
 Dialogue: 0,0:00:01.20,0:00:09.99,Default,,0,0,0,karaoke,{\k42}Ku{\k36}ro{\k40}ki {\k39}ha{\k38}te{\k38}shi {\k77}no {\k43}na{\k77}i, {\k18}ya{\k18}mi {\k119}no {\k55}ka{\k15}ze {\k44}wo {\k78}kii{\k36}ta{\k66}ra
 Dialogue: 0,0:00:10.45,0:00:21.21,Default,,0,0,60,karaoke,{\k75}Shi{\k42}ro{\k35}ki {\k35}e{\k45}i{\k120}en {\k105}no {\k45}hi{\k40}ka{\k39}ri {\k73}a{\k41}ru {\k41}no {\k32}u{\k39}mi {\k269}e
 Dialogue: 0,0:00:33.89,0:00:39.89,Default,,0,0,0,karaoke,{\k27}Na{\k29}na{\k23}i{\k28}ro {\k28}no {\k24}ka{\k55}ke{\k23}ha{\k32}shi,{\k23} {\k12}do{\k13}ko{\k26}ka {\k27}ni {\k26}ka{\k27}ku{\k37}sa{\k17}re{\k54}ta {\k21}ka{\k48}gi

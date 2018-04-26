@@ -29,11 +29,6 @@ Style: Miku,Berlin Sans FB,50,&H00FFFF00,&H00FFFEDC,&H00000000,&H00000000,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code line all,ci = { 0, 0 }; cn = _G.unicode.len(orgline.text_stripped); dim = 1080; pos = 40
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-500+ci[1]/cn*300,0)!{\alpha&HFF&\an5\1c!line.styleref.color2!\pos(!syl.center+line.left!,!line.middle!)\t(0,300,\alpha&H00&)}
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template all,!retime("syl",0,0)!!relayer(1)!{\an5\k$kdur\pos(!syl.center+line.left!,!line.middle!)\t(0,1,\fscx130\fscy130)\t(0,!($ldur > $end) and $dur or ($dur-300-(cn-ci[2])/cn*300)!,\fscx!130-(($ldur > $end) and 30 or (30/$dur)*($dur-300-(cn-ci[2])/cn*300))!\fscy!130-(($ldur > $end) and 30 or (30/$dur)*($dur-300-(cn-ci[2])/cn*300))!\alpha&H99&)\t(!($ldur > $end) and $dur or $dur-300-(cn-ci[2])/cn*300!,$dur,\fscx100\fscy100\alpha&HFF&)}
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("syl2end",($ldur == $end) and (-(cn-ci[2])/cn*300) or 0,-(cn-ci[2])/cn*300)!{\an5\pos(!syl.center+line.left!,!line.middle!)\alpha&H99&\t(!(line.duration > 300) and line.duration-300 or 0!,!(line.duration > 0) and line.duration or 0!,\alpha&HFF&)}
 Dialogue: 0,0:00:15.36,0:00:17.36,Miku,,0,0,0,karaoke,
 Dialogue: 0,0:00:17.36,0:00:22.48,Miku,,0,0,0,karaoke,{\k17}Na{\k18}ma{\k31}e {\k19}mo {\k20}ka{\k31}o {\k15}mo {\k22}shi{\k30}ra{\k22}na{\k13}i {\k33}ki{\k22}mi {\k18}ni {\k36}a{\k31}i {\k32}ni {\k31}yu{\kf71}ku
 Dialogue: 0,0:00:22.81,0:00:27.95,Miku,,0,0,0,karaoke,{\k18}Ya{\k16}sa{\k35}shii {\k18}hi{\k19}to {\k32}na{\k20}no {\k17}ka{\k29}na {\k24}su{\k16}de {\k28}ni {\k23}sa{\k19}i{\k37}bo{\k30}o{\k32}gu {\k32}ka{\kf69}na

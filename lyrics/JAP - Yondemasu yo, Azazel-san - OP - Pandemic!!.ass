@@ -28,16 +28,6 @@ Style: Default,Big_Bottom_Cartoon,90,&H000076F1,&H00FCFCFC,&H00031F53,&H00000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code line,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,0)!{\fad(200,0)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,0)!{\fad(200,0)\3a&HFF&\c!line.styleref.color2!\pos(!syl.center+line.left!,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char,!retime("syl",0,-$dur/4)!{\c!line.styleref.color3!\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/8)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char,!retime("syl",0,-$dur/4)!{\3a&HFF&\c!line.styleref.color2!\t(0,!$dur/3!,\c!line.styleref.color1!)\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/8)!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char,!retime("postsyl",-$dur/4,$dur/12)!{\c!line.styleref.color3!\move(!syl.center+line.left!,!$y-($height/8)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template char,!retime("postsyl",-$dur/4,$dur/12)!{\3a&HFF&\move(!syl.center+line.left!,!$y-($height/8)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template char,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,200)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template char,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,250)\3a&HFF&\pos(!syl.center+line.left!,$y)}
 Dialogue: 0,0:00:05.67,0:00:08.26,Default,,0,0,0,karaoke,{\k16}T{\k16}R{\k34}A{\k16}P {\k25}ha{\k11}tsu{\k33}dou {\k33}Pa{\k17}n{\k17}de{\k41}mic!!
 Dialogue: 0,0:00:08.65,0:00:10.52,Default,,0,0,70,karaoke,{\k35}O{\k17}i{\k33}de{\k36}ma{\k66}se
 Dialogue: 0,0:00:11.00,0:00:13.61,Default,,0,0,0,karaoke,{\k20}De{\k16}mo{\k29}ni{\k22}sh {\k38}Wi{\k28}sh {\k32}Ma{\k18}gi{\k17}ca{\k18}l {\k23}de

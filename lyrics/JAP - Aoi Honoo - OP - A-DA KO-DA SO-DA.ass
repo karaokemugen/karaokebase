@@ -32,11 +32,7 @@ Style: Kana,Arial,48,&H00DBE5EA,&H0058C1C0,&H003B20AB,&H00B67C3D,0,0,0,0,100,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl,!retime("preline", -500,500)!{\pos($center,$middle)\an5\fscx0\fscy0\c&HDEDEDE&\t(!250/$syln*($si-1)!,!250/$syln*$si+250!,\fscx82.3\fscy100)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl,{\pos($center,$middle)\an5\k!syl.start_time/10!\k$kdur\c&HDEDEDE&\t(!$start-1000!,!$start!,\3c&H9B413D&)\t(!$start!,!$start+1!,\3c&H000000&)\t(!$end-1!,$end,\3c&H9B413D&)\t(!$end!,!$end+1000!,\3c&H4A5011&)\t(!$ldur-501!,!$ldur-500!,\alpha&HFF&)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl,!retime("postline", -500,100)!{\pos($center,$middle)\c&HDEDEDE&\3c&H9B413D&\an5\fscx82.3\fscy100\t(!250/$syln*($si-1)!,!250/$syln*$si+250!,\fscx0\fscy0)\t(!500-$ldur+$end-$kdur*10-1000!,!500-$ldur+$end-$kdur*10!,\3c&H9B413D&)\t(!500-$ldur+$end-$kdur*10!,!(500-$ldur+$end-$kdur*10)+1!,\3c&H000000&)\t(!500-$ldur+$end-1!,!500-$ldur+$end!,\3c&H9B413D&)\t(!500-$ldur+$end!,!500-$ldur+$end+1000!,\3c&H4A5011&)}
 Dialogue: 0,0:00:00.00,0:00:00.00,ja,,0,0,0,template,!retime("start2syl",0,0)!{\an5\pos($center,$middle)\fad(300,0)}
-Dialogue: 1,0:00:00.00,0:00:00.00,ja,,0,0,0,template multi,!retime("syl",0,0)!{\an5\pos($center,$middle)\t(0,30,\fscx120\fscy120\1c&H00FEF0&\3c&HFFFFFF&)\t(30,$dur,\fscx100\fscy100\1c!line.styleref.color1!\3c!line.styleref.color3!)}
 Dialogue: 0,0:00:00.00,0:00:00.00,ja,,0,0,0,template,!retime("syl2end",0,0)!{\an5\pos($center,$middle)\fad(0,300)}
 Dialogue: 0,0:00:04.61,0:00:08.99,ja,,0,0,0,karaoke,{\k100}{\k71}A {\k65}DA {\k71}KO {\k59}DA {\k58}SO {\k14}DA
 Dialogue: 0,0:00:08.31,0:00:11.89,Default,,0,0,100,karaoke,{\k100}{\k11}do{\k11}sha{\k13}bu{\k15}ri {\k36}no {\k32}a{\k21}me {\k16}no {\k21}na{\k32}ka{\k50}

@@ -28,15 +28,6 @@ Style: Default 2,Edo SZ,80,&H001F19FF,&H0000FFEB,&H00000000,&H00000000,0,-1,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default 2,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,300)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)\move(!$x+($dur+1200)/20!,$y,!$x-($dur+1200)/20!,$y,0,!$dur+1200!)}
 Dialogue: 0,0:00:12.21,0:00:18.04,Default,,0,0,0,karaoke,{\k21}Shi{\k19}ro{\k40}i{\k53} {\k37}MA{\k20}T {\k47}no{\k99} {\k79}JUN{\k37}G{\k37}LE {\k94}ni
 Dialogue: 0,0:00:18.21,0:00:23.92,Default,,0,0,110,karaoke,{\k40}Kyou {\k47}mo{\k46} {\k20}a{\k14}ra{\k22}shi {\k57}ga{\k56} {\k18}fu{\k20}ki{\k75}a{\k74}re{\k82}ru
 Dialogue: 0,0:00:24.59,0:00:27.23,Default,,0,0,0,karaoke,{\k57}RU{\k20}LE {\k19}mu{\k37}you {\k19}no {\k35}ak'{\k21}to{\k18}u {\k38}ni

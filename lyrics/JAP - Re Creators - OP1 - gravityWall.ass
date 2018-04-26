@@ -26,14 +26,6 @@ Style: Default,Gunplay,55,&H000019FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
 Dialogue: 0,0:00:09.39,0:00:12.98,Default,,0,0,0,karaoke,{\k12}Ma{\k13}chi{\k14}ga{\k13}e{\k9}ru{\k15}shi {\k26}kan{\k27}jou {\k13}mo {\k32}nai {\k7}u{\k11}wa{\k13}me{\k27}sen {\k14}mo {\k28}mat' {\k21}e{\k14}ra{\k50}ku
 Dialogue: 0,0:00:13.37,0:00:16.83,Default,,0,0,80,karaoke,{\k25}Ha{\k14}ki{\k14}su{\k22}te{\k8}ru {\k16}a{\k16}i{\k21}go{\k18}to {\k26}ni {\k11}ne{\k27}ta{\k14}mi {\k25}to {\k13}tsu{\k25}nai{\k13}de{\k38}ru
 Dialogue: 0,0:00:17.60,0:00:21.27,Default,,0,0,0,karaoke,{\k10}Bu{\k16}tsu{\k34}ri {\k18}ki {\k12}ni {\k12}sh'{\k14}te{\k12}ru {\k14}ho{\k37}do {\k52}mi{\k25}e{\k45}nai {\k45}sou{\k21}i

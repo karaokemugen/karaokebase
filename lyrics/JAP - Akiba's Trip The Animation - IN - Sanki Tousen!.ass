@@ -31,14 +31,6 @@ Style: Default all,Comic Book,55,&H00F7AF2C,&H00FFFFFF,&H00000000,&H00000000,-1,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
 Dialogue: 0,0:00:13.33,0:00:15.70,Default 3,,0,0,0,karaoke,{\k21}Chuu{\k15}ou{\k19}doo{\k7}ri {\k9}me{\k16}za{\k20}shi{\k17} {\k36}den{\k17}ki {\k19}gai{\k9}gu{\k8}chi {\k24}e
 Dialogue: 0,0:00:16.15,0:00:18.63,Default 2,,0,0,80,karaoke,{\k10}Ho{\k10}ko{\k17}ten {\k18}na{\k16}ra {\k18}LU{\k21}CKY{\k14} {\k9}PA{\k10}T{\k16}RO{\k15}L {\k21}shi{\k18}ma{\k35}sho
 Dialogue: 0,0:00:18.97,0:00:21.43,Default 3,,0,0,0,karaoke,{\k14}Go{\k6}ku{\k17}sei {\k19}no {\k7}ma{\k9}chi{\k18}na{\k17}mi{\k18} {\k9}zo{\k9}ku{\k18}sei {\k10}go{\k7}cha{\k19}ma{\k17}ze{\k32}ta

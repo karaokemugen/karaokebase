@@ -26,11 +26,6 @@ Style: Default,Narkisim,60,&H00FE7924,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code line all,ci = { 0, 0, 0, 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,0)!{\fad(300,0)\1c!line.styleref.color2!\pos(!syl.center+line.left!,$y)}
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(2)!!retime("syl2end",-$dur,200+(ci[2]*200/cn))!{\fad(0,300)\1c!line.styleref.color1!\pos(!syl.center+line.left!,$y)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all,!retime("syl",0,$dur < 350 and 350 or $dur)!{\bord0\c&HFFFFFF&\alpha&H00&\t(!$dur/2!,!$dur < 350 and 700 or $dur*2!,\blur10\alpha&HFF&)\move($x,$y,!$x+math.random(-10,0)!,!$y-$height!,0,!$dur < 350 and 700 or $dur*2!)}
 Dialogue: 0,0:00:00.14,0:00:01.06,Default,,0,0,0,karaoke,{\k92}Rei
 Dialogue: 0,0:00:01.06,0:00:02.74,Default,,0,0,90,karaoke,{\k19}Ha{\k12}ji{\k29}ma{\k27}ri {\k26}ni {\k55}mo
 Dialogue: 0,0:00:03.26,0:00:04.88,Default,,0,0,0,karaoke,{\k28}O{\k31}wa{\k28}ri {\k24}ni {\k51}mo

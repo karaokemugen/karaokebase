@@ -30,14 +30,6 @@ Style: Default 2,KG Ray of Sunshine,40,&H0000D2FF,&H00FFFFFF,&H00000000,&H000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move($x,$y,$x,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\c!line.styleref.color3!\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("postsyl",-50-$dur/4,($lstart + $send + ($dur/12)) < ($lend + 200) and $dur/12 or $lend - $lstart - $send + 200)!{\bord0\move($x,!$y-($height/6)!,$x,!$y!,0,!$dur/3!)!($lstart + $end + $dur/12) < ($lend + 200) and "" or "\\fad(0,150)"!}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",$dur/12,200)!{\fad(0,150)\bord0\pos($x,$y)}
 Dialogue: 0,0:00:14.65,0:00:19.77,Default,,0,0,0,karaoke,{\k52}Wa{\k16}ta{\k50}shi {\k19}ku{\k52}no{\k17}i{\k33}chi{\k35} {\k33}NI{\k35}NI{\k34}N {\k22}ga {\k28}SHI{\k17}NO{\k17}BU {\k18}de{\k34}su
 Dialogue: 0,0:00:20.10,0:00:25.22,Default,,0,0,60,karaoke,{\k35}Mi{\k34}na{\k34}ra{\k21}i {\k33}da{\k36}ke{\k30}do {\k17}ni{\k16}n{\k19}ja {\k33}no {\k34}mi{\k35}chi {\k16}wo {\k36}ma{\k12}s{\k24}shi{\k13}gu{\k34}ra
 Dialogue: 0,0:00:25.57,0:00:30.73,Default,,0,0,0,karaoke,{\k51}Ma{\k17}na{\k35}bou{\k17} {\k16}ni{\k51}n{\k18}po{\k34}u{\k33} {\k35}kyo{\k34}u {\k32}ko{\k21}so {\k30}ta{\k19}i{\k33}hen{\k40}shin

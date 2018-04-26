@@ -26,16 +26,6 @@ Style: Default,Hobo Std,16,&H00CD5F3A,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.20,0:00:00.20,Default,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Dialogue: 0,0:00:00.20,0:00:00.20,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Dialogue: 0,0:00:00.20,0:00:00.20,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
-Dialogue: 1,0:00:00.20,0:00:00.20,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos(!syl.center+line.left!,$y)}
-Dialogue: 0,0:00:00.20,0:00:00.20,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.20,0:00:00.20,Default,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.20,0:00:00.20,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.20,0:00:00.20,Default,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.20,0:00:00.20,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,150)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
-Dialogue: 1,0:00:00.20,0:00:00.20,Default,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,150)\bord0\pos(!syl.center+line.left!,$y)}
 Dialogue: 0,0:00:08.56,0:00:11.87,Default,,0,0,0,karaoke,{\k23}Cou{\k24}pant {\k25}comme {\k23}u{\k21}ne {\k27}la{\k22}me, {\k23}ra{\k25}pide {\k27}com{\k23}me {\k15}l'é{\k53}clair
 Dialogue: 0,0:00:12.39,0:00:15.69,Default,,0,0,30,karaoke,{\k24}Ceux {\k25}qui {\k19}vou{\k25}draient {\k27}me {\k24}sui{\k24}vre {\k25}ils {\k21}sont {\k24}tous {\k25}loin {\k24}der{\k43}rière
 Dialogue: 0,0:00:16.22,0:00:19.87,Default,,0,0,0,karaoke,{\k25}Je {\k24}suis {\k23}So{\k19}nic {\k31}l'é{\k20}lec{\k15}tro{\k35}nique, {\k22}je {\k26}suis {\k20}So{\k29}nic {\k21}su{\k26}per{\k14}so{\k15}nique

@@ -25,11 +25,6 @@ Style: Default 3,Segoe Print,120,&H00FFB286,&H00FFF3EB,&H00000000,&H00000000,-1,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!char_counter(1)!!retime("start2syl",-1000+ci[1]/cn*500,0)!{\alpha&HFF&\1c!line.styleref.color2!\pos(!syl.center+line.left!,$y)\t(0,500,\alpha&H00&)}
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template all,!retime("syl",0,$dur < 500 and -$dur+500 or 0)!!relayer(1)!{\k$kdur\pos(!syl.center+line.left!,$y)\1c&HFFFFFF&\2c&HFFFFFF&\3c&HFFFFFF&\4c&HFFFFFF&\blur5\t(0,!$dur < 500 and 500 or $dur!,\1c!line.styleref.color1!\2c!line.styleref.color2!\3c!line.styleref.color3!\4c!line.styleref.color4!\blur0)}
-Dialogue: 0,0:00:00.00,0:00:01.00,Default,,0,0,0,template char all,!retime("syl2end",0,$dur < 500 and 1300 - $dur or 800)!{\org(!syl.center+line.left!,!(line.valign=="top") and $y or (line.valign=="middle" and ($y-line.height/2) or ($y-line.height))!)\an8\move(!syl.center+line.left!,!(line.valign=="top") and $y or (line.valign=="middle" and ($y-line.height/2) or ($y-line.height))!,!syl.center+line.left+math.random(-5,5)!,!(line.valign=="top") and $y-line.height/4 or ($y-line.height*5/4)!,!line.end_time-line.start_time-800!,!line.end_time-line.start_time!)\t(!line.end_time-line.start_time-800!,!line.end_time-line.start_time!,\alpha&HFF&\fscx80\fscy80\fr!math.random(-20,20)!\blur3\3c!line.styleref.color2!\4c!line.styleref.color2!)}
 Dialogue: 0,0:00:11.10,0:00:11.82,Default 3,,0,0,0,karaoke,{\k37}Woo! {\k35}Woo!
 Dialogue: 0,0:00:11.82,0:00:13.95,Default 2,,0,0,0,karaoke,{\k38}ra{\k33}tta{\k20}tta {\k33}ra{\k36}tta{\k34}tta{\k19}tta
 Dialogue: 0,0:00:13.94,0:00:14.63,Default 3,,0,0,0,karaoke,{\k36}Woo! {\k33}Woo!

@@ -28,7 +28,6 @@ Style: Default2,MS Mincho,48,&H001A0FB5,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}
 Dialogue: 0,0:00:15.03,0:00:20.68,Default2,,0,0,0,karaoke,{\k17}o{\k16}to{\k21}ko {\k21}na{\k117}ra{\k175} {\k27}ta{\k21}ta{\k23}ka{\k127}u
 Dialogue: 0,0:00:22.20,0:00:26.40,Default2,,0,0,0,karaoke,{\k34}to{\k212}ki {\k31}ga {\k39}ku{\k104}ru
 Dialogue: 0,0:00:28.79,0:00:34.88,Default2,,0,0,0,karaoke,{\k39}ho{\k45}ko{\k41}ri {\k80}wo {\k44}{\k30}ma{\k18}mo{\k135}ru {\k18}{\k16}ta{\k20}me {\k123}ni
@@ -39,8 +38,6 @@ Dialogue: 0,0:00:55.85,0:01:02.89,Default2,,0,0,0,karaoke,{\k21}na{\k21}mi{\k43}
 Dialogue: 0,0:01:02.93,0:01:09.88,Default2,,0,0,0,karaoke,{\k20}ki{\k23}zu{\k131}tsu{\k18}i {\k18}de {\k33}shi{\k117}na{\k28}ya{\k20}ka {\k287}ni
 Dialogue: 0,0:01:10.32,0:01:23.24,Default2,,0,0,0,karaoke,{\k89}a{\k89}a{\k38} {\k45}o{\k21}to{\k48}ko {\k198}wa{\k40} {\k24}ha{\k88}chi{\k208}ri{\k26} {\k51}tsu{\k40}dzu{\k27}ke{\k260}ru
 Dialogue: 0,0:01:24.30,0:01:39.20,Default2,,0,0,0,karaoke,{\k100}a{\k83}a{\k35} {\k20}ji{\k19}n{\k33}se{\k45}i {\k195}to{\k41} {\k37}i{\k48}u {\k20}na {\k160}wo{\k51} {\k155}RA{\k74}RE {\k374}wo
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl furi,{\pos($center,$middle)\fad(200,200)\t(350,400,\fscx100\fscy100)\an5\pos($center,$middle)\1c&H1A0FB5&\4cH000000\3c&H000000&\t(100,!$dur+300!,\fscx100\fscy100)\fad(200,200)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl furi,{\pos($center,$middle)\fad(300,0)\t(350,400,\fscx100\fscy100)\pos($center,$middle)\fad(300,0)\an5\pos($center,$middle)\clip(!$left-line.styleref.outline!,!$top-line.styleref.outline!,!$right+line.styleref.outline!,!$bottom+line.styleref.outline!)\t($start,$end,\clip(!$right+line.styleref.outline!,!$top-line.styleref.outline!,!$right+line.styleref.outline!,!$bottom+line.styleref.outline!))\fad(0,300)\t(100,!$dur+300!,\fscx100\fscy100)\fad(200,200)\1c&HF5FAF7&\4cH000000\3a&H000000&}
 Dialogue: 0,0:00:13.83,0:00:20.48,Default,,0,0,0,karaoke,{\k100}{\k17}男|お{\k16}#|と{\k21}#|こ{\k21}な{\k117}ら{\k175}{\k27}闘|た{\k21}#|た{\k23}#|か{\k127}う
 Dialogue: 0,0:00:21.00,0:00:26.20,Default,,0,0,0,karaoke,{\k100}{\k34}時|お{\k212}#|き{\k31}が{\k39}来|く{\k104}る
 Dialogue: 0,0:00:27.59,0:00:34.68,Default,,0,0,0,karaoke,{\k100}{\k39}誇|ほ{\k45}#|こ{\k41}り{\k80}を{\k44}{\k30}守|ま{\k18}#|も{\k135}る{\k18}{\k16}た{\k20}め{\k123}に

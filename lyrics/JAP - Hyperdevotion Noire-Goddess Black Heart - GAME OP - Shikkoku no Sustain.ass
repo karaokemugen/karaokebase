@@ -28,16 +28,6 @@ Style: Neptunia,Segoe Print,40,&H00F079D9,&H00FFFFFF,&H00000000,&H00000000,-1,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,Neptunia,,0,0,0,code line all,ci = { 0 }; cn = _G.unicode.len(orgline.text_stripped)
-Dialogue: 0,0:00:00.00,0:00:00.00,Neptunia,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Dialogue: 0,0:00:00.00,0:00:00.00,Neptunia,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Neptunia,,0,0,0,template char all noblank,!char_counter(1)!!retime("start2syl",-1200+ci[1]/cn*200,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos(!syl.center+line.left!,$y)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Neptunia,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\c!line.styleref.color3!\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Neptunia,,0,0,0,template char all noblank,!retime("syl",-50,-50-$dur/4)!{\bord0\c!line.styleref.color2!\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)\move(!syl.center+line.left!,$y,!syl.center+line.left!,!$y-($height/6)!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Neptunia,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\c!line.styleref.color3!\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Neptunia,,0,0,0,template char all noblank,!retime("postsyl",-50-$dur/4,$dur/12)!{\bord0\move(!syl.center+line.left!,!$y-($height/6)!,!syl.center+line.left!,!$y!,0,!$dur/3!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Neptunia,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,150)\c!line.styleref.color3!\pos(!syl.center+line.left!,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Neptunia,,0,0,0,template char all noblank,!char_counter(1)!!retime("syl2end",$dur/12,200+(ci[1]/cn*200))!{\fad(0,150)\bord0\pos(!syl.center+line.left!,$y)}
 Dialogue: 0,0:00:35.04,0:00:40.18,Neptunia,,0,0,0,karaoke,{\k34}Ka{\k40}ke{\k14}ra {\k28}ho{\k21}do {\k43}no{\k39} {\k19}yu{\k34}u{\k34}ki {\k17}ku{\k17}re{\k18}ta{\k40}ra {\k41}so{\k20}re {\k26}de {\k14}i{\k15}i
 Dialogue: 0,0:00:40.45,0:00:45.53,Neptunia,,0,0,60,karaoke,{\k33}Ku{\k22}mo{\k27}ri{\k34}ga{\k14}ra{\k38}su{\k47} {\k19}ta{\k36}ta{\k34}ki {\k15}tsu{\k19}dzu{\k23}ke{\k29}ru {\k38}so{\k28}no{\k37}te {\k15}o
 Dialogue: 0,0:00:45.84,0:00:50.94,Neptunia,,0,0,0,karaoke,{\k33}ki{\k21}zu{\k27}da{\k38}ra{\k18}ke {\k45}ni{\k40} {\k15}sa {\k36}se {\k18}te{\k27}ru{\k31} {\k24}hi{\k32}ma {\k30}wa{\k28}na{\k30}i {\k17}no

@@ -34,11 +34,6 @@ Style: 漢字（右）,osaka_unicode,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:01.00,Romaji,,0,0,0,code line,ci = { 0, 0 }; cn = _G.unicode.len(orgline.text_stripped); pos = 40
-Dialogue: 0,0:00:00.00,0:00:01.00,Romaji,,0,0,0,code once,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Dialogue: 0,0:00:00.00,0:00:01.00,Romaji,,0,0,0,template char,!char_counter(1)!!retime("start2syl",-1000+ci[1]/cn*500,0)!{\alpha&HFF&\an5\1c!line.styleref.color2!\pos(!syl.center+line.left!,!pos+$margin_v!)\t(0,500,\alpha&H00&)}
-Dialogue: 0,0:00:00.00,0:00:01.00,Romaji,,0,0,0,template multi,!retime("syl",-1,0)!!relayer(1)!{\an5\k$kdur\pos(!syl.center+line.left!,!pos+$margin_v!)\alpha&HFF&\t(0,1,\alpha&H00&\fscx130\fscy130\1c!line.styleref.color4!)\t(0,$dur,\fscx100\fscy100\1c!line.styleref.color1!)}
-Dialogue: 0,0:00:00.00,0:00:01.00,Romaji,,0,0,0,template char,!char_counter(2)!!retime("syl2end",0,300+ci[2]/cn*300)!{\an5\pos(!syl.center+line.left!,!pos+$margin_v!)\t(!$ldur-$send+ci[2]/cn*300!,!$ldur-$send+ci[2]/cn*300+300!,\alpha&HFF&)}
 Dialogue: 0,0:00:13.94,0:00:20.43,Romaji,,0,0,0,karaoke,{\k37}a{\k33}su {\k21}na{\k42}n{\k43}te {\k44}mi{\k21}e{\k12}na{\k53}i{\k41} {\k31}da{\k33}ke {\k23}to {\k42}fu{\k43}mi{\k32}da{\k34}se{\k64}ru
 Dialogue: 0,0:00:20.64,0:00:27.28,Romaji,,0,0,80,karaoke,{\k10}ki{\k11}mi {\k31}to {\k33}ko{\k21}ko {\k64}de {\k21}de{\k34}a{\k31}t{\k65}ta{\k22} {\k20}i{\k64}mi {\k22}ga {\k36}a{\k29}ru {\k21}na{\k129}ra
 Dialogue: 0,0:00:27.68,0:00:34.14,Romaji,,0,0,0,karaoke,{\k35}te {\k30}wo {\k22}ha{\k43}na{\k44}shi{\k41}ta {\k23}a{\k9}to {\k56}mo{\k42} {\k32}no{\k33}ko{\k20}ru {\k30}nu{\k33}ku{\k23}mo{\k130}ri

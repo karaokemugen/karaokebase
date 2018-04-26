@@ -25,16 +25,6 @@ Style: Default,Cambria,40,&H00F1A6FF,&H003D21B1,&H00000000,&H00FFFFFF,-1,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord1.5\c!line.styleref.color4!\3c!line.styleref.color4!\pos($x,$y)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord0\c!line.styleref.color2!\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("start2syl",-900,-50)!{\fad(200,0)\bord3\3c!line.styleref.color2!\c!line.styleref.color2!\pos($x,$y)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,0)!{\bord1.5\c!line.styleref.color3!\3c!line.styleref.color4!\t(0,!$sdur < 50 and "0" or $dur/3!,\3c!line.styleref.color3!)\pos($x,$y)}
-Dialogue: 5,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,0)!{\bord0\c!line.styleref.color2!\pos($x,$y)\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl",-50,0)!{\bord3\3c!line.styleref.color2!\c!line.styleref.color2!\pos($x,$y)\t(0,!$sdur < 50 and "0" or $dur/3!,\c!line.styleref.color1!\3c!line.styleref.color1!)}
-Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank multi,!retime("syl",-50,($lstart + $send + $dur) < ($lend + 200) and $dur or $lend - $lstart - $send + 200)!{\1aHFF\3c!line.styleref.color1!\fad(0,200)\t(0,!50+$dur*2!,\fscx300\fscy300\blur2)\move($x,$y,$x,!$y-4*$height/3!,0,!50+$dur*2!)}
-Dialogue: 2,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",0,200)!{\fad(0,150)\bord1.5\c!line.styleref.color3!\pos($x,$y)}
-Dialogue: 3,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",0,200)!{\fad(0,150)\bord0\pos($x,$y)}
-Dialogue: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl all noblank,!retime("syl2end",0,200)!{\fad(0,150)\bord3\3c!line.styleref.color1!\pos($x,$y)}
 Dialogue: 0,0:00:04.36,0:00:08.27,Default,,0,0,0,karaoke,{\k20}To{\k17}ma{\k21}t{\k59}te {\k20}yu{\k55}ku {\k20}ko{\k58}ko{\k20}ro {\k101}ga
 Dialogue: 0,0:00:10.53,0:00:15.61,Default,,0,0,0,karaoke,{\k18}Na{\k20}tsu{\k19}ka{\k61}shi{\k20}i {\k58}o{\k19}mo{\k58}i{\k22}de {\k71}wo{\k49} {\k15}u{\k22}ba{\k38}t{\k18}te
 Dialogue: 0,0:00:16.78,0:00:20.63,Default,,0,0,0,karaoke,{\k21}Fu{\k19}ru{\k18}e{\k57}ru {\k19}yu{\k51}bi{\k25}sa{\k61}ki {\k18}ka{\k96}ra
