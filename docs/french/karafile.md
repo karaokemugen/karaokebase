@@ -145,7 +145,7 @@ N'ayez pas peur, tout n'est pas à remplir par vous-même (mais une grande parti
   - `LIVE` : Concerts.
   - `OP` : Opening d'un animé.
   - `MV` : Vidéo musicale (clips musicaux).
-- `order` : Numéro de l'opening/ending. Peut être vide.
+- `order` : Numéro de l'opening/ending. Doit être laissé vide si la série ne contient qu'un opening/ending.
 - `lang` : Indiquer le code ISO639-2B sur 3 caractères de la langue. Pour connaître la liste des langues de cette norme, consultez [l'article Wikipédia à son sujet](https://fr.wikipedia.org/wiki/Liste_des_codes_ISO_639-2) ! Par exemple, le code ISO639-2B du japonais est `jpn`.
 - `version` : Format du .kara (version 1)
 
