@@ -74,7 +74,7 @@ C'est bon, toutes vos lignes sont synchronisées au petits oignons ? Parfait, le
 
 **L'idée**, c'est d'afficher d'abord votre ligne de sous-titre en orange, puis de mettre les syllabes en blanc au rythme de la chanson. Pour ça, on va utiliser des **balises**, ou plus précisément des balises ***{\k}***. Si vous êtes un newbie complet en informatique, je vous laisse consulter la [page Wikipédia](https://fr.wikipedia.org/wiki/Langage_de_balisage) qui saura mieux vous définir que moi ce qu'est une balise.
 
-Chaque syllabe de nos lignes de Karaokés sera donc séparée par une balise {\kX}, où "X" est le nombre de centièmes de seconde s'écoulant avant l'affichage en orange de tout le texte suivant la balise, et ce jusqu'à la suivante (le cas échéant). Concrètement, ça signifie que ma première ligne de Karaoké va passer de "**akaku somatta rashinban**" à quelque chose comme ""**{\k92}{\k11}a{\k26}ka{\k19}ku {\k24}so{\k24}mat{\k23}ta {\k11}ra{\k23}shi{\k28}n{\k23}ba{\k13}n**".
+Chaque syllabe de nos lignes de Karaokés sera donc séparée par une balise {\kX}, où "X" est le nombre de centièmes de seconde s'écoulant avant l'affichage en orange de tout le texte suivant la balise, et ce jusqu'à la suivante (le cas échéant). Concrètement, ça signifie que ma première ligne de Karaoké va passer de "**akaku somatta rashinban**" à quelque chose comme ""**{\k11}a{\k26}ka{\k19}ku {\k24}so{\k24}mat{\k23}ta {\k11}ra{\k23}shi{\k28}n{\k23}ba{\k13}n**".
 
 **Ne prenez pas peur !** Je vous vois imaginer devoir mesurer avec minutie chaque centiseconde de chaque parole, mais n'ayez crainte : Aegisub dispose d'un **Assistant Karaoké** ! Et on va l'activer immédiatement en appuyant sur ![](../img_tutos/IcoKaraoke.PNG).
 
@@ -94,8 +94,6 @@ Quelques règles pour se faire :
 
 * On peut admettre que certaines syllabes sont parfois difficiles à distinguer les unes des autres. Ne pas hésiter, dans certains cas, à en englober deux d'un coup (ex : **"shin"** devrait être découpé en **"shi | n"** mais on peut admettre que non).
 
-* ***IMPORTANT :*** il faut placer une découpe tout au début de votre phrase pour représenter la seconde "d'attente" avant que votre phrase ne commence à être chantée. On y reviendra.
-
 *Allez, un petit exemple pour la route :* ![](../img_tutos/ExTimeK.PNG)
 
 Une fois que votre découpe vous satisfait, vous pouvez cliquer sur ![](../img_tutos/IcoTimeOK.PNG). En revanche, si vous vous trompez sur une seule découpe, vous êtes obligé d'effacer l'intégralité de la découpe de la ligne via ![](../img_tutos/IcoTimeNOK.PNG).
@@ -103,8 +101,6 @@ Une fois que votre découpe vous satisfait, vous pouvez cliquer sur ![](../img_t
 Une fois validé, vous voyez quelques changements sur l'interface : le découpage syllabique est effectué sur le spectre, là où vous l'avez effectué plus tôt, et des balises **{\k}** ont été générées avec des temps plus ou moins aléatoires.
 
 ![](../img_tutos/Ecran03.PNG)
-
-La première chose à faire alors, c'est de modifier manuellement la première balise *k* via l'interface texte, et la passer de **"{\k0}"** à **"{\k100}"** Ou une valeur différente, si vous avez fait le malin. **L'astuce**, c'est de retirer ensuite un peu plus de cent centièmes de seconde à toutes les balises suivantes, puisque Aegisub a généré des temps aléatoires pour un total correspondant tout de même à la durée de la ligne active.
 
 Ensuite, il ne vous reste plus qu'à, à l'oreille via les boutons ![](../img_tutos/IcoLecture.PNG), ![](../img_tutos/IcoPause.PNG) et ![](../img_tutos/IcoLectureLigne.PNG) que vous connaissez déjà par cœur, et via le spectre audio... À faire joujou avec les lignes jaunes pointillées du spectre pour faire correspondre chaque zone de ce dernier à une syllabe ! Notez qu'une barre blanche s'affiche lors de la lecture pour vous indiquer ou en est la vidéo, mais qu'elle ne reste malheureusement pas affichée lors de la pause.
 
@@ -134,7 +130,7 @@ Si vous corrigez certains Karaokés, vous pourrez trouver d'autres balises. La l
 
 ***Une règle fondamentale du Karaoké Karaoke Mugen est que le Karaoké doit être lisible : ainsi, une ligne de sous-titres apparaîtra  ~1s avant qu'elle ne commence à être chantée.***
 
-Une fois la synchronisation terminée, il suffit d'appliquer un script, qui permettra à la fois de faire apparaître chaque ligne 1 seconde plus tôt et d'ajouter un effet de fondue aux phrases.
+Une fois la synchronisation en k terminée, il suffit d'appliquer un script, qui permettra à la fois de faire apparaître chaque ligne 1 seconde plus tôt et d'ajouter un effet de fondu aux phrases.
 
 1. Insérez une ligne tout en haut : *clic droit > Insérer (avant)*
 1. Mettez dans le champ *Texte* le code suivant : ```!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}```
@@ -145,4 +141,4 @@ Une fois la synchronisation terminée, il suffit d'appliquer un script, qui perm
 Alternativement, il est possible de copier-coller le texte suivant en sélectionnant la première ligne de votre Karaoké :  
 ```Comment: 0,0:00:00.00,0:00:00.62,Default,,0,0,0,template pre-line all keeptags,!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}```
 
-Si tout est bon vous obtenez ça : ![Capture_d_écran_2017-09-24_à_14.18.26](/uploads/c8a24da60f1178ec1208e0c674c8d340/Capture_d_écran_2017-09-24_à_14.18.26.png) (réparer la capture d'écran)
+Si tout est bon vous obtenez ça : ![Capture_d_écran_2017-09-24_à_14.18.26](/uploads/c8a24da60f1178ec1208e0c674c8d340/Capture_d_écran_2017-09-24_à_14.18.26.png) 

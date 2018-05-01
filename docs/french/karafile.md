@@ -94,6 +94,7 @@ N'ayez pas peur, tout n'est pas à remplir par vous-même (mais une grande parti
   - `TAG_R18` : Pour adultes (on sait que vous allez les rechercher tout de suite)
   - `TAG_SPOIL` : Spoilers (tout le monde ne sait pas qui est le père de Luke)
   - `TAG_LONG` : Chanson estimée longue (plus de 5 minutes).
+  - `TAG_HARDMODE` : Bonne chance ;)
   - `TAG_VOCALOID` : Vocaloid
   - `TAG_TOKU` : Tokusatsu/Sentai
   - `TAG_REAL` : Non-animé.
@@ -116,7 +117,7 @@ N'ayez pas peur, tout n'est pas à remplir par vous-même (mais une grande parti
   - `TAG_SCHOOL` : Animé se passant en milieu scolaire.
   - `TAG_ROMANCE` : Animé traitant de romance.
   - `TAG_VIDEOGAME` : Jeu vidéo (sans tiret, sans S)
-  - `TAG_PSX` : Visual Novel
+  - `TAG_VN` : Visual Novel
   - `TAG_MOBAGE` : Jeu pour smartphone
   - `TAG_PSX` : PSOne
   - `TAG_PS2` : PS2
@@ -144,7 +145,7 @@ N'ayez pas peur, tout n'est pas à remplir par vous-même (mais une grande parti
   - `LIVE` : Concerts.
   - `OP` : Opening d'un animé.
   - `MV` : Vidéo musicale (clips musicaux).
-- `order` : Numéro de l'opening/ending. Peut être vide.
+- `order` : Numéro de l'opening/ending. Doit être laissé vide si la série ne contient qu'un opening/ending.
 - `lang` : Indiquer le code ISO639-2B sur 3 caractères de la langue. Pour connaître la liste des langues de cette norme, consultez [l'article Wikipédia à son sujet](https://fr.wikipedia.org/wiki/Liste_des_codes_ISO_639-2) ! Par exemple, le code ISO639-2B du japonais est `jpn`.
 - `version` : Format du .kara (version 1)
 
@@ -215,9 +216,13 @@ La bonne réponse est Megumi Hayashibara, donc.
 Enfin, dans un souci d'harmonisation des artistes, vous êtes prié de respecter les rêgles suivantes :
 
 Un nom avec un "a" long (aa) devient "â"
+
 Un nom avec un "i" long (ii) reste "ii"
+
 Un nom avec un "u" long (uu) devient "û"
+
 Un nom avec un "e" long (ee) devient "ê"
+
 Un nom avec un "o" long (ou) devient "ô"
 
 Par exemple, "Chiwa Saitou" sur anidb devient "Chiwa Saitô" dans le .kara.

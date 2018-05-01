@@ -15,7 +15,7 @@ test:
     - apt-get update -qq && apt-get install -y -qq xz-utils 
     - wget -c https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz    
     - tar xf ffmpeg-release-64bit-static.tar.xz
-    - mv ffmpeg-3* ffmpeg
+    - mv ffmpeg-4* ffmpeg
     - git clone https://lab.shelter.moe/karaokemugen/karaokemugen-app.git
     - cd karaokemugen-app
     - git checkout next    
@@ -23,7 +23,7 @@ test:
     - touch mpv
     - echo "PathKaras=../karas" >config.ini
     - echo "PathSubs=../lyrics" >>config.ini
-    - echo "PathVideos=/shelter/app/data/videos" >>config.ini 
+    - echo "PathMedias=/shelter/app/data/videos" >>config.ini 
     - echo "BinffmpegLinux=../ffmpeg/ffmpeg" >>config.ini
     - echo "BinffprobeLinux=../ffmpeg/ffprobe" >>config.ini
     - echo "BinPlayerLinux=mpv" >>config.ini
