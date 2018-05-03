@@ -1,3 +1,89 @@
+# April 2018
+
+## Modifications
+
+- A lot of new videos replace the old ones in low resolution and are creditless now.
+- We removed a lot of effects on some karaokes which made them hard to read. However, we kept some of them as is because the effets were really adding to the overall experience.
+
+# Added
+
+- ANG - Boom Boom Satellites - MV - LAY YOUR HANDS ON ME
+- ANG - Genki Rockets - MV - Heavenly Star
+- ANG - Saiyuki - OP - Monkey Magic
+- ANG - Tonari no Seki-kun - MV - Set Them Free
+- ANG - Yuri!!! On Ice - IN - Theme of King JJ
+- FR - Hisone to Masotan - ED1 - Le temps de la rentrée
+- FR - Hisone to Masotan - ED1 - Ru ton dou ra rontore (parody)
+- FR - Les Muscles - MV - La merguez partie
+- FR - Les Rois de la Suède - MV - Socialisme
+- FR - Message à Caractère Informatif Deux - MV - Chanson de l'ordinateur
+- JAP - Aikatsu Friends! - OP - Arigato Daijoubu
+- JAP - Aikatsu Friends! - ED - Believe it
+- JAP - Amanchu! Advance - OP - Crosswalk
+- JAP - Aoha ride - OP - Sekai wa koi ni ochieteiru
+- JAP - Aoi Honoo - OP - A-DA KO-DA SO-DA
+- JAP - Asobi Ni Ikuyo! - ED4 - Oira wa Sabishii SPACEMAN
+- JAP - Asobi Ni Ikuyo! - IN - Oira wa Sabishii SPACEMAN
+- JAP - Boku no Hero Academia S2 - OP2 - Sora ni Utaeba
+- JAP - Doubutsu Biscuits+KabanxPPP - MV - Do Re Mi Fa Rondo (Kemono Friends ver.)
+- JAP - Dragon Ball GT - ED2 - Don't you see!
+- JAP - Fate EXTRA Last Encore - Bright Burning Shout
+- JAP - Fullmetal Alchemist - ED1 - Kesenai Tsumi Nina Vers.
+- JAP - Gin no saji 2 - ED - Oto no naru hou e
+- JAP - Girls und Panzer - ED - Enter enter Mission Anglerfish Hippo Vers.
+- JAP - Girls und Panzer - ED - Enter enter Mission Rabbit Team Vers.
+- JAP - Girls und Panzer - ED - Enter enter Mission Anglerfish Team Vers.
+- JAP - Girls und Panzer - ED - Enter enter Mission Turtle Team Vers.
+- JAP - Girls und Panzer - ED - Enter enter Mission Duck Team Vers.
+- JAP - GUMI - MV - Amanojaku
+- JAP - GUMI - MV - Heartbreak Headlines
+- JAP - GUMI - MV - Shiryoku Kensa
+- JAP - GUMI, Rin Kagamine - MV - Ii Aru Fanclub
+- JAP - Hatsune Miku Project DIVA F - GAME IN - Sadistic Music Factory
+- JAP - Hyakka Ryouran Samurai Girls - ED - Koi ni Sesse Tooryanse Censored Vers.
+- JAP - IA - MV - World Calling
+- JAP - Lupin III Part V - ED - Seine no Kaze ni... (Adieu)
+- JAP - Lupin III Part IV - ED - Chanto Iwanakya Aisanai
+- JAP - Magic Kaito 1412 - ED2 - Koi no Jumyou
+- JAP - Mazinger Z Infinity - MOVIE OP - Mazinger Z
+- JAP - Miku Hatsune - MV - Aimai Elegy
+- JAP - Miku Hatsune - MV - Do Re Mi Fa Rondo
+- JAP - Miku Hatsune - MV - Electric Angel
+- JAP - Miku Hatsune - MV - Mukashi Mukashi no Kyou no Boku
+- JAP - Miku Hatsune, Rin Kagamine, Len Kagamine, Luka Megurine, MEIKO, KAITO - MV - Party×Party
+- JAP - Miku Hatsune, Rin Kagamine, Len Kagamine, Luka Megurine, MEIKO, KAITO, GUMI, Camui Gackpo - MV - Ever Lasting Night
+- JAP - Minky Momo Yume wo dakishimete - OP2 - Yume wo dakishimete
+- JAP - Rin Kagamine - MV - Melancholic
+- JAP - Rin Kagamine, Len Kagamine - MV - Suki Kirai
+- JAP - Ninku - ED1 - Soredemo wa ashita wa yattekuru
+- JAP - Nobunaga no Shinobi - OP1 - Adazakura
+- JAP - Pokemon Sun & Moon - ED - Pose
+- JAP - Ashita no Joe Gekijouban - OP - Utsukushii Ookami-Tachi
+- JAP - Re:Creators - OP2 - Sh0ut
+- JAP - Seikaisuru Kado - ED - Eien no Kotae
+- JAP - Seikaisuru Kado - OP - Tabiuta
+- JAP - Sen to Chihiro no Kamikakushi - AMV - Itsumo Nando Demo (ED)
+- JAP - Touken Ranbou Hanamaru - ED12 - Hanamaru Hiyori
+- JAP - Touken Ranbou Hanamaru - OP - Hanamaru Hiyori
+- JAP - Touken Ranbou Hanamaru - ED6 - Okiraku Chindouchuu
+- JAP - Touken Ranbou Hanamaru - ED7 - Koi to Joudo no Yaezakura
+- JAP - Yakuza 0 - GAME IN - Judgement
+- JAP - Yu-Gi-Oh! Duel Monsters - ED1 - Genki no Shower
+- JAP - Yu-Gi-Oh! Duel Monsters - ED2 - Ano Hi no Gogo
+- JAP - Yu-Gi-Oh! Duel Monsters - ED4 - Afureru Kanjou ga Tomaranai
+- JAP - Yu-Gi-Oh! Duel Monsters GX - ED2 - Wake Up Your Heart v1
+- JAP - Yu-Gi-Oh! Duel Monsters GX - ED2 - Wake Up Your Heart v2
+- JAP - Yu-Gi-Oh! Duel Monsters GX - ED3 - Taiyou v1
+- JAP - Yu-Gi-Oh! Duel Monsters GX - ED3 - Taiyou v2
+- JAP - Yu-Gi-Oh! Duel Monsters GX - ED4 - Endless Dream
+- JAP - Yu-Gi-Oh! Duel Monsters GX - OP2 - 99 v2
+- JAP - Yu-Gi-Oh! Duel Monsters GX - OP3 - Teardrop v1
+- JAP - Yu-Gi-Oh! Duel Monsters GX - OP3 - Teardrop v2
+- JAP - Wotaku ni Koi wa Muzukashii - OP - Fiction
+- JAP - Wotaku ni Koi wa Muzukashii - ED - Kimi no Tonari
+- MUL - Nolife - ED - Weight of the World (End of YoHRa)
+- TEL - Donga - MV - Golimar
+
 # March 2018
 
 ## Added

@@ -14,42 +14,6 @@ JAP - 3-gatsu no Lion - OP1 - Answer.kara
 
 Il s'agit de l'opening japonais de la série "3-gatsu no Lion", une adaptation d'un excellent manga de Chica Umino.
 
-Ceci est une convention de nommage, elle est donc parfaitement optionnelle et n'a aucune incidence pour **Karaoké Mugen**, elle est là pour vous aider à vous y retrouver dans vos fichiers.
-
-```
-Langue - Série - Type - Titre.kara
-```
-
-- `Langue` : Ce paramètre n'est pas pris en compte dans la génération, mais il est là pour vous aider à trier les fichiers de votre base, à différencier l'opening français de Naruto de son opening japonais, par exemple. La langue est indiquée ailleurs, nous le verrons plus tard. Exemples de nommage (que vous n'êtes pas obligés de respecter):
-  - `ALL` : allemand
-  - `ANG` : anglais
-  - `CHI` : chinois
-  - `COR` : corréen
-  - `EPO` : espéranto
-  - `ESP` : espagnol
-  - `FIC` : fictive (langue qui n'existe pas)
-  - `FR` : français
-  - `HEB` : hébreu
-  - `ITA` : italien
-  - `JAP` : japonais
-  - `LAT` : latin
-  - `POR` : portugais
-  - `RUS` : russe
-  - `SUE` : suèdois
-- `Série` : La série, ou chanteur d'un .kara
-  - S'il s'agit d'une vidéo musicale (`MV`), la série n'a pas toujours sens, du coup c'est le nom du chanteur/euse/groupe qui est mis à la place. Exemple : `JAP - World Order - MV - BOY MEETS GIRL` pour le vidéoclip du groupe japonais World Order.
-- `Type` : une abréviation en majuscules suivi d'un (ou aucun) numéro pour préciser l'ordre. Le type de votre kara doit être parmi les types suivants :
-  - `AMV` : Anime Music Video. Montages amateurs autour d'animés.
-  - `CM` : Publicité.
-  - `ED` : Ending d'un animé.
-  - `IN` : Insert song (chanson qui passe en plein milieu d'un épisode).
-  - `OT` : Autre/inclassable.
-  - `TRAILER` : Vidéo promotionnelle (trailer, bande-annonce, etc.).
-  - `LIVE` : Concerts.
-  - `OP` : Opening d'un animé.
-  - `MV` : Vidéo musicale (clips musicaux).
-- `Titre` : C'est le titre de la chanson, tout simplement !
-
 Pour plus d'informations sur comment nommer vos fichiers, consultez le [tutorial de création de karaoké disponible sur le dépot de la base](naming.md).
 
 ### Le contenu du fichier .kara
@@ -58,7 +22,8 @@ Reprenons notre exemple de l'OP de "3-gatsu no Lion".
 
 ```
 videofile=JAP - 3-gatsu no Lion - OP1 - Answer.mkv
-subfile=dummy.ass
+subfile=JAP - 3-gatsu no Lion - OP1 - Answer.ass
+subchecksum=abcdef12345678910
 year=2016
 singer=BUMP OF CHICKEN
 tags=TAG_ANIME,TAG_TVSHOW
@@ -68,13 +33,13 @@ author=Bakaclub
 series=3-gatsu no Lion
 title=Answer
 type=OP
-order=
+order=1
 lang=jpn
 KID=fcb32b00-c7d5-470e-9f98-32edd1b67e18
 videosize=44241053
 videoduration=89
 videogain=-2.18
-version=1
+version=2
 ```
 
 N'ayez pas peur, tout n'est pas à remplir par vous-même (mais une grande partie si quand même).
@@ -133,10 +98,12 @@ N'ayez pas peur, tout n'est pas à remplir par vous-même (mais une grande parti
 - `songwriter` : Nom du ou des compositeurs. Séparer par des virgules si plusieurs compositeurs. L'ordre est "**prénom** puis **nom**".
 - `creator` : Nom de l'entité qui a crée la série/vidéo. Studio d'animation ou boîte de production selon les cas.
 - `author` : C'est vous ! Mettez votre pseudonyme pour montrer à la terre entière que vous avez écrit un karaoké !
+  - Si vous avez beaucoup retouché un karaoké existant, ne soyez pas timide et ajoutez-vous au champ `author` en plus de l'auteur original.
 - `series` : Nom de la série dont le karaoké est tiré. Si vous faites le karaoké d'une vidéo musicale en relation avec un animé, par exemple le clip de *Zen Zen Zense* de *RADWIMPS* alors indiquez *Your Name* dans `series`.
 - `title` : Titre de la chanson
 - `type` : L'un des types suivants :
   - `AMV` : Anime Music Video. Montages amateurs autour d'animés.
+    - S'il s'agit d'une vidéo musicale animée mais officielle, choisissez plutôt `MV`.
   - `CM` : Publicité.
   - `ED` : Ending d'un animé.
   - `IN` : Insert song (chanson qui passe en plein milieu d'un épisode).
@@ -147,32 +114,26 @@ N'ayez pas peur, tout n'est pas à remplir par vous-même (mais une grande parti
   - `MV` : Vidéo musicale (clips musicaux).
 - `order` : Numéro de l'opening/ending. Doit être laissé vide si la série ne contient qu'un opening/ending.
 - `lang` : Indiquer le code ISO639-2B sur 3 caractères de la langue. Pour connaître la liste des langues de cette norme, consultez [l'article Wikipédia à son sujet](https://fr.wikipedia.org/wiki/Liste_des_codes_ISO_639-2) ! Par exemple, le code ISO639-2B du japonais est `jpn`.
-- `version` : Format du .kara (version 1)
+- `version` : Format du .kara (version 2)
 
-Les quatre dernières lignes sont remplies automatiquement par **Karaoke Mugen** lors de la génération, vous n'avez donc pas à vous en préoccuper, mais pour l'exhaustivité nous allons expliquer à quoi elles servent. Attention, si vous modifiez le fichier vidéo d'un karaoké, ces valeurs seront modifiées automatiquement lors de la génération de la base de données (ou au lancement du logiciel).
+Les lignes suivantes sont remplies automatiquement par **Karaoke Mugen** lors de la génération, vous n'avez donc pas à vous en préoccuper, mais pour l'exhaustivité nous allons expliquer à quoi elles servent. Attention, si vous modifiez le fichier vidéo d'un karaoké, ces valeurs seront modifiées automatiquement lors de la génération de la base de données (ou au lancement du logiciel).
 
 - `KID` : Il s'agit d'un identifiant unique (UUID) permettant d'identifier le karaoké dans la base de données. Ainsi, quand vous passez une playlist à quelqu'un, ou que vous régénérez la base, les playlists retrouveront leurs karaokés dans la base de données. **Si deux karaokés ont le même `KID`, l'univers peut imploser, donc attention : modifier cette valeur au hasard est le meilleur moyen de corrompre votre base de données.**
+- `subchecksum` : Permet à Karaoke Mugen de savoir si le fichier des sous-titres a chagné.
 - `videosize` : Taille en octets de la vidéo, cela permet à **Karaoke Mugen** de repérer si vous avez remplacé le fichier vidéo. Si c'est le cas, la base de données sera regénérée et les valeurs suivantes recalculées.
 - `videogain` : Gain audio de la vidéo. Il est calculé lors de la génération via *FFMPEG*. Cela permet d'égaliser le son de toutes les vidéos de votre base de données pour éviter les sursauts de changement de volume lors du passage d'une chanson à l'autre.
 - `videoduration` : Détecté aussi lors de la génération de la base de données, il permet de savoir combien de temps en secondes dure la vidéo. Cette valeur permet ensuite de gérer l'animation de la barre de progression sur l'interface utilisateur.
 - `dateadded` : Date d'ajout dans la base de données
 - `datemodif` : Date de dernière modification
 
-#### Lorsque vous modifiez un .kara existant
-
-Supprimez les lignes suivantes :
-
-- `datemodif`
-
 #### Lorsque vous créez un nouveau .kara en prenant un autre .kara comme modèle
 
 Supprimez les lignes suivantes pour qu'elles soient regénérées :
 
 - `kid`
-- `datemodif`
 - `dateadded`
 
-Les données vidéo seront regénérées toute seule si une modification est détectée.
+Les données vidéo seront regénérées toute seules si une modification est détectée.
 
 #### Protips de remplissage de .kara
 
@@ -235,13 +196,13 @@ Si vous voyez un .kara (donc une vidéo) qui porte un nom inexact, vous pouvez t
 - **les données dans ledit .kara** (à savoir les lignes "videofile" et "subfile")
 - **le .ass** (que vous venez à l'instant de renommer dans le .kara avec "subfile")
 
-Mais ce n'est pas encore complètement terminé, car il reste à renommer la vidéo. Pour ça, [demandez sur Discord dans le canal #karaoke](https://discord.gg/a8dMYek) de vous donner un accès au ftp pour renommer vous-même les vidéos. 
+Mais ce n'est pas encore complètement terminé, car il reste à renommer la vidéo. Pour ça, [demandez sur Discord dans le canal #karaoke](https://discord.gg/a8dMYek) de vous donner un accès au ftp pour renommer vous-même les vidéos.
 
 ##### Les noms alternatifs de séries
 
 Si, pendant vos merveilleuses sessions de remplissage, vous trouvez des nom alternatifs de série, rajoutez-les à la base de noms alternatifs déjà existante.
 
-Ça s'appelle **_series_altnames.csv_** et ça se trouve à la racine même de votre dossier **_karaokebase_**
+Ça s'appelle **series_altnames.csv** et ça se trouve à la racine même de votre dossier **karaokebase**
 
 **J'attire bien votre attention sur l'édition de ce fichier, car si vous l'enregistrez dans un autre format que son UTF-8, l'univers va imploser.**
 

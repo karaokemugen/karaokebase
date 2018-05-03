@@ -12,36 +12,36 @@ There's a tutorial describing how to make one here :
 
 If your files are ready, you can do add them in different ways.
 
-### I don't know how to use git
+### I just want to send my files and let you handle the rest
 
 [Come to our Discord server](https://discord.gg/a8dMYek) (in the #karaoke channel) and we'll see how we can help you upload your files or teach you how to use git.
 
-### I know how to use git
+### I can use git and would like to contribute to the database myself
 
 You can either become a member of the database team or send your modifications via git pull requests.
 
 Database team members have write access to this git repository as well as to the FTP server where videos are stored. If you'd like to become part of the team and get absolutely no advantages other than personal satisfaction for contributing to this, read the section below. If you're in the team already, read the following :
 
-- Clone this git repository
-- Run the `UpdateVideos` script or bring in your own folder if you've already downloaded it elsewhere.
-- Put your new videos in place in that folder
-- Make any modification or add new karaoke songs by reusing an already existing `.kara` file as a template.
-- If you're adding a new song, remove lines starting with `KID`, `date` and `video`
-- [Configure Karaoke Mugen](http://mugen.karaokes.moe/docs/user-guide/configuration/) (in french for now) to use your local git repository and its videos and then validate your folders :
+* [Download and install Karaoke Mugen](http://mugen.karaokes.moe)
+* Create a folder called `app` and then another one called `data` in your KM install folder.
+* Put your new videos in place in that folder
+* Make any modification or add new karaoke songs by reusing an already existing `.kara` file as a template. Pick one from this database.
+* If you're adding a new song, remove lines starting with `KID`, `date` and `video`
+* Run Karaoke Mugen with the `--generate` option :
 
 ```sh
-KaraokeMugen.exe --validate
+KaraokeMugen.exe --generate
 ```
 
 or if you're using Karaoke Mugen's git version :
 
 ```sh
-npm start -- --validate
+yarn start --generate
 ```
 
-- If validation returns no errors then you can go on. If it does, verify your `.kara` files.
-- Via FTP, upload your videos on Shelter or simply rename them if it only needs renaming.
-- Commit & push once your videos are in place on Shelter !
+* If generation returns no errors then you can go on. If it does, verify your `.kara` files.
+* Send your video file to us, or if you have access to Shelter's FTP, upload your videos on Shelter or simply rename them if it only needs renaming.
+* Commit & push once your videos are in place on Shelter, then submit your pull request.
 
 ## I want to help maintain the karaoke database
 
