@@ -28,7 +28,7 @@ Une fois que vous aurez ajouté votre fichier .kara et son fichier .ass à votre
 
 ### Vous êtes déjà mainteneur
 
-Les mainteneurs bénéficient d'un accès au dépôt git de la base ainsi qu'au FTP avec les vidéos. Pour edvenir mainteneur il suffit juste de demander sur Discord !
+Les mainteneurs bénéficient d'un accès au dépôt git de la base ainsi qu'au FTP avec les vidéos. Pour devenir mainteneur il suffit juste de demander sur Discord !
 
 - Uploadez vos vidéos sur Shelter ou renommez-les s'il s'agit simplement d'un changement de nom.
 - Ne pushez vos commits qu'une fois les vidéos bien en place !
