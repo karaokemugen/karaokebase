@@ -8,7 +8,7 @@ Le format que l'on utilise habituellement est le suivant : (il n'est PAS obligat
 
 Exemple : **JAP - Macross Frontier - OP2 - LION**
 
-Pour les Karaokés de clips musicaux / PV, la partie "*Série/œuvre*" devient "*Nom du groupe*".
+Pour les Karaokés de clips musicaux / MV et LIVE, la partie "*Série/œuvre*" devient "*Nom du groupe*".
 
 Exemple : **FR - Les Inconnus - MV - Vice et versa**
 
@@ -29,12 +29,12 @@ Exemple : **FR - Les Inconnus - MV - Vice et versa**
   * RUS : russe
   * SUE : suèdois
   * *Enrichissez ce document si vous ajoutez de nouvelles langues !*
-* S'il s'agit d'une vidéo musicale (`MV`), la série n'a pas toujours sens, du coup c'est le nom du chanteur/euse/groupe qui est mis à la place. Exemple : `JAP - World Order - MV - BOY MEETS GIRL` pour le vidéoclip du groupe japonais World Order.
+* S'il s'agit d'une vidéo musicale (`MV`) ou d'un concert (LIVE), la série n'a pas toujours sens, du coup c'est le nom du chanteur/euse/groupe qui est mis à la place. Exemple : `JAP - World Order - MV - BOY MEETS GIRL` pour le vidéoclip du groupe japonais World Order.
 * Le nom de la série doit obligatoirement être un nom facilement reconnaissable. Il faut préféré le nom international s'il existe, ou un nom facilement connu du public. Exemple, si je vous parle de *Spice & Wolf*, ne soumettez pas votre kara sous le nom *Ôkami to Kôshinryô* sous peine de cassage de genoux. Personne ne connaît cet animé sous ce titre. Pareil avec *FullMetal Alchemist* qu'il n'y a pas besoin d'écrire en japonais "*Hagane no Renkinjutsushi*" parce que PERSONNE de sensé n'irait taper ça dans un moteur de recherche, bande d'élitistes.
   * Par contre, *Suzumiya Haruhi no Yuutsu* est toléré, car "Suzumiya Haruhi" est facilement reconnaissable et connu du public. Même chose pour *Kidou Senki Gundam*.
   * Si vous avez ajouté une nouvelle série, mettez à jour le fichier **series_altnames.csv** dans le dossier racine ! Il contient la liste des noms alternatifs des séries. Par exemple le nom japonais de *FullMetal Alchemist* peut être indiqué dans ce fichier. Cela permet au moteur de recherche de Karaoké Mugen de retrouver la série en japonais.
 * Le type du karaoké peut être l'un des suivants :
-  * `AMV` : Anime Music Video. Peut être utilisé pour des clips musicaux tout en animation.
+  * `AMV` : Anime Music Video. Peut être utilisé pour des clips musicaux tout en animation crée par des fans.
   * `CM` : Publicité.
   * `ED` : Ending d'un animé.
   * `IN` : Insert song.
