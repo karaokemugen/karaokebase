@@ -13,6 +13,7 @@ Il est conseillé de suivre les étapes dans l'ordre, excepté pour la section "
 1. Se lancer
    1. [Réaliser le karaoké en lui-même](karaoke.md)
    1. [Créer le fichier de métadonnées .kara](karafile.md)
+   1. [Remplir le fichier des nom de séries alternatifs (series.json)](altnames.md)
 1. Chanter
    1. [Tester votre karaoké](test.md)
    1. [Chanter sur votre karaoké](sing.md)

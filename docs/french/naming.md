@@ -30,9 +30,8 @@ Exemple : **FR - Les Inconnus - MV - Vice et versa**
   * SUE : suèdois
   * *Enrichissez ce document si vous ajoutez de nouvelles langues !*
 * S'il s'agit d'une vidéo musicale (`MV`) ou d'un concert (`LIVE`), la série n'a pas toujours sens, du coup c'est le nom du chanteur/euse/groupe qui est mis à la place. Exemple : `JAP - World Order - MV - BOY MEETS GIRL` pour le vidéoclip du groupe japonais World Order. **NOTE : S'il s'agit d'un MV ou LIVE reprenant une chanson d'un jeu ou animé, et non une chanson originale de J-Music, on peut mettre plutôt le nom de la série dont c'est tiré si on préfère.**
-* Le nom de la série doit obligatoirement être un nom facilement reconnaissable. Il faut préféré le nom international s'il existe, ou un nom facilement connu du public. Exemple, si je vous parle de *Spice & Wolf*, ne soumettez pas votre kara sous le nom *Ôkami to Kôshinryô* sous peine de cassage de genoux. Personne ne connaît cet animé sous ce titre. Pareil avec *FullMetal Alchemist* qu'il n'y a pas besoin d'écrire en japonais "*Hagane no Renkinjutsushi*" parce que PERSONNE de sensé n'irait taper ça dans un moteur de recherche, bande d'élitistes.
-  * Par contre, *Suzumiya Haruhi no Yuutsu* est toléré, car "Suzumiya Haruhi" est facilement reconnaissable et connu du public. Même chose pour *Kidou Senki Gundam*.
-  * Si vous avez ajouté une nouvelle série, mettez à jour le fichier **series_altnames.csv** dans le dossier racine ! Il contient la liste des noms alternatifs des séries. Par exemple le nom japonais de *FullMetal Alchemist* peut être indiqué dans ce fichier. Cela permet au moteur de recherche de Karaoké Mugen de retrouver la série en japonais.
+* Le nom de la série peut être un nom facilement reconnaissable ou le nom original.
+  * Si vous avez ajouté une nouvelle série, [mettez à jour le fichier **series.json**](altnames.md) dans le dossier racine ! Il contient la liste des noms alternatifs des séries. Par exemple le nom japonais de *Fullmetal Alchemist* peut être indiqué dans ce fichier. Cela permet au moteur de recherche de Karaoké Mugen de retrouver la série en japonais.
 * Le type du karaoké peut être l'un des suivants :
   * `AMV` : Anime Music Video. Peut être utilisé pour des clips musicaux tout en animation crée par des fans.
   * `CM` : Publicité.
@@ -53,6 +52,4 @@ Exemple : **FR - Les Inconnus - MV - Vice et versa**
     * Le symbole mathématique delta (𝚫) de Macross Delta
     * Le symbole mathématique multiplier (×) couramment utilisé dans beaucoup de titres de séries comme Kiss × Sis peut être remplacé par un simple x (la lettre x comme dans xylophone).
 
-**NOTE :** Les noms de fichiers ne doivent contenir **AUCUN ACCENT** sous peine de cassage de genoux même si on vous les a déjà cassés. Voir ci-dessous :
-
-**NOTE :** Si vous tenez absolument à retranscrire les caractères spéciaux, indiquez-les à l'intérieur du fichier .kara (voir plus loin)
+**NOTE :** Les noms de fichiers ne doivent contenir **AUCUN ACCENT** sous peine de cassage de genoux même si on vous les a déjà cassés. Si vous tenez absolument à retranscrire les caractères spéciaux, indiquez-les à l'intérieur du fichier .kara (voir plus loin)

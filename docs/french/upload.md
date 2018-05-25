@@ -37,7 +37,7 @@ Les mainteneurs bénéficient d'un accès au dépôt git de la base ainsi qu'au 
 
 Vous devez avoir un espace de travail similaire aux autres. La marche à suivre est :
 
-#### Si vous souhaitez avoir tout le dépôt git avec les vidéos chez vous 
+#### Si vous souhaitez avoir tout le dépôt git avec les vidéos chez vous
 
 - Clonez le dépôt git chez vous
 - Placez les vidéos au bon endroit (dans `app/data/videos`, quoi.)
@@ -64,8 +64,11 @@ yarn start --generate
 ```
 
 - Si la génération ne retourne aucune erreur alors vous pouvez continuer, sinon vérifiez vos fichiers .kara.
-- Faites votre commit sous git une fois que vous êtes satisfait
-  - S'il s'agit d'un ajout de kara, précisez dans le message de commit le nom complet du ou des karas. Cela permet d'ensuite mieux voir quels ajouts ont été faits d'un mois sur l'autre. Chaque mois [un tag est crée](https://lab.shelter.moe/karaokemugen/karaokebase/tags) pour faire le bilan de ce qu'on a accompli.
+- Faites votre commit sous git une fois que vous êtes satisfait ou envoyez-nous le .akra et .ass sur Discord (avec un lien vers la vidéo).
+
+Dans le cas d'un commit sur le git :
+
+- S'il s'agit d'un ajout de kara, précisez dans le message de commit le nom complet du ou des karas. Cela permet d'ensuite mieux voir quels ajouts ont été faits d'un mois sur l'autre. Chaque mois [un tag est crée](https://lab.shelter.moe/karaokemugen/karaokebase/tags) pour faire le bilan de ce qu'on a accompli.
 - Une fois le commit effectué, pushez votre modification !
 - Une série de tests automatique est effectuée par le Lab pour vérifier si votre modification est bonne. Si ce n'est pas le cas, un message d'erreur s'affichera sur Discord dans le canal #karaoke. Vous pouvez également [consulter les derniers **pipelines**](https://lab.shelter.moe/karaokemugen/karaokebase/pipelines) pour voir si le test s'est bien passé ou pas.
   - Si le test ne s'est pas bien passé, ne paniquez pas : quelqu'un vous aidera à y voir plus clair dans le message d'erreur affiché via la console du pipeline.

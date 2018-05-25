@@ -176,15 +176,11 @@ La bonne réponse est Megumi Hayashibara, donc.
 
 Enfin, dans un souci d'harmonisation des artistes, vous êtes prié de respecter les rêgles suivantes :
 
-Un nom avec un "a" long (aa) devient "â"
-
-Un nom avec un "i" long (ii) reste "ii"
-
-Un nom avec un "u" long (uu) devient "û"
-
-Un nom avec un "e" long (ee) devient "ê"
-
-Un nom avec un "o" long (ou) devient "ô"
+- Un nom avec un "a" long (aa) devient "â"
+- Un nom avec un "i" long (ii) reste "ii"
+- Un nom avec un "u" long (uu) devient "û"
+- Un nom avec un "e" long (ee) devient "ê"
+- Un nom avec un "o" long (ou) devient "ô"
 
 Par exemple, "Chiwa Saitou" sur anidb devient "Chiwa Saitô" dans le .kara.
 
@@ -200,19 +196,9 @@ Mais ce n'est pas encore complètement terminé, car il reste à renommer la vid
 
 ##### Les noms alternatifs de séries
 
-Si, pendant vos merveilleuses sessions de remplissage, vous trouvez des nom alternatifs de série, rajoutez-les à la base de noms alternatifs déjà existante.
+Si, pendant vos merveilleuses sessions de remplissage ou lors de la création d'un .kara , vous trouvez des nom alternatifs de série, [rajoutez-les à la base de noms alternatifs déjà existante](altnames.md).
 
-Ça s'appelle **series_altnames.csv** et ça se trouve à la racine même de votre dossier **karaokebase**
-
-**J'attire bien votre attention sur l'édition de ce fichier, car si vous l'enregistrez dans un autre format que son UTF-8, l'univers va imploser.**
-
-**Bref, ne vous posez pas de question, installez [Sublime Text](http://www.sublimetext.com) et enregistrez avec le ctrl+S habituel, comme ça aucun risque de casser le fichier. Sublime Text est aussi le must-have pour remplir les .karas**
-
-Pour ajouter un nom alternatif, on va prendre un exemple :
-
-```3-gatsu no Lion":"March comes in like a lion/Sangatsu no Lion```
-
-**3-gatsu no Lion** étant le nom original de la vidéo et **March comes in like a lion** et **Sangatsu no Lion** les noms alternatifs, vous devinez donc que si vous voulez en rajouter un, vous rajoutez un slash suivi de votre nom (sans espace après le slash, svp)
+Par exemple si vous connaissez le nom anglais ou français ou espagnol d'une série, vous pouvez remplir le fichier `series.json` en suivant les instructions du lien ci-dessus.
 
 ##### Le champ `creator`
 
@@ -239,13 +225,13 @@ Vous devez alors générer une nouvelle base par le logiciel. Pour cela plusieur
 - Lancez **Karaoke Mugen** en ligne de commande avec l'option `--generate` (2.0.x et supérieur) ou `--validate` (2.1).
   - `--generate` crée une nouvelle base de données, utile si vous voulez tester votre kara dans l'application
   - `--validate` ne fait que valider les .karas et les complèter sans toucher à votre base. Utile si vous voulez aller vite.
-- Si **Karaoke Mugen** est déjà lancé, depuis le panneau d'administration cliquez sur **Regénérer la base de données** dans l'onglet **BDD**
+- Si **Karaoke Mugen** est déjà lancé, depuis le panneau d'administration cliquez sur **Regenerate database** dans l'onglet **Database**.
 
 #### S'il y a un problème
 
-Votre .kara est défectueux ? Repérez le message d'erreur dans la console, il devrait vous indiquer ce qu'il manque / ne va pas
+Votre .kara est défectueux ? Repérez le message d'erreur dans la console, il devrait vous indiquer ce qu'il manque / ne va pas. 
 
-N'hésitez pas à [venir sur Discord](https://discord.gg/a8dMYek) dans le canal *#karaoke* pour demander de l'aide.
+[Consultez la FAQ](faq.md) et N'hésitez pas à [venir sur Discord](https://discord.gg/a8dMYek) dans le canal *#karaoke* pour demander de l'aide.
 
 #### Si tout se passe bien
 

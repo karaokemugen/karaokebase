@@ -8,7 +8,7 @@ Il pourrait être tentant d'inclure dans la base la première vidéo **YouTube**
 
 ### Trouver un *rip* sur les interwebs
 
-Faut-il encore présenter [NyaaTorrents](http://nyaa.si) ? Si vous avez un compte [Asian DVD Club](https://asiandvdclub.org), ça peut aussi vous aider. Et globalement, ***Google est votre ami***.
+Une source d'openings et d'endings est le subreddit [/r/AnimeOpenings](http://reddit.com/r/animeopenings) Pour le reste il y a MasterCa... euh, des sites comme Nyaa ou Asian DVD Club.
 
 ### Demander aux potos
 
