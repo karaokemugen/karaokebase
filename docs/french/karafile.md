@@ -99,7 +99,7 @@ N'ayez pas peur, tout n'est pas à remplir par vous-même (mais une grande parti
 - `creator` : Nom de l'entité qui a crée la série/vidéo. Studio d'animation ou boîte de production selon les cas.
 - `author` : C'est vous ! Mettez votre pseudonyme pour montrer à la terre entière que vous avez écrit un karaoké !
   - Si vous avez beaucoup retouché un karaoké existant, ne soyez pas timide et ajoutez-vous au champ `author` en plus de l'auteur original.
-- `series` : Nom de la série dont le karaoké est tiré. Si vous faites le karaoké d'une vidéo musicale en relation avec un animé, par exemple le clip de *Zen Zen Zense* de *RADWIMPS* alors indiquez *Your Name* dans `series`.
+- `series` : Nom de la série dont le karaoké est tiré. Si vous faites le karaoké d'une vidéo musicale ou d'un live en relation avec un animé, par exemple le clip de *Zen Zen Zense* de *RADWIMPS* alors indiquez *Your Name* dans `series`.
 - `title` : Titre de la chanson
 - `type` : L'un des types suivants :
   - `AMV` : Anime Music Video. Montages amateurs autour d'animés.
