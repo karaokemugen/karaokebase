@@ -1,10 +1,6 @@
-Indiquez dans le titre de l'issue le nom du kara qui pose problème. Merci de remplir le petit formulaire suivant :
+# VidÃ©o de mauvaise qualitÃ©
 
-# Vidéo de mauvaise qualité
+**Lien : ** (Si vous possÃ¨dez un lien vers une vidÃ©o de meilleure qualitÃ© pour remplacer, indiquez-le ici)
 
-## Lien 
-
-**Si vous possédez un lien vers une vidéo de meilleure qualité pour remplacer, indiquez-le ici**
-
-## Commentaires
+**Commentaires : **
 

@@ -23,4 +23,6 @@ Il est conseillé de suivre les étapes dans l'ordre, excepté pour la section "
    1. [Le .kara](troubleshoot_kara.md)
    1. [Le .ass](troubleshoot_sub.md)
    1. [Les vidéos](troubleshoot_video.md)
-1. [Foire aux questions](faq.md)
+1. Annexes
+   1. [Liste des tags](tags.md)
+   1. [Foire aux questions](faq.md)
