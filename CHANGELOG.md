@@ -1,3 +1,190 @@
+# May 2018
+
+Contributors this month. Give them a hug !
+
+- @Lua
+- @nah
+- @coyoyann
+- @Kmeuh
+- @AxelTerizaki
+- @Rinchama
+- @PierreCamilli
+- @herolien
+- @Thaksin
+- @Rukawa
+- @RdNetwork
+- @Gwenzy
+- @Krow
+- @Nodamin
+- @Nock
+- @Kramoule
+
+## Modifications
+
+- A new file, `series.json` replaces `series_altnames.csv`. It contains more detailed information about series names by separating aliases and name of series depending on the language. It is not yet fully complete, but @Kmeuh is working on that at a good pace.
+- As usual, many videos have been replaced with better quality ones.
+- A new tag, TAG_DUO has been added to better notice songs which can be sung by two people at the same time
+
+## Added
+
+89 songs :
+
+- ALL - Sailor Moon - OP - Sag das Zauberwort
+- ANG - Doki Doki Literature Club - ED - Your Reality
+- ANG - Totally Spies - OP - Here we go
+- FR - Astérix et Cleopatre - IN - Quand l'appétit va tout va
+- FR - Digimon - OP
+- FR - Ermite Moderne - MV - Henri dans son FRANXX
+- FR - Hisone to Masotan - ED - Le temps de la rentrée ~ France Gall Vers.
+- FR - Pour l'amour du risque - OP
+- FR - Spirou - ED
+- FR - Valérie Uzon - MV - Un sens à notre vie
+- JAP - Aa! Megami-sama Tatakau Tsubasa - OP - Ai no Hoshi
+- JAP - Aa! Megami-sama Tatakau Tsubasa - ED - Hanamuke no Melody
+- JAP - AICO Incarnation - ED - Michi no Kanata
+- JAP - Aikatsu! Photo on Stage!! - MV - Tsukiyo no Ragtime
+- JAP - Amanchu! Advance - ED - Hello, Hello
+- JAP - Asobi ni Ikuyo! - IN - Oira wa sabishii SPACEMAN
+- JAP - Asobi ni Ikuyo! - ED4 - Oira wa sabishii SPACEMAN
+- JAP - BanG Dream! - MV - BLACK SHOUT
+- JAP - BanG Dream! - MV - Egao no Orchestra!
+- JAP - BanG Dream! - MV - Happy Happy Party!
+- JAP - BanG Dream! - MV - Shuwarin Dreaming
+- JAP - BanG Dream! - MV - That Is How I Roll!
+- JAP - Brave Witches - OP - Ashita no Tsubasa
+- JAP - Brave Witches - ED - Little Wing ~Spirit of LINDBERG~
+- JAP - Captain Tsubasa 2018 - OP - Start Dash!
+- JAP - Darling in the FRANXX - OP1 - KISS OF DEATH
+- JAP - Darling in the FRANXX - OP2 - KISS OF DEATH
+- JAP - Darling in the FRANXX - ED2 - Manatsu no Setsuna
+- JAP - Darling in the FRANXX - ED3 - Beautiful World
+- JAP - DuckTales (2017) - OP - DuckTales
+- JAP - fault Silence the Pedant - OP - BLACKBOX
+- JAP - Full Metal Panic! Invisible Victory - OP - Even...if
+- JAP - Full Metal Panic! Invisible Victory - ED - yes
+- JAP - Gundam G no Reconguista - ED - G no Senkou
+- JAP - Higurashi no Naku Koro ni Hou - OP8 - Tsuisou no Despair
+- JAP - Higurashi no Naku Koro ni Hou - OP2 - Nageki no Mori
+- JAP - Higurashi no Naku Koro ni Hou - OP3 - Hikari no Sora no Qualia
+- JAP - Hisone to Masotan - OP - Shoujo wa Ano Sora wo Wataru
+- JAP - Kamichu! - OP - Hare Nochi Hare!
+- JAP - Last Period - ED - Wiseman no Theme
+- JAP - Last Period - OP - Yokubari Dreamer
+- JAP - Love Live! School Idol Project - IN5 - Sorekara no Someday
+- JAP - Love Live! School Idol Project - IN6 - Kitto Seishun ga Kikoeru
+- JAP - Love Live! Sunshine!! 2nd Season - OP - Mirai no Bokura wa Shitteru yo
+- JAP - Love Love! Sunshine! - OP - Aozora Jumping Heart
+- JAP - Nobunaga no Shinobi Ise Kanegasaki-hen - OP1 - Shirayuki
+- JAP - Nobunaga no Shinobi - OP2 - MONTAGE
+- JAP - Paris RER - AMV - Nazo! Nazo! Happiness!!
+- JAP - Ryu ga Gotoku 6 - GAME IN - Like a Butterfly
+- JAP - Ryuuou no Oshigoto! - OP - Kore Kara
+- JAP - Shoujo Kakumei Utena - IN - Zettai Unmei Mokushiroku
+- JAP - Steins;Gate - GAME OP - AR
+- JAP - Summer Pockets - GAME OP - Alkatale
+- JAP - Touhou - OT - Inu no Omawari-san
+- JAP - Vocaloid - MV - Nan Demo Iu Koto o Kiite Kureru Akane-chan
+- JAP - Yu-Gi-Oh! 5D's - AMV - Clear Mind
+- JAP - Yu-Gi-Oh! 5D's - ED1 - Start
+- JAP - Yu-Gi-Oh! 5D's - ED2 - Cross Game
+- JAP - Yu-Gi-Oh! 5D's - ED3 - ozone
+- JAP - Yu-Gi-Oh! 5D's - ED4 - Close to you.ass
+- JAP - Yu-Gi-Oh! 5D's - ED5 - Mirai iro (Vers. ep. 151)
+- JAP - Yu-Gi-Oh! 5D's - ED5 - Mirai iro (Vers. ep. 154)
+- JAP - Yu-Gi-Oh! 5D's - ED5 - Mirai iro
+- JAP - Yu-Gi-Oh! 5D's - ED6 - Alternative Ending ~Medley Kizuna & Mirai Iro~
+- JAP - Yu-Gi-Oh! 5D's - IN - Asu e no Michi ~Going my way!!~
+- JAP - Yu-Gi-Oh! 5D's - IN - Clear Mind Vers. Ep. 109
+- JAP - Yu-Gi-Oh! 5D's - IN - Clear Mind Vers. Ep. 110
+- JAP - Yu-Gi-Oh! 5D's - IN - Clear Mind Vers. Ep. 122
+- JAP - Yu-Gi-Oh! 5D's - IN - Clear Mind Vers. Ep. 129
+- JAP - Yu-Gi-Oh! 5D's - IN - Clear Mind Vers. Ep. 134
+- JAP - Yu-Gi-Oh! 5D's - IN - Clear Mind Vers. Ep. 154
+- JAP - Yu-Gi-Oh! 5D's - IN - Yakusoku no Melody
+- JAP - Yu-Gi-Oh! 5D's - LIVE - Clear Mind
+- JAP - Yu-Gi-Oh! 5D's - OP2 - Last Train ~Atarashi Asa~ v2
+- JAP - Yu-Gi-Oh! 5D's - OP4 LIVE - Believe in Nexus
+- JAP - Yu-Gi-Oh! 5D's - OP5 - Asu e no Michi ~Going my way!!~ (Version ep. 151)
+- JAP - Yu-Gi-Oh! 5D's - OP5 LIVE - Asu e no Michi ~Going my way!!~.ass
+- JAP - Yu-Gi-Oh! ZeXal - ED1 - Boku Quest
+- JAP - Yu-Gi-Oh! ZeXal - ED2 - Setsubou no Freesia
+- JAP - Yu-Gi-Oh! ZeXal - ED3 - Wild Child
+- JAP - Yu-Gi-Oh! ZeXal - ED4 - Artist
+- JAP - Yu-Gi-Oh! ZeXal - ED5 - GO WAY GO WAY
+- JAP - Yu-Gi-Oh! ZeXal - ED6 - Challenge the Game
+- JAP - Yu-Gi-Oh! ZeXal - OP1 - Masterpiece
+- JAP - Yu-Gi-Oh! ZeXal - OP2 - Braving
+- JAP - Yu-Gi-Oh! ZeXal - OP3 - Tamashii Drive
+- JAP - Yu-Gi-Oh! ZeXal - OP4 - Orenai Heart
+- JAP - Yu-Gi-Oh! ZeXal - OP5 - Kagami no Dualism
+- JAP - Yu-Gi-Oh! ZeXal - OP6 - Wonder Wings
+
+## Fixed / new videos
+
+61 fixes
+
+- ANG - Fire Emblem Fates Conquest - GAME IN - Lost in Thoughts All Alone
+- ANG - Serial Experiment Lain - OP - Duvet (#484)
+- ANG - Sengoku Majin Goushougun - OP - Macron 1 (#455)
+- FR - Crest feat. TBK - MV - Histoire Millénaire (#198)
+- FR - Sous le Signe des Mousquetaires - OP (#211)
+- FR - Albator 84 - OP (#358)
+- FR - La Bande a Picsou - OP - La Bande a Picsou
+- FR - Les aventures de Sonic - OP
+- FR - Les Rois de la Suede - MV - Socialisme
+- FR - Tortues Ninja - OP
+- FR - Magical Doremi - OP1 (#86)
+- FR - Magical Doremi - IN (#456)
+- FR - Super Nana - OP (#447)
+- FR - Zblucop - OP - Turbo Justice (#476)
+- JAP - Aa! Megami-sama - OP - Open your Mind - Chiisana hane hirogete
+- JAP - Aa! Megami-sama Sorezore no Tsubasa - OP - Shiawase no Iro
+- JAP - AKB48 - Heavy Rotation (#450)
+- JAP - Akiba's Trip The Animation - IN - Sanki Tousen!
+- JAP - Azumanga Daioh - IN - Chiyo-chan no Tsukurimasho (#450)
+- JAP - Bakemonogatari - OP5 - Sugar Sweet Nightmare
+- JAP - Bakemonogatari - OP5 - Sugar Sweet Nightmare ~ Anime Vers.
+- JAP - Cats Toninden Teyande - OP - Otto Dokkoi Nihon Bare (#114)
+- JAP - Chage and Aska - AMV - On Your Mark (#115)
+- JAP - ClariS - MV - Hitorigoto (#451)
+- JAP - DearS - ED - Happy Cosmos (#468)
+- JAP - Fullmetal Alchemist - OP1 - Melissa
+- JAP - JoJo's Bizarre Adventure Diamond is Unbreakable - OP3 - Great Days - Bites the Dust Ver.
+- JAP - JoJo's Bizarre Adventure Diamond is Unbreakable - OP3 - Great Days
+- JAP - K-ON! - IN2 - Watashi no koi HOT KISS (#419)
+- JAP - K-ON! - AMV - Highschool of the dead (#472)
+- JAP - K-ON! - IN - Gohan wa Okazu (#473)
+- JAP - K-ON!! - ED1 - LISTEN
+- JAP - K-ON!! - IN - U&I
+- JAP - Kaizoku Ouji - OP - Kaizoku Ouji (#471)
+- JAP - Karen Senki - OP - Ai wo Sagashite ~In Search of Lost Love~ (#205)
+- JAP - Kino no Tabi The Beautiful World - ED - The Beautiful World (#151)
+- JAP - Mai-Hime - OP - Shining Days.ass
+- JAP - Mai-Otome - OP2 - Crystal Energy
+- JAP - Minori Chihara - MV - Yasashii Boukyaku
+- JAP - Monogatari Second Series - OP1 (#480)
+- JAP - Nichijou - OP2 - Hyadain no Joujou Yuujou (#446)
+- JAP - Nisemonogatari - OP4 - Platinum Disco (#464)
+- JAP - Perfume - MV - Flash (#453)
+- JAP - Pokémon - ED4 (#477)
+- JAP - Psycho-Pass - ED1 - Namae no Nai Kaibutsu
+- JAP - RADWIMPS - MV - Zen Zen Zense (#424)
+- JAP - Robot Girl Z - OP - Team Z no Chikara (#474)
+- JAP - Segata Sanshiro - MV - SegataGame (#461)
+- JAP - Shinsekai Yori - ED2 - Yuki ni Saku Hana (#331)
+- JAP - Shin Seiki Evangelion - LIVE - Zankoku no tenshi no THESE (#479)
+- JAP - Shin Seiki Evangelion The End of Evangelion - MOVIE IN - Komm Susser Tod (#444)
+- JAP - Silent Mobius - OP (#475)
+- JAP - Steins;Gate - OP - Sky Clad no Kansokusha
+- JAP - Touhou - MV - Cirno's perfect math class (#482)
+- JAP - Utawarerumono - OP - Musouka
+- JAP - Working!! - OP - Someone else
+- JAP - Yu-Gi-Oh! 5D's - OP1 - Kizuna
+- JAP - Yu-Gi-Oh! 5D's - OP2 - Last Train ~Atarashi Asa~
+- JAP - Yu-Gi-Oh! 5D's - OP3 - Freedom
+- JAP - Yu-Gi-Oh! 5D's - OP4 - Believe in Nexus
+- JAP - Yu-Gi-Oh! 5D's - OP5 - Asu e no Michi ~Going my way!!~
+
 # April 2018
 
 ## Modifications
@@ -5,7 +192,7 @@
 - A lot of new videos replace the old ones in low resolution and are creditless now.
 - We removed a lot of effects on some karaokes which made them hard to read. However, we kept some of them as is because the effets were really adding to the overall experience.
 
-# Added
+## Added
 
 - ANG - Boom Boom Satellites - MV - LAY YOUR HANDS ON ME
 - ANG - Genki Rockets - MV - Heavenly Star
