@@ -121,7 +121,7 @@ Contributors this month. Give them a hug !
 
 ## Fixed / new videos
 
-61 fixes
+74 fixes
 
 - ANG - Fire Emblem Fates Conquest - GAME IN - Lost in Thoughts All Alone
 - ANG - Serial Experiment Lain - OP - Duvet (#484)
@@ -148,7 +148,16 @@ Contributors this month. Give them a hug !
 - JAP - Chage and Aska - AMV - On Your Mark (#115)
 - JAP - ClariS - MV - Hitorigoto (#451)
 - JAP - DearS - ED - Happy Cosmos (#468)
+- JAP - Dokidoki! Precure - ED1 - Kono Sora no Mukou
+- JAP - Dokidoki! Precure - ED2 - Love Link
+- JAP - Fresh Precure! - ED2 - H@ppy Together
+- JAP - Fresh Precure! - OP1 - Let's! Fresh Pre Cure
 - JAP - Fullmetal Alchemist - OP1 - Melissa
+- JAP - Futari wa Precure Splash Star - ED1 - Warau ga Kachi! de GO!
+- JAP - Futari wa Precure Splash Star - OP1 - Makasete Splash Star
+- JAP - Heartcatch Precure! - ED1 - Heartcatch Paradise!
+- JAP - Heartcatch Precure! - OP1 - Alright! Heartcatch Precure!
+- JAP - Higurashi no Naku Koro ni - AMV - With You -Kizuna-
 - JAP - JoJo's Bizarre Adventure Diamond is Unbreakable - OP3 - Great Days - Bites the Dust Ver.
 - JAP - JoJo's Bizarre Adventure Diamond is Unbreakable - OP3 - Great Days
 - JAP - K-ON! - IN2 - Watashi no koi HOT KISS (#419)
@@ -163,6 +172,9 @@ Contributors this month. Give them a hug !
 - JAP - Mai-Otome - OP2 - Crystal Energy
 - JAP - Minori Chihara - MV - Yasashii Boukyaku
 - JAP - Monogatari Second Series - OP1 (#480)
+- JAP - New Game!! - ED1 - JUMPin' JUMP UP!!!!
+- JAP - New Game!! - ED2 - Yume-iro Compass
+- JAP - New Game!! - OP1 - STEP by STEP UP
 - JAP - Nichijou - OP2 - Hyadain no Joujou Yuujou (#446)
 - JAP - Nisemonogatari - OP4 - Platinum Disco (#464)
 - JAP - Perfume - MV - Flash (#453)
@@ -171,10 +183,16 @@ Contributors this month. Give them a hug !
 - JAP - RADWIMPS - MV - Zen Zen Zense (#424)
 - JAP - Robot Girl Z - OP - Team Z no Chikara (#474)
 - JAP - Segata Sanshiro - MV - SegataGame (#461)
+- JAP - Shinryaku! Ika Musume - ED - Metamerism
+- JAP - Shinryaku! Ika Musume 2 - OP - HIGH POWERED
 - JAP - Shinsekai Yori - ED2 - Yuki ni Saku Hana (#331)
 - JAP - Shin Seiki Evangelion - LIVE - Zankoku no tenshi no THESE (#479)
 - JAP - Shin Seiki Evangelion The End of Evangelion - MOVIE IN - Komm Susser Tod (#444)
 - JAP - Silent Mobius - OP (#475)
+- JAP - Smile Precure! - ED - Yay! Yay! Yay!
+- JAP - Smile Precure! - OP - Let's go! Smile Precure!
+- JAP - Suite Precure - ED1 - Wonderful Powerful Music!!
+- JAP - Suite Precure - OP1 - La La La Suite Precure
 - JAP - Steins;Gate - OP - Sky Clad no Kansokusha
 - JAP - Touhou - MV - Cirno's perfect math class (#482)
 - JAP - Utawarerumono - OP - Musouka
@@ -184,6 +202,7 @@ Contributors this month. Give them a hug !
 - JAP - Yu-Gi-Oh! 5D's - OP3 - Freedom
 - JAP - Yu-Gi-Oh! 5D's - OP4 - Believe in Nexus
 - JAP - Yu-Gi-Oh! 5D's - OP5 - Asu e no Michi ~Going my way!!~
+
 
 # April 2018
 
