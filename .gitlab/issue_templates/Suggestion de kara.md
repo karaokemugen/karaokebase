@@ -47,7 +47,6 @@ Liste des tags pour vous aider à choisir: (merci de supprimer ces lignes pour e
 * "TAG_IDOL": "Idol",
 * "TAG_SHOUJO": "Shoujo",
 * "TAG_SHOUNEN": "Shounen",
-* "TAG_HORROR": "Horreur",
 * "TAG_SOL": "Tranche de vie",
 * "TAG_YURI": "Yuri",
 * "TAG_YAOI": "Yaoi",
