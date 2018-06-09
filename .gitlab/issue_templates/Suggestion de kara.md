@@ -49,7 +49,6 @@ Liste des tags pour vous aider à choisir: (merci de supprimer ces lignes pour e
 * "TAG_SHOUNEN": "Shounen",
 * "TAG_YURI": "Yuri",
 * "TAG_YAOI": "Yaoi",
-* "TAG_SCHOOL": "Scolaire",
 * "TAG_ROMANCE": "Romance",
 * "TAG_VIDEOGAME": "Jeu vidéo",
 * "TAG_PSX": "PSX",
