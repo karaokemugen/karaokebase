@@ -37,7 +37,6 @@
 - `TAG_SHOUNEN` : Animé visant un public majoritairement masculin.
 - `TAG_YURI` : Animé impliquant des relations entre filles.
 - `TAG_YAOI` : Animé impliquant des relations entre hommes.
-- `TAG_ROMANCE` : Animé traitant de romance.
 
 ## Support (pour les jeux vidéo)
 
