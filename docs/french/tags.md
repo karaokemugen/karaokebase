@@ -35,7 +35,6 @@
 - `TAG_IDOL` : Animé avec des filles qui chantent en groupe.
 - `TAG_SHOUJO` : Animé visant un public majoritairement féminin.
 - `TAG_SHOUNEN` : Animé visant un public majoritairement masculin.
-- `TAG_SPORT` : Animé avec des gens qui se dépensent et qui suent.
 - `TAG_HORROR` : Animé avec du sang, de la violence corporelle et d'autres joyeusetés.
 - `TAG_SOL` : Animé de type Slice Of Life (tranche de vie).
 - `TAG_YURI` : Animé impliquant des relations entre filles.
