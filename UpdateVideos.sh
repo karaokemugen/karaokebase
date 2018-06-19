@@ -12,15 +12,24 @@ echo The password is not displayed, that is normal.
 echo the passowrd is : musubi
 echo WARNING : You need at least 190 Gb of free space to download this.
 echo IMPORTANT : A dry run will be launched first. Make sure it is okay before continuing.
-echo If you see ALL your media files are going to be deleted, CTRL+C NOW to abort
+echo If you see ALL your media files are going to be deleted, CTRL+C to abort
 echo If it is all right, hit enter to continue.
 echo You will be prompted for the password twice.
+DESTDIR=videos
 
 if [ -e "./UpdateVideos.sh" ] 
 then
-	rsync -ruvh --dry-run --progress --delete-after --exclude=".tmb/" $rsynclogin@$host::$ressource/videos/ videos/
+	if [ `date +%s` -ge 1530396000 ] 
+	then
+		 if [ -e "./videos" ] && [ ! -e "./medias" ] 
+		 then
+		 	DESTDIR=medias
+			mv videos medias
+		 fi
+	fi
+	rsync -ruvh --dry-run --progress --delete-after $rsynclogin@$host::$ressource/videos/ $DESTDIR
 	read -p "Press enter to continue"
-	rsync -ruvh --progress --delete-after --exclude=".tmb/" $rsynclogin@$host::$ressource/videos/ videos/
+	rsync -ruvh --progress --delete-after $rsynclogin@$host::$ressource/videos/ $DESTDIR
 else
 	echo "Error : this script must be launched in its own folder."
 	exit 1
