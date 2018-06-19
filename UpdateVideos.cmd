@@ -33,9 +33,9 @@ SET TodayYear=%DATE:~6,4%
 SET TodayMonth=%DATE:~3,2%
 SET TodayDay=%DATE:~0,2%
 
-echo %TodayDay%
-echo %TodayMonth%
-echo %TodayYear%
+
+
+
 SET DESTDIR=videos
 
 REM Construct today's date to be in the same format as the FirstDate.
