@@ -51,3 +51,5 @@
 - `TAG_DS` : Nintendo DS
 - `TAG_PC` : PC
 - `TAG_SEGACD` : Mega CD
+- `TAG_SATURN` : Sega Saturn
+- `TAG_WII` : Nintendo Wii
