@@ -17,10 +17,10 @@ echo If it is all right, hit enter to continue.
 echo You will be prompted for the password twice.
 DESTDIR=videos
 
-if [ -e "./UpdateVideos.sh" ] 
+if [ -e "./UpdateMedias.sh" ] 
 then
 	if [ `date +%s` -ge 1530396000 ] 
-	then
+	the
 		 if [ -e "./videos" ] && [ ! -e "./medias" ] 
 		 then
 		 	DESTDIR=medias
