@@ -23,10 +23,10 @@ You can either become a member of the database team or send your modifications v
 Database team members have write access to this git repository as well as to the FTP server where videos are stored. If you'd like to become part of the team and get absolutely no advantages other than personal satisfaction for contributing to this, read the section below. If you're in the team already, read the following :
 
 * [Download and install Karaoke Mugen](http://mugen.karaokes.moe)
-* Create a folder called `app` and then another one called `data` in your KM install folder.
-* Put your new videos in place in that folder
+* Create a folder called `app` and then another one called `data` inside in your KM install folder.
+* Put your new videos in place in that folder according to the usual structure, like `app/data/medias`
 * Make any modification or add new karaoke songs by reusing an already existing `.kara` file as a template. Pick one from this database.
-* If you're adding a new song, remove lines starting with `KID`, `date` and `video`
+  * If you're adding a new song, remove lines starting with `KID`, `date` and `media` save for `mediafile`
 * Run Karaoke Mugen with the `--generate` option :
 
 ```sh
@@ -40,8 +40,8 @@ yarn start --generate
 ```
 
 * If generation returns no errors then you can go on. If it does, verify your `.kara` files.
-* Send your video file to us, or if you have access to Shelter's FTP, upload your videos on Shelter or simply rename them if it only needs renaming.
-* Commit & push once your videos are in place on Shelter, then submit your pull request.
+* Send your media file to us, or if you have access to Shelter's FTP, upload your media files on Shelter or simply rename them if it only needs renaming.
+* Commit & push once your media files are in place on Shelter, then submit your pull request.
 
 ## I want to help maintain the karaoke database
 
@@ -62,7 +62,7 @@ And go to the #karaoke channel!
 
 # French version
 
-## Comment créer un karaoké ? 
+## Comment créer un karaoké ?
 
 Nous avons écrit un document à ce sujet que vous trouverez ici :
 

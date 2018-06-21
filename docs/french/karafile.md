@@ -63,7 +63,7 @@ N'ayez pas peur, tout n'est pas à remplir par vous-même (mais une grande parti
   - `ED` : Ending d'un animé.
   - `IN` : Insert song (chanson qui passe en plein milieu d'un épisode).
   - `OT` : Autre/inclassable.
-  - `TRAILER` : Vidéo promotionnelle (trailer, bande-annonce, etc.).
+  - `PV` : Vidéo promotionnelle (trailer, bande-annonce, etc.).
   - `LIVE` : Concerts.
   - `OP` : Opening d'un animé.
   - `MV` : Vidéo musicale (clips musicaux).
