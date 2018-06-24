@@ -48,6 +48,7 @@
 - `TAG_PSV` : PSVita
 - `TAG_XBOX360` : XBOX 360
 - `TAG_GAMECUBE` : Gamecube
+- `TAG_WII` : Wii
 - `TAG_DS` : Nintendo DS
 - `TAG_PC` : PC
 - `TAG_SEGACD` : Mega CD
