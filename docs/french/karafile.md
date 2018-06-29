@@ -92,79 +92,87 @@ Les données vidéo seront regénérées toute seules si une modification est d�
 
 #### Protips de remplissage de .kara
 
-Tout d'abord, quand vous remplissez le .kara, il est important d'avoir de bonnes références pour ne pas se tromper sur les artistes / chanteurs / compositeurs / studio / etc.
+Quand vous remplissez un .kara, il est important d'avoir de bonnes références pour ne pas se tromper sur les artistes / chanteurs / compositeurs / studio / etc.
 
 ##### Références
 
 - Pour les .karas d'animes, on se référera sur :
+  - [anidb](https://anidb.net/) (onglet _songs_ sur la page de l'anime, après la section _Anime Tags_)
   - [MyAnimeList](http://myanimelist.net/)
-  - [anidb](https://anidb.net/) (onglet _songs_, après la section _Anime Tags_)
 - Pour les .karas de Visual Novel :
   - [vndb](https://vndb.org/)
 - Pour les jeux vidéo :
   - [vgmdb](http://vgmdb.net/)
 
-Si vraiment vous galérez à trouver une info en particulier, Google, NicoNico, ou Internet de manière générale restent de très bons alliés. Il y a des infos, comme par exemple des auteurs d'AMV des années 2000 qui sont difficiles à trouver. On ne vous fouettera pas sur la place publique si vous ne remplissez pas toutes les informations.
+Et si vraiment vous galérez à trouver une info en particulier, Google, NicoNico, AnimeLyrics, Lyrical Nonsense ou Internet de manière générale restent de très bons alliés. Il y a des infos, comme par exemple des auteurs d'AMV des années 2000 qui sont difficiles à trouver. On ne vous fouettera pas sur la place publique si vous ne remplissez pas toutes les informations.
 
-##### Normes des noms
+Maintenant, attaquons le remplissage ligne par ligne.
 
-Lors du remplissage, merci de toujours noter les personnes impliqués dans cet ordre : **[Prénom] [Nom]**
 
-Par exemple :
+- `title=` : Dans un fichier .kara, absolument tous les symboles / caractères spéciaux sont tolérés (hormis le point virgule, que vous devez ici retranscrire précédé d'un antislash `Steins\;Gate`).
+N'hésitez donc pas à utiliser les vrais noms originaux de la réalité véritable, avec des 2 points, des points d'exclamation, des coeurs, etc ( -> `Van!shment Th!s World`).
+- `series=` : Si le nom de la série existe déjà dans le fichier `series.json`, copiez/collez la tout simplement ici ( -> `Chûnibyô Demo KOI ga Shitai! Ren`).
 
-- Hatsune Miku / Megurine Luka / Kagamine Len ✖
-- **Miku Hatsune / Luka Megurine / Len Kagamine** ✔
-- Ayanami Rei / Shinkai Makoto / Nagato Yuki ✖
-- **Rei Ayanami / Makoto Shinkai / Yuki Nagato** ✔
+Comme la ligne `title`, n'aillez pas peur de mettre le vrai nom original avec ses caractères spéciaux bien à lui (**_Mahô Shôjo Madoka★Magica_*, **_Bonjour♪Koiaji Pâtisserie_**, **_Fortissimo EXS//Akkord:nächsten Phase_**, **_The iDOLM@STER_**).
 
-Comment ne pas se tromper ?
+- `order=` : Si la série ne contient qu'un seul opening / ending, laissez cette ligne vide.
 
-Sur MyAnimeList, le nom des artistes / personnages sont toujours notés comme suit : **[Nom], [Prénom]**
+Si c'est une insert song d'un épisode en particulier, laissez aussi vide.
 
-[Ceci est un exemple](https://myanimelist.net/people/1117) où il suffit juste d'inverser.
+Sur anidb, si le premier épisode utilise comme **ending** la musique qui deviendra l'**opening** dans les épisodes suivants, n'en tenez **PAS** compte, ce n'est **PAS** un ending, ça reste avant tout l'opening. Faites bien attention à ça.
 
-Sur anidb c'est la même chose : **[Nom] [Prénom]**
+- `year=` : J'insiste bien sur le fait que ça doit être l'année de la vidéo, pas de la chanson.
+- `singer=` : [Utilisez de préférence anidb](https://anidb.net/perl-bin/animedb.pl?show=song&songid=63520) et indiquez le nom de l'artiste *tel qu'il est retranscrit officiellement*. Il serait tentant d'écrire **_Être_** avec un e majuscule, comme le reste, mais l'ériture officielle est bien `Black Raison d'être`, suivi de `Chinatsu Akasaki, Azumi Asakura, Mâya Uchida, Sumire Uesaka` (cliquez sur le nom de l'artiste pour le vérifier, ligne "official name").
+- `tags=` : Comme vous l'avez sans doute remarqué, la base est constituée en majorité de générique d'anime diffusés à la télé, alors de base, n'oubliez pas le petit `TAG_ANIME,TAG_TVSHOW` (ou ONA/OVA/SPECIAL si ça a été diffusé autre part).
+- `songwriter=` : [Utilisez de préférence anidb](https://anidb.net/perl-bin/animedb.pl?show=song&songid=63520) et indiquez le nom de l'artiste *tel qu'il est retranscrit officiellement*. Il serait tentant d'écrire **_Zaq_**, mais c'est bien `ZAQ` la retranscription officielle (cliquez sur le nom de l'artiste pour le vérifier, ligne "official name")
+- `creator=` : L'ami Nock [a fait un tableau](https://docs.google.com/spreadsheets/d/1ULoVCi7UvTG0qSMVUhnPLOOiehH5jVrVYZMsuYi9O7s/edit#gid=18648527
+) de la majorité des studios d'animation / de jeux vidéo / de toku / de films live, avec leur nom **officiel**. Servez-vous en de référence pour remplir la ligne « Creator » des .karas, par exemple n'écrivez pas **_Shaft_**, mais **_SHAFT_**. Cela évite que la base de données interprète cela comme deux noms de studio différents.
 
-![AniDB](../img_tutos/anidb.png)
+Vous l'avez peut-être remarqué, j'ai utilisé des accents sur certains nom, par exemple **_Mâya Uchida_** dans `singer`.
 
-La bonne réponse est Megumi Hayashibara, donc.
+En effet, là aussi dans un souci d'uniformisation, il a été décidé les règles d'écriture suivantes :
 
-Enfin, dans un souci d'harmonisation des artistes, vous êtes prié de respecter les rêgles suivantes :
-
-- Un nom avec un "a" long (aa) devient "â"
-- Un nom avec un "i" long (ii) reste "ii"
-- Un nom avec un "u" long (uu) devient "û"
-- Un nom avec un "e" long (ee) devient "ê"
 - Un nom avec un "o" long (ou) devient "ô"
+- Un nom avec un "u" long (uu) devient "û"
+- Un nom avec un "a" long (aa) devient "â"
+- Un nom avec un "e" long (ee) devient "ê"
+- Un nom avec un "i" long (ii) reste "ii"
 
-Par exemple, "Chiwa Saitou" sur anidb devient "Chiwa Saitô" dans le .kara.
+Ces règles doivent être **obligatoirement** appliquées pour `title` (**_Shinzô wo Sasageyo_**), `series` (**_Chûnibyô_**), `singer` (**_Mâya Uchida_**), `songwriter` (**_Yôko Kanno_**).
 
-##### Normes de nommage des noms de fichiers
+Autre règle de nommage, **toujours** écrire [Prénom] puis [Nom]. Pour ne pas se tromper, anidb indique toujours les artites en [Nom]+[Prénom], il suffit donc d'inverser. MyAnimeList fait la même chose.
 
-Si vous voyez un .kara (donc une vidéo) qui porte un nom inexact, vous pouvez tout à fait le renommer. Mais **ATTENTION**, il faut tout renommer :
+Si votre série a connue des saisons différentes au fil du temps mais en gardant à chaque fois le même titre, et qu'il n'est du coup pas possible de les différencier, indiquez à la suite l'année de sortie desdites séries entre parenthèses.
 
-- **le nom du .kara en lui-même** (machin.kara -> truc.kara)
-- **les données dans ledit .kara** (à savoir les lignes "videofile" et "subfile")
-- **le .ass** (que vous venez à l'instant de renommer dans le .kara avec "subfile")
+Par exemple, **_Tetsuwan Atom_** et **_Gegege no Kitarô_** ont eu droit à ce traitement, il faut donc les nommer :
 
-Mais ce n'est pas encore complètement terminé, car il reste à renommer la vidéo. Pour ça, [demandez sur Discord dans le canal #karaoke](https://discord.gg/a8dMYek) de vous donner un accès au ftp pour renommer vous-même les vidéos.
+`Tetsuwan Atom (1963, 1980 ou 2003)`
 
-##### Les noms alternatifs de séries
+`Gegege no Kitarô (1968, 1971, 1985, 1996, 2007 ou 2018)`
 
-Si, pendant vos merveilleuses sessions de remplissage ou lors de la création d'un .kara , vous trouvez des nom alternatifs de série, [rajoutez-les à la base de noms alternatifs déjà existante](altnames.md).
+Si votre chanson est une version alternative de l'originale, ou que la vidéo possède la même chanson qu'une autre vidéo déjà existante **sauf** que le visuel diffère, vous devez l'indiquer dans `title`, et toujours de cette manière : **[Nom de la chanson] ~ [...] Vers.**
 
-Par exemple si vous connaissez le nom anglais ou français ou espagnol d'une série, vous pouvez remplir le fichier `series.json` en suivant les instructions du lien ci-dessus.
+```
+Bakemonogatari - MV - Kimi no Shiranai Monogatari ~ Piano Vers.
 
-##### Le champ `creator`
+Air - OP - Tori no Uta ~ Long Vers.
 
-Petit point sur la partie « Creator » :
+Air - OP - Tori no Uta ~ Alternative Long Vers.
 
-Nock [a fait un tableau](https://docs.google.com/spreadsheets/d/1ULoVCi7UvTG0qSMVUhnPLOOiehH5jVrVYZMsuYi9O7s/edit#gid=18648527
-) de la majorité des studios d'animation / de jeux vidéo / de toku / de films live, avec leur nom **officiel**. Servez-vous en de référence pour remplir la ligne « Creator » des .karas, par exemple n'écrivez pas **Shaft**, mais **SHAFT**. Cela évite que la base de données interprète cela comme deux noms de studio différents.
+Macross Plus - OP - Voices ~ A Capella Vers.
 
-##### Les bons réflexes
+Kiss X Sis TV - ED1 - Our Steady Boy ~ Summer Vers. (là c'est parce qu'elles sont en tenue d'été contrairement à la Spring Vers.)
+```
 
-comme la grosse majorité des .karas que vous allez remplir proviennent de séries TV japonaise, par réflexe, n'oubliez pas le petit «TAG_ANIME,TAG_TVSHOW» dans la ligne `tag`.
+Les accents sont **totalement prohibés** dans les noms des vidéos et des lyrics, si votre série ou votre titre en contient, adaptez en conséquence. Ici :
+
+`JAP - Chuunibyou Demo KOI ga Shitai Ren - ED - Vanishment This World.mkv`
+
+`JAP - Chuunibyou Demo KOI ga Shitai Ren - ED - Vanishment This World.ass`
+
+MAIS
+
+`Chûnibyô Demo KOI ga Shitai! Ren` et `Van!shment Th!s World` dans le .kara
 
 ### Valider un .kara par Karaoke Mugen
 
