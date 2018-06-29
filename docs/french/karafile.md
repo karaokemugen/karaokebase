@@ -122,21 +122,24 @@ Si c'est une insert song d'un épisode en particulier, laissez aussi vide.
 Sur anidb, si le premier épisode utilise comme **ending** la musique qui deviendra l'**opening** dans les épisodes suivants, n'en tenez **PAS** compte, ce n'est **PAS** un ending, ça reste avant tout l'opening. Faites bien attention à ça.
 
 - `year=` : J'insiste bien sur le fait que ça doit être l'année de la vidéo, pas de la chanson.
-- `singer=` : [Utilisez de préférence anidb](https://anidb.net/perl-bin/animedb.pl?show=song&songid=63520) et indiquez le nom de l'artiste *tel qu'il est retranscrit officiellement*. Il serait tentant d'écrire **_Être_** avec un e majuscule, comme le reste, mais l'ériture officielle est bien `Black Raison d'être`, suivi de `Chinatsu Akasaki, Azumi Asakura, Mâya Uchida, Sumire Uesaka` (cliquez sur le nom de l'artiste pour le vérifier, ligne "official name").
-- `tags=` : Comme vous l'avez sans doute remarqué, la base est constituée en majorité de générique d'anime diffusés à la télé, alors de base, n'oubliez pas le petit `TAG_ANIME,TAG_TVSHOW` (ou ONA/OVA/SPECIAL si ça a été diffusé autre part).
-- `songwriter=` : [Utilisez de préférence anidb](https://anidb.net/perl-bin/animedb.pl?show=song&songid=63520) et indiquez le nom de l'artiste *tel qu'il est retranscrit officiellement*. Il serait tentant d'écrire **_Zaq_**, mais c'est bien `ZAQ` la retranscription officielle (cliquez sur le nom de l'artiste pour le vérifier, ligne "official name")
+- `singer=` : **[Utilisez de préférence anidb](https://anidb.net/perl-bin/animedb.pl?show=song&songid=63520)** et indiquez le nom de l'artiste *tel qu'il est retranscrit officiellement*. Il serait tentant d'écrire **_Être_** avec un e majuscule, comme le reste, mais l'ériture officielle est bien `Black Raison d'être`, suivi de `Chinatsu Akasaki, Azumi Asakura, Mâya Uchida, Sumire Uesaka` (cliquez sur le nom de l'artiste pour le vérifier, ligne "official name").
+- `tags=` : Comme vous l'avez sans doute remarqué, la base est constituée en majorité de génériques d'animes diffusés à la télé, alors de base, n'oubliez pas le petit `TAG_ANIME,TAG_TVSHOW` (ou ONA/OVA/SPECIAL si ça a été diffusé autre part).
+- `songwriter=` : **[Utilisez de préférence anidb](https://anidb.net/perl-bin/animedb.pl?show=song&songid=63520)** et indiquez le nom de l'artiste *tel qu'il est retranscrit officiellement*. Il serait tentant d'écrire **_Zaq_**, mais c'est bien `ZAQ` la retranscription officielle (cliquez sur le nom de l'artiste pour le vérifier, ligne "official name")
 - `creator=` : L'ami Nock [a fait un tableau](https://docs.google.com/spreadsheets/d/1ULoVCi7UvTG0qSMVUhnPLOOiehH5jVrVYZMsuYi9O7s/edit#gid=18648527
 ) de la majorité des studios d'animation / de jeux vidéo / de toku / de films live, avec leur nom **officiel**. Servez-vous en de référence pour remplir la ligne « Creator » des .karas, par exemple n'écrivez pas **_Shaft_**, mais **_SHAFT_**. Cela évite que la base de données interprète cela comme deux noms de studio différents.
 
-Vous l'avez peut-être remarqué, j'ai utilisé des accents sur certains nom, par exemple **_Mâya Uchida_** dans `singer`.
+Vous l'avez peut-être remarqué, j'ai utilisé des accents sur certains noms, par exemple **_Mâya Uchida_** dans `singer`.
 
 En effet, là aussi dans un souci d'uniformisation, il a été décidé les règles d'écriture suivantes :
 
 - Un nom avec un "o" long (ou) devient "ô"
+- Un nom avec un double "o" (oo) **reste** "oo"
 - Un nom avec un "u" long (uu) devient "û"
 - Un nom avec un "a" long (aa) devient "â"
 - Un nom avec un "e" long (ee) devient "ê"
-- Un nom avec un "i" long (ii) reste "ii"
+- Un nom avec un "i" long (ii) **reste** "ii"
+
+- Un nom avec une apostrophe (Shin'ichi par exemple), garde son apostrophe
 
 Ces règles doivent être **obligatoirement** appliquées pour `title` (**_Shinzô wo Sasageyo_**), `series` (**_Chûnibyô_**), `singer` (**_Mâya Uchida_**), `songwriter` (**_Yôko Kanno_**).
 
