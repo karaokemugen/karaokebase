@@ -25,7 +25,7 @@ Contributors this month :
 
 ## Added
 
-258 new songs!
+264 new songs!
 
 - ANG - Battlefleet Gothic Armada - PV - Orks Trailer
 - ANG - Duck Dodgers - OP
