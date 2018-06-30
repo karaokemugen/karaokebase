@@ -20,13 +20,16 @@ Contributors this month :
 - @Krow
 - @AxelTerizaki
 - @Kmeuh
+- @Rinchama
+- @Herolien
 
 ## Added
 
-242 new songs!
+258 new songs!
 
 - ANG - Battlefleet Gothic Armada - PV - Orks Trailer
 - ANG - Duck Dodgers - OP
+- ANG - Final Fantasy X - OP - Otherworld
 - ANG - Funky Cops - OP - Let's boogie
 - ANG - Ginga Eiyuu Densetsu - OP4 - Must be something
 - ANG - Ginga Eiyuu Densetsu Sen oku no Hoshi Sen oku no Hikari - OP - Kid
@@ -44,9 +47,12 @@ Contributors this month :
 - FR - Corneil et Bernie - OP
 - FR - Festival d'Annecy - PV - Bande Annonce Partenaire 2017
 - FR - Foot 2 rue - OP1 - Foot 2 rue
+- FR - Fort Boyard - OT - Megagaf
 - FR - Freakazoid - OP
 - FR - Johnny Hallyday - MV - Allumer Le Feu
 - FR - Moi Renart - ED - Moi Renart
+- FR - Naruto - OP - Rejoins le clan de Naruto
+- FR - One Piece - IN - Le bon rhum de Binks
 - FR - Patrick Sebastien - MV - Il fait chaud
 - FR - Telefrancais! - OP
 - FR - The Hitchhiker's Guide to the Galaxy - OP - Salut, et encore merci pour le poisson
@@ -161,6 +167,7 @@ Contributors this month :
 - JAP - Mentholatum Lip Baby - CM - Akuma na Kanna
 - JAP - Mitsuboshi Colors - ED - Miracle Colors Honjitsu mo Ijou Nashi!
 - JAP - Mitsuboshi Colors - OP - Colors Power ni Omakasero!
+- JAP - Naruto Shippuuden - OP03 LIVE - BLUE BIRD
 - JAP - Nanatsu no Taizai Imashime no Fukkatsu - ED1 - Beautiful
 - JAP - Nanatsu no Taizai Imashime no Fukkatsu - ED2 - Chikai
 - JAP - Nanatsu no Taizai Imashime no Fukkatsu - OP1 - Howling
@@ -189,6 +196,9 @@ Contributors this month :
 - JAP - Shounen Maid - ED - Zutto Only You
 - JAP - Shuumatsu no Izetta - OP - cross the line
 - JAP - Steins;Gate 0 - OP - Fatima
+- JAP - Strike Witches Operation Victory Arrow - ED1 - Fly away
+- JAP - Strike Witches Operation Victory Arrow - ED2 - Fly Beyond
+- JAP - Strike Witches Operation Victory Arrow - ED3 - Fly Chronicle
 - JAP - Symphogear Live 2016 - LIVE - BAYONET CHARGE 
 - JAP - Symphogear Live 2016 - LIVE - Edge Works of Goddess ZABABA
 - JAP - Symphogear Live 2016 - LIVE - Just Loving X-Edge
@@ -198,6 +208,7 @@ Contributors this month :
 - JAP - Sword Art Online Alternative Gun Gale Online - OP - Ryuusei
 - JAP - Tada-kun wa Koi wo Shinai - OP - Otomodachi Film
 - JAP - Tada-kun wa Koi wo Shinai - ED - Love Song
+- JAP - Tail Concerto - OP
 - JAP - Takunomi - ED - Stoic ni Detox
 - JAP - Takunomi - OP - aventure bleu
 - JAP - Tamayura Hitotose - OP - Okaerinasai
@@ -258,6 +269,19 @@ Contributors this month :
 - JAP - Yu-Gi-Oh! ARC-V - ED1 - One Step
 - JAP - Yu-Gi-Oh! ARC-V - ED2 - Future Fighter!
 - JAP - Yu-Gi-Oh! ARC-V - ED3 - ARC OF SMILE
+- JAP - Yu-Gi-Oh! ARC-V - ED4 - Speaking
+- JAP - Yu-Gi-Oh! ARC-V - ED5 - Vision
+- JAP - Yu-Gi-Oh! ARC-V - ED6 - Shissou Pendulum
+- JAP - Yu-Gi-Oh! ARC-V - OP2 - Burn!
+- JAP - Yu-Gi-Oh! ARC-V - OP3 - Hanate
+- JAP - Yu-Gi-Oh! ARC-V - OP3 SP - Hanate
+- JAP - Yu-Gi-Oh! ARC-V - OP4 - Kirifuda
+- JAP - Yu-Gi-Oh! ARC-V - OP5 - Kibou no Hikari
+- JAP - Yu-Gi-Oh! ARC-V - OP6 - Pendulum Beat!
+- JAP - Yu-Gi-Oh Gekijô-ban Chô Yûgo Toki wo Koeta Kizuna - ED - Makemagic
+- JAP - Yu-Gi-Oh! VRAINS - ED1 - Believe in Magic
+- JAP - Yu-Gi-Oh! VRAINS - ED2 - Writing Life
+- JAP - Yu-Gi-Oh! VRAINS - OP1 - With the Wind
 - JAP - Yumeria - OP - 24 Jikan Aishiteru
 - JAP - Yuuki Yuuna wa Yuusha de Aru - ED - Aurora Days
 - JAP - Yuuki Yuuna wa Yuusha de Aru ~ Washio Sumi no Shou Movie - OP - Sakiwafuhana
@@ -275,23 +299,34 @@ Karaoke has been fixed or video replaced with better quality or hardsubs replace
 
 - FR - 3615 Usul - Excuses de sac
 - FR - 3615 Usul - Le joueur PC
-- FR - Fruits Basket - ED - Merveilleux Amour et Vie
-- FR - Fruits Basket - OP - Restons Ensemble a Jamais
+- FR - Barbapapa - OP - Barbapapa (#489)
+- FR - Fruits Basket - ED - Merveilleux Amour et Vie (#57)
+- FR - Fruits Basket - OP - Restons Ensemble a Jamais (#58)
 - FR - Glass no Kamen - OP - Laura ou la Passion du Theatre
-- FR - Hikaru no Go - OP1 - Je dois gagner!.ass
+- FR - Hikaru no Go - OP1 - Je dois gagner! (#66)
+- FR - Laura ou la Passion du Théâtre - OP (#77)
 - FR - Mahoutsukai Sally - OP - Minifee
+- FR - Mimi wo sumaseba - IN - Country Road
 - FR - Moi Renart - OP - Moi Renart
+- FR - Miraculous Ladybug - OP
 - FR - Pokemon - IN - En route vers Jadielle
 - FR - Pokemon - OP1 - Un jour, je deviendrai dresseur
-- FR - Scrapped Princess - OP - Un Nouveau Jour
+- FR - Scrapped Princess - OP - Un Nouveau Jour (#92)
+- FR - Tour du monde en 80 Jours - OP (#498)
+- JAP - Darling in the FRANXX - OP1
+- JAP - Darling in the FRANXX - OP2
 - JAP - Excel Saga - ED2 - Menchi Aishuu no Bolero ~ Gyaku na no ne
-- JAP - Fushigi no Umi no Nadia - OP - Blue Water ~ Nautilus Vers.
-- JAP - Fushigi no Umi no Nadia - OP - Blue Water ~ Neo-Nautilus Vers.
+- JAP - Fate/Zero - OP2 (#508)
+- JAP - Fullmetal Alchemist - ED2 - Tobira no mukou he (#125)
+- JAP - Fushigi no Umi no Nadia - OP - Blue Water ~ Nautilus Vers. (#488)
+- JAP - Fushigi no Umi no Nadia - OP - Blue Water ~ Neo-Nautilus Vers. (#488)
 - JAP - Kidou Shin Seiki Gundam X - OP1 - Dreams
 - JAP - Kidou Shin Seiki Gundam X - OP2 - Resolution
 - JAP - Love Live ! School Idol Project 2nd Season - ED9 - Snow Halation
-- JAP - Ojamajo Doremi - OP - Ojamajo Carnival
-- JAP - Ojamajo Doremi Dokkaan! - OP - Dance! Ojamajo
+- JAP - Macross Plus - IN - Voices (#491)
+- JAP - Ojamajo Doremi - OP - Ojamajo Carnival 
+- JAP - Ojamajo Doremi Dokkaan! - OP - Dance! Ojamajo (#499)
+- JAP - Touhou - AMV - Tsurupettan (#500)
 - JAP - Tsukimonogatari - OP - Orange Mint
 - JAP - Tsukimonogatari - ED - border
 - JAP - Uta no Prince-sama ~ Maji Love 1000% - ED1 - Maji love 1000%
