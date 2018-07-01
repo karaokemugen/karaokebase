@@ -26,6 +26,11 @@ then
 		 	DESTDIR=medias
 			mv videos medias
 		 fi
+		 if [ -e "./videos" ] && [ -e "./medias" ] 
+		 then
+		 	DESTDIR=medias
+			mv -f videos/* medias/
+		 fi
 	fi
 	rsync -ruvh --dry-run --progress --delete-after $rsynclogin@$host::$ressource/videos/ $DESTDIR
 	read -p "Press enter to continue"

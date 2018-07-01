@@ -45,7 +45,9 @@ IF %TodayYear%-%TodayMonth%-%TodayDay% GTR %FirstDate% (
 	IF EXIST videos (
 		IF NOT EXIST medias (
 			rename videos medias	
-		)		
+		) ELSE (
+			move /Y videos\* medias\
+		)	
 	)	
 ) ELSE (
     SET DESTDIR=videos
