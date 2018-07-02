@@ -50,6 +50,7 @@
 - `TAG_GAMECUBE` : Gamecube
 - `TAG_WII` : Wii
 - `TAG_DS` : Nintendo DS
+- `TAG_3DS` : Nintendo 3DS
 - `TAG_PC` : PC
 - `TAG_SEGACD` : Mega CD
 - `TAG_SATURN` : Sega Saturn
