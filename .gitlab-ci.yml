@@ -16,8 +16,7 @@ test:
     - git clone https://lab.shelter.moe/karaokemugen/karaokemugen-app.git
     - cd karaokemugen-app
     - git checkout next
-    - npm install -g yarn
-    - yarn install
+    - npm install
     - touch mpv
     - echo "PathKaras=../karas" >config.ini
     - echo "PathSubs=../lyrics" >>config.ini
@@ -25,7 +24,7 @@ test:
     - echo "BinPlayerLinux=mpv" >>config.ini
     - echo "PathDB=../db" >>config.ini
     - echo "PathAltname=../series.json" >>config.ini
-    - yarn start --debug --generate --strict      
+    - npm start -- --debug --generate --strict      
   only:
     - master
   
