@@ -21,14 +21,13 @@ if [ -e "./UpdateMedias.sh" ]
 then
 	if [ `date +%s` -ge 1530396000 ] 
 	then
+		 DESTDIR=medias
 		 if [ -e "./videos" ] && [ ! -e "./medias" ] 
 		 then
-		 	DESTDIR=medias
 			mv videos medias
 		 fi
 		 if [ -e "./videos" ] && [ -e "./medias" ] 
 		 then
-		 	DESTDIR=medias
 			mv -f videos/* medias/
 		 fi
 	fi
