@@ -6,7 +6,7 @@
 
 There's a tutorial describing how to make one here :
 
-* [Karaoke Tutorial](docs/french/tutorial.md) (in french for now)
+* [Karaoke Tutorial](docs/french/README.md) (in french for now)
 
 ## I already have some karaoke files, I would like to add them to this database
 
