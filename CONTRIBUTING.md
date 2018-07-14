@@ -66,7 +66,7 @@ And go to the #karaoke channel!
 
 Nous avons écrit un document à ce sujet que vous trouverez ici :
 
-[Tutorial de karaoké](docs/french/tutorial.md)
+[Tutorial de karaoké](docs/french/README.md)
 
 ## J'ai déjà des karaokés, comment vous les envoyer ?
 
