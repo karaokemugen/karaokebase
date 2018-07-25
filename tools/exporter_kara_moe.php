@@ -216,7 +216,7 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 				'mime' => ['video/mp4','video/webm;codecs="vp9,opus"'],
 				'song' => [
 					'title' => $kara['title'],
-				]
+				],
 				'subtitles' => '',
 			];
 			
