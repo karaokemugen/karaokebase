@@ -184,7 +184,7 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 			$type_avec_num=$type.' '.($key+1);
 			$kara_data=[
 				'file' => get_filename_sans_ext($kara['mediafile']),
-				'mime' => ['video/mp4','video/webm;codecs="vp9,opus"'],
+				'mime' => ['video/mp4'],
 				'song' => [
 					'title' => $kara['title'],
 				],
