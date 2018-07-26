@@ -136,7 +136,6 @@ $types= [
 
 $extensions=[
 	'mp4',
-	'webm',
 ];
 
 
@@ -245,7 +244,7 @@ $out=var_export($last_pass,true);
 $out=str_replace('  ','	',$out);
 
 
-echo '<'.'?php '.$out.' ?'.'>';
+echo '<'.'?php $names = '.$out.' ?'.'>';
 
 // echo '<pre>'.print_r($data,true).'</pre>';
 // echo '<pre>'.print_r($first_pass,true).'</pre>';
