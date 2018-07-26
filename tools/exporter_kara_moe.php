@@ -245,7 +245,7 @@ $out=str_replace('),','],',$out);
 $out=str_replace('  ','	',$out);
 
 
-echo $out;
+echo '<'.'?php '.$out.' ?'.'>';
 
 // echo '<pre>'.print_r($data,true).'</pre>';
 // echo '<pre>'.print_r($first_pass,true).'</pre>';
