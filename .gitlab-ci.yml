@@ -43,6 +43,6 @@ export_website:
 export_karaokesmoe:
   stage: deploy
   script:
-    - apt-get update -qq && apt-get install -y -qq lftp php php-sqlite3
+    - apt-get update -qq && apt-get install -y -qq lftp php-cli php-sqlite3
     - php -f tools/export_karaokesmoe.php db/karas.sqlite3 >names.php
 
