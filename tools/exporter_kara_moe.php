@@ -237,9 +237,9 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 $out=var_export($last_pass,true);
 
 
-//remplacement des array par []
-$out=str_replace('array (','[',$out);
-$out=str_replace('),','],',$out);
+//remplacement des array par [] buggy, j'ai desactivé
+//$out=str_replace('array (','[',$out);
+//$out=str_replace('),','],',$out);
 
 //remplacement des espaces par une tabulation
 $out=str_replace('  ','	',$out);
