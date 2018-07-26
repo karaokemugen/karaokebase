@@ -152,12 +152,13 @@ $first_pass=[];
 foreach ($data as $kara) {
 	
 	//on zappe les fichiers qui sont pas en mp4/webm...
-	foreach($extensions as $extension) {
-		if(get_extension($kara['mediafile'])!= $extension) {
-			continue;
-		}
-	}
-	
+    if(!in_array(get_extension($kara['mediafile']), $extensions)) {
+        continue;
+    }
+
+    //echo $kara['mediafile'].'<br>';
+    
+            
 	//nom de la série ou de l'artiste
 	$serie_singer = !empty($kara['serie'])?$kara['serie']:$kara['singer'];
 	
@@ -209,7 +210,6 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 			
 			$type_avec_num=$type.' '.($key+1);
 			
-			
 			$kara_data=[
 				'file' => get_filename_sans_ext($kara['mediafile']),
 				'mime' => ['video/mp4','video/webm;codecs="vp9,opus"'],
@@ -242,7 +242,6 @@ $out=var_export($last_pass,true);
 
 //remplacement des espaces par une tabulation
 $out=str_replace('  ','	',$out);
-
 
 echo '<'.'?php $names = '.$out.' ?'.'>';
 
