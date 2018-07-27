@@ -188,7 +188,7 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 				'song' => [
 					'title' => $kara['title'],
 				],
-				'subtitles' => '',
+				'subtitles' => 'unknown',
 			];
 
 			if(!empty($kara['author'])) {
