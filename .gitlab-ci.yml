@@ -1,4 +1,4 @@
-image: node:8-stretch
+image: axelterizaki/karaokemugen-ci
 
 stages:
   - test
@@ -12,7 +12,6 @@ test:
       - db
   script:
     - mkdir -p db
-    - apt-get update -qq && apt-get install -y -qq xz-utils ffmpeg
     - git clone https://lab.shelter.moe/karaokemugen/karaokemugen-app.git
     - cd karaokemugen-app
     - git checkout next
@@ -31,7 +30,6 @@ test:
 export_website:
   stage: deploy
   script:
-    - apt-get update -qq && apt-get install -y -qq lftp sqlite3
     - bash tools/export_json.sh db/karas.sqlite3 >karas.json
     - bash tools/stats.sh db/karas.sqlite3 >stats.json
     - lftp -c "set ftp:ssl-allow no; open -u $USERNAME,$PASSWORD $HOST; cd site/downloads; put karas.json; put stats.json"
@@ -43,7 +41,6 @@ export_website:
 export_karaokesmoe:
   stage: deploy
   script:
-    - apt-get update -qq && apt-get install -y -qq lftp php-cli php-sqlite3
     - php -f tools/export_karaokesmoe.php db/karas.sqlite3 >names.php
     - lftp -c "set ftp:ssl-allow no; open -u $USERNAME,$PASSWORD $HOST; cd live; put names.php ; lcd lyrics ; cd subtitles ; mirror -Rnev --parallel=10"
     - rm -f names.php
