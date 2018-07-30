@@ -125,7 +125,7 @@ $extensions=[
 function get_extension($fname){
 	return substr($fname, strrpos($fname, ".") + 1);
 }
-function get_filename_sans_ext($fname){
+function get_filename_without_ext($fname){
 	return substr($fname, 0, strrpos($fname, "."));
 }
 
@@ -181,9 +181,21 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 
 	foreach ($kara_serie_singer as $type => $list_kara) {
 		foreach($list_kara as $key => $kara) {
-			$type_avec_num=$type.' '.($key+1);
+			//Determine song order
+			$languages = explode(',', $kara['language']);
+
+			if (!empty($kara['songorder'])) {
+				$songorder = $kara['songorder'];
+			} else {
+				$songorder = $key+1;
+			}
+			$type_with_num=$type.$songorder;
+			if (isset($last_pass[$serie_singer][$type_with_num])) {
+				$type_with_num=$type.$songorder.'('.$languages[0].')';
+			}
+
 			$kara_data=[
-				'file' => get_filename_sans_ext($kara['mediafile']),
+				'file' => get_filename_without_ext($kara['mediafile']),
 				'mime' => ['video/mp4'],
 				'song' => [
 					'title' => $kara['title'],
@@ -192,13 +204,13 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 			];
 
 			if(!empty($kara['author'])) {
-				$kara_data['subtitles']=$kara['author'];
+				$kara_data['subtitles']=str_replace(',',', ',$kara['author']);
 			}
-			if(!empty($kara['singer'])) {
-				$kara_data['song']['artist']=$kara['singer'];
+			if(!empty($kara['singer'] || $kara['singer'] != 'NO_TAG')) {
+				$kara_data['song']['artist'] = str_replace(',',', ',$kara['singer']);
 			}
 
-			$last_pass[$serie_singer][$type_avec_num]=$kara_data;
+			$last_pass[$serie_singer][$type_with_num]=$kara_data;
 		}
 	}
 }
