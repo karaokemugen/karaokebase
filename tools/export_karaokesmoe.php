@@ -102,7 +102,7 @@ SELECT k.pk_id_kara AS kara_id, k.kid, k.title, k.NORM_title, k.duration, k.gain
     WHERE k.pk_id_kara = kt8.fk_id_kara
     ) as NORM_songwriter
 FROM kara k
-order by language, serie, singer, songtype DESC, songorder';
+order by serie, singer, language, songtype DESC, songorder';
 
 $data=$pdo->query($query)->fetchAll();
 
@@ -189,10 +189,7 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 			} else {
 				$songorder = $key+1;
 			}
-			$type_with_num=$type.$songorder;
-			if (isset($last_pass[$serie_singer][$type_with_num])) {
-				$type_with_num=$type.$songorder.'('.$languages[0].')';
-			}
+			$type_with_num=$type.$songorder.'('.$languages[0].')';
 
 			$kara_data=[
 				'file' => get_filename_without_ext($kara['mediafile']),
