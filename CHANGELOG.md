@@ -1,3 +1,351 @@
+# July 2018
+
+14 Contributors this month, give them hugs!
+
+- @Rinchama
+- @Aeden
+- @Kmeuh
+- @AxelTerizaki
+- @RdNetwork
+- @nah
+- KuroSensei
+- @Nock
+- @Krow
+- Nabashi
+- @Kramoule
+- @PierreCAMILLI
+- @Lua
+- @MaxaoH
+
+Special thanks to @Aeden for integrating KuroSensei's 2017 collection, @Kmeuh for helping out around and @Rinchama for reencoding/replacing lots of videos
+
+## Added
+
+228 new songs!
+
+- BRE - Uchuu Densetsu Ulysses 31 - OP - Ulis 31
+- ALL - Inspektor Gadget - Inspektor Gadget
+- ANG - AMV Hell 7 - ED - NOW That's What I Call Polka!
+- ANG - Big Bad Bosses - MV - Angel
+- ANG - H2G2 - IN - So long, and thanks for all the fish
+- ANG - Hitomi Kurtzmann - MV - Kochoneizer (Parodie de Womanizer par Les Guardians)
+- ANG - League of Legends - MV - Warriors (Worlds 2014)
+- ANG - Onechanbara Z2 Chaos - OP - ICHIBAN WA ME
+- ANG - Shingeki no Bahamut Virgin Soul - OP1 - LET iT END
+- ANG - Shingeki no Kyojin S2 - ED - Yuugure no Tori
+- ANG - Taiyou no Ko Esteban - OP - The Mysterious Cities of Gold
+- FR - Steven Universe - OP1 (#529)
+- FR - Uchuu Densetsu Ulysses 31 - OP1 - Ulysse
+- FR - Yokai Watch - ED1 - Yokai Exercice No.1
+- FR - Yokai Watch - ED2 - Beat Camp Yokai
+- FR - Yokai Watch - OP1 - Yokai Watch
+- FR - Yokai Watch - OP2 - Gera Gera Po
+- JAP - 3-gatsu no Lion - OP2 - Sayonara Bystander
+- JAP - 3-gatsu no Lion 2nd Season - ED2 - I AM STANDING
+- JAP - 3-gatsu no Lion 2nd Season - ED1 - Cafune
+- JAP - 3-gatsu no Lion 2nd Season - OP2 - Haru ga Kite Bokura
+- JAP - ACCA 13-ku Kansatsu-ka -ED1- Pale Moon ga Yureteru
+- JAP - Aho Girl - OP - Zenryoku Summer
+- JAP - Akiba's Trip The Animation - ED4 - Sanki Tousen!
+- JAP - Akiba's Trip The Animation - ED3 - Sanki Tousen!
+- JAP - Akiba's Trip The Animation - ED2 - Rirai Mirai
+- JAP - Akiba's Trip The Animation - ED1 - B Ambitious!
+- JAP - Animegataris - ED - Good Luck Lilac
+- JAP - Animegataris - OP - Aikotoba
+- JAP - Ao no Exorcist Kyoto Fujouou-hen - ED - Kono Te de
+- JAP - Ao no Exorcist Kyoto Fujouou-hen - OP - Itteki no Eikyou
+- JAP - Aquarian Age - ED1 - Prism
+- JAP - Atom The Beginning - ED - Hikari no Hajimari
+- JAP - Atom The Beginning - OP - Kaidoku Funou
+- JAP - Avalon Code - OP - Deep Forest
+- JAP - Ballroom e Youkoso - ED1 - Maybe the next waltz
+- JAP - Ballroom e Youkoso - OP1 - 10% roll, 10% romance
+- JAP - Banana Fish - OP - found _ lost
+- JAP - Banana Fish - ED - Prayer X
+- JAP - BanG Dream! - OP - Tokimeki Experience!
+- JAP - BanG Dream! - ED2 - Kirakira Da Toka Yume Da Toka Sing Girls
+- JAP - Berryz Kobo - MV - Momochi Yurushite Nyan Taisou (#438)
+- JAP - Black Clover - ED - Aoi Honoo
+- JAP - Black Clover - ED2 - Amazing Dreams
+- JAP - Black Clover - ED3 - Black to the dreamlight
+- JAP - Black Clover - ED4 - Four
+- JAP - Black Clover - OP1 - Haruka Mirai
+- JAP - Black Clover - OP2 - PAiNT it BLACK
+- JAP - Black Clover - OP3 - Black Rover
+- JAP - Black Clover - OP4 - Guess Who Is Back
+- JAP - Blend S - ED1 - Detarame na Minus to Plus ni Okeru Blend Ko
+- JAP - Boku no Hero Academia S2 - ED2 - Datte Atashi no Hero
+- JAP - Boku no Hero Academia S2 - ED1 - Dakara, Hitori ja nai
+- JAP - Boku no Kanojo ga Majimesugiru Sho-bitch na Ken - ED - Koi no Himitsu
+- JAP - Boku no Kanojo ga Majimesugiru Sho-bitch na Ken - OP - Eien Labyrinth
+- JAP - Boruto Naruto Next Generations - ED1 - Dreamy Journey
+- JAP - Boruto Naruto Next Generations - ED2 - Sayonara Moon Town
+- JAP - Boruto Naruto Next Generations - ED3 - Boku wa Hashiritsuzukeru
+- JAP - Boruto Naruto Next Generations - ED4 - Denshin Tamashii
+- JAP - Boruto Naruto Next Generations - ED5 - Kachou Fuugetsu
+- JAP - Boruto Naruto Next Generations - ED6 - Leica
+- JAP - Boruto Naruto Next Generations - OP1 - Baton Road
+- JAP - Boruto Naruto Next Generations - OP2 - OVER
+- JAP - Boruto Naruto Next Generations - OP3 - It's all in the game
+- JAP - Brigade SOS Francophone - OT - Little Busters! ~ Clip Japan Expo 2011 Vers.
+- JAP - Brigade SOS Francophone - OT - My Soul, Your Beats! ~ Clip Epitanime 2010 Vers.
+- JAP - Brigade SOS Francophone - OT - Tears Infection ~ Clip Japan Expo 2008 Vers.
+- JAP - Busou Shoujo Machiavellianism - ED - DECIDE
+- JAP - Busou Shoujo Machiavellianism - OP - Shocking Blue
+- JAP - Caligula - ED1 - HYPNO
+- JAP - Caligula - OP2 - Paradigm Box
+- JAP - Centaur no Nayami - ED - Edelweiss
+- JAP - Centaur no Nayami - OP - Oshiete Darwin
+- JAP - Charade Maniacs - OP - Hide And Hide
+- JAP - ChaoS;Child - ED - Chaos Syndrome
+- JAP - Clockwork Planet - OP - Clockwork Planet
+- JAP - Cowboy Bebop Session XX Mish-Mash Blues - ED - Sora wo Torimodoshita Hi
+- JAP - Demi-chan wa Kataritai - OP - Original
+- JAP - Dies Irae - ED - Opera
+- JAP - Dies Irae - OP - Kadenz
+- JAP - DIVE!! - ED - NEW WORLD
+- JAP - DIVE!! - OP - Taiyou mo Hitoribocchi
+- JAP - Dungeon ni Deai wo Motomeru no wa Machigatteiru Daro ka Gaiden Sword Oratoria - ED - day by day
+- JAP - Dungeon ni Deai wo Motomeru no wa Machigatteiru Daro ka Gaiden Sword Oratoria - OP - RE-ILLUSION
+- JAP - Eiga Chunibyo demo Koi ga Shitai Take On Me - OP - JOURNEY
+- JAP - elDLIVE - ED - Kimi no Koe ga
+- JAP - elDLIVE - OP - Our sympathy
+- JAP - Evil or Live - OP - Soredemo Boku wa Ikite Iru
+- JAP - Eromanga-sensei - ED2 - Natsu-iro Koi Hanabi
+- JAP - FateApocrypha - ED1 - Desir
+- JAP - FateApocrypha - OP1 - Eiyuu Unmei no Uta
+- JAP - FateApocrypha - OP2 - ASH
+- JAP - FLCL Alternative - ED - Star overhead. (#434)
+- JAP - Fuuka - ED1 - Watashi no Sekai
+- JAP - Fuuka - OP - Climber's High!
+- JAP - Gabriel DropOut - OP - Gabriel Drop-kick
+- JAP - Gamers! - ED1 - Fight on!
+- JAP - Gamers! - ED2 - Koi no Prologue
+- JAP - GRANBLUE FANTASY The Animation - ED - Sora no Parade
+- JAP - GRANBLUE FANTASY The Animation - OP - GO
+- JAP - Hajimete no Gal - OP - Hajimete no SEASON
+- JAP - Hajimete no Gal - ED - GAL-tic Love
+- JAP - Hakuoki Shinkai Fuukaden - OP - Isshin Chinohate made
+- JAP - Hanayaka Nari Waga Ichizoku Kinetograph - OP - Phantasmagoria
+- JAP - Hanayaka Nari Waga Ichizoku Modern Nostalgie - OP - Sakurachiru Yoru ~Hanachiruya~
+- JAP - Hand Shakers - ED - Yume Miru Ame
+- JAP - Hand Shakers - OP - One Hand Message
+- JAP - Hataraku Saibou - OP - Mission! Ken-Kou-Dai-Ichi
+- JAP - Hiiro no Kakera Omoi Iro no Kioku - OP - Aki Fuurin
+- JAP - High School DxD Hero - ED - Motenai Kuse ni
+- JAP - High School DxD Hero - OP - SWITCH
+- JAP - Higurashi no Naku Koro ni - OT1 - Dear You -Cry-
+- JAP - Higurashi no Naku Koro ni - OT2 - Dear You -Feel-
+- JAP - Higurashi no Naku Koro ni - OT3 - Dear You -Kind-
+- JAP - Higurashi no Naku Koro ni - OT4 - Dear You -Hope-
+- JAP - Himouto! Umaru-chan R - OP - Nimensei☆Ura Omote Life!
+- JAP - Himouto! Umaru-chan R - ED - Umarun Taisou
+- JAP - Hinako Note - ED - Curtain Call!!!!!
+- JAP - Hina Logi From Luck & Logic - ED - Baby Bird!! Gakuen Logic
+- JAP - Hina Logi From Luck & Logic - OP - BUTTERFLY EFFECTOR
+- JAP - Hitorijime My Hero - OP - Heart Signal
+- JAP - Hitorijime My Hero - ED - TRUE LOVE
+- JAP - Idol Jihen - ED - Respect
+- JAP - Imouto sae Ireba Ii. - ED1 - Donna Hoshizora yori mo, Donna Omoide yori mo
+- JAP - Imouto sae Ireba Ii. - OP - Ashita no Kimi sae Ireba Ii
+- JAP - Inuyashiki - ED - Ai wo Oshiete Kureta Kimi e
+- JAP - Isekai Maou to Shoukan Shoujo no Dorei Majutsu - OP - DeCIDE
+- JAP - Isekai Maou to Shoukan Shoujo no Dorei Majutsu - ED - Saiaku na hi demo Anata ga Suki
+- JAP - Isekai Shokudou - ED - Chiisana Hitotsubu
+- JAP - Isekai Shokudou - OP - One In A Billion
+- JAP - Isekai wa Smartphone to Tomo ni. - OP - Another World
+- JAP - Isekai wa Smartphone to Tomo ni. - ED6 - Junjou Emotional
+- JAP - Island - OP - Eien no Hitotsu
+- JAP - Island - ED - Eternal Star
+- JAP - Juni Taisen - ED - Keshin no Juu
+- JAP - Just Because! - ED - behind
+- JAP - Just Because! - OP - over and over
+- JAP - Kabuki-bu! - ED - Oedo
+- JAP - Kabuki-bu! - OP - Running High
+- JAP - Kaiju Girls - ED - Kaiju Heart
+- JAP - Kaiju Girls - OP - Joujou Gao
+- JAP - Kakuriyo no Yadomeshi - ED1 - color
+- JAP - Kakuriyo no Yadomeshi - OP - Tomoshibi no Manimani
+- JAP - Kekkai Sensen & Beyond - OP - fake town baby
+- JAP - Kino no Tabi The Beautiful World - The Animated Series - ED - Satoutama no Tsuki
+- JAP - Kino no Tabi The Beautiful World - The Animated Series - OP - here and there
+- JAP - Knight's & Magic - ED - You & I
+- JAP - Knight's & Magic - OP - Hello! My World!!
+- JAP - Kobayashi-san Chi no Maid Dragon - ED - Ishukan Communication
+- JAP - Koi to Uso - ED - Can't you say
+- JAP - Koi to Uso - OP - Kanashii Ureshii
+- JAP - Konohana Kitan - ED1 - Haru Urara, Kimi to Sakihokoru
+- JAP - Konohana Kitan - OP - Kokoro ni Tsubomi
+- JAP - Kujira no Kora wa Sajo ni Utau - ED - Hashitairo
+- JAP - Little Busters! EX - ED1 - Mezameta Asa ni wa Kimi ga Tonari ni
+- JAP - Lostorage Conflated WIXOSS - ED - I
+- JAP - Lostorage Conflated WIXOSS - OP - UNLOCK
+- JAP - Love Live! Sunshine!! 2nd Season - ED1 - Yuuki wa Doko ni Kimi no Mune ni!
+- JAP - Made in Abyss - ED - Tabi no Hidarite, Saihate no Migite
+- JAP - Mahotsukai no Yome - OP2 - You
+- JAP - Masamune-kun no Revenge - ED - Elemental World
+- JAP - Masamune-kun no Revenge - OP - Wagamama MIRROR HEART
+- JAP - Master Keaton - OP - Railtown
+- JAP - Minami Kamakura Koukou Joshi Jitenshabu - ED - Niji Yume Road
+- JAP - Minami Kamakura Koukou Joshi Jitenshabu - OP - Jitensha ni Hana wa Mau
+- JAP - Nana Maru San Batsu - ED - OOOOO
+- JAP - Nana Maru San Batsu - OP - On My MiND
+- JAP - Natsume Yujinchou Roku - ED - Kimi no Uta
+- JAP - Natsume Yujinchou Roku - OP - Floria
+- JAP - Natsume Yujinchou San - OP - Boku ni Dekiru Koto
+- JAP - Natsume Yujinchou Shi - OP - Ima, Kono Toki
+- JAP - Net-juu no Susume - ED - Hikari, Hikari
+- JAP - Netsuzou TRap ―NTR― - ED1 - Virginal Lily
+- JAP - Netsuzou TRap ―NTR― - OP - Blue Bud Blue
+- JAP - NieR Automata - GAME IN - Inochi ni Fusawashii
+- JAP - Nyanko Days - ED - Nyanko is LOVE!
+- JAP - Persona 5 x PS4 - CM - PS4 ga Shin Kakaku
+- JAP - ReCreators - ED1 - NEWLOOK
+- JAP - ReCreators - ED3 - Rubikon
+- JAP - Rewrite 2nd Season - ED4 - Instincts
+- JAP - Rewrite 2nd Season - OP2 - Last Desire
+- JAP - Ren'ai Boukun - ED1 - Suki o Oshiete
+- JAP - Ren'ai Boukun - OP - Koi De Ai De Boukun Desu!
+- JAP - Rinne no Lagrange Flower Declaration of Your Heart 2 - OP2 - Marble
+- JAP - Roku de Nashi Majutsu Koushi to Akashic Records - ED - Precious You☆
+- JAP - Roku de Nashi Majutsu Koushi to Akashic Records - OP - Blow out
+- JAP - Saenai Heroine no Sodatekata  - ED1 - Sakura-iro Diary
+- JAP - Saenai Heroine no Sodatekata  - OP - Stella Breeze
+- JAP - Sakura Quest - OP2 - Lupinus
+- JAP - Sakura Quest - ED2 - Baby's Breath
+- JAP - Sakurada Reset - OP1 - Reset
+- JAP - Schoolgirl Strikers Animation Channel - ED - kitto Wonder Four!
+- JAP - Schoolgirl Strikers Animation Channel - OP - Mirai Kei Strikers
+- JAP - Seiren - ED5 - Koi no Theory
+- JAP - Seiren - ED1 - Shunkan Happening
+- JAP - Seiren - ED3 - Muteki no Megami
+- JAP - Seiren - ED5 - Koi no Theory
+- JAP - Seiren - OP - Kimi no Hana
+- JAP - Shingeki no Bahamut Virgin Soul - ED1 - Haikei Goodbye Sayounara
+- JAP - Shingeki no Bahamut Virgin Soul - ED2 - Cinderella step
+- JAP - Shingeki no Bahamut Virgin Soul - OP2 - Walk This Way
+- JAP - Shuriken Sentai Nininger - OP - Saa Ike! Ninninger!
+- JAP - Shuumatsu Nani Shitemasu ka Isogashii desu ka Sukutte Moratte Ii desu ka - ED1 - From
+- JAP - Shuumatsu Nani Shitemasu ka Isogashii desu ka Sukutte Moratte Ii desu ka - OP - DEAREST DROP
+- JAP - Sin Nanatsu no Taizai - ED - Welcome To Our Diabolic Paradise
+- JAP - Sin Nanatsu no Taizai - OP - My Sweet Maiden
+- JAP - Slow Start - ED - Kaze no Koe o Kiki Nagara
+- JAP - Slow Start - OP - ne! ne! ne!
+- JAP - Star Driver ~Kagayaki no Takuto~ - ED1 - Cross Over
+- JAP - Tales of Zestiria the X 2nd Season - ED1 - INNOSENSE
+- JAP - Tales of Zestiria the X 2nd Season - OP - illuminate
+- JAP - Tekkaman Blade - OP2 - Eien no Kodoku
+- JAP - Tengai ni Mau Iki na Hana - OP - Suibi
+- JAP - Tenshi no 3P! - ED - Kusabi
+- JAP - Tenshi no 3P! - OP - Habataki no Birthday
+- JAP - Tsuki ga Kirei - ED - Tsuki ga Kirei
+- JAP - Tsugumomo - ED - I4U
+- JAP - Two Car - ED - Angelica Wind
+- JAP - Two Car - OP - Heart to Heart
+- JAP - Uchouten Kazoku 2 - OP - Naru ga mama, Sawagu mama
+- JAP - Urahara - ED - Kirameki Lifeline
+- JAP - Urahara - OP - Antithesis Escape
+- JAP - Yama no Susume Third Season - OP - Chiheisen Stride (#516)
+- JAP - Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e - ED - Beautiful Soldier
+- JAP - Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e - OP - Caste Room
+- JAP - Yu-Gi-Oh! VRAINS - ED3 - BOY
+- JAP - Yu-Gi-Oh! VRAINS - OP2 - go forward
+- JAP - Zero kara Hajimeru Mahou no Sho - OP - Hakkensha wa Watashi
+- JAP - Zero kara Hajimeru Mahou no Sho - ED - Hajimari no Shirushi
+
+## Fixed
+
+We converted a lot of videos back to H264 instead of H265. H265 isn't supported by browsers yet (apart from Safari) which prevents us from using it for [live.karaokes.moe](http://live.karaokes.moe) (still in beta). It also caused some problems with older computers.
+
+A lot of videos were also converted from webm to mp4 format.
+
+### Lyrics / appearance
+
+- FR - 3615 Usul - MV - Excuses de sac (#511)
+- FR - Crossed - MV - Attention Dino Danger
+- FR - Denver the Last Dinosaur - OP - Denver le dernier dinosaure
+- FR - Full Metal Panic ~Fumoffu~ - OP - Une histoire qui commence
+- FR - Foot 2 rue - OP1 (#509)
+- FR - Kad et Olivier - MV - Compilation des chanteurs inconnus
+- FR - Love Hina - OP - Les Cerisiers Fleurissent (#85)
+- FR - Motto! Ojamajo Doremi - OP - Ojamajo de Ban2 ~ French Vers.
+- FR - NieA Under 7 - OP - Tu n'es pas seule (#88)
+- FR - Ojamajo Doremi - OP - Ojamajo wa Koko ni Iru ~ French Vers.
+- FR - Ojamajo Doremi Dokkaan! - OP - Dance! Ojamajo ~ French Vers.
+- FR - Pokemon 3 Le sort des Zarbi - OP - Pokemon Johto
+- FR - Pokemon le film Mewtwo contre Mew - OP - Attrapez-les tous
+- FR - Rhythm Paradise - GAME IN - C'est certain
+- FR - Slayers Next - OP - Un Voyage Fantastique
+- FR - UFO Robo Grendizer - OP3 - La legende
+- ITA - Shin Kidou Senki Gundam W - OP - Gundam Wing
+- JAP - Ayashi No Ceres - OP1 - Scarlet
+- JAP - Binzume Yousei - OP - Oshiete Sensei-san
+- JAP - Goku Sayonara Zetsubou Sensei - OP1 - Kuusou Rumba
+- JAP - Hinako Note - ED - Curtain Call!!!!!
+- JAP - Macross Frontier - ED06 - Ai Oboete Imasu ka
+- JAP - Macross Frontier - OP3 - LION
+- JAP - Monogatari Series Second Season - OP3 - Delusion Express
+- JAP - Monogatari Series Second Season - OP6 - Kogarashi Sentiment
+- JAP - Occultic\;Nine - OP - Sensuu 3 no Nijou
+- JAP - RADWIMPS - MV - Sparkle Original ver.
+- JAP - Re Creators - OP1 - gravityWall
+- JAP - Re Creators - OP2 - sh0ut
+- JAP - Top wo Nerae! Gunbuster - OP - Active Heart
+
+### New videos
+
+New videos are usually creditless or higher quality versions.
+
+- ANG - DuckTales (1987) - OP - DuckTales
+- ANG - Erasure - MV - Always
+- ANG - Maison Ikkoku - OP2 - Alone again
+- ANG - Portal - ED - Still Alive (#518)
+- ANG - Portal 2 - ED - Want You Gone (#519)
+- ANG - Ridge Racer Type 4 - OP - Urban Fragments (Remake Version)
+- FR - Captain Tsubasa - OP - Olive et Tom
+- FR - Heathcliff & the Catillac Cats - OP - Les entrechats (#525)
+- FR - Nicky Larson - OP
+- FR - Pole Position - OP
+- FR - San Ku Kai - OP - San Ku Kai
+- FR - Teenage Mutant Ninja Turtles - OP (#528)
+- FR - Uchuu Keiji Gavan - OP - X-Or Le sherif de l'espace (#526)
+- JAP - Aikatsu! - ED1 - Calendar Girl
+- JAP - Aikatsu! - OP1 - Signalize!
+- JAP - Aikatsu! - OP2 - Diamond Happy
+- JAP - Aikatsu! - OP3 - KIRA Power
+- JAP - Aquarian Age - ED2 - Prism
+- JAP - Aquarian Age - OP1 - Everlasting Love
+- JAP - Card Captor Sakura - OP3 - Platina
+- JAP - Clannad - GAME OP - Megumeru.avi
+- JAP - Crash Bandicoot 2 - GAME OP - CRASH BANDIKYUSU
+- JAP - Dancing Blade Katte ni Momotenshi - GAME OP
+- JAP - Eromanga-sensei - ED - Adrenaline
+- JAP - Eromanga-sensei - OP - Hitorigoto
+- JAP - Ever17 the out of infinity - GAME OP - LeMU Harukanaru Lemuria Tairiku (#124)
+- JAP - Fruits Basket - ED - Chiisana inori
+- JAP - Groizer X - ED - The go go Groizer X
+- JAP - Hitsugi no Chaika - OP1 - DARAKENA
+- JAP - Juuni Kokuki - ED - Getsumei Fuuei
+- JAP - Mawaru Penguindrum - OP1 - Nornir
+- JAP - Mawaru Penguindrum - ED1 - Dear Future
+- JAP - Mawaru Penguindrum - ED2 - Hai-iro no Suiyobi
+- JAP - Primitive Link - GAME OP - Eternal Sky
+- JAP - Sakura Taisen 3 - OP1 - Ouverture 2 ~ Geki Teikoku Kageki-dan
+- JAP - Sakura Taisen 3 - OP - Mihata no Moto ni
+- JAP - Stratos 4 - OP - 1st Priority
+- JAP - Touhou - MV - Border of Extacy (#520)
+- JAP - Touhou - MV - Chirumiru Cirno (#521)
+- JAP - Touhou - MV - Marisa Stole the Precious Thing (#522)
+- JAP - Touhou - MV - Neko Miko Reimu
+- JAP - Touhou - MV - Optical Cellophane (#524)
+- JAP - Touhou - MV - Wouldn't Cucumber (#523)
+- JAP - Urara Meirochou - OP - Yumeji Labyrinth
+- JAP - Violet Evergarden - ED - Michishirube
+- JAP - Violet Evergarden - OP - Sincerely
+- JAP - World Trigger - OP2 - Ashita no Hikari
+- JAP - Youjo Senki - ED2 - Los! Los! Los!
+- JAP - Yuru Yuri - ED - My Pace de Ikimashou
+
 # June 2018
 
 Contributors this month :
@@ -199,7 +547,7 @@ Contributors this month :
 - JAP - Strike Witches Operation Victory Arrow - ED1 - Fly away
 - JAP - Strike Witches Operation Victory Arrow - ED2 - Fly Beyond
 - JAP - Strike Witches Operation Victory Arrow - ED3 - Fly Chronicle
-- JAP - Symphogear Live 2016 - LIVE - BAYONET CHARGE 
+- JAP - Symphogear Live 2016 - LIVE - BAYONET CHARGE
 - JAP - Symphogear Live 2016 - LIVE - Edge Works of Goddess ZABABA
 - JAP - Symphogear Live 2016 - LIVE - Just Loving X-Edge
 - JAP - Symphogear Live 2016 - LIVE - ORBITAL BEAT (Ver.ZABABA)
@@ -324,7 +672,7 @@ Karaoke has been fixed or video replaced with better quality or hardsubs replace
 - JAP - Kidou Shin Seiki Gundam X - OP2 - Resolution
 - JAP - Love Live ! School Idol Project 2nd Season - ED9 - Snow Halation
 - JAP - Macross Plus - IN - Voices (#491)
-- JAP - Ojamajo Doremi - OP - Ojamajo Carnival 
+- JAP - Ojamajo Doremi - OP - Ojamajo Carnival
 - JAP - Ojamajo Doremi Dokkaan! - OP - Dance! Ojamajo (#499)
 - JAP - Touhou - AMV - Tsurupettan (#500)
 - JAP - Tsukimonogatari - OP - Orange Mint
@@ -731,7 +1079,7 @@ Contributors this month. Give them a hug !
 - JAP - Yuru Camp - OP - Shiny Days
 - JAP - Yuru Camp - ED - Fuyubiyori
 - JAP - Violet Evergarden - OP - Sincerely
-- JAP - Violet Evergarden - ED - Michishirube 
+- JAP - Violet Evergarden - ED - Michishirube
 
 # January 2018
 
