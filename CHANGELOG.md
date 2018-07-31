@@ -33,7 +33,9 @@ Special thanks to @Aeden for integrating KuroSensei's 2017 collection, @Kmeuh fo
 - ANG - Onechanbara Z2 Chaos - OP - ICHIBAN WA ME
 - ANG - Shingeki no Bahamut Virgin Soul - OP1 - LET iT END
 - ANG - Shingeki no Kyojin S2 - ED - Yuugure no Tori
+- ANG - Super Mario Odyssey - CM - Jump up Super Star!
 - ANG - Taiyou no Ko Esteban - OP - The Mysterious Cities of Gold
+- FR - 13e Rue - CM - Gali l'Alligator
 - FR - Steven Universe - OP1 (#529)
 - FR - Taiyou no Ko Esteban - ED - Les Mysterieuses Cites d'Or
 - FR - Uchuu Densetsu Ulysses 31 - OP1 - Ulysse
@@ -186,6 +188,7 @@ Special thanks to @Aeden for integrating KuroSensei's 2017 collection, @Kmeuh fo
 - JAP - Love Live! Sunshine!! 2nd Season - ED1 - Yuuki wa Doko ni Kimi no Mune ni!
 - JAP - Made in Abyss - ED - Tabi no Hidarite, Saihate no Migite
 - JAP - Mahotsukai no Yome - OP2 - You
+- JAP - Majokko Megu-chan - OP - Majokko Megu-chan
 - JAP - Masamune-kun no Revenge - ED - Elemental World
 - JAP - Masamune-kun no Revenge - OP - Wagamama MIRROR HEART
 - JAP - Master Keaton - OP - Railtown
