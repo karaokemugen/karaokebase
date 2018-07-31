@@ -21,7 +21,7 @@ Special thanks to @Aeden for integrating KuroSensei's 2017 collection, @Kmeuh fo
 
 ## Added
 
-228 new songs!
+232 new songs!
 
 - BRE - Uchuu Densetsu Ulysses 31 - OP - Ulis 31
 - ALL - Inspektor Gadget - Inspektor Gadget
@@ -35,6 +35,7 @@ Special thanks to @Aeden for integrating KuroSensei's 2017 collection, @Kmeuh fo
 - ANG - Shingeki no Kyojin S2 - ED - Yuugure no Tori
 - ANG - Taiyou no Ko Esteban - OP - The Mysterious Cities of Gold
 - FR - Steven Universe - OP1 (#529)
+- FR - Taiyou no Ko Esteban - ED - Les Mysterieuses Cites d'Or
 - FR - Uchuu Densetsu Ulysses 31 - OP1 - Ulysse
 - FR - Yokai Watch - ED1 - Yokai Exercice No.1
 - FR - Yokai Watch - ED2 - Beat Camp Yokai
@@ -76,6 +77,8 @@ Special thanks to @Aeden for integrating KuroSensei's 2017 collection, @Kmeuh fo
 - JAP - Blend S - ED1 - Detarame na Minus to Plus ni Okeru Blend Ko
 - JAP - Boku no Hero Academia S2 - ED2 - Datte Atashi no Hero
 - JAP - Boku no Hero Academia S2 - ED1 - Dakara, Hitori ja nai
+- JAP - Boku no Hero Academia S3 - OP2 - Make my story
+- JAP - Boku no Hero Academia S3 - ED2 - Long Hope Philia
 - JAP - Boku no Kanojo ga Majimesugiru Sho-bitch na Ken - ED - Koi no Himitsu
 - JAP - Boku no Kanojo ga Majimesugiru Sho-bitch na Ken - OP - Eien Labyrinth
 - JAP - Boruto Naruto Next Generations - ED1 - Dreamy Journey
@@ -224,6 +227,7 @@ Special thanks to @Aeden for integrating KuroSensei's 2017 collection, @Kmeuh fo
 - JAP - Shingeki no Bahamut Virgin Soul - ED1 - Haikei Goodbye Sayounara
 - JAP - Shingeki no Bahamut Virgin Soul - ED2 - Cinderella step
 - JAP - Shingeki no Bahamut Virgin Soul - OP2 - Walk This Way
+- JAP - Shingeki no Kyojin S3 - OP - Red Swan
 - JAP - Shuriken Sentai Nininger - OP - Saa Ike! Ninninger!
 - JAP - Shuumatsu Nani Shitemasu ka Isogashii desu ka Sukutte Moratte Ii desu ka - ED1 - From
 - JAP - Shuumatsu Nani Shitemasu ka Isogashii desu ka Sukutte Moratte Ii desu ka - OP - DEAREST DROP
