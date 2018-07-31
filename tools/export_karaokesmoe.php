@@ -139,7 +139,7 @@ foreach ($data as $kara) {
     }
 
 	//Series or artist name
-	$serie_singer = !empty($kara['serie'])?$kara['serie']:$kara['singer'];
+	$serie_singer = !empty($kara['serie'])?$kara['serie']:str_replace(',',', ',$kara['singer']);
 
 	//init if series/singer not yet added
 	if(!isset($first_pass[$serie_singer])) {
