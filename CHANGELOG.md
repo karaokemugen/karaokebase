@@ -21,7 +21,7 @@ Special thanks to @Aeden for integrating KuroSensei's 2017 collection, @Kmeuh fo
 
 ## Added
 
-232 new songs!
+236 new songs!
 
 - BRE - Uchuu Densetsu Ulysses 31 - OP - Ulis 31
 - ALL - Inspektor Gadget - Inspektor Gadget
@@ -110,6 +110,7 @@ Special thanks to @Aeden for integrating KuroSensei's 2017 collection, @Kmeuh fo
 - JAP - Dies Irae - OP - Kadenz
 - JAP - DIVE!! - ED - NEW WORLD
 - JAP - DIVE!! - OP - Taiyou mo Hitoribocchi
+- JAP - Doraemon - OP3 - Doraemon no Uta
 - JAP - Dungeon ni Deai wo Motomeru no wa Machigatteiru Daro ka Gaiden Sword Oratoria - ED - day by day
 - JAP - Dungeon ni Deai wo Motomeru no wa Machigatteiru Daro ka Gaiden Sword Oratoria - OP - RE-ILLUSION
 - JAP - Eiga Chunibyo demo Koi ga Shitai Take On Me - OP - JOURNEY
