@@ -206,6 +206,9 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 			if(!empty($kara['singer'] || $kara['singer'] != 'NO_TAG')) {
 				$kara_data['song']['artist'] = str_replace(',',', ',$kara['singer']);
 			}
+			if ($kara['singer'] == 'NO_TAG') {
+				$kara['singer'] = 'Unknown';
+			}
 
 			$last_pass[$serie_singer][$type_with_num]=$kara_data;
 		}
