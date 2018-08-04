@@ -12,7 +12,7 @@
 
 **Lien vers les paroles** : (lien animelyrics ou autre)
 
-**Année de production** : 
+**Année de production** :
 
 **Langue(s)** :
 
@@ -22,13 +22,12 @@
 
 **Créateur(s)** : (Quel studio a crée l'oeuvre ? Ou quelle entité (Bandai Namco pour Tales Of, par exemple.)
 
-**Tags supplémentaires** : (Concert? Pas animé? Parodie? Tokusatsu? Mecha?)
+**Tags supplémentaires** : (Pas animé? Parodie? Tokusatsu? Mecha?)
 Liste des tags pour vous aider à choisir: (merci de supprimer ces lignes pour eviter de faire un message torp long)
 
 * "TAG_SPECIAL": "Special",
 * "TAG_REMIX": "Remix",
 * "TAG_VOICELESS": "Pas de paroles",
-* "TAG_CONCERT": "Concert",
 * "TAG_PARODY": "Parodie",
 * "TAG_HUMOR": "Humour",
 * "TAG_R18": "R18",
@@ -60,12 +59,15 @@ Liste des tags pour vous aider à choisir: (merci de supprimer ces lignes pour e
 * "TAG_GAMECUBE": "Gamecube",
 * "TAG_PC": "PC",
 * "TAG_DS": "DS",
+* "TAG_3DS": "3DS",
+* "TAG_WII": "Wii",
+* "TAG_SWITCH": "Switch",
 * "TAG_SEGACD": "Mega CD",
 * "TAG_MOBAGE": "Mobile Game",
 * "TAG_VN": "Visual Novel",
 * "TAG_SOUNDONLY": "Audio uniquement",
 * "TAG_HARDMODE": "Difficile",
 * "TAG_DUO": "Duo",
-	
+
 ## Commentaire
 
