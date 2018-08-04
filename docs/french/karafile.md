@@ -50,7 +50,7 @@ N'ayez pas peur, tout n'est pas à remplir par vous-même (mais une grande parti
 - `year` : Année de production de la série/vidéo.
 - `singer` : Chanteur/euse, ou groupe qui chante. Si plusieurs chanteurs, séparer par des virgules. L'ordre est "**prénom** puis **nom**".
 - `tags` : Une liste de tags séparés par des virgules, pouvant servir à mieux catégoriser votre karoaké. [Consultez la liste des tags](tags.md)  
-- `songwriter` : Nom du ou des compositeurs. Séparer par des virgules si plusieurs compositeurs. L'ordre est "**prénom** puis **nom**".
+- `songwriter` : Nom du ou des compositeurs (paroles et musique). Séparer par des virgules si plusieurs compositeurs. L'ordre est "**prénom** puis **nom**". Attention inclure ici uniquement les paroliers et compositeurs musicaux, pas les arrangeurs souvent présents en 3e ou 4e crédit également (編曲).
 - `creator` : Nom de l'entité qui a crée la série/vidéo. Studio d'animation ou boîte de production selon les cas.
 - `author` : C'est vous ! Mettez votre pseudonyme pour montrer à la terre entière que vous avez écrit un karaoké !
   - Si vous avez beaucoup retouché un karaoké existant, ne soyez pas timide et ajoutez-vous au champ `author` en plus de l'auteur original.
