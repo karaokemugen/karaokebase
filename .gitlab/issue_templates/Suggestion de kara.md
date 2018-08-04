@@ -22,13 +22,12 @@
 
 **Créateur(s)** : (Quel studio a crée l'oeuvre ? Ou quelle entité (Bandai Namco pour Tales Of, par exemple.)
 
-**Tags supplémentaires** : (Concert? Pas animé? Parodie? Tokusatsu? Mecha?)
+**Tags supplémentaires** : (Pas animé? Parodie? Tokusatsu? Mecha?)
 Liste des tags pour vous aider à choisir: (merci de supprimer ces lignes pour eviter de faire un message torp long)
 
 * "TAG_SPECIAL": "Special",
 * "TAG_REMIX": "Remix",
 * "TAG_VOICELESS": "Pas de paroles",
-* "TAG_CONCERT": "Concert",
 * "TAG_PARODY": "Parodie",
 * "TAG_HUMOR": "Humour",
 * "TAG_R18": "R18",
