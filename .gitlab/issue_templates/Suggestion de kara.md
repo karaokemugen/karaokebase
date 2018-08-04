@@ -63,6 +63,7 @@ Liste des tags pour vous aider à choisir: (merci de supprimer ces lignes pour e
 * "TAG_WII": "Wii",
 * "TAG_SWITCH": "Switch",
 * "TAG_SEGACD": "Mega CD",
+- "TAG_DREAMCAST": Dreamcast
 * "TAG_MOBAGE": "Mobile Game",
 * "TAG_VN": "Visual Novel",
 * "TAG_SOUNDONLY": "Audio uniquement",

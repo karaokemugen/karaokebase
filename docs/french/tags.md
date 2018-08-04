@@ -53,5 +53,6 @@
 - `TAG_PC` : PC
 - `TAG_SEGACD` : Mega CD
 - `TAG_SATURN` : Sega Saturn
+- `TAG_DREAMCAST` : Sega Dreamcast
 - `TAG_WII` : Nintendo Wii
 - `TAG_SWITCH` : Nintendo Switch
