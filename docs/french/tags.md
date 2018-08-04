@@ -55,3 +55,4 @@
 - `TAG_SEGACD` : Mega CD
 - `TAG_SATURN` : Sega Saturn
 - `TAG_WII` : Nintendo Wii
+- `TAG_SWITCH` : Nintendo Switch

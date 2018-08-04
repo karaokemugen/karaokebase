@@ -12,7 +12,7 @@
 
 **Lien vers les paroles** : (lien animelyrics ou autre)
 
-**Année de production** : 
+**Année de production** :
 
 **Langue(s)** :
 
@@ -60,12 +60,15 @@ Liste des tags pour vous aider à choisir: (merci de supprimer ces lignes pour e
 * "TAG_GAMECUBE": "Gamecube",
 * "TAG_PC": "PC",
 * "TAG_DS": "DS",
+* "TAG_3DS": "3DS",
+* "TAG_WII": "Wii",
+* "TAG_SWITCH": "Switch",
 * "TAG_SEGACD": "Mega CD",
 * "TAG_MOBAGE": "Mobile Game",
 * "TAG_VN": "Visual Novel",
 * "TAG_SOUNDONLY": "Audio uniquement",
 * "TAG_HARDMODE": "Difficile",
 * "TAG_DUO": "Duo",
-	
+
 ## Commentaire
 
