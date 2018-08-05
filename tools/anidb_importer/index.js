@@ -19,41 +19,51 @@ async function main(xmlFile, jsonFile) {
 		let animeFound = false;
 		for (const anime of data.animetitles.anime) {
 			//Search for x-jat title
-			let xjatIndex;
-			if (anime.title.some((title, index) => {
+			let xjat;
+			let jaOfficial;
+			let enOfficial;
+			anime.title.forEach((title, index) => {
 				if (title.$.type === 'main' && title.$['xml:lang'] === 'x-jat') {
-					xjatIndex = index;
-					return true;
+					xjat = title._;
+				} else if (title.$.type === 'official' && title.$['xml:lang'] === 'ja') {
+					jaOfficial = title._;
+				} else if (title.$.type === 'official' && title.$['xml:lang'] === 'en') {
+					enOfficial= title._;
 				}
-				return false;
-			})) {
-				// X-jat is found. Parse our JSON to determine if we have that series
-				var karaokeMugenTitle = json.series[i].name.replace('ô','ou').replace('û','uu').replace(/[\ \-\:\!\.☆♪]/g,'').toUpperCase();
-				var aniDbTitle = anime.title[xjatIndex]._.replace(/[\ \-\:\!\.☆♪]/g,'').toUpperCase()
-				if (karaokeMugenTitle === aniDbTitle) {
-					animeFound = true;
-					// Series found!
-					// Parse all entries
-					for (const title of anime.title) {
-						if (title.$.type === 'syn' || title.$.type === 'short' || title.$['xml:lang'] == 'ja') {
-							// Title should be added to aliases if it doesn't exist already
-							if (json.series[i].aliases) {
-								var aliasesUpperCase = String(json.series[i].aliases).toUpperCase().split(",");
-								if (!aliasesUpperCase.includes(title._.toUpperCase())) json.series[i].aliases.push(title._);
-							} else {
-								json.series[i] = { "name": json.series[i].name, aliases: [title._], "i18n": json.series[i].i18n };
-							}
-						} else if (title.$.type === 'main') {
-							json.series[i].i18n['jpn'] = title._.replace('ou','ô').replace('uu','û');
-						} else if (title.$.type === 'official' && title.$['xml:lang'] !== 'x-jat') {
-							//Determine iso639-2B language
-							const shortLang = title.$['xml:lang'].substring(0, 2);
-							if (langs.has('1', shortLang)) {
-								const lang = langs.where('1', shortLang);
-								json.series[i].i18n[lang['2B']] = title._;
-							} else {
-								console.log('Language unknown (' + title.$['xml:lang'] + ') for series ' + anime.title[xjatIndex]._);
-							}
+			})
+			let regexp = /[\ \-\:\!\.\★\☆\♪\△\'\`]/g;
+			// X-jat is found. Parse our JSON to determine if we have that series
+			let karaokeMugenTitle = json.series[i].name.replace(/ô/g, 'ou').replace(/û/g, 'uu').replace(/ä/g, 'a').replace(regexp, '').toUpperCase();
+			let equalToXjat = xjat && karaokeMugenTitle === xjat.replace(regexp, '').toUpperCase();
+			let equalToJaOfficial = jaOfficial && karaokeMugenTitle === jaOfficial.replace(regexp, '').toUpperCase();
+			let equalToEnOfficial = enOfficial && karaokeMugenTitle === enOfficial.replace(regexp, '').toUpperCase();
+			let enEqualToEnOfficial = enOfficial && json.series[i].i18n.eng
+				&& json.series[i].i18n.eng.replace(/ô/g, 'ou').replace(/û/g, 'uu').replace(/ä/g, 'a').replace(regexp, '').toUpperCase() 
+				=== enOfficial.replace(regexp, '').toUpperCase();
+			if (equalToXjat || equalToJaOfficial || equalToEnOfficial || enEqualToEnOfficial) {
+				animeFound = true;
+				// Series found!
+				// Parse all entries
+				for (const title of anime.title) {
+					if (title.$.type === 'syn' || title.$.type === 'short' || title.$['xml:lang'] == 'ja') {
+						// Title should be added to aliases if it doesn't exist already
+						if (json.series[i].aliases) {
+							let aliasesUpperCase = String(json.series[i].aliases).toUpperCase().split(",");
+							if (!aliasesUpperCase.includes(title._.toUpperCase())) json.series[i].aliases.push(title._);
+						} else {
+							json.series[i] = { "name": json.series[i].name, aliases: [title._], "i18n": json.series[i].i18n };
+						}
+					} else if (title.$.type === 'main') {
+						json.series[i].i18n['jpn'] = title._.replace('ou', 'ô').replace('uu', 'û');
+					} else if (title.$.type === 'official' && title.$['xml:lang'] !== 'x-jat') {
+						//Determine iso639-2B language
+						const shortLang = title.$['xml:lang'].substring(0, 2);
+						if (langs.has('1', shortLang)) {
+							const lang = langs.where('1', shortLang);
+							json.series[i].i18n[lang['2B']] = title._;
+						} else {
+							var serieName = xjat ? xjat : jaOfficial;
+							console.log('Language unknown (' + title.$['xml:lang'] + ') for series ' + serieName);
 						}
 					}
 				}
@@ -61,10 +71,11 @@ async function main(xmlFile, jsonFile) {
 		}
 		if (!animeFound) {
 			// Series not found in aniDB
-			console.log('WARNING : Series not found in aniDB : '+json.series[i].name.replace('ô','ou').replace('û','uu'));
+			let serieName = json.series[i].name.replace(/ô/g, 'ou').replace(/û/g, 'uu').replace(/ä/g, 'a');
+			console.log('WARNING : Series not found in aniDB : ' + serieName);
 		}
 	}
-	await writeFile('out.json',JSON.stringify(json,null,2), 'utf-8');
+	await writeFile('out.json', JSON.stringify(json, null, 2), 'utf-8');
 }
 
 async function parseXML(...args) {
