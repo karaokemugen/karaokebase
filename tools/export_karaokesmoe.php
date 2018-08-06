@@ -102,6 +102,7 @@ SELECT k.pk_id_kara AS kara_id, k.kid, k.title, k.NORM_title, k.duration, k.gain
     WHERE k.pk_id_kara = kt8.fk_id_kara
     ) as NORM_songwriter
 FROM kara k
+WHERE misc IS NULL OR misc NOT LIKE \'%TAG_R18%\'
 order by serie, singer, language, songtype DESC, songorder';
 
 $data=$pdo->query($query)->fetchAll();
