@@ -33,12 +33,22 @@ async function main(xmlFile, jsonFile) {
 			})
 			let regexp = /[\ \-\:\!\.\★\☆\♪\△\'\`]/g;
 			// X-jat is found. Parse our JSON to determine if we have that series
-			let karaokeMugenTitle = json.series[i].name.replace(/ô/g, 'ou').replace(/û/g, 'uu').replace(/ä/g, 'a').replace(regexp, '').toUpperCase();
+			let karaokeMugenTitle = json.series[i].name
+				.replace(/ô/g, 'ou')
+				.replace(/û/g, 'uu')
+				.replace(/ä/g, 'a')
+				.replace(regexp, '')
+				.toUpperCase();
 			let equalToXjat = xjat && karaokeMugenTitle === xjat.replace(regexp, '').toUpperCase();
 			let equalToJaOfficial = jaOfficial && karaokeMugenTitle === jaOfficial.replace(regexp, '').toUpperCase();
 			let equalToEnOfficial = enOfficial && karaokeMugenTitle === enOfficial.replace(regexp, '').toUpperCase();
 			let enEqualToEnOfficial = enOfficial && json.series[i].i18n.eng
-				&& json.series[i].i18n.eng.replace(/ô/g, 'ou').replace(/û/g, 'uu').replace(/ä/g, 'a').replace(regexp, '').toUpperCase() 
+				&& json.series[i].i18n.eng
+					.replace(/ô/g, 'ou')
+					.replace(/û/g, 'uu')
+					.replace(/ä/g, 'a')
+					.replace(regexp, '')
+					.toUpperCase()
 				=== enOfficial.replace(regexp, '').toUpperCase();
 			if (equalToXjat || equalToJaOfficial || equalToEnOfficial || enEqualToEnOfficial) {
 				animeFound = true;
@@ -54,7 +64,9 @@ async function main(xmlFile, jsonFile) {
 							json.series[i] = { "name": json.series[i].name, aliases: [title._], "i18n": json.series[i].i18n };
 						}
 					} else if (title.$.type === 'main') {
-						json.series[i].i18n['jpn'] = title._.replace('ou', 'ô').replace('uu', 'û');
+						json.series[i].i18n['jpn'] = title._
+						.replace('ou', 'ô')
+						.replace('uu', 'û');
 					} else if (title.$.type === 'official' && title.$['xml:lang'] !== 'x-jat') {
 						//Determine iso639-2B language
 						const shortLang = title.$['xml:lang'].substring(0, 2);
