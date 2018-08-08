@@ -58,8 +58,7 @@ async function main(xmlFile, jsonFile) {
 					if (title.$.type === 'syn' || title.$.type === 'short') {
 						// Title should be added to aliases if it doesn't exist already
 						if (json.series[i].aliases) {
-							let aliasesUpperCase = String(json.series[i].aliases).toUpperCase().split(",");
-							if (!aliasesUpperCase.includes(title._.toUpperCase())) json.series[i].aliases.push(title._);
+							if (!json.series[i].aliases.includes(title._)) json.series[i].aliases.push(title._);
 						} else {
 							json.series[i] = { "name": json.series[i].name, aliases: [title._], "i18n": json.series[i].i18n };
 						}
