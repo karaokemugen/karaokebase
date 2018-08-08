@@ -55,7 +55,7 @@ async function main(xmlFile, jsonFile) {
 				// Series found!
 				// Parse all entries
 				for (const title of anime.title) {
-					if (title.$.type === 'syn' || title.$.type === 'short' || title.$['xml:lang'] == 'ja') {
+					if (title.$.type === 'syn' || title.$.type === 'short') {
 						// Title should be added to aliases if it doesn't exist already
 						if (json.series[i].aliases) {
 							let aliasesUpperCase = String(json.series[i].aliases).toUpperCase().split(",");
@@ -64,9 +64,7 @@ async function main(xmlFile, jsonFile) {
 							json.series[i] = { "name": json.series[i].name, aliases: [title._], "i18n": json.series[i].i18n };
 						}
 					} else if (title.$.type === 'main') {
-						json.series[i].i18n['jpn'] = title._
-						.replace('ou', 'ô')
-						.replace('uu', 'û');
+						json.series[i].name = title._.replace(/ou/g, 'ô').replace(/uu/g, 'û');
 					} else if (title.$.type === 'official' && title.$['xml:lang'] !== 'x-jat') {
 						//Determine iso639-2B language
 						const shortLang = title.$['xml:lang'].substring(0, 2);
