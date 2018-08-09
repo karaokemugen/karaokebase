@@ -13,7 +13,7 @@ CREATORS=`sqlite3 $1 "SELECT COUNT(*) FROM tag WHERE tagtype = 4;"`
 SONGWRITERS=`sqlite3 $1 "SELECT COUNT(*) FROM tag WHERE tagtype = 8;"`
 SONGTYPES=`sqlite3 $1 "SELECT COUNT(*) FROM tag WHERE tagtype = 3;"`
 MISC=`sqlite3 $1 "SELECT COUNT(*) FROM tag WHERE tagtype = 7;"`
-SERIES=`sqlite3 $1 "SELECT COUNT(*) FROM series;"`
+SERIES=`sqlite3 $1 "SELECT COUNT(*) FROM serie;"`
 LANGS=`sqlite3 $1 "SELECT COUNT(*) FROM tag WHERE tagtype = 5;"`
 DURATION=`sqlite3 $1 "SELECT SUM(duration) FROM kara;"`
 SIZE=`sqlite3 $1 "SELECT SUM(mediasize) FROM kara;"`
