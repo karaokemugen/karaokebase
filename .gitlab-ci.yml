@@ -30,9 +30,11 @@ test:
 export_website:
   stage: deploy
   script:
-    - bash tools/export_json.sh db/karas.sqlite3 >karas.json
+    - bash tools/export_karas.sh db/karas.sqlite3 >karas.json
+    - bash tools/export_series.sh db/karas.sqlite3 >series_karas.json
     - bash tools/stats.sh db/karas.sqlite3 >stats.json
-    - lftp -c "set ftp:ssl-allow no; open -u $USERNAME,$PASSWORD $HOST; cd site/downloads; put karas.json; put stats.json ; lcd lyrics ; cd .. ; cd lyricsfiles ; mirror -Rnev --parallel=10 ; cd .. ; cd karafiles ; lcd .. ; lcd karas ; mirror -Rnev --parallel=10"
+    - bash tools/export_tags.sh db/karas.sqlite3 >tags_karas.json
+    - lftp -c "set ftp:ssl-allow no; open -u $USERNAME,$PASSWORD $HOST; cd site/downloads; put karas.json; put tags_karas.json ; put series_karas.json; put stats.json ; lcd lyrics ; cd .. ; cd lyricsfiles ; mirror -Rnev --parallel=10 ; cd .. ; cd karafiles ; lcd .. ; lcd karas ; mirror -Rnev --parallel=10"
     - rm -f *.json
     - "curl -X POST -F token=$TRIGGERWEB -F ref=master https://lab.shelter.moe/api/v4/projects/28/trigger/pipeline"
   only:

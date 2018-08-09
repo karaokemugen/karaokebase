@@ -10,9 +10,17 @@ Adds a 1 second delay at the beginning of a line in ASS files. This allows them 
 
 This modification is usually applied by timers individually using AegisSub during karaoke timing, but this Bash script allows to run this on many .ass at once.
 
-## export_json.sh
+## export_karas.sh
 
-Exports a SQLite Karaoke Mugen database into JSON.
+Exports a SQLite Karaoke Mugen database into JSON. (karas only)
+
+## export_series.sh
+
+Same with series
+
+## export_tags.sh
+
+Same with tags
 
 ## stats.sh
 
