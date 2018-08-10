@@ -29,3 +29,7 @@ Exports basic stats from a SQLite Karaoke Mugen database into JSON.
 ## export_karaokesmoe.php
 
 Script by @Keul to export a SQLite Karaoke Mugen database into [AnimeOpening](https://github.com/AniDevTwitter/animeopenings) names.php file.
+
+## romajisplit.html
+
+Util by @Ziassan to split a romaji text into different syllables, adding a separator
