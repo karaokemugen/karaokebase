@@ -20,12 +20,7 @@ try{
 }
 
 $query= '
-SELECT k.pk_id_kara AS kara_id, k.kid, k.title, k.NORM_title, k.duration, k.gain, k.year, k.mediafile, k.subfile, k.created_at, k.modified_at, k.songorder
-,(select GROUP_CONCAT( sl.NORM_name, \' \')
-    from serie_lang sl, kara_serie ks
-    where ks.fk_id_serie = sl.fk_id_serie
-    and k.pk_id_kara = ks.fk_id_kara
-    ) as NORM_serie
+SELECT k.pk_id_kara AS kara_id, k.title, k.duration, k.year, k.mediafile, k.subfile, k.songorder
 ,(select GROUP_CONCAT( s.name)
     FROM kara_serie ks
     INNER JOIN serie s ON ks.fk_id_serie = s.pk_id_serie
@@ -36,21 +31,11 @@ SELECT k.pk_id_kara AS kara_id, k.kid, k.title, k.NORM_title, k.duration, k.gain
     INNER JOIN serie s ON ks.fk_id_serie = s.pk_id_serie
     WHERE k.pk_id_kara = ks.fk_id_kara
     ) as serie_altname
-,(select GROUP_CONCAT( s.NORM_altname)
-    FROM kara_serie ks
-    INNER JOIN serie s ON ks.fk_id_serie = s.pk_id_serie
-    WHERE k.pk_id_kara = ks.fk_id_kara
-    ) as NORM_serie_altname
 ,(select GROUP_CONCAT( t2.name)
     FROM kara_tag kt2
     INNER JOIN tag t2 ON kt2.fk_id_tag = t2.pk_id_tag AND t2.tagtype = 2
     WHERE k.pk_id_kara = kt2.fk_id_kara
     ) as singer
-,(select GROUP_CONCAT( t2.NORM_name)
-    FROM kara_tag kt2
-    INNER JOIN tag t2 ON kt2.fk_id_tag = t2.pk_id_tag AND t2.tagtype = 2
-    WHERE k.pk_id_kara = kt2.fk_id_kara
-    ) as NORM_singer
 ,(select GROUP_CONCAT( t3.name)
     FROM kara_tag kt3
     INNER JOIN tag t3 ON kt3.fk_id_tag = t3.pk_id_tag AND t3.tagtype = 3
@@ -61,11 +46,6 @@ SELECT k.pk_id_kara AS kara_id, k.kid, k.title, k.NORM_title, k.duration, k.gain
     INNER JOIN tag t4 ON kt4.fk_id_tag = t4.pk_id_tag AND t4.tagtype = 4
     WHERE k.pk_id_kara = kt4.fk_id_kara
     ) as creator
-,(select GROUP_CONCAT( t4.NORM_name)
-    FROM kara_tag kt4
-    INNER JOIN tag t4 ON kt4.fk_id_tag = t4.pk_id_tag AND t4.tagtype = 4
-    WHERE k.pk_id_kara = kt4.fk_id_kara
-    ) as NORM_creator
 ,(select GROUP_CONCAT( t5.name)
     FROM kara_tag kt5
     INNER JOIN tag t5 ON kt5.fk_id_tag = t5.pk_id_tag AND t5.tagtype = 5
@@ -76,47 +56,44 @@ SELECT k.pk_id_kara AS kara_id, k.kid, k.title, k.NORM_title, k.duration, k.gain
     INNER JOIN tag t6 ON kt6.fk_id_tag = t6.pk_id_tag AND t6.tagtype = 6
     WHERE k.pk_id_kara = kt6.fk_id_kara
     ) as author
-,(select GROUP_CONCAT( t6.NORM_name)
-    FROM kara_tag kt6
-    INNER JOIN tag t6 ON kt6.fk_id_tag = t6.pk_id_tag AND t6.tagtype = 6
-    WHERE k.pk_id_kara = kt6.fk_id_kara
-    ) as NORM_author
 ,(select GROUP_CONCAT( t7.name)
     FROM kara_tag kt7
     INNER JOIN tag t7 ON kt7.fk_id_tag = t7.pk_id_tag AND t7.tagtype = 7
     WHERE k.pk_id_kara = kt7.fk_id_kara
     ) as misc
-,(select GROUP_CONCAT( t7.NORM_name)
-    FROM kara_tag kt7
-    INNER JOIN tag t7 ON kt7.fk_id_tag = t7.pk_id_tag AND t7.tagtype = 7
-    WHERE k.pk_id_kara = kt7.fk_id_kara
-    ) as NORM_misc
 ,(select GROUP_CONCAT( t8.name)
     FROM kara_tag kt8
     INNER JOIN tag t8 ON kt8.fk_id_tag = t8.pk_id_tag AND t8.tagtype = 8
     WHERE k.pk_id_kara = kt8.fk_id_kara
     ) as songwriter
-,(select GROUP_CONCAT( t8.NORM_name)
-    FROM kara_tag kt8
-    INNER JOIN tag t8 ON kt8.fk_id_tag = t8.pk_id_tag AND t8.tagtype = 8
-    WHERE k.pk_id_kara = kt8.fk_id_kara
-    ) as NORM_songwriter
+,COALESCE(
+    (select GROUP_CONCAT( s.name)
+        FROM kara_serie ks
+        INNER JOIN serie s ON ks.fk_id_serie = s.pk_id_serie
+        WHERE k.pk_id_kara = ks.fk_id_kara
+        )
+    ,(select GROUP_CONCAT( t2.name)
+        FROM kara_tag kt2
+        INNER JOIN tag t2 ON kt2.fk_id_tag = t2.pk_id_tag AND t2.tagtype = 2
+        WHERE k.pk_id_kara = kt2.fk_id_kara
+    )
+) as co_serie_singer
 FROM kara k
 WHERE misc IS NULL OR misc NOT LIKE \'%TAG_R18%\'
-order by serie, singer, language, songtype DESC, songorder';
+order by co_serie_singer, language, songtype DESC, songorder';
 
 $data=$pdo->query($query)->fetchAll();
 
 $types= [
     'TYPE_OP' => 'Opening',
-    'TYPE_MV' =>  'Music',
+    'TYPE_MV' =>  'Music Video',
     'TYPE_ED' => 'Ending',
     'TYPE_OT' => 'Other',
     'TYPE_AMV' => 'AMV',
-    'TYPE_CM' => 'CM',
+    'TYPE_CM' => 'Advertisement',
     'TYPE_IN' => 'Insert',
     'TYPE_LIVE' => 'Live',
-    'TYPE_PV' => 'Preview',
+    'TYPE_PV' => 'Promo',
 ];
 
 $extensions=[
@@ -185,12 +162,21 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 			//Determine song order
 			$languages = explode(',', $kara['language']);
 
+			/*
 			if (!empty($kara['songorder'])) {
 				$songorder = $kara['songorder'];
 			} else {
 				$songorder = $key+1;
 			}
+			
+			$song_title = $kara['title']. ' (' . $languages[0]. ')';
+			
 			$type_with_num=$type.$songorder.'('.$languages[0].')';
+            */
+            //Bonne présentation
+			//$type_with_num='(' . $languages[0] . ') ' . $kara['title'] . ' [' . $type .  (!empty($kara['songorder']) ? $kara['songorder']:'') . ']';
+
+            $type_with_num = $type . (!empty($kara['songorder']) ? $kara['songorder'] : '') . ' - '  . $languages[0] . ' - ' . $kara['title'];
 
 			$kara_data=[
 				'file' => get_filename_without_ext($kara['mediafile']),
