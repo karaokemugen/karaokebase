@@ -141,4 +141,13 @@ Une fois la synchronisation en k terminée, il suffit d'appliquer un script, qui
 Alternativement, il est possible de copier-coller le texte suivant en sélectionnant la première ligne de votre Karaoké :  
 ```Comment: 0,0:00:00.00,0:00:00.62,Default,,0,0,0,template pre-line all keeptags,!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}```
 
+-----------
+ALTERNATIVE
+
+Lors de l'étape 2 du tuto ci-dessus, vous pouvez également utiliser le code suivant : ```!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}```
+
+L'effet est similaire, mais la ligne est plus simple dans sa syntaxe. Par ailleurs, si pour les besoin d'un karaoké, vous voulez que le délai d'apparition de vos lignes soit plus court (que 0.9 seconde pour la ligne ci-dessus et qu'une seconde pour la ligne proposée à l'étape 2), il vous suffit de remplacer tous les 900 par la valeur souhaitée en millisecondes (ex. 500) et le \k90 par la même valeur divisée par dix (ex. \k50 si vous avez remplacé les 900 par des 500).
+
+-----------
+
 Si tout est bon vous obtenez ça : ![Capture_d_écran_2017-09-24_à_14.18.26](/uploads/c8a24da60f1178ec1208e0c674c8d340/Capture_d_écran_2017-09-24_à_14.18.26.png) 
