@@ -27,6 +27,13 @@ test:
   only:
     - master
 
+export_karaokesmoe:
+  stage: deploy
+  script:
+    - php -f tools/export_karaokesmoe.php db/karas.sqlite3 >names.php
+    - lftp -c "set ftp:ssl-allow no; open -u $USERNAME,$PASSWORD $HOST; cd live; put names.php ; lcd lyrics ; cd subtitles ; mirror -Rnev --parallel=10"
+    - rm -f names.php
+
 export_website:
   stage: deploy
   script:
@@ -40,10 +47,3 @@ export_website:
     - "curl -X POST -F token=$TRIGGERWEB -F ref=master https://lab.shelter.moe/api/v4/projects/28/trigger/pipeline"
   only:
     - master
-
-export_karaokesmoe:
-  stage: deploy
-  script:
-    - php -f tools/export_karaokesmoe.php db/karas.sqlite3 >names.php
-    - lftp -c "set ftp:ssl-allow no; open -u $USERNAME,$PASSWORD $HOST; cd live; put names.php ; lcd lyrics ; cd subtitles ; mirror -Rnev --parallel=10"
-    - rm -f names.php
