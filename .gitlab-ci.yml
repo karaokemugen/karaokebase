@@ -26,15 +26,12 @@ test:
   only:
     - master
 
-export_karaokesmoe:
+
+export:
   stage: deploy
   script:
     - php -f tools/export_karaokesmoe.php db/karas.sqlite3 >names.php
     - lftp -c "set ftp:ssl-allow no; open -u $USERNAME,$PASSWORD $HOST; cd live; put names.php ; lcd lyrics ; cd subtitles ; mirror -Rnev --parallel=10"
-
-export_website:
-  stage: deploy
-  script:
     - bash tools/export_karas.sh db/karas.sqlite3 >karas.json
     - bash tools/export_series.sh db/karas.sqlite3 >series_karas.json
     - bash tools/stats.sh db/karas.sqlite3 >stats.json
