@@ -1,3 +1,282 @@
+# August 2018
+
+- @Kmeuh
+- @Nock
+- @RdNetwork
+- @Rinchama
+- @Krow
+- @Aeden
+- @Kramoule
+- @Nodamin
+- @Olivier
+- @nah
+
+WE CELEBRATE @Kmeuh's FIRST KARAOKE EVER, PEEPOODO AND THE SUPER FUCK FRIENDS ! :) Give him an applause (and a donut)
+
+Special thanks to @Nock who almost single-handedly filled 99% of .kara files with correct metadata (@Kmeuh and @RdNetwork helped too)
+
+## Added
+
+115 new karaokes !
+
+- ANG - Ef ~ a tale of melodies - ED3 - Ebulliant Future
+- ANG - Ef ~ a tale of melodies - OP1 - Ebulliant Future ~ Off Vocal Vers.
+- ANG - Noir - MV - Lullaby
+- ANG - Shingeki no Kyojin - OT - Call your name
+- FR - C'est pas sorcier - OP - Boogie Body
+- FR - PeePooDo & The Super Fuck Friends - OP - PeePooDo & The Super Fuck Friends (#556)
+- FR - Tiny Toons Adventures - OP - Tiny Toons Adventures
+- FR - Tonari no Seki-kun - OP - Meiwaku Spectacle (French no Jikan)
+- FR - Touhou - MV - Le festival de l'eau sacree ~ Off Vocal Vers.
+- FR - Touhou - MV - Le festival de l'eau sacree ~ On vocal Vers.
+- LAT - Ar tonelico - OT - EXEC CHRONICLE KEY
+- LAT - Ar tonelico - OT - EXEC HYMME LIFE W-R-S-
+- LAT - Ar tonelico - OT - EXEC SPHILIA
+- LAT - Noir - OT - canta per me
+- JAP - Aa! Megami-sama - OT - My Heart Iidasenai Your Heart Tashikametai
+- JAP - Abenobashi Mahou Shotengai - ED - Anata no Kokoro ni
+- JAP - Aikatsu Friends! - IN - Michibikarete
+- JAP - Aikatsu! Idol Katsudou! - IN - LOVE GAME
+- JAP - Aikatsu! Idol Katsudou! - IN - MY SHOW TIME!
+- JAP - Aikatsu! Idol Katsudou! - IN - Tutu Ballerina
+- JAP - Aikatsu! Idol Katsudou! - IN - stranger alien
+- JAP - Air in Summer - OP - Tori no Uta
+- JAP - Aiura - ED - Ichi Go Ichi e
+- JAP - Akiba's Trip The Animation - ED9 - Seikai Juu no AKIHABARA de
+- JAP - Arakawa Under the Bridge - OP2 - Title Nante Jibun de Kangaenasai na
+- JAP - Arakawa Under the Bridge x Bridge - ED1 - Akai Coat
+- JAP - Arakawa Under the Bridge x Bridge - OP1 - COSMOS vs ALIEN.mp4
+- JAP - ARB - MV - ROCK OVER JAPAN
+- JAP - Chibi Maruko-chan (1995) - OP6 - Odoru Ponpokorin ~ 2011 vers
+- JAP - Choujijigen Game Neptune Re;Birth1 - ED - Mirai Button
+- JAP - Chuunibyou Demo KOI ga Shitai! Lite - ED - Shikkoku ni Odoru Haoubushi
+- JAP - Chuunibyou Demo KOI ga Shitai! Ren Lite - ED - Shin'en ni Mau Senritsu Shanikusai
+- JAP - Death Parade - MV - Flyers ~ full vers
+- JAP - Doraemon - OP3 - Doraemon no Uta
+- JAP - Eureka Seven AO - MV - Seven Swell ~ based on Niji
+- JAP - Ef ~ a tale of memories - ED4 - Yuukyuu no Tsubasa
+- JAP - Free! Dive to the Future - OP - Heading to Over
+- JAP - Free! Dive to the Future - ED - GOLD EVOLUTION
+- JAP - Fukumenkei Noise - ED - Allegro
+- JAP - Full Metal Panic ~Fumoffu~ - ED - Kimi ni fuku kaze ~ Alternative Vers.
+- JAP - Full Metal Panic! The Second Raid - OP - Minami Kaze ~ Alternative Vers.
+- JAP - Fuujin Monogatari - ED - Yuuhi no Iro Dake
+- JAP - Fuujin Monogatari - OP - Kaze no Shi WINDY TALES
+- JAP - Gakuen Utopia Manabi Straight! - IN - A Happy Life ~ Final vers
+- JAP - Grand Blue - OP - Grand Blue
+- JAP - Haiyore! Nyaruko-san - ED - Zutto Be with You
+- JAP - Haiyore! Nyaruko-san W - ED1 - Yotte S.O.S
+- JAP - Hanebado! - OP - Futari no Hane
+- JAP - Harukana Receive - ED - Wish me luck!!!!
+- JAP - Harukana Receive - OP - FLY two BLUE
+- JAP - High Score Girl - ED - Houkago Di(e)stra(u)ction
+- JAP - Hugtto! Precure - ED3 - HUGtto! YELL FOR YOU
+- JAP - Hyakko - OP - Suppin Rock
+- JAP - Jashin-chan Dropkick - OP - Ano Ko ni Dropkick
+- JAP - Jashin-chan Dropkick - ED - Home Sweet Home!
+- JAP - Junketsu no Maria - OP - Philosophy of Dear World
+- JAP - Karin - ED - Mou Hitotsu no Birthday
+- JAP - Karin - OP - Scarlet
+- JAP - Katanagatari Rebroadcast - ED - Kotonoha
+- JAP - Kingyo Chuuihou! - OP - Wapiko Genki Yohou!
+- JAP - Kizuna Ai - OT - YATTA (#216)
+- JAP - Kodomo no Jikan - ED1 - Hanamaru Sensation
+- JAP - Last Exile - ED - Over The Sky
+- JAP - Last Exile Gin'yoku no Fam - ED1 - Starboard
+- JAP - Layton Mystery Tanteisha Katri no Nazotoki File - OP - Change!
+- JAP - Layton Mystery Tanteisha Katri no Nazotoki File - ED - Daijoubu
+- JAP - Little Busters! - OP - Little Busters
+- JAP - Little Busters! Refrain - ED1 - Kimi to no Nakushi Mono
+- JAP - Lucky Star - OT - CHA-LA HEAD CHA-LA
+- JAP - Lucky Star - OT - Valentine Kiss
+- JAP - Lupin III Part V - OP - LUPIN TROIS 2018
+- JAP - Maaya Sakamoto - MV - Kiseki no Umi
+- JAP - Mahou Sensei Negima! - ED2 - Oshiete Hoshiizoo, Shishou
+- JAP - Mahou Shoujo Nante Mou Ii Desu kara. Second Season - OP - Kimi-iro ni Somaru ~Earth Star Dream vers
+- JAP - Mahou Shoujo Nante Mou Ii Desukara. - OP - Yume-iro Toridori Parade
+- JAP - Mawaru Penguindrum - ED1 - Dear Future ~ Yui Horie vers.
+- JAP - Mikakunin de Shinkoukei - MV - Zentaiteki ni Sensation
+- JAP - Monogatari Series Second Season - OP1 - chocolate insomnia ~ Alternative vers
+- JAP - Moonlight Mile 1st Season - Lift Off - ED - Scarecrow
+- JAP - Mouretsu Pirates Abyss of Hyperspace - ED - Kirakira-go-round
+- JAP - Moyashimon Returns - ED - Saikin
+- JAP - Natsuiro Kiseki - ED2 - Minamikaze Dramatic
+- JAP - Nurse Witch Komugi-chan Magikarte - OP1 - Ai no Medicine
+- JAP - Nyanpire The Animation - ED - Nyanpire Taisou
+- JAP - One Room - ED1 - Harumachi Clover
+- JAP - Ore no Imouto ga Konna ni Kawaii Wake ga Nai - ED10 - Iie, Tom wa Imouto ni Taishite Seiteki na Koufun wo Oboete Imasu
+- JAP - Ore no Imouto ga Konna ni Kawaii Wake ga Nai - MV - nexus (#394)
+- JAP - Paniponi Dash! - OP2 - Roulette Roulette
+- JAP - Paniponi Dash! - OP3 - Shoujo Q
+- JAP - Penguin Highway - PV - Good Night
+- JAP - Photokano - MV - PURIPURI! Pretty Lovey
+- JAP - Puchim@s! Petit Idolm@ster - MV - La La La Wonderland
+- JAP - Rolling Girls - IN - STONES
+- JAP - School Rumble Ni Gakki - ED2 - Futari wa Wasurechau
+- JAP - Servant x Service - OP - May I Help You
+- JAP - Shoujo Kageki Revue Starlight - ED1 - Fly Me to the Star
+- JAP - Shoujo Kageki Revue Starlight - OP - Hoshi no Dialogue
+- JAP - Show By Rock!! - ED - Have a nice MUSIC!!
+- JAP - Show By Rock!! 2 - OP - Heart wo Rock!!
+- JAP - SHUFFLE! - ED - Innocence ~ Alternative Vers.
+- JAP - Soredemo Machi wa Mawatte Iru - ED - Maids Sanjou!
+- JAP - Soredemo Machi wa Mawatte Iru - OP - DOWN TOWN
+- JAP - Soukyuu no Fafner Dead Aggressor Exodus - OP1 - Exist
+- JAP - Sukitte Ii na yo. - OP - friendship ~ for Sukitte Ii na yo
+- JAP - Teekyuu 4 - OP - Fattoshite Tougenkyou
+- JAP - Teekyuu 5 - OP - Qunka!
+- JAP - Teekyuu 6 - OP - Tottemo Safari
+- JAP - Teekyuu 8 - OP2 - Nihongo Wakarimasen
+- JAP - Tesagure! Bukatsumono - OP - Stand Up!!!!
+- JAP - Thermae Romae - ED - Thermae Roman
+- JAP - Uchouten Kazoku 2 - ED - Moon River
+- JAP - Uchuu Kyoudai - OP3 - Yumemiru Sekai
+- JAP - Urusei Yatsura - OP6 - Tonogata Gomen Asobase
+- JAP - Usakame - OP - Hashire! Usakame Kouko Tennis Bu!!
+- JAP - Yuru Yuri San Hai! - ED - Acchu~ma Seishun!
+- RUS - DuckTales (2017) - OP - DuckTales
+
+## Fixes
+
+Lyrics/time have been fixed, or new videos have been uploaded. 135 modifications!
+
+- ANG - Air Gear - ED1 - SKY TOO HIGH
+- ANG - Black Lagoon - OP - Red Fraction
+- ANG - Black Lagoon Roberta Blood Trail - OP - Red Fraction ~IO Drive Mix~
+- ANG - Cat's Eye - ED2 - Hot Stuff
+- ANG - Cowboy Bebop - MOVIE OP - Ask DNA
+- ANG - Cowboy Bebop - OP - Tank!
+- ANG - Ef ~ a tale of melodies - ED - Ebulliant Future ~ Color Vers.
+- FR - 3615 Usul - MV - Excuses de sac
+- FR - Full Metal Panic! - OP - Un sens a notre vie
+- FR - Taiyou no Ko Esteban - OP - Les Mysterieuses Cites d'Or
+- JAP - Aho Girl - OP - Zenryoku Summer
+- JAP - Air - OP - Tori no Uta
+- JAP - Air - ED - Farewell song
+- JAP - Air - GAME OP - Tori no Uta
+- JAP - Air - GAME OP - Tori no Uta Long Vers.
+- JAP - Air - ED - Farewell song
+- JAP - Air - OP - Tori no Uta Long Vers. Alt
+- JAP - Air - OP - Tori no Uta Long Vers.
+- JAP - Air Master - OP - Retsu no matataki
+- JAP - Banana Fish - OP - found _ lost
+- JAP - Cardcaptor Sakura Clear Card-hen - ED1 - JEWELRY
+- JAP - Cardcaptor Sakura Clear Card-hen - OP1 - CLEAR
+- JAP - Chu-Bra!! - ED1 - Shy Girls
+- JAP - Chu-Bra!! - OP - Choose Bright!!
+- JAP - Cuticle Tantei Inaba - OP1 - Haruka, Nichijou no Naka de
+- JAP - Densetsu no Yuusha no Densetsu - ED1 - Truth Of My Destiny ~ Part 1
+- JAP - Densetsu no Yuusha no Densetsu - ED1 - Truth Of My Destiny ~ Part 2
+- JAP - Densetsu no Yuusha no Densetsu - ED2 - Hikari no Filament
+- JAP - Densetsu no Yuusha no Densetsu - OP1 - LAMENT Yagate Yorokobi wo
+- JAP - Densetsu no Yuusha no Densetsu - OP2 - Last Inferno
+- JAP - Diabolik Lovers - OP - Mr.SADISTIC NIGHT
+- JAP - Eden - OP - Little explorer
+- JAP - Ef ~ a fairy tale of the two - GAME OP - Yuukyuu no Tsubasa
+- JAP - Ef ~ a tale of melodies - ED1 - Egao no Chikara
+- JAP - Ef ~ a tale of melodies - ED2 - Negai no Kakera
+- JAP - Ef ~ a tale of melodies - ED3 - Negai no Kakera
+- JAP - Ef ~ a tale of melodies - ED99 - ebullient futur x ever forever
+- JAP - Ef ~ a tale of memories - ED1 - I'm here
+- JAP - Ef ~ a tale of memories - ED2 - Kizamu Kisetsu
+- JAP - Ef ~ a tale of memories - ED3 - Sora no yume
+- JAP - Ef ~ a tale of memories - ED4 - I'm here
+- JAP - Ef ~ a tale of memories - ED5 - Kizamu Kisetsu
+- JAP - Ef ~ a tale of memories - ED6 - Sora no yume
+- JAP - Ef ~ a tale of memories - OP1 - euphoric field (english version)
+- JAP - Ef ~ a tale of memories - OP2 - euphoric field
+- JAP - Ef ~ the latter tale - OP - emotional flutter
+- JAP - Eureka Seven - OP2 - Shounen Heart
+- JAP - Fortune Arterial Akai Yakusoku - OP - Kizunairo
+- JAP - Fruits Basket - OP - For Fruits Basket
+- JAP - Full Metal Panic! - ED1 - Karenai Hana
+- JAP - Full Metal Panic! - ED2 - Karenai Hana
+- JAP - Full Metal Panic! - OP1 - Tomorrow
+- JAP - Full Metal Panic! - OP2 - Tomorrow
+- JAP - Full Metal Panic ~Fumoffu~ - ED - Kimi ni fuku kaze
+- JAP - Full Metal Panic ~Fumoffu~ - OP - Sore Ga Ai Deshou
+- JAP - Full Metal Panic! - ED2 - Karenai Hana
+- JAP - Full Metal Panic! - OP1 - Tomorrow
+- JAP - Full Metal Panic! The Second Raid - OP - Minami Kaze
+- JAP - H2O Footprints in the Sand - OP - Katayoku no Icarus
+- JAP - Hyper Police - OP - That's Hypertension!
+- JAP - Itsuka Tenma no Kuro Usagi - ED1 - Utsusemi
+- JAP - Itsuka Tenma no Kuro Usagi - OP - Once.mp4
+- JAP - Kekkai Sensen - ED - Sugar Song to Bitter Step (#547)
+- JAP - Kekkai Sensen - OP - Hello, world!
+- JAP - Koukaku no Regios - ED1 - Yasashii Uso Ver. Layfon
+- JAP - Koukaku no Regios - OP - Brave Your Truth
+- JAP - Kobayashi-san Chi no Maid Dragon - OP - Aozora no Rhapsody
+- JAP - Last Period - ED - Wiseman no Theme
+- JAP - Mahou Sensei Negima! - OP - Happy Material
+- JAP - Monogatari Series Second Season - OP1 - chocolate insomnia ~ Alternative vers
+- JAP - Motto To Love-Ru Trouble - OP - Loop-the-Loop
+- JAP - MushiUta - OP - Mushiuta
+- JAP - Ore no Imouto ga Konna ni Kawaii Wake ga Nai - OP - Irony
+- JAP - Ore no Imouto ga Konna ni Kawaii Wake ga Nai - OP - Irony ~ Episode 12 Vers.
+- JAP - Ore no Imouto ga Konna ni Kawaii Wake ga Nai. - OP1 - reunion ~ Episode 13 Vers.
+- JAP - Onii-chan Dakedo Ai Sae Areba Kankei Nai yo ne! - OP - Self Producer
+- JAP - Omamori Himari - ED1 - BEAM my BEAM
+- JAP - Omamori Himari - OP - Oshichauzo!!
+- JAP - Pandora Hearts - ED1 - Maze
+- JAP - Pandora Hearts - OP - Parallel Hearts
+- JAP - Re Creators - OP1 - gravityWall
+- JAP - Re Creators - OP2 - sh0ut
+- JAP - Rockman.EXE Axess - OP1 - Futari no mirai e
+- JAP - Rockman.EXE BEAST - OP - Shouri no Uta
+- JAP - Sagrada Reset - OP2 - Dakara Boku wa Boku wo Tebanasu (#549)
+- JAP - Shaman King - OP1 - Over Soul.mp4
+- JAP - Shaman King - OP2 - Northern Lights
+- JAP - Shirogane no Ishi Argevollen - OP1 - Tough Intention
+- JAP - Shoujo Kageki Revue Starlight - OP - Hoshi no Dialogue
+- JAP - SHUFFLE! - ED - Innocence
+- JAP - SHUFFLE! - OP - You
+- JAP - SHUFFLE! - GAME OP - Mirage Lullaby
+- JAP - SHUFFLE! memories - ED1 - only one, only love
+- JAP - SHUFFLE! memories - ED2 - wish
+- JAP - SHUFFLE! memories - ED3 - Himitsu no Mori
+- JAP - SHUFFLE! memories - ED4 - Freedom
+- JAP - SHUFFLE! memories - ED5 - Magical Power Station
+- JAP - SHUFFLE! memories - OP2 - memories
+- JAP - SHUFFLE! memories - OP3 - High Tension Dreamer
+- JAP - SHUFFLE! memories - OP4 - pray
+- JAP - SHUFFLE! memories - OP5 - Giri Giri Heart Connection
+- JAP - SHUFFLE! memories - OP6 - Pureness
+- JAP - Soukyuu no Fafner - ED1 - Separation
+- JAP - Soukyuu no Fafner - OP1 - Shangri-La
+- JAP - Soukyuu no Fafner - OP2 - Shangri-La
+- JAP - Tales of Eternia the animation - OP - Sora ni Kakeru Hashi
+- JAP - Teekyuu 4 - OP - Fattoshite Tougenkyou
+- JAP - Teekyuu 5 - OP - Qunka!
+- JAP - Teekyuu 6 - OP - Tottemo Safari
+- JAP - Teekyuu 8 - OP2 - Nihongo Wakarimasen
+- JAP - To Aru Kagaku no Railgun - ED1 - Dear My Friend -Mada Minu Mirai he-
+- JAP - To Aru Kagaku no Railgun - ED2 - Real Force
+- JAP - To Aru Kagaku no Railgun - OP2 - Level 5 Judgelight
+- JAP - To Aru Kagaku no Railgun S - OP - Sister's noise
+- JAP - To aru kagaku no Railgun - OP1 - Only my RAILGUN
+- JAP - To Aru Majutsu no Index - ED1 - Rimless ~fuchinashi no sekai~
+- JAP - To Aru Majutsu no Index - ED2 - Chigaigoto
+- JAP - To Aru Majutsu no Index - OP1 - PSI-missing
+- JAP - To Aru Majutsu no Index - OP2 - Masterpiece
+- JAP - To Aru Majutsu no Index II - ED1 - Magic World
+- JAP - To Aru Majutsu no Index II - OP1 - No buts
+- JAP - To Aru Majutsu no Index II - OP2 - See VisionS
+- JAP - To LOVE-Ru Trouble OVA - OP - Yattekoi! Daisuki
+- JAP - To Love-Ru - OP - forever we can make it!
+- JAP - To Love-Ru Darkness - ED - Foul Play ni Kurari
+- JAP - To Love-Ru Darkness - OP - Rakuen Project
+- JAP - To Love-Ru Darkness 2nd - ED - Gardens
+- JAP - To Love-Ru Darkness 2nd - OP - Secret Arms
+- JAP - Tohai Densetu Akagi -Yamini Maiorita Tensai- - ED2 - STS
+- JAP - Tohai Densetu Akagi -Yamini Maiorita Tensai- - OP1 - Nantoka Nare
+- JAP - Tommy february6 - MV - Lonely in Gorgeous
+- JAP - Triage X - OP1 - Triage
+- JAP - Umi Monogatari ~Anata ga Ite Kureta Koto~i - OP - Violet
+- JAP - Upotte - OP - ING (#551)
+- JAP - ZOMBIE-LOAN - ED - CHAIN RING
+- JAP - ZOMBIE-LOAN - OP - Ookami no Nodo
+
 # July 2018
 
 14 Contributors this month, give them hugs!
