@@ -18,7 +18,7 @@ Special thanks to @Nock who almost single-handedly filled 99% of .kara files wit
 
 ## Added
 
-133 new karaokes !
+138 new karaokes !
 
 - ANG - Ef ~ a tale of melodies - ED3 - Ebulliant Future
 - ANG - Ef ~ a tale of melodies - OP1 - Ebulliant Future ~ Off Vocal Vers.
@@ -31,6 +31,9 @@ Special thanks to @Nock who almost single-handedly filled 99% of .kara files wit
 - FR - Tonari no Seki-kun - OP - Meiwaku Spectacle (French no Jikan)
 - FR - Touhou - MV - Le festival de l'eau sacree ~ Off Vocal Vers.
 - FR - Touhou - MV - Le festival de l'eau sacree ~ On vocal Vers.
+- ITA - Ashita no Nadja - OP - Nadja
+- ITA - Kimagure Orange Road - OP - E quasi magia, Johnny!
+- ITA - Mermaid Melody Pichi Pichi Pitch - OP - Mermaid Melody
 - LAT - Ar tonelico - OT - EXEC CHRONICLE KEY
 - LAT - Ar tonelico - OT - EXEC HYMME LIFE W-R-S-
 - LAT - Ar tonelico - OT - EXEC SPHILIA
@@ -117,8 +120,6 @@ Special thanks to @Nock who almost single-handedly filled 99% of .kara files wit
 - JAP - One Room - ED1 - Harumachi Clover
 - JAP - Ongaku Shoujo - ED - Shining Piece
 - JAP - Ongaku Shoujo - OP - Eien Shounen
-- JAP - Shichisei no Subaru - ED - Starlight
-- JAP - Shichisei no Subaru - OP - 360 Degrees Hoshi no Orchestra
 - JAP - Ore no Imouto ga Konna ni Kawaii Wake ga Nai - ED10 - Iie, Tom wa Imouto ni Taishite Seiteki na Koufun wo Oboete Imasu
 - JAP - Ore no Imouto ga Konna ni Kawaii Wake ga Nai - MV - nexus (#394)
 - JAP - Paniponi Dash! - OP2 - Roulette Roulette
@@ -133,6 +134,8 @@ Special thanks to @Nock who almost single-handedly filled 99% of .kara files wit
 - JAP - Servant x Service - OP - May I Help You
 - JAP - Shakunetsu no Takkyuu Musume - ED - Bokura no Frontier
 - JAP - Shakunetsu no Takkyuu Musume - OP - Shakunetsu Switch
+- JAP - Shichisei no Subaru - ED - Starlight
+- JAP - Shichisei no Subaru - OP - 360 Degrees Hoshi no Orchestra
 - JAP - Shoujo Kageki Revue Starlight - ED1 - Fly Me to the Star
 - JAP - Shoujo Kageki Revue Starlight - OP - Hoshi no Dialogue
 - JAP - Show By Rock!! - ED - Have a nice MUSIC!!
@@ -147,6 +150,8 @@ Special thanks to @Nock who almost single-handedly filled 99% of .kara files wit
 - JAP - Teekyuu 6 - OP - Tottemo Safari
 - JAP - Teekyuu 8 - OP2 - Nihongo Wakarimasen
 - JAP - Tesagure! Bukatsumono - OP - Stand Up!!!!
+- JAP - The iDOLM@STER - ED8 - Hanikami! First Bite
+- JAP - The iDOLM@STER - IN - READY!!&CHANGE!!!! Special Edition
 - JAP - Thermae Romae - ED - Thermae Roman
 - JAP - Uchouten Kazoku 2 - ED - Moon River
 - JAP - Uchuu Kyoudai - OP3 - Yumemiru Sekai
