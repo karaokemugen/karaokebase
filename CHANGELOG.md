@@ -18,7 +18,7 @@ Special thanks to @Nock who almost single-handedly filled 99% of .kara files wit
 
 ## Added
 
-115 new karaokes !
+133 new karaokes !
 
 - ANG - Ef ~ a tale of melodies - ED3 - Ebulliant Future
 - ANG - Ef ~ a tale of melodies - OP1 - Ebulliant Future ~ Off Vocal Vers.
@@ -157,7 +157,7 @@ Special thanks to @Nock who almost single-handedly filled 99% of .kara files wit
 
 ## Fixes
 
-Lyrics/time have been fixed, or new videos have been uploaded. 135 modifications!
+Lyrics/time have been fixed, or new videos have been uploaded. 150 modifications!
 
 - ANG - Air Gear - ED1 - SKY TOO HIGH
 - ANG - Black Lagoon - OP - Red Fraction
