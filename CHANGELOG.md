@@ -10,6 +10,7 @@
 - @Nodamin
 - @Olivier
 - @nah
+- KuroSensei
 
 WE CELEBRATE @Kmeuh's FIRST KARAOKE EVER, PEEPOODO AND THE SUPER FUCK FRIENDS ! :) Give him an applause (and a donut)
 
@@ -23,6 +24,7 @@ Special thanks to @Nock who almost single-handedly filled 99% of .kara files wit
 - ANG - Ef ~ a tale of melodies - OP1 - Ebulliant Future ~ Off Vocal Vers.
 - ANG - Noir - MV - Lullaby
 - ANG - Shingeki no Kyojin - OT - Call your name
+- FR - Ashita no Nadja - ED - Que Sera-Sera
 - FR - C'est pas sorcier - OP - Boogie Body
 - FR - PeePooDo & The Super Fuck Friends - OP - PeePooDo & The Super Fuck Friends (#556)
 - FR - Tiny Toons Adventures - OP - Tiny Toons Adventures
@@ -47,7 +49,11 @@ Special thanks to @Nock who almost single-handedly filled 99% of .kara files wit
 - JAP - Arakawa Under the Bridge x Bridge - ED1 - Akai Coat
 - JAP - Arakawa Under the Bridge x Bridge - OP1 - COSMOS vs ALIEN.mp4
 - JAP - ARB - MV - ROCK OVER JAPAN
+- JAP - Asobi Asobase - ED - Inkya Impulse
+- JAP - Asobi Asobase - OP - Suripizu
 - JAP - Chibi Maruko-chan (1995) - OP6 - Odoru Ponpokorin ~ 2011 vers
+- JAP - Chio-chan no Tsuugakuro - ED - Nanairoad
+- JAP - Chio-chan no Tsuugakuro - OP - Danger in My Tsuugakuro
 - JAP - Choujijigen Game Neptune Re;Birth1 - ED - Mirai Button
 - JAP - Chuunibyou Demo KOI ga Shitai! Lite - ED - Shikkoku ni Odoru Haoubushi
 - JAP - Chuunibyou Demo KOI ga Shitai! Ren Lite - ED - Shin'en ni Mau Senritsu Shanikusai
@@ -67,11 +73,16 @@ Special thanks to @Nock who almost single-handedly filled 99% of .kara files wit
 - JAP - Haiyore! Nyaruko-san - ED - Zutto Be with You
 - JAP - Haiyore! Nyaruko-san W - ED1 - Yotte S.O.S
 - JAP - Hanebado! - OP - Futari no Hane
+- JAP - Happy Sugar Life - ED - SWEET HURT
+- JAP - Happy Sugar Life - OP - One Room Sugar Life
 - JAP - Harukana Receive - ED - Wish me luck!!!!
 - JAP - Harukana Receive - OP - FLY two BLUE
+- JAP - Hataraku Saibou - ED - CheerS
 - JAP - High Score Girl - ED - Houkago Di(e)stra(u)ction
 - JAP - Hugtto! Precure - ED3 - HUGtto! YELL FOR YOU
 - JAP - Hyakko - OP - Suppin Rock
+- JAP - Hyakuren no Haou to Seiyaku no Valkyria - ED - Sekaijuu ga Koi o Suru Yoru
+- JAP - Hyakuren no Haou to Seiyaku no Valkyria - OP - Bright way
 - JAP - Jashin-chan Dropkick - OP - Ano Ko ni Dropkick
 - JAP - Jashin-chan Dropkick - ED - Home Sweet Home!
 - JAP - Junketsu no Maria - OP - Philosophy of Dear World
@@ -104,16 +115,24 @@ Special thanks to @Nock who almost single-handedly filled 99% of .kara files wit
 - JAP - Nurse Witch Komugi-chan Magikarte - OP1 - Ai no Medicine
 - JAP - Nyanpire The Animation - ED - Nyanpire Taisou
 - JAP - One Room - ED1 - Harumachi Clover
+- JAP - Ongaku Shoujo - ED - Shining Piece
+- JAP - Ongaku Shoujo - OP - Eien Shounen
+- JAP - Shichisei no Subaru - ED - Starlight
+- JAP - Shichisei no Subaru - OP - 360 Degrees Hoshi no Orchestra
 - JAP - Ore no Imouto ga Konna ni Kawaii Wake ga Nai - ED10 - Iie, Tom wa Imouto ni Taishite Seiteki na Koufun wo Oboete Imasu
 - JAP - Ore no Imouto ga Konna ni Kawaii Wake ga Nai - MV - nexus (#394)
 - JAP - Paniponi Dash! - OP2 - Roulette Roulette
 - JAP - Paniponi Dash! - OP3 - Shoujo Q
 - JAP - Penguin Highway - PV - Good Night
 - JAP - Photokano - MV - PURIPURI! Pretty Lovey
+- JAP - Planet With - ED - Rainbow Planet
+- JAP - Planet With - OP - One Unit
 - JAP - Puchim@s! Petit Idolm@ster - MV - La La La Wonderland
 - JAP - Rolling Girls - IN - STONES
 - JAP - School Rumble Ni Gakki - ED2 - Futari wa Wasurechau
 - JAP - Servant x Service - OP - May I Help You
+- JAP - Shakunetsu no Takkyuu Musume - ED - Bokura no Frontier
+- JAP - Shakunetsu no Takkyuu Musume - OP - Shakunetsu Switch
 - JAP - Shoujo Kageki Revue Starlight - ED1 - Fly Me to the Star
 - JAP - Shoujo Kageki Revue Starlight - OP - Hoshi no Dialogue
 - JAP - Show By Rock!! - ED - Have a nice MUSIC!!
@@ -147,8 +166,12 @@ Lyrics/time have been fixed, or new videos have been uploaded. 135 modifications
 - ANG - Cowboy Bebop - MOVIE OP - Ask DNA
 - ANG - Cowboy Bebop - OP - Tank!
 - ANG - Ef ~ a tale of melodies - ED - Ebulliant Future ~ Color Vers.
+- ANG - Princess Principal - ED - A Page of My Story
+- ANG - Princess Principal - OP - The Other Side of the Wall
 - FR - 3615 Usul - MV - Excuses de sac
+- FR - Ashita no Nadja - OP (#42)
 - FR - Full Metal Panic! - OP - Un sens a notre vie
+- FR - Remi sans Famille - OP (#90)
 - FR - Taiyou no Ko Esteban - OP - Les Mysterieuses Cites d'Or
 - JAP - Aho Girl - OP - Zenryoku Summer
 - JAP - Air - OP - Tori no Uta
@@ -199,9 +222,11 @@ Lyrics/time have been fixed, or new videos have been uploaded. 135 modifications
 - JAP - Full Metal Panic! - OP1 - Tomorrow
 - JAP - Full Metal Panic! The Second Raid - OP - Minami Kaze
 - JAP - H2O Footprints in the Sand - OP - Katayoku no Icarus
+- JAP - Hanada Shounen-shi - OP - The One (#138)
 - JAP - Hyper Police - OP - That's Hypertension!
 - JAP - Itsuka Tenma no Kuro Usagi - ED1 - Utsusemi
 - JAP - Itsuka Tenma no Kuro Usagi - OP - Once.mp4
+- JAP - Jungle wa itsumo Hare nochi Guu Final - OP - Love Tropicana Final (#143)
 - JAP - Kekkai Sensen - ED - Sugar Song to Bitter Step (#547)
 - JAP - Kekkai Sensen - OP - Hello, world!
 - JAP - Koukaku no Regios - ED1 - Yasashii Uso Ver. Layfon
@@ -209,6 +234,7 @@ Lyrics/time have been fixed, or new videos have been uploaded. 135 modifications
 - JAP - Kobayashi-san Chi no Maid Dragon - OP - Aozora no Rhapsody
 - JAP - Last Period - ED - Wiseman no Theme
 - JAP - Mahou Sensei Negima! - OP - Happy Material
+- JAP - Mahou Shoujo Nante Mou Ii Desu kara. Second Season - OP - Kimi-iro ni Somaru ~Earth Star Dream vers
 - JAP - Monogatari Series Second Season - OP1 - chocolate insomnia ~ Alternative vers
 - JAP - Motto To Love-Ru Trouble - OP - Loop-the-Loop
 - JAP - MushiUta - OP - Mushiuta
@@ -218,12 +244,20 @@ Lyrics/time have been fixed, or new videos have been uploaded. 135 modifications
 - JAP - Onii-chan Dakedo Ai Sae Areba Kankei Nai yo ne! - OP - Self Producer
 - JAP - Omamori Himari - ED1 - BEAM my BEAM
 - JAP - Omamori Himari - OP - Oshichauzo!!
+- JAP - Otogizoushi - OP1 - Zen (#164)
+- JAP - Otogizoushi - OP2 - Ashita wa Kyou to Onaji Mirai (#165)
 - JAP - Pandora Hearts - ED1 - Maze
 - JAP - Pandora Hearts - OP - Parallel Hearts
 - JAP - Re Creators - OP1 - gravityWall
 - JAP - Re Creators - OP2 - sh0ut
 - JAP - Rockman.EXE Axess - OP1 - Futari no mirai e
 - JAP - Rockman.EXE BEAST - OP - Shouri no Uta
+- JAP - Rurouni Kenshin - ED6 - It's Gonna Rain (#172)
+- JAP - Rurouni Kenshin - ED8 - Dame! (#173)
+- JAP - Rurouni Kenshin - OP2 - Half (#174)
+- JAP - Rurouni Kenshin - ED4 - The Fourth Avenue Cafe (#172)
+- JAP - Rurouni Kenshin - ED2 - Namida Wa Shitteiru (#170)
+- JAP - Rurouni Kenshin - OP3 - Kimi ni Fureru Dake de (#175)
 - JAP - Sagrada Reset - OP2 - Dakara Boku wa Boku wo Tebanasu (#549)
 - JAP - Shaman King - OP1 - Over Soul.mp4
 - JAP - Shaman King - OP2 - Northern Lights
