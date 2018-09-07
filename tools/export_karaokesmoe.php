@@ -79,7 +79,7 @@ SELECT k.pk_id_kara AS kara_id, k.title, k.duration, k.year, k.mediafile, k.subf
     )
 ) as co_serie_singer
 FROM kara k
-WHERE misc IS NULL OR misc NOT LIKE \'%TAG_R18%\'
+WHERE misc IS NULL OR misc NOT LIKE \'%TAG_R18%\' AND mediafile LIKE \'%.mp4\'
 order by co_serie_singer, language, songtype DESC, songorder';
 
 $data=$pdo->query($query)->fetchAll();
@@ -147,7 +147,6 @@ foreach ($first_pass as $serie_singer => $kara_serie_singer) {
 }
 
 
-
 //third pass
 $last_pass=[];
 foreach ($second_pass as $serie_singer => $kara_serie_singer) {
@@ -162,33 +161,30 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 			//Determine song order
 			$languages = explode(',', $kara['language']);
 
-			/*
-			if (!empty($kara['songorder'])) {
-				$songorder = $kara['songorder'];
-			} else {
-				$songorder = $key+1;
+			$type_with_num = $type . (!empty($kara['songorder']) ? $kara['songorder'] : '') . ' - '  . $languages[0] . ' - ' . $kara['title'];
+
+			if($kara['subfile'] === 'dummy.ass') {
+				$kara_data=[
+					'file' => get_filename_without_ext($kara['mediafile']),
+					'mime' => ['video/mp4'],
+					'song' => [
+						'title' => $kara['title'],
+					],
+				];
 			}
-			
-			$song_title = $kara['title']. ' (' . $languages[0]. ')';
-			
-			$type_with_num=$type.$songorder.'('.$languages[0].')';
-            */
-            //Bonne présentation
-			//$type_with_num='(' . $languages[0] . ') ' . $kara['title'] . ' [' . $type .  (!empty($kara['songorder']) ? $kara['songorder']:'') . ']';
+			else {
+				$kara_data=[
+					'file' => get_filename_without_ext($kara['mediafile']),
+					'mime' => ['video/mp4'],
+					'song' => [
+						'title' => $kara['title'],
+					],
+					'subtitles' => 'unknown',
+				];
 
-            $type_with_num = $type . (!empty($kara['songorder']) ? $kara['songorder'] : '') . ' - '  . $languages[0] . ' - ' . $kara['title'];
-
-			$kara_data=[
-				'file' => get_filename_without_ext($kara['mediafile']),
-				'mime' => ['video/mp4'],
-				'song' => [
-					'title' => $kara['title'],
-				],
-				'subtitles' => 'unknown',
-			];
-
-			if(!empty($kara['author'])) {
-				$kara_data['subtitles']=str_replace(',',', ',$kara['author']);
+				if(!empty($kara['author'])) {
+					$kara_data['subtitles']=str_replace(',',', ',$kara['author']);
+				}
 			}
 			if(!empty($kara['singer'] || $kara['singer'] != 'NO_TAG')) {
 				$kara_data['song']['artist'] = str_replace(',',', ',$kara['singer']);
