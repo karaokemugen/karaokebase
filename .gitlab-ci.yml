@@ -4,10 +4,16 @@ stages:
   - test
   - deploy
 
+cache:
+  key: base
+  paths:
+  - node_modules/
+  - react_client/node_modules/
+
 test:
   stage: test
   artifacts:
-    expire_in: 1 day
+    expire_in: 1 hour
     paths:
       - db
   script:
