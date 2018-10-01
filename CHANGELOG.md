@@ -1,3 +1,68 @@
+# September 2018
+
+MVP this month is @Aeden. He replaced a whole lot of videos with better quality ones.
+
+Contributors :
+
+- @Kmeuh
+- @Aeden
+- @Nock
+- @herolien
+- @MaxaoH
+- @Krow
+- @Rinchama
+- @nah
+- @olivier
+- @Kramoule
+
+# Added
+
+Added 30 songs.
+
+A lot of songs have been removed (dupes, useless songs, etc.) which means there aren't that many more songs than last month.
+
+- ANG - Batman - OP - Batman
+- ANG - Dokidoki! PreCure - OP - Glitter Force Doki Doki Theme Song
+- ANG - Macross Plus - OP - Voices (#492)
+- ANG - Made in Abyss - IN - Underground River
+- FIC - Ar tonelico 2 Sekai ni Hibiku Shoujo-tachi no Metafarika - IN - EXEC_SPHILIA
+- FR - 3615 Usul - MV - Le bilan
+- FR - Mrs Yéyé - OT - On s'en bat les couilles
+- FR - Pokémon - OP6 - Je veux devenir un héros
+- FR - Pokémon Je te choisis ! - ED - Moi je te choisis toi (#409)
+- FR - Pokémon le film 10 L'ascension de Darkrai - MOVIE - OP - Nous serons les héros
+- FR - Touhou - MV - Petite reveuse ~ Off Vocal Version
+- FR - Touhou - MV - Petite reveuse
+- JAP - 3-gatsu no Lion - MV - Answer
+- JAP - 3-gatsu no Lion - MV - Fighter ~ 3-gatsu no Lion meets BUMP OF CHICKEN
+- JAP - BanG Dream! GarupaPico - OP - Picotto! Papitto!! GarupaPico!!!
+- JAP - Brynhildr in the Darkness - OP1 - Brynhildr in the Darkness
+- JAP - Double-J - ED - Wani to Shampoo
+- JAP - Eureka SeveN - AMV - Niji
+- JAP - Gunslinger Girl Il Teatrino - ED3 - Scarborough Fair
+- JAP - Hugtto! PreCure - ED3 - DANZEN! Futari wa Precure ~Yuiitsu Muni no Hikaritachi~
+- JAP - Kill la Kill - ED1 - Gomen ne, Iiko ja Irarenai Alternative Vers.
+- JAP - Kizuna Ai - MV - Sugar Song to Bitter Step
+- JAP - Lupin III Part IV - OP - Theme from Lupin III 2015
+- JAP - Maouyuu Maou Yuusha - ED - Unknown Vision
+- JAP - Pokemon the Series Sun & Moon - OP2 - Mezase Pokemon Master ~ 20th Anniversary
+- JAP - Pokemon the Series Sun & Moon - OP3 - Mirai Connection
+- JAP - Pop Team Epic - OP - Twinkling star ~ Hoshiiro Girldrop kyun kyun ~
+- JAP - Puchim@s!! Petit Petit Idolm@ster - ED2 - Hitoribocchi no Uta
+- JAP - Steins Gate The Movie ‒ Load Region of Deja Vu - ED - Itsumo Kono Basho de
+- JAP - The iDOLM@STER Cinderella Girls - IN - TOKIMEKI Escalate
+- JAP - Touhou - MV - Fushigikakumei Cirno's Hot Spring
+
+# Fixes
+
+- A lot of series have had their old, standard definition videos replaced by HD versions (sometimes creditless), courtesy of @Aeden
+- Soredemo Sekai wa Utsukushii's OP multiple versions have been removed to only keep one.
+- The `series.json` file is now complete. Warning : it's going to be exploded in individual files (one per series) very soon.
+- All Secret Base karaokes have been fixed (#452)
+- Exotic fonts have been removed from many karaokes (not all) to improve readability.
+- Unused styles have also been removed in ASS files
+- As usual, a few times have been fixed.
+
 # August 2018
 
 - @Kmeuh
