@@ -1,23 +1,36 @@
+# This script is used to rename .kara files and its contents according to
+# Karaoke Mugen file naming rules.
+# It outputs the following scripts :
+# - gitkaras.sh renames kara files in git
+# - gitlyrics.sh same thing for ass files
+# - mediasunix.sh renames media files in your folder (for UNIX-like)
+# - mediaswindows.cmd renames media files in your folder (for windows)
+# - modifymedias.sh renames medias inside kara files
+# - modifylyrics.sh renames subfiles inside kara files
+
 rm gitkaras.sh
 rm gitlyrics.sh
 rm mediasunix.sh
 rm mediaswindows.cmd
+rm modifymedias.sh
+rm modifylyrics.sh
+
 cd karas
 ls * >../karas.txt
 while read kara
 do
 	# Define new name
-	LANGKARA=`cat "$kara" | grep lang= | awk -F= {'print $2'} | tr '[:lower:]' '[:upper:]'`
-	SERIES=`cat "$kara" | grep series= | awk -F= {'print $2'}`
-	SINGER=`cat "$kara" | grep singer= | awk -F= {'print $2'}`
-	TYPE=`cat "$kara" | grep type= | awk -F= {'print $2'}`
+	LANGKARA=`cat "$kara" | grep lang= | awk -F= {'print $2'} | awk -F, {'print $1'} | tr '[:lower:]' '[:upper:]'`
+	SERIES=`cat "$kara" | grep series= | awk -Fseries= {'print $2'}`
+	SINGER=`cat "$kara" | grep singer= | awk -Fsinger= {'print $2'}`
+	TYPE=`cat "$kara" | grep type= | awk -Ftype= {'print $2'}`
 	ORDER=`cat "$kara" | grep order= | awk -F= {'print $2'}`
-	TITLE=`cat "$kara" | grep title= | awk -F= {'print $2'}`
-	TAGS=`cat "$kara" | grep tags= | awk -F= {'print $2'} | sed 's/TAG_//g'`
+	TITLE=`cat "$kara" | grep title= | awk -Ftitle= {'print $2'}`
+	TAGS=`cat "$kara" | grep tags= | awk -Ftags= {'print $2'} | sed 's/TAG_//g'`
 
 	SERIESINGER=$SERIES
 
-	if [ "$TYPE" == "MV" ] || [ "$TYPE" == "LIVE" ]
+	if [ "$TYPE" == "MV" ] || [ "$TYPE" == "LIVE" ] && [ "$SERIES" == "" ]
 	then
 		SERIESINGER=$SINGER
 	fi
@@ -127,11 +140,12 @@ do
 		TYPE="SWITCH "$TYPE
 	fi
 
-	SERIESINGER=`echo $SERIESINGER | iconv -c -f utf8 -t ascii//TRANSLIT`
-	SERIESINGER=`echo $SERIESINGER | sed 's/\\;/\;/g' | tr '\[\]△:\;\\\/☆★+×†↑½♪＊*∞♥❤♡⇄♬' ' ' | tr '·・ΛЯ³²°θØ○×Φ±∀' '..AR32000OXO+A' | sed "s/µ's/Mu's/g" | sed 's/®/(R)/g' | sed 's/…/.../g'`
+	SERIESINGER=`echo "$SERIESINGER" | sed "s/*//g" | sed 's/\\;/\;/g' | sed 's/\[//g;s/\]//g' | sed 's/∆/Delta/g' | sed 's/[△\:\/☆★+×†↑½♪＊*∞♥❤♡⇄♬]/ /g' | sed 'y/·・ΛЯ³²°θØ○×Φ±∀/..AR32000OXO+A/' | sed "s/µ's/Mu's/g" | sed 's/®/(R)/g' | sed 's/…/.../g'`
+	echo $SERIESINGER
+	SERIESINGER=`echo "$SERIESINGER" | iconv -c -f utf8 -t ascii//TRANSLIT`
 
-	TITLE=`echo $TITLE | iconv -c -f utf-8 -t ascii//TRANSLIT`
-	TITLE=`echo $TITLE | sed 's/\\;/\;/g' | tr '\[\]△:\;\\\/☆★+×†↑½♪＊*∞♥❤♡⇄♬' ' ' | tr '·・ΛЯ³²°θØ○×Φ±∀' '..AR32000OXO+A' | sed "s/µ's/Mu's/g" | sed 's/®/(R)/g' | sed 's/…/.../g'`
+	TITLE=`echo "$TITLE" | sed "s/*//g" | sed 's/∆/Delta/g' | sed 's/\\;/\;/g' | sed 's/\[//g;s/\]//g' | sed 's/[△\:\/☆★+×†↑½♪＊*∞♥❤♡⇄♬]/ /g' | sed 'y/·・ΛЯ³²°θØ○×Φ±∀/..AR32000OXO+A/' | sed "s/µ's/Mu's/g" | sed 's/®/(R)/g' | sed 's/…/.../g'`
+	TITLE=`echo "$TITLE" | iconv -c -f utf-8 -t ascii//TRANSLIT`
 
 	TYPE=$TYPE$ORDER
 
@@ -149,14 +163,17 @@ do
 	fi
 	if [ "$OLDLYRICSFILE" != "$LYRICSFILE" ]
 	then
+		echo "sed -i '/^subfile=/s/=.*/=$LYRICSFILE/' \"karas/$kara\"" >>../modifylyrics.sh
 		echo "git mv \"lyrics/$OLDLYRICSFILE\" \"karas/$LYRICSFILE\"" >>../gitlyrics.sh
 	fi
 	if [ "$OLDMEDIAFILE" != "$MEDIAFILE" ]
 	then
+		echo "sed -i '/^mediafile=/s/=.*/=$MEDIAFILE/' \"karas/$kara\"" >>../modifymedias.sh
 		echo "mv \"medias/$OLDMEDIAFILE\" \"medias/$MEDIAFILE\"" >>../mediasunix.sh
 		echo "rename \"medias\\$OLDMEDIAFILE\" \"medias\\$MEDIAFILE\"" >>../mediaswindows.cmd
 	fi
 
 
-done <../karas.txt
+done < ../karas.txt
+
 rm ../karas.txt
