@@ -140,11 +140,11 @@ do
 		TYPE="SWITCH "$TYPE
 	fi
 
-	SERIESINGER=`echo "$SERIESINGER" | sed "s/*//g" | sed 's/\\;/\;/g' | sed 's/\[//g;s/\]//g' | sed 's/∆/Delta/g' | sed 's/[△\:\/☆★+×†↑½♪＊*∞♥❤♡⇄♬]/ /g' | sed 'y/·・ΛЯ³²°θØ○×Φ±∀/..AR32000OXO+A/' | sed "s/µ's/Mu's/g" | sed 's/®/(R)/g' | sed 's/…/.../g'`
+	SERIESINGER=`echo "$SERIESINGER" | sed "s/*//g" | sed 's/\\;/\;/g' | sed 's/\[//g;s/\]//g' | sed 's/\+/ Plus /g' | sed 's/♭/Flat/g' | sed 's/\?/ question_mark /g' | sed 's/∆/Delta/g' | sed 's/[△\:\/☆★+×†↑½♪＊*∞♥❤♡⇄♬]/ /g' | sed 'y/·・ΛЯ³²°θØ○×Φ±∀/..AR32000OXO+A/' | sed "s/µ's/Mu's/g" | sed 's/®/(R)/g' | sed 's/…/.../g'`
 	echo $SERIESINGER
 	SERIESINGER=`echo "$SERIESINGER" | iconv -c -f utf8 -t ascii//TRANSLIT`
 
-	TITLE=`echo "$TITLE" | sed "s/*//g" | sed 's/∆/Delta/g' | sed 's/\\;/\;/g' | sed 's/\[//g;s/\]//g' | sed 's/[△\:\/☆★+×†↑½♪＊*∞♥❤♡⇄♬]/ /g' | sed 'y/·・ΛЯ³²°θØ○×Φ±∀/..AR32000OXO+A/' | sed "s/µ's/Mu's/g" | sed 's/®/(R)/g' | sed 's/…/.../g'`
+	TITLE=`echo "$TITLE" | sed "s/*//g" | sed 's/\+/ Plus /g' | sed 's/♭/Flat/g' | sed 's/\?/ question_mark /g' | sed 's/∆/Delta/g' | sed 's/\\;/\;/g' | sed 's/\[//g;s/\]//g' | sed 's/[△\:\/☆★+×†↑½♪＊*∞♥❤♡⇄♬]/ /g' | sed 'y/·・ΛЯ³²°θØ○×Φ±∀/..AR32000OXO+A/' | sed "s/µ's/Mu's/g" | sed 's/®/(R)/g' | sed 's/…/.../g'`
 	TITLE=`echo "$TITLE" | iconv -c -f utf-8 -t ascii//TRANSLIT`
 
 	TYPE=$TYPE$ORDER
