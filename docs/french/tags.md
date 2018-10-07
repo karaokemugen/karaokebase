@@ -4,7 +4,6 @@
 
 - `TAG_SPECIAL` : Spécial (version alternative de la vidéo)
 - `TAG_REMIX` : Remix (version alternative des paroles, parodique le plus souvent)
-- `TAG_VOICELESS` : Karaoké sans voix (si si)
 - `TAG_PARODY` : Parodie
 - `TAG_HUMOR` : Humour
 - `TAG_R18` : Pour adultes (on sait que vous allez les rechercher tout de suite)

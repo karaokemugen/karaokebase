@@ -27,7 +27,6 @@ Liste des tags pour vous aider à choisir: (merci de supprimer ces lignes pour e
 
 * "TAG_SPECIAL": "Special",
 * "TAG_REMIX": "Remix",
-* "TAG_VOICELESS": "Pas de paroles",
 * "TAG_PARODY": "Parodie",
 * "TAG_HUMOR": "Humour",
 * "TAG_R18": "R18",
