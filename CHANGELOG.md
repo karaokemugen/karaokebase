@@ -707,7 +707,7 @@ New videos are usually creditless or higher quality versions.
 - JAP - Aquarian Age - ED2 - Prism
 - JAP - Aquarian Age - OP1 - Everlasting Love
 - JAP - Card Captor Sakura - OP3 - Platina
-- JAP - Clannad - GAME OP - Megumeru.avi
+- JAP - Clannad - GAME OP - Megumeru
 - JAP - Crash Bandicoot 2 - GAME OP - CRASH BANDIKYUSU
 - JAP - Dancing Blade Katte ni Momotenshi - GAME OP
 - JAP - Eromanga-sensei - ED - Adrenaline
