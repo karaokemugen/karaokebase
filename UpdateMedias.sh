@@ -10,7 +10,7 @@ echo
 echo Enter password to update Karaoke Mugen videos
 echo The password is not displayed, that is normal.
 echo the passowrd is : musubi
-echo WARNING : You need at least 200 Gb of free space to download this.
+echo WARNING : You will need around 205 Gb of free space to download this entirely.
 echo IMPORTANT : A dry run will be launched first. Make sure it is okay before continuing.
 echo If you see ALL your media files are going to be deleted, CTRL+C to abort
 echo If it is all right, hit enter to continue.
