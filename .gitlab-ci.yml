@@ -7,8 +7,8 @@ stages:
 cache:
   key: base
   paths:
-  - node_modules/
-  - react_client/node_modules/
+  - karaokemugen-app/node_modules/
+  - karaokemugen-app/react_client/node_modules/
 
 test:
   stage: test
@@ -40,6 +40,7 @@ export:
     - php -f tools/export_karaokesmoe.php db/karas.sqlite3 >names.php
     - lftp -c "set ftp:ssl-allow no; set ftp:charset "UTF-8" ; set file:charset utf-8; open -u $USERNAME,$PASSWORD $HOST; cd live; put names.php ; lcd lyrics ; cd subtitles ; mirror -Rnev --parallel=10"
     - ls -la db/karas.sqlite3
+    - ls karas/* | wc -l
     - bash tools/export_karas.sh db/karas.sqlite3 >karas.json
     - bash tools/export_series.sh db/karas.sqlite3 >series_karas.json
     - bash tools/stats.sh db/karas.sqlite3 >stats.json
