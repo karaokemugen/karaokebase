@@ -24,6 +24,7 @@ test:
     - echo "BinPlayerLinux=mpv" >>config.ini
     - echo "PathDB=../db" >>config.ini
     - npm start -- --debug --generate --strict
+    - cd ..
     - bash tools/stats.sh db/karas.sqlite3 >stats.json
     - cat stats.json
   only:
