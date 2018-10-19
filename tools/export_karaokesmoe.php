@@ -153,7 +153,7 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 
 	//init if series not yet added
 	if(!isset($last_pass[$serie_singer])) {
-		$last_pass[$serie_singer]=[];
+		$last_pass[$serie_singer] = [];
 	}
 
 	foreach ($kara_serie_singer as $type => $list_kara) {
@@ -179,18 +179,21 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 					'song' => [
 						'title' => $kara['title'],
 					],
-					'subtitles' => 'unknown',
+					'subtitles' => '(unknown)',
 				];
 
 				if(!empty($kara['author'])) {
-					$kara_data['subtitles']=str_replace(',',', ',$kara['author']);
+					$kara_data['subtitles'] = str_replace(',',', ',$kara['author']);
 				}
 			}
 			if(!empty($kara['singer'] || $kara['singer'] != 'NO_TAG')) {
 				$kara_data['song']['artist'] = str_replace(',',', ',$kara['singer']);
 			}
 			if ($kara['singer'] == 'NO_TAG') {
-				$kara['singer'] = 'Unknown';
+				$kara['singer'] = '(unknown)';
+			}
+			if ($kara['author'] == 'NO_TAG') {
+				$kara['author'] = '(unknown)';
 			}
 
 			$last_pass[$serie_singer][$type_with_num]=$kara_data;
