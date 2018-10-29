@@ -1,3 +1,253 @@
+# October 2018
+
+MVP this month are @Aeden and @Nock. Aeden replaced another big batch of videos and @Nock integrated karaokes from KuroSensei.
+
+Contributors :
+
+- @Aeden
+- @Nock
+- @Kurosensei
+- @Kroakroa
+- @Lua
+- @Rinchama
+- @Kramoule
+
+## Added
+
+- ENG - Bloodivores - ED - quiet squall
+- ENG - Bubuki Buranki - ED - ANGERANGER
+- ENG - Kidou Senshi Gundam UC RE 0096 - OP1 - Into the Sky
+- ENG - Neon Genesis Evangelion - MV - Thanatos -If I Can't Be Yours-
+- ENG - Neon Genesis Evangelion - AMV - Bohemian Rhapsody
+- FRE - Arrietty, le petit monde des chapardeurs - LIVE - Arrietty's song
+- FRE - Coco - IN - Corazon
+- FRE - Pokémon le film 19 : Volcanion et la merveille mécanique - OP - Je suis fier
+- LAT - Noir - MV - Salva Nos
+- JPN - 12-Sai. Chicchana Mune no Tokimekii - ED1 - Cotona MODE
+- JPN - 12-Sai. Chicchana Mune no Tokimekii - ED2 - Yuuki no Tsubasa
+- JPN - 12-Sai. Chicchana Mune no Tokimekii - OP2 - Ano ne, Kimi Dake ni
+- JPN - 3-gatsu no Lion - ED2 - Orion
+- JPN - Active Raid Kidou Kyoushuushitsu Dai Hachi Gakari 2nd - ED - Field Trip!!
+- JPN - Active Raid Kidou Kyoushuushitsu Dai Hachi Gakari 2nd - OP - Cerulean Squash
+- JPN - Aikatsu Stars! - ED1 - episode Solo
+- JPN - Aikatsu Stars! - OP1 - Start Line!
+- JPN - Akagami no Shirayuki-hime - ED2 - Page Kimi to Tsuzuru Monogatari
+- JPN - Amaama to Inazuma - ED - Maybe
+- JPN - Amaama to Inazuma - OP - Harebare Fanfare
+- JPN - Ange Vierge - ED - Link with U
+- JPN - Ange Vierge - OP - Love is MY RAIL
+- JPN - Ansatsu Kyoushitsu - ED3 - Kaketa Tsuki
+- JPN - Ansatsu Kyoushitsu - ED4 - Mata Kimi ni Aeru Hi
+- JPN - Ao Oni The Animation - ED - Kimi Koso Aooni
+- JPN - Arrietty, le petit monde des chapardeurs - LIVE - Arrietty's song
+- JPN - Arslan Senki Fuujin Ranbu - ED - blaze
+- JPN - Bakuon!! - ED - Voon! Voon! Ride On!
+- JPN - Bananya - ED - Lucky Holiday
+- JPN - Battery - ED1 - Ashita, Haru ga Kitara
+- JPN - Battery - OP - Itsuka no Jibun
+- JPN - Battle Spirits Double Drive - ED - FRIEND WIND
+- JPN - Battle Spirits Double Drive - OP - FRONTIER DRIVE
+- JPN - Bishoujo Senshi Sailor Moon Crystal Season III - ED1 - eternal eternity
+- JPN - Bishoujo Senshi Sailor Moon Crystal Season III - OP1 - New Moon ni Koi Shite ~ Etsuko Yakushimaru vers.
+- JPN - Bishoujo Senshi Sailor Moon Crystal Season III - OP3 - New Moon ni Koi Shite ~ Momoiro Clover Z vers.
+- JPN - Bloodivores - OP1 - Yogakyoumei -NENTEN-
+- JPN - Bonobono (2016) - ED - Bonobono Suru
+- JPN - Bubblegum Crisis - MV - Kon'ya wa Hurricane
+- JPN - Cardfight!! Vanguard G Stride Gate Hen - ED1 - High Touch Memory
+- JPN - Cardfight!! Vanguard G Stride Gate Hen - OP - SHOUT!
+- JPN - Chain Chronicle Haecceitas no Hikari - ED - True Destiny
+- JPN - Chain Chronicle Haecceitas no Hikari - OP - MY LIBERATION
+- JPN - Cheer Danshi!! - ED - LIMIT BREAKERS
+- JPN - Cheer Danshi!! - OP - Hajime no Ippo
+- JPN - Chuunibyou Demo KOI ga Shitai! Lite - OP - Kimi e (#582)
+- JPN - D.Gray-man Hallow - ED - Lotus Pain
+- JPN - D.Gray-man Hallow - OP - Key -bring it on, my Destiny-
+- JPN - Danganronpa 3 The End of Kibougamine Gakuen - Mirai Hen - ED - Recall THE END
+- JPN - Danganronpa 3 The End of Kibougamine Gakuen - Zetsubou Hen - ED - Zettai Kibou Birthday
+- JPN - Days - ED1 - EVERLASTING DAYS
+- JPN - Days - OP - Wake We Up
+- JPN - Evangelion: Death & Rebirth - MV - Tamashii no Refrain
+- JPN - Fairy Tail - ED4 - Kimi ga Iru kara
+- JPN - Fairy Tail - ED6 - Be As One
+- JPN - Fairy Tail - ED8 - Don't think. Feel!!!
+- JPN - Fairy Tail - ED14 - We're the Stars
+- JPN - Fairy Tail - ED15 - Kimi to Kare to Boku to Kanojo to
+- JPN - Fairy Tail - ED16 - Kokoro no Kagi
+- JPN - Fairy Tail - ED17 - Kimi no Mirai
+- JPN - Fairy Tail - ED19 - Never ever
+- JPN - Fairy Tail - ED20 - FOREVER HERE
+- JPN - Fairy Tail - ED21 - Azayaka na Tabiji
+- JPN - Fairy Tail - ED22 - Landscape
+- JPN - Fairy Tail - OP12 - Tenohira
+- JPN - Fairy Tail - OP14 - Fairy Tail Yakusoku no Hi
+- JPN - Fairy Tail - OP18 - BREAK OUT
+- JPN - Fate kaleid liner Prisma Illya 3rei!! - ED - WHIMSICAL WAYWARD WISH
+- JPN - Fate kaleid liner Prisma Illya 3rei!! - OP - Asterism
+- JPN - Fate stay night Unlimited Blade Works (2014) - ED1 - believe
+- JPN - Fate stay night Unlimited Blade Works (2015) - ED1 - ring your bell
+- JPN - Flying Witch - ED - Nichijou no Mahou
+- JPN - Frame Arms Girl - ED - Fullscratch Love
+- JPN - Fukigen na Mononokean - ED - Tobira no Mukou
+- JPN - Fukigen na Mononokean - OP - Tomodachi Meter
+- JPN - Fune wo Amu - ED - I&I
+- JPN - Garo: Kami no Kiba - OP - Kami no kiba ~The Fang of Apocalypse~
+- JPN - Girlish Number - ED - Ima wa Mijikashi Yumemi yo Otome
+- JPN - Girlish Number - OP2 - Bloom
+- JPN - GJ-bu@ - IN - Hashiridasou!
+- JPN - Gakusen Toshi Asterisk 2nd season - ED - Ai no Uta Words of Love
+- JAP - GATE Jieitai Kanochi nite Kaku Tatakaeri - ED2 - Itsudatte Communication
+- JPN - Gochuumon wa Usagi Desu ka? - ED2 - Nichijou Decoration
+- JPN - Gochuumon wa Usagi Desu ka?? - ED2 - Nantonaku Mirai
+- JPN - Great Teacher Onizuka - ED1 - Last Piece
+- JPN - Handa-kun - ED - HIDE-AND-SEEK
+- JPN - Handa-kun - OP - The LiBERTY
+- JPN - Hanebado! - ED - High Stepper
+- JPN - Hatsukoi Monster - ED - Kimi ni Sasageru Chinkonka
+- JPN - Hibike! Euphonium 2 - OP - Soundscape
+- JPN - High Score Girl - OP - New Stranger
+- JPN - Hitori no Shita The Outcast - ED - In the Dawn
+- JPN - Hitori no Shita The Outcast - OP - Arcadia
+- JPN - Hundred - ED1 - EYES ON ME
+- JPN - Hundred - ED2 - TABOOLESS
+- JPN - Hundred - ED3 - Hardy Buddy
+- JPN - Hundred - ED4 - Jewels Of Love
+- JPN - Hundred - OP - BLOODRED
+- JPN - Idol Memories - ED - Sora Kanata
+- JPN - Idol Memories - OP - Mainichi ga Good Day!
+- JAP - Island - ED2 - Marine SNOW
+- JAP - Island - OP2 - Closing tears
+- JPN - Joker Game - ED - DOUBLE
+- JPN - Kabaneri of the Iron Fortress ~Ran~ Hajimaru Kiseki - GAME OP - S_TEAM
+- JPN - Kakuriyo no Yadomeshi - OP2 - Utsushiyo no Yume
+- JPN - Kamen Rider ZiO - Over Quartzer - Shuta Sueyoshi
+- JPN - Kanojo to Kanojo no Neko Everything Flows - ED - Sonata
+- JPN - Kidou Senshi Gundam UC RE 0096 - ED1 - Next 2 U -eUC-
+- JPN - Kiznaiver - ED - Hajimari no Sokudo
+- JAP - Koukaku no Pandora - OP - Hopeness
+- JPN - Kumamiko Girl Meets Bear - OP - Datte, Gyutte Shite.
+- JPN - Love Live! Sunshine!! - ED1 - Kimeta yo Hand in Hand
+- JPN - Love Live! Sunshine!! - ED2 - Yume Kataru yori Yume Utaou ~ Aqours Vers
+- JAP - Luck & Logic - ED - Meiyaku no Kanata
+- JPN - Masou Gakuen HxH - ED - Tch
+- JPN - Masou Gakuen HxH - OP - miele paradiso
+- JPN - Mayoiga - ED - Ketsuro
+- JPN - Mob Psycho 100 - ED - Refrain Boy
+- JPN - Monster Hunter Stories Ride On - OP - Panorama
+- JPN - Motto To Love-Ru Trouble - ED - Baby Baby Love
+- JAP - Musaigen no Phantom World - ED - Junshin Always
+- JPN - Nanatsu no Taizai Seisen no Shirushi - ED - Iro Asenai Hitomi
+- JPN - Nanatsu no Taizai Seisen no Shirushi - OP -  CLASSIC
+- JPN - Natsuyuki Rendezvous - ED - Anata ni Deawanakereba Natsuyuki Fuyuhana
+- JPN - Natsuyuki Rendezvous - OP - SEE YOU
+- JPN - Nazotokine - ED - destiny
+- JPN - Nazotokine - OP - Dimension sky
+- JPN - Nejimaki Seirei Senki Tenkyou no Alderamin - ED - nameless
+- JPN - Netoge no Yome wa Onnanoko ja Nai to Omotta? - ED - Zero Ichi Kiseki
+- JPN - Netoge no Yome wa Onnanoko ja Nai to Omotta? - OP - 1st Love Story
+- JPN - Noir - MV - Himitsu
+- JPN - Noir - MV - Aka to Kuro
+- JPN - NORN9 Norn+Nornet - ED - Zero Tokei
+- JPN - Okusama ga Seitokaichou! Plus ! - ED1 - Koi ni Matsuwaru et Cetera Saijou Honoka no Baai
+- JPN - Okusama ga Seitokaichou! Plus ! - OP - Kirakira Explorer
+- JPN - Orange - ED - Mirai
+- JPN - Orange - OP - Hikari no Hahen
+- JAP - Prince of Stride Alternative - ED - Be My Steady
+- JPN - Princess Tutu - ED - Watashi no Ai wa Chiisai Keredo
+- JPN - Qualidea Code - ED1 - Gravity
+- JPN - Qualidea Code - ED2 - Yakusoku -Promise code-
+- JPN - Qualidea Code - ED3 - clever
+- JPN - Qualidea Code - OP1 - Brave Freak Out
+- JPN - Qualidea Code - OP2 - AxxxiS
+- JPN - Reikenzan Hoshikuzu-tachi no Utage - ED - Kizuna
+- JPN - Reikenzan Hoshikuzu-tachi no Utage - OP - Fast End
+- JPN - Rakudai Kishi no Cavalry - ED - Haramitsu Koika
+- JPN - Regalia The Three Sacred Stars - ED - Patria
+- JPN - Regalia The Three Sacred Stars - OP - Divine Spell
+- JPN - ReLife - ED1 - Easy Rider
+- JPN - ReLife - ED2 - HOT LIMIT
+- JPN - ReLife - ED3 - Timing
+- JPN - ReLife - ED4 - HONEY
+- JPN - ReLife - ED5 - Kore ga Watashi no Ikiru Michi
+- JPN - ReLife - ED6 - Sunny Day Sunday
+- JPN - ReLife - ED8 - Yuki no Hana
+- JPN - ReLife - ED9 - There will be love there
+- JPN - ReLife - ED10 - Asu e no Tobira
+- JPN - ReLife - ED11 - PIECES OF A DREAM
+- JPN - ReLife - ED12 - Natsumatsuri
+- JPN - ReLife - OP - Button
+- JPN - Rewrite - ED1 - Sasayaka na Hajimari
+- JPN - Rewrite - ED4 - Word of Dawn
+- JPN - Rewrite - OP2 - End of the World
+- JPN - Rokka no Yuusha - ED2 - Dance in the Fake
+- JPN - Rokka no Yuusha - ED3 - Nameless Heart
+- JPN - Romeo x Juliet - ED1 - Cyclone
+- JPN - Romeo x Juliet - ED2 - Good bye, yesterday
+- JPN - Saenai Heroine no Sodatekata - IN - Blooming Lily
+- JPN - Saenai Heroine no Sodatekata - IN - Cherish you
+- JAP - Saijaku Muhai no Bahamut - ED - Lime Tree
+- JAP - Satsuriku no Tenshi - ED - Pray
+- JAP - Satsuriku no Tenshi - OP - Vital
+- JPN - Schwarzesmarken - ED - Kanashimi ga Jidai o Kakeru
+- JPN - Servamp - ED - sunlight avenue
+- JPN - Servamp - OP - Deal with
+- JPN - Shigatsu wa Kimi no Uso - AMV - Kawaranai Mono
+- JPN - Shin Kenjushi France Five - OP3 - Shin Kenjushi France Five
+- JPN - Shin'ya! Tensai Bakabon - ED - Kaze wa Fuite Iru
+- JPN - Shokugeki no Souma - ED2 - Sacchan no Sexy Curry
+- JPN - Shokugeki no Souma Ni no Sara - ED - Snow Drop
+- JPN - Shokugeki no Souma Ni no Sara - OP - ROUGH DIAMONDS
+- JPN - Show by Rock!! Short!! - ED - Do Re Mi Fa PARTY
+- JPN - Show By Rock!! 2 - ED - My Song is YOU!!
+- JPN - Shuumatsu no Izetta - ED - Hikari Aru Basho e
+- JPN - Sirius the Jaeger - ED - Hoshie
+- JPN - Sirius the Jaeger - OP - Sirius
+- JPN - Sousei no Onmyouji - ED1 - Eyes
+- JPN - Sousei no Onmyouji - ED2 - Yadori Hoshi
+- JPN - Sousei no Onmyouji - ED3 - Hide&Seek
+- JPN - Sousei no Onmyouji - ED4 - Keika
+- JPN - Sousei no Onmyouji - OP3 - sync
+- JPN - Sousei no Onmyouji - OP4 - Kana Deai
+- JPN - Sunohara-sou no Kanrinin-san - ED - Sona no Boku Janai
+- JPN - Sunohara-sou no Kanrinin-san - OP - Bitter Sweet Harmony
+- JPN - Super Lovers - ED5 - Happiness YOU&ME
+- JPN - Super Lovers 2 - ED4 - Gyun to Love Song
+- JPN - Super Lovers 2 - OP - Hare-iro Melody
+- JPN - Taboo Tattoo - ED - EGOISTIC EMOTION
+- JPN - Taboo Tattoo - OP - Belief
+- JPN - Tales of Zestiria the X - ED1 - calling
+- JPN - Tales of Zestiria the X - ED2 - BURN
+- JPN - Terra Formars Revenge - ED1 - Red Zone
+- JPN - Terra Formars Revenge - ED2 - Strength
+- JPN - Terra Formars Revenge - ED3 - Revolution
+- JPN - Terra Formars Revenge - OP2 - PLANET THE HELL
+- JPN - Trickster Edogawa Ranpo Shounen Tanteidan yori - ED1 - 1HOPE SNIPER
+- JPN - Trickster Edogawa Ranpo Shounen Tanteidan yori - OP1 - Kimi Dake no Boku de Iru kara
+- JPN - To LOVE-Ru Trouble OVA - ED1 - Apple Panic!?
+- JPN - Udon no Kuni no Kin'iro Kemari - ED - Sweet Darwin
+- JPN - Udon no Kuni no Kin'iro Kemari - OP - S.O.S
+- JPN - Uma Musume Pretty Derby - OP - Make Debut!
+- JPN - Ushio to Tora - ED3 - Kessen Zen'ya
+- JPN - Ushio to Tora - OP2 - Shuugawari no Kiseki no Shinwa
+- JPN - ViVid Strike! - ED - Starry Wish
+- JPN - ViVid Strike! - OP - Future Strike
+- JPN - Wagamama High Spec - ED - High Spec Days
+- JPN - Watashi ga Motete Dou Sunda - ED - Doki Doki no Kaze
+- JPN - Watashi ga Motete Dou Sunda - OP - PrincexPrince
+- JPN - WWW.WORKING!! - ED - Mujuuryoku Fever
+- JPN - WWW.WORKING!! - OP - Eyecatch! Too much!
+- JPN - Yama no Susume Third Season - ED - Irochigai no Tsubasa
+- JPN - Yoake Tsugeru Lu no Uta - IN - Uta Utai no Ballad
+- JPN - Yuragi-sou no Yuuna-san - ED - Happen Kogarashi ni Fukarete
+- JPN - Yuragi-sou no Yuuna-san - OP - Momoiro Typhoon
+- JPN - Yuri!!! On Ice - ED - You Only Live Once
+- UND - Splatoon - IN - Bomb Rush Blush
+- UND - Splatoon - LIVE - Bomb Rush Blush (Japan Expo 2016)
+- ZXX - Astro Boy (2003) - OP - Astro Boy Opening Theme (Occidental Vers.)
+
+## Fixes
+
+Between sub fixes and new videos, they are too many to report.
+
 # September 2018
 
 MVP this month is @Aeden. He replaced a whole lot of videos with better quality ones.
