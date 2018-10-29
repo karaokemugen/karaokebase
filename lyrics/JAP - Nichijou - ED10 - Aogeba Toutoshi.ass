@@ -18,21 +18,22 @@ Video File: JAP - Nichijou - ED10 - Aogeba Toutoshi.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.875000
-Active Line: 1
+Active Line: 4
 Video Position: 463
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: KM-furigana,Arial,12,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,8,15,15,20,1
+Style: KM,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:19.29,0:00:35.22,Default,,0,0,0,karaoke,{\k69}a{\k139}o{\k71}ge{\k78}ba{\k61} {\k71}to{\k136}u{\k75}to{\k64}shi{\k71} {\k68}wa{\k141}ga {\k72}shi {\k81}no{\k56} {\k72}o{\k210}n
-Comment: 0,0:00:35.93,0:00:50.67,Default,,0,0,0,karaoke,{\k73}o{\k140}shi{\k69}e {\k71}no {\k66}{\k72}ni{\k143}wa {\k63}ni {\k64}mo{\k77} {\k73}ha{\k73}ya{\k64} {\k70}i{\k138}ku{\k72}to{\k139}se
-Comment: 0,0:00:52.74,0:01:08.39,Default,,0,0,0,karaoke,{\k70}o{\k144}mo{\k69}e{\k70}ba{\k68} {\k66}i{\k141}to{\k70}to{\k55}shi{\k81} {\k70}ko{\k137}no {\k76}to{\k141}shi{\k67}tsu{\k209}ki
-Comment: 0,0:01:09.50,0:01:27.54,Default,,0,0,0,karaoke,{\k69}i{\k138}ma{\k69}ko{\k63}so{\k80} {\k66}wa{\k142}ka{\k72}re{\k216}me{\k132} {\k66}i{\k84}za{\k58}{\k65}sa{\k212}ra{\k268}ba
-Dialogue: 0,0:00:18.39,0:00:35.42,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k69}a{\k139}o{\k71}ge{\k78}ba{\k61} {\k71}to{\k136}u{\k75}to{\k64}shi{\k71} {\k68}wa{\k141}ga {\k72}shi {\k81}no{\k56} {\k72}o{\k210}n
-Dialogue: 0,0:00:35.03,0:00:50.87,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k73}o{\k140}shi{\k69}e {\k71}no {\k66}{\k72}ni{\k143}wa {\k63}ni {\k64}mo{\k77} {\k73}ha{\k73}ya{\k64} {\k70}i{\k138}ku{\k72}to{\k139}se
-Dialogue: 0,0:00:51.84,0:01:08.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k70}o{\k144}mo{\k69}e{\k70}ba{\k68} {\k66}i{\k141}to{\k70}to{\k55}shi{\k81} {\k70}ko{\k137}no {\k76}to{\k141}shi{\k67}tsu{\k209}ki
-Dialogue: 0,0:01:08.60,0:01:27.74,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k69}i{\k138}ma{\k69}ko{\k63}so{\k80} {\k66}wa{\k142}ka{\k72}re{\k216}me{\k132} {\k66}i{\k84}za{\k58}{\k65}sa{\k212}ra{\k268}ba
+Comment: 0,0:00:00.00,0:00:00.00,KM,,0,0,0,template pre-line all keeptags,!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}
+Comment: 0,0:00:19.29,0:00:35.22,KM,,0,0,0,karaoke,{\k69}a{\k139}o{\k71}ge{\k78}ba{\k61} {\k71}to{\k136}u{\k75}to{\k64}shi{\k71} {\k68}wa{\k141}ga {\k72}shi {\k81}no{\k56} {\k72}o{\k210}n
+Comment: 0,0:00:35.93,0:00:50.67,KM,,0,0,0,karaoke,{\k73}o{\k140}shi{\k69}e {\k71}no {\k66}{\k72}ni{\k143}wa {\k63}ni {\k64}mo{\k77} {\k73}ha{\k73}ya{\k64} {\k70}i{\k138}ku{\k72}to{\k139}se
+Comment: 0,0:00:52.74,0:01:08.39,KM,,0,0,0,karaoke,{\k70}o{\k144}mo{\k69}e{\k70}ba{\k68} {\k66}i{\k141}to{\k70}to{\k55}shi{\k81} {\k70}ko{\k137}no {\k76}to{\k141}shi{\k67}tsu{\k209}ki
+Comment: 0,0:01:09.50,0:01:27.54,KM,,0,0,0,karaoke,{\k69}i{\k138}ma{\k69}ko{\k63}so{\k80} {\k66}wa{\k142}ka{\k72}re{\k216}me{\k132} {\k66}i{\k84}za{\k58}{\k65}sa{\k212}ra{\k268}ba
+Dialogue: 0,0:00:18.29,0:00:35.32,KM,,0,0,0,fx,{\fade(255,0,255,0,850,16930,17030)\k90}{\k69}a{\k139}o{\k71}ge{\k78}ba{\k61} {\k71}to{\k136}u{\k75}to{\k64}shi{\k71} {\k68}wa{\k141}ga {\k72}shi {\k81}no{\k56} {\k72}o{\k210}n
+Dialogue: 0,0:00:34.93,0:00:50.77,KM,,0,0,0,fx,{\fade(255,0,255,0,850,15740,15840)\k90}{\k73}o{\k140}shi{\k69}e {\k71}no {\k66}{\k72}ni{\k143}wa {\k63}ni {\k64}mo{\k77} {\k73}ha{\k73}ya{\k64} {\k70}i{\k138}ku{\k72}to{\k139}se
+Dialogue: 0,0:00:51.74,0:01:08.49,KM,,0,0,0,fx,{\fade(255,0,255,0,850,16650,16750)\k90}{\k70}o{\k144}mo{\k69}e{\k70}ba{\k68} {\k66}i{\k141}to{\k70}to{\k55}shi{\k81} {\k70}ko{\k137}no {\k76}to{\k141}shi{\k67}tsu{\k209}ki
+Dialogue: 0,0:01:08.50,0:01:27.64,KM,,0,0,0,fx,{\fade(255,0,255,0,850,19040,19140)\k90}{\k69}i{\k138}ma{\k69}ko{\k63}so{\k80} {\k66}wa{\k142}ka{\k72}re{\k216}me{\k132} {\k66}i{\k84}za{\k58}{\k65}sa{\k212}ra{\k268}ba
