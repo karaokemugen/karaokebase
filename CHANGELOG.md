@@ -14,6 +14,8 @@ Contributors :
 
 ## Added
 
+228 new songs !
+
 - ENG - Bloodivores - ED - quiet squall
 - ENG - Bubuki Buranki - ED - ANGERANGER
 - ENG - Kidou Senshi Gundam UC RE 0096 - OP1 - Into the Sky
