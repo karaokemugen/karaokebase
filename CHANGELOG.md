@@ -7,7 +7,7 @@ Contributors :
 - @Aeden
 - @Nock
 - @Kurosensei
-- @Kroakroa
+- @Krow
 - @Lua
 - @Rinchama
 - @Kramoule
@@ -15,7 +15,7 @@ Contributors :
 
 ## Added
 
-231 new songs !
+232 new songs !
 
 - ENG - Bloodivores - ED - quiet squall
 - ENG - Bubuki Buranki - ED - ANGERANGER
@@ -25,6 +25,7 @@ Contributors :
 - FRE - Arrietty, le petit monde des chapardeurs - LIVE - Arrietty's song
 - FRE - Coco - IN - Corazon
 - FRE - Pokémon le film 19 : Volcanion et la merveille mécanique - OP - Je suis fier
+- ITA - Boku no Hero Academia - AMV - My Hero Academia
 - LAT - Noir - MV - Salva Nos
 - JPN - 12-Sai. Chicchana Mune no Tokimekii - ED1 - Cotona MODE
 - JPN - 12-Sai. Chicchana Mune no Tokimekii - ED2 - Yuuki no Tsubasa
