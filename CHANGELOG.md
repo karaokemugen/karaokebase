@@ -11,10 +11,11 @@ Contributors :
 - @Lua
 - @Rinchama
 - @Kramoule
+- @AxelTerizaki
 
 ## Added
 
-228 new songs !
+231 new songs !
 
 - ENG - Bloodivores - ED - quiet squall
 - ENG - Bubuki Buranki - ED - ANGERANGER
@@ -66,6 +67,7 @@ Contributors :
 - JPN - D.Gray-man Hallow - OP - Key -bring it on, my Destiny-
 - JPN - Danganronpa 3 The End of Kibougamine Gakuen - Mirai Hen - ED - Recall THE END
 - JPN - Danganronpa 3 The End of Kibougamine Gakuen - Zetsubou Hen - ED - Zettai Kibou Birthday
+- JPN - Darling in the FRANXX - ED5 - Escape
 - JPN - Days - ED1 - EVERLASTING DAYS
 - JPN - Days - OP - Wake We Up
 - JPN - Evangelion: Death & Rebirth - MV - Tamashii no Refrain
@@ -125,18 +127,20 @@ Contributors :
 - JPN - Kanojo to Kanojo no Neko Everything Flows - ED - Sonata
 - JPN - Kidou Senshi Gundam UC RE 0096 - ED1 - Next 2 U -eUC-
 - JPN - Kiznaiver - ED - Hajimari no Sokudo
-- JAP - Koukaku no Pandora - OP - Hopeness
+- JPN - Koukaku no Pandora - OP - Hopeness
 - JPN - Kumamiko Girl Meets Bear - OP - Datte, Gyutte Shite.
 - JPN - Love Live! Sunshine!! - ED1 - Kimeta yo Hand in Hand
 - JPN - Love Live! Sunshine!! - ED2 - Yume Kataru yori Yume Utaou ~ Aqours Vers
-- JAP - Luck & Logic - ED - Meiyaku no Kanata
+- JPN - Luck & Logic - ED - Meiyaku no Kanata
+- JAP - Macross Delta - LIVE - Ikenai Borderline
 - JPN - Masou Gakuen HxH - ED - Tch
 - JPN - Masou Gakuen HxH - OP - miele paradiso
 - JPN - Mayoiga - ED - Ketsuro
+- JPN - Megalo Box - ED1 - Kakatte Koi yo
 - JPN - Mob Psycho 100 - ED - Refrain Boy
 - JPN - Monster Hunter Stories Ride On - OP - Panorama
 - JPN - Motto To Love-Ru Trouble - ED - Baby Baby Love
-- JAP - Musaigen no Phantom World - ED - Junshin Always
+- JPN - Musaigen no Phantom World - ED - Junshin Always
 - JPN - Nanatsu no Taizai Seisen no Shirushi - ED - Iro Asenai Hitomi
 - JPN - Nanatsu no Taizai Seisen no Shirushi - OP -  CLASSIC
 - JPN - Natsuyuki Rendezvous - ED - Anata ni Deawanakereba Natsuyuki Fuyuhana
