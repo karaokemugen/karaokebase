@@ -20,7 +20,7 @@ try{
 }
 
 $query= '
-SELECT k.pk_id_kara AS kara_id, k.title, k.duration, k.year, k.mediafile, k.subfile, k.songorder
+SELECT k.pk_id_kara AS kara_id, k.title, k.duration, k.year, k.mediafile, k.subfile, k.songorder, k.kid
 ,(select GROUP_CONCAT( s.name)
     FROM kara_serie ks
     INNER JOIN serie s ON ks.fk_id_serie = s.pk_id_serie
@@ -170,6 +170,7 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 					'song' => [
 						'title' => $kara['title'],
 					],
+					'uid' => $kara['kid'],
 				];
 			}
 			else {
@@ -180,6 +181,7 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 						'title' => $kara['title'],
 					],
 					'subtitles' => '(unknown)',
+					'uid' => $kara['kid'],
 				];
 
 				if(!empty($kara['author'])) {
