@@ -10,7 +10,7 @@ There's a tutorial describing how to make one here :
 
 ## I already have some karaoke files, I would like to add them to this database
 
-If your files are ready, you can do add them in different ways.
+If your files are ready, you can add them in different ways.
 
 ### I just want to send my files and let you handle the rest
 
@@ -59,18 +59,17 @@ Again, [come to the Discord server l'Eden de la Nanami](https://discord.gg/a8dMY
 
 And go to the #karaoke channel!
 
-
 # French version
 
 ## Comment créer un karaoké ?
 
 Nous avons écrit un document à ce sujet que vous trouverez ici :
 
-[Tutorial de karaoké](docs/french/README.md)
+[Tutorial de karaoké](http://mugen.karaokes.moe/docs/fr/contrib-guide/create/)
 
 ## J'ai déjà des karaokés, comment vous les envoyer ?
 
-[Consultez la section sur l'envoi de karaokés](docs/french/upload.md) de la documentation.
+[Consultez la section sur l'envoi de karaokés](http://mugen.karaokes.moe/docs/fr/contrib-guide/upload/) de la documentation.
 
 ## Je veux aider à maintenir la base des karaokés !
 
