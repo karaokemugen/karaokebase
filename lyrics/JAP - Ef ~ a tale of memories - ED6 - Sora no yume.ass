@@ -5,20 +5,31 @@ Title: karaoke
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
+PlayResX: 0
+PlayResY: 0
 
 [Aegisub Project Garbage]
-Active Line: 3
+Active Line: 5
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: KM-furigana,Arial,12,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,8,15,15,20,1
+Style: KM,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:00:28.03,0:00:39.97,Default,,0,0,0,,{\k100}{\k33}a{\k47}ka{\k177}i {\k50}a{\k50}me {\k167}ni {\k33}{\k43}mi{\k50}chi{\k140}bi{\k150}ka{\k153}re
-Dialogue: 1,0:00:39.14,0:00:51.22,Default,,0,0,0,,{\k100}{\k57}ta{\k53}bi {\k200}no {\k47}tsu{\k47}zu{\k83}ki {\k113}wo {\k20}{\k27}e{\k43}ga{\k123}ku {\k23}{\k133}ta{\k137}me
-Dialogue: 1,0:00:50.99,0:00:57.22,Default,,0,0,0,,{\k100}{\k40}to{\k43}do{\k177}ke {\k57}{\k17}ha{\k23}te {\k20}ma{\k147}de
-Dialogue: 1,0:00:56.79,0:01:02.93,Default,,0,0,0,,{\k100}{\k33}do{\k47}u {\k153}ka {\k77}{\k20}ka{\k17}na{\k23}ta {\k143}he
-Dialogue: 1,0:01:02.50,0:01:08.80,Default,,0,0,0,,{\k100}{\k37}te {\k43}to {\k167}te {\k73}{\k17}ka{\k20}sa{\k17}ne{\k157}te
-Dialogue: 1,0:01:08.20,0:01:14.44,Default,,0,0,0,,{\k100}{\k40}su{\k50}su{\k140}mu {\k90}{\k20}a{\k20}shi{\k20}ta {\k143}he
-Dialogue: 1,0:01:13.98,0:01:22.32,Default,,0,0,0,,{\k100}{\k47}zu{\k43}t{\k137}to {\k93}{\k27}fu{\k20}ta{\k23}ri {\k344}de
+Comment: 0,0:00:01.00,0:00:00.00,KM,,0,0,0,template pre-line all keeptags,!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}
+Comment: 1,0:00:29.03,0:00:39.97,KM,,0,0,0,karaoke,{\k33}a{\k47}ka{\k177}i {\k50}a{\k50}me {\k167}ni {\k33}{\k43}mi{\k50}chi{\k140}bi{\k150}ka{\k153}re
+Comment: 1,0:00:40.14,0:00:51.22,KM,,0,0,0,karaoke,{\k57}ta{\k53}bi {\k200}no {\k47}tsu{\k47}zu{\k83}ki {\k113}wo {\k20}{\k27}e{\k43}ga{\k123}ku {\k23}{\k133}ta{\k137}me
+Comment: 1,0:00:51.99,0:00:57.22,KM,,0,0,0,karaoke,{\k40}to{\k43}do{\k177}ke {\k57}{\k17}ha{\k23}te {\k20}ma{\k147}de
+Comment: 1,0:00:57.79,0:01:02.93,KM,,0,0,0,karaoke,{\k33}do{\k47}u {\k153}ka {\k77}{\k20}ka{\k17}na{\k23}ta {\k143}he
+Comment: 1,0:01:03.50,0:01:08.80,KM,,0,0,0,karaoke,{\k37}te {\k43}to {\k167}te {\k73}{\k17}ka{\k20}sa{\k17}ne{\k157}te
+Comment: 1,0:01:09.20,0:01:14.44,KM,,0,0,0,karaoke,{\k40}su{\k50}su{\k140}mu {\k90}{\k20}a{\k20}shi{\k20}ta {\k143}he
+Comment: 1,0:01:14.98,0:01:22.32,KM,,0,0,0,karaoke,{\k47}zu{\k43}t{\k137}to {\k93}{\k27}fu{\k20}ta{\k23}ri {\k344}de
+Dialogue: 0,0:00:28.03,0:00:40.07,KM,,0,0,0,fx,{\fade(255,0,255,0,850,11940,12040)\k90}{\k33}a{\k47}ka{\k177}i {\k50}a{\k50}me {\k167}ni {\k33}{\k43}mi{\k50}chi{\k140}bi{\k150}ka{\k153}re
+Dialogue: 0,0:00:39.14,0:00:51.32,KM,,0,0,0,fx,{\fade(255,0,255,0,850,12080,12180)\k90}{\k57}ta{\k53}bi {\k200}no {\k47}tsu{\k47}zu{\k83}ki {\k113}wo {\k20}{\k27}e{\k43}ga{\k123}ku {\k23}{\k133}ta{\k137}me
+Dialogue: 0,0:00:50.99,0:00:57.32,KM,,0,0,0,fx,{\fade(255,0,255,0,850,6230,6330)\k90}{\k40}to{\k43}do{\k177}ke {\k57}{\k17}ha{\k23}te {\k20}ma{\k147}de
+Dialogue: 0,0:00:56.79,0:01:03.03,KM,,0,0,0,fx,{\fade(255,0,255,0,850,6140,6240)\k90}{\k33}do{\k47}u {\k153}ka {\k77}{\k20}ka{\k17}na{\k23}ta {\k143}he
+Dialogue: 0,0:01:02.50,0:01:08.90,KM,,0,0,0,fx,{\fade(255,0,255,0,850,6300,6400)\k90}{\k37}te {\k43}to {\k167}te {\k73}{\k17}ka{\k20}sa{\k17}ne{\k157}te
+Dialogue: 0,0:01:08.20,0:01:14.54,KM,,0,0,0,fx,{\fade(255,0,255,0,850,6240,6340)\k90}{\k40}su{\k50}su{\k140}mu {\k90}{\k20}a{\k20}shi{\k20}ta {\k143}he
+Dialogue: 0,0:01:13.98,0:01:22.42,KM,,0,0,0,fx,{\fade(255,0,255,0,850,8340,8440)\k90}{\k47}zu{\k43}t{\k137}to {\k93}{\k27}fu{\k20}ta{\k23}ri {\k344}de
