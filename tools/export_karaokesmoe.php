@@ -67,12 +67,12 @@ SELECT k.pk_id_kara AS kara_id, k.title, k.duration, k.year, k.mediafile, k.subf
     WHERE k.pk_id_kara = kt8.fk_id_kara
     ) as songwriter
 ,COALESCE(
-    (select GROUP_CONCAT( s.name)
+    (select GROUP_CONCAT( s.NORM_name)
         FROM kara_serie ks
         INNER JOIN serie s ON ks.fk_id_serie = s.pk_id_serie
         WHERE k.pk_id_kara = ks.fk_id_kara
         )
-    ,(select GROUP_CONCAT( t2.name)
+    ,(select GROUP_CONCAT( t2.NORM_name)
         FROM kara_tag kt2
         INNER JOIN tag t2 ON kt2.fk_id_tag = t2.pk_id_tag AND t2.tagtype = 2
         WHERE k.pk_id_kara = kt2.fk_id_kara
@@ -80,7 +80,7 @@ SELECT k.pk_id_kara AS kara_id, k.title, k.duration, k.year, k.mediafile, k.subf
 ) as co_serie_singer
 FROM kara k
 WHERE misc IS NULL OR misc NOT LIKE \'%TAG_R18%\' AND mediafile LIKE \'%.mp4\'
-order by co_serie_singer, language, songtype DESC, songorder';
+order by co_serie_singer COLLATE NOCASE, language, songtype DESC, songorder';
 
 $data=$pdo->query($query)->fetchAll();
 
