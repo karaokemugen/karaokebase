@@ -1,11 +1,7 @@
-Font size of samples lyrics :
-- 1920x1080 : 80
-- 1280x720 : 53
-- 960x720 : 53
-- 1024x576 : 48
-- 768x576 : 40
-- 704x528 : 38
-- 848x480 : 36
-- 640x480 : 32
-- 640x360 : 32
-- 352x288 : 20
+French:
+
+Si vous souhaitez utiliser notre sample pour timer, n'oubliez pas, lorsque vous l'ouvrez sur Aegisub, d'indiquer dans les "Propriétés" (onglet "Fichier") une résolution de 0 par 0.
+
+English:
+
+If you want to use our sample to create some karaoke, do not forget, when you open it on Aegisub, to indicate in "Properties" ("Folder" tab) a resolution of 0x0.
