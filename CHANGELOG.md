@@ -19,7 +19,7 @@ Contributors :
 
 ## Added
 
-New songs this month : 242
+New songs this month : 243
 
 - ARA - Sakura Taisen - OP - Geki! Teikoku Kagekidan ~ Arabic vers
 - CHI - Quanzhi Gaoshou - OP - Xin Yang
@@ -168,6 +168,7 @@ New songs this month : 242
 - JPN - Kyouryuu Sentai Zyuranger - ED - Bouken Shite Rappapi-ya!
 - JPN - Kyuukyuu Sentai GoGo Five - ED - Kono Hoshi Wo Kono Machi Wo
 - JPN - Kyuukyuu Sentai GoGo Five - OP - Kyuukyuu Sentai GoGo Five
+- JPN - La Colline aux coquelicots - ED - Sayonara no Natsu
 - JPN - La Colline aux coquelicots - IN - Koniro no Uneri ga
 - JPN - Little Busters! English Edition - OP - Little Busters ~ Ecstasy vers
 - JPN - Love Live! School Idol Project 2nd Season - LIVE - Zurui yo Magnetic today
