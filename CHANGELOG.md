@@ -16,6 +16,7 @@ Contributors :
 - Babatus
 - Nabashi
 - Bakaclub
+- @coyoyann
 
 ## Added
 
