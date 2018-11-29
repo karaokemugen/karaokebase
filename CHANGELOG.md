@@ -1,3 +1,270 @@
+# November 2018
+
+Contributors :
+
+- @Aeden
+- @Nock
+- Eden
+- @Rinchama
+- @Kmeuh
+- @AxelTerizaki
+- Goh
+- @nah
+- @Lua
+- @Ziassan
+- Uso
+- Babatus
+- Nabashi
+- Bakaclub
+
+## Added
+
+New songs this month : 242
+
+- ARA - Sakura Taisen - OP - Geki! Teikoku Kagekidan ~ Arabic vers
+- CHI - Quanzhi Gaoshou - OP - Xin Yang
+- CHI - Hitori no Shita The Outcast 2 - OP2 - Wu Ya
+- ENG - Ai City - IN - Psychic Man
+- ENG - AVICII - MV - Wake Me Up
+- ENG - Bakemonogatari - AMV - Intoxicated (song : On and On)
+- ENG - God Hand - ED - My Right Hand is God Hand
+- ENG - Guilty Gear Xrd -Sign- - OP - HEAVY DAY
+- ENG - Ousama Game The Animation - OP - FEED THE FIRE
+- ENG - Persona 5 - AMV - Life Will Change
+- ENG - Sonic Heroes - OP - Sonic Heroes
+- ENG - Suzumiya Haruhi no Yuuutsu - AMV - Ship Happens (song I Ship It)
+- ENG - Uchuu Senkan Yamato I - OP - Star Blazers Theme
+- FRE - Albert le cinquieme mousquetaire - OP - Albert le cinquieme mousquetaire
+- FRE - Alfred J. Kwak - OP - Alfred J. Kwak
+- FRE - Amuse 3 - OP - Amuse 3
+- FRE - Chikyuu Sentai Fiveman - OP - Fiveman
+- FRE - COPS - OP - COPS
+- FRE - Hyakujuu Ou Golion - OP - Voltron
+- FRE - La Colline aux coquelicots - IN - La grande vague bleue
+- FRE - Mister MV - OT - J'adore le zboub
+- FRE - Joou-heika no Petite Angie - OP - Angie, detective en herbe
+- ITA - Cardcaptor Sakura - OP1 - Pesca la tua carta Sakura
+- ITA - Cardfight!! Vanguard Asia Circuit-hen - ED - Energia ardente
+- ITA - Hanakisou PLUS Plus DISC - ED - se l'aura spira
+- ITA - Pokemon Adventures in the Orange Islands - OP - Oltre i cieli dell'avventura
+- ITA - Pokemon The Johto Journeys - OP - Always Pokemon
+- ITA - Pretty Rhythm Aurora Dream - OP - Il coraggio non ha mai fine
+- JPN - Aikatsu Stars! - IN - Forever Dream
+- JPN - Aikatsu Stars! - IN - Message of a Rainbow
+- JPN - Aikatsu! Idol Katsudou! - ED3 - Alice Blue no Kiss ~ ep. 44
+- JPN - Angel Beats! - IN - Crow Song
+- JPN - Animentary Ketsudan - OP - Ketsudan
+- JPN - Animentary Ketsudan - ED - Otoko Bushi
+- JPN - Aoki Ryuusei SPT Layzner - AMV - Melos no You ni Lonely Way ~ Eizo Japan Vers
+- JPN - Aoki Ryuusei SPT Layzner - ED1 - Gofun Dake no Wagamama
+- JPN - Area 88 - ED1 - Kanashimi no Destiny
+- JPN - Ashita e Free Kick - OP - Get My Goal
+- JPN - Ashita no Joe 2 - ED2 - Hateshinaki Yami no Anata ni
+- JPN - Ashita no Joe 2 - OP2 - Midnight Blue
+- JPN - Anima Yell! - ED - One for All
+- JPN - Anima Yell! - OP - Jump Up Yell!!
+- JPN - B-Fighter Kabuto - OP - B-Fighter Kabuto
+- JPN - B-Fighter Kabuto - ED - Oogoe de Utaeba
+- JPN - Babel Nisei - ED - Seigi no Chounouryoku Shounen
+- JPN - Bakuman. - IN - CROW's SKY
+- JPN - Beatless - OP2 - Truth
+- JPN - Black Jack - OP1 - Just Before the Sunrise
+- JPN - Blue SWAT - ED - HELLO THERE!
+- JPN - Bosco Daibouken - OP - Tokimeki wa Forever
+- JPN - Bubblegum Crisis - MV - Bara No Soldier
+- JPN - Cardfight!! Vanguard (2018) - ED2 - Triangle Message
+- JPN - Cardfight!! Vanguard (2018) - OP1 - Legendary
+- JPN - ChaoS HEAd NoAH - OP - CHAOS LOGIC
+- JPN - Chikyuu Sentai Fiveman - OP - Chikyuu Sentai Fiveman
+- JPN - Chikyuu Sentai Fiveman - ED - Fiveman, Ai No Theme
+- JPN - Chinpui - OP - Onegai Chinpui
+- JPN - Choudenshi Bioman - ED - Biomic Soldier
+- JPN - Chou Denji Machine Voltes V - OP - Voltes V no Uta
+- JPN - Chou Jikuu Yousai Macross FlashBack 2012 - ED - Runner
+- JPN - Chou Jikuu Yousai Macross FlashBack 2012 - IN - Ai wa Nagareru
+- JPN - Chou Jikuu Yousai Macross FlashBack 2012 - IN - Silver Moon - Red Moon
+- JPN - Chou Jikuu Yousai Macross Ai Oboete Imasu ka? - IN - Shao Pai Lon
+- JPN - Choujin Sentai Jetman - ED - Kokoro Wa Tamago
+- JPN - Choujuu Sentai Liveman - ED - Ashita Ni Ikiru Ze!
+- JPN - Choujuu Sentai Liveman - OP2 - Choujuu Sentai Liveman
+- JPN - Chouriki Sentai Ohranger - OP - Ole! Ohranger
+- JPN - Chouriki Sentai Ohranger - ED - Kinkyu Hasshin!! Ohranger
+- JPN - Choushinsei Flashman - ED - Fighting Pose Flashman!
+- JPN - City Hunter Ai to Shukumei no Magnum - OP - Shuumatsu No Soldier
+- JPN - Dash Kappei - OP - Mitai Mono Mitai
+- JPN - Dengeki Sentai Changeman - ED - Never Stop Changeman
+- JPN - Denji Sentai Megaranger - ED1 - Kinosei ka na
+- JPN - Devilman Crybaby - OP - MAN HUMAN
+- JPN - Dokonjou Gaeru - OP - Dokonjou Gaeru
+- JPN - Dragon Ball - IN - Red Ribbon Army
+- JPN - Entaku no Kishi Monogatari Moero Arthur - OP - Kibou yo Sore wa
+- JPN - Fate Grand Order Cosmos in the Lostbelt - OP - Gyakko
+- JPN - Final Fantasy XIV - MV - Dragonsong
+- JPN - Fireman - OP - Fireman ~ Full Vers
+- JPN - Futaridaka - OP - Heartbreak Crossin'
+- JPN - Fuusen no Doratarou - OP - Fuusen no Doratarou
+- JPN - Gekijouban Sword Art Online Ordinal Scale - ED - Catch the Moment
+- JPN - Gekisou Sentai Carranger - OP - Gekisou Sentai Carranger
+- JPN - Gekisou Sentai Carranger - ED - Tengoku Samba
+- JPN - Ghost in the Shell - OP - Making of Cyborg
+- JPN - Ginga Hyouryuu Vifam - ED - Never Give Up
+- JPN - Ginga Nagareboshi Gin - ED1 - Tomorrow
+- JPN - Ginga Reppuu Baxinger - ED - Asteroid Blues
+- JPN - Ginga Shippuu Sasuraiger - OP - Ginga Shippuu Sasuraiger
+- JPN - God Mazinger - OP - Dreamy My Love
+- JPN - Golden Kamuy 2nd Season - ED - Tokeidai no Kane
+- JPN - Golden Kamuy 2nd Season - OP - Reimei
+- JPN - Golden Time - OP2 - The World's End
+- JPN - Gosei Sentai Dairanger - ED - Ore-Tachi Muteki Sa!! Dairanger
+- JPN - Grendizer Getter Robo G Great Mazinger Kessen! Daikaijuu! - OP - Iza Ike! Robot Gundan
+- JPN - Gugure! Kokkuri-san - OP - Welcome!! Disco Kemokemoke
+- JPN - Haja Taisei Dangaiou - ED - Kokoro no Honesty
+- JPN - Hakata Tonkotsu Ramens - OP - Stray
+- JPN - Hanakisou PLUS Plus DISC - OP - Hanakisou
+- JPN - Hikari Sentai Maskman - ED - Ai No Soldier
+- JPN - Hikari Sentai Maskman - OP - Hikari Sentai Maskman
+- JPN - Himitsu Sentai Goranger - ED2 - Mi yo!! Gorenger
+- JPN - Houzuki no Reitetsu - ED1 - Ookina Kingyo no Ki no Shita de
+- JPN - Houzuki no Reitetsu - ED2 - Parallax View
+- JPN - Hustle Punch - ED - Hustle Punch no Uta
+- JPN - Hyakujuu Sentai Gaoranger - ED1 - Healin' You
+- JPN - Igano Kabamaru - OP - Circus Game
+- JPN - Ike! Greenman - OP - Green-Man
+- JPN - Inazuma Eleven - ED5 - Honki Bomber!!
+- JPN - Inazuman Flash - OP - Flash! Inazuman
+- JPN - Irozuku Sekai no Ashita kara - ED - Mimei no Kimi to Hakumei no Mahou
+- JPN - Irozuku Sekai no Ashita kara - OP - 17 Sai
+- JPN - Itou Junji Collection - OP - Shichitenbattou no Blue
+- JPN - J.A.K.Q. Dengekitai - ED - Itsuka Hana Wa Saku Darou
+- JPN - J.A.K.Q. Dengekitai - OP2 - J.A.K.Q. Dengekitai
+- JPN - Joou-heika no Petite Angie - OP - Angie ni Omakase
+- JPN - Joou-heika no Petite Angie - ED - My Name is Petite Angie
+- JPN - Juuken Sentai Gekiranger - OP - Juuken Sentai Gekiranger
+- JPN - Juukou B-Fighter - ED - Chikyuu Koukou
+- JPN - Juukou B-Fighter - OP - Juukou B-Fighter
+- JPN - Kagaku Sentai Dynaman - ED - Yume Wo Kanaete Dynaman
+- JPN - Kamen Rider J - ED - Kokoro Tsunagu Ai
+- JPN - Kamen Rider Skyrider - ED1 - Harukanaru Ai Ni Kakete
+- JPN - Kamen Rider Skyrider - ED1 - Haruka Naru Ai Ni Kakete ~ Animetal Vers
+- JPN - Kamen Rider Skyrider - ED2 - Kagayake! Hachinin Rider
+- JPN - Kamui No Ken - ED - Kamui no Ken
+- JPN - Karakuri Circus - ED - Marionette
+- JPN - Karakuri Circus - OP - Gekkou
+- JPN - Karate Baka Ichidai - OP - Karate Baka Ichidai
+- JPN - Kick no Oni - ED - Kick no Akebono
+- JPN - Kick no Oni - OP - Kick no Oni
+- JPN - Kidou Keiji Jiban - ED - Ashita Yohou wa Itsumo Hare
+- JPN - Kidou Keisatsu Patlabor New OVA (1990) - OP3 - You Are the One
+- JPN - Kidou Keisatsu Patlabor New OVA (1990) - OP4 - Idling for You
+- JPN - Kidou Senshi Gundam SEED Destiny - IN - Emotion
+- JPN - Kidou Senshi Gundam II Ai Senshi-hen - AMV - Soldiers of Sorrow
+- JPN - Kikou Senki Dragonar - OP2 - Starlight Serenade
+- JPN - Kimi no Na wa. - IN - Zenzenzense
+- JPN - Koukyoushihen Eureka Seven Hi-Evolution Anemone - MV - There's No Ending
+- JPN - Kousoku Sentai Turboranger - ED - Zigzag Seishun Road
+- JPN - Kurenai Sanshirou - OP1 - Kurenai Sanshirou
+- JPN - Kurenai Sanshirou - OP2 - Kurenai Sanshirou
+- JPN - Kyojin no Hoshi - OP - Ike Ike Hyuuma
+- JPN - Kyouryuu Sentai Zyuranger - ED - Bouken Shite Rappapi-ya!
+- JPN - Kyuukyuu Sentai GoGo Five - ED - Kono Hoshi Wo Kono Machi Wo
+- JPN - Kyuukyuu Sentai GoGo Five - OP - Kyuukyuu Sentai GoGo Five
+- JPN - La Colline aux coquelicots - IN - Koniro no Uneri ga
+- JPN - Little Busters! English Edition - OP - Little Busters ~ Ecstasy vers
+- JPN - Love Live! School Idol Project 2nd Season - LIVE - Zurui yo Magnetic today
+- JPN - Love Live! Sunshine!! - IN - Mijuku DREAMER
+- JPN - Love Live! Sunshine!! - LIVE - Guilty Night, Guilty Kiss!
+- JPN - Love Live! Sunshine!! - LIVE - Omoi yo Hitotsu ni Nare
+- JPN - Love Live! Sunshine!! 2nd Season - IN - Kimi no Kokoro wa Kagayaiteru kai?
+- JPN - Love Live! Sunshine!! 2nd Season - IN - MIRACLE WAVE
+- JPN - Love Live! Sunshine!! 2nd Season - IN - WATER BLUE NEW WORLD
+- JPN - Macross 7 - IN - Planet Dance
+- JPN - Macross 7 - IN - Submarine Street
+- JPN - Mahoujin Guru Guru (2017) - OP2 - Ryuusei Dance Floor
+- JPN - Mahou no Mako-chan - OP - Mahou no Mako-chan
+- JPN - Mahou Tsukai Chappy - OP - Mahou Tsukai Chappy
+- JPN - Mazinger Z - ED - Bokura no Mazinger Z
+- JPN - Mazinkaiser - AMV - Mazinkaiser ~ Super Robot Taisen Vers
+- JPN - Meiou Project Zeorymer - AMV - Kurenai no Loneliness
+- JPN - Metal Gear Solid Peace Walker - IN - Koi no Yokushiryoku
+- JPN - Microid S - ED - Yanma Da, Ageha Da, Mamezou Da
+- JPN - Microid S - OP - Microid S
+- JPN - Mirai Nikki (2011) - ED1 - Blood teller
+- JPN - MONDO GROSSO, Hikari Mitsushima - MV - Labyrinth
+- JPN - Mirai Sentai Timeranger - OP - JIKU ~Mirai Sentai Timeranger~
+- JPN - Ninja Captor - OP - Tatakae! Ninja Captor
+- JPN - Ninja Senshi Tobikage - ED - Isseikime no Angel
+- JPN - Ninpuu Sentai Hurricaneger - OP - Hurricaneger Sanjou!
+- JPN - Nogizaka Haruka no Himitsu - OP - Tomadoi Bitter Tune
+- JPN - Occultic Nine - OP - Play the game
+- JPN - One Punch Man - ED - Hoshi yori Saki ni Mitsukete Ageru
+- JPN - Ookami Shounen Ken - ED - Ookami Shounen Ken
+- JPN - Patalliro! - ED1 - Utsukushisa wa Tsumi
+- JPN - Piofiore no Banshou - OP - Nocturnal
+- JPN - Pyun Pyun Maru - OP - Hana no Pyun Pyun Maru
+- JPN - Redman - OP - Redman
+- JPN - Release the Spyce - ED1 - Hide & Seek
+- JPN - Release the Spyce - OP - Spatto! Spy & Spyce
+- JPN - Robot Keiji - OP - Robot Keiji
+- JPN - Ryuusei Ningen Zone - OP - Ryuusei Ningen Zone
+- JPN - Saiki Kusuo no Psi-nan 2 - OP1 - Silent Prisoner
+- JPN - Samurai Giants - OP1 - Samurai Giants
+- JPN - Saraba Uchuu Senkan Yamato Ai no Senshi-tachi - ED - Yamato Yori Ai o Komete
+- JPN - Sarutobi Ecchan - OP - Ecchan
+- JPN - Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai - ED1 - Fukashigi no Carte
+- JPN - Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai - ED2 - Fukashigi no Carte
+- JPN - Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai - OP - Kimi no Sei
+- JPN - Senran Kagura Shinovi Master - Tokyo Youma Hen - OP - SCARLET MASTER
+- JPN - Shin Mazinger Shougeki! Z-Hen - OP1 - Kanjite Knight ~ Full Vers
+- JPN - Shoukoushi Cedie - OP - Bokura no Cedie
+- JPN - Sora to Umi no Aida - ED - Ao no Kanata
+- JPN - Sora to Umi no Aida - OP - Sora to Umi no Aida
+- JPN - Soukihei MD Geist - AMV - Honoo no Violence
+- JPN - Soushin Shoujo Matoi - OP - Choumusubi Amulet
+- JPN - SSSS.Gridman - ED - youthful beautiful
+- JPN - SSSS.Gridman - OP - UNION
+- JPN - Sword Art Online Alicization - ED1 - Iris
+- JPN - Sword Art Online Alicization - OP1 - ADAMAS
+- JPN - Tatakae!! Iczer 1 - ED3 - Eien no Iczer 1
+- JPN - Tensei Shitara Slime Datta Ken - ED - Another colony
+- JPN - Tensei Shitara Slime Datta Ken - OP - Nameless Story
+- JPN - Tetsujin Tiger Seven - OP - Tetsujin Tiger Seven
+- JPN - To Aru Majutsu no Index III - ED1 - Kakumei Zen'ya
+- JPN - To Aru Majutsu no Index III - OP1 - Gravitation
+- JPN - Tobidase! Machine Hiryuu - OP - Tobidase! Machine Hiryuu
+- JPN - Tokusou Exceedraft - OP - Tokusou Exceedraft
+- JPN - Tokusou Sentai Dekaranger - LIVE - Midnight Dekaranger
+- JPN - Tonari no Kyuuketsuki-san - ED - HAPPY!! Strange Friends
+- JPN - Tonari no Kyuuketsuki-san - OP - Kyuutie Ladies
+- JPN - Tondemo Senshi Muteking - OP - Roller Hero Mutaking
+- JPN - Touch - ED1 - Kimi ga Inakereba
+- JPN - Touch - ED2 - Seishun
+- JPN - Touch - OP2 - Ai ga Hitoribocchi
+- JPN - Toushi Gordian - OP - Toushi Gordian
+- JPN - Tsurune Kazemai Koukou Kyuudoubu - ED - Orange-iro
+- JPN - Tsurune Kazemai Koukou Kyuudoubu - OP - Naru
+- JPN - Uchi no Maid ga Uzasugiru! - ED - Tokimeki Climax
+- JPN - Uchi no Maid ga Uzasugiru! - OP - Uza Uza Wows!
+- JPN - Uchuu Keiji Shaider - ED - Hello! Shaider
+- JPN - Uchuu Senkan Yamato Aratanaru Tabidachi - IN - Saasha Waga Ai
+- JPN - Uchuu Senkan Yamato Aratanaru Tabidachi - IN - Yamato!! Aratanaru Tabidachi
+- JPN - Uchuu Senkan Yamato III - ED2 - Betsuri
+- JPN - UFO Senshi Dai Apolon - OP - UFO Senshi Dai Apolon
+- JPN - Umi no Triton - ED2 - Umi no Triton
+- JPN - Ultraman Leo - OP - Ultraman Leo ~ Animetal Vers
+- JPN - Utsusemi no Meguri - OP - Shukumei no Kusabi
+- JPN - Venus Senki - ED - Venus no Kaze
+- JPN - Versailles no Bara - AMV - Nouvelle Vague
+- JPN - Voicelugger - OP - Hoero! Voicelugger
+- JPN - Yagate Kimi ni Naru - ED - hectopascal
+- JPN - Yagate Kimi ni Naru - OP - Kimi ni Furete
+- JPN - Yama Nezumi Rocky Chuck - OP - Midori no Hidamari
+- JPN - Yoroiden Samurai Troopers - IN - Rainy Lazy Morning
+- JPN - Zombieland Saga - ED - Hikari e
+- JPN - Zombieland Saga - OP - Adabana Necromancy
+- KOR - League of Legends - MV - K DA - POP STARS
+- LAT - Super Smash Bros. Brawl - OP - Main Theme
+- UND - Kubikiri Cycle: Aoiro Savant to Zaregototsukai - OT - old-fashioned fairy tale
+
 # October 2018
 
 MVP this month are @Aeden and @Nock. Aeden replaced another big batch of videos and @Nock integrated karaokes from KuroSensei.
