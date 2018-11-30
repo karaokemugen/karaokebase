@@ -184,19 +184,16 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 					'uid' => $kara['kid'],
 				];
 
-				if(!empty($kara['author'])) {
+				if(!empty($kara['author'] && $kara['author'] != 'NO_TAG'))
 					$kara_data['subtitles'] = str_replace(',',', ',$kara['author']);
-				}
+				else
+					$kara_data['subtitles'] = '(unknown)';
 			}
-			if(!empty($kara['singer'] || $kara['singer'] != 'NO_TAG')) {
+			
+			if(!empty($kara['singer'] && $kara['singer'] != 'NO_TAG'))
 				$kara_data['song']['artist'] = str_replace(',',', ',$kara['singer']);
-			}
-			if ($kara['singer'] == 'NO_TAG') {
-				$kara['singer'] = '(unknown)';
-			}
-			if ($kara['author'] == 'NO_TAG') {
-				$kara['author'] = '(unknown)';
-			}
+			else
+				$kara_data['song']['artist'] = '(unknown)';
 
 			$last_pass[$serie_singer][$type_with_num]=$kara_data;
 		}
