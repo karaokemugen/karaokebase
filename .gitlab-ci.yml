@@ -40,8 +40,8 @@ export:
     - bash tools/export_years.sh db/karas.sqlite3 >years_karas.json
     - lftp -c "set ftp:ssl-allow no; set ftp:charset "UTF-8" ; set file:charset utf-8;  open -u $USERNAME,$PASSWORD $HOST; cd site/downloads; put karas.json; put tags_karas.json ; put years_karas.json ; put series_karas.json; put stats.json ; put db/karas.sqlite3 ; lcd lyrics ; cd .. ; cd lyricsfiles ; mirror -Rnev --parallel=10 ; cd .. ; cd karafiles ; lcd .. ; lcd karas ; mirror -Rnev --parallel=10"
     - echo "Triggering website generation"
-    - curl -X POST -F token=$TRIGGERWEB -F ref=master https://lab.shelter.moe/api/v4/projects/28/trigger/pipeline
+    - "curl -X POST -F token=$TRIGGERWEB -F ref=master https://lab.shelter.moe/api/v4/projects/28/trigger/pipeline"
     - echo "Triggering KM Server generation"
-    - curl -X POST -H "password: $KMSERVERPASSWORD" http://kara.moe:1350/api/generate
+    - "curl -X POST -H password:$KMSERVERPASSWORD http://kara.moe/api/generate"
   only:
     - master
