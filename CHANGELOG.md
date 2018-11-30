@@ -20,7 +20,7 @@ Contributors :
 
 ## Added
 
-New songs this month : 243
+New songs this month : 268
 
 - ARA - Sakura Taisen - OP - Geki! Teikoku Kagekidan ~ Arabic vers
 - CHI - Quanzhi Gaoshou - OP - Xin Yang
@@ -28,6 +28,7 @@ New songs this month : 243
 - ENG - Ai City - IN - Psychic Man
 - ENG - AVICII - MV - Wake Me Up
 - ENG - Bakemonogatari - AMV - Intoxicated (song : On and On)
+- ENG - Ergo Proxy - ED - Paranoid Android
 - ENG - God Hand - ED - My Right Hand is God Hand
 - ENG - Guilty Gear Xrd -Sign- - OP - HEAVY DAY
 - ENG - Ousama Game The Animation - OP - FEED THE FIRE
@@ -53,9 +54,12 @@ New songs this month : 243
 - JPN - Aikatsu Stars! - IN - Forever Dream
 - JPN - Aikatsu Stars! - IN - Message of a Rainbow
 - JPN - Aikatsu! Idol Katsudou! - ED3 - Alice Blue no Kiss ~ ep. 44
+- JPN - Alps no Shoujo Heidi - OP - Oshiete
 - JPN - Angel Beats! - IN - Crow Song
 - JPN - Animentary Ketsudan - OP - Ketsudan
 - JPN - Animentary Ketsudan - ED - Otoko Bushi
+- JPN - Aoki Ryuusei SPT Layzner - ED2 - La.Rose.Rouge
+- JPN - Aoki Ryuusei SPT Layzner - OP - Melos no You ni Lonely Way ~ Alternative Vers
 - JPN - Aoki Ryuusei SPT Layzner - AMV - Melos no You ni Lonely Way ~ Eizo Japan Vers
 - JPN - Aoki Ryuusei SPT Layzner - ED1 - Gofun Dake no Wagamama
 - JPN - Area 88 - ED1 - Kanashimi no Destiny
@@ -81,6 +85,7 @@ New songs this month : 243
 - JPN - Chinpui - OP - Onegai Chinpui
 - JPN - Choudenshi Bioman - ED - Biomic Soldier
 - JPN - Chou Denji Machine Voltes V - OP - Voltes V no Uta
+- JPN - Chou Jikuu Yousai Macross - ED - Runner
 - JPN - Chou Jikuu Yousai Macross FlashBack 2012 - ED - Runner
 - JPN - Chou Jikuu Yousai Macross FlashBack 2012 - IN - Ai wa Nagareru
 - JPN - Chou Jikuu Yousai Macross FlashBack 2012 - IN - Silver Moon - Red Moon
@@ -91,10 +96,12 @@ New songs this month : 243
 - JPN - Chouriki Sentai Ohranger - OP - Ole! Ohranger
 - JPN - Chouriki Sentai Ohranger - ED - Kinkyu Hasshin!! Ohranger
 - JPN - Choushinsei Flashman - ED - Fighting Pose Flashman!
+- JPN - City Hunter 3 - OP - Running to Horizon
 - JPN - City Hunter Ai to Shukumei no Magnum - OP - Shuumatsu No Soldier
 - JPN - Dash Kappei - OP - Mitai Mono Mitai
 - JPN - Dengeki Sentai Changeman - ED - Never Stop Changeman
 - JPN - Denji Sentai Megaranger - ED1 - Kinosei ka na
+- JPN - Devilman - ED - Kyou mo Doko ka de Devilman
 - JPN - Devilman Crybaby - OP - MAN HUMAN
 - JPN - Dokonjou Gaeru - OP - Dokonjou Gaeru
 - JPN - Dragon Ball - IN - Red Ribbon Army
@@ -108,10 +115,13 @@ New songs this month : 243
 - JPN - Gekisou Sentai Carranger - OP - Gekisou Sentai Carranger
 - JPN - Gekisou Sentai Carranger - ED - Tengoku Samba
 - JPN - Ghost in the Shell - OP - Making of Cyborg
+- JPN - Ginga Eiyuu Densetsu - OVA ED3 - Kansou no Uta
+- JPN - Ginga Eiyuu Densetsu - OVA ED4 - Uchuu no Kakehashi
 - JPN - Ginga Hyouryuu Vifam - ED - Never Give Up
 - JPN - Ginga Nagareboshi Gin - ED1 - Tomorrow
 - JPN - Ginga Reppuu Baxinger - ED - Asteroid Blues
 - JPN - Ginga Shippuu Sasuraiger - OP - Ginga Shippuu Sasuraiger
+- JPN - Ginga Tetsudou 999 - ED - Aoi Chikyuu
 - JPN - God Mazinger - OP - Dreamy My Love
 - JPN - Golden Kamuy 2nd Season - ED - Tokeidai no Kane
 - JPN - Golden Kamuy 2nd Season - OP - Reimei
@@ -157,6 +167,7 @@ New songs this month : 243
 - JPN - Kidou Keiji Jiban - ED - Ashita Yohou wa Itsumo Hare
 - JPN - Kidou Keisatsu Patlabor New OVA (1990) - OP3 - You Are the One
 - JPN - Kidou Keisatsu Patlabor New OVA (1990) - OP4 - Idling for You
+- JPN - Kidou Keisatsu Patlabor On Television (1989) - ED1 - Midnight Blue
 - JPN - Kidou Senshi Gundam SEED Destiny - IN - Emotion
 - JPN - Kidou Senshi Gundam II Ai Senshi-hen - AMV - Soldiers of Sorrow
 - JPN - Kikou Senki Dragonar - OP2 - Starlight Serenade
@@ -191,11 +202,13 @@ New songs this month : 243
 - JPN - Microid S - ED - Yanma Da, Ageha Da, Mamezou Da
 - JPN - Microid S - OP - Microid S
 - JPN - Mirai Nikki (2011) - ED1 - Blood teller
+- JPN - Mirai Sentai Timeranger - ED1 - Toki no Kanata e
 - JPN - MONDO GROSSO, Hikari Mitsushima - MV - Labyrinth
 - JPN - Mirai Sentai Timeranger - OP - JIKU ~Mirai Sentai Timeranger~
 - JPN - Ninja Captor - OP - Tatakae! Ninja Captor
 - JPN - Ninja Senshi Tobikage - ED - Isseikime no Angel
 - JPN - Ninpuu Sentai Hurricaneger - OP - Hurricaneger Sanjou!
+- JPN - Ninpuu Sentai Hurricaneger - ED - Ima, Kaze no Naka de
 - JPN - Nogizaka Haruka no Himitsu - OP - Tomadoi Bitter Tune
 - JPN - Occultic Nine - OP - Play the game
 - JPN - One Punch Man - ED - Hoshi yori Saki ni Mitsukete Ageru
@@ -212,9 +225,12 @@ New songs this month : 243
 - JPN - Samurai Giants - OP1 - Samurai Giants
 - JPN - Saraba Uchuu Senkan Yamato Ai no Senshi-tachi - ED - Yamato Yori Ai o Komete
 - JPN - Sarutobi Ecchan - OP - Ecchan
+- JPN - Seijuu Sentai Gingaman - ED - Hadashi No Kokoro De
+- JPN - Seijuu Sentai Gingaman - OP - Seijuu Sentai Gingaman
 - JPN - Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai - ED1 - Fukashigi no Carte
 - JPN - Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai - ED2 - Fukashigi no Carte
 - JPN - Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai - OP - Kimi no Sei
+- JPN - Sekai Ninja Sen Jiraiya - ED - SHI.NO.BI '88
 - JPN - Senran Kagura Shinovi Master - Tokyo Youma Hen - OP - SCARLET MASTER
 - JPN - Shin Mazinger Shougeki! Z-Hen - OP1 - Kanjite Knight ~ Full Vers
 - JPN - Shoukoushi Cedie - OP - Bokura no Cedie
@@ -227,14 +243,21 @@ New songs this month : 243
 - JPN - Sword Art Online Alicization - ED1 - Iris
 - JPN - Sword Art Online Alicization - OP1 - ADAMAS
 - JPN - Tatakae!! Iczer 1 - ED3 - Eien no Iczer 1
+- JPN - Taiyou Sentai Sun Vulcan - ED1 - Wakasa Wa Plasma
+- JPN - Taiyou Sentai Sun Vulcan - ED2 - 1 Tasu 2 Tasu Sun Vulcan
 - JPN - Tensei Shitara Slime Datta Ken - ED - Another colony
 - JPN - Tensei Shitara Slime Datta Ken - OP - Nameless Story
 - JPN - Tetsujin Tiger Seven - OP - Tetsujin Tiger Seven
 - JPN - To Aru Majutsu no Index III - ED1 - Kakumei Zen'ya
 - JPN - To Aru Majutsu no Index III - OP1 - Gravitation
 - JPN - Tobidase! Machine Hiryuu - OP - Tobidase! Machine Hiryuu
+- JPN - Tokkei Winspector - ED - Kyou no Ore kara Ashita no Kimi e
 - JPN - Tokusou Exceedraft - OP - Tokusou Exceedraft
+- JPN - Tokusou Exceedraft - ED - Goal Wa Mirai
+- JPN - Tokusou Robo Janperson - ED - Asayake no Lullaby
 - JPN - Tokusou Sentai Dekaranger - LIVE - Midnight Dekaranger
+- JPN - Tokusou Sentai Dekaranger - OP - Tokusou Sentai Dekaranger
+- JPN - Tokkyuu Shirei Solbrain - ED - Ai ni Dakarete
 - JPN - Tonari no Kyuuketsuki-san - ED - HAPPY!! Strange Friends
 - JPN - Tonari no Kyuuketsuki-san - OP - Kyuutie Ladies
 - JPN - Tondemo Senshi Muteking - OP - Roller Hero Mutaking
@@ -246,7 +269,9 @@ New songs this month : 243
 - JPN - Tsurune Kazemai Koukou Kyuudoubu - OP - Naru
 - JPN - Uchi no Maid ga Uzasugiru! - ED - Tokimeki Climax
 - JPN - Uchi no Maid ga Uzasugiru! - OP - Uza Uza Wows!
+- JPN - Uchuu Keiji Gavan - ED - Hoshizora no Message
 - JPN - Uchuu Keiji Shaider - ED - Hello! Shaider
+- JPN - Uchuu Keiji Sharivan - ED - Tsuyosa wa Ai da
 - JPN - Uchuu Senkan Yamato Aratanaru Tabidachi - IN - Saasha Waga Ai
 - JPN - Uchuu Senkan Yamato Aratanaru Tabidachi - IN - Yamato!! Aratanaru Tabidachi
 - JPN - Uchuu Senkan Yamato III - ED2 - Betsuri
