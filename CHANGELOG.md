@@ -13,6 +13,7 @@ Contributors :
 - @nah
 - @olivier
 - @Nabashi
+- @PierreCAMILLI
 
 ## Added
 
@@ -21,15 +22,16 @@ Contributors :
 - ENG - Gintama - ED2 - MR.RAINDROP / closes #597
 - ENG - League of Legends - PC GAME MV - Legends never die
 - ENG - Maison Ikkoku - ED3 - Get Down
+- ENG - Steven Universe - IN - Stronger Than
 - ENG - SUPER SMASH BROTHERS MELEEEEEEEEEE - OP - Opening Theme
 - ENG - Super Smash Bros. Ultimate - OP - Lifelight
 - FRE - Carlos - MV - Tout nu et tout bronzé
 - FRE - Futaridaka - OP - A Plein Gaz
 - FRE - La personne aux deux personnes - MOVIE IN - COGIP !
-- FRE - Pokemon la Serie XY - OP - Attrapez-les tous
-- FRE - Pocket Monsters XY Hakai no Mayu to Diancie - MOVIE OP - Attrapez-les tous
+- FRE - Pokemon, la série : XY - OP - Attrapez-les tous
+- FRE - Pokémon le film 17 : Diancie et le cocon de l'annihilation - MOVIE OP - Attrapez-les tous
 - FRE - Pokémon Sun & Moon - OP - Sous le soleil d'Alola
-- FRE - Pokémon Sun & Moon Utlra Adventures - OP - Sous la lune d'Alola
+- FRE - Pokémon Sun & Moon Ultra Aventures - OP - Sous la lune d'Alola
 - FRE - Pokémon - MV - Mes amis
 - FRE - Super Smash Bros. Brawl - GAME OP - Main Theme (Parodie vraies paroles)
 - FRE - Touhou - REMIX MV - Reve eveille
@@ -40,7 +42,6 @@ Contributors :
 - JPN - Arcana Famiglia - PSP GAME OP - Stellina
 - JPN - Arcana Famiglia 2 - PSP GAME OP - Promessa
 - JPN - Ashita no Joe - ED2 - Rikiishi Tooru no Theme
--
 - JPN - Beelzebub-jou no Oki ni Mesu Mama. - ED - Akumade Koiwazurai
 - JPN - Beelzebub-jou no Oki ni Mesu Mama. - OP - Pink Lemonade
 - JPN - Blocker Gundan IV Machine Blaster - OP - Blocker Gundan IV Machine Blaster
@@ -75,7 +76,6 @@ Contributors :
 - JPN - Kiteretsu Daihyakka - OP - Oyome-san ni Natte Agenai Zo
 - JPN - Kono Sekai no Katasumi ni - MOVIE MV - Kanashikute Yarikirenai
 - JPN - Lupin III - ED - Lupin Sansei Sono 2
-
 - JPN - Macross 7 - ED2 - ...Dakedo Baby!!
 - JPN - Maison Ikkoku - ED1 - Ashita Hareruka
 - JPN - Maison Ikkoku - ED2 - Ci . ne . ma
@@ -85,7 +85,8 @@ Contributors :
 - JPN - Meitantei Conan - OP43 - Sekai wa Anata no Iro ni Naru
 - JPN - Merc Storia Mukiryoku Shounen to Bin no Naka no Shoujo - ED - Bottleship
 - JPN - Merc Storia Mukiryoku Shounen to Bin no Naka no Shoujo - OP - Origin
-- JPN - Miku Hatsune - LIVE - Mahou Mitaina Music! (Music Like Magic!) ~ Miku Expo 2018 Paris
+- JPN - Miku Hatsune - LIVE - Mahô Mitaina Music! (Music Like Magic!) ~ Miku Expo 2018 Paris
+- JPN - Miku Hatsune - MV - Mahô Mitaina Music! (Music Like Magic!)
 - JPN - Mahou Sensei Negima! Mou Hitotsu no Sekai - OVA OP1 - LOVE Drive (#610)
 - JPN - Megazone 23 - OVA IN - Senaka Goshi ni Sentimental ~ Full Vers
 - JPN - Muu no Hakugei - ED - Shinjirukai
