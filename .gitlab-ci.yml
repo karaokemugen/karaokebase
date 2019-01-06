@@ -39,8 +39,7 @@ export:
     - bash tools/export_tags.sh db/karas.sqlite3 >tags_karas.json
     - bash tools/export_years.sh db/karas.sqlite3 >years_karas.json
     - lftp -c "set ftp:ssl-allow no; set ftp:charset "UTF-8" ; set file:charset utf-8;  open -u $USERNAME,$PASSWORD $HOST; cd site/downloads; put karas.json; put tags_karas.json ; put years_karas.json ; put series_karas.json; put stats.json ; put db/karas.sqlite3 ; lcd lyrics ; cd .. ; cd lyricsfiles ; mirror -Rnev --parallel=10 ; cd .. ; cd karafiles ; lcd .. ; lcd karas ; mirror -Rnev --parallel=10"
-    - lftp -c "set ftp:ssl-allow no; set ftp:charset "UTF-8" ; set file:charset utf-8; open -u $USERNAME,$PASSWORD $HOST; cd kmserver/app/data/karas ; lcd karas ; mirror -Rnev --parallel=10 ; cd ../series  ; lcd ../series ; mirror -Rnev --parallel=10"
-    - lftp -c "set ftp:ssl-allow no; set ftp:charset "UTF-8" ; set file:charset utf-8; open -u $USERNAME,$PASSWORD $HOST; cd kmserver/app/data/lyrics ; lcd lyrics ; mirror -Rnev --parallel=10"
+    - lftp -c "set ftp:ssl-allow no; set ftp:charset "UTF-8" ; set file:charset utf-8; open -u $USERNAME,$PASSWORD $HOST; cd kmserver/app/data/karas ; lcd karas ; mirror -Rnev --parallel=10 ; cd ../lyrics ; lcd ../lyrics ; mirror -Rnev --parallel=10 ; cd ../series  ; lcd ../series ; mirror -Rnev --parallel=10"
     - echo "Triggering KM Server generation"
     - "curl -X POST -H authorization:$KMSERVERAUTH http://kara.moe/api/generate"
   only:
