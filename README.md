@@ -2,7 +2,7 @@
 
 ![Badge](https://img.shields.io/github/last-commit/AxelTerizaki/karaokebase.svg)
 ![Badge](https://img.shields.io/github/tag/AxelTerizaki/karaokebase.svg)
-![Badge](https://img.shields.io/github/repo-size/AxelTerizaki/karaokebase.svg)
+![Badge](https://img.shields.io/github/repo-size/AxelTerizaki/karaokebase.svg) ![Discord](https://img.shields.io/discord/84245347336982528.svg)
 
 [![Creative Commons](https://img.shields.io/badge/License-Creative%20Commons%204.0%20BY--NC--SA-brightgreen.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
