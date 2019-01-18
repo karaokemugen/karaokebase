@@ -1,5 +1,10 @@
 ﻿[Version en français plus bas](#French version)
 
+[![Badge](https://img.shields.io/github/last-commit/AxelTerizaki/karaokebase.svg)] [![Badge](https://img.shields.io/github/tag/AxelTerizaki/karaokebase.svg)]
+[![Badge](https://img.shields.io/github/repo-size/AxelTerizaki/karaokebase.svg)] [![Creative Commons](https://img.shields.io/badge/License%20CC-by--nc--sa-red.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+
+
 # English version
 
 ## Karaoke Mugen database
