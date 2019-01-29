@@ -6,6 +6,13 @@ Contributors :
 - @Nock
 - @Rinchama
 - @Kmeuh
+- @PierreCAMILI
+- @Maxaoh
+- @nah
+- @Krow
+- @Olivier Jolly
+- @Lua
+
 
 ## Fixes and stuff
 
