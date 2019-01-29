@@ -1,3 +1,79 @@
+# Janvier 2019
+
+Contributors :
+
+- @Aeden
+- @Nock
+- @Rinchama
+- @Kmeuh
+
+## Fixes and stuff
+
+We have now less than 1000 videos still in AVI/Xvid format. We're making good progress on replacing everything with better quality, MP4 files (most often creditless versions)
+
+Also, a few hardsubs were replaced by videos + .ass files.
+
+Please check out the commits list to get a detailed view of what has been fixed.
+
+## Added
+
+53 new songs this month!
+
+- ENG - Banana Fish - ED2 - RED
+- ENG - Liz to Aoi Tori - MOVIE ED2 - Songbirds.mp4
+- ENG - Mother - REMIX GAME MV - Pollyanna (I Believe in You)
+- FRE - Usul - MV - Le CD ~ Part 1
+- FRE - Girls und Panzer das Finale - MOVIE IN - La Chanson de l'oignon
+- ITA - Hokuto no Ken 2 - AMV - Tough Boy
+- JPN - Ar tonelico 2 Sekai ni Hibiku Shoujo-tachi no Metafarika - PS2 GAME MV - homura~HOMURA
+- JPN - Banana Fish - OP2 - FREEDOM
+- JPN - Baby I Love You Daze - MV - Shinsekai
+- JPN - Berserk 2nd Season - OP - Sacrifice
+- JPN - Black Clover (2017) - ED5 - Tenjou Tenge
+- JPN - Black Clover (2017) - OP5 - Gamushara
+- JPN - Boruto Naruto Next Generations - ED7 - Polaris
+- JPN - Boruto Naruto Next Generations - OP4 - Lonely Go!
+- JPN - Bubblegum Crisis - OVA MV - Mad Machine
+- JPN - Conception - ED - Desires
+- JPN - Conception - OP - Star light, Star bright
+- JPN - Death Parade - OT - Flyers
+- JPN - Denkou Choujin Gridman - OP - Yume no Hero
+- JPN - Eiyuu Densetsu Sen no Kiseki - PS3 PSV PC GAME OP - Ashita he no Kodou
+- JPN - Fairy Tail Final Series - ED1 - Endless Harmony
+- JPN - Fairy Tail Final Series - OP1 - power of the dream
+- JPN - Jingai-san no Yome - ED - Happy Life Spectacle
+- JPN - Gekijouban Macross Frontier Sayonara no Tsubasa - MOVIE LIVE - Niji-iro Kuma Kuma
+- JPN - Girls und Panzer das Finale - MOVIE ED1 - Enter Enter Misson! Das Finale Ver
+- JPN - Girls und Panzer das Finale - MOVIE OP1 - Grand symphony
+- JPN - Goblin Slayer - ED1 - Gin no Kisei
+- JPN - Goblin Slayer - OP - Rightfully
+- JPN - Hokuto no Ken 2 - AMV - Tough Boy
+- JPN - Hokuto no Ken 2 - OP - Tough Boy Alternative Vers
+- JPN - JoJo no Kimyou na Bouken Ougon no Kaze - OP1 - Fighting Gold
+- JPN - Kaguya-sama wa Kokurasetai Tensai-tachi no Ren'ai Zunousen - ED2 - Chikatto Chika Chika
+- JPN - Karigurashi no Arietti - MOVIE MV - Arrietty's song
+- JPN - Kemono Friends 2 - OP - Notteke! Japari Beat
+- JPN - Liz to Aoi Tori - MOVIE ED1 - Girls, Dance, Staircase.mp4
+- JPN - Miku Hatsune - MV - Rolling Girl
+- JPN - Mirai no Mirai - MOVIE OP - Mirai no Theme
+- JPN - Mob Psycho 100 II - OP1 - 99.9
+- JPN - No.6 - MV - Spell
+- JPN - NO THANK YOU!!! - PC GAME OP - No, Thank you!!!
+- JPN - Sayonara Zetsubou-sensei - ED - Zessei Bijin
+- JPN - SSSS.Gridman - SPECIAL AMV - Yume no Hero
+- JPN - Thunderbolt Fantasy Touri-ken Yuuki - OP - RAIMEI
+- JPN - Tomoyo After - PC GAME OP - Light colors ~ English Edition Vers
+- JPN - Tsukumogami Kashimasu - ED - Koyoi wa Yume wo Misasete
+- JPN - Tsukumogami Kashimasu - OP - Get Into My Heart
+- JPN - Virtual-san wa Miteiru - ED - Hitogata
+- JPN - Zoku Touken Ranbu Hanamaru - ED1 - Ten to Koyomi
+- JPN - Zoku Touken Ranbu Hanamaru - ED2 - Ashita Tenki ni Naare
+- JPN - Zoku Touken Ranbu Hanamaru - ED3 - Kushiki Meguri wa Iki na Enishi
+- JPN - Zoku Touken Ranbu Hanamaru - ED4 - Medetashi Tsukurigoto
+- JPN - Zoku Touken Ranbu Hanamaru - ED5 - Michiyuki, Yoriai
+- JPN - Zoku Touken Ranbu Hanamaru - ED6 - Hanairo Goromo
+- JPN - Zoku Touken Ranbu Hanamaru - ED7 - Suzunaridoki ni te
+
 # December 2018
 
 Contributors :
