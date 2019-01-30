@@ -12,6 +12,7 @@ Contributors :
 - @Krow
 - @Olivier Jolly
 - @Lua
+- @Nabashi
 
 
 ## Fixes and stuff
