@@ -14,7 +14,6 @@ Contributors :
 - @Lua
 - @Nabashi
 
-
 ## Fixes and stuff
 
 We have now less than 1000 videos still in AVI/Xvid format. We're making good progress on replacing everything with better quality, MP4 files (most often creditless versions)
@@ -73,6 +72,7 @@ Please check out the commits list to get a detailed view of what has been fixed.
 - JPN - Tomoyo After - PC GAME OP - Light colors ~ English Edition Vers
 - JPN - Tsukumogami Kashimasu - ED - Koyoi wa Yume wo Misasete
 - JPN - Tsukumogami Kashimasu - OP - Get Into My Heart
+- JPN - Violet Evergarden - LIVE - Michishirube
 - JPN - Virtual-san wa Miteiru - ED - Hitogata
 - JPN - Zoku Touken Ranbu Hanamaru - ED1 - Ten to Koyomi
 - JPN - Zoku Touken Ranbu Hanamaru - ED2 - Ashita Tenki ni Naare
