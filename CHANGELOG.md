@@ -6,11 +6,11 @@ Contributors :
 - @Nock
 - @Rinchama
 - @Kmeuh
-- @PierreCAMILI
+- @PierreCAMILLI
 - @Maxaoh
 - @nah
 - @Krow
-- @Olivier Jolly
+- @zeograd
 - @Lua
 - @Nabashi
 
