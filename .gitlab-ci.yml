@@ -6,39 +6,40 @@ stages:
 
 test:
   stage: test
+  services:
+    - postgres:10.6
+  variables:
+    POSTGRES_USER: karaokemugen_app
+    POSTGRES_PASSWORD: musubi
   artifacts:
-    expire_in: 1 hour
+    expire_in: 1 day
     paths:
-      - db
+      - names.php
   script:
-    - mkdir -p db
+    - apt-get install php-pgsql
     - git clone https://lab.shelter.moe/karaokemugen/karaokemugen-app.git
     - cd karaokemugen-app
-    - git checkout next
+    - git checkout 379-postgresql
     - yarn install
     - touch mpv
+    - cp -f database.CICD.json database.json
+    - node util/extUnaccent.js
     - echo "PathKaras=../karas" >config.ini
     - echo "PathSubs=../lyrics" >>config.ini
     - echo "PathSeries=../series" >>config.ini
     - echo "PathMedias=/shelter/app/data/videos" >>config.ini
     - echo "BinPlayerLinux=mpv" >>config.ini
-    - echo "PathDB=../db" >>config.ini
     - yarn start --debug --generate --strict
+    - php -f tools/export_karaokesmoe.php >names.php
   only:
     - master
+    - postgresql
 
 
 export:
   stage: deploy
   script:
-    - php -f tools/export_karaokesmoe.php db/karas.sqlite3 >names.php
     - lftp -c "set ftp:ssl-allow no; set ftp:charset "UTF-8" ; set file:charset utf-8; open -u $USERNAME,$PASSWORD $HOST; cd live; put names.php ; lcd lyrics ; cd subtitles ; mirror -Rnev --parallel=10"
-    - bash tools/export_karas.sh db/karas.sqlite3 >karas.json
-    - bash tools/export_series.sh db/karas.sqlite3 >series_karas.json
-    - bash tools/stats.sh db/karas.sqlite3 >stats.json
-    - bash tools/export_tags.sh db/karas.sqlite3 >tags_karas.json
-    - bash tools/export_years.sh db/karas.sqlite3 >years_karas.json
-    - lftp -c "set ftp:ssl-allow no; set ftp:charset "UTF-8" ; set file:charset utf-8;  open -u $USERNAME,$PASSWORD $HOST; cd site/downloads; put karas.json; put tags_karas.json ; put years_karas.json ; put series_karas.json; put stats.json ; put db/karas.sqlite3 ; lcd lyrics ; cd .. ; cd lyricsfiles ; mirror -Rnev --parallel=10 ; cd .. ; cd karafiles ; lcd .. ; lcd karas ; mirror -Rnev --parallel=10"
     - lftp -c "set ftp:ssl-allow no; set ftp:charset "UTF-8" ; set file:charset utf-8; open -u $USERNAME,$PASSWORD $HOST; cd kmserver/app/data/karas ; lcd karas ; mirror -Rnev --parallel=10 ; cd ../lyrics ; lcd ../lyrics ; mirror -Rnev --parallel=10 ; cd ../series  ; lcd ../series ; mirror -Rnev --parallel=10"
     - echo "Triggering KM Server generation"
     - "curl -X POST -H authorization:$KMSERVERAUTH http://kara.moe/api/generate"
