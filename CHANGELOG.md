@@ -1,4 +1,4 @@
-# Janvier 2019
+# January 2019
 
 Contributors :
 
@@ -24,7 +24,7 @@ Please check out the commits list to get a detailed view of what has been fixed.
 
 ## Added
 
-53 new songs this month!
+54 new songs this month!
 
 - ENG - Banana Fish - ED2 - RED
 - ENG - Liz to Aoi Tori - MOVIE ED2 - Songbirds.mp4
