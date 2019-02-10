@@ -1,3 +1,223 @@
+# January 2019
+
+Contributors :
+
+- @Aeden
+- @Nock
+- @Rinchama
+- @Kmeuh
+- @PierreCAMILLI
+- @Maxaoh
+- @nah
+- @Krow
+- @zeograd
+- @Lua
+- @Nabashi
+
+## Fixes and stuff
+
+We have now less than 1000 videos still in AVI/Xvid format. We're making good progress on replacing everything with better quality, MP4 files (most often creditless versions)
+
+Also, a few hardsubs were replaced by videos + .ass files.
+
+Please check out the commits list to get a detailed view of what has been fixed.
+
+## Added
+
+54 new songs this month!
+
+- ENG - Banana Fish - ED2 - RED
+- ENG - Liz to Aoi Tori - MOVIE ED2 - Songbirds.mp4
+- ENG - Mother - REMIX GAME MV - Pollyanna (I Believe in You)
+- FRE - Usul - MV - Le CD ~ Part 1
+- FRE - Girls und Panzer das Finale - MOVIE IN - La Chanson de l'oignon
+- ITA - Hokuto no Ken 2 - AMV - Tough Boy
+- JPN - Ar tonelico 2 Sekai ni Hibiku Shoujo-tachi no Metafarika - PS2 GAME MV - homura~HOMURA
+- JPN - Banana Fish - OP2 - FREEDOM
+- JPN - Baby I Love You Daze - MV - Shinsekai
+- JPN - Berserk 2nd Season - OP - Sacrifice
+- JPN - Black Clover (2017) - ED5 - Tenjou Tenge
+- JPN - Black Clover (2017) - OP5 - Gamushara
+- JPN - Boruto Naruto Next Generations - ED7 - Polaris
+- JPN - Boruto Naruto Next Generations - OP4 - Lonely Go!
+- JPN - Bubblegum Crisis - OVA MV - Mad Machine
+- JPN - Conception - ED - Desires
+- JPN - Conception - OP - Star light, Star bright
+- JPN - Death Parade - OT - Flyers
+- JPN - Denkou Choujin Gridman - OP - Yume no Hero
+- JPN - Eiyuu Densetsu Sen no Kiseki - PS3 PSV PC GAME OP - Ashita he no Kodou
+- JPN - Fairy Tail Final Series - ED1 - Endless Harmony
+- JPN - Fairy Tail Final Series - OP1 - power of the dream
+- JPN - Jingai-san no Yome - ED - Happy Life Spectacle
+- JPN - Gekijouban Macross Frontier Sayonara no Tsubasa - MOVIE LIVE - Niji-iro Kuma Kuma
+- JPN - Girls und Panzer das Finale - MOVIE ED1 - Enter Enter Misson! Das Finale Ver
+- JPN - Girls und Panzer das Finale - MOVIE OP1 - Grand symphony
+- JPN - Goblin Slayer - ED1 - Gin no Kisei
+- JPN - Goblin Slayer - OP - Rightfully
+- JPN - Hokuto no Ken 2 - AMV - Tough Boy
+- JPN - Hokuto no Ken 2 - OP - Tough Boy Alternative Vers
+- JPN - JoJo no Kimyou na Bouken Ougon no Kaze - OP1 - Fighting Gold
+- JPN - Kaguya-sama wa Kokurasetai Tensai-tachi no Ren'ai Zunousen - ED2 - Chikatto Chika Chika
+- JPN - Karigurashi no Arietti - MOVIE MV - Arrietty's song
+- JPN - Kemono Friends 2 - OP - Notteke! Japari Beat
+- JPN - Liz to Aoi Tori - MOVIE ED1 - Girls, Dance, Staircase.mp4
+- JPN - Miku Hatsune - MV - Rolling Girl
+- JPN - Mirai no Mirai - MOVIE OP - Mirai no Theme
+- JPN - Mob Psycho 100 II - OP1 - 99.9
+- JPN - No.6 - MV - Spell
+- JPN - NO THANK YOU!!! - PC GAME OP - No, Thank you!!!
+- JPN - Sayonara Zetsubou-sensei - ED - Zessei Bijin
+- JPN - SSSS.Gridman - SPECIAL AMV - Yume no Hero
+- JPN - Thunderbolt Fantasy Touri-ken Yuuki - OP - RAIMEI
+- JPN - Tomoyo After - PC GAME OP - Light colors ~ English Edition Vers
+- JPN - Tsukumogami Kashimasu - ED - Koyoi wa Yume wo Misasete
+- JPN - Tsukumogami Kashimasu - OP - Get Into My Heart
+- JPN - Violet Evergarden - LIVE - Michishirube
+- JPN - Virtual-san wa Miteiru - ED - Hitogata
+- JPN - Zoku Touken Ranbu Hanamaru - ED1 - Ten to Koyomi
+- JPN - Zoku Touken Ranbu Hanamaru - ED2 - Ashita Tenki ni Naare
+- JPN - Zoku Touken Ranbu Hanamaru - ED3 - Kushiki Meguri wa Iki na Enishi
+- JPN - Zoku Touken Ranbu Hanamaru - ED4 - Medetashi Tsukurigoto
+- JPN - Zoku Touken Ranbu Hanamaru - ED5 - Michiyuki, Yoriai
+- JPN - Zoku Touken Ranbu Hanamaru - ED6 - Hanairo Goromo
+- JPN - Zoku Touken Ranbu Hanamaru - ED7 - Suzunaridoki ni te
+
+# December 2018
+
+Contributors :
+
+- @Aeden
+- @Nock
+- @Rinchama
+- @Kmeuh
+- @AxelTerizaki
+- @Lua
+- @JoffreyAbeilard
+- @Ziassan
+- @nah
+- @olivier
+- @Nabashi
+- @PierreCAMILLI
+
+## Added
+
+113 new songs
+
+- ENG - Gintama - ED2 - MR.RAINDROP / closes #597
+- ENG - League of Legends - PC GAME MV - Legends never die
+- ENG - Maison Ikkoku - ED3 - Get Down
+- ENG - Steven Universe - IN - Stronger Than
+- ENG - SUPER SMASH BROTHERS MELEEEEEEEEEE - OP - Opening Theme
+- ENG - Super Smash Bros. Ultimate - OP - Lifelight
+- FRE - Carlos - MV - Tout nu et tout bronzé
+- FRE - Futaridaka - OP - A Plein Gaz
+- FRE - La personne aux deux personnes - MOVIE IN - COGIP !
+- FRE - Pokemon, la série : XY - OP - Attrapez-les tous
+- FRE - Pokémon le film 17 : Diancie et le cocon de l'annihilation - MOVIE OP - Attrapez-les tous
+- FRE - Pokémon Sun & Moon - OP - Sous le soleil d'Alola
+- FRE - Pokémon Sun & Moon Ultra Aventures - OP - Sous la lune d'Alola
+- FRE - Pokémon - MV - Mes amis
+- FRE - Super Smash Bros. Brawl - GAME OP - Main Theme (Parodie vraies paroles)
+- FRE - Touhou - REMIX MV - Reve eveille
+- ITA - Umineko no Naku Koro ni Chiru - PC GAME ED - Byakumu no Mayu ~ ricordando il passato~
+- JPN - Akanesasu Shoujo - ED - Kowarekake No Radio
+- JPN - Akanesasu Shoujo - OP - Soranetarium
+- JPN - Arabian Nights Sindbad no Bouken - OP - Sindbad no Bouken
+- JPN - Arcana Famiglia - PSP GAME OP - Stellina
+- JPN - Arcana Famiglia 2 - PSP GAME OP - Promessa
+- JPN - Ashita no Joe - ED2 - Rikiishi Tooru no Theme
+- JPN - Beelzebub-jou no Oki ni Mesu Mama. - ED - Akumade Koiwazurai
+- JPN - Beelzebub-jou no Oki ni Mesu Mama. - OP - Pink Lemonade
+- JPN - Blocker Gundan IV Machine Blaster - OP - Blocker Gundan IV Machine Blaster
+- JPN - CHiCO with HoneyWorks - MV - GIMME GIMME CALL
+- JPN - Chronostacia - PSP GAME OP - Kokugen no Rondo
+- JPN - Emiya-san Chi no Kyou no Gohan - ONA ED - Collage
+- JPN - Fake - OVA OP - Everybody! Shake It Buddy!
+- JPN - Gintama - ED3 - Yuki no Tsubasa (#598)
+- JPN - Gintama - ED10 - This world is yours (#599)
+- JPN - Godzilla Kaijuu Wakusei - MV - WHITE OUT
+- JPN - Gokusen - ED - Onore Michi
+- JPN - Gokusen - OP - Hontou no Kotoba
+- JPN - Haikara-san ga Tooru - OP - Haikara-san ga Tooru
+- JPN - Haitaka no Psychedelica - PSV GAME OP - Haizora no Shizuku
+- JPN - Himote House - OP - Motetaino
+- JPN - Jormungand Perfect Order - OP - UNDER SHAFT
+- JPN - Katakoi Contrast -Way of Parting- - PC GAME OP - Pure Contrast ~ Vol.1 Vers
+- JPN - Katakoi Contrast -Way of Parting- - PC GAME OP - Pure Contrast ~ Vol.2 Vers
+- JPN - Katakoi Contrast -Way of Parting- - PC GAME OP - Pure Contrast ~ Vol.3 Vers
+- JPN - Katsugeki Touken Ranbu - ED - Hyakka Ryouran
+- JPN - Kaze ga Tsuyoku Fuiteiru - ED1 - Reset
+- JPN - Kaze ga Tsuyoku Fuiteiru - OP1 - Catch up, latency
+- JPN - Ken En Ken Aoki Kagayaki - ED - Negai no Hana
+- JPN - Ken En Ken Aoki Kagayaki - OP - Nageki no Hana
+- JPN - Kidou Senshi Victory Gundam - ED2 - Mou Ichido Tenderness
+- JPN - Kikou Ryouhei Mellowlink - OVA ED - Vanity
+- JPN - Kikou Ryouhei Mellowlink - OVA OP - Soldier Blue
+- JPN - Kinnikuman - OP2 - Honoo no Kinnikuman
+- JPN - Kinnikuman - OP3 - Kinnikuman Senpuu!
+- JPN - Kishuku Gakkou no Juliet - ED - Itsuka Sekai ga Kawaru Made
+- JPN - Kishuku Gakkou no Juliet - OP - Love with You
+- JPN - Kiteretsu Daihyakka - OP - Oyome-san ni Natte Agenai Zo
+- JPN - Kono Sekai no Katasumi ni - MOVIE MV - Kanashikute Yarikirenai
+- JPN - Lupin III - ED - Lupin Sansei Sono 2
+- JPN - Macross 7 - ED2 - ...Dakedo Baby!!
+- JPN - Maison Ikkoku - ED1 - Ashita Hareruka
+- JPN - Maison Ikkoku - ED2 - Ci . ne . ma
+- JPN - Maison Ikkoku - ED4 - Fantasy
+- JPN - Maison Ikkoku - ED5 - Sayonara no Design
+- JPN - Maison Ikkoku - ED6 - Begin the Night
+- JPN - Meitantei Conan - OP43 - Sekai wa Anata no Iro ni Naru
+- JPN - Merc Storia Mukiryoku Shounen to Bin no Naka no Shoujo - ED - Bottleship
+- JPN - Merc Storia Mukiryoku Shounen to Bin no Naka no Shoujo - OP - Origin
+- JPN - Miku Hatsune - LIVE - Mahô Mitaina Music! (Music Like Magic!) ~ Miku Expo 2018 Paris
+- JPN - Miku Hatsune - MV - Mahô Mitaina Music! (Music Like Magic!)
+- JPN - Mahou Sensei Negima! Mou Hitotsu no Sekai - OVA OP1 - LOVE Drive (#610)
+- JPN - Megazone 23 - OVA IN - Senaka Goshi ni Sentimental ~ Full Vers
+- JPN - Muu no Hakugei - ED - Shinjirukai
+- JPN - Ninja Hattori-kun - OP - Ninja Hattori-kun
+- JPN - Ore ga Suki na no wa Imouto Dakedo Imouto ja Nai - ED - Ki Shou Ten Ketsu Jo Ha Kyuu
+- JPN - Ore ga Suki na no wa Imouto Dakedo Imouto ja Nai - OP - Secret Story
+- JPN - Perfume - MV - TOKYO GIRL
+- JPN - Radiant - ED - Radiant
+- JPN - Radiant - OP - Utopia
+- JPN - Ranma - ED1 - Platonic Tsuranuite
+- JPN - Ranma - ED2 - Equal Romance
+- JPN - Ribbon no Kishi - OP - Ribbon no Kishi (Oujo Ban)
+- JPN - Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai - ED4 - Fukashigi no Karte ~ Rio Vers
+- JPN - Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai - ED5 - Fukashigi no Karte ~ Nodoka Vers
+- JPN - Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai - ED6 - Fukashigi no Karte ~ Kaede Vers
+- JPN - Senran Kagura Shinovi Master - Tokyo Youma Hen - ED - Junsei Erotic
+- JPN - Servant x Service - ED - Hachimitsu Doki
+- JPN - SF Saiyuuki Starzinger - OP1 - Starzinger no Uta
+- JPN - Shin Ace o Nerae! - OP - Seishun ni Kakero!
+- JPN - Shin Seiki Evangelion - AMV - Zankoku na Tenshi no These ~ Animetal Vers
+- JPN - Shin Skyers 5 - OP - Skyers 5
+- JPN - Silver Kamen - OP - Kokyou wa Chikyuu
+- JPN - Space Cobra - ED - Secret Desire
+- JPN - Super Smash Bros. Ultimate - OP - Lifelight
+- JPN - Tamayura Sotsugyou Shashin - MOVIE ED1 - Kore kara
+- JPN - Tatakae! Chou Robot Seimeitai Transformers Victory - OP - Transformers Victory
+- JPN - Toshokan Sensou - OP Atashi no Machi Ashita no Machi
+- JPN - The iDOLM@STER - ED2 - Positive!
+- JPN - The iDOLM@STER - ED3 - First Stage
+- JPN - The iDOLM@STER - ED6 - THE IDOLM@STER
+- JPN - The iDOLM@STER - ED9 - Reimei Starline
+- JPN - The iDOLM@STER - ED11 - START!!
+- JPN - The iDOLM@STER - ED16 - Brand New Day!
+- JPN - The iDOLM@STER - ED17 - Cheering Letter
+- JPN - The iDOLM@STER - ED22 - Happy Christmas
+- JPN - Tetsujin 28-gou (2004) - OP - Tetsujin 28-gou
+- JPN - Tiger Mask - ED - Minashigo no Ballad
+- JPN - Tokimeki Tonight - ED - Super Love Lotion
+- JPN - Tokyo Ghoul re 2nd Season - ED - Rakuen no Kimi
+- JPN - Tokyo Ghoul re 2nd Season - OP - katharsis
+- JPN - Uchuu Kaizoku Captain Harlock - ED - Warera no Tabidachi
+- JPN - Uchuu Tetsujin Kyodain - OP - Uchuu Tetsujin Kyodain
+- JPN - Urusei Yatsura - OP3 - Pajama Ja Mada!
+- JPN - Versailles no Bara - AMV - Bara wa utsukushiku chiru ~ Animetal Vers
+- JPN - Yorinuki Gintama-san - ED4 - Sakurane / closes #601
+- JPN - Yorushika - MV - itte.
+
 # November 2018
 
 Contributors :

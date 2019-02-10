@@ -6,8 +6,8 @@ ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
-PlayResX: 1920
-PlayResY: 1080
+PlayResX: 0
+PlayResY: 0
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
@@ -16,28 +16,49 @@ Video File: ../../../KaraokeMugen/app/data/videos/ANG - Ef ~ a tale of melodies 
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
+Active Line: 4
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,76,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,6.75,0,8,23,23,23,1
+Style: KM-furigana,Arial,12,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,8,15,15,20,1
+Style: KM,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:00:00.00,0:00:03.50,Default,,0,0,0,,{\k54.21184320266889}{\k75}love, {\k21}I{\k25}'ve {\k21}got {\k21}to {\k79}feel {\k54}it
-Dialogue: 1,0:00:02.84,0:00:06.80,Default,,0,0,0,,{\k100}{\k75}if {\k29}you {\k29}put {\k33}your {\k33}trust {\k29}in {\k67}me
-Dialogue: 1,0:00:06.21,0:00:10.09,Default,,0,0,0,,{\k100}{\k75}I {\k25}know {\k33}what {\k29}my {\k63}life {\k21}would {\k42}be
-Dialogue: 1,0:00:09.55,0:00:15.18,Default,,0,0,0,,{\k100}{\k79}oh, {\k17}you {\k21}are {\k13}all {\k25}I {\k71}e{\k21}ver {\k217}need
-Dialogue: 1,0:00:14.60,0:00:20.89,Default,,0,0,0,,{\k100}{\k113}I {\k83}{\k38}try {\k38}to {\k42}hear {\k71}what {\k25}you {\k121}say
-Dialogue: 1,0:00:20.27,0:00:23.02,Default,,0,0,0,,{\k100}{\k38}so {\k33}I {\k104}pray
-Dialogue: 1,0:00:22.39,0:00:27.02,Default,,0,0,0,,{\k100}{\k33}but {\k33}you're {\k42}fa{\k46}ding {\k33}a{\k175}way
-Dialogue: 1,0:00:27.36,0:00:33.90,Default,,0,0,0,,{\k100}{\k38}don't {\k125}go {\k92}{\k29}and {\k33}break {\k42}my {\k71}fra{\k25}gile {\k100}heart
-Dialogue: 1,0:00:33.40,0:00:37.61,Default,,0,0,0,,{\k100}{\k46}we {\k42}won't {\k75}fall {\k21}a{\k138}part
-Dialogue: 1,0:00:36.91,0:00:45.20,Default,,0,0,0,,{\k100}{\k25}'cause {\k33}you're {\k183}my {\k163}on{\k154}ly {\k171}star
-Dialogue: 1,0:00:46.75,0:00:51.42,Default,,0,0,0,,{\k100}{\k42}I {\k38}won{\k71}der {\k42}why {\k29}my {\k25}tears {\k67}come {\k21}at {\k33}night
-Dialogue: 1,0:00:50.42,0:00:54.92,Default,,0,0,0,,{\k100}{\k25}cal{\k21}ling {\k50}you, {\k21}{\k33}so {\k42}like {\k17}a {\k25}lit{\k33}tle {\k83}child
-Dialogue: 1,0:00:54.17,0:00:58.13,Default,,0,0,0,,{\k100}{\k75}all {\k29}the {\k38}things {\k17}you {\k67}have {\k21}in {\k50}mind
-Dialogue: 1,0:00:57.38,0:01:01.55,Default,,0,0,0,,{\k100}{\k83}I {\k29}wish {\k21}I {\k21}could {\k17}see {\k63}your {\k17}in{\k67}sides
-Dialogue: 1,0:01:00.55,0:01:04.72,Default,,0,0,0,,{\k100}{\k25}my {\k75}love, {\k25}you{\k21}'ve {\k21}got {\k21}to {\k75}feel {\k54}it
-Dialogue: 1,0:01:03.72,0:01:08.02,Default,,0,0,0,,{\k100}{\k21}and {\k17}if {\k13}we {\k67}put {\k33}our {\k33}trust {\k17}in {\k33}you {\k33}and {\k63}me
-Dialogue: 1,0:01:07.27,0:01:11.31,Default,,0,0,0,,{\k100}{\k17}you {\k88}know {\k25}what {\k29}our {\k21}lives {\k75}would {\k50}be
-Dialogue: 1,0:01:10.64,0:01:19.15,Default,,0,0,0,,{\k100}{\k150}oh, {\k29}{\k29}you {\k42}are {\k46}the {\k42}one {\k67}I {\k17}be{\k329}lieve
+Comment: 0,0:00:00.00,0:00:00.00,KM,,0,0,0,template pre-line all keeptags,!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}
+Comment: 1,0:00:00.54,0:00:03.50,KM,,0,0,0,karaoke,{\k75}love, {\k21}I{\k25}'ve {\k21}got {\k21}to {\k79}feel {\k54}it
+Comment: 1,0:00:03.84,0:00:06.80,KM,,0,0,0,karaoke,{\k75}if {\k29}you {\k29}put {\k33}your {\k33}trust {\k29}in {\k67}me
+Comment: 1,0:00:07.21,0:00:10.09,KM,,0,0,0,karaoke,{\k75}I {\k25}know {\k33}what {\k29}my {\k63}life {\k21}would {\k42}be
+Comment: 1,0:00:10.55,0:00:15.18,KM,,0,0,0,karaoke,{\k79}oh, {\k17}you {\k21}are {\k13}all {\k25}I {\k71}e{\k21}ver {\k217}need
+Comment: 1,0:00:15.60,0:00:20.89,KM,,0,0,0,karaoke,{\k113}I {\k83}{\k38}try {\k38}to {\k42}hear {\k71}what {\k25}you {\k121}say
+Comment: 1,0:00:21.27,0:00:23.02,KM,,0,0,0,karaoke,{\k38}so {\k33}I {\k104}pray
+Comment: 1,0:00:23.39,0:00:27.02,KM,,0,0,0,karaoke,{\k33}but {\k33}you're {\k42}fa{\k46}ding {\k33}a{\k175}way
+Comment: 1,0:00:28.36,0:00:33.90,KM,,0,0,0,karaoke,{\k38}don't {\k125}go {\k92}{\k29}and {\k33}break {\k42}my {\k71}fra{\k25}gile {\k100}heart
+Comment: 1,0:00:34.40,0:00:37.61,KM,,0,0,0,karaoke,{\k46}we {\k42}won't {\k75}fall {\k21}a{\k138}part
+Comment: 1,0:00:37.91,0:00:45.20,KM,,0,0,0,karaoke,{\k25}'cause {\k33}you're {\k183}my {\k163}on{\k154}ly {\k171}star
+Comment: 1,0:00:47.75,0:00:51.42,KM,,0,0,0,karaoke,{\k42}I {\k38}won{\k71}der {\k42}why {\k29}my {\k25}tears {\k67}come {\k21}at {\k33}night
+Comment: 1,0:00:51.42,0:00:54.92,KM,,0,0,0,karaoke,{\k25}cal{\k21}ling {\k50}you, {\k21}{\k33}so {\k42}like {\k17}a {\k25}lit{\k33}tle {\k83}child
+Comment: 1,0:00:55.17,0:00:58.13,KM,,0,0,0,karaoke,{\k75}all {\k29}the {\k38}things {\k17}you {\k67}have {\k21}in {\k50}mind
+Comment: 1,0:00:58.38,0:01:01.55,KM,,0,0,0,karaoke,{\k83}I {\k29}wish {\k21}I {\k21}could {\k17}see {\k63}your {\k17}in{\k67}sides
+Comment: 1,0:01:01.55,0:01:04.72,KM,,0,0,0,karaoke,{\k25}my {\k75}love, {\k25}you{\k21}'ve {\k21}got {\k21}to {\k75}feel {\k54}it
+Comment: 1,0:01:04.72,0:01:08.02,KM,,0,0,0,karaoke,{\k21}and {\k17}if {\k13}we {\k67}put {\k33}our {\k33}trust {\k17}in {\k33}you {\k33}and {\k63}me
+Comment: 1,0:01:08.27,0:01:11.31,KM,,0,0,0,karaoke,{\k17}you {\k88}know {\k25}what {\k29}our {\k21}lives {\k75}would {\k50}be
+Comment: 1,0:01:11.64,0:01:19.15,KM,,0,0,0,karaoke,{\k150}oh, {\k29}{\k29}you {\k42}are {\k46}the {\k42}one {\k67}I {\k17}be{\k329}lieve
+Dialogue: 0,0:00:00.00,0:00:03.60,KM,,0,0,0,fx,{\fade(255,0,255,0,390,3960,4060)\k44}{\k75}love, {\k21}I{\k25}'ve {\k21}got {\k21}to {\k79}feel {\k54}it
+Dialogue: 0,0:00:02.84,0:00:06.90,KM,,0,0,0,fx,{\fade(255,0,255,0,850,3960,4060)\k90}{\k75}if {\k29}you {\k29}put {\k33}your {\k33}trust {\k29}in {\k67}me
+Dialogue: 0,0:00:06.21,0:00:10.19,KM,,0,0,0,fx,{\fade(255,0,255,0,850,3880,3980)\k90}{\k75}I {\k25}know {\k33}what {\k29}my {\k63}life {\k21}would {\k42}be
+Dialogue: 0,0:00:09.55,0:00:15.28,KM,,0,0,0,fx,{\fade(255,0,255,0,850,5630,5730)\k90}{\k79}oh, {\k17}you {\k21}are {\k13}all {\k25}I {\k71}e{\k21}ver {\k217}need
+Dialogue: 0,0:00:14.60,0:00:20.99,KM,,0,0,0,fx,{\fade(255,0,255,0,850,6290,6390)\k90}{\k113}I {\k83}{\k38}try {\k38}to {\k42}hear {\k71}what {\k25}you {\k121}say
+Dialogue: 0,0:00:20.27,0:00:23.12,KM,,0,0,0,fx,{\fade(255,0,255,0,850,2750,2850)\k90}{\k38}so {\k33}I {\k104}pray
+Dialogue: 0,0:00:22.39,0:00:27.12,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4630,4730)\k90}{\k33}but {\k33}you're {\k42}fa{\k46}ding {\k33}a{\k175}way
+Dialogue: 0,0:00:27.36,0:00:34.00,KM,,0,0,0,fx,{\fade(255,0,255,0,850,6540,6640)\k90}{\k38}don't {\k125}go {\k92}{\k29}and {\k33}break {\k42}my {\k71}fra{\k25}gile {\k100}heart
+Dialogue: 0,0:00:33.40,0:00:37.71,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4210,4310)\k90}{\k46}we {\k42}won't {\k75}fall {\k21}a{\k138}part
+Dialogue: 0,0:00:36.91,0:00:45.30,KM,,0,0,0,fx,{\fade(255,0,255,0,850,8290,8390)\k90}{\k25}'cause {\k33}you're {\k183}my {\k163}on{\k154}ly {\k171}star
+Dialogue: 0,0:00:46.75,0:00:51.52,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4670,4770)\k90}{\k42}I {\k38}won{\k71}der {\k42}why {\k29}my {\k25}tears {\k67}come {\k21}at {\k33}night
+Dialogue: 0,0:00:50.42,0:00:55.02,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4500,4600)\k90}{\k25}cal{\k21}ling {\k50}you, {\k21}{\k33}so {\k42}like {\k17}a {\k25}lit{\k33}tle {\k83}child
+Dialogue: 0,0:00:54.17,0:00:58.23,KM,,0,0,0,fx,{\fade(255,0,255,0,850,3960,4060)\k90}{\k75}all {\k29}the {\k38}things {\k17}you {\k67}have {\k21}in {\k50}mind
+Dialogue: 0,0:00:57.38,0:01:01.65,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4170,4270)\k90}{\k83}I {\k29}wish {\k21}I {\k21}could {\k17}see {\k63}your {\k17}in{\k67}sides
+Dialogue: 0,0:01:00.55,0:01:04.82,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4170,4270)\k90}{\k25}my {\k75}love, {\k25}you{\k21}'ve {\k21}got {\k21}to {\k75}feel {\k54}it
+Dialogue: 0,0:01:03.72,0:01:08.12,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4300,4400)\k90}{\k21}and {\k17}if {\k13}we {\k67}put {\k33}our {\k33}trust {\k17}in {\k33}you {\k33}and {\k63}me
+Dialogue: 0,0:01:07.27,0:01:11.41,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4040,4140)\k90}{\k17}you {\k88}know {\k25}what {\k29}our {\k21}lives {\k75}would {\k50}be
+Dialogue: 0,0:01:10.64,0:01:19.25,KM,,0,0,0,fx,{\fade(255,0,255,0,850,8510,8610)\k90}{\k150}oh, {\k29}{\k29}you {\k42}are {\k46}the {\k42}one {\k67}I {\k17}be{\k329}lieve
