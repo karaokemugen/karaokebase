@@ -1,4 +1,4 @@
-# Janvier 2019
+# January 2019
 
 Contributors :
 
@@ -6,14 +6,13 @@ Contributors :
 - @Nock
 - @Rinchama
 - @Kmeuh
-- @PierreCAMILI
+- @PierreCAMILLI
 - @Maxaoh
 - @nah
 - @Krow
-- @Olivier Jolly
+- @zeograd
 - @Lua
 - @Nabashi
-
 
 ## Fixes and stuff
 
@@ -25,7 +24,7 @@ Please check out the commits list to get a detailed view of what has been fixed.
 
 ## Added
 
-53 new songs this month!
+54 new songs this month!
 
 - ENG - Banana Fish - ED2 - RED
 - ENG - Liz to Aoi Tori - MOVIE ED2 - Songbirds.mp4
@@ -73,6 +72,7 @@ Please check out the commits list to get a detailed view of what has been fixed.
 - JPN - Tomoyo After - PC GAME OP - Light colors ~ English Edition Vers
 - JPN - Tsukumogami Kashimasu - ED - Koyoi wa Yume wo Misasete
 - JPN - Tsukumogami Kashimasu - OP - Get Into My Heart
+- JPN - Violet Evergarden - LIVE - Michishirube
 - JPN - Virtual-san wa Miteiru - ED - Hitogata
 - JPN - Zoku Touken Ranbu Hanamaru - ED1 - Ten to Koyomi
 - JPN - Zoku Touken Ranbu Hanamaru - ED2 - Ashita Tenki ni Naare
