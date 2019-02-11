@@ -5,82 +5,38 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 if(!empty($argv[1])) {
-	$filepath=$argv[1];
+	$pgsqlDSN=$argv[1];
 } else {
-	$filepath=dirname(__FILE__).'/karas.sqlite3';
+	$pgsqlDSN='host=postgres;port=5432;dbname=karaokemugen_app;user=karaokemugen_app;password=musubi';
 }
 
 try{
-    $pdo = new PDO('sqlite:'.$filepath);
+    $pdo = new PDO('pgsql:'.$pgsqlDSN);
     $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // ERRMODE_WARNING | ERRMODE_EXCEPTION | ERRMODE_SILENT
 } catch(Exception $e) {
-    echo "Unable to read SQLite database : ".$e->getMessage();
+    echo "Unable to connect to database : ".$e->getMessage();
     die();
 }
 
 $query= '
-SELECT k.pk_id_kara AS kara_id, k.title, k.duration, k.year, k.mediafile, k.subfile, k.songorder, k.kid
-,(select GROUP_CONCAT( s.name)
-    FROM kara_serie ks
-    INNER JOIN serie s ON ks.fk_id_serie = s.pk_id_serie
-    WHERE k.pk_id_kara = ks.fk_id_kara
-    ) as serie
-,(select GROUP_CONCAT( s.altname)
-    FROM kara_serie ks
-    INNER JOIN serie s ON ks.fk_id_serie = s.pk_id_serie
-    WHERE k.pk_id_kara = ks.fk_id_kara
-    ) as serie_altname
-,(select GROUP_CONCAT( t2.name)
-    FROM kara_tag kt2
-    INNER JOIN tag t2 ON kt2.fk_id_tag = t2.pk_id_tag AND t2.tagtype = 2
-    WHERE k.pk_id_kara = kt2.fk_id_kara
-    ) as singer
-,(select GROUP_CONCAT( t3.name)
-    FROM kara_tag kt3
-    INNER JOIN tag t3 ON kt3.fk_id_tag = t3.pk_id_tag AND t3.tagtype = 3
-    WHERE k.pk_id_kara = kt3.fk_id_kara
-    ) as songtype
-,(select GROUP_CONCAT( t4.name)
-    FROM kara_tag kt4
-    INNER JOIN tag t4 ON kt4.fk_id_tag = t4.pk_id_tag AND t4.tagtype = 4
-    WHERE k.pk_id_kara = kt4.fk_id_kara
-    ) as creator
-,(select GROUP_CONCAT( t5.name)
-    FROM kara_tag kt5
-    INNER JOIN tag t5 ON kt5.fk_id_tag = t5.pk_id_tag AND t5.tagtype = 5
-    WHERE k.pk_id_kara = kt5.fk_id_kara
-    ) as [language]
-,(select GROUP_CONCAT( t6.name)
-    FROM kara_tag kt6
-    INNER JOIN tag t6 ON kt6.fk_id_tag = t6.pk_id_tag AND t6.tagtype = 6
-    WHERE k.pk_id_kara = kt6.fk_id_kara
-    ) as author
-,(select GROUP_CONCAT( t7.name)
-    FROM kara_tag kt7
-    INNER JOIN tag t7 ON kt7.fk_id_tag = t7.pk_id_tag AND t7.tagtype = 7
-    WHERE k.pk_id_kara = kt7.fk_id_kara
-    ) as misc
-,(select GROUP_CONCAT( t8.name)
-    FROM kara_tag kt8
-    INNER JOIN tag t8 ON kt8.fk_id_tag = t8.pk_id_tag AND t8.tagtype = 8
-    WHERE k.pk_id_kara = kt8.fk_id_kara
-    ) as songwriter
-,COALESCE(
-    (select GROUP_CONCAT( s.NORM_name)
-        FROM kara_serie ks
-        INNER JOIN serie s ON ks.fk_id_serie = s.pk_id_serie
-        WHERE k.pk_id_kara = ks.fk_id_kara
-        )
-    ,(select GROUP_CONCAT( t2.NORM_name)
-        FROM kara_tag kt2
-        INNER JOIN tag t2 ON kt2.fk_id_tag = t2.pk_id_tag AND t2.tagtype = 2
-        WHERE k.pk_id_kara = kt2.fk_id_kara
-    )
-) as co_serie_singer
-FROM kara k
-WHERE misc IS NULL OR misc NOT LIKE \'%TAG_R18%\' AND mediafile LIKE \'%.mp4\'
-order by co_serie_singer COLLATE NOCASE, language, songtype DESC, songorder';
+SELECT
+  ak.kid AS kid,
+  ak.title AS title,
+  ak.songorder AS songorder,
+  ak.serie AS serie,
+  ak.subfile AS subfile,
+  ak.singers AS singers,
+  ak.songtypes AS songtype,
+  ak.languages AS languages,
+  ak.authors AS authors,
+  ak.misc_tags AS misc_tags,
+  ak.mediafile AS mediafile
+FROM all_karas AS ak
+WHERE misc_tags::varchar NOT LIKE \'%TAG_R18%\' AND mediafile LIKE \'%.mp4\'
+GROUP BY ak.kid, ak.title, ak.songorder, ak.serie, ak.subfile, ak.singers, ak.songtypes, ak.languages, ak.authors, ak.misc_tags, ak.mediafile,  ak.languages_sortable, ak.songtypes_sortable, ak.singers_sortable
+ORDER BY ak.languages_sortable, ak.serie IS NULL, lower(unaccent(serie)), ak.songtypes_sortable DESC, ak.songorder, lower(unaccent(singers_sortable)), lower(unaccent(ak.title))
+';
 
 $data=$pdo->query($query)->fetchAll();
 
@@ -96,10 +52,6 @@ $types= [
     'TYPE_PV' => 'Promo',
 ];
 
-$extensions=[
-	'mp4',
-];
-
 function get_extension($fname){
 	return substr($fname, strrpos($fname, ".") + 1);
 }
@@ -111,13 +63,14 @@ function get_filename_without_ext($fname){
 $first_pass=[];
 foreach ($data as $kara) {
 
-	//Removing non-mp4
-    if(!in_array(get_extension($kara['mediafile']), $extensions)) {
-        continue;
-    }
-
 	//Series or artist name
-	$serie_singer = !empty($kara['serie'])?$kara['serie']:str_replace(',',', ',$kara['singer']);
+
+	if (!empty($kara['serie'])) {
+		$serie_singer = $kara['serie'];
+	} else {
+		$singers = json_decode($kara['singers'], true);
+		$serie_singer = $singers[0]['name'];
+	}
 
 	//init if series/singer not yet added
 	if(!isset($first_pass[$serie_singer])) {
@@ -136,7 +89,9 @@ foreach ($first_pass as $serie_singer => $kara_serie_singer) {
 	}
 
 	foreach ($kara_serie_singer as $kara) {
-		$type=$types[$kara['songtype']];
+		$songtype_json = json_decode($kara['songtype'], true);
+		$songtype = $songtype_json[0]['name'];
+		$type = $types[$songtype];
 
 		//init if type not yet added
 		if(!isset($second_pass[$serie_singer][$type])) {
@@ -159,9 +114,9 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 	foreach ($kara_serie_singer as $type => $list_kara) {
 		foreach($list_kara as $key => $kara) {
 			//Determine song order
-			$languages = explode(',', $kara['language']);
+			$languages = json_decode($kara['languages'], true);
 
-			$type_with_num = $type . (!empty($kara['songorder']) ? $kara['songorder'] : '') . ' - '  . $languages[0] . ' - ' . $kara['title'];
+			$type_with_num = $type . (!empty($kara['songorder']) ? $kara['songorder'] : '') . ' - '  . $languages[0]['name'] . ' - ' . $kara['title'];
 
 			if($kara['subfile'] === 'dummy.ass') {
 				$kara_data=[
@@ -183,15 +138,15 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 					'subtitles' => '(unknown)',
 					'uid' => $kara['kid'],
 				];
-
-				if(!empty($kara['author']) && $kara['author'] != 'NO_TAG')
-					$kara_data['subtitles'] = str_replace(',',', ',$kara['author']);
+				$author = json_decode($kara['authors'], true);
+				if(!empty($author) && $author[0]['name'] != 'NO_TAG')
+					$kara_data['subtitles'] = $author[0]['name'];
 				else
 					$kara_data['subtitles'] = '(unknown)';
 			}
-			
-			if(!empty($kara['singer']) && $kara['singer'] != 'NO_TAG')
-				$kara_data['song']['artist'] = str_replace(',',', ',$kara['singer']);
+			$singers = json_decode($kara['singers'], true);
+			if(!empty($singers[0]['name']) && $singers[0]['name'] != 'NO_TAG')
+				$kara_data['song']['artist'] = $singers[0]['name'];
 			else
 				$kara_data['song']['artist'] = '(unknown)';
 
