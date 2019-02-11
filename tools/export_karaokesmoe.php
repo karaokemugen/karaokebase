@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 if(!empty($argv[1])) {
 	$pgsqlDSN=$argv[1];
 } else {
-	$pgsqlDSN='host=localhost;port=5432;dbname=karaokemugen_app;user=karaokemugen_app;password=musubi';
+	$pgsqlDSN='host=postgres;port=5432;dbname=karaokemugen_app;user=karaokemugen_app;password=musubi';
 }
 
 try{
