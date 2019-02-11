@@ -29,7 +29,7 @@ test:
     - echo "PathMedias=/shelter/app/data/videos" >>config.ini
     - echo "BinPlayerLinux=mpv" >>config.ini
     - yarn start --debug --generate --strict
-    - php -f tools/export_karaokesmoe.php
+    - cd ..
     - php -f tools/export_karaokesmoe.php >names.php
   only:
     - master
