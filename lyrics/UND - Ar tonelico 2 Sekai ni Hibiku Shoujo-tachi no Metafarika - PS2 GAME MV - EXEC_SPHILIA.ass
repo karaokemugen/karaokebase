@@ -15,19 +15,21 @@ Audio File: FIC - Ar tonelico II Sekai ni Hibiku Shoujo-tachi no Metafarika - IN
 Video File: ?dummy:23.976000:8000:1280:720:0:0:0:
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 28
-Active Line: 50
+Active Line: 9
 Video Position: 5071
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default-furigana,Arial,11,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,0,8,10,10,20,1
+Style: Jacqli-furigana,Arial,11,&H00483FFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,0,8,10,10,20,1
+Style: Heart of Gaea-furigana,Arial,11,&H00FFC57D,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,0,8,10,10,20,1
 Style: Heart of Gaea,Arial,22,&H00FFC57D,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,10,10,20,1
 Style: Jacqli,Arial,22,&H00483FFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,10,10,20,1
 Style: Default,Arial,22,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,10,10,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,KM,,0,0,0,template pre-line all keeptags,!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}
 Comment: 1,0:00:00.98,0:00:05.69,Jacqli,,0,0,0,karaoke,{\k62}kia{\k22}fa {\k39}hynne {\k120}mea {\k59}pa{\k16}g{\k44}le {\k31}tes {\k67}yor
 Comment: 1,0:00:08.86,0:00:11.63,Heart of Gaea,,0,0,0,karaoke,{\k35}fou {\k43}paks {\k42}ga {\k38}kia{\k39}fa {\k38}hynne {\k42}yor
 Comment: 1,0:00:11.63,0:00:16.53,Jacqli,,0,0,0,karaoke,{\k78}kia{\k19}fa {\k31}sar{\k124}la {\k65}pa{\k16}g{\k35}le {\k38}tes {\k52}yor
@@ -86,61 +88,61 @@ Comment: 1,0:04:19.87,0:04:28.39,Jacqli,,0,0,0,karaoke,{\k164}den {\k87}har{\k66
 Comment: 1,0:04:28.97,0:04:40.33,Jacqli,,0,0,0,karaoke,{\k70}aul{\k120}la {\k67}yor {\k84}tes {\k93}me{\k702}a
 Comment: 1,0:04:32.35,0:04:46.26,Heart of Gaea,,0,0,0,karaoke,{\k96}me{\k329}a {\k340}irs {\k329}here {\k90}aul{\k25}la {\k55}om{\k127}nis
 Comment: 1,0:04:46.67,0:04:59.87,Heart of Gaea,,0,0,0,karaoke,{\k334}sar{\k340}la {\k329}irs {\k81}hier{\k89}le {\k147}so
-Dialogue: 0,0:00:00.08,0:00:05.89,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k62}kia{\k22}fa {\k39}hynne {\k120}mea {\k59}pa{\k16}g{\k44}le {\k31}tes {\k67}yor
-Dialogue: 0,0:00:07.96,0:00:11.83,Heart of Gaea,,0,0,0,fx,{\k90\fad(300,200)}{\k35}fou {\k43}paks {\k42}ga {\k38}kia{\k39}fa {\k38}hynne {\k42}yor
-Dialogue: 0,0:00:10.73,0:00:16.73,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k78}kia{\k19}fa {\k31}sar{\k124}la {\k65}pa{\k16}g{\k35}le {\k38}tes {\k52}yor
-Dialogue: 0,0:00:22.38,0:00:25.99,Heart of Gaea,,0,0,0,fx,{\k90\fad(300,200)}{\k37}wee {\k27}paks {\k28}ga {\k34}faf {\k30}yora {\k25}a{\k35}ccrroad {\k30}mea
-Dialogue: 0,0:00:25.80,0:00:29.29,Jacqli,,0,0,0,fx,{\k96}{\fad(300,200)}{\k26}was {\k25}yea {\k28}ra {\k27}pau{\k30}wel {\k27}en {\k30}wael {\k60}yor
-Dialogue: 0,0:00:29.10,0:00:31.60,Heart of Gaea,,0,0,0,fx,{\k90\fad(300,200)}{\k24}wee {\k25}paks {\k26}ga {\k32}chs {\k33}mea
-Dialogue: 0,0:00:31.92,0:00:34.94,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k33}e{\k36}chrra {\k25}en {\k32}chs {\k30}ar {\k36}dor
-Dialogue: 0,0:00:34.50,0:00:37.31,Heart of Gaea,,0,0,0,fx,{\k90\fad(300,200)}{\k29}was {\k23}paks {\k28}ga {\k30}chs {\k30}na {\k31}mea
-Dialogue: 0,0:00:36.87,0:00:43.47,Heart of Gaea,,0,0,0,fx,{\k90\fad(300,200)}{\k28}en {\k21}paul {\k30}yor {\k32}yora {\k40}har{\k25}ton {\k374}mea
-Dialogue: 0,0:00:41.95,0:00:56.22,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k327}faura {\k340}cexm {\k332}here {\k82}shel{\k83}lan {\k153}mea
-Dialogue: 0,0:00:55.38,0:01:09.76,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k342}fowrlle {\k340}art {\k322}fluy {\k81}pre{\k82}sia {\k161}sonwe
-Dialogue: 0,0:01:09.30,0:01:12.05,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k45}yor{\k17}r {\k30}faf {\k73}so
-Dialogue: 0,0:01:11.08,0:01:13.75,Heart of Gaea,,0,0,0,fx,{\k90\fad(300,200)}{\k47}was {\k16}ki {\k29}ga {\k22}faf {\k24}so
-Dialogue: 0,0:01:12.93,0:01:15.55,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k47}yor{\k16}r {\k20}hier{\k69}le
-Dialogue: 0,0:01:14.59,0:01:17.45,Heart of Gaea,,0,0,0,fx,{\k90\fad(300,200)}{\k52}was {\k15}ki {\k26}ga {\k35}hier{\k23}le
-Dialogue: 0,0:01:16.47,0:01:19.28,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k43}me{\k15}a {\k31}paul {\k38}yor
-Dialogue: 0,0:01:18.25,0:01:20.88,Heart of Gaea,,0,0,0,fx,{\k90\fad(300,200)}{\k46}was {\k15}ki {\k34}ga {\k25}paul {\k33}yor
-Dialogue: 0,0:01:19.81,0:01:24.47,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k89}yorr {\k91}nille {\k84}me{\k92}a
-Dialogue: 0,0:01:23.72,0:01:26.45,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k44}yor{\k14}r {\k25}des{\k80}fel
-Dialogue: 0,0:01:25.50,0:01:28.11,Heart of Gaea,,0,0,0,fx,{\k90\fad(300,200)}{\k37}was {\k17}ki {\k28}ga {\k29}des{\k40}fel
-Dialogue: 0,0:01:27.22,0:01:30.00,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k55}yor{\k14}r {\k25}ween {\k74}shell
-Dialogue: 0,0:01:29.05,0:01:31.71,Heart of Gaea,,0,0,0,fx,{\k90\fad(300,200)}{\k40}was {\k19}ki {\k27}ga {\k24}ween {\k46}shell
-Dialogue: 0,0:01:30.93,0:01:33.60,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k38}me{\k13}a {\k31}paul {\k76}yor
-Dialogue: 0,0:01:32.62,0:01:35.30,Heart of Gaea,,0,0,0,fx,{\k90\fad(300,200)}{\k49}was {\k14}ki {\k30}ga {\k28}paul {\k37}yor
-Dialogue: 0,0:01:34.20,0:01:38.75,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k94}mea {\k89}nille {\k98}yor
-Dialogue: 0,0:01:37.75,0:01:42.15,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k66}whai {\k29}yorr {\k80}re {\k36}{\k30}he{\k30}igh{\k30}te {\k29}so
-Dialogue: 0,0:01:41.05,0:01:44.84,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k62}sash {\k34}fwill{\k175}ra
-Dialogue: 0,0:01:44.33,0:01:47.51,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k63}ween {\k29}pa{\k5}pa{\k111}na
-Dialogue: 0,0:01:46.51,0:01:51.37,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k29}yor{\k29}r {\k30}re{\k25}te {\k58}yas{\k32}ra {\k135}fhyu
-Dialogue: 0,0:01:50.98,0:01:53.72,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k53}en {\k35}yor{\k76}r
-Dialogue: 0,0:01:52.99,0:01:58.04,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k31}re {\k41}de{\k27}ggee{\k33}z {\k50}ar{\k32}t {\k210}ciel
-Dialogue: 0,0:01:57.57,0:02:00.44,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k58}na {\k29}fowrlle {\k90}heighte
-Dialogue: 0,0:01:59.68,0:02:05.13,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k32}yor{\k31}r {\k25}re{\k29}te {\k70}bau{\k26}ti{\k91}fal {\k89}sar{\k42}la
-Dialogue: 0,0:02:04.43,0:02:14.52,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k187}ki{\k85}a{\k60}fa {\k177}hynne {\k87}me{\k67}a {\k59}sa{\k29}r{\k175}la
-Dialogue: 0,0:02:13.69,0:02:18.87,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k63}na {\k129}layy {\k59}ar {\k84}knowa {\k73}yor
-Dialogue: 0,0:02:18.02,0:02:25.65,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k179}vi{\k83}nan {\k57}yor {\k180}no{\k89}glle {\k39}yor
-Dialogue: 0,0:02:24.60,0:02:27.82,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k60}pre{\k26}si{\k126}a
-Dialogue: 0,0:02:27.15,0:02:32.64,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k32}me{\k34}sse {\k127}noce {\k62}yor {\k89}tes {\k95}mea
-Dialogue: 0,0:02:44.84,0:02:58.85,Heart of Gaea,,0,0,0,fx,{\k90\fad(300,200)}{\k308}mea {\k340}irs {\k329}here {\k90}aul{\k25}la {\k55}om{\k137}nis
-Dialogue: 0,0:02:58.06,0:03:12.46,Heart of Gaea,,0,0,0,fx,{\k90\fad(300,200)}{\k345}sar{\k340}la {\k329}irs {\k81}hier{\k89}le {\k146}so
-Dialogue: 0,0:03:11.56,0:03:14.70,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k66}whai {\k35}fir{\k96}le
-Dialogue: 0,0:03:13.80,0:03:19.08,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k32}hi{\k28}er{\k26}le {\k35}so {\k55}ween {\k33}shel{\k179}lan
-Dialogue: 0,0:03:18.32,0:03:21.33,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k58}re {\k26}kyll {\k95}fwal
-Dialogue: 0,0:03:20.39,0:03:25.59,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k30}elle {\k27}nnoi {\k30}na {\k30}haf {\k65}yas{\k24}ra {\k173}wharn
-Dialogue: 0,0:03:24.95,0:03:27.84,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k55}en {\k30}me{\k94}a
-Dialogue: 0,0:03:27.04,0:03:32.24,Jacqli,,0,0,0,fx,{\k90}{\fad(300,200)}{\k27}re {\k30}de{\k25}ggee{\k38}z {\k46}ar{\k32}t {\k232}ciel
-Dialogue: 0,0:03:31.45,0:03:34.64,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k60}na {\k28}siss {\k92}cu{\k22}pla
-Dialogue: 0,0:03:33.60,0:03:39.00,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k30}i{\k30}des {\k59}loss {\k73}bau{\k23}ti{\k81}ful {\k65}sa{\k27}r{\k54}la
-Dialogue: 0,0:03:38.36,0:03:48.11,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k187}ki{\k85}a{\k60}fa {\k177}hynne {\k87}me{\k67}a {\k59}sa{\k29}r{\k175}la
-Dialogue: 0,0:03:47.62,0:03:52.80,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k63}na {\k129}layy {\k59}ar {\k84}knowa {\k73}mea
-Dialogue: 0,0:03:51.84,0:04:01.92,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k196}faf {\k81}mea {\k58}gu{\k192}wo {\k82}me{\k57}a {\k69}za{\k25}di{\k104}us
-Dialogue: 0,0:04:01.11,0:04:06.45,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k60}en {\k131}guatrz {\k50}om{\k95}nis {\k95}mea
-Dialogue: 0,0:04:05.35,0:04:15.28,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k181}so{\k93}n{\k58}we {\k184}hynne {\k151}yor {\k55}ce{\k32}st {\k129}yor
-Dialogue: 0,0:04:14.54,0:04:19.92,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k42}vi{\k32}an{\k122}chiel {\k59}ween {\k83}ganna {\k90}shell
-Dialogue: 0,0:04:18.97,0:04:28.59,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k164}den {\k87}har{\k66}tes {\k179}ciel {\k153}yor {\k60}pre{\k32}si{\k111}a
-Dialogue: 0,0:04:28.07,0:04:40.53,Jacqli,,0,0,0,fx,{\k90\fad(300,200)}{\k70}aul{\k120}la {\k67}yor {\k84}tes {\k93}me{\k702}a
-Dialogue: 0,0:04:31.45,0:04:46.46,Heart of Gaea,,0,0,0,fx,{\k90\fad(300,200)}{\k96}me{\k329}a {\k340}irs {\k329}here {\k90}aul{\k25}la {\k55}om{\k127}nis
-Dialogue: 0,0:04:45.77,0:05:00.07,Heart of Gaea,,0,0,0,fx,{\k90\fad(300,200)}{\k334}sar{\k340}la {\k329}irs {\k81}hier{\k89}le {\k147}so
+Dialogue: 0,0:00:00.00,0:00:05.79,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,830,5710,5810)\k88}{\k62}kia{\k22}fa {\k39}hynne {\k120}mea {\k59}pa{\k16}g{\k44}le {\k31}tes {\k67}yor
+Dialogue: 0,0:00:07.86,0:00:11.73,Heart of Gaea,,0,0,0,fx,{\fade(255,0,255,0,850,3770,3870)\k90}{\k35}fou {\k43}paks {\k42}ga {\k38}kia{\k39}fa {\k38}hynne {\k42}yor
+Dialogue: 0,0:00:10.63,0:00:16.63,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,5900,6000)\k90}{\k78}kia{\k19}fa {\k31}sar{\k124}la {\k65}pa{\k16}g{\k35}le {\k38}tes {\k52}yor
+Dialogue: 0,0:00:22.28,0:00:25.84,Heart of Gaea,,0,0,0,fx,{\fade(255,0,255,0,850,3460,3560)\k90}{\k37}wee {\k27}paks {\k28}ga {\k34}faf {\k30}yora {\k25}a{\k35}ccrroad {\k30}mea
+Dialogue: 0,0:00:25.75,0:00:29.19,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,3340,3440)\k90}{\k26}was {\k25}yea {\k28}ra {\k27}pau{\k30}wel {\k27}en {\k30}wael {\k41}yor
+Dialogue: 0,0:00:29.00,0:00:31.50,Heart of Gaea,,0,0,0,fx,{\fade(255,0,255,0,850,2400,2500)\k90}{\k24}wee {\k25}paks {\k26}ga {\k32}chs {\k33}mea
+Dialogue: 0,0:00:31.82,0:00:34.84,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,2920,3020)\k90}{\k33}e{\k36}chrra {\k25}en {\k32}chs {\k30}ar {\k36}dor
+Dialogue: 0,0:00:34.40,0:00:37.21,Heart of Gaea,,0,0,0,fx,{\fade(255,0,255,0,850,2710,2810)\k90}{\k29}was {\k23}paks {\k28}ga {\k30}chs {\k30}na {\k31}mea
+Dialogue: 0,0:00:36.77,0:00:43.37,Heart of Gaea,,0,0,0,fx,{\fade(255,0,255,0,850,6500,6600)\k90}{\k28}en {\k21}paul {\k30}yor {\k32}yora {\k40}har{\k25}ton {\k374}mea
+Dialogue: 0,0:00:41.85,0:00:56.12,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,14170,14270)\k90}{\k327}faura {\k340}cexm {\k332}here {\k82}shel{\k83}lan {\k153}mea
+Dialogue: 0,0:00:55.28,0:01:09.66,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,14280,14380)\k90}{\k342}fowrlle {\k340}art {\k322}fluy {\k81}pre{\k82}sia {\k161}sonwe
+Dialogue: 0,0:01:09.20,0:01:11.95,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,2650,2750)\k90}{\k45}yor{\k17}r {\k30}faf {\k73}so
+Dialogue: 0,0:01:10.98,0:01:13.65,Heart of Gaea,,0,0,0,fx,{\fade(255,0,255,0,850,2570,2670)\k90}{\k47}was {\k16}ki {\k29}ga {\k22}faf {\k24}so
+Dialogue: 0,0:01:12.83,0:01:15.45,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,2520,2620)\k90}{\k47}yor{\k16}r {\k20}hier{\k69}le
+Dialogue: 0,0:01:14.49,0:01:17.35,Heart of Gaea,,0,0,0,fx,{\fade(255,0,255,0,850,2760,2860)\k90}{\k52}was {\k15}ki {\k26}ga {\k35}hier{\k23}le
+Dialogue: 0,0:01:16.37,0:01:19.18,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,2710,2810)\k90}{\k43}me{\k15}a {\k31}paul {\k38}yor
+Dialogue: 0,0:01:18.15,0:01:20.78,Heart of Gaea,,0,0,0,fx,{\fade(255,0,255,0,850,2530,2630)\k90}{\k46}was {\k15}ki {\k34}ga {\k25}paul {\k33}yor
+Dialogue: 0,0:01:19.71,0:01:24.37,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,4560,4660)\k90}{\k89}yorr {\k91}nille {\k84}me{\k92}a
+Dialogue: 0,0:01:23.62,0:01:26.35,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,2630,2730)\k90}{\k44}yor{\k14}r {\k25}des{\k80}fel
+Dialogue: 0,0:01:25.40,0:01:28.01,Heart of Gaea,,0,0,0,fx,{\fade(255,0,255,0,850,2510,2610)\k90}{\k37}was {\k17}ki {\k28}ga {\k29}des{\k40}fel
+Dialogue: 0,0:01:27.12,0:01:29.90,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,2680,2780)\k90}{\k55}yor{\k14}r {\k25}ween {\k74}shell
+Dialogue: 0,0:01:28.95,0:01:31.61,Heart of Gaea,,0,0,0,fx,{\fade(255,0,255,0,850,2560,2660)\k90}{\k40}was {\k19}ki {\k27}ga {\k24}ween {\k46}shell
+Dialogue: 0,0:01:30.83,0:01:33.50,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,2570,2670)\k90}{\k38}me{\k13}a {\k31}paul {\k76}yor
+Dialogue: 0,0:01:32.52,0:01:35.20,Heart of Gaea,,0,0,0,fx,{\fade(255,0,255,0,850,2580,2680)\k90}{\k49}was {\k14}ki {\k30}ga {\k28}paul {\k37}yor
+Dialogue: 0,0:01:34.10,0:01:38.65,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,4450,4550)\k90}{\k94}mea {\k89}nille {\k98}yor
+Dialogue: 0,0:01:37.65,0:01:42.05,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,4300,4400)\k90}{\k66}whai {\k29}yorr {\k80}re {\k36}{\k30}he{\k30}igh{\k30}te {\k29}so
+Dialogue: 0,0:01:40.95,0:01:44.74,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,3690,3790)\k90}{\k62}sash {\k34}fwill{\k175}ra
+Dialogue: 0,0:01:44.23,0:01:47.41,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,3080,3180)\k90}{\k63}ween {\k29}pa{\k5}pa{\k111}na
+Dialogue: 0,0:01:46.41,0:01:51.27,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,4760,4860)\k90}{\k29}yor{\k29}r {\k30}re{\k25}te {\k58}yas{\k32}ra {\k135}fhyu
+Dialogue: 0,0:01:50.88,0:01:53.62,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,2640,2740)\k90}{\k53}en {\k35}yor{\k76}r
+Dialogue: 0,0:01:52.89,0:01:57.94,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,4950,5050)\k90}{\k31}re {\k41}de{\k27}ggee{\k33}z {\k50}ar{\k32}t {\k210}ciel
+Dialogue: 0,0:01:57.47,0:02:00.34,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,2770,2870)\k90}{\k58}na {\k29}fowrlle {\k90}heighte
+Dialogue: 0,0:01:59.58,0:02:05.03,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,5350,5450)\k90}{\k32}yor{\k31}r {\k25}re{\k29}te {\k70}bau{\k26}ti{\k91}fal {\k89}sar{\k42}la
+Dialogue: 0,0:02:04.33,0:02:14.42,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,9990,10090)\k90}{\k187}ki{\k85}a{\k60}fa {\k177}hynne {\k87}me{\k67}a {\k59}sa{\k29}r{\k175}la
+Dialogue: 0,0:02:13.59,0:02:18.77,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,5080,5180)\k90}{\k63}na {\k129}layy {\k59}ar {\k84}knowa {\k73}yor
+Dialogue: 0,0:02:17.92,0:02:25.55,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,7530,7630)\k90}{\k179}vi{\k83}nan {\k57}yor {\k180}no{\k89}glle {\k39}yor
+Dialogue: 0,0:02:24.50,0:02:27.72,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,3120,3220)\k90}{\k60}pre{\k26}si{\k126}a
+Dialogue: 0,0:02:27.05,0:02:32.54,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,5390,5490)\k90}{\k32}me{\k34}sse {\k127}noce {\k62}yor {\k89}tes {\k95}mea
+Dialogue: 0,0:02:44.74,0:02:58.75,Heart of Gaea,,0,0,0,fx,{\fade(255,0,255,0,850,13910,14010)\k90}{\k308}mea {\k340}irs {\k329}here {\k90}aul{\k25}la {\k55}om{\k137}nis
+Dialogue: 0,0:02:57.96,0:03:12.36,Heart of Gaea,,0,0,0,fx,{\fade(255,0,255,0,850,14300,14400)\k90}{\k345}sar{\k340}la {\k329}irs {\k81}hier{\k89}le {\k146}so
+Dialogue: 0,0:03:11.46,0:03:14.60,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,3040,3140)\k90}{\k66}whai {\k35}fir{\k96}le
+Dialogue: 0,0:03:13.70,0:03:18.98,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,5180,5280)\k90}{\k32}hi{\k28}er{\k26}le {\k35}so {\k55}ween {\k33}shel{\k179}lan
+Dialogue: 0,0:03:18.22,0:03:21.23,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,2910,3010)\k90}{\k58}re {\k26}kyll {\k95}fwal
+Dialogue: 0,0:03:20.29,0:03:25.49,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,5100,5200)\k90}{\k30}elle {\k27}nnoi {\k30}na {\k30}haf {\k65}yas{\k24}ra {\k173}wharn
+Dialogue: 0,0:03:24.85,0:03:27.74,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,2790,2890)\k90}{\k55}en {\k30}me{\k94}a
+Dialogue: 0,0:03:26.94,0:03:32.14,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,5100,5200)\k90}{\k27}re {\k30}de{\k33}ggee{\k30}z {\k46}ar{\k32}t {\k226}ciel
+Dialogue: 0,0:03:31.35,0:03:34.54,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,3090,3190)\k90}{\k60}na {\k28}siss {\k92}cu{\k22}pla
+Dialogue: 0,0:03:33.50,0:03:38.90,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,5300,5400)\k90}{\k30}i{\k30}des {\k59}loss {\k73}bau{\k23}ti{\k81}ful {\k65}sa{\k27}r{\k54}la
+Dialogue: 0,0:03:38.26,0:03:48.01,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,9650,9750)\k90}{\k187}ki{\k85}a{\k60}fa {\k177}hynne {\k87}me{\k67}a {\k59}sa{\k29}r{\k175}la
+Dialogue: 0,0:03:47.52,0:03:52.70,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,5080,5180)\k90}{\k63}na {\k129}layy {\k59}ar {\k84}knowa {\k73}mea
+Dialogue: 0,0:03:51.74,0:04:01.82,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,9980,10080)\k90}{\k196}faf {\k81}mea {\k58}gu{\k192}wo {\k82}me{\k57}a {\k69}za{\k25}di{\k104}us
+Dialogue: 0,0:04:01.01,0:04:06.35,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,5240,5340)\k90}{\k60}en {\k131}guatrz {\k50}om{\k95}nis {\k95}mea
+Dialogue: 0,0:04:05.25,0:04:15.18,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,9830,9930)\k90}{\k181}so{\k93}n{\k58}we {\k184}hynne {\k151}yor {\k55}ce{\k32}st {\k129}yor
+Dialogue: 0,0:04:14.44,0:04:19.82,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,5280,5380)\k90}{\k42}vi{\k32}an{\k122}chiel {\k59}ween {\k83}ganna {\k90}shell
+Dialogue: 0,0:04:18.87,0:04:28.49,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,9520,9620)\k90}{\k164}den {\k87}har{\k66}tes {\k179}ciel {\k153}yor {\k60}pre{\k32}si{\k111}a
+Dialogue: 0,0:04:27.97,0:04:40.43,Jacqli,,0,0,0,fx,{\fade(255,0,255,0,850,12360,12460)\k90}{\k70}aul{\k120}la {\k67}yor {\k84}tes {\k93}me{\k702}a
+Dialogue: 0,0:04:31.35,0:04:46.36,Heart of Gaea,,0,0,0,fx,{\fade(255,0,255,0,850,14910,15010)\k90}{\k96}me{\k329}a {\k340}irs {\k329}here {\k90}aul{\k25}la {\k55}om{\k127}nis
+Dialogue: 0,0:04:45.67,0:04:59.97,Heart of Gaea,,0,0,0,fx,{\fade(255,0,255,0,850,14200,14300)\k90}{\k334}sar{\k340}la {\k329}irs {\k81}hier{\k89}le {\k147}so

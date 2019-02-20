@@ -16,16 +16,17 @@ Video File: C:/Users/Utilisateur/Desktop/MUGEN/Pandaneko - Hiiragi.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.750000
-Active Line: 1
+Active Line: 5
 Video Position: 297
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: KM-furigana,Arial,12,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,8,15,15,20,1
 Style: KM,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:01.10,0:00:01.10,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,KM,,0,0,0,template pre-line all keeptags,!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}
 Comment: 1,0:00:12.38,0:00:15.84,KM,,0,0,0,karaoke,{\k47}pap{\k48}pa {\k46}pap{\k46}pa {\k47}pan{\k24}da {\k24}ne{\k64}ko
 Comment: 1,0:00:16.14,0:00:19.61,KM,,0,0,0,karaoke,{\k46}pap{\k48}pa {\k46}pap{\k46}pa {\k47}pan{\k24}da {\k22}ne{\k68}ko
 Comment: 1,0:00:19.88,0:00:23.38,KM,,0,0,0,karaoke,{\k47}pap{\k48}pa {\k46}pap{\k46}pa {\k47}pan{\k24}da {\k24}ne{\k68}ko
@@ -47,24 +48,24 @@ Comment: 1,0:01:16.14,0:01:19.60,KM,,0,0,0,karaoke,{\k47}pap{\k48}pa {\k43}pap{\
 Comment: 1,0:01:19.88,0:01:23.36,KM,,0,0,0,karaoke,{\k47}pap{\k48}pa {\k46}pap{\k46}pa {\k45}pan{\k24}da {\k25}ne{\k67}ko
 Comment: 1,0:01:23.64,0:01:27.13,KM,,0,0,0,karaoke,{\k46}pap{\k47}pa {\k45}pap{\k50}pa {\k34}ho{\k13}shi {\k22}ni {\k24}na{\k68}ru
 Comment: 1,0:01:27.39,0:01:29.60,KM,,0,0,0,karaoke,{\k45}ma{\k47}ta {\k23}a{\k48}shi{\k58}ta
-Dialogue: 0,0:00:11.48,0:00:16.04,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k47}pap{\k48}pa {\k46}pap{\k46}pa {\k47}pan{\k24}da {\k24}ne{\k64}ko
-Dialogue: 0,0:00:15.24,0:00:19.81,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k46}pap{\k48}pa {\k46}pap{\k46}pa {\k47}pan{\k24}da {\k22}ne{\k68}ko
-Dialogue: 0,0:00:18.98,0:00:23.58,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k47}pap{\k48}pa {\k46}pap{\k46}pa {\k47}pan{\k24}da {\k24}ne{\k68}ko
-Dialogue: 0,0:00:22.74,0:00:27.22,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k46}pap{\k48}pa {\k46}pap{\k46}pa {\k47}pan{\k23}da {\k25}ne{\k57}ko
-Dialogue: 0,0:00:26.44,0:00:31.06,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ma{\k43}wat{\k27}ta{\k92}ri {\k25}to{\k45}mat{\k26}ta{\k65}ri
-Dialogue: 0,0:00:30.17,0:00:34.81,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ha{\k47}shit{\k27}ta{\k90}ri {\k25}sha{\k47}gan{\k27}da{\k64}ri
-Dialogue: 0,0:00:33.93,0:00:38.56,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k26}mu{\k49}sun{\k25}da{\k91}ri {\k22}hi{\k47}rai{\k28}ta{\k65}ri
-Dialogue: 0,0:00:37.72,0:00:42.36,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k28}to{\k43}bik{\k25}ki{\k88}ri {\k29}wa{\k45}rat{\k26}ta{\k70}ri
-Dialogue: 0,0:00:41.48,0:00:46.28,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k46}pap{\k47}pa {\k47}pap{\k48}pa {\k46}pap{\k48}pa {\k46}pap{\k42}pa
-Dialogue: 0,0:00:45.22,0:00:50.00,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k47}pap{\k48}pa {\k48}pap{\k46}pa {\k45}chic{\k24}chi{\k24}ki{\k42}chi{\k44}-sai
-Dialogue: 0,0:00:48.99,0:00:53.70,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k46}pap{\k46}pa {\k47}pap{\k48}pa {\k46}pap{\k48}pa {\k46}pap{\k34}pa
-Dialogue: 0,0:00:52.75,0:00:57.54,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k44}pap{\k49}pa {\k46}pap{\k45}pa {\k48}ei {\k45}ei {\k49}o-{\k43}kii
-Dialogue: 0,0:00:56.49,0:01:01.07,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k47}pap{\k48}pa {\k46}pap{\k46}pa {\k45}pan{\k24}da {\k25}ne{\k67}ko
-Dialogue: 0,0:01:00.23,0:01:04.82,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k47}pap{\k48}pa {\k46}pap{\k48}pa {\k45}pan{\k23}da {\k25}ne{\k67}ko
-Dialogue: 0,0:01:03.98,0:01:08.56,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k47}pap{\k48}pa {\k46}pap{\k46}pa {\k47}pan{\k24}da {\k23}ne{\k67}ko
-Dialogue: 0,0:01:07.74,0:01:12.32,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k47}pap{\k48}pa {\k46}pap{\k46}pa {\k45}pan{\k24}da {\k25}ne{\k67}ko
-Dialogue: 0,0:01:11.48,0:01:16.06,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k47}pap{\k48}pa {\k46}pap{\k46}pa {\k46}pan{\k24}da {\k24}ne{\k67}ko
-Dialogue: 0,0:01:15.24,0:01:19.80,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k47}pap{\k48}pa {\k43}pap{\k47}pa {\k36}a{\k13}ri{\k22}ga{\k25}to{\k65}u
-Dialogue: 0,0:01:18.98,0:01:23.56,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k47}pap{\k48}pa {\k46}pap{\k46}pa {\k45}pan{\k24}da {\k25}ne{\k67}ko
-Dialogue: 0,0:01:22.74,0:01:27.33,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k46}pap{\k47}pa {\k45}pap{\k50}pa {\k34}ho{\k13}shi {\k22}ni {\k24}na{\k68}ru
-Dialogue: 0,0:01:26.49,0:01:29.80,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k45}ma{\k47}ta {\k23}a{\k48}shi{\k58}ta
+Dialogue: 0,0:00:11.38,0:00:15.94,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4460,4560)\k90}{\k47}pap{\k48}pa {\k46}pap{\k46}pa {\k47}pan{\k24}da {\k24}ne{\k64}ko
+Dialogue: 0,0:00:15.14,0:00:19.71,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4470,4570)\k90}{\k46}pap{\k48}pa {\k46}pap{\k46}pa {\k47}pan{\k24}da {\k22}ne{\k68}ko
+Dialogue: 0,0:00:18.88,0:00:23.48,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4500,4600)\k90}{\k47}pap{\k48}pa {\k46}pap{\k46}pa {\k47}pan{\k24}da {\k24}ne{\k68}ko
+Dialogue: 0,0:00:22.64,0:00:27.12,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4380,4480)\k90}{\k46}pap{\k48}pa {\k46}pap{\k46}pa {\k47}pan{\k23}da {\k25}ne{\k57}ko
+Dialogue: 0,0:00:26.34,0:00:30.96,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4520,4620)\k90}{\k29}ma{\k43}wat{\k27}ta{\k92}ri {\k25}to{\k45}mat{\k26}ta{\k65}ri
+Dialogue: 0,0:00:30.07,0:00:34.71,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4540,4640)\k90}{\k27}ha{\k47}shit{\k27}ta{\k90}ri {\k25}sha{\k47}gan{\k27}da{\k64}ri
+Dialogue: 0,0:00:33.83,0:00:38.46,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4530,4630)\k90}{\k26}mu{\k49}sun{\k25}da{\k91}ri {\k22}hi{\k47}rai{\k28}ta{\k65}ri
+Dialogue: 0,0:00:37.62,0:00:42.26,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4540,4640)\k90}{\k28}to{\k43}bik{\k25}ki{\k88}ri {\k29}wa{\k45}rat{\k26}ta{\k70}ri
+Dialogue: 0,0:00:41.38,0:00:46.18,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4700,4800)\k90}{\k46}pap{\k47}pa {\k47}pap{\k48}pa {\k46}pap{\k48}pa {\k46}pap{\k42}pa
+Dialogue: 0,0:00:45.12,0:00:49.90,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4680,4780)\k90}{\k47}pap{\k48}pa {\k48}pap{\k46}pa {\k45}chic{\k24}chi{\k24}ki{\k42}chi{\k44}-sai
+Dialogue: 0,0:00:48.89,0:00:53.60,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4610,4710)\k90}{\k46}pap{\k46}pa {\k47}pap{\k48}pa {\k46}pap{\k48}pa {\k46}pap{\k34}pa
+Dialogue: 0,0:00:52.65,0:00:57.44,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4690,4790)\k90}{\k44}pap{\k49}pa {\k46}pap{\k45}pa {\k48}ei {\k45}ei {\k49}o-{\k43}kii
+Dialogue: 0,0:00:56.39,0:01:00.97,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4480,4580)\k90}{\k47}pap{\k48}pa {\k46}pap{\k46}pa {\k45}pan{\k24}da {\k25}ne{\k67}ko
+Dialogue: 0,0:01:00.13,0:01:04.72,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4490,4590)\k90}{\k47}pap{\k48}pa {\k46}pap{\k48}pa {\k45}pan{\k23}da {\k25}ne{\k67}ko
+Dialogue: 0,0:01:03.88,0:01:08.46,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4480,4580)\k90}{\k47}pap{\k48}pa {\k46}pap{\k46}pa {\k47}pan{\k24}da {\k23}ne{\k67}ko
+Dialogue: 0,0:01:07.64,0:01:12.22,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4480,4580)\k90}{\k47}pap{\k48}pa {\k46}pap{\k46}pa {\k45}pan{\k24}da {\k25}ne{\k67}ko
+Dialogue: 0,0:01:11.38,0:01:15.96,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4480,4580)\k90}{\k47}pap{\k48}pa {\k46}pap{\k46}pa {\k46}pan{\k24}da {\k24}ne{\k67}ko
+Dialogue: 0,0:01:15.14,0:01:19.70,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4460,4560)\k90}{\k47}pap{\k48}pa {\k43}pap{\k47}pa {\k36}a{\k13}ri{\k22}ga{\k25}to{\k65}u
+Dialogue: 0,0:01:18.88,0:01:23.46,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4480,4580)\k90}{\k47}pap{\k48}pa {\k46}pap{\k46}pa {\k45}pan{\k24}da {\k25}ne{\k67}ko
+Dialogue: 0,0:01:22.64,0:01:27.23,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4490,4590)\k90}{\k46}pap{\k47}pa {\k45}pap{\k50}pa {\k34}ho{\k13}shi {\k22}ni {\k24}na{\k68}ru
+Dialogue: 0,0:01:26.39,0:01:29.70,KM,,0,0,0,fx,{\fade(255,0,255,0,850,3210,3310)\k90}{\k45}ma{\k47}ta {\k23}a{\k48}shi{\k58}ta
