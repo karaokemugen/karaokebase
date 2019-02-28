@@ -13,10 +13,11 @@ Contributors :
 - @Aeden
 - @Eden
 - @KroaKroa
+- @Suryan
 
 ## Added
 
-New songs : 41
+New songs : 49
 
 - ENG - League of Legends - GAME MV - Awaken
 - ENG - Monty Python and the Holy Grail - MOVIE IN - Knights of the Round Table
