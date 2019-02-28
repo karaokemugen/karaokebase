@@ -1,3 +1,72 @@
+# February 2019
+
+Contributors :
+
+- @PierreCAMILLI
+- Nabashi
+- @Nock
+- @Kmeuh
+- @Aeden
+- @Rinchama
+- @nah
+- @Ziassan
+- @Aeden
+- @Eden
+- @KroaKroa
+
+## Added
+
+New songs : 41
+
+- ENG - League of Legends - GAME MV - Awaken
+- ENG - Monty Python and the Holy Grail - MOVIE IN - Knights of the Round Table
+- ENG - Tokyo Mew Mew - OP - Team up!
+- FRE - Ashita e Attack! - OP - Smash
+- FRE - Evangelion 2.0: You Can (Not) Advance - IN - The 356-Step March ~ Mari Vers
+- FRE - Pierre Billon - MV - La Bamba triste
+- FRE - Tokyo Mew Mew - OP1 - Mew Mew Power
+- ITA - Tokyo Mew Mew - OP - Mew Mew Amiche Vincenti
+- JPN - 24-ji Kimi no Heart wa Nusumareru ~Kaitou Jade~ - PC GAME OP - Limit Night
+- JPN - Arcana Famiglia -Vascello Phantasma no Majutsushi- - PSP GAME OP - Requ iem
+- JPN - Akai Koudan Zillion - ED1 - Push!
+- JPN - Akai Koudan Zillion - ED2 - Rock Candy
+- JPN - Akumaizer 3 - ED - Susume! Zaiderbeck
+- JPN - Arrow Emblem Grand Prix no Taka - ED - Race Blues
+- JPN - Evangelion 2.0: You Can (Not) Advance - IN - The 356-Step March ~ Mari Vers
+- JPN - Go-Tôbun no Hanayome - OP - Go-Toubun no Kimochi
+- JPN - Hinoi Team,Koriki Chousuu - MV - Night of Fire
+- JPN - Katekyou Hitman Reborn! - OP2 - BOYS & GIRLS ~ Full Vers
+- JPN - Kyou Kara Ore Wa!! - OP - Otoko no Kunshou
+- JPN - Lupin III Cagliostro no Shiro - MOVIE OP - Honoo no Takaramono
+- JPN - Majo no Takkyuubin - MOVIE OP - Rouge no Dengon
+- JPN - Mawaru Penguindrum - ED6 - Private girl
+- JPN - Tales of Destiny A Pachislot Called Fate - GAME OP - Yume de aru you ni
+- JPN - Tales of Destiny A Pachislot Called Fate - GAME OP - Yume de aru you ni Future
+- JPN - Tales of Destiny A Pachislot Called Fate - GAME OP - Future
+- JPN - Tales of Innocence - DS GAME OP - Follow the Nightingale
+- JPN - Tales of Innocence R - PSV GAME OP - New Days, New Life
+- JPN - THE IDOLM@STER Prologue SideM Episode of Jupiter - ED - BRAND NEW FIELD
+- JPN - THE iDOLM@STER SideM - OP - Reason!!
+- JPN - THE iDOLM@STER SideM - IN - Study Equal Magic!
+- JPN - THE iDOLM@STER SideM - ED2 - Beyond The Dream
+- JPN - THE iDOLM@STER SideM - ED5 - From Teacher To Future!
+- JPN - THE iDOLM@STER SideM - ED7 - JOKER Allmighty
+- JPN - THE iDOLM@STER SideM - ED8 - Ryuusei PARADE
+- JPN - THE iDOLM@STER SideM - ED9 - Over AGAIN
+- JPN - Touken Ranbu ONLINE - PC GAME OP - Mugen Ranbu Shou ~ 2019 Vers
+- JPN - Umineko Motion Graphic - MV1 - Genyou no Chou
+- JPN - Umineko Motion Graphic - MV2 - Meikoku Rensa
+- JPN - Umineko Motion Graphic - MV3 - Ambivalence
+- JPN - Umineko Motion Graphic - MV4 - Kono Ai wo Tsugu
+- JPN - Umineko Motion Graphic - MV6 - Shinyaku no Yoru
+- JPN - Umineko Motion Graphic - MV7 - asymmetrical cry
+- JPN - Umineko Motion Graphic - MV8 - Synesthesia
+- JPN - Zoku Touken Ranbu Hanamaru - ED8 - Ittsui no Hibana, Himegoto ni Fure
+- JPN - Zoku Touken Ranbu Hanamaru - ED9 - Jinseidou
+- JPN - Zoku Touken Ranbu Hanamaru - ED10 - Sen no Kokuin
+- MUL - Shirobako - IN - Ema Dance
+- UND - 91 Days - ED - Rain or Shine
+
 # January 2019
 
 Contributors :
