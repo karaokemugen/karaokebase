@@ -61,6 +61,7 @@ New songs : 41
 - JPN - Umineko Motion Graphic - MV6 - Shinyaku no Yoru
 - JPN - Umineko Motion Graphic - MV7 - asymmetrical cry
 - JPN - Umineko Motion Graphic - MV8 - Synesthesia
+- JPN - Yakusoku no Neverland - OP - Touch off
 - JPN - Zoku Touken Ranbu Hanamaru - ED8 - Ittsui no Hibana, Himegoto ni Fure
 - JPN - Zoku Touken Ranbu Hanamaru - ED9 - Jinseidou
 - JPN - Zoku Touken Ranbu Hanamaru - ED10 - Sen no Kokuin
