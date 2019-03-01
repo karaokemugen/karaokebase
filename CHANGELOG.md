@@ -10,10 +10,9 @@ Contributors :
 - @Rinchama
 - @nah
 - @Ziassan
-- @Aeden
 - @Eden
 - @KroaKroa
-- @Suryan
+- @suryanfromspace
 
 ## Added
 
