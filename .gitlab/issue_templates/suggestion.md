@@ -22,8 +22,8 @@
 
 **Créateur(s)** : (Quel studio a crée l'oeuvre ? Ou quelle entité (Bandai Namco pour Tales Of, par exemple.)
 
-**Tags supplémentaires** : (Pas animé? Parodie? Tokusatsu? Mecha?)
-Liste des tags pour vous aider à choisir: **(merci de supprimer ces lignes pour éviter de faire un message trop long)**
+**Tags supplémentaires** : (Pas animé ? Parodie ? Tokusatsu ? Mecha ?)
+Liste des tags pour vous aider à choisir: ( /!\ MERCI DE SUPPRIMER LES LIGNES EN TROP POUR ÉVITER DE FAIRE UN MESSAGE TROP LONG /!\ )
 
 * "TAG_SPECIAL": "Special",
 * "TAG_REMIX": "Remix",
