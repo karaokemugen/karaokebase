@@ -6,7 +6,7 @@
 
 **Titre de la chanson** :
 
-## Informations optionelles
+## Informations optionnelles
 
 **Lien vers une vidéo** : (de préférence de bonne qualité, Youtube, Dropbox, GDrive, OneDrive, etc.)
 
@@ -23,7 +23,7 @@
 **Créateur(s)** : (Quel studio a crée l'oeuvre ? Ou quelle entité (Bandai Namco pour Tales Of, par exemple.)
 
 **Tags supplémentaires** : (Pas animé? Parodie? Tokusatsu? Mecha?)
-Liste des tags pour vous aider à choisir: (merci de supprimer ces lignes pour eviter de faire un message torp long)
+Liste des tags pour vous aider à choisir: **(merci de supprimer ces lignes pour éviter de faire un message trop long)**
 
 * "TAG_SPECIAL": "Special",
 * "TAG_REMIX": "Remix",

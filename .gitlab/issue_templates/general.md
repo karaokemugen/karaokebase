@@ -1,4 +1,4 @@
-# Problême général
+# Problème général
 
 Souci rencontré :
 
