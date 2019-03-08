@@ -35,7 +35,7 @@ SELECT
 FROM all_karas AS ak
 WHERE misc_tags::varchar NOT LIKE \'%TAG_R18%\' AND mediafile LIKE \'%.mp4\'
 GROUP BY ak.kid, ak.title, ak.songorder, ak.serie, ak.subfile, ak.singers, ak.songtypes, ak.languages, ak.authors, ak.misc_tags, ak.mediafile,  ak.languages_sortable, ak.songtypes_sortable, ak.singers_sortable
-ORDER BY ak.languages_sortable, ak.serie IS NULL, lower(unaccent(serie)), ak.songtypes_sortable DESC, ak.songorder, lower(unaccent(singers_sortable)), lower(unaccent(ak.title))
+ORDER BY serie, ak.songtypes_sortable DESC, ak.songorder, lower(unaccent(singers_sortable)), lower(unaccent(ak.title))
 ';
 
 $data=$pdo->query($query)->fetchAll();
