@@ -24,7 +24,7 @@ Style: Default,Arial,53,&H00008AFF,&H00FFFFFF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:12.93,0:00:14.93,Default,,0,0,0,template pre-line all keeptags,!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}\N
+Comment: 0,0:00:12.93,0:00:14.93,Default,,0,0,0,template pre-line all keeptags,!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}
 Comment: 0,0:00:14.93,0:00:20.33,Default,,0,0,0,karaoke,{\k80}Die {\k77}Stüh{\k99}le {\k49}lie{\k93}gen {\k64}sehr {\k78}eng
 Comment: 0,0:00:20.93,0:00:26.64,Default,,0,0,0,karaoke,{\k97}Wir {\k58}re{\k99}den {\k53}die {\k44}gan{\k29}ze {\k27}Na{\k40}cht {\k124}lang
 Comment: 0,0:00:26.91,0:00:32.86,Default,,0,0,0,karaoke,{\k77}Die{\k29}ser {\k49}nie{\k105}dri{\k44}ge {\k78}Rau{\k28}m {\k24}ist {\k24}nicht {\k50}schle{\k87}cht
@@ -33,11 +33,11 @@ Comment: 0,0:00:41.36,0:00:47.26,Default,,0,0,0,karaoke,{\k40}So {\k26}ist {\k74
 Comment: 0,0:00:47.26,0:00:53.44,Default,,0,0,0,karaoke,{\k68}Trin{\k54}ken {\k28}und {\k53}sin{\k68}gen {\k52}wir {\k31}be{\k80}grü{\k34}ßen {\k51}mor{\k99}gen
 Comment: 0,0:00:53.40,0:00:59.08,Default,,0,0,0,karaoke,{\k32}So {\k30}ist {\k73}es {\k51}im{\k72}mer {\k54}un{\k45}term {\k53}rie{\k16}si{\k52}gen {\k33}Hi{\k57}mmel
 Comment: 0,0:00:59.48,0:01:05.77,Default,,0,0,0,karaoke,{\k43}Le{\k105}ben {\k30}wir {\k21}zu{\k61}sa{\k88}mmen {\k71}die {\k57}Nacht {\k27}ist {\k126}lang
-Dialogue: 0,0:00:13.93,0:00:20.43,Default,,0,0,0,fx,{\fade(255,0,255,0,850,6400,6500)\k90}\N{\k80}Die {\k77}Stüh{\k99}le {\k49}lie{\k93}gen {\k64}sehr {\k78}eng
-Dialogue: 0,0:00:19.93,0:00:26.74,Default,,0,0,0,fx,{\fade(255,0,255,0,850,6710,6810)\k90}\N{\k97}Wir {\k58}re{\k99}den {\k53}die {\k44}gan{\k29}ze {\k27}Na{\k40}cht {\k124}lang
-Dialogue: 0,0:00:25.91,0:00:32.96,Default,,0,0,0,fx,{\fade(255,0,255,0,850,6950,7050)\k90}\N{\k77}Die{\k29}ser {\k49}nie{\k105}dri{\k44}ge {\k78}Rau{\k28}m {\k24}ist {\k24}nicht {\k50}schle{\k87}cht
-Dialogue: 0,0:00:31.86,0:00:38.53,Default,,0,0,0,fx,{\fade(255,0,255,0,850,6570,6670)\k90}\N{\k108}Wir {\k44}kö{\k113}nnen {\k40}uns {\k97}gut {\k46}ver{\k38}ste{\k71}hen
-Dialogue: 0,0:00:40.36,0:00:47.36,Default,,0,0,0,fx,{\fade(255,0,255,0,850,6900,7000)\k90}\N{\k40}So {\k26}ist {\k74}es {\k44}im{\k46}mer {\k51}un{\k24}ser {\k60}Licht {\k64}ist {\k50}nur {\k111}das
-Dialogue: 0,0:00:46.26,0:00:53.54,Default,,0,0,0,fx,{\fade(255,0,255,0,850,7180,7280)\k90}\N{\k68}Trin{\k54}ken {\k28}und {\k53}sin{\k68}gen {\k52}wir {\k31}be{\k80}grü{\k34}ßen {\k51}mor{\k99}gen
-Dialogue: 0,0:00:52.40,0:00:59.18,Default,,0,0,0,fx,{\fade(255,0,255,0,850,6680,6780)\k90}\N{\k32}So {\k30}ist {\k73}es {\k51}im{\k72}mer {\k54}un{\k45}term {\k53}rie{\k16}si{\k52}gen {\k33}Hi{\k57}mmel
-Dialogue: 0,0:00:58.48,0:01:05.87,Default,,0,0,0,fx,{\fade(255,0,255,0,850,7290,7390)\k90}\N{\k43}Le{\k105}ben {\k30}wir {\k21}zu{\k61}sa{\k88}mmen {\k71}die {\k57}Nacht {\k27}ist {\k126}lang
+Dialogue: 0,0:00:13.93,0:00:20.43,Default,,0,0,0,fx,{\fade(255,0,255,0,850,6400,6500)\k90}{\k80}Die {\k77}Stüh{\k99}le {\k49}lie{\k93}gen {\k64}sehr {\k78}eng
+Dialogue: 0,0:00:19.93,0:00:26.74,Default,,0,0,0,fx,{\fade(255,0,255,0,850,6710,6810)\k90}{\k97}Wir {\k58}re{\k99}den {\k53}die {\k44}gan{\k29}ze {\k27}Na{\k40}cht {\k124}lang
+Dialogue: 0,0:00:25.91,0:00:32.96,Default,,0,0,0,fx,{\fade(255,0,255,0,850,6950,7050)\k90}{\k77}Die{\k29}ser {\k49}nie{\k105}dri{\k44}ge {\k78}Rau{\k28}m {\k24}ist {\k24}nicht {\k50}schle{\k87}cht
+Dialogue: 0,0:00:31.86,0:00:38.53,Default,,0,0,0,fx,{\fade(255,0,255,0,850,6570,6670)\k90}{\k108}Wir {\k44}kö{\k113}nnen {\k40}uns {\k97}gut {\k46}ver{\k38}ste{\k71}hen
+Dialogue: 0,0:00:40.36,0:00:47.36,Default,,0,0,0,fx,{\fade(255,0,255,0,850,6900,7000)\k90}{\k40}So {\k26}ist {\k74}es {\k44}im{\k46}mer {\k51}un{\k24}ser {\k60}Licht {\k64}ist {\k50}nur {\k111}das
+Dialogue: 0,0:00:46.26,0:00:53.54,Default,,0,0,0,fx,{\fade(255,0,255,0,850,7180,7280)\k90}{\k68}Trin{\k54}ken {\k28}und {\k53}sin{\k68}gen {\k52}wir {\k31}be{\k80}grü{\k34}ßen {\k51}mor{\k99}gen
+Dialogue: 0,0:00:52.40,0:00:59.18,Default,,0,0,0,fx,{\fade(255,0,255,0,850,6680,6780)\k90}{\k32}So {\k30}ist {\k73}es {\k51}im{\k72}mer {\k54}un{\k45}term {\k53}rie{\k16}si{\k52}gen {\k33}Hi{\k57}mmel
+Dialogue: 0,0:00:58.48,0:01:05.87,Default,,0,0,0,fx,{\fade(255,0,255,0,850,7290,7390)\k90}{\k43}Le{\k105}ben {\k30}wir {\k21}zu{\k61}sa{\k88}mmen {\k71}die {\k57}Nacht {\k27}ist {\k126}lang

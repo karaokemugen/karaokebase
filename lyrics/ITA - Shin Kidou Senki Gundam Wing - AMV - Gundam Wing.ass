@@ -26,7 +26,7 @@ Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!\N{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:00.58,0:00:01.35,Default,,0,0,0,karaoke,{\k28}GUN{\k49}DAM
 Comment: 0,0:00:01.45,0:00:03.85,Default,,0,0,0,karaoke,{\k27}ma{\k26}cchi{\k41}na {\k41}da {\k35}gue{\k70}rra
 Comment: 0,0:00:03.85,0:00:05.00,Default,,0,0,0,karaoke,{\k33}GUN{\k42}DAM {\k40}WING
@@ -101,78 +101,78 @@ Comment: 0,0:02:54.75,0:02:59.60,Default,,0,0,0,karaoke,{\k22}im{\k20}ba{\k48}tt
 Comment: 0,0:02:59.80,0:03:03.10,Default,,0,0,0,karaoke,{\k36}ALWAYS {\k33}SU{\k67}PER {\k194}STRONG
 Comment: 0,0:03:01.60,0:03:04.90,Default,,0,0,0,karaoke,{\k36}ALWAYS {\k33}SU{\k67}PER {\k194}STRONG
 Comment: 0,0:03:04.31,0:03:05.61,Default,,0,0,0,karaoke,{\k42}GUN{\k88}DAM
-Dialogue: 0,0:00:00.00,0:00:01.55,Default,,0,0,0,fx,\N{\k58\fad(580,200)}{\k28}GUN{\k49}DAM
-Dialogue: 0,0:00:00.55,0:00:04.05,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k27}ma{\k26}cchi{\k41}na {\k41}da {\k35}gue{\k70}rra
-Dialogue: 0,0:00:02.95,0:00:05.20,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k33}GUN{\k42}DAM {\k40}WING
-Dialogue: 0,0:00:04.10,0:00:07.55,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k25}GO {\k20}TO {\k45}FIGHT {\k37}A {\k108}WAR
-Dialogue: 0,0:00:06.50,0:00:08.60,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k50}GUN{\k50}DAM
-Dialogue: 0,0:00:07.60,0:00:13.55,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k22}im{\k20}ba{\k48}tti{\k44}bi{\k36}li {\k142}ro{\k173}bot
-Dialogue: 0,0:00:12.65,0:00:17.05,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k36}ALWAYS {\k33}SU{\k67}PER {\k194}STRONG
-Dialogue: 0,0:00:14.45,0:00:18.85,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k36}ALWAYS {\k33}SU{\k67}PER {\k194}STRONG
-Dialogue: 0,0:00:16.35,0:00:19.15,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k26}cin{\k12}que {\k56}su{\k21}per {\k20}ro{\k35}bot
-Dialogue: 0,0:00:18.15,0:00:20.90,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k21}GUN{\k24}DAM {\k42}WING {\k22}tu{\k22}tti {\k34}doc
-Dialogue: 0,0:00:19.90,0:00:24.10,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k24}nel{\k21}lo {\k44}spa{\k30}zio {\k45}sfre{\k55}ccia{\k91}no
-Dialogue: 0,0:00:23.20,0:00:26.05,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k42}stan {\k16}vo{\k49}lan{\k15}do {\k25}quag{\k28}giù
-Dialogue: 0,0:00:25.15,0:00:27.90,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k20}da {\k23}co{\k25}lo{\k39}nie {\k25}las{\k33}sù
-Dialogue: 0,0:00:26.90,0:00:31.20,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k18}or{\k28}mai {\k21}ri{\k42}do{\k14}tte {\k10}in {\k44}schia{\k42}vi{\k101}tù
-Dialogue: 0,0:00:31.05,0:00:33.05,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k45}GUN{\k45}DAM
-Dialogue: 0,0:00:32.60,0:00:35.60,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k32}DAN{\k33}GE{\k25}ROUS {\k44}MIS{\k56}SIONS
-Dialogue: 0,0:00:34.55,0:00:36.55,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k45}GUN{\k45}DAM
-Dialogue: 0,0:00:35.85,0:00:38.45,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k27}FOR {\k123}YOU
-Dialogue: 0,0:00:38.05,0:00:40.20,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k52}GUN{\k53}DAM
-Dialogue: 0,0:00:39.50,0:00:42.85,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k54}cin{\k24}que {\k22}ro{\k42}bot {\k36}co{\k47}sì
-Dialogue: 0,0:00:41.75,0:00:44.40,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k25}GUN{\k26}DAM {\k104}WING
-Dialogue: 0,0:00:43.40,0:00:45.96,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k26}so{\k20}no {\k28}spa{\k30}zia{\k42}li i
-Dialogue: 0,0:00:44.86,0:00:48.05,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k44}GUN{\k25}DAM {\k21}man{\k41}da{\k46}ti {\k32}qua
-Dialogue: 0,0:00:47.00,0:00:51.50,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k20}ec{\k20}ce{\k33}zio{\k21}na{\k43}li {\k42}per {\k17}for{\k19}za {\k11}e {\k42}vo{\k44}lon{\k28}tà
-Dialogue: 0,0:00:50.55,0:00:54.95,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k24}han{\k24}no {\k18}le {\k64}ali e {\k46}nien{\k23}te {\k22}li {\k44}fer{\k44}me{\k21}rà
-Dialogue: 0,0:00:54.05,0:00:58.45,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k23}FIGH{\k23}TING {\k22}FOR {\k21}JUS{\k43}TICE {\k45}GUN{\k153}DAM
-Dialogue: 0,0:00:57.50,0:00:59.93,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k13}qui {\k25}sul{\k28}la {\k24}ter{\k43}ra i
-Dialogue: 0,0:00:58.83,0:01:02.00,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k42}GUN{\k15}DAM {\k31}si {\k44}scon{\k44}tra{\k31}no
-Dialogue: 0,0:01:00.90,0:01:03.44,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k25}son {\k31}sem{\k13}pre {\k14}in {\k19}sel{\k42}la
-Dialogue: 0,0:01:02.34,0:01:05.45,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k44}e {\k14}non {\k26}si ar{\k47}ren{\k46}do{\k24}no
-Dialogue: 0,0:01:04.50,0:01:08.90,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k25}in {\k24}ques{\k19}ta {\k17}guer{\k46}ra {\k49}do{\k18}ve {\k24}com{\k41}bat{\k47}to{\k20}no
-Dialogue: 0,0:01:08.00,0:01:12.00,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k23}FIGH{\k25}TING {\k20}FOR {\k22}JUS{\k43}TICE {\k42}GUN{\k115}DAM
-Dialogue: 0,0:01:11.62,0:01:16.12,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k26}FIGH{\k26}TING {\k19}FOR {\k23}JUS{\k42}TICE {\k45}GUN{\k159}DAM
-Dialogue: 0,0:01:14.92,0:01:17.77,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k44}THREE {\k50}TWO {\k43}ONE {\k38}GO
-Dialogue: 0,0:01:16.60,0:01:18.47,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k28}GUN{\k49}DAM
-Dialogue: 0,0:01:17.47,0:01:20.97,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k27}ma{\k26}cchi{\k41}na {\k41}da {\k35}gue{\k70}rra
-Dialogue: 0,0:01:19.87,0:01:22.12,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k33}GUN{\k42}DAM {\k40}WING
-Dialogue: 0,0:01:21.02,0:01:24.47,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k25}GO {\k20}TO {\k45}FIGHT {\k37}A {\k108}WAR
-Dialogue: 0,0:01:23.42,0:01:25.52,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k50}GUN{\k50}DAM
-Dialogue: 0,0:01:24.52,0:01:30.47,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k22}im{\k20}ba{\k48}tti{\k44}bi{\k36}li {\k142}ro{\k173}bot
-Dialogue: 0,0:01:29.57,0:01:33.97,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k36}ALWAYS {\k33}SU{\k67}PER {\k194}STRONG
-Dialogue: 0,0:01:31.37,0:01:35.77,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k36}ALWAYS {\k33}SU{\k67}PER {\k194}STRONG
-Dialogue: 0,0:01:34.34,0:01:37.89,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k43}la {\k37}guer{\k48}ra {\k50}fi{\k44}ni{\k23}rà
-Dialogue: 0,0:01:36.84,0:01:41.44,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k17}se {\k22}il {\k21}ven{\k22}to {\k43}del{\k24}la {\k43}li{\k44}ber{\k114}tà
-Dialogue: 0,0:01:40.44,0:01:42.64,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k28}GUN{\k24}DAM {\k58}WING
-Dialogue: 0,0:01:41.59,0:01:45.69,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k23}in {\k42}tut{\k45}ti i {\k45}cuo{\k23}ri {\k62}sof{\k25}fie{\k35}rà
-Dialogue: 0,0:01:44.64,0:01:48.59,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k49}GUN{\k62}DAM {\k44}GUN{\k130}DAM
-Dialogue: 0,0:01:48.14,0:01:52.24,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k47}GUN{\k65}DAM {\k43}GUN{\k145}DAM
-Dialogue: 0,0:01:50.99,0:01:55.34,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k24}ro{\k46}bot {\k43}GUN{\k66}DAM {\k44}GUN{\k102}DAM
-Dialogue: 0,0:01:54.49,0:01:57.14,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k25}GUN{\k21}DAM {\k109}WING
-Dialogue: 0,0:01:56.04,0:01:58.24,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k14}GUN{\k11}DAM {\k63}WING {\k22}FLY
-Dialogue: 0,0:02:08.48,0:02:11.58,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k25}GUN{\k26}DAM {\k149}WING
-Dialogue: 0,0:02:12.78,0:02:15.33,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k27}so{\k19}no {\k24}spa{\k35}zia{\k40}li i
-Dialogue: 0,0:02:14.23,0:02:17.33,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k47}GUN{\k22}DAM {\k22}man{\k42}da{\k36}ti {\k31}qua
-Dialogue: 0,0:02:16.43,0:02:20.83,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k18}ec{\k19}ce{\k33}zio{\k18}na{\k44}li {\k39}per {\k24}for{\k11}za {\k16}e {\k40}vo{\k45}lon{\k23}tà
-Dialogue: 0,0:02:19.93,0:02:24.33,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k24}han{\k23}no {\k21}le {\k64}ali e {\k44}nien{\k24}te {\k15}li {\k51}fer{\k42}me{\k22}rà
-Dialogue: 0,0:02:23.43,0:02:27.83,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k21}FIGH{\k26}TING {\k19}FOR {\k23}JUS{\k46}TICE {\k43}GUN{\k152}DAM
-Dialogue: 0,0:02:26.93,0:02:29.36,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k13}qui {\k25}sul{\k28}la {\k24}ter{\k43}ra i
-Dialogue: 0,0:02:28.26,0:02:31.43,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k42}GUN{\k15}DAM {\k31}si {\k44}scon{\k44}tra{\k31}no
-Dialogue: 0,0:02:30.33,0:02:32.87,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k25}son {\k31}sem{\k13}pre {\k14}in {\k19}sel{\k42}la
-Dialogue: 0,0:02:31.77,0:02:34.88,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k44}e {\k14}non {\k26}si ar{\k47}ren{\k46}do{\k24}no
-Dialogue: 0,0:02:33.93,0:02:38.33,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k25}in {\k24}ques{\k19}ta {\k17}guer{\k46}ra {\k49}do{\k18}ve {\k24}com{\k41}bat{\k47}to{\k20}no
-Dialogue: 0,0:02:37.43,0:02:41.43,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k23}FIGH{\k25}TING {\k20}FOR {\k22}JUS{\k43}TICE {\k42}GUN{\k115}DAM
-Dialogue: 0,0:02:40.05,0:02:42.53,Default,,0,0,0,,\N{\k90\fad(300,200)}{\k25}GUN{\k26}DAM {\k149}WING
-Dialogue: 0,0:02:40.93,0:02:45.13,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k24}FIGH{\k20}TING {\k24}FOR {\k23}JUS{\k43}TICE {\k44}GUN{\k132}DAM
-Dialogue: 0,0:02:44.18,0:02:46.88,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k47}THREE {\k48}TWO {\k45}ONE {\k20}GO
-Dialogue: 0,0:02:45.93,0:02:47.80,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k28}GUN{\k49}DAM
-Dialogue: 0,0:02:46.80,0:02:50.30,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k27}ma{\k26}cchi{\k41}na {\k41}da {\k35}gue{\k70}rra
-Dialogue: 0,0:02:49.20,0:02:51.45,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k33}GUN{\k42}DAM {\k40}WING
-Dialogue: 0,0:02:50.35,0:02:53.80,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k25}GO {\k20}TO {\k45}FIGHT {\k37}A {\k108}WAR
-Dialogue: 0,0:02:52.75,0:02:54.85,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k50}GUN{\k50}DAM
-Dialogue: 0,0:02:53.85,0:02:59.80,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k22}im{\k20}ba{\k48}tti{\k44}bi{\k36}li {\k142}ro{\k173}bot
-Dialogue: 0,0:02:58.90,0:03:03.30,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k36}ALWAYS {\k33}SU{\k67}PER {\k194}STRONG
-Dialogue: 0,0:03:00.70,0:03:05.10,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k36}ALWAYS {\k33}SU{\k67}PER {\k194}STRONG
-Dialogue: 0,0:03:03.41,0:03:05.81,Default,,0,0,0,fx,\N{\k90\fad(300,200)}{\k42}GUN{\k88}DAM
+Dialogue: 0,0:00:00.00,0:00:01.55,Default,,0,0,0,fx,{\k58\fad(580,200)}{\k28}GUN{\k49}DAM
+Dialogue: 0,0:00:00.55,0:00:04.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ma{\k26}cchi{\k41}na {\k41}da {\k35}gue{\k70}rra
+Dialogue: 0,0:00:02.95,0:00:05.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}GUN{\k42}DAM {\k40}WING
+Dialogue: 0,0:00:04.10,0:00:07.55,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}GO {\k20}TO {\k45}FIGHT {\k37}A {\k108}WAR
+Dialogue: 0,0:00:06.50,0:00:08.60,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k50}GUN{\k50}DAM
+Dialogue: 0,0:00:07.60,0:00:13.55,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}im{\k20}ba{\k48}tti{\k44}bi{\k36}li {\k142}ro{\k173}bot
+Dialogue: 0,0:00:12.65,0:00:17.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ALWAYS {\k33}SU{\k67}PER {\k194}STRONG
+Dialogue: 0,0:00:14.45,0:00:18.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ALWAYS {\k33}SU{\k67}PER {\k194}STRONG
+Dialogue: 0,0:00:16.35,0:00:19.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}cin{\k12}que {\k56}su{\k21}per {\k20}ro{\k35}bot
+Dialogue: 0,0:00:18.15,0:00:20.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}GUN{\k24}DAM {\k42}WING {\k22}tu{\k22}tti {\k34}doc
+Dialogue: 0,0:00:19.90,0:00:24.10,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}nel{\k21}lo {\k44}spa{\k30}zio {\k45}sfre{\k55}ccia{\k91}no
+Dialogue: 0,0:00:23.20,0:00:26.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}stan {\k16}vo{\k49}lan{\k15}do {\k25}quag{\k28}giù
+Dialogue: 0,0:00:25.15,0:00:27.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}da {\k23}co{\k25}lo{\k39}nie {\k25}las{\k33}sù
+Dialogue: 0,0:00:26.90,0:00:31.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}or{\k28}mai {\k21}ri{\k42}do{\k14}tte {\k10}in {\k44}schia{\k42}vi{\k101}tù
+Dialogue: 0,0:00:31.05,0:00:33.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k45}GUN{\k45}DAM
+Dialogue: 0,0:00:32.60,0:00:35.60,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}DAN{\k33}GE{\k25}ROUS {\k44}MIS{\k56}SIONS
+Dialogue: 0,0:00:34.55,0:00:36.55,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k45}GUN{\k45}DAM
+Dialogue: 0,0:00:35.85,0:00:38.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}FOR {\k123}YOU
+Dialogue: 0,0:00:38.05,0:00:40.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k52}GUN{\k53}DAM
+Dialogue: 0,0:00:39.50,0:00:42.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k54}cin{\k24}que {\k22}ro{\k42}bot {\k36}co{\k47}sì
+Dialogue: 0,0:00:41.75,0:00:44.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}GUN{\k26}DAM {\k104}WING
+Dialogue: 0,0:00:43.40,0:00:45.96,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}so{\k20}no {\k28}spa{\k30}zia{\k42}li i
+Dialogue: 0,0:00:44.86,0:00:48.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k44}GUN{\k25}DAM {\k21}man{\k41}da{\k46}ti {\k32}qua
+Dialogue: 0,0:00:47.00,0:00:51.50,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ec{\k20}ce{\k33}zio{\k21}na{\k43}li {\k42}per {\k17}for{\k19}za {\k11}e {\k42}vo{\k44}lon{\k28}tà
+Dialogue: 0,0:00:50.55,0:00:54.95,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}han{\k24}no {\k18}le {\k64}ali e {\k46}nien{\k23}te {\k22}li {\k44}fer{\k44}me{\k21}rà
+Dialogue: 0,0:00:54.05,0:00:58.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}FIGH{\k23}TING {\k22}FOR {\k21}JUS{\k43}TICE {\k45}GUN{\k153}DAM
+Dialogue: 0,0:00:57.50,0:00:59.93,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}qui {\k25}sul{\k28}la {\k24}ter{\k43}ra i
+Dialogue: 0,0:00:58.83,0:01:02.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}GUN{\k15}DAM {\k31}si {\k44}scon{\k44}tra{\k31}no
+Dialogue: 0,0:01:00.90,0:01:03.44,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}son {\k31}sem{\k13}pre {\k14}in {\k19}sel{\k42}la
+Dialogue: 0,0:01:02.34,0:01:05.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k44}e {\k14}non {\k26}si ar{\k47}ren{\k46}do{\k24}no
+Dialogue: 0,0:01:04.50,0:01:08.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}in {\k24}ques{\k19}ta {\k17}guer{\k46}ra {\k49}do{\k18}ve {\k24}com{\k41}bat{\k47}to{\k20}no
+Dialogue: 0,0:01:08.00,0:01:12.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}FIGH{\k25}TING {\k20}FOR {\k22}JUS{\k43}TICE {\k42}GUN{\k115}DAM
+Dialogue: 0,0:01:11.62,0:01:16.12,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}FIGH{\k26}TING {\k19}FOR {\k23}JUS{\k42}TICE {\k45}GUN{\k159}DAM
+Dialogue: 0,0:01:14.92,0:01:17.77,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k44}THREE {\k50}TWO {\k43}ONE {\k38}GO
+Dialogue: 0,0:01:16.60,0:01:18.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}GUN{\k49}DAM
+Dialogue: 0,0:01:17.47,0:01:20.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ma{\k26}cchi{\k41}na {\k41}da {\k35}gue{\k70}rra
+Dialogue: 0,0:01:19.87,0:01:22.12,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}GUN{\k42}DAM {\k40}WING
+Dialogue: 0,0:01:21.02,0:01:24.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}GO {\k20}TO {\k45}FIGHT {\k37}A {\k108}WAR
+Dialogue: 0,0:01:23.42,0:01:25.52,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k50}GUN{\k50}DAM
+Dialogue: 0,0:01:24.52,0:01:30.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}im{\k20}ba{\k48}tti{\k44}bi{\k36}li {\k142}ro{\k173}bot
+Dialogue: 0,0:01:29.57,0:01:33.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ALWAYS {\k33}SU{\k67}PER {\k194}STRONG
+Dialogue: 0,0:01:31.37,0:01:35.77,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ALWAYS {\k33}SU{\k67}PER {\k194}STRONG
+Dialogue: 0,0:01:34.34,0:01:37.89,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k43}la {\k37}guer{\k48}ra {\k50}fi{\k44}ni{\k23}rà
+Dialogue: 0,0:01:36.84,0:01:41.44,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}se {\k22}il {\k21}ven{\k22}to {\k43}del{\k24}la {\k43}li{\k44}ber{\k114}tà
+Dialogue: 0,0:01:40.44,0:01:42.64,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}GUN{\k24}DAM {\k58}WING
+Dialogue: 0,0:01:41.59,0:01:45.69,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}in {\k42}tut{\k45}ti i {\k45}cuo{\k23}ri {\k62}sof{\k25}fie{\k35}rà
+Dialogue: 0,0:01:44.64,0:01:48.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k49}GUN{\k62}DAM {\k44}GUN{\k130}DAM
+Dialogue: 0,0:01:48.14,0:01:52.24,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}GUN{\k65}DAM {\k43}GUN{\k145}DAM
+Dialogue: 0,0:01:50.99,0:01:55.34,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ro{\k46}bot {\k43}GUN{\k66}DAM {\k44}GUN{\k102}DAM
+Dialogue: 0,0:01:54.49,0:01:57.14,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}GUN{\k21}DAM {\k109}WING
+Dialogue: 0,0:01:56.04,0:01:58.24,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k14}GUN{\k11}DAM {\k63}WING {\k22}FLY
+Dialogue: 0,0:02:08.48,0:02:11.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}GUN{\k26}DAM {\k149}WING
+Dialogue: 0,0:02:12.78,0:02:15.33,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}so{\k19}no {\k24}spa{\k35}zia{\k40}li i
+Dialogue: 0,0:02:14.23,0:02:17.33,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}GUN{\k22}DAM {\k22}man{\k42}da{\k36}ti {\k31}qua
+Dialogue: 0,0:02:16.43,0:02:20.83,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ec{\k19}ce{\k33}zio{\k18}na{\k44}li {\k39}per {\k24}for{\k11}za {\k16}e {\k40}vo{\k45}lon{\k23}tà
+Dialogue: 0,0:02:19.93,0:02:24.33,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}han{\k23}no {\k21}le {\k64}ali e {\k44}nien{\k24}te {\k15}li {\k51}fer{\k42}me{\k22}rà
+Dialogue: 0,0:02:23.43,0:02:27.83,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}FIGH{\k26}TING {\k19}FOR {\k23}JUS{\k46}TICE {\k43}GUN{\k152}DAM
+Dialogue: 0,0:02:26.93,0:02:29.36,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}qui {\k25}sul{\k28}la {\k24}ter{\k43}ra i
+Dialogue: 0,0:02:28.26,0:02:31.43,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}GUN{\k15}DAM {\k31}si {\k44}scon{\k44}tra{\k31}no
+Dialogue: 0,0:02:30.33,0:02:32.87,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}son {\k31}sem{\k13}pre {\k14}in {\k19}sel{\k42}la
+Dialogue: 0,0:02:31.77,0:02:34.88,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k44}e {\k14}non {\k26}si ar{\k47}ren{\k46}do{\k24}no
+Dialogue: 0,0:02:33.93,0:02:38.33,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}in {\k24}ques{\k19}ta {\k17}guer{\k46}ra {\k49}do{\k18}ve {\k24}com{\k41}bat{\k47}to{\k20}no
+Dialogue: 0,0:02:37.43,0:02:41.43,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}FIGH{\k25}TING {\k20}FOR {\k22}JUS{\k43}TICE {\k42}GUN{\k115}DAM
+Dialogue: 0,0:02:40.05,0:02:42.53,Default,,0,0,0,,{\k90\fad(300,200)}{\k25}GUN{\k26}DAM {\k149}WING
+Dialogue: 0,0:02:40.93,0:02:45.13,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}FIGH{\k20}TING {\k24}FOR {\k23}JUS{\k43}TICE {\k44}GUN{\k132}DAM
+Dialogue: 0,0:02:44.18,0:02:46.88,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}THREE {\k48}TWO {\k45}ONE {\k20}GO
+Dialogue: 0,0:02:45.93,0:02:47.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}GUN{\k49}DAM
+Dialogue: 0,0:02:46.80,0:02:50.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ma{\k26}cchi{\k41}na {\k41}da {\k35}gue{\k70}rra
+Dialogue: 0,0:02:49.20,0:02:51.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}GUN{\k42}DAM {\k40}WING
+Dialogue: 0,0:02:50.35,0:02:53.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}GO {\k20}TO {\k45}FIGHT {\k37}A {\k108}WAR
+Dialogue: 0,0:02:52.75,0:02:54.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k50}GUN{\k50}DAM
+Dialogue: 0,0:02:53.85,0:02:59.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k22}im{\k20}ba{\k48}tti{\k44}bi{\k36}li {\k142}ro{\k173}bot
+Dialogue: 0,0:02:58.90,0:03:03.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ALWAYS {\k33}SU{\k67}PER {\k194}STRONG
+Dialogue: 0,0:03:00.70,0:03:05.10,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ALWAYS {\k33}SU{\k67}PER {\k194}STRONG
+Dialogue: 0,0:03:03.41,0:03:05.81,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}GUN{\k88}DAM
