@@ -18,7 +18,7 @@ test:
   script:
     - mkdir ~/.ssh
     - echo "$SSH_KEY" > ~/.ssh/id_rsa
-    - HOSTKEYS=`ssh-keyscan -H $HOST
+    - HOSTKEYS=`ssh-keyscan -H $HOST`
     - echo "$HOSTKEYS" > ~/.ssh/known_hosts
     - chmod -R 700 ~/.ssh
     - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
