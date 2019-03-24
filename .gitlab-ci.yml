@@ -18,7 +18,8 @@ test:
   script:
     - mkdir ~/.ssh
     - echo "$SSH_KEY" > ~/.ssh/id_rsa
-    - ssh-keyscan -H $HOST
+    - HOSTKEYS=`ssh-keyscan -H $HOST`
+    - echo "$HOSTKEYS" > ~/.ssh/known_hosts
     - chmod -R 700 ~/.ssh
     - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
     - ssh -l root $HOST
@@ -32,7 +33,7 @@ test:
     - echo "PathKaras=../karas" >config.ini
     - echo "PathSubs=../lyrics" >>config.ini
     - echo "PathSeries=../series" >>config.ini
-    - echo "PathMedias=/shelter/medias" >>config.ini
+    - echo "PathMedias=/medias" >>config.ini
     - echo "BinPlayerLinux=mpv" >>config.ini
     - yarn start --debug --generate --strict
     - cd ..
