@@ -39,7 +39,7 @@ test:
     - cd ..
     - php -f tools/export_karaokesmoe.php >names.php
   only:
-    - master_konata
+    - master
 
 export:
   stage: deploy
@@ -50,4 +50,4 @@ export:
     - "curl -X POST -H authorization:$KMSERVERAUTH http://kara.moe/api/generate"
     - "curl -X POST -H authorization:$KMSERVERDEVAUTH http://dev.kara.moe/api/generate"
   only:
-    - master_konata
+    - master
