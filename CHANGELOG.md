@@ -1,3 +1,150 @@
+# March 2019
+
+Contributors :
+
+- @Dysp
+- @tartar_lord
+- Nabashi
+- Bakaclub
+- @Kmeuh
+- @Aeden
+- @Rinchama
+- @Angor-de-Redjak
+- @Psoushi
+- @mino
+- @zeograd
+- @Deformer-Lua
+- @nah
+- @suryanfromspace
+- @Amo
+- @Meulahke
+- @stal
+
+## Added
+
+- ENG - Bakemonogatari - AMV - Everybody's Circulation
+- ENG - DAICON IV ~ Making of - MV - Hold on Tight
+- ENG - Daym Drops - MV - OH MY DAYUM ft. Daym Drops
+- ENG - Dragon Ball Super - OP2 - Limit break x Survivor
+- ENG - Fate Grand Order - MV - Conqueror ~ Mash Vers
+- ENG - Ginga Eiyuu Densetsu - OVA IN - Free Planets Alliance National Anthem
+- ENG - Initial D First Stage - IN - Beat of the Rising Sun
+- ENG - Jinrui wa Suitai Shimashita - AMV - .owo//uwu (song : Tick Tick Boom)
+- ENG - JoJo's Bizarre Adventure: Golden Wind - ED2 - Modern Crusaders
+- ENG - Kyoukai no Kanata - AMV - Whoarriors (Warriors)
+- ENG - Luckydog1 - PC GAME OP - LUCKY DOG -Don't lose luck-
+- ENG - Macross Frontier - AMV - A Thousand Miles
+- ENG - Mystic Messenger - GAME OP - Mysterious Messenger
+- ENG - Netta Barzilai - MV - Toy
+- ENG - SoniAni Super Sonico The Animation - ED4 - Moonlight de Buttobase -MOONLIGHT STAR-
+- ENG - Tenacious D in The Pick of Destiny - MOVIE IN - Beelzeboss
+- ENG - The Witcher 3 - PS3 PS4 XBOX360 PC GAME OT - Lullaby of Woe
+- ENG - Togainu no Chi - PC GAME OP - GRIND
+- ENG - UltraSeven X - ED1 - Another Day Comes
+- ENG - Uta no Prince-sama ~ Maji Love 1000% - AMV - Reiterate Things (Repeat Stuff)
+- FRE - Dragon Ball - MV - Dragon Ball et Dragon Ball Z
+- FRE - Fushigi no Umi no Nadia - OP - Nadia, le secret de l'eau bleue
+- FRE - Fishbone - MV - La Balunga
+- FRE - My-eVe - MV - Pray
+- FRE - Pucca - OP - Pucca aime Garu
+- FRE - Strait Jacket - ED - Le chemin
+- FRE - Super Smash Bros. Ultimate - SWITCH GAME MV - Life Light
+- FRE - Yo-kai Watch Le Film - MOVIE ED - Medley Yo-kai Watch
+- ITA - Umineko no Naku Koro ni - PC GAME OT - Kin'iro no Choushou ~ Uruwashi no Bansan
+- JPN - Backdrop Cinderella - MV - COOL desu
+- JPN - BanG Dream! 2nd Season - OP1 - Kizuna Music
+- JPN - BanG Dream! 2nd Season - IN - R.I.O.T
+- JPN - Brothers Conflict Brilliant Blue - PSP GAME OP - JEALOUSNESS
+- JPN - Brothers Conflict Passion Pink - PSP GAME OP - AFFECTIONS
+- JPN - Boku no Pico - OVA OP - Koi wo Shiyou yo
+- JPN - Boogiepop wa Warawanai (2019) - OP - shadowgraph
+- JPN - Boogiepop wa Warawanai (2019) - ED1 - Whiteout
+- JPN - Catherine - GAME OP - YO
+- JPN - Cool Japan TV - MV - Tokyo Bon 2020 (Makudonarudo) ~ Full Dance Vers.
+- JPN - Digimon Adventure 02 - OP1 - Target ~Akai Shougeki~
+- JPN - Digimon Adventure 02 - OP2 - Target ~Akai Shougeki~
+- JPN - Digimon Frontier - OP - FIRE!!
+- JPN - Domestic na Kanojo - OP - Kawaki wo Ameku
+- JPN - Domestic na Kanojo - OP - Kawaki wo Ameku ~ Full vers
+- JPN - Dororo - ED - Sayonara gokko
+- JPN - Dororo - OP - Kaen
+- JPN - Fate/Apocrypha - ED2 - KOE
+- JPN - Fate Grand Order - MV - Yoiyoi Kokon ~ Hassans Vers
+- JPN - Fate Grand Order - MV - Yoiyoi Kokon ~ Murasaki Shikibu & Osakabehime Vers
+- JPN - Final Fantasy Unlimited - ED2 - Romancing Train
+- JPN - Gaiking Legend of Daikuu-Maryuu - OP - GAIKING ~ Alternative Vers
+- JPN - Gaikotsu Shotenin Honda-san - ED - Book-end, Happy-end
+- JPN - Gaikotsu Shotenin Honda-san - OP - ISBN _Inner Sound & Book's Narrative_
+- JPN - Gekijouban Fate stay Night Heaven's Feel - II. Lost Butterfly - ED - I beg you ~ Full Vers.
+- JPN - Ginga Eiyuu Densetsu - OVA ED3 - Kensô no Uta
+- JPN - God Eater 3 - PS4 PC GAME MV - stereo future
+- JPN - Granblue Fantasy - GAME PV1 - Sora no Michishirube
+- JPN - Granblue Fantasy - GAME PV2 - Sanbagarasu Otoko Uta
+- JPN - Hikaru Utada - LIVE - Boku wa kuma
+- JPN - Hunter X Hunter OVA - ED - Carry on
+- JPN - Hunter X Hunter OVA - OP - Pale Ale
+- JPN - Idol x Warrior Miracle Tunes! - OP1 - Catch Me
+- JPN - JoJo's Bizarre Adventure Part 5: Golden Wind  - OP2 - Uragirimono no Requiem
+- JPN - Kaguya-sama - OP1 - Love Dramatic
+- JPN - Kakegurui (Drama) - OP - Ichi ka Bachi ka
+- JPN - Kamen Rider Ex-Aid - IN - PEOPLE GAME
+- JPN - Kamigami no Asobi - Ludere Deorum - PSP GAME OP - Lunar Maria
+- JPN - Kamigami no Asobi InFinite - PSV PSP GAME OP - Pluma Cielo
+- JPN - Katekyou Hitman Reborn! - ED05 - Sakura Addiction ~ Full Vers
+- JPN - Katekyou Hitman Reborn! - OP3 - DIVE TO WORLD ~ Full Vers
+- JPN - Katekyou Hitman Reborn! - ED01 - Michishirube
+- JPN - Katekyou Hitman Reborn! - ED02 - ONE NIGHT STAR
+- JPN - Kemono Friends 2 - ED1 - Hoshi wo Tsunagete
+- JPN - Kemono Friends - OP - Youkoso Japari Park e - Alt. ver
+- JPN - Kemono Friends - ED - Boku no friend
+- JPN - Kemurikusa - ED - INDETERMINATE UNIVERSE
+- JPN - Kichiku Megane - PC GAME OP - under the darkness
+- JPN - Kichiku Megane R - PC GAME OP - under the darkness -remix-
+- JPN - Kurenai no Homura Sanada Ninpou Chou - PSV GAME OP - FLAMING
+- JPN - Lostorage Incited WIXOSS - ED - undeletable
+- JPN - Love Live! Equestrian Idol Project - AMV - Sore Wa Bokutachi No Kiseki
+- JPN - Love Live! School Idol Project 2nd Season - IN - Koremade no Love Live!
+- JPN - Mafumafu,RADWIMPS - REMIX MV - Oshakashama ~ Mafumafu Vers
+- JPN - Makai Shin Trillion - PSV GAME OP - Ai no NOISE
+- JPN - Malec - MV - IF GAME OF THRONES WAS AN ANIME
+- JPN - Mama wa Shougaku 4 Nensei - MV - Kono Ai wo Mirai he ~ Long version
+- JPN - Mahou Shôjo Tokushusen Asuka - OP - KODO
+- JPN - Miku Hatsune,GUMI,Len Kagamine,Luka Megurine,Rin Kagamine - MV - Plus danchi ~ reol Vers
+- JPN - Mobile Suit Gundam Iron-Blooded Orphans 2nd Season - OP1 - RAGE OF DUST
+- JPN - Ryuu ga Gotoku 4 - PS3 GAME IN - Get to the Top! (Haruka Vers.)
+- JPN - Ryuu ga Gotoku 5 - PS3 GAME IN - Machinegun Kiss
+- JPN - Ryuu ga Gotoku 6 - PS4 GAME IN - Tonight -restart from this night
+- JPN - Ryuu ga Gotoku OF THE END - PS3 GAME IN - Get to the Top! (Majima Vers.)
+- JPN - Shingeki no Kyôjin S3 - ED - Akatsuki no Requiem
+- JPN - Shinobi Koi Utsutsu - PSP GAME OP - Hana wa Utsutsu ni
+- JPN - Shinobi Koi Utsutsu -Banka Aya Emaki- - PS4 GAME OP - Kougyoku no chikai
+- JPN - Shinobi Koi Utsutsu -Setsugekka Koi Emaki- - PSV GAME OP - Futari Ayatori
+- JPN - Shinobi Koi Utsutsu -Kanmitsu Hana Emaki- - PSV GAME OP - Afureru Omoi ni Hana wa Mau
+- JPN - Star☆Twinkle Precure - ED1 - PaPePiPu Romantic
+- JPN - Symphogear AXZ - AMV - Axia no Kaze
+- JPN - Sword Art Online Alicization - OP2 - RESISTER ~ Alicization Uniting Vers
+- JPN - Sword Art Online Alicization - OP2 - RESISTER ~ Alicization Rising Vers
+- JPN - Taimanin Yukikaze - PC GAME OP - R E D ~ Full Vers.
+- JPN - Tensei Shitara Slime Datta Ken - OP2 - Meguru mono
+- JPN - The Quintessential Quintuplets - ED - Sign
+- JPN - Tokyo 7th Sisters - LIVE - SEVENTH HAVEN
+- JPN - Tokusatsu GaGaGa - IN - Kyuukyuuki Emerjason no theme
+- JPN - Touhou - MV - Yoiyoi Kokon ~ Touhou Ran & Yuugi Vers
+- JPN - THE iDOLM@STER Cinderella Girls Starlight Stage - GAME MV - Hotel Moonside
+- JPN - Ultraman Geed - OP - GEED no Akashi
+- JPN - Ultraman Retsuden - OP5 - ULTRA FLY
+- JPN - Umineko no naku koro ni - PC GAME OT - Kina no Kaori ~Ai no Shiren!~
+- JPN - Umineko no Naku Koro ni - PC GAME OT - Konjiki no Yasoukyoku ~Golden Nocturne~
+- JPN - Uta no Prince-sama Shining Live - GAME MV - Shining Romance ~ MV Short Vers
+- JPN - Virtual-san wa Miteiru - OP1 - Aiaiai
+- JPN - Wand of Fortune R - PSV GAME OP - Hitorijanai Akashi
+- JPN - WORLD ORDER - MV - MULTIPOLARITY
+- JPN - X BOMBER - OP - Soldier in the Space
+- JPN - Yohio - MV - SKY LiMiT
+- JPN - Zoku Touken Ranbu Hanamaru - OP - Hanamaru Shirushi no Hi no Moto de
+- KOR - Fate Grand Order - MV - BAAM ~ Archer and Lancer Ver
+- KOR - Mystic Messenger - GAME OP - Mysterious Messenger
+
 # February 2019
 
 Contributors :
