@@ -24,7 +24,7 @@ Contributors :
 
 ## Added
 
-New songs : 154
+New songs : 161
 
 - ENG - Bakemonogatari - AMV - Everybody's Circulation
 - ENG - DAICON IV ~ Making of - MV - Hold on Tight
@@ -70,6 +70,7 @@ New songs : 154
 - ITA - Umineko no Naku Koro ni - PC GAME OT - Kin'iro no Choushou ~ Uruwashi no Bansan
 - JPN - Backdrop Cinderella - MV - COOL desu
 - JPN - BanG Dream! - MV - Louder ~ Full Vers
+- JPN - BanG Dream! 2nd Season - IN - Louder
 - JPN - BanG Dream! 2nd Season - IN - R.I.O.T
 - JPN - BanG Dream! 2nd Season - OP1 - Kizuna Music
 - JPN - Boku no Pico - OVA OP - Koi wo Shiyou yo
@@ -82,6 +83,7 @@ New songs : 154
 - JPN - Catherine - PS3 XBOX360 PC GAME OP - YO
 - JPN - Cool Japan TV - MV - Tokyo Bon 2020 (Makudonarudo) ~ Full Dance Vers
 - JPN - Darker Than Black Ryuusei no Gemini - OT - Tsukiakari no Michishirube ~ BanG Dream Vers
+- JPN - Date a Live III - OP - I swear
 - JPN - Digimon Adventure 02 - OP - Target ~Akai Shougeki~
 - JPN - Digimon Adventure 02 - OP - Target ~Akai Shougeki~ ~ Alternative Vers.
 - JPN - Digimon Frontier - OP - FIRE!!
@@ -143,7 +145,7 @@ New songs : 154
 - JPN - REOL - MV - No title
 - JPN - REOL - MV - Yoiyoi Kokon
 - JPN - Rokushin Gattai GodMars - OP - Uchuu no Ouja! Godmars ~ Alternative Vers.
-- JPN - Ryu ga Gotoku 5 - PS3 GAME IN - Machinegun Kiss
+- JPN - Ryuu ga Gotoku 5 - PS3 GAME IN - Machinegun Kiss
 - JPN - Ryuu ga Gotoku 6 - PS4 GAME IN - Tonight -restart from this night
 - JPN - Ryuu ga Gotoku OF THE END - PS3 GAME IN - Get to the Top! ~ Haruka Vers.
 - JPN - Ryuu ga Gotoku OF THE END - PS3 GAME IN - Get to the Top! ~ Majima Vers.
