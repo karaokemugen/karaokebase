@@ -7,7 +7,6 @@
 [![Creative Commons](https://img.shields.io/badge/License-Creative%20Commons%204.0%20BY--NC--SA-brightgreen.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
-
 # English version
 
 ## Karaoke Mugen database
@@ -21,6 +20,7 @@ A karaoke is made of the following elements :
 * A `.kara` file in the `karas` folder
 * A `.ass` file in the `lyrics` folder
 * A video or audio file in the `medias` folder
+* A `.series.json` file in the `series` folder
 
 ### `karas` folder
 
@@ -70,6 +70,38 @@ Launch the update script each time you pull/clone/download a new version of this
 
 **If you get errors from Karaoke Mugen during database generation / folder validation, make sure you have the latest version of the repository (`git pull` or downloaded latest `master.zip`) and that you ran the `UpdateMedias` script at least twice in a row.**
 
+### `series` folder
+
+Each series (anime or real TV show, video game, etc.) has a `series.json` file which looks like this.
+
+```
+{
+  "header": {
+    "version": 3,
+    "description": "Karaoke Mugen Series File"
+  },
+  "series": {
+    "name": "Mahoromatic: Automatic Maiden",
+    "aliases": [
+      "Automatic Maiden",
+      "MM",
+      "魔力女仆真幌"
+    ],
+    "i18n": {
+      "jpn": "まほろまてぃっく Automatic Maiden",
+      "fre": "Mahoromatic",
+      "ger": "Mahoromatic: Automatic Maiden",
+      "eng": "Mahoromatic: Automatic Maiden",
+      "rus": "Махороматик: Автоматическая девушка"
+    },
+    "sid": "7a54c0fe-0ec2-4596-8923-fa6b92b10f00"
+  }
+}
+```
+
+It contains information a series, like its aliases, and its names in different languages, as well as a unique ID and an internal name (`name`). This is useful for our search engine so people can look up the karaoke of their choice no matter how they know the series are named.
+
+
 ## I want to contribute and make some karaoke or send ones I already own
 
 See [the contribution guide](CONTRIBUTING.md) for more information on how you can help.
@@ -93,6 +125,7 @@ Un karaoké Karaoke Mugen est composé de 3 éléments rangés dans des dossiers
 * Un fichier `.kara` dans le dossier `karas`
 * Un fichier `.ass` dans le dossier `lyrics`
 * Un fichier vidéo ou audio dans le dossier `medias`
+* Un fichier `.series.json` dans le dossier `series`
 
 ### Dossier `karas`
 
@@ -141,6 +174,37 @@ Les vidéos ne sont pas fournies dans ce dépôt, par souci de place (et ça fer
 Pensez à lancer régulièrement ce script, parfois deux fois de suite pour vous assurer que tout a bien été récupéré. Le dossier de vidéos colle à la dernière version de la base.
 
 Si vous rencontrez des erreurs de Karaoke Mugen durant la génération de la base / la validation des dossiers, assurez-vous que vous avez bien la dernière version de ce dépôt (`git pull` ou téléchargez le dernier `master.zip`) et lancez le script `UpdateVideos` deux fois d'affilée pour être sûr.
+
+### Dossier `series`
+
+Chaque série (anime, série télé, jeu vidéo, etc.) possède un fichier `.series.json` qui ressemble à ceci :
+
+```
+{
+  "header": {
+    "version": 3,
+    "description": "Karaoke Mugen Series File"
+  },
+  "series": {
+    "name": "Mahoromatic: Automatic Maiden",
+    "aliases": [
+      "Automatic Maiden",
+      "MM",
+      "魔力女仆真幌"
+    ],
+    "i18n": {
+      "jpn": "まほろまてぃっく Automatic Maiden",
+      "fre": "Mahoromatic",
+      "ger": "Mahoromatic: Automatic Maiden",
+      "eng": "Mahoromatic: Automatic Maiden",
+      "rus": "Махороматик: Автоматическая девушка"
+    },
+    "sid": "7a54c0fe-0ec2-4596-8923-fa6b92b10f00"
+  }
+}
+```
+
+Il contient des informations sur une série, comme ses alias, ses noms dans différentes langues, ainsi qu'un ID unique et un nom interne (`name`). Cela permet aux utilisateurs de trouver à coup sûr le karaoké de leur choix via le moteur de recherche.
 
 ## Je veux aider et faire ou envoyer des karaokes a la base
 

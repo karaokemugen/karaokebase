@@ -14,7 +14,7 @@ If your files are ready, you can add them in different ways.
 
 ### I just want to send my files and let you handle the rest
 
-[Come to our Discord server](https://discord.gg/a8dMYek) (in the #karaoke channel) and we'll see how we can help you upload your files or teach you how to use git.
+You can use [our submission form](https://kara.moe/import). Please fill in all fields if possible so we won't have to search for the data ourselves, unless you don't know of course.
 
 ### I can use git and would like to contribute to the database myself
 
@@ -47,7 +47,7 @@ yarn start --generate
 
 The more we are, the faster we can achieve a fully completed database.
 
-[Let's talk about it on Discord!](https://discord.gg/a8dMYek) (in the #karaoke channel) We welcome everyone with open arms.
+[Let's talk about it on Discord!](https://discord.gg/XFXCqzU) (in the #karaoke channel) We welcome everyone with open arms.
 
 Some karaokes need to be verified / retimed when they're clearly not in sync, for example.
 
@@ -55,7 +55,7 @@ If you don't feel like you can do that, we still need some karaokes to be tagged
 
 ## I need help
 
-Again, [come to the Discord server l'Eden de la Nanami](https://discord.gg/a8dMYek)
+Again, [come to the Discord server l'Eden de la Nanami](https://discord.gg/XFXCqzU)
 
 And go to the #karaoke channel!
 
@@ -69,13 +69,14 @@ Nous avons écrit un document à ce sujet que vous trouverez ici :
 
 ## J'ai déjà des karaokés, comment vous les envoyer ?
 
-[Consultez la section sur l'envoi de karaokés](http://mugen.karaokes.moe/docs/fr/contrib-guide/upload/) de la documentation.
+Vous pouvez utiliser [notre formulaire d'envoi](https://kara.moe/import).
+Essayez de remplir si possible l'intégralité du formulaire, ça nous fera ça de moins à chercher. Si vous ne savez pas du tout et ne trouvez rien, ce n'est bien sûr pas obligatoire, juste plus sympa pour nous.
 
 ## Je veux aider à maintenir la base des karaokés !
 
 C'est sûr que plus on est nombreux, plus ça va vite de maintenir cette base à jour !
 
-[Discutons-en sur Discord](https://discord.gg/a8dMYek). On prend toutes les bonnes volontés !
+[Discutons-en sur Discord](https://discord.gg/XFXCqzU). On prend toutes les bonnes volontés !
 
 Il y a notamment des karaokés dont il faut vérifier le titre, mais aussi les paroles.
 
@@ -83,6 +84,6 @@ Si rien de tout cela ne vous botte, il y a toujours le boulot de tag les karaok�
 
 ## J'ai besoin d'aide !
 
-Venez sur [le discord de l'Eden de la Nanami](https://discord.gg/a8dMYek)
+Venez sur [le discord de l'Eden de la Nanami](https://discord.gg/XFXCqzU)
 
 Et dirigez-vous sur le salon #karaoke !
