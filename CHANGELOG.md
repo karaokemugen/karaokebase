@@ -167,7 +167,6 @@ New songs : 161
 - JPN - Tate no Yuusha no Nariagari - OP - Rise
 - JPN - Tensei Shitara Slime Datta Ken - OP2 - Meguru mono
 - JPN - Texhnolyze - ED1 - Tsuki no Uta
-- JPN - Texhnolyze - ED1 - Tsuki no Uta
 - JPN - THE iDOLM@STER Cinderella Girls Starlight Stage - GAME MV - Hotel Moonside
 - JPN - The Quintessential Quintuplets - ED - Sign
 - JPN - Tokusatsu GaGaGa - IN - Kyuukyuuki Emerjason no theme
