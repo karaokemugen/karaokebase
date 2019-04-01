@@ -20,6 +20,7 @@ Contributors :
 - @Meulahke
 - @stal
 - Luca
+- @Krow
 
 ## Added
 
@@ -30,6 +31,7 @@ New songs : 154
 - ENG - Daym Drops - MV - OH MY DAYUM ft. Daym Drops
 - ENG - Dragon Ball Super - OP2 - Limit break x Survivor
 - ENG - Fate Grand Order - MV - Conqueror ~ Mash Vers
+- ENG - Ginga Eiyuu Densetsu - OVA IN - Free Planets Alliance National Anthem
 - ENG - Initial D First Stage - IN - Beat of the Rising Sun
 - ENG - Jinrui wa Suitai Shimashita - AMV - .owo//uwu (song : Tick Tick Boom)
 - ENG - JoJo no Kimyou na Bouken Ougon no Kaze - ED2 - Modern Crusaders
@@ -66,6 +68,7 @@ New songs : 154
 - FRE - Touhou - REMIX MV - La maid souffrante ~ Off Vocal Vers
 - FRE - Yo-kai Watch Le Film - MOVIE ED - Medley Yo-kai Watch
 - ITA - Umineko no Naku Koro ni - PC GAME OT - Kin'iro no Choushou ~ Uruwashi no Bansan
+- JPN - Backdrop Cinderella - MV - COOL desu
 - JPN - BanG Dream! - MV - Louder ~ Full Vers
 - JPN - BanG Dream! 2nd Season - IN - R.I.O.T
 - JPN - BanG Dream! 2nd Season - OP1 - Kizuna Music
@@ -90,9 +93,11 @@ New songs : 154
 - JPN - Fate Grand Order - MV - Yoiyoi Kokon ~ Hassans Vers
 - JPN - Fate Grand Order - MV - Yoiyoi Kokon ~ Murasaki Shikibu & Osakabehime Vers
 - JPN - Final Fantasy Unlimited - ED2 - Romancing Train
+- JPN - Gaiking Legend of Daikuu-Maryuu - OP - GAIKING ~ Alternative Vers
 - JPN - Gaikotsu Shotenin Honda-san - ED - Book-end, Happy-end
 - JPN - Gaikotsu Shotenin Honda-san - OP - ISBN ~Inner Sound & Book's Narrative~
 - JPN - Gekijouban Fate stay Night Heaven's Feel - II. Lost Butterfly - MOVIE AMV - I beg you ~ Full Vers
+- JPN - Ginga Eiyuu Densetsu - OVA ED3 - Kensô no Uta
 - JPN - God Eater 3 - PS4 PC GAME MV - stereo future
 - JPN - Godzilla Island - AMV - The Theme of GODZILLA ~ Long Vers
 - JPN - Godzilla Island - OP1 - The Theme of GODZILLA
@@ -103,6 +108,7 @@ New songs : 154
 - JPN - Hunter X Hunter OVA - OP - Pale Ale
 - JPN - Idol x Warrior Miracle Tunes! - OP1 - Catch Me
 - JPN - JoJo no Kimyou na Bouken Ougon no Kaze - OP2 - Uragirimono no Requiem
+- JPN - K-ON! - IN - Houkago Tea Time
 - JPN - Kaguya-sama - Love is War - ED1 - Sentimental Crisis
 - JPN - Kaguya-sama - Love is War - OP - Love Dramatic
 - JPN - Kakegurui (drama) - OP - Ichi ka Bachi ka
@@ -173,6 +179,7 @@ New songs : 154
 - JPN - Virtual-san wa Miteiru - OP1 - Aiaiai
 - JPN - Wand of Fortune R - PSV GAME OP - Hitorijanai Akashi
 - JPN - WORLD ORDER - MV - MULTIPOLARITY
+- JPN - X BOMBER - OP - Soldier in the Space
 - JPN - Yohio - MV - SKY LiMiT
 - JPN - Zoku Touken Ranbu Hanamaru - OP - Hanamaru Shirushi no Hi no Moto de
 - JPN - Zombieland Saga - IN - DEAD or RAP!!!
