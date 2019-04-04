@@ -29,12 +29,12 @@ test:
     - npm install
     - touch mpv
     - cp -f database.CICD.json database.json
+    - cp -f config.CICD.yml config.yml
     - node util/extUnaccent.js
-    - echo "PathKaras=../karas" >config.ini
-    - echo "PathSubs=../lyrics" >>config.ini
-    - echo "PathSeries=../series" >>config.ini
-    - echo "PathMedias=/medias" >>config.ini
-    - echo "BinPlayerLinux=mpv" >>config.ini
+    - mkdir -p app/data
+    - ln -s ../lyrics app/data/lyrics
+    - ln -s ../series app/data/series
+    - ln -s ../karas app/data/karas
     - yarn start --debug --generate --strict
     - cd ..
     - php -f tools/export_karaokesmoe.php >names.php
