@@ -33,7 +33,7 @@ SELECT
   ak.misc_tags AS misc_tags,
   ak.mediafile AS mediafile
 FROM all_karas AS ak
-WHERE misc_tags::varchar NOT LIKE \'%TAG_R18%\' AND mediafile LIKE \'%.mp4\'
+WHERE mediafile LIKE \'%.mp4\'
 GROUP BY ak.kid, ak.title, ak.songorder, ak.serie, ak.subfile, ak.singers, ak.songtypes, ak.languages, ak.authors, ak.misc_tags, ak.mediafile,  ak.languages_sortable, ak.songtypes_sortable, ak.singers_sortable
 ORDER BY serie, ak.songtypes_sortable DESC, ak.songorder, lower(unaccent(singers_sortable)), lower(unaccent(ak.title))
 ';
@@ -149,6 +149,9 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 				$kara_data['song']['artist'] = $singers[0]['name'];
 			else
 				$kara_data['song']['artist'] = '(unknown)';
+
+			if(strpos($kara['misc_tags'], 'TAG_R18'))
+				$kara_data['r18'] = 'true';
 
 			$last_pass[$serie_singer][$type_with_num]=$kara_data;
 		}
