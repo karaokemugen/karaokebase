@@ -1,3 +1,190 @@
+# April 2019
+
+Contributors :
+
+- @suryanfromspace
+- @Kmeuh
+- @Aeden
+- @meulahke
+- May
+- @Krow
+- Nabashi
+- @Dysp
+- @Lua
+- @zeograd
+- @psoushi
+- @tartar_lord
+- @Amo
+- @meulahke
+- @Rinchama
+- @Nock
+- @ReStahl
+- @Angor
+- @JoffreyA
+- @nah
+- Bakaclub
+
+## Added
+
+155 new songs
+
+- ENG - A Silent Voice - MOVIE OP - My Generation
+- ENG - Carole & Tuesday - OP1 - Kiss Me
+- ENG - Carole & Tuesday - ED1 - Hold Me Now
+- ENG - CLANNAD - AMV - Vacant Heart (Not in love)
+- ENG - Emily Bindiger - MV - my long forgotten cloistered sleep
+- ENG - Final Fantasy XIV - PS3 PS4 PC GAME OP - Answers
+- ENG - Gokukoku no Brynhildr - OP2 - Virtue and Vice
+- ENG - Ingress the Animation - OP - Tessellate
+- ENG - Katanagatari - IN - Bahasa Palsu
+- ENG - Steven Universe - IN - It's over, Isn't it?
+- ENG - Umineko no Naku Koro ni - PC GAME OT - Happy Maria
+- FRE - 3615 Usul - IN - Select et Reset
+- FRE - 3615 Usul - IN - Saucisse Saucisse
+- FRE - Frozen - MOVIE IN - Liberee, delivree
+- FRE - Full Metal Panic? Fumoffu - ED - C'est comme ca !
+- FRE - JamFiction - MV1 - Bowsette
+- FRE - JamFiction - MV2 - Norbert Dragonneau
+- FRE - Ganesh2 - MV - Emile Louis, la chanson festive
+- FRE - Hercule - IN - De Zero en Heros
+- FRE - Ratz - OP - Pas de panique a bord
+- FRE - Moana - MOVIE IN - Pour les hommes
+- FRE - Moana - MOVIE IN - Le Bleu Lumiere
+- FRE - Mulan - MOVIE IN - Comme un homme
+- FRE - Pocahontas - IN - L'air du vent
+- FRE - The Little Mermaid - MOVIE IN - Partir là-bas
+- ITA - Blue Dragon - OP - Blue Dragon
+- ITA - Digimon Adventure 02 - OP - Digimon per sempre
+- ITA - Ginga Tetsudou 999 - OP - Galaxy
+- ITA - Great Mazinger - OP - Il Grande Mazinga
+- ITA - Lupin III - OP - Lupin, l'incorreggibile Lupin
+- ITA - Pokemon Battle Frontier - OP - Pokemon Advanced Battle
+- ITA - Umineko no Naku Koro ni Chiru - PC GAME ED - Byakumu no Mayu ~ ricordando il passato~ Full Vers
+- ITA - Urusei Yatsura - OP - Lamu la ragazza dello spazio
+- JPN - 91 Days - OP - Signal ~ Full Vers
+- JPN - Aimyon - MV - Ikite Itanda yo na
+- JPN - Aimer - MV - Ito
+- JPN - Aimer - MV - Insane Dream
+- JPN - Akari Kizuna - MV - Akari ga Yatte Kita zo
+- JPN - Aku no Hana - ED1 - A Last Flower ~ Full Vers.
+- JPN - Aku no Hana - ED1 - A Last Flower
+- JPN - Amnesia - GAME OP2 - Kimi no Silhouette
+- JPN - Amnesia - PSP GAME OP1 - AWAKE (UPPER REGION Ver.)
+- JPN - Amnesia: Memories (V Edition) - OP - Reverbration
+- JPN - Amnesia Crowd - PSP GAME OP - Akatsuki no Butterfly
+- JPN - Amnesia Later - GAME OP2 - Ai ga Kikoeru
+- JPN - Amnesia Later - PSP GAME OP1 - Hajimari no Kioku
+- JPN - Amnesia World - OP - Tsuisô Kanon
+- JPN - Araki - MV - URUSaaAAi ~ Araki Vers
+- JPN - Araki - MV - Snow Drive (01.23)
+- JPN - Araki - MV - Teo ~ Araki Vers
+- JPN - Araki, Mei-chan - MV - Kesera Rhythm ~ Araki x Mei-chan Vers
+- JPN - Bakufu-Slump - MV - Runner (2015 Ver.)
+- JPN - Ballroom e Youkoso - OP2 - Invisible Sensation
+- JPN - Ballroom e Youkoso - ED2 - Swing heart direction
+- JPN - BanG Dream! - GAME MV - Neo-Aspect
+- JPN - BanG Dream! - AMV - Tenka Toitsu A to Z
+- JPN - BanG Dream! 2nd Season - IN - Louder
+- JPN - BanG Dream! 2nd Season - OP2 - BRAVE JEWEL
+- JPN - Bermuda Triangle Colorful Pastorale - OP - Wonderland Girl
+- JPN - Boogiepop wa Warawanai (2019) - OP - shadowgraph ~ Full Vers
+- JPN - Cardfight!! Vanguard (2018) - ED4 - UNSTOPPABLE
+- JPN - Cheating Craft - OP - Kasoku Suru Trial
+- JPN - Chukan Kanriroku Tonegawa - ED1 - Okitegami
+- JPN - Chukan Kanriroku Tonegawa - ED2 - Kyougen Mawashi
+- JPN - Chukan Kanriroku Tonegawa - OP - Sassoku to Hashiru Tonegawa-kun
+- JPN - Cool Japan TV - AMV - Tokyo Bon 2020 (Makudonarudo)
+- JPN - Dakaretai Otoko 1-i ni Odosarete Imasu - ED1 - Chuntaka!
+- JPN - Date a Live III - OP - I swear
+- JPN - Diabolik Lovers - PSP GAME OP - Mayonaka no Kyouen (MIDNIGHT PLEASURE)
+- JPN - Diabolik Lovers - Limited V Edition - PSV GAME OP - Mayonaka no Kyouen (MIDNIGHT PLEASURE) -Remix ver-
+- JPN - Diabolik Lovers Chaos Lineage - SWITCH GAME OP - BAD HOWLING -Warui Kyoumei-
+- JPN - Diabolik Lovers Dark Fate - PSV GAME OP - Guilty x Guilty!!!
+- JPN - Diabolik Lovers Lost Eden - PSV GAME OP - Tokoyo KNOW UNDERSKIN
+- JPN - Diabolik Lovers Lunatic Parade - PSV GAME OP - Fanatic of Night
+- JPN - Diabolik Lovers: More Blood - Limited V Edition - OP - Kyokugen (UNLIMITED) BLOOD -Remix ver-
+- JPN - Diabolik Lovers: More Blood - OP - Kyokugen (UNLIMITED) BLOOD
+- JPN - Diabolik Lovers Vandead Carnival - PSV GAME OP - Kyuuai Labyrinth
+- JPN - Dororo - ED2 - Yamiyo
+- JPN - Dororo - OP2 - Dororo
+- JPN - Eyeshield 21 - AMV - Be Survivor
+- JPN - Fairy Gone - OP - KNOCK on the CORE
+- JPN - Frederic - MV - Oddloop
+- JPN - Fruits Basket (2019) - OP1 - Again
+- JPN - Fruits Basket (2019) - ED1 - Lucky Ending
+- JPN - Gakuen Basara Samurai High School - OP - Hokore Kitakaki Utsukushiki, Ikizama wo
+- JPN - Gakuen Basara Samurai High School - ED - Be Affected
+- JPN - Gero - MV - Hibana ~ Gero Vers
+- JPN - Gero - MV - PONPONPON ~ Gero Vers
+- JPN - Gero - MV - Unknown Mother Goose ~ Gero Vers
+- JPN - Girls und Panzer - IN - Ankou Ondo
+- JPN - Granblue Fantasy - GAME PV3 - Ain Soph Aur
+- JPN - Harukana Receive - OP2 - Mae wo Muite !
+- JPN - Hige Driver,SELEN - GAME MV - Dadadadadadadadadada
+- JPN - Higurashi no Naku Koro ni Kai - AMV - Naraku no Hana ~ Full Vers.
+- JPN - Hitoribocchi no Marumaru Seikatsu - OP - Hitoribocchi no Monologue
+- JPN - IA - MV - Toki no Ame, Saishuu Sensou
+- JPN - K-ON! - IN - Houkago Tea Time
+- JPN - Kemono Friends - PV - Kemono Parade
+- JPN - Kidou Senshi Gundam Unicorn - ED7 - StarRingChild
+- JPN - Kimetsu no Yaiba - OP1 - Kurenge
+- JPN - Kimetsu no Yaiba - ED - From the edge
+- JPN - Kishiryu Sentai Ryusoulger - OP1 - Kishiryu Sentai Ryusoulger
+- JPN - Kishiryu Sentai Ryusoulger - ED1 - Que Boom! Ryusoulger
+- JPN - Meitantei Conan - OP13 - Kimi to Yakusoku Shita Yasashii Ano Basho made
+- JPN - Meitantei Conan - OP25 - Revive
+- JPN - Meitantei Conan - OP46 - Everything OK!!
+- JPN - Hatsune Miku - MV - Hibikase
+- JPN - Miku Hatsune - MV - Unknown Mother-Goose
+- JPN - Miku Hatsune - LIVE - Unknown Mother-Goose ~ Miku Expo 2018 Paris
+- JPN - NieR Automata - PS4 PC GAME AMV - Weight of the World (End of YoHRa)
+- JPN - Ninja Batman - IN - GAT-TAI
+- JPN - One Punch Man 2 - OP1 - Seijaku no Apostle (Orelsan vers.)
+- JPN - One Punch Man 2 - OP1 - Seijaku no Apostle
+- JPN - Ougon Musou Kyoku - XBOX360 PC GAME OP - Golden Showtime!
+- JPN - Pop Team Epic - SPECIAL OP - last sparkle
+- JPN - RADWIMPS - MV - DADA
+- JPN - Rail Wars! - ED - OVERDRIVER
+- JPN - REOL - MV - LUVORATORRRRRY! ~ Reol Vers
+- JPN - Rin Kagamine - MV - Lost One no Gôkoku
+- JPN - Ryuu ga Gotoku 0 - PS4 PC GAME IN - Koi no Disco Queen
+- JPN - Sakura Taisen - GAME OP - Geki! Teikoku Kagekidan ~ -Bakaclub Vers
+- JPN - Sakura Taisen - GAME OP - Geki! Teikoku Kagekidan ~ Mugen Vers
+- JPN - Sarazanmai - ED - Stand by me
+- JPN - Sayonara no Asa ni Yakusoku no Hana o Kazarou - MOVIE AMV - Viator
+- JPN - Senki Zesshô Symphogear XD Unlimited - GAME OP - UNLIMITED BEAT
+- JPN - Shikioriori - MOVIE ED - WALK
+- JPN - Shounen Maid Kuuro-kun - OT - Be my Maid
+- JPN - Star Twinkle PreCure - OP - Sparkle Star Twinkle Pretty Cure
+- JPN - Taimanin Yukikaze 2 - PC GAME OP - Oath of Scars
+- JPN - Tales of Berseria - PS3 PS4 PC GAME OP - Burn
+- JPN - Tales of Symphonia The Animation Sekai Tougou-hen - ED1 - Ta ga tame no sekai
+- JPN - Tokusatsu GaGaGa - IN - Kyuukyuuki Emerjason no theme ~ Karaoke Vers.
+- JPN - Touhou Memories of Phantasm - OVA ED1 - Opposite World
+- JPN - Ueno-san wa Bukiyô - ED4 - Cosmo Lumina
+- JPN - Ultraman Orb - OP - Orb no Inori
+- JPN - Umineko no Naku Koro ni - PS3 GAME OP - Senkyou no Igureeja
+- JPN - Umineko no Naku Koro ni - PC GAME OT - Umineko no Naku Koro ni ~ Full Vers.
+- JPN - Umineko no Naku Koro ni - PC GAME AMV - Katayoku no Tori ~ Full Vers
+- JPN - Umineko no Naku Koro ni - PC GAME OT - Katakoi
+- JPN - Umineko no Naku Koro ni - GAME OT - Furniture Waltz
+- JPN - Umineko no Naku Koro ni - PC GAME ED - Senritsu ~Shirabe~
+- JPN - Wand of Fortune - OP - Hitorijanai Akashi
+- JPN - Wand of Fortune ~Mirai e no Prologue~ - OP - Re: Kokoro
+- JPN - Wand of Fortune 2 ~Jikuu ni Shizumu Mokushiroku~ - PSP GAME OP - Kagayaki no Mirai
+- JPN - Wand of Fortune R2 ~Jikuu ni Shizumu Mokushiroku~ - PSV GAME OP - Unmei no Hajimari
+- JPN - Wand of Fortune R2 FD ~Kimi ni Sasageru Epilogue~ - PSV PSP GAME OP - Pism Time
+- JPN - Wolpis Kater - MV - Seiten Zen'ya
+- JPN - Wolpis Kater - MV - Toki no Ame, Saishuu Sensou ~ Wolpis Kater Vers
+- JPN - Zoku Owarimonogatari - ED - Azure
+- UND - Bratisla Boys - MV - Stach Stach.
+- UND - Mahou Shoujo Madoka Magica - AMV - Credens Justitiam
+- UND - NieR Automata - GAME AMV - Amusement Park
+- UND - Splatoon - SWITCH GAME LIVE - Into the Light ~ Tokaigi 2019 Vers
+- UND - Tsubasa CHRoNiCLE - IN - A Song of Storm and Fire
+- ZXX - R.O.D Read or Die - OVA OP - R.O.D no thema
+- ZXX - Zoku Owarimonogatari - OP - 07734
+
 # March 2019
 
 Contributors :
