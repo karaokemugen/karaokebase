@@ -4,8 +4,10 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+$currPath = realpath(dirname(__FILE__));
+
 #Path to the 'live_eggs_list.txt' file
-$live_egg_file = "../live_eggs_list.txt";
+$live_egg_file = $currPath . "/../live_eggs_list.txt";
 
 if(!empty($argv[1])) {
 	$pgsqlDSN=$argv[1];
