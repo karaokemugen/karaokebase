@@ -4,6 +4,9 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+#Path to the 'live_eggs_list.txt' file
+$live_egg_file = "../live_eggs_list.txt";
+
 if(!empty($argv[1])) {
 	$pgsqlDSN=$argv[1];
 } else {
@@ -57,6 +60,16 @@ function get_extension($fname){
 }
 function get_filename_without_ext($fname){
 	return substr($fname, 0, strrpos($fname, "."));
+}
+
+//(easter) eggs support
+$eggUIDList = "";
+if(file_exists($live_egg_file)) {
+	$eggLoad = file($live_egg_file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+	foreach($eggLoad as $egg) {
+		if(strpos($egg,"#") === false && (preg_match("/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/", trim($egg)) === 1))
+			$eggUIDList .= trim( $egg) . ",";
+	}
 }
 
 //First pass
@@ -152,6 +165,9 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 
 			if(strpos($kara['misc_tags'], 'TAG_R18'))
 				$kara_data['r18'] = 'true';
+
+			if(strpos($eggUIDList, $kara['kid']) !== false)
+				$kara_data['egg'] = 'true';
 
 			$last_pass[$serie_singer][$type_with_num]=$kara_data;
 		}
