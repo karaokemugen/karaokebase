@@ -26,7 +26,7 @@ Contributors :
 
 ## Added
 
-155 new songs
+156 new songs
 
 - ENG - A Silent Voice - MOVIE OP - My Generation
 - ENG - Carole & Tuesday - OP1 - Kiss Me
@@ -148,6 +148,7 @@ Contributors :
 - JPN - REOL - MV - LUVORATORRRRRY! ~ Reol Vers
 - JPN - Rin Kagamine - MV - Lost One no Gôkoku
 - JPN - Ryuu ga Gotoku 0 - PS4 PC GAME IN - Koi no Disco Queen
+- JPN - Saint Seiya Omega - OP2 - Next Generation
 - JPN - Sakura Taisen - GAME OP - Geki! Teikoku Kagekidan ~ -Bakaclub Vers
 - JPN - Sakura Taisen - GAME OP - Geki! Teikoku Kagekidan ~ Mugen Vers
 - JPN - Sarazanmai - ED - Stand by me
