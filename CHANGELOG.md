@@ -39,17 +39,17 @@ Contributors :
 - ENG - Katanagatari - IN - Bahasa Palsu
 - ENG - Steven Universe - IN - It's over, Isn't it?
 - ENG - Umineko no Naku Koro ni - PC GAME OT - Happy Maria
-- FRE - 3615 Usul - IN - Select et Reset
-- FRE - 3615 Usul - IN - Saucisse Saucisse
-- FRE - Frozen - MOVIE IN - Liberee, delivree
+- FRE - 3615 Usul - MV - Select et Reset
+- FRE - 3615 Usul - MV - Saucisse Saucisse
+- FRE - Frozen - MOVIE IN - Libérée, délivrée
 - FRE - Full Metal Panic? Fumoffu - ED - C'est comme ca !
 - FRE - JamFiction - MV1 - Bowsette
 - FRE - JamFiction - MV2 - Norbert Dragonneau
 - FRE - Ganesh2 - MV - Emile Louis, la chanson festive
-- FRE - Hercule - IN - De Zero en Heros
-- FRE - Ratz - OP - Pas de panique a bord
+- FRE - Hercule - IN - De Zero en Héros
+- FRE - Ratz - OP - Pas de panique à bord
 - FRE - Moana - MOVIE IN - Pour les hommes
-- FRE - Moana - MOVIE IN - Le Bleu Lumiere
+- FRE - Moana - MOVIE IN - Le Bleu Lumière
 - FRE - Mulan - MOVIE IN - Comme un homme
 - FRE - Pocahontas - IN - L'air du vent
 - FRE - The Little Mermaid - MOVIE IN - Partir là-bas
@@ -59,9 +59,9 @@ Contributors :
 - ITA - Great Mazinger - OP - Il Grande Mazinga
 - ITA - Lupin III - OP - Lupin, l'incorreggibile Lupin
 - ITA - Pokemon Battle Frontier - OP - Pokemon Advanced Battle
-- ITA - Umineko no Naku Koro ni Chiru - PC GAME ED - Byakumu no Mayu ~ ricordando il passato~ Full Vers
+- ITA - Umineko no Naku Koro ni Chiru - PC GAME ED - Byakumu no Mayu ‒ ricordando il passato ~ Full Vers.
 - ITA - Urusei Yatsura - OP - Lamu la ragazza dello spazio
-- JPN - 91 Days - OP - Signal ~ Full Vers
+- JPN - 91 Days - OP - Signal ~ Full Vers.
 - JPN - Aimyon - MV - Ikite Itanda yo na
 - JPN - Aimer - MV - Ito
 - JPN - Aimer - MV - Insane Dream
@@ -75,10 +75,10 @@ Contributors :
 - JPN - Amnesia Later - GAME OP2 - Ai ga Kikoeru
 - JPN - Amnesia Later - PSP GAME OP1 - Hajimari no Kioku
 - JPN - Amnesia World - OP - Tsuisô Kanon
-- JPN - Araki - MV - URUSaaAAi ~ Araki Vers
+- JPN - Araki - MV - URUSaaAAi ~ Araki Vers.
 - JPN - Araki - MV - Snow Drive (01.23)
-- JPN - Araki - MV - Teo ~ Araki Vers
-- JPN - Araki, Mei-chan - MV - Kesera Rhythm ~ Araki x Mei-chan Vers
+- JPN - Araki - MV - Teo ~ Araki Vers.
+- JPN - Araki, Mei-chan - MV - Kesera Rhythm ~ Araki x Mei-chan Vers.
 - JPN - Bakufu-Slump - MV - Runner (2015 Ver.)
 - JPN - Ballroom e Youkoso - OP2 - Invisible Sensation
 - JPN - Ballroom e Youkoso - ED2 - Swing heart direction
@@ -87,7 +87,7 @@ Contributors :
 - JPN - BanG Dream! 2nd Season - IN - Louder
 - JPN - BanG Dream! 2nd Season - OP2 - BRAVE JEWEL
 - JPN - Bermuda Triangle Colorful Pastorale - OP - Wonderland Girl
-- JPN - Boogiepop wa Warawanai (2019) - OP - shadowgraph ~ Full Vers
+- JPN - Boogiepop wa Warawanai (2019) - OP - shadowgraph ~ Full Vers.
 - JPN - Cardfight!! Vanguard (2018) - ED4 - UNSTOPPABLE
 - JPN - Cheating Craft - OP - Kasoku Suru Trial
 - JPN - Chukan Kanriroku Tonegawa - ED1 - Okitegami
@@ -114,9 +114,9 @@ Contributors :
 - JPN - Fruits Basket (2019) - ED1 - Lucky Ending
 - JPN - Gakuen Basara Samurai High School - OP - Hokore Kitakaki Utsukushiki, Ikizama wo
 - JPN - Gakuen Basara Samurai High School - ED - Be Affected
-- JPN - Gero - MV - Hibana ~ Gero Vers
-- JPN - Gero - MV - PONPONPON ~ Gero Vers
-- JPN - Gero - MV - Unknown Mother Goose ~ Gero Vers
+- JPN - Gero - MV - Hibana ~ Gero Vers.
+- JPN - Gero - MV - PONPONPON ~ Gero Vers.
+- JPN - Gero - MV - Unknown Mother Goose ~ Gero Vers.
 - JPN - Girls und Panzer - IN - Ankou Ondo
 - JPN - Granblue Fantasy - GAME PV3 - Ain Soph Aur
 - JPN - Harukana Receive - OP2 - Mae wo Muite !
@@ -124,8 +124,8 @@ Contributors :
 - JPN - Higurashi no Naku Koro ni Kai - AMV - Naraku no Hana ~ Full Vers.
 - JPN - Hitoribocchi no Marumaru Seikatsu - OP - Hitoribocchi no Monologue
 - JPN - IA - MV - Toki no Ame, Saishuu Sensou
-- JPN - K-ON! - IN - Houkago Tea Time
-- JPN - Kemono Friends - PV - Kemono Parade
+- JPN - K-ON! - IN - Hô-kago Tea Time
+- JPN - Kemono Friends - MV - Kemono Parade
 - JPN - Kidou Senshi Gundam Unicorn - ED7 - StarRingChild
 - JPN - Kimetsu no Yaiba - OP1 - Kurenge
 - JPN - Kimetsu no Yaiba - ED - From the edge
@@ -139,18 +139,18 @@ Contributors :
 - JPN - Miku Hatsune - LIVE - Unknown Mother-Goose ~ Miku Expo 2018 Paris
 - JPN - NieR Automata - PS4 PC GAME AMV - Weight of the World (End of YoHRa)
 - JPN - Ninja Batman - IN - GAT-TAI
-- JPN - One Punch Man 2 - OP1 - Seijaku no Apostle (Orelsan vers.)
+- JPN - One Punch Man 2 - OP1 - Seijaku no Apostle ~ Orelsan Vers.
 - JPN - One Punch Man 2 - OP1 - Seijaku no Apostle
 - JPN - Ougon Musou Kyoku - XBOX360 PC GAME OP - Golden Showtime!
 - JPN - Pop Team Epic - SPECIAL OP - last sparkle
 - JPN - RADWIMPS - MV - DADA
 - JPN - Rail Wars! - ED - OVERDRIVER
-- JPN - REOL - MV - LUVORATORRRRRY! ~ Reol Vers
+- JPN - REOL - MV - LUVORATORRRRRY! ~ Reol Vers.
 - JPN - Rin Kagamine - MV - Lost One no Gôkoku
 - JPN - Ryuu ga Gotoku 0 - PS4 PC GAME IN - Koi no Disco Queen
 - JPN - Saint Seiya Omega - OP2 - Next Generation
-- JPN - Sakura Taisen - GAME OP - Geki! Teikoku Kagekidan ~ -Bakaclub Vers
-- JPN - Sakura Taisen - GAME OP - Geki! Teikoku Kagekidan ~ Mugen Vers
+- JPN - Sakura Taisen - GAME OP - Geki! Teikoku Kagekidan ~ -Bakaclub Vers.
+- JPN - Sakura Taisen - GAME OP - Geki! Teikoku Kagekidan ~ Mugen Vers.
 - JPN - Sarazanmai - ED - Stand by me
 - JPN - Sayonara no Asa ni Yakusoku no Hana o Kazarou - MOVIE AMV - Viator
 - JPN - Senki Zesshô Symphogear XD Unlimited - GAME OP - UNLIMITED BEAT
@@ -166,7 +166,7 @@ Contributors :
 - JPN - Ultraman Orb - OP - Orb no Inori
 - JPN - Umineko no Naku Koro ni - PS3 GAME OP - Senkyou no Igureeja
 - JPN - Umineko no Naku Koro ni - PC GAME OT - Umineko no Naku Koro ni ~ Full Vers.
-- JPN - Umineko no Naku Koro ni - PC GAME AMV - Katayoku no Tori ~ Full Vers
+- JPN - Umineko no Naku Koro ni - PC GAME AMV - Katayoku no Tori ~ Full Vers.
 - JPN - Umineko no Naku Koro ni - PC GAME OT - Katakoi
 - JPN - Umineko no Naku Koro ni - GAME OT - Furniture Waltz
 - JPN - Umineko no Naku Koro ni - PC GAME ED - Senritsu ~Shirabe~
@@ -178,10 +178,10 @@ Contributors :
 - JPN - Wolpis Kater - MV - Seiten Zen'ya
 - JPN - Wolpis Kater - MV - Toki no Ame, Saishuu Sensou ~ Wolpis Kater Vers
 - JPN - Zoku Owarimonogatari - ED - Azure
-- UND - Bratisla Boys - MV - Stach Stach.
+- UND - Bratisla Boys - MV - Stach Stach
 - UND - Mahou Shoujo Madoka Magica - AMV - Credens Justitiam
 - UND - NieR Automata - GAME AMV - Amusement Park
-- UND - Splatoon - SWITCH GAME LIVE - Into the Light ~ Tokaigi 2019 Vers
+- UND - Splatoon - SWITCH GAME LIVE - Into the Light ~ Tokaigi 2019 Vers.
 - UND - Tsubasa CHRoNiCLE - IN - A Song of Storm and Fire
 - ZXX - R.O.D Read or Die - OVA OP - R.O.D no thema
 - ZXX - Zoku Owarimonogatari - OP - 07734
