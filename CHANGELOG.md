@@ -26,7 +26,7 @@ Contributors :
 
 ## Added
 
-156 new songs
+157 new songs
 
 - ENG - A Silent Voice - MOVIE OP - My Generation
 - ENG - Carole & Tuesday - OP1 - Kiss Me
@@ -178,6 +178,7 @@ Contributors :
 - JPN - Wolpis Kater - MV - Seiten Zen'ya
 - JPN - Wolpis Kater - MV - Toki no Ame, Saishuu Sensou ~ Wolpis Kater Vers
 - JPN - Zoku Owarimonogatari - ED - Azure
+- JPN - Zoku Owarimonogatari - ED - Azure ~ Alternative Vers.
 - UND - Bratisla Boys - MV - Stach Stach
 - UND - Mahou Shoujo Madoka Magica - AMV - Credens Justitiam
 - UND - NieR Automata - GAME AMV - Amusement Park
