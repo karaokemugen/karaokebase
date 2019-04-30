@@ -6,7 +6,7 @@ Contributors :
 - @Kmeuh
 - @Aeden
 - @meulahke
-- May
+- @TakahashiMay
 - @Krow
 - Nabashi
 - @Dysp
