@@ -26,21 +26,26 @@ Contributors :
 
 ## Added
 
-157 new songs
+170 new songs
 
 - ENG - A Silent Voice - MOVIE OP - My Generation
 - ENG - Carole & Tuesday - OP1 - Kiss Me
 - ENG - Carole & Tuesday - ED1 - Hold Me Now
 - ENG - CLANNAD - AMV - Vacant Heart (Not in love)
 - ENG - Emily Bindiger - MV - my long forgotten cloistered sleep
+- ENG - Fate hollow ataraxia - PSV GAME OP2 - holLow wORlD
 - ENG - Final Fantasy XIV - PS3 PS4 PC GAME OP - Answers
 - ENG - Gokukoku no Brynhildr - OP2 - Virtue and Vice
 - ENG - Ingress the Animation - OP - Tessellate
 - ENG - Katanagatari - IN - Bahasa Palsu
+- ENG - Shin Seiki Evangelion - OP - Zankoku na Tenshi no These
 - ENG - Steven Universe - IN - It's over, Isn't it?
 - ENG - Umineko no Naku Koro ni - PC GAME OT - Happy Maria
 - FRE - 3615 Usul - MV - Select et Reset
 - FRE - 3615 Usul - MV - Saucisse Saucisse
+- FRE - Aladdin - MOVIE IN - Je suis ton meilleur ami
+- FRE - Aladdin - MOVIE IN - Prince Ali
+- FRE - Frozen - MOVIE IN - Je voudrais un bonhomme de neige
 - FRE - Frozen - MOVIE IN - Libérée, délivrée
 - FRE - Full Metal Panic? Fumoffu - ED - C'est comme ca !
 - FRE - JamFiction - MV1 - Bowsette
@@ -52,6 +57,8 @@ Contributors :
 - FRE - Moana - MOVIE IN - Le Bleu Lumière
 - FRE - Mulan - MOVIE IN - Comme un homme
 - FRE - Pocahontas - IN - L'air du vent
+- FRE - The Lion King - MOVIE IN - L'histoire de la vie
+- FRE - The Lion King - MOVIE IN - Soyez pretes
 - FRE - The Little Mermaid - MOVIE IN - Partir là-bas
 - ITA - Blue Dragon - OP - Blue Dragon
 - ITA - Digimon Adventure 02 - OP - Digimon per sempre
@@ -87,6 +94,7 @@ Contributors :
 - JPN - BanG Dream! 2nd Season - IN - Louder
 - JPN - BanG Dream! 2nd Season - OP2 - BRAVE JEWEL
 - JPN - Bermuda Triangle Colorful Pastorale - OP - Wonderland Girl
+- JPN - Bleach - ED2 - Thank You!!
 - JPN - Boogiepop wa Warawanai (2019) - OP - shadowgraph ~ Full Vers.
 - JPN - Cardfight!! Vanguard (2018) - ED4 - UNSTOPPABLE
 - JPN - Cheating Craft - OP - Kasoku Suru Trial
@@ -147,14 +155,17 @@ Contributors :
 - JPN - Rail Wars! - ED - OVERDRIVER
 - JPN - REOL - MV - LUVORATORRRRRY! ~ Reol Vers.
 - JPN - Rin Kagamine - MV - Lost One no Gôkoku
+- JPN - Rose Guns Days - PC GAME OP1 - Ai wa Omerta
 - JPN - Ryuu ga Gotoku 0 - PS4 PC GAME IN - Koi no Disco Queen
 - JPN - Saint Seiya Omega - OP2 - Next Generation
 - JPN - Sakura Taisen - GAME OP - Geki! Teikoku Kagekidan ~ -Bakaclub Vers.
 - JPN - Sakura Taisen - GAME OP - Geki! Teikoku Kagekidan ~ Mugen Vers.
+- JPN - Sarazanmai - OP1 - Massara
 - JPN - Sarazanmai - ED - Stand by me
 - JPN - Sayonara no Asa ni Yakusoku no Hana o Kazarou - MOVIE AMV - Viator
 - JPN - Senki Zesshô Symphogear XD Unlimited - GAME OP - UNLIMITED BEAT
 - JPN - Shikioriori - MOVIE ED - WALK
+- JPN - Shingeki no Kyojin S3 - OP2 - Shoukei to Shikabane no Michi
 - JPN - Shounen Maid Kuuro-kun - OT - Be my Maid
 - JPN - Star Twinkle PreCure - OP - Sparkle Star Twinkle Pretty Cure
 - JPN - Taimanin Yukikaze 2 - PC GAME OP - Oath of Scars
@@ -170,6 +181,7 @@ Contributors :
 - JPN - Umineko no Naku Koro ni - PC GAME OT - Katakoi
 - JPN - Umineko no Naku Koro ni - GAME OT - Furniture Waltz
 - JPN - Umineko no Naku Koro ni - PC GAME ED - Senritsu ~Shirabe~
+- JPN - Umineko no Naku Koro ni Chiru - PS3 GAME OP1 - Inanna no Mita Yume
 - JPN - Wand of Fortune - OP - Hitorijanai Akashi
 - JPN - Wand of Fortune ~Mirai e no Prologue~ - OP - Re: Kokoro
 - JPN - Wand of Fortune 2 ~Jikuu ni Shizumu Mokushiroku~ - PSP GAME OP - Kagayaki no Mirai
