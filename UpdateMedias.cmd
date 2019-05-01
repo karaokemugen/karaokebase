@@ -16,7 +16,7 @@ echo.
 echo The password is : musubi
 echo The password doesn't display on your screen. That's normal.
 echo.
-echo WARNING : You will need around 230 Gb of free space to download this entirely.
+echo WARNING : You will need around 250 Gb of free space to download this entirely.
 echo.
 echo You can stop the download anytime and resume it by restarting this script.
 echo.
