@@ -153,15 +153,26 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 					'subtitles' => '(unknown)',
 					'uid' => $kara['kid'],
 				];
-				$author = json_decode($kara['authors'], true);
-				if(!empty($author) && $author[0]['name'] != 'NO_TAG')
-					$kara_data['subtitles'] = $author[0]['name'];
+
+				$authors = json_decode($kara['authors'], true);
+				if(!empty($authors) && $authors[0]['name'] != 'NO_TAG') {
+					$karaAuthor = "";
+					foreach($authors as $author) {
+						$karaAuthor .= ', ' .$author['name'];
+					}
+					$kara_data['subtitles'] = substr($karaAuthor, 2);
+				}
 				else
 					$kara_data['subtitles'] = '(unknown)';
 			}
 			$singers = json_decode($kara['singers'], true);
-			if(!empty($singers[0]['name']) && $singers[0]['name'] != 'NO_TAG')
-				$kara_data['song']['artist'] = $singers[0]['name'];
+			if(!empty($singers[0]['name']) && $singers[0]['name'] != 'NO_TAG') {
+				$artist = "";
+				foreach($singers as $singer) {
+					$artist .= ', ' .$singer['name'];
+				}
+				$kara_data['song']['artist'] = substr($artist, 2);
+			}
 			else
 				$kara_data['song']['artist'] = '(unknown)';
 
