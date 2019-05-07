@@ -1,5 +1,5 @@
 // Modify kpath to point to a karaoke dir
-const kpath = '../times/karas';
+const kpath = 'karas';
 
 
 const {readFile, readdir, writeFile} = require('fs');
