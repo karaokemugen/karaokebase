@@ -25,18 +25,19 @@ test:
     - ssh -l root $HOST
     - git clone https://lab.shelter.moe/karaokemugen/karaokemugen-app.git
     - cd karaokemugen-app
-    - git checkout next
+#    - git checkout next
     - npm install
-    - npm install -g typescript ts-node
+#    - npm install -g typescript ts-node
     - touch mpv
     - cp -f database.CICD.json database.json
     - cp -f ../tools/config.CICD.yml config.yml
-    - node util/extUnaccent.ts
+    - node util/extUnaccent.js
     - node -v
-    - tsc --version
-    - ts-node --version
-    - tsc --build
-    - node dist/index.js --debug --generate --strict
+#    - tsc --version
+#    - ts-node --version
+#    - tsc --build
+#    - node dist/index.js --debug --generate --strict
+    - yarn start --debug --generate --strict
     - cd ..
     - php -f tools/export_karaokesmoe.php >names.php
   only:
