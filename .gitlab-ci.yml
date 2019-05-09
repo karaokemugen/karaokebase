@@ -31,6 +31,9 @@ test:
     - cp -f database.CICD.json database.json
     - cp -f ../tools/config.CICD.yml config.yml
     - node util/extUnaccent.ts
+    - node -v
+    - tsc --version
+    - ts-node --version
     - tsc --build
     - node dist/index.js --debug --generate --strict
     - cd ..
