@@ -31,7 +31,8 @@ test:
     - cp -f database.CICD.json database.json
     - cp -f ../tools/config.CICD.yml config.yml
     - node util/extUnaccent.ts
-    - yarn start --debug --generate --strict
+    - tsc --build
+    - node dist/index.js --debug --generate --strict
     - cd ..
     - php -f tools/export_karaokesmoe.php >names.php
   only:
