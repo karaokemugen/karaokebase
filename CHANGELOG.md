@@ -1,3 +1,235 @@
+# May 2019
+
+Contributors :
+
+- @meulahke
+- @Aeden
+- @Kmeuh
+- @Rinchama
+- Nabashi
+- @PierreCAMILLI
+- @Stal
+- @tartar_lord
+- ENSEEIHT-Japan7
+- @Nock
+- @Dysp
+- @Amo
+- @Raton-Laveur
+
+## Added
+
+New songs :
+
+- CHI - Quanzhi Gaoshou Tebie pian - ONA OP - Zaiq
+- ENG - Alex Cameron,Jimmy Barnes,Kirin J Callinan,Molly Lewis - MV - Big Enough
+- ENG - Baki - OP2 - The Gong of Knockout
+- ENG - Double Decker! Doug & Kirill - ED - Buntline Special
+- ENG - Life is Strange - PS3 PS4 XBOX360 PC GAME AMV - Mountains
+- ENG - Mahoutsukai no Yome Hoshi Matsu Hito - OVA ED - Clockwork Quick and Lightning Slow (A Spell to Make All Things Well)
+- ENG - Mighty Morphin Power Rangers - OP - Go Go Power Rangers
+- ENG - Persona 3 - PS2 GAME AUDIO IN - Mass Destruction
+- ENG - Tengen Toppa Gurren Lagann Lagann Hen - MOVIE AMV - No Scared
+- ENG - Tengen Toppa Gurren Lagann - AUDIO OT - Rap is a Man's Soul!
+- ENG - Shoujo Kageki Revue Starlight - COVER AMV - The Greatest Show
+- FRE - Aladdin (2019) - MOVIE AUDIO OP - Nuits d'Arabie (2019)
+- FRE - Arrietty, le petit monde des chapardeurs - MOVIE ED - Arrietty's song
+- FRE - Cendrillon - MOVIE IN - C'est ca l'amour
+- FRE - Idol Densetsu Eriko - OP - Erika
+- FRE - JamFiction - MV8 - Detective Pikachu ~ Off Vocal Vers
+- FRE - JamFiction - MV8 - Detective Pikachu
+- FRE - PeePooDo & The Super Fuck Friends - ONA IN - Les MST
+- FRE - Pokemon - La Quête Ultime - OP - La Quête Ultime
+- FRE - Pokemon : Les Champions de Johto - OP - Les Champions de Johto
+- FRE - Pokemon Advanced Challenge - OP - Mes reves
+- FRE - Pokemon DP Battle Dimension - OP - Nous serons les héros
+- FRE - Pokemon DP Combats Galactiques - OP - Oui, fonce ! ~ Alternative Vers
+- FRE - Pokémon le film 16 : Genesect et l'éveil de la légende - OP - Juste toi et moi
+- FRE - Pokémon Noir & Blanc - OP - Noir ou Blanc
+- FRE - Pokémon Noir & Blanc ‒ Destinées Rivales - OP - Destinées Rivales
+- FRE - Pokemon the Series XY Kalos Quest - OP - Sois un heros
+- FRE - Pokémon XYZ - OP - Je suis fier
+- FRE - Raiponce - MOVIE IN - Je veux y croire
+- FRE - Shin Kenjushi France Five - ED1 - Cinq couleurs toujours unies
+- ITA - Akage no Anne - OP - Anna dai capelli rossi
+- ITA - Ashita no Joe - OP - Rocky Joe
+- ITA - Bakuten Shoot Beyblade 2002 - OP - Beyblade V-Force
+- ITA - City Hunter - OP - City Hunter
+- ITA - Devilman - OP - Devil Man
+- ITA - Dragon Ball - OP - Dragon Ball
+- ITA - Hunter x Hunter (1999) - OP - Hunter Hunter
+- ITA - Kodomo no Omocha (1996) - OP - Rossana
+- ITA - Koutetsu Jeeg - OP - Jeeg Robot
+- ITA - Lupin III Part IV - OP - Lupin, un ladro in vacanza
+- ITA - Meitantei Conan - OP - Detective Conan
+- ITA - Metal Fight Beyblade 4D - OP - Beyblade Metal Masters
+- ITA - Patapata Hikousen no Bouken - OP - Il segreto della sabbia
+- ITA - Pocket Monsters - OP - Pokemon
+- ITA - Sonic X - OP - Sonic X
+- ITA - Tiger Mask - OP - L'Uomo Tigre
+- ITA - Tondemo Senshi Muteking - OP - Muteking
+- ITA - Tottoko Hamtarou - OP - Hamtaro piccoli criceti, grandi avventure
+- JPN - 3-gatsu no Lion - ED2 - Nyaa Shougi Ondo
+- JPN - Ajin (2016) - ED - How Close You Are
+- JPN - Aku no Hana - OP2 - Aku no Hana Nakamura Sawa
+- JPN - Amaenaide yo!! - OP - Afurete Yuku no wa Kono Kimochi
+- JPN - Angelique Retour - PSV PSP GAME OP - Tenshi no Tsubasa ~Carry on your dream~
+- JPN - Ano Hi Mita Hana no Namae o Bokutachi wa Mada Shiranai. - AMV - Secret Base ~Kimi ga Kureta Mono~ (10 years after) ~ Long Vers
+- JPN - Ao no Exorcist - ED1 - Take Off
+- JPN - Aquarion Evol - ED2 - Yunoha no Mori
+- JPN - Aquarion Evol - OP2 - Paradoxical ZOO
+- JPN - Arslan Senki - ED2 - One Light
+- JPN - Baki - OP1 - Beastful
+- JPN - Bamboo Blade - ED - STAR RISE - Alternative Vers
+- JPN - Beauty and the Beast (1991) - MOVIE IN - Asa no Fuukei ~ 610 & LIQU@ Vers
+- JPN - Beelzebub Hirotta Akachan wa Daimaou! question_mark - SPECIAL OP - Appare Banchou Sanjou! Beelzebub!
+- JPN - Black Bullet - ED1 - Toko Hana
+- JPN - Black Cat - ED1 - Namidaboshi
+- JPN - Black Cat - AMV - Konoyo no Uta
+- JPN - Chuunibyou Demo KOI ga Shitai! - AMV - Deinabayotte Masarimo
+- JPN - CLANNAD After Story - LIVE - Toki wo Kizamu Uta
+- JPN - Dakara Boku wa H ga Dekinai - ED - Platinum 17
+- JPN - Dance with Devils - IN - Warera Shikou Gakuen Seitokai
+- JPN - Diamond no Ace - ED4 - Cloud Nine
+- JPN - Dies irae ~Acta est Fabula~ - PC GAME OP - Gregorio
+- JPN - Dies irae ~Amantes amentes~ - PSP PC GAME OP - Jubilius
+- JPN - Dies irae ~Interview with Kaziklu Bey~ - PC GAME OP - Der Vampir
+- JPN - Dies irae Also sprach Zarathustra -die Wiederkunft- - PC GAME OP - Einsatz
+- JPN - Dies irae Also sprach Zarathustra - PC GAME OP - Einsatz
+- JPN - Dies irae Also sprach Zarathustra - PC GAME AMV - Shade And Darkness ~ Full Vers
+- JPN - Dragon Ball Super - ED8 - Boogie Back
+- JPN - Dragon Ball Super - ED9 - Haruka
+- JPN - Dragon Ball Super - ED10 - 70cm Shihou no Madobe
+- JPN - Double Decker! Doug & Kirill - OP - Stereo to Monologue
+- JPN - Evangelion Shin Gekijouban Q - MOVIE AMV - Tamashii no Refrain
+- JPN - Fairy Tail (2011) - OVA ED2 - Happy Tale
+- JPN - Fate stay night - ED3 - Kimi to no Ashita
+- JPN - Fushigi no Umi no Nadia - OP - Blue Water ~ Karaoke Vers
+- JPN - Gekijouban Kara no Kyoukai The Garden of Sinners - MOVIE AMV - Mata Kaze Ga Tsuyokunatta
+- JPN - Genshiken Nidaime - ED - Aoku Yurete Iru
+- JPN - Gensou Maden Saiyuuki - MV - FOR REAL
+- JPN - Gingitsune - OP - Tiny Lamp
+- JPN - Guilty Crown - ED1 - Departures Anata ni Okuru Ai no Uta
+- JPN - Guilty Crown - IN - Euterpe ~ Off Vocal Vers
+- JPN - Guin Saga - ED - Saga This is My Road
+- JPN - Gugure! Kokkuri-san - ED - This Merry-Go-Round Song
+- JPN - Gyakuten Saiban Sono Shinjitsu Igi Ari! S2 - OP2 - Reason
+- JPN - Hakuouki Kaikoroku - GAME OP - Yume Machi no Kisetsu
+- JPN - Hanatan - AUDIO MV - Tengaku ~ Hanatan Vers
+- JPN - Handa-kun - IN - Eraser Boys
+- JPN - Hatenkou Yuugi - OP - Heartbreaking Romance
+- JPN - Heroic Age - ED1 - Azurite
+- JPN - Hikaru no Go - ED2 - Hitomi no chikara
+- JPN - Hikaru no Go - ED4 - Days
+- JPN - Hikaru no Go - ED5 - Music is my thing
+- JPN - Hitori Bocchi no Marumaru Seikatsu - ED2 - WA AH AH
+- JPN - Hunter X Hunter (2011) - ED1 - Just awake
+- JPN - Hunter X Hunter (2011) - ED4 - REASON
+- JPN - Itoshi no Muuco - OP - Suki! Suki! Suki!
+- JPN - Inazuma Eleven - ED1 - Seishun Oden
+- JPN - Inazuma Eleven - OP3 - Tsunagariyo
+- JPN - Inazuma Eleven - OP3 - Ryuusei Boy
+- JPN - Jitsu wa Watashi wa - OP - Himitsu wo Choudai
+- JPN - Jormungand - ED1 - Ambivalentidea
+- JPN - Joshiraku - ED - Nippon Egao Hyakkei ~ Off Vocal Vers
+- JPN - Junjou Romantica - OP - Kimi=Hana
+- JPN - Kaguya-hime no Monogatari - MOVIE IN - Warabe Uta
+- JPN - Katekyou Hitman Reborn! - MV - 88
+- JPN - Kido Senshi Gundam The Origin Zenya - Akai Suisei - ED - Meguriai
+- JPN - Kido Senshi Gundam The Origin Zenya - Akai Suisei - OP - Sora no Uta ~Higher and Higher~
+- JPN - Key the Metal Idol - OP - In the Night
+- JPN - Kidou Senshi Gundam AGE - OP3 - REAL
+- JPN - Kidou Senshi Gundam AGE - OP4 - AURORA
+- JPN - Kimi no Na wa. - MOVIE ED - Nandemonaiya (Movie Ver.)
+- JPN - Kimi to Boku. - OP - Bye Bye
+- JPN - Konjiki no Gash Bell!! - AMV - Chichi o Moge!
+- JPN - Kono Danshi Mahou ga Oshigoto Desu. - OP - Kimi no Kotoba
+- JPN - Kono Oto Tomare! - OP - Tone
+- JPN - Kuragehime - ED - Kimi no Kirei ni Kizuite Okure
+- JPN - Kakumeiki Valvrave - ED1 - Boku ja Nai
+- JPN - Kakumeiki Valvrave 2nd Season - ED1 - Realism
+- JPN - Kurogane no Linebarrels - ED1 - Ame ga Furu
+- JPN - Kuroshitsuji - ED2 - Lacrimosa
+- JPN - Kyoukai no Rinne - ED2 - Futatsu no Sekai
+- JPN - Kyoukai no Rinne - OP2 - Ura no Ura
+- JPN - Le Chevalier D'Eon - OP - BORN
+- JPN - Lovely Complex - ED1 - Kiss Kaerimichi no Love Song
+- JPN - Mahoromatic Tadaima Okaeri - SPECIAL OP - Tadaima no Kaze
+- JPN - Mahouka Koukou no Rettousei - ED2 - Mirror
+- JPN - Majimoji Rurumo - ED - Futari no Chronostasis
+- JPN - Mawaru Penguindrum - ED2 - Haiiro no Suiyobi ~ Off Vocal Vers
+- JPN - Mawaru Penguindrum - ED4 - Ikarechimattaze!!
+- JPN - Minami-ke Tadaima - ED1 - Kyuu Sekkin Lucky Days
+- JPN - Mononoke-hime - MOVIE AMV - Mononoke-hime
+- JPN - Nabari no Ou - ED1 - HIKARI
+- JPN - Nagi no Asukara - PV1 - Nagi
+- JPN - Naruto - ED11 - Soba ni Iru kara
+- JPN - Naruto - ED12 - Parade
+- JPN - Naruto - ED12 - Parade ~ Alternative Vers
+- JPN - Naruto - ED15 - Scenario
+- JPN - Naruto Shippuuden - ED24 - Sayonara Memory
+- JPN - Nourin - OP - Himitsu no Tobira kara Ai ni Kite
+- JPN - Ookami Kodomo no Ame to Yuki - MOVIE ED - Okaa-San no Uta
+- JPN - Ookami to Koushinryou - AUDIO OP - Tabi no Tochuu ~ Full Vers
+- JPN - Ore no Imouto ga Konna ni Kawaii Wake ga Nai - ED4 - Shiroi Kokoro
+- JPN - Osomatsu-san - IN - Daiyon Ginka Daifuzoku Koukou no Kouka
+- JPN - Overlord - ED - L.L.L.
+- JPN - Overlord II - OP - GO CRY GO
+- JPN - Paprinka - COVER AMV - Byakkoya no musume
+- JPN - Patapon - PSP GAME AUDIO OP - Patapon 3 Theme
+- JPN - Phantom Requiem for the phantom - OP1 - Karma
+- JPN - Ping Pong The Animation - IN - Te no Hira wo Taiyou ni
+- JPN - Ping Pong The Animation - IN - Midnight Flight Hitori Bocchi no Christmas Eve
+- JPN - Punch Line - IN - Koureijitsu no Odori
+- JPN - REOL - AUDIO MV - B12
+- JPN - Sabagebu! - ED - Piti Pati SurviBird
+- JPN - Sanzoku no Musume Ronja - OP - Haru no Sakebi
+- JPN - Sasami-san@Ganbaranai - ED - Shintouatsu Symphony ~ Main Cast Vers
+- JPN - Seirei no Moribito - AMV - Naji no Uta
+- JPN - Senran Kagura 2 -Shinku- - 3DS OP - Hikari to Yami no Kanata
+- JPN - Senran Kagura Shinovi Versus -Shoujotachi no Shoumei- - PSV PC OP - Hanabana no Kakugo
+- JPN - Sewayaki Kitsune no Senko-san - ED - Mofumofu de yoi no ja yo
+- JPN - Sewayaki Kitsune no Senko-san - OP - Koyoi mofumofu!!
+- JPN - Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai - ED - Inner Urge ~ THAT Pool Vers
+- JPN - Shingeki no Kyojin - AMV - My Soul, Your Beats! ~ Girls Dead Monster Vers
+- JPN - Shinreigari Ghost Hound - OP - Poltergeist
+- JPN - Shoujo Shuumatsu Ryokou - ED2 - Amadare no Uta ~ Full Vers
+- JPN - Sore ga Seiyuu! - ED1 - Anata no Omimi ni Plug-in!
+- JPN - Sore ga Seiyuu! - IN - Mimi no Naka e
+- JPN - Sore Ike! Anpanman - OP - Anpanman no March
+- JPN - Sousei no Aquarion - OP2 - Go Tight!
+- JPN - Starry Sky After Autumn  - PSP PC GAME OP - GET CLOSER
+- JPN - Starry Sky After Spring  - PSP PC GAME OP - PLANISPHERE
+- JPN - Starry Sky After Summer  - PSP PC GAME OP - Stardust Flashback
+- JPN - Starry Sky After Winter  - PSP PC GAME OP - SONG 4 U
+- JPN - Starry Sky in Autumn  - PSP PC GAME OP - Lies, Truth, and Our Destiny
+- JPN - Starry Sky in Spring  - PSP PC GAME OP - Starry Sky
+- JPN - Starry Sky in Summer  - PSP PC GAME OP - Shoot High
+- JPN - Starry Sky in Winter  - PSP PC GAME OP - Grayed Out
+- JPN - Starry Sky Spring Stories  - PSV GAME OP - SAKURA-PLANETARIUM
+- JPN - Starry Sky Summer Stories  - PSV GAME OP - Sea-StaR
+- JPN - Starry Sky Winter Stories  - PSV GAME OP - SILVER MOON
+- JPN - Takamiya Nasuno desu! - OP - Ougon no Kinderella ~Gozen 0-ji ni Mahou wa Hodokezu~
+- JPN - Takoyaki Mantman - OP - Takoyaki Mantoman Shudaika
+- JPN - Tasogare Otome x Amnesia - IN - Requiem
+- JPN - Teekyuu 7 - OP - Tsuppari-kun vs Sekitori Man
+- JPN - Teekyuu 8 - OP1 - Gluten Elegy
+- JPN - Tokimeki Memorial Girl's Side - PS2 GAME OP - Signal
+- JPN - Tokimeki Memorial Girl's Side 2nd Kiss - PS2 GAME OP - Stay
+- JPN - Tokimeki Memorial Girl's Side 3rd Story - PSP DS GAME OP - SHINE
+- JPN - Udon no Kuni no Kin'iro Kemari - ED2 - Gaogao-chan Taisou
+- JPN - Ultraman Orb THE ORIGIN SAGA - OP1 - ULTRAMAN ORB
+- JPN - Usakame - ED - Promise You
+- JPN - Variable Barricade - PSV GAME OP - Sixteen
+- JPN - Wakako-zake - OP - Shiawase no Kaerimichi
+- JPN - X-JAPAN - AUDIO MV - X
+- JPN - Yowamushi Pedal - AMV - Koi no Himehime Pettanko ~ Full Vers. -(Itachari AMV)
+- JPN - Yuru Yuri II - OP2 - Yonde Mirakurun!
+- JPN - Zoku Sayonara Zetsubou-sensei - IN - Zetsubou Ondo
+- RUS - Choeurs de l'Armee rouge - AUDIO MV - Hymne de l'Union sovietique ~ 1977 Vers
+- UND - Gekijouban Kara no Kyoukai The Garden of Sinners - MOVIE AMV - Red Moon
+- UND - Lucky Star - ED23 - Mikuru Henshin! Soshite Sentou!
+- UND - Paprika - MOVIE OP - Mediational Field
+
 # April 2019
 
 Contributors :
