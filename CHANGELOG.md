@@ -159,6 +159,7 @@ New songs : 208
 - JPN - Mawaru Penguindrum - ED2 - Haiiro no Suiyobi ~ Off Vocal Vers
 - JPN - Mawaru Penguindrum - ED4 - Ikarechimattaze!!
 - JPN - Minami-ke Tadaima - ED1 - Kyuu Sekkin Lucky Days
+- JPN - Monogatari Series Puc Puc - GAME OP - wicked prince
 - JPN - Mononoke-hime - MOVIE AMV - Mononoke-hime
 - JPN - Nabari no Ou - ED1 - HIKARI
 - JPN - Nagi no Asukara - PV1 - Nagi
