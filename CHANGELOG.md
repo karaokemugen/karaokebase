@@ -202,17 +202,17 @@ New songs : 212
 - JPN - Sore ga Seiyuu! - IN - Mimi no Naka e
 - JPN - Sore Ike! Anpanman - OP - Anpanman no March
 - JPN - Sousei no Aquarion - OP2 - Go Tight!
-- JPN - Starry Sky After Autumn  - PSP PC GAME OP - GET CLOSER
-- JPN - Starry Sky After Spring  - PSP PC GAME OP - PLANISPHERE
-- JPN - Starry Sky After Summer  - PSP PC GAME OP - Stardust Flashback
-- JPN - Starry Sky After Winter  - PSP PC GAME OP - SONG 4 U
-- JPN - Starry Sky in Autumn  - PSP PC GAME OP - Lies, Truth, and Our Destiny
-- JPN - Starry Sky in Spring  - PSP PC GAME OP - Starry Sky
-- JPN - Starry Sky in Summer  - PSP PC GAME OP - Shoot High
-- JPN - Starry Sky in Winter  - PSP PC GAME OP - Grayed Out
-- JPN - Starry Sky Spring Stories  - PSV GAME OP - SAKURA-PLANETARIUM
-- JPN - Starry Sky Summer Stories  - PSV GAME OP - Sea-StaR
-- JPN - Starry Sky Winter Stories  - PSV GAME OP - SILVER MOON
+- JPN - Starry Sky After Autumn - PSP PC GAME OP - GET CLOSER
+- JPN - Starry Sky After Spring - PSP PC GAME OP - PLANISPHERE
+- JPN - Starry Sky After Summer - PSP PC GAME OP - Stardust Flashback
+- JPN - Starry Sky After Winter - PSP PC GAME OP - SONG 4 U
+- JPN - Starry Sky in Autumn - PSP PC GAME OP - Lies, Truth, and Our Destiny
+- JPN - Starry Sky in Spring - PSP PC GAME OP - Starry Sky
+- JPN - Starry Sky in Summer - PSP PC GAME OP - Shoot High
+- JPN - Starry Sky in Winter - PSP PC GAME OP - Grayed Out
+- JPN - Starry Sky Spring Stories - PSV GAME OP - SAKURA-PLANETARIUM
+- JPN - Starry Sky Summer Stories - PSV GAME OP - Sea-StaR
+- JPN - Starry Sky Winter Stories - PSV GAME OP - SILVER MOON
 - JPN - Takamiya Nasuno desu! - OP - Ougon no Kinderella ~Gozen 0-ji ni Mahou wa Hodokezu~
 - JPN - Takoyaki Mantman - OP - Takoyaki Mantoman Shudaika
 - JPN - Tasogare Otome x Amnesia - IN - Requiem
