@@ -15,14 +15,17 @@ Contributors :
 - @Dysp
 - @Amo
 - @Raton-Laveur
+- @Saikyo
 
 ## Added
 
-New songs : 208
+New songs : 212
 
 - CHI - Quanzhi Gaoshou Tebie pian - ONA OP - Zaiq
 - ENG - Alex Cameron,Jimmy Barnes,Kirin J Callinan,Molly Lewis - MV - Big Enough
+- ENG - American Dragon Jake Long - OP - The Chosen One
 - ENG - Baki - OP2 - The Gong of Knockout
+- ENG - Carole & Tuesday - IN - The loneliest Girl
 - ENG - Double Decker! Doug & Kirill - ED - Buntline Special
 - ENG - Life is Strange - PS3 PS4 XBOX360 PC GAME AMV - Mountains
 - ENG - Mahoutsukai no Yome Hoshi Matsu Hito - OVA ED - Clockwork Quick and Lightning Slow (A Spell to Make All Things Well)
@@ -113,6 +116,7 @@ New songs : 208
 - JPN - Guin Saga - ED - Saga This is My Road
 - JPN - Gugure! Kokkuri-san - ED - This Merry-Go-Round Song
 - JPN - Gyakuten Saiban Sono Shinjitsu Igi Ari! S2 - OP2 - Reason
+- JPN - Hachimitsu to Clover - OP - Dramatic ~ Alternative Vers.
 - JPN - Hakuouki Kaikoroku - GAME OP - Yume Machi no Kisetsu
 - JPN - Hanatan - AUDIO MV - Tengaku ~ Hanatan Vers
 - JPN - Handa-kun - IN - Eraser Boys
