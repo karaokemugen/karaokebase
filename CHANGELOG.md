@@ -19,12 +19,13 @@ Contributors :
 
 ## Added
 
-New songs : 212
+New songs : 214
 
 - CHI - Quanzhi Gaoshou Tebie pian - ONA OP - Zaiq
 - ENG - Alex Cameron,Jimmy Barnes,Kirin J Callinan,Molly Lewis - MV - Big Enough
 - ENG - American Dragon Jake Long - OP - The Chosen One
 - ENG - Baki - OP2 - The Gong of Knockout
+- ENG - Carole & Tuesday - IN - Someday I'll Find My Way Home
 - ENG - Carole & Tuesday - IN - The loneliest Girl
 - ENG - Double Decker! Doug & Kirill - ED - Buntline Special
 - ENG - Life is Strange - PS3 PS4 XBOX360 PC GAME AMV - Mountains
@@ -202,17 +203,18 @@ New songs : 212
 - JPN - Sore ga Seiyuu! - IN - Mimi no Naka e
 - JPN - Sore Ike! Anpanman - OP - Anpanman no March
 - JPN - Sousei no Aquarion - OP2 - Go Tight!
-- JPN - Starry Sky After Autumn  - PSP PC GAME OP - GET CLOSER
-- JPN - Starry Sky After Spring  - PSP PC GAME OP - PLANISPHERE
-- JPN - Starry Sky After Summer  - PSP PC GAME OP - Stardust Flashback
-- JPN - Starry Sky After Winter  - PSP PC GAME OP - SONG 4 U
-- JPN - Starry Sky in Autumn  - PSP PC GAME OP - Lies, Truth, and Our Destiny
-- JPN - Starry Sky in Spring  - PSP PC GAME OP - Starry Sky
-- JPN - Starry Sky in Summer  - PSP PC GAME OP - Shoot High
-- JPN - Starry Sky in Winter  - PSP PC GAME OP - Grayed Out
-- JPN - Starry Sky Spring Stories  - PSV GAME OP - SAKURA-PLANETARIUM
-- JPN - Starry Sky Summer Stories  - PSV GAME OP - Sea-StaR
-- JPN - Starry Sky Winter Stories  - PSV GAME OP - SILVER MOON
+- JPN - Starry Sky After Autumn - PSP PC GAME OP - GET CLOSER
+- JPN - Starry Sky After Spring - PSP PC GAME OP - PLANISPHERE
+- JPN - Starry Sky After Summer - PSP PC GAME OP - Stardust Flashback
+- JPN - Starry Sky After Winter - PSP PC GAME OP - SONG 4 U
+- JPN - Starry Sky in Autumn - PSP PC GAME OP - Lies, Truth, and Our Destiny
+- JPN - Starry Sky in Spring - PSP PC GAME OP - Starry Sky
+- JPN - Starry Sky in Summer - PSP PC GAME OP - Shoot High
+- JPN - Starry Sky in Winter - PSP PC GAME OP - Grayed Out
+- JPN - Starry Sky Autumn Stories - PSV GAME OP - phases of the moon
+- JPN - Starry Sky Spring Stories - PSV GAME OP - SAKURA-PLANETARIUM
+- JPN - Starry Sky Summer Stories - PSV GAME OP - Sea-StaR
+- JPN - Starry Sky Winter Stories - PSV GAME OP - SILVER MOON
 - JPN - Takamiya Nasuno desu! - OP - Ougon no Kinderella ~Gozen 0-ji ni Mahou wa Hodokezu~
 - JPN - Takoyaki Mantman - OP - Takoyaki Mantoman Shudaika
 - JPN - Tasogare Otome x Amnesia - IN - Requiem
