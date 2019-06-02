@@ -19,7 +19,7 @@ Contributors :
 
 ## Added
 
-New songs : 214
+New songs : 216
 
 - CHI - Quanzhi Gaoshou Tebie pian - ONA OP - Zaiq
 - ENG - Alex Cameron,Jimmy Barnes,Kirin J Callinan,Molly Lewis - MV - Big Enough
@@ -220,6 +220,8 @@ New songs : 214
 - JPN - Tasogare Otome x Amnesia - IN - Requiem
 - JPN - Teekyuu 7 - OP - Tsuppari-kun vs Sekitori Man
 - JPN - Teekyuu 8 - OP1 - Gluten Elegy
+- JPN - Teekyuu 9 - OP - Dream First Sensation!
+- JPN - Teekyuu 9 - ED - Kaiun! Shôfuku! Enten Uta
 - JPN - Tokimeki Memorial Girl's Side - PS2 GAME OP - Signal
 - JPN - Tokimeki Memorial Girl's Side 2nd Kiss - PS2 GAME OP - Stay
 - JPN - Tokimeki Memorial Girl's Side 3rd Story - PSP DS GAME OP - SHINE
