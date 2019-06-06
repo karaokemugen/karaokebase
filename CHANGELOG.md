@@ -1,3 +1,23 @@
+# June 2019
+
+Contributors :
+
+- @Saikyo
+
+## Added
+
+New songs : xxx
+
+JPN - Bouken Ou Beet - OP1 - emotion
+JPN - Bouken Ou Beet - OP2 - Wish Men
+JPN - Danball Senki - ED1 - Boku no Chokinbako
+JPN - Danball Senki W - OP1 - Brave Hero
+JPN - Danball Senki W - OP3 - 2 Spirits
+JPN - Danball Senki Wars - OP1 - Eternal
+JPN - Danball Senki Wars - OP2 - Mugen Myself
+JPN - Diamond no Ace - ED1 - Seek Diamonds
+JPN - Inazuma Eleven - OP4 - Katte Nakouze!
+
 # May 2019
 
 Contributors :
