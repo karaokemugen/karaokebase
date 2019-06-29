@@ -2,21 +2,244 @@
 
 Contributors :
 
+- @Angor
+- @Bonta-kun
+- @burabetsu
+- @Djidkay
+- @Dysp
+- @Flore
+- @Kmeuh
+- @meulahke
+- @Nabashi
+- @Neraste
+- @Ni-jibakurei
+- @RhiobeT
 - @Saikyo
+- @Sakurachiru
+- @Shizue
+- @Stal
+- @tartar_lord
+- ENSEEIHT-japan7
 
 ## Added
 
-New songs : xxx
+New songs : 215
 
-JPN - Bouken Ou Beet - OP1 - emotion
-JPN - Bouken Ou Beet - OP2 - Wish Men
-JPN - Danball Senki - ED1 - Boku no Chokinbako
-JPN - Danball Senki W - OP1 - Brave Hero
-JPN - Danball Senki W - OP3 - 2 Spirits
-JPN - Danball Senki Wars - OP1 - Eternal
-JPN - Danball Senki Wars - OP2 - Mugen Myself
-JPN - Diamond no Ace - ED1 - Seek Diamonds
-JPN - Inazuma Eleven - OP4 - Katte Nakouze!
+- CHI - Nagi no Asukara - AMV - Yi Zhi Hen An Jing
+- ENG - Ayahi Takagaki - COVER AUDIO MV - Can't take my eyes off of you
+- ENG - Baccano! - AMV - Lump Your Head
+- ENG - beatmania IIDX - GAME IN - Apocalypse ~dirge of swans~
+- ENG - Bob Ross - REMIX MV - Happy Little Clouds
+- ENG - Carole & Tuesday - IN - Dance Tonight
+- ENG - Carole & Tuesday - IN - Whispering My Love
+- ENG - Conker's Bad Fur Day - GAME IN - The Great Mighty Poo's song
+- ENG - Frozen - MOVIE IN - Let It Go
+- ENG - GUMI - MV - Copycat
+- ENG - Hollywood Undead - MV - Bullet
+- ENG - Hollywood Undead - MV - Hear Me Now
+- ENG - How To Train Your Dragon - MOVIE MV - Sticks and Stones
+- ENG - Kaze no Tani no Nausicaa - MOVIE AMV - If Everyone Cared
+- ENG - Love The Way You Move - AMV - Rasputin
+- ENG - MYTH & ROID - MV - TRAGEDY ETERNITY
+- ENG - Ouran Koukou Host Club - AMV - The Ouran Side (The Other Side)
+- ENG - Platina Jazz - MV - Devil Man
+- ENG - Random Encounters - MV - Undertale the Musical THE FATES OF UNDERTALE
+- ENG - Redline - AMV - Initial RED - Gas gas gas
+- ENG - Steins Gate ELITE - PS4 SWITCH GAME OP - Cosmic Looper
+- ENG - Steven Universe - IN - Do It For Her
+- ENG - TWRP - MV - Starlight Brigade (feat. Dan Avidan)
+- ENG - Under ! Where question_mark - AMV - Underwear
+- ENG - Undertale - COVER MV - Spider Dance
+- ENG - Vulkain - MV - TwitchPlaysPokemon THE SONG
+- ENG - With pleasant companions - OT - Go! Go! Carlito
+- ENG - XenobladeX - WIIU GAME AMV - Don't Worry
+- FRE - Cardcaptor Sakura - ED1 - Groovy! ~ Fox Kids Vers.
+- FRE - Cardcaptor Sakura - ED2 - Honey ~ Fox Kids Vers.
+- FRE - Cardcaptor Sakura - ED3 - Fruits Candy ~ Fox Kids Vers.
+- FRE - Cardcaptor Sakura - OP3 - Platinum ~ Fox Kids Vers.
+- FRE - Carlos - MV - Tirelipimpon
+- FRE - Donjon de Naheulbeuk - AUDIO OT - Marche Barbare
+- FRE - Donjon de Naheulbeuk - AUDIO OT - Mon Ancetre Gurdil
+- FRE - Joueur du Grenier - IN - Achete ma merde
+- FRE - Joueur du Grenier - MV - C'est la fete
+- FRE - Le Bonheur de la vie - OP - Le Bonheur de la vie
+- FRE - Pokémon - MV - Pokérap ~ Part 1
+- FRE - Pokémon - MV - Pokérap ~ Part 2
+- FRE - Pokémon - MV - Pokérap ~ Part 3
+- FRE - Pokémon - MV - Pokérap ~ Part 4
+- FRE - Pokémon - MV - Pokérap ~ Part 5
+- FRE - Pokémon, la série : Soleil et Lune ‒ Ultra-Légendes - OP - Le défi de la vie
+- JPN - #COMPASS - GAME IN - Grave
+- JPN - 7!! - MV - ReRe Hello ~Owaresou ni nai Natsu~
+- JPN - 96Neko - COVER MV - Yoshiwara Lament
+- JPN - Aimer - MV - Chouchou musubi
+- JPN - Aimer - MV - Everlasting Snow ~ Short Vers
+- JPN - Aimer - MV - Kataomoi
+- JPN - Aimer - MV - Ninelie
+- JPN - Aimer - MV - Polaris
+- JPN - Aimer - MV - Re pray
+- JPN - Aimer - MV - Ref:rain
+- JPN - Aimer - MV - StarRingChild
+- JPN - Ajin (2016) - MV - Yoru wa Nemureru kai
+- JPN - AKB48 - MV - Aitakatta
+- JPN - AKB48 - MV - Yume no Kawa
+- JPN - Akiakane - MV - FlashBack
+- JPN - Aku no Hana - MV - Aku no Hana
+- JPN - Amaama to Inazuma - IN - Same ni Ki wo Tsukero
+- JPN - amatsuki - COVER MV - Tsumi to Batsu
+- JPN - amazarashi - MV - Speed to Masatsu
+- JPN - ASIAN KUNG-FU GENERATION - MV - Solanin
+- JPN - BanG Dream! 2nd Season - IN - Returns
+- JPN - Bishoujo Senshi Sailor Moon Crystal - PV - MOON PRIDE
+- JPN - Black Jack 21 - OP - Destiny ~ Taiyou no hana ~
+- JPN - Bleach - MV - Life
+- JPN - Bouken Ou Beet - OP1 - emotion
+- JPN - Bouken Ou Beet - OP2 - Wish Men
+- JPN - BTOB - AUDIO MV - Blowin'
+- JPN - Canvas 2 ~Akaneiro no Palette~ - PC GAME OP - Plastic Smile (^^
+- JPN - Casshern Sins - ED3 - Hikari to Kage
+- JPN - Cross Ange Tenshi to Ryuu no Rondo - AMV - Towagatari ~El Ragna~
+- JPN - DA Pantsu!! - GAME OP - PAPAPAPAPANTSU ~ Datte Pantsu Damon!
+- JPN - Danball Senki - ED1 - Boku no Chokinbako
+- JPN - Danball Senki W - OP1 - Brave Hero
+- JPN - Danball Senki W - OP3 - 2 Spirits
+- JPN - Danball Senki Wars - OP1 - Eternal
+- JPN - Danball Senki Wars - OP2 - Mugen Myself
+- JPN - Delicious Gakuin - IN - Omuraisu No Uta
+- JPN - Devilman Crybaby - AMV - Devilman no Uta ~ Full Vers
+- JPN - Diamond no Ace - ED1 - Seek Diamonds
+- JPN - Dragon Ball Final Bout - PSX GAME OP - THE BIGGEST FIGHT ~Gekitotsu~
+- JPN - Dragon Ball GT - ED1 - Hitorijanai
+- JPN - Dragon Ball GT - ED3 - Blue Velvet
+- JPN - Dragon Ball GT - ED4 - Sabitsuita Machinegun de Ima wo Uchi Nukou
+- JPN - Dragon Ball GT - OP - Dan Dan Kokoro Hikareteku
+- JPN - Endro~! - ED - Wonder Caravan!
+- JPN - Endro~! - IN - ME ME ME
+- JPN - Endro~! - OP - Endro~LL!
+- JPN - Fate Apocrypha - MV - Eiyuu Unmei no Uta
+- JPN - Festival international du film d'animation d'Annecy - PV - A taste of Tokyo
+- JPN - Final Fantasy Crystal Chronicles - GAMECUBE GAME OP - Kaze no Ne
+- JPN - Final Fantasy IX - PSX GAME AMV - Melodies of Life
+- JPN - Fire Emblem Fates Birthright - 3DS GAME MV - if hitori omou
+- JPN - G-On! - OT - Gachimushi! Boys
+- JPN - Gekijouban Bishoujo Senshi Sailor Moon R - MOVIE IN - Moon Revenge
+- JPN - Gekijouban Kara no Kyoukai The Garden of sinners Remix -Gate of seventh heaven- - MOVIE IN - ARIA
+- JPN - Gekijouban Kara no Kyoukai The Garden of sinners Remix -Gate of seventh heaven- - MOVIE IN - Kizuato
+- JPN - Gekijouban Kara no Kyoukai the Garden of sinners Remix -Gate of seventh heaven- - MOVIE IN - Oblivious
+- JPN - Girlish Number - OP1 - Ketsui no Daiya
+- JPN - GojimajiP feat. Snake - OT - Ochame kinou
+- JPN - Grand Blue - ED - Konpeki no al Fine
+- JPN - Green Dakara x Bakemono no Ko - CM - Sashiire
+- JPN - GUMI - MV - ECHO
+- JPN - Gun x Sword - AUDIO OT - Niji no Anata
+- JPN - Hataraku Saibou - OP - Mission! Ken-Kou-Dai-Ichi ~ Alternative Vers.
+- JPN - Hawken - PS4 PC GAME AMV - only my railgun ~ Full Vers
+- JPN - high_note - COVER MV - Ito
+- JPN - Higurashi no Naku Koro ni - AMV - Chu Chu Lovely Hinamizawa
+- JPN - Hitomi Shimatani - MV - Destiny ~ Taiyou no Hana ~
+- JPN - Hiyoku wa Azami no Kanata e Miryou no In - PC GAME OP - One Wing Two Souls
+- JPN - Hiyoku wa Azami no Kanata e Renri no Yume - PC GAME OP - Meiten
+- JPN - Hiyoku wa Azami no Kanata e ~Kuon no Sou~ - PC OP - Cambia
+- JPN - Hyouka - IN - Hitori
+- JPN - Inazuma Eleven - OP4 - Katte Nakouze!
+- JPN - Isekai Quartet - ED1 - Isekai Girls♡Talk
+- JPN - Itsudatte Bokura no Koi wa 10 Centi Datta. - COVER MV - Tokyo Summer Session
+- JPN - JA Kumamoto Keizairen - CM - Nikoyaka Shokudou
+- JPN - Je veux manger ton pancréas - MOVIE OP - Fanfare
+- JPN - Kamitakada Shounen Gasshoudan,Sachiko Kubooki,Shibata Isao - COVER MV - Mickey Mouse March
+- JPN - Kangokutou Mary Skelter - PSV GAME OP - Arakajime Ushinawareta Bokurano Ballad
+- JPN - Karakurizoushi Ayatsuri Sakon - ED - Kanaete
+- JPN - Kenshi Yonezu - MV - Eine Kleine
+- JPN - Kenshi Yonezu - MV - Lemon
+- JPN - Kidou Senshi Gundam The Origin Zenya - Akai Suisei - ED2 - Mizu no Hoshi e Ai wo Komete
+- JPN - Kidou Senshi Gundam The Origin Zenya - Akai Suisei - OP2 - Hisoubi
+- JPN - Kidou Senshi Gundam The Origin Zenya - Akai Suisei - OP3 - BEYOND THE TIME
+- JPN - Kidou Senshi Gundam UC RE 0096 - OP2 - Re I Am
+- JPN - Koukaku Kidoutai 2 Innocence - MOVIE IN - Kugutsuuta ura mite chiru ~ Parade Vers.
+- JPN - Koukaku Kidoutai 2 Innocence - MOVIE OP - Kugutsuuta ura mite chiru
+- JPN - Kujira no Kora wa Sajou ni Utau - IN - Hikari no Uta
+- JPN - Kujira no Kora wa Sajou ni Utau - PV - Kiroku no Uta
+- JPN - Linda Linda Linda - MOVIE IN - Linda Linda
+- JPN - Love Live! School Idol Project - MV - Mogyutto "love" de Sekkin Chû! ~ Full Vers.
+- JPN - Love Live! School Idol Project - MV - Snow halation ~ Full Vers.
+- JPN - Lovely Quest - PC GAME OP - Pure Love, True Love
+- JPN - majiko - REMIX MV - Kokoronashi
+- JPN - Major 2nd - ED1 - Pride
+- JPN - Mao Abe - MV - Stalker no uta
+- JPN - Mary to Majo no Hana - MOVIE AMV - Rain
+- JPN - Megalo Box - OP - Bite
+- JPN - Mika Hino,Shiro Aoi - MV - Otoko to Onna no LOVE GAME
+- JPN - Miku Itou - COVER GAME MV - Maware! Setsugetsuka ~ BanG Dream Vers.
+- JPN - Miku Itou - COVER GAME MV - Maware! Setsugetsuka ~ BanG Dream Vers.
+- JPN - Naruto Shippuuden - ED3 - Kimi Monogatari
+- JPN - Naruto Shippuuden - ED7 - Long Kiss Good Bye
+- JPN - Natsume Yuujinchou San - ED - Kimi no Kakera
+- JPN - Nico Nico Douga - AUDIO OT - Yaranaika
+- JPN - Nico Nico Douga - OT - Nico Nico Douga Urakumikyoku
+- JPN - Nigeru Wa Haji Da Ga Yaku Ni Tatsu - ED - Koi
+- JPN - Nigeru Wa Haji Da Ga Yaku Ni Tatsu - ED - Koi ~ Long Vers.
+- JPN - Nigeru Wa Haji Da Ga Yaku Ni Tatsu - MV - Koi
+- JPN - Nodame Cantabile (Drama) - IN - Onara Taisou
+- JPN - NORN9 Norn Plus Nornet - PSP GAME AMV - melee ~ Full Vers.
+- JPN - NORN9 Norn Plus Nornet - PSP GAME OP - melee
+- JPN - Nourin - ED - Ponytail no Yonjuu
+- JPN - Okaasan to Issho - MV - Dango San Kyoudai
+- JPN - Oni Uta. ~Oni ga Kitarite Amaesasero to Notamouta.~ - PC GAME OP - Kurenai no Sora
+- JPN - Onimari. ~Oni ga Yumemishi Tsune no Yo ni Itaru Osanaki Koi no Hajimari~ - PC GAME OP - Hajimari no Toki
+- JPN - Ore no Shita de Agake - PS2 PC GAME OP - Ore no Shita de Agake
+- JPN - Osozaki no Himawari ~Boku no Jinsei Renewal~ - OP - Anata ni
+- JPN - Overlord III - ED - Silent Solitude
+- JPN - Overlord III - OP - Voracity
+- JPN - Pocket Monsters Diamond and Pearl - OP1 - Together
+- JPN - Pop'n Music 15 ADVENTURE - GAME OT - Rin to shite saku hana no gotoku
+- JPN - Princess Bride - GAME OP - Princess Bride!
+- JPN - Re Zero kara Hajimeru Isekai Seikatsu - IN - Straight Bet
+- JPN - Re Zero kara Hajimeru Isekai Seikatsu - MV - Paradisus-Paradoxum
+- JPN - Re Zero kara Hajimeru Isekai Seikatsu - MV - Redo
+- JPN - REOL,kradness - MV - Childish War
+- JPN - Ride Your Wave - MOVIE IN - Brand New Story
+- JPN - Ride Your Wave - MOVIE IN - Brand New Story
+- JPN - Rockman 2 Dr. Wairi no Nazo - GAME OT - Air Man ga Taosenai ~ 10th anniversary edition Vers.
+- JPN - Saint Seiya Omega - OP3 - Mirai Saint Omega Saint Evolution
+- JPN - Saiyuuki RELOAD - OP - WILD ROCK
+- JPN - Saiyuuki RELOAD GUNLOCK - OP - Don't look back
+- JPN - Sakura Taisen - COVER AUDIO OT - Geki! Teikoku Kagekidan ~ BanG Dream Vers.
+- JPN - Sarazanmai - AMV - Sarazanmai no Uta
+- JPN - Sarazanmai - IN - Kawauso iya
+- JPN - Saya no Uta - PC GAME AMV - Saya no Uta
+- JPN - Senki Zesshou Symphogear - AMV - Gyakkou no Flugel
+- JPN - Shin Sakura Taisen - PS4 GAME PV - Geki! Teikoku Kagekidan (Shinshou)
+- JPN - Shingakkou -Noli me tangere- - PC OP - Noli me tangere
+- JPN - Shoujo Kageki Revue Starlight - AMV - Hokori to Ogori
+- JPN - Shoujo Kageki Revue Starlight - AMV - Koi no Makyou
+- JPN - Shoujo Kageki Revue Starlight - AMV - Sekai o Hai ni Suru made
+- JPN - Shoujo Kageki Revue Starlight - AMV - The Star Knows
+- JPN - Shoujo Kageki Revue Starlight - ED7 - Fly Me to the Star ~ Junna & Banana Vers
+- JPN - Sora Yori mo Tooi Basho - AMV - One Step
+- JPN - Stand By Me Doraemon - MOVIE MV - Himawari no Yakusoku
+- JPN - Starry Sky - ONA ED - Starry Days
+- JPN - Sukitte Ii na yo. - ED - slow dance
+- JPN - Super Mario Odyssey - SWITCH GAME CM - Jump up Super Star!
+- JPN - Super Smash Bros. Ultimate - SWITCH GAME AMV - Lifelight ~ Full Vers
+- JPN - The Legend of Zelda A Link Between Worlds - COVER 3DS GAME CM - Game Boyz
+- JPN - The Legend of Zelda A Link to the Past - COVER GAME CM - Game Boyz
+- JPN - The SpongeBob SquarePants Anime - OP1 - Colors of the Heart
+- JPN - The SpongeBob SquarePants Anime - OT2 - PAPERMOON
+- JPN - Touhou - REMIX MV - Shiawase Usagi
+- JPN - X-Men - OP1 - RISING
+- JPN - X-Men - OP2 - Dakishimetai dare yori mo
+- JPN - Xenoblade - WII GAME AMV - Beyond The sky
+- JPN - Xenoblade - WII GAME ED - Beyond The sky
+- JPN - Xenoblade - WII GAME MV - Beyond The sky
+- JPN - XenobladeX - WIIU GAME PV - The key we've lost
+- JPN - Zombieland Saga - IN - Drive-In Tori
+- KOR - (G)I-DLE - MV - HANN (Alone)
+- KOR - 4minute - MV - Hot Issue
+- KOR - Apink - MV - MY MY
+- KOR - PENTAGON - MV - Young
+- KOR - We Got Married - MV - Young Love
+- RUS - Command & Conquer Red Alert 3 - PC GAME AMV - Soviet March
+- ZXX - Chrono Trigger - PSX GAME OP - Chrono Trigger
 
 # May 2019
 
