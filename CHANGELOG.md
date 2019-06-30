@@ -23,7 +23,7 @@ Contributors :
 
 ## Added
 
-New songs : 216
+New songs : 218
 
 - CHI - Nagi no Asukara - AMV - Yi Zhi Hen An Jing
 - ENG - Ayahi Takagaki - COVER AUDIO MV - Can't take my eyes off of you
@@ -144,6 +144,7 @@ New songs : 216
 - JPN - Hyouka - IN - Hitori
 - JPN - Inazuma Eleven - OP4 - Katte Nakouze!
 - JPN - Isekai Quartet - ED1 - Isekai Girls♡Talk
+- JPN - Isekai Quartet - OP - Isekai Quartet
 - JPN - Itsudatte Bokura no Koi wa 10 Centi Datta. - COVER MV - Tokyo Summer Session
 - JPN - JA Kumamoto Keizairen - CM - Nikoyaka Shokudou
 - JPN - Je veux manger ton pancréas - MOVIE OP - Fanfare
@@ -174,6 +175,7 @@ New songs : 216
 - JPN - Miku Itou - COVER GAME MV - Maware! Setsugetsuka ~ BanG Dream Vers.
 - JPN - Naruto Shippuuden - ED3 - Kimi Monogatari
 - JPN - Naruto Shippuuden - ED7 - Long Kiss Good Bye
+- JPN - Natsu no Arashi! - OP - Atashi dake ni Kakete
 - JPN - Natsume Yuujinchou San - ED - Kimi no Kakera
 - JPN - Nico Nico Douga - AUDIO OT - Yaranaika
 - JPN - Nico Nico Douga - OT - Nico Nico Douga Urakumikyoku
