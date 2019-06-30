@@ -23,7 +23,7 @@ Contributors :
 
 ## Added
 
-New songs : 218
+New songs : 217
 
 - CHI - Nagi no Asukara - AMV - Yi Zhi Hen An Jing
 - ENG - Ayahi Takagaki - COVER AUDIO MV - Can't take my eyes off of you
@@ -171,7 +171,6 @@ New songs : 218
 - JPN - Mary to Majo no Hana - MOVIE AMV - Rain
 - JPN - Megalo Box - OP - Bite
 - JPN - Mika Hino,Shiro Aoi - MV - Otoko to Onna no LOVE GAME
-- JPN - Miku Itou - COVER GAME MV - Maware! Setsugetsuka ~ BanG Dream Vers.
 - JPN - Miku Itou - COVER GAME MV - Maware! Setsugetsuka ~ BanG Dream Vers.
 - JPN - Naruto Shippuuden - ED3 - Kimi Monogatari
 - JPN - Naruto Shippuuden - ED7 - Long Kiss Good Bye
