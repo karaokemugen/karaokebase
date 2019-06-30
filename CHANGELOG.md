@@ -23,7 +23,7 @@ Contributors :
 
 ## Added
 
-New songs : 215
+New songs : 216
 
 - CHI - Nagi no Asukara - AMV - Yi Zhi Hen An Jing
 - ENG - Ayahi Takagaki - COVER AUDIO MV - Can't take my eyes off of you
@@ -116,6 +116,7 @@ New songs : 215
 - JPN - Endro~! - ED - Wonder Caravan!
 - JPN - Endro~! - IN - ME ME ME
 - JPN - Endro~! - OP - Endro~LL!
+- JPN - Evangelion 3.0 You Can (not) Redo - MOVIE MV - Sakura Nagashi
 - JPN - Fate Apocrypha - MV - Eiyuu Unmei no Uta
 - JPN - Festival international du film d'animation d'Annecy - PV - A taste of Tokyo
 - JPN - Final Fantasy Crystal Chronicles - GAMECUBE GAME OP - Kaze no Ne
