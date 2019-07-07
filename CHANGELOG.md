@@ -1,3 +1,31 @@
+# July 2019
+
+Contributors :
+
+- Amo
+- @Axelterizaki
+- @Kmeuh
+- @Rinchama
+
+## Added
+
+New songs : 2
+
+- JPN - Senki Zesshou Symphogear AXZ - IN - Gekka Bijin
+- JPN - Senki Zesshou Symphogear GX - IN - Seiten Galaxy Cross
+
+## Fixed
+
+- ENG - The Super Mario Brothers Super Show - ED - Do the Mario! : Fix songwriters
+- ENG - The Super Mario Brothers Super Show - OP - Plumber Rap : Fix songwriters
+- FRE - Asterix et Cleopatre - IN - Quand l'appetit va, tout va : Fix tag
+- JPN - Captain Tsubasa Road to 2002 - OP1 - Dragon Screamer : Fix songwriters
+- JPN - Gin'iro no Kami no Agito - MOVIE OP - Chouwa oto ~With Reflection~ : Fix video and style
+- JPN - New Game!! - OP - STEP by STEP UP : Fix songwriters
+- JPN - Ryuu ga Gotoku 6 - PS4 GAME IN - Honjitsu wa Diamond : Fix songwriters
+- JPN - Ryuu ga Gotoku 6 - PS4 GAME IN - Like a Butterfly : Fix songwriters
+- JPN - Sasami Mahou Shoujo Club - OP - Sweet MAGIC : Fix artist
+
 # June 2019
 
 Contributors :
