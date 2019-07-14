@@ -2,10 +2,13 @@
 
 Contributors :
 
-- Amo
+- @Aeden
 - @Axelterizaki
 - @Kmeuh
+- @meulhake
 - @Rinchama
+- Amo
+- Psouchi
 
 ## Added
 
@@ -13,12 +16,35 @@ New songs : 2
 
 - JPN - Senki Zesshou Symphogear AXZ - IN - Gekka Bijin
 - JPN - Senki Zesshou Symphogear GX - IN - Seiten Galaxy Cross
+- JPN - T.M.Revolution - MV - HOT LIMIT
+- JPN - Ultraman Orb THE ORIGIN SAGA - OP2 - True Fighter
 
 ## Fixed
 
-- ENG - The Super Mario Brothers Super Show - ED - Do the Mario! : Fix songwriters
+- ENG - Carole & Tuesday - IN - Dance Tonight : Fix shift
+- ENG - Ingress the Animation - OP - Tessellate : fix style
+- ENG - JoJo no Kimyou na Bouken Ougon no Kaze - ED2 - Modern Crusaders : fix language
+- ENG - Koe no Katachi - MOVIE OP - My Generation : fix style
+- ENG - Macross Frontier - AMV - A Thousand Miles : fix style
+- ENG - Persona 4 The Ultimate in Mayonaka Arena - PS3 XBOX360 GAME OP - Best Friends : fix style
+- ENG - Persona Q - 3DS GAME OP - Maze Of Life : fix style
+- ENG - Shoujo Kageki Revue Starlight - COVER AMV - The Greatest Show : fix style
+- ENG - The Super Mario Brothers Super Show - ED - Do the Mario! : Fix songwriters and TAG
 - ENG - The Super Mario Brothers Super Show - OP - Plumber Rap : Fix songwriters
+- ENG - Under ! Where question_mark - AMV - Underwear : Fix author
+- ENG - WWE Monday Night RAW - OP10 - Born for Greatness : fix style
+- ENG - WWE Monday Night RAW - OP2 - I Like It Raw : fix style
+- ENG - WWE Monday Night RAW - OP3 - Thorn in your Eye : fix style
+- ENG - WWE Monday Night RAW - OP4 - Across The Nation : fix style
+- ENG - WWE Monday Night RAW - OP5 - ... To Be Loved : fix style
+- ENG - WWE Monday Night RAW - OP6 - Burn it to the Ground : fix style
+- ENG - WWE Monday Night RAW - OP7 - The Night : fix style
+- ENG - WWE Monday Night RAW - OP9 - Enemies : fix style
 - FRE - Asterix et Cleopatre - IN - Quand l'appetit va, tout va : Fix tag
+- FRE - Le Bonheur de la vie - OP - Le Bonheur de la vie : Fix author
+- JPN - Binbougami ga! - OP - Make My Day : fix style
+- JPN - Bleach - ED2 - Thank You!! : fix style
+- JPN - Boogiepop wa Warawanai (2019) - ED1 - Whiteout : fix style
 - JPN - Captain Tsubasa Road to 2002 - OP1 - Dragon Screamer : Fix songwriters
 - JPN - Gin'iro no Kami no Agito - MOVIE OP - Chouwa oto ~With Reflection~ : Fix video and style
 - JPN - New Game!! - OP - STEP by STEP UP : Fix songwriters
