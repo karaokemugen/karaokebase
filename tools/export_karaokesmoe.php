@@ -33,7 +33,7 @@ SELECT
   ak.subfile AS subfile,
   ak.singers AS singers,
   ak.songtypes AS songtypes,
-  ak.langs AS langs,
+  ak.languages AS languages,
   ak.authors AS authors,
   ak.misc AS misc,
   ak.platforms AS platforms,
@@ -43,7 +43,7 @@ SELECT
   ak.mediafile AS mediafile
 FROM all_karas AS ak
 WHERE mediafile LIKE \'%.mp4\'
-GROUP BY ak.kid, ak.title, ak.songorder, ak.serie, ak.subfile, ak.singers, ak.songtypes, ak.langs, ak.authors, ak.misc, ak.platforms, ak.families, ak.genres, ak.origins, ak.mediafile,  ak.languages_sortable, ak.songtypes_sortable, ak.singers_sortable
+GROUP BY ak.kid, ak.title, ak.songorder, ak.serie, ak.subfile, ak.singers, ak.songtypes, ak.languages, ak.authors, ak.misc, ak.platforms, ak.families, ak.genres, ak.origins, ak.mediafile,  ak.languages_sortable, ak.songtypes_sortable, ak.singers_sortable
 ORDER BY serie, ak.songtypes_sortable DESC, ak.songorder, lower(unaccent(singers_sortable)), lower(unaccent(ak.title))
 ';
 
