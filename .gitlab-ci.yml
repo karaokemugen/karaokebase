@@ -30,7 +30,7 @@ test:
     - touch mpv
     - cp -f database.CICD.json database.json
     - cp -f ../tools/config.CICD.yml config.yml
-    - ./node_modules/.bin/ts-node util/extUnaccent.ts
+    - node util/extUnaccent.js
     - node -v
     - yarn start --debug --generate --strict
     - cd ..
