@@ -2,22 +2,42 @@
 
 Contributors :
 
+- @@suryanfromspace
 - @Aeden
+- @Angor-de-Redjak
 - @Axelterizaki
+- @Dysp
 - @Kmeuh
 - @meulhake
+- @Nock
 - @Rinchama
 - Amo
+- Nabashi
 - Psouchi
 
 ## Added
 
 New songs : 2
 
+- ENG - Beauty and the Beast (2017) - MOVIE IN - Evermore
+- ENG - Evangelion Shin Gekijouban Ha - MOVIE AMV - RadioAkshun (Radioactive)
+- JPN - BanG Dream! - IN5 - Mae e Susume!
+- JPN - Dumbbell Nan Kilo Moteru question_mark - OP - Onegai Muscle
+- JPN - Fruits Basket (2019) - ED2 - One Step Closer
+- JPN - Fruits Basket (2019) - OP2 - Chime
+- JPN - Given - OP - Kizuato
+- JPN - Kaijuu no Kodomo - MOVIE MV - Umi no Yuurei
+- JPN - kradness - COVER MV - Senbonzakura
 - JPN - Senki Zesshou Symphogear AXZ - IN - Gekka Bijin
 - JPN - Senki Zesshou Symphogear GX - IN - Seiten Galaxy Cross
 - JPN - T.M.Revolution - MV - HOT LIMIT
+- JPN - Tenki no Ko - MOVIE AUDIO IN - Grand Escape (Movie edit)
+- JPN - Tenki no Ko - MOVIE AUDIO MV - Daijoubu (Movie edit)
+- JPN - Tenki no Ko - MOVIE AUDIO MV - Kazetachi no Koe (Movie edit)
+- JPN - Tenki no Ko - MOVIE AUDIO MV - Shukusai (Movie edit)
+- JPN - Tenki no Ko - MOVIE MV - Ai ni Dekiru Koto wa mada Aru kai
 - JPN - Ultraman Orb THE ORIGIN SAGA - OP2 - True Fighter
+- JPN - Ultraman Taiga - OP1 - Buddy, steady, go!
 
 ## Fixed
 
@@ -46,11 +66,29 @@ New songs : 2
 - JPN - Bleach - ED2 - Thank You!! : fix style
 - JPN - Boogiepop wa Warawanai (2019) - ED1 - Whiteout : fix style
 - JPN - Captain Tsubasa Road to 2002 - OP1 - Dragon Screamer : Fix songwriters
+- JPN - Fruits Basket (2019) - ED1 - Lucky Ending : fix style
+- JPN - Genshiken Nidaime - OP - Genshi Joshi Wa Taiyou Datta : fix style
 - JPN - Gin'iro no Kami no Agito - MOVIE OP - Chouwa oto ~With Reflection~ : Fix video and style
+- JPN - JoJo no Kimyou na Bouken Ougon no Kaze - OP2 - Uragirimono no Requiem : fix style
+- JPN - Kaijuu no Kodomo - MOVIE MV - Umi no Yuurei : Fix tag
+- JPN - Kimetsu no Yaiba - ED - From the edge : fix style
+- JPN - Kimetsu no Yaiba - OP1 - Gurenge : fix style
+- JPN - Lostorage Incited WIXOSS - ED - undeletable : fix style
+- JPN - Mahou Shoujo Tokushusen Asuka - OP - KODO : fix style
 - JPN - New Game!! - OP - STEP by STEP UP : Fix songwriters
+- JPN - Nisekoi - OP1 - CLICK : fix style
 - JPN - Ryuu ga Gotoku 6 - PS4 GAME IN - Honjitsu wa Diamond : Fix songwriters
 - JPN - Ryuu ga Gotoku 6 - PS4 GAME IN - Like a Butterfly : Fix songwriters
+- JPN - Sarazanmai - ED - Stand by me : fix style
 - JPN - Sasami Mahou Shoujo Club - OP - Sweet MAGIC : Fix artist
+- JPN - Senki Zesshou Symphogear - AMV - Gyakkou no Flugel ~ Full Vers : fix style
+- JPN - Senki Zesshou Symphogear AXZ - IN - Gekka Bijin : fix style
+- JPN - Senki Zesshou Symphogear GX - IN - Seiten Galaxy Cross : fix style
+- JPN - Senki Zesshou Symphogear XD Unlimited - GAME OP - UNLIMITED BEAT : fix style
+- JPN - Shingeki no Kyojin - OP2 - Jiyuu no Tsubasa : fix style
+- JPN - Star Twinkle PreCure - ED1 - PaPePiPu Romantic : fix style
+- JPN - Sword Art Online Alicization - OP2 - RESISTER ~ Alicization Rising Vers. : fix style
+- JPN - Sword Art Online Alicization - OP2 - RESISTER ~ Alicization Uniting Vers. : fix style
 
 # June 2019
 
