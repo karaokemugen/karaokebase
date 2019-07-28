@@ -11,33 +11,86 @@ Contributors :
 - @meulhake
 - @Nock
 - @Rinchama
-- Amo
+- @Amo
+- @Saikyo
+- @Ni-jibakurei
+- May
 - Nabashi
 - Psouchi
+- amoethyst
+- Ludovic
+- mistiru
+- Shizue
+- RhiobeT
+- Sakurachiru
+- Chickenny
 
 ## Added
 
-New songs : 2
+New songs : 62
 
+- ENG - Action Man (2000) - OP - Amp it up Action Man.kara
 - ENG - Beauty and the Beast (2017) - MOVIE IN - Evermore
-- ENG - Evangelion Shin Gekijouban Ha - MOVIE AMV - RadioAkshun (Radioactive)
+- ENG - Bleach - AMV - Stand Up Be Strong
+- ENG - Carole & Tuesday - IN - Move Mountains.kara
+- ENG - Evangelion: 2.0 ‒ You Can (Not) Advance - MOVIE AMV - RadioAkshun (Radioactive)
+- ENG - Iron Man Armored Adventures - OP - Iron Man Armored Adventures Theme
+- ENG - Tengen Toppa Gurren Lagann - AMV - Nikopol
+- FRE - Sabrina's Secret Life - OP - Le Secret de Sabrina
+- JPN - Ao Haru Ride - MV - I Will
+- JPN - Ao Haru Ride - MV - Sekai wa Koi ni Ochite Iru ~ Full Vers
+- JPN - BABYMETAL - LIVE - Onedari Daisakusen
+- JPN - BABYMETAL - MV - Gimme chocolate!!
+- JPN - BABYMETAL - MV - KARATE
 - JPN - BanG Dream! - IN5 - Mae e Susume!
-- JPN - Dumbbell Nan Kilo Moteru question_mark - OP - Onegai Muscle
+- JPN - BiS - MV - Paprika
+- JPN - Bleach - ED14 - Kansha
+- JPN - Bleach - MV - Rolling Star ~ Full Vers
+- JPN - BLEACH TYBW - ED - Kanshô Resistance.kara
+- JPN - Chio-chan no Tsuugakuro - IN - Mananacchio
+- JPN - Diamond no Ace Act II - OP1 - Hajimari no Uta
+- JPN - Dumbbell Nan Kilo Moteru? - OP - Onegai Muscle
 - JPN - Fruits Basket (2019) - ED2 - One Step Closer
 - JPN - Fruits Basket (2019) - OP2 - Chime
+- JPN - Fullmetal Alchemist the Movie: Conqueror of Shamballa - MOVIE AMV - Lost heaven
+- JPN - Given - ED - Marutsuke
 - JPN - Given - OP - Kizuato
-- JPN - Kaijuu no Kodomo - MOVIE MV - Umi no Yuurei
+- JPN - Himote House - ED2 - Ôchi ni Kaerô
+- JPN - Hinomaru Zumô - OP1 - Fire Ground
+- JPN - Hitoribocchi no Marumaru Seikatsu - AMV - Makeru na Aru Kagayake Aru ~ Full Vers.kara
+- JPN - Inazuma Eleven - OP6 - Bokura no Goal!
+- JPN - Inazuma Eleven Go - OP3 - Ohayô! Shining Day
+- JPN - Inazuma Eleven Go Chrono Stone - OP2 - Kandô Kyôyû!
+- JPN - Inazuma Eleven Go Galaxy - OP2 - Chikyû o Mawase!!
+- JPN - Inazuma Eleven Go Galaxy - OP3 - Supernova!
+- JPN - Kaijû no Kodomo - MOVIE MV - Umi no Yûrei
 - JPN - kradness - COVER MV - Senbonzakura
-- JPN - Senki Zesshou Symphogear AXZ - IN - Gekka Bijin
-- JPN - Senki Zesshou Symphogear GX - IN - Seiten Galaxy Cross
+- JPN - Major (2005) - ED1 - Wonderland
+- JPN - Major (2008) - ED1 - One Day
+- JPN - Major (2010) - ED1 - Twilight Star
+- JPN - Major 2nd - ED2 - Sairen
+- JPN - Mana Ashida - MV - Suteki na Nichiyôbi
+- JPN - Mix Meisei Story - OP1 - Equal
+- JPN - Mix Meisei Story - OP2 - VS
+- JPN - Sarazanmai - IN - Hôkagô no Kappa
+- JPN - Senki Zesshô Symphogear AXZ - IN - Gekka Bijin
+- JPN - Senki Zesshô Symphogear GX - IN - Seiten Galaxy Cross
+- JPN - Sôkyû no Fafner Dead Aggressor - LIVE - Separation
 - JPN - T.M.Revolution - MV - HOT LIMIT
 - JPN - Tenki no Ko - MOVIE AUDIO IN - Grand Escape (Movie edit)
-- JPN - Tenki no Ko - MOVIE AUDIO MV - Daijoubu (Movie edit)
+- JPN - Tenki no Ko - MOVIE AUDIO MV - Daijôbu (Movie edit)
 - JPN - Tenki no Ko - MOVIE AUDIO MV - Kazetachi no Koe (Movie edit)
 - JPN - Tenki no Ko - MOVIE AUDIO MV - Shukusai (Movie edit)
 - JPN - Tenki no Ko - MOVIE MV - Ai ni Dekiru Koto wa mada Aru kai
+- JPN - Touken Ranbu ONLINE - AMV - SANJYOU KINGDOM (VOODOO KINGDOM).kara
 - JPN - Ultraman Orb THE ORIGIN SAGA - OP2 - True Fighter
 - JPN - Ultraman Taiga - OP1 - Buddy, steady, go!
+- JPN - Umineko no Naku Koro ni Chiru - COVER PC GAME IN - Kina no Kaori ~Ai no Shiren!~ ~ 4679!project Vers
+- JPN - YUI - AMV - Ruido.kara
+- JPN - YUI - LIVE - Daydreamer
+- JPN - YUI - LIVE - How Crazy
+- JPN - YUI - MV - Umbrella
+- KOR - Block B - MV - Be The Light
 
 ## Fixed
 
