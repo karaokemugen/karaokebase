@@ -101,6 +101,7 @@ New songs : 62
 - ENG - Koe no Katachi - MOVIE OP - My Generation : fix style
 - ENG - Macross Frontier - AMV - A Thousand Miles : fix style
 - ENG - Monty Python and the Holy Grail - MOVIE IN - Knights of the Round Table : fix video
+- ENG - My Little Pony Friendship is Magic - IN - Winter Wrap Up : fix group
 - ENG - Persona 4 The Ultimate in Mayonaka Arena - PS3 XBOX360 GAME OP - Best Friends : fix style
 - ENG - Persona Q - 3DS GAME OP - Maze Of Life : fix style
 - ENG - Saiyuuki - OP - Monkey Magic : fix sub
