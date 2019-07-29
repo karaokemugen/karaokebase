@@ -2,7 +2,7 @@
 
 Contributors :
 
-- @@suryanfromspace
+- @suryanfromspace
 - @Aeden
 - @Angor-de-Redjak
 - @Axelterizaki
@@ -94,14 +94,18 @@ New songs : 62
 
 ## Fixed
 
+- ENG - Action Man (2000) - OP - Amp it up Action Man : Fix video
 - ENG - Carole & Tuesday - IN - Dance Tonight : Fix shift
 - ENG - Ingress the Animation - OP - Tessellate : fix style
 - ENG - JoJo no Kimyou na Bouken Ougon no Kaze - ED2 - Modern Crusaders : fix language
 - ENG - Koe no Katachi - MOVIE OP - My Generation : fix style
 - ENG - Macross Frontier - AMV - A Thousand Miles : fix style
+- ENG - Monty Python and the Holy Grail - MOVIE IN - Knights of the Round Table : fix video
 - ENG - Persona 4 The Ultimate in Mayonaka Arena - PS3 XBOX360 GAME OP - Best Friends : fix style
 - ENG - Persona Q - 3DS GAME OP - Maze Of Life : fix style
+- ENG - Saiyuuki - OP - Monkey Magic : fix sub
 - ENG - Shoujo Kageki Revue Starlight - COVER AMV - The Greatest Show : fix style
+- ENG - Tengen Toppa Gurren Lagann - AMV - Nikopol : Fix video
 - ENG - The Super Mario Brothers Super Show - ED - Do the Mario! : Fix songwriters and TAG
 - ENG - The Super Mario Brothers Super Show - OP - Plumber Rap : Fix songwriters
 - ENG - Under ! Where question_mark - AMV - Underwear : Fix author
@@ -114,34 +118,60 @@ New songs : 62
 - ENG - WWE Monday Night RAW - OP7 - The Night : fix style
 - ENG - WWE Monday Night RAW - OP9 - Enemies : fix style
 - FRE - Asterix et Cleopatre - IN - Quand l'appetit va, tout va : Fix tag
+- FRE - Cardcaptor Sakura - OP2 - Razzmatazz : fix karaoke
 - FRE - Le Bonheur de la vie - OP - Le Bonheur de la vie : Fix author
+- FRE - Mahou no fairy Persia - OP - Vanessa et la magie des reves : fix hardsub
+- JPN - AKB48 - MV - Aitakatta : fix time
+- JPN - Ao Haru Ride - OP - Sekai wa Koi ni Ochite Iru : fix lyrics
 - JPN - Binbougami ga! - OP - Make My Day : fix style
 - JPN - Bleach - ED2 - Thank You!! : fix style
+- JPN - Bleach - ED2 - Thank You!! : fix sub
+- JPN - Bleach - MV - Life ~ Full Vers : fix title
 - JPN - Boogiepop wa Warawanai (2019) - ED1 - Whiteout : fix style
 - JPN - Captain Tsubasa Road to 2002 - OP1 - Dragon Screamer : Fix songwriters
+- JPN - Change!! Getter Robo Sekai Saigo no Hi - OVA OP2 - HEATS : fix style
+- JPN - Code Geass Hangyaku no Lelouch - AMV - Identity Crisis : fix time
+- JPN - Cross Ange Tenshi to Ryuu no Rondo - OP1 - Kindan no Resistance : fix style
+- JPN - Diamond no Ace Act II - OP1 - Hajimari no Uta : Fix video
 - JPN - Fruits Basket (2019) - ED1 - Lucky Ending : fix style
+- JPN - Gatchaman Crowds - ED - Innocent Note : fix time
 - JPN - Genshiken Nidaime - OP - Genshi Joshi Wa Taiyou Datta : fix style
 - JPN - Gin'iro no Kami no Agito - MOVIE OP - Chouwa oto ~With Reflection~ : Fix video and style
+- JPN - Hagane no Renkinjutsushi - OP1 - Melissa : fix sub
+- JPN - Hyouka - ED2 - Kimi ni Matsuwaru Mystery : fix lyrics
+- JPN - Jinrui wa Suitai Shimashita - OP - Real World : fix time
 - JPN - JoJo no Kimyou na Bouken Ougon no Kaze - OP2 - Uragirimono no Requiem : fix style
 - JPN - Kaijuu no Kodomo - MOVIE MV - Umi no Yuurei : Fix tag
+- JPN - Kanon (2006) - OP - Last Regrets : fix style
+- JPN - Kantai Collection - ED1 - Fubuki : fix style
+- JPN - Kidou Senshi Gundam (1979) - OP - Tobe! Gundam : fix sub
 - JPN - Kimetsu no Yaiba - ED - From the edge : fix style
 - JPN - Kimetsu no Yaiba - OP1 - Gurenge : fix style
+- JPN - Kyousougiga - OP - Koko : fix time
 - JPN - Lostorage Incited WIXOSS - ED - undeletable : fix style
 - JPN - Mahou Shoujo Tokushusen Asuka - OP - KODO : fix style
+- JPN - Mob Psycho 100 - OP - 99 : fix style
+- JPN - Monster Musume no Iru Nichijou - OP - Saikousoku Fall In Love : fix style
 - JPN - New Game!! - OP - STEP by STEP UP : Fix songwriters
 - JPN - Nisekoi - OP1 - CLICK : fix style
 - JPN - Ryuu ga Gotoku 6 - PS4 GAME IN - Honjitsu wa Diamond : Fix songwriters
 - JPN - Ryuu ga Gotoku 6 - PS4 GAME IN - Like a Butterfly : Fix songwriters
+- JPN - Saki - ED1 - Netsuretsu Kangei Wonderland : fix lyrics
+- JPN - Sakura Taisen 3 Paris wa Moeteiru ka - GAME OP1 - Geki! Teikoku Kagekidan III : fix style
 - JPN - Sarazanmai - ED - Stand by me : fix style
 - JPN - Sasami Mahou Shoujo Club - OP - Sweet MAGIC : Fix artist
+- JPN - Seihou Bukyou Outlaw Star - OP - Through The Night : fix karaoke
 - JPN - Senki Zesshou Symphogear - AMV - Gyakkou no Flugel ~ Full Vers : fix style
 - JPN - Senki Zesshou Symphogear AXZ - IN - Gekka Bijin : fix style
 - JPN - Senki Zesshou Symphogear GX - IN - Seiten Galaxy Cross : fix style
 - JPN - Senki Zesshou Symphogear XD Unlimited - GAME OP - UNLIMITED BEAT : fix style
 - JPN - Shingeki no Kyojin - OP2 - Jiyuu no Tsubasa : fix style
+- JPN - Slayers - OP - Get Along : fix sub
 - JPN - Star Twinkle PreCure - ED1 - PaPePiPu Romantic : fix style
+- JPN - Steins Gate 0 - GAME OP - Amadeus : fix style
 - JPN - Sword Art Online Alicization - OP2 - RESISTER ~ Alicization Rising Vers. : fix style
 - JPN - Sword Art Online Alicization - OP2 - RESISTER ~ Alicization Uniting Vers. : fix style
+- JPN - Tiger Mask W - ED - KING OF THE WILD : fix style
 
 # June 2019
 
