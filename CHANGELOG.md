@@ -27,7 +27,7 @@ Contributors :
 
 ## Added
 
-New songs : 62
+New songs : 63
 
 - ENG - Action Man (2000) - OP - Amp it up Action Man.kara
 - ENG - Beauty and the Beast (2017) - MOVIE IN - Evermore
@@ -75,6 +75,7 @@ New songs : 62
 - JPN - Sarazanmai - IN - Hôkagô no Kappa
 - JPN - Senki Zesshô Symphogear AXZ - IN - Gekka Bijin
 - JPN - Senki Zesshô Symphogear GX - IN - Seiten Galaxy Cross
+- JPN - Senki Zesshô Symphogear XV - OP - METANOIA
 - JPN - Sôkyû no Fafner Dead Aggressor - LIVE - Separation
 - JPN - T.M.Revolution - MV - HOT LIMIT
 - JPN - Tenki no Ko - MOVIE AUDIO IN - Grand Escape (Movie edit)
