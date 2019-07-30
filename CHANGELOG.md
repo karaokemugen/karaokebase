@@ -174,6 +174,7 @@ New songs : 63
 - JPN - Sword Art Online Alicization - OP2 - RESISTER ~ Alicization Rising Vers. : fix style
 - JPN - Sword Art Online Alicization - OP2 - RESISTER ~ Alicization Uniting Vers. : fix style
 - JPN - Tiger Mask W - ED - KING OF THE WILD : fix style
+- MUL - Shirobako - IN - Ema Dance : fix time
 
 # June 2019
 
