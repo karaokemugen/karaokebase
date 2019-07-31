@@ -27,15 +27,17 @@ Contributors :
 
 ## Added
 
-New songs : 63
+New songs : 72
 
 - ENG - Action Man (2000) - OP - Amp it up Action Man.kara
 - ENG - Beauty and the Beast (2017) - MOVIE IN - Evermore
 - ENG - Bleach - AMV - Stand Up Be Strong
 - ENG - Carole & Tuesday - IN - Move Mountains.kara
+- ENG - Chouriki Sentai Ohranger - OP - Go Go Power Rangers ~ Zeo Vers
 - ENG - Evangelion: 2.0 ‒ You Can (Not) Advance - MOVIE AMV - RadioAkshun (Radioactive)
 - ENG - Iron Man Armored Adventures - OP - Iron Man Armored Adventures Theme
 - ENG - Tengen Toppa Gurren Lagann - AMV - Nikopol
+- FRE - Hyakujuu Sentai Gaoranger - OP - Force Animale
 - FRE - Sabrina's Secret Life - OP - Le Secret de Sabrina
 - JPN - Ao Haru Ride - MV - I Will
 - JPN - Ao Haru Ride - MV - Sekai wa Koi ni Ochite Iru ~ Full Vers
@@ -55,6 +57,8 @@ New songs : 63
 - JPN - Fullmetal Alchemist the Movie: Conqueror of Shamballa - MOVIE AMV - Lost heaven
 - JPN - Given - ED - Marutsuke
 - JPN - Given - OP - Kizuato
+- JPN - Hagane no Renkinjutsushi Fullmetal Alchemist - MV - again ~ Full Vers
+- JPN - Hanatan - MV - Sarishinohara
 - JPN - Himote House - ED2 - Ôchi ni Kaerô
 - JPN - Hinomaru Zumô - OP1 - Fire Ground
 - JPN - Hitoribocchi no Marumaru Seikatsu - AMV - Makeru na Aru Kagayake Aru ~ Full Vers.kara
@@ -70,9 +74,11 @@ New songs : 63
 - JPN - Major (2010) - ED1 - Twilight Star
 - JPN - Major 2nd - ED2 - Sairen
 - JPN - Mana Ashida - MV - Suteki na Nichiyôbi
+- JPN - Mirai Nikki (2011) - MV - Filament
 - JPN - Mix Meisei Story - OP1 - Equal
 - JPN - Mix Meisei Story - OP2 - VS
 - JPN - Sarazanmai - IN - Hôkagô no Kappa
+- JPN - Seikon no Qwaser - MV - Baptize
 - JPN - Senki Zesshô Symphogear AXZ - IN - Gekka Bijin
 - JPN - Senki Zesshô Symphogear GX - IN - Seiten Galaxy Cross
 - JPN - Senki Zesshô Symphogear XV - OP - METANOIA
@@ -87,11 +93,15 @@ New songs : 63
 - JPN - Ultraman Orb THE ORIGIN SAGA - OP2 - True Fighter
 - JPN - Ultraman Taiga - OP1 - Buddy, steady, go!
 - JPN - Umineko no Naku Koro ni Chiru - COVER PC GAME IN - Kina no Kaori ~Ai no Shiren!~ ~ 4679!project Vers
+- JPN - Wagakki Band - MV - Akatsuki no Ito
+- JPN - Wagakki Band - MV - Tengaku
 - JPN - YUI - AMV - Ruido.kara
 - JPN - YUI - LIVE - Daydreamer
 - JPN - YUI - LIVE - How Crazy
 - JPN - YUI - MV - Umbrella
 - KOR - Block B - MV - Be The Light
+- KOR - Yook Sungjae - COVER MV - Confession ~ Yook Sungiae Vers
+- KOR - Yook Sungjae - COVER MV - Yesterday ~ Yook Sungiae Vers
 
 ## Fixed
 
@@ -135,6 +145,7 @@ New songs : 63
 - JPN - Code Geass Hangyaku no Lelouch - AMV - Identity Crisis : fix time
 - JPN - Cross Ange Tenshi to Ryuu no Rondo - OP1 - Kindan no Resistance : fix style
 - JPN - Diamond no Ace Act II - OP1 - Hajimari no Uta : Fix video
+- JPN - Fairy Tail - OP22 - Ashita wo Narase
 - JPN - Fruits Basket (2019) - ED1 - Lucky Ending : fix style
 - JPN - Gatchaman Crowds - ED - Innocent Note : fix time
 - JPN - Genshiken Nidaime - OP - Genshi Joshi Wa Taiyou Datta : fix style
