@@ -27,7 +27,7 @@ Contributors :
 
 ## Added
 
-New songs : 72
+New songs : 73
 
 - ENG - Action Man (2000) - OP - Amp it up Action Man.kara
 - ENG - Beauty and the Beast (2017) - MOVIE IN - Evermore
@@ -100,6 +100,7 @@ New songs : 72
 - JPN - YUI - LIVE - How Crazy
 - JPN - YUI - MV - Umbrella
 - KOR - Block B - MV - Be The Light
+- KOR - Who Are You School 2015 - COVER PV - I Love You ~ Yook Sungiae Vers.
 - KOR - Yook Sungjae - COVER MV - Confession ~ Yook Sungiae Vers
 - KOR - Yook Sungjae - COVER MV - Yesterday ~ Yook Sungiae Vers
 
@@ -150,6 +151,8 @@ New songs : 72
 - JPN - Gatchaman Crowds - ED - Innocent Note : fix time
 - JPN - Genshiken Nidaime - OP - Genshi Joshi Wa Taiyou Datta : fix style
 - JPN - Gin'iro no Kami no Agito - MOVIE OP - Chouwa oto ~With Reflection~ : Fix video and style
+- JPN - Go-Tôbun no Hanayome - OP - Go-Tôbun no Kimochi : video creditless
+- JPN - Go-Tôbun no Hanayome - ED - Sign : video creditless
 - JPN - Hagane no Renkinjutsushi - OP1 - Melissa : fix sub
 - JPN - Hyouka - ED2 - Kimi ni Matsuwaru Mystery : fix lyrics
 - JPN - Jinrui wa Suitai Shimashita - OP - Real World : fix time
