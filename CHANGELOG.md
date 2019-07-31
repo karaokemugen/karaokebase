@@ -160,6 +160,9 @@ New songs : 73
 - JPN - Kaijuu no Kodomo - MOVIE MV - Umi no Yuurei : Fix tag
 - JPN - Kanon (2006) - OP - Last Regrets : fix style
 - JPN - Kantai Collection - ED1 - Fubuki : fix style
+- JPN - Kemono Friends 2 - OP - Notteke! Japari Beat
+- JPN - Kemono Friends 2 - ED1 - Hoshi wo Tsunagete : video creditless
+- JPN - Kemono Friends 2 - ED2 - Kimi wa Kaeru Basho : video creditless
 - JPN - Kidou Senshi Gundam (1979) - OP - Tobe! Gundam : fix sub
 - JPN - Kimetsu no Yaiba - ED - From the edge : fix style
 - JPN - Kimetsu no Yaiba - OP1 - Gurenge : fix style
