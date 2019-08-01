@@ -8,7 +8,7 @@ Contributors :
 - @Axelterizaki
 - @Dysp
 - @Kmeuh
-- @meulhake
+- @Meulahke
 - @Nock
 - @Rinchama
 - @Amo
