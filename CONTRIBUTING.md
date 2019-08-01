@@ -25,21 +25,7 @@ Database team members have write access to this git repository as well as to the
 * [Download and install Karaoke Mugen](http://mugen.karaokes.moe)
 * Create a folder called `app` and then another one called `data` inside in your KM install folder.
 * Put your new videos in place in that folder according to the usual structure, like `app/data/medias`
-* Make any modification or add new karaoke songs by reusing an already existing `.kara` file as a template. Pick one from this database.
-  * If you're adding a new song, remove lines starting with `KID`, `date` and `media` save for `mediafile`
-* Run Karaoke Mugen with the `--generate` option :
-
-```sh
-KaraokeMugen.exe --generate
-```
-
-or if you're using Karaoke Mugen's git version :
-
-```sh
-yarn start --generate
-```
-
-* If generation returns no errors then you can go on. If it does, verify your `.kara` files.
+* Make any modification or add new karaoke songs by using the System Panel interface in Karaoke Mugen.
 * Send your media file to us, or if you have access to Shelter's FTP, upload your media files on Shelter or simply rename them if it only needs renaming.
 * Commit & push once your media files are in place on Shelter, then submit your pull request.
 
@@ -47,21 +33,21 @@ yarn start --generate
 
 The more we are, the faster we can achieve a fully completed database.
 
-[Let's talk about it on Discord!](https://discord.gg/XFXCqzU) (in the #karaoke channel) We welcome everyone with open arms.
+[Let's talk about it on Discord!](https://karaokes.moe/discord) (in the #karaoke channel) We welcome everyone with open arms.
 
-Some karaokes need to be verified / retimed when they're clearly not in sync, for example.
+Some karaokes need to be verified / retimed when they're clearly not in sync, for example. Sometimes we also change a time's style to meet our visibility standards (we remove special effects, weird, fantasy fonts, etc.)
 
 If you don't feel like you can do that, we still need some karaokes to be tagged and properly filled up with metadata. It means put in the missing information like the anime's production year, its animation studio, the singer and songwriter(s), etc.
 
 ## I need help
 
-Again, [come to the Discord server l'Eden de la Nanami](https://discord.gg/XFXCqzU)
+Again, [come to the Discord server l'Eden de la Nanami](https://karaokes.moe/discord)
 
 And go to the #karaoke channel!
 
 # French version
 
-## Comment créer un karaoké ?
+## Comment créer un karaoké
 
 Nous avons écrit un document à ce sujet que vous trouverez ici :
 
@@ -76,14 +62,14 @@ Essayez de remplir si possible l'intégralité du formulaire, ça nous fera ça 
 
 C'est sûr que plus on est nombreux, plus ça va vite de maintenir cette base à jour !
 
-[Discutons-en sur Discord](https://discord.gg/XFXCqzU). On prend toutes les bonnes volontés !
+[Discutons-en sur Discord](https://karaokes.moe/discord). On prend toutes les bonnes volontés !
 
 Il y a notamment des karaokés dont il faut vérifier le titre, mais aussi les paroles.
 
-Si rien de tout cela ne vous botte, il y a toujours le boulot de tag les karaokés, c'est à dire remplir leurs .kara d'informations comme l'année de l'animé, le studio de production, le chanteur ou le compositeur, etc.
+Si rien de tout cela ne vous botte, il y a toujours le boulot de tag les karaokés, c'est à dire remplir leurs .kara.json d'informations comme l'année de l'animé, le studio de production, le chanteur ou le compositeur, etc.
 
-## J'ai besoin d'aide !
+## J'ai besoin d'aide
 
-Venez sur [le discord de l'Eden de la Nanami](https://discord.gg/XFXCqzU)
+Venez sur [le discord de l'Eden de la Nanami](https://karaokes.moe/discord)
 
 Et dirigez-vous sur le salon #karaoke !
