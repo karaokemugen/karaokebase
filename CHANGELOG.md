@@ -27,7 +27,7 @@ Contributors :
 
 ## Added
 
-New songs : 73
+New songs : 83
 
 - ENG - Action Man (2000) - OP - Amp it up Action Man.kara
 - ENG - Beauty and the Beast (2017) - MOVIE IN - Evermore
@@ -36,9 +36,14 @@ New songs : 73
 - ENG - Chouriki Sentai Ohranger - OP - Go Go Power Rangers ~ Zeo Vers
 - ENG - Evangelion: 2.0 ‒ You Can (Not) Advance - MOVIE AMV - RadioAkshun (Radioactive)
 - ENG - Iron Man Armored Adventures - OP - Iron Man Armored Adventures Theme
+- ENG - Pokémon the Movie 8: Lucario and The Mystery of Mew - MOVIE ED - We Will Meet Again
+- ENG - Sonic X - AMV - Live and Learn
+- ENG - Spider-Man Into the Spider-Verse - MOVIE MV - Sunflower
 - ENG - Tengen Toppa Gurren Lagann - AMV - Nikopol
+- ENG - Viewtiful Joe - OP1 - Brighter Side
 - FRE - Hyakujuu Sentai Gaoranger - OP - Force Animale
 - FRE - Sabrina's Secret Life - OP - Le Secret de Sabrina
+- GER - Shingeki no Kyojin - AMV - Vogel im Kafig
 - JPN - Ao Haru Ride - MV - I Will
 - JPN - Ao Haru Ride - MV - Sekai wa Koi ni Ochite Iru ~ Full Vers
 - JPN - BABYMETAL - LIVE - Onedari Daisakusen
@@ -46,6 +51,7 @@ New songs : 73
 - JPN - BABYMETAL - MV - KARATE
 - JPN - BanG Dream! - IN5 - Mae e Susume!
 - JPN - BiS - MV - Paprika
+- JPN - Black Clover - OP7 - Justadice
 - JPN - Bleach - ED14 - Kansha
 - JPN - Bleach - MV - Rolling Star ~ Full Vers
 - JPN - BLEACH TYBW - ED - Kanshô Resistance.kara
@@ -67,6 +73,7 @@ New songs : 73
 - JPN - Inazuma Eleven Go Chrono Stone - OP2 - Kandô Kyôyû!
 - JPN - Inazuma Eleven Go Galaxy - OP2 - Chikyû o Mawase!!
 - JPN - Inazuma Eleven Go Galaxy - OP3 - Supernova!
+- JPN - InuYasha - OP6 - ANGELUS
 - JPN - Kaijû no Kodomo - MOVIE MV - Umi no Yûrei
 - JPN - kradness - COVER MV - Senbonzakura
 - JPN - Major (2005) - ED1 - Wonderland
@@ -77,6 +84,8 @@ New songs : 73
 - JPN - Mirai Nikki (2011) - MV - Filament
 - JPN - Mix Meisei Story - OP1 - Equal
 - JPN - Mix Meisei Story - OP2 - VS
+- JPN - Naruto Shippûden - OP14 - Tsuki no Ookisa
+- JPN - Puzzle & Dragons Cross - OP3 - Montage
 - JPN - Sarazanmai - IN - Hôkagô no Kappa
 - JPN - Seikon no Qwaser - MV - Baptize
 - JPN - Senki Zesshô Symphogear AXZ - IN - Gekka Bijin
@@ -95,6 +104,7 @@ New songs : 73
 - JPN - Umineko no Naku Koro ni Chiru - COVER PC GAME IN - Kina no Kaori ~Ai no Shiren!~ ~ 4679!project Vers
 - JPN - Wagakki Band - MV - Akatsuki no Ito
 - JPN - Wagakki Band - MV - Tengaku
+- JPN - Yu-Gi-Oh! VRAINS - OP3 - Calling
 - JPN - YUI - AMV - Ruido.kara
 - JPN - YUI - LIVE - Daydreamer
 - JPN - YUI - LIVE - How Crazy
