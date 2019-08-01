@@ -24,6 +24,8 @@ Contributors :
 - RhiobeT
 - Sakurachiru
 - Chickenny
+- Tatoon
+- Hellayne
 
 ## Added
 
