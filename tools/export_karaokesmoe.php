@@ -125,7 +125,7 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 
 			$type_with_num = $type . (!empty($kara['songorder']) ? $kara['songorder'] : '') . ' - '  . $languages[0]['name'] . ' - ' . $kara['title'];
 
-			if(strtolower($languages[0]['name']) === 'zxx') {
+			if(empty($kara['subfile'])) {
 				$kara_data=[
 					'file' => get_filename_without_ext($kara['mediafile']),
 					'mime' => ['video/mp4'],
