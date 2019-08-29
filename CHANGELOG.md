@@ -1,3 +1,128 @@
+# August 2019
+
+Contributors:
+
+- @Krow
+- @Kmeuh
+- @Saikyo
+- @Meulahke
+- @Eden
+- Nabashi
+- Psouchi
+- @Aeden
+- @Dysp
+- @Lua
+- @Angor-de-Redjak
+- Monow
+- @Nodamin
+- Anasuna
+- @amoethyst
+- Adrian
+- Sakurachiru
+- KuroSensei
+- Flore
+- Benjazunyan
+- Neraste
+- PogonzaRod
+- @Ni-jibakurei
+
+
+## Added
+
+New karas: 91
+
+- ENG - Fire Emblem Three Houses - SWITCH GAME MV - The Edge of Dawn (Seasons of Warfare)
+- ENG - Hotarubi no Mori e - MOVIE AMV - you can be king again (King)
+- ENG - JoJo's Bizarre Adventure - Golden Wind - IN - canzoni preferite
+- ENG - Luka Megurine - MV - Lie
+- ENG - Persona 2 Innocent Sin - PSP GAME OP - Unbreakable Tie
+- ENG - Shantae and the Seven Sirens - PS4 PC SWITCH GAME OP - Shantae
+- ENG - Sonic CD - SEGACD GAME OP - You can do anything
+- ENG - Star vs. the Forces of Evil - OP - I'm from another dimension
+- ENG - That's so Raven - OP - That's So Raven
+- ENG - The Boondocks - OP - Judo Flip
+- ENG - WWE Monday Night RAW - AMV - I Walk Alone (Batista)
+- FRE - Action Man A.T.O.M. - Alpha Teens on Machines - OP - A.T.O.M
+- FRE - Ima, Soko ni Iru Boku - ED - Ce monde, c'est le nôtre
+- FRE - Kodai ôja Kyôryû King - OP - Dinosaur King
+- FRE - Mirai Sentai Timeranger - OP - Power Rangers : La Force du temps
+- FRE - Team Galaxy - OP - Foncer vers l'infini
+- FRE - Teenage Mutant Ninja Turtles (2003) - OP - Et voici les Tortues Ninja
+- FRE - The Lion King - MOVIE IN - Hakuna Matata
+- FRE - The Lion King - MOVIE IN - Je voudrais déjà être roi
+- FRE - Tokusô Sentai Dekaranger - OP - Power Rangers SPD
+- FRE - Toupou - OP - La vie de Toupou
+- ITA - Boku no Hero Academia - AMV - My Hero Academia ~ Full Vers.
+- JPN - Abenobashi Mahô Shôtengai - OP - Treat or Goblins
+- JPN - Aikatsu Friends! - ED2 - Pride
+- JPN - Aikatsu Friends! - IN - Aratanaru Stage he
+- JPN - Aikatsu Friends! - IN - Aru ga Mama
+- JPN - Ar Tonelico 3: Sekai Shûen no Hikigane wa Shôjo no Uta ga Hiku - PS3 GAME IN - EXEC_Z/.
+- JPN - Baja No Studio - OVA ED - Tenohira wo Taiyô ni
+- JPN - Bleach - ED9 - Baby It's You
+- JPN - C: The Money and Soul of Possibility Control - ED - RPG
+- JPN - Corpse Party Book of Shadows - PSP PC GAME OP - Hana no saku basho
+- JPN - Dr. Stone - ED - LIFE
+- JPN - Dr. Stone - OP - Good Morning World!
+- JPN - Dragon Ball Z - AMV - Hikari no Willpower
+- JPN - Fairy Gone - ED - Ash-like Snow
+- JPN - Fate/stay night: Heaven's Feel - II. Lost Butterfly - MV - I beg you ~ Full Vers.
+- JPN - Fire Emblem Three Houses - SWITCH GAME MV - Girl of Hresvelg ~Wind, Flower, Snow, Moon~
+- JPN - Frozen - MOVIE IN - Let It Go ~Ari no Mama de~
+- JPN - Futari Monologue - OP1 - Let's go crazy
+- JPN - GeGeGe no Kitarô 5 (2007) - OP1 - GeGeGe no Kitarô
+- JPN - GeGeGe no Kitarô 5 (2007) - OP2 - GeGeGe no Kitarô
+- JPN - GeGeGe no Kitarô 6 (2018) - OP - GeGeGe no Kitarô
+- JPN - Giovanni no Shima - MOVIE AMV - Katyusha ~ Japanese Vers.
+- JPN - GUMI - MV - Mozaic Role
+- JPN - Hawken - PS4 PC GAME AMV - Meditations
+- JPN - Hetalia Axis Powers - ONA AUDIO CS - Embrace The Tres Bien Moi
+- JPN - Hitsugi no Chaika Avenging Battle - ED - Watashi wa Omae no Naka ni Iru
+- JPN - Hitsugi no Chaika Avenging Battle - ED - Watashi wa Omae no Naka ni Iru ~ Last Ep Vers.
+- JPN - Hunter X Hunter (2011) - ED4 - Nagareboshi Kirari
+- JPN - Jinrui wa Suitai Shimashita - MV - Real World ~ Full Vers.
+- JPN - Katekyô Hitman Reborn! - ED3 - Echo again
+- JPN - Katekyô Hitman Reborn! - ED4 - Friend
+- JPN - Katekyô Hitman Reborn! - ED4 - Friend ~ Alternative Vers.
+- JPN - Katekyô Hitman Reborn! - ED6 - STAND UP!
+- JPN - Kemono Friends 3 - GAME MV - Ke.mo.no.da.mo.no
+- JPN - Kidô Senshi Gundam The Origin Zenya - Akai Suisei - ED3 - A Red Ray
+- JPN - Kidô Shinsenki Gundam Wing Endless Waltz - OVA ED - White Reflection
+- JPN - Kill la Kill - AMV - Sanbika
+- JPN - Kimetsu no Yaiba - IN - Kamado Tanjirô no Uta
+- JPN - Kizuna Ai - COVER MV - PoPiPo
+- JPN - Kobayashi-san Chi no Maid Dragon - MV - Aozora no Rhapsody ~ Full Vers.
+- JPN - Lord El-Melloi II Sei no Jikenbo Rail Zeppelin Grace Note - ED - Hibari
+- JPN - Love Live! School Idol Project - MV - Natsuiro Egao de 1,2,Jump!
+- JPN - Marumo no Okite - MV - Maru Maru Mori Mori!
+- JPN - Metal Fight Beyblade - OP - Metal Fight Beyblade
+- JPN - Metal Fight Beyblade 4D - OP - Kokoro no Yûki
+- JPN - Miku Hatsune - MV - Counterclockwise
+- JPN - Miku Hatsune - MV - Senbonzakura
+- JPN - Mirai Nikki Redial Data Ikô - OVA OP - Kyôki Chinden
+- JPN - Monster Farm - OP1 - Kaze ga soyogu basho
+- JPN - Monster Farm - OP2 - Picnic
+- JPN - Monster Farm - OP3 - Close to your heart
+- JPN - One Punch Man - MV - THE HERO!! ~Okoreru Kobushi ni Hi wo Tsukero~
+- JPN - Persona - PSP GAME OP - Dream of Butterfly
+- JPN - Pocket Monsters Best Wishes! Season 2 - ED1 - Mite Mite Kocchicchi
+- JPN - Pokémon Heroes: Latios & Latias - MOVIE AUDIO ED - Hitoribocchi Ja Nai
+- JPN - Promare - AUDIO IN - Kakusei
+- JPN - Psycho-Pass - MV - Namae no Nai Kaibutsu ~ Full Vers.
+- JPN - Ranma ½ - ED1 - Platonic Tsuranuite ~ Alternative Vers.
+- JPN - Re: Zero kara Hajimeru Isekai Seikatsu - AMV - Theater D
+- JPN - REOL,kradness - COVER MV - Rimokon (Remote Control)
+- JPN - Senki Zesshô Symphogear AXZ - ED2 - Futurism
+- JPN - Senki Zesshô Symphogear GX - AMV - Radiant Force
+- JPN - Shinkon Gattai Godannar!! - ED2 - Waga na wa Godannar
+- JPN - Shôjo Kageki Revue Starlight - AMV - Star Divine: Finale
+- JPN - Sônan Desu ka?- OP - Koko wa doko
+- JPN - Sora no Otoshimono - IN - Chikuchiku B chikku
+- JPN - Star Twinkle PreCure - ED2 - Oshiete...! Twinkle
+- JPN - Tejina senpai - ED - Dame wa dame
+- JPN - Tejina senpai - OP - FANTASTIC ILLUSION
+- JPN - World Trigger - OP3 - Dream Trigger
+
 # July 2019
 
 Contributors :
