@@ -8,7 +8,7 @@ Contributors:
 - @Meulahke
 - @Eden
 - Nabashi
-- Psouchi
+- @Psoushi
 - @Aeden
 - @Dysp
 - @Lua
@@ -26,10 +26,9 @@ Contributors:
 - PogonzaRod
 - @Ni-jibakurei
 
-
 ## Added
 
-New karas: 91
+New karas: 92
 
 - ENG - Fire Emblem Three Houses - SWITCH GAME MV - The Edge of Dawn (Seasons of Warfare)
 - ENG - Hotarubi no Mori e - MOVIE AMV - you can be king again (King)
