@@ -8,7 +8,7 @@ Contributors:
 - @Meulahke
 - @Eden
 - Nabashi
-- Psouchi
+- @Psoushi
 - @Aeden
 - @Dysp
 - @Lua
@@ -26,10 +26,9 @@ Contributors:
 - PogonzaRod
 - @Ni-jibakurei
 
-
 ## Added
 
-New karas: 91
+New karas: 92
 
 - ENG - Fire Emblem Three Houses - SWITCH GAME MV - The Edge of Dawn (Seasons of Warfare)
 - ENG - Hotarubi no Mori e - MOVIE AMV - you can be king again (King)
@@ -65,6 +64,7 @@ New karas: 91
 - JPN - Dr. Stone - ED - LIFE
 - JPN - Dr. Stone - OP - Good Morning World!
 - JPN - Dragon Ball Z - AMV - Hikari no Willpower
+- JPN - Dragon Ball Z - AMV - Mind Power ... Ki
 - JPN - Fairy Gone - ED - Ash-like Snow
 - JPN - Fate/stay night: Heaven's Feel - II. Lost Butterfly - MV - I beg you ~ Full Vers.
 - JPN - Fire Emblem Three Houses - SWITCH GAME MV - Girl of Hresvelg ~Wind, Flower, Snow, Moon~
