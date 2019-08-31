@@ -28,7 +28,7 @@ Contributors:
 
 ## Added
 
-New karas: 92
+New karas: 118
 
 - ENG - Fire Emblem Three Houses - SWITCH GAME MV - The Edge of Dawn (Seasons of Warfare)
 - ENG - Hotarubi no Mori e - MOVIE AMV - you can be king again (King)
@@ -65,6 +65,16 @@ New karas: 92
 - JPN - Dr. Stone - OP - Good Morning World!
 - JPN - Dragon Ball Z - AMV - Hikari no Willpower
 - JPN - Dragon Ball Z - AMV - Mind Power ... Ki
+- JPN - Dragon Ball Z Movie 2: Kono yo de Ichiban Tsuyoi Yatsu - MOVIE ED - I•KU•SA
+- JPN - Dragon Ball Z Movie 3: Chikyu Marugoto Chokessen - MOVIE ED - Marugoto
+- JPN - Dragon Ball Z Movie 4: Super Saiyajin da Son Gokû - MOVIE ED - "Ya" na Koto ni wa Genki-Dama!!
+- JPN - Dragon Ball Z Movie 5: Tobikkiri no Saikyô tai Saikyô - MOVIE ED - Tobikkiri no Saikyô tai Saikyô!
+- JPN - Dragon Ball Z Movie 6: Gekitotsu!! Hyaku-Oku Power no Senshi-tachi - MOVIE ED - HERO (Kimi ga hero)
+- JPN - Dragon Ball Z Movie 7: Kyokugen Battle!! San Dai Super Saiyajin - MOVIE ED - GIRI-GIRI -Sekai Kyokugen-
+- JPN - Dragon Ball Z Movie 8: Moetsukiro!! Nessen Ressen Chôgekisen - MOVIE ED - Burning Fight - Nessen Ressen Chôgekisen -
+- JPN - Dragon Ball Z Movie 9: Ginga Giri-Giri!! Butchigiri no Sugoi Yatsu - MOVIE ED - Ginga o Koete Rising High
+- JPN - Dragon Ball Z Movie 10: Kiken na Futari! Super Senshi wa Nemurenai - MOVIE ED - Kiseki no BIG FIGHT
+- JPN - Dragon Ball Z Movie 11: Super Senshi Gekiha!! Katsu no Wa Ore da - MOVIE ED - Dragon Power Mugendai
 - JPN - Fairy Gone - ED - Ash-like Snow
 - JPN - Fate/stay night: Heaven's Feel - II. Lost Butterfly - MV - I beg you ~ Full Vers.
 - JPN - Fire Emblem Three Houses - SWITCH GAME MV - Girl of Hresvelg ~Wind, Flower, Snow, Moon~
@@ -92,13 +102,27 @@ New karas: 92
 - JPN - Kimetsu no Yaiba - IN - Kamado Tanjirô no Uta
 - JPN - Kizuna Ai - COVER MV - PoPiPo
 - JPN - Kobayashi-san Chi no Maid Dragon - MV - Aozora no Rhapsody ~ Full Vers.
+- JPN - Len Kagamine - MV - Lost Destination
+- JPN - Len Kagamine,Rin Kagamine - MV - The Servant of Evil
 - JPN - Lord El-Melloi II Sei no Jikenbo Rail Zeppelin Grace Note - ED - Hibari
 - JPN - Love Live! School Idol Project - MV - Natsuiro Egao de 1,2,Jump!
+- JPN - Luka Megurine - MV - Corruption Garden
+- JPN - Luka Megurine - MV - Dancer in the dark
 - JPN - Marumo no Okite - MV - Maru Maru Mori Mori!
 - JPN - Metal Fight Beyblade - OP - Metal Fight Beyblade
 - JPN - Metal Fight Beyblade 4D - OP - Kokoro no Yûki
+- JPN - Miku Hatsune - MV - 1/6 -out of the gravity-
+- JPN - Miku Hatsune - MV - Anger
 - JPN - Miku Hatsune - MV - Counterclockwise
+- JPN - Miku Hatsune - MV - Decorator
+- JPN - Miku Hatsune - MV - Electro Train
+- JPN - Miku Hatsune - MV - Hand in Hand
+- JPN - Miku Hatsune - MV - Kagerou Daze
+- JPN - Miku Hatsune - MV - Luminous Point
+- JPN - Miku Hatsune - MV - Melody Line
 - JPN - Miku Hatsune - MV - Senbonzakura
+- JPN - Miku Hatsune - MV - Yellow
+- JPN - Miku Hatsune,SeeU Kim - MV - ASTEROiD
 - JPN - Mirai Nikki Redial Data Ikô - OVA OP - Kyôki Chinden
 - JPN - Monster Farm - OP1 - Kaze ga soyogu basho
 - JPN - Monster Farm - OP2 - Picnic
@@ -112,6 +136,8 @@ New karas: 92
 - JPN - Ranma ½ - ED1 - Platonic Tsuranuite ~ Alternative Vers.
 - JPN - Re: Zero kara Hajimeru Isekai Seikatsu - AMV - Theater D
 - JPN - REOL,kradness - COVER MV - Rimokon (Remote Control)
+- JPN - Rin Kagamine - MV - Dog Day Afternoon
+- JPN - Rin Kagamine - MV - The Daughter of Evil
 - JPN - Senki Zesshô Symphogear AXZ - ED2 - Futurism
 - JPN - Senki Zesshô Symphogear GX - AMV - Radiant Force
 - JPN - Shinkon Gattai Godannar!! - ED2 - Waga na wa Godannar
