@@ -1,20 +1,13 @@
 image: axelterizaki/karaokemugen-ci:node-10-pg
 
 stages:
+  - sync_medias
   - test
   - deploy
 
-test:
-  stage: test
-  services:
-    - postgres:10.6
-  variables:
-    POSTGRES_USER: karaokemugen_app
-    POSTGRES_PASSWORD: musubi
-  artifacts:
-    expire_in: 1 day
-    paths:
-      - names.php
+sync_medias:
+  ttage: sync_medias
+  interruptible: false
   script:
     - mkdir ~/.ssh
     - echo "$SSH_KEY" > ~/.ssh/id_rsa
@@ -23,6 +16,21 @@ test:
     - chmod -R 700 ~/.ssh
     - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
     - ssh -l root $HOST
+
+test:
+  stage: test
+  interruptible: true
+  services:
+    - postgres:10.6
+  variables:
+    POSTGRES_USER: karaokemugen_app
+    POSTGRES_PASSWORD: musubi
+  artifacts:
+    expire_in: 1 day
+    name: names.php
+    paths:
+      - names.php
+  script:
     - git clone https://lab.shelter.moe/karaokemugen/karaokemugen-app.git
     - cd karaokemugen-app
     - git checkout next
@@ -41,6 +49,7 @@ test:
 
 export:
   stage: deploy
+  interruptible: true
   script:
     - lftp -c "set cmd:fail-exit yes; set ftp:ssl-allow no; set ftp:charset "UTF-8" ; set file:charset utf-8; open -u $USERNAME,$PASSWORD $HOST; cd live; put names.php ; lcd lyrics ; cd subtitles ; mirror -Rnev --parallel=10"
     - lftp -c "set cmd:fail-exit yes; set ftp:ssl-allow no; set ftp:charset "UTF-8" ; set file:charset utf-8; open -u $USERNAME,$PASSWORD $HOST; cd kmserver/app/data/karas ; lcd karas ; mirror -Rnev --parallel=10 ; cd ../lyrics ; lcd ../lyrics ; mirror -Rnev --parallel=10 ; cd ../series ; lcd ../series ; mirror -Rnev --parallel=10 ; cd ../karaokes ; lcd ../karaokes ; mirror -Rnev --parallel=10 ; cd ../tags ; lcd ../tags ; mirror -Rnev --parallel=10"
