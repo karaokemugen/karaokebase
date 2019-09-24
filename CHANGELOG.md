@@ -1,3 +1,366 @@
+Contributors:
+
+- @meulahke
+- @Bakaclub
+- @Suryan
+- @Soramimi
+- @LeMeow
+- @Sting
+- @Adrian
+- @Evla
+- @Lyph
+- @amoethyst
+- @Kubat
+- @Aeden
+- @Nodamin
+- @Nabashi
+- @May
+- @Ni-jibakurei
+- @Kmeuh
+- @Ultra
+- @ENSEEIHT-japan7
+- @Flore
+- @Hellayne
+- @Neraste
+- @Mélanie
+- @RhiobeT
+- @Bonta-kun
+- @Tatoon
+- @Sakurachiru
+- @Hakey
+- @mistiru
+- @Mizunoke
+- @Nock
+- @Benjazunyan
+- @Anasuna
+- @Wazzzaaa
+- @Shizue
+- @Bonjwa
+
+## Added
+
+New songs : 154
+
+- CHI - Kidou Butouden G Gundam - AMV - Zhan Dou Nan Hai (meulahke)
+- CHI - To Be Hero - ED - Watashi no Papa ga Chikyuu wo Mamoru (Bakaclub)
+- ENG - Burning Rangers - SATURN GAME AMV - Angels With Burning Hearts (meulahke)
+- ENG - Carole & Tuesday - ED2 - Not Afraid (Suryan)
+- ENG - Carole & Tuesday - IN - Galactic Mermaid (Suryan)
+- ENG - Carole & Tuesday - OP2 - Polly Jean (Suryan)
+- ENG - City Hunter - AMV - Footsteps (Soramimi)
+- ENG - Cowboy Bebop - IN - CALL ME CALL ME (LeMeow)
+- ENG - Ginga Eiyuu Densetsu Die Neue These Kaikou - OP - Binary Star (Sting)
+- ENG - Kill la Kill - AMV - Before my body is dry (Adrian)
+- ENG - Macross Plus Movie Edition - MOVIE AMV - Information High (meulahke)
+- ENG - Metal Gear Solid 5 - PS3 PS4 XBOX360 PC GAME AMV - Sins of the Father (Evla)
+- ENG - Metal Gear Solid 5 Ground Zeroes - PS3 PS4 XBOX360 PC GAME OP - Here's to You (Bakaclub)
+- ENG - Persona 5 The Royal - PS4 GAME OP - Colors Flying High (meulahke)
+- ENG - Saw IV - MOVIE MV - I.V (Lyph)
+- ENG - Tate no Yuusha no Nariagari - OP2 - FAITH (Kubat)
+- ENG - The King of Fighters '98 The Slugfest - GAME OP - CIPHER (meulahke)
+- ENG - Uchuu Densetsu Ulysses 31 - ED - Ulysses 31 (Aeden)
+- ENG - Uchuu Densetsu Ulysses 31 - OP - Ulysses 31 (Aeden)
+- ENG - Uchuu Densetsu Ulysses 31 - OP - Ulysses 31 ~ Live Redux Vers (Aeden)
+- ENG - senzawa - MV - Crunchy Roll, Take Me Home (amoethyst)
+- FRE - Beauty and the Beast (1991) - MOVIE IN - C'est la fete (Nodamin)
+- FRE - D.N.ANGEL - ED - Un Jour Nouveau (Nabashi)
+- FRE - Dragon Ball Z - OP - Dragon Ball Z (Suryan)
+- FRE - Frozen - MOVIE IN - Le renouveau (May)
+- FRE - Haai Step Jun - OP - Vas-y Julie ! (Nock)
+- FRE - JoJo no Kimyou na Bouken Stardust Crusaders - ED - Walk Like An Egyptian (Ni-jibakurei)
+- FRE - Kirarin Revolution - ED2 - Magie de l'amour (Kmeuh)
+- FRE - Les Guignols - CM - Carte Kiwi (Ultra)
+- FRE - Mister MV - COVER OT - Manhattan-Kaboul (Kmeuh)
+- FRE - NieR Automata - PS4 PC GAME AMV - Le poids du monde (Kubat)
+- FRE - Overwatch - PS4 PC SWITCH GAME OT - Brigitte's karaoke (Kmeuh)
+- FRE - Shugo Chara! - OP - Shugo Chara Les gardiens des reves (Kmeuh)
+- JPN - A.I.C.O. Incarnation - ONA OP - A.I.C.O (Kubat)
+- JPN - Aikatsu Friends! - IN - Guuzen, Hitsuzen (Nodamin)
+- JPN - Aikatsu Friends! - IN - Have a dream (Nodamin)
+- JPN - Aikatsu Friends! - IN - Kizuna ~Synchro Harmony~ (Nodamin)
+- JPN - Aikatsu Friends! - IN - Okemaru (Nodamin)
+- JPN - Aimer - MV - ONE (ENSEEIHT-japan7)
+- JPN - Akiko Shikata - MV - Wokashi (Ni-jibakurei)
+- JPN - Anime Sanjuushi - COVER REMIX AMV - Yume Bouken (Ni-jibakurei)
+- JPN - Aoi Kotonoha - MV - Zettai ni Chocomint wo Taberu Aoi-chan (Kmeuh)
+- JPN - Ayumi Hamasaki - MV - MOON (ENSEEIHT-japan7)
+- JPN - BEAST - MV - Midnight -Hoshi wo Kazoeru Yoru- (Hellayne)
+- JPN - BEAST - MV - Saigo No Hitokoto (Hellayne)
+- JPN - BTOOOM! - MV - No Pain, No Game ~ Full Vers (Ni-jibakurei)
+- JPN - Bakemonogatari - MV - Kimi no Shiranai Monogatari ~ Full Vers (Flore)
+- JPN - Black Rock Shooter - AMV - Mighty Long Fall (Neraste)
+- JPN - Boogiepop wa Warawanai (2019) - ED2 - Sayonara (Kubat)
+- JPN - Brigadoon Marin to Melan - AMV - Deai o A.RI.GA.TO.U (Mélanie)
+- JPN - CLC - MV - High Heels (Hellayne)
+- JPN - Cop Craft - ED - Connected (Kubat)
+- JPN - DOLL$BOXX - MV - Monopoly (RhiobeT)
+- JPN - Dragon Ball Z Movie 12 Fukkatsu no Fusion!! Gokuu to Vegeta - MOVIE ED - Saikyou no Fusion (meulahke)
+- JPN - En'en no shouboutai - ED1 - Veil (May)
+- JPN - En'en no shouboutai - OP1 - Inferno (May)
+- JPN - Fate Extra - PSP GAME IN - Padoru Padoru (Adrian)
+- JPN - GReeeeN - MV - Kiseki (Bonta-kun)
+- JPN - Gekijouban K Missing Kings - MOVIE IN - Flame of Red (amoethyst)
+- JPN - Gekijouban Psycho-Pass - MOVIE OP - Who What Who What (Kubat)
+- JPN - Gero - COVER MV - The Servant of Evil (Ni-jibakurei)
+- JPN - Girls und Panzer - AMV - Katyusha (Sting)
+- JPN - Given - IN - Fuyu no Hanashi (Nabashi)
+- JPN - Hanatan - COVER MV - Kuusou Shoujo e no Koitegami (Tatoon)
+- JPN - Hanatan - COVER MV - Romeo to Cinderella (Adrian)
+- JPN - Hanatan - COVER MV - Sarishinohara ~ Short Vers (Tatoon)
+- JPN - Hanayamata - MV - Hana wa Odore ya Irohaniho ~ Full Vers (Flore)
+- JPN - Hypnosis Mic -Division Rap Battle- - MV - Hoodstar (Nabashi)
+- JPN - Hypnosis Mic -Division Rap Battle- - MV - Hypnosis Mic -Alternative Rap Battle- (Nabashi)
+- JPN - Hypnosis Mic -Division Rap Battle- - MV - Hypnosis Mic -Division Battle Anthem- (Nabashi)
+- JPN - Hypnosis Mic -Division Rap Battle- - MV - Hypnosis Mic -Division Rap Battle- (Nabashi)
+- JPN - Kana Nishino - MV - Aitakute Aitakute ~ Short Vers (Sakurachiru)
+- JPN - Kano - COVER MV - Hello How Are You (Flore)
+- JPN - Kerakera - MV - Kerakera Janken (Ni-jibakurei)
+- JPN - Kidou Senshi Gundam I - MOVIE ED - Suna no juujika (meulahke)
+- JPN - Kidou Senshi Gundam III Meguriai sora-hen - MOVIE ED1 - Meguriai (meulahke)
+- JPN - Kidou Senshi Gundam III Meguriai sora-hen - MOVIE ED2 - Beginning (meulahke)
+- JPN - Kidou Senshi Gundam Tekketsu no Orphans 2nd Season - ED1 - Shounen no hate (meulahke)
+- JPN - Kidou Senshi Gundam Tekketsu no Orphans 2nd Season - ED2 - Freesia (meulahke)
+- JPN - Kidou Senshi Gundam Tekketsu no Orphans 2nd Season - OP2 - Fighter (meulahke)
+- JPN - Kimi no Na wa. - COVER LIVE - Nandemonaiya (Bonta-kun)
+- JPN - Kiritani Kenta - MV - Umi No Koe (Bonta-kun)
+- JPN - Kizuna Ai - MV - Sky High (Bonta-kun)
+- JPN - Kurenai - COVER MV - Yume to Hazakura (Sakurachiru)
+- JPN - Kyary Pamyu Pamyu - MV - Tsukema Tsukeru (Bonta-kun)
+- JPN - LADYBABY - MV - Age-Age Money ~Ochingin Daisakusen~ (Ni-jibakurei)
+- JPN - Lefty Hand Cream - COVER REMIX MV - Chouchou musubi (Sakurachiru)
+- JPN - Majutsushi Orphen - ED1 - Last Kiss (Nabashi)
+- JPN - Majutsushi Orphen - ED2 - Doushiyou (Nabashi)
+- JPN - Midara na Ao-chan wa Benkyou ga Dekinai - OP - WONDERFUL WONDER (Kubat)
+- JPN - Miku Hatsune - COVER MV - Butter-Fly (Kmeuh)
+- JPN - Miku Hatsune - COVER MV - Twinkle Days (Neraste)
+- JPN - Miwa - LIVE - Haru Ni Nattara (mistiru)
+- JPN - Momoiro Clover Z - MV - Hashire! (Bonta-kun)
+- JPN - Nagi Yanagi - MV - Owari no Sekai Kara (ENSEEIHT-japan7)
+- JPN - Nande Koko ni Sensei ga! question_mark - OP - Bon Kyu Bon wa Kare no Mono (Bakaclub)
+- JPN - Naruto - ED9 - Nakushita Kotoba (Kubat)
+- JPN - Nastume Mito - MV - Maegami Kirisugita (Bonta-kun)
+- JPN - Natsume Yuujinchou Shi - ED - Takaramono (Mélanie)
+- JPN - Perfume - LIVE - Electro World (Neraste)
+- JPN - Perfume - MV - Dream Fighter (Bonta-kun)
+- JPN - Perfume - MV - Kasuka na Kaori (Bonta-kun)
+- JPN - Pocket Monsters - MV - I LOVE Koiking (Mizunoke)
+- JPN - Pokemon the Movie XY&Z Volcanion to Karakuri no Magearna - MV - Post Ni Koe Wo Nageirete (Mélanie)
+- JPN - Project Eevee - MV - Eevee March (Bonta-kun)
+- JPN - REOL,Giga-P - COVER MV - drop drop candy (Ultra)
+- JPN - Rin Kagamine - MV - Maousama no Uta (Ni-jibakurei)
+- JPN - SCANDAL - MV - Namida no REGRET (ENSEEIHT-japan7)
+- JPN - SSSS.Gridman - MV - UNION (Nock)
+- JPN - Sakura Taisen Le Nouveau Paris - OVA OP - Mihata no Moto ni (Le Nouveau Paris version) (Kmeuh)
+- JPN - Seikou Itou - CM - Sega Megadrive (meulahke)
+- JPN - Senryuu Shoujo - OP - Kotonoha no Omoi (Kubat)
+- JPN - Shinsekai Yori - AMV - You are the One! (Ni-jibakurei)
+- JPN - Shoumetsu Toshi - OP - Kotae (Bakaclub)
+- JPN - Son Dong Woon,Yoon Du Jun,Yang Yo Seop - LIVE - Hoshi ni Natte (Hellayne)
+- JPN - Sora Yori mo Tooi Basho - AMV - Haruka Tooku (Sting)
+- JPN - Tate no Yuusha no Nariagari - ED1 - Kimi no Namae (Kubat)
+- JPN - Tensei Shitara Slime Datta Ken - ED2 - Little Soldier (Kubat)
+- JPN - Touhou - AMV - Chiisana Koi no Uta (Bonta-kun)
+- JPN - Touhou - MV - Hakurei Jinja Chounaikai Ondo (ENSEEIHT-japan7)
+- JPN - Touhou - MV - Tewi! Eien Tewi Ver (Benjazunyan)
+- JPN - Touhou - MV - Touhou Suimusou (hatsunetsu mix.) (ENSEEIHT-japan7)
+- JPN - Uchuu Kaizoku Captain Harlock - IN - Sasurai no Funa'uta (Aeden)
+- JPN - Uma Musume Pretty Derby - ONA PV - Umapyoi Densetsu (Bakaclub)
+- JPN - Under Graph - MV - Tsubasa (Ni-jibakurei)
+- JPN - Virtual-san wa Miteiru - MV - Aiaiai ~ Full Vers (Bonta-kun)
+- JPN - WANIMA - MV - Yattemiyou (Bonta-kun)
+- JPN - Whiteberry - MV - Natsumatsuri (Flore)
+- JPN - YUI - MV - Good-bye days (Anasuna)
+- JPN - YUKA (moumoon) - MV - Chu Chu (Bonta-kun)
+- JPN - Yakusoku no Neverland - ED1 - Zettai Zetsumei (Mélanie)
+- JPN - YuNi - COVER MV - Shiroi Yuki no PRINCESS wa (Adrian)
+- JPN - YuNi - MV - Toumei Seisai (amoethyst)
+- JPN - Yuru Yuri II - MV - Yes! Yuyuyu Yuru Yuri ~ Full Vers (Flore)
+- JPN - Zoku Owarimonogatari - AMV - Azure ~ Full Vers (Kubat)
+- JPN - Zombieland Saga - AMV - Mezame RETURNER (Wazzzaaa)
+- JPN - asdfmovie - MV - asdfmovie12 song (Kmeuh)
+- JPN - daoko - MV - Daisuki (RhiobeT)
+- JPN - daoko - MV - Suisei (RhiobeT)
+- JPN - maidreamin - PV - dreamin passport (Hakey)
+- KOR - BEAST - MV - FICTION (Hellayne)
+- KOR - BEAST - MV - Take Care of My Girlfriend (Say No) (Hellayne)
+- KOR - BEAST - PV - The Fact (Hellayne)
+- KOR - BIGBANG - MV - HARU HARU (Hellayne)
+- KOR - BTOB - MV - Beep Beep (Hellayne)
+- KOR - CLC - MV - High Heels (Hellayne)
+- KOR - CLC - MV - Like (Hellayne)
+- KOR - CLC - MV - Pepe (Hellayne)
+- KOR - Crayon Pop - MV - Bar Bar Bar (Hellayne)
+- KOR - Hitmaker - MV - Stress Come On! (Hellayne)
+- KOR - My Copycat - MV - Orange Caramel (Shizue)
+- KOR - Secret - MV - Shy Boy (Shizue)
+- KOR - Sseulsseulhago Chanlanhasin Dokkaebi - MV - Stay with Me (Bonjwa)
+- UND - NieR Automata - PS4 XBOXONE PC GAME AMV - A Beautiful Song (Bakaclub)
+
+## Fixed
+
+- ENG - Black Rock Shooter The Game - PSP GAME OP - No Scared
+- ENG - Cardcaptor Sakura - OP - Cardcaptors Theme
+- ENG - Conception Ore no Kodomo wo Undekure! - PSP GAME OP - Destiny ~12 Kaime no Kiseki~
+- ENG - Erasure - MV - Always
+- ENG - Fire Emblem Three Houses - SWITCH GAME OP - The Edge of Dawn (Seasons of Warfare)
+- ENG - Genso Suikogaiden Vol.1 - PSX GAME OP - Currents
+- ENG - Lunar Silver Star Story - SATURN GAME IN - Wind's Nocturne
+- ENG - My Little Pony Friendship is Magic - OP - Friendship is Magic
+- ENG - Power Ranger Samurai - OP - Go Go Power Ranger
+- ENG - Sengoku BASARA 3 - PS3 WII GAME OP - Naked Arms
+- ENG - Sonic CD - SEGACD GAME OP - Sonic Boom
+- ENG - Soul Edge - PSX GAME OP - The Edge of Soul
+- ENG - Spiral Zone - OP - Spiral Zone
+- ENG - ef ~ a tale of melodies. - OP1 - Ebulliant Future
+- ENG - ef ~ a tale of melodies. - OP1 - Ebulliant Future ~ Off Vocal Vers
+- FRE - Alps Monogatari Watashi no Annette - OP - Dans les Alpes avec Annette
+- FRE - Bakuten Shoot Beyblade - OP - Joue au Beyblade
+- FRE - D.N.ANGEL - OP - L'ombre des tenebres
+- FRE - Dragon Ball - OP - Dragon Ball
+- FRE - Jungle Book Shounen Mowgli - OP - Mowgli
+- FRE - Kirarin Revolution - OP2 - Chance
+- FRE - Les Mondes Engloutis - OP - Les Mondes Engloutis
+- FRE - Mahou Senshi Louie - OP - C'est magique
+- FRE - Monseigneur Philippe Dominique - MV - Ainsi soit la vie
+- FRE - My Little Pony Friendship is Magic - OP - Friendship is Magic
+- FRE - Pokemon the Series Sun & Moon Ultra Legends - OP - Le defi de la vie
+- FRE - Uchuu Densetsu Ulysses 31 - OP2 - Ulysse revient
+- GER - Futari wa PreCure - OP - Nur wir Beide
+- HEB - Pocket Monsters - OP - Pokemon
+- JPN - .hack GIFT - OVA ED - Yasashii Yoake
+- JPN - .hack GIFT - OVA OP - Obsession
+- JPN - .hack LIMINALITY - OVA ED - Tasogare no umi
+- JPN - .hack Link - PSP GAME OP - Toki no Kaidan
+- JPN - 11eyes -Tsumi to Batsu to Aganai no Shoujo- - PC GAME OP - Lunatic Tears
+- JPN - 77 (Sevens) ~And Two Stars Meet Again~ - PC GAME OP - STAR LEGEND
+- JPN - AKB0048 - IN - Aitakatta
+- JPN - Aa! Megami-sama! - OVA OP - My Heart Iidasenai Your Heart Tashikametai
+- JPN - Agarest Senki 2 - PS3 GAME OP1 - Antiphona
+- JPN - Agarest Senki 2 - PS3 GAME OP2 - Jewelry Halation
+- JPN - Aku no Hana - AMV - A Last Flower ~ Full Vers
+- JPN - Akuma no Riddle - OP - Soushou Innocence
+- JPN - Ao no Kanata no Four Rhythm - PC GAME OP - Wing of Courage ~ Sora wo Koete
+- JPN - Bad Medicine Infectious Teachers - PC GAME OP - Kindan (SECRET) ZONE
+- JPN - Baja No Studio - OVA ED - Tenohira o Taiyou ni
+- JPN - Baldr Force - PC GAME OP - Face of Fact
+- JPN - Beauty and the Beast (1991) - COVER MOVIE IN - Asa no Fuukei ~ 610 & LIQU@ Vers
+- JPN - Beelzebub Hirotta Akachan wa Daimaou! question_mark - OP - Appare Banchou Sanjou! Beelzebub!
+- JPN - Binan Koukou Chikyuu Bouei Bu LOVE! - OP - Zettai Muteki Fallin' Love
+- JPN - Black Clover (2017) - ED3 - Black to the dreamlight
+- JPN - Bonjour Koiaji Patisserie - ONA OP - Bonjour Magic
+- JPN - Captain Tsubasa J - OP - Fighting!
+- JPN - Captain Tsubasa J - OP - Fighting! ~ Alternative Vers
+- JPN - Chihayafuru 2 - ED1 - Akane sora
+- JPN - Chikyuu Bouei Kigyou Dai-Guard - ED - Hashire Hashire
+- JPN - Chikyuu Bouei Kigyou Dai-Guard - OP - Rojiura no Uchuu Shounen
+- JPN - DRACU-RIOT! - GAME OP - Scarlet
+- JPN - Danball Senki - OP1 - 1 Dream
+- JPN - Date a Live Twin Edition Rio Reincarnation - PSV GAME OP - Key of Truth
+- JPN - Dekinai Watashi ga Kurikaesu - PC GAME OP - Re Call
+- JPN - Dengeki Stryker - PC GAME OP - Burst Dream
+- JPN - Densha Otoko - OP1 - Mr. Roboto
+- JPN - Dragon Ball Z Movie 10 Kiken na Futari! Super Senshi wa Nemurenai - MOVIE ED - Kiseki no BIG FIGHT
+- JPN - Dragon Ball Z Movie 13 Ryuuken Bakuhatsu!! Goku ga Yaraneba Dare ga Yaru - MOVIE ED - Ore ga Yaranakya Dare ga Yaru
+- JPN - Escha & Logy no Atelier Tasogare no Sora no Renkinjutsushi - PS3 GAME OP - Milk Iro no Touge
+- JPN - Fire Emblem Three Houses - SWITCH GAME OP - Girl of Hresvelg ~Wind, Flower, Snow, Moon~
+- JPN - Frozen - MOVIE IN - Let It Go ~Ari no Mama de~
+- JPN - Giovanni no Shima - MOVIE AMV - Katyusha
+- JPN - Gokuaku Ganbo - OP - Kenka Joutou
+- JPN - Hanatan - COVER MV - Sarishinohara ~ Full Vers
+- JPN - Hapymaher - PC GAME OP - Yume no Mugen Kairou
+- JPN - Hentai Kamen - MOVIE ED - Emotions
+- JPN - Higurashi no Naku Koro ni - AUDIO IS - Dear You -Cry-
+- JPN - Higurashi no Naku Koro ni - AUDIO IS - Dear You -Feel-
+- JPN - Higurashi no Naku Koro ni - AUDIO IS - Dear You -Hope-
+- JPN - Higurashi no Naku Koro ni - AUDIO IS - Dear You -Kind-
+- JPN - Hitoribocchi no Marumaru Seikatsu - ED2 - Bakushou Bocchi Juki Kouka
+- JPN - Hyakujuu Ou Golion - OP - Toe! GoLion
+- JPN - Inazuma Eleven - OP1 - Tachiagariyo
+- JPN - Innocent Bullet -the false world- - PC GAME OP - Keep the Faith
+- JPN - Isekai Quartet - ED1 - Isekai Girls Talk
+- JPN - Isekai Quartet - OP - Isekai Quartet
+- JPN - Joshiraku - IN - Oato ga Mata Uzakute
+- JPN - Joshiraku - OP - Oato ga Yoroshikutte... Yo!
+- JPN - Kai-ri-Sei Million Arthur - GAME OP - Million of Bravery
+- JPN - Kaku-San-Sei Million Arthur - GAME OP - Million of Bravery
+- JPN - Kamen Rider Blade - OP1 - Round ZERO ~ BLADE BRAVE
+- JPN - Kara no Shoujo The Second Episode - PC GAME OP - Tsuki no Uro
+- JPN - Kemurikusa - ED - INDETERMINATE UNIVERSE
+- JPN - Kemurikusa - OP - Kemurikusa
+- JPN - Ken ga Kimi - PC GAME OP - Kiseki
+- JPN - Kidou Senshi Gundam Gyakushuu no Char - MOVIE IN - Densha no Uta
+- JPN - Kidou Senshi Gundam II Ai Senshi-hen - MOVIE ED - Ai Senshi
+- JPN - Kidou Senshi Gundam Tekketsu no Orphans - ED1 - Orphans no Namida
+- JPN - Kidou Senshi Gundam Tekketsu no Orphans - OP2 - Surivor
+- JPN - Kimi to Kanojo to Kanojo no Koi - PC GAME OP - Monochro
+- JPN - Kizuna Ai - COVER MV - PoPiPo
+- JPN - Kizuna Ai - COVER MV - Sugar Song to Bitter Step
+- JPN - Kizuna Ai - COVER MV - YATTA!
+- JPN - Maze Bakunetsu Jikuu (1997) - ED1 - Junk Boy
+- JPN - Maze Bakunetsu Jikuu (1997) - OP - Kokuu no Meikyuu
+- JPN - Megazone 23 - OVA ED - Samishikute Nemurenai
+- JPN - Megazone 23 - OVA IN - Kaze no Lullaby
+- JPN - Megazone 23 - OVA IN - Senaka Goshi ni Sentimental
+- JPN - Megazone 23 - OVA MV - Senaka Goshi ni Sentimental ~ Full Vers
+- JPN - Megazone 23 Part II Himitsu Kudasai - OVA IN - Himitsu Kudasai
+- JPN - Meiji Tokyo Renka - PSP GAME OP2 - Aka no Yoru no Uta
+- JPN - Mikagura Gakuen Kumikyoku - OP - Houkago Kakumei
+- JPN - Miku Hatsune - LIVE - Unknown Mother-Goose ~ Miku Expo 2018 Paris
+- JPN - Minamijuujisei Renka ~ Southern Cross Love Song - PC GAME OP - glow in the darkness
+- JPN - My Little Pony Friendship is Magic - OP - Mirai Start
+- JPN - Ouran Koukou Host Club - OP - Sakura Kiss
+- JPN - Pop Team Epic - OP - last sparkle
+- JPN - Reminiscence - PC GAME OP - Yagate Kieru Maboroshi Demo
+- JPN - Rin Kagamine - MV - Lost One no Goukoku
+- JPN - Rookies - AMV - KISEKI
+- JPN - Sakura Taisen - ED1 - Yume Miteiyou
+- JPN - Sakura Taisen 2 ~Kimi Shinitamou koto Nakare~ - PC SATURN GAME OP - Geki! Teikoku Kagekidan (Kai)
+- JPN - Sakura Taisen 3 Paris wa Moeteiru ka - PS2 PC GAME IN - Erica's Good Morning Dance
+- JPN - Sakura Taisen 3 Paris wa Moeteiru ka - PS2 PC GAME OP1 - Mihata no Moto ni
+- JPN - Sakura Taisen 3 Paris wa Moeteiru ka - PS2 PC GAME OP2 - Geki! Teikoku Kagekidan III
+- JPN - Seihou Tenshi Angel Links - ED - True Moon
+- JPN - Seihou Tenshi Angel Links - OP - All My Soul
+- JPN - Senki Zesshou Symphogear GX - AMV - Radiant Force
+- JPN - Shikioriori - MOVIE MV - WALK
+- JPN - Shin Sakura Taisen - PS4 GAME OP - Geki! Teikoku Kagekidan (Shinshou)
+- JPN - Shingeki no Kyojin S3 - OP2 - Shoukei to Shikabane no Michi
+- JPN - Shoujo Kageki Revue Starlight - IN - Hokori to Ogori
+- JPN - Shoujo Kageki Revue Starlight - IN - Koi no Makyou
+- JPN - Shoujo Kageki Revue Starlight - IN - Star Divine Finale
+- JPN - Shoujo Kageki Revue Starlight - IN - The Star Knows
+- JPN - Shoujo Shin'iki ~ Shoujo Tengoku -The Garden of Fifth Zoa - PC GAME OP - Kimi Tsunagu
+- JPN - Sora no Method - ED1 - Hoshikuzu no Interlude
+- JPN - Sora no Method - OP - Stargazer
+- JPN - Sounan Desu ka question_mark - OP - Koko wa doko
+- JPN - Steins Gate - XBOX360 GAME OP - Sky Clad no Kansokusha
+- JPN - THE iDOLM@STER SideM - OP - Reason!!
+- JPN - Tales of Asteria - GAME OP - believe in you
+- JPN - Tenkuu Senki Shurato - OP1 - SHINING SOUL
+- JPN - Tenkuu Senki Shurato - OP2 - TRUTH
+- JPN - To Aru Kagaku no Railgun S - OP - sister's noise
+- JPN - Toradora! - ED1 - Vanilla Salt
+- JPN - Toradora! - ED2 - Orange
+- JPN - Toradora! - OP1 - Pre-Parade
+- JPN - Toradora! - OP2 - silky heart
+- JPN - Toriko - ED1 - SATISFACTION
+- JPN - Toriko - OP1 - Guts Guts!!
+- JPN - Tottoko Hamtarou - OP1 - Tottoko no Uta
+- JPN - Touhou - MV - All Mankind's Hisou Tensoku
+- JPN - Touhou - MV - Convictor Yamaxanadu!
+- JPN - Touhou - MV - FIRE FLOWER
+- JPN - Uchuu Densetsu Ulysses 31 - ED - Ai. Toki no Kanata ni
+- JPN - Uchuu Densetsu Ulysses 31 - OP - Ginga Densetsu Odyssey
+- JPN - Uchuujin Pipi - OP - Uchuujin Pipi
+- JPN - Vampire - OP - Vampire no Uta
+- JPN - Working'!! - OP - COOLISH WALK
+- JPN - YUI - AMV - Ruido
+- JPN - Yakusoku no Neverland - OP - Touch off
+- JPN - Yume Senshi Wingman - ED - Wing Love
+- JPN - Yume Senshi Wingman - OP - Ijigen Story
+- JPN - Zoku Owarimonogatari - ED - Azure
+- JPN - Zoku Owarimonogatari - ED - Azure ~ Alternative Vers
+- SPA - Touhou - MV - Bad Apple
+
 # August 2019
 
 Contributors:
