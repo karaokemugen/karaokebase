@@ -17,3 +17,9 @@ Script by @Keul & @nah to export a SQLite Karaoke Mugen database into [AnimeOpen
 ## romajisplit.html
 
 Util by @Ziassan to split a romaji text into different syllables, adding a separator
+
+## changelog.js
+
+Create changelog for CHANGELOG.md. Supply a year-date to make it work.
+
+Example : `node changelog.js 2019-09`
