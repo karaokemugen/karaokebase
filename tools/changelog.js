@@ -2,8 +2,8 @@ const {resolve} = require('path');
 const {promisify} = require('util');
 const {readFile, readdir} = require('fs');
 
-const kpath = '../../karaokes';
-const tpath = '../../tags';
+const kpath = '../karaokes';
+const tpath = '../tags';
 const authors = [];
 const contributors = [];
 const newKaras = [];
