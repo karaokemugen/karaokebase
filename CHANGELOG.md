@@ -1,6 +1,6 @@
 # September 2019
 
-Contributors:
+Contributors: 
 
 - @Adrian
 - @Aeden
@@ -26,6 +26,7 @@ Contributors:
 - @Ni-jibakurei
 - @Nock
 - @Nodamin
+- @Ourson
 - @RhiobeT
 - @Sakurachiru
 - @Shizue
@@ -41,7 +42,7 @@ Contributors:
 
 ## Added
 
-New songs : 154
+New songs : 158
 
 - CHI - Kidou Butouden G Gundam - AMV - Zhan Dou Nan Hai (@meulahke)
 - CHI - To Be Hero - ED - Watashi no Papa ga Chikyuu wo Mamoru (@Bakaclub)
@@ -64,11 +65,12 @@ New songs : 154
 - ENG - Uchuu Densetsu Ulysses 31 - OP - Ulysses 31 (@Aeden)
 - ENG - Uchuu Densetsu Ulysses 31 - OP - Ulysses 31 ~ Live Redux Vers (@Aeden)
 - ENG - senzawa - MV - Crunchy Roll, Take Me Home (@amoethyst)
+- FIN - Miku Hatsune - COVER MV - Ievan Polkka (@Kmeuh)
 - FRE - Beauty and the Beast (1991) - MOVIE IN - C'est la fete (@Nodamin)
 - FRE - D.N.ANGEL - ED - Un Jour Nouveau (@Nabashi)
 - FRE - Dragon Ball Z - OP - Dragon Ball Z (@Suryan)
 - FRE - Frozen - MOVIE IN - Le renouveau (@May)
-- FRE - Haai Step Jun - OP - Vas-y Julie ! (@)
+- FRE - Haai Step Jun - OP - Vas-y Julie ! (@Nock)
 - FRE - JoJo no Kimyou na Bouken Stardust Crusaders - ED - Walk Like An Egyptian (@Ni-jibakurei)
 - FRE - Kirarin Revolution - ED2 - Magie de l'amour (@Kmeuh)
 - FRE - Les Guignols - CM - Carte Kiwi (@Ultra)
@@ -130,6 +132,7 @@ New songs : 154
 - JPN - Kyary Pamyu Pamyu - MV - Tsukema Tsukeru (@Bonta-kun)
 - JPN - LADYBABY - MV - Age-Age Money ~Ochingin Daisakusen~ (@Ni-jibakurei)
 - JPN - Lefty Hand Cream - COVER REMIX MV - Chouchou musubi (@Sakurachiru)
+- JPN - Machikado Mazoku - OP - Machikado Tangent (@Ourson)
 - JPN - Majutsushi Orphen - ED1 - Last Kiss (@Nabashi)
 - JPN - Majutsushi Orphen - ED2 - Doushiyou (@Nabashi)
 - JPN - Midara na Ao-chan wa Benkyou ga Dekinai - OP - WONDERFUL WONDER (@Kubat)
@@ -142,6 +145,7 @@ New songs : 154
 - JPN - Naruto - ED9 - Nakushita Kotoba (@Kubat)
 - JPN - Nastume Mito - MV - Maegami Kirisugita (@Bonta-kun)
 - JPN - Natsume Yuujinchou Shi - ED - Takaramono (@Mélanie)
+- JPN - Overman King Gainer - ED - Can you feel my soul question_mark (@meulahke)
 - JPN - Perfume - LIVE - Electro World (@Neraste)
 - JPN - Perfume - MV - Dream Fighter (@Bonta-kun)
 - JPN - Perfume - MV - Kasuka na Kaori (@Bonta-kun)
@@ -161,6 +165,7 @@ New songs : 154
 - JPN - Sora Yori mo Tooi Basho - AMV - Haruka Tooku (@Sting)
 - JPN - Tate no Yuusha no Nariagari - ED1 - Kimi no Namae (@Kubat)
 - JPN - Tensei Shitara Slime Datta Ken - ED2 - Little Soldier (@Kubat)
+- JPN - To Aru Kagaku no Accelerator - OP - Shadow is the light (@LeMeow)
 - JPN - Touhou - AMV - Chiisana Koi no Uta (@Bonta-kun)
 - JPN - Touhou - MV - Hakurei Jinja Chounaikai Ondo (@ENSEEIHT-japan7)
 - JPN - Touhou - MV - Tewi! Eien Tewi Ver (@Benjazunyan)
@@ -222,6 +227,7 @@ New songs : 154
 - FRE - Jungle Book Shounen Mowgli - OP - Mowgli
 - FRE - Kirarin Revolution - OP2 - Chance
 - FRE - Les Mondes Engloutis - OP - Les Mondes Engloutis
+- FRE - Love Hina - ED1 - Il suffit que tu sois la
 - FRE - Mahou Senshi Louie - OP - C'est magique
 - FRE - Monseigneur Philippe Dominique - MV - Ainsi soit la vie
 - FRE - My Little Pony Friendship is Magic - OP - Friendship is Magic
@@ -294,6 +300,7 @@ New songs : 154
 - JPN - Kidou Senshi Gundam II Ai Senshi-hen - MOVIE ED - Ai Senshi
 - JPN - Kidou Senshi Gundam Tekketsu no Orphans - ED1 - Orphans no Namida
 - JPN - Kidou Senshi Gundam Tekketsu no Orphans - OP2 - Surivor
+- JPN - Kikou Shoujo wa Kizutsukanai - COVER MV - Maware! Setsugetsuka ~ BanG Dream Vers
 - JPN - Kimi to Kanojo to Kanojo no Koi - PC GAME OP - Monochro
 - JPN - Kizuna Ai - COVER MV - PoPiPo
 - JPN - Kizuna Ai - COVER MV - Sugar Song to Bitter Step
@@ -311,6 +318,7 @@ New songs : 154
 - JPN - Minamijuujisei Renka ~ Southern Cross Love Song - PC GAME OP - glow in the darkness
 - JPN - My Little Pony Friendship is Magic - OP - Mirai Start
 - JPN - Ouran Koukou Host Club - OP - Sakura Kiss
+- JPN - Overman King Gainer - OP - King Gainer Over!
 - JPN - Pop Team Epic - OP - last sparkle
 - JPN - Reminiscence - PC GAME OP - Yagate Kieru Maboroshi Demo
 - JPN - Rin Kagamine - MV - Lost One no Goukoku
