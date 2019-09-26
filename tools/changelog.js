@@ -1,6 +1,6 @@
 const {resolve} = require('path');
 const {promisify} = require('util');
-const {readFile, readdir} = require('fs');
+const {readFile, readdir, writeFileSync} = require('fs');
 
 const kpath = '../karaokes';
 const tpath = '../tags';
@@ -50,22 +50,29 @@ async function readKaras() {
 async function main() {
 	await readTags();
 	await readKaras();
-	newKaras.sort();
-	modifiedKaras.sort();
-	console.log('Contributors: ');
-	console.log('');
+	const out = [];
+	out.push('Contributors: ');
+	out.push('');
 	contributors.sort();
-	contributors.filter((item, index) => contributors.indexOf(item) === index).forEach(c => console.log('- ' + c));
-	console.log('');
-	console.log('## Added')
-	console.log('');
-	console.log('New songs : ' + newKaras.length);
-	console.log('');
-	newKaras.forEach(k => console.log('- ' + k));
-	console.log('');
-	console.log('## Fixed')
-	console.log('');
-	modifiedKaras.forEach(k => console.log('- ' + k));
+	contributors.filter((item, index) => contributors.indexOf(item) === index).forEach(c => out.push('- ' + c));
+	out.push('');
+	out.push('## Added');
+	out.push('');
+	out.push('New songs : ' + newKaras.length);
+	out.push('');
+	newKaras.sort();
+	newKaras.forEach(k => out.push('- ' + k));
+	out.push('');
+	out.push('## Fixed')
+	out.push('');
+	modifiedKaras.sort();
+	modifiedKaras.forEach(k => out.push('- ' + k));
+
+	if (process.argv[3]) {
+		writeFileSync(process.argv[3], out.join('\n'), 'utf8');
+	} else {
+		console.log(out.join('\n'));
+	}
 }
 
 main();
