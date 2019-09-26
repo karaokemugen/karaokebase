@@ -14,6 +14,18 @@ This modification is usually applied by timers individually using AegisSub durin
 
 Script by @Keul & @nah to export a SQLite Karaoke Mugen database into [AnimeOpening](https://github.com/AniDevTwitter/animeopenings) names.php file.
 
+## Preset_handbrake_karaoke.json
+
+Handbrake preset for encoding videos correctly.
+
+## assStyleCheck
+
+Checks for any missing styles in ASS files (styles not declared but used in Dialogue sections)
+
+## anidb_importer
+
+Imports anidb's XML from its web API and writes a single series.json file
+
 ## romajisplit.html
 
 Util by @Ziassan to split a romaji text into different syllables, adding a separator
