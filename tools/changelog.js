@@ -37,10 +37,15 @@ async function readKaras() {
 		const created_at = new Date(kara.data.created_at);
 		const modified_at = new Date(kara.data.modified_at);
 		if (!kara.data.tags.authors) kara.data.tags.authors = [];
-		let author = authors.find(a => a.tid === kara.data.tags.authors[0]);
-		if (!author) author = {name: ''};
+		let author = [];
+		kara.data.tags.authors.forEach(tid => {
+			const singleAuthor = authors.find(a => a.tid === tid);
+			singleAuthor
+				? author.push('@' + singleAuthor.name)
+				: author.push('Unknown');
+		});
 		if (created_at > start && created_at < end) {
-			newKaras.push(`${kara.filename.replace('.kara.json','')} (@${author.name})`);
+			newKaras.push(`${kara.filename.replace('.kara.json','')} (${author.join(', ')})`);
 			contributors.push('@' + author.name);
 		}
 		if (created_at < start && modified_at > start && modified_at < end) modifiedKaras.push(`${kara.filename.replace('.kara.json','')}`);
