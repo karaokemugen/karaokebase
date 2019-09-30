@@ -9,12 +9,15 @@ Contributors:
 - @Benjazunyan
 - @Bonjwa
 - @Bonta-kun
+- @Colgate
+- @Dysp
 - @ENSEEIHT-japan7
 - @Evla
 - @Flore
 - @Hakey
 - @Hellayne
 - @Kmeuh
+- @Krow
 - @Kubat
 - @LeMeow
 - @Lyph
@@ -25,6 +28,7 @@ Contributors:
 - @Neraste
 - @Ni-jibakurei
 - @Nock
+- @Nocta
 - @Nodamin
 - @Ourson
 - @RhiobeT
@@ -37,34 +41,39 @@ Contributors:
 - @Ultra
 - @Wazzzaaa
 - @amoethyst
+- @burabetsu
 - @meulahke
 - @mistiru
 
 ## Added
 
-New songs : 158
+New songs : 212
 
+- CHI - Chong f n 20 sui - MOVIE MV - Wo Men De Ming Tian ~ Our Tomorrow (@Hellayne)
 - CHI - Kidou Butouden G Gundam - AMV - Zhan Dou Nan Hai (@meulahke)
-- CHI - To Be Hero - ED - Watashi no Papa ga Chikyuu wo Mamoru (@Bakaclub)
+- CHI - LuHan - MV - Zhi Ai ~ Your Song (@Hellayne)
+- CHI - To Be Hero - ED - Watashi no Papa ga Chikyuu wo Mamoru (@Bakaclub, @Ultra)
 - ENG - Burning Rangers - SATURN GAME AMV - Angels With Burning Hearts (@meulahke)
 - ENG - Carole & Tuesday - ED2 - Not Afraid (@Suryan)
 - ENG - Carole & Tuesday - IN - Galactic Mermaid (@Suryan)
 - ENG - Carole & Tuesday - OP2 - Polly Jean (@Suryan)
 - ENG - City Hunter - AMV - Footsteps (@Soramimi)
 - ENG - Cowboy Bebop - IN - CALL ME CALL ME (@LeMeow)
-- ENG - Ginga Eiyuu Densetsu Die Neue These Kaikou - OP - Binary Star (@Sting)
-- ENG - Kill la Kill - AMV - Before my body is dry (@Adrian)
+- ENG - Ginga Eiyuu Densetsu Die Neue These Kaikou - OP - Binary Star (@Sting, @Bakaclub)
+- ENG - Guilty Gear (2020) - PS4 GAME PV - Smell of the Game (@Kmeuh)
+- ENG - Kill la Kill - AMV - Before my body is dry (@Adrian, @ENSEEIHT-japan7)
 - ENG - Macross Plus Movie Edition - MOVIE AMV - Information High (@meulahke)
-- ENG - Metal Gear Solid 5 - PS3 PS4 XBOX360 PC GAME AMV - Sins of the Father (@Evla)
-- ENG - Metal Gear Solid 5 Ground Zeroes - PS3 PS4 XBOX360 PC GAME OP - Here's to You (@Bakaclub)
+- ENG - Metal Gear Solid 5 - PS3 PS4 XBOX360 PC GAME AMV - Sins of the Father (@Evla, @Bakaclub)
+- ENG - Metal Gear Solid 5 Ground Zeroes - PS3 PS4 XBOX360 PC GAME OP - Here's to You (@Bakaclub, @Evla)
 - ENG - Persona 5 The Royal - PS4 GAME OP - Colors Flying High (@meulahke)
 - ENG - Saw IV - MOVIE MV - I.V (@Lyph)
-- ENG - Tate no Yuusha no Nariagari - OP2 - FAITH (@Kubat)
+- ENG - Tate no Yuusha no Nariagari - OP2 - FAITH (@Kubat, @Bakaclub)
 - ENG - The King of Fighters '98 The Slugfest - GAME OP - CIPHER (@meulahke)
 - ENG - Uchuu Densetsu Ulysses 31 - ED - Ulysses 31 (@Aeden)
 - ENG - Uchuu Densetsu Ulysses 31 - OP - Ulysses 31 (@Aeden)
 - ENG - Uchuu Densetsu Ulysses 31 - OP - Ulysses 31 ~ Live Redux Vers (@Aeden)
 - ENG - senzawa - MV - Crunchy Roll, Take Me Home (@amoethyst)
+- ENG - the pillows - MV - Break a Time Machine! (@burabetsu)
 - FIN - Miku Hatsune - COVER MV - Ievan Polkka (@Kmeuh)
 - FRE - Beauty and the Beast (1991) - MOVIE IN - C'est la fete (@Nodamin)
 - FRE - D.N.ANGEL - ED - Un Jour Nouveau (@Nabashi)
@@ -73,12 +82,12 @@ New songs : 158
 - FRE - Haai Step Jun - OP - Vas-y Julie ! (@Nock)
 - FRE - JoJo no Kimyou na Bouken Stardust Crusaders - ED - Walk Like An Egyptian (@Ni-jibakurei)
 - FRE - Kirarin Revolution - ED2 - Magie de l'amour (@Kmeuh)
-- FRE - Les Guignols - CM - Carte Kiwi (@Ultra)
+- FRE - Les Guignols - CM - Carte Kiwi (@Ultra, @Bakaclub)
 - FRE - Mister MV - COVER OT - Manhattan-Kaboul (@Kmeuh)
-- FRE - NieR Automata - PS4 PC GAME AMV - Le poids du monde (@Kubat)
+- FRE - NieR Automata - PS4 PC GAME AMV - Le poids du monde (@Kubat, @Bakaclub)
 - FRE - Overwatch - PS4 PC SWITCH GAME OT - Brigitte's karaoke (@Kmeuh)
 - FRE - Shugo Chara! - OP - Shugo Chara Les gardiens des reves (@Kmeuh)
-- JPN - A.I.C.O. Incarnation - ONA OP - A.I.C.O (@Kubat)
+- JPN - A.I.C.O. Incarnation - ONA OP - A.I.C.O (@Kubat, @Bakaclub)
 - JPN - Aikatsu Friends! - IN - Guuzen, Hitsuzen (@Nodamin)
 - JPN - Aikatsu Friends! - IN - Have a dream (@Nodamin)
 - JPN - Aikatsu Friends! - IN - Kizuna ~Synchro Harmony~ (@Nodamin)
@@ -86,36 +95,52 @@ New songs : 158
 - JPN - Aimer - MV - ONE (@ENSEEIHT-japan7)
 - JPN - Akiko Shikata - MV - Wokashi (@Ni-jibakurei)
 - JPN - Anime Sanjuushi - COVER REMIX AMV - Yume Bouken (@Ni-jibakurei)
+- JPN - Ao Haru Ride - COVER REMIX MV - Sekai wa Koi ni Ochite Iru (@Ni-jibakurei)
 - JPN - Aoi Kotonoha - MV - Zettai ni Chocomint wo Taberu Aoi-chan (@Kmeuh)
+- JPN - Ar Tonelico 3 Sekai Shuuen no Hikigane wa Shoujo no Uta ga Hiku - PS3 GAME AUDIO IN - EXEC_FLIP_ARPHAGE (@Krow)
 - JPN - Ayumi Hamasaki - MV - MOON (@ENSEEIHT-japan7)
 - JPN - BEAST - MV - Midnight -Hoshi wo Kazoeru Yoru- (@Hellayne)
 - JPN - BEAST - MV - Saigo No Hitokoto (@Hellayne)
 - JPN - BTOOOM! - MV - No Pain, No Game ~ Full Vers (@Ni-jibakurei)
 - JPN - Bakemonogatari - MV - Kimi no Shiranai Monogatari ~ Full Vers (@Flore)
+- JPN - Bishoujo Senshi Sailor Moon - COVER REMIX MV - Moonlight Densetsu (@Ni-jibakurei)
 - JPN - Black Rock Shooter - AMV - Mighty Long Fall (@Neraste)
-- JPN - Boogiepop wa Warawanai (2019) - ED2 - Sayonara (@Kubat)
+- JPN - Boogiepop wa Warawanai (2019) - ED2 - Sayonara (@Kubat, @Bakaclub)
+- JPN - Boruto Naruto Next Generations - OP5 - Golden Time (@LeMeow)
 - JPN - Brigadoon Marin to Melan - AMV - Deai o A.RI.GA.TO.U (@Mélanie)
 - JPN - CLC - MV - High Heels (@Hellayne)
-- JPN - Cop Craft - ED - Connected (@Kubat)
+- JPN - Cop Craft - ED - Connected (@Kubat, @Bakaclub)
 - JPN - DOLL$BOXX - MV - Monopoly (@RhiobeT)
+- JPN - Dragon Ball Z - COVER REMIX MV - Cha-la Head Cha-la (@Ni-jibakurei)
 - JPN - Dragon Ball Z Movie 12 Fukkatsu no Fusion!! Gokuu to Vegeta - MOVIE ED - Saikyou no Fusion (@meulahke)
 - JPN - En'en no shouboutai - ED1 - Veil (@May)
 - JPN - En'en no shouboutai - OP1 - Inferno (@May)
 - JPN - Fate Extra - PSP GAME IN - Padoru Padoru (@Adrian)
 - JPN - GReeeeN - MV - Kiseki (@Bonta-kun)
 - JPN - Gekijouban K Missing Kings - MOVIE IN - Flame of Red (@amoethyst)
-- JPN - Gekijouban Psycho-Pass - MOVIE OP - Who What Who What (@Kubat)
+- JPN - Gekijouban Psycho-Pass - MOVIE OP - Who What Who What (@Kubat, @Bakaclub)
 - JPN - Gero - COVER MV - The Servant of Evil (@Ni-jibakurei)
-- JPN - Girls und Panzer - AMV - Katyusha (@Sting)
+- JPN - Gin no Saji 2nd Season - MV - Oto no Naru Hou e (@Ni-jibakurei)
+- JPN - Girls und Panzer - AMV - Katyusha (@Sting, @Bakaclub)
 - JPN - Given - IN - Fuyu no Hanashi (@Nabashi)
-- JPN - Hanatan - COVER MV - Kuusou Shoujo e no Koitegami (@Tatoon)
+- JPN - Goose house - COVER REMIX MV - Agehachou (@Ni-jibakurei)
+- JPN - Goose house - COVER REMIX MV - Laser Beam (@Ni-jibakurei)
+- JPN - Goose house - COVER REMIX MV - Playback Part2 (@Ni-jibakurei)
+- JPN - Goose house - COVER REMIX MV - Summer Song (@Ni-jibakurei)
+- JPN - Goose house - COVER REMIX MV - Toshishita no Otokonoko (@Ni-jibakurei)
+- JPN - Goose house - COVER REMIX MV - Valentine Kiss (@Ni-jibakurei)
+- JPN - Hanatan - COVER MV - Kuusou Shoujo e no Koitegami (@Tatoon, @Bakaclub)
 - JPN - Hanatan - COVER MV - Romeo to Cinderella (@Adrian)
-- JPN - Hanatan - COVER MV - Sarishinohara ~ Short Vers (@Tatoon)
+- JPN - Hanatan - COVER MV - Sarishinohara ~ Short Vers (@Tatoon, @Bakaclub)
 - JPN - Hanayamata - MV - Hana wa Odore ya Irohaniho ~ Full Vers (@Flore)
 - JPN - Hypnosis Mic -Division Rap Battle- - MV - Hoodstar (@Nabashi)
 - JPN - Hypnosis Mic -Division Rap Battle- - MV - Hypnosis Mic -Alternative Rap Battle- (@Nabashi)
 - JPN - Hypnosis Mic -Division Rap Battle- - MV - Hypnosis Mic -Division Battle Anthem- (@Nabashi)
 - JPN - Hypnosis Mic -Division Rap Battle- - MV - Hypnosis Mic -Division Rap Battle- (@Nabashi)
+- JPN - Hypnosis Mic -Division Rap Battle- - MV - Hypnosis Mic -Division Rap Battle- Plus (@Nabashi)
+- JPN - Hypnosis Mic -Division Rap Battle- - MV - Ohayou Ikebukuro (@Nabashi)
+- JPN - Hypnosis Mic -Division Rap Battle- - MV - Papillon (@Nabashi)
+- JPN - IU - MV - You & I (@Sakurachiru)
 - JPN - Kana Nishino - MV - Aitakute Aitakute ~ Short Vers (@Sakurachiru)
 - JPN - Kano - COVER MV - Hello How Are You (@Flore)
 - JPN - Kerakera - MV - Kerakera Janken (@Ni-jibakurei)
@@ -132,62 +157,90 @@ New songs : 158
 - JPN - Kyary Pamyu Pamyu - MV - Tsukema Tsukeru (@Bonta-kun)
 - JPN - LADYBABY - MV - Age-Age Money ~Ochingin Daisakusen~ (@Ni-jibakurei)
 - JPN - Lefty Hand Cream - COVER REMIX MV - Chouchou musubi (@Sakurachiru)
+- JPN - Lupin III Part II - COVER REMIX MV - Lupin The Third no Theme (@Ni-jibakurei)
 - JPN - Machikado Mazoku - OP - Machikado Tangent (@Ourson)
 - JPN - Majutsushi Orphen - ED1 - Last Kiss (@Nabashi)
 - JPN - Majutsushi Orphen - ED2 - Doushiyou (@Nabashi)
-- JPN - Midara na Ao-chan wa Benkyou ga Dekinai - OP - WONDERFUL WONDER (@Kubat)
+- JPN - Majutsushi Orphen Revenge - ED1 - Love, Yes I Do! (@Nabashi)
+- JPN - Majutsushi Orphen Revenge - ED2 - Amai Anata no Aji (@Nabashi)
+- JPN - Midara na Ao-chan wa Benkyou ga Dekinai - OP - WONDERFUL WONDER (@Kubat, @Bakaclub)
 - JPN - Miku Hatsune - COVER MV - Butter-Fly (@Kmeuh)
 - JPN - Miku Hatsune - COVER MV - Twinkle Days (@Neraste)
 - JPN - Miwa - LIVE - Haru Ni Nattara (@mistiru)
 - JPN - Momoiro Clover Z - MV - Hashire! (@Bonta-kun)
 - JPN - Nagi Yanagi - MV - Owari no Sekai Kara (@ENSEEIHT-japan7)
-- JPN - Nande Koko ni Sensei ga! question_mark - OP - Bon Kyu Bon wa Kare no Mono (@Bakaclub)
-- JPN - Naruto - ED9 - Nakushita Kotoba (@Kubat)
+- JPN - Nande Koko ni Sensei ga! question_mark - OP - Bon Kyu Bon wa Kare no Mono (@Bakaclub, @Ultra)
+- JPN - Naruto - ED9 - Nakushita Kotoba (@Kubat, @Bakaclub)
 - JPN - Nastume Mito - MV - Maegami Kirisugita (@Bonta-kun)
 - JPN - Natsume Yuujinchou Shi - ED - Takaramono (@Mélanie)
+- JPN - Ojamajo Doremi - COVER REMIX MV - Ojamajo Carnival!! (@Ni-jibakurei)
 - JPN - Overman King Gainer - ED - Can you feel my soul question_mark (@meulahke)
 - JPN - Perfume - LIVE - Electro World (@Neraste)
 - JPN - Perfume - MV - Dream Fighter (@Bonta-kun)
 - JPN - Perfume - MV - Kasuka na Kaori (@Bonta-kun)
+- JPN - Perfume - MV - Natural Ni Koishite (@Bonta-kun)
+- JPN - Perfume - MV - Nee (@Bonta-kun)
+- JPN - Perfume - MV - STAR TRAIN (@Bonta-kun)
+- JPN - Perfume - MV - Spring of Life (@Bonta-kun)
+- JPN - Perfume - MV - love the world (@Bonta-kun)
+- JPN - Pocket Monsters - COVER REMIX MV - Mezase Pokemon Master (@Ni-jibakurei)
 - JPN - Pocket Monsters - MV - I LOVE Koiking (@Mizunoke)
 - JPN - Pokemon the Movie XY&Z Volcanion to Karakuri no Magearna - MV - Post Ni Koe Wo Nageirete (@Mélanie)
 - JPN - Project Eevee - MV - Eevee March (@Bonta-kun)
-- JPN - REOL,Giga-P - COVER MV - drop drop candy (@Ultra)
+- JPN - REOL,Giga-P - COVER MV - drop drop candy (@Ultra, @Bakaclub)
 - JPN - Rin Kagamine - MV - Maousama no Uta (@Ni-jibakurei)
 - JPN - SCANDAL - MV - Namida no REGRET (@ENSEEIHT-japan7)
-- JPN - SSSS.Gridman - MV - UNION (@Nock)
+- JPN - SSSS.Gridman - MV - UNION (@Nock, @meulahke)
 - JPN - Sakura Taisen Le Nouveau Paris - OVA OP - Mihata no Moto ni (Le Nouveau Paris version) (@Kmeuh)
 - JPN - Seikou Itou - CM - Sega Megadrive (@meulahke)
-- JPN - Senryuu Shoujo - OP - Kotonoha no Omoi (@Kubat)
+- JPN - Senki Zesshou Symphogear G - IN - Fushicho no Flamme (@Nodamin)
+- JPN - Senryuu Shoujo - OP - Kotonoha no Omoi (@Kubat, @Bakaclub)
+- JPN - Shigatsu wa Kimi no Uso - MV - Hikaru Nara (@Ni-jibakurei)
+- JPN - Shingeki no Kyojin - COVER REMIX MV - Guren no Yumiya (@Ni-jibakurei)
 - JPN - Shinsekai Yori - AMV - You are the One! (@Ni-jibakurei)
-- JPN - Shoumetsu Toshi - OP - Kotae (@Bakaclub)
+- JPN - Shoumetsu Toshi - OP - Kotae (@Bakaclub, @Kubat)
+- JPN - Solatorobo RED the Hunter - DS GAME AMV - Sore kara CODA e ~ Full Vers (@Bakaclub, @Nocta)
 - JPN - Son Dong Woon,Yoon Du Jun,Yang Yo Seop - LIVE - Hoshi ni Natte (@Hellayne)
-- JPN - Sora Yori mo Tooi Basho - AMV - Haruka Tooku (@Sting)
-- JPN - Tate no Yuusha no Nariagari - ED1 - Kimi no Namae (@Kubat)
-- JPN - Tensei Shitara Slime Datta Ken - ED2 - Little Soldier (@Kubat)
+- JPN - Sora Yori mo Tooi Basho - AMV - Haruka Tooku (@Sting, @Bakaclub)
+- JPN - Sora no Aosa o Shiru Hito yo - MOVIE MV - Sora no Aosa o Shiru Hito yo ~ Movie vers (@Dysp)
+- JPN - Tate no Yuusha no Nariagari - ED1 - Kimi no Namae (@Kubat, @Bakaclub)
+- JPN - Tensei Shitara Slime Datta Ken - ED2 - Little Soldier (@Kubat, @Bakaclub)
+- JPN - The Blue Hearts - AUDIO MV - TRAIN-TRAIN (@Dysp)
 - JPN - To Aru Kagaku no Accelerator - OP - Shadow is the light (@LeMeow)
 - JPN - Touhou - AMV - Chiisana Koi no Uta (@Bonta-kun)
 - JPN - Touhou - MV - Hakurei Jinja Chounaikai Ondo (@ENSEEIHT-japan7)
 - JPN - Touhou - MV - Tewi! Eien Tewi Ver (@Benjazunyan)
 - JPN - Touhou - MV - Touhou Suimusou (hatsunetsu mix.) (@ENSEEIHT-japan7)
 - JPN - Uchuu Kaizoku Captain Harlock - IN - Sasurai no Funa'uta (@Aeden)
-- JPN - Uma Musume Pretty Derby - ONA PV - Umapyoi Densetsu (@Bakaclub)
+- JPN - Uma Musume Pretty Derby - ONA PV - Umapyoi Densetsu (@Bakaclub, @Colgate)
 - JPN - Under Graph - MV - Tsubasa (@Ni-jibakurei)
 - JPN - Virtual-san wa Miteiru - MV - Aiaiai ~ Full Vers (@Bonta-kun)
 - JPN - WANIMA - MV - Yattemiyou (@Bonta-kun)
 - JPN - Whiteberry - MV - Natsumatsuri (@Flore)
+- JPN - YAZIMA Biyoushitsu - MV - Nihon no Mikata -Nevada Kara Kimashita- (@Dysp)
 - JPN - YUI - MV - Good-bye days (@Anasuna)
 - JPN - YUKA (moumoon) - MV - Chu Chu (@Bonta-kun)
 - JPN - Yakusoku no Neverland - ED1 - Zettai Zetsumei (@Mélanie)
 - JPN - YuNi - COVER MV - Shiroi Yuki no PRINCESS wa (@Adrian)
 - JPN - YuNi - MV - Toumei Seisai (@amoethyst)
 - JPN - Yuru Yuri II - MV - Yes! Yuyuyu Yuru Yuri ~ Full Vers (@Flore)
-- JPN - Zoku Owarimonogatari - AMV - Azure ~ Full Vers (@Kubat)
+- JPN - Yuusha Ou GaoGaiGar - OP2 - Yuusha-Ou Tanjou! (@meulahke)
+- JPN - Yuusha Ou GaoGaiGar FINAL - OVA OP1 - Yuusha-Oh Tanjou! ~ Mythology Vers. ~ (@meulahke)
+- JPN - Yuusha Ou GaoGaiGar FINAL Grand Glorious Gathering - OP - Yuusha-Oh Tanjou! ~ Gathering Mythology Vers. ~ (@meulahke)
+- JPN - Zoku Owarimonogatari - AMV - Azure ~ Full Vers (@Kubat, @Bakaclub)
+- JPN - Zombieland Saga - AMV - Atsuku Nare (@Adrian)
 - JPN - Zombieland Saga - AMV - Mezame RETURNER (@Wazzzaaa)
 - JPN - asdfmovie - MV - asdfmovie12 song (@Kmeuh)
 - JPN - daoko - MV - Daisuki (@RhiobeT)
 - JPN - daoko - MV - Suisei (@RhiobeT)
-- JPN - maidreamin - PV - dreamin passport (@Hakey)
+- JPN - maidreamin - PV - dreamin passport (@Hakey, @Bakaclub)
+- JPN - the pillows - MV - Another Morning (@burabetsu)
+- JPN - the pillows - MV - Instant Music (@burabetsu)
+- JPN - the pillows - MV - Moondust (@burabetsu)
+- JPN - the pillows - MV - Pied Piper (@burabetsu)
+- JPN - the pillows - MV - Scarecrow (@burabetsu)
+- JPN - the pillows - MV - The Third Eye (@burabetsu)
+- JPN - the pillows - MV - Tokyo Bambi (@burabetsu)
 - KOR - BEAST - MV - FICTION (@Hellayne)
 - KOR - BEAST - MV - Take Care of My Girlfriend (Say No) (@Hellayne)
 - KOR - BEAST - PV - The Fact (@Hellayne)
@@ -198,10 +251,16 @@ New songs : 158
 - KOR - CLC - MV - Pepe (@Hellayne)
 - KOR - Crayon Pop - MV - Bar Bar Bar (@Hellayne)
 - KOR - Hitmaker - MV - Stress Come On! (@Hellayne)
+- KOR - IU,Kim Chang Wan - COVER MV - The Meaning Of You (@Hellayne)
+- KOR - Monstar - COVER IN - The Meaning Of You (@Hellayne)
 - KOR - My Copycat - MV - Orange Caramel (@Shizue)
+- KOR - PENTAGON - MV - Gorilla (@Hellayne)
+- KOR - SISTAR - MV - Loving U (@Hellayne)
 - KOR - Secret - MV - Shy Boy (@Shizue)
 - KOR - Sseulsseulhago Chanlanhasin Dokkaebi - MV - Stay with Me (@Bonjwa)
-- UND - NieR Automata - PS4 XBOXONE PC GAME AMV - A Beautiful Song (@Bakaclub)
+- KOR - Taeyang - MV - Wedding Dress (@Hellayne)
+- UND - Final Fantasy - REMIX OT - Chocobo's Theme (@Bakaclub, @Nocta)
+- UND - NieR Automata - PS4 XBOXONE PC GAME AMV - A Beautiful Song (@Bakaclub, @Tatoon)
 
 ## Fixed
 
@@ -215,6 +274,7 @@ New songs : 158
 - ENG - My Little Pony Friendship is Magic - OP - Friendship is Magic
 - ENG - Power Ranger Samurai - OP - Go Go Power Ranger
 - ENG - Sengoku BASARA 3 - PS3 WII GAME OP - Naked Arms
+- ENG - Smile Precure! - OP - Glitter Force Theme Song
 - ENG - Sonic CD - SEGACD GAME OP - Sonic Boom
 - ENG - Soul Edge - PSX GAME OP - The Edge of Soul
 - ENG - Spiral Zone - OP - Spiral Zone
@@ -225,6 +285,7 @@ New songs : 158
 - FRE - D.N.ANGEL - OP - L'ombre des tenebres
 - FRE - Dragon Ball - OP - Dragon Ball
 - FRE - Jungle Book Shounen Mowgli - OP - Mowgli
+- FRE - Kirarin Revolution - OP1 - Est-ce l'amour
 - FRE - Kirarin Revolution - OP2 - Chance
 - FRE - Les Mondes Engloutis - OP - Les Mondes Engloutis
 - FRE - Love Hina - ED1 - Il suffit que tu sois la
@@ -233,7 +294,10 @@ New songs : 158
 - FRE - My Little Pony Friendship is Magic - OP - Friendship is Magic
 - FRE - Pokemon the Series Sun & Moon Ultra Legends - OP - Le defi de la vie
 - FRE - Uchuu Densetsu Ulysses 31 - OP2 - Ulysse revient
+- FRE - Valerian et Laureline - OP - Valerian et Laureline
+- FRE - Wanwan Sanjuushi - OP - Les Trois Mousquetaires
 - GER - Futari wa PreCure - OP - Nur wir Beide
+- GER - Touhou - COVER MV - Bad Apple!!
 - HEB - Pocket Monsters - OP - Pokemon
 - JPN - .hack GIFT - OVA ED - Yasashii Yoake
 - JPN - .hack GIFT - OVA OP - Obsession
@@ -245,9 +309,13 @@ New songs : 158
 - JPN - Aa! Megami-sama! - OVA OP - My Heart Iidasenai Your Heart Tashikametai
 - JPN - Agarest Senki 2 - PS3 GAME OP1 - Antiphona
 - JPN - Agarest Senki 2 - PS3 GAME OP2 - Jewelry Halation
+- JPN - Akiba's Trip 2 - PS3 PSV GAME OP - True Story
 - JPN - Aku no Hana - AMV - A Last Flower ~ Full Vers
 - JPN - Akuma no Riddle - OP - Soushou Innocence
+- JPN - Amairo Islenauts - PC GAME OP - Blue-Love Chime
 - JPN - Ao no Kanata no Four Rhythm - PC GAME OP - Wing of Courage ~ Sora wo Koete
+- JPN - B-Fighter Kabuto - ED - Oogoe de Utaeba
+- JPN - B-Fighter Kabuto - OP - B-Fighter Kabuto
 - JPN - Bad Medicine Infectious Teachers - PC GAME OP - Kindan (SECRET) ZONE
 - JPN - Baja No Studio - OVA ED - Tenohira o Taiyou ni
 - JPN - Baldr Force - PC GAME OP - Face of Fact
@@ -262,6 +330,8 @@ New songs : 158
 - JPN - Chikyuu Bouei Kigyou Dai-Guard - ED - Hashire Hashire
 - JPN - Chikyuu Bouei Kigyou Dai-Guard - OP - Rojiura no Uchuu Shounen
 - JPN - DRACU-RIOT! - GAME OP - Scarlet
+- JPN - Daitoshokan no Hitsujikai - PC GAME OP1 - Stray Sheep
+- JPN - Daitoshokan no Hitsujikai - PC GAME OP2 - Yumekai Biyori
 - JPN - Danball Senki - OP1 - 1 Dream
 - JPN - Date a Live Twin Edition Rio Reincarnation - PSV GAME OP - Key of Truth
 - JPN - Dekinai Watashi ga Kurikaesu - PC GAME OP - Re Call
@@ -269,11 +339,14 @@ New songs : 158
 - JPN - Densha Otoko - OP1 - Mr. Roboto
 - JPN - Dragon Ball Z Movie 10 Kiken na Futari! Super Senshi wa Nemurenai - MOVIE ED - Kiseki no BIG FIGHT
 - JPN - Dragon Ball Z Movie 13 Ryuuken Bakuhatsu!! Goku ga Yaraneba Dare ga Yaru - MOVIE ED - Ore ga Yaranakya Dare ga Yaru
+- JPN - Dumbbell Nan Kilo Moteru question_mark - OP - Onegai Muscle
 - JPN - Escha & Logy no Atelier Tasogare no Sora no Renkinjutsushi - PS3 GAME OP - Milk Iro no Touge
 - JPN - Fire Emblem Three Houses - SWITCH GAME OP - Girl of Hresvelg ~Wind, Flower, Snow, Moon~
 - JPN - Frozen - MOVIE IN - Let It Go ~Ari no Mama de~
 - JPN - Giovanni no Shima - MOVIE AMV - Katyusha
 - JPN - Gokuaku Ganbo - OP - Kenka Joutou
+- JPN - Gyakkyou Burai Kaiji Hakairoku-hen - ED - C Kara Hajimaru ABC
+- JPN - Gyakkyou Burai Kaiji Hakairoku-hen - OP - Chase the Light!
 - JPN - Hanatan - COVER MV - Sarishinohara ~ Full Vers
 - JPN - Hapymaher - PC GAME OP - Yume no Mugen Kairou
 - JPN - Hentai Kamen - MOVIE ED - Emotions
@@ -289,9 +362,14 @@ New songs : 158
 - JPN - Isekai Quartet - OP - Isekai Quartet
 - JPN - Joshiraku - IN - Oato ga Mata Uzakute
 - JPN - Joshiraku - OP - Oato ga Yoroshikutte... Yo!
+- JPN - Juukou B-Fighter - ED - Chikyuu Koukou
+- JPN - Juukou B-Fighter - OP - Juukou B-Fighter
+- JPN - KAITO,Len Kagamine,Luka Megurine,Camui Gackpo,Miku Hatsune,Rin Kagamine,MEIKO,GUMI - MV - Bad End Night
 - JPN - Kai-ri-Sei Million Arthur - GAME OP - Million of Bravery
 - JPN - Kaku-San-Sei Million Arthur - GAME OP - Million of Bravery
+- JPN - Kamen Rider Black - OP - Kamen Rider BLACK
 - JPN - Kamen Rider Blade - OP1 - Round ZERO ~ BLADE BRAVE
+- JPN - Kamui No Ken - MOVIE ED - Kamui no Ken
 - JPN - Kara no Shoujo The Second Episode - PC GAME OP - Tsuki no Uro
 - JPN - Kemurikusa - ED - INDETERMINATE UNIVERSE
 - JPN - Kemurikusa - OP - Kemurikusa
@@ -305,6 +383,9 @@ New songs : 158
 - JPN - Kizuna Ai - COVER MV - PoPiPo
 - JPN - Kizuna Ai - COVER MV - Sugar Song to Bitter Step
 - JPN - Kizuna Ai - COVER MV - YATTA!
+- JPN - Macross 7 - ED2 - ...Dakedo Baby!!
+- JPN - Macross 7 - OP - SEVENTH MOON
+- JPN - Mary to Majo no Hana - MOVIE AMV - Rain
 - JPN - Maze Bakunetsu Jikuu (1997) - ED1 - Junk Boy
 - JPN - Maze Bakunetsu Jikuu (1997) - OP - Kokuu no Meikyuu
 - JPN - Megazone 23 - OVA ED - Samishikute Nemurenai
@@ -316,12 +397,19 @@ New songs : 158
 - JPN - Mikagura Gakuen Kumikyoku - OP - Houkago Kakumei
 - JPN - Miku Hatsune - LIVE - Unknown Mother-Goose ~ Miku Expo 2018 Paris
 - JPN - Minamijuujisei Renka ~ Southern Cross Love Song - PC GAME OP - glow in the darkness
+- JPN - Miyuki - ED1 - Omoide ga Ippai
+- JPN - Miyuki - SPECIAL AMV - Omoide ga Ippai ~ 2003 Vers
 - JPN - My Little Pony Friendship is Magic - OP - Mirai Start
+- JPN - Onimari. ~Oni ga Yumemishi Tsune no Yo ni Itaru Osanaki Koi no Hajimari~ - PC GAME OP - Hajimari no Toki
+- JPN - Oukami - PS2 GAME ED - Reset
 - JPN - Ouran Koukou Host Club - OP - Sakura Kiss
 - JPN - Overman King Gainer - OP - King Gainer Over!
 - JPN - Pop Team Epic - OP - last sparkle
+- JPN - Porno Graffitti,Ayumi Hamasaki - LIVE - Agehachou
+- JPN - Promare - AUDIO IN - Kakusei
 - JPN - Reminiscence - PC GAME OP - Yagate Kieru Maboroshi Demo
 - JPN - Rin Kagamine - MV - Lost One no Goukoku
+- JPN - Ro-Kyu-Bu! - MV - Shoot!
 - JPN - Rookies - AMV - KISEKI
 - JPN - Sakura Taisen - ED1 - Yume Miteiyou
 - JPN - Sakura Taisen 2 ~Kimi Shinitamou koto Nakare~ - PC SATURN GAME OP - Geki! Teikoku Kagekidan (Kai)
@@ -333,20 +421,33 @@ New songs : 158
 - JPN - Senki Zesshou Symphogear GX - AMV - Radiant Force
 - JPN - Shikioriori - MOVIE MV - WALK
 - JPN - Shin Sakura Taisen - PS4 GAME OP - Geki! Teikoku Kagekidan (Shinshou)
+- JPN - Shin Taketori Monogatari 1000-nen Joou - ED - Mahoroba Densetsu
+- JPN - Shin Taketori Monogatari 1000-nen Joou - OP - Cosmos Dream
 - JPN - Shingeki no Kyojin S3 - OP2 - Shoukei to Shikabane no Michi
 - JPN - Shoujo Kageki Revue Starlight - IN - Hokori to Ogori
 - JPN - Shoujo Kageki Revue Starlight - IN - Koi no Makyou
 - JPN - Shoujo Kageki Revue Starlight - IN - Star Divine Finale
 - JPN - Shoujo Kageki Revue Starlight - IN - The Star Knows
 - JPN - Shoujo Shin'iki ~ Shoujo Tengoku -The Garden of Fifth Zoa - PC GAME OP - Kimi Tsunagu
+- JPN - Sol Trigger - PSP GAME OP - Continue question_mark
 - JPN - Sora no Method - ED1 - Hoshikuzu no Interlude
 - JPN - Sora no Method - OP - Stargazer
 - JPN - Sounan Desu ka question_mark - OP - Koko wa doko
+- JPN - Sousei Kitan Aerial - PC GAME OP - Konpeki no Aerial
 - JPN - Steins Gate - XBOX360 GAME OP - Sky Clad no Kansokusha
+- JPN - Sword Art Online Alicization - OP2 - RESISTER ~ Alicization Rising Vers
+- JPN - Sword Art Online Alicization - OP2 - RESISTER ~ Alicization Uniting Vers
 - JPN - THE iDOLM@STER SideM - OP - Reason!!
 - JPN - Tales of Asteria - GAME OP - believe in you
+- JPN - Teen Titans - IN - K2G ~ Kimi Ni Go!
 - JPN - Tenkuu Senki Shurato - OP1 - SHINING SOUL
 - JPN - Tenkuu Senki Shurato - OP2 - TRUTH
+- JPN - Tennis no Oujisama - ED1 - You got game question_mark
+- JPN - Tennis no Oujisama - ED9 - Future
+- JPN - Tennis no Oujisama - OP1 - future
+- JPN - Tennis no Oujisama - OP8 - Dream Believer
+- JPN - Tentai Senshi Sunred - ED - Niwatori Dango Nabe
+- JPN - Tentai Senshi Sunred - OP - Mizonokuchi Taiyou Zoku
 - JPN - To Aru Kagaku no Railgun S - OP - sister's noise
 - JPN - Toradora! - ED1 - Vanilla Salt
 - JPN - Toradora! - ED2 - Orange
@@ -356,20 +457,24 @@ New songs : 158
 - JPN - Toriko - OP1 - Guts Guts!!
 - JPN - Tottoko Hamtarou - OP1 - Tottoko no Uta
 - JPN - Touhou - MV - All Mankind's Hisou Tensoku
+- JPN - Touhou - MV - Bad Apple!!
 - JPN - Touhou - MV - Convictor Yamaxanadu!
 - JPN - Touhou - MV - FIRE FLOWER
 - JPN - Uchuu Densetsu Ulysses 31 - ED - Ai. Toki no Kanata ni
 - JPN - Uchuu Densetsu Ulysses 31 - OP - Ginga Densetsu Odyssey
 - JPN - Uchuujin Pipi - OP - Uchuujin Pipi
+- JPN - Urusei Yatsura - OP6 - Tonogata Gomen Asobase
 - JPN - Vampire - OP - Vampire no Uta
 - JPN - Working'!! - OP - COOLISH WALK
 - JPN - YUI - AMV - Ruido
 - JPN - Yakusoku no Neverland - OP - Touch off
 - JPN - Yume Senshi Wingman - ED - Wing Love
 - JPN - Yume Senshi Wingman - OP - Ijigen Story
+- JPN - Yuusha Ou GaoGaiGar - OP1 - Yuusha-Ou Tanjou!
+- JPN - Yuusha Ou GaoGaiGar FINAL - OVA OP2 - Yuusha-Oh Tanjou! ~ Kyuukoku Mythology Vers. ~
 - JPN - Zoku Owarimonogatari - ED - Azure
 - JPN - Zoku Owarimonogatari - ED - Azure ~ Alternative Vers
-- SPA - Touhou - MV - Bad Apple
+- SPA - Touhou - COVER MV - Bad Apple!!
 
 # August 2019
 
