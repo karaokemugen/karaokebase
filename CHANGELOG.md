@@ -23,7 +23,7 @@ Contributors:
 - @Lyph
 - @May
 - @Mizunoke
-- @Mélanie
+- @Yûgao
 - @Nabashi
 - @Neraste
 - @Ni-jibakurei
@@ -107,7 +107,7 @@ New songs : 212
 - JPN - Black Rock Shooter - AMV - Mighty Long Fall (@Neraste)
 - JPN - Boogiepop wa Warawanai (2019) - ED2 - Sayonara (@Kubat, @Bakaclub)
 - JPN - Boruto Naruto Next Generations - OP5 - Golden Time (@LeMeow)
-- JPN - Brigadoon Marin to Melan - AMV - Deai o A.RI.GA.TO.U (@Mélanie)
+- JPN - Brigadoon Marin to Melan - AMV - Deai o A.RI.GA.TO.U (@Yûgao)
 - JPN - CLC - MV - High Heels (@Hellayne)
 - JPN - Cop Craft - ED - Connected (@Kubat, @Bakaclub)
 - JPN - DOLL$BOXX - MV - Monopoly (@RhiobeT)
@@ -172,7 +172,7 @@ New songs : 212
 - JPN - Nande Koko ni Sensei ga! question_mark - OP - Bon Kyu Bon wa Kare no Mono (@Bakaclub, @Ultra)
 - JPN - Naruto - ED9 - Nakushita Kotoba (@Kubat, @Bakaclub)
 - JPN - Nastume Mito - MV - Maegami Kirisugita (@Bonta-kun)
-- JPN - Natsume Yuujinchou Shi - ED - Takaramono (@Mélanie)
+- JPN - Natsume Yuujinchou Shi - ED - Takaramono (@Yûgao)
 - JPN - Ojamajo Doremi - COVER REMIX MV - Ojamajo Carnival!! (@Ni-jibakurei)
 - JPN - Overman King Gainer - ED - Can you feel my soul question_mark (@meulahke)
 - JPN - Perfume - LIVE - Electro World (@Neraste)
@@ -185,7 +185,7 @@ New songs : 212
 - JPN - Perfume - MV - love the world (@Bonta-kun)
 - JPN - Pocket Monsters - COVER REMIX MV - Mezase Pokemon Master (@Ni-jibakurei)
 - JPN - Pocket Monsters - MV - I LOVE Koiking (@Mizunoke)
-- JPN - Pokemon the Movie XY&Z Volcanion to Karakuri no Magearna - MV - Post Ni Koe Wo Nageirete (@Mélanie)
+- JPN - Pokemon the Movie XY&Z Volcanion to Karakuri no Magearna - MV - Post Ni Koe Wo Nageirete (@Yûgao)
 - JPN - Project Eevee - MV - Eevee March (@Bonta-kun)
 - JPN - REOL,Giga-P - COVER MV - drop drop candy (@Ultra, @Bakaclub)
 - JPN - Rin Kagamine - MV - Maousama no Uta (@Ni-jibakurei)
@@ -220,7 +220,7 @@ New songs : 212
 - JPN - YAZIMA Biyoushitsu - MV - Nihon no Mikata -Nevada Kara Kimashita- (@Dysp)
 - JPN - YUI - MV - Good-bye days (@Anasuna)
 - JPN - YUKA (moumoon) - MV - Chu Chu (@Bonta-kun)
-- JPN - Yakusoku no Neverland - ED1 - Zettai Zetsumei (@Mélanie)
+- JPN - Yakusoku no Neverland - ED1 - Zettai Zetsumei (@Yûgao)
 - JPN - YuNi - COVER MV - Shiroi Yuki no PRINCESS wa (@Adrian)
 - JPN - YuNi - MV - Toumei Seisai (@amoethyst)
 - JPN - Yuru Yuri II - MV - Yes! Yuyuyu Yuru Yuri ~ Full Vers (@Flore)
