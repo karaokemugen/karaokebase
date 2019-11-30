@@ -1,3 +1,295 @@
+# November 2019
+Contributors:
+
+- @Amo
+- @Deformer-Lua
+- @Dysp
+- @Joeri_sama
+- @Karaoke Mugen
+- @Kmeuh
+- @LeMeow
+- @May
+- @Nabashi
+- @Ni-jibakurei
+- @Nifra
+- @Nodamin
+- @Rinchama
+- @Soramimi
+- @Suryan
+- @amoethyst
+- @meulahke
+
+## Added
+
+New songs : 84
+
+- ARA - Fushigi no Umi no Nadia - OP - Al massato zzrka'a (@Kmeuh)
+- DUT - Gera Gera Boes Monogatari - OP - Dierenmelodieen (@Soramimi)
+- ENG - AMV Enfer 2 - GAME ED - Dawn of Man (@Kmeuh)
+- ENG - Beck Mongolian Chop Squad - AUDIO OP - HIT IN THE USA ~ Full Vers (@Soramimi)
+- ENG - Black Lagoon - MV - Red Fraction ~ Full Vers (@Soramimi)
+- ENG - Brain Powerd - AUDIO IS - True Love (@Soramimi)
+- ENG - Daytona USA - COVER MV - Let's go away ~ H. Vers. ~ (@meulahke)
+- ENG - Sonic Forces - PS4 XBOXONE PC SWITCH GAME AMV - Fist Bump (@meulahke)
+- FRE - Cinderella - MOVIE IN - Les harpies (@Nodamin)
+- FRE - Frozen - MOVIE IN - L'amour est un cadeau (@May)
+- FRE - Hercule - MOVIE IN - Jamais Je N'Avouerai (@Suryan)
+- FRE - Tangled - MOVIE IN - J'ai un reve (@Nodamin)
+- FRE - Tangled - MOVIE IN - Ou est la vraie vie question_mark (@Nodamin)
+- FRE - The Aristocats - MOVIE IN - Des gammes et des arpeges (@Nodamin)
+- FRE - The Hunchback of Notre Dame - MOVIE IN - Rien qu'un jour (@May)
+- FRE - The Lego Movie - MOVIE IN - Tout est super genial ! (@Kmeuh)
+- FRE - Tsukuyomi Moon Phase - ED1 - Pressentiment triste (@Kmeuh)
+- JPN - Angel Beats! - LIVE - Brave Song (@Rinchama, @Soramimi)
+- JPN - Angel Beats! - LIVE - My Soul, Your Beats! (@Rinchama, @Soramimi)
+- JPN - Araburu Kisetsu no Otome-domo yo. - OP - Otome-domo yo (@amoethyst)
+- JPN - Azumanga Daiou The Animation (2002) - AUDIO CS - Sarabai! Happy Hen (@Soramimi)
+- JPN - Azumanga Daiou The Animation (2002) - AUDIO ED - Raspberry heaven ~ Full Vers (@Soramimi)
+- JPN - Azumanga Daiou The Animation (2002) - AUDIO OP - Soramimi Cake ~ Full Vers (@Soramimi)
+- JPN - BIGMAMA - MV - CRYSTAL CLEAR (@Kmeuh)
+- JPN - Bakuretsu Hunter - IN - Mask ~ Full Vers (@Soramimi)
+- JPN - Binbougami ga! - IN - Service kai no uta (@meulahke)
+- JPN - Black Rock Shooter OVA - OVA AMV - Braveheart (@Soramimi)
+- JPN - Bleach - MV - After Dark ~ Full Vers (@Soramimi)
+- JPN - Bleach - MV - Asterisk ~ Full Vers (@Soramimi)
+- JPN - Bleach - MV - CHU-BURA ~ Full Vers (@Soramimi)
+- JPN - Bleach - MV - Houkiboshi ~ Full Vers (@Soramimi)
+- JPN - Bleach - MV - Ichirin no hana ~ Full Vers (@Soramimi)
+- JPN - Bleach - MV - My Pace ~ Full Vers (@Soramimi)
+- JPN - Bleach - MV - Sakura Biyori ~ Clip Vers (@Soramimi)
+- JPN - Bleach - MV - Thank You!! ~ Full Vers (@Soramimi)
+- JPN - Boboboubo Boubobo - MV - Wild Challenger ~ Full Vers (@Soramimi)
+- JPN - Boku no Hero Academia S4 - ED - Koukai no Uta (@Dysp)
+- JPN - Bokurano - MV - Uninstall ~ Full Vers (@Soramimi)
+- JPN - Bungou Stray Dogs S3 - OP2 - Setsuna no Ai ~ Alternative Ver (@Suryan)
+- JPN - CLANNAD - LIVE - Megumeru ~ Full Vers (@Soramimi)
+- JPN - Cardfight!! Vanguard Shinemon-hen - OP1 - Lead the way (@Deformer-Lua)
+- JPN - Carnival Phantasm - LIVE - Super Affection ~ Full Vers (@Soramimi)
+- JPN - Cencoroll Connect - MOVIE MV - Nanairo night (@Kmeuh)
+- JPN - Chihayafuru 3 - ED1 - Hitomebore (@Ni-jibakurei)
+- JPN - Chihayafuru 3 - OP1 - COLORFUL (@Ni-jibakurei)
+- JPN - Claymore - MV - Danzai no Hana ~Guilty Sky~ ~ Full Vers (@Soramimi)
+- JPN - Claymore - MV - Raison d'Etre ~ Full Vers (@Soramimi)
+- JPN - Code Geass Hangyaku no Lelouch - MV - Colors ~ Full Vers (@Soramimi)
+- JPN - Code Geass Hangyaku no Lelouch - MV - Hitomi no Tsubasa ~ Full Vers (@Soramimi)
+- JPN - Code Geass Hangyaku no Lelouch R2 - MV - O2 ~ Full Vers (@Soramimi)
+- JPN - Code Geass Hangyaku no Lelouch R2 - MV - Waga Routashi Aku no Hana ~ Full Vers (@Soramimi)
+- JPN - Gekijouban Macross Frontier Sayonara no Tsubasa - MOVIE IN - Sayonara no Tsubasa ~ the end of triangle (@meulahke)
+- JPN - Gekkan Shoujo Nozaki-kun - ED - Uraomote Fortune (@Kmeuh)
+- JPN - Gintama. Pokori-hen - ED1 - Hankou Seimei (@LeMeow)
+- JPN - Hataage! Kemono Michi - OP - Fight! Kemoner Mask (@amoethyst)
+- JPN - Higurashi no Naku Koro ni Hou - GAME OP - Ano Hi e (@Rinchama)
+- JPN - Honzuki no Gekokujou Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen - ED - Kamikazari no Tenshi (@Kmeuh)
+- JPN - Honzuki no Gekokujou Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen - OP - Masshiro (@Kmeuh)
+- JPN - Hoshiai no Sora - ED - Kago no Naka no Bokura wa (@Ni-jibakurei)
+- JPN - Hoshiai no Sora - OP - Suisou (@Ni-jibakurei)
+- JPN - IDOLiSH7 - GAME MV - MEMORiES MELODiES (@Nabashi)
+- JPN - IDOLiSH7 - GAME MV - MONSTER GENERATiON (@Nabashi)
+- JPN - IDOLiSH7 - GAME MV - NO DOUBT (@Nabashi)
+- JPN - Initial D First Stage - ED1 - Rage your dream (@meulahke)
+- JPN - Initial D First Stage - ED2 - Kiseki no hana (@meulahke)
+- JPN - JoJo no Kimyou na Bouken Ougon no Kaze - OP2 - Uragirimono no Requiem ~ Diavolo & Requiem & FX Ver (@Amo, @Suryan)
+- JPN - JoJo no Kimyou na Bouken Ougon no Kaze - OP2 - Uragirimono no Requiem ~ Diavolo Ver (@Suryan, @Amo)
+- JPN - JoJo no Kimyou na Bouken Ougon no Kaze - OP2 - Uragirimono no Requiem ~ Diavolo w FX Ver (@Amo, @Suryan)
+- JPN - Koutetsujou no Kabaneri - OP - KABANERI OF THE IRON FORTRESS ~ Alternative Vers (@Rinchama)
+- JPN - Lord El-Melloi II Sei no Jikenbo Rail Zeppelin Grace Note - OP - starting the case Rail Zeppelin ~ Off Vocal Vers (@Suryan)
+- JPN - No Game No Life Zero - MOVIE ED - There Is A Reason (@Nifra)
+- JPN - One Piece - CM - Kinen Satsuei (@Dysp)
+- JPN - Ore wo Suki nano wa Omae dake ka yo - ED - Hanakotoba (@meulahke)
+- JPN - Ore wo Suki nano wa Omae dake ka yo - OP - Pa Pa Pa (@meulahke)
+- JPN - Pocket Monsters (2019) - OP1 - 1.2.3 (@meulahke)
+- JPN - Shiritsu Berubara Gakuen ~Versailles no Bara Re imagination~ - SWITCH GAME OP - Mikansei ACTOR (@Nabashi)
+- JPN - Soukou Akki Muramasa - PC GAME OP - MURAMASA ~ Alternative Vers (@Karaoke Mugen)
+- JPN - Tales of The Abyss - MV - Karma ~ Full Vers (@Soramimi)
+- JPN - Tales of Vesperia - MV - Kane wo Narashite ~ Full Vers (@Soramimi)
+- JPN - Tenki no Ko - MOVIE MV - Grand Escape ~ Full Vers (@Kmeuh)
+- JPN - Top wo Nerae 2! Diebuster - OVA AUDIO OP - Groovin' Magic ~ Full Vers (@Soramimi)
+- JPN - Virtual-san wa Miteiru - MV - Hitogata ~ Full Vers (@amoethyst)
+- JPN - Yu-Gi-Oh! VRAINS - ED5 - Are you ready question_mark (@Deformer-Lua, @Joeri_sama)
+- JPN - the pillows - MV - I Think I Can (@Soramimi)
+
+## Fixed
+
+- ENG - Carole & Tuesday - ED1 - Hold Me Now
+- ENG - Carole & Tuesday - OP1 - Kiss Me
+- ENG - Chip'n Dale Rescue Rangers - OP - Chip'n Dale Rescue Rangers
+- ENG - DuckTales (1987) - OP - DuckTales
+- ENG - Goblin Slayer - OP - Rightfully
+- ENG - Initial D First Stage - IN - Beat of the Rising Sun
+- ENG - Jinrui wa Suitai Shimashita - AMV - .owo uwu (Tick Tick Boom)
+- ENG - K-ON! - AMV - Beelzeboss
+- ENG - K-ON! - AMV - What's up, people question_mark !
+- ENG - Kiddy Grade - OP - Mirai no Kioku ~ English Vers
+- ENG - Kiznaiver - MV - LAY YOUR HANDS ON ME ~ Full Vers
+- ENG - Kiznaiver - OP - LAY YOUR HANDS ON ME
+- ENG - Koe no Katachi - MOVIE OP - My Generation
+- ENG - Les Guignols - MV - We fuck the world
+- ENG - Made in Abyss - IN - Underground river
+- ENG - My Little Pony Friendship is Magic - IN - This Day Aria
+- ENG - My Little Pony Friendship is Magic - IN - Winter Wrap Up
+- ENG - My Little Pony Friendship is Magic - OP - Friendship is Magic
+- ENG - Persona 3 - PS2 GAME OP - Burn my dread
+- ENG - Persona 5 The Royal - PS4 GAME OP - Colors Flying High
+- ENG - Pocket Monsters - MV - Pokerap
+- ENG - Redline - AMV - Initial RED - Gas gas gas
+- ENG - Shelter - MV - Shelter
+- ENG - Shingeki no Kyojin - AUDIO MV - Call your name
+- ENG - Shoujo Kageki Revue Starlight - AMV - Is Claudine Gay or European question_mark
+- ENG - Tengen Toppa Gurren Lagann - AMV - Libera me from Hell
+- ENG - Vinland Saga - ED2 - Drown
+- ENG - WWE Monday Night RAW - AMV - I Walk Alone (Batista)
+- ENG - WWE Monday Night RAW - OP10 - Born for Greatness
+- ENG - WWE Monday Night RAW - OP2 - I Like It Raw
+- ENG - WWE Monday Night RAW - OP3 - Thorn in your Eye
+- ENG - WWE Monday Night RAW - OP4 - Across The Nation
+- ENG - WWE Monday Night RAW - OP5 - ... To Be Loved
+- ENG - WWE Monday Night RAW - OP6 - Burn it to the Ground
+- ENG - WWE Monday Night RAW - OP7 - The Night
+- ENG - WWE Monday Night RAW - OP9 - Enemies
+- FRE - 3615 Usul - MV - Excuses de sac
+- FRE - 3615 Usul - MV - La chanson du pirate
+- FRE - 3615 Usul - MV - Le CD ~ Part 1
+- FRE - 3615 Usul - MV - Le bilan
+- FRE - 3615 Usul - MV - Le joueur PC
+- FRE - 3615 Usul - MV - Ninja Impact
+- FRE - 3615 Usul - MV - Saucisse Saucisse
+- FRE - 3615 Usul - MV - Select et Reset
+- FRE - Aladdin (2019) - MOVIE OP - Nuits d'Arabie (2019)
+- FRE - Amuse 3 - OP - Amuse 3
+- FRE - Crossed - MV - Attention Dino Danger
+- FRE - Fort Boyard - REMIX OT - Megagaf
+- FRE - JamFiction - MV8 - Detective Pikachu
+- FRE - JamFiction - MV8 - Detective Pikachu ~ Off Vocal Vers
+- FRE - Joueur du Grenier - IN - Achete ma merde
+- FRE - Joueur du Grenier - MV - C'est la fete
+- FRE - Joueur du Grenier - MV - Chanson d'Infogrames
+- FRE - Kiddy Grade - OP - Mirai no Kioku ~ French Vers
+- FRE - L'Ile aux Enfants - OP - L'Ile aux Enfants
+- FRE - Les Guignols - CM - Carte Kiwi
+- FRE - Les Inconnus - MV - Vice et versa
+- FRE - Les Minikeums - OP - Les Minikeums
+- FRE - Les Visiteurs du Mercredi - OP2 - Les Visiteurs du Mercredi
+- FRE - Mashin Eiyuuden Wataru - OP - Adrien sauveur du Monde
+- FRE - Message a caractere informatif - MV - Etre patron d'entreprise
+- FRE - Message a caractere informatif Deux - MV - Chanson de l'ordinateur
+- FRE - Mitsubachi Maya no bouken - OP - Maya l'Abeille
+- FRE - NieR Automata - COVER PS4 XBOXONE PC GAME AMV - Le poids du monde
+- FRE - Saint Seiya - OP3 - La chanson des Chevaliers ~ Alternative Vers
+- FRE - Wakfu - AMV - Sur tes pas ~ Full Vers
+- JPN - Aiyoku no Eustia - PC GAME OP - Asphodelus
+- JPN - Angel Beats! - ED1 - Brave Song
+- JPN - Angel Beats! - OP - My Soul, Your Beats!
+- JPN - Angel Heart - OP3 - Battlefield of Love
+- JPN - Asagiri no Miko - OP - Faint Love
+- JPN - Azumanga Daiou The Animation (2002) - OP - Soramimi Cake
+- JPN - Azur Lane the Animation - OP - graphite diamond
+- JPN - BABYMETAL - MV - Gimme chocolate!!
+- JPN - BEASTARS - OP - Wild Side
+- JPN - BanG Dream! - ED2 - Kirakira Da Toka Yume Da Toka Sing Girls
+- JPN - BanG Dream! - OP - Tokimeki Experience!
+- JPN - Binzume Yousei - OP - Oshiete Sensei-san
+- JPN - Black Rock Shooter OVA - PV - Black Rock Shooter
+- JPN - Blood-C - AMV - Spiral ~ Full Vers
+- JPN - Bungou Stray Dogs S3 - OP1 - Setsuna no Ai
+- JPN - Candy Candy - OP - Watashi wa Candy
+- JPN - Canvas 2 ~Akaneiro no Palette~ - PC GAME OP - Plastic Smile (^^
+- JPN - Captain Tsubasa Road to 2002 - ED4 - BREAK OFF!!
+- JPN - Cardcaptor Sakura - OP1 - Catch you Catch me
+- JPN - City Hunter Special The Secret Service - SPECIAL OP - Otherwise (Daybreak)
+- JPN - DARLING in the FRANXX - ED2 - Manatsu no Setsuna
+- JPN - Deardrops - PC GAME OP - Kibou no Uta
+- JPN - Dragon Ball - OP - Makafushigi Adventure
+- JPN - Dragon Ball GT - MV - Dan Dan Kokoro Hikareteku
+- JPN - Dragon Ball Raging Blast 2 - PS3 XBOX360 GAME OP - Battle Of Omega
+- JPN - Dragon Ball Z - OP1 - Cha-la Head Cha-la
+- JPN - Dragon Ball Z - OT - CHA-LA HEAD-CHA-LA ~ Konata Vers
+- JPN - Eiyuu Densetsu Zero no Kiseki - PSP GAME OP - Way of Life
+- JPN - Elf wo Karu Mono-tachi - OP - Angel Blue
+- JPN - Final Fantasy Unlimited - ED1 - VIVID
+- JPN - Final Fantasy Unlimited - ED2 - Romancing Train
+- JPN - Final Fantasy Unlimited - OP - Over the FANTASY
+- JPN - Gallery Fake - OP - Ragtime
+- JPN - Gensou Maden Saiyuuki - OP1 - FOR REAL
+- JPN - Glass no Kantai - OP - Tsuyoku Tsuyoku
+- JPN - Goblin Slayer - ED - Gin no Kisei
+- JPN - Gojira tai Megaro - MOVIE IN - Jet Jaguar song
+- JPN - Great Mazinger - OP - Ore wa Great Mazinger
+- JPN - H2 - OP - Niji no Grand Slam
+- JPN - Hamelin no Violin Hiki - OP - MAGICAL LABYRINTH
+- JPN - Harukanaru Toki no Naka de Hachiyou Shou - ED1 - Flowin' ~Ukigomo~
+- JPN - Higurashi no Naku Koro ni Hou - GAME OP - Hikari no Sora no Qualia
+- JPN - Higurashi no Naku Koro ni Hou - GAME OP - Nageki no Mori
+- JPN - Higurashi no Naku Koro ni Hou - GAME OP - Tsuisou no Despair
+- JPN - IDOLiSH7 - GAME MV - LEOPARD EYES
+- JPN - Ike! Greenman - OP - Green-Man
+- JPN - Initial D First Stage - OP1 - around the world
+- JPN - Initial D First Stage - OP2 - BREAK IN2 THE NITE
+- JPN - JoJo no Kimyou na Bouken Diamond wa Kudakenai - OP3 - Great Days ~ Bites the Dust Ver
+- JPN - JoJo no Kimyou na Bouken Ougon no Kaze - OP1 - Fighting Gold
+- JPN - JoJo no Kimyou na Bouken Ougon no Kaze - OP2 - Uragirimono no Requiem
+- JPN - K-ON! - AMV - Cagayake! GIRLS (VOCA-ON!)
+- JPN - Kaiketsu Zorro - OP - ZORRO
+- JPN - Kamen Rider Zi-O - OP1 - Over Quartzer
+- JPN - Kidou Shin Seiki Gundam X - OP1 - DREAMS
+- JPN - Kidou Shin Seiki Gundam X - OP2 - Resolution
+- JPN - Kimetsu no Yaiba - ED - From the edge
+- JPN - Kimetsu no Yaiba - OP - Gurenge
+- JPN - Kimi no Na wa. - MOVIE IN - Zen Zen Zense
+- JPN - Kindaichi Shounen no Jikenbo - OP4 - Brave
+- JPN - Koumajou Densetsu II Stranger's Requiem - PC GAME OP - Afraid
+- JPN - Koutetsujou no Kabaneri - ED - ninelie
+- JPN - Koutetsujou no Kabaneri - OP - KABANERI OF THE IRON FORTRESS
+- JPN - Len Kagamine - MV - Takkyuu Shounen & hami
+- JPN - Les Miserables Shoujo Cosette - OP - Kaze no Mukou
+- JPN - Log Horizon - OP - database feat. TAKUMA (10-FEET)
+- JPN - Lord El-Melloi II Sei no Jikenbo Rail Zeppelin Grace Note - ED - Hibari
+- JPN - Luminous Arc 3 Eyes - DS GAME OP - Wake up World
+- JPN - Magi The Kingdom of Magic - OP2 - HIKARI
+- JPN - Mahou Shoujo Lyrical Nanoha - OP - Innocent Starter
+- JPN - Meitantei Conan - ED27 - I still believe ~ Tame'iki ~
+- JPN - Meitantei Conan - OP8 - Koi wa Thrill, Shock, Suspense
+- JPN - Miku Hatsune - MV - Black Rock Shooter
+- JPN - Miku Hatsune - MV - VOiCE
+- JPN - Niji no Kanata ni - GAME OP - Taiyou to Hashirou!
+- JPN - Noble Works - PC GAME OP - Change & Chance!
+- JPN - Osananajimi wa Daitouryou My Girlfriend is the President - PC GAME OP - Rocket Love Panic!
+- JPN - Re Cutie Honey - OVA OP - Cutie Honey
+- JPN - Re Cutie Honey - OVA OP - Cutie Honey ~ 8-Bit Vers
+- JPN - Ryuu ga Gotoku 0 - PS3 PS4 PC GAME IN - 24 Jikan Cinderella
+- JPN - Ryuu ga Gotoku 0 - PS3 PS4 PC GAME IN - Baka Mitai
+- JPN - Ryuu ga Gotoku 0 - PS3 PS4 PC GAME IN - Judgement -Shinpan-
+- JPN - Sarazanmai - OP1 - Massara
+- JPN - Sasami-san@Ganbaranai - ED - Shintouatsu Symphony ~ Main Cast Vers
+- JPN - Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai - ED - Fukashigi no Karte ~ Kaede Vers
+- JPN - Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai - ED - Fukashigi no Karte ~ Nodoka Vers
+- JPN - Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai - ED - Fukashigi no Karte ~ Rio Vers
+- JPN - Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai - ED - Fukashigi no Karte ~ Tomoe Vers
+- JPN - Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai - OP - Kimi no Sei
+- JPN - Seiyou Kottou Yougashiten Antique - OP - Live Goes On Side K
+- JPN - Shakugan no Shana III Final - ED1 - I'll Believe
+- JPN - Shining Force Cross - GAME OP - Juujika no Spread
+- JPN - Shinpi no Sekai El-Hazard TV - OP - Illusion
+- JPN - Shokugeki no Souma San no Sara - OP - BRAVER
+- JPN - Slayers Movie - MOVIE ED - Midnight Blue
+- JPN - Sora no Aosa o Shiru Hito yo - MOVIE MV - Sora no Aosa o Shiru Hito yo ~ Movie vers
+- JPN - Soukou Akki Muramasa - PC GAME OP - MURAMASA
+- JPN - Subete ga F ni Naru - OP - talking
+- JPN - Suteki na Shota Days COMIC MOVIE - MV - Saigo no Sangatsu ~BOYS DON'T CRY~
+- JPN - Sword Art Online Alicization - War of Underworld - OP - Resolution
+- JPN - Taimanin Yukikaze - OVA OP - R E D
+- JPN - Tenki no Ko - MV - Shukusai (Movie edit)
+- JPN - Tokimeki Idoling!!! - MV - Te no Hira no Yuuki
+- JPN - Tondemo Senshi Muteking - OP - Roller Hero Mutaking
+- JPN - Top wo Nerae! Gunbuster - MOVIE IN - Top o Nerae! Fly High
+- JPN - Top wo Nerae! Gunbuster - OVA OP - Active Heart
+- JPN - Tottemo! Luckyman - OP - Luckyman no Uta
+- JPN - Touhou - MV - Blazing Heart (Gin no Meguri)
+- JPN - Vocaloid Ultimate Muscle Roller Legend - OT - Bucchigiri ni Shite ageru
+- JPN - Watashi Nouryoku wa Heikinchi de tte Itta yo ne! - OP - Smile Skill = Suki Skill!
+- JPN - Youjo Senki - ED1 - Los! Los! Los!
+- JPN - airy F airy Easter of Sant' Ariccia - PC GAME OP - mirto
+
+
 # October 2019
 
 Contributors: 
