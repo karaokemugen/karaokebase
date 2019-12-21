@@ -34,4 +34,4 @@ Util by @Ziassan to split a romaji text into different syllables, adding a separ
 
 Create changelog for CHANGELOG.md. Supply a year-date to make it work.
 
-Example : `node changelog.js 2019-09`
+Example : `node changelog.js 2019-09` or `node changelog.js 2019-09 file.txt`

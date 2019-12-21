@@ -9,6 +9,12 @@ const contributors = [];
 const newKaras = [];
 const modifiedKaras = [];
 
+if (!process.argv[2]) {
+	console.log(`Create changelog for CHANGELOG.md. Supply a year-date to make it work. 
+	Example : node changelog.js 2019-09 or node changelog.js 2019-09 file.txt`);
+	return;
+}
+
 const start = new Date(process.argv[2] + '-01');
 const end = new Date(process.argv[2] + '-31');
 
