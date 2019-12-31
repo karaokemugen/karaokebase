@@ -1,4 +1,183 @@
+# December 2019
+
+Contributors: 
+
+- @Adrian
+- @Angor
+- @AragornFr
+- @Deformer-Lua
+- @Dysp
+- @ENSSAT-Japanim
+- @Eden
+- @Joysound
+- @Kmeuh
+- @Koheitohikari
+- @May
+- @Monow
+- @Nabashi
+- @Nyguita
+- @Saikyo
+- @Soramimi
+- @amoethyst
+- @meulahke
+
+## Added
+
+New songs : 62
+
+- ENG - CAXX - MV - I'd Like To Teach The World To Fap (In Perfect Harmony) (@amoethyst)
+- ENG - City Hunter - AUDIO IN - NO NO NO (@Monow)
+- ENG - Dan Balan - MV - Crazy Loop (Mm-ma-ma) (@Soramimi)
+- ENG - Initial D Second Stage - MV - Deja Vu ~ Lyrics Video Vers (@AragornFr)
+- FRE - 3615 Usul - MV - Le CD ~ Part 2 (@Kmeuh)
+- FRE - 3615 Usul - MV - Le CD ~ Part 3 (@Kmeuh)
+- FRE - 3615 Usul - MV - Le CD ~ Part 4 (@Kmeuh)
+- FRE - Crossed - MV - Dead or Alive (@Kmeuh)
+- FRE - Darkwing Duck - OP - Myster Mask (@meulahke)
+- FRE - Ganesh2 - AUDIO OT - CHA LA INCH ALLAH (@Deformer-Lua)
+- FRE - Gekijouban Pocket Monsters Minna no Monogatari - MOVIE ED - Le pouvoir est en nous (@Kmeuh)
+- FRE - Joueur du Grenier - MV - Recette pour jeu pourri (@Kmeuh)
+- FRE - Kurenai no Buta - MOVIE AMV - Le Temps de Cerises (@ENSSAT-Japanim)
+- FRE - Les Kassos - IN - Jackyra (@meulahke)
+- FRE - Mulan - MOVIE IN - Reflexion (@May)
+- GER - Fushigi no Umi no Nadia - OP - Die Macht des Zaubersteins (@Kmeuh)
+- JPN - ACTORS -Songs Connection- - OP - Titania (@Nabashi)
+- JPN - Bravely Default - LIVE - Kare no mono no na wo (@Joysound, @meulahke)
+- JPN - Chinpui - ED - Cinderella Nanka ni Naritakunai (@Kmeuh)
+- JPN - Choujigen Game Neptune mk2 - PS3 GAME OP - Kirihirake Gracie Star (@Adrian)
+- JPN - Chuubyou Gekihatsu-Boy - ED - Here comes The SUN (@meulahke)
+- JPN - Chuubyou Gekihatsu-Boy - OP - Chuubyou Gekihatsu Boy (@meulahke)
+- JPN - Danshi Koukousei no Nichijou - MV - Shiny Tale ~ Full Vers (@Soramimi)
+- JPN - Dragon Ball Heroes - GAME OP2 - Hakuryuu Mission (@Saikyo)
+- JPN - Dragon Ball Z Tenkaichi Budokai 3 - PS2 WII GAME OP - Super Survivor (@meulahke)
+- JPN - Eiyuu Senki - PC GAME OP - Fate Runners (@Nyguita)
+- JPN - GRANBLUE FANTASY The Animation Season 2 - OP - Stay With Me (@Nabashi)
+- JPN - Gekijouban City Hunter Shinjuku Private Eyes - MOVIE ED1 - Get Wild (@Eden)
+- JPN - Gekijouban City Hunter Shinjuku Private Eyes - MOVIE ED2 - Still Love Her (@Eden)
+- JPN - Genei Ibun Roku #FE - WIIU GAME IN - Feel (@Adrian)
+- JPN - Genei Ibun Roku #FE - WIIU GAME IN - Fire Emblem ~Hikari no Gikyoku~ (@Adrian)
+- JPN - Ginga Tetsudou 999 (1979) - MOVIE ED - The Galaxy Express 999 (@meulahke)
+- JPN - Granblue Fantasy - GAME LIVE - The Dragon Knights ~ GranFest 2018 Vers (@Nabashi)
+- JPN - Hetalia Axis Powers - ONA AUDIO CS - Fall in Love Mademoiselle (@Monow)
+- JPN - Hisone to Masotan - OP2 - Shoujo wa Ano Sora ni Madou (@Kmeuh)
+- JPN - IDOLiSH7 - GAME MV - Bang!Bang!Bang! (@Nabashi)
+- JPN - IDOLiSH7 - GAME MV - DIAMOND FUSION (@Nabashi)
+- JPN - IDOLiSH7 - GAME MV - Mr.AFFECTiON (@Nabashi)
+- JPN - IDOLiSH7 - GAME MV - Nanatsuiro REALiZE (@Nabashi)
+- JPN - IDOLiSH7 - GAME MV - RESTART POiNTER (@Nabashi)
+- JPN - IDOLiSH7 - GAME MV - WiSH VOYAGE (@Nabashi)
+- JPN - Kamen Rider Wizard - OP - Life is Show Time ~ Final Vers (@Angor, @MaxaoH)
+- JPN - Kamisama to Unmei Kakumei no Paradox - PS3 GAME OP - Kami, Nozomu Sekai to Hakinowa Gensou (@Kmeuh)
+- JPN - Kenka Banchou Otome - PSV GAME OP - Ai Suru Mono e Sasagu You ni (@Nabashi)
+- JPN - Kenka Banchou Otome ~Kanzen Muketsu no My Honey~ - PSV GAME OP - TWO SOULS Atarashii Ashita e (@Nabashi)
+- JPN - Kidou Senshi Gundam F91 - MOVIE AMV - ETERNAL WIND ~Hohoemi wa Hikaru Kaze no Naka~ - 2015 Vers (@meulahke)
+- JPN - Kono Yuusha ga Ore TUEEE Kuse ni Shinchou Sugiru - ED - be perfect, plz! (@meulahke)
+- JPN - Kono Yuusha ga Ore TUEEE Kuse ni Shinchou Sugiru - OP - TIT FOR TAT (@meulahke, @Joysound)
+- JPN - Miku Hatsune,Luka Megurine - LIVE - World's End Dancehall ~ Miku Expo 2018 Paris
+- JPN - Ojamajo Doremi - ED - Kitto Ashita wa (@Kmeuh)
+- JPN - One Piece - OP22 - Over the top (@Saikyo, @meulahke)
+- JPN - Osake wa Fuufu ni Natte kara - ED - Don't Let Me Down (@Kmeuh)
+- JPN - Senki Zesshou Symphogear - LIVE - Synchrogazer (@Adrian)
+- JPN - Soul Eater - ED2 - Style (@meulahke)
+- JPN - Soul Eater - ED3 - Bakusou yume uta (@meulahke)
+- JPN - Suki ni Naru Sono Shunkan wo. Kokuhaku Jikkou Iinkai - MV - Senpai. -N.Edit- (@Dysp)
+- JPN - Sword Art Online Alicization - War of Underworld - OP - Resolution ~ Alicization Exploding Vers (@Koheitohikari)
+- JPN - Tamaki Inuyama - COVER MV - Dramaturgy (@amoethyst)
+- JPN - To Aru Kagaku no Railgun S - OP2 - Eternal Reality (@Monow)
+- JPN - Ultra Maniac - ED - Hitotsu=Unmei Kyoudoutai (@Soramimi)
+- JPN - Zero no Tsukaima - ED - Honto no Kimochi (@Monow)
+- JPN - Zero no Tsukaima Princesses No Rondo - ED - Gomen ne (@Monow)
+
+## Fixed
+
+- ENG - Initial D Second Stage - IN - Deja Vu
+- ENG - JoJo no Kimyou na Bouken Ougon no Kaze - ED2 - Modern Crusaders
+- FRE - 3615 Usul - MV - Le CD ~ Part 1
+- FRE - Chapi Chapo - OP - Chapi Chapo
+- FRE - City Hunter - OP2 - La Chanson de Nicky
+- FRE - La Cite de la Peur - IN - La Carioca
+- FRE - La Seine no Hoshi - OP - La Tulipe Noire
+- FRE - Love Hina - ED2 - Le debut, c'est maintenant
+- FRE - Mulan - MOVIE IN - Comme un homme
+- FRE - SilverHawks - OP - Silverhawks
+- FRE - UFO Robo Grendizer - OP1 - Accours vers nous prince de l'espace
+- ITA - Digimon Adventure 02 - OP - Digimon per sempre
+- ITA - Naruto - AMV - Io Credo in Me ~ Full Vers. 1
+- ITA - Naruto Shippuuden - AMV - Io Credo in Me ~ Full Vers. 2
+- ITA - Naruto Shippuuden - AMV - Io Credo in Me ~ Full Vers. 3
+- JPN - Aa! Megami-sama! Tatakau Tsubasa - SPECIAL ED - Hanamuke no Melody
+- JPN - Aa! Megami-sama! Tatakau Tsubasa - SPECIAL OP - Ai no Hoshi
+- JPN - Agarest Senki Zero - PS3 XBOX360 GAME OP - Owaranai Sekai
+- JPN - Air Gear - OP - Chain
+- JPN - Assassins Pride - ED - Ijintachi no Jikan
+- JPN - Assassins Pride - OP - Share the light
+- JPN - B't X Neo - OVA OP - A Piece of the Sun
+- JPN - Bakuryuu Sentai Abaranger - OP - Bakuryuu Sentai Abaranger
+- JPN - Baldr Sky Dive2 Recordare - PC GAME ED - Nano Universe
+- JPN - Baldr Sky Dive2 Recordare - PC GAME OP - Jihad
+- JPN - Binbougami ga! - OP - Make My Day
+- JPN - Bleach - ED2 - Thank You!!
+- JPN - Boboboubo Boubobo - ED1 - Shiawase
+- JPN - Captain Tsubasa Road to 2002 - ED1 - Feel so Right
+- JPN - City Hunter Special Kinkyuu Namachuukei! question_mark Kyouakuhan Saeba Ryou no Saigo - SPECIAL OP - Illusion City
+- JPN - Dragon Ball Kai - OP - Dragon Soul
+- JPN - Dragon Ball Raging Blast - PS3 XBOX360 GAME OP - Progression
+- JPN - Hisone to Masotan - OP1 - Shoujo wa Ano Sora wo Wataru
+- JPN - Hitoribocchi no Marumaru Seikatsu - ED2 - Bakushou Bocchi Juki Kouka
+- JPN - Hitoribocchi no Marumaru Seikatsu - OP - Hitori Bocchi no Monologue
+- JPN - IDOLiSH7 - GAME MV - DAYBREAK INTERLUDE
+- JPN - IDOLiSH7 - GAME MV - MEMORiES MELODiES
+- JPN - IDOLiSH7 - GAME MV - MONSTER GENERATiON
+- JPN - JoJo no Kimyou na Bouken Ougon no Kaze - OP1 - Fighting Gold
+- JPN - JoJo no Kimyou na Bouken Ougon no Kaze - OP2 - Uragirimono no Requiem
+- JPN - Kamen Rider - LIVE - Let's Go!! Rider Kick
+- JPN - Kamen Rider Build - OP - Be the One
+- JPN - Kamen Rider Build - OP - Be the One ~ Final Vers
+- JPN - Kamen Rider V3 - OP - Tatakae! Kamen Rider V3
+- JPN - Kamen Rider Wizard - OP - Life is Show Time
+- JPN - Koumajou Densetsu Scarlet Symphony - PC GAME OP - Kirisome no Amnesia
+- JPN - Kurenai no tsuki - PC GAME OP - Kurenai no tsuki
+- JPN - Kyojuu Tokusou Jaspion - IN - Ginga no Tarzan
+- JPN - Mirrorman - AMV - Tatakae! Mirrorman ~ Full Vers
+- JPN - Muteki Koujin Daitarn 3 - ED - Top de Tango
+- JPN - Muteki Koujin Daitarn 3 - OP - Come Here! Daitarn 3
+- JPN - Naruto - ED12 - Parade
+- JPN - No Game No Life Zero - MOVIE ED - There Is A Reason
+- JPN - Otaku no Video - OVA MV - Tatakae! Otaking
+- JPN - Popotan - AMV - Ichigo GO! GO!
+- JPN - Ressha Sentai ToQger - OP - Ressha Sentai ToQger
+- JPN - Rurouni Kenshin Meiji Kenkaku Romantan - AMV - Heart of Sword Yoake Mae ~ Full Vers
+- JPN - Senki Zesshou Symphogear - ED - Meteor Light
+- JPN - Senki Zesshou Symphogear - OP - Synchrogazer
+- JPN - Senki Zesshou Symphogear G - ED - Next Destination
+- JPN - Senki Zesshou Symphogear XD Unlimited - GAME OP - UNLIMITED BEAT
+- JPN - Shadow Skill (1998) - OP - born Legend
+- JPN - Shuraki - CM - Shuraki
+- JPN - Shuriken Sentai Nininger - OP - Saa Ike! Ninninger!
+- JPN - Soul Eater - ED1 - I Wanna Be
+- JPN - Star Twinkle PreCure - ED1 - PaPePiPu Romantic
+- JPN - Super Robot Mach Baron - ED - Nemure Mach Baron Eizo Japan
+- JPN - Sword Art Online Alicization - OP2 - RESISTER ~ Alicization Rising Vers
+- JPN - Sword Art Online Alicization - OP2 - RESISTER ~ Alicization Uniting Vers
+- JPN - Sword Art Online Alicization - War of Underworld - ED - unlasting
+- JPN - Sword Art Online Alicization - War of Underworld - OP - Resolution ~ Alicization Invading Vers
+- JPN - Taiyou no Kiba Dagram - IN - EXODUS
+- JPN - Tenki no Ko - MOVIE MV - Grand Escape ~ Full Vers
+- JPN - Tokusou Sentai Dekaranger - OP - Tokusou Sentai D
+- JPN - Touhou - MV - Kero 9 Destiny
+- JPN - Uchuu Sentai KyuuRanger - ED - Kyutama Dancing!
+- JPN - Uchuu Sentai KyuuRanger - OP - Lucky Star
+- JPN - Ultra Maniac - OP - Kagami no Naka
+- JPN - Ultraman Retsuden - OP5 - ULTRA FLY
+- JPN - X BOMBER - OP - Soldier in the Space
+- JPN - Zoku Sayonara Zetsubou-sensei - ED1 - Koiji Romanesque
+- JPN - Zyuden Sentai Kyoryuger - OP - Vamola! Kyoryuger
+- JPN - xxxHOLiC - ED2 - Kagerou
+- LAT - Genso Suikoden II - PSX GAME OP - Theme of Genso Suikoden II
+
+
 # November 2019
+
 Contributors:
 
 - @Amo
