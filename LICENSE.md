@@ -4,7 +4,7 @@ All karaokes are property of their respective authors.
 
 Videos stored on Shelter are the property of their respective right holders.
 
-We try, as much as possible, to fill the `author` tag in a `.kara.json` file to credit the author of a karaoke. Some of them are empty simply because we are not aware of who created them. If you know, please submit a pull request.
+We try, as much as possible, to fill the `author` tag in a `.kara.json` file to credit the author of a karaoke. Some of them are under the "Karaoke Mugen" name simply because we are not sure of who created them. If you know, please submit a pull request or contact us.
 
 The files in this repository are under a [Creative Commons 4.0 BY-NC-SA license](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
