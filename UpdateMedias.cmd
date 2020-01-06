@@ -23,8 +23,6 @@ echo.
 echo You can stop the download anytime and resume it by restarting this script.
 echo.
 echo IMPORTANT : A dry run will be launched first. Make sure it's okay before continuing.
-echo If you see ALL your media files are going to be deleted, CTRL+C NOW to abort
-echo If it is all right, hit enter to continue.
 echo You will be prompted for the password twice.
 REM If date is newer than July 1st 2018, rename videos to medias
 SET FirstDate=2018-06-30
@@ -38,24 +36,12 @@ SET TodayDay=%DATE:~0,2%
 
 
 
-SET DESTDIR=videos
+SET DESTDIR=medias
 
-REM Construct today's date to be in the same format as the FirstDate.
-REM Since the format is a comparable string, it will evaluate date orders.
-IF %TodayYear%-%TodayMonth%-%TodayDay% GTR %FirstDate% (
-    SET DESTDIR=medias
-	IF EXIST videos (
-		IF NOT EXIST medias (
-			rename videos medias	
-		) ELSE (
-			move /Y videos\* medias\
-		)	
-	)	
-) ELSE (
-    SET DESTDIR=videos
-)
+Updater\rsync --dry-run -ruvh --progress --delete-after %LOGIN%@%HOST%::%RSYNCRESSOURCE%/medias/ %DESTDIR%
 
-Updater\rsync --dry-run -ruvh --progress --delete-after %LOGIN%@%HOST%::%RSYNCRESSOURCE%/videos/ %DESTDIR%
+echo If you see ALL your media files are going to be deleted, CTRL+C NOW to abort
+echo If it is all right, hit enter to continue.
 pause
-Updater\rsync -ruvh --progress --delete-after %LOGIN%@%HOST%::%RSYNCRESSOURCE%/videos/ %DESTDIR%/
+Updater\rsync -ruvh --progress --delete-after %LOGIN%@%HOST%::%RSYNCRESSOURCE%/medias/ %DESTDIR%/
 pause

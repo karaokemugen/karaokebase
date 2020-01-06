@@ -19,23 +19,11 @@ echo If it is all right, hit enter to continue.
 echo You will be prompted for the password twice.
 DESTDIR=videos
 
-if [ -e "./UpdateMedias.sh" ] 
+if [ -e "./UpdateMedias.sh" ]
 then
-	if [ `date +%s` -ge 1530396000 ] 
-	then
-		 DESTDIR=medias
-		 if [ -e "./videos" ] && [ ! -e "./medias" ] 
-		 then
-			mv videos medias
-		 fi
-		 if [ -e "./videos" ] && [ -e "./medias" ] 
-		 then
-			mv -f videos/* medias/
-		 fi
-	fi
-	rsync -ruvh --dry-run --progress --delete-after $rsynclogin@$host::$ressource/videos/ $DESTDIR
+	rsync -ruvh --dry-run --progress --delete-after $rsynclogin@$host::$ressource/medias/ $DESTDIR
 	read -p "Press enter to continue"
-	rsync -ruvh --progress --delete-after $rsynclogin@$host::$ressource/videos/ $DESTDIR
+	rsync -ruvh --progress --delete-after $rsynclogin@$host::$ressource/medias/ $DESTDIR
 else
 	echo "Error : this script must be launched in its own folder."
 	exit 1
