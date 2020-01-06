@@ -76,6 +76,8 @@ async function main() {
 	out.push('');
 	out.push('## Fixed')
 	out.push('');
+	out.push('Fixed songs : ' + modifiedKaras.length);
+	out.push('');
 	modifiedKaras.sort();
 	modifiedKaras.forEach(k => out.push('- ' + k));
 
