@@ -17,7 +17,7 @@ echo IMPORTANT : A dry run will be launched first. Make sure it is okay before c
 echo If you see ALL your media files are going to be deleted, CTRL+C to abort
 echo If it is all right, hit enter to continue.
 echo You will be prompted for the password twice.
-DESTDIR=videos
+DESTDIR=medias
 
 if [ -e "./UpdateMedias.sh" ]
 then
