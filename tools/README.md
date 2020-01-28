@@ -12,7 +12,7 @@ This modification is usually applied by timers individually using AegisSub durin
 
 ## export_karaokesmoe.php
 
-Script by @Keul & @nah to export a SQLite Karaoke Mugen database into [AnimeOpening](https://github.com/AniDevTwitter/animeopenings) names.php file.
+Script by @Keul & @nah to export a Postgres Karaoke Mugen database into [AnimeOpening](https://github.com/AniDevTwitter/animeopenings) names.php file.
 
 ## Preset_handbrake_karaoke.json
 
