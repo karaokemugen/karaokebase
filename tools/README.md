@@ -35,3 +35,7 @@ Util by @Ziassan to split a romaji text into different syllables, adding a separ
 Create changelog for CHANGELOG.md. Supply a year-date to make it work.
 
 Example : `node changelog.js 2019-09` or `node changelog.js 2019-09 file.txt`
+
+## bakaclub_news_check.js
+
+Specify a ISO date in command line and it'll check and then post on our gitlab new karaokes to integrate from Bakaclub's database everyday!
