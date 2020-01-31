@@ -1,3 +1,343 @@
+# January 2020
+
+Contributors: 
+
+- @Adrian
+- @Anasuna
+- @Bakaclub
+- @Bonta-kun
+- @Colgate
+- @Eden
+- @Elliu
+- @Karaoke Mugen
+- @Kmeuh
+- @Koheitohikari
+- @Krow
+- @Kubat
+- @Luca
+- @May
+- @Nabashi
+- @Nock
+- @Nodamin
+- @Phoko
+- @RalZareck
+- @Rinchama
+- @Soramimi
+- @Stal
+- @Storm
+- @Suryan
+- @Ultra
+- @amoethyst
+- @meulahke
+
+## Added
+
+New songs : 137
+
+- DUT - Dondon Dommel to Ron - OP - Dommel (@Soramimi)
+- ENG - Assassin's Creed Revelations - PS3 XBOX360 PC GAME PV - Iron (@Krow)
+- ENG - Cartoons - REMIX AMV - Witch Doctor (@Bakaclub, @Ultra)
+- ENG - Code Vein - PS4 XBOXONE PC GAME OP - Underworld (@Stal)
+- ENG - Donkey Kong 64 - N64 GAME OP - DK Rap (@meulahke)
+- ENG - ELLEGARDEN - MV - Salamander (@Soramimi)
+- ENG - Ergo Proxy - AMV - Kiri ~ Full Vers (@Soramimi)
+- ENG - Final Fantasy IX - PSX GAME AMV - Melodies of Life (@Soramimi)
+- ENG - Frozen - COVER MOVIE MV - Let It Go ~ Demi Lovato Vers (@Soramimi)
+- ENG - Liz to Aoi Tori - MOVIE PV - Songbirds (@Nock)
+- ENG - Mulan - MOVIE IN - I'll Make a Man Out of You (@Soramimi)
+- ENG - My Little Pony Friendship is Magic - IN - Art of the Dress (@Soramimi)
+- ENG - My Little Pony Friendship is Magic - IN - The Laughter Song (@Soramimi)
+- ENG - Persona 5 Scramble The Phantom Strikers - PS4 SWITCH GAME OP - You are stronger (@meulahke)
+- ENG - Persona 5 the Animation - OP1 - BREAK IN TO BREAK OUT (@Kmeuh)
+- ENG - RWBY - ONA AMV - Red Like Roses Part II (@RalZareck)
+- ENG - Radiohead - MV - Paranoid Android ~ Full Vers (@Soramimi)
+- ENG - Ratchet & Clank Up Your Arsenal - PS2 GAME IN - Death to squishies (@Krow)
+- ENG - Red Hot Chili Peppers - MV - Dani California (@Soramimi)
+- ENG - Super Mario RPG - COVER AMV - Rawest Forest Reanimated (@meulahke)
+- ENG - Suzumiya Haruhi no Yuuutsu - AMV - Skittles (Candy Pop) (@Colgate, @Bakaclub)
+- ENG - The Lego Movie - MOVIE MV - Everything Is AWESOME!!! (@Soramimi)
+- FRE - Dorothee - MV - Les Neiges de l'Himalaya (@Karaoke Mugen)
+- FRE - Franklin - OP - He c'est Franklin (@Phoko, @Bakaclub)
+- FRE - Manau - MV - La Tribu de Dana (@Elliu, @Bakaclub)
+- FRE - Mary Poppins - MOVIE IN - Supercalifragilisticexpialidocious (@Nodamin)
+- FRE - Mon ami Marsupilami - OP - Danse avec Marsu (@Phoko, @Bakaclub)
+- FRE - Omega Ta - COVER MV - Senbonzakura (@Bakaclub, @Kubat)
+- FRE - Palmashow - MV - La Chienlit ~ Viannouche (@Kmeuh)
+- FRE - Palmashow - MV - Pris pour cible ~ PLM (@Kmeuh)
+- FRE - RPR - PV - Jacques Chirac, maintenant (@Bakaclub)
+- FRE - Sugar Sugar Rune - OP - Chocolat ni Muchuu ~ French Vers (@Bakaclub)
+- JPN - Ahiru no Sora - ED1 - Tsubasa (@Eden)
+- JPN - Ahiru no Sora - ED2 - Over (@Eden)
+- JPN - Ahiru no Sora - OP2 - Nevermind (@Eden)
+- JPN - Aikatsu! Idol Katsudou! - IN - Emerald no Mahou (@Nodamin)
+- JPN - Akari Kizuna - MV - Akari ga Yatte Kita zot' ~ Go Toubun Vers (@Colgate)
+- JPN - Ashita no Joe 2 - ED1 - Hateshinaki yami no kanata ni (@meulahke)
+- JPN - Azuma Lim - COVER MV - Chikatto Chika Chika (@Krow)
+- JPN - Azuma Lim - COVER MV - Taiyou Iwaku Moeyo CHAOS (@Krow)
+- JPN - BEASTARS - ED1 - Le zoo (@May)
+- JPN - BEASTARS - ED2 - Nemureru Honnou (@Suryan)
+- JPN - BEASTARS - ED3 - Marble (@Suryan, @May)
+- JPN - BanG Dream! 3rd Season - OP1 - Initial (@Suryan)
+- JPN - Black Wolves Saga - Wei und Schwarz- - PSV GAME OP - Anesthesia (@Nabashi)
+- JPN - Black Wolves Saga -Bloody Nightmare- - PC GAME OP - Dear Despair (@Nabashi)
+- JPN - Black Wolves Saga -Last Hope- - PSP GAME OP - Tears (@Nabashi)
+- JPN - Chikyuu Shoujo Arjuna - ED1 - Mameshiba (@Soramimi)
+- JPN - Chikyuu Shoujo Arjuna - LIVE - Mameshiba ~ Full Vers (@Soramimi)
+- JPN - Clamp Gakuen Tanteidan - ED2 - Gift (@Soramimi)
+- JPN - Clamp Gakuen Tanteidan - LIVE - Gift ~ Full Vers (@Soramimi)
+- JPN - DBSK - MV - Doushite Kimi o Suki ni Natte Shimattandarou question_mark (@Soramimi)
+- JPN - Death Note - MV - Alumina ~ Full Vers (@Soramimi)
+- JPN - Death Note - MV - What's up, people question_mark ! ~ Full Vers (@Soramimi)
+- JPN - Death Note - MV - Zetsubou Billy ~ Full Vers (@Soramimi)
+- JPN - Death Note - MV - the WORLD ~ Full Vers (@Soramimi)
+- JPN - Death end re Quest - PS4 GAME OP - Caligula Syndrome (@Adrian)
+- JPN - Densha Otoko - ED - Sekai wa Sore o Ai to Yobundaze (@Soramimi)
+- JPN - Densha Otoko - MV - Sekai wa Sore o Ai to Yobundaze ~ Full Vers (@Soramimi)
+- JPN - Detroit Metal City - MV - Amai Koibito (@Soramimi)
+- JPN - Dorohedoro - ED - Who am I question_mark (@meulahke)
+- JPN - Dorohedoro - OP - Welcome to Chaos (@meulahke)
+- JPN - Duel Savior - PC GAME OP - Fatally (@Soramimi)
+- JPN - E's Otherwise - MV - Jouhou ~ Full Vers (@Soramimi)
+- JPN - Eizouken ni wa Te wo Dasu na! - ED - Namae no nai ao (@meulahke)
+- JPN - Eizouken ni wa Te wo Dasu na! - OP - Easy Breezy (@meulahke)
+- JPN - El Cazador de la Bruja - LIVE - Cazador del Amor (@Soramimi)
+- JPN - El Cazador de la Bruja - MV - Hikari no Yukue ~ Full Vers (@Soramimi)
+- JPN - Elfen Lied - MV - be your girl ~ Full Vers (@Soramimi)
+- JPN - Erementar Gerad - ED2 - Everlasting Song (@Soramimi)
+- JPN - Erementar Gerad - LIVE - Everlasting Song ~ Full Vers (@Soramimi)
+- JPN - Fairy Tail (2011) - OVA OP1 - Eternal Fellows (@Soramimi)
+- JPN - Fairy Tail (2011) - OVA OP2 - Blow Away (@Soramimi)
+- JPN - Fairy Tail - MV - Fiesta ~ Full Vers (@Soramimi)
+- JPN - Fairy Tail - MV - Towa no Kizuna ~ Full Vers (@Soramimi)
+- JPN - Fate Grand Order Zettai Majuu Sensen Babylonia - ED2 - Prover (@Nodamin)
+- JPN - Fate stay night - AUDIO CS - Rise (@Soramimi)
+- JPN - Fate stay night - MV - Anata ga ita mori ~ Full Vers (@Soramimi)
+- JPN - Fate stay night - MV - Disillusion ~ Full Vers (@Soramimi)
+- JPN - Fate stay night - MV - Kirameku Namida wa Hoshi ni ~ Full Vers (@Soramimi)
+- JPN - Five Star Monogatari - MOVIE MV - Hitomi no naka Far away (@Eden)
+- JPN - Galactic Patrol Lensman - ED - Paradise (@Eden)
+- JPN - Galactic Patrol Lensman - OP - ON THE WING (@Eden)
+- JPN - Gekijouban Fairy Tail Houou no Miko - MOVIE ED - Zutto Kitto (@Soramimi)
+- JPN - Get Backers - ED1 - Ichibyou no refrain (@meulahke)
+- JPN - Get Backers - ED2 - Namida no hurricane (@meulahke)
+- JPN - Get Backers - ED3 - Mr. Deja Vu (@meulahke)
+- JPN - Get Backers - ED4 - Changin' (@meulahke)
+- JPN - Get Backers - OP1 - Yuragu koto nai ai (@meulahke)
+- JPN - Get Backers - OP2 - Barairo no sekai (@meulahke)
+- JPN - Granblue Fantasy - GAME PV4 - The Dragon Knights (@Nabashi)
+- JPN - Hiatari Ryoukou! - ED1 - Shitauchi no Maria (@Eden)
+- JPN - Hypnosis Mic -Division Rap Battle- - MV - Bad Ass Temple Funky Sounds (@Nabashi)
+- JPN - ID INVADED - ED - Other Side (@Koheitohikari)
+- JPN - ID INVADED - OP - Mister Fixer (@Koheitohikari)
+- JPN - Innocence Enzai Bengoushi - MV - Hakujitsu (@Bonta-kun)
+- JPN - Ishuzoku Reviewers - ED - Hanabira ondo (@meulahke)
+- JPN - Ishuzoku Reviewers - OP - Ikouze Paradise (@meulahke)
+- JPN - Kaguya Luna - COVER MV - Chikatto Chika Chika (@Krow)
+- JPN - Kenka Banchou Otome 2nd Rumble!! - PSV GAME OP - SuperHighSchool (@Nabashi)
+- JPN - Koisuru Asteroid - OP - Aruite Ikou! (@Elliu, @Bakaclub)
+- JPN - Koukyoushihen Eureka Seven - MV - DAYS (@Soramimi)
+- JPN - Koukyoushihen Eureka Seven - MV - Fly Away ~ Full Vers (@Soramimi)
+- JPN - Lodoss-tou senki Eiyuu Kishi Den - LIVE - Kiseki no Umi ~ Full Vers (@Soramimi)
+- JPN - Love Live! School Idol Project - IN - Private Wars (@Elliu, @Bakaclub)
+- JPN - Maaya Sakamoto - LIVE - Rule ~ Iro Asenai Hibi (@Soramimi)
+- JPN - Magia Record Mahou Shoujo Madoka Magica Gaiden - OP - Gomakashi (@Kmeuh)
+- JPN - Makai Senki Disgaea - ED - Kusari (@Soramimi)
+- JPN - Meitantei Conan - AUDIO OP5 - TRUTH~A GREAT DETECTIVE OF LOVE~ ~ Full Vers (@Soramimi)
+- JPN - Moshi, Kono Sekai ni Kami-sama ga Iru to suru Naraba. - PSV GAME OP - Hourglass (@Nabashi)
+- JPN - Nande Koko ni Sensei ga! question_mark - OP - Bon Kyu Bon wa Kare no Mono (@Bakaclub, @Ultra)
+- JPN - Neko no Ongaeshi - MOVIE ED - Kaze ni Naru (@Storm)
+- JPN - Nisshin Yakisoba U.F.O. - CM - Maximum the Kaguya Luna ~ 30s Vers (@Krow)
+- JPN - Pocket Monsters (2019) - ED1 - Pokemon Shiritori (Pikachu - Mew Ver.) (@Nodamin)
+- JPN - Queen Emeraldas - OVA OP - Queen Emeraldas (@Kmeuh)
+- JPN - REOL - COVER MV - Ii Aru Fanclub (@Rinchama)
+- JPN - Senki Zesshou Symphogear AXZ - LIVE - Gekishou Infinity (@Adrian)
+- JPN - Shining Resonance - PS3 GAME OP - Niji no Senritsu (@Adrian)
+- JPN - Shining Resonance Refrain - PS4 XBOXONE PC SWITCH GAME OP - Towairo no Aria (@Adrian)
+- JPN - Shoukoujo Sara - ED - Himawari (@Eden)
+- JPN - Spinoid - ONA MV - Nijimu Sabiiro (@Luca)
+- JPN - Sword Art Online Alicization - War of Underworld - MV - unlasting ~ Full Vers (@Anasuna)
+- JPN - Tenkuu no Escaflowne - LIVE - Yakusoku wa iranai ~ Full Vers (@Soramimi)
+- JPN - Touch - OP3 - Che! Che! Che! (@Eden)
+- JPN - Touch - OP5 - Jounetsu Monogatari (@Eden)
+- JPN - Utawarerumono Chiriyukumono e no Komoriuta - PS4 PSV GAME AUDIO OP - Kimi dake no Tabiji Re boot ~ Full Vers (@Koheitohikari)
+- JPN - Utawarerumono Futari no Hakuoro - PS3 PS4 PSV GAME AUDIO ED - Uruwashiki Sekai ~ Full Vers (@Koheitohikari)
+- JPN - Utawarerumono Futari no Hakuoro - PS3 PS4 PSV GAME AUDIO IN - Towa ni ~ Full Vers (@Koheitohikari)
+- JPN - Utawarerumono Futari no Hakuoro - PS3 PS4 PSV GAME AUDIO OP - Hikari ~ Full Vers (@Koheitohikari)
+- JPN - Vinland Saga - OP2 - Dark Crow (@meulahke)
+- JPN - Watame Tsunomaki - MV - Watame Rap (@amoethyst)
+- JPN - Youjo Senki - ED2 - Sensen no Realism (@Kmeuh)
+- JPN - ZEZEHAHA - LIVE - Shibuya hachiji mae (@Krow)
+- JPN - marina - MV - Egomama (@Soramimi)
+- JPN - ravex,DJ OZMA - MV - I RAVE U (@Soramimi)
+- UND - Edouard Khil - MV - Trololo Song (R , undefined ) (@Nodamin)
+- UND - Escaflowne - MOVIE AMV - Sora (@Soramimi)
+
+## Fixed
+
+Fixed songs : 161
+
+- DUT - Tottoko Hamtarou - OP - is Hamtaro tijd
+- ENG - BTOOOM! - AMV - Calc ~ Piano Vers
+- ENG - Carole & Tuesday - IN - Move Mountains
+- ENG - Emily Bindiger - AUDIO MV - my long forgotten cloistered sleep
+- ENG - Final Fantasy VIII - PSX PC GAME AMV - Eyes on me
+- ENG - God Eater - AMV - God And Man
+- ENG - Higashi no Eden - MV - Falling Down ~ Full Vers
+- ENG - Initial D First Stage - AMV - Night of Fire
+- ENG - Kidou Senshi Gundam Unicorn - AMV - Broken Mirror
+- ENG - Kidou Senshi Gundam Unicorn - OVA ED5 - Broken Mirror
+- ENG - Metal Gear Solid Peace Walker - GAME LIVE - Heavens Divide
+- ENG - Mother - REMIX GAME AMV - Pollyanna (I Believe in You)
+- ENG - Nightwish - AMV - The Fishmaster
+- ENG - Panty and Stocking with Garterbelt - IN - D City Rock
+- ENG - RWBY - ONA OP1 - This Will Be the Day
+- ENG - RWBY - ONA OP2 - Time to Say Goodbye
+- ENG - Saw IV - MOVIE MV - I.V
+- ENG - Tenacious D in The Pick of Destiny - MOVIE IN - Beelzeboss
+- ENG - The Cranberries - MV - Zombie
+- ENG - Xenosaga - GAME AMV - Pain
+- FRE - 3615 Usul - MV - Le CD ~ Part 3
+- FRE - Banga - CM - En Route pour l'Aventure
+- FRE - Barbapapa - OP - Barbapapa
+- FRE - Carlos - MV - Tout nu et tout bronze
+- FRE - Code Lyoko - OP - Un monde sans danger
+- FRE - Dirty Pair - OP - Dan et Danny
+- FRE - Frozen - MOVIE IN - Le renouveau
+- FRE - Gekijouban Pocket Monsters Minna no Monogatari - MOVIE ED - Le pouvoir est en nous
+- FRE - Les Inconnus - MV - Vice et versa
+- FRE - Little El Cid no Bouken - OP - Rody le petit Cid
+- FRE - Love Hina - ED1 - Il suffit que tu sois la
+- FRE - Love Hina - ED2 - Le debut, c'est maintenant
+- FRE - Love Hina - OP - Les Cerisiers Fleurissent
+- FRE - Meiken Jolie - OP - La chanson de Belle et Sebastien
+- FRE - Mister Ajikko - OP - Le Petit Chef
+- FRE - Mulan - MOVIE IN - Comme un homme
+- FRE - Mulan - MOVIE IN - Reflexion
+- FRE - Patrick Sebastien - MV - Il fait chaud
+- FRE - Pucca - OP - Pucca aime Garu
+- JPN - Aikatsu Friends! - IN - Michibikarete
+- JPN - Ano Hi Mita Hana no Namae o Bokutachi wa Mada Shiranai. - LIVE - Secret Base ~Kimi ga Kureta Mono~ (10 years after) ~ Full Vers
+- JPN - Aquarion Evol - ED1 - Gekkou Symphonia
+- JPN - Aquarion Evol - OP1 - Kimi no Shinwa ~ Aquarion Dai Ni Shou
+- JPN - Aquarion Evol - OP2 - Paradoxical ZOO
+- JPN - Aquarion Logos - OP1 - Yamaidare darlin'
+- JPN - Ashita no Joe 2 - ED2 - Hateshinaki yami no kanata ni
+- JPN - Ashita no Joe 2 - OP1 - Kizudarake no Eikou
+- JPN - Ashita no Joe 2 - OP2 - Midnight Blues
+- JPN - Azur Lane the Animation - OP - graphite diamond
+- JPN - BEASTARS - OP - Wild Side
+- JPN - Beyblade Burst God - ED - Bey-ercise
+- JPN - Cat's Eye - ED1 - Dancing with the sunshine
+- JPN - Cat's Eye - OP1 - CAT'S EYE
+- JPN - Cat's Eye - OP2 - Derringer
+- JPN - Chihayafuru 3 - ED1 - HItomebore
+- JPN - Chihayafuru 3 - OP1 - COLORFUL
+- JPN - DARLING in the FRANXX - ED5 - Escape
+- JPN - Diamond no Ace Act II - OP1 - Hajimari no Uta
+- JPN - Dororo - ED2 - Yamiyo
+- JPN - Dragon Ball Z - ED1 - Dete Koi Tobikiri ZENKAI Power!
+- JPN - Dragon Ball Z - ED2 - Boku-tachi wa Tenshi datta
+- JPN - Dragon Ball Z - OP1 - Cha-la Head Cha-la
+- JPN - Dragon Ball Z - OP2 - We Gotta Power
+- JPN - Fairy Tail (2014) - ED1 - Kimi to Kare to Boku to Kanojo to
+- JPN - Fairy Tail (2014) - ED2 - Kokoro no Kagi
+- JPN - Fairy Tail (2014) - ED3 - Kimi no Mirai
+- JPN - Fairy Tail (2014) - ED4 - Don't let me down
+- JPN - Fairy Tail (2014) - ED5 - Never ever
+- JPN - Fairy Tail (2014) - ED6 - FOREVER HERE
+- JPN - Fairy Tail (2014) - ED7 - Azayaka na Tabiji
+- JPN - Fairy Tail (2014) - ED8 - Landscape
+- JPN - Fairy Tail (2014) - OP1 - MASAYUME CHASING
+- JPN - Fairy Tail (2014) - OP2 - STRIKE BACK
+- JPN - Fairy Tail (2014) - OP3 - Mysterious Magic
+- JPN - Fairy Tail (2014) - OP4 - BREAK OUT
+- JPN - Fairy Tail (2014) - OP5 - Yume-iro Graffiti
+- JPN - Fairy Tail (2014) - OP6 - NEVER-END TALE
+- JPN - Fairy Tail (2014) - OP7 - Believe in Myself
+- JPN - Fairy Tail (2014) - OP8 - Ashita wo Narase
+- JPN - Fairy Tail - ED1 - Kanpeki gu~no ne
+- JPN - Fairy Tail - ED10 - Boys Be Ambitious!!
+- JPN - Fairy Tail - ED11 - Glitter (Starving Trancer Remix)
+- JPN - Fairy Tail - ED12 - YELL ~Kagayaku Tame no Mono~
+- JPN - Fairy Tail - ED13 - Kimi ga Kureta Mono
+- JPN - Fairy Tail - ED14 - We're the Stars
+- JPN - Fairy Tail - ED2 - Tsuioku Merry-Go-Round
+- JPN - Fairy Tail - ED3 - Gomen ne, Watashi
+- JPN - Fairy Tail - ED4 - Kimi ga Iru kara
+- JPN - Fairy Tail - ED5 - Holy Shine
+- JPN - Fairy Tail - ED6 - Be As One
+- JPN - Fairy Tail - ED7 - Hitori Samishiku
+- JPN - Fairy Tail - ED8 - Don't think. Feel!!!
+- JPN - Fairy Tail - ED9 - Kono Te Nobashite
+- JPN - Fairy Tail - OP1 - Snow fairy
+- JPN - Fairy Tail - OP10 - I wish
+- JPN - Fairy Tail - OP11 - Hajimari no Sora
+- JPN - Fairy Tail - OP12 - Tenohira
+- JPN - Fairy Tail - OP13 - Break through
+- JPN - Fairy Tail - OP14 - Fairy Tail Yakusoku no Hi
+- JPN - Fairy Tail - OP2 - S.O.W. Sense of Wonder
+- JPN - Fairy Tail - OP3 - ft
+- JPN - Fairy Tail - OP4 - R.P.G. ~Rockin' Playing Game
+- JPN - Fairy Tail - OP5 - Egao no Mahou
+- JPN - Fairy Tail - OP6 - Fiesta
+- JPN - Fairy Tail - OP7 - Evidence
+- JPN - Fairy Tail - OP8 - The Rock City Boy
+- JPN - Fairy Tail - OP9 - Towa no Kizuna
+- JPN - Fruits Basket (2019) - ED2 - One Step Closer
+- JPN - Fruits Basket (2019) - OP2 - Chime
+- JPN - Gekijouban Kara no Kyoukai The Garden of Sinners - MOVIE MV - Oblivious ~ Ufotable Edit Vers
+- JPN - Ginga Tetsudou 999 Eternal Fantasy - MOVIE AMV - Brave Love
+- JPN - GojimajiP feat. Snake - OT - Ochame kinou
+- JPN - Hanasaku Iroha - ED6 - High Leap ~ Full Vers
+- JPN - Hawken - PS4 XBOXONE PC GAME AMV - only my railgun ~ Full Vers
+- JPN - Hawken - PS4 XBOXONE PC GAME AMV - only my railgun ~ Off Vocal Full Vers
+- JPN - Hitorijime My Hero - ED1 - TRUE LOVE
+- JPN - Hitorijime My Hero - OP - Heart Signal
+- JPN - Honzuki no Gekokujou Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen - ED - Kamikazari no Tenshi
+- JPN - Honzuki no Gekokujou Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen - OP - Masshiro
+- JPN - Iketeru Futari - AMV - Fall in YOU ~ Full Vers
+- JPN - Kamen Rider Blade - OP2 - ELEMENTS
+- JPN - Koukaku no Regios - OP - Brave Your Truth
+- JPN - Lodoss-tou senki Eiyuu Kishi Den - AUDIO OP - Kiseki no Umi ~ Full Vers
+- JPN - Lodoss-tou senki Eiyuu Kishi Den - OP - Kiseki no Umi
+- JPN - Lord El-Melloi II Sei no Jikenbo Rail Zeppelin Grace Note - ED - Hibari
+- JPN - Love Hina - ED1 - Kimi Sae Ireba
+- JPN - Love Hina - ED2 - Hajimari wa Koko Kara
+- JPN - Love Hina - OP - Sakura Saku
+- JPN - Love Hina Again - OVA ED1 - Be for you, be for me ~ Naru Vers
+- JPN - Love Hina Again - OVA ED2 - Be for you, be for me ~ Kanako Vers
+- JPN - Love Hina Again - OVA ED3 - Be for you, be for me ~ Keitarou & Naru Vers
+- JPN - Love Hina Again - OVA OP - Kirari Takaramono
+- JPN - Love Hina Christmas Special Silent Eve - OVA ED - Shukufuku
+- JPN - Love Hina Smile Again - GAME OP - Smile Smile ~ 2001 Vers
+- JPN - Machikado Mazoku - OP - Machikado Tangent
+- JPN - Megadimension Neptunia VII - PS4 GAME OP1 - Soutaisei VISION
+- JPN - Miku Hatsune - MV - Senbonzakura
+- JPN - Miku Hatsune - MV - Senbonzakura ~ Off Vocal Vers
+- JPN - Nande Koko ni Sensei ga! question_mark - OP - Bon Kyu Bon wa Kare no Mono ~ R18 Vers
+- JPN - One Piece - OP20 - Hope
+- JPN - Onegai Teacher - MV - Shooting Star ~ Full Vers
+- JPN - Queen Emeraldas - OVA AMV - Queen Emeraldas ~ Full Vers
+- JPN - RWBY - ONA AMV - Dear, are you getting sober
+- JPN - Saint Seiya - OP2 - Soldier Dream ~ Asgard Vers
+- JPN - Senki Zesshou Symphogear XV - OP - METANOIA
+- JPN - Shingeki no Kyojin - MV - Guren no Yumiya ~ Full Vers
+- JPN - Shingeki no Kyojin S2 - OP - Shinzou wo Sasageyo!
+- JPN - Starmyu - IN - Warera, Ayanagi Gakuen Kaoukai
+- JPN - Subete ga F ni Naru - ED - Nana Hitsuji
+- JPN - T.M.Revolution - MV - HOT LIMIT
+- JPN - Taiyou no Kiba Dougram - ED - Kaze no Yukue
+- JPN - Taiyou no Kiba Dougram - IN - EXODUS
+- JPN - Taiyou no Kiba Dougram - OP - Sayonara Yasashiki Hibi yo
+- JPN - To Aru Kagaku no Railgun Misaka-san wa Ima Chuumoku no Mato Desu kara - OVA OP - future gazer
+- JPN - Uchuu Keiji Sharivan - OP - Uchuu Keiji Sharivan
+- JPN - Watashi Nouryoku wa Heikinchi de tte Itta yo ne! - OP - Smile Skill = Suki Skill!
+- JPN - amatsuki - COVER MV - Tsumi to Batsu
+- UND - Ar Tonelico 3 Sekai Shuuen no Hikigane wa Shoujo no Uta ga Hiku - PS3 GAME IN - EXEC_FLIP_ARPHAGE
+- UND - Mahou Shoujo Madoka Magica - AMV - Credens Justitiam
+- UND - NieR Automata - PS4 XBOXONE PC GAME AMV - Amusement Park
+- ZXX - Paprika - MOVIE OP - Mediational Field
+
 # December 2019
 
 Contributors: 
