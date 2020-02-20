@@ -43,7 +43,7 @@ test:
     - cp -f ../tools/config.CICD.yml config.yml
     - node util/extUnaccent.js
     - node -v
-    - yarn start --debug --generate --strict
+    - yarn startNoElectron --debug --generate --strict
     - cd ..
     - php -f tools/export_karaokesmoe.php >names.php
   only:
