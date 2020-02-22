@@ -5,7 +5,7 @@ stages:
 
 sync_medias:
   stage: sync_medias
-  image: alpine:latest
+  image: instrumentisto/rsync-ssh
   interruptible: false
   script:
     - mkdir ~/.ssh
