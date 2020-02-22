@@ -1,5 +1,3 @@
-image: axelterizaki/karaokemugen-ci:node-12
-
 stages:
   - sync_medias
   - test
@@ -7,6 +5,7 @@ stages:
 
 sync_medias:
   stage: sync_medias
+  image: alpine:latest
   interruptible: false
   script:
     - mkdir ~/.ssh
@@ -22,6 +21,7 @@ sync_medias:
 test:
   stage: test
   interruptible: true
+  image: axelterizaki/karaokemugen-ci:node-12-phppg
   services:
     - postgres:10.6
   variables:
@@ -51,6 +51,7 @@ test:
 
 export:
   stage: deploy
+  image: minidocks/lftp
   interruptible: true
   script:
     - lftp -c "set cmd:fail-exit yes; set ftp:ssl-allow no; set ftp:charset "UTF-8" ; set file:charset utf-8; open -u $USERNAME,$PASSWORD $HOST; cd live; put names.php ; lcd lyrics ; cd subtitles ; mirror -Rnev --parallel=10"
