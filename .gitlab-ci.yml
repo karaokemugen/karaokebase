@@ -7,6 +7,10 @@ sync_medias:
   stage: sync_medias
   image: instrumentisto/rsync-ssh
   interruptible: false
+  retry: 
+    max: 2
+    when:
+      - job_execution_timeout
   script:
     - mkdir ~/.ssh
     - echo "$SSH_KEY" > ~/.ssh/id_rsa
