@@ -7,6 +7,8 @@ sync_medias:
   stage: sync_medias
   image: instrumentisto/rsync-ssh
   interruptible: false
+  tags:
+    - moeBaseMedias
   retry: 
     max: 2
     when:
@@ -25,6 +27,8 @@ sync_medias:
 test:
   stage: test
   interruptible: true
+  tags:
+    - moeBaseMedias
   image: axelterizaki/karaokemugen-ci:node-12-phppg
   services:
     - postgres:10.6
