@@ -9,7 +9,7 @@ sync_medias:
   interruptible: false
   tags:
     - moeBaseMedias
-  retry: 
+  retry:
     max: 2
     when:
       - job_execution_timeout
@@ -47,8 +47,9 @@ test:
     - yarn pull
     - yarn install
     - touch mpv
-    - cp -f database.CICD.json database.json
-    - cp -f ../tools/config.CICD.yml config.yml
+    - mkdir app
+    - cp -f database.CICD.json app/database.json
+    - cp -f ../tools/config.CICD.yml app/config.yml
     - node util/extUnaccent.js
     - node -v
     - yarn startNoElectron --debug --generate --strict
