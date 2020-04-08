@@ -42,7 +42,7 @@ SELECT
   ak.origins AS origins,
   ak.mediafile AS mediafile
 FROM all_karas AS ak
-WHERE mediafile LIKE \'%.mp4\'
+WHERE (mediafile LIKE \'%.mp4\' or mediafile LIKE \'%.mp3\')
 GROUP BY ak.kid, ak.title, ak.songorder, ak.serie, ak.subfile, ak.singers, ak.songtypes, ak.languages, ak.authors, ak.misc, ak.platforms, ak.families, ak.genres, ak.origins, ak.mediafile,  ak.languages_sortable, ak.songtypes_sortable, ak.singers_sortable
 ORDER BY serie, ak.songtypes_sortable DESC, ak.songorder, lower(unaccent(singers_sortable)), lower(unaccent(ak.title))
 ';
@@ -125,10 +125,12 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 
 			$type_with_num = $type . (!empty($kara['songorder']) ? $kara['songorder'] : '') . ' - '  . $languages[0]['name'] . ' - ' . $kara['title'];
 
+            $audioOnly = (0 === strpos(strrev('.mp3'), strrev($kara['mediafile']))); // ends with mp3 ? we'll consider it as audio only.
+            $mimeType = $audioOnly? 'audio/mp3':'video/mp4';
 			if(empty($kara['subfile'])) {
 				$kara_data=[
 					'file' => get_filename_without_ext($kara['mediafile']),
-					'mime' => ['video/mp4'],
+					'mime' => [$mimeType,],
 					'song' => [
 						'title' => $kara['title'],
 					],
@@ -138,7 +140,7 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 			else {
 				$kara_data=[
 					'file' => get_filename_without_ext($kara['mediafile']),
-					'mime' => ['video/mp4'],
+					'mime' => [$mimeType,],
 					'song' => [
 						'title' => $kara['title'],
 					],
