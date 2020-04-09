@@ -40,10 +40,11 @@ SELECT
   ak.families AS families,
   ak.genres AS genres,
   ak.origins AS origins,
-  ak.mediafile AS mediafile
+  ak.mediafile AS mediafile,
+  ak.gain AS gain
 FROM all_karas AS ak
 WHERE (mediafile LIKE \'%.mp4\' or mediafile LIKE \'%.mp3\')
-GROUP BY ak.kid, ak.title, ak.songorder, ak.serie, ak.subfile, ak.singers, ak.songtypes, ak.languages, ak.authors, ak.misc, ak.platforms, ak.families, ak.genres, ak.origins, ak.mediafile,  ak.languages_sortable, ak.songtypes_sortable, ak.singers_sortable
+GROUP BY ak.kid, ak.title, ak.songorder, ak.serie, ak.subfile, ak.singers, ak.songtypes, ak.languages, ak.authors, ak.misc, ak.platforms, ak.families, ak.genres, ak.origins, ak.mediafile, ak.gain, ak.languages_sortable, ak.songtypes_sortable, ak.singers_sortable
 ORDER BY serie, ak.songtypes_sortable DESC, ak.songorder, lower(unaccent(singers_sortable)), lower(unaccent(ak.title))
 ';
 
@@ -135,6 +136,7 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 						'title' => $kara['title'],
 					],
 					'uid' => $kara['kid'],
+                    'gain' => floatval($kara['gain'])
 				];
 			}
 			else {
@@ -146,6 +148,7 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 					],
 					'subtitles' => '(unknown)',
 					'uid' => $kara['kid'],
+                    'gain' => floatval($kara['gain'])
 				];
 
 				$authors = json_decode($kara['authors'], true);
