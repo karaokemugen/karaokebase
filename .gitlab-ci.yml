@@ -24,8 +24,8 @@ sync_medias:
     - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
     - ssh -l root $HOST
   rules:
+    - if: '$CI_COMMIT_TITLE !~ /\[nomedia\]/'
     - if: '$CI_COMMIT_REF_NAME == "master"'
-    - if: '$CI_COMMIT_TITLE !~ /nomedia/'
 
 test:
   stage: test
