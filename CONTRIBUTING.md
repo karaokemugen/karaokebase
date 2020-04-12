@@ -1,4 +1,4 @@
-[Version française ci-dessous](#french version)
+[Version française ci-dessous](#french-version)
 
 # English version
 
@@ -45,6 +45,14 @@ Again, [come to the Discord server l'Eden de la Nanami](https://karaokes.moe/dis
 
 And go to the #karaoke channel!
 
+
+## For the maintainers
+
+CI is automatic at each commit, you may want to skip some steps if they are not useful in the context:
+
+* If you change files but without altering the medias, you can append `[nomedia]` to your commit message to skip the media sync step.
+* If you change files that are not the database (such as these .md documents), you can append `[skip-ci]` to your commit message to skip database deploy.
+
 # French version
 
 ## Comment créer un karaoké
@@ -73,3 +81,10 @@ Si rien de tout cela ne vous botte, il y a toujours le boulot de tag les karaok�
 Venez sur [le discord de l'Eden de la Nanami](https://karaokes.moe/discord)
 
 Et dirigez-vous sur le salon #karaoke !
+
+## À l'intention des mainteneurs
+
+La CI est automatique sur chaque commit. Cependant certains passages peuvent être sautés si ils ne sont pas utiles dans le contexte :
+
+* Si vous apportez une modification à la base sans porter atteinte aux médias, vous pouvez indiquer `[nomedia]` dans votre message de commit pour passer l'étape de la synchronisation des médias.
+* Si vous apportez une modification aux fichiers autour de la base (comme ces documents .md par exemple), vous pouvez indiquer `[skip-ci]` dans votre message de commit pour passer le déploiement de la base de données qui n'a pas changée au final.
