@@ -25,7 +25,6 @@ sync_medias:
     - ssh -l root $HOST
   rules:
     - if: '$CI_COMMIT_TITLE !~ /nomedia/'
-    - if: '$CI_COMMIT_REF_NAME == "master"'
 
 test:
   stage: test
