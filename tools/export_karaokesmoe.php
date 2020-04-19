@@ -12,7 +12,7 @@ $live_egg_file = $currPath . "/../live_eggs_list.txt";
 if(!empty($argv[1])) {
 	$pgsqlDSN=$argv[1];
 } else {
-	$pgsqlDSN='host=postgres;port=5432;dbname=karaokemugen_app;user=karaokemugen_app;password=musubi';
+	$pgsqlDSN='host=localhost;port=5432;dbname=karaokemugen_app;user=karaokemugen_app;password=musubi';
 }
 
 try{
@@ -41,10 +41,11 @@ SELECT
   ak.genres AS genres,
   ak.origins AS origins,
   ak.mediafile AS mediafile,
-  ak.gain AS gain
+  ak.gain AS gain,
+  ak.songwriters AS songwriters
 FROM all_karas AS ak
 WHERE (mediafile LIKE \'%.mp4\' or mediafile LIKE \'%.mp3\')
-GROUP BY ak.kid, ak.title, ak.songorder, ak.serie, ak.subfile, ak.singers, ak.songtypes, ak.languages, ak.authors, ak.misc, ak.platforms, ak.families, ak.genres, ak.origins, ak.mediafile, ak.gain, ak.languages_sortable, ak.songtypes_sortable, ak.singers_sortable
+GROUP BY ak.kid, ak.title, ak.songorder, ak.serie, ak.subfile, ak.singers, ak.songtypes, ak.languages, ak.authors, ak.misc, ak.platforms, ak.families, ak.genres, ak.origins, ak.mediafile, ak.gain, ak.languages_sortable, ak.songtypes_sortable, ak.singers_sortable, ak.songwriters
 ORDER BY serie, ak.songtypes_sortable DESC, ak.songorder, lower(unaccent(singers_sortable)), lower(unaccent(ak.title))
 ';
 
@@ -172,6 +173,16 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 			}
 			else
 				$kara_data['song']['artist'] = '(unknown)';
+			$songwriters = json_decode($kara['songwriters'], true);
+			if(!empty($songwriters[0]['name']) && $songwriters[0]['name'] != 'NO_TAG') {
+				$songwriters_arr = array();
+				foreach ($songwriters as $songwriter) {
+					$songwriters_arr[] = $songwriter['name'];
+				}
+				$kara_data['song']['songwriters'] = $songwriters_arr;
+			}
+			else
+				$kara_data['song']['songwriters'] = ['(unknown)'];
 
 			if(strpos($kara['misc'], 'R18'))
 				$kara_data['r18'] = 'true';
