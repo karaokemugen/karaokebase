@@ -12,7 +12,7 @@ $live_egg_file = $currPath . "/../live_eggs_list.txt";
 if(!empty($argv[1])) {
 	$pgsqlDSN=$argv[1];
 } else {
-	$pgsqlDSN='host=localhost;port=5432;dbname=karaokemugen_app;user=karaokemugen_app;password=musubi';
+	$pgsqlDSN='host=postgres;port=5432;dbname=karaokemugen_app;user=karaokemugen_app;password=musubi';
 }
 
 try{
