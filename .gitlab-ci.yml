@@ -48,6 +48,7 @@ test:
       - names.php
       - searchbase.php
   script:
+    - apt-get install -y php-intl
     - git clone https://lab.shelter.moe/karaokemugen/karaokemugen-app.git
     - cd karaokemugen-app
     - git checkout next
