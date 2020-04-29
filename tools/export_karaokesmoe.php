@@ -42,11 +42,14 @@ SELECT
   ak.origins AS origins,
   ak.mediafile AS mediafile,
   ak.gain AS gain,
-  ak.songwriters AS songwriters
+  ak.songwriters AS songwriters,
+  ak.serie_names AS serie_names,
+  ak.serie_altname::varchar AS serie_altname,
+  ak.tag_names AS tag_names
 FROM all_karas AS ak
 WHERE (mediafile LIKE \'%.mp4\' or mediafile LIKE \'%.mp3\')
-GROUP BY ak.kid, ak.title, ak.songorder, ak.serie, ak.subfile, ak.singers, ak.songtypes, ak.languages, ak.authors, ak.misc, ak.platforms, ak.families, ak.genres, ak.origins, ak.mediafile, ak.gain, ak.languages_sortable, ak.songtypes_sortable, ak.singers_sortable, ak.songwriters
-ORDER BY serie, ak.songtypes_sortable DESC, ak.songorder, lower(unaccent(singers_sortable)), lower(unaccent(ak.title))
+GROUP BY ak.kid, ak.title, ak.songorder, ak.serie, ak.subfile, ak.singers, ak.songtypes, ak.languages, ak.authors, ak.misc, ak.platforms, ak.families, ak.genres, ak.origins, ak.mediafile, ak.gain, ak.languages_sortable, ak.songtypes_sortable, ak.singers_sortable, ak.songwriters, ak.serie_names, ak.serie_altname, ak.tag_names
+ORDER BY ak.serie, ak.songtypes_sortable DESC, ak.songorder, lower(unaccent(singers_sortable)), lower(unaccent(ak.title))
 ';
 
 $data=$pdo->query($query)->fetchAll();
@@ -113,11 +116,14 @@ foreach ($first_pass as $serie_singer => $kara_serie_singer) {
 
 //third pass
 $last_pass=[];
+//Search pass in the same time
+$search_pass = [];
 foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 
 	//init if series not yet added
 	if(!isset($last_pass[$serie_singer])) {
 		$last_pass[$serie_singer] = [];
+		$search_pass[$serie_singer] = [];
 	}
 
 	foreach ($kara_serie_singer as $type => $list_kara) {
@@ -190,15 +196,48 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 			if(strpos($eggUIDList, $kara['kid']) !== false)
 				$kara_data['egg'] = 'true';
 
+			// Populate the search data with the tags and the differents names of the series
+			$search_data = [
+			    $kara['tag_names'],
+                $kara['serie_names'],
+                implode(' ', (array) json_decode($kara['serie_altname'], true)[0]),
+                $kara['title'],
+                $serie_singer
+            ];
+
 			$last_pass[$serie_singer][$type_with_num]=$kara_data;
+            $search_pass[$serie_singer][$type_with_num]=$search_data;
 		}
 	}
 }
 
 $out=var_export($last_pass,true);
-
-
-//Replacing spaces by tabs
+// Replacing spaces by tabs
 $out=str_replace('  ','	',$out);
+$out='<'.'?php $names = '.$out.' ?'.'>';
 
-echo '<'.'?php $names = '.$out.' ?'.'>';
+$names_file = fopen('names.php', 'w');
+fwrite($names_file, $out);
+fclose($names_file);
+
+/**
+ * This part aims to generate a pre-processed search cache file
+ * This means by transliterating all the strings
+ * @todo It also includes the series alt_names
+ */
+$transliterator = Transliterator::createFromRules(':: NFD; :: [:Nonspacing Mark:] Remove; :: Lower(); :: NFC;', Transliterator::FORWARD);
+
+foreach ($search_pass as $serie => $karas) {
+    foreach ($karas as $name => $data) {
+        $search_pass[$serie][$name] = $transliterator->transliterate(implode(' ', $data));
+    }
+}
+
+$out=var_export($search_pass,true);
+// Replacing spaces by tabs
+$out=str_replace('  ','	',$out);
+$out='<'.'?php $searchbase = '.$out.' ?'.'>';
+
+$searchbase_file = fopen('searchbase.php', 'w');
+fwrite($searchbase_file, $out);
+fclose($searchbase_file);
