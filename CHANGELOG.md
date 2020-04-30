@@ -1,3 +1,348 @@
+# April 2020
+
+Contributors: 
+
+- @AragornFr
+- @Bakaclub
+- @Bonta-kun
+- @Dysp
+- @ENSSAT-Japanim
+- @Elliu
+- @Karaoke Mugen
+- @Kmeuh
+- @Koheitohikari
+- @Krow
+- @Kubat
+- @Lec
+- @MaxSonic
+- @MaxaoH
+- @Mizunoke
+- @Ni-jibakurei
+- @Nock
+- @Psoushi
+- @Rinchama
+- @Soramimi
+- @Sting
+- @Storm
+- @Suryan
+- @Touhoppai
+- @amoethyst
+- @leonekmi
+- @luclu7
+- @meulahke
+
+## Added
+
+New songs : 156
+
+- ENG - Dissidia 012 Final Fantasy - PSP GAME AMV - The Messenger (@ENSSAT-Japanim)
+- ENG - Kantai Collection - AMV - Classic (@Bakaclub, @Elliu)
+- ENG - Karigurashi no Arietti - AUDIO IS - Mou Hitotsu no Sekai (@ENSSAT-Japanim)
+- ENG - Mirai Nikki (2011) - MV - Dead END ~ Full Vers (@ENSSAT-Japanim)
+- ENG - RWBY - ONA AMV - I Burn (@ENSSAT-Japanim)
+- ENG - Samurai Champloo - OP - Battlecry (@ENSSAT-Japanim)
+- ENG - Steins Gate 0 - PS3 PS4 PSV XBOXONE PC GAME ED - Gate of Steiner (@Kmeuh)
+- ENG - Tengen Toppa Gurren Lagann Parallel Works - OVA MV6 - Gattai Nante Kuso Kurae!! (@ENSSAT-Japanim)
+- FRE - Aishite Knight - AUDIO IN - Freeway (@leonekmi)
+- FRE - Chip'n Dale Rescue Rangers - OP - Tic & Tac, Rangers du Risque (@Karaoke Mugen)
+- FRE - Ermite Moderne - IN - Te voir pourrir en Enfer ! (@leonekmi)
+- FRE - La meteo de Gulli - OP - La meteo de Gulli (@luclu7)
+- FRE - MisterJDay,M. Connard - MV - Les analyses de pubs (@luclu7)
+- FRE - Pocket Monsters - AUDIO CS - La chanson d'Ondine (@Touhoppai)
+- FRE - Pocket Monsters - MV - Ensemble pour toujours (@Kmeuh)
+- FRE - Salut Les Geeks - IN - Robot Disco (@Suryan)
+- FRE - TBK - MV - Persephoneia (@Touhoppai)
+- FRE - Wakfu - OP - Sur tes pas (@MaxSonic)
+- ITA - Digimon Frontier - OP - Digimon Frontier (@MaxaoH)
+- ITA - Jungle Taitei - OP - Una giungla di avventure per Kimba (@MaxaoH)
+- ITA - Kirarin Revolution - OP - Il Mondo e Con Te! Kilari (@MaxaoH)
+- ITA - Uchuu Senkan Yamato I - OP - Star Blazers (@MaxaoH)
+- JPN - .hack LIMINALITY - OVA OP4 - Kioku (@ENSSAT-Japanim)
+- JPN - 96Neko, Hashiyan, amatsuki - COVER MV - Taiyoukei Disco (@ENSSAT-Japanim)
+- JPN - Bakemonogatari - COVER MV - Kimi no Shiranai Monogatari ~ Lia Vers (@Mizunoke)
+- JPN - Bakuman (drama) - COVER MV - Shin Takarajima ~Okayu Nekomata Vers (@Krow)
+- JPN - Bakuman (drama) - MV - Shin Takarajima (@Krow)
+- JPN - Digimon Adventure (2020) - ED - Kuyashisa wa Tane (@Kmeuh)
+- JPN - Digimon Adventure (2020) - OP - Mikakunin Hikousen (@Kmeuh)
+- JPN - Digimon Adventure Bokura no War Game! - MOVIE ED - Sakuhin No. 2 Haru i Chouchou Bokura no War Game (@Kmeuh)
+- JPN - Eureka Seven AO - OP2 - Bravelue (@Sting, @Bakaclub)
+- JPN - Eve - COVER MV - Garando (@Dysp)
+- JPN - Fastening Days - ONA ED4 - Dream Fighter (@Nock)
+- JPN - Freezing - ED - Kimi wo Mamoritai (@ENSSAT-Japanim)
+- JPN - Fruits Basket (2019) 2nd Season - ED1 - ad meliora (@Ni-jibakurei)
+- JPN - Fruits Basket (2019) 2nd Season - OP1 - Prism (@Ni-jibakurei)
+- JPN - Full Metal Panic question_mark Fumoffu - MV - Sore ga, Ai Deshou ~ Full Vers (@Soramimi)
+- JPN - Full Metal Panic! The Second Raid - MV - Minami Kaze ~ Full Vers (@Soramimi)
+- JPN - Full Moon wo Sagashite - MV - I U ~ Full Vers (@Soramimi)
+- JPN - Furi Kuri - OVA MV - Last Dinosaur (@ENSSAT-Japanim)
+- JPN - Furi Kuri - OVA MV - One Life (@ENSSAT-Japanim)
+- JPN - Fushigi no Umi no Nadia - AMV - Yes! I will... ~ Evangelion Vers (@Kmeuh)
+- JPN - Fushigi no Umi no Nadia - ED - Yes! I will (@Kmeuh)
+- JPN - Fushigi no Umi no Nadia - ED - Yes! I will... ~ Karaoke Vers (@Kmeuh)
+- JPN - Gakuen Mokushiroku High School of the Dead - ED10 - The Last Pain (@ENSSAT-Japanim)
+- JPN - Gakuen Mokushiroku High School of the Dead - ED7 - Fuss Fuzz (@ENSSAT-Japanim)
+- JPN - Gakuen Mokushiroku High School of the Dead - ED8 - The Place of Hope (@ENSSAT-Japanim)
+- JPN - Gal to Kyouryuu - OP - Kyouryuu Agemizawa (@Psoushi)
+- JPN - Gekijouban Gintama 2 Kanketsu-hen ~ Yorozuya yo Eien Nare - MV - Genjou Destruction ~ Full Vers (@Storm)
+- JPN - Gekijouban Naruto Dai Gekitotsu! Maboroshi no Chitei Iseki Datte ba yo! - MOVIE ED - Ding! Dong! Dang! (@ENSSAT-Japanim)
+- JPN - Gero - COVER MV - Setsuna Trip (@Dysp)
+- JPN - Gitaroo Man - PS2 GAME IN - Flyin' To Your Heart (@ENSSAT-Japanim)
+- JPN - Gokudou-kun Man'yuuki - ED2 - Silent Moon (@ENSSAT-Japanim)
+- JPN - Gokudou-kun Man'yuuki - IN - Chingentsuai Song (@ENSSAT-Japanim)
+- JPN - Gravitation (2000) - IN - Sleepless Beauty (@Soramimi)
+- JPN - Great Teacher Onizuka - MV - Hitori no Yoru ~ Full Vers (@Soramimi)
+- JPN - HIGH and MIGHTY COLOR - MV - Amazing (@Mizunoke)
+- JPN - Hagane no Renkinjutsushi Fullmetal Alchemist - MV - RAY OF LIGHT ~ Full Vers (@Soramimi)
+- JPN - Hagane no Renkinjutsushi Fullmetal Alchemist - MV - Shunkan Sentimental ~ Full Vers (@Soramimi, @Krow)
+- JPN - Haikyuu!! Karasuno Koukou vs Shiratorizawa Gakuen Koukou - ED - Mashi Mashi (@Storm)
+- JPN - Hakumei to Mikochi - ED1 - Harvest Moon Night (@Dysp)
+- JPN - Hatsune Miku ~ Project DIVA F 2nd - COVER MV - World is Mine ~ Haato Akai Vers (@Krow)
+- JPN - Higurashi no Naku Koro ni Kaku Outbreak - OVA ED - You Visionen im Spiegel (@ENSSAT-Japanim)
+- JPN - Hikaru no Go - AMV - Kira (@ENSSAT-Japanim)
+- JPN - Honobono Log - AUDIO OP - Morning ~ Full Vers (@AragornFr)
+- JPN - Honobono Log - OP - Morning (@AragornFr)
+- JPN - Howl no Ugoku Shiro - MOVIE ED - Sekai no Yakusoku (@ENSSAT-Japanim)
+- JPN - Ike! Ina-chuu Takkyuubu - OP1 - Shanimuni Shake! Shake! (@ENSSAT-Japanim)
+- JPN - Inazuma Eleven - OP5 - Good Guitar! (@ENSSAT-Japanim)
+- JPN - Internet Explorer - ED - Internet no Umi (@Kubat, @Bakaclub)
+- JPN - Inuyasha Kanketsuhen - ED1 - With You (@MaxSonic)
+- JPN - JoJo no Kimyou na Bouken Stardust Crusaders 2nd Season - AMV - JoJo Sono chi no kioku end of THE WORLD ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Joueur du Grenier - OP - Joueur du Grenier (@Koheitohikari)
+- JPN - KANA-BOON - COVER AUDIO OT - Kimi to Iu Hana (@ENSSAT-Japanim)
+- JPN - Kakushigoto - ED - Kimi wa Tennenshoku (@meulahke)
+- JPN - Kakushigoto - OP - Chiisana hibi (@meulahke)
+- JPN - Kamen Rider Zero-One - MV - REALxEYEZ ~ Full Vers (@Psoushi)
+- JPN - Kamen no Maid Guy - ED - Work Guy!! (@ENSSAT-Japanim)
+- JPN - Kamiyama Yoh - MV - Yellow (@Touhoppai)
+- JPN - Karakai Jouzu no Takagi-san - ED5 - Chiisana Koi no Uta (@Storm)
+- JPN - Katsugeki Touken Ranbu - MV - Hyakka Ryouran ~ Full Vers (@Mizunoke)
+- JPN - Katte ni Kaizou - OVA OP - Katte ni Kaizou Shitemo Iize (@ENSSAT-Japanim)
+- JPN - Kekkai Sensen - MV - Hello, world! ~ Full Vers (@Dysp)
+- JPN - Keroro Gunsou - ED11 - Kero Neko no Tango (@ENSSAT-Japanim)
+- JPN - Kiba - OP2 - Hakanaku Tsuyoku (@ENSSAT-Japanim)
+- JPN - Kidou Senshi Gundam 00 - MV - Friends ~ Full Vers (@Soramimi)
+- JPN - Kirarin Revolution - COVER MV - Balalaika ~ Watame Tsunomaki Vers (@Dysp, @Krow)
+- JPN - Koi wa Tsuzuku yo Doko made mo - MV - I LOVE (@Bonta-kun)
+- JPN - Koukaku Kidoutai S.A.C. 2nd GIG - AMV - Rise ~ Full Vers (@Soramimi)
+- JPN - Kuroshitsuji II - ED1 - Bird (@ENSSAT-Japanim)
+- JPN - Len Kagamine - MV - Gigantic O.T.N (@ENSSAT-Japanim)
+- JPN - Level E - ED - Yume Mugen no Kanata (@ENSSAT-Japanim)
+- JPN - Lucky Star - AUDIO CS - Ore no wasuremono ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Mafumafu - COVER AUDIO OT - Ikanaide (@Touhoppai)
+- JPN - Magia Record Mahou Shoujo Madoka Magica Gaiden - GAME ED - Signal (@Kmeuh)
+- JPN - Magia Record Mahou Shoujo Madoka Magica Gaiden - GAME OP1 - Kakawari (@Kmeuh)
+- JPN - Mahoutsukai no Yome - MV - Here ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Major 2nd (2020) - ED1 - One (@Ni-jibakurei)
+- JPN - Major 2nd (2020) - OP1 - Answer (@Ni-jibakurei)
+- JPN - Mayoi Neko Overrun! - ED2 - Mayoi Neko Doukoukai no Uta (@Krow)
+- JPN - Mayoi Neko Overrun! Specials - OVA OP - Mayoi Neko Gekijou Opening ~Ep.6 Vers (@Krow)
+- JPN - Miku Hatsune - MV - Garando (@Dysp)
+- JPN - Mirai Nikki (2011) - MV - Kuusou Mesorogiwi ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Mononoke-hime - MOVIE IN - Tatara Fumu Onnatachi ~Eboshi Tatara Uta~ (@ENSSAT-Japanim)
+- JPN - Morning Musume - MV - 3, 2, 1, BREAKIN' OUT! (@Touhoppai)
+- JPN - Nagi no Asukara - MV - Aqua Terrarium ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Nagi no Asukara - MV - Mitsuba no Musubime ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Nakitai Watashi wa Neko wo Kaburu - MOVIE PV - Hana ni Bourei (@Nock)
+- JPN - Nami yo kiite kure - OP - aranami (@meulahke)
+- JPN - Naruto Shippuuden - ED8 - Bacchikoi!!! (@ENSSAT-Japanim)
+- JPN - Nekomiya Hinata - COVER MV - Nan demo iu koto o kiite kureru Hinata-chan (@Krow)
+- JPN - Nicamoq - AMV - Mentai Cosmic (@Bonta-kun)
+- JPN - NieR Automata - AUDIO IN - Emil's Shop (@ENSSAT-Japanim)
+- JPN - No.6 - MV - Roku Tousei no Yoru ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Nobunaga The Fool - ED1 - Axis (@ENSSAT-Japanim)
+- JPN - Nobunaga no Shinobi Ise Kanegasaki-hen - MV - Shirayuki ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Nurse Witch Komugi-chan Magikarte - OVA ED1 - Otome no Mahou de Pon-De-Ke-Wa (@ENSSAT-Japanim)
+- JPN - One Piece - IN - Sogeking (Hero) no Uta (@ENSSAT-Japanim)
+- JPN - One Piece - OP17 - Wake up! (@ENSSAT-Japanim)
+- JPN - One Piece - OP18 - Hard Knock Days (@ENSSAT-Japanim)
+- JPN - One Piece - OP19 - We Can! (@ENSSAT-Japanim)
+- JPN - Pandora Hearts - MV - Parallel Hearts ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Phantom Requiem for the phantom - ED1 - Jigoku no Mon (@ENSSAT-Japanim)
+- JPN - Ping Pong The Animation - ED1 - Ano Hero to Bokura ni Tsuite (@ENSSAT-Japanim)
+- JPN - Psycho-Pass 3 First Inspector - MOVIE ED - red strand (@Kubat, @Bakaclub)
+- JPN - Psycho-Pass 3 First Inspector - MOVIE OP - Synthetic Sympathy (@Kubat, @Bakaclub)
+- JPN - SPYAIR,Gero - MV - Sayonara Kagerou (@AragornFr)
+- JPN - Sakura-sou no Pet na Kanojo - AMV - Kimi ga Yume wo Tsuretekita ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Seikimatsu Occult Gakuin - ED - Kimi ga Iru Basho (@ENSSAT-Japanim)
+- JPN - Sket Dance - MV - Michi ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Skip Beat! - ED1 - Namida (@ENSSAT-Japanim)
+- JPN - Skip Beat! - OP1 - Dream Star (@ENSSAT-Japanim)
+- JPN - Soukou no Strain - OP - Message (@ENSSAT-Japanim)
+- JPN - Steins Gate 0 - PS3 PS4 PSV GAME AMV - Amadeus ~ Full Vers (@Kmeuh)
+- JPN - Suisei Hoshimachi - MV - NEXT COLOR PLANET (@amoethyst)
+- JPN - Tales of Zestiria - PS3 PS4 PC GAME OP - White Light ~ Off Vocal Vers (@Rinchama)
+- JPN - Tengen Toppa Gurren Lagann - MV - Sora-iro Days ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Tonari no Kaibutsu-kun - ED - White Wishes (@ENSSAT-Japanim)
+- JPN - Touhou - AUDIO OT - Nihil Kagura ~ Full Vers (@Sting, @Bakaclub)
+- JPN - Touhou - COVER AUDIO OT - Cirno's Perfect Math Class ~ Metal Vers (@Dysp)
+- JPN - Touhou - MV - Alice Dere (@ENSSAT-Japanim)
+- JPN - Touhou Cannonball - GAME OP - Hanayagu Mugen no Shoujo-tachi (@Kmeuh)
+- JPN - Touhou Memories of Phantasm - OVA ED2 - Hitorishizuka (@Sting, @Bakaclub)
+- JPN - Touhou Memories of Phantasm - OVA ED3 - Yozakura ni Kimi wo Kakushite (@Sting, @Bakaclub)
+- JPN - UPLIFT SPICE - MV - Minority.Parade (@ENSSAT-Japanim)
+- JPN - URACON III - OVA AUDIO ED - Violet Zone (@Kmeuh)
+- JPN - Ueki no Housoku - MV - Falco ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Wagakki Band - COVER MV - Senbonzakura (@ENSSAT-Japanim)
+- JPN - Wotamin - COVER MV - Gigantic O.T.N (@ENSSAT-Japanim)
+- JPN - Yakitate!! Japan - LIVE - To All Tha Dreamers ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Yojouhan Shinwa Taikei - MV - Maigo Inu to Ame no Beat ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Zoku Sayonara Zetsubou-sensei - ED3 - Omamori (@ENSSAT-Japanim)
+- JPN - Zombieland Saga - MV - Saga Jihen (@Bakaclub, @Lec)
+- POL - Kakuchou Shoujo Kei Trinary - ONA IN - Tak a ja lubie (@leonekmi)
+- SWE - Popotan - REMIX AMV - Caramelldansen (@Kmeuh)
+- UND - Ga-Rei-ZERO - AMV - Reincarnation (@ENSSAT-Japanim)
+
+## Fixed
+
+Fixed songs : 146
+
+- ENG - DAICON IV - MV - Twilight
+- ENG - Kiznaiver - OP - LAY YOUR HANDS ON ME
+- ENG - Kung Fury - MOVIE MV - True Survivor
+- ENG - League of Legends - PC GAME MV - Warriors
+- ENG - Mirai Nikki (2011) - OP2 - Dead END
+- FRE - Asterix et Cleopatre - IN - Quand l'appetit va, tout va
+- FRE - Mahoromatic Automatic Maiden - AMV - Derniere Danse
+- FRE - Mahoromatic Automatic Maiden - AMV - Derniere Danse 2010
+- FRE - Mermaid Melody Pichi Pichi Pitch - ED - Mermaid Melody Pichi Pichi Pitch
+- FRE - Mermaid Melody Pichi Pichi Pitch - IN - Ankoku no Tsubasa
+- FRE - Mermaid Melody Pichi Pichi Pitch - IN - Ashita ga Mienakute
+- FRE - Mermaid Melody Pichi Pichi Pitch - IN - Birth of Love
+- FRE - Mermaid Melody Pichi Pichi Pitch - IN - Ever Blue
+- FRE - Mermaid Melody Pichi Pichi Pitch - IN - Hana to Chou no Serenade
+- FRE - Mermaid Melody Pichi Pichi Pitch - IN - Kodou Perfect Harmony
+- FRE - Mermaid Melody Pichi Pichi Pitch - IN - Koi wo Nandarou
+- FRE - Mermaid Melody Pichi Pichi Pitch - IN - Kuro No Kyousoukyoku Concerto
+- FRE - Mermaid Melody Pichi Pichi Pitch - IN - Legend of Mermaid ~ Hippo Vers
+- FRE - Mermaid Melody Pichi Pichi Pitch - IN - Mizuiro No Senritsu
+- FRE - Mermaid Melody Pichi Pichi Pitch - IN - Nanatsu no Umi no Monogatari
+- FRE - Mermaid Melody Pichi Pichi Pitch - IN - Oh Yeah !
+- FRE - Mermaid Melody Pichi Pichi Pitch - IN - Yami no Baroque
+- JPN - Ar tonelico 2 Sekai ni Hibiku Shoujo-tachi no Metafarika - GAME AUDIO OT - homura~HOMURA
+- JPN - Ar tonelico Sekai no Owari de Utai Tsuzukeru Shoujo - GAME AUDIO OT - EXEC_HYMME_LIFE=W R S
+- JPN - BanG Dream! - GAME AUDIO MV - Louder ~ Full Vers
+- JPN - BanG Dream! - GAME MV - Neo-Aspect
+- JPN - BanG Dream! 2nd Season - IN - Louder
+- JPN - BanG Dream! 2nd Season - OP2 - BRAVE JEWEL
+- JPN - BanG Dream! 3rd Season - GAME OP1 - Initial
+- JPN - Brand New Animal - ED - NIGHT RUNNING
+- JPN - Brand New Animal - OP - Ready to
+- JPN - Chuunibyou Demo KOI ga Shitai! - OP - Sparkling Daydream
+- JPN - Dimension W - OP - Genesis
+- JPN - Eiga Chuunibyou demo Koi ga Shitai! Take on Me - MOVIE OP - JOURNEY
+- JPN - Fate stay night Unlimited Blade Works (2014) - ED1 - believe
+- JPN - Fate stay night Unlimited Blade Works (2015) - ED1 - ring your bell
+- JPN - Fortissimo EXS Akkord nachsten Phase - GAME OP - Kuraki Sekai no Doukoku
+- JPN - Full Metal Panic question_mark Fumoffu - OP - Sore ga, Ai Deshou
+- JPN - Furi Kuri - OVA MV - Little busters
+- JPN - Fushigi no Umi no Nadia - OP - Blue Water ~ Nautilus Vers
+- JPN - Fushigi no Umi no Nadia - OP - Blue Water ~ Neo-Nautilus Vers
+- JPN - GUMI - MV - Setsuna Trip
+- JPN - GateKeepers 21 - OVA OP2 - Ima, Egao ga Areba
+- JPN - GigaP, Reol (singer) - MV - drop pop candy
+- JPN - Goku Sayonara Zetsubou-Sensei - OVA OP1 - Kuusou Rumba
+- JPN - Goku Sayonara Zetsubou-Sensei - OVA OP2 - Kuusou Rumba Rap
+- JPN - Gokudou-kun Man'yuuki - ED1 - WAKE UP!
+- JPN - Gokudou-kun Man'yuuki - OP - Prism
+- JPN - Goose house - MV - Bokura dake no Toushindai
+- JPN - Gunslinger Girl Il Teatrino - OP - Tatta Hitotsu no Omoi
+- JPN - Hagane no Renkinjutsushi Fullmetal Alchemist - AMV - Period ~ Full Vers
+- JPN - Hagane no Renkinjutsushi Fullmetal Alchemist - ED4 - Shunkan Sentimental
+- JPN - Hagane no Renkinjutsushi Fullmetal Alchemist - ED5 - RAY OF LIGHT
+- JPN - Hagane no Renkinjutsushi Fullmetal Alchemist - OP4 - Period
+- JPN - Hagane no Renkinjutsushi Fullmetal Alchemist - OP5 - Rain
+- JPN - Haikyuu!! To the Top - OP - PHOENIX
+- JPN - Heybot! - OP - Houkago Nejimaki Dance
+- JPN - Heybot! - OP - Houkago Nejimaki Dance ~ Alternative Vers
+- JPN - Higurashi no Naku Koro ni - AUDIO IS - Dear You -Cry-
+- JPN - Higurashi no Naku Koro ni - AUDIO IS - Dear You -Feel-
+- JPN - Higurashi no Naku Koro ni - AUDIO IS - Dear You -Hope-
+- JPN - Higurashi no Naku Koro ni - AUDIO IS - Dear You -Kind-
+- JPN - Hoshikuzu Witch Meruru - OP - Meteor Impact
+- JPN - Inazuma Eleven - ED1 - Seishun Oden
+- JPN - Inazuma Eleven - ED3 - Ryuusei Boy
+- JPN - Inazuma Eleven - OP2 - Maji de Kansha!
+- JPN - Inazuma Eleven - OP3 - Tsunagari yo
+- JPN - Inazuma Eleven Go Galaxy - 3DS GAME OP - BIGBANG
+- JPN - Isekai Shokudou - OP - One In A Billion
+- JPN - Juushin Liger - OP1 - Ikari no Juushin
+- JPN - Juushin Liger - OP2 - Kiseki no Juushin
+- JPN - K-ON! - ED - Don't say 'lazy'
+- JPN - K-ON! - OP - Cagayake! GIRLS
+- JPN - Kaguya-sama wa Kokurasetai Tensai-tachi no Ren'ai Zunousen - COVER MV - Chikatto Chika Chika ~ Kaguya Luna Vers
+- JPN - Kamen Rider Zero-One - OP - REALxEYEZ
+- JPN - Kami Jigen Idol Neptune PP - PSV GAME OP - NEXT STAGE!
+- JPN - Kami Nomi zo Shiru Sekai - ED3 - HAPPY CRESCENT
+- JPN - Kidou Senshi Gundam SEED Destiny Final Plus Erabareta Mirai - SPECIAL ED - Kimi wa Boku ni Nite Iru
+- JPN - Kidou Senshi Gundam SEED Destiny Final Plus Erabareta Mirai - SPECIAL OP - Vestige
+- JPN - Kidou Senshi Gundam Tekketsu no Orphans - MV - STEEL - Tekketsu no Kizuna ~ Full Vers
+- JPN - Kimi no Na wa. - COVER MOVIE MV - Sparkle ~ Mio Ookami Vers
+- JPN - Kirarin Revolution - MV - Balalaika ~ Full Vers
+- JPN - Kirarin Revolution - OP2 - Balalaika
+- JPN - Koukaku Kidoutai 2 Innocence - MOVIE IN - Kugutsuuta ura mite chiru ~Parade Vers
+- JPN - Koukaku Kidoutai 2 Innocence - MOVIE OP - Kugutsuuta ura mite chiru
+- JPN - Lord El-Melloi II Sei no Jikenbo Rail Zeppelin Grace Note - ED - Hibari
+- JPN - Love Live! School Idol Project 2nd Season - IN - Shocking Party
+- JPN - Magia Record Mahou Shoujo Madoka Magica Gaiden - ED1 - Alicia
+- JPN - Magia Record Mahou Shoujo Madoka Magica Gaiden - OP - Gomakashi
+- JPN - Mahouka Koukou no Rettousei - OP2 - grilletto
+- JPN - Miku Hatsune - LIVE - Unknown Mother-Goose ~ Miku Expo 2018 Paris
+- JPN - Miku Hatsune - MV - Hand in Hand
+- JPN - Miku Hatsune - PS3 PSV GAME MV - Decorator
+- JPN - No.6 - MV - Spell ~ Full Vers
+- JPN - One Piece - ED10 - FAITH
+- JPN - One Piece - ED2 - RUN! RUN! RUN!
+- JPN - One Piece - ED3 - Watashi ga Iru yo
+- JPN - One Piece - ED4 - Shouchi no Suke
+- JPN - One Piece - ED5 - Before Dawn
+- JPN - One Piece - ED6 - fish
+- JPN - One Piece - ED7 - GLORY Kimi ga Iru
+- JPN - One Piece - ED8 - Shining ray
+- JPN - One Piece - ED9 - Free Will
+- JPN - One Piece - OP10 - We Are! ~ Animation One Piece 10 Shuunen Vers
+- JPN - One Piece - OP11 - Share The World
+- JPN - One Piece - OP12 - Kaze wo Sagashite
+- JPN - One Piece - OP13 - One Day
+- JPN - One Piece - OP14 - Fight Together
+- JPN - One Piece - OP15 - We Go!
+- JPN - One Piece - OP16 - Hands Up
+- JPN - One Piece - OP2 - Believe
+- JPN - One Piece - OP3 - Hikari e
+- JPN - One Piece - OP4 - Bon Voyage!
+- JPN - One Piece - OP5 - Kokoro no Chizu
+- JPN - One Piece - OP6 - BRAND NEW WORLD
+- JPN - One Piece - OP7 - We Are! Shichinin no Mugiwara Kaizoku-danpen
+- JPN - One Piece - OP8 - Crazy Rainbow
+- JPN - One Piece - OP9 - Jungle P
+- JPN - Ore no Imouto ga Konna ni Kawaii Wake ga Nai - IN - Meteor Impact
+- JPN - Perfume - MV - Dream Fighter ~ Full Vers
+- JPN - REOL - MV - No title
+- JPN - School Rumble Ichi Gakki Hoshuu - OVA ED1 - Ginga Ensen '05
+- JPN - Seikimatsu Occult Gakuin - OP - Flying Humanoid
+- JPN - Sora no Oto - MV - Hikari no Senritsu ~ Full Vers
+- JPN - Super Robot Taisen Z 3 - PS3 PSV GAME OP - Rebellion
+- JPN - Sword Art Online Alicization - COVER MV - ADAMAS ~ Shion Murasaki Vers
+- JPN - Tales of Berseria - PS3 PS4 PC GAME OP - Burn
+- JPN - Tales of Symphonia The Animation Sekai Tougou-hen - ED1 - Ta ga tame no sekai
+- JPN - Tales of Zestiria - PS3 PS4 PC GAME OP - White Light
+- JPN - Tales of Zestiria the X - ED - calling
+- JPN - Tales of Zestiria the X - OP - Kaze no Uta
+- JPN - Tales of Zestiria the X 2nd Season - ED - INNOSENSE
+- JPN - Tatakae! Chou Robot Seimeitai Transformers Victory - OP - Transformers Victory
+- JPN - Tengen Toppa Gurren Lagann Kirameki Yoko Box Pieces of Sweet Stars - OVA MV - S.t.a.r.S
+- JPN - Tengen Toppa Gurren Lagann Parallel Works 2 - OVA MV5 - Miracle Idol Star ~ Kiyal's Magical Time, Three Minutes Before
+- JPN - Tokusatsu GaGaGa - IN - Kyuukyuuki Emerjason no theme
+- JPN - Tonari no Kaibutsu-kun - OP - Q&A Recital!
+- JPN - Touhou - MV - Bad Apple!!
+- JPN - Touhou Memories of Phantasm - OVA OP1 - Iro wa Nioedo Chirinuru wo
+- JPN - Touken Ranbu ONLINE - AMV - SANJYOU KINGDOM (VOODOO KINGDOM)
+- JPN - Uta no Prince-sama Maji Love Legend Star - OP - Tempest
+- JPN - Wagakki Band - COVER MV - Tengaku
+- JPN - Witch Hunter Robin - OP - Shell
+- SPA - One Piece - OP2 - Believe
+- UND - Ar tonelico Sekai no Owari de Utai Tsuzukeru Shoujo - GAME AUDIO OT - EXEC_CHRONICLE=KEY
+- ZXX - Lord El-Melloi II Sei no Jikenbo Rail Zeppelin Grace Note - OP - starting the case Rail Zeppelin
+
 # March 2020
 
 Contributors: 
