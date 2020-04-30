@@ -33,7 +33,7 @@ Contributors:
 
 ## Added
 
-New songs : 152
+New songs : 156
 
 - ENG - Dissidia 012 Final Fantasy - PSP GAME AMV - The Messenger (@ENSSAT-Japanim)
 - ENG - Kantai Collection - AMV - Classic (@Bakaclub, @Elliu)
@@ -125,6 +125,7 @@ New songs : 152
 - JPN - Koi wa Tsuzuku yo Doko made mo - MV - I LOVE (@Bonta-kun)
 - JPN - Koukaku Kidoutai S.A.C. 2nd GIG - AMV - Rise ~ Full Vers (@Soramimi)
 - JPN - Kuroshitsuji II - ED1 - Bird (@ENSSAT-Japanim)
+- JPN - Len Kagamine - MV - Gigantic O.T.N (@ENSSAT-Japanim)
 - JPN - Level E - ED - Yume Mugen no Kanata (@ENSSAT-Japanim)
 - JPN - Lucky Star - AUDIO CS - Ore no wasuremono ~ Full Vers (@ENSSAT-Japanim)
 - JPN - Mafumafu - COVER AUDIO OT - Ikanaide (@Touhoppai)
@@ -182,7 +183,10 @@ New songs : 152
 - JPN - URACON III - OVA AUDIO ED - Violet Zone (@Kmeuh)
 - JPN - Ueki no Housoku - MV - Falco ~ Full Vers (@ENSSAT-Japanim)
 - JPN - Wagakki Band - COVER MV - Senbonzakura (@ENSSAT-Japanim)
+- JPN - Wotamin - COVER MV - Gigantic O.T.N (@ENSSAT-Japanim)
+- JPN - Yakitate!! Japan - LIVE - To All Tha Dreamers ~ Full Vers (@ENSSAT-Japanim)
 - JPN - Yojouhan Shinwa Taikei - MV - Maigo Inu to Ame no Beat ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Zoku Sayonara Zetsubou-sensei - ED3 - Omamori (@ENSSAT-Japanim)
 - JPN - Zombieland Saga - MV - Saga Jihen (@Bakaclub, @Lec)
 - POL - Kakuchou Shoujo Kei Trinary - ONA IN - Tak a ja lubie (@leonekmi)
 - SWE - Popotan - REMIX AMV - Caramelldansen (@Kmeuh)
@@ -190,7 +194,7 @@ New songs : 152
 
 ## Fixed
 
-Fixed songs : 144
+Fixed songs : 146
 
 - ENG - DAICON IV - MV - Twilight
 - ENG - Kiznaiver - OP - LAY YOUR HANDS ON ME
@@ -235,7 +239,7 @@ Fixed songs : 144
 - JPN - Fushigi no Umi no Nadia - OP - Blue Water ~ Neo-Nautilus Vers
 - JPN - GUMI - MV - Setsuna Trip
 - JPN - GateKeepers 21 - OVA OP2 - Ima, Egao ga Areba
-- JPN - Giga-P, Reol (singer) - MV - drop pop candy
+- JPN - GigaP, Reol (singer) - MV - drop pop candy
 - JPN - Goku Sayonara Zetsubou-Sensei - OVA OP1 - Kuusou Rumba
 - JPN - Goku Sayonara Zetsubou-Sensei - OVA OP2 - Kuusou Rumba Rap
 - JPN - Gokudou-kun Man'yuuki - ED1 - WAKE UP!
@@ -312,6 +316,7 @@ Fixed songs : 144
 - JPN - One Piece - OP9 - Jungle P
 - JPN - Ore no Imouto ga Konna ni Kawaii Wake ga Nai - IN - Meteor Impact
 - JPN - Perfume - MV - Dream Fighter ~ Full Vers
+- JPN - REOL - MV - No title
 - JPN - School Rumble Ichi Gakki Hoshuu - OVA ED1 - Ginga Ensen '05
 - JPN - Seikimatsu Occult Gakuin - OP - Flying Humanoid
 - JPN - Sora no Oto - MV - Hikari no Senritsu ~ Full Vers
@@ -330,6 +335,7 @@ Fixed songs : 144
 - JPN - Tonari no Kaibutsu-kun - OP - Q&A Recital!
 - JPN - Touhou - MV - Bad Apple!!
 - JPN - Touhou Memories of Phantasm - OVA OP1 - Iro wa Nioedo Chirinuru wo
+- JPN - Touken Ranbu ONLINE - AMV - SANJYOU KINGDOM (VOODOO KINGDOM)
 - JPN - Uta no Prince-sama Maji Love Legend Star - OP - Tempest
 - JPN - Wagakki Band - COVER MV - Tengaku
 - JPN - Witch Hunter Robin - OP - Shell
