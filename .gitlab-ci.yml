@@ -74,7 +74,7 @@ export:
     - lftp -c "set cmd:fail-exit yes; set ftp:ssl-allow no; set ftp:charset "UTF-8" ; set file:charset utf-8; open -u $USERNAME,$PASSWORD $HOST; cd live; put names.php; put searchbase.php ; lcd lyrics ; cd subtitles ; mirror -Rnev --parallel=10"
     - lftp -c "set cmd:fail-exit yes; set ftp:ssl-allow no; set ftp:charset "UTF-8" ; set file:charset utf-8; open -u $USERNAME,$PASSWORD $HOST; cd data-moe/lyrics ; lcd lyrics ; mirror -Rnev --parallel=10 ; cd ../series ; lcd ../series ; mirror -Rnev --parallel=10 ; cd ../karaokes ; lcd ../karaokes ; mirror -Rnev --parallel=10 ; cd ../tags ; lcd ../tags ; mirror -Rnev --parallel=10"
     - echo "Triggering KM Server generation"
-    - "curl -X POST -H authorization:$KMSERVERAUTH http://kara.moe/api/generate"
-    - "curl -X POST -H authorization:$KMSERVERDEVAUTH http://dev.kara.moe/api/generate"
+    - "curl -f -X POST -H authorization:$KMSERVERAUTH http://kara.moe/api/generate"
+    - "curl -f -X POST -H authorization:$KMSERVERDEVAUTH http://dev.kara.moe/api/generate"
   only:
     - master
