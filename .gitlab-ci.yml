@@ -14,8 +14,6 @@ sync_medias:
     when:
       - job_execution_timeout
   script:
-    - echo $CI_COMMIT_TITLE
-    - echo $CI_COMMIT_MESSAGE
     - mkdir ~/.ssh
     - echo "$SSH_KEY" > ~/.ssh/id_rsa
     - HOSTKEYS=`ssh-keyscan -H $HOST`
