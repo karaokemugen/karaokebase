@@ -197,16 +197,19 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 				$kara_data['egg'] = 'true';
 
 			// Populate the search data with the tags and the differents names of the series
-			$search_data = [
-			    $kara['tag_names'],
-                $kara['serie_names'],
-                implode(' ', (array) json_decode($kara['serie_altname'], true)[0]),
-                $kara['title'],
-                $serie_singer
-            ];
+            if(strpos($eggUIDList, $kara['kid']) === false) { // But not with easter eggs
+                $search_data = [
+                    $kara['tag_names'],
+                    $kara['serie_names'],
+                    implode(' ', (array) json_decode($kara['serie_altname'], true)[0]),
+                    $kara['title'],
+                    $serie_singer
+                ];
+                $search_pass[$serie_singer][$type_with_num]=$search_data;
+            }
 
 			$last_pass[$serie_singer][$type_with_num]=$kara_data;
-            $search_pass[$serie_singer][$type_with_num]=$search_data;
+
 		}
 	}
 }
