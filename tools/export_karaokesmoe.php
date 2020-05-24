@@ -136,7 +136,20 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
             //Determine song order
             $languages = json_decode($kara['languages'], true);
 
-            $type_with_num = $type . (!empty($kara['songorder']) ? ' ' . $kara['songorder'] : '') . ' - ' . $languages[0]['name'] . ' - ' . $kara['title'];
+            $additional_types = [];
+            $misc_tags = json_decode($kara['misc'], true);
+            if (!empty($misc_tags)) {
+                foreach ($misc_tags as $tag) {
+                    switch ($tag['name']) {
+                        case 'Cover':
+                        case 'Remix':
+                            $additional_types[] = $tag['name'];
+                            break;
+                    }
+                }
+            }
+
+            $type_with_num = (!empty($additional_types) ? implode(' ', $additional_types) . ' ' : '') . $type . (!empty($kara['songorder']) ? ' ' . $kara['songorder'] : '') . ' - ' . $languages[0]['name'] . ' - ' . $kara['title'];
 
             $audioOnly = (0 === strpos(strrev($kara['mediafile']), strrev('.mp3'))); // ends with mp3 ? we'll consider it as audio only.
             $mimeType = $audioOnly ? 'audio/mp3' : 'video/mp4';
