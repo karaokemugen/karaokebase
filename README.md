@@ -19,7 +19,6 @@ A karaoke is made of the following elements :
 * A `.kara.json` file in the `karaokes` folder
 * A `.ass` file in the `lyrics` folder
 * A video or audio file in the `medias` folder
-* One or more `.series.json` files in the `series` folder
 * One or more `.tag.json` files in the `tags` folder
 
 ### `karaokes` folder
@@ -115,34 +114,7 @@ Launch the update script each time you pull/clone/download a new version of this
 
 ### `series` folder
 
-Each series (anime or real TV show, video game, etc.) has a `series.json` file which looks like this.
-
-```JSON
-{
-  "header": {
-    "version": 3,
-    "description": "Karaoke Mugen Series File"
-  },
-  "series": {
-    "name": "Mahoromatic: Automatic Maiden",
-    "aliases": [
-      "Automatic Maiden",
-      "MM",
-      "魔力女仆真幌"
-    ],
-    "i18n": {
-      "jpn": "まほろまてぃっく Automatic Maiden",
-      "fre": "Mahoromatic",
-      "ger": "Mahoromatic: Automatic Maiden",
-      "eng": "Mahoromatic: Automatic Maiden",
-      "rus": "Махороматик: Автоматическая девушка"
-    },
-    "sid": "7a54c0fe-0ec2-4596-8923-fa6b92b10f00"
-  }
-}
-```
-
-It contains information on a series, like its aliases, and its names in different languages, as well as a unique ID and an internal name (`name`). This is useful for our search engine so people can look up the karaoke of their choice no matter how they know the series are named.
+Contains series.json files for backward compatibility with Karaoke Mugen <3.3
 
 ### `tags` folder
 
@@ -192,7 +164,6 @@ Un karaoké Karaoke Mugen est composé de ces éléments rangés dans des dossie
 * Un fichier `.kara.json` dans le dossier `karas`
 * Un fichier `.ass` dans le dossier `lyrics`
 * Un fichier vidéo ou audio dans le dossier `medias`
-* Des fichiers `.series.json` dans le dossier `series`
 * Des fichiers `.tag.json` dans le dossier `tags`
 
 ### Dossier `karas`
@@ -288,34 +259,7 @@ Pensez à lancer régulièrement ce script, parfois deux fois de suite pour vous
 
 ### Dossier `series`
 
-Chaque série (anime, série télé, jeu vidéo, etc.) possède un fichier `.series.json` qui ressemble à ceci :
-
-```JSON
-{
-  "header": {
-    "version": 3,
-    "description": "Karaoke Mugen Series File"
-  },
-  "series": {
-    "name": "Mahoromatic: Automatic Maiden",
-    "aliases": [
-      "Automatic Maiden",
-      "MM",
-      "魔力女仆真幌"
-    ],
-    "i18n": {
-      "jpn": "まほろまてぃっく Automatic Maiden",
-      "fre": "Mahoromatic",
-      "ger": "Mahoromatic: Automatic Maiden",
-      "eng": "Mahoromatic: Automatic Maiden",
-      "rus": "Махороматик: Автоматическая девушка"
-    },
-    "sid": "7a54c0fe-0ec2-4596-8923-fa6b92b10f00"
-  }
-}
-```
-
-Il contient des informations sur une série, comme ses alias, ses noms dans différentes langues, ainsi qu'un ID unique et un nom interne (`name`). Cela permet aux utilisateurs de trouver à coup sûr le karaoké de leur choix via le moteur de recherche.
+Dossier contenant des fichiers series.json pour rétrocompatibilité avec Karaoke Mugen <3.3
 
 ### Dossier `tags`
 
