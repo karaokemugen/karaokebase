@@ -1,3 +1,195 @@
+# May 2020
+
+Contributors: 
+
+- @AragornFr
+- @BPEmu
+- @Bakaclub
+- @Branmeck
+- @Currymalker
+- @Deformer-Lua
+- @Dysp
+- @ENSSAT-Japanim
+- @Elliu
+- @Karaoke Mugen
+- @Kmeuh
+- @Koheitohikari
+- @Kubat
+- @Luca
+- @May
+- @MrKyubu
+- @Nabashi
+- @Nock
+- @Nocta
+- @Rinchama
+- @Rubn4
+- @Shlaky
+- @Smilley
+- @Soramimi
+- @Suryan
+- @TeLiXj
+- @Touhoppai
+- @Wazzzaaa
+- @amoethyst
+- @asdFer
+- @borax
+- @luclu7
+- @meulahke
+- @olivi55
+
+## Added
+
+New songs : 142
+
+- ENG - Frozen II - MOVIE IN - Show Yourself (@May)
+- ENG - Jet Set Radio Future - GAME OP - Concept of Love (@meulahke)
+- ENG - Lupin III - AUDIO IN - Nice Guy Lupin Two Beat (@MrKyubu)
+- ENG - My Little Pony Friendship is Magic - IN - Smile Song (@Smilley)
+- ENG - Queen - MV - Bohemian Rhapsody ~ Leiji Matsumoto Vers (@TeLiXj)
+- ENG - RWBY - ONA OP3 - When It Falls (@Branmeck)
+- ENG - RWBY - ONA OP4 - Let's Just Live (@Branmeck)
+- ENG - RWBY - ONA OP5 - The Triumph (@Branmeck)
+- ENG - Scooby-Doo and the Witch's Ghost - MOVIE IN - Hex Girl (@Kmeuh, @Nocta, @Bakaclub)
+- ENG - South Park - IN - You and Cthulhu (@Soramimi)
+- ENG - The Axis Of Awesome - REMIX MV - 4 Chords (@borax)
+- FRE - Frozen II - MOVIE IN - J'ai perdu le nord (@Deformer-Lua)
+- FRE - Frozen II - MOVIE IN - Je te cherche (@May)
+- FRE - Golden Bomber - MV - Memeshikute (@Dysp)
+- FRE - Helmut Fritz - MV - Ca m'enerve 2020 (@luclu7)
+- FRE - Miraculous Ladybug - OP - Miraculous ! (@Kmeuh)
+- FRE - NieR Automata - COVER PS4 XBOXONE PC GAME AMV - Weight of the World ~ Off Vocal Vers (@Bakaclub, @Kubat)
+- FRE - Pokemon The Johto Journeys - MV - Karaokemon - Pikachu (A l'attaque) (@Kmeuh)
+- FRE - Pokemon The Johto Journeys - MV - Karaokemon ~ La voix du sommeil (@Kmeuh)
+- FRE - Pokemon The Johto Journeys - MV - Karaokemon ~ Toi et Moi et Pokemon (@Kmeuh)
+- FRE - Taz-Mania - OP - Come to Taz-Mania (@meulahke)
+- FRE - Touhou - REMIX MV - Histoire Millenaire ~ Off Vocal Vers (@Karaoke Mugen)
+- FRE - Touhou - REMIX MV - Persephoneia ~ Off Vocal Vers (@Touhoppai)
+- JPN - A3! - GAME PV - Monologue (@Nabashi)
+- JPN - ASIAN KUNG-FU GENERATION - AUDIO OT - 24-ji (@Shlaky)
+- JPN - ASIAN KUNG-FU GENERATION - LIVE - Flashback (@Shlaky)
+- JPN - ASIAN KUNG-FU GENERATION - LIVE - Last Scene (@Shlaky)
+- JPN - ASIAN KUNG-FU GENERATION - LIVE - Shindoukaku (@Shlaky)
+- JPN - ASIAN KUNG-FU GENERATION - LIVE - Yoru no Mukou (@Shlaky)
+- JPN - ASIAN KUNG-FU GENERATION - MV - Jihei Tansaku (@Shlaky)
+- JPN - ASIAN KUNG-FU GENERATION - MV - Mirai no Kakera (@Shlaky)
+- JPN - Ai Kizuna - MV - Awakening (@MrKyubu)
+- JPN - Ai Kizuna - MV - FL-AI-YER (@MrKyubu)
+- JPN - Ai Kizuna - MV - the MIRACLE (@MrKyubu)
+- JPN - Angel Beats! - ED1 - Brave Song ~ Bad End Vers (@Rinchama)
+- JPN - Angel Beats! - ED2 - Ichiban no Takaramono (@Rinchama)
+- JPN - Angel Beats! - ED2 - Ichiban no Takaramono ~ Alternative Vers (@Rinchama)
+- JPN - Arifureta Shokugyou de Sekai Saikyou - ED - Hajime no Uta (@Currymalker)
+- JPN - BTS - MV - Lights (@asdFer)
+- JPN - Baby Princess 3D Paradise 0 Love - OVA ED - Piko Piku Pikatte Koi Shite yo (@amoethyst)
+- JPN - Baby Princess 3D Paradise 0 Love - OVA OP - Gyutto BABY Ai Nanda BABY (@amoethyst)
+- JPN - Beverly - MV - Toutoi (@Rubn4)
+- JPN - BlazBlue Continuum Shift - PS3 XBOX360 GAME AUDIO IS - Condemnation Wings ~Cry Camellia...~ (@ENSSAT-Japanim)
+- JPN - BlazBlue Continuum Shift - PS3 XBOX360 GAME AUDIO IS - Queen of rose ~Shinku no Boukansha~ (@ENSSAT-Japanim)
+- JPN - Boku no Hero Academia S2 - MV - Sora ni Utaeba ~ Full Vers (@Dysp)
+- JPN - ClariS - LIVE - Secret Base ~Kimi ga Kureta Mono~ (@Rinchama)
+- JPN - Cream Lemon Lemon Angel - IN - Tasogare Lonely (@meulahke)
+- JPN - Date a Live III - ED - Last Promise (@Currymalker)
+- JPN - Dorohedoro - ED4 - Strange Meat Pie (@meulahke)
+- JPN - Dorohedoro - ED5 - SECONDs FLY (@meulahke)
+- JPN - Dorohedoro - ED6 - 404 (@meulahke)
+- JPN - Dragon Ball Movie 3 Makafushigi Daibouken - MOVIE ED - Dragon Ball Densetsu (@meulahke)
+- JPN - Dragon Ball Z Tatta Hitori no Saishuu Kessen ~Freezer ni Idonda Z-Senshi Son Gokuu no Chichi~ - SPECIAL ED - Hikari no Tabi (@meulahke)
+- JPN - Dragon Ball Z Zetsubou he no hankou!! Nokosareta chousenshi Gohan to Trunks - SPECIAL ED - Aoi Kaze no Hope (@meulahke)
+- JPN - Eiga K-On! - MOVIE IN - U&I (@Kmeuh, @Nock)
+- JPN - Eiga K-On! - MOVIE OP - Ichiban Ippai (@Kmeuh)
+- JPN - Free! - AMV - EVER BLUE (@MrKyubu)
+- JPN - GRANBLUE FANTASY The Animation Season 2 - MV - Stay With Me ~ Full Vers (@Dysp)
+- JPN - Gintama. (2018) - ED - Hikari Shoumeiron (@asdFer)
+- JPN - Golden Bomber - MV - Memeshikute (@Dysp)
+- JPN - Granblue Fantasy - GAME LIVE - Ain Soph Aur ~ GranFest 2019 Vers (@Luca, @Nabashi)
+- JPN - Granblue Fantasy - GAME LIVE - The Dragon Knights ~ GranFest 2019 Vers (@Nabashi)
+- JPN - Grimms Notes - GAME AUDIO IN - Sagashibito no Tsumugi Uta (@Dysp)
+- JPN - Gyakuten Saiban Sono Shinjitsu Igi Ari! S2 - MV - Reason ~ Full Vers (@Currymalker)
+- JPN - High Score Girl II - OP - flash (@meulahke)
+- JPN - K-ON! - OP - Cagayake! GIRLS ~ Hou-kago Tea Time Vers (@Rinchama)
+- JPN - KAITO - REMIX MV - Another World is Mine (@ENSSAT-Japanim)
+- JPN - Kaguya-sama wa Kokurasetai question_mark Tensai-tachi no Ren'ai Zunousen - AUDIO OP - DADDY! DADDY! DO! ~ Full vers (@Dysp)
+- JPN - Kaguya-sama wa Kokurasetai question_mark Tensai-tachi no Ren'ai Zunousen - ED - Kaze ni Fukarete (@Kmeuh)
+- JPN - Kaguya-sama wa Kokurasetai question_mark Tensai-tachi no Ren'ai Zunousen - OP1 - DADDY! DADDY! DO! (@Suryan)
+- JPN - Kekkai Sensen - MV - Sugar Song and Bitter Step (@meulahke, @Karaoke Mugen)
+- JPN - Kidou Butouden G Gundam - ED1 - Umi yori mo Fukaku (@meulahke)
+- JPN - Kidou Butouden G Gundam - ED2 - Kimi no Naka no Eien (@meulahke)
+- JPN - Kimi no Na wa. - COVER REMIX MOVIE AMV - Irony (@Elliu, @Bakaclub)
+- JPN - Kimi no Suizou wo Tabetai - AUDIO IN - Himitsu ~ Full Vers (@MrKyubu)
+- JPN - Kimi no Suizou wo Tabetai - MOVIE AMV - Haru Natsu Aki Fuyu ~ Full Vers (@MrKyubu)
+- JPN - Kimi no Suizou wo Tabetai - MOVIE ED - Haru Natsu Aki Fuyu (@MrKyubu)
+- JPN - Kimi no Suizou wo Tabetai - MOVIE IN - Himitsu ~ Movie Vers (@MrKyubu)
+- JPN - Kimi no Suizou wo Tabetai - MOVIE MV - Fanfare ~ Full Vers (@MrKyubu)
+- JPN - Kingdom Hearts - MV - Hikari ~ Full Vers (@Soramimi)
+- JPN - Koumi Hirose - MV - Promise (@Dysp)
+- JPN - Len Kagamine - MV - Kazabana Mai (@ENSSAT-Japanim)
+- JPN - Lon - COVER MV - Ochame kinou (@AragornFr)
+- JPN - Lost Song - ED - TEARS ECHO ~ Alternative Vers (@Rinchama)
+- JPN - Luka Megurine - MV - Looking for (@ENSSAT-Japanim)
+- JPN - Lupin III - OP3 - Lupin Sansei Sono 3 (@MrKyubu)
+- JPN - Miku Hatsune - AMV - Hatsune Miku no Shoushitsu (@Kmeuh)
+- JPN - Miku Hatsune - MV - Mai Mai Mai (@MrKyubu)
+- JPN - Mon Colle Knight - OP1 - Just Fly Away (@meulahke)
+- JPN - Nakitai Watashi wa Neko wo Kaburu - COVER MOVIE MV - Hana ni Bourei (@Rinchama)
+- JPN - Nami yo kiite kure - ED - Pride (@meulahke)
+- JPN - Nobunaga-sensei no Osanazuma - ED - Returner Butterfly (@Wazzzaaa)
+- JPN - Nobunaga-sensei no Osanazuma - OP - Koi Seyo Minna, High! (@Wazzzaaa)
+- JPN - Okusama ga Seitokaichou! - ED1 - RenxAi=Equation (@Kmeuh)
+- JPN - Okusama ga Seitokaichou! - ED2 - Realize (@Kmeuh)
+- JPN - Okusama ga Seitokaichou! - OP - Koi Suru Hiyoko (@Kmeuh)
+- JPN - Okusama ga Seitokaichou! - OP - Koi Suru Hiyoko ~ Alternative Vers (@Kmeuh)
+- JPN - Oshi ga Budoukan Ittekuretara Shinu - ED1 - Momoiro Kataomoi (@May)
+- JPN - Osomatsu-san 2 - OP2 - Maboroshi Wink (@BPEmu)
+- JPN - Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei Shiteshimatta... - ED - BAD END (@Koheitohikari)
+- JPN - Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei Shiteshimatta... - OP - Otome no Route wa Hitotsu ja Nai! (@Koheitohikari)
+- JPN - Pocket Monsters - MV - Koduck no Uta (Koduck Kaichou) (@Koheitohikari)
+- JPN - Pocket Monsters - MV - Metamon no Uta (Mon-Mon-Metamon) (@Koheitohikari)
+- JPN - Pokemon Kimi ni Kimeta! - MOVIE OP - Mezase Pokemon Master -20th Anniversary- (@Kmeuh, @Nock)
+- JPN - Poyopoyo Kansatsu Nikki - OP - Maru Kaite Poyon (@MrKyubu)
+- JPN - RADWIMPS - MV - Gogatsu no Hae (@Dysp)
+- JPN - Raise de wa Chanto Shimasu - OP - Re Re Love (@Deformer-Lua)
+- JPN - Sakura Taisen 3 Paris wa Moeteiru ka - PS2 PC GAME OP1 - Mihata no Moto ni ~ Alternative Vers (@Kmeuh)
+- JPN - Sakura Taisen Gouka Kenran - OVA AUDIO ED1 - Furui Piano (@Kmeuh)
+- JPN - Sakura Taisen Gouka Kenran - OVA AUDIO ED2 - Kagayaki (@Kmeuh)
+- JPN - Sakura Taisen Gouka Kenran - OVA ED6 - Yume no Tsuzuki (@Kmeuh)
+- JPN - Sakura Taisen Gouka Kenran - OVA OP - Geki! Teikoku Kagekidan (Kai II) ~ Iris Vers (@Kmeuh)
+- JPN - Sakura Taisen Gouka Kenran - OVA OP - Geki! Teikoku Kagekidan (Kai II) ~ Sumire Vers (@Kmeuh)
+- JPN - Sakura Taisen Gouka Kenran - OVA OP - Geki! Teikoku Kagekidan (Kai) ~ Kanna Vers (@Kmeuh)
+- JPN - Sakura Taisen Gouka Kenran - OVA OP - Geki! Teikoku Kagekidan (Kai) ~ Kouran Vers (@Kmeuh)
+- JPN - Sakura Taisen Gouka Kenran - OVA OP - Geki! Teikoku Kagekidan (Kai) ~ Maria Vers (@Kmeuh)
+- JPN - Sakura Taisen Gouka Kenran - OVA OP - Geki! Teikoku Kagekidan (Kai) ~ Sakura Vers (@Kmeuh)
+- JPN - Sakura Taisen Monogatari ~Mysterious Paris~ - PS2 GAME IN - Erica's Good Morning Dance (@Kmeuh)
+- JPN - Sangatsu no Phantasia - MV - Bitter Sweet (@Elliu, @Bakaclub)
+- JPN - Sangatsu no Phantasia - MV - Seishun Nante Iranai wa (@Elliu, @Bakaclub)
+- JPN - Serial Experiments Lain - ED - Tooi Sakebi (@Kmeuh)
+- JPN - Show by Rock!! Mashumairesh!! - OP2 - Hiromenes (@amoethyst)
+- JPN - Skip Beat! - MV - Namida ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Summer Wars - MOVIE ED - Bokura no Natsu no Yume (@olivi55)
+- JPN - THE iDOLM@STER Million Live! Theater Days - GAME MV - Jireru Heart ni hi wo tsukete (@meulahke)
+- JPN - THE iDOLM@STER Million Live! Theater Days - GAME MV - Kuraki Hoshi, Tooi Tsuki (@meulahke)
+- JPN - Tales of Berseria - MV - Burn ~ Full Vers (@MrKyubu)
+- JPN - Tenki no Ko - MOVIE ED2 - Ai ni Dekiru Koto wa mada Aru kai (@Rinchama, @Dysp)
+- JPN - Tenki no Ko - MOVIE IN - Ai ni Dekiru Koto wa mada Aru kai (Movie Edit) (@Rinchama, @Dysp)
+- JPN - Tenki no Ko - MOVIE IN - Shukusai (Movie edit) (@Rinchama, @Dysp)
+- JPN - Teto Kasane - MV - Ochame Kinou (@AragornFr)
+- JPN - To Aru Majutsu no Index III - ED1 - Kakumei Zen'ya ~ Alternative Vers (@Nock)
+- JPN - Tommy february6 - MV - Kiss One More Time (@Rubn4)
+- JPN - World End Economica Episode 1 - PC GAME ED - retrograde interior (@MrKyubu)
+- JPN - World End Economica Episode 2 - PC GAME ED - escapes from predicament (@MrKyubu)
+- JPN - Yesterday wo Utatte - AUDIO ED1 - Kago no Naka ni Tori ~ Full vers (@Dysp)
+- JPN - Yesterday wo Utatte - ED1 - Kago no Naka ni Tori (@Dysp)
+- JPN - Yesterday wo Utatte - ED2 - Aoibashi (@Dysp)
+- JPN - amazarashi - AUDIO OT - Karappo no Sora ni Tsubusareru (@ENSSAT-Japanim)
+- JPN - amazarashi - AUDIO OT - One Room Jojishi (@Dysp)
+- POL - Shaman King - OP - Krol Szamanow (@Currymalker)
+- UND - Bessatsu Olympia Kyklos - OP - William Tell Jokyoku (@Kmeuh)
+
+## Fixed
+
+Fixed songs : 1764
+
+Too many to list, but @Dysp made a mass change in the .ass folder to correctly separate the double consonants in Japanese karas.
+
 # April 2020
 
 Contributors: 
