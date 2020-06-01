@@ -16,7 +16,7 @@ if (!process.argv[2]) {
 }
 
 const start = new Date(process.argv[2] + '-01');
-const end = new Date(process.argv[2] + '-31');
+const end = new Date(process.argv[2] + '-31 23:59:59');
 
 const asyncReadFile = (...args) => passThroughFunction(readFile, args);
 const asyncReadDir = (...args) => passThroughFunction(readdir, args);
