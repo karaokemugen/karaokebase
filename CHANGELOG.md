@@ -1,3 +1,444 @@
+# June 2020
+
+Contributors: 
+
+- @Angor
+- @Bakaclub
+- @Branmeck
+- @Deformer-Lua
+- @Dysp
+- @ENSSAT-Japanim
+- @Eden
+- @Kmeuh
+- @Kubat
+- @Lord_Tenebro
+- @MrKyubu
+- @Tatoon
+- @amoethyst
+- @leonekmi
+
+## Added
+
+New songs : 44
+
+- ENG - Cardfight!! Vanguard - OP2 - Believe in my existence (@Deformer-Lua)
+- ENG - Cowboy Bebop Tengoku no Tobira - MOVIE AUDIO IN - Diggin' (@ENSSAT-Japanim)
+- ENG - Devil May Cry 3 - PS2 PC GAME AMV - Devils Never Cry (@ENSSAT-Japanim)
+- ENG - GREAT PRETENDER - ONA ED - The Great Pretender (@Kmeuh)
+- ENG - RADWIMPS - MV - Light the Light (@Dysp)
+- ENG - RWBY - ONA OP6 - Rising (@Branmeck)
+- ENG - RWBY - ONA OP7 - Trust Love (@Branmeck)
+- FRE - Les Minikeums - IN - Ma Melissa (@Lord_Tenebro)
+- FRE - Pokemon The Johto Journeys - MV - Karaokemon ~ Une place au soleil (@Kmeuh)
+- JPN - Aimyon, RADWIMPS - MV - Nakidashisou da yo (@Dysp)
+- JPN - Akira Kushida, Ayana Taketatsu, Azumi Inoue - MV - Tsubasa wo Motsu Mono ~Not an angel Just a dreamer~ (@Dysp)
+- JPN - Angel Beats! - AUDIO ED2 - Ichiban no Takaramono ~ Full Yui Vers (@Dysp, @ENSSAT-Japanim)
+- JPN - Black Clover (2017) - OP10 - Black Catcher (@Angor)
+- JPN - Black Clover (2017) - OP10 - Black Catcher ~ Alternative Vers (@Angor)
+- JPN - Camellia, Nanahira - AUDIO - BASSLINE Yatteru question_mark (@leonekmi, @Dysp)
+- JPN - Dragon Ball Super Broly - ED MV - Blizzard (@Deformer-Lua)
+- JPN - Gleipnir - OP - Altern-ate- (@Kubat, @Bakaclub)
+- JPN - Kami no Tou - ED - SLUMP (@Dysp)
+- JPN - Kami no Tou - OP - TOP (@Dysp)
+- JPN - Katekyou Hitman Reborn! - ED11 - Smile for (@Deformer-Lua)
+- JPN - Katekyou Hitman Reborn! - ED12 - Aoi Yume (@Deformer-Lua)
+- JPN - Katekyou Hitman Reborn! - ED13 - Yume no Manual (@Deformer-Lua)
+- JPN - Katekyou Hitman Reborn! - ED14 - gr8 story (@Deformer-Lua)
+- JPN - Katekyou Hitman Reborn! - ED15 - Familia (@Deformer-Lua)
+- JPN - Katekyou Hitman Reborn! - ED16 - Canvas (@Deformer-Lua)
+- JPN - Katekyou Hitman Reborn! - ED16 - Canvas ~ Alternative Vers (@Deformer-Lua)
+- JPN - Katekyou Hitman Reborn! - ED7 - Ame Ato (@Deformer-Lua)
+- JPN - Katekyou Hitman Reborn! - ED8 - CYCLE (@Deformer-Lua)
+- JPN - Katekyou Hitman Reborn! - ED9 - Suberidai (@Deformer-Lua)
+- JPN - Lupin III THE FIRST - MOVIE ED - GIFT (@MrKyubu)
+- JPN - Lupin III Walther P-38 - SPECIAL AUDIO ED - Hitomi wo Wasurenaide (@MrKyubu)
+- JPN - Madou King Granzort - OP - Hikari no Senshi-tachi (@Eden)
+- JPN - RADWIMPS - AUDIO MV - Bouningen ~ Strings vers (@Dysp)
+- JPN - Rin Kagamine - MV - Daiyogen (@Tatoon, @Bakaclub)
+- JPN - Sakigake!! Cromartie Koukou - ED2 - Cromartie Koukou Kouka (@ENSSAT-Japanim)
+- JPN - Senki Zesshou Symphogear XV - LIVE - Hanasaku Yuuki (Ver. Amalgam) ~ Symphogear Live 2018 Vers (@amoethyst)
+- JPN - Shin Sakura Taisen - PS4 GAME MV - Tetsu no Hoshi ~ Short Vers (@Kmeuh)
+- JPN - Shin Sakura Taisen the Animation - ED - Sakura Yumemishi (@Kmeuh)
+- JPN - TUYU - MV - Yappari Ame wa Furun da ne (@Bakaclub, @Tatoon)
+- JPN - WORLD ORDER - MV - SINGULARITY (@MrKyubu)
+- JPN - Yesterday wo Utatte - ED3 - Yesterday wo Utatte (@Dysp)
+- JPN - Yu-Gi-Oh! SEVENS - ED1 - Goha Dai Nana Shougakkou Uta (@Deformer-Lua)
+- JPN - Yu-Gi-Oh! SEVENS - OP1 - Nanananananana (@Deformer-Lua)
+- KOR - LENA - GAME MV - Tok! Tok! Tok! (@Kmeuh)
+
+## Fixed
+
+Fixed songs : 368
+
+- ENG - .hack GIFT - OVA OP - Obsession
+- ENG - .hack SIGN - OP - Obsession
+- ENG - Aimer, Hiroyuki Sawano - AUDIO - Next 2 U
+- ENG - Ayahi Takagaki - COVER AUDIO - Can't take my eyes off of you
+- ENG - Beck Mongolian Chop Squad - AUDIO OP - HIT IN THE USA ~ Full Vers
+- ENG - Boogiepop wa Warawanai (2019) - AUDIO OP - shadowgraph ~ Full Vers
+- ENG - Brain Powerd - AUDIO IS - True Love
+- ENG - Emily Bindiger - AUDIO - my long forgotten cloistered sleep
+- ENG - K-ON! - AMV - What's up, people question_mark !
+- ENG - Kantai Collection - AMV - Classic
+- ENG - Karigurashi no Arietti - AUDIO IS - Mou Hitotsu no Sekai
+- ENG - Katanagatari - AUDIO IN - Bahasa Palus
+- ENG - Les Guignols - MV - We fuck the world
+- ENG - Lupin III - AUDIO IN - Nice Guy Lupin Two Beat
+- ENG - Major - AMV - JUMP START
+- ENG - Monogatari Series Second Season - OP4 - white lies
+- ENG - Noir - AUDIO IN - Lullaby ~ Full Vers
+- ENG - Ousama Game The Animation - OP - FEED THE FIRE
+- ENG - Persona 3 - PS2 GAME AUDIO IN - Mass Destruction
+- ENG - Persona 5 - PS3 PS4 GAME AUDIO - Last Surprise
+- ENG - Persona 5 - PS3 PS4 GAME AUDIO - Life Will Change
+- ENG - Promare - AUDIO IN - Inferno
+- ENG - Queen - MV - Bohemian Rhapsody ~ Leiji Matsumoto Vers
+- ENG - RWBY - ONA AMV - I Burn
+- ENG - Saiyuuki - OP - Monkey Magic
+- ENG - Shingeki no Kyojin - AUDIO IN - Call your name
+- ENG - Teen Titans - OP - Teen Titans
+- ENG - Tengen Toppa Gurren Lagann - AUDIO IN - Rap is a Man's Soul!
+- ENG - Tonari no Seki-kun - ED - Set Them Free
+- ENG - Tonari no Seki-kun - MV - Set Them Free
+- ENG - Tsukihime - PC GAME AMV - FantasMic
+- ENG - Umineko no Naku Koro ni - PC GAME AUDIO - Happy Maria
+- FRE - Aishite Knight - AUDIO IN - Freeway
+- FRE - Animaniacs - IN - Le Monde par Yakko
+- FRE - Cardcaptor Sakura - OP2 - Tobira wo Akete ~ Fox Kids Vers
+- FRE - Chou Jikuu Yousai Macross - OP - Robotech
+- FRE - Denver the Last Dinosaur - OP - Denver le dernier dinosaure
+- FRE - Diplodo - OP - Diplodo
+- FRE - Dirty Pair - OP - Dan et Danny
+- FRE - Donjon de Naheulbeuk - AMV - A l'aventure, compagnons
+- FRE - Donjon de Naheulbeuk - AUDIO - Marche Barbare
+- FRE - Donjon de Naheulbeuk - AUDIO - Mon Ancetre Gurdil
+- FRE - Dragon Quest Dai no Daibouken - OP - Fly
+- FRE - Fragilite LoLienne - COVER GAME AMV - GO!!!
+- FRE - Ganesh2 - AUDIO - CHA LA INCH ALLAH
+- FRE - Ganesh2 - AUDIO - Emile Louis, la chanson festive
+- FRE - Golden Bomber - MV - Memeshikute
+- FRE - High School! Kimengumi - OP - Le College Fou Fou Fou
+- FRE - Inspector Gadget - OP - Inspecteur Gadget
+- FRE - Kerokko Demetan - OP - Gentil petit Demetan
+- FRE - Kimagure Orange Road - OP - Max et Compagnie
+- FRE - Kurenai Sanshirou - OP - Judo Boy
+- FRE - Les Guignols - CM - Carte Kiwi
+- FRE - Lupin III - OP - Edgar, le detective cambrioleur
+- FRE - M.A.S.K. - OP - Mask
+- FRE - Meitantei Holmes - OP - Sherlock Holmes
+- FRE - Mister Ajikko - OP - Le Petit Chef
+- FRE - Mister MV - COVER OT - Manhattan-Kaboul
+- FRE - Mister MV - OT - J'adore le zboub
+- FRE - Nexus VI - MOVIE OT - Safari
+- FRE - Nexus VI - MOVIE OT - Zegema beach
+- FRE - Nexus VI - OT - Joyeuses Fetes
+- FRE - Nolife - MV - Shnekketsu
+- FRE - Pocket Monsters - AMV - Le plus grand Maitre Pokemon ~ Full Vers
+- FRE - Pocket Monsters - AUDIO CS - La chanson d'Ondine
+- FRE - Pocket Monsters - MV - Ensemble pour toujours
+- FRE - Pokemon The Johto Journeys - MV - Karaokemon - Pikachu (A l'attaque)
+- FRE - Pokemon The Johto Journeys - MV - Karaokemon ~ La voix du sommeil
+- FRE - Pokemon The Johto Journeys - MV - Karaokemon ~ Toi et Moi et Pokemon
+- FRE - Ranma - OP - Ranma
+- FRE - Snorks - OP - Les Snorky
+- FRE - Takarajima - OP - L'Ile au Tresor
+- FRE - Tenkuu Senki Shurato - OP - Shurato
+- FRE - Touch - OP - Theo ou la batte de la victoire
+- FRE - UFO Robo Grendizer - OP3 - La Legende d'Actarus
+- FRE - UFO Robo Grendizer - OP5 - Et l'aventure continue
+- FRE - UFO Robo Grendizer - OP7 - Le Retour de Goldorak Goldorak Go
+- FRE - Uchuu Densetsu Ulysses 31 - OP2 - Ulysse revient
+- FRE - Uchuu Keiji Gavan - OP - Le sherif de l'espace
+- FRE - Ultra Vomit - AUDIO - Keken
+- FRE - Ultra Vomit - AUDIO - Keken ~ Off Vocal Vers
+- FRE - Urusei Yatsura - OP - Lamu
+- FRE - Wanwan Sanjuushi - OP - Les Trois Mousquetaires
+- FRE - Yoroiden Samurai Troopers - OP - Les Samourais de l'eternel
+- GER - Owarimonogatari - OP4 - mein schatz
+- GER - Touhou - COVER MV - Bad Apple!!
+- ITA - Umineko no Naku Koro ni Chiru - PC GAME AUDIO ED - Byakumu no Mayu ricordando il passato ~ Full Vers
+- JPN - 91 Days - AUDIO OP - Signal ~ Full Vers
+- JPN - ARB - AUDIO - ROCK OVER JAPAN
+- JPN - ASIAN KUNG-FU GENERATION - AUDIO - 24-ji
+- JPN - Aa! Megami-sama! - OVA AUDIO OP - My Heart Iidasenai Your Heart Tashikametai ~ Full Vers
+- JPN - Aimer - AUDIO - Ito
+- JPN - Air - GAME OP - Tori no Uta
+- JPN - Aldnoah.Zero - AUDIO IN - BRE@TH LESS
+- JPN - Angel Beats! - ED2 - Ichiban no Takaramono
+- JPN - Angel Beats! - IN - Crow Song
+- JPN - Another - ED - anamnesis
+- JPN - Another - OP - Kyoumu Densen
+- JPN - Ar tonelico 2 Sekai ni Hibiku Shoujo-tachi no Metafarika - GAME AUDIO - homura~HOMURA
+- JPN - Ar tonelico Sekai no Owari de Utai Tsuzukeru Shoujo - GAME AUDIO - EXEC_HYMME_LIFE=W R S
+- JPN - Araburu Kisetsu no Otome-domo yo. - OP - Otome-domo yo
+- JPN - Argento Soma - OP - Silent Wind
+- JPN - Ayumi Hamasaki - MV - Endless Sorrow
+- JPN - Azumanga Daiou The Animation (2002) - AUDIO CS - Sarabai! Happy Hen
+- JPN - Azumanga Daiou The Animation (2002) - AUDIO ED - Raspberry heaven ~ Full Vers
+- JPN - Azumanga Daiou The Animation (2002) - AUDIO OP - Soramimi Cake ~ Full Vers
+- JPN - BTOB - AUDIO - Blowin'
+- JPN - BTOB - AUDIO - Blowin' ~ Off Vocal Vers
+- JPN - Bakemonogatari - ED - Kimi no Shiranai Monogatari
+- JPN - Bakemonogatari - ED - Kimi no Shiranai Monogatari ~ Hitagi Alternative Vers
+- JPN - Bakemonogatari - ED - Kimi no Shiranai Monogatari ~ Hitagi Vers
+- JPN - Bakemonogatari - ED - Kimi no Shiranai Monogatari ~ Mayoi Vers
+- JPN - Bakemonogatari - ED - Kimi no Shiranai Monogatari ~ Nadeko Vers
+- JPN - Bakemonogatari - ED - Kimi no Shiranai Monogatari ~ Suruga Vers
+- JPN - Bakemonogatari - ED - Kimi no Shiranai Monogatari ~ Tsubasa Vers
+- JPN - Bakemonogatari - LIVE - Renai circulation
+- JPN - Bakemonogatari - OP1 - staple stable
+- JPN - Bakemonogatari - OP2 - Kaerimichi
+- JPN - Bakemonogatari - OP3 - Ambivalent world
+- JPN - Bakemonogatari - OP4 - Renai circulation
+- JPN - Bakemonogatari - OP4 - Renai circulation ~ Alternative Vers
+- JPN - Bakemonogatari - OP5 - Sugar Sweet Nightmare
+- JPN - Bakemonogatari - OP5 - Sugar Sweet Nightmare ~ Anime Vers
+- JPN - Bakuretsu Hunter - LIVE - WHAT'S UP GUYS question_mark ~ Animelo 2009 Vers
+- JPN - Baldr Force - PC GAME OP - Face of Fact
+- JPN - BanG Dream! - GAME AUDIO - Louder ~ Full Vers
+- JPN - BanG Dream! - GAME AUDIO IN - Hey-day Capriccio ~ Full Vers
+- JPN - Black Clover (2017) - ED5 - Tenjou Tenge
+- JPN - Black Rock Shooter - OP - Black Rock Shooter
+- JPN - Black Wolves Saga -Bloody Nightmare- - PC GAME OP - Dear Despair
+- JPN - BlazBlue Continuum Shift - PS3 XBOX360 GAME AUDIO IS - Condemnation Wings ~Cry Camellia...~
+- JPN - BlazBlue Continuum Shift - PS3 XBOX360 GAME AUDIO IS - Queen of rose ~Shinku no Boukansha~
+- JPN - Boku dake ga Inai Machi - AUDIO OP - Re Re ~ Full Vers
+- JPN - Boku no Hero Academia S3 - ED1 - Update
+- JPN - Busou Shinki - OP - Install x Dream
+- JPN - Byousoku 5 Centimeter - MOVIE ED - One More Time, One More Chance
+- JPN - Cardcaptor Sakura - OP1 - Catch you Catch me ~ Sakura Tange Vers
+- JPN - Cardcaptor Sakura - OP2 - Tobira wo Akete
+- JPN - Cardcaptor Sakura Clear Card-hen - OP1 - CLEAR
+- JPN - Carnival Phantasm - LIVE - Super Affection
+- JPN - City Hunter - AUDIO IN - NO NO NO
+- JPN - Denpa Onna to Seishun Otoko - ED - Ruru
+- JPN - Dragon Ball - AMV - Red Ribbon Army
+- JPN - Dragon Ball Super - ED9 - Haruka
+- JPN - Eureka Seven AO - OP2 - Bravelue
+- JPN - Fate stay night - AUDIO CS - Rise
+- JPN - Fate stay night Unlimited Blade Works (2014) - AUDIO IN - Last Stardust
+- JPN - Fate zero - AUDIO ED3 - Manten ~ Full vers
+- JPN - Free! - OP - RAGE ON
+- JPN - Freezing - OP - Color
+- JPN - G-On! - OT - Gachimushi! Boys
+- JPN - GARO Kami no Kiba - AUDIO - Kami no kiba ~The Fang of Apocalypse~
+- JPN - Gakkou no Kaidan - ED - Sexy Sexy
+- JPN - Galaxy Angel A - OP - Galaxy Ba-bang ga Bang!
+- JPN - Gekijouban City Hunter Shinjuku Private Eyes - MOVIE ED1 - Get Wild
+- JPN - Gekijouban Pocket Monsters Mizu no Miyako no Mamorigami Latias to Latios - MOVIE AUDIO ED - Hitoribocchi Ja Nai
+- JPN - Girls und Panzer - AMV - Yuki no Shingun
+- JPN - Grimms Notes - GAME AUDIO IN - Sagashibito no Tsumugi Uta
+- JPN - Gun x Sword - AUDIO IN - Niji no Anata ~ Full Vers
+- JPN - Haiyore! Nyaruko-san W - OP - Koi wa Chaos no Shimobe Nari
+- JPN - Hanamonogatari - ED - Hana Ato Shirushi
+- JPN - Hanamonogatari - OP - the last day of my adolescence
+- JPN - Hanatan - AUDIO - Tengaku
+- JPN - Heat Guy J - OP - Face
+- JPN - Hetalia Axis Powers - ONA AUDIO CS - Embrace The Tres Bien Moi
+- JPN - Hetalia Axis Powers - ONA AUDIO CS - Fall in Love Mademoiselle
+- JPN - Higurashi no Naku Koro ni - AUDIO IS - Dear You -Cry-
+- JPN - Higurashi no Naku Koro ni - AUDIO IS - Dear You -Feel-
+- JPN - Higurashi no Naku Koro ni - AUDIO IS - Dear You -Hope-
+- JPN - Higurashi no Naku Koro ni - AUDIO IS - Dear You -Kind-
+- JPN - Hikaru no Go - OP1 - Get Over
+- JPN - Honobono Log - AUDIO OP - Morning ~ Full Vers
+- JPN - Hoshi wo Ou Kodomo - MV - Hello Goodbye & Hello
+- JPN - Hunter X Hunter (2011) - ED4 - Nagareboshi Kirari
+- JPN - IDOLiSH7 - GAME MV - Crescent rise
+- JPN - J.A.K.Q. Dengekitai - OP - J.A.K.Q. Dengekitai
+- JPN - J.A.K.Q. Dengekitai - OP - J.A.K.Q. Dengekitai ~ Alternative Vers
+- JPN - JA Kumamoto Keizairen - CM - Nikoyaka Shokudou
+- JPN - K-ON! - AMV - Cagayake! GIRLS (VOCA-ON!)
+- JPN - KANA-BOON - COVER AUDIO - Kimi to Iu Hana
+- JPN - Kaguya-hime no Monogatari - MOVIE AUDIO IN - Warabe Uta
+- JPN - Kaguya-sama wa Kokurasetai Tensai-tachi no Ren'ai Zunousen - OP - Love Dramatic
+- JPN - Kaguya-sama wa Kokurasetai question_mark Tensai-tachi no Ren'ai Zunousen - AUDIO OP - DADDY! DADDY! DO! ~ Full vers
+- JPN - Kaguya-sama wa Kokurasetai question_mark Tensai-tachi no Ren'ai Zunousen - OP - DADDY! DADDY! DO!
+- JPN - Kaiju Club - OP - Recollections
+- JPN - Kakumeiki Valvrave - ED1 - Boku ja Nai
+- JPN - Kanon (2006) - OP - Last Regrets
+- JPN - Kanon - PC GAME OP - Last regrets
+- JPN - Kidou Keisatsu Patlabor New OVA (1990) - OVA OP2 - Mamoritai no
+- JPN - Kidou Senshi Gundam Tekketsu no Orphans - OP2 - Survivor
+- JPN - Kimi no Suizou wo Tabetai - AUDIO IN - Himitsu ~ Full Vers
+- JPN - Kimi to Nami ni Noretara - MOVIE IN - Brand New Story
+- JPN - Kimi to Nami ni Noretara - MOVIE MV - Brand New Story ~ Short Vers
+- JPN - KitaQman - MV - Hey!! Kitakyuushuu
+- JPN - Koyomimonogatari - ONA ED1 - whiz
+- JPN - Kujira no Kora wa Sajou ni Utau - IN - Hikari no Uta
+- JPN - Lodoss-tou senki Eiyuu Kishi Den - AUDIO OP - Kiseki no Umi ~ Full Vers
+- JPN - Lucky Star - AUDIO CS - Ore no wasuremono ~ Full Vers
+- JPN - Lucky Star - AUDIO ED5 - CHA-LA HEAD CHA-LA ~ Full Vers
+- JPN - Lucky Star - AUDIO ED6 - Valentine Kiss ~ Full Vers
+- JPN - Mafumafu - COVER AUDIO - Ikanaide
+- JPN - Meitantei Conan - AUDIO OP5 - TRUTH~A GREAT DETECTIVE OF LOVE~ ~ Full Vers
+- JPN - Mekakucity Actors - MV - Daze ~ Full Vers
+- JPN - Mekakucity Actors - OP1 - daze
+- JPN - Mentholatum Lip Baby - CM - Akuma na Kanna
+- JPN - Mentholatum Lip Baby - CM - Kuro Neko Kanna
+- JPN - Miku Hatsune - AUDIO - Ai Kotoba
+- JPN - Miku Hatsune - MV - GO GO Mario!!
+- JPN - Miku Hatsune, Snake - COVER MV - Ochame kinou
+- JPN - Minna Daisuki Katamari Damashii - PS2 GAME AUDIO ED - King of Kings no Uta ~ Full Vers
+- JPN - Mirai no Mirai - MOVIE AUDIO OP - Mirai no Theme
+- JPN - Monogatari Series Puc Puc - GAME OP - wicked prince
+- JPN - Monogatari Series Second Season - ED1 - Ai wo Utae
+- JPN - Monogatari Series Second Season - ED1 - Ai wo Utae ~ Mayoi Vers
+- JPN - Monogatari Series Second Season - ED1 - Ai wo Utae ~ Tsubasa Vers
+- JPN - Monogatari Series Second Season - ED2 - Sono Koe wo Oboeteru ~ Nadeko Vers
+- JPN - Monogatari Series Second Season - ED2 - Sono Koe wo Oboeteru ~ Shinobu Vers
+- JPN - Monogatari Series Second Season - ED3 - snowdrop
+- JPN - Monogatari Series Second Season - OP1 - chocolate insomnia
+- JPN - Monogatari Series Second Season - OP2 - Happy Bite
+- JPN - Monogatari Series Second Season - OP3 - Delusion Express
+- JPN - Monogatari Series Second Season - OP5 - Fast Love
+- JPN - Monogatari Series Second Season - OP6 - Kogarashi Sentiment
+- JPN - My Little Pony Friendship is Magic - AMV - Sakura Taisen Equestria (Geki! Teikoku Kagekidan)
+- JPN - My Little Pony Friendship is Magic - AMV - Wonderful Rush
+- JPN - Nekomonogatari Kuro - ED - Kieru Daydream
+- JPN - Nekomonogatari Kuro - ED - Kieru Daydream ~ Alternative Vers
+- JPN - Nekomonogatari Kuro - OP - Perfect Slumbers
+- JPN - Nico Nico Douga - COVER GAME OT - Kumikyoku Nico Nico Douga
+- JPN - Nico Nico Douga - COVER GAME OT - Kumikyoku Nico Nico Douga ~ Off Vocal Vers
+- JPN - Nico Nico Douga - OT - Nico Nico Douga Urakumikyoku
+- JPN - Nico Nico Douga - OT - Nico Nico Kumikyoku Kai
+- JPN - Nico Nico Douga - OT - Yaranaika
+- JPN - NieR Automata - AUDIO IN - Emil's Shop
+- JPN - Nisemonogatari - ED - Naisho no Hanashi
+- JPN - Nisemonogatari - ED - Naisho no Hanashi ~ Karen Vers
+- JPN - Nisemonogatari - ED - Naisho no Hanashi ~ Tsukihi Vers
+- JPN - Nisemonogatari - OP1 - Futakotome
+- JPN - Nisemonogatari - OP1 - Futakotome ~ Alternative Vers
+- JPN - Nisemonogatari - OP2 - Marshmallow Justice
+- JPN - Nisemonogatari - OP3 - Platinum Disco
+- JPN - Noir - AUDIO IS - Aka to Kuro
+- JPN - Noir - AUDIO IS - Himitsu
+- JPN - Ojamajo Doremi - OP - Ojamajo Carnival!!
+- JPN - Owarimonogatari - ED1 - Sayonara no yukue ~ Ougi Vers
+- JPN - Owarimonogatari - ED1 - Sayonara no yukue ~ Shinobu Vers
+- JPN - Owarimonogatari - ED2 - SHIORI ~ Hitagi Vers
+- JPN - Owarimonogatari - ED2 - SHIORI ~ Mayoi Vers
+- JPN - Owarimonogatari - ED2 - SHIORI ~ Ougi Vers
+- JPN - Owarimonogatari - OP1 - Decent Black
+- JPN - Owarimonogatari - OP2 - mathemagics
+- JPN - Owarimonogatari - OP3 - Yuudachi Houteishiki
+- JPN - Owarimonogatari - OP5 - Terminal Terminal
+- JPN - Owarimonogatari - OP6 - dreamy date drive
+- JPN - Owarimonogatari - OP7 - Dark Cherry Mystery
+- JPN - Patapon - PSP GAME AUDIO OP - Patapon 3 Theme
+- JPN - Pop'n Music 15 ADVENTURE - GAME OT - Rin to shite saku hana no gotoku
+- JPN - REOL - AUDIO - B12
+- JPN - REOL - AUDIO - Monster
+- JPN - Re Creators - OP1 - gravityWall
+- JPN - Re Creators - OP2 - sh0ut
+- JPN - Re Zero kara Hajimeru Isekai Seikatsu - AUDIO IN - Wishing ~ Full Vers
+- JPN - Ren'ai Boukun - OP - Koi question_mark De Ai question_mark De Boukun Desu!
+- JPN - Ro-Kyu-Bu! - MV - Shoot!
+- JPN - Rockman 2 Dr. Wairi no Nazo - GAME AMV - Omoide wa Okkusenman
+- JPN - Rockman 2 Dr. Wairi no Nazo - OT - Omoide wa Okkusenman! ~ Female Vers
+- JPN - SPEED - MV - My Graduation
+- JPN - Saber Marionette J - OP - Successful Mission
+- JPN - Saki - AMV - Mind As Judgment
+- JPN - Saki Achiga Hen - Episode of Side-A - AMV - Guren no Yumiya
+- JPN - Sakura Taisen - COVER AMV - Geki! Tei FINALE ~ Syanthis Vers
+- JPN - Sakura Taisen - COVER AMV - Geki! Teikoku Kagekidan (Kai) ~ Syanthis Vers
+- JPN - Sakura Taisen - COVER GAME AUDIO IN - Geki! Teikoku Kagekidan ~ BanG Dream Vers
+- JPN - Sakura Taisen 3 Paris wa Moeteiru ka - PS2 PC GAME OP2 - Geki! Teikoku Kagekidan III
+- JPN - Sakura Taisen Gouka Kenran - OVA AUDIO ED1 - Furui Piano
+- JPN - Sakura Taisen Gouka Kenran - OVA AUDIO ED2 - Kagayaki
+- JPN - Sakura Taisen ~Atsuki Chishio Ni~ - PS2 GAME OP - Geki! Teikoku Kagekidan
+- JPN - Sakurako-san no Ashimoto ni wa Shitai ga Umatteiru - OP - Dear answer
+- JPN - Sansha San'you - ED - Guuchoki Parade
+- JPN - Sansha San'you - OP - Clover Kakumation
+- JPN - Shoujo Shuumatsu Ryokou - AUDIO ED2 - Amadare no Uta ~ Full Vers
+- JPN - Shouwa Genroku Rakugo Shinjuu - OP - Usurai Shinjuu
+- JPN - Solatorobo RED the Hunter - DS GAME AMV - Sore kara CODA e ~ Full Vers
+- JPN - Somali to Mori no Kamisama - OP - Arigatou wa Kocchi no Kotoba
+- JPN - Steins Gate - OP - Hacking to the Gate
+- JPN - Taimanin Yukikaze - PC GAME AUDIO OP - R E D ~ Full Vers
+- JPN - Tasogare Otome x Amnesia - AUDIO OP - CHOIR JAIL ~ Full Vers
+- JPN - The Blue Hearts - AUDIO - TRAIN-TRAIN
+- JPN - Thousand Arms - PSX GAME OP - Depend on You
+- JPN - To Aru Hikuushi e no Koiuta - ED - Kaze ga Shitteru
+- JPN - To Aru Kagaku no Railgun - AMV - Mind As Judgment
+- JPN - Tommy february6 - MV - Kiss One More Time
+- JPN - Tomoyo After - PC GAME OP - Light colors ~ CS Edition Vers
+- JPN - Top wo Nerae 2! Diebuster - OVA AUDIO OP - Groovin' Magic ~ Full Vers
+- JPN - Touhou - AMV - Totsugeki Love Heart
+- JPN - Touhou - AMV - the first the last (Meikai Kenshi Yoyomu 4)
+- JPN - Touhou - AUDIO - Nihil Kagura ~ Full Vers
+- JPN - Touhou - COVER AUDIO - Cirno's Perfect Math Class ~ Metal Vers
+- JPN - Touhou - MV - Akai Tsuki (Dawn Star)
+- JPN - Touhou - MV - Akai Tsuki no Waltz
+- JPN - Touhou - MV - All Mankind's Hisou Tensoku
+- JPN - Touhou - MV - Artificial Children
+- JPN - Touhou - MV - Bad Apple & Good Orange
+- JPN - Touhou - MV - Bad Apple!!
+- JPN - Touhou - MV - Border of Extacy
+- JPN - Touhou - MV - Club Ibuki in Break All
+- JPN - Touhou - MV - Convictor Yamaxanadu!
+- JPN - Touhou - MV - FIRE FLOWER
+- JPN - Touhou - MV - Heartful Nekoromancer
+- JPN - Touhou - MV - Kappa Nitori
+- JPN - Touhou - MV - Kero 9 Destiny
+- JPN - Touhou - MV - Locked Girl
+- JPN - Touhou - MV - Marisa Stole the Precious Thing
+- JPN - Touhou - MV - Neko Miko Reimu
+- JPN - Touhou - MV - Okuu's Nuclear Fusion Dojo
+- JPN - Touhou - MV - Priere
+- JPN - Touhou - MV - Saisoku Saikou SHUTTER GIRL
+- JPN - Touhou - MV - Stardust Dreams
+- JPN - Touhou - MV - Touhou Sweets! ~The Cruel Sisters and the Suffering Maid~
+- JPN - Touhou - MV - Tsurupettan
+- JPN - Touhou - MV - U.N. OWEN was her (Hiiro Gekka, Kyou Saku no Zetsu ~ 1st Anniversary Remix)
+- JPN - Touhou - MV - Unavoidable Koishi ~ Fushigi na Kusuri
+- JPN - Touhou - MV - WE ARE THE JAPANESE GOBLIN (Saigetsu ~ Sagyou Bougai Remix)
+- JPN - Touhou - MV - Wandering Darkness
+- JPN - Touhou - MV - Wouldn't Cucumber-Flavored Beer Be Nice to Drink!
+- JPN - Touhou - OT - Inu no Omawari-san
+- JPN - Tsukimonogatari - ED - border
+- JPN - Tsukimonogatari - OP - Orange Mint
+- JPN - URACON III - OVA AUDIO ED - Violet Zone
+- JPN - Uchiage Hanabi Shita kara Miru ka question_mark Yoko kara Miru ka question_mark - MOVIE MV - Uchiage Hanabi
+- JPN - Umineko no Naku Koro ni - GAME AUDIO - Furniture Waltz
+- JPN - Umineko no Naku Koro ni - PC GAME AUDIO - Katakoi
+- JPN - Umineko no Naku Koro ni - PC GAME AUDIO - Konjiki no Yasoukyoku ~Golden Nocturne~
+- JPN - Umineko no Naku Koro ni - PC GAME AUDIO ED - Senritsu ~Shirabe~
+- JPN - Umineko no Naku Koro ni - PC GAME AUDIO OP - Umineko no Naku Koro ni ~ Full Vers
+- JPN - Umineko no Naku Koro ni Chiru - COVER PC GAME AUDIO IN - Kina no Kaori ~Ai no Shiren!~ ~ Kino Yasushi Vers
+- JPN - Utawarerumono Chiriyukumono e no Komoriuta - PS4 PSV GAME AUDIO OP - Kimi dake no Tabiji Re boot ~ Full Vers
+- JPN - Utawarerumono Futari no Hakuoro - PS3 PS4 PSV GAME AUDIO ED - Uruwashiki Sekai ~ Full Vers
+- JPN - Utawarerumono Futari no Hakuoro - PS3 PS4 PSV GAME AUDIO IN - Towa ni ~ Full Vers
+- JPN - Utawarerumono Futari no Hakuoro - PS3 PS4 PSV GAME AUDIO OP - Hikari ~ Full Vers
+- JPN - Versailles no Bara - OP - Bara wa utsukushiku chiru
+- JPN - Vocaloid Ultimate Muscle Roller Legend - OT - Bucchigiri ni Shite ageru
+- JPN - Warau Salesman New - OP - Don't
+- JPN - Wild Arms Twilight Venom - ED - Hoshizora JET
+- JPN - X-JAPAN - AUDIO - X
+- JPN - Yami no Matsuei - AMV - First Love
+- JPN - Yesterday wo Utatte - AUDIO ED1 - Kago no Naka ni Tori ~ Full vers
+- JPN - Zankyou no Terror - AUDIO ED - Dareka, Umi wo. ~ Full Vers
+- JPN - Zettai Karen Children - OP1 - Over the future world
+- JPN - Zombieland Saga - AUDIO ED - Tokkou Dance ~ Full Vers
+- JPN - amazarashi - AUDIO - Karappo no Sora ni Tsubusareru
+- JPN - amazarashi - AUDIO - One Room Jojishi
+- JPN - the pillows - AUDIO IN - Thank You My Twilight
+- KOR - Hitmaker - MV - Stress Come On!
+- KOR - Monstar - COVER IN - The Meaning Of You
+- LAT - Noir - AUDIO IN - Canta per Me ~ Full Vers
+- LAT - Noir - AUDIO IN - Salva Nos ~ Full Vers
+- MUL - Blood-C - AMV - Spiral ~ Full Vers
+- MUL - Nolife - GAME ED - Weight of the World (End of YoHRa)
+- RUS - Choeurs de l'Armee rouge - AUDIO - Hymne de l'Union sovietique ~ 1977 Vers
+- SPA - Miku Hatsune - AUDIO - MikuFiesta
+- SPA - Touhou - COVER MV - Bad Apple!!
+- UND - Ar tonelico Sekai no Owari de Utai Tsuzukeru Shoujo - GAME AUDIO - EXEC_CHRONICLE=KEY
+- UND - Escaflowne - MOVIE AMV - Sora
+- UND - Final Fantasy - REMIX OT - Chocobo's Theme
+- UND - Kubikiri Cycle Aoiro Savant to Zaregototsukai - OVA AUDIO IN - old-fashioned fairy tale
+- UND - Touhou - MV - LocoRoco Song, Kulche ~ Touhou Vers
+- ZXX - Gokukoku no Brynhildr - OP1 - Brynhildr in the Darkness ~ Ejected Vers
+
 # May 2020
 
 Contributors: 
