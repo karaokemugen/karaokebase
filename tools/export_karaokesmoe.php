@@ -107,8 +107,36 @@ foreach ($first_pass as $serie_singer => $kara_serie_singer) {
 
     foreach ($kara_serie_singer as $kara) {
         $songtype_json = json_decode($kara['songtypes'], true);
-        $songtype = $songtype_json[0]['name'];
-        $type = $songtype_json[0]['i18n']['eng'];
+        // Sort algorithm, as suggested in https://discord.com/channels/84245347336982528/324208228680466434/730387614460543016
+        $songtype = '';
+        $type = '';
+        $low_prio = false;
+        foreach ($songtype_json as $songtype_try) {
+            // Opening/Ending/MV/Insert: 1st level, break
+            if (in_array($songtype_try['tid'], ['f02ad9b3-0bd9-4aad-85b3-9976739ba0e4', '38c77c56-2b95-4040-b676-0994a8cb0597', '7be1b15c-cff8-4b37-a649-5c90f3d569a9', '5e5250d9-351a-4a82-98eb-55db50ad8962'])) {
+                $songtype = $songtype_try['name'];
+                $type = $songtype_try['i18n']['eng'];
+                break;
+            }
+            // Audio/OT: 3rd level, set low_prio to true
+            elseif (in_array($songtype_try['tid'], ['97769615-a2e5-4f36-8c23-b2ce2ce3c460', '42a262ae-acba-4ab5-a446-c5789c96c821'])) {
+                $songtype = $songtype_try['name'];
+                $type = $songtype_try['i18n']['eng'];
+                $low_prio = true;
+                continue;
+            }
+            // All the others: 2nd level, overwrite if low_prio or first write, ignore otherwise
+            else {
+                if ($low_prio || empty($songtype)) {
+                    $songtype = $songtype_try['name'];
+                    $type = $songtype_try['i18n']['eng'];
+                    $low_prio = false;
+                    continue;
+                } else {
+                    continue;
+                }
+            }
+        }
 
         //init if type not yet added
         if (!isset($second_pass[$serie_singer][$type])) {
