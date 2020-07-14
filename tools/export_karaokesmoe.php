@@ -164,7 +164,17 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
             //Determine song order
             $languages = json_decode($kara['languages'], true);
 
-            $additional_types = [];
+			$additional_types = [];
+			$families_tags = json_decode($kara['families'], true);
+            if (!empty($families_tags)) {
+                foreach ($families_tags as $tag) {
+                    switch ($tag['name']) {
+                        case 'Video Game':
+                            $additional_types[] = 'GAME';
+                            break;
+                    }
+                }
+            }
             $misc_tags = json_decode($kara['misc'], true);
             if (!empty($misc_tags)) {
                 foreach ($misc_tags as $tag) {
