@@ -170,7 +170,7 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
                 foreach ($families_tags as $tag) {
                     switch ($tag['name']) {
                         case 'Video Game':
-                            $additional_types[] = 'GAME';
+                            $additional_types[] = 'Game';
                             break;
                     }
                 }
