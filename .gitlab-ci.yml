@@ -46,7 +46,7 @@ test:
       - names.php
       - searchbase.php
   script:
-    - apt-get install -y php-intl
+    - apt-get update && apt-get install -y php-intl # To be removed when docker image will come with php-intl
     - git clone https://lab.shelter.moe/karaokemugen/karaokemugen-app.git
     - cd karaokemugen-app
     - git checkout next
