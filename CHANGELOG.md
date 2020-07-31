@@ -1,3 +1,221 @@
+# July 2020
+
+Contributors: 
+
+- @AragornFr
+- @Carpi
+- @Currymalker
+- @DarkLink
+- @Deformer-Lua
+- @Dysp
+- @ENSSAT-Japanim
+- @Elliu
+- @Fora
+- @Kmeuh
+- @Koheitohikari
+- @Kubat
+- @MasterChristian
+- @Mizunoke
+- @MrKyubu
+- @Phoko
+- @Pierre CAMILLI
+- @Psoushi
+- @Rinchama
+- @Rubn4
+- @Shlaky
+- @Sting
+- @Storm
+- @Subkei
+- @Tatoon
+- @asdFer
+- @bibialice
+- @daggeg
+- @magic-ott
+- @meulahke
+- @olivi55
+
+## Added
+
+New songs : 173
+
+- ENG - AMV Enfer - Troll no More - ED - The End of the World (@Kmeuh)
+- ENG - Boku no Hero Academia S4 - IN - Hero Too (@Pierre CAMILLI)
+- ENG - Drifters - AUDIO OP - Gospel of the throttle ~ Full Vers (@Dysp)
+- ENG - Fate zero - PC GAME AUDIO IN - SAMSARA (@ENSSAT-Japanim)
+- ENG - Ginga Eiyuu Densetsu Die Neue These - Seiran - MOVIE ED - Tranquility (@Sting)
+- ENG - Girls und Panzer - AMV - Drunken Sailor (@Sting)
+- ENG - Interstella 5555 The 5tory of The 5ecret 5tar 5ystem - MOVIE IN - One More Time (@Subkei)
+- ENG - Kill la Kill - AMV - Light your heart up (@Elliu)
+- ENG - Lupin the IIIrd Chikemuri no Ishikawa Goemon - MOVIE ED - SATORI (@MrKyubu)
+- ENG - Lupin the IIIrd Jigen Daisuke no Bohyou - MOVIE ED - Revolver Fires (@MrKyubu)
+- ENG - Lupin the IIIrd Mine Fujiko no Uso - MOVIE ED - Innocent deceiver (@MrKyubu)
+- ENG - No Guns Life (2020) - OP - Chaos Drifters (@Dysp)
+- ENG - Persona 3 Dancing Moon Night - PS4 PSV GAME MV - Soul Phrase (@meulahke)
+- ENG - Persona 3 Dancing Moon Night - PS4 PSV GAME MV - When The Moon's Reaching Out Stars (@meulahke)
+- ENG - Sonic the Hedgehog - GAME AMV - Escape from the City (@meulahke)
+- ENG - The Yogscast - MV - Diggy Diggy Hole (@Carpi)
+- ENG - Wolf's Rain - AUDIO IN - Heaven's Not Enough (@ENSSAT-Japanim)
+- ENG - Wolf's Rain - AUDIO IN - could you bite the hand question_mark (@ENSSAT-Japanim)
+- ENG - Xenoblade 2 - SWITCH GAME AUDIO - Drifting Souls (@Pierre CAMILLI)
+- ENG - Xenoblade 2 - SWITCH GAME ED - One Last You (@Pierre CAMILLI)
+- FRE - Anastasia - MOVIE IN - Loin du froid de decembre (@bibialice)
+- FRE - Anastasia - MOVIE IN - Voyage dans le temps (@bibialice)
+- FRE - Asterix et la surprise de Cesar - MOVIE OP - Asterix est la (@Phoko)
+- FRE - Philippe Etchebest - REMIX MV - Popipo, c'est con ca ! (@Pierre CAMILLI)
+- GER - Meitantei Conan - OP - Nur Fragen in meinem Kopf (@DarkLink)
+- ITA - Batman The Animated Series - OP - BATMAN (@Fora)
+- ITA - Genso Suikoden II - PSX GAME AUDIO IN - La mia tristezza (@ENSSAT-Japanim)
+- ITA - Gunslinger Girl - AUDIO ED - Dopo Il Sogno Yume no Ato ni ~ Full Vers (@ENSSAT-Japanim)
+- ITA - Gunslinger Girl - ED - Dopo Il Sogno Yume no Ato ni (@ENSSAT-Japanim)
+- ITA - Umineko no Naku Koro ni - PC GAME OP - Umineko no Naku Koro ni (@Kubat)
+- ITA - Wolf's Rain - AUDIO IN - Amore Amaro (@ENSSAT-Japanim)
+- JPN - ASK, Faneru, Gero - COVER MV - Magnet ~ Utaite Parody Vers (@olivi55)
+- JPN - Ai Kizuna - MV PV - Again (@MrKyubu)
+- JPN - Anime-Gataris - MV - Ai Kotoba ~ Full Vers (@Subkei)
+- JPN - Asagao to Kase-san. - AUDIO IS - Chiisana Koi no Uta ~ Asagao to Kase-san Vers (@Dysp)
+- JPN - Baki (2020) - OP - Jounetsu wa oboeteiru (@meulahke)
+- JPN - Black Clover (2017) - AUDIO OP3 - Black Rover ~ Full Vers (@Dysp)
+- JPN - Black Jack 21 - ED1 - Careless breath (@meulahke)
+- JPN - Bleach - MV - Hitohira no Hanabira ~ Full Vers (@Dysp)
+- JPN - Chaos Dragon Sekiryuu Sen'eki - ED1 - Delta Decision (@Currymalker)
+- JPN - Chihayafuru - AUDIO ED - Soshite Ima ~ Full Vers (@Storm)
+- JPN - Colorful - MOVIE AUDIO IN - Tegami (Haikei Juugo no Kimi he) (@MrKyubu)
+- JPN - D.Gray-man - AUDIO IN - Tsunaida Te ni Kiss wo (@ENSSAT-Japanim)
+- JPN - Deca-Dence - OP - Theater of Life (@Dysp)
+- JPN - Dogengers - OP1 - Nan shiyo to question_mark Dogengers! (@Psoushi)
+- JPN - Dokyuu Hentai HxEros - OP - Wake Up HxERO! (@Dysp)
+- JPN - Dr. Kotou Shinryoujo - MV - Gin no Ryuu no Se ni Notte (@Dysp)
+- JPN - Dragon Ball Super - AMV - Kyuukyoku no Battle (@AragornFr)
+- JPN - Eiga K-On! - MOVIE IN - Curry Nochi Rice (@Rinchama)
+- JPN - Eiga K-On! - MOVIE IN - Unmei wa Endless! (@Rinchama)
+- JPN - En'en no shouboutai Ni no Shou - AUDIO OP - SPARK-AGAIN ~ Full vers (@Dysp)
+- JPN - En'en no shouboutai Ni no Shou - ED - ID (@Dysp)
+- JPN - En'en no shouboutai Ni no Shou - OP - SPARK-AGAIN (@Dysp)
+- JPN - Foreground Eclipse - AUDIO - Dorabu (@Shlaky)
+- JPN - Furi Kuri - AUDIO IS - Bran New Lovesong (@ENSSAT-Japanim)
+- JPN - Furi Kuri - IN - Blues Drive Monster (@ENSSAT-Japanim)
+- JPN - Furi Kuri - IN - Crazy Sunshine (@ENSSAT-Japanim)
+- JPN - GARNiDELiA - MV - Cry (@Subkei)
+- JPN - Ged Senki Tales from Earthsea - MOVIE AMV - Therru no Uta (@ENSSAT-Japanim)
+- JPN - Gekijouban Kara no Kyoukai The Garden of Sinners - AUDIO IN - interlude 02 (@ENSSAT-Japanim)
+- JPN - Gekijouban Kara no Kyoukai The Garden of Sinners - MOVIE MV - Sprinter ~ Ufotable Edit Vers (@ENSSAT-Japanim)
+- JPN - Gekijouban Kara no Kyoukai The Garden of Sinners - MV - Seventh Heaven (@ENSSAT-Japanim)
+- JPN - Gekijouban Mahouka Koukou no Rettousei Hoshi o Yobu Shoujo - MV - Speed Star (@Subkei)
+- JPN - Gero, Gurutamin - COVER MV - Nandemo Iu Koto Wo Kiitekureru Gerorin (@Dysp)
+- JPN - Goku Sayonara Zetsubou-Sensei - AUDIO OP - Kuusou Rumba ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Hachimitsu to Clover - AUDIO ED - Waltz ~ Full Vers (@Storm)
+- JPN - Hataraku Maou-sama! - AUDIO ED1 - Gekka ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Hayate no Gotoku! - AUDIO IN - Dame! (@ENSSAT-Japanim)
+- JPN - Heppoko Jikken Animation Excel Saga - AUDIO IS - Kazoku Kaigi (@ENSSAT-Japanim)
+- JPN - Higurashi no Naku Koro ni - COVER REMIX AUDIO - Noble (Dear You -Thanks-) (@Shlaky, @Dysp)
+- JPN - Houkago Teibou Nisshi - OP - SEA HORIZON (@Elliu)
+- JPN - Joshikousei no Mudazukai - OP - Wa! ! Moon! dass! cry! (@Dysp)
+- JPN - K-ON!! - IN - Love (@Rinchama)
+- JPN - Kanojo, Okarishimasu - OP - Centimeter (@Kmeuh)
+- JPN - Karakai Jouzu no Takagi-san - AUDIO ED5 - Chiisana Koi no Uta ~ Full Vers (@Storm)
+- JPN - Karakai Jouzu no Takagi-san 2 - ED1 - Kanade (@Dysp)
+- JPN - Karakai Jouzu no Takagi-san 2 - ED3 - Kiseki (@Dysp)
+- JPN - Karakai Jouzu no Takagi-san 2 - ED6 - Anata ni (@Dysp)
+- JPN - Katte ni Kaizou - OVA AUDIO OP - Katte ni Kaizou Shitemo Iize ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Kikou Shoujo wa Kizutsukanai - AUDIO ED - Maware! Setsugetsuka ~ Full Vers (@ENSSAT-Japanim, @Dysp)
+- JPN - Kono Sekai no Katasumi ni - MOVIE ED - Tanpopo (@Dysp)
+- JPN - LISTENERS - ED2 - Borders (@Kubat)
+- JPN - Lon - COVER AUDIO - Matryoshka (@Dysp)
+- JPN - Lupin III Cagliostro no Shiro - MOVIE AUDIO OP - Honoo no Takaramono ~ Full Vers (@MrKyubu)
+- JPN - Lupin III Part II - ED2 - Lupin Sansei Ai no Theme ~ Vocal Vers (@MrKyubu)
+- JPN - Lupin III Part II - ED3 - LOVE SQUALL (@MrKyubu)
+- JPN - Lupin Sansei Babylon no Ougon Densetsu - MOVIE AUDIO IN - SONG OF BABYLON (@MrKyubu)
+- JPN - Lupin Sansei Babylon no Ougon Densetsu - MOVIE AUDIO OP - MANHATTAN JOKE ~ Full Vers (@MrKyubu)
+- JPN - Lupin Sansei Bye Bye Liberty - Kiki Ippatsu! - SPECIAL AUDIO ED - Endless Twilight Saigo no Shinju (@MrKyubu)
+- JPN - Lupin Sansei Dead or Alive - MOVIE AUDIO ED - Damage no Amai Wana (@MrKyubu)
+- JPN - Lupin Sansei Kutabare! Nostradamus - MOVIE AUDIO ED - Ai no Tsuzuki (@MrKyubu)
+- JPN - Lupin Sansei Lupin vs Fukusei-ningen - MOVIE AUDIO ED - Lupin Ondo (@MrKyubu)
+- JPN - Lupin Sansei Moeyo Zantetsuken - SPECIAL AUDIO ED - Omoide ga Anata wo Hanasanai (@MrKyubu)
+- JPN - Lupin Sansei The Last Job - SPECIAL AUDIO ED - Warau Taiyou (@MrKyubu)
+- JPN - Macross Frontier - REMIX AUDIO IN - Nyan Nyan Service Medley (@ENSSAT-Japanim)
+- JPN - Made in Abyss - AUDIO OP - Deep in Abyss ~ Full Vers (@Mizunoke)
+- JPN - Mahouka Koukou no Rettousei - MV - grilletto ~ Full Vers (@Subkei)
+- JPN - Meiko Nakamura - AUDIO - Core of Spark (@Dysp)
+- JPN - Mekakucity Actors - AUDIO OP3 - Ayano no Koufuku Riron ~ Full Vers (@Dysp)
+- JPN - Mikakunin de Shinkoukei - AUDIO ED - Masshiro World ~ Full Vers (@Dysp)
+- JPN - Minami - MV - main actor (@Dysp)
+- JPN - Mob Psycho 100 II - ED1 - Gray (@meulahke)
+- JPN - Mob Psycho 100 II - ED1 - Grey ~ Episode 7 Vers (@meulahke)
+- JPN - Mob Psycho 100 II - ED2 - Memo Sepia (@meulahke)
+- JPN - Mob Psycho 100 II - ED4 - Ikiru Hitobito (@meulahke)
+- JPN - Mudazumo Naki Kaikaku The Legend of Koizumi - OVA AUDIO ED - Mudazumo Naki Kaikaku Shouri no Koizumi Jun'ichirou ~ Full Vers (@ENSSAT-Japanim)
+- JPN - NHK ni Youkoso! - AUDIO IN - Ashita ha Tabun Daijoubu (@ENSSAT-Japanim)
+- JPN - Nagi Yanagi - AUDIO - Hero no Jouken (@ENSSAT-Japanim)
+- JPN - Nihon Chinbotsu 2020 - ONA OP - a life (@Kmeuh)
+- JPN - No Game No Life - AMV - This game ~ Full Vers (@ENSSAT-Japanim)
+- JPN - No Game No Life - AUDIO ED - Oracion ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Ojamajo Doremi - COVER MV - Ojamajo Carnival!! ~ Uru Kurousagi Vers (@Dysp)
+- JPN - Otaku no Video - OVA AMV - Otaku Youth Grafitti Medley (@ENSSAT-Japanim)
+- JPN - Pikmin - GAMECUBE GAME AMV - Ai no uta (@ENSSAT-Japanim)
+- JPN - Planetes - AUDIO OP - Dive in the Sky ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Qiang Niang - MV - Hysteric Bullet ~ Full Vers (@Subkei)
+- JPN - Qiang Niang - ONA OP - Hysteric Bullet (@Subkei)
+- JPN - RADWIMPS - MV - Nekojarashi (@MrKyubu)
+- JPN - Re Zero kara Hajimeru Isekai Seikatsu 2nd Season - OP - Realize (@Kmeuh)
+- JPN - Rin Kagamine - MV - Meltdown (@ENSSAT-Japanim)
+- JPN - Rurouni Kenshin (film) - MOVIE AMV - The Beginning (@asdFer)
+- JPN - SD Gundam Force - ED2 - Kokoro Odoru (@Dysp)
+- JPN - SD Gundam Force - MV - Kokoro Odoru ~ Full Vers (@Dysp)
+- JPN - Sakura Quest - AUDIO ED1 - Freesia ~ Full Vers (@Storm)
+- JPN - Sakura Taisen 4 Koi Seyo Otome - PC GAME ED - Kimi yo Hana yo (@Kmeuh)
+- JPN - Sayonara Zetsubou-sensei - AUDIO OP1 - Hito toshite jiku ga bureteiru ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Sayuri - AUDIO - Ru-rararu-ra-rurararu-ra- (@Dysp)
+- JPN - School Rumble - AUDIO IN - Umi no Otoko ha yo (@ENSSAT-Japanim)
+- JPN - Shin Kidou Senki Gundam Wing - AUDIO IS - Asu he no Door wo Tatake (@ENSSAT-Japanim)
+- JPN - Shin Kidou Senki Gundam Wing Endless Waltz -Tokubetsu-hen- - MOVIE AMV - LAST IMPRESSION (@Dysp)
+- JPN - Sousei no Aquarion - AUDIO IN - Pride Nageki no Tabi (@olivi55)
+- JPN - Sousei no Onmyouji - MV - Re Call ~ Full Vers (@AragornFr)
+- JPN - Sukima Switch - AUDIO - Seishun (@Dysp)
+- JPN - Suzumiya Haruhi no Yuuutsu - AMV - God Knows ~ Full Vers (@Rubn4)
+- JPN - Sword Art Online Alicization War of Underworld 2nd season - ED - I will (@Koheitohikari)
+- JPN - Sword Art Online Alicization War of Underworld 2nd season - OP - ANIMA (@Koheitohikari)
+- JPN - THE iDOLM@STER Million Live! Theater Days - GAME MV - Last Actress (@meulahke)
+- JPN - THE iDOLM@STER Million Live! Theater Days - GAME MV - OTAHEN anthem (@meulahke)
+- JPN - TUYU - MV - Kuraberarekko (@Tatoon)
+- JPN - Tenkuu no Escaflowne - MV - Hikari no Naka e (@ENSSAT-Japanim)
+- JPN - Tokusatsu GaGaGa - MV - Gagagagagagaga (@Deformer-Lua)
+- JPN - Tonari no Totoro - COVER REMIX AUDIO ED - Tonari no Totoro ~ 8bit Vers (@ENSSAT-Japanim)
+- JPN - Toradora! - AUDIO ED2 - Orange ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Toradora! - AUDIO OP1 - Pre-Parade ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Toradora! - AUDIO OP2 - silky heart ~ Full Vers (@ENSSAT-Japanim)
+- JPN - Touhou - COVER AUDIO - You May Not Want To Hear This But (@Shlaky)
+- JPN - Touhou - GAME MV - Help me, ERINNNNNN!! (@Sting)
+- JPN - Touhou - REMIX AUDIO - Yoru Naku Usagi wa Yume wo Miru (@Dysp)
+- JPN - UCHIKUBIGOKUMON-DOUKOUKAI - MV - Natsu no Uta (@Pierre CAMILLI)
+- JPN - UCHIKUBIGOKUMON-DOUKOUKAI - MV - Nihon no Kome wa Sekai Ichi (@MrKyubu)
+- JPN - UCHIKUBIGOKUMON-DOUKOUKAI - MV - Shimagumi no DNA (@MrKyubu)
+- JPN - UPLIFT SPICE - AUDIO - Kuuge (@Dysp)
+- JPN - UPLIFT SPICE - AUDIO - ZERO-IN (@Dysp)
+- JPN - Uru Kurousagi, lino - COVER MV - Odoryanse ~ Uru Kurousagi Vers (@Dysp)
+- JPN - Uzaki-chan wa Asobitai! - ED - Kokoro Knock (@Kmeuh)
+- JPN - Uzaki-chan wa Asobitai! - OP - Nadamesukashi Negotiation (@Kmeuh)
+- JPN - WORLD ORDER - MV - Let's start WW3 (@MrKyubu)
+- JPN - Wind A Breath of Heart (2004) - OP - Feel on the Wind (@ENSSAT-Japanim)
+- JPN - World End Economica Episode 1 - PC GAME AUDIO ED - retrograde interior ~ Full Vers (@MrKyubu)
+- JPN - World End Economica Episode 2 - PC GAME AUDIO ED - escapes from predicament ~ Full Vers (@MrKyubu)
+- JPN - Wreck-It Ralph - MOVIE MV - Sugar Rush (@daggeg, @MasterChristian)
+- JPN - Yatterman (1977) - OP1 - Yatterman no Uta (@meulahke)
+- JPN - Yatterman (2008) - OP - Yatterman no uta (@meulahke)
+- JPN - Yatterman (2008) - OP - Yatterman no uta ~ 5th Vers (@meulahke)
+- JPN - Yoru wa Mijikashi Aruke yo Otome - MOVIE AMV - Guerilla Engeki (@Dysp)
+- JPN - Zoku Sayonara Zetsubou-sensei - IN - Traumerei (@ENSSAT-Japanim)
+- JPN - namirin - COVER MV - Tsugihagi Staccato (@Elliu)
+- JPN - savage genius - AUDIO - Still I love you (@Shlaky)
+- LAT - D.Gray-man - AUDIO IN - Lala no Komori Uta (@ENSSAT-Japanim)
+- UND - Ga-Rei-ZERO - AUDIO IN - Reincarnation -Last Harmony- (@ENSSAT-Japanim)
+- UND - Ga-Rei-ZERO - AUDIO IS - AI (@ENSSAT-Japanim)
+- UND - Ga-Rei-ZERO - AUDIO IS - if (@ENSSAT-Japanim)
+- UND - World of Warcraft - PC GAME IN - Lament of the Highborne (@magic-ott)
+
+## Fixed
+
+Fixed songs : 1624
+
 # June 2020
 
 Contributors: 
