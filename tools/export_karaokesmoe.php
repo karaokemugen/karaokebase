@@ -40,6 +40,7 @@ SELECT
   ak.genres AS genres,
   ak.series AS series,
   ak.origins AS origins,
+  ak.creators AS creators,
   ak.mediafile AS mediafile,
   ak.gain AS gain,
   ak.songwriters AS songwriters,
@@ -49,7 +50,7 @@ SELECT
 FROM all_karas AS ak
 WHERE (mediafile LIKE \'%.mp4\' or mediafile LIKE \'%.mp3\')
 GROUP BY ak.kid, ak.title, ak.songorder, ak.subfile, ak.singers, ak.songtypes, ak.languages, ak.authors, ak.misc,
-         ak.platforms, ak.families, ak.genres, ak.series, ak.origins, ak.mediafile, ak.gain,
+         ak.platforms, ak.families, ak.genres, ak.series, ak.origins, ak.creators, ak.mediafile, ak.gain,
          ak.songwriters, ak.tags_searchable, ak.tags_i18n_searchable, ak.tags_aliases_searchable,
          ak.serie_singer_sortable, ak.songtypes_sortable
 ORDER BY ak.serie_singer_sortable, ak.songtypes_sortable DESC, ak.songorder, lower(unaccent(ak.title))
@@ -74,7 +75,23 @@ if (file_exists($live_egg_file)) {
 
 //First pass
 $first_pass = [];
+$types = ['singers', 'songtypes', 'languages', 'authors', 'misc', 'platforms', 'genres', 'series', 'origins', 'creators'];
 foreach ($data as $kara) {
+
+    $skip = false;
+    foreach ($types as $type) {
+        $content = json_decode($kara[$type], true);
+        if (is_array($content))
+        foreach($content as $tag) {
+            if (!empty($tag['noLiveDownload']) && $tag['noLiveDownload']) {
+                echo $kara['mediafile'] . ' ignored, ' . $tag['name'] . ' has noLiveDownload.';
+                $skip = true;
+                break;
+            }
+        }
+        if ($skip) break;
+    }
+    if ($skip) continue;
 
     //Series or artist name
 
