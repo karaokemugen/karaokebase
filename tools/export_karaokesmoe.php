@@ -43,10 +43,7 @@ SELECT
   ak.creators AS creators,
   ak.mediafile AS mediafile,
   ak.gain AS gain,
-  ak.songwriters AS songwriters,
-  ak.tags_searchable AS tags,
-  ak.tags_i18n_searchable AS tags_i18n,
-  ak.tags_aliases_searchable AS tags_aliases
+  ak.songwriters AS songwriters
 FROM all_karas AS ak
 WHERE (mediafile LIKE \'%.mp4\' or mediafile LIKE \'%.mp3\')
 GROUP BY ak.kid, ak.title, ak.songorder, ak.subfile, ak.singers, ak.songtypes, ak.languages, ak.authors, ak.misc,
@@ -268,12 +265,16 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
             // Populate the search data with the tags and the differents names of the series
             if (strpos($eggUIDList, $kara['kid']) === false) { // But not with easter eggs
                 $search_data = [
-                    $kara['tags'],
-                    $kara['tags_i18n'],
-                    $kara['tags_aliases'],
                     $kara['title'],
                     $serie_singer
                 ];
+                foreach ($types as $type) {
+                    $content = json_decode($kara[$type], true);
+                    if (is_array($content))
+                    foreach($content as $tag) {
+                        $search_data[] = $tag['name'];
+                    }
+                }
                 $search_pass[$serie_singer][$type_with_num] = $search_data;
             }
 
