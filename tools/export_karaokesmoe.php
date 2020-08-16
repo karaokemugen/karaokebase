@@ -75,8 +75,8 @@ $types = ['singers', 'songtypes', 'languages', 'authors', 'misc', 'platforms', '
 foreach ($data as $kara) {
 
     $skip = false;
-    foreach ($types as $type) {
-        $content = json_decode($kara[$type], true);
+    foreach ($types as $tagtype) {
+        $content = json_decode($kara[$tagtype], true);
         if (is_array($content))
         foreach($content as $tag) {
             if (!empty($tag['nolivedownload']) && $tag['nolivedownload']) {
@@ -267,8 +267,8 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
                     $kara['title'],
                     $serie_singer
                 ];
-                foreach ($types as $type) {
-                    $content = json_decode($kara[$type], true);
+                foreach ($types as $tagtype) {
+                    $content = json_decode($kara[$tagtype], true);
                     if (is_array($content))
                     foreach($content as $tag) {
                         $search_data[] = $tag['name'];
