@@ -66,6 +66,42 @@ test:
     - master
   when: manual
 
+test_temporary:
+  stage: test
+  interruptible: true
+  tags:
+    - moeBaseMedias
+  image: axelterizaki/karaokemugen-ci:node-12-phppg
+  services:
+    - postgres:10.6
+  variables:
+    POSTGRES_USER: karaokemugen_app
+    POSTGRES_PASSWORD: musubi
+  artifacts:
+    expire_in: 1 day
+    name: names.php
+    paths:
+      - names.php
+      - searchbase.php
+  script:
+    - apt-get update && apt-get install -y php-intl # To be removed when docker image will come with php-intl
+    - git clone https://lab.shelter.moe/karaokemugen/karaokemugen-app.git
+    - cd karaokemugen-app
+    - git checkout next
+    - yarn pull
+    - yarn install
+    - touch mpv
+    - mkdir app
+    - cp -f database.CICD.json app/database.json
+    - cp -f ../tools/config.CICD.yml app/config.yml
+    - node util/extUnaccent.js
+    - node -v
+    - yarn startNoElectron --debug --generate
+    - cd ..
+    - php -f tools/export_karaokesmoe.php
+  only:
+    - master
+
 export:
   stage: deploy
   image: axelterizaki/karaokemugen-ci:transferts
