@@ -21,7 +21,11 @@ async function renameTags() {
 		const tid = tag.tag.tid;
 		const name = sanitizeFile(tag.tag.name);
 		const nameFile = file.replace(`.${tid.substr(0, 8)}.tag.json`,'');
-		if (name !== nameFile) console.log('git mv', `"${file}"`, `"${name}.${tid.substr(0, 8)}.tag.json"`);
+		if (name !== nameFile) {
+			tag.tag.modified_at = new Date().toISOString();
+			writeFileSync(resolve(tpath, file), JSON.stringify(tag, null, 2), 'utf-8');
+			console.log('git mv', `"${file}"`, `"${name}.${tid.substr(0, 8)}.tag.json"`);
+		}
 	}
 }
 
