@@ -4,7 +4,7 @@ const request = require('request');
 //const raw = fs.readFileSync('./bakaclub.json', 'utf-8');
 //parseBakaClubKaras(JSON.parse(raw));
 
-request('https://kurisu.iiens.net/api_karas.php', (error, response, body) => {
+request('https://kurisu.iiens.net/api', (error, response, body) => {
 	if (!error) {
 		parseBakaClubKaras(JSON.parse(body));
 	} else {
@@ -32,7 +32,7 @@ async function gitlabPostNewIssue(kara) {
 		['id', '2'],
 		['title', `[Import Bakaclub] ${kara.language.toUpperCase()} - ${kara.source_name} - ${kara.song_type}${kara.song_number || ''} - ${kara.song_name}`],
 		['description', `
-Download URL : https://kurisu.iiens.net/download.php?id=${kara.id}
+Download URL : https://kurisu.iiens.net/api/download/${kara.id}
 
 Auteur : ${kara.author_name}
 
