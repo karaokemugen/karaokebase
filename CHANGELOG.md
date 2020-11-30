@@ -1,3 +1,259 @@
+# Novembre 2020
+
+Contributors: 
+
+- @Aeden
+- @Askédis
+- @Currymalker
+- @Deformer-Lua
+- @Demoto
+- @Dysp
+- @Elliu
+- @Geralt
+- @Kaleidoscope
+- @Kmeuh
+- @Krocoh
+- @Krokro
+- @Kubat
+- @Nodamin
+- @Néron
+- @Phoko
+- @Rubn4
+- @Shlaky
+- @Soramimi
+- @Subkei
+- @Tatoon
+- @TheMio
+- @YorokobeZasshu
+- @asdFer
+- @dangereus
+- @fabthehedgehog
+- @leonekmi
+- @meulahke
+
+## Added
+
+New songs : 92
+
+- ENG - Aikatsu! Photo on Stage!! - GAME MV - Star Heart (@Nodamin)
+- ENG - Akudama Drive - OP - STEAL!! (@Kubat)
+- ENG - BURN THE WITCH - MOVIE ED - Blowing (@Kubat)
+- ENG - Calliope Mori - MV - Excuse My Rudeness, But Could You Please RIP question_mark (@fabthehedgehog)
+- ENG - Hellsing Ultimate - OVA ED6 - Magnolia (@Geralt)
+- ENG - Hellsing Ultimate - OVA ED7 - Shintou Shite (@Geralt)
+- ENG - Kidou Senshi Gundam Thunderbolt - ONA AMV - That's Life (@Néron)
+- ENG - Kuroko no Basket 2 - ED1 - WALK (@asdFer)
+- ENG - Miku Hatsune - AUDIO - our music (@Kmeuh)
+- ENG - Nihon Animator Mihonichi - ONA IN - Friends (Cassette Girl) (@Kmeuh)
+- ENG - Ninja Sex Party - MV - Welcome To My Parents' House (@fabthehedgehog)
+- ENG - Ryuu ga Gotoku 7 Hikari to Yami no Yukue - PS4 XBOXONE PC GAME IN - Baka Mitai (I've Been a Fool) (@Krocoh)
+- ENG - Shin Seiki Evangelion - OP - The Lost 4Kids Opening (@fabthehedgehog)
+- ENG - Super Mario Bros. - AMV - Luigi's Ballad (@fabthehedgehog)
+- ENG - THE GOD OF HIGH SCHOOL - OP - Contradiction (@fabthehedgehog)
+- FRE - Girls und Panzer das Finale - OVA AMV - La Marseillaise (@Askédis)
+- FRE - Ribbon no Kishi - OP - Princesse Saphir (@Kmeuh)
+- FRE - Yume no Crayon Oukoku - OP - N.paka March ~ French Vers (@Kmeuh)
+- JPN - Africa no Salaryman - OP - Soul Flag (@YorokobeZasshu)
+- JPN - Aikatsu Planet! - IN - HAPPY Aikatsu! (@Nodamin)
+- JPN - Aikatsu! Photo on Stage!! - GAME MV - Kirameki Messenger (@Nodamin)
+- JPN - Aikatsu! Photo on Stage!! - GAME MV - PowaxPuRixPower (@Nodamin)
+- JPN - Akari Nanawo - MV - Discommu Seijin (Discommunication Alien) (@Aeden)
+- JPN - Akudama Drive - ED - Ready (@Kubat)
+- JPN - Bishoujo Senshi Sailor Moon Crystal - ONA ED - Gekkou (@asdFer)
+- JPN - Bishoujo Senshi Sailor Moon S - ED2 - Tuxedo Mirage (@Rubn4)
+- JPN - Bleach - ED11 - Tsumasaki (@Subkei)
+- JPN - Bleach - ED16 - Gallop (@Subkei)
+- JPN - Dai 501 Tougou Sentou Koukuu Dan Strike Witches Road to Berlin - IN - Fly away (@Kubat)
+- JPN - Fate Grand Order Zettai Majuu Sensen Babylonia - OP - Phantom Joke ~ Alternative Vers (@fabthehedgehog)
+- JPN - Flip Flappers - IN - LET'S FLIP FLAPING! (@Kubat)
+- JPN - Gekijouban Mahou Shoujo Madoka Magica 1 Hajimari no Monogatari - MOVIE ED - Magia quattro (@Soramimi, @Kmeuh)
+- JPN - Ghost Sweeper Mikami - OP - GHOST SWEEPER (@meulahke)
+- JPN - Gintama - ED16 - Sayonara no Sora (@asdFer)
+- JPN - Gintama' - ED2 - Balance Doll (@asdFer)
+- JPN - Gintama0 - ED1 - Destiny (@Currymalker)
+- JPN - Hatsune Miku ~ Project DIVA Arcade Future Tone - PS4 GAME MV - Hibana (@Kaleidoscope)
+- JPN - Hatsune Miku ~ Project DIVA Arcade Future Tone - PS4 SWITCH GAME MV - ROKI (@Demoto, @TheMio)
+- JPN - Hellsing Ultimate - OVA ED8 - Sensou Suru Nara Yumi, Yari, Ken da Tatakae! (@Geralt)
+- JPN - Iris no Atelier Eternal Mana - PS2 GAME OP - Byakuya Gensoutan (@Kmeuh)
+- JPN - Kakumeiki Valvrave 2nd Season - ED2 - Akai Memories wo Anata ni (@Currymalker)
+- JPN - Kamisama ni Natta Hi - OP - Kimi to Iu Shinwa (@Krokro)
+- JPN - Katsute Kami Datta Kemono-tachi e - OP - Sacrifice (@Tatoon)
+- JPN - Kenshi Yonezu - COVER MV - Suna no Wakusei (Sand Planet) (@fabthehedgehog)
+- JPN - Kindaichi Shounen no Jikenbo Returns - OP2 - Yue ni, Matenrou (@Subkei)
+- JPN - Kiratto Pri Chan season 3 - IN - Prima Donna question_mark Memorial! (@Nodamin)
+- JPN - Korone Inugami - GAME AMV - Koronence of Hyrule (@Elliu)
+- JPN - Kuroko no Basket - ED2 - Catal Rhythm (@asdFer)
+- JPN - Kuroko no Basket 3 - ED3 - Lantana (@asdFer)
+- JPN - LISTENERS - ED5 - Top of ocean (@Kubat)
+- JPN - Lapis Re LiGHTs - IN - 700,000,000,000,000,000,000,000 no Sora de (@Kmeuh)
+- JPN - LiSA, Uru - AUDIO - Saikai (@Dysp)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - ED - NEO SKY, NEO MAP! (@Kaleidoscope)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - IN - Butterfly (@Kaleidoscope)
+- JPN - Love Live! Sunshine!! - MV - PURE PHRASE (@Kaleidoscope)
+- JPN - MM! - ED1 - More-more LOVERS!! (@dangereus)
+- JPN - Mafumafu, Soraru - COVER MV - Suna no Wakusei (Sand Planet) (@fabthehedgehog)
+- JPN - Mahouka Koukou no Rettousei Raihousha-hen - ED - Namonai Hana (@Kubat)
+- JPN - Mahouka Koukou no Rettousei Raihousha-hen - OP - Howling (@Kubat)
+- JPN - Mahoutsukai no Yoru - PC GAME ED - Hoshi ga Matataku Konna Yoru ni (@Kubat)
+- JPN - Majo Minarai wo Sagashite - MOVIE OP - Ojamajo Carnival!! (@Kmeuh)
+- JPN - Majo no Tabitabi - ED - Haiiro no Saga (@Elliu)
+- JPN - Meitantei Conan - OP24 - Mysterious (@Currymalker)
+- JPN - Miku Hatsune - MV - MACARON (@Askédis)
+- JPN - Miku Hatsune - MV - Suna no Wakusei (Sand Planet) (@fabthehedgehog)
+- JPN - Miku Hatsune - MV - Unfragment (@Kmeuh)
+- JPN - Miku Hatsune - REMIX MV - Unfragment (2020 Remix) (@Kmeuh)
+- JPN - Nisekoi - MV - CLICK ~ Full Vers (@Soramimi, @Kmeuh)
+- JPN - Ookami Shoujo to Kuro Ouji - ED - Ookami Heart (@Subkei)
+- JPN - Pekora Usada - COVER MV - Discommu Seijin (Discommunication Alien) (@Aeden)
+- JPN - Pekora Usada - MV - Pekora Story (@Aeden)
+- JPN - Ranma - ED4 - Lambada Ranma (@Rubn4)
+- JPN - Rosario to Vampire - OP - COSMIC LOVE (@Subkei)
+- JPN - Sakura Taisen - REMIX GAME AUDIO - Geki! Teikoku Kagekidan ~ Mega Mix Vers (@Kmeuh)
+- JPN - Seiken Tsukai no World Break - OP - Hi no Ito Rinne no Gemini (@Currymalker)
+- JPN - Seitokai Yakuindomo - ED1 - Mirai Night (@fabthehedgehog)
+- JPN - Seitokai Yakuindomo - OP - Hanasaku Saikyou Legend Days (@fabthehedgehog)
+- JPN - Shirogane no Ishi Argevollen - ED2 - Vivid Telepathy (@Currymalker)
+- JPN - Sket Dance - OP6 - Clear (@asdFer)
+- JPN - Steins Gate - OP - Hacking to the Gate ~ Alternative Vers (@Phoko)
+- JPN - T.M.Revolution - MV - Madan~Der Freischutz~ (@meulahke)
+- JPN - Tenkuu Danzai Skelter Plus Heaven - OVA OP - NAKED HEART (@Kmeuh)
+- JPN - Tokyo Ghoul - COVER OT - Unravel ~ Full Korone Vers (@Deformer-Lua)
+- JPN - Touhou - MV - Yachatta (@fabthehedgehog)
+- JPN - Violet Evergarden - IN - Believe in (@Kubat)
+- JPN - Watame Tsunomaki - OT - Watame no Komori Uta (@Tatoon)
+- JPN - Yozakura Quartet Hoshi no Umi - OVA OP - kid, I like quartet (@fabthehedgehog)
+- JPN - Yuzuki Yukari - MV - Check Check Check One Two! (@Shlaky)
+- JPN - ZUTOMAYO - MV - MILABO (@leonekmi)
+- JPN - Zoids - OP - Wild Flowers (@Subkei)
+- JPN - senzawa - OT - ko ke ko (@Elliu)
+- LAT - Hellsing Ultimate - OVA ED1 - Gradus vita (@Geralt)
+
+## Fixed
+
+Fixed songs : 121
+
+- ENG - Aikatsu! Idol Katsudou! - IN - Merry Christmas
+- ENG - Animegraphy - AMV - 2013 Vers
+- ENG - Appare-Ranman! - OP - I got it!
+- ENG - Bakemonogatari - AMV - Intoxicated (On and On)
+- ENG - Devilman Tanjou Hen - OVA AMV - Light It Up
+- ENG - Genshin Impact - GAME AMV - I Want It That Way
+- ENG - Gyakuten Saiban Sono Shinjitsu Igi Ari! - AMV - The Turntable Turnabout (Money)
+- ENG - Redline - MOVIE AMV - Initial RED - Gas gas gas
+- ENG - Redline - MOVIE AMV - Kickstart my Heart
+- ENG - The Axis Of Awesome - REMIX MV - 4 Chords
+- ENG - nano - MV - Nevereverland
+- FRE - Ai no Wakakusa Monogatari - OP - Les quatre filles du Docteur March
+- FRE - Dungeons and Dragons - OP - Le Sourire du Dragon
+- FRE - The Littles - OP - Les Minipouss
+- GER - Hellsing Ultimate - OVA ED4 - Das Engellandlied
+- JPN - Ai Kizuna - COVER MV - Suna no Wakusei (Sand Planet)
+- JPN - Aikatsu Stars! - ED1 - episode Solo
+- JPN - Aikatsu Stars! - IN - Forever Dream
+- JPN - Aikatsu! Idol Katsudou! - ED1 - Calendar Girl
+- JPN - Aikatsu! Idol Katsudou! - ED2 - Hirari Hitori Kirari
+- JPN - Aikatsu! Idol Katsudou! - IN - Angel Snow
+- JPN - Aikatsu! Idol Katsudou! - IN - Glass Doll
+- JPN - Aikatsu! Idol Katsudou! - IN - Growing for a Dreams
+- JPN - Aikatsu! Idol Katsudou! - IN - Heart no Melody
+- JPN - Aikatsu! Idol Katsudou! - IN - Ibara no Joou
+- JPN - Aikatsu! Idol Katsudou! - IN - LOVE GAME
+- JPN - Aikatsu! Idol Katsudou! - IN - Magical Time
+- JPN - Aikatsu! Idol Katsudou! - IN - Sweet Sp!ce
+- JPN - Aikatsu! Idol Katsudou! - IN - Take me Higher
+- JPN - Aikatsu! Idol Katsudou! - IN - Tutu.Ballerina
+- JPN - Aikatsu! Idol Katsudou! - OP1 - Signalize!
+- JPN - Aikatsu! Idol Katsudou! - OP2 - Diamond Happy
+- JPN - Aikatsu! Idol Katsudou! - OP3 - KIRA Power
+- JPN - Aikatsu! Idol Katsudou! - OP4 - SHINING LINE
+- JPN - Aikatsu! Idol Katsudou! - OP5 - Du-Du-Wa DO IT!!
+- JPN - Aikatsu! Idol Katsudou! - OP6 - Lovely Party Collection
+- JPN - Aikatsu! Idol Katsudou! - OP7 - START DASH SENSATION
+- JPN - Air - GAME AMV - ConcLude Another Style ~ Abyss ~infinite rhyme~ (Saudade)
+- JPN - Araburu Kisetsu no Otome-domo yo. - OP - Otome-domo yo
+- JPN - Bakuretsu Hunter - IN - Mask ~ Full Vers
+- JPN - Bishoujo Senshi Sailor Moon Crystal - ONA OP - MOON PRIDE
+- JPN - Boku no Pico - OVA ED - Koi wo Shiyou yo
+- JPN - Boku no Pico - OVA OP - Koi wo Shiyou yo
+- JPN - Brave Witches - ED - Little Wing ~Spirit of LINDBERG~
+- JPN - En'en no shouboutai Ni no Shou - OP2 - Torch of Liberty
+- JPN - GUMI, Miku Hatsune - MV - Matryoshka
+- JPN - Gakusen Toshi Asterisk - OP - Brand-new World
+- JPN - Gekijouban Aikatsu! Idol Katsudou! - MOVIE IN - Kagayaki no Etude
+- JPN - Getsumen to Heiki Mina - OP - Lights, Camera. Action!
+- JPN - Ginga Eiyuu Densetsu - OVA ED3 - Kansou no Uta
+- JPN - Granblue Fantasy - GAME LIVE - Ain Soph Aur ~ GranFest 2019 Vers
+- JPN - Granblue Fantasy - GAME PV1 - Sora no Michishirube
+- JPN - Granblue Fantasy - GAME PV2 - Sanbagarasu Otoko Uta
+- JPN - Granblue Fantasy - GAME PV3 - Ain Soph Aur
+- JPN - Hatsune Miku ~ Project DIVA F 2nd - GAME IN - Musunde Hiraite Rasetsu to Mukuro
+- JPN - Hayate no Gotoku!! 2nd season - REMIX IN - Zankoku na Tenshi no These
+- JPN - Higurashi no Naku Koro ni Hou - PS4 SWITCH GAME OP - Nageki no Mori
+- JPN - Innocence Enzai Bengoushi - MV - Hakujitsu
+- JPN - Isekai Quartet 2 - ED1 - Ponkotsu! Isekai Theater
+- JPN - Isekai Quartet 2 - OP - Isekai Showtime
+- JPN - K-ON!! - ED2 - No Thank You
+- JPN - Kamisama ni Natta Hi - ED - Goodbye Seven Seas
+- JPN - Kindaichi Shounen no Jikenbo Returns - OP1 - BRAND NEW STORY
+- JPN - Kiratto Pri Chan season 3 - ED1 - A.B.C.D.ii ne Dance
+- JPN - Kodomo no Omocha (1996) - OP2 - Ultra Relax
+- JPN - Kyousougiga - ED - Shissou Ginga
+- JPN - Kyousougiga - OP - Koko
+- JPN - Lon - COVER AUDIO - Matryoshka
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - IN - DIVE!
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - IS - Dream with You
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - OP - Nijiro Passions!
+- JPN - Love Live! School Idol Project - LIVE - soldier game ~ Maki & Umi Vers
+- JPN - Love Live! School Idol Project - OP - Bokura wa Ima no Naka de
+- JPN - Mahou Shoujo Madoka Magica - OP - Connect
+- JPN - Mahouka Koukou no Rettousei - ED1 - Millenario
+- JPN - Meitantei Conan - ED46 - Ima Aitakute
+- JPN - Miku Hatsune - MV - Koi wa Sensou (Love is War)
+- JPN - Miku Hatsune - REMIX MV - GO GO Mario!!
+- JPN - Mister Ajikko - OP - Renaissance Jounetsu
+- JPN - Munou na Nana - ED - Bakemono to Yobarete
+- JPN - Nichijou - OP2 - Hyadain no Joujou Yuujou
+- JPN - Nisekoi - OP1 - CLICK
+- JPN - Noragami - ED - Heart Realize
+- JPN - Ojamajo Doremi - OP - Ojamajo Carnival!!
+- JPN - Okusama ga Seitokaichou! - ED1 - RenxAi=Equation
+- JPN - Okusama ga Seitokaichou! - ED2 - Realize
+- JPN - Okusama ga Seitokaichou! - OP - Koi Suru Hiyoko
+- JPN - Okusama ga Seitokaichou! - OP - Koi Suru Hiyoko ~ Alternative Vers
+- JPN - One Room - ED1 - Harumachi Clover
+- JPN - Ookami Shoujo to Kuro Ouji - OP - LOVE GOOD TIME
+- JPN - Otaku no Video - OVA OP - Tatakae Otaking
+- JPN - Ougon Yuusha Goldran - OP - Bokura no Bouken
+- JPN - Outbreak Company - OP - Univer Page
+- JPN - Pico to Chico - OVA ED - Natsuyasumi
+- JPN - Pico x CoCo x Chico - OVA OP - Boku wo Tsuretette
+- JPN - Princess Connect! Re Dive - ED - Soredemo Tomo ni Aruite Iku
+- JPN - Princess Connect! Re Dive - OP - Lost Princess
+- JPN - Rin Kagamine - MV - Lost One no Goukoku
+- JPN - Sankarea - ED - Above your hand
+- JPN - Sankarea - OP - Esoragoto
+- JPN - Senki Zesshou Symphogear AXZ - LIVE - Axia no Kaze
+- JPN - Senki Zesshou Symphogear AXZ - LIVE - Change the Future
+- JPN - Senki Zesshou Symphogear AXZ - LIVE - Shitou -Ewigkeit-
+- JPN - Shin Kenjushi France Five - OP3 - Shin Kenjushi France Five ~ Episode 6 Vers
+- JPN - Sket Dance - OP3 - Graffiti
+- JPN - Sora Yori mo Tooi Basho - AMV - One Step
+- JPN - Spinoid - ONA MV - Nijimu Sabiiro
+- JPN - Suzumiya Haruhi no Tomadoi - PS2 GAME ED - Hare Hare Yukai
+- JPN - Suzumiya Haruhi no Yuuutsu - ED1 - Hare Hare Yukai
+- JPN - Suzumiya Haruhi no Yuuutsu - ED1 - Hare Hare Yukai ~ Dance Vers
+- JPN - Suzumiya Haruhi no Yuuutsu - ED2 - Tomare!
+- JPN - Suzumiya Haruhi no Yuuutsu - OP2 - Bouken Desho Desho question_mark
+- JPN - Suzumiya Haruhi no Yuuutsu - OP3 - Super Driver
+- JPN - Tenkuu Danzai Skelter Plus Heaven - OVA ED - Marionette
+- JPN - To Aru Kagaku no Railgun T - OP2 - dual existence
+- JPN - Violet Evergarden - ED - Michishirube
+- JPN - Zoids - ED3 - Your Song
+- KOR - Cardcaptor Sakura - OP1 - Catch you Catch me
+- UND - Pingu in the City - ED - Ride The Rainbow
+- UND - Pingu in the City - OP - PINGU A GO! GO!
+- UND - Violet Evergarden - IN - The Songstress Aria
+
 # October 2020
 
 Contributors: 
