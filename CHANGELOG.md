@@ -1,4 +1,210 @@
-# Novembre 2020
+# December 2020
+
+Contributors: 
+
+- @42aruaour
+- @Angor
+- @Cocs
+- @Colgate
+- @Currymalker
+- @Demoto
+- @Dysp
+- @Eden
+- @Geralt
+- @Kaleidoscope
+- @Kmeuh
+- @Kubat
+- @MrKyubu
+- @Mulequik
+- @Nifra
+- @Nodamin
+- @Pierre CAMILLI
+- @Rubn4
+- @Subkei
+- @TheMio
+- @asdFer
+- @fabthehedgehog
+- @meulahke
+
+## Added
+
+New songs : 104
+
+- ENG - Christina Milian, Mori Calliope - AUDIO - Call Me, Beep Me (If You Wanna Reap Me) (@fabthehedgehog)
+- ENG - Cory in the House - OP - Cory in the House Theme Song (@fabthehedgehog)
+- ENG - Cyberpunk 2077 - MV - SI CYBERPUNK 2077 ETAIT UN ANIME (@fabthehedgehog)
+- ENG - Dumbbell Nan Kilo Moteru question_mark , Persona 5 the Animation - REMIX AMV - Start Lifting Dumbbells, and Your Life Will Change (@Kubat)
+- ENG - Epithet Erased - ONA OP - Epithet Erased (@fabthehedgehog)
+- ENG - Gura Gawr - COVER MV - Can't Help Falling in Love (@Kaleidoscope)
+- ENG - Gura Gawr - COVER MV - Plastic Love (@fabthehedgehog)
+- ENG - Hikaru Station - COVER REMIX MV - Watashi no R (@Kaleidoscope)
+- ENG - Love Live! School Idol Project - REMIX AMV - Rebel Taxi's Crazy Halation (All I Want) (@fabthehedgehog)
+- ENG - Mariya Takeuchi - MV - Plastic Love (@fabthehedgehog)
+- ENG - Mori Calliope - MV - Cursed Night (@fabthehedgehog)
+- ENG - Persona 3 Dancing Moon Night - COVER PS4 PSV GAME AMV - Mass Destruction ~ Mori Calliope Vers (@Kubat)
+- ENG - Persona 5 the Animation - ED1 - INFINITY (@Kubat)
+- ENG - Persona 5 the Animation - ED3 - Autonomy (@Kubat)
+- ENG - Persona 5 the Animation - OP2 - Dark Sun (@Kubat)
+- ENG - Pocket Monsters - OP - Pokemon Theme (@42aruaour)
+- ENG - Promare - MOVIE AUDIO IN - Gallant Ones (@fabthehedgehog)
+- ENG - Promare - MOVIE IN - Ashes (@fabthehedgehog)
+- ENG - Promare - MOVIE IN - Ashes ~RETURNS~ (@fabthehedgehog)
+- ENG - RWBY - ONA OP8 - The End (@fabthehedgehog)
+- ENG - Shingeki no Kyojin The Final Season - OP - Boku no Sensou (@fabthehedgehog)
+- ENG - The Legend of Zelda - MV - It's Dangerous to Go Alone (@fabthehedgehog)
+- ENG - The Legend of Zelda - MV - The Hero of Rhyme (@fabthehedgehog)
+- ENG - The Legend of Zelda The Wind Waker - MV - A Boy and His Boat (@fabthehedgehog)
+- ENG - annapantsu - COVER REMIX MV - Stacy's Dad (@Angor)
+- FRE - Ganesh2 - MV - CA ME GRATTE (@fabthehedgehog)
+- FRE - Maliki - MV - La complainte de Souillon (@fabthehedgehog)
+- FRE - Monsieur Flap - ONA OP - Monsieur Flap (@fabthehedgehog)
+- FRE - The Simpsons - IN - C est Nous ! (@fabthehedgehog)
+- JPN - AZKi, Aqua Minato, Choco Yuzuki - COVER MV - Ochame Kinou ~ Hololive Vers (@fabthehedgehog)
+- JPN - Ayumi-chan Labo - PC GAME OP - Ayumi-chan LOVE ALL! (@Colgate)
+- JPN - BEASTARS - OP2 - Kaibutsu (@meulahke)
+- JPN - D4DJ First Mix - REMIX IN - WOW WAR TONIGHT ~Toki ni wa Okose yo Movement~ (@Nodamin)
+- JPN - Durarara!!x2 Ketsu - MV - Steppin' out ~ Full Vers (@meulahke)
+- JPN - Fake ~unreality~ - PC GAME OP1 - Watashi-wa Miko-san Cupid (@Colgate)
+- JPN - Fate Grand Order Zettai Majuu Sensen Babylonia - AUDIO OP - Phantom Joke ~ Full Vers (@fabthehedgehog)
+- JPN - GUMI - MV - KING (@Dysp)
+- JPN - Golden Kamuy 3rd Season - ED - Yuusetsu (@fabthehedgehog)
+- JPN - Golden Kamuy 3rd Season - OP - Grey (@fabthehedgehog)
+- JPN - Great Teacher Onizuka - MV - Driver's High (@meulahke)
+- JPN - Gura Gawr - COVER MV - Ride on Time (@fabthehedgehog)
+- JPN - Hanatan - COVER AUDIO - Orange (@Demoto, @TheMio)
+- JPN - Hatsune Miku ~ Project DIVA F 2nd - PSV GAME MV - Luka Luka Night Fever (@Mulequik)
+- JPN - Hyadain - COVER GAME MV - Super Mario de Western Show (@meulahke)
+- JPN - Inu x Boku SS - ED2 - Kimi wa (@asdFer)
+- JPN - Iron King - ED - Hitori Tabi (@Eden)
+- JPN - Iron King - OP - Iron King (@Eden)
+- JPN - JoJo no Kimyou na Bouken Diamond wa Kudakenai - AUDIO OP2 - chase ~ Full Vers (@MrKyubu)
+- JPN - Josee to Tora to Sakana-tachi - MOVIE MV - Ao no Waltz (@Dysp)
+- JPN - Jujutsu Kaisen - MV - Kaikai Kitan ~ Full Vers (@fabthehedgehog)
+- JPN - Kakegurui - ED2 - Koi no Russian Roulette (@Kubat)
+- JPN - Kemono Friends - COVER AUDIO OP - Youkoso Japari Park e ~ Full Vers (@fabthehedgehog)
+- JPN - Kindaichi Shounen no Jikenbo Returns - ED1 - Passcode 4854 (@Subkei)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - IN - La Bella Patria (@Kaleidoscope)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - IN - Saikou Heart (@Kaleidoscope)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - LIVE - TOKIMEKI Runners ~ Kounai Matching Festival (@Demoto, @TheMio)
+- JPN - Love Live! School Idol Project - AUDIO - MOMENT RING (@Demoto, @TheMio)
+- JPN - Love Live! School Idol Project - LIVE - MOMENT RING - Mu's Final LoveLive! ~Mu'sic Forever ~ (@Demoto, @TheMio)
+- JPN - Love Live! Sunshine!! - LIVE - Daisuki dattara Daijoubu! (@Demoto, @TheMio)
+- JPN - MAID iN HEAVEN SuperS - OVA OP - Maid-san Groovy (@Colgate)
+- JPN - MY FIRST STORY - AMV - 1,000,000 TIMES (@Cocs)
+- JPN - Mafumafu - COVER MV - Inochi ni Kirawarete Iru (@Dysp)
+- JPN - Mafumafu, nqrse - MV - KING (@Dysp)
+- JPN - Meitantei Conan - OP27 - Magic (@Currymalker)
+- JPN - Miku Hatsune - MV - Android Girl (@Kaleidoscope)
+- JPN - Miraculous Ladybug - OP - Miraculous ! (@Kmeuh)
+- JPN - RADWIMPS - AUDIO - Oshakashama (@Dysp)
+- JPN - Re Zero kara Hajimeru Isekai Seikatsu 2nd Season - COVER AMV - Realize ~ Sarah Vers (@Nifra)
+- JPN - Reiton-kyoju to Akuma no Hako - DS GAME ED - iris~Shiawase no Hako~ (@Pierre CAMILLI)
+- JPN - Rizelmine - ED1 - Honki Power no Dash! (@Rubn4)
+- JPN - Rockman 2 Dr. Wairi no Nazo - COVER MV - Air Man Ga Taosenai ~ Tsuko G Vers (@fabthehedgehog)
+- JPN - SSSS.Gridman - AUDIO IN - Yume no Hero ~ Full Vers (@fabthehedgehog)
+- JPN - Saki Ashizawa - COVER MV - Inochi ni Kirawarete Iru (@Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO IN - Senritsu Sorority (@Dysp)
+- JPN - Senki Zesshou Symphogear G - OP1 - Apple (@MrKyubu)
+- JPN - Senki Zesshou Symphogear GX - AUDIO - Arigatou wo Utai Nagara (@MrKyubu)
+- JPN - Senki Zesshou Symphogear XV - AMV - FINAL COMMANDER -Aufwachen Form- (@Dysp)
+- JPN - Senki Zesshou Symphogear XV - AMV - Sforzando no Zankyou ~ Full Vers (@Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO - PERFECT SYMPHONY (@Dysp)
+- JPN - Senki Zesshou Symphogear XV - IN - Angelic Remnant (@Dysp)
+- JPN - Senki Zesshou Symphogear XV - IN - Rikka Ryouran (@Dysp)
+- JPN - Shin Evangelion Gekijouban - MOVIE PV - One Last Kiss (@Kmeuh)
+- JPN - Shin'ya! Tensai Bakabon - OP - BAKA-BONSOIR! (@meulahke)
+- JPN - Shingeki no Kyojin The Final Season - AUDIO ED - Shougeki ~ Full Vers (@Dysp)
+- JPN - Shingeki no Kyojin The Final Season - ED - Shougeki (@Dysp)
+- JPN - Shoujo Kageki Revue Starlight - AMV - Fly Me to the Star ~ Full Vers (@Kaleidoscope)
+- JPN - Soredemo Sekai wa Utsukushii - ED - PROMISE (@asdFer)
+- JPN - Tenbatsu! Angel Rabbie - MV - Tenbatsu! Angel Rabbie ~ Full Vers (@Colgate)
+- JPN - Tengen Toppa Gurren Lagann - COVER AUDIO - Sora-iro Days ~ Hololive Vers (@fabthehedgehog)
+- JPN - To Aru Kagaku no Railgun T - ED1 - nameless story (@fabthehedgehog)
+- JPN - To Aru Kagaku no Railgun T - ED2 - Seiran no Ato de (@fabthehedgehog)
+- JPN - To Be Hero - OP - Ainikoiyo (@meulahke)
+- JPN - Tsukihime -A piece of blue glass moon- - PS4 SWITCH GAME OP - Seimeisen (@Kmeuh)
+- JPN - Ultraman Nexus - OP1 - Eiyuu (@fabthehedgehog)
+- JPN - Ultraman Z - OP - Goshowa Kudasai Ware no Na wo! (@fabthehedgehog)
+- JPN - Violet Evergarden - OVA IN - Letter (@Geralt)
+- JPN - Yozakura Quartet Hoshi no Umi - OVA ED - Hello Hello (@fabthehedgehog)
+- JPN - Yozakura Quartet Tsuki ni Naku - OVA ED - Chandelier Waltz (@fabthehedgehog)
+- JPN - Yozakura Quartet Tsuki ni Naku - OVA OP - Non-Fiction Compass (@fabthehedgehog)
+- JPN - Yuru Camp season 2 - MV - Seize The Day ~ Full Vers (@meulahke)
+- JPN - Zegapain - ED1 - Little Goodbye (@Currymalker)
+- JPN - Zegapain - ED2 - And You (@Currymalker)
+- JPN - Zegapain - ED3 - Last Blue (@Currymalker)
+- JPN - majiko - COVER AUDIO - Inochi ni Kirawarete Iru (@Dysp)
+
+## Fixed
+
+Fixed songs : 64
+
+- ENG - Black Clover (2017) - OP10 - Black Catcher
+- ENG - Calliope Mori - MV - Excuse My Rudeness, But Could You Please RIP question_mark
+- ENG - Code Geass Hangyaku no Lelouch R2 - IN - Continued Story
+- ENG - Cowboy Bebop - OP - Tank!
+- ENG - Golden Kamuy - OP - Winding Road
+- ENG - Jujutsu Kaisen - ED - LOST IN PARADISE
+- ENG - Ninja Sex Party - MV - Welcome To My Parents' House
+- ENG - No Guns Life (2020) - OP - Chaos Drifters
+- ENG - Persona 5 - PS3 PS4 GAME AMV - Rivers in the Desert
+- ENG - RWBY - ONA AMV - Red Like Roses Part II
+- ENG - Shin Seiki Evangelion - AMV - The Lost 4Kids Opening
+- ENG - Super Mario Bros. - MV - Luigi's Ballad
+- ENG - TWRP - MV - Starlight Brigade (feat. Dan Avidan)
+- ENG - Under ! Where question_mark - AMV - Underwear
+- FRE - Dragon Quest Dai no Daibouken - OP - Fly
+- FRE - Joueur du Grenier - IN - Achete ma merde
+- FRE - Les Inconnus - MV - Biouman
+- FRE - Moana - MOVIE IN - Pour les hommes
+- FRE - Pokemon Kimi ni Kimeta! - MOVIE ED - Moi je te choisis toi
+- JPN - Aikatsu Friends! - IN - Michibikarete
+- JPN - Aikatsu! Photo on Stage!! - GAME MV - Kirameki Messenger
+- JPN - Air - OP - Tori no Uta
+- JPN - Ashita no Nadja - ED - Que Sera-Sera
+- JPN - Devilman Crybaby - ONA AMV - Devilman no Uta ~ Full Vers
+- JPN - Devilman Crybaby - ONA IN - Devilman no Uta
+- JPN - Dorohedoro - OP - Welcome to Chaos
+- JPN - Fate Grand Order Zettai Majuu Sensen Babylonia - ED2 - Prover
+- JPN - Galilei Donna Storia di Tre Sorelle a Caccia di un Mistero - OP - Synchromanica
+- JPN - Ged Senki Tales from Earthsea - MOVIE AMV - Therru no Uta
+- JPN - Glove on Fight - PC GAME OP - Darling...Kiss immediate
+- JPN - Higurashi no Naku Koro ni Gou - OP - I believe what you said
+- JPN - IA - MV - World Calling
+- JPN - Inazuma Eleven Online - PC GAME OP - Ouja no Tamashii
+- JPN - Jinrui wa Suitai Shimashita - MV - Real World ~ Full Vers
+- JPN - Kaguya-sama wa Kokurasetai question_mark Tensai-tachi no Ren'ai Zunousen - OP - DADDY! DADDY! DO!
+- JPN - Kakegurui - ED1 - LAYon-theLINE
+- JPN - Kakushigoto - ED - Kimi wa Tennenshoku
+- JPN - Kakushigoto - OP - Chiisana hibi
+- JPN - Kami no Tou - OP - TOP
+- JPN - Kanojo, Okarishimasu - OP - Centimeter
+- JPN - Kidou Keisatsu Patlabor (1988) - OVA OP - Miraiha Lovers
+- JPN - Koukyoushihen Eureka Seven - OP2 - Shounen Heart
+- JPN - Kyokou Suiri - OP - Mononoke in the Fiction
+- JPN - Love Live! School Idol Project - LIVE - Glass no Hanazono
+- JPN - Love Live! Sunshine!! - LIVE - Guilty Night, Guilty Kiss!
+- JPN - Macross Frontier - IN - Iteza Gogo Kuji Don't Be Late
+- JPN - Macross Frontier - IN - Iteza Gogo Kuji Don't Be Late ~ Alternative Vers
+- JPN - Macross Frontier - IN - What 'bout my star question_mark @Formo
+- JPN - Miku Hatsune - MV - Ura-omote Lovers
+- JPN - Minami - MV - Hollowness
+- JPN - Namco X Capcom - PS2 GAME OP - Subarashiki Shin Sekai
+- JPN - Onmyou Taisenki - OP2 - PULSE
+- JPN - Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei Shiteshimatta... - OP - Otome no Route wa Hitotsu ja Nai!
+- JPN - Re Zero kara Hajimeru Isekai Seikatsu 2nd Season - OP - Realize
+- JPN - Senki Zesshou Symphogear G - OP2 - Vitalization
+- JPN - Shoujo Kageki Revue Starlight - OP - Hoshi no Dialogue
+- JPN - Soukou no Strain - OP - Message
+- JPN - Tokyo Ghoul - COVER OP - Unravel ~ Full Korone Vers
+- JPN - Touhou - MV - Convictor Yamaxanadu!
+- JPN - Touhou - MV - Yachatta
+- JPN - Touhou - REMIX AUDIO - Yoru Naku Usagi wa Yume wo Miru
+- JPN - Uchuu Patrol Luluco - ED2 - CRY MAX Do-Heijitsu ~ Long Vers
+- JPN - Yesterday wo Utatte - ED2 - Aoibashi
+- UND - NieR Automata - PS4 XBOXONE PC GAME AMV - Amusement Park
+
+# November 2020
 
 Contributors: 
 
