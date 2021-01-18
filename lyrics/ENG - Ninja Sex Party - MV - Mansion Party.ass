@@ -22,6 +22,12 @@ Video Position: 3681
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Down]-furigana,Arial,12,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,2,0,0,40,1
+Style: Sample KM Duo [Voice 1&2]-furigana,Arial,12,&H00FFFFFF,&H00FF00BC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,8,0,0,20,1
+Style: Sample KM Duo [Voice 2]-furigana,Arial,12,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,8,0,0,20,1
+Style: Sample KM Duo [Voice 1]-furigana,Arial,12,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,8,0,0,20,1
+Style: Sample KM [Choir]-furigana,Arial,12,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,0.75,0,8,0,0,80,1
+Style: Sample KM [Up]-furigana,Arial,12,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,8,0,0,20,1
 Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
 Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
@@ -32,68 +38,133 @@ Style: Sample KM [Down],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Dialogue: 0,0:00:09.35,0:00:10.40,Sample KM [Down],,0,0,0,,{\k24}A{\k28}yo {\k53}girl
-Dialogue: 0,0:00:10.84,0:00:12.96,Sample KM [Down],,0,0,0,,{\k13}You {\k7}wan{\k8}na {\k11}come {\k14}to {\k9}a {\k19}par{\k9}ty {\k11}at {\k19}my {\k26}house {\k13}to{\k53}night?
-Dialogue: 0,0:00:13.25,0:00:15.42,Sample KM [Down],,0,0,0,,{\k17}Eve{\k8}ry{\k11}one {\k14}who's {\k13}a{\k10}ny{\k13}one {\k15}in {\k9}L{\k15}A {\k12}is {\k13}gon{\k10}na {\k21}be {\k36}there
-Dialogue: 0,0:00:15.89,0:00:17.48,Sample KM [Down],,0,0,0,,{\k31}I'm {\k30}ex{\k22}treme{\k25}ly {\k51}rich
-Dialogue: 0,0:00:18.29,0:00:19.32,Sample KM [Up],,0,0,0,,{\k45}Hey {\k58}girl,
-Dialogue: 0,0:00:20.02,0:00:22.19,Sample KM [Up],,0,0,0,,{\k36}wel{\k27}come {\k19}to {\k19}my {\k30}house {\k38}par{\k48}ty
-Dialogue: 0,0:00:22.19,0:00:24.05,Sample KM [Up],,0,0,0,,{\k10}It’s {\k16}a {\k29}gi{\k26}ant {\k18}man{\k22}sion {\k37}ba{\k28}by,
-Dialogue: 0,0:00:24.29,0:00:26.14,Sample KM [Up],,0,0,0,,{\k17}don’t {\k25}slip {\k23}on {\k27}all {\k26}my {\k38}mo{\k29}ney
-Dialogue: 0,0:00:26.33,0:00:28.37,Sample KM [Up],,0,0,0,,{\k33}Yeah {\k24}there’s {\k27}a {\k19}lot {\k21}of {\k37}mo{\k43}dels,
-Dialogue: 0,0:00:28.37,0:00:30.37,Sample KM [Up],,0,0,0,,{\k25}and {\k34}some {\k25}su{\k20}per{\k12}mo{\k25}dels {\k59}too
-Dialogue: 0,0:00:30.55,0:00:32.26,Sample KM [Up],,0,0,0,,{\k21}Don’t {\k33}touch {\k22}my {\k25}dia{\k24}mond {\k46}fridge,
-Dialogue: 0,0:00:32.10,0:00:35.26,Sample KM [Up],,0,0,0,,{\k20}it {\k37}cost {\k25}more {\k27}than {\k16}the {\k27}coun{\k31}try {\k23}of {\k29}Pe{\k81}ru
-Dialogue: 0,0:00:36.03,0:00:38.14,Sample KM [Up],,0,0,0,,{\k23}Se{\k16}duc{\k13}tion {\k20}is {\k18}like {\k15}a {\k17}game {\k20}of {\k69}chess…
-Dialogue: 0,0:00:38.85,0:00:40.14,Sample KM [Up],,0,0,0,,{\k15}and {\k18}I’m {\k26}the {\k70}queen.
-Dialogue: 0,0:00:41.51,0:00:42.14,Sample KM [Up],,0,0,0,,{\k63}Wait…
-Dialogue: 0,0:00:42.79,0:00:44.91,Sample KM [Up],,0,0,0,,{\k37}Can’t {\k71}stop, {\k35}won’t {\k69}stop,
-Dialogue: 0,0:00:44.91,0:00:47.42,Sample KM [Up],,0,0,0,,{\k41}dan{\k58}cing {\k45}deep {\k26}in{\k13}to {\k14}the {\k54}night
-Dialogue: 0,0:00:47.49,0:00:49.35,Sample KM [Up],,0,0,0,,{\k22}It’s {\k19}a {\k26}man{\k28}sion {\k44}par{\k47}ty
-Dialogue: 0,0:00:49.59,0:00:51.42,Sample KM [Up],,0,0,0,,{\k27}Yo {\k24}that {\k30}ti{\k16}ger’s {\k34}su{\k10}per {\k42}tight
-Dialogue: 0,0:00:51.42,0:00:53.52,Sample KM [Up],,0,0,0,,{\k26}And {\k20}if {\k21}you’re {\k25}fee{\k26}ling {\k44}naugh{\k48}ty,
-Dialogue: 0,0:00:53.52,0:00:55.57,Sample KM [Up],,0,0,0,,{\k28}we’ll {\k23}snort {\k25}cham{\k28}pagne {\k22}by {\k29}can{\k16}dle{\k34}light
-Dialogue: 0,0:00:55.85,0:00:57.67,Sample KM [Up],,0,0,0,,{\k22}It’s {\k17}a {\k31}man{\k21}sion {\k48}par{\k43}ty,
-Dialogue: 0,0:00:57.67,0:00:59.72,Sample KM [Up],,0,0,0,,{\k28}and {\k25}la{\k28}ter {\k25}on’s {\k16}a {\k37}pan{\k18}da {\k28}fight
-Dialogue: 0,0:01:00.31,0:01:01.71,Sample KM [Down],,0,0,0,,{\k13}You've {\k11}real{\k6}ly {\k9}got{\k15}ta {\k8}a{\k16}gi{\k19}tate {\k10}the {\k13}pan{\k20}das
-Dialogue: 0,0:01:01.71,0:01:03.17,Sample KM [Down],,0,0,0,,{\k12}to {\k6}get {\k11}them {\k25}en{\k16}gaged {\k12}in {\k32}com{\k32}bat
-Dialogue: 0,0:01:03.70,0:01:05.24,Sample KM [Down],,0,0,0,,{\k17}They're {\k12}ve{\k11}ry {\k23}do{\k20}cile {\k20}by {\k24}na{\k27}ture
-Dialogue: 0,0:01:06.06,0:01:07.50,Sample KM [Down],,0,0,0,,{\k14}I {\k30}laced {\k27}their {\k26}bam{\k47}boo
-Dialogue: 0,0:01:08.35,0:01:09.34,Sample KM [Up],,0,0,0,,{\k49}Hey {\k50}girl,
-Dialogue: 0,0:01:10.16,0:01:12.15,Sample KM [Up],,0,0,0,,{\k19}heard {\k14}you {\k26}coul{\k13}dn’t {\k35}find {\k13}the {\k38}dance {\k41}floor
-Dialogue: 0,0:01:12.22,0:01:14.15,Sample KM [Up],,0,0,0,,{\k20}Just {\k39}walk {\k25}right {\k22}past {\k17}the {\k41}gar{\k29}den
-Dialogue: 0,0:01:14.30,0:01:16.38,Sample KM [Up],,0,0,0,,{\k32}Go {\k27}through {\k15}the {\k28}Spa{\k26}nish {\k39}French {\k41}doors
-Dialogue: 0,0:01:16.38,0:01:18.48,Sample KM [Up],,0,0,0,,{\k31}Turn {\k31}right {\k10}at {\k14}the {\k18}se{\k24}venth {\k36}bath{\k46}room
-Dialogue: 0,0:01:18.48,0:01:20.34,Sample KM [Up],,0,0,0,,{\k22}Then {\k11}a {\k20}left {\k19}at {\k14}my {\k16}la{\k19}ser {\k65}car
-Dialogue: 0,0:01:20.63,0:01:22.47,Sample KM [Up],,0,0,0,,{\k11}You {\k16}can {\k24}ride {\k27}my {\k28}pure{\k18}bred {\k33}stal{\k27}lion,
-Dialogue: 0,0:01:22.47,0:01:25.09,Sample KM [Up],,0,0,0,,{\k20}if {\k26}you {\k26}hit {\k28}my {\k25}moat {\k24}you’ve {\k25}gone {\k25}too {\k63}far
-Dialogue: 0,0:01:25.33,0:01:27.91,Sample KM [Choir],,0,0,0,,{\k28}You've {\k25}gone {\k47}too {\kf158}far
-Dialogue: 0,0:01:27.69,0:01:30.29,Sample KM [Down],,0,0,0,,{\k19}Take {\k6}an {\k12}up{\k22}side {\k19}down {\k27}left {\k12}at {\k10}the {\k13}M{\k15}C {\k16}Es{\k22}cher {\k67}stairs
-Dialogue: 0,0:01:30.74,0:01:33.26,Sample KM [Down],,0,0,0,,{\k8}O{\k28}K, {\k25}you’re {\k24}al{\k29}most {\k30}half{\k31}way {\k77}there
-Dialogue: 0,0:01:32.77,0:01:34.89,Sample KM [Up],,0,0,0,,{\k47}Can’t {\k70}stop, {\k38}won’t {\k57}stop,
-Dialogue: 0,0:01:34.99,0:01:37.50,Sample KM [Up],,0,0,0,,{\k41}dan{\k65}cing {\k24}deep {\k20}in{\k33}to {\k14}the {\k54}night
-Dialogue: 0,0:01:37.57,0:01:39.43,Sample KM [Up],,0,0,0,,{\k22}It’s {\k19}a {\k26}man{\k28}sion {\k44}par{\k47}ty
-Dialogue: 0,0:01:39.43,0:01:41.50,Sample KM [Up],,0,0,0,,{\k26}I {\k23}bought {\k23}a {\k32}yacht {\k28}just {\k19}for {\k20}to{\k36}night
-Dialogue: 0,0:01:41.50,0:01:43.60,Sample KM [Up],,0,0,0,,{\k26}And {\k20}if {\k21}you’re {\k25}fee{\k26}ling {\k44}naugh{\k48}ty,
-Dialogue: 0,0:01:43.60,0:01:45.65,Sample KM [Up],,0,0,0,,{\k28}we’ll {\k23}snort {\k25}cham{\k28}pagne {\k22}by {\k29}can{\k16}dle{\k34}light
-Dialogue: 0,0:01:45.93,0:01:47.75,Sample KM [Up],,0,0,0,,{\k22}It’s {\k17}a {\k31}man{\k21}sion {\k48}par{\k43}ty,
-Dialogue: 0,0:01:47.90,0:01:49.74,Sample KM [Up],,0,0,0,,{\k40}now {\k17}let’s {\k37}watch {\k25}two {\k23}pan{\k15}das {\k27}fight
-Dialogue: 0,0:01:52.66,0:01:54.90,Sample KM [Choir],,0,0,0,,{\k34}Woo-{\k49}hoo-{\kf141}hoo
-Dialogue: 0,0:01:56.86,0:01:59.15,Sample KM [Choir],,0,0,0,,{\k34}Woo-{\k49}hoo-{\kf146}hoo
-Dialogue: 0,0:02:00.99,0:02:09.08,Sample KM [Choir],,0,0,0,,{\k34}Woo-{\k49}hoo-{\kf105}hoo-{\kf345}hoo-{\kf276}hoo!
-Dialogue: 0,0:02:06.82,0:02:07.49,Sample KM [Down],,0,0,0,,{\k21}My {\k46}God,
-Dialogue: 0,0:02:07.82,0:02:09.61,Sample KM [Down],,0,0,0,,{\k19}the {\k9}bat{\k13}tle {\k11}pan{\k16}das {\k10}have {\k13}es{\k20}caped {\k8}from {\k9}the {\k25}pan{\k9}da-{\k17}gon
-Dialogue: 0,0:02:09.61,0:02:10.73,Sample KM [Down],,0,0,0,,{\k7}and {\k11}they're {\k15}mur{\k5}der{\k9}ing {\k16}the {\k49}guests
-Dialogue: 0,0:02:11.09,0:02:12.84,Sample KM [Down],,0,0,0,,{\k28}Uh, {\k9}it's {\k29}last {\k16}week {\k12}all {\k11}o{\k10}ver {\k18}a{\k42}gain.
-Dialogue: 0,0:02:12.97,0:02:14.12,Sample KM [Down],,0,0,0,,{\k12}Let’s {\k13}get {\k14}the {\k21}hell {\k8}out{\k10}ta {\k37}here!
-Dialogue: 0,0:02:14.52,0:02:16.61,Sample KM [Up],,0,0,0,,{\k48}Can’t {\k66}stop, {\k40}won’t {\k55}stop,
-Dialogue: 0,0:02:16.61,0:02:19.20,Sample KM [Up],,0,0,0,,{\k48}non{\k62}stop {\k32}run{\k25}nin’ {\k25}for {\k16}my {\k51}life
-Dialogue: 0,0:02:19.33,0:02:21.10,Sample KM [Up],,0,0,0,,{\k27}It’s {\k13}a {\k24}man{\k28}sion {\k41}par{\k44}ty,
-Dialogue: 0,0:02:21.10,0:02:23.23,Sample KM [Up],,0,0,0,,{\k32}I {\k26}pray {\k26}to {\k27}god {\k27}we {\k22}all {\k17}sur{\k36}vive
-Dialogue: 0,0:02:23.23,0:02:25.23,Sample KM [Up],,0,0,0,,{\k27}And {\k12}if {\k29}you’re {\k24}fee{\k15}ling {\k51}sau{\k42}cy,
-Dialogue: 0,0:02:25.23,0:02:27.44,Sample KM [Up],,0,0,0,,{\k30}we’ll {\k26}grab {\k33}some {\k25}spears {\k25}by {\k30}can{\k13}dle{\k39}light
-Dialogue: 0,0:02:27.69,0:02:29.44,Sample KM [Up],,0,0,0,,{\k27}It’s {\k15}a {\k21}man{\k28}sion {\k43}par{\k41}ty,
-Dialogue: 0,0:02:29.44,0:02:31.71,Sample KM [Up],,0,0,0,,{\k26}we’re {\k31}drop{\k23}pin’ {\k30}pan{\k27}das {\k28}left {\k12}and {\k50}right
-Dialogue: 0,0:02:31.80,0:02:32.86,Sample KM [Down],,0,0,0,,{\k26}Save {\k22}your{\k58}self!
-Dialogue: 0,0:02:33.51,0:02:35.01,Sample KM [Down],,0,0,0,,{\k42}Argh, {\k19}this {\k16}par{\k16}ty's {\k36}awe{\k21}some!
-Dialogue: 0,0:02:35.60,0:02:37.05,Sample KM [Down],,0,0,0,,{\k44}So {\k20}ma{\k13}ny {\k29}pan{\k39}das!
+Comment: 0,0:00:09.35,0:00:10.40,Sample KM [Down],,0,0,0,karaoke,{\k24}A{\k28}yo {\k53}girl
+Comment: 0,0:00:10.84,0:00:12.96,Sample KM [Down],,0,0,0,karaoke,{\k13}You {\k7}wan{\k8}na {\k11}come {\k14}to {\k9}a {\k19}par{\k9}ty {\k11}at {\k19}my {\k26}house {\k13}to{\k53}night?
+Comment: 0,0:00:13.25,0:00:15.42,Sample KM [Down],,0,0,0,karaoke,{\k17}Eve{\k8}ry{\k11}one {\k14}who's {\k13}a{\k10}ny{\k13}one {\k15}in {\k9}L{\k15}A {\k12}is {\k13}gon{\k10}na {\k21}be {\k36}there
+Comment: 0,0:00:15.89,0:00:17.48,Sample KM [Down],,0,0,0,karaoke,{\k31}I'm {\k30}ex{\k22}treme{\k25}ly {\k51}rich
+Comment: 0,0:00:18.29,0:00:19.32,Sample KM [Up],,0,0,0,karaoke,{\k45}Hey {\k58}girl,
+Comment: 0,0:00:20.02,0:00:22.19,Sample KM [Up],,0,0,0,karaoke,{\k36}wel{\k27}come {\k19}to {\k19}my {\k30}house {\k38}par{\k48}ty
+Comment: 0,0:00:22.19,0:00:24.05,Sample KM [Up],,0,0,0,karaoke,{\k10}It’s {\k16}a {\k29}gi{\k26}ant {\k18}man{\k22}sion {\k37}ba{\k28}by,
+Comment: 0,0:00:24.29,0:00:26.14,Sample KM [Up],,0,0,0,karaoke,{\k17}don’t {\k25}slip {\k23}on {\k27}all {\k26}my {\k38}mo{\k29}ney
+Comment: 0,0:00:26.33,0:00:28.37,Sample KM [Up],,0,0,0,karaoke,{\k33}Yeah {\k24}there’s {\k27}a {\k19}lot {\k21}of {\k37}mo{\k43}dels,
+Comment: 0,0:00:28.37,0:00:30.37,Sample KM [Up],,0,0,0,karaoke,{\k25}and {\k34}some {\k25}su{\k20}per{\k12}mo{\k25}dels {\k59}too
+Comment: 0,0:00:30.55,0:00:32.26,Sample KM [Up],,0,0,0,karaoke,{\k21}Don’t {\k33}touch {\k22}my {\k25}dia{\k24}mond {\k46}fridge,
+Comment: 0,0:00:32.10,0:00:35.26,Sample KM [Up],,0,0,0,karaoke,{\k20}it {\k37}cost {\k25}more {\k27}than {\k16}the {\k27}coun{\k31}try {\k23}of {\k29}Pe{\k81}ru
+Comment: 0,0:00:36.03,0:00:38.14,Sample KM [Up],,0,0,0,karaoke,{\k23}Se{\k16}duc{\k13}tion {\k20}is {\k18}like {\k15}a {\k17}game {\k20}of {\k69}chess…
+Comment: 0,0:00:38.85,0:00:40.14,Sample KM [Up],,0,0,0,karaoke,{\k15}and {\k18}I’m {\k26}the {\k70}queen.
+Comment: 0,0:00:41.51,0:00:42.14,Sample KM [Up],,0,0,0,karaoke,{\k63}Wait…
+Comment: 0,0:00:42.79,0:00:44.91,Sample KM [Up],,0,0,0,karaoke,{\k37}Can’t {\k71}stop, {\k35}won’t {\k69}stop,
+Comment: 0,0:00:44.91,0:00:47.42,Sample KM [Up],,0,0,0,karaoke,{\k41}dan{\k58}cing {\k45}deep {\k26}in{\k13}to {\k14}the {\k54}night
+Comment: 0,0:00:47.49,0:00:49.35,Sample KM [Up],,0,0,0,karaoke,{\k22}It’s {\k19}a {\k26}man{\k28}sion {\k44}par{\k47}ty
+Comment: 0,0:00:49.59,0:00:51.42,Sample KM [Up],,0,0,0,karaoke,{\k27}Yo {\k24}that {\k30}ti{\k16}ger’s {\k34}su{\k10}per {\k42}tight
+Comment: 0,0:00:51.42,0:00:53.52,Sample KM [Up],,0,0,0,karaoke,{\k26}And {\k20}if {\k21}you’re {\k25}fee{\k26}ling {\k44}naugh{\k48}ty,
+Comment: 0,0:00:53.52,0:00:55.57,Sample KM [Up],,0,0,0,karaoke,{\k28}we’ll {\k23}snort {\k25}cham{\k28}pagne {\k22}by {\k29}can{\k16}dle{\k34}light
+Comment: 0,0:00:55.85,0:00:57.67,Sample KM [Up],,0,0,0,karaoke,{\k22}It’s {\k17}a {\k31}man{\k21}sion {\k48}par{\k43}ty,
+Comment: 0,0:00:57.67,0:00:59.72,Sample KM [Up],,0,0,0,karaoke,{\k28}and {\k25}la{\k28}ter {\k25}on’s {\k16}a {\k37}pan{\k18}da {\k28}fight
+Comment: 0,0:01:00.31,0:01:01.71,Sample KM [Down],,0,0,0,karaoke,{\k13}You've {\k11}real{\k6}ly {\k9}got{\k15}ta {\k8}a{\k16}gi{\k19}tate {\k10}the {\k13}pan{\k20}das
+Comment: 0,0:01:01.71,0:01:03.17,Sample KM [Down],,0,0,0,karaoke,{\k12}to {\k6}get {\k11}them {\k25}en{\k16}gaged {\k12}in {\k32}com{\k32}bat
+Comment: 0,0:01:03.70,0:01:05.24,Sample KM [Down],,0,0,0,karaoke,{\k17}They're {\k12}ve{\k11}ry {\k23}do{\k20}cile {\k20}by {\k24}na{\k27}ture
+Comment: 0,0:01:06.06,0:01:07.50,Sample KM [Down],,0,0,0,karaoke,{\k14}I {\k30}laced {\k27}their {\k26}bam{\k47}boo
+Comment: 0,0:01:08.35,0:01:09.34,Sample KM [Up],,0,0,0,karaoke,{\k49}Hey {\k50}girl,
+Comment: 0,0:01:10.16,0:01:12.15,Sample KM [Up],,0,0,0,karaoke,{\k19}heard {\k14}you {\k26}coul{\k13}dn’t {\k35}find {\k13}the {\k38}dance {\k41}floor
+Comment: 0,0:01:12.22,0:01:14.15,Sample KM [Up],,0,0,0,karaoke,{\k20}Just {\k39}walk {\k25}right {\k22}past {\k17}the {\k41}gar{\k29}den
+Comment: 0,0:01:14.30,0:01:16.38,Sample KM [Up],,0,0,0,karaoke,{\k32}Go {\k27}through {\k15}the {\k28}Spa{\k26}nish {\k39}French {\k41}doors
+Comment: 0,0:01:16.38,0:01:18.48,Sample KM [Up],,0,0,0,karaoke,{\k31}Turn {\k31}right {\k10}at {\k14}the {\k18}se{\k24}venth {\k36}bath{\k46}room
+Comment: 0,0:01:18.48,0:01:20.34,Sample KM [Up],,0,0,0,karaoke,{\k22}Then {\k11}a {\k20}left {\k19}at {\k14}my {\k16}la{\k19}ser {\k65}car
+Comment: 0,0:01:20.63,0:01:22.47,Sample KM [Up],,0,0,0,karaoke,{\k11}You {\k16}can {\k24}ride {\k27}my {\k28}pure{\k18}bred {\k33}stal{\k27}lion,
+Comment: 0,0:01:22.47,0:01:25.09,Sample KM [Up],,0,0,0,karaoke,{\k20}if {\k26}you {\k26}hit {\k28}my {\k25}moat {\k24}you’ve {\k25}gone {\k25}too {\k63}far
+Comment: 0,0:01:25.33,0:01:27.91,Sample KM [Choir],,0,0,0,karaoke,{\k28}You've {\k25}gone {\k47}too {\kf158}far
+Comment: 0,0:01:27.69,0:01:30.29,Sample KM [Down],,0,0,0,karaoke,{\k19}Take {\k6}an {\k12}up{\k22}side {\k19}down {\k27}left {\k12}at {\k10}the {\k13}M{\k15}C {\k16}Es{\k22}cher {\k67}stairs
+Comment: 0,0:01:30.74,0:01:33.26,Sample KM [Down],,0,0,0,karaoke,{\k8}O{\k28}K, {\k25}you’re {\k24}al{\k29}most {\k30}half{\k31}way {\k77}there
+Comment: 0,0:01:32.77,0:01:34.89,Sample KM [Up],,0,0,0,karaoke,{\k47}Can’t {\k70}stop, {\k38}won’t {\k57}stop,
+Comment: 0,0:01:34.99,0:01:37.50,Sample KM [Up],,0,0,0,karaoke,{\k41}dan{\k65}cing {\k24}deep {\k20}in{\k33}to {\k14}the {\k54}night
+Comment: 0,0:01:37.57,0:01:39.43,Sample KM [Up],,0,0,0,karaoke,{\k22}It’s {\k19}a {\k26}man{\k28}sion {\k44}par{\k47}ty
+Comment: 0,0:01:39.43,0:01:41.50,Sample KM [Up],,0,0,0,karaoke,{\k26}I {\k23}bought {\k23}a {\k32}yacht {\k28}just {\k19}for {\k20}to{\k36}night
+Comment: 0,0:01:41.50,0:01:43.60,Sample KM [Up],,0,0,0,karaoke,{\k26}And {\k20}if {\k21}you’re {\k25}fee{\k26}ling {\k44}naugh{\k48}ty,
+Comment: 0,0:01:43.60,0:01:45.65,Sample KM [Up],,0,0,0,karaoke,{\k28}we’ll {\k23}snort {\k25}cham{\k28}pagne {\k22}by {\k29}can{\k16}dle{\k34}light
+Comment: 0,0:01:45.93,0:01:47.75,Sample KM [Up],,0,0,0,karaoke,{\k22}It’s {\k17}a {\k31}man{\k21}sion {\k48}par{\k43}ty,
+Comment: 0,0:01:47.90,0:01:49.74,Sample KM [Up],,0,0,0,karaoke,{\k40}now {\k17}let’s {\k37}watch {\k25}two {\k23}pan{\k15}das {\k27}fight
+Comment: 0,0:01:52.66,0:01:54.90,Sample KM [Choir],,0,0,0,karaoke,{\k34}Woo-{\k49}hoo-{\kf141}hoo
+Comment: 0,0:01:56.86,0:01:59.15,Sample KM [Choir],,0,0,0,karaoke,{\k34}Woo-{\k49}hoo-{\kf146}hoo
+Comment: 0,0:02:00.99,0:02:09.08,Sample KM [Choir],,0,0,0,karaoke,{\k34}Woo-{\k49}hoo-{\kf105}hoo-{\kf345}hoo-{\kf276}hoo!
+Comment: 0,0:02:06.82,0:02:07.49,Sample KM [Down],,0,0,0,karaoke,{\k21}My {\k46}God,
+Comment: 0,0:02:07.82,0:02:09.61,Sample KM [Down],,0,0,0,karaoke,{\k19}the {\k9}bat{\k13}tle {\k11}pan{\k16}das {\k10}have {\k13}es{\k20}caped {\k8}from {\k9}the {\k25}pan{\k9}da-{\k17}gon
+Comment: 0,0:02:09.61,0:02:10.73,Sample KM [Down],,0,0,0,karaoke,{\k7}and {\k11}they're {\k15}mur{\k5}der{\k9}ing {\k16}the {\k49}guests
+Comment: 0,0:02:11.09,0:02:12.84,Sample KM [Down],,0,0,0,karaoke,{\k28}Uh, {\k9}it's {\k29}last {\k16}week {\k12}all {\k11}o{\k10}ver {\k18}a{\k42}gain.
+Comment: 0,0:02:12.97,0:02:14.12,Sample KM [Down],,0,0,0,karaoke,{\k12}Let’s {\k13}get {\k14}the {\k21}hell {\k8}out{\k10}ta {\k37}here!
+Comment: 0,0:02:14.52,0:02:16.61,Sample KM [Up],,0,0,0,karaoke,{\k48}Can’t {\k66}stop, {\k40}won’t {\k55}stop,
+Comment: 0,0:02:16.61,0:02:19.20,Sample KM [Up],,0,0,0,karaoke,{\k48}non{\k62}stop {\k32}run{\k25}nin’ {\k25}for {\k16}my {\k51}life
+Comment: 0,0:02:19.33,0:02:21.10,Sample KM [Up],,0,0,0,karaoke,{\k27}It’s {\k13}a {\k24}man{\k28}sion {\k41}par{\k44}ty,
+Comment: 0,0:02:21.10,0:02:23.23,Sample KM [Up],,0,0,0,karaoke,{\k32}I {\k26}pray {\k26}to {\k27}god {\k27}we {\k22}all {\k17}sur{\k36}vive
+Comment: 0,0:02:23.23,0:02:25.23,Sample KM [Up],,0,0,0,karaoke,{\k27}And {\k12}if {\k29}you’re {\k24}fee{\k15}ling {\k51}sau{\k42}cy,
+Comment: 0,0:02:25.23,0:02:27.44,Sample KM [Up],,0,0,0,karaoke,{\k30}we’ll {\k26}grab {\k33}some {\k25}spears {\k25}by {\k30}can{\k13}dle{\k39}light
+Comment: 0,0:02:27.69,0:02:29.44,Sample KM [Up],,0,0,0,karaoke,{\k27}It’s {\k15}a {\k21}man{\k28}sion {\k43}par{\k41}ty,
+Comment: 0,0:02:29.44,0:02:31.71,Sample KM [Up],,0,0,0,karaoke,{\k26}we’re {\k31}drop{\k23}pin’ {\k30}pan{\k27}das {\k28}left {\k12}and {\k50}right
+Comment: 0,0:02:31.80,0:02:32.86,Sample KM [Down],,0,0,0,karaoke,{\k26}Save {\k22}your{\k58}self!
+Comment: 0,0:02:33.51,0:02:35.01,Sample KM [Down],,0,0,0,karaoke,{\k42}Argh, {\k19}this {\k16}par{\k16}ty's {\k36}awe{\k21}some!
+Comment: 0,0:02:35.60,0:02:37.05,Sample KM [Down],,0,0,0,karaoke,{\k44}So {\k20}ma{\k13}ny {\k29}pan{\k39}das!
+Dialogue: 0,0:00:08.45,0:00:10.60,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k24}A{\k28}yo {\k53}girl
+Dialogue: 0,0:00:09.94,0:00:13.16,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k13}You {\k7}wan{\k8}na {\k11}come {\k14}to {\k9}a {\k19}par{\k9}ty {\k11}at {\k19}my {\k26}house {\k13}to{\k53}night?
+Dialogue: 0,0:00:12.35,0:00:15.62,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Eve{\k8}ry{\k11}one {\k14}who's {\k13}a{\k10}ny{\k13}one {\k15}in {\k9}L{\k15}A {\k12}is {\k13}gon{\k10}na {\k21}be {\k36}there
+Dialogue: 0,0:00:14.99,0:00:17.68,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k31}I'm {\k30}ex{\k22}treme{\k25}ly {\k51}rich
+Dialogue: 0,0:00:17.39,0:00:19.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Hey {\k58}girl,
+Dialogue: 0,0:00:19.12,0:00:22.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}wel{\k27}come {\k19}to {\k19}my {\k30}house {\k38}par{\k48}ty
+Dialogue: 0,0:00:21.29,0:00:24.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}It’s {\k16}a {\k29}gi{\k26}ant {\k18}man{\k22}sion {\k37}ba{\k28}by,
+Dialogue: 0,0:00:23.39,0:00:26.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}don’t {\k25}slip {\k23}on {\k27}all {\k26}my {\k38}mo{\k29}ney
+Dialogue: 0,0:00:25.43,0:00:28.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Yeah {\k24}there’s {\k27}a {\k19}lot {\k21}of {\k37}mo{\k43}dels,
+Dialogue: 0,0:00:27.47,0:00:30.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}and {\k34}some {\k25}su{\k20}per{\k12}mo{\k25}dels {\k59}too
+Dialogue: 0,0:00:29.65,0:00:32.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Don’t {\k33}touch {\k22}my {\k25}dia{\k24}mond {\k46}fridge,
+Dialogue: 0,0:00:31.20,0:00:35.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}it {\k37}cost {\k25}more {\k27}than {\k16}the {\k27}coun{\k31}try {\k23}of {\k29}Pe{\k81}ru
+Dialogue: 0,0:00:35.13,0:00:38.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Se{\k16}duc{\k13}tion {\k20}is {\k18}like {\k15}a {\k17}game {\k20}of {\k69}chess…
+Dialogue: 0,0:00:37.95,0:00:40.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}and {\k18}I’m {\k26}the {\k70}queen.
+Dialogue: 0,0:00:40.61,0:00:42.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k63}Wait…
+Dialogue: 0,0:00:41.89,0:00:45.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Can’t {\k71}stop, {\k35}won’t {\k69}stop,
+Dialogue: 0,0:00:44.01,0:00:47.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}dan{\k58}cing {\k45}deep {\k26}in{\k13}to {\k14}the {\k54}night
+Dialogue: 0,0:00:46.59,0:00:49.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}It’s {\k19}a {\k26}man{\k28}sion {\k44}par{\k47}ty
+Dialogue: 0,0:00:48.69,0:00:51.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Yo {\k24}that {\k30}ti{\k16}ger’s {\k34}su{\k10}per {\k42}tight
+Dialogue: 0,0:00:50.52,0:00:53.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}And {\k20}if {\k21}you’re {\k25}fee{\k26}ling {\k44}naugh{\k48}ty,
+Dialogue: 0,0:00:52.62,0:00:55.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}we’ll {\k23}snort {\k25}cham{\k28}pagne {\k22}by {\k29}can{\k16}dle{\k34}light
+Dialogue: 0,0:00:54.95,0:00:57.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}It’s {\k17}a {\k31}man{\k21}sion {\k48}par{\k43}ty,
+Dialogue: 0,0:00:56.77,0:00:59.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}and {\k25}la{\k28}ter {\k25}on’s {\k16}a {\k37}pan{\k18}da {\k28}fight
+Dialogue: 0,0:00:59.41,0:01:01.91,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k13}You've {\k11}real{\k6}ly {\k9}got{\k15}ta {\k8}a{\k16}gi{\k19}tate {\k10}the {\k13}pan{\k20}das
+Dialogue: 0,0:01:00.81,0:01:03.37,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k12}to {\k6}get {\k11}them {\k25}en{\k16}gaged {\k12}in {\k32}com{\k32}bat
+Dialogue: 0,0:01:02.80,0:01:05.44,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k17}They're {\k12}ve{\k11}ry {\k23}do{\k20}cile {\k20}by {\k24}na{\k27}ture
+Dialogue: 0,0:01:05.16,0:01:07.70,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k14}I {\k30}laced {\k27}their {\k26}bam{\k47}boo
+Dialogue: 0,0:01:07.45,0:01:09.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Hey {\k50}girl,
+Dialogue: 0,0:01:09.26,0:01:12.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}heard {\k14}you {\k26}coul{\k13}dn’t {\k35}find {\k13}the {\k38}dance {\k41}floor
+Dialogue: 0,0:01:11.32,0:01:14.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Just {\k39}walk {\k25}right {\k22}past {\k17}the {\k41}gar{\k29}den
+Dialogue: 0,0:01:13.40,0:01:16.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Go {\k27}through {\k15}the {\k28}Spa{\k26}nish {\k39}French {\k41}doors
+Dialogue: 0,0:01:15.48,0:01:18.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Turn {\k31}right {\k10}at {\k14}the {\k18}se{\k24}venth {\k36}bath{\k46}room
+Dialogue: 0,0:01:17.58,0:01:20.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Then {\k11}a {\k20}left {\k19}at {\k14}my {\k16}la{\k19}ser {\k65}car
+Dialogue: 0,0:01:19.73,0:01:22.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}You {\k16}can {\k24}ride {\k27}my {\k28}pure{\k18}bred {\k33}stal{\k27}lion,
+Dialogue: 0,0:01:21.57,0:01:25.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}if {\k26}you {\k26}hit {\k28}my {\k25}moat {\k24}you’ve {\k25}gone {\k25}too {\k63}far
+Dialogue: 0,0:01:24.43,0:01:28.11,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}You've {\k25}gone {\k47}too {\kf158}far
+Dialogue: 0,0:01:26.79,0:01:30.49,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Take {\k6}an {\k12}up{\k22}side {\k19}down {\k27}left {\k12}at {\k10}the {\k13}M{\k15}C {\k16}Es{\k22}cher {\k67}stairs
+Dialogue: 0,0:01:29.84,0:01:33.46,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k8}O{\k28}K, {\k25}you’re {\k24}al{\k29}most {\k30}half{\k31}way {\k77}there
+Dialogue: 0,0:01:31.87,0:01:35.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Can’t {\k70}stop, {\k38}won’t {\k57}stop,
+Dialogue: 0,0:01:34.09,0:01:37.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}dan{\k65}cing {\k24}deep {\k20}in{\k33}to {\k14}the {\k54}night
+Dialogue: 0,0:01:36.67,0:01:39.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}It’s {\k19}a {\k26}man{\k28}sion {\k44}par{\k47}ty
+Dialogue: 0,0:01:38.53,0:01:41.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k23}bought {\k23}a {\k32}yacht {\k28}just {\k19}for {\k20}to{\k36}night
+Dialogue: 0,0:01:40.60,0:01:43.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}And {\k20}if {\k21}you’re {\k25}fee{\k26}ling {\k44}naugh{\k48}ty,
+Dialogue: 0,0:01:42.70,0:01:45.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}we’ll {\k23}snort {\k25}cham{\k28}pagne {\k22}by {\k29}can{\k16}dle{\k34}light
+Dialogue: 0,0:01:45.03,0:01:47.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}It’s {\k17}a {\k31}man{\k21}sion {\k48}par{\k43}ty,
+Dialogue: 0,0:01:47.00,0:01:49.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}now {\k17}let’s {\k37}watch {\k25}two {\k23}pan{\k15}das {\k27}fight
+Dialogue: 0,0:01:51.76,0:01:55.10,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Woo-{\k49}hoo-{\kf141}hoo
+Dialogue: 0,0:01:55.96,0:01:59.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Woo-{\k49}hoo-{\kf146}hoo
+Dialogue: 0,0:02:00.09,0:02:09.28,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Woo-{\k49}hoo-{\kf105}hoo-{\kf345}hoo-{\kf276}hoo!
+Dialogue: 0,0:02:05.92,0:02:07.69,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k21}My {\k46}God,
+Dialogue: 0,0:02:06.92,0:02:09.81,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k19}the {\k9}bat{\k13}tle {\k11}pan{\k16}das {\k10}have {\k13}es{\k20}caped {\k8}from {\k9}the {\k25}pan{\k9}da-{\k17}gon
+Dialogue: 0,0:02:08.71,0:02:10.93,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k7}and {\k11}they're {\k15}mur{\k5}der{\k9}ing {\k16}the {\k49}guests
+Dialogue: 0,0:02:10.19,0:02:13.04,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Uh, {\k9}it's {\k29}last {\k16}week {\k12}all {\k11}o{\k10}ver {\k18}a{\k42}gain.
+Dialogue: 0,0:02:12.07,0:02:14.32,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Let’s {\k13}get {\k14}the {\k21}hell {\k8}out{\k10}ta {\k37}here!
+Dialogue: 0,0:02:13.62,0:02:16.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Can’t {\k66}stop, {\k40}won’t {\k55}stop,
+Dialogue: 0,0:02:15.71,0:02:19.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}non{\k62}stop {\k32}run{\k25}nin’ {\k25}for {\k16}my {\k51}life
+Dialogue: 0,0:02:18.43,0:02:21.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}It’s {\k13}a {\k24}man{\k28}sion {\k41}par{\k44}ty,
+Dialogue: 0,0:02:20.20,0:02:23.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}I {\k26}pray {\k26}to {\k27}god {\k27}we {\k22}all {\k17}sur{\k36}vive
+Dialogue: 0,0:02:22.33,0:02:25.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}And {\k12}if {\k29}you’re {\k24}fee{\k15}ling {\k51}sau{\k42}cy,
+Dialogue: 0,0:02:24.33,0:02:27.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}we’ll {\k26}grab {\k33}some {\k25}spears {\k25}by {\k30}can{\k13}dle{\k39}light
+Dialogue: 0,0:02:26.79,0:02:29.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}It’s {\k15}a {\k21}man{\k28}sion {\k43}par{\k41}ty,
+Dialogue: 0,0:02:28.54,0:02:31.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}we’re {\k31}drop{\k23}pin’ {\k30}pan{\k27}das {\k28}left {\k12}and {\k50}right
+Dialogue: 0,0:02:30.90,0:02:33.06,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Save {\k22}your{\k58}self!
+Dialogue: 0,0:02:32.61,0:02:35.21,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Argh, {\k19}this {\k16}par{\k16}ty's {\k36}awe{\k21}some!
+Dialogue: 0,0:02:34.70,0:02:37.25,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k44}So {\k20}ma{\k13}ny {\k29}pan{\k39}das!
