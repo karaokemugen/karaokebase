@@ -293,3 +293,4 @@ Lisez [le guide de contribution](CONTRIBUTING.md) pour savoir comment faire et t
 ## Puis-je utiliser tout ça gratuitement ?
 
 Plus ou moins. Voir [la license d'utilisation](LICENSE.md)
+
