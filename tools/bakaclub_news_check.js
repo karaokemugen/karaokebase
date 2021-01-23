@@ -34,6 +34,8 @@ Download URL : https://kurisu.iiens.net/api/download/${kara.id}
 Auteur : ${kara.author_name}
 
 Catégorie : ${kara.category}
+
+Commentaire :
 ` + kara.upload_comment ? `${kara.upload_comment}` : ''],
 		['labels', 'à intégrer']
 	]);
