@@ -34,22 +34,22 @@ Download URL : https://kurisu.iiens.net/api/download/${kara.id}
 Auteur : ${kara.author_name}
 
 Catégorie : ${kara.category}
-`],
-                ['labels', 'à intégrer']
-        ]);
-        return new Promise((resolve, reject) => {
-                console.log(kara.author_year, kara.source_name, kara.song_name);
-                request.post(`https://lab.shelter.moe/api/v4/projects/2/issues?${params.toString()}`, {
-                        headers: {
-                                'PRIVATE-TOKEN': 'i5WnabG3fvda4oxx-FRb'
-                        }
-                }, (err) => {
-                        if (err) {
-                                console.log(err);
-                                reject();
-                        } else {
-                                resolve();
-                        }
-                });
-        });
+` + kara.upload_comment ? `${kara.upload_comment}` : ''],
+		['labels', 'à intégrer']
+	]);
+	return new Promise((resolve, reject) => {
+		console.log(kara.author_year, kara.source_name, kara.song_name);
+		request.post(`https://lab.shelter.moe/api/v4/projects/2/issues?${params.toString()}`, {
+			headers: {
+				'PRIVATE-TOKEN': 'i5WnabG3fvda4oxx-FRb'
+			}
+		}, (err) => {
+			if (err) {
+				console.log(err);
+				reject();
+			} else {
+				resolve();
+			}
+		});
+	});
 }
