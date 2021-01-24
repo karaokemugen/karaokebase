@@ -36,7 +36,7 @@ Auteur : ${kara.author_name}
 Catégorie : ${kara.category}
 
 Commentaire :
-` + kara.upload_comment ? `${kara.upload_comment}` : ''],
+` + (kara.upload_comment ? `${kara.upload_comment}` : '')],
 		['labels', 'à intégrer']
 	]);
 	return new Promise((resolve, reject) => {
