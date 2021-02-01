@@ -1,3 +1,148 @@
+#January 2021
+
+Contributors: 
+
+- @Anasuna
+- @Deformer-Lua
+- @Demoto
+- @Dysp
+- @Eden
+- @Elliu
+- @Geralt
+- @Habakyan
+- @Kaleidoscope
+- @Kmeuh
+- @Krokro
+- @Kubat
+- @Nock
+- @Nodamin
+- @Phoko
+- @PogonzaRod
+- @Rinchama
+- @Salixor
+- @Sengoku
+- @Soramimi
+- @Tatoon
+- @TheMio
+- @Vaninou
+- @amoethyst
+- @caocao
+- @fabthehedgehog
+- @meulahke
+
+## Added
+
+New songs : 104
+
+- ENG - Aikatsu! Idol Katsudou! - IN - prism spiral (@Nodamin)
+- ENG - Akari Kitou, Anzu Haruno, Azumi Waki - MV - Blend S-tretch (@fabthehedgehog)
+- ENG - Blend S - AMV - Blend Slipknot (@fabthehedgehog)
+- ENG - Boogiepop wa Warawanai (2019) - COVER OP - shadowgraph ~ JohnBlue Vers (@Tatoon)
+- ENG - Final Fantasy VII - MV - The Simple Plot of Final Fantasy 7 (@fabthehedgehog)
+- ENG - Fugou Keiji Balance Unlimited - ED - Welcome My Friend (@fabthehedgehog)
+- ENG - George Miller - MV - STFU (@fabthehedgehog)
+- ENG - Kingdom Hearts - AUDIO - The Simple Plot of Kingdom Hearts (@fabthehedgehog)
+- ENG - Koukaku Kidoutai SAC_2045 - ONA ED - sustain Plus Plus (@Elliu)
+- ENG - Mario Party - MV - Welcome to the Mario Party (@fabthehedgehog)
+- ENG - Metal Gear Solid - MV - The Simple Plot of Metal Gear Solid (@fabthehedgehog)
+- ENG - Metroid - MV - REGRETROID (@fabthehedgehog)
+- ENG - Miku Hatsune - COVER AMV - Bang Bang (My Baby Shot Me Down) (@Elliu)
+- ENG - Mori Calliope - AUDIO - Live Again (@fabthehedgehog)
+- ENG - Mori Calliope - COVER MV - 2019 Guy (@fabthehedgehog)
+- ENG - Ninja Sex Party - MV - Danny Don't You Know (@fabthehedgehog)
+- ENG - Ninja Sex Party - MV - Danny Don't You Know ~ Animated Vers. ~ Alternative Vers (@fabthehedgehog)
+- ENG - Ninja Sex Party - MV - Mansion Party (@fabthehedgehog)
+- ENG - Nyanners - COVER MV - SEISO (@amoethyst)
+- ENG - Persona Q2 - 3DS GAME OP - Road Less Taken (@Kubat)
+- ENG - Punch-Out!! - MV - Glass Joe's Title Fight (@fabthehedgehog)
+- ENG - Super Smash Bros. Ultimate - COVER MV - Lifelight ~ Tsuko G Vers. ~ Full Vers (@fabthehedgehog)
+- ENG - Super Smash Bros. Ultimate - ONA MV - Smash! (@fabthehedgehog)
+- ENG - Team Fortress 2 - PC GAME AUDIO - Red Dispenser (@fabthehedgehog)
+- ENG - The Arrogant Worms - MV - The Assumption Song (@fabthehedgehog)
+- ENG - The Gentle Men - MV - 2019 Guy (@fabthehedgehog)
+- ENG - Touhou - COVER MV - Unsatisfactory Pippin (@fabthehedgehog)
+- ENG - Tsuko G - AUDIO - Persona (@fabthehedgehog)
+- FRE - Anthony Joubert - MV - La premiere fois que je t'ai vu (@fabthehedgehog)
+- FRE - Back to the Future - MOVIE OP - Retour vers le futur (@fabthehedgehog)
+- FRE - Breaking Bad - OP - Breaking Bad (@fabthehedgehog)
+- FRE - C'est pas sorcier - OP - Boogie Body (@fabthehedgehog)
+- FRE - Des chiffres et des lettres - OP - Des chiffres et des lettres (@fabthehedgehog)
+- FRE - Dexter - OP - Dexter (@fabthehedgehog)
+- FRE - Game of Thrones - OP - Game of Thrones (@fabthehedgehog)
+- FRE - How I Met Your Mother - OP - Hey Beautiful (@fabthehedgehog)
+- FRE - Indiana Jones - MOVIE OP - Indiana Jones (@fabthehedgehog)
+- FRE - Kantai Collection - MV - Veux-tu enculer un bateau question_mark (@fabthehedgehog)
+- FRE - MacGyver - OP1 - MacGyver (@fabthehedgehog)
+- FRE - MacGyver - OP2 - MacGyver (@fabthehedgehog)
+- FRE - Magnum, P.I. - OP - Magnum (@fabthehedgehog)
+- FRE - Message a caractere informatif - IN - La galette des rois (@Deformer-Lua)
+- FRE - Mister MV - OP - Les secrets de TASeur (@fabthehedgehog)
+- FRE - Murder She Wrote - OP - Arabesque (@fabthehedgehog)
+- FRE - Navarro - OP - Navarro Blues (@fabthehedgehog)
+- FRE - RoboCop - MOVIE OP - RoboCop (@fabthehedgehog)
+- FRE - The Big Bang Theory - OP - The Big Bang Theory (@fabthehedgehog)
+- FRE - Un gars, une fille - OP - Un gars, une fille (@fabthehedgehog)
+- JPN - Aikatsu Planet! - ED - Kirari Party Time (@Nodamin)
+- JPN - Aikatsu Planet! - OP - Bloomy Smile (@Nodamin)
+- JPN - Aikatsu on Parade! - IN - Akogare Customization (@Nodamin)
+- JPN - Aikatsu! Idol Katsudou! - IN - Moonlight destiny (@Nodamin)
+- JPN - Aikatsu! Idol Katsudou! - IN - Passion flower (@Nodamin)
+- JPN - Aikatsu! Idol Katsudou! - IN - Trap of Love (@Nodamin)
+- JPN - Aqua Minato - MV - Aquairo Palette (@Habakyan)
+- JPN - Assault Lily Bouquet - ED1 - Edel Lilie (@Geralt)
+- JPN - Assault Lily Bouquet - ED3 - GROWING (@Geralt)
+- JPN - Assault Lily Bouquet - ED4 - Mabataki (@Geralt)
+- JPN - Go-Toubun no Hanayome Fortissimo - ED - Hatsukoi (@Kmeuh)
+- JPN - Go-Toubun no Hanayome Fortissimo - OP - Go-Toubun no Katachi (@Kmeuh)
+- JPN - Jinzou Ningen Kikaider - ED - Tatakae!! Jinzou Ningen Kikaider (@Eden)
+- JPN - Jinzou Ningen Kikaider - OP - Go Go Kikaider (@Eden)
+- JPN - Kaguya-sama wa Kokurasetai question_mark Tensai-tachi no Ren'ai Zunousen - AUDIO OP - DADDY! DADDY! DO! ~ Full Off Vocal Vers (@Demoto, @Dysp, @TheMio)
+- JPN - Kaifuku Jutsushi no Yarinaoshi - OP - Zankoku na Yume to Nemure (@fabthehedgehog)
+- JPN - Kumo Desu ga, Nani ka question_mark - ED - Ganbare! Kumoko-san no Theme (@fabthehedgehog)
+- JPN - Love Live! School Idol Project - AUDIO - Aki no Anata no Sora Tooku ~ Off Vocal Vers (@Demoto, @TheMio, @Vaninou)
+- JPN - Love Live! School Idol Project - AUDIO - MOMENT RING ~ Off Vocal Vers (@Demoto, @TheMio)
+- JPN - Love Live! School Idol Project - AUDIO - Natsuiro Egao de 1,2,Jump! ~ Off Vocal Vers (@PogonzaRod, @Kmeuh, @Demoto, @TheMio)
+- JPN - Love Live! School Idol Project - AUDIO - Snow halation ~ Off Vocal Vers (@Demoto, @TheMio, @Phoko)
+- JPN - Love Live! School Idol Project - AUDIO - soldier game ~ Off Vocal Vers (@Demoto, @TheMio)
+- JPN - Love Live! Sunshine!! - AUDIO - Guilty Night, Guilty Kiss! ~ Off Vocal Vers (@Demoto, @TheMio, @Salixor)
+- JPN - Love Live! Sunshine!! - AUDIO - Mijuku DREAMER ~ Off Vocal Vers (@Demoto, @TheMio, @Salixor)
+- JPN - Love Live! Sunshine!! - MV - Perfect SEKAI (@Kaleidoscope)
+- JPN - Macross Delta - IN - Hametsu no Junjou (@Tatoon)
+- JPN - Mahou Shoujo Lyrical Nanoha A's - LIVE - Snow Rain (@Rinchama)
+- JPN - Mahou Shoujo Madoka Magica - MV - Connect ~ Full Vers (@Soramimi, @Kmeuh)
+- JPN - Moi, quand je me reincarne en Slime (saison 2) - OP - Storyteller (@Kubat)
+- JPN - Mononoke - OP - Kagen no Tsuki (@Krokro)
+- JPN - Non Non Biyori Nonstop - OP - Tsugihagi Moyou (@Kmeuh)
+- JPN - Persona 3 - PS2 GAME ED - Kimi no Kioku (@Kubat)
+- JPN - Promare - COVER MV - Kakusei ~ Hololive Vers (@fabthehedgehog)
+- JPN - Sakura Kakumei ~Hanasaku Otome-tachi~ - GAME OP - SAKURA HIKARU Revolution (@Kmeuh)
+- JPN - Sakura Taisen 2 ~Kimi Shinitamou koto Nakare~ - OT - Geki! Teikoku Kagekidan (Kai) ~ Marine Houshou Vers (@Tatoon)
+- JPN - Sakura Taisen 3 Paris wa Moeteiru ka - PS2 PC GAME ED - Mirai (Voyage) (@Kmeuh)
+- JPN - Sci-Fi Harry - OP - Mysterious (@Sengoku)
+- JPN - Shin Seiki Evangelion - COVER AMV - Zankoku na Tenshi no These ~ Gura & Mori Vers (@fabthehedgehog)
+- JPN - Sora no Aosa o Shiru Hito yo - MOVIE IN - Gandhara ~ Aoi Vers (@Sengoku)
+- JPN - Sore dake ga Neck - ED - Sore dake ga Neck (@Dysp)
+- JPN - Steins Gate - OP - Hacking to the Gate ~ 8-bit Vers (@Geralt)
+- JPN - Sword Art Online Alicization - War of Underworld - AUDIO ED - unlasting ~ Full Off Vocal Vers (@Demoto, @TheMio, @Anasuna)
+- JPN - TUYU - MV - Doro no Bunzai de Watashi Dake no Taisetsu wo Ubaou da Nante (@Kaleidoscope)
+- JPN - Taisou Zamurai - COVER OP - Shanghai Honey ~ Hello, Happy World! Vers (@Nock)
+- JPN - Taisou Zamurai - OP - Shanghai Honey (@Nock)
+- JPN - Tears to Tiara - ED1 - Blue sky, True sky (@caocao)
+- JPN - To Aru Kagaku no Railgun - COVER MV - only my railgun ~ Vtuber Vers (@fabthehedgehog)
+- JPN - Ultraman Z - OP - Goshowa Kudasai Ware no Na wo! (@fabthehedgehog)
+- JPN - Uma Musume Pretty Derby Season 2 - OP - Yume wo kakeru! (@meulahke)
+- JPN - Yakusoku no Neverland 2nd Season - ED - Mahou (@Kmeuh)
+- JPN - Yakusoku no Neverland 2nd Season - OP - Identity (@Kmeuh)
+- JPN - Yuru Camp season 2 - OP - Seize The Day (@Kmeuh)
+- RUS - Ookami to Koushinryou - OP1 - Tabi no Tochuu (@Sengoku)
+- RUS - Suzumiya Haruhi no Yuuutsu - ED1 - Hare Hare Yukai (@Sengoku)
+- RUS - Suzumiya Haruhi no Yuuutsu - OP2 - Bouken Deshou Deshou question_mark (@Sengoku)
+- UND - Shin Seiki Evangelion - OP - Zankoku na Tenshi no These ~ Nyankogelion Vers. ~ Alternative Vers (@Kmeuh)
+
+## Fixed
+
+Fixed songs : 1163
+
 # December 2020
 
 Contributors: 
