@@ -43,12 +43,13 @@ SELECT
   ak.creators AS creators,
   ak.mediafile AS mediafile,
   ak.gain AS gain,
-  ak.songwriters AS songwriters
+  ak.songwriters AS songwriters,
+  ak.versions AS versions
 FROM all_karas AS ak
 WHERE (mediafile LIKE \'%.mp4\' or mediafile LIKE \'%.mp3\')
 GROUP BY ak.kid, ak.title, ak.songorder, ak.subfile, ak.singers, ak.songtypes, ak.languages, ak.authors, ak.misc,
          ak.platforms, ak.families, ak.genres, ak.series, ak.origins, ak.creators, ak.mediafile, ak.gain,
-         ak.songwriters, ak.serie_singer_sortable, ak.songtypes_sortable
+         ak.songwriters, ak.versions, ak.serie_singer_sortable, ak.songtypes_sortable
 ORDER BY ak.serie_singer_sortable, ak.songtypes_sortable DESC, ak.songorder, lower(unaccent(ak.title))
 ';
 
@@ -71,7 +72,7 @@ if (file_exists($live_egg_file)) {
 
 //First pass
 $first_pass = [];
-$types = ['singers', 'songtypes', 'languages', 'authors', 'misc', 'platforms', 'genres', 'series', 'origins', 'creators'];
+$types = ['singers', 'songtypes', 'languages', 'authors', 'misc', 'platforms', 'genres', 'series', 'origins', 'creators', 'versions'];
 foreach ($data as $kara) {
 
     $skip = false;
@@ -197,6 +198,12 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
                             $additional_types[] = $tag['name'];
                             break;
                     }
+                }
+            }
+            $versions_tags = json_decode($kara['versions'], true);
+            if (!empty($versions_tags)) {
+                foreach ($versions_tags as $tag) {
+                    $additional_types[] = $tag['name'];
                 }
             }
 
