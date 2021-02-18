@@ -26,7 +26,7 @@ try {
 
 $query = '
 SELECT
-  ak.kid AS kid,
+  ak.pk_kid AS kid,
   ak.title AS title,
   ak.songorder AS songorder,
   ak.subfile AS subfile,
