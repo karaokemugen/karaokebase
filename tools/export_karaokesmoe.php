@@ -47,7 +47,7 @@ SELECT
   ak.versions AS versions
 FROM all_karas AS ak
 WHERE (mediafile LIKE \'%.mp4\' or mediafile LIKE \'%.mp3\')
-GROUP BY ak.kid, ak.title, ak.songorder, ak.subfile, ak.singers, ak.songtypes, ak.languages, ak.authors, ak.misc,
+GROUP BY ak.pk_kid, ak.title, ak.songorder, ak.subfile, ak.singers, ak.songtypes, ak.languages, ak.authors, ak.misc,
          ak.platforms, ak.families, ak.genres, ak.series, ak.origins, ak.creators, ak.mediafile, ak.gain,
          ak.songwriters, ak.versions, ak.serie_singer_sortable, ak.songtypes_sortable
 ORDER BY ak.serie_singer_sortable, ak.songtypes_sortable DESC, ak.songorder, lower(unaccent(ak.title))
