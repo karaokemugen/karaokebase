@@ -1,3 +1,180 @@
+# February 2021
+
+Contributors: 
+
+- @Abriain
+- @Aeden
+- @Branmeck
+- @Colgate
+- @Demoto
+- @Deurstann
+- @Dysp
+- @Elliu
+- @Geralt
+- @Kaleidoscope
+- @Kay
+- @Kmeuh
+- @Koheitohikari
+- @Krokro
+- @Krow
+- @Kubat
+- @Lec
+- @Litto
+- @MrKyubu
+- @Ni-jibakurei
+- @Nifra
+- @Nodamin
+- @Rinchama
+- @Sengoku
+- @Soramimi
+- @Sting
+- @Subkei
+- @Suryan
+- @Tatoon
+- @TheMio
+- @UsherMay
+- @Yûgao
+- @fabthehedgehog
+- @skid9000
+
+## Added
+
+New songs : 132
+
+- ENG - Eliana - AUDIO - emot1on (@Koheitohikari)
+- ENG - Fubuki Shirakami - REMIX AMV - Im. Scatman ~ Cover Vers (@Elliu)
+- ENG - Gakkougurashi! - ED2 - We took each other's hand (@Kaleidoscope)
+- ENG - Honkai Impact 3rd - GAME MV - Rubia (@Kaleidoscope)
+- ENG - Interstella 5555 The 5tory of The 5ecret 5tar 5ystem - IN - Harder, Better, Faster, Stronger (@Kmeuh)
+- ENG - Jacksepticeye, Markiplier, Ninja Sex Party - MV - Cool Patrol (@fabthehedgehog)
+- ENG - Jujutsu Kaisen - AMV - LOST IN PARADISE ~ Hololive Vers (@Elliu)
+- ENG - Jujutsu Kaisen - MV - LOST IN PARADISE ~ Full Vers (@fabthehedgehog)
+- ENG - Kiara Takanashi - MV - HINOTORI (@Nodamin)
+- ENG - Konjiki no Gash Bell!! - AMV - Very Melon ~Watashi no Kokoro wo Tsukanda Ii Melon~ (@Colgate)
+- ENG - Lastman - MV - Fire (Lastman Theme) (@Aeden)
+- ENG - Ninja Sex Party - AUDIO - GFY (@fabthehedgehog)
+- ENG - Oban Star Racer - OP - Never Say Never (@Kmeuh)
+- ENG - Persona 5 - PS3 PS4 GAME AMV - Beneath the Mask (@Kubat)
+- ENG - Persona 5 The Royal - PS4 GAME AMV - I Believe (@Kubat)
+- ENG - Re Zero kara Hajimeru Isekai Seikatsu 2nd Season - OP2 - Long shot (@Koheitohikari)
+- ENG - senzawa - OT - hA HA honk (@Elliu)
+- FRE - 3-gatsu no Lion - IN - En fermant les yeux (@Krokro)
+- FRE - Brice de Nice - MOVIE IN - Casse de Brice (@Suryan)
+- FRE - CatDog - OP - Michat-Michien (@Colgate)
+- FRE - Marcelino Pan y vino - OP - Marcelino (@Colgate)
+- FRE - Mot - OP - Mot (@Colgate)
+- FRE - My Life as a Teenage Robot - OP - Jenny Robot (@Colgate)
+- FRE - Ned's Newt - OP - Ned et son triton (@Colgate)
+- FRE - Pocket Monsters (2019) - OP - Le voyage peut commencer (@Deurstann)
+- FRE - Rolie Polie Olie - OP - Rolie Polie Olie (@Abriain)
+- FRE - Simsala Grimm - ED - Simsala Grimm (@Colgate)
+- FRE - SpongeBob SquarePants - OP - Bob l'Eponge (@Colgate)
+- FRE - Stickin' Around - OP - Les Graffitos (@Colgate)
+- GER - Kill la Kill - AMV - Blumenkranz ~ PaperBlossom Vers. ~ Cover Vers (@Branmeck)
+- JPN - 2.43 Seiin Koukou Danshi Volley-bu - ED - Undulation (@Ni-jibakurei)
+- JPN - 2.43 Seiin Koukou Danshi Volley-bu - OP - Mahi (@Ni-jibakurei)
+- JPN - Akihito Okano - AUDIO - EVERCHiLD (@Koheitohikari)
+- JPN - BanG Dream! - GAME IN - FIRE BIRD (@Nodamin)
+- JPN - Bannou Bunka Nekomusume (1998) - ED - Oyasumi Nasai Ashita wa Ohayou (@Kmeuh)
+- JPN - Break Blade - AMV - Fate ~ Full Vers (@Sting)
+- JPN - Chihayafuru 2 - ED1 - Akane sora (@Krokro)
+- JPN - Code Geass Hangyaku no Lelouch - OP1 - COLORS ~ Marine Houshou Vers (@Kubat)
+- JPN - Code Lyoko - OP - Kiken no nai Sekai (@Kmeuh)
+- JPN - Devil Survivor Overclock - 3DS GAME OP - Soul Survive (@Kubat)
+- JPN - Dondon Dommel to Ron - OP - Fly away -Yume no Hikouki- (@Colgate)
+- JPN - Dr. Stone Stone Wars - OP - Rakuen (@Kubat)
+- JPN - Eiyuu Densetsu Sora no Kiseki Second Chapter - GAME ED - I swear (@Deurstann)
+- JPN - Eiyuu Densetsu Sora no Kiseki The Third - PS3 PSV PSP PC GAME ED - Sora wo Miagete (@Deurstann)
+- JPN - Fate hollow ataraxia - AMV - Bokutachi no Mirai (@Kubat)
+- JPN - Gekijouban Fate stay Night Heaven's Feel - III. Spring Song - MOVIE AMV - Haru wa Yuku (@Kubat)
+- JPN - Gekijouban Fate stay Night Heaven's Feel - III. Spring Song - MOVIE AUDIO - Haru wa Yuku the late spring ver (@Rinchama)
+- JPN - Gekijouban Kara no Kyoukai The Garden of Sinners 4 Garan no Dou - MOVIE AMV - ARIA (@Kubat)
+- JPN - Gekijouban Sword Art Online Ordinal Scale - MOVIE AUDIO ED - Catch the Moment ~ Off Vocal Vers (@TheMio, @Kay)
+- JPN - HIMEHINA - MV - The Ambroid (@Elliu)
+- JPN - Hagane no Renkinjutsushi Fullmetal Alchemist - AUDIO ED4 - Shunkan Sentimental ~ Full Off Vocal Vers (@Krow, @Soramimi, @TheMio)
+- JPN - Hataraku Saibou BLACK - OP - Hashire! (@Koheitohikari)
+- JPN - Hidamari Sketch x 365 - AUDIO IS - Mugen story (@Kmeuh)
+- JPN - Higurashi no Naku Koro ni Gou - ED2 - Fukisokusei Entropy (@Kmeuh)
+- JPN - Higurashi no Naku Koro ni Hou - PS4 SWITCH GAME OP - Bokutachi wa Mou Shitteru (@Geralt)
+- JPN - Higurashi no Naku Koro ni Hou - PS4 SWITCH GAME OP - Place of Period (@Geralt)
+- JPN - Horimiya Hori-san to Miyamura-kun - ED - Yakusoku (@Kubat)
+- JPN - Horimiya Hori-san to Miyamura-kun - OP - Iro Kousui (@Kubat)
+- JPN - Ikebukuro West Gate Park - OP - Needle Knot (@Litto)
+- JPN - Jujutsu Kaisen - OP2 - VIVID VICE (@Kubat)
+- JPN - Kaibutsu Oujo - OP - BLOOD QUEEN (@Kubat)
+- JPN - Kaifuku Jutsushi no Yarinaoshi - ED - Yume de Sekai wo Kaeru nara (@fabthehedgehog)
+- JPN - Kakegurui XX - OP - Kono Yubi Tomare (@Kubat)
+- JPN - Kemono Jihen - ED - -Shirushi- (@Ni-jibakurei)
+- JPN - Kemono Jihen - OP - Kemonomichi (@Ni-jibakurei)
+- JPN - Kingdom Hearts HD 1.5 ReMIX - PS3 PS4 XBOXONE PC GAME ED - Hikari (@Tatoon)
+- JPN - Kiratto Pri Chan season 1 - IN - Nete mo Samete mo DREAMIN' GIRL (@Nodamin)
+- JPN - Kiratto Pri Chan season 1 - IN - SUPER CUTIE SUPER GIRL (@Nodamin)
+- JPN - Kiratto Pri Chan season 3 - IN - Lustro della LUNA (@Nodamin)
+- JPN - Kiratto Pri Chan season 3 - IN - Planetarium no kara (@Nodamin)
+- JPN - Kiteretsu Daihyakka - MV - Hajimete no Chuu ~ Luna Himemori Vers. ~ Cover Vers (@Nodamin)
+- JPN - Konjiki no Gash Bell!! - AMV - Chichi wo Moge! (@Colgate)
+- JPN - Konjiki no Gash Bell!! - IN - Coral Q no Henkei Taisou (@Colgate)
+- JPN - Konjiki no Gash Bell!! - IN - Mon, Mon (@Colgate)
+- JPN - Konjiki no Gash Bell!! - IN - Never Say BOIN BABY (@Colgate)
+- JPN - Konjiki no Gash Bell!! - IN - Watashi wa Patie (@Colgate)
+- JPN - Kuromukuro - ED2 - Eien Loop (@UsherMay)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - CS LIVE - Anata no Risou no Heroine (@Demoto, @TheMio)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - IN - Awakening Promise (@Kaleidoscope)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - IN - Poppin' Up! (@Kaleidoscope)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - IN - Solitude Rain (@Kaleidoscope)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - IN - Tsunagaru Connect ~ Short Vers (@skid9000)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - IN - VIVID WORLD (@Kaleidoscope)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - IN - Yume ga Koko Kara Hajimaru yo (@Kaleidoscope)
+- JPN - Love Live! Sunshine!! - MV - Motto ne! (@Kaleidoscope)
+- JPN - Love Live! Sunshine!! - MV - Never giving up! (@Kaleidoscope)
+- JPN - MISIA - MV - Everything ~ Short Vers (@Yûgao)
+- JPN - Milkyway - OVA ED1 - Uwakishitemo ee yo (@Colgate)
+- JPN - Mushoku Tensei Isekai Ittara Honki Dasu - ED - Only (@Kubat)
+- JPN - Mushoku Tensei Isekai Ittara Honki Dasu - OP - Tabibito no Uta (@Kubat)
+- JPN - Polka Omaru - ED - Poruka Owaruka Owaru Ka Polka (@Tatoon)
+- JPN - Porno Graffitti - MV - Mugen ~ Short Vers (@Kmeuh)
+- JPN - Pretty Rhythm Rainbow Live - OP2 - EZ DO DANCE (@Sengoku)
+- JPN - Rakuten Point - CM - Okaimono Panda (@Tatoon)
+- JPN - Re Zero kara Hajimeru Isekai Seikatsu 2nd Season - ED2 - Believe in you (@Koheitohikari)
+- JPN - SK8 - ED - Infinity (@Elliu)
+- JPN - Sakura Taisen - AMV - Kore ga Revue! ~ iDOLM@STER Vers (@Kmeuh)
+- JPN - Senki Zesshou Symphogear - MV - Meteor Light ~ Full Vers (@Dysp)
+- JPN - Senki Zesshou Symphogear - MV - Synchrogazer ~ Full Vers (@Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO ED3 - Axia no Kaze ~ Full Off Vocal Vers (@Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO ED3 - Axia no Kaze ~ Full Vers (@Dysp)
+- JPN - Senki Zesshou Symphogear G - AUDIO IN - Fushicho no Flamme ~ Revue Starlight Vers. ~ Cover Vers (@MrKyubu, @Dysp)
+- JPN - Senki Zesshou Symphogear G - LIVE - Vitalization (@MrKyubu)
+- JPN - Senki Zesshou Symphogear G - MV - Next Destination ~ Full Vers (@MrKyubu)
+- JPN - Senki Zesshou Symphogear GX - AUDIO CS - Seiten Galaxy Cross ~ Full Off Vocal Vers (@MrKyubu)
+- JPN - Senki Zesshou Symphogear GX - AUDIO CS - Seiten Galaxy Cross ~ Full Vers (@MrKyubu)
+- JPN - Senki Zesshou Symphogear GX - LIVE - Exterminate (@MrKyubu)
+- JPN - Senki Zesshou Symphogear GX - LIVE - Glorious Break (@MrKyubu)
+- JPN - Senki Zesshou Symphogear GX - MV - Rebirth-day ~ Full Vers (@MrKyubu)
+- JPN - Senki Zesshou Symphogear XV - ED1 - FINAL COMMANDER (@Dysp)
+- JPN - Senki Zesshou Symphogear XV - ED2 - Lasting Song (@Dysp)
+- JPN - Senki Zesshou Symphogear XV - MV - Lasting Song ~ Full Vers (@Dysp)
+- JPN - Senki Zesshou Symphogear XV - MV - METANOIA ~ Full Vers (@Dysp)
+- JPN - Shin Kidou Senki Gundam Wing - ED - It's Just Love! (@Subkei)
+- JPN - Shin Megami Tensei Devil Survivor - DS GAME OP - Reset (@Kubat)
+- JPN - Shingeki no Kyojin The Final Season - OP - Boku no Sensou ~ Paint Vers (@Nifra)
+- JPN - Sukima Switch - AUDIO - never gonna change (@Koheitohikari)
+- JPN - To Aru Kagaku no Railgun S - ED3 - Links (@Subkei)
+- JPN - Touhou - AMV - Fall in the Dark (@Kubat)
+- JPN - Touhou - REMIX MV - Shoujo kyuuseiron (@Sting)
+- JPN - Trapp Ikka Monogatari - OP - Doremi no Uta (@Colgate)
+- JPN - Tropical-Rouge! Precure - ED - Tropica I.N.G (@Kmeuh)
+- JPN - Tropical-Rouge! Precure - OP - Viva! Spark! Tropical-Rouge! Precure (@Kmeuh)
+- JPN - Ushinawareta Mirai wo Motomete - PC GAME OP - Mugen Mirai (@Kmeuh)
+- JPN - Wakfu - OP - Hero ni Naru (@fabthehedgehog)
+- JPN - Wonder Egg Priority - ED - Life is Cider (@Ni-jibakurei)
+- JPN - Yahari Ore no Seishun Love Comedy wa Machigatte Iru. - ED - Hello Alone (@Demoto, @TheMio)
+- JPN - Yuru Camp season 2 - ED - Haru no Tonari (@Kmeuh)
+- JPN - Zombieland Saga - MV - Saga Jihen ~ Cover Hololive Vers (@Nodamin, @Lec)
+- SPA - Trapp Ikka Monogatari - OP - Sonrisas y Lagrimas (@Colgate)
+- UND - Ar Tonelico 3 Sekai Shuuen no Hikigane wa Shoujo no Uta ga Hiku - PS3 GAME AMV - EXEC_COSMOFLIPS (@Sting)
+- UND - Mahou Shoujo Madoka Magica - AMV - Sis puella magica! (@Kaleidoscope)
+
+
 #January 2021
 
 Contributors: 
