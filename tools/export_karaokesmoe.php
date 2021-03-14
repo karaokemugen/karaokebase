@@ -189,17 +189,6 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
                     }
                 }
             }
-            $misc_tags = json_decode($kara['misc'], true);
-            if (!empty($misc_tags)) {
-                foreach ($misc_tags as $tag) {
-                    switch ($tag['name']) {
-                        case 'Cover':
-                        case 'Remix':
-                            $additional_types[] = $tag['name'];
-                            break;
-                    }
-                }
-            }
             $versions_tags = json_decode($kara['versions'], true);
             if (!empty($versions_tags)) {
                 foreach ($versions_tags as $tag) {
