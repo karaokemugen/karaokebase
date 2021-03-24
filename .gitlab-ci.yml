@@ -1,6 +1,32 @@
 stages:
+  - sync_medias
   - test
   - deploy
+
+sync_medias:
+  stage: sync_medias
+  image: instrumentisto/rsync-ssh
+  interruptible: false
+  tags:
+    - moeBaseMedias
+  retry:
+    max: 2
+    when:
+      - job_execution_timeout
+  script:
+    - mkdir ~/.ssh
+    - echo "$SSH_KEY" > ~/.ssh/id_rsa
+    - HOSTKEYS=`ssh-keyscan -H $HOST`
+    - echo "$HOSTKEYS" > ~/.ssh/known_hosts
+    - chmod -R 700 ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+    - ssh -l root $HOST
+  only:
+    refs:
+      - master
+  except:
+    variables:
+      - $CI_COMMIT_MESSAGE =~ /nomedia/
 
 test:
   stage: test
