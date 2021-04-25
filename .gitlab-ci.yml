@@ -55,7 +55,7 @@ test:
     - touch mpv
     - mkdir app
     - cp -f ../tools/config.CICD.yml app/config.yml
-    - yarn ts-node util/extUnaccent
+    - yarn ts-node util/extUnaccentPgcrypto
     - node -v
     - yarn startNoElectron --debug --generate --strict
     - cd ..
