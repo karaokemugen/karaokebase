@@ -1,3 +1,326 @@
+# April 2021
+
+Contributors: 
+
+- @Adrian
+- @Askédis
+- @Atsuyas
+- @Cocs
+- @Colgate
+- @Currymalker
+- @Deformer-Lua
+- @Deurstann
+- @Elliu
+- @Geralt
+- @Kaleidoscope
+- @Karaoke Mugen
+- @Kmeuh
+- @Koheitohikari
+- @Kubat
+- @Lec
+- @NextFire
+- @Ni-jibakurei
+- @Nodamin
+- @Phoko
+- @Pierre CAMILLI
+- @Psoushi
+- @Rinchama
+- @Tatoon
+- @amoethyst
+- @fabthehedgehog
+- @lasagna
+- @leonekmi
+- @meulahke
+- @skid9000
+
+## Added
+
+New songs : 116
+
+- CHI - Houkai Gakuen 2 - GAME PV - Guang zhi jiushizhu (@Kaleidoscope)
+- ENG - Amelia Watson - MV - Chug Jug With You (@Elliu)
+- ENG - Coco Kiryu - MV - Old Mac Coco (@fabthehedgehog)
+- ENG - Cyberpunk 2077 - PS4 XBOXONE PC GAME AMV - Ponpon Shit (@Geralt)
+- ENG - Eromanga-sensei - AMV - Eromanga Slipknot (@fabthehedgehog)
+- ENG - Guilty Crown - AMV - Bios (@Cocs)
+- ENG - Gura Gawr - MV - Big Iron ~ Cover Vers (@Geralt)
+- ENG - Kengan Ashura - ONA OP - KING & ASHLEY (@lasagna)
+- ENG - LunchMoney Lewis - AMV - The Office Lady (@Elliu)
+- ENG - Mori Calliope - MV - Reaper ka Rapper question_mark (@fabthehedgehog)
+- ENG - Persona 3 Dancing Moon Night - PS4 GAME AMV - Wiping All Out (@Kubat)
+- ENG - Persona 3 FES - PS2 GAME ED - Brand New Days (@Kubat)
+- ENG - Persona 3 Portable - PSP GAME OP - Soul Phrase (@Kubat)
+- ENG - Persona 5 Scramble The Phantom Strikers - PS4 PC SWITCH GAME AMV - Axe to Grind (@Kubat)
+- ENG - Persona 5 The Royal - PS4 GAME AMV - Take Over ~ Full Vers (@Kubat)
+- ENG - Persona 5 the Animation - AMV - Throw Away your Mask (@Kubat)
+- ENG - Ryuu ga Gotoku 0 - PS3 PS4 PC GAME IN - Friday Night (@Pierre CAMILLI)
+- ENG - Shrek - AMV - I believe (@Kubat)
+- ENG - Sword Art Online Abridged - OP1 - This is war (@Askédis)
+- ENG - Sword Art Online Abridged - OP2 - A Real Life (@Askédis)
+- ENG - Tokumei Sentai Yuzu Ranger - PC GAME OP - Tokumei Sentai Yuzu Ranger (@Colgate)
+- FRE - King of Braves GaoGaiGar Final Grand Glorious Gathering - ED3 - Lion Reine (@Colgate)
+- FRE - Les 2 minutes du peuple - MV - Les bestioles (@fabthehedgehog)
+- FRE - Pokemon Chronicles - OP - Pokemon Chronicles (@Deurstann)
+- FRE - Ryuu ga Gotoku 0 - GAME AUDIO - Quel idiot je fais (@fabthehedgehog)
+- ITA - Suisse question_mark - IN - Sono Ticinese (@Kmeuh)
+- JPN - .hack LIMINALITY - OVA OP2 - Senyaichiya (@Currymalker)
+- JPN - Aikatsu Planet! - IN - Lady.Lady.Lady (@Nodamin)
+- JPN - Aikatsu! Idol Katsudou! - IN - Summer Magic (@Nodamin)
+- JPN - Ayame Nakiri - AMV - Docchi docchi no uta (@Atsuyas)
+- JPN - Ayame Nakiri - MV - KING ~ Cover Vers (@Atsuyas)
+- JPN - Ayame Nakiri, Nana Kagura - MV - Kimagure Mercy ~ Cover Vers (@Atsuyas)
+- JPN - Back Street Girls Gokudols - ED - Hoshi no Katachi (@Kubat)
+- JPN - Bakuten!! - OP - Seishun no Enbu (@Ni-jibakurei)
+- JPN - Beat Mario - REMIX MV - RISUPEKU fuujin (@Atsuyas)
+- JPN - Berryz Koubou - MV - Jiriri Kiteru (@Adrian)
+- JPN - Biohazard VIIIage - PS4 GAME MV - Ora Konna Mura Iyada Lv.100 (@meulahke)
+- JPN - Boku wa ousama - OP - Mainichi ga nichiyoubi dattara ii no ni (@Nodamin)
+- JPN - Ciconia no Naku Koro ni - PC GAME OP - Ciconia no Naku Koro ni (@Kubat)
+- JPN - Concerto. - PC GAME OP - Let's take power! (@Colgate)
+- JPN - Dai 501 Tougou Sentou Koukuu Dan Strike Witches Road to Berlin - IN - Negai no Tomoshibi (@Rinchama)
+- JPN - Dirty Pair - AMV - Ride On Time (@Lec)
+- JPN - Dragon Quest Dai no Daibouken (2020) - ED2 - Akashi (@meulahke)
+- JPN - Eiyuu Densetsu Sen no Kiseki - PS3 PSV PC GAME ED - I miss you (@Deurstann)
+- JPN - Eiyuu Densetsu Zero no Kiseki - PSP PC GAME OP - Way of life (@Deurstann)
+- JPN - Flare Shiranui - MV - Smile & Go!! (@Atsuyas)
+- JPN - Fubuki Shirakami - MV - Say! Fanfare! (@Atsuyas)
+- JPN - Gokushufudou - ONA OP - Shufu no michi (@meulahke)
+- JPN - Higanbana no Saku Yoru ni - PC GAME OP - Aishi wo Wataru wa Tasogare zo (@Kubat)
+- JPN - Higurashi no Naku Koro ni - AMV - Suteki na Kimi (@Geralt)
+- JPN - Honkai Gakuen EX - GAME PV - Yaezakura (@Kaleidoscope)
+- JPN - Ijiranaide, Nagatoro-san - OP - EASY LOVE (@Koheitohikari)
+- JPN - Jouran The Princess of Snow and Blood - OP - Exist (@meulahke)
+- JPN - Kaede Yuasa - MV - Mini Rakugo (@Elliu)
+- JPN - Kikai Sentai Zenkaiger - OP - Zenryoku zenkai! Zenkaiger (@Deformer-Lua)
+- JPN - King of Braves GaoGaiGar Final Grand Glorious Gathering - ED1 - Lion Reine (@Colgate)
+- JPN - King of Braves GaoGaiGar Final Grand Glorious Gathering - ED4 - Lion Reine Hyper Mode (@Colgate)
+- JPN - King of Braves GaoGaiGar Final Grand Glorious Gathering - ED5 - Itsuka Hoshi no Umi de ~ Character Vers (@Colgate)
+- JPN - Kiratto Pri Chan season 2 - IN - MEMORIES FOR FUTURE (@Nodamin)
+- JPN - Korone Inugami - MV - Korone no saikyo tensai wanderful world (@Nodamin)
+- JPN - Kumo Desu ga, Nani ka question_mark - MV - Ganbare! Kumoko-san no Theme ~ Full Vers (@fabthehedgehog)
+- JPN - Love Live! Sunshine!! - MV - Mitaiken Horizon (@skid9000)
+- JPN - Love Live! Superstar!! - OVA MV - Hajimari wa kimi no sora (@Kaleidoscope)
+- JPN - Lucky Star - REMIX AMV - Kumikyoku Lucky Star Douga (@Phoko)
+- JPN - Mary - AMV - DAYBREAK FRONTLINE (@Elliu)
+- JPN - Matsuri Natsuiro - MV - Kimi to nagameru natsu no hana (@Atsuyas)
+- JPN - Nagato Yuki-chan no Shoushitsu - ED - Arigatou, Daisuki ~ Alternative Vers (@Rinchama)
+- JPN - Odd Taxi - ED - Sugarless Kiss (@Ni-jibakurei)
+- JPN - Odd Taxi - OP - Odd Taxi (@Ni-jibakurei)
+- JPN - Okayu Nekomata - MV - Mogu mogu YUMMY (@Atsuyas)
+- JPN - Okusama wa Miko question_mark - PC GAME OP - Kyouryuu Shoujo (@Colgate)
+- JPN - One Room Third Season - ED1 - Taiyou to Rainbow (@Kmeuh)
+- JPN - One Room Third Season - ED2 - Aozora ni Kami Hikouki (@Kmeuh)
+- JPN - One Room Third Season - ED3 - Yuki no Machi to Kuusou Time Machine (@Kmeuh)
+- JPN - One Room Third Season - ED4 - 3-kai kara Yamato Nadeshiko (@Kmeuh)
+- JPN - One Room Third Season - ED5 - Shunkashuutou Egao Biyori (@Kmeuh)
+- JPN - Pekora Usada - MV - Peko Random Brain ~ Short Vers (@Atsuyas)
+- JPN - Pocket Monsters (2019) - OP - 1.2.3 ~ Third Vers. ~ Alternative Vers (@Deurstann)
+- JPN - Pocket Monsters Advanced Generation - OP1 - Advance Adventure (@Deurstann)
+- JPN - Pocket Monsters Advanced Generation - OP2 - Challenger!! (@Deurstann)
+- JPN - Pocket Monsters Advanced Generation - OP3 - Pokemon Symphonic Medley (@Deurstann)
+- JPN - Pocket Monsters Advanced Generation - OP4 - Battle Frontier (@Deurstann)
+- JPN - Pocket Monsters Best Wishes! Season 2 - Decolora Adventure - OP - Natsumeku Sakamichi (@Deurstann)
+- JPN - Pocket Monsters Best Wishes! Season 2 - OP - Yajirushi ni Natte! (@Deurstann)
+- JPN - Pocket Monsters Sun & Moon (TV) - OP4 - Kimi no Bouken (@Deurstann)
+- JPN - Pocket Monsters XY - OP2 - Mega Volt (@Deurstann)
+- JPN - Re Zero kara Hajimeru Isekai Seikatsu 2nd Season - MV - Realize ~ Full Vers (@Adrian)
+- JPN - Rockman.EXE Stream - OP - Be Somewhere (@Psoushi)
+- JPN - Runway de Waratte - OP - LION (@Currymalker)
+- JPN - SSSS.Dynazenon - ED - Strobe Memory (@meulahke)
+- JPN - SSSS.Dynazenon - OP - Imperfect (@meulahke)
+- JPN - Senki Zesshou Symphogear XD Unlimited - GAME AMV - Tomodachi Ijou, Hero Miman (@Kaleidoscope)
+- JPN - Senki Zesshou Symphogear XD Unlimited - GAME AMV - Tsumugi Rhapsody (@Kaleidoscope)
+- JPN - Sentouin, hakenshimasu! - OP - Operation No.6 (@meulahke)
+- JPN - Shadows House - ED - Nai Nai (@amoethyst)
+- JPN - Shakugan no Shana - ED1 - Yoake Umarekuru Shoujo ~ Alternative Vers (@Rinchama)
+- JPN - Shaman King (2021) - ED - #Boku no Yubisaki (@meulahke)
+- JPN - Shaman King (2021) - OP1 - Soul salvation (@meulahke)
+- JPN - Sister Angel - PC GAME OP - days happy (@Colgate)
+- JPN - Soukyuu no Fafner Dead Aggressor - The Beyond - MOVIE ED1 - Naze ni (@Currymalker)
+- JPN - Soukyuu no Fafner Dead Aggressor - The Beyond - MOVIE OP1 - THE BEYOND (@Currymalker)
+- JPN - Subaru Oozora - MV - Koi no mahou ~ Cover Vers (@Atsuyas)
+- JPN - Suisei Hoshimachi - MV - GHOST (@Nodamin)
+- JPN - Suisei Hoshimachi - PV - e-ma e-ma nodo ame ~ Hoshimachi Suisei vers (@Tatoon)
+- JPN - Super Cub - ED - Haru e no Dengon (@Kmeuh)
+- JPN - Super Cub - OP - Mahou no Kaze (@Kmeuh)
+- JPN - The Legend of Heroes Trails of Cold Steel II - PS3 PS4 PSV PC SWITCH GAME OP - Senkou no Yukue (@Deurstann)
+- JPN - Touhou - MV - Bad Apple but it runs on an Atari 800 ~ 8-bit Off Vocal Vers (@Geralt)
+- JPN - Touhou - REMIX AUDIO - Ame-no-Iwafune, Rise to the Sky (@lasagna)
+- JPN - Touhou - REMIX MV - Necromantic (@Atsuyas)
+- JPN - Yorushika - MV - Ai Nijou (@NextFire)
+- JPN - Yuusha Ou GaoGaiGar - ED - Itsuka Hoshi no Umi de (@Colgate)
+- JPN - Yuusha Ou GaoGaiGar FINAL Grand Glorious Gathering - OP - Yuusha-Ou Tanjou! ~ Gathering Mythology Vers (@Colgate)
+- MUL - Touhou - MV - Bad Apple!! ~ Cover Orchestra Vers (@leonekmi)
+- SPA - Megalo Box 2 Nomad - ED - El canto del colibri (@meulahke)
+- ZXX - Shadows House - OP - a hollow shadow (@Karaoke Mugen)
+
+## Fixed
+
+Fixed songs : 162
+
+- ENG - 86 - PV - THE ANSWER
+- ENG - Amree, Static-P - MV - It's Not Like I Like You!!
+- ENG - Courtesy of Zettai Karen Children The Unlimited - Hyoubu Kyousuke - OP1 - LAST RESOLUTION
+- ENG - DAICON IV - MV - Twilight
+- ENG - Fugou Keiji Balance Unlimited - ED - Welcome My Friend
+- ENG - GREAT PRETENDER - ONA ED - The Great Pretender
+- ENG - Haato Akai - MV - Haachama Cooking Rap
+- ENG - Hellsing Ultimate - OVA ED6 - Magnolia
+- ENG - Jujutsu Kaisen - AMV - LOST IN PARADISE ~ Hololive Animated Vers
+- ENG - Jujutsu Kaisen - ED - LOST IN PARADISE
+- ENG - Kiddy Grade - OP - Mirai no Kioku
+- ENG - Kill la Kill - AMV - Before my body is dry
+- ENG - My Little Pony Friendship is Magic - IN - Winter Wrap Up
+- ENG - The Legend of Zelda The Wind Waker - MV - A Boy and His Boat
+- FRE - 3-gatsu no Lion - IN - En fermant les yeux
+- FRE - Aishite Knight - AUDIO IN - Freeway
+- FRE - Carlos - MV - Tirelipimpon
+- FRE - Kiddy Grade - OP - Mirai no Kioku
+- FRE - Les Kassos - IN - Jackyra
+- FRE - Meitantei Conan - OP1 - Un heros aux yeux d'enfant
+- FRE - Motto! Ojamajo Doremi - OP - Ojamajo de BAN^2
+- FRE - NieR Automata - PS4 XBOXONE PC GAME AMV - Weight of the World ~ TBK French Vers. ~ Cover Vers
+- FRE - Ojamajo Doremi # - OP - Ojamajo wa Koko ni Iru
+- FRE - Ojamajo Doremi - OP - Ojamajo Carnival!!
+- FRE - Ojamajo Doremi Dokkaan! - OP - Dance! Ojamajo
+- FRE - Sugar Sugar Rune - OP - Chocolat ni Muchuu
+- FRE - Suisse question_mark - OP - Suisse
+- FRE - Tottoko Hamtarou - ED - 200 percent no Jumon
+- FRE - Touhou - REMIX AUDIO - Persephoneia
+- FRE - Touhou - REMIX AUDIO - Persephoneia ~ Off Vocal Vers. ~ Off Vocal Vers
+- FRE - Yume no Crayon Oukoku - OP - N.paka March
+- ITA - Hunter x Hunter (1999) - OP - Hunter Hunter
+- JPN - AZKi, Aqua Minato, Choco Yuzuki - MV - Ochame Kinou ~ Hololive Vers. ~ Cover Vers
+- JPN - Akari Kizuna - MV - Akari ga Yatte Kita zot' ~ Go Toubun Vers. ~ Alternative Vers
+- JPN - Arad Senki Slap Up Party - ED1 - Hateshinai Sekai
+- JPN - Assault Lily Bouquet - ED4 - Mabataki
+- JPN - BTOB - LIVE - Mata Aeru Kara
+- JPN - Blade & Soul - ED - RAINBOW
+- JPN - Bleach - ED5 - Life
+- JPN - Blend S - ED - Detarame na Minus to Plus ni Okeru Blend Ko
+- JPN - Blend S - OP - Bon Appetit S
+- JPN - Brand New Animal - ONA ED - NIGHT RUNNING
+- JPN - Carnival Phantasm - OVA OP - Super Affection
+- JPN - Chuunibyou Demo KOI ga Shitai! Ren - ED - Van!shment Th!s World
+- JPN - Courtesy of Zettai Karen Children The Unlimited - Hyoubu Kyousuke - OP2 - LAST RESOLUTION
+- JPN - DARLING in the FRANXX - ED5 - Escape
+- JPN - Danganronpa Kibou no Gakuen to Zetsubou no Koukousei The Animation - ED1 - Zetsubousei Hero Chiryouyaku
+- JPN - Densha de D Lightning Stage - GAME OP - M-T-D
+- JPN - Dorohedoro - OP - Welcome to Chaos
+- JPN - Dragon Quest Dai no Daibouken (2020) - ED1 - Mother
+- JPN - Eizouken ni wa Te wo Dasu na! - OP - Easy Breezy
+- JPN - Eyeshield 21 - OP1 - Breakthrough
+- JPN - Frozen - MOVIE IN - Let It Go ~Ari no Mama de~
+- JPN - Fune wo Amu - OP - Shiokaze
+- JPN - GUMI - MV - KING
+- JPN - GUMI, Miku Hatsune - MV - Nou Shou Sakuretsu Girl
+- JPN - God Eater 3 - PS4 PC GAME MV - stereo future
+- JPN - Gura Gawr - MV - Ride on Time ~ Cover Vers
+- JPN - Hagane no Renkinjutsushi - OP2 - READY STEADY GO
+- JPN - Higurashi no Naku Koro ni Hou - PS4 SWITCH GAME OP - Angelic Bright
+- JPN - Higurashi no Naku Koro ni Hou - PS4 SWITCH GAME OP - Ascension
+- JPN - Higurashi no Naku Koro ni Hou - PS4 SWITCH GAME OP - Bokutachi wa Mou Shitteru
+- JPN - Higurashi no Naku Koro ni Hou - PS4 SWITCH GAME OP - Complex Image
+- JPN - Higurashi no Naku Koro ni Hou - PS4 SWITCH GAME OP - Place of Period
+- JPN - Higurashi no Naku Koro ni Hou - PS4 SWITCH GAME OP - SideEffect
+- JPN - Honkai Gakuen EX - AMV - Tabiji Yoiyoi Yume Hanabi
+- JPN - Joueur du Grenier - REMIX AMV - Colissimo no Densetsu
+- JPN - Jujutsu Kaisen - OP1 - Kaikai Kitan
+- JPN - Kaguya-sama wa Kokurasetai question_mark Tensai-tachi no Ren'ai Zunousen - OP - DADDY! DADDY! DO!
+- JPN - Kakushigoto - ED - Kimi wa Tennenshoku
+- JPN - Kakushigoto - OP - Chiisana hibi
+- JPN - Kamen Rider - LIVE - Let's Go!! Rider Kick
+- JPN - Kekkai Sensen - ED - Sugar Song to Bitter Step
+- JPN - Kill la Kill - OP1 - Sirius
+- JPN - Kimagure Orange Road - OP3 - Kagami no naka no actress
+- JPN - Koukyoushihen Eureka Seven - ED3 - Tip Taps Tip
+- JPN - Lodoss-tou senki Eiyuu Kishi Den - OP - Kiseki no Umi
+- JPN - Lon - MV - Ochame kinou ~ Cover Vers
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - IN - DIVE!
+- JPN - Love Live! School Idol Project - AUDIO - soldier game
+- JPN - Love Live! School Idol Project - AUDIO - soldier game ~ Off Vocal Vers. ~ Off Vocal Vers
+- JPN - Love Live! School Idol Project - LIVE - START DASH!!
+- JPN - Love Live! School Idol Project 2nd Season - ED1 - Donna Toki mo Zutto
+- JPN - Luka Megurine, Miku Hatsune - LIVE - Magnet
+- JPN - Luka Megurine, Miku Hatsune - LIVE - Magnet ~ Off Vocal Vers. ~ Off Vocal Vers
+- JPN - Meitantei Conan - OP19 - Kumo ni Notte
+- JPN - Miku Hatsune - AMV - Unknown Mother-Goose
+- JPN - Miku Hatsune - LIVE - Unknown Mother-Goose ~ Miku Expo 2018 Paris
+- JPN - Nagato Yuki-chan no Shoushitsu - ED - Arigatou, Daisuki
+- JPN - Nagato Yuki-chan no Shoushitsu - OP - Fure Fure Mirai
+- JPN - Ojamajo Doremi - MV - Ojamajo Carnival!! ~ Uru Kurousagi Vers. ~ Cover Full Vers
+- JPN - Ojamajo Doremi - REMIX MV - Ojamajo Carnival!! ~ Goose House Vers. ~ Cover Full Vers
+- JPN - Okayu Nekomata - MV - flos
+- JPN - One Piece - OP11 - Share The World
+- JPN - Owarimonogatari - OP1 - Decent Black
+- JPN - Owarimonogatari - OP7 - Dark Cherry Mystery
+- JPN - Pekora Usada - MV - Discommu Seijin (Discommunication Alien) ~ Cover Vers
+- JPN - Persona 3 - PS2 GAME ED - Kimi no Kioku
+- JPN - Persona 5 - PS3 PS4 GAME ED - Hoshi to Bokura to
+- JPN - Persona 5 The Royal - PS4 GAME ED - Bokura no Hikari
+- JPN - Pocket Monsters (2019) - OP - 1.2.3
+- JPN - Pocket Monsters (2019) - OP - 1.2.3 ~ Second Vers. ~ Alternative Vers
+- JPN - Pocket Monsters Advanced Generation - OP5 - Spurt!
+- JPN - Pocket Monsters Gold & Silver - OP1 - OK!
+- JPN - Pocket Monsters Gold & Silver - OP2 - Mezase Pokemon Master
+- JPN - Pocket Monsters Gold & Silver - OP3 - Ready Go!
+- JPN - Pocket Monsters Orange Islands - OP - Rival!
+- JPN - Pocket Monsters XY - OP1 - Volt
+- JPN - Promare - MV - Kakusei ~ Suisei Hoshimachi Vers. ~ Cover Vers
+- JPN - Re Zero kara Hajimeru Isekai Seikatsu 2nd Season - ED1 - Memento
+- JPN - Re Zero kara Hajimeru Isekai Seikatsu 2nd Season - ED3 - Anata no Shiranai Koto
+- JPN - Re Zero kara Hajimeru Isekai Seikatsu 2nd Season - OP1 - Realize
+- JPN - Revisions - ONA OP - Wagamama de Gomakasanai de
+- JPN - Rewrite - ED4 - Word of Dawn
+- JPN - Rewrite - OP2 - End of the World
+- JPN - Ryuu ga Gotoku 6 - PS4 XBOXONE PC GAME IN - Honjitsu wa Diamond
+- JPN - Ryuu ga Gotoku 6 - PS4 XBOXONE PC GAME IN - Like a Butterfly
+- JPN - Ryuu ga Gotoku 6 - PS4 XBOXONE PC GAME IN - Tonight -restart from this night
+- JPN - Sagrada Reset - ED1 - Tonariau
+- JPN - Saikyou Bushou-den Sangoku Engi - OP1 - Kaze no Kaiwa
+- JPN - Saikyou Bushou-den Sangoku Engi - OP2 - Kaze no Kaiwa
+- JPN - Seikon no Qwaser - MV - Baptize ~ Full Vers
+- JPN - Sengoku Musou - OP - Ikusa
+- JPN - Senki Zesshou Symphogear G - AUDIO IN - Fushicho no Flamme ~ Revue Starlight Vers. ~ Cover Vers
+- JPN - Senki Zesshou Symphogear GX - REMIX AUDIO CS - RADIANT FORCE (IGNITED arrangement)
+- JPN - Shakugan no Shana - ED1 - Yoake Umarekuru Shoujo
+- JPN - Shakugan no Shana - ED2 - Aka no Seijaku
+- JPN - Shakugan no Shana - OP1 - Hishoku no Sora
+- JPN - Shakugan no Shana - OP2 - Being
+- JPN - Shakugan no Shana II - ED1 - triangle
+- JPN - Shakugan no Shana II - ED2 - Sociometry
+- JPN - Shakugan no Shana II - OP1 - Joint
+- JPN - Shakugan no Shana II - OP2 - BLAZE
+- JPN - Shakugan no Shana III Final - ED1 - I'll Believe
+- JPN - Shakugan no Shana III Final - ED3 - ONE
+- JPN - Shakugan no Shana III Final - OP1 - Light My Fire
+- JPN - Shakugan no Shana III Final - OP2 - Serment
+- JPN - Shining Wind - PS2 GAME OP - Heart-Shaped Chant
+- JPN - Shinkalion Henkei Robo - OP - Shinka Riron
+- JPN - Suisei Hoshimachi - MV - NEXT COLOR PLANET
+- JPN - T.M.Revolution - MV - HOT LIMIT
+- JPN - T.M.Revolution - MV - Madan~Der Freischutz~
+- JPN - THE iDOLM@STER Cinderella Girls Starlight Stage - GAME MV - OTAHEN anthem
+- JPN - Tales of Symphonia - PS2 GAME OP - Soshite Boku ni Dekiru Koto
+- JPN - Tengen Toppa Gurren Lagann - AUDIO - Sora-iro Days ~ Hololive Vers. ~ Cover Vers
+- JPN - Tengen Toppa Gurren Lagann - MV - Sora-iro Days ~ Hololive Vers. ~ Cover Vers
+- JPN - To Aru Kagaku no Railgun - MV - only my railgun ~ Vtuber Vers. ~ Cover Vers
+- JPN - To Aru Kagaku no Railgun T - ED2 - Aoarashi no Ato de
+- JPN - Touhou - REMIX AUDIO - Help me, ERINNNNNN!! ~ Gensokyo Holoism Vers. ~ Cover Vers
+- JPN - Towa Tokoyami - MV - Palette
+- JPN - Tsukimonogatari - OP - Orange Mint
+- JPN - Uchuu Senkan Yamato Aratanaru Tabidachi - MOVIE IN - Saasha Waga Ai
+- JPN - Versailles no Bara - AMV - Nouvelle Vague
+- JPN - YOASOBI - MV - Gunjou
+- JPN - Yuusha Ou GaoGaiGar - OP - Yuusha-Ou Tanjou!
+- JPN - Yuusha Ou GaoGaiGar - OP - Yuusha-Ou Tanjou! ~ Alternative Vers
+- JPN - Yuusha Ou GaoGaiGar FINAL - OVA OP1 - Yuusha-Ou Tanjou! ~ Mythology Vers
+- JPN - Yuusha Ou GaoGaiGar FINAL - OVA OP2 - Yuusha-Ou Tanjou! ~ Kyuukoku Mythology Vers. ~ Alternative Vers
+- JPN - Yuusha Ou GaoGaiGar FINAL Grand Glorious Gathering - OP - Yuusha-Ou Tanjou! ~ Gathering Mythology Vers. ~ Alternative Vers
+- JPN - Zombieland Saga - MV - Saga Jihen ~ Hololive Vers. ~ Cover Vers
+- LAT - Final Fantasy VII Advent Children - MOVIE AMV - Sairin Kata Tsubasa no Tenshi - Advent One-Winged Angel
+- UND - Touhou - MV - LocoRoco Song, Kulche ~ Touhou Vers
+
 # March 2021
 
 Contributors: 
