@@ -41,9 +41,9 @@ If you don't feel like you can do that, we still need some karaokes to be tagged
 
 ## I need help
 
-Again, [come to the Discord server l'Eden de la Nanami](https://karaokes.moe/discord)
+Again, [come to the Discord server](https://karaokes.moe/discord)
 
-And go to the #karaoke channel!
+And go to the #help channel!
 
 
 ## For the maintainers
@@ -78,9 +78,9 @@ Si rien de tout cela ne vous botte, il y a toujours le boulot de tag les karaok√
 
 ## J'ai besoin d'aide
 
-Venez sur [le discord de l'Eden de la Nanami](https://karaokes.moe/discord)
+Venez sur [le discord](https://karaokes.moe/discord)
 
-Et dirigez-vous sur le salon #karaoke !
+Et dirigez-vous sur le salon #aide !
 
 ## √Ä l'intention des mainteneurs
 
