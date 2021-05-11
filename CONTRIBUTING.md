@@ -80,7 +80,7 @@ Si rien de tout cela ne vous botte, il y a toujours le boulot de tag les karaok√
 
 Venez sur [le discord](https://karaokes.moe/discord)
 
-Et dirigez-vous sur le salon #aide !
+Et dirigez-vous sur le salon #support !
 
 ## √Ä l'intention des mainteneurs
 
