@@ -10,7 +10,7 @@ const newKaras = [];
 const modifiedKaras = [];
 
 if (!process.argv[2]) {
-	console.log(`Create changelog for CHANGELOG.md. Supply a year-date to make it work. 
+	console.log(`Create changelog for CHANGELOG.md. Supply a year-date to make it work.
 	Example : node changelog.js 2019-09 or node changelog.js 2019-09 file.txt`);
 	return;
 }
@@ -78,8 +78,6 @@ async function main() {
 	out.push('');
 	out.push('Fixed songs : ' + modifiedKaras.length);
 	out.push('');
-	modifiedKaras.sort();
-	modifiedKaras.forEach(k => out.push('- ' + k));
 
 	if (process.argv[3]) {
 		writeFileSync(process.argv[3], out.join('\n'), 'utf8');
