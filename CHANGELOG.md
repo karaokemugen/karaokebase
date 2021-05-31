@@ -1,3 +1,198 @@
+# May 2021
+
+Contributors: 
+
+- @Alis Airy
+- @Atsuyas
+- @Colgate
+- @Currymalker
+- @Deformer-Lua
+- @Demoto
+- @Elliu
+- @Fora
+- @Kaleidoscope
+- @Kmeuh
+- @Koheitohikari
+- @Krokro
+- @Kubat
+- @Lec
+- @Litto
+- @Mutsui
+- @NextFire
+- @Nodamin
+- @Pierre CAMILLI
+- @Rinchama
+- @Rubn4
+- @SeeU
+- @Soramimi
+- @Subkei
+- @Tatoon
+- @TheMio
+- @Theo33500
+- @Yûgao
+- @asdFer
+- @f1r3w4ll
+- @fabthehedgehog
+- @lasagna
+- @memo65
+- @monkey113
+- @noahniconii
+- @tcyrus
+
+## Added
+
+New songs : 144
+
+- CAT - David Marce - MV - Moi... Manuel Valls (@Deformer-Lua)
+- ENG - AMV Celeste - ED - Je te donne (@Kmeuh)
+- ENG - AMV Celeste - OP - The Greatest Show (@Pierre CAMILLI)
+- ENG - Animaniacs - AMV - Yakko's World but it's in 1682 (@Kmeuh)
+- ENG - DEMONDICE - MV - You're an ace, kid (@Atsuyas)
+- ENG - Gyrotron - GAME AMV - EXTREME SOUNDCLOWN MEGAMIX V (@fabthehedgehog)
+- ENG - Haato Akai - MV - REDHEART ~ Full Vers (@Deformer-Lua)
+- ENG - Kengan Ashura - ONA OP - KING & ASHLEY (@lasagna)
+- ENG - Mori Calliope - MV - Red (@lasagna)
+- ENG - Mori Calliope - MV - The Grim Reaper is a Live-Streamer (@fabthehedgehog)
+- ENG - Royal Scandal - MV - Queen of Hearts (@Krokro)
+- ENG - Saki AI - MV - Why Does a Heart Break question_mark (@tcyrus)
+- ENG - Shin Seiki Evangelion Gekijouban The End of Evangelion - MOVIE AMV - Quiet (Enjoy the Silence) (@Kmeuh)
+- ENG - Shuumatsu Nani Shitemasuka question_mark Isogashii Desuka question_mark Sukutte Moratte Ii Desuka question_mark - AMV - Ever be my love ~ Full Vers (@Lec)
+- ENG - Touhou - REMIX MV - VENTEN (@Atsuyas)
+- FRE - Cyprien Iov - MV - Cyprien repond a Cortex (@Atsuyas)
+- FRE - RPZ - GAME MV - Dona Dona (@Nodamin)
+- ITA - Cardcaptor Sakura - OP2 - Sakura la partita non e finita (@Kmeuh)
+- ITA - Majokko Meg-chan - OP - Bia (@Fora)
+- JPN - 100-man no Inochi no Ue ni Ore wa Tatte Iru - ED - Carpe Diem (@Currymalker)
+- JPN - 100-man no Inochi no Ue ni Ore wa Tatte Iru - OP - Anti World (@Currymalker)
+- JPN - 96Neko - REMIX MV - Tapioca no Uta (@Krokro)
+- JPN - ATARASHII GAKKO! - LIVE - Otonablue (@lasagna)
+- JPN - Ado - MV - Gira Gira (@Elliu)
+- JPN - Ado - MV - Odo (@Nodamin)
+- JPN - Ado - MV - READYMADE (@Nodamin)
+- JPN - Ado - MV - Usseewa (@Atsuyas)
+- JPN - Ai Otsuka - MV - Cherish ~ Full Vers (@Soramimi)
+- JPN - Aqua Minato - MV - Good-bye sengen ~ Cover Vers (@Atsuyas)
+- JPN - Aqua Minato - MV - Indoor kei nara Trackmaker ~ Cover Vers (@Atsuyas)
+- JPN - Ayame Nakiri - MV - Good-bye sengen ~ Cover Vers (@Atsuyas)
+- JPN - Ayame Nakiri - MV - KING ~ Cover Vers (@Atsuyas)
+- JPN - Ayame Nakiri, Nana Kagura - MV - Kimagure Mercy ~ Cover Vers (@Atsuyas)
+- JPN - BIGMAMA - MV - The Naked King ~utsukushiki waga jinsei wo~ (@Kmeuh)
+- JPN - BUMP OF CHICKEN - MV - Hana no Na (@Soramimi)
+- JPN - BUMP OF CHICKEN, Miku Hatsune - MV - ray (@Subkei)
+- JPN - Battle Athletess Daiundoukai - OP - Tsubasa (@Kmeuh)
+- JPN - Bishounen Tanteidan - OP - Shake & Shake (@Kmeuh)
+- JPN - Black Clover (2017) - ED11 - Answer (@Elliu)
+- JPN - Bokurano - REMIX AUDIO - Uninstall ~ Full Vers (@Subkei)
+- JPN - Campione! Matsurowanu Kamigami to Kamigoroshi no Maou - OP - BRAVE BLADE! (@Currymalker)
+- JPN - Chainsaw Dance - PC GAME IN - OMEGA RHYTHM (@Pierre CAMILLI)
+- JPN - Chobits - AUDIO CS - Beyond ~ Full Vers (@Soramimi)
+- JPN - Chobits - AUDIO IN - I hear you everywhere ~ Full Vers (@Soramimi)
+- JPN - Chobits - AUDIO IN - Sing a song ~ Full Vers (@Soramimi)
+- JPN - Chobits - IN - I hear you everywhere (@Soramimi)
+- JPN - Chobits - IN - Sing a Song (@Soramimi)
+- JPN - Choudenshi Bioman - LIVE - Choudenshi Bioman ~ Full Vers (@Deformer-Lua)
+- JPN - Cowboy Bebop - AMV - The Real Folk Blues ~ Full Vers (@Soramimi)
+- JPN - Fruits Basket (2019) The Final - ED - Haru Urara (@Yûgao)
+- JPN - GUMI, MikitoP - MV - PLATONIC GIRL (@Demoto, @TheMio)
+- JPN - Hatsune Miku ~ Project DIVA Arcade Future Tone - PS4 GAME MV - Saihate (@f1r3w4ll)
+- JPN - Hatsune Miku ~ Project DIVA Arcade Future Tone - PS4 GAME MV - Time Machine (@monkey113)
+- JPN - Hatsune Miku ~ Project DIVA Arcade Future Tone - PS4 GAME MV - Yumeyume (@Currymalker)
+- JPN - Hololive Alternative - PV - Dawn Blue (@Atsuyas)
+- JPN - How Not to Summon a Demon Lord O - ED - You You You (@Alis Airy)
+- JPN - How Not to Summon a Demon Lord O - OP - EVERYBODY! EVERYBODY! (@Alis Airy)
+- JPN - Jouran The Princess of Snow and Blood - ED - Embrace of Light (@Kubat)
+- JPN - Kanata Amane - MV - KING ~ Cover Vers (@fabthehedgehog)
+- JPN - Kimetsu no Yaiba, Kizumonogatari II Nekketsu-hen - AMV - Rest & Relax (Fukurou) (@Elliu)
+- JPN - Kono Sekai no (Sara ni Ikutsumo no) Katasumi ni - MOVIE ED - Tanpopo (Sara ni Ikutsumono version) (@Rinchama)
+- JPN - Korone Inugami - MV - Ren'ai Saiban ~ Cover Vers (@Atsuyas)
+- JPN - Korone Inugami, Okayu Nekomata - MV - if... ~ Cover Vers (@Atsuyas)
+- JPN - Kumo Desu ga, Nani ka question_mark - AMV - Genjitsu Totsugeki Hierarchy ~ Full Vers (@fabthehedgehog)
+- JPN - Kumo Desu ga, Nani ka question_mark - ED2 - Genjitsu Totsugeki Hierarchy (@fabthehedgehog)
+- JPN - Lostorage Incited WIXOSS - OP - Lostorage (@Currymalker)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - CS LIVE - Fire Bird (@Theo33500)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - CS LIVE - Wish ~ Full Vers (@Theo33500)
+- JPN - Love Live! Sunshine!! - MV - Totsuzen GIRL (@Kaleidoscope)
+- JPN - Maou Gakuin no Futekigousha ~ Shijou Saikyou no Maou no Shiso, Tensei Shite Shison-tachi no Gakkou e Kayou ~ - ED - Hamidashimono (@Currymalker)
+- JPN - Matsuri Natsuiro - MV - KING ~ Cover Vers (@fabthehedgehog)
+- JPN - Matsuri Natsuiro - MV - Kuraberarekko ~ Cover Vers (@Atsuyas)
+- JPN - Meiji Tokyo Renka - OP - Tsuki Akari no Rhapsody (@Currymalker)
+- JPN - Meitantei Conan - OP20 - Namida no Yesterday (@Currymalker)
+- JPN - Miku Hatsune - AUDIO - Erikubi (@Soramimi)
+- JPN - Miku Hatsune - AUDIO - Two Breaths Walking (Reloaded) (@Atsuyas)
+- JPN - Miku Hatsune - MV - Black Board (@SeeU)
+- JPN - Miku Hatsune - MV - MELT (@Subkei)
+- JPN - Miku Hatsune - MV - Yumeyume (@Currymalker)
+- JPN - Mio Ookami, Okayu Nekomata - MV - Otona no Okite (@Atsuyas)
+- JPN - Mondaiji-tachi ga Isekai Kara Kuru Sou Desu Yo - ED1 - To Be Continued question_mark (@Currymalker)
+- JPN - Mushoku Tensei Isekai Ittara Honki Dasu - OP2 - Mezame no Uta (@Kubat)
+- JPN - Ninja Slayer From Animation - ONA ED20 - Doro no Ame (@Litto)
+- JPN - Ninja Slayer From Animation - ONA ED25 - JETT REASON (@Litto)
+- JPN - Noel Shirogane - AMV - Kanzen Roudoku Dreamer (@Atsuyas)
+- JPN - Okayu Nekomata - MV - Cat-Eye Make ~ Cover Vers (@Atsuyas)
+- JPN - Okayu Nekomata - MV - Otome Kaibou ~ Cover Vers (@Atsuyas)
+- JPN - Okayu Nekomata - MV - Shitsuraku Petri ~ Cover Vers (@Atsuyas)
+- JPN - Okayu Nekomata - MV - Umiyuri kaiteitan ~ Cover Vers (@Atsuyas)
+- JPN - Okayu Nekomata - MV - Wakusei Loop ~ Cover Vers (@Atsuyas)
+- JPN - Okayu Nekomata, Shion Murasaki - MV - Mrs. Pumpkin no Kokkei na Yume ~ Cover Vers (@Atsuyas)
+- JPN - Pretty Rhythm Rainbow Live - OP1 - BOY MEETS GIRL (@Nodamin)
+- JPN - Pretty Rhythm Rainbow Live - OP3 - CRAZY GONNA CRAZY (@Nodamin)
+- JPN - Pretty Rhythm Rainbow Live - OP4 - Butterfly Effect (@Nodamin)
+- JPN - PriPara - IN - What a WonderPri World!! (@Nodamin)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - RAD DOGS (@Nodamin)
+- JPN - Raon Lee - MV - KING ~ Cover Vers (@noahniconii)
+- JPN - Re Zero kara Hajimeru Isekai Seikatsu - AMV - Emilia no Love Song (@fabthehedgehog)
+- JPN - Re Zero kara Hajimeru Isekai Seikatsu - MV - STYX HELIX ~ Full Vers (@Subkei)
+- JPN - Re_Hamatora - ED - Brand New World (@Currymalker)
+- JPN - Reine Pavolia - REMIX MV - KING ~ Cover Vers (@fabthehedgehog)
+- JPN - Risu Ayunda - MV - KING ~ Cover Vers (@fabthehedgehog)
+- JPN - Roboco-san - MV - KING ~ Cover Vers (@fabthehedgehog)
+- JPN - Rockman 9 Yabou no Fukkatsu - AUDIO - GALAXY FANTASY (@lasagna)
+- JPN - Rockman X5 - PV - X-Buster ~ Short Vers (@lasagna)
+- JPN - Rockman X7 - PS2 GAME AUDIO OP - CODE CRUSH ~ Full Vers (@Soramimi, @lasagna)
+- JPN - Royal Scandal - MV - Cherry Hunt (@Krokro)
+- JPN - Ryokuoushoku Shakai - MV - Mela! (@Tatoon)
+- JPN - Shien Kageyama - MV - KING ~ Cover Vers (@fabthehedgehog)
+- JPN - Shiina Natsukawa - MV - Fansa (@Atsuyas)
+- JPN - Shion Murasaki - MV - KING ~ Cover Vers (@fabthehedgehog)
+- JPN - Shoujo Kakumei Utena - IN - When Where Who Which (@lasagna)
+- JPN - Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita - OP - Guda Fuwa Everyday (@fabthehedgehog)
+- JPN - Sora Tokino - MV - KING ~ Cover Vers (@fabthehedgehog)
+- JPN - Soukyuu no Fafner Dead Aggressor Exodus - ED3 - Horizon (@Currymalker)
+- JPN - Subaru Oozora - MV - Koi no mahou ~ Cover Vers (@Atsuyas)
+- JPN - Suisei Hoshimachi - MV - KING ~ Cover Vers (@fabthehedgehog)
+- JPN - Suisei Hoshimachi - OT - Tsubasa wo Kudasai ~ Cover Vers (@Elliu)
+- JPN - Super Cub - ED - Haru e no Dengon (@Kmeuh)
+- JPN - THE iDOLM@STER Cinderella Girls Starlight Stage - MV - OTAHEN anthem ~ Cover Full Vers (@Atsuyas)
+- JPN - Tatsurou Yamashita - AUDIO - Ride On Time (@Mutsui)
+- JPN - Tenchi Souzou Design-bu - OP - Give It Up question_mark (@Krokro)
+- JPN - Tensei Shitara Slime Datta Ken (2021) - IN - Reimei (@Kubat)
+- JPN - Tensura Nikki Tensei Shitara Slime Datta Ken - OP - Brand new diary (@Kubat)
+- JPN - The Nagano Tapes - OP - Zankoku na Tenshi no These (@Kmeuh)
+- JPN - To Your Eternity - OP - PINK BLOOD (@Krokro)
+- JPN - Tonikaku Kawaii - ED - Tsuki to Hoshizora (@Currymalker)
+- JPN - Touhou - AUDIO - Kouya no Pegasus (Wilderness Pegasus) (@lasagna)
+- JPN - Touhou - AUDIO - SIN (@lasagna)
+- JPN - Touhou - MV - Miracle Hinacle (@memo65)
+- JPN - Touhou - REMIX AMV - Mizuiro Raindrop (Azure Raindrop) (@lasagna)
+- JPN - Touhou - REMIX AUDIO - NAKEDKARMA (@lasagna)
+- JPN - Touhou - REMIX MV - Necromantic (@Atsuyas)
+- JPN - Towa Tokoyami - MV - KING ~ Cover Vers (@fabthehedgehog)
+- JPN - Vivy - Fluorite Eye's Song - - ED3 - Ensemble for Polaris (@Koheitohikari)
+- JPN - Vivy - Fluorite Eye's Song - - OP - Sing my Pleasure (@Koheitohikari)
+- JPN - Watame Tsunomaki - MV - KING ~ Cover Vers (@fabthehedgehog)
+- JPN - Yorushika - PV - Toubou (@NextFire)
+- JPN - Yuusha Ou GaoGaiGar - ED - Itsuka Hoshi no Umi de ~ Alternative Vers (@Colgate)
+- JPN - Yuusha Ou GaoGaiGar FINAL - OVA ED1 - Itsuka Hoshi no Umi de ~ Character Vers (@Colgate)
+- JPN - ZUTOMAYO - MV - Humanoid (@Pierre CAMILLI)
+- JPN - Zan Sayonara Zetsubou-Sensei - CS - Private Lesson ~ Short Vers (@lasagna)
+- KOR - BLACKPINK - MV - BOOMBAYAH (@Rubn4)
+- KOR - BLACKPINK - MV - How You Like That (@asdFer)
+
+## Fixed
+
+Fixed songs : 876
+
+
 # April 2021
 
 Contributors: 
