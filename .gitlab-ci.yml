@@ -33,7 +33,7 @@ test:
   interruptible: true
   tags:
     - moeBaseMedias
-  image: axelterizaki/karaokemugen-ci:node-14-phppg
+  image: axelterizaki/karaokemugen-ci:node-14-phppg-chromium
   services:
     - postgres:12
   variables:
@@ -57,7 +57,9 @@ test:
     - cp -f ../tools/config.CICD.yml app/config.yml
     - yarn ts-node util/extUnaccentPgcrypto
     - node -v
-    - yarn startNoElectron --debug --generate --strict
+    - export DISPLAY=':99.0'
+    - Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 &
+    - yarn startCI --debug --generate --strict
     - cd ..
     - php -f tools/export_karaokesmoe.php
   only:
