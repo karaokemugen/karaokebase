@@ -1,3 +1,169 @@
+# June 2021
+
+Contributors: 
+
+- @Adrian
+- @Askédis
+- @Atsuyas
+- @Colgate
+- @Deformer-Lua
+- @Demoto
+- @Elliu
+- @Fora
+- @Gilrael
+- @HypokhagneJB
+- @Kaleidoscope
+- @Kmeuh
+- @Koheitohikari
+- @Krokro
+- @Kubat
+- @Lorchen
+- @NextFire
+- @Ni-jibakurei
+- @Nodamin
+- @Prince7
+- @Rinchama
+- @Soramimi
+- @Sting
+- @Subkei
+- @TeLiXj
+- @TheMio
+- @Yûgao
+- @Zapiboss
+- @asdFer
+- @fabthehedgehog
+- @mesand
+- @pvogt
+- @tebayo
+- @z0gl0gl0
+
+## Added
+
+New songs : 118
+
+- CHI - Ling Long Incarnation - ONA OP - Rebirth (@Zapiboss)
+- ENG - 86 - ED2 - Avid (@Koheitohikari)
+- ENG - 86 - ED3 - Hands Up to the Sky (@Koheitohikari)
+- ENG - AMV Hell 3 - REMIX ED - Country Roads (@pvogt, @mesand)
+- ENG - AMV Hell 4 - ED - Welcome to the Black Parade (@Kmeuh)
+- ENG - Amber Efe, Kate Shindle, Laura Bell Bundy - MV - Is Kiara Takanashi gay or European question_mark (@Elliu)
+- ENG - Bao Ch. - MV - Everlasting Summer (@Elliu)
+- ENG - Bert Gotrax - MV - sd_bbb (@fabthehedgehog)
+- ENG - Code Geass Hangyaku no Lelouch R2 - AMV - Continued Story ~ Full Vers (@Kubat)
+- ENG - Criminal Idol - MV - When The Darkness Comes (@Kaleidoscope)
+- ENG - Gura Gawr - MV - Part of your world ~ Cover Vers (@Kaleidoscope)
+- ENG - Houkai Gakuen 2 - GAME PV - Incarnation (@Kaleidoscope)
+- ENG - Kero Kero Bonito, Sarah Midori Perry - AUDIO - Flamingo (@Demoto, @TheMio)
+- ENG - Minecraft - MV - Minecraft is for Everyone (@fabthehedgehog)
+- ENG - NANA - MV - Lucy ~ Full Vers (@Gilrael)
+- ENG - Overwatch - MV - Blowing the Payload (@fabthehedgehog)
+- ENG - Pocket Monsters - MV - The New Pokerap (@fabthehedgehog)
+- ENG - Princess Principal Crown Handler - MOVIE OP - LIES & TIES (@Kubat)
+- ENG - Street Fighter II - MV - Ryu VS Ken (@fabthehedgehog)
+- ENG - Tetris - MV - Filling in the Name Of (@fabthehedgehog)
+- ENG - nano - MV - neophobia (@Adrian)
+- FRE - The Aristocats - MOVIE IN - Tout le monde veut devenir un cat ~ Short Vers (@TeLiXj)
+- ITA - Meitantei Conan - OP2 - Detective Conan, l'infallibile (@HypokhagneJB)
+- ITA - Saint Seiya - OP - Pegasus Fantasy (@Fora)
+- JPN - Ai Otsuka - MV - Planetarium (@tebayo)
+- JPN - Ai Otsuka - MV - Sakuranbo (@Gilrael)
+- JPN - Angel Beats! - LIVE - Thousand Enemies (@Subkei)
+- JPN - Aqua Minato - MV - Vampire ~ Cover Vers (@Atsuyas)
+- JPN - Beastars (2021) - MV - Kaibutsu ~ Watame Tsunomaki Vers. ~ Cover Full Vers (@Atsuyas)
+- JPN - Bleach - AMV - Alones ~ Full Vers (@Soramimi)
+- JPN - Bleach - AMV - Velonica ~ Full Vers (@Gilrael)
+- JPN - Bokura ga Ita - ED4 - Suki Dakara (@Yûgao)
+- JPN - Cardcaptor Sakura - OP1 - Catch you Catch me ~ Alternative Vers (@Rinchama)
+- JPN - Coco Kiryu - MV - Fansa ~ Cover Vers (@Atsuyas)
+- JPN - Coco Kiryu - REMIX AMV - Kiryu Coco ED (@Atsuyas)
+- JPN - Cross Ange Tenshi to Ryuu no Rondo - ED1 - Rinrei ~ Alternative Vers (@Rinchama)
+- JPN - Cross Ange Tenshi to Ryuu no Rondo - ED2 - Shuumatsu no Love Song ~ Alternative Vers (@Rinchama)
+- JPN - D.N.A2 - LIVE - Blurry Eyes (@Soramimi)
+- JPN - Digimon Adventure - LIVE - Butter-Fly (@Gilrael)
+- JPN - Digimon Adventure - MV - brave heart ~ Full Vers (@Lorchen)
+- JPN - Divine Gate - MV - one-Me two-Hearts ~ Full Vers (@Subkei)
+- JPN - Dragon Ball Z - AMV - CHA-LA HEAD-CHA-LA ~ Full Vers (@Gilrael)
+- JPN - Flower - AUDIO - Goodbye Sengen (Goodbye Declaration) ~ Off Vocal Vers (@TheMio)
+- JPN - Flower - MV - Goodbye Sengen (Goodbye Declaration) (@TheMio)
+- JPN - Fruits Basket (2019) 2nd Season - OP2 - HOME (@Yûgao)
+- JPN - GACKT - MV - Mizerable (@Gilrael)
+- JPN - GACKT - MV - Vanilla (@Gilrael)
+- JPN - Gekijouban Hagane no Renkinjutsushi Shambala o Yuku Mono - LIVE - Link (@Gilrael)
+- JPN - Gesu no Kiwami Otome - MV - Watashi Igai Watashi ja Nai no (@Subkei)
+- JPN - Gokushufudou - ONA ED - Kiwami Meoto Kaidou (@z0gl0gl0)
+- JPN - Gura Gawr - MV - How Far I'll Go ~ Japanese Vers. ~ Cover Vers (@Kaleidoscope)
+- JPN - Hellow World - MOVIE MV - Yesterday ~ Full Vers (@NextFire)
+- JPN - HoneyWorks, Kotoha - MV - Hokori Takaki Idol (@Kaleidoscope)
+- JPN - Hori-san to Miyamura-kun - OVA ED1 - Shirotsumekusa (@Prince7)
+- JPN - Hori-san to Miyamura-kun - OVA ED4 - Himawari (@Prince7)
+- JPN - Ijiranaide, Nagatoro-san - ED - Colorful Canvas (@z0gl0gl0)
+- JPN - InuYasha - MV - Every Heart Minna no Kimochi ~ Full Vers (@Subkei)
+- JPN - Josee to Tora to Sakana-tachi - MOVIE MV - Shinkai ~ Full Vers (@Kmeuh)
+- JPN - Kanata Amane, Okayu Nekomata - MV - Call Boy ~ Cover Vers (@Atsuyas)
+- JPN - Katamari Damacy - PS2 GAME AUDIO IN - Lonely Rolling Star (@Soramimi)
+- JPN - Kiara Takanashi - MV - Goodbye Sengen (Goodbye Declaration) ~ Cover Vers (@TheMio)
+- JPN - Kidou Senshi Gundam (1979) - IN - Ima Wa Oyasumi (@Prince7)
+- JPN - Koe no Katachi - MOVIE MV - Koi wo Shita no wa ~ Full Vers (@NextFire)
+- JPN - Kumo Desu ga, Nani ka question_mark - OP2 - Bursty Greedy Spider (@Kubat)
+- JPN - Len Kagamine - MV - World is Mine (@Subkei)
+- JPN - Lucky Star - REMIX LIVE - Kumikyoku Lucky Star Douga (@Rinchama)
+- JPN - Luka Megurine - MV - Sugarvine (@Elliu)
+- JPN - Machikado Mazoku - ED - Yoi Machi Cantare (@NextFire)
+- JPN - Marine Houshou - MV - Ahoy!! Warera Houshou Kaizokudan ~ Full Off Vocal Vers (@Nodamin)
+- JPN - Marine Houshou - MV - Ahoy!! Warera Houshou Kaizokudan ~ Full Vers (@Nodamin)
+- JPN - Mashiro no Oto - ED - Kono Yume ga Sameru made (@Kubat)
+- JPN - Mashiro no Oto - OP1 - BLIZZARD (@Sting)
+- JPN - Mashiro no Oto - OP2 - Ginsekai (@Kubat)
+- JPN - Miku Hatsune - MV - Vampire (@Kaleidoscope)
+- JPN - Miku Hatsune - MV - World is Mine (@Soramimi)
+- JPN - Mune Kyun! Heart de Koi Shi-te-ru ~Onii-chan Motto Daisuki~ - PC GAME OP - Yume Miru Otome (@Colgate)
+- JPN - NANA - MV - Kuroi namida ~ Full Vers (@Gilrael)
+- JPN - NANA - MV - Rose ~ Full Vers (@Soramimi)
+- JPN - Naruto - MV - Yurayura ~ Full Vers (@Soramimi)
+- JPN - Naruto Shippuuden - MV - CLOSER ~ Full Vers (@Gilrael)
+- JPN - Okayu Nekomata - MV - Cute na Kanojo ~ Cover Vers (@Atsuyas)
+- JPN - Ouran Koukou Host Club - MV - Sakura Kiss ~ Full Vers (@Soramimi)
+- JPN - Patra Suou - MV - Kanipu no uta (@Atsuyas)
+- JPN - Rainych - REMIX OT - Say So ~ Cover Vers (@Yûgao)
+- JPN - Rurouni Kenshin Meiji Kenkaku Romantan - MV - Sanbun no ichi no junjou na kanjou ~ Full Vers (@Gilrael)
+- JPN - Ruuto - MV - Vampire ~ Cover Vers (@Kaleidoscope)
+- JPN - Saint Seiya - AMV - Pegasus Fantasy ~ Full Vers (@Gilrael)
+- JPN - Saint Seiya Omega - LIVE - Pegasus Fantasy ver.O (@asdFer)
+- JPN - Sakura Taisen - OT - Geki! Teikoku Kagekidan ~ Sedeto Vers. ~ Cover Vers (@Krokro)
+- JPN - Samurai Champloo - ED2 - Who's Theme (@Prince7)
+- JPN - Sayonara Watashi no Cramer - OP - AMBITIOUS GOAL (@Ni-jibakurei)
+- JPN - Seizei Ganbare! Mahou Shoujo Kurumi - ONA MV - Bishoujo Mahou Shoujo Kyouryuu Tenshi Senshi Ouenka ~ Full Vers (@Askédis)
+- JPN - Shoujo Kageki Revue Starlight Rondo Rondo Rondo - MOVIE IN - Hokori to Ogori (@Elliu)
+- JPN - Soul Eater - MV - resonance ~ Full Vers (@Gilrael)
+- JPN - Subarashiki Kono Sekai The Animation - ED - Carpe Diem (@Adrian)
+- JPN - Suisei Hoshimachi - MV - Bluerose (@Atsuyas)
+- JPN - Suzumiya Haruhi no Yuuutsu - AMV - Hare Hare Yukai ~ Full Vers (@Soramimi)
+- JPN - Suzumiya Haruhi no Yuuutsu - AUDIO CS - Hare Hare Yukai ~ Emiri Kimidori Vers (@Soramimi)
+- JPN - Suzumiya Haruhi no Yuuutsu - LIVE - Lost my Music (@Gilrael)
+- JPN - Touhou - AMV - Hoihoi Gensou Holoism (@Atsuyas)
+- JPN - Touhou - REMIX MV - Captain Marine no Ketsu Anchor ~ Cover Vers (@Atsuyas)
+- JPN - Touhou - REMIX MV - Ningen ga daisuki na kowareta youkai no uta ~ Cover Vers (@Atsuyas)
+- JPN - Touhou Musou Kakyou A Summer Day's Dream - OVA ED2 - Himawari no Saku Basho (@Elliu)
+- JPN - Touhou Musou Kakyou A Summer Day's Dream - OVA ED4 - Rasen wo Egaku Chou (@Elliu)
+- JPN - Towa Tokoyami - MV - Hyakkisai ~ Cover Vers (@Atsuyas)
+- JPN - Towa Tokoyami - MV - Kuroi Hitsuji ~ Cover Vers (@Atsuyas)
+- JPN - Vivy - Fluorite Eye's Song - - OP4 - Galaxy Anthem (@Koheitohikari)
+- JPN - Wagaya no Oinari-sama - OP - Kizuna Haruka Naru Mono e (@Soramimi)
+- JPN - Watame Tsunomaki - MV - Sweet Devil ~ Cover Vers (@Atsuyas)
+- JPN - Watashi ni Tenshi ga Maiorita! - OP - Kimama na Tenshitachi (@NextFire)
+- JPN - Yahari Ore no Seishun Love Comedy wa Machigatte Iru. Zoku - OP1 - Harumodoki ~ Alternative Vers (@HypokhagneJB)
+- JPN - Yu-Gi-Oh! SEVENS - ED2 - Never Looking Back (@Deformer-Lua)
+- JPN - Yu-Gi-Oh! SEVENS - OP2 - Harevutai (@Deformer-Lua)
+- JPN - Zombieland Saga Revenge - IN - Ika no Tamashii Muda ni wa Shinai ~Kojima Shokuhin Koujou Kabushikigaisha Shaka~ (@Elliu)
+- JPN - Zombieland Saga Revenge - OP - Taiga yo Tomo ni Naitekure (@Atsuyas)
+- UND - K.K. Slider - MV - EEEAAAOOO ~ Cover Vers (@fabthehedgehog)
+- UND - Monster Hunter Rise - SWITCH GAME IN - Kamura Harae Uta (You no Kei) ~ Short Vers (@Yûgao)
+- UND - Monster Hunter Rise - SWITCH GAME IN - Uma Uma Dango no Tsukuri Uta (@Yûgao)
+
+## Fixed
+
+Fixed songs : 192
+
 # May 2021
 
 Contributors: 
