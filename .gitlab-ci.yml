@@ -27,6 +27,7 @@ sync_medias:
   except:
     variables:
       - $CI_COMMIT_MESSAGE =~ /nomedia/
+      - $NOBUNKER == "true"
 
 test:
   stage: test
