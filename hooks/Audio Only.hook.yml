@@ -1,21 +1,13 @@
-{
-	"header": {
-		"description": "Karaoke Mugen Hook File",
-		"version": 1
-	},
-	"hook": {
-		"name": "Audio only if audio file",
-    	"repository": "kara.moe",
-		"conditions": {
-			"mediaFileRegexp": "/^.+\\.(ogg|m4a|mp3|wav|flac|mid)$/"
-		},
-		"actions": {
-			"addTag": [
-				{
-					"tid": "42a262ae-acba-4ab5-a446-c5789c96c821",
-					"type": 3
-				}
-			]
-		}
-	}
-}
+---
+header:
+  description: Karaoke Mugen Hook File
+  version: 1
+hook:
+  name: Audio only if audio file
+  repository: kara.moe
+  conditions:
+    mediaFileRegexp: "/^.+\\.(ogg|m4a|mp3|wav|flac|mid)$/"
+  actions:
+    addTag:
+    - tid: 42a262ae-acba-4ab5-a446-c5789c96c821
+      type: 3
