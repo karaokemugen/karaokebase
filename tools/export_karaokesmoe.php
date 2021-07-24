@@ -47,7 +47,7 @@ SELECT
   jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 14)') AS versions
 FROM all_karas AS ak
 WHERE (mediafile LIKE '%.mp4' or mediafile LIKE '%.mp3')
-GROUP BY ak.pk_kid, ak.title, ak.songorder, ak.subfile, ak.mediafile, ak.gain,
+GROUP BY ak.pk_kid, ak.tags, ak.title, ak.songorder, ak.subfile, ak.mediafile, ak.gain,
          ak.serie_singer_sortable, ak.songtypes_sortable
 ORDER BY ak.serie_singer_sortable, ak.songtypes_sortable DESC, ak.songorder, lower(unaccent(ak.title))
 ";
