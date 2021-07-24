@@ -30,26 +30,25 @@ SELECT
   ak.title AS title,
   ak.songorder AS songorder,
   ak.subfile AS subfile,
-  ak.singers AS singers,
-  ak.songtypes AS songtypes,
-  ak.languages AS languages,
-  ak.authors AS authors,
-  ak.misc AS misc,
-  ak.platforms AS platforms,
-  ak.families AS families,
-  ak.genres AS genres,
-  ak.series AS series,
-  ak.origins AS origins,
-  ak.creators AS creators,
+  jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 2)') AS singers,
+  jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 3)') AS songtypes,
+  jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 5)') AS languages,
+  jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 6)') AS authors,
+  jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 7)') AS misc,
+  jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 13)') AS platforms,
+  jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 10)') AS families,
+  jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 12)') AS genres,
+  jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 1)') AS series,
+  jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 11)') AS origins,
+  jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 4)') AS creators,
   ak.mediafile AS mediafile,
   ak.gain AS gain,
-  ak.songwriters AS songwriters,
-  ak.versions AS versions
+  jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 8)') AS songwriters,
+  jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 14)') AS versions
 FROM all_karas AS ak
 WHERE (mediafile LIKE \'%.mp4\' or mediafile LIKE \'%.mp3\')
-GROUP BY ak.pk_kid, ak.title, ak.songorder, ak.subfile, ak.singers, ak.songtypes, ak.languages, ak.authors, ak.misc,
-         ak.platforms, ak.families, ak.genres, ak.series, ak.origins, ak.creators, ak.mediafile, ak.gain,
-         ak.songwriters, ak.versions, ak.serie_singer_sortable, ak.songtypes_sortable
+GROUP BY ak.pk_kid, ak.title, ak.songorder, ak.subfile, ak.mediafile, ak.gain,
+         ak.serie_singer_sortable, ak.songtypes_sortable
 ORDER BY ak.serie_singer_sortable, ak.songtypes_sortable DESC, ak.songorder, lower(unaccent(ak.title))
 ';
 
