@@ -80,7 +80,7 @@ foreach ($data as $kara) {
         if (is_array($content))
         foreach($content as $tag) {
             if (!empty($tag['nolivedownload']) && $tag['nolivedownload']) {
-                echo $kara['mediafile'] . ' ignored, ' . $tag['name'] . ' has noLiveDownload.';
+                echo $kara['mediafile'] . ' ignored, ' . $tag['name'] . ' has noLiveDownload.\n';
                 $skip = true;
                 break;
             }
@@ -91,7 +91,7 @@ foreach ($data as $kara) {
 
     //Series or artist name
 
-    if (!empty($kara['series'])) {
+	if ($kara['series'] != "[]") {
         $series = json_decode($kara['series'], true);
         $seriename = [];
         foreach ($series as $serie) $seriename[] = $serie['name'];
