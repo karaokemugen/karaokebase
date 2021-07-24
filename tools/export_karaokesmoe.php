@@ -24,7 +24,7 @@ try {
     die();
 }
 
-$query = '
+$query = "
 SELECT
   ak.pk_kid AS kid,
   ak.title AS title,
@@ -50,7 +50,7 @@ WHERE (mediafile LIKE \'%.mp4\' or mediafile LIKE \'%.mp3\')
 GROUP BY ak.pk_kid, ak.title, ak.songorder, ak.subfile, ak.mediafile, ak.gain,
          ak.serie_singer_sortable, ak.songtypes_sortable
 ORDER BY ak.serie_singer_sortable, ak.songtypes_sortable DESC, ak.songorder, lower(unaccent(ak.title))
-';
+";
 
 $data = $pdo->query($query)->fetchAll();
 
