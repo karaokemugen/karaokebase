@@ -1,3 +1,131 @@
+# July 2021
+
+Contributors: 
+
+- @Aeden
+- @Atsuyas
+- @Eden
+- @Elliu
+- @Hydraxs
+- @HypokhagneJB
+- @Ion_Negatif
+- @JoeyTM
+- @Kaleidoscope
+- @Karaoke Mugen
+- @Kmeuh
+- @Koheitohikari
+- @Krokro
+- @Kubat
+- @Mutsui
+- @NextFire
+- @Nock
+- @Pierre CAMILLI
+- @Prince7
+- @Rinchama
+- @TheMio
+- @YorokobeZasshu
+- @Yûgao
+- @dovinoxty
+- @fabthehedgehog
+- @gaspar17
+- @lasagna
+- @leonekmi
+- @meulahke
+- @purgatorio
+- @tcyrus
+
+## Added
+
+New songs : 83
+
+- CHI - ELF Academy - OP - Little Ones (@Kaleidoscope)
+- CHI - Honkai Impact 3rd - GAME PV - BunnyJump (@Kaleidoscope)
+- CHI - League of Legends - PC GAME MV - K DA - MORE (@tcyrus)
+- CHI - Love Live! School Idol Festival All Stars - GAME MV - MONSTER GIRLS (@leonekmi)
+- ENG - Children of Daicon - AMV - Twilight (@Kmeuh)
+- ENG - Honkai Impact 3rd - GAME MV - Moon Halo (@Kaleidoscope)
+- ENG - Kiara Takanashi - MV - SPARKS (@Aeden)
+- ENG - Olia Tira, Sunstroke Project - LIVE - Run Away (@gaspar17)
+- ENG - RWBY - ONA AUDIO - Armed and Ready (@fabthehedgehog)
+- ENG - RWBY - ONA AUDIO CS - From Shadows ~ Full Vers (@fabthehedgehog)
+- ENG - RWBY - ONA AUDIO IN - Bad Luck Charm (@fabthehedgehog)
+- ENG - RWBY - ONA AUDIO IN - Ignite (@fabthehedgehog)
+- ENG - RWBY - ONA CS PV - From Shadows (@fabthehedgehog)
+- ENG - RWBY - ONA CS PV - Mirror Mirror (@fabthehedgehog)
+- ENG - THE GOD OF HIGH SCHOOL - ED - WIN (@fabthehedgehog)
+- ENG - Tensei Shitara Slime Datta Ken (2021) - OP2 - Like Flames (@fabthehedgehog)
+- FRE - Moero! Top Striker - OP - L'ecole des champions (@Eden)
+- FRE - Suisse question_mark - MV - Je possede des thunes (@Kmeuh)
+- GER - Attack No.1 - OP - Mila Superstar (@purgatorio)
+- JPN - . - MV - King ~ Cover Vers (@Atsuyas)
+- JPN - Aqua Minato - PV - Youkoso! Sweet Carnival! (@Atsuyas)
+- JPN - Bokutachi no Remake - IN - God knows (@Rinchama)
+- JPN - Brand New Animal - ONA AUDIO OP - Ready to ~ Full Vers (@fabthehedgehog)
+- JPN - Dirty Pair - ED - Space Fantasy (@Prince7)
+- JPN - Dirty Pair Affair of Nolandia - OVA ED - Ai Everlasting (@Prince7)
+- JPN - Dirty Pair OVA - OVA ED - Aki Kara no Summertime (@Prince7)
+- JPN - Dirty Pair OVA - OVA OP - By Yourself (@Prince7)
+- JPN - Etsuko Yakushimaru - MV - Watashi wa Jinrui ~ I m Humanity (@Nock)
+- JPN - Fate Grand Carnival - OVA ED - Wonderful Carnival (@fabthehedgehog)
+- JPN - Fate Grand Carnival - OVA OP - Super Affection (@fabthehedgehog)
+- JPN - Girls und Panzer - AMV - Senshadou Koushinkyoku (@Elliu)
+- JPN - Grappler Baki - OP - Ai Believe (@meulahke)
+- JPN - Hibike! Euphonium - MV - Dream Solister ~ Full Vers (@Karaoke Mugen, @Pierre CAMILLI)
+- JPN - Higurashi no Naku Koro ni Gou - OP - I believe what you said ~ Alternative Vers (@Rinchama)
+- JPN - Higurashi no Naku Koro ni Sotsu - ED - Missing Promise (@Kmeuh)
+- JPN - Higurashi no Naku Koro ni Sotsu - OP - Analogy (@fabthehedgehog)
+- JPN - Kaf - MV - Soshite Hana ni Naru (@Elliu)
+- JPN - Kaf - REMIX MV - Tomadoi Telepathy (Ui Mawigo Remix) (@Elliu)
+- JPN - Kamen Rider W - IN - Nobody's Perfect (@Hydraxs)
+- JPN - Kanata Amane - MV - Owari he mukau hajimari no uta ~ Cover Vers (@Atsuyas)
+- JPN - Kanojo mo Kanojo - ED - Pinky Hook (@NextFire)
+- JPN - Kanojo mo Kanojo - OP - Fuzaketenaize (@Ion_Negatif)
+- JPN - Kidou Senshi Gundam ZZ - AMV - Anime ja Nai Yume o Wasureta Furui Chikyuujin yo ~ Full Vers (@Pierre CAMILLI)
+- JPN - Kobayashi-san Chi no Maidragon S - ED - Maid with Dragons (@Kmeuh)
+- JPN - Kobayashi-san Chi no Maidragon S - OP - Ai no Supreme! (@Kmeuh)
+- JPN - Love Live! Superstar!! - ED1 - Primary ~ NHK Vers (@Kaleidoscope)
+- JPN - Love Live! Superstar!! - IN - Mirai Yohou Hallelujah! (@Kaleidoscope)
+- JPN - LowFat, Onyu - REMIX MV - Vampire ~ Cover Vers (@fabthehedgehog)
+- JPN - Magia Record Mahou Shoujo Madoka Magica Gaiden - GAME OP3 - Utsuroi (@Kmeuh)
+- JPN - Matsuri Natsuiro - MV - Loser Girl ~ Cover Vers (@Atsuyas)
+- JPN - Miko Sakura - MV - My name is Elite (@Atsuyas)
+- JPN - My Next Life as a Villainess All Routes Lead to Doom! X - OP - Andante ni Koi wo Shite (@Koheitohikari)
+- JPN - Nihon Chinbotsu 2020 - MV - Keshiki ~ Full Vers (@Elliu)
+- JPN - Noel Shirogane - MV - King ~ Cover Vers (@Atsuyas)
+- JPN - Non Non Biyori - AMV - Dr. Nyanpasu (@NextFire)
+- JPN - Okayu Nekomata - MV - p.h. ~ Cover Vers (@Atsuyas)
+- JPN - Onyankopon - ONA IN - Mereko Doko ka Toku he (@fabthehedgehog)
+- JPN - Polka Omaru - MV - Jealousies ~ Cover Vers (@Atsuyas)
+- JPN - Princess Connect! Re Dive - GAME ED - Re lation (@NextFire)
+- JPN - Rushia Uruha - MV - Goodbye Sengen (Goodbye Declaration) ~ Cover Vers (@Atsuyas)
+- JPN - Sabbat of the Witch - PC GAME OP - Koiseyo Otome! (@JoeyTM)
+- JPN - Sakura Taisen - OT - Geki! Teikoku Kagekidan ~ Sedeto Vers. bis ~ Cover Vers (@Krokro)
+- JPN - Shin Kidou Senki Gundam Wing - OP2 - Rhythm Emotion ~ Alternative Vers (@HypokhagneJB)
+- JPN - Shinsei Kamattechan - MV - Ruru-chan no Jisatsu Haishin (@Elliu)
+- JPN - Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita - ED - Viewtiful Days (@Kubat)
+- JPN - Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita - IN - Aa, Shoujin (@Elliu)
+- JPN - Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita - IN - Kyomu (@Elliu)
+- JPN - Suisei Hoshimachi - MV - Shoujo Rei ~ Cover Vers (@Atsuyas)
+- JPN - The Case Study of Vanitas - OP - Sora to Utsuro (@fabthehedgehog)
+- JPN - The Detective Is Already Dead - OP - Koko de Ikiteru (@fabthehedgehog)
+- JPN - To Aru Kagaku no Railgun - OVA AMV - Time Warp (@Nock)
+- JPN - Tokyo Revengers - OP - Cry Baby (@fabthehedgehog)
+- JPN - Touhou - MV - Reverse Trigger (@lasagna)
+- JPN - Touhou - REMIX AUDIO - Scream Out! ~ Full Vers (@Mutsui)
+- JPN - Tsuki ga Michibiku Isekai Douchuu - OP - Gambling (@fabthehedgehog)
+- JPN - Vivy - Fluorite Eye's Song - - AUDIO IN - Fluorite Eye's Song ~ Full Vers (@YorokobeZasshu)
+- JPN - YOASOBI - MV - Yoru ni Kakeru ~ Off Vocal Vers (@Yûgao, @TheMio)
+- JPN - ZUTOMAYO - AUDIO - Can't Be Right ~ Off Vocal Vers (@Pierre CAMILLI, @TheMio)
+- JPN - ZUTOMAYO - MV - Inside Joke (@Pierre CAMILLI)
+- JPN - Zombieland Saga Revenge - IN - REVENGE (@dovinoxty)
+- SPA - Dragon Ball Z - OP - CHA-LA HEAD-CHA-LA (@dovinoxty)
+- SPA - Saint Seiya - OP - Pegasus Fantasy (@dovinoxty)
+- UND - Maiko-san Chi no Makanai-san - OP - Opening (@Elliu)
+
+## Fixed
+
+Fixed songs : 712
+
 # June 2021
 
 Contributors: 
