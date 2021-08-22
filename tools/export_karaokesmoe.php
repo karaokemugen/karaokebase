@@ -27,7 +27,7 @@ try {
 $query = "
 SELECT
   ak.pk_kid AS kid,
-  ak.titles AS titles,
+  ak.titles->>'eng' AS title,
   ak.songorder AS songorder,
   ak.subfile AS subfile,
   jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 2)') AS singers,
@@ -47,8 +47,9 @@ SELECT
   jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 14)') AS versions
 FROM all_karas AS ak
 WHERE (mediafile LIKE '%.mp4' or mediafile LIKE '%.mp3')
-GROUP BY ak.pk_kid, ak.tags, ak.titles, ak.songorder, ak.subfile, ak.mediafile, ak.gain, ak.titles_sortable, ak.serie_singer_sortable, ak.songtypes_sortable
-ORDER BY ak.serie_singer_sortable, ak.songtypes_sortable DESC, ak.songorder, ak.titles_sortable
+GROUP BY ak.pk_kid, ak.tags, ak.title, ak.songorder, ak.subfile, ak.mediafile, ak.gain,
+         ak.serie_singer_sortable, ak.songtypes_sortable
+ORDER BY ak.serie_singer_sortable, ak.songtypes_sortable DESC, ak.songorder, lower(unaccent(ak.title))
 ";
 
 $data = $pdo->query($query)->fetchAll();
@@ -194,7 +195,7 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
                 }
             }
 
-            $type_with_num = (!empty($additional_types) ? implode(' ', $additional_types) . ' ' : '') . $type . (!empty($kara['songorder']) ? ' ' . $kara['songorder'] : '') . ' - ' . $languages[0]['name'] . ' - ' . $kara['titles']['eng'];
+            $type_with_num = (!empty($additional_types) ? implode(' ', $additional_types) . ' ' : '') . $type . (!empty($kara['songorder']) ? ' ' . $kara['songorder'] : '') . ' - ' . $languages[0]['name'] . ' - ' . $kara['title'];
 
             $audioOnly = (0 === strpos(strrev($kara['mediafile']), strrev('.mp3'))); // ends with mp3 ? we'll consider it as audio only.
             $mimeType = $audioOnly ? 'audio/mp3' : 'video/mp4';
@@ -203,7 +204,7 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
                     'file' => get_filename_without_ext($kara['mediafile']),
                     'mime' => [$mimeType,],
                     'song' => [
-                        'title' => $kara['titles']['eng'],
+                        'title' => $kara['title'],
                     ],
                     'uid' => $kara['kid'],
                     'gain' => floatval($kara['gain'])
@@ -213,7 +214,7 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
                     'file' => get_filename_without_ext($kara['mediafile']),
                     'mime' => [$mimeType,],
                     'song' => [
-                        'title' => $kara['titles']['eng'],
+                        'title' => $kara['title'],
                     ],
                     'subtitles' => '(unknown)',
                     'uid' => $kara['kid'],
@@ -258,7 +259,7 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
             // Populate the search data with the tags and the differents names of the series
             if (strpos($eggUIDList, $kara['kid']) === false) { // But not with easter eggs
                 $search_data = [
-                    $kara['titles']['eng'],
+                    $kara['title'],
                     $serie_singer
                 ];
                 foreach ($types as $tagtype) {
