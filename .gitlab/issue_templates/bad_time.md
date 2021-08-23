@@ -1,4 +1,4 @@
-# Karaoké mal timé / défectueux
+# Bad time / lyrics
 
-**Problème rencontré** :
+**Your issue** :
 

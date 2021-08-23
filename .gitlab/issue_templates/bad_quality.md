@@ -1,6 +1,7 @@
-# Vidéo de mauvaise qualité
+# Video problem
 
-**Lien : ** (Si vous possédez un lien vers une vidéo de meilleure qualité pour remplacer, indiquez-le ici)
+**Link : **
+<!-- if you have a link to the video in better quality, please put it here -> 
 
-**Commentaires : **
+**Comments : **
 

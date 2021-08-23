@@ -1,29 +1,26 @@
-# Suggestion de karaoké
+# Karaoke suggestion
 
-## Informations obligatoires
+**Series/singer** : 
 
-**Série et type de chanson** si pas déjà dans le titre de l'issue : (exemple : Bleach ED2)
+**Song type** (ED/OP/MV, etc) : 
 
-**Titre de la chanson** :
+**Title** :
 
-## Informations optionnelles
+## Optional
 
-**Lien vers une vidéo** : (de préférence de bonne qualité, Youtube, Dropbox, GDrive, OneDrive, etc.)
+**Video link** (if you have it) : 
 
-**Lien vers les paroles** : (lien animelyrics ou autre)
+**Lyrics link** (animelyrics or other) : 
 
-**Année de production** :
+**Production year** :
 
-**Langue(s)** :
+**Language** :
 
-**Chanteur/euse(s)** :
+**Singer(s)** :
 
-**Compositeur(s)** :
+**Songwriter(s)** :
 
-**Créateur(s)** : (Quel studio a crée l'oeuvre ? Ou quelle entité (Bandai Namco pour Tales Of, par exemple.)
+**Creator(s)** (animation studio, entity, etc.) : 
 
-**Tags supplémentaires** : (Pas animé ? Parodie ? Tokusatsu ? Mecha ?)
-Liste des tags pour vous aider à choisir : https://kara.moe/base/
-
-## Commentaire
+## Comment
 

@@ -1,4 +1,4 @@
-# Problème général
+# General issue
 
-Souci rencontré :
+**What's wrong ?** :
 
