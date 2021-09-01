@@ -1,3 +1,126 @@
+# August 2021
+
+Contributors: 
+
+- @Aeden
+- @Atsuyas
+- @BeVox
+- @Currymalker
+- @Deformer-Lua
+- @Demoto
+- @Eden
+- @Elliu
+- @Fora
+- @Geralt
+- @Kaleidoscope
+- @Kmeuh
+- @Lasagna
+- @Mutsui
+- @NextFire
+- @Nock
+- @Pierre CAMILLI
+- @Rinchama
+- @T-chan
+- @TheMio
+- @fabthehedgehog
+- @link2you
+- @meulahke
+
+## Added
+
+New songs : 86
+
+- ENG - Gura Gawr - AMV - REFLECT (@Aeden)
+- ENG - Initial D Fifth Stage - IN - The Top ~ Full Vers (@Mutsui)
+- ENG - Initial D Fourth Stage - AUDIO IN - Let's go, come on! ~ Full Vers (@Mutsui)
+- ENG - Kaiba - ED - Carry Me Away (@Karaoke Mugen)
+- ENG - Mars Red - ED - ON MY OWN (@Currymalker)
+- ENG - Mori Calliope, Suisei Hoshimachi - MV - GETCHA! ~ Cover Vers (@Aeden)
+- ENG - Nyanners - OT - Chug Jug With You ~ Cover Vers (@Elliu)
+- ENG - RWBY - ONA AUDIO IN - I'm the One (@fabthehedgehog)
+- ITA - Hokuto no Ken - AMV - Ken il guerriero (@Fora)
+- JPN - Aika Kobayashi - MV - Tatehoko Tsubasa (@Kaleidoscope)
+- JPN - Aina Suzuki - MV - Shiny Racers (@Kaleidoscope)
+- JPN - Anya Melfissa, Ollie Kureiji, Reine Pavolia - MV - Ochame Kinou ~ Hololive Indonesia Generation 2 Vers. ~ Cover Vers (@Aeden)
+- JPN - Aqua Minato - MV - Kaisou Ressha (@Atsuyas)
+- JPN - Aqua Minato, Pekora Usada, Subaru Oozora - MV - Curry Meshi in Miracle (@Aeden)
+- JPN - Bakemonogatari - OP4 - Ren'ai Circulation ~ Off Vocal Vers (@Nock, @TheMio, @Rinchama)
+- JPN - Bakuretsu Tenshi - OP - Loosey (@fabthehedgehog)
+- JPN - Boku no Hero Academia S5 - OP2 - Merry-Go-Round (@Deformer-Lua)
+- JPN - Botan Shishiro, Lamy Yukihana, Nene Momosuzu - AUDIO - BLUE CLAPPER ~ Short Vers (@Aeden)
+- JPN - Dumbbell Nan Kilo Moteru question_mark - MV - Onegai Muscle ~ Hololive Vers. ~ Cover Short Vers (@Nock)
+- JPN - GUMI - AUDIO - Sentimental na Aiboshin ~ Off Vocal Vers (@Demoto, @TheMio)
+- JPN - GUMI - MV - Envy Baby (@BeVox)
+- JPN - GUMI, MikitoP - MV - PLATONIC GIRL ~ Off Vocal Vers (@Demoto, @TheMio)
+- JPN - HoneyWorks, Inori Minase - MV - Heroine Ikusei Keikaku (@Kaleidoscope)
+- JPN - Hortensia Saga - OP - LEADER (@Currymalker)
+- JPN - Hungry Heart Wild Striker - OP1 - 2nd Stage (@link2you)
+- JPN - Ina'nis Ninomae - MV - VIOLET (@T-chan, @Aeden)
+- JPN - Inori Minase - MV - Heroine Taru Mono (@Kaleidoscope)
+- JPN - KAFU - MV - Phony (@BeVox)
+- JPN - KAFU - MV - Phony ~ Off Vocal Vers (@BeVox)
+- JPN - Kidou Senshi Gundam - Senkou no Hathway - AMV - Senkou ~ Full Vers (@meulahke)
+- JPN - Kono Subarashii Sekai ni Shukufuku wo! Fantastic Days - GAME OP - Happy Magic (@meulahke)
+- JPN - Len Kagamine - MV - Ego Rock ~ Off Vocal Short Vers (@BeVox)
+- JPN - Len Kagamine - MV - Ego Rock ~ Short Vers (@BeVox)
+- JPN - Love Live! Sunshine!! - LIVE - Aqours Pirate Desire (@Kaleidoscope)
+- JPN - Macross 7 - AMV - Try Again (@meulahke)
+- JPN - Magia Record Mahou Shoujo Madoka Magica Gaiden 2nd Season - Kakusei Zen'ya - OP - Careless (@Kmeuh)
+- JPN - Marine Houshou - MV - Music Hour ~ Cover Vers (@Atsuyas)
+- JPN - Marine Houshou - MV - Sasakure Cinema (@Atsuyas)
+- JPN - Marine Houshou - MV - Unison (@Atsuyas)
+- JPN - Megatera Zero - MV - Phony ~ Cover Vers (@BeVox)
+- JPN - Miko Sakura - MV - Kagetsu no Yume (@Atsuyas)
+- JPN - Miku Hatsune - MV - Tears (@BeVox)
+- JPN - Miku Hatsune - MV - Tears ~ Off Vocal Vers (@BeVox)
+- JPN - Miku Hatsune - MV - Theory of Negativity (@BeVox)
+- JPN - Mio Ookami - MV - Howling (@Atsuyas)
+- JPN - Mio Ookami, Okayu Nekomata, Subaru Oozora - OT - Sashimio (@Atsuyas)
+- JPN - Misumi, RIM - MV - Flowering (with Misumi) (@Elliu)
+- JPN - Naruto - ED3 - Viva Rock (@fabthehedgehog)
+- JPN - Okayu Nekomata - MV - Nemuru Machi ~ Cover Vers (@Atsuyas)
+- JPN - Polka Omaru - MV - EverBlue (@Atsuyas)
+- JPN - Polka Omaru - MV - Vampire ~ Cover Vers (@Atsuyas)
+- JPN - Raise de wa Chanto Shimasu - OP2 - Ultimate Love Zenbu (@Deformer-Lua)
+- JPN - Rikei ga Koi ni Ochita no de Shoumei Shite Mita. - MV - Turing Love ~ Aqua & Okayu Vers. ~ Cover Full Vers (@Aeden)
+- JPN - Rikei ga Koi ni Ochita no de Shoumei Shite Mita. - MV - Turing Love ~ Full Vers (@Aeden)
+- JPN - Rikei ga Koi ni Ochita no de Shoumei Shite Mita. - MV - Turing Love ~ PekoMoon Vers. ~ Cover Full Vers (@Aeden)
+- JPN - Rikei ga Koi ni Ochita no de Shoumei Shite Mita. - ONA ED - Turing Love (@Aeden)
+- JPN - Shin Evangelion Gekijouban - MOVIE IN - VOYAGER ~ Hizuke no Nai Bokyou (@Kmeuh)
+- JPN - Shion Murasaki - MV - Mage of Violet (@Atsuyas)
+- JPN - Shion Murasaki - MV - Vampire ~ Cover Vers (@Atsuyas)
+- JPN - Space Dandy - MV - Viva Namida ~ Full Vers (@fabthehedgehog)
+- JPN - The Kabocha Wine - OP - L wa Lovely (@Eden)
+- JPN - The Kagestar - OP - Kagayaku taiyou Kagestar (@Eden)
+- JPN - The iDOLM@STER - MV - VOY@GER (@Kmeuh)
+- JPN - Tokyo Revengers - MV - Cry Baby ~ Cover Full Vers (@Atsuyas)
+- JPN - Touhou - AUDIO - Fly out! Bankikki ~ Full Vers (@Lasagna)
+- JPN - Touhou - AUDIO - Going Through the Ten Ways in Which Koishi is Properly Sweet (@Lasagna)
+- JPN - Touhou - MV - HELLOHELL (@Lasagna)
+- JPN - Towa Tokoyami - MV - -ERROR (@Kaleidoscope)
+- JPN - Tropical-Rouge! Precure - ED2 - Akogare Go My Way!! (@meulahke)
+- JPN - Uma Musume Pretty Derby - GAME OP - Girls' Legend U (@meulahke)
+- JPN - Umineko no Naku Koro ni Saku ~Nekobako to Musou no Koukyoukyoku~ - PS4 SWITCH GAME OP2 - Hakkin No Empireo (@Geralt)
+- JPN - YOASOBI - MV - Gunjou ~ Off Vocal Vers (@Demoto, @TheMio)
+- JPN - Yama - MV - Nemuru Machi (@Atsuyas)
+- JPN - ZUTOMAYO - MV - Darken ~ Off Vocal Vers (@Pierre CAMILLI, @TheMio)
+- JPN - ZUTOMAYO - MV - Fastening ~ Off Vocal Vers (@Pierre CAMILLI, @TheMio)
+- JPN - ZUTOMAYO - MV - Ham ~ Off Vocal Vers (@Pierre CAMILLI, @TheMio)
+- JPN - ZUTOMAYO - MV - Haze Haseru Haterumade ~ Off Vocal Vers (@TheMio, @NextFire)
+- JPN - ZUTOMAYO - MV - Humanoid ~ Off Vocal Vers (@Pierre CAMILLI, @TheMio)
+- JPN - ZUTOMAYO - MV - Hunch Gray ~ Off Vocal Vers (@Pierre CAMILLI, @TheMio)
+- JPN - ZUTOMAYO - MV - Inside Joke ~ Off Vocal Vers (@Pierre CAMILLI, @TheMio)
+- JPN - ZUTOMAYO - MV - Kansaete Kuyashiiwa ~ Off Vocal Vers (@Pierre CAMILLI, @TheMio)
+- JPN - ZUTOMAYO - MV - MILABO ~ Off Vocal Vers (@Pierre CAMILLI, @TheMio)
+- JPN - ZUTOMAYO - MV - One's Mind ~ Off Vocal Vers (@Pierre CAMILLI, @TheMio)
+- JPN - ZUTOMAYO - MV - STUDY ME ~ Off Vocal Vers (@Elliu, @TheMio)
+- JPN - Zombieland Saga - IN - Rise Again (@fabthehedgehog)
+- JPN - Zombieland Saga Revenge - IN - Furious Survival (@fabthehedgehog)
+
+## Fixed
+
+Fixed songs : 260
+
 # July 2021
 
 Contributors: 
