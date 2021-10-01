@@ -1,3 +1,172 @@
+# September 2021
+
+Contributors: 
+
+- @Aeden
+- @Amo
+- @Atsuyas
+- @BeVox
+- @Canni
+- @Cocs
+- @Currymalker
+- @Deformer-Lua
+- @Dysp
+- @Eden
+- @Elliu
+- @Emethyste
+- @Evla
+- @Fora
+- @Kaleidoscope
+- @Kmeuh
+- @Koheitohikari
+- @Kramoule
+- @Krocoh
+- @Lasagna
+- @Lec
+- @Nodamin
+- @Pierre CAMILLI
+- @Prince7
+- @Rubn4
+- @Shlaky
+- @Subkei
+- @TheMio
+- @Theo33500
+- @UniversJB
+- @Uwhipa
+- @asdFer
+- @dj_pazzo
+- @dovinoxty
+- @fabthehedgehog
+- @meulahke
+- @noa
+- @noisemaker87
+- @omega-xis
+- @tcyrus
+
+## Added
+
+New songs : 115
+
+- CHI - Love Live! School Idol Festival All Stars - GAME CS MV - Ye Mingzhu (@Theo33500)
+- CHI - Love Live! School Idol Festival All Stars - GAME MV - Queendom (@tcyrus)
+- ENG - 86 - MV - THE ANSWER ~ Full Vers (@Kmeuh)
+- ENG - Anthony McBazooka - AMV - Merci Twingo (@Krocoh)
+- ENG - Cowboy Bebop (Netflix) - ONA OP - Tank! (@Kmeuh)
+- ENG - DEMONDICE - MV - ALKATRAZ (@fabthehedgehog)
+- ENG - Final Fantasy XIV - GAME PC PS4 MV - Ultima ~ Full Vers (@Amo)
+- ENG - Gura Gawr, Mori Calliope - MV - KING ~ Cover Vers (@fabthehedgehog)
+- ENG - Kenpuu Denki Berserk - OP - Tell Me Why ~ Alternative Vers (@fabthehedgehog)
+- ENG - Kidou Senshi Gundam Tekketsu no Orphans - MV - Raise your flag ~ Full Vers (@Currymalker)
+- ENG - LazuLight - MV - Diamond City Lights (@Amo)
+- ENG - Mori Calliope - MV - Ijimekko Bully (@fabthehedgehog)
+- ENG - Nanatsu no Taizai - MV - Seven Deadly Sins ~ Full Vers (@Currymalker)
+- ENG - Naruto - OP1 - Believe It! (@Amo)
+- ENG - Ninja Sex Party - MV - Africa ~ Cover Vers (@fabthehedgehog)
+- ENG - Nu Wushen de Canzhuo 2 - ONA OP - You Are My Destiny (@Kaleidoscope)
+- ENG - RWBY - ONA AUDIO ED - Nevermore ~ Full Vers (@Uwhipa)
+- ENG - Tales of Arise - GAME PS5 PS4 XBOXONE PC OP - HIBANA (@Pierre CAMILLI)
+- ENG - The Real Ghostbusters - OP - Ghostbusters (@Fora)
+- GER - Shin Seiki Evangelion - AMV - Engel (@Canni)
+- IND - Anya Melfissa, Iofifteen Airani, Moona Hoshinova - MV - id entity voices (@Aeden)
+- ITA - Alps no Shoujo Heidi - OP - Heidi (@dj_pazzo)
+- ITA - Candy Candy - OP1 - Candy Candy (@Fora)
+- ITA - Dragon Ball Z - OP - What's My Destiny Dragon Ball (@noisemaker87)
+- ITA - DuckTales (1987) - OP - DuckTales (@Fora)
+- ITA - Ganbare Genki - OP - Forza Sugar! (@Fora)
+- ITA - Ginga Tetsudou 999 - AUDIO OP - Galaxy ~ Full Vers (@Fora)
+- ITA - Mirai Shounen Conan - AUDIO OP - Conan ~ Full Vers (@Fora)
+- ITA - Ochamegami Monogatari Korokoro Pollon - AMV - Pollon, Pollon combinaguai ~ Full Vers (@Fora)
+- ITA - Ochamegami Monogatari Korokoro Pollon - OP - Pollon, Pollon combinaguai (@Fora)
+- ITA - Time Bokan Series Yattodetaman - OP - Calendar Men (@Fora)
+- ITA - Uchuu Kaizoku Captain Harlock - OP - Capitan Harlock (@Fora)
+- JPN - 7 SEEDS - ONA OP - Ark (@Emethyste)
+- JPN - Assault Lily Bouquet - ED2 - Heart Plus Heart (@tcyrus)
+- JPN - Boku no Hero Academia S5 - MV - Merry-Go-Round ~ Full Vers (@Deformer-Lua)
+- JPN - Chogakusei - MV - Encore ~ Cover Vers (@BeVox)
+- JPN - Chogakusei - MV - Envy Baby ~ Cover Vers (@BeVox)
+- JPN - Danganronpa Kibou no Gakuen to Zetsubou no Koukousei - GAME PSP ED - Saisei -rebuild- ~ Full Vers (@Lasagna)
+- JPN - Digimon Adventure (2020) - ED2 - Q question_mark (@Amo)
+- JPN - Dirty Pair Project Eden - MOVIE OP - Safari Eyes (@Prince7)
+- JPN - Dora, Elu, Himawari Honma - MV - Virtual to LIVE (@Aeden)
+- JPN - Fena Pirate Princess - OP - The Sea and a Pearl (@Pierre CAMILLI)
+- JPN - Free! - MV - RAGE ON ~ Full Vers (@asdFer)
+- JPN - Fushigi no Umi no Nadia - AMV - Blue Water -21st century ver.- ~ Full Vers (@Pierre CAMILLI)
+- JPN - Fushigi no Umi no Nadia - MV - Blue Water ~ Full Vers (@Pierre CAMILLI)
+- JPN - Gintama' - MV - Samurai Heart (Some Like It Hot!!) ~ Full Vers (@asdFer)
+- JPN - Gintama' Enchousen - MV - Sakura Mitsutsuki ~ Full Vers (@asdFer)
+- JPN - Heion Sedai no Idaten-tachi - OP - Seija no Koushin (@meulahke)
+- JPN - Iofifteen Airani, Watame Tsunomaki - MV - Vampire ~ Cover Vers (@Atsuyas)
+- JPN - Jahy-sama wa Kujikenai! - OP1 - Fightin Pose (@fabthehedgehog)
+- JPN - Jujutsu Kaisen - ED2 - give it back (@Amo)
+- JPN - KAFU - MV - Unscrupulous Cheers (@BeVox)
+- JPN - KAFU - MV - Unscrupulous Cheers ~ Off Vocal Vers (@BeVox, @TheMio)
+- JPN - Kantai Collection - MV - Miiro ~ Full Vers (@Currymalker)
+- JPN - Kikuo Hana - MV - Hikari yo (@Cocs)
+- JPN - Kobayashi-san Chi no Maid Dragon - MV - Aozora no Rhapsody ~ Alternative Full Vers (@Deformer-Lua)
+- JPN - Komi-san wa, Komyushou Desu. - OP - Cinderella (@Kmeuh)
+- JPN - Korone Inugami - REMIX AUDIO - Rap Doog ~E5TATIK Vers. ~ Short Vers (@Aeden)
+- JPN - Lina no Atelier ~Strahl no Renkinjutsushi~ - GAME DS OP - Flora (@Emethyste)
+- JPN - Log Horizon - MV - database ~ Full Vers (@Currymalker)
+- JPN - Love Live! Sunshine!! - LIVE - Deep Resonance (@Kaleidoscope)
+- JPN - Lucky Star - IN - Hare Hare Yukai ~ Short Vers (@Kmeuh)
+- JPN - MUTEKING THE Dancing HERO - ED - Kibou no uta (@meulahke)
+- JPN - Magia Record Mahou Shoujo Madoka Magica Gaiden 2nd Season - Kakusei Zen'ya - ED - Lapis (@Kmeuh)
+- JPN - Magic Kaito - SPECIAL OP2 - Kimi no Namida ni Konna ni Koi Shiteru (@UniversJB)
+- JPN - Magical Battle Festa - GAME OP - Hoshi no Kizuna -Star Chain- (@Kramoule)
+- JPN - Meitantei Conan - OP4 - Unmei no Roulette Mawashite ~ Alternative Vers (@UniversJB)
+- JPN - Miku Hatsune - GAME PS4 MV - Clover Club (@Currymalker)
+- JPN - Miku Hatsune - MV - ODDS&ENDS ~ Full Vers (@Aeden, @Currymalker)
+- JPN - Miku Hatsune - REMIX AUDIO - Turkish March - It's Over (^o^) ~ Cover Vers (@omega-xis)
+- JPN - Moona Hoshinova - MV - Ai no Chiisana Uta (@Aeden)
+- JPN - Nekoyashiki - MV - Mashou no Kamatoto Anzu-hen Aza ~ Cover Vers (@Elliu)
+- JPN - ONE OK ROCK - MV - Re make (@Subkei)
+- JPN - Osananajimi ga Zettai ni Makenai Love Comedy - OP - Chance & Revenge! (@Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Bitter Choco Decoration ~ Cover Vers (@Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Charles ~ Cover Short Vers (@Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Dance Robot Dance ~ Cover Vers (@Shlaky, @Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Fragile ~ Cover Vers (@noa)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Hitorinbo Envy ~ Cover Short Vers (@Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - ID Smile ~ Short Vers (@Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Infinitely Gray ~ Short Vers (@Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Jackpot Sad Girl (@noa)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Jishou Mushoku ~ Cover Short Vers (@Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Kuyamu to Kaite Mirai ~ Short Vers (@Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Saisei (@Amo)
+- JPN - RIM - MV - Luscious Lawless (@Elliu)
+- JPN - RIM - MV - Tall Story (@Elliu)
+- JPN - Rick & Morty - OP - Rick and Two Crows (@dovinoxty)
+- JPN - Rikka (Hololive) - MV - Vampire ~ Cover Vers (@Atsuyas)
+- JPN - Seijo no Maryoku wa Bannou Desu - OP - Blessing (@Lec)
+- JPN - Shinigami Bocchan to Kuro Maid - ED - Nocturne (@Koheitohikari)
+- JPN - Shinigami Bocchan to Kuro Maid - OP - Mangetsu to Silhouette no Yoru (@Koheitohikari)
+- JPN - Shoujo Kageki Revue Starlight - LIVE - Gyoshite Gyoshaza (@Kaleidoscope)
+- JPN - Sonny Boy - ED - Shounen Shoujo (@Koheitohikari)
+- JPN - Suisei Hoshimachi - MV - Jibunkatte Dazzling (@Nodamin)
+- JPN - Suisei Hoshimachi - MV - Kakero (@Nodamin)
+- JPN - Sword Art Online - MV - crossing field ~ Full Vers (@asdFer)
+- JPN - Tom Sawyer no Bouken - ED - Boku no Mississippi (@Eden)
+- JPN - Tom Sawyer no Bouken - OP - Dare yori mo Tooku he (@Eden)
+- JPN - Touhou - AMV - Earphone Romance (@Atsuyas)
+- JPN - Touhou - AUDIO - Chimamire Dancing Party Night kyutto shite DOKAAN (@Lasagna)
+- JPN - Touhou - AUDIO - Marisa -Shanghai mix- (@Lasagna)
+- JPN - Touhou - GAME AUDIO - Matsuyoi Night Bug (@Atsuyas)
+- JPN - Touhou - LIVE - Cirno's Perfect Math Class ~ Cover Full Vers (@Atsuyas)
+- JPN - Uchuu Senkan Yamato 2199 - OVA OP1 - Uchuu Senkan Yamato ~ A Capella Intro Vers. ~ Alternative Vers (@Aeden, @Evla)
+- JPN - YOASOBI - MV - Tabun (@Dysp)
+- JPN - YOASOBI - MV - Tabun ~ Off Vocal Vers (@Dysp, @TheMio)
+- JPN - Yume no Crayon Oukoku - OP - N.paka March (@Kmeuh)
+- JPN - Zombieland Saga - AMV - Rise Again ~ Full Vers (@fabthehedgehog)
+- JPN - Zombieland Saga - AMV - Sensei! Alive Sensation (@fabthehedgehog)
+- JPN - Zombieland Saga Revenge - AMV - Furious Survival ~ Full Vers (@fabthehedgehog)
+- JPN - hololive IDOL PROJECT - MV - Shiny Smily Story (@Kaleidoscope)
+- JPN - riria. - MV - Onomatope (@Elliu)
+- KOR - BLACKPINK - MV - DDU-DU DDU-DU (@Rubn4, @Aeden)
+- KOR - BTS - MV - IDOL (@Subkei)
+
+## Fixed
+
+Fixed songs : 178
+
 # August 2021
 
 Contributors: 
