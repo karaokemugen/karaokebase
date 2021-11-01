@@ -1,3 +1,201 @@
+# October 2021
+
+Contributors: 
+
+- @Adrian
+- @Aeden
+- @Amo
+- @Atsuyas
+- @BeVox
+- @Beneblade
+- @Colgate
+- @ConejoF1
+- @Currymalker
+- @Deformer-Lua
+- @Elliu
+- @Fora
+- @Gang-Dj
+- @Gilrael
+- @Hydraxs
+- @Kaleidoscope
+- @Kmeuh
+- @Koheitohikari
+- @Kubat
+- @Lasagna
+- @Lorchen
+- @MaxSonic
+- @NextFire
+- @Nock
+- @Nodamin
+- @Pierre CAMILLI
+- @Prince7
+- @Rinchama
+- @Rodstar
+- @Rubn4
+- @Sting
+- @Subkei
+- @TeLiXj
+- @TheMio
+- @UniversJB
+- @Uwhipa
+- @asdFer
+- @dj_pazzo
+- @fabthehedgehog
+- @gun88
+- @leonekmi
+- @memo65
+- @meulahke
+- @noa
+- @tcyrus
+
+## Added
+
+New songs : 139
+
+- ENG - Carole & Tuesday - IN - Light A Fire (@Uwhipa)
+- ENG - Digimon The Movie - IN - One Week (@Kmeuh)
+- ENG - FAKE TYPE. - MV - FAKE LAND (@fabthehedgehog)
+- ENG - Gura Gawr - OT - The Last Stand ~ Cover Vers (@Kaleidoscope)
+- ENG - KISS, Momoiro Clover Z - MV - Yume no Ukiyo ni Saitemina (@Pierre CAMILLI)
+- ENG - League of Legends - GAME PC MV - K DA - I LL SHOW YOU (@Currymalker)
+- ENG - League of Legends - GAME PC MV - K DA - THE BADDEST (@tcyrus, @Currymalker)
+- ENG - League of Legends - GAME PC MV - K DA - VILLAIN (@Currymalker)
+- ENG - League of Legends - MV - K DA - DRUM GO DUM (@Currymalker)
+- ENG - League of Legends - MV - K DA - VILLAIN ~ Moona Hoshinova Vers. ~ Cover Vers (@Currymalker)
+- ENG - Mori Calliope - MV - end of a life (@fabthehedgehog)
+- ENG - One Piece - OP - Pirate Rap (@Pierre CAMILLI)
+- ENG - Shiguang Dailiren - ONA OP - Dive Back In Time (@Kaleidoscope, @tcyrus)
+- ENG - Shirokuma Cafe - OP3 - You&Me (@Amo)
+- ENG - The Beatles Rock Band - GAME PS3 XBOX360 WII OP - The Beatles Rock Band Intro (@Amo)
+- ENG - The Nightmare Before Christmas - MOVIE OP - This is Halloween (@Amo)
+- FRE - Antoine Daniel - IN - J'aime mettre mon penis dans des yaourts (@Deformer-Lua)
+- FRE - Babar - OP - Babar (@Colgate)
+- FRE - Clifford the Big Red Dog - OP - Clifford the Big Red Dog (@Colgate)
+- FRE - Jean-Marie Bigard - MV - Complotiste feat. Jean-Marie Bigard ~ Synthwave remix (@Nock)
+- FRE - Pablo le petit renard rouge - OP - Pablo the Little Red Fox (@Colgate)
+- ITA - Alps no Shoujo Heidi - AUDIO OP - Heidi ~ Full Vers (@dj_pazzo)
+- ITA - My Little Pony - OP - Vola Mio Mini Pony (@Fora)
+- ITA - Teenage Mutant Ninja Turtles - AMV - Tartarughe Ninja Alla Riscossa ~ Full Vers (@gun88)
+- ITA - Teenage Mutant Ninja Turtles - OP - Tartarughe Ninja Alla Riscossa (@gun88)
+- JPN - 86 - OP2 - Kyoukaisen (@Amo)
+- JPN - AZKi, Sora Tokino - MV - Setsunatick Code (@Kaleidoscope)
+- JPN - Aikatsu Planet! - IN - FLYING TIPS (@Rodstar)
+- JPN - Aikatsu Planet! - IN - Fantastic Imagination (@Rodstar)
+- JPN - Blue Period - OP - EVERBLUE (@Prince7)
+- JPN - Deep Insanity Asylum - MV - Madoromi (@Aeden)
+- JPN - Dohna Dohna Issho ni Warui Koto wo Shiyou - GAME OP - Dohna Dohna no uta (@meulahke)
+- JPN - Dragon Ball - AMV - Makafushigi Adventure ~ Animetal Vers. ~ Cover Metal Vers (@memo65)
+- JPN - Eiga Star Twinkle Precure Hoshi no Uta ni Omoi o Komete - MOVIE ED - Twinkle Stars (@Kaleidoscope)
+- JPN - Enna Alouette - MV - departure! ~ Cover Vers (@Amo)
+- JPN - Fate stay night Unlimited Blade Works (2015) - MV - ring your bell ~ Full Vers (@Currymalker)
+- JPN - GUMI - MV - Envy Baby ~ Off Vocal Vers (@BeVox)
+- JPN - Gag manga biyori - OP - Attack! Gag manga biyori (@meulahke)
+- JPN - Gag manga biyori 2 - OP - Oahu! Hawaii Biyori (@meulahke)
+- JPN - Gag manga biyori 3 - OP - Body Line (@meulahke)
+- JPN - Gag manga biyori Plus - OP - Kibou no uchuu no (@meulahke)
+- JPN - Hanma Baki Son of Ogre - ONA OP - Treasure Pleasure (@Lasagna)
+- JPN - Higashi no Eden - OP - Michael ka Belial (@Kmeuh)
+- JPN - Idol Land PriPara - ONA IN - Chaotic Hurricane (@Rodstar)
+- JPN - Idol Land PriPara - ONA OP - OPEN DREAM LAND! (@Rodstar)
+- JPN - Iofifteen Airani, Moona Hoshinova, Risu Ayunda - MV - Ochame Kinou ~ Hololive Indonesia Generation 1 Vers. ~ Cover Vers (@Aeden)
+- JPN - Josee to Tora to Sakana-tachi - MOVIE ED - Ao no Waltz (@Rinchama)
+- JPN - Josee to Tora to Sakana-tachi - MOVIE IN - Shinkai (@Rinchama)
+- JPN - Kageki Shoujo!! - ED1 - Hoshi no Tabibito (@Nodamin)
+- JPN - Kageki Shoujo!! - OP - Hoshi no Orchestra (@Kaleidoscope)
+- JPN - Keroro Gunsou - OP1 - KERO! to MARCH (@Pierre CAMILLI)
+- JPN - Kimetsu no Yaiba Mugen Ressha-hen - OP - Akeboshi (@Amo)
+- JPN - Kiratto Pri Chan season 1 - IN - Sparkling Awakening Reincarnation (@Rodstar)
+- JPN - Kiratto Pri Chan season 3 - IN - Despertar del SOL! (@Rodstar)
+- JPN - Kiratto Pri Chan season 3 - IN - Merry Merry Fantasia! (@Rodstar)
+- JPN - Len Kagamine, Rin Kagamine - MV - The Apocalypse 13th (@Uwhipa)
+- JPN - Love Live! School Idol Project - MV - Wonderful Rush ~ Full Vers (@Beneblade)
+- JPN - Love Live! Sunshine!! - LIVE - CYaZALEA Kiss DADANDAAAN (@Kaleidoscope)
+- JPN - Love Live! Sunshine!! - LIVE - New Romantic Sailors (@Kaleidoscope)
+- JPN - Love Live! Sunshine!! - LIVE - Thrilling.One Way (@Kaleidoscope)
+- JPN - Love Live! Superstar!! - IN - Nonfiction!! (@MaxSonic)
+- JPN - Luka Megurine, Miku Hatsune - MV - Identity (@Aeden)
+- JPN - MUTEKING THE Dancing HERO - OP - Labyrinth (@meulahke)
+- JPN - MUTEKING THE Dancing HERO - REMIX IN - Roller Hero Muteking (@Hydraxs)
+- JPN - Mach Go Go Go - OP - Mach Go Go Go (@meulahke)
+- JPN - Maison Ikkoku Kanketsu-hen - MOVIE ED - Kiss of Glass (@Prince7)
+- JPN - Meitantei Conan - OP22 - Ai wa Kurayami no Naka de ~ Alternative Vers (@UniversJB)
+- JPN - Miku Hatsune - MV - Theory of Negativity ~ Off Vocal Vers (@BeVox)
+- JPN - Nene Momosuzu, Reine Pavolia - MV - Identity ~ Cover Vers (@Aeden)
+- JPN - Ou-sama Ranking - ED - Oz (@meulahke)
+- JPN - Ou-sama Ranking - OP - BOY (@meulahke)
+- JPN - Peter Grill to Kenja no Jikan - OP - Tsuranuite Yuuutsu (@Amo)
+- JPN - PriPara - OP5 - Bright Fantasy (@Nodamin)
+- JPN - PriPara - OP6 - Goin' on (@Nodamin)
+- JPN - PriPara - OP7 - Ready Smile!! (@Nodamin)
+- JPN - PriPara - OP8 - Brand New Dreamer (@Nodamin)
+- JPN - PriPara - OP9 - Shining Star (@Nodamin)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Chururira Chururira Daddadda! ~ Cover Vers (@Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Ikanaide ~ Cover Vers (@Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Keitai Renwa (@Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Lost One's Weeping ~ Cover Short Vers (@Amo, @noa)
+- JPN - Rockman Zero 2 - GAME AMV - Clover (@Lasagna)
+- JPN - Ryuu to Sobakasu no Hime - MOVIE AUDIO ED - A Million Miles Away (Reprise) (@Rinchama)
+- JPN - Ryuu to Sobakasu no Hime - MOVIE AUDIO IN - A Million Miles Away ~ Full Vers (@Rinchama)
+- JPN - Ryuu to Sobakasu no Hime - MOVIE MV - A Million Miles Away ~ Short Vers (@Rinchama)
+- JPN - Saku Sasaki - REMIX MV - Sasaki is hated (Hated by life itself) ~ Cover Vers (@Atsuyas)
+- JPN - Sakugan - OP - Koukotsu Labyrinth (@fabthehedgehog)
+- JPN - Seirei Tsukai No Blade Dance - AMV - KN33SOXXX ~ Full Vers (@Colgate)
+- JPN - Selection Project - ED - Only one yell (@Kaleidoscope)
+- JPN - Senpai ga Uzai Kouhai no Hanashi - OP - Annoying! Sansan Week! (@Kmeuh)
+- JPN - Shangri-La - ED1 - Hajimari no Asa ni Hikari Are (@Lasagna)
+- JPN - Shin Goketsuji Ichizoku Bonnou Kaihou - GAME PS2 MV - Let's Go, Necromancer (@Pierre CAMILLI)
+- JPN - Shin Kamen Rider - MOVIE PV - Let's Go!! Rider Kick (@Kmeuh)
+- JPN - Sonny Boy - ED1 - Shounen Shoujo (@Prince7, @Koheitohikari)
+- JPN - Suisei Hoshimachi - AMV - Pieces (@Nodamin)
+- JPN - Suisei Hoshimachi - MV - Bluerose ~ Off Vocal Vers (@Atsuyas)
+- JPN - Suisei Hoshimachi - MV - GHOST ~ Off Vocal Vers (@Nodamin)
+- JPN - Suisei Hoshimachi - MV - Jibunkatte Dazzling ~ Off Vocal Vers (@Nodamin)
+- JPN - Suisei Hoshimachi - MV - Kakero ~ Off Vocal Vers (@Nodamin)
+- JPN - Suisei Hoshimachi - MV - Stellar Stellar (@Nodamin)
+- JPN - Suisei Hoshimachi - MV - Tenkyuu, Suisei wa Yoru wo Mataide (@Nodamin)
+- JPN - Suisei Hoshimachi - MV - comet (@Nodamin)
+- JPN - Tales of Arise - GAME XBOXONE PS4 PC PS5 OP2 - Hello Again ~Mukashi Kara Aru Basho~ (@Pierre CAMILLI)
+- JPN - Touhou - AMV - From Me to You (@Lasagna)
+- JPN - Touhou - AUDIO - GOZOKLAMB (@Lasagna)
+- JPN - Touhou - MV - Black Mirror on the Wall (@Lasagna)
+- JPN - Touhou - MV - KARMANATIONS (@Elliu)
+- JPN - Touhou - MV - KilLove Fireproof! (@Elliu, @Lasagna)
+- JPN - Touhou - MV - Suiseimushi -Hedonism- (@Sting)
+- JPN - Touhou - MV - WARNINGxWARNINGxWARNING (@Sting)
+- JPN - Touhou - REMIX AMV - Yukemuri Tamaonsen II (@Atsuyas)
+- JPN - Touhou, War Thunder, World of Warplanes - GAME PC AMV - Lullaby for Lost child (@Elliu)
+- JPN - Tsuredure Children - OP - Aimai Moko (@NextFire)
+- JPN - Waccha PriMagi! - IN - Starlight! (@Rodstar)
+- JPN - Yuuki Yuuna wa Yuusha de Aru - ED2 - Inori no Uta (@Adrian)
+- JPN - Yuuki Yuuna wa Yuusha de Aru - ED2 - Inori no Uta ~ Acoustic Vers (@Kaleidoscope)
+- JPN - ZUTOMAYO - LIVE - Byoushin wo Kamu (@Pierre CAMILLI, @TheMio)
+- JPN - ZUTOMAYO - LIVE - Can't Be Right (@Pierre CAMILLI, @TheMio)
+- JPN - ZUTOMAYO - LIVE - Darken (@Pierre CAMILLI, @TheMio)
+- JPN - ZUTOMAYO - LIVE - Humanoid ~ Short Vers (@Pierre CAMILLI, @TheMio)
+- JPN - ZUTOMAYO - LIVE - Hunch Gray (@Pierre CAMILLI, @TheMio)
+- JPN - ZUTOMAYO - LIVE - Kansaete Kuyashiiwa ~ Short Vers (@Pierre CAMILLI, @TheMio)
+- JPN - ZUTOMAYO - LIVE - MILABO (@leonekmi, @TheMio)
+- JPN - ZUTOMAYO - LIVE - One's Mind (@Pierre CAMILLI, @TheMio)
+- JPN - ZUTOMAYO - LIVE - STUDY ME (@Elliu, @TheMio)
+- JPN - ZUTOMAYO - MV - Stay Foolish (@Pierre CAMILLI)
+- JPN - ZUTOMAYO - MV - Stay Foolish ~ Off Vocal Vers (@Pierre CAMILLI, @TheMio)
+- JPN - Zombieland Saga Revenge - REMIX GAME OP - Taiga yo Tomo ni Naitekure ~ 8-bit Vers (@Kubat)
+- SPA - Captain Tsubasa - OP - Moete Hero (@ConejoF1)
+- SPA - Dragon Ball - ED - Romance te puedo dar (@asdFer)
+- SPA - Dragon Ball Z - OP - Luz, fuego, destruccion (@Gilrael)
+- SPA - Kinnikuman - OP - ¡Kinnikuman a luchar! (@Subkei)
+- SPA - Meitantei Conan - OP - Mune ga Dokidoki (@Gang-Dj)
+- SPA - Pocket Monsters - MV - Tengo que ser un maestro Pokemon (@Rubn4)
+- SPA - Saint Seiya - OP - Los Guardianes del Universo (@TeLiXj, @Lorchen)
+- UND - Berserk - Ougon Jidai-hen - MOVIE OP - Aria (@meulahke)
+- UND - Fate stay night Unlimited Blade Works (2015) - ED2 - ring your bell (in the silence) (@Currymalker)
+- UND - Mahoutsukai no Yome - AMV - Dance of the Spirit (@Currymalker)
+- UND - Senki Zesshou Symphogear - IN - Mune ni Hibiki, Itsuka Sekai ni Michiru Made (@Currymalker)
+
+## Fixed
+
+Fixed songs : 280
+
 # September 2021
 
 Contributors: 
