@@ -7,7 +7,6 @@ const tpath = '../tags';
 const authors = [];
 const contributors = [];
 const newKaras = [];
-const modifiedKaras = [];
 
 if (!process.argv[2]) {
 	console.log(`Create changelog for CHANGELOG.md. Supply a year-date to make it work.
@@ -41,9 +40,8 @@ async function readKaras() {
 		const kara = JSON.parse(data);
 		kara.filename = file;
 		const created_at = new Date(kara.data.created_at);
-		const modified_at = new Date(kara.data.modified_at);
 		if (!kara.data.tags.authors) kara.data.tags.authors = [];
-		let author = [];
+		const author = [];
 		kara.data.tags.authors.forEach(tid => {
 			const singleAuthor = authors.find(a => a.tid === tid);
 			singleAuthor
@@ -54,7 +52,6 @@ async function readKaras() {
 			newKaras.push(`${kara.filename.replace('.kara.json','')} (${author.join(', ')})`);
 			author.forEach(a => contributors.push(a));
 		}
-		if (created_at < start && modified_at > start && modified_at < end) modifiedKaras.push(`${kara.filename.replace('.kara.json','')}`);
 	}
 }
 
@@ -73,11 +70,6 @@ async function main() {
 	out.push('');
 	newKaras.sort();
 	newKaras.forEach(k => out.push('- ' + k));
-	out.push('');
-	out.push('## Fixed')
-	out.push('');
-	out.push('Fixed songs : ' + modifiedKaras.length);
-	out.push('');
 
 	if (process.argv[3]) {
 		writeFileSync(process.argv[3], out.join('\n'), 'utf8');
