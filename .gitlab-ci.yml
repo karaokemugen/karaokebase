@@ -1,39 +1,12 @@
 stages:
-  - sync_medias
   - test
   - deploy
-
-sync_medias:
-  stage: sync_medias
-  image: instrumentisto/rsync-ssh
-  interruptible: false
-  tags:
-    - moeBaseMedias
-  retry:
-    max: 2
-    when:
-      - job_execution_timeout
-  script:
-    - mkdir ~/.ssh
-    - echo "$SSH_KEY" > ~/.ssh/id_rsa
-    - HOSTKEYS=`ssh-keyscan -H $HOST`
-    - echo "$HOSTKEYS" > ~/.ssh/known_hosts
-    - chmod -R 700 ~/.ssh
-    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
-    - ssh -l root $HOST
-  only:
-    refs:
-      - master
-  except:
-    variables:
-      - $CI_COMMIT_MESSAGE =~ /nomedia/
-      - $NOBUNKER == "true"
 
 test:
   stage: test
   interruptible: true
   tags:
-    - moeBaseMedias
+    - KM-Medias
   image: axelterizaki/karaokemugen-ci:node-16-phppg
   services:
     - postgres:13
@@ -70,7 +43,7 @@ export:
   image: axelterizaki/karaokemugen-ci:transferts
   interruptible: true
   script:
-    - lftp -c "set cmd:fail-exit yes; set ftp:ssl-allow no; set ftp:charset "UTF-8" ; set file:charset utf-8; open -u $USERNAME,$PASSWORD $HOST; cd live; put names.php; put searchbase.php ; lcd lyrics ; cd subtitles ; mirror -Rnev --parallel=10"
+    - lftp -c "set cmd:fail-exit yes; set ftp:ssl-allow no; set ftp:charset "UTF-8" ; set file:charset utf-8; open -u $USERNAME,$PASSWORD $HOST; cd www/live.karaokes.moe; put names.php; put searchbase.php ; lcd lyrics ; cd subtitles ; mirror -Rnev --parallel=10"
     - echo "Triggering KM Server generation"
     - "curl -f -X POST -H authorization:$KMSERVERAUTH https://kara.moe/api/update"
     - "curl -f -X POST -H authorization:$KMSERVERDEVAUTH https://dev.kara.moe/api/update"
