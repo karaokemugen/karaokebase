@@ -1,3 +1,148 @@
+# November 2021
+
+Contributors: 
+
+- @Adrian
+- @Aeden
+- @Akiko_Himura
+- @Atsuyas
+- @Colgate
+- @Currymalker
+- @Deurstann
+- @Dysp
+- @Eden
+- @Elliu
+- @Fawe
+- @Geralt
+- @Gilrael
+- @Haiko
+- @Hydraxs
+- @Kaleidoscope
+- @Karaoke Mugen
+- @Kmeuh
+- @Kubat
+- @Lasagna
+- @Nabashi
+- @Nacroma
+- @Nodamin
+- @Pierre CAMILLI
+- @Rinchama
+- @Samatoki
+- @Sting
+- @Subkei
+- @Takagi
+- @TheMio
+- @UniversJB
+- @UsherMay
+- @Uwhipa
+- @XGeneral2000
+- @fabthehedgehog
+- @memo65
+- @mustangfred
+- @xX 14THMOON Xx
+- @yro_PT
+
+## Added
+
+New songs : 96
+
+- ENG - Amelia Watson, Gura Gawr, Ina'nis Ninomae - MV - Myth or Treat (@Aeden)
+- ENG - Aqua Minato, Gura Gawr, Ina'nis Ninomae - MV - Domination! All the World Is an Ocean ~ Short Vers (@Aeden)
+- ENG - Arcane League of Legends - ONA MV - Enemy (@mustangfred)
+- ENG - BOOGEY VOXX, Mori Calliope - MV - Graveyard Shift (@fabthehedgehog)
+- ENG - Camp Camp - ONA OP - Camp Camp Song Song (@Colgate)
+- ENG - D4DJ Groovy Mix - GAME MV - 4 Challenges (@Kaleidoscope)
+- ENG - Death Stranding - GAME PS4 PC PV - Goliath (@Nacroma)
+- ENG - Hazbin Hotel - ONA MV - ADDICT (@Akiko_Himura)
+- ENG - Honkai Impact 3rd - GAME LIVE - Nightglow (@Kaleidoscope)
+- ENG - JoCat - MV - I Like Girls (@fabthehedgehog)
+- ENG - League of Legends - GAME PC MV - Ignite (@Currymalker)
+- ENG - Lupin III Part VI - OP - Theme from Lupin III 2021 (@UniversJB)
+- ENG - Miku Hatsune - MV - Highlight (@Kmeuh)
+- ENG - Mori Calliope - MV - guh (@fabthehedgehog)
+- ENG - Sonic R - GAME PC SATURN GAMECUBE PS2 AUDIO - Can You Feel the Sunshine question_mark (@fabthehedgehog)
+- ENG - Vanitas no Karte - ED - 0 (@Kubat)
+- FRE - Choujuu Kishin Dancougar - OP - Dancougar (@UniversJB)
+- FRE - GAMU RANGERS - OP - GAMU RANGERS (@fabthehedgehog)
+- FRE - Hazbin Hotel - ONA IN - Inside Every Demon Is A Rainbow ~ Full Vers (@Haiko)
+- FRE - Joueur du Grenier - MV - Nous qu'est-ce qu'on veut (@Lasagna)
+- FRE - Mahou Shoujo Lalabel - OP - Le monde enchante de Lalabel (@Eden)
+- FRE - Phineas and Ferb - OP - Today Is Gonna Be a Great Day (@Colgate)
+- FRE - Suisse question_mark - MV - Un morceau d'emmental (@Kmeuh)
+- JPN - 86 - OP - 3 Fun 29 Byou (@Currymalker)
+- JPN - AZKi, Suisei Hoshimachi - MV - The Last Frontier (@Nodamin)
+- JPN - Ado - MV - Gira Gira ~ Off Vocal Vers (@Elliu, @TheMio)
+- JPN - Ado - MV - Odo ~ Off Vocal Vers (@Nodamin, @TheMio)
+- JPN - Ado - MV - READYMADE ~ Off Vocal Vers (@Nodamin, @TheMio)
+- JPN - Ado - MV - Usseewa ~ Off Vocal Vers (@Atsuyas, @TheMio)
+- JPN - Bakemonogatari - AMV - Araragi-san (@Geralt)
+- JPN - Flare Shiranui, HOLOLIVE FANTASY, Marine Houshou - MV - Interact Fantasia (@Aeden)
+- JPN - Fuuka - IN - for you (@UsherMay)
+- JPN - GARNiDELiA - MV - ARiA (@Subkei)
+- JPN - Go! Go! Atom - OP - Astro Boy ~GO! GO! Atom~ (@Kmeuh)
+- JPN - Gran Saga - GAME MV - MAKAFUKA ~ Short Vers (@Takagi)
+- JPN - Gunslinger Girl Il Teatrino - AUDIO OP - Tatta Hitotsu no Omoi ~ Full Vers (@XGeneral2000)
+- JPN - Hatsune Miku ~ Project DIVA Arcade Future Tone - GAME PS4 MV - Break It, Break It! (@Uwhipa)
+- JPN - Higurashi no Naku Koro ni Kai - AMV IS - Nano Desu (@Geralt)
+- JPN - Hikaru Utada - MV - Flavor Of Life -ballad version- (@Gilrael)
+- JPN - Hortensia Saga - ED - Yasou to Hakuchuumu (@Currymalker)
+- JPN - Hypnosis Mic -Division Rap Battle- - MV - Hoodstar Plus (@Nabashi, @Samatoki)
+- JPN - Hypnosis Mic -Division Rap Battle- - MV - SHOWDOWN (@xX 14THMOON Xx)
+- JPN - Hypnosis Mic -Division Rap Battle- - OVA MV - Hypnosis Mic -Glory or Dust- (@Samatoki)
+- JPN - K-ON! - AMV - Syncopation (@Deurstann)
+- JPN - K-ON!! - AMV - Tenshi ni Fureta Yo! ~ Full Vers (@Subkei)
+- JPN - Kagerou Project - MV - Outer Science (@fabthehedgehog)
+- JPN - Kagerou Project - MV - Outer Science ~ Cover Vers (@fabthehedgehog)
+- JPN - Kaguya-sama wa Kokurasetai Tensai-tachi no Ren'ai Zunousen - MOVIE MV - Aitakute ~ Acoustic Piano Vers (@Hydraxs)
+- JPN - Kaleido Sphere ~Ten'en no Futatsuboshi~ - GAME AMV - METHOD_HYMME_AMENOFLAME (@Sting)
+- JPN - Kiara Takanashi - MV - Vampire ~ Cover Vers (@Atsuyas)
+- JPN - Len Kagamine, Miku Hatsune, Rin Kagamine - MV - shake it! (@Kmeuh)
+- JPN - Love Live! Superstar!! - ED - Mirai wa Kaze no You ni (@Kaleidoscope)
+- JPN - Love Live! Superstar!! - OP - START!! True dreams (@Kaleidoscope)
+- JPN - Lupin III Part VI - ED - MILK TEA (@Nodamin)
+- JPN - MILGRAM - MV - Bring It On (@Lasagna)
+- JPN - MILGRAM - MV - Bring It On ~ Off Vocal Vers (@Lasagna)
+- JPN - MILGRAM - MV - HARROW (@Lasagna)
+- JPN - MILGRAM - MV - HARROW ~ Off Vocal Vers (@Lasagna)
+- JPN - Mahouka Koukou no Yuutousei - ED - Double Standard (@Kubat)
+- JPN - Mahouka Koukou no Yuutousei - OP - 101 (@Kubat)
+- JPN - Meitantei Conan - ED2 - Meikyuu no Lovers ~ Alternative Vers (@UniversJB)
+- JPN - Meitantei Conan - OP37 - Butterfly Core ~ Alternative Vers (@UniversJB)
+- JPN - Meitantei Conan - OP40 - WE GO (@UniversJB)
+- JPN - Meitantei Conan - OP41 - Nazo (@UniversJB)
+- JPN - Mel Yozora - MV - Vampire ~ Cover Vers (@Atsuyas)
+- JPN - Mieruko-chan - ED - Mita na question_mark Mita yo ne question_mark 2 Miteru yo ne question_mark 2 question_mark (@Kubat)
+- JPN - Mieruko-chan - OP - Mienai kara ne! question_mark (@Geralt)
+- JPN - Miku Hatsune - MV - Teo (@Dysp)
+- JPN - One Piece - OP24 - We Are! ~ 1000th Episode Vers (@Karaoke Mugen, @Pierre CAMILLI)
+- JPN - Ryuu to Sobakasu no Hime - MOVIE MV - U (@Kubat)
+- JPN - Sora Tokino - MV - Vampire ~ Cover Vers (@Atsuyas)
+- JPN - Suisei Hoshimachi - MV - 3 12 (@Nodamin)
+- JPN - Suisei Hoshimachi, Toko Inui - LIVE - OUT OF FRAME (@Nodamin)
+- JPN - Suisei Hoshimachi, Toko Inui - LIVE - OUT OF FRAME ~ Off Vocal Vers (@Nodamin)
+- JPN - Tales of Zestiria - MV - White Light ~ Full Vers (@Takagi, @Rinchama)
+- JPN - The iDOLM@STER Starlit Season - GAME PS4 PS5 IN - Overmaster (@yro_PT)
+- JPN - Touhou - AUDIO - Kouya no Pegasus ~ Off Vocal Vers (@Lasagna)
+- JPN - Touhou - MV - ENDLESS FANTASY (@Sting)
+- JPN - Touhou - MV - WARNINGxWARNINGxWARNING ~ Off Vocal Vers (@Sting)
+- JPN - Touhou - REMIX AMV - Tandem Tail (@Lasagna)
+- JPN - Touhou - REMIX AUDIO - Supernatural Border (@Lasagna)
+- JPN - Touhou - REMIX MV - Meguru Harvest (@Lasagna)
+- JPN - Touhou - REMIX MV - Metamorphosis (@Sting)
+- JPN - Touhou - REMIX MV - OMEN (@Sting)
+- JPN - Uma Musume Pretty Derby - ED1 - Grow Up Shine! (@Currymalker)
+- JPN - Umineko no Naku Koro ni Chiru ~Shinjitsu to Gensou no Nocturne~ - GAME PS3 ED4 - Namae no Nai Uta (@Geralt)
+- JPN - Watame Tsunomaki - MV - mayday,mayday (@Aeden)
+- JPN - Watame Tsunomaki - OT - TKG no uta ~ Cover Vers (@Atsuyas)
+- JPN - Yuru Camp Have a nice day! - GAME SWITCH PS4 OP - See The Light (@Kmeuh)
+- JPN - Yuuki Yuuna wa Yuusha de Aru Washio Sumi no Shou - ED1 - Tomodachi (@Adrian)
+- JPN - Yuuki Yuuna wa Yuusha de Aru Washio Sumi no Shou - OP - Egao no Kimi he (@Adrian)
+- JPN - Yuuki Yuuna wa Yuusha de Aru Yuusha no Shou - OP - Hana Kotoba (@Adrian)
+- JPN - marina - MV - Aimai Elegy ~ Cover Vers (@memo65)
+- JPN - marina - MV - Mozaik Role ~ Cover Vers (@Fawe)
+- JPN - takt op.Destiny - OP - takt (@fabthehedgehog)
+- POR - Jormungand - AUDIO IN - Meu mundo amor (@Currymalker)
+
 # October 2021
 
 Contributors: 
