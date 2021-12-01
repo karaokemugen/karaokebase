@@ -44,7 +44,7 @@ Contributors:
 
 ## Added
 
-New songs : 96
+New songs : 100
 
 - ENG - Amelia Watson, Gura Gawr, Ina'nis Ninomae - MV - Myth or Treat (@Aeden)
 - ENG - Aqua Minato, Gura Gawr, Ina'nis Ninomae - MV - Domination! All the World Is an Ocean ~ Short Vers (@Aeden)
@@ -90,7 +90,7 @@ New songs : 96
 - JPN - Hypnosis Mic -Division Rap Battle- - MV - SHOWDOWN (@xX 14THMOON Xx)
 - JPN - Hypnosis Mic -Division Rap Battle- - OVA MV - Hypnosis Mic -Glory or Dust- (@Samatoki)
 - JPN - K-ON! - AMV - Syncopation (@Deurstann)
-- JPN - K-ON!! - AMV - Tenshi ni Fureta Yo! ~ Full Vers (@Subkei)
+- JPN - K-ON!! - AMV - We touched an Angel! ~ Full Vers (@Subkei)
 - JPN - Kagerou Project - MV - Outer Science (@fabthehedgehog)
 - JPN - Kagerou Project - MV - Outer Science ~ Cover Vers (@fabthehedgehog)
 - JPN - Kaguya-sama wa Kokurasetai Tensai-tachi no Ren'ai Zunousen - MOVIE MV - Aitakute ~ Acoustic Piano Vers (@Hydraxs)
@@ -104,6 +104,9 @@ New songs : 96
 - JPN - MILGRAM - MV - Bring It On ~ Off Vocal Vers (@Lasagna)
 - JPN - MILGRAM - MV - HARROW (@Lasagna)
 - JPN - MILGRAM - MV - HARROW ~ Off Vocal Vers (@Lasagna)
+- JPN - MILGRAM - MV - Undercover (@Lasagna)
+- JPN - MILGRAM - MV - Undercover ~ Off Vocal Vers (@Lasagna)
+- JPN - Mahou Shoujo Lyrical Nanoha A's - LIVE - Snow Rain~Ver.Eins~ (@Rinchama)
 - JPN - Mahouka Koukou no Yuutousei - ED - Double Standard (@Kubat)
 - JPN - Mahouka Koukou no Yuutousei - OP - 101 (@Kubat)
 - JPN - Meitantei Conan - ED2 - Meikyuu no Lovers ~ Alternative Vers (@UniversJB)
@@ -113,6 +116,7 @@ New songs : 96
 - JPN - Mel Yozora - MV - Vampire ~ Cover Vers (@Atsuyas)
 - JPN - Mieruko-chan - ED - Mita na question_mark Mita yo ne question_mark 2 Miteru yo ne question_mark 2 question_mark (@Kubat)
 - JPN - Mieruko-chan - OP - Mienai kara ne! question_mark (@Geralt)
+- JPN - Mikagura Gakuen Kumikyoku - ED4 - Esoragoto SPIRAL (@Lasagna)
 - JPN - Miku Hatsune - MV - Teo (@Dysp)
 - JPN - One Piece - OP24 - We Are! ~ 1000th Episode Vers (@Karaoke Mugen, @Pierre CAMILLI)
 - JPN - Ryuu to Sobakasu no Hime - MOVIE MV - U (@Kubat)
