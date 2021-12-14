@@ -12005,7 +12005,7 @@ As usual, too many to list here. Rahxephon OP and Ichigo 100% ED have been retim
 
 Too many to list here.
 
-Consult the [commits from August to September 2017](https://lab.shelter.moe/karaokemugen/karaokebase/compare/201708...201709)
+Consult the [commits from August to September 2017](https://gitlab.com/karaokemugen/bases/karaokebase/compare/201708...201709)
 
 Many karaokes have been retimed and fixed. Also, videos have been replaced with HD versions, most often creditless.
 
@@ -12097,7 +12097,7 @@ Many karaokes have been retimed and fixed. Also, videos have been replaced with 
 
 - Many karaokes.moe V1 subs have been retimed.
 
-Check commits here : https://lab.shelter.moe/karaokemugen/karaokebase/compare/201707...201708
+Check commits here : https://gitlab.com/karaokemugen/bases/karaokebase/compare/201707...201708
 
 ## Deleted (will be readded later)
 

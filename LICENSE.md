@@ -43,7 +43,7 @@ Nous faisons au mieux pour indiquer les auteurs dans le tag `author` dans les fi
 
 ## Contact
 
-Si vous avez des questions sur cette licence ou que vous voulez demander une permission spécifique, [contactez-nous](http://mugen.karaokes.moe/en/contact.html) ou [ouvrez un ticket](https://lab.shelter.moe/karaokemugen/karaokebase/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=).
+Si vous avez des questions sur cette licence ou que vous voulez demander une permission spécifique, [contactez-nous](http://mugen.karaokes.moe/en/contact.html) ou [ouvrez un ticket](https://gitlab.com/karaokemugen/bases/karaokebase/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=).
 
 ---
 
@@ -94,4 +94,4 @@ We try, as much as possible, to fill the `author` tag in the `.kara.json` files 
 
 ## Contact
 
-If you have questions about the license or wish to ask for a specific permission, feel free to [contact us](http://mugen.karaokes.moe/en/contact.html) or [open an issue](https://lab.shelter.moe/karaokemugen/karaokebase/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=)
+If you have questions about the license or wish to ask for a specific permission, feel free to [contact us](http://mugen.karaokes.moe/en/contact.html) or [open an issue](https://gitlab.com/karaokemugen/bases/karaokebase/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=)
