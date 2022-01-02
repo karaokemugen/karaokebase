@@ -1,3 +1,212 @@
+# December 2021
+
+Contributors: 
+
+- Adrian
+- Amo
+- Anos
+- Atsuyas
+- BeVox
+- Dahel
+- Deformer-Lua
+- Elliu
+- GaryCXJk
+- IkuY
+- Joffrey_A
+- Kaleidoscope
+- Karajam
+- Katkat_Mountain
+- Kibotori
+- Kmeuh
+- Lec
+- Nock
+- Nodamin
+- Pierre CAMILLI
+- Psoushi
+- Rinchama
+- Sakrowga
+- Shlaky
+- Soramimi
+- Spotty Len
+- Steak
+- Subkei
+- TheMio
+- UniversJB
+- Uwhipa
+- asdFer
+- fabthehedgehog
+- magic-ott
+- memo65
+- meulahke
+- ohhopi
+- yt2ass
+
+## Added
+
+New songs : 161
+
+- ENG - Big Order (2016) - ED1 - Order Hatsudou! (@Dahel)
+- ENG - DRAMAtical Murder Re Connect - AUDIO ED - Crystalline (@Lasagna)
+- ENG - Dexter - AMV - Die this way ~ Full Vers (@Deformer-Lua)
+- ENG - Dragon Quest Dai no Daibouken (2020) - OP2 - Bravest (@Pierre CAMILLI)
+- ENG - Final Fantasy XIV - GAME PS4 PC PS5 PV - Endwalker - Footfalls (@ohhopi)
+- ENG - Godzilla Hoshi wo Kuu Mono - MOVIE PV - Live And Die ~ Short Vers (@Nock)
+- ENG - Hades - GAME PC SWITCH PS4 PS5 XBOXONE ED - In the Blood (@Nodamin)
+- ENG - IRyS - MV - Caesura of Despair ~ Short Vers (@yt2ass)
+- ENG - IRyS - MV - HERE COMES HOPE (@yt2ass)
+- ENG - IRyS - MV - Sparks of Joy (@yt2ass)
+- ENG - Josee to Tora to Sakana-tachi - MOVIE OP - Take Me Far Away (@Elliu)
+- ENG - Lupin III Part IV - OP - U Belong to Me ~ Alternative Vers (@UniversJB)
+- ENG - Mori Calliope - AMV - Empress (Calliope ver.) (@fabthehedgehog)
+- ENG - Persona 4 - GAME PS2 AUDIO - Reach Out To The Truth (@Pierre CAMILLI)
+- ENG - Pocket Monsters - MV - I Choose You to Die (@fabthehedgehog)
+- ENG - Shinigami no Ballad - OP - no one (@Nock)
+- ENG - Sonic Colors - GAME WII OP - Reach for the stars (@meulahke)
+- ENG - Yu-Gi-Oh! The Abridged Movie - AMV ED - Stronger (@Uwhipa)
+- ENG - Yu-Gi-Oh! The Abridged Movie - IN - Paraboss (@Deformer-Lua)
+- ENG - Yu-Gi-Oh! The Abridged Movie - MV - Up in here (@Deformer-Lua)
+- FRE - Joueur du Grenier - IN - Gigi (@Kmeuh)
+- FRE - Kidou Keisatsu Patlabor On Television (1989) - OP - Patlabor (@UniversJB)
+- FRE - KronoMuzik - AUDIO - ALLEZ LES BLEUS (@fabthehedgehog)
+- FRE - Ninja Senshi Tobikage - OP - Tobikage (@UniversJB)
+- FRE - Poucet - MV - world.execute(me) ~ Cover Vers (@Kmeuh)
+- GER - Asterix et Cleopatre - MOVIE IN - Pudding mit Arsen (@magic-ott)
+- IND - Reine Pavolia - MV - Gate Open START! (@yt2ass)
+- JPN - 96Neko - MV - ONLINE GAME ADDICTS SPRECHCHOR (@Soramimi, @Lasagna)
+- JPN - Akiko Wada - MV - YONA YONA DANCE (@Lasagna)
+- JPN - Akiko Wada - MV - YONA YONA DANCE ~ Off Vocal Vers (@Lasagna)
+- JPN - Amane Nanase, Hamada Nanana, Isshiki Sora - MV - Gran Ciel - Message ~ Full Vers (@Kibotori)
+- JPN - Ayame Nakiri, Matsuri Natsuiro - MV - Death Should Not Have Taken Thee ~ Cover Vers (@Atsuyas)
+- JPN - Ayame Nakiri, Roboco-san, Rosenthal Aki - AUDIO - Suspect ~ Short Vers (@yt2ass)
+- JPN - Bakemonogatari - MV - Kimi no Shiranai Monogatari ~ ENOSON3 Vers. ~ Cover Full Vers (@Pierre CAMILLI)
+- JPN - Build Divide Code Black - OP - BANG!! (@Anos)
+- JPN - Cardcaptor Sakura Clear Card-hen - ED2 - Rewind (@IkuY)
+- JPN - Chargeman Ken! - OP - Chargeman Ken (@meulahke)
+- JPN - Chima Machita - OT - Freesia ~ Picasso Vers (@Amo)
+- JPN - Choko Senshi Changerion - OP1 - OVER THE TIMES ~ Ima o Koete (@Psoushi)
+- JPN - Coco Kiryu, Kanata Amane, Luna Himemori - MV - Kiseki musubi (@yt2ass)
+- JPN - DRAMAtical Murder Re Connect - AUDIO ED - At Last (@Lasagna)
+- JPN - Denpa Teki na Kanojo - ED1 - Taiyou (@Steak)
+- JPN - Enban Senso Bankid - OP - Kakero Bankid (@Psoushi)
+- JPN - Fire Emblem Ankoku Ryuu to Hikari no Tsurugi - MV - Fire Emblem Theme ~ Korone Vers. ~ Cover Vers (@Adrian)
+- JPN - Flare Shiranui, Kanata Amane, Towa Tokoyami - AUDIO - STARDUST SONG ~ Short Vers (@yt2ass)
+- JPN - Fruits Basket (2019) The Final - OP - Pleasure (@Joffrey_A)
+- JPN - Fubuki Shirakami - MV - S'il vous president ~ Cover Vers (@Atsuyas)
+- JPN - Ganbare Douki-chan - ONA ED - Lady Go (@Kmeuh)
+- JPN - Genshin Impact - AMV - Patchwork Staccato ~ Cover Vers (@Elliu)
+- JPN - Getsuyoubi no Tawawa 2 - ONA ED - Ai no Katachi (@Kmeuh)
+- JPN - Go-Toubun no Hanayome Fortissimo ~Natsu no Omoide mo Go-Toubun~ - GAME PC PS4 SWITCH OP - Minami Kaze (@Kmeuh)
+- JPN - Gundam G no Reconguista - OP2 - Futari no Mahou (@UniversJB)
+- JPN - Haiyore! Nyaruko-san W - ED4 - Sister, Friend, Lover (@Nock)
+- JPN - Hatsune Miku ~ Project DIVA Arcade Future Tone - GAME MV - ONLINE GAME ADDICTS SPRECHCHOR ~ Short Vers (@Soramimi, @Lasagna)
+- JPN - Ike! Ina-chuu Takkyuubu - OP2 - Man-in Densha Hitomebore (@Lasagna)
+- JPN - Ina'nis Ninomae, Kiara Takanashi - MV - Whatever whatever whatever ~ Cover Vers (@Shlaky)
+- JPN - Isekai Shokudou 2 - OP - Onnaji Kimochi (@fabthehedgehog)
+- JPN - Jahy-sama wa Kujikenai! - OP2 - Life Is Hard DAME DINERO (@fabthehedgehog)
+- JPN - JoJo no Kimyou na Bouken Part 6 Stone Ocean - ONA OP1 - STONE OCEAN (@Lasagna)
+- JPN - KAFU - MV - Hana to Nare (@Elliu)
+- JPN - Kamen Rider Revice - OP1 - liveDevil (@Psoushi)
+- JPN - Kamen Rider Saber - OP1 - ALMIGHTY ~ Kamen no Yakusoku (@Psoushi)
+- JPN - Kanata Amane, Towa Tokoyami - MV - Usseewa ~ Cover Vers (@fabthehedgehog)
+- JPN - Kaze ga Tsuyoku Fuiteiru - OP2 - Kaze Tsuyoku, Kimi Atsuku (@Katkat_Mountain)
+- JPN - Kiara Takanashi - MV - Heart Challenger (@yt2ass)
+- JPN - Kidou Senshi Gundam Gyakushuu no Char - AMV - BEYOND THE TIME ~ Moebius no Sora wo Koete ~ ~ Full Vers (@meulahke)
+- JPN - Kimetsu no Yaiba Mugen Ressha-hen - ED - Shirogane (@Nodamin)
+- JPN - Kimetsu no Yaiba Yukaku-hen - OP - Zankyou Sanka (@Amo)
+- JPN - Komi-san wa, Komyushou Desu. - ED1 - Sympathy (@Elliu)
+- JPN - Laplus Darkness - MV - God-ish ~ Cover Vers (@Atsuyas)
+- JPN - Levius - ONA OP - Wit and Love (@Elliu)
+- JPN - Live A Live - GAME SNES AMV - Go! Go! Buriki Daioh!! (@Spotty Len)
+- JPN - Love Live! School Idol Festival All Stars - LIVE - Jingle Bells ga Tomaranai (@Kaleidoscope)
+- JPN - MILGRAM - AUDIO - Undercover feat. Hatsune Miku (@Lasagna)
+- JPN - MILGRAM - MV - After Pain (@Lasagna)
+- JPN - MILGRAM - MV - After Pain -Es Cover- (@Lasagna)
+- JPN - MILGRAM - MV - After Pain ~ Off Vocal Vers (@Lasagna)
+- JPN - MILGRAM - MV - MeMe (@Lasagna)
+- JPN - MILGRAM - MV - MeMe ~ Off Vocal Vers (@Lasagna)
+- JPN - MILGRAM - MV - Umbilical (@Lasagna)
+- JPN - MILGRAM - MV - Umbilical ~ Off Vocal Vers (@Lasagna)
+- JPN - MILGRAM - MV - Weakness (@Lasagna)
+- JPN - MILGRAM - MV - Weakness ~ Off Vocal Vers (@Lasagna)
+- JPN - Manga de Wakaru! Fate Grand Order - SPECIAL OP - Mawaseba Wakaru! FGO (@GaryCXJk)
+- JPN - Marine Houshou, Matsuri Natsuiro, Miko Sakura - AUDIO - DAILY DIARY ~ Short Vers (@yt2ass)
+- JPN - Marine Houshou, Noel Shirogane - STREAM - Shaka Beach Laka Laka La ~ Cover Vers (@Atsuyas)
+- JPN - Matsuri Natsuiro - MV - Chichin-Pui-Pui ~ Cover Vers (@Atsuyas)
+- JPN - Matsuri Natsuiro - MV - Onegai Darling ~ Cover Vers (@Atsuyas)
+- JPN - Megami-ryou to Ryoubo-kun. - OP - Naughty Love (@Nock)
+- JPN - Meitantei Conan - OP11 - I Can't Stop My Love For You (@UniversJB)
+- JPN - Meitantei Conan - OP12 - Kaze no Lalala (@UniversJB)
+- JPN - Meitantei Conan - OP36 - Q&A (@Joffrey_A)
+- JPN - Meitantei Conan - OP36 - Q&A ~ Alternative Vers (@UniversJB, @Joffrey_A)
+- JPN - Meitantei Conan - OP42 - Hane (@UniversJB)
+- JPN - Meitantei Conan - OP44 - Ikusen no Meikyuu de Ikusen no Nazo wo Toite (@Joffrey_A)
+- JPN - Meitantei Conan - OP45 - Lie, Lie, Lie, (@Joffrey_A)
+- JPN - Meitantei Conan - OP45 - Lie, Lie, Lie, ~ Alternative Vers (@UniversJB, @Joffrey_A)
+- JPN - Meitantei Conan - OP47 - Countdown (@UniversJB)
+- JPN - Meitantei Conan - OP48 - Timeline (@UniversJB)
+- JPN - Miku Hatsune - AMV - The Intense Voice of Hatsune Miku (@Soramimi)
+- JPN - Miku Hatsune - MV - Animal (@BeVox)
+- JPN - Miku Hatsune - MV - Animal ~ Off Vocal Vers (@BeVox, @TheMio)
+- JPN - Miku Hatsune - MV - God-ish (@Atsuyas)
+- JPN - Miku Hatsune - MV - Ironic (@BeVox, @Atsuyas)
+- JPN - Miku Hatsune - MV - New Darling (@BeVox)
+- JPN - Miku Hatsune - MV - ONLINE GAME ADDICTS SPRECHCHOR ~ Full Vers (@Soramimi, @Lasagna)
+- JPN - Miku Hatsune - MV - Patchwork Staccato (@Elliu)
+- JPN - Miku Hatsune - MV - Patchwork Staccato ~ Off Vocal Vers (@Elliu)
+- JPN - Miku Hatsune - MV - flos (@Lec)
+- JPN - Miku Hatsune - REMIX MV - Cinderella (Giga First Night Remix) (@BeVox)
+- JPN - Miku Hatsune - REMIX MV - Cinderella (Giga First Night Remix) ~ Off Vocal Vers (@BeVox)
+- JPN - Milky Queen, Mori Calliope - MV - Usseewa ~ Cover Vers (@Atsuyas)
+- JPN - Moona Hoshinova, Reine Pavolia - MV - Kawaiku Naritai ~ Cover Vers (@yt2ass)
+- JPN - Natsu no Arashi! - ED - Kirari Futari (@Lasagna)
+- JPN - Nozomi Witches - IN - Aozora ga Furu Machi (@Steak)
+- JPN - Nozomi Witches - OP1 - Flash of Thunder (@Steak)
+- JPN - Okayu Nekomata - MV - Animal ~ Cover Vers (@Atsuyas)
+- JPN - Ookami to Koushinryou - MV - Tabi no Tochuu ~ Ina'nis Vers. ~ Cover Full Vers (@Adrian)
+- JPN - Platinum End - ED1 - Koufukuron (@BeVox)
+- JPN - Platinum End - OP - Sense (@fabthehedgehog)
+- JPN - Rockman 2 Dr. Wairi no Nazo - GAME AMV - I'm Bubbleman (@Spotty Len)
+- JPN - Rockman 2 Dr. Wairi no Nazo - GAME AMV - QUICK!! (@Spotty Len)
+- JPN - Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru - OP - Dark seeks light (@Amo)
+- JPN - Shion Murasaki - MV - God-ish ~ Cover Vers (@Atsuyas)
+- JPN - ShishiShishi - MV - Self Cover (@Pierre CAMILLI)
+- JPN - Sora Amamiya - MV - Kawaiku Naritai (@yt2ass)
+- JPN - Street Fighter II The Movie - MOVIE IN - Itoshisa to Setsunasa to Kokorozuyosa to (@Pierre CAMILLI)
+- JPN - Suisei Hoshimachi - LIVE - Starry Jet (@Nodamin)
+- JPN - THE iDOLM@STER Cinderella Girls Starlight Stage - AMV - Step! ~ Short Vers (@Karajam)
+- JPN - TO-Y - OP1 - Lemon no Yuuki (@Steak)
+- JPN - The Faraway Paladin - OP - The Sacred Torch (@fabthehedgehog)
+- JPN - The Heike Story - OP - Hikaru Toki (@Amo)
+- JPN - Touhou - AUDIO - Night Parade on the Sky (@Spotty Len)
+- JPN - Touhou - MV - Co~nsultant! (@Lasagna)
+- JPN - Touhou - MV - DIG IT DIG OUT (@Lasagna)
+- JPN - Touhou - MV - Kanzen Hanzai BANG! (@fabthehedgehog)
+- JPN - Touhou - MV - Shout It Out Loud!!! (@Spotty Len)
+- JPN - Touhou - MV - Taiyou no Hana (@Spotty Len)
+- JPN - Touhou - REMIX MV - The Song of a Broken Loved Youkai Who Loved a Human (@memo65)
+- JPN - Touhou Memories of Phantasm - OVA ED4 - Zankyou wa Nari Yamazu (@Elliu)
+- JPN - Touhou Memories of Phantasm - OVA ED5 - Kono Hagakure (@Elliu)
+- JPN - Tsubasa Tokyo Revelations - LIVE - synchronicity ~ KEIKO Vers. ~ Cover Full Vers (@Subkei)
+- JPN - Tsubasa Tokyo Revelations - OVA AUDIO OP - synchronicity ~ Full Vers (@asdFer)
+- JPN - Tsuki to Laika to Nosferatu - ED - Arifureta Itsuka (@Nock)
+- JPN - Uma Musume Pretty Derby Season 2 - ED1 - Komorebi no Yell (@meulahke)
+- JPN - Uma Musume Pretty Derby Season 2 - ED2 - Sasayaka na inori (@meulahke)
+- JPN - Uma Musume Pretty Derby Season 2 - IN - Yume wo kakeru! (@meulahke)
+- JPN - Uma Musume Pretty Derby Season 2 - IN - winning the soul (@meulahke)
+- JPN - Uma Musume Pretty Derby Season 2 - OP - Yume wo kakeru! ~ Alternative Vers (@Rinchama)
+- JPN - Visual Prison - OP1 - Zankoku Shangri-la (@Steak)
+- JPN - Waccha PriMagi! - OP - Dreaming Sound (@Nodamin)
+- JPN - Watame Tsunomaki - MV - Ai-mai Chocolate (@yt2ass)
+- JPN - Watame Tsunomaki - MV - Hololive ieru ka na question_mark (@yt2ass)
+- JPN - Yakunara Mug Cup mo - OP - Tobira wo Aketara (@Nock)
+- JPN - Yawara! A Fashionable Judo Girl - OP1 - Miracle Girl (@Steak)
+- JPN - Yawara! A Fashionable Judo Girl - OP2 - Ame ni Kiss no Hanataba o (@Steak)
+- JPN - Yawara! A Fashionable Judo Girl - OP3 - Makeru na Onnanoko! (@Steak)
+- JPN - Yoshihiko and the Seven Chosen Ones - OP - The Brave (@Spotty Len)
+- JPN - Yuki Nagasawa - ONA PV - Condom Battler Goro (@Deformer-Lua)
+- JPN - ZUTOMAYO - MV - Neko Reset (@Pierre CAMILLI)
+- JPN - sana. - MV - Kawaiku Naritai (@yt2ass)
+
 # November 2021
 
 Contributors: 
