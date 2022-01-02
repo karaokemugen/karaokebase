@@ -45,7 +45,7 @@ async function readKaras() {
 		kara.data.tags.authors.forEach(tid => {
 			const singleAuthor = authors.find(a => a.tid === tid);
 			singleAuthor
-				? author.push('@' + singleAuthor.name)
+				? author.push(singleAuthor.name)
 				: author.push('Unknown');
 		});
 		if (created_at > start && created_at < end) {
