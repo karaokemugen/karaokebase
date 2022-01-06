@@ -55,9 +55,6 @@ Example :
     "kid": "17d535bd-101b-4ffc-836d-e26774bbb1b5",
     "modified_at": "Fri Mar 15 2019 11:19:17 GMT+0100 (GMT+01:00)",
     "repository": "kara.moe",
-    "sids": [
-      "987d5e61-0183-4f3f-bd9d-a1bdca12c84c"
-    ],
     "tags": {
       "authors": [
         "1df04771-a378-4f14-a5e1-1455187d681a"
@@ -200,9 +197,6 @@ Exemple :
     "kid": "17d535bd-101b-4ffc-836d-e26774bbb1b5",
     "modified_at": "Fri Mar 15 2019 11:19:17 GMT+0100 (GMT+01:00)",
     "repository": "kara.moe",
-    "sids": [
-      "987d5e61-0183-4f3f-bd9d-a1bdca12c84c"
-    ],
     "tags": {
       "authors": [
         "1df04771-a378-4f14-a5e1-1455187d681a"
