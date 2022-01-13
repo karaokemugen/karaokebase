@@ -68,6 +68,10 @@ if (file_exists($live_egg_file)) {
     }
 }
 
+function map_name($tag) {
+    return $tag['name'];
+}
+
 //First pass
 $first_pass = [];
 $types = ['singers', 'songtypes', 'languages', 'authors', 'misc', 'platforms', 'genres', 'series', 'origins', 'creators', 'versions'];
@@ -98,7 +102,7 @@ foreach ($data as $kara) {
         $serie_singer = implode(', ', $seriename);
     } else {
         $singers = json_decode($kara['singers'], true);
-        $serie_singer = $singers[0]['name'];
+        $serie_singer = implode(', ', array_map($singers, 'map_name'));
     }
 
     //init if series/singer not yet added
