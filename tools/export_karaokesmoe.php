@@ -102,7 +102,7 @@ foreach ($data as $kara) {
         $serie_singer = implode(', ', $seriename);
     } else {
         $singers = json_decode($kara['singers'], true);
-        $serie_singer = implode(', ', array_map($singers, 'map_name'));
+        $serie_singer = implode(', ', array_map('map_name', $singers));
     }
 
     //init if series/singer not yet added
