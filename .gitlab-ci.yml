@@ -22,7 +22,6 @@ test:
   script:
     - git clone https://gitlab.com/karaokemugen/karaokemugen-app.git
     - cd karaokemugen-app
-    - git checkout next
     - yarn pull
     - yarn install
     - touch mpv
@@ -32,7 +31,7 @@ test:
     - node -v
     - export DISPLAY=':99.0'
     - Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 &
-    - yarn startCI --debug --generate --strict
+    - yarn startHeadless --debug --generate --strict
     - cd ..
     - php -f tools/export_karaokesmoe.php
   only:
