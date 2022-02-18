@@ -1,0 +1,20 @@
+---
+header:
+  description: Karaoke Mugen Hook File
+  version: 1
+hook:
+  name: add aliases for japaneses titles
+  repository: kara.moe
+  conditions:
+    titlesContain:
+      qjr: 
+      - ô
+      - û
+  actions:
+    addTitleAlias:
+      qjr:
+      - search: ô
+        replace: ou
+      - seatch: û
+        replace: uu
+
