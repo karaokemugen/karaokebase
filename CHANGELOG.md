@@ -1,3 +1,197 @@
+# February 2022
+
+Kara count: 11 794
+
+Contributors: 
+
+- Aeden
+- Amo
+- Atsuyas
+- Bakaclub
+- BeVox
+- Bisquette
+- Cocs
+- Colgate
+- Currymalker
+- Deformer-Lua
+- Deurstann
+- Dysp
+- Elliu
+- Geralt
+- IkuY
+- Jun
+- Kaleidoscope
+- Karna
+- Kmeuh
+- Krokro
+- Kubat
+- Lasagna
+- Litto
+- Lshiro
+- NextFire
+- Nodamin
+- Phoko
+- Pierre CAMILLI
+- Rinchama
+- Rubn4
+- Sodachi
+- Spotty Len
+- Steak
+- Sting
+- Subkei
+- Tatoon
+- TheMio
+- UniversJB
+- UsherMay
+- Yûgao
+- asdFer
+- fabthehedgehog
+- gregoy
+- juhuu
+- marxmy
+- meulahke
+- yt2ass
+- yyec
+
+## Added
+
+New songs : 134
+
+- ENG - Ano Hi Mita Hana no Namae o Bokutachi wa Mada Shiranai. (Rebroadcast) - ED3 - Still (Lshiro)
+- ENG - Arcane League of Legends - ONA ED9 - What Could Have Been (IkuY)
+- ENG - Calliope Mori, Gura Gawr - MV - Q (fabthehedgehog)
+- ENG - Calliope Mori, Gura Gawr - MV - Q ~ Off Vocal Vers (fabthehedgehog)
+- ENG - Ciconia no Naku Koro ni - GAME PC AMV - Secrets (Geralt)
+- ENG - DEMONDICE - MV - dark hour (fabthehedgehog)
+- ENG - DEMONDICE - MV - fake ass gold (fabthehedgehog)
+- ENG - DEMONDICE - MV - take the bait (fabthehedgehog)
+- ENG - DEMONDICE - MV - wanting, getting, wanting (fabthehedgehog)
+- ENG - Devil May Cry 5 - GAME PS4 XBOXONE AMV - Devil Trigger (Amo)
+- ENG - Dragon Ball Z - AMV - Day of Fate ~Spirit VS Spirit~ ~ Cover Full Vers (Spotty Len)
+- ENG - Encanto - MOVIE IN - Surface Pressure (Nodamin)
+- ENG - Encanto - MOVIE IN - We Don't Talk About Bruno (Nodamin)
+- ENG - Encanto - MOVIE IN - What Else Can I Do question_mark (Nodamin)
+- ENG - Frozen II - MOVIE MV - Into the Unknown (gregoy)
+- ENG - Honkai Impact 3rd - MV - Regression (Kaleidoscope)
+- ENG - Kindaichi Shounen no Jikenbo - OP1 - CONFUSED MEMORIES (UniversJB)
+- ENG - Koukaku Kidoutai SAC_2045 - ONA OP - Fly with me (Aeden)
+- ENG - Love Live! Sunshine!! - AUDIO - Hajimari Road ~ Full Vers (Sodachi)
+- ENG - Mariya Takeuchi - MV - Plastic Love ~ Off Vocal Vers (TheMio, fabthehedgehog)
+- ENG - Moona Hoshinova - MV - High Tide (yt2ass)
+- ENG - Nukige Mitai na Shima ni Sunderu Watashi wa Dou Surya Ii Desu ka question_mark 2 - GAME PC OP - BWLAUTE BEIRRD (Amo)
+- ENG - Shin Seiki Evangelion, Tenacious D in The Pick of Destiny - MOVIE AMV - I did (not) mean to blow your mind (Deformer-Lua)
+- ENG - Tommy february6 - MV - Everyday at the Bus Stop (Rubn4)
+- ENG - Weebl - MV - Amazing Horse (juhuu)
+- FRE - Adibou - GAME PC IN - Trois petits chats (Deformer-Lua)
+- FRE - Camping Orchestra - AMV - Les gros nichons (Deformer-Lua)
+- FRE - Ciconia no Naku Koro ni - GAME PC IN - Apocalypsis Ciconia-II (Geralt)
+- FRE - Doigby - MV - GUERRIER (Phoko)
+- FRE - La personne aux deux personnes - MOVIE MV - Flou de Toi (Deformer-Lua)
+- FRE - Les vedettes - MOVIE MV - Besoin de chanter (Deformer-Lua)
+- JPN - 11eyes CrossOver - GAME PSP XBOX360 OP - Endless Tears (Steak)
+- JPN - Aikatsu! Idol Katsudou! - AUDIO - Tarte.Tatin ~ Full Off Vocal Vers (Nodamin, Currymalker)
+- JPN - Aikatsu! Idol Katsudou! - AUDIO - Tarte.Tatin ~ Full Vers (Nodamin, Currymalker)
+- JPN - Aikatsu! Idol Katsudou! - IN - Egao no Suncatcher (Nodamin)
+- JPN - Aiko Yanai - MV - Kabutomushi (Yûgao)
+- JPN - Aimer, Lilas Ikuta, milet - MV - Omokage (Nodamin)
+- JPN - Ao no Kanata no Four Rhythm - GAME SWITCH OP - Crossing Way (Kubat)
+- JPN - Aoki Ryuusei SPT Layzner - AUDIO - Melos no You ni Lonely Way ~ Full Vers (meulahke)
+- JPN - Caitlin Myers, LilyPichu, Lizz Robinett - REMIX AMV - RickRoll but make it Anime ~ Cover Vers (Deurstann)
+- JPN - Chloe Sakamata - MV - Animal ~ Cover Vers (Atsuyas)
+- JPN - City Hunter 2 - ED1 - Super Girl (Lasagna)
+- JPN - DAOKO - MV - BANG! (Subkei)
+- JPN - DAOKO - MV - Moshimo Bokura ga GAME no Shuyaku de (Subkei)
+- JPN - Delicious Party PreCure - ED - DELICIOUS HAPPY DAYS (meulahke)
+- JPN - Delicious Party PreCure - OP - Cheers! Delicious Party PreCure (Kmeuh)
+- JPN - Di Gi Charat Summer Special 2000 - OP - Cutie (meulahke)
+- JPN - Digimon Ghost Game - OP1 - FACTION (Spotty Len)
+- JPN - Dragalia Lost - AUDIO - ShibuyaK ~ Full Vers (Subkei)
+- JPN - Dragalia Lost - MV - Owaranai Sekai de (Lshiro)
+- JPN - Dragalia Lost - MV - ShibuyaK ~ Short Vers (Subkei)
+- JPN - Flower - MV - Inokori Sensei (Steak)
+- JPN - Gekijouban Cardcaptor Sakura Fuuin Sareta Card - MOVIE IN - Arigatou (Yûgao)
+- JPN - Gintama. Porori-hen - OP1 - VS (Karna)
+- JPN - HAPPY Plus SUGAR=VACATION - PV - Natsu no yakusoku (Krokro)
+- JPN - Hanatan - MV - Fukouya no Musume (Cocs)
+- JPN - Hanatan - MV - Soko ni wa Mata Meikyuu (Cocs)
+- JPN - Hypnosis Mic Division Rap Battle - Rhyme Anima - OP - Hypnosis Mic Rhyme Anima (UsherMay)
+- JPN - Idol Time PriPara - OP1 - Just be yourself (Nodamin)
+- JPN - Idol Time PriPara - OP2 - Saijoukyuu Paradox (Nodamin)
+- JPN - Idol Time PriPara - OP3 - Memorial (Nodamin)
+- JPN - Ikura, YOASOBI - MV - If I Can Draw Life ~ Full Off Vocal Vers (TheMio, Karna)
+- JPN - Ikura, YOASOBI - MV - RGB ~ Full Vers (Karna)
+- JPN - JaidenAnimations the Anime - OP - RISE ABOVE (Lshiro)
+- JPN - KAFU - MV - Marshall Maximizer (BeVox)
+- JPN - Kaijin Kaihatsubu no Kuroitsu-san - OP - Special Force (NextFire)
+- JPN - Kaleido Sphere ~Ten'en no Futatsuboshi~ - GAME AMV - METHOD_HYMME_STAUROLITE .sync_with.YEqejyu (Sting)
+- JPN - Katanagatari - ED1 - Tasogare no Gekka (Lshiro)
+- JPN - Katanagatari - ED11 - Bourei-tachi yo Yabou no Hate ni Nemure (Lshiro)
+- JPN - Kekkai Sensen & Beyond - MV - Step Up LOVE ~ Full Vers (Subkei)
+- JPN - Kindaichi Shounen no Jikenbo - OP5 - JUSTICE ~Future Mystery~ (UniversJB)
+- JPN - Kobayashi-san Chi no Maidragon S - ED3 - Aozora no Rhapsody (IkuY)
+- JPN - Koroshi Ai - OP - Midnight Dancer (IkuY)
+- JPN - Love Live! Sunshine!! - AUDIO - SUKI for you, DREAM for you! ~ Full Vers (Sodachi)
+- JPN - Love Live! Superstar!! - ED2 - Mirai wa Kaze no You ni (IkuY)
+- JPN - Love Live! Superstar!! - ED3 - Mirai wa Kaze no You ni (IkuY)
+- JPN - Love Live! Superstar!! - ED4 - Mirai wa Kaze no You ni (IkuY)
+- JPN - Love Live! Superstar!! - ED5 - Mirai wa Kaze no You ni (IkuY)
+- JPN - Love Live! Superstar!! - ED7 - Mirai wa Kaze no You ni (IkuY)
+- JPN - Love Live! Superstar!! - ED9 - Mirai wa Kaze no You ni (IkuY)
+- JPN - Love Live! Superstar!! - IN - Honno choppiri ~ Orchestra Vers (IkuY)
+- JPN - Love Live! Superstar!! - IN - Starlight Prologue (IkuY)
+- JPN - Lupin III Part VI - ED2 - Bitter Rain (Nodamin)
+- JPN - Mahou Shoujo Lyrical Nanoha ViVid - ED - Pleasure Treasure (Lshiro)
+- JPN - Mayoi Neko Overrun! - OP2 - Go! Grand Braver! (Litto)
+- JPN - Megadimension Neptunia VIIR - GAME PS4 PC OP - Starting Days!! (Lshiro)
+- JPN - Miki Matsubara - MV - Stay with Me (marxmy)
+- JPN - Miko Sakura, Suisei Hoshimachi - MV - Animal ~ Cover Vers (Atsuyas)
+- JPN - Miku Hatsune - MV - Goodbye, Ms. Flower Thief (yyec)
+- JPN - Miku Hatsune - MV - Rainbow Girl (meulahke)
+- JPN - Mushoku Tensei Isekai Ittara Honki Dasu - ED2 - Kaze to Iku Michi (Tatoon)
+- JPN - Neptunia re Verse - GAME PS5 OP - For SHARE!! (Lshiro)
+- JPN - Nihon Animator Mihonichi - AUDIO - Samishii Kamisama ~ Full Vers (Subkei)
+- JPN - Nihon Animator Mihonichi - IN - Samishii Kamisama (GIRL Part 1) (Subkei)
+- JPN - Nihon Animator Mihonichi - IN - Yumemiteta no Atashi (GIRL Part 2) (Subkei)
+- JPN - Nihon Animator Mihonichi - MV - Samishii Kamisama medium ver (Subkei)
+- JPN - Okayu Nekomata - MV - Detabare Neko (Atsuyas)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME AMV - Cutlery ~ Cover Vers (Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME AMV - Venom ~ Cover Vers (Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Aishite Aishite Aishite ~ Cover Vers (Amo)
+- JPN - Rushia Uruha - MV - Omoikou ~ Short Vers (Kmeuh)
+- JPN - Ryuu to Sobakasu no Hime - MOVIE AUDIO IN - Lend Me Your Voice ~ Full Vers (Rinchama)
+- JPN - Sabikui Bisco - ED - Houkou (fabthehedgehog)
+- JPN - Sabikui Bisco - OP - Kaze no Oto Sae Kikoenai (fabthehedgehog)
+- JPN - Senki Zesshou Symphogear - ED2 - Gekisou Gungnir (Dysp)
+- JPN - Senki Zesshou Symphogear - IN - FLIGHT FEATHERS (Dysp, Amo)
+- JPN - Shin Tetsuwan Atom (1980) - ED - Mirai ni Mukatte New Tetsuwan Atom (Kmeuh)
+- JPN - Shingeki no Bahamut Virgin Soul - MV - Haikei Goodbye Sayounara ~ Full Vers (Subkei)
+- JPN - Sword Art Online Unleash Blading - GAME OP - Gyakkyou Spectrum (Bakaclub)
+- JPN - Tate no Yuusha no Nariagari - ED3 - Atashi ga Tonari ni Iru Uchi ni (Yûgao)
+- JPN - Tommy february6 - MV - Je t'aime je t'aime (asdFer)
+- JPN - Touhou - AMV - ZUN-san - O.T.Z.Y (Spotty Len)
+- JPN - Touhou - AUDIO - Slicing Netherworld Boundaries (Jun)
+- JPN - Touhou - MV - HANIPAGANDA (Lasagna)
+- JPN - Touhou - MV - HANIPAGANDA ~ Off Vocal Vers (Lasagna)
+- JPN - Touhou - MV - Madoite Kitare, Yuuda na Kamikakushi ~ Border of Death (Lasagna)
+- JPN - Touhou - MV - Money Money (Lasagna)
+- JPN - Touhou - MV - Mou Uta Shika Utaenai (Lasagna)
+- JPN - Touhou - MV - Murasame UNITED The Unbelievable Alice Assault (Elliu)
+- JPN - Touhou - MV - REAL WORLD ~ Short Vers (Lasagna)
+- JPN - Touhou - MV - Scarlet Police on Ghetto Patrol in 24 Hours (Lasagna)
+- JPN - Touhou - MV - Stops at the affected area and immediately dissolves ~ Lunatic Udongein (Colgate)
+- JPN - Touhou - MV - s complex (Lasagna)
+- JPN - Touhou - REMIX AUDIO - Cuibi DRAGON (Lasagna)
+- JPN - Touhou - REMIX AUDIO - Gekioni PUMP UP (Lasagna)
+- JPN - Touhou - REMIX MV - Pandora66 (Lasagna)
+- JPN - Touhou - REMIX MV - Taiyou no Hana -Eternal Summer- (Lasagna)
+- JPN - Touhou M-1 Grand Prix - ED6 - Kimi no Tame no Gensou Uta (Spotty Len)
+- JPN - Tsubasa CHRoNiCLE - AMV - Yume no Tsubasa (Yûgao)
+- JPN - Uma Musume Pretty Derby 1st Anniversary Special Animation - ONA ED - Ambitious World (meulahke)
+- JPN - Watame Tsunomaki - MV - Everlasting Soul (yt2ass)
+- JPN - YOASOBI - MV - Ano Yume wo Nazotte ~ Off Vocal Vers (yyec, TheMio)
+- JPN - Yarichin Bitch Bu - OVA ED - Touch You (Bisquette)
+- JPN - ZUTOMAYO - MV - Neko Reset ~ Off Vocal Vers (Pierre CAMILLI, TheMio)
+
 # January 2022
 
 Contributors: 
