@@ -82,7 +82,7 @@ foreach ($data as $kara) {
         $content = json_decode($kara[$tagtype], true);
         if (is_array($content))
         foreach($content as $tag) {
-            if (!empty($tag['nolivedownload']) && $tag['nolivedownload']) {
+            if (!empty($tag['noLiveDownload']) && $tag['noLiveDownload']) {
                 echo $kara['mediafile'] . ' ignored, ' . $tag['name'] . ' has noLiveDownload.\n';
                 $skip = true;
                 break;
