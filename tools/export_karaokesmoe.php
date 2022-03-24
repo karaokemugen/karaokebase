@@ -74,7 +74,7 @@ function map_name($tag) {
 
 //First pass
 $first_pass = [];
-$types = ['singers', 'songtypes', 'languages', 'authors', 'misc', 'platforms', 'genres', 'series', 'origins', 'creators', 'versions'];
+$types = ['singers', 'songtypes', 'languages', 'authors', 'misc', 'platforms', 'genres', 'series', 'origins', 'creators', 'versions', 'warnings', 'collections'];
 foreach ($data as $kara) {
 
     $skip = false;
