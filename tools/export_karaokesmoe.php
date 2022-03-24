@@ -44,7 +44,9 @@ SELECT
   ak.mediafile AS mediafile,
   ak.gain AS gain,
   jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 8)') AS songwriters,
-  jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 14)') AS versions
+  jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 14)') AS versions,
+  jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 15)') AS warnings,
+  jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 16)') AS collections
 FROM all_karas AS ak
 WHERE (mediafile LIKE '%.mp4' or mediafile LIKE '%.mp3')
 GROUP BY ak.pk_kid, ak.tags, ak.titles, ak.songorder, ak.subfile, ak.mediafile, ak.gain, ak.titles_sortable, ak.serie_singer_sortable, ak.songtypes_sortable
