@@ -27,7 +27,7 @@ try {
 $query = "
 SELECT
   ak.pk_kid AS kid,
-  as.titles->>titles_default_language AS title,
+  ak.titles->>titles_default_language AS title,
   ak.songorder AS songorder,
   ak.subfile AS subfile,
   jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 2)') AS singers,
