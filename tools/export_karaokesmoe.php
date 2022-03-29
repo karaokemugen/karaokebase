@@ -27,7 +27,7 @@ try {
 $query = "
 SELECT
   ak.pk_kid AS kid,
-  ak.titles->>titles_default_language AS title,
+  ak.titles->>ak.titles_default_language AS title,
   ak.songorder AS songorder,
   ak.subfile AS subfile,
   jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 2)') AS singers,
@@ -49,7 +49,7 @@ SELECT
   jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 16)') AS collections
 FROM all_karas AS ak
 WHERE (mediafile LIKE '%.mp4' or mediafile LIKE '%.mp3')
-GROUP BY ak.pk_kid, ak.tags, ak.titles, ak.songorder, ak.subfile, ak.mediafile, ak.gain, ak.titles_sortable, ak.serie_singer_sortable, ak.songtypes_sortable
+GROUP BY ak.pk_kid, ak.tags, ak.titles, ak.titles_default_language, ak.songorder, ak.subfile, ak.mediafile, ak.gain, ak.titles_sortable, ak.serie_singer_sortable, ak.songtypes_sortable
 ORDER BY ak.serie_singer_sortable, ak.songtypes_sortable DESC, ak.songorder, ak.titles_sortable
 ";
 
