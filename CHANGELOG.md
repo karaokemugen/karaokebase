@@ -1,3 +1,158 @@
+# March 2022
+
+Kara count: 12 161
+
+Contributors: 
+
+- Alshkor
+- Amo
+- Asajimi
+- Atsuyas
+- Bakaclub
+- BeVox
+- Bisquette
+- Dahel
+- Dangermix
+- Demoto
+- Elliu
+- Gilrael
+- Icefeed
+- IkuY
+- Kmeuh
+- Lasagna
+- Lord_Tenebro
+- Nodamin
+- OniiFGC
+- Paisano87
+- RhiobeT
+- Rinchama
+- SierraJohn
+- SoCrazy293
+- Sodachi
+- Spotty Len
+- TeLiXj
+- Thaksin
+- TheMio
+- UniversJB
+- Uwhipa
+- cinemalin0
+- fabthehedgehog
+- jmfb
+- leonekmi
+- meulahke
+- mustangfred
+- noa
+- vicktoben
+- yyec
+
+## Added
+
+New songs : 103
+
+- ENG - 2 Unlimited - MV - No Limit (Dangermix)
+- ENG - ABBA - MV - Money, Money, Money (TeLiXj)
+- ENG - Adele - MV - Rolling In The Deep (vicktoben)
+- ENG - American Dad! - OP - Good Morning USA (Paisano87)
+- ENG - Andreas Johnson - MV - Glorious (TeLiXj)
+- ENG - Baelz Hakos - MV - PLAY DICE! (yt2ass)
+- ENG - Boney M - MV - Rasputin (SierraJohn)
+- ENG - Calliope Mori - MV - UnAlive (BeVox)
+- ENG - Chainsaw Man - AMV - Devil in Your Heart (Icefeed)
+- ENG - Furi Kuri - OVA IN - ONE LIFE (RhiobeT)
+- ENG - GUMI, Miku Hatsune - MV - GETCHA! (yt2ass)
+- ENG - GigaP, KIRA - MV - GETCHA! ~ Cover Vers (yt2ass)
+- ENG - Green Day - MV - Boulevard of Broken Dreams (Gilrael)
+- ENG - Guilty Gear (2020) - GAME PC PS5 PS4 OP - Smell of the Game ~ Full Vers (Spotty Len)
+- ENG - IRyS - MV - See the world (yt2ass)
+- ENG - Iron Maiden - MV - Writing On The Wall (Alshkor)
+- ENG - Iselin Solheim - MV - Faded (jmfb)
+- ENG - Kidou Senshi Gundam - Senkou no Hathway - MOVIE MV - Senkou (English Ver.) ~ Full Vers (meulahke)
+- ENG - Legend of the Galactic Heroes Die Neue These - Gekitotsu - MOVIE OP - dust (UniversJB)
+- ENG - Malukah - MV - The Dragonborn Comes ~ Acoustic Cover Vers (BeVox)
+- ENG - Metal Gear Rising Revengeance - AUDIO IN - It Has To Be This Way (OniiFGC)
+- ENG - Metal Gear Rising Revengeance - AUDIO IN - The Hot Wind Blowing (OniiFGC)
+- ENG - Parry Gripp - MV - Raining Tacos (Bisquette)
+- ENG - Smash Mouth - MV - All Star (TeLiXj)
+- FRE - Aladdin - MOVIE IN - Ce reve bleu (TeLiXj)
+- FRE - Aladdin - MOVIE OP - Nuits d'Arabie (Lord_Tenebro)
+- FRE - Alain Bashung - MV - Ma petite entreprise (cinemalin0)
+- FRE - Alizee - MV - Mademoiselle Juliette (TeLiXj)
+- FRE - Alizee - MV - Moi... Lolita (Gilrael)
+- FRE - Alys - MV - Avenir (Uwhipa)
+- FRE - Jacques Brel - LIVE - Amsterdam (mustangfred)
+- FRE - Mastu - MV - Smegma (leonekmi)
+- FRE - Produkteef - OT - QUI EST-CE (leonekmi)
+- FRE - Shin Tetsuwan Atom (1980) - ED - Astro le petit robot (Kmeuh)
+- IND - Kobo Kanaeru - MV - Mantra Hujan (yt2ass)
+- JPN - AZKi, Amelia Watson, Anya Melfissa - MV - Hololive ieru ka na question_mark ~ Beyond the Stage Vers (yt2ass)
+- JPN - AZKi, Suisei Hoshimachi - MV - The Last Frontier ~ Off Vocal Vers (Nodamin)
+- JPN - Aggressive Retsuko - ED2 - Aggressive Girl (IkuY)
+- JPN - Aikatsu! Idol Katsudou! - IN - Precious (Nodamin)
+- JPN - Alys - MV - SHARDS (Uwhipa)
+- JPN - Araki, nqrse - REMIX MV - Roki ~ Cover Vers (Demoto, Atsuyas)
+- JPN - BUMP OF CHICKEN - MV - GO ~ Full Vers (meulahke)
+- JPN - Chogakusei - MV - New Darling ~ Cover Vers (BeVox)
+- JPN - Dragon, Ie wo Kau - OP1 - Role-Playing (BeVox, Icefeed)
+- JPN - Eagle Talon Golden Spell - OP - Dare ga Tame ni CHAKAPOCO wa Naru (IkuY)
+- JPN - Eromanga-sensei - MV - Hitorigoto ~ Lamy & Nene Vers. ~ Cover Full Vers (Thaksin, Rinchama)
+- JPN - Flower - MV - lower one's eyes (noa)
+- JPN - Gintama0 - OP5 - Know Know Know ~ Alternative Vers (Asajimi, UniversJB)
+- JPN - IA - AUDIO - Alice in Reitouko (yyec)
+- JPN - IA, Miku Hatsune - MV - Kuusou Ressha (yyec)
+- JPN - Ironmouse - REMIX MV - KING ~ Cover Vers (fabthehedgehog)
+- JPN - Joshiryoku Takame na Shishihara-kun - OVA MV - LOVE FIGHT (IkuY)
+- JPN - KAFU - MV - Alma (BeVox)
+- JPN - Kaguya-sama wa Kokurasetai Ultra Romantic - LIVE OP - GIRI GIRI (meulahke)
+- JPN - Keyakizaka46 - MV - Kuroi Hitsuji (Atsuyas)
+- JPN - Kindaichi Shounen no Jikenbo - OP3 - Kimi ga iru kara (UniversJB, SoCrazy293)
+- JPN - Koukyoushihen Eureka Seven - MV - Shounen Heart ~ Full Vers (meulahke)
+- JPN - Kyuuketsuki Sugu Shinu - OP - DIES IN NO TIME (Dahel)
+- JPN - Layton Mystery Tanteisha Katri no Nazotoki File - OP2 - blooming (UniversJB)
+- JPN - Layton Mystery Tanteisha Katri no Nazotoki File - OP2 - blooming ~ Alternative Vers (UniversJB)
+- JPN - Len Kagamine, Rin Kagamine - MV - Death Should Not Have Taken Thee (Atsuyas)
+- JPN - Love Live! Superstar!! - IN - Honno choppiri (IkuY)
+- JPN - Love Live! Superstar!! - MV - What a Wonderful Dream!! ~ Full Vers (Sodachi)
+- JPN - MILGRAM - MV - MeMe ~ Es Vers. ~ Cover Vers (Lasagna)
+- JPN - MILGRAM - MV - This Is How To Be In Love With You (Lasagna)
+- JPN - MILGRAM - MV - This Is How To Be In Love With You ~ Off Vocal Vers (Lasagna)
+- JPN - MILGRAM - MV - Weakness ~ Es Vers. ~ Cover Vers (Lasagna)
+- JPN - Miku Hatsune - MV - New Darling ~ Off Vocal Vers (BeVox)
+- JPN - Miku Hatsune - MV - Oki ni Mesu mama ~ Off Vocal Vers (Elliu, TheMio)
+- JPN - Miku Hatsune - MV - Tamago Kake Gohan (Spotty Len)
+- JPN - Pocket Monsters (2019) - OP - 1.2.3 ~ Fourth ver. ~ Alternative Vers (meulahke)
+- JPN - Princess Connect! Re Dive - GAME ED1 - Smiley Contrast (meulahke)
+- JPN - Princess Connect! Re Dive - GAME ED2 - Little Adventure (meulahke)
+- JPN - Princess Connect! Re Dive - GAME ED3 - Peaceful Champuru (meulahke)
+- JPN - Princess Connect! Re Dive - GAME ED4 - Egao no My Home (meulahke)
+- JPN - Princess Connect! Re Dive - GAME ED5 - Kinkira Happiness (meulahke)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - 1,2 Fanclub ~ Cover Vers (Bakaclub, Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - lower one's eyes (noa)
+- JPN - REOL, kradness - MV - Death Should Not Have Taken Thee ~ Cover Vers (Atsuyas)
+- JPN - Reine Pavolia - MV - Love Me Love Me (yt2ass)
+- JPN - Roce - MV - Jishu (BeVox)
+- JPN - Sabikui Bisco - ED - Houkou ~ Alternative Vers (fabthehedgehog)
+- JPN - Sabikui Bisco - ED - Houkou ~ Milo Vers. ~ Alternative Vers (fabthehedgehog)
+- JPN - Sayonara Watashi no Cramer First Touch - AUDIO IN - Can you sing along question_mark ~ Full Vers (Sodachi, BeVox)
+- JPN - Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai - ED - Fukashigi no Carte ~ Full Vers (OniiFGC)
+- JPN - Shadowverse - OP1 - Kirifuda (IkuY)
+- JPN - Shigatsu wa Kimi no Uso - MV - Hikaru Nara ~ HoloCouncil Vers. ~ Cover Vers (Amo)
+- JPN - Shuka Saitou - AUDIO STREAM - Shu Shu Shu ~ Full Vers (Sodachi)
+- JPN - Stratos 4 - ED2 - So far, so near (Amo)
+- JPN - Touhou - AMV - Yukai na hakaba de gokigen'you (Alshkor)
+- JPN - Touhou - AUDIO - Holy My Reincarnation (Spotty Len)
+- JPN - Touhou - MV - BloodDark -Koumuihentan- (Lasagna)
+- JPN - Touhou - MV - LOVE EAST (Lasagna)
+- JPN - Touhou - MV - LOVE EAST ~ Off Vocal Vers (Lasagna)
+- JPN - Touhou - MV - Sci-Fi ROMANCE TRAVELER (Lasagna)
+- JPN - Touhou - REMIX MV - Monosugoi VIBES de Marisa ga monosugoi RAP ~ Alternative Vers (Atsuyas)
+- JPN - Tsuujou Kougeki ga Zentai Kougeki de Ni-kai Kougeki no Okaasan wa Suki desu ka question_mark - OP - Iyayo Iyayo mo Suki no Uchi (IkuY)
+- JPN - Yuru Camp Have a nice day! - GAME SWITCH PS4 ED - Loch to Tabibito (Spotty Len)
+- JPN - Yuru Camp season 2 - AUDIO IN - Kono Basho De. ~ Full Vers (Spotty Len)
+- JPN - asmi - MV - Nani Yatte mo Umaku Ikanai ~ Cover Vers (Atsuyas)
+- JPN - meiyo - MV - Nani Yatte mo Umaku Ikanai (Atsuyas)
+- MUL - Chalili, Ehmz, Enae - MV - Blessing ~ World Edition ~ Cover Vers (Uwhipa)
+- SPA - Jeanette - MV - Porque te vas (Bisquette)
+
 
 
 # February 2022
