@@ -1,13 +1,3 @@
-# April 2022
-
-Kara count: 12 161
-
-Contributors: 
-
-
-## Added
-
-New songs : 0
 
 
 # February 2022
