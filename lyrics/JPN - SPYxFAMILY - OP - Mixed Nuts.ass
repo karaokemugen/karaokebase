@@ -12,8 +12,6 @@ PlayResY: 0
 [Aegisub Project Garbage]
 Audio File: E:\karaokebase\medias\JPN - SPYxFAMILY - OP - Mixed Nuts.mp4
 Video File: E:\karaokebase\medias\JPN - SPYxFAMILY - OP - Mixed Nuts.mp4
-Scroll Position: 29
-Active Line: 41
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -22,7 +20,7 @@ Style: Default,Arial,24,&H00FFFFFF,&H000084FF,&H00000000,&H00666666,-1,0,0,0,100
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,q!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:10.30,0:00:14.07,Default,,0,0,0,karaoke,{\k18}fu{\k23}ku{\k13}ro {\k23}ni {\k23}tsu{\k23}me{\k23}ra{\k36}re{\k36}ta {\k33}NU{\k28}TS {\k20}no {\k18}yo{\k23}u {\k37}na
 Comment: 0,0:00:14.45,0:00:16.07,Default,,0,0,0,karaoke,{\k45}se{\k39}ke{\k19}n {\k20}de {\k39}wa
 Comment: 0,0:00:16.28,0:00:20.95,Default,,0,0,0,karaoke,{\k21}da{\k59}re{\k21}mo {\k37}ga {\k25}so{\k18}re{\k37}zo{\k24}re {\k15}de{\k43}a{\k9}t{\k16}ta {\k19}da{\k48}re{\k29}ka {\k46}to
