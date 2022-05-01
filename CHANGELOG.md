@@ -1,3 +1,303 @@
+# April 2022
+
+Kara count: 12 388
+
+Contributors: 
+
+- Aeden
+- Amo
+- Atsuyas
+- Bakaclub
+- BeVox
+- Bisquette
+- Colgate
+- Coppo
+- Currymalker
+- Dahel
+- Demoto
+- Dysp
+- Elliu
+- Gilrael
+- IkuY
+- Kaleidoscope
+- Klafhor
+- Kmeuh
+- Kohaku Hashimoto
+- Lasagna
+- Leroidukitch
+- Lorc
+- MaxSonic
+- NextFire
+- Nock
+- Nyguita
+- Pierre CAMILLI
+- RhiobeT
+- Rinchama
+- Sodachi
+- Spotty Len
+- Subkei
+- TeLiXj
+- TheMio
+- Ultra
+- UniversJB
+- Uwhipa
+- Vikuo
+- Yûgao
+- amoethyst
+- asdFer
+- bibialice
+- cinemalin0
+- fabthehedgehog
+- gollum
+- gouthamma
+- leonekmi
+- memo65
+- meulahke
+- mustangfred
+- nauce
+- noa
+- robertdjangelux
+- sakichan
+- skid9000
+- stobb3s
+- taite83
+- tartar lord
+- upalula
+- vicktoben
+- zXz
+
+## Added
+
+New songs : 227
+
+- CHI - Love Live! Nijigasaki High School 2nd Season - IN - Eutopia (MaxSonic)
+- ENG - Ace of Base - MV - All That She Wants (robertdjangelux)
+- ENG - Adam Gontier, Apocalyptica - MV - I Don't Care (Lorc)
+- ENG - Adele - MV - Set Fire To The Rain (vicktoben)
+- ENG - Adele - MV - Someone Like You (nauce)
+- ENG - Aerosmith - MV - Dream On (gouthamma)
+- ENG - Arsenium - MV - Rumadai (TeLiXj)
+- ENG - Avril Lavigne - MV - Sk8er Boi (TeLiXj)
+- ENG - BACKSTREET BOYS - MV - Everybody (Backstreet's Back) (Gilrael)
+- ENG - Bob Marley - MV - No Woman, No Cry (TeLiXj)
+- ENG - Britney Spears - MV - Oops!... I Did It Again (zXz)
+- ENG - Caleb Hyles, Jonathan Young - MV - Wolf In Sheep's Clothing ~ Cover Vers (fabthehedgehog)
+- ENG - Caroline Konstnar - MV - The Depression Song (amoethyst)
+- ENG - Cascada - MV - Last Christmas ~ Cover Vers (taite83)
+- ENG - Chogakusei - REMIX MV - Myosotis ~ Cover Vers (BeVox)
+- ENG - DEMONDICE - AMV - Hazy Skyscraper (fabthehedgehog)
+- ENG - Drive - MOVIE AMV - A Real Hero (stobb3s)
+- ENG - Eurythmics - MV - Sweet Dreams (Are Made of This) (mustangfred)
+- ENG - Fatal Twelve - GAME PC OP - Unveil (Dahel)
+- ENG - Furi Kuri - OVA IN - Advice (RhiobeT)
+- ENG - Ginga Eiyuu Densetsu Die Neue These - Gekitotsu - OVA MOVIE OP - dust ~ Alternative Vers (UniversJB)
+- ENG - Glee - IN - Call Me Maybe ~ Cover Vers (vicktoben)
+- ENG - Glee - IN - Somebody That I Used To Know ~ Cover Vers (vicktoben)
+- ENG - Glee - IN - The Fox (What Does The Fox Say question_mark ) ~ Cover Vers (vicktoben)
+- ENG - Gura Gawr - MV - REFLECT (yt2ass)
+- ENG - Honkai Impact 3rd - MV - Oracloath ~ Cover Vers (Kaleidoscope)
+- ENG - Iron Maiden - MV - The Number of the Beast (gollum)
+- ENG - Jermaine Jackson, Pia Zadora - MV - When the Rain Begins to Fall (gollum)
+- ENG - KISS - MV - I Was Made for Lovin' You (mustangfred)
+- ENG - Kronii Ouro - MV - Daydream (yt2ass)
+- ENG - League of Legends - GAME PC MV - GIANTS (Subkei)
+- ENG - Les Zinzins de l'espace - OP - Monster Men (NextFire)
+- ENG - Leviathan - AUDIO - Chug Jug With You (Elliu)
+- ENG - Madonna - MV - Frozen (Coppo)
+- ENG - Madonna - MV - Hung Up (upalula)
+- ENG - Madonna - MV - La isla bonita (mustangfred)
+- ENG - Madonna - MV - Like a Virgin (TeLiXj)
+- ENG - Miku Hatsune - MV - Chug Jug With You ~ Cover Vers (Elliu)
+- ENG - Muse - MV - Time Is Running Out (gollum)
+- ENG - Ozuma - OP - Hit The Sands (Currymalker)
+- ENG - Ozzy Osbourne - MV - Bark at the Moon (gollum)
+- ENG - Queen - MV - I Want to Break Free (TeLiXj)
+- ENG - Queen - MV - Radio Ga Ga (TeLiXj)
+- ENG - Scorpions - MV - Rock You Like a Hurricane (TeLiXj)
+- ENG - Sei Juushi Bismarck - OP - Saber Rider (UniversJB)
+- ENG - Shakira - MV - Whenever, Wherever (Klafhor)
+- ENG - Shokei Shoujo no Virgin Road - OP - Paper Bouquet (IkuY)
+- ENG - Tai Phong - MV - Sister Jane (mustangfred)
+- ENG - Tears for Fears - MV - Shout (gollum)
+- ENG - Texas - MV - Summer Son (TeLiXj)
+- ENG - The Beatles - MV - Lucy in the Sky with Diamonds (mustangfred)
+- ENG - The Lion King - MOVIE IN - I Just Can't Wait To Be King (TeLiXj)
+- ENG - The Weeknd - MV - Save Your Tears (mustangfred)
+- ENG - Tom Jones - MV - Sex Bomb (gouthamma)
+- ENG - Ultraman (2019) - ED2 - Transcending Time (fabthehedgehog)
+- ENG - Vengaboys - MV - Boom, Boom, Boom, Boom!! (Coppo)
+- ENG - Warframe - GAME SWITCH XBOXONE PS4 PC PS5 MV - We All Lift Together (Ultra)
+- ENG - Worlds Apart - MV - Je te donne ~ Cover Vers (Leroidukitch)
+- ENG - Zootopia - MOVIE MV - Try Everything (Vikuo)
+- ENG - senzawa - MV - I Wanna Be a Cowboy (amoethyst)
+- FRE - Andrea Bocelli, Helene Segara - LIVE - Vivo Per Lei (cinemalin0)
+- FRE - Annie Cordy - MV - La Bonne du cure (bibialice)
+- FRE - Axel Bauer - MV - Cargo (mustangfred)
+- FRE - Axel Bauer, Zazie - MV - A ma place (bibialice)
+- FRE - Crossed - STREAM - Attention Dino Danger ~ Jazz Club Vers (Pierre CAMILLI)
+- FRE - Dalida - MV - Mourir sur scene (mustangfred)
+- FRE - Damien Saez - MV - Jeune et Con (mustangfred)
+- FRE - Daniel Balavoine - MV - Le Chanteur (mustangfred)
+- FRE - Daniel Balavoine - MV - Tous les cris les SOS (mustangfred)
+- FRE - Debut de soiree - MV - Nuit de folie (mustangfred)
+- FRE - Final Fantasy VI Pixel Remaster - GAME PC IN - Aria di Mezzo Carattere (Pierre CAMILLI)
+- FRE - Gilbert Montagne - MV - On va s'aimer (mustangfred)
+- FRE - Gold - MV - Capitaine abandonne (mustangfred)
+- FRE - Johnny Hallyday - MV - Noir c'est noir ~ Cover Vers (mustangfred)
+- FRE - Renaud Sechan - MV - Mistral gagnant (cinemalin0)
+- FRE - Sei Juushi Bismarck - OP - Sab-Rider (UniversJB)
+- FRE - Starmania - MV - Quand on arrive en ville (mustangfred)
+- FRE - Stromae - MV - Tous les memes (mustangfred)
+- FRE - Telephone - MV - Un autre monde (mustangfred)
+- GER - Nena - MV - 99 Luftballons (TeLiXj)
+- JPN - 86 - ED3 - Alchemilla (Amo)
+- JPN - AZKi, Nene Momosuzu - MV - Roki ~ Cover Vers (Demoto, TheMio)
+- JPN - Aharen-san wa Hakarenai - ED1 - Kyorikan (Kmeuh)
+- JPN - Aharen-san wa Hakarenai - ED2 - AHAREN HEART (NextFire)
+- JPN - Aharen-san wa Hakarenai - OP - Hanarenai Kyori (NextFire)
+- JPN - Ame wo Tsugeru Hyouryuu Danchi - PV - Natsugare ~ Short Vers (Demoto, TheMio)
+- JPN - Amelia Watson, Kiara Takanashi - MV - Dreamin Chuchu ~ Cover Vers (IkuY)
+- JPN - Ao Ashi - OP - Mushin Hakusuu (meulahke)
+- JPN - Avataro Sentai Donbrothers - OP - Ore Koso Only One (fabthehedgehog)
+- JPN - BanG Dream! - LIVE - PASSIONATE ANTHEM (Sodachi)
+- JPN - Calliope Mori, Reine Pavolia, Suisei Hoshimachi - MV - Beat Eater ~ Cover Vers (BeVox)
+- JPN - Cardcaptor Sakura Kero-chan ni Omakase! - MOVIE ED - Okashi no Uta (Yûgao)
+- JPN - ChaoS HEAd - ED2 - D.P (Currymalker)
+- JPN - Chloe Sakamata - STREAM - Nani Yatte mo Umaku Ikanai ~ Cover Vers (Atsuyas)
+- JPN - Chogakusei - MV - Unknown Mother-Goose ~ Cover Vers (BeVox)
+- JPN - Date A Live IV - OP1 - OveR (MaxSonic)
+- JPN - Fantasy Bishoujo Juniku Oji-san to - ED - Fantasy to! (Colgate)
+- JPN - Fantasy Bishoujo Juniku Oji-san to - OP - Akatsuki no Salaryman (Colgate)
+- JPN - Fate Grand Order - LIVE - Meikyoushisui (Nyguita)
+- JPN - Flower - MV - Casino (fabthehedgehog)
+- JPN - Flower - MV - Casino ~ Off Vocal Vers (fabthehedgehog)
+- JPN - Flower - MV - Nightmare (fabthehedgehog)
+- JPN - Flower - MV - Nightmare ~ Off Vocal Vers (fabthehedgehog)
+- JPN - Flower - MV - Shadow Shadow (fabthehedgehog)
+- JPN - Flower - MV - Shadow Shadow ~ Off Vocal Vers (fabthehedgehog)
+- JPN - Furi Kuri - OVA IN - CARNIVAL (RhiobeT)
+- JPN - Furi Kuri - OVA IN - Funny Bunny (RhiobeT)
+- JPN - Furi Kuri - OVA IN - Happy Bivouac (RhiobeT)
+- JPN - Furi Kuri - OVA IN - Hybrid Rainbow (RhiobeT)
+- JPN - Furi Kuri - OVA IN - Instant Music (RhiobeT)
+- JPN - Furi Kuri - OVA IN - White Ash (RhiobeT)
+- JPN - GUMI, Rin Kagamine - MV - LUVORATORRRRRY! (tartar lord)
+- JPN - Gekijouban Jujutsu Kaisen 0 - MV - Ichizu ~ Full Vers (Dysp)
+- JPN - Gekijouban Jujutsu Kaisen 0 - MV - Sakayume ~ Full Vers (Dysp)
+- JPN - Gekijouban Violet Evergarden - MOVIE LIVE - Michishirube ~ Orchestra Vers (Rinchama)
+- JPN - Getter Robo Arc - OP - Bloodlines ~Unmei no Kettou~ (meulahke)
+- JPN - Gyakuten Sekai no Denchi Shoujo - OP1 - Fever Dreamer (Dahel)
+- JPN - Healer Girl - ED - Believe like Singing (Kmeuh)
+- JPN - Healer Girl - OP - Feel You, Heal You (Kmeuh)
+- JPN - Heroine Tarumono! Kiraware Heroine to Naisho no Oshigoto - OP - Julietta (Amo)
+- JPN - Idoly Pride - IN - Song for you (Kohaku Hashimoto)
+- JPN - Iwa Kakeru! Sport Climbing Girls - ED - LET'S CLIMB (Spotty Len)
+- JPN - Iwa Kakeru! Sport Climbing Girls - OP - Motto Takaku (Spotty Len)
+- JPN - Jian Wangchao - ONA OP - Shukugou no Ken (Currymalker)
+- JPN - Jormungand - ED2 - Shiroku Yawaraka na Hana (Currymalker)
+- JPN - KUROMI - MV - Greedy Greedy (IkuY)
+- JPN - Kaguya-sama wa Kokurasetai Ultra Romantic - OP - GIRI GIRI (Kmeuh)
+- JPN - Kawaii Dake ja Nai Shikimori-san - OP - Honey Jet Coaster (NextFire)
+- JPN - Kiara Takanashi - REMIX MV - Cinderella (Giga First Night Remix) ~ Cover Vers (BeVox)
+- JPN - Kikou Shoujo wa Kizutsukanai - MV - Maware! Setsugetsuka ~ Hololive Vers ~ Cover Full Vers (Dysp)
+- JPN - Kimetsu no Yaiba Yukaku-hen - MV - Zankyou Sanka ~ Full Vers (yt2ass)
+- JPN - Kimetsu no Yaiba Yukaku-hen - MV - Zankyou Sanka ~ Vestia Zeta Vers. ~ Cover Full Vers (yt2ass)
+- JPN - Kingdom (2013) - OP - GLORY DAYS (UniversJB)
+- JPN - Kingdom 3 - OP1 - TOMORROW (UniversJB)
+- JPN - Kingdom 3 - OP1 - TOMORROW ~ Alternative Vers (UniversJB)
+- JPN - Kishin Houkou Demonbane - ED - Modern Rose (Currymalker)
+- JPN - Koi wa Sekai Seifuku no Ato de - OP - Koi wa Explosion (meulahke)
+- JPN - Komi-san wa, Komyushou Desu. (2022) - OP - Ao 100 Iro (Kmeuh)
+- JPN - Korone Inugami - MV - Doggy god's street (Atsuyas)
+- JPN - Koyori Hakui - MV - Animal ~ Cover Vers (Atsuyas)
+- JPN - Lamy Yukihana - MV - Phony ~ Cover Vers (BeVox)
+- JPN - Layton Kyouju to Kiseki no Kamen - MV - Mysterious Flower (Bisquette)
+- JPN - Let's Make a Mug Too 2 - OP - Muchuu no Saki he (Spotty Len)
+- JPN - Liyuu - AUDIO - Metamorphose (Sodachi)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - AUDIO - Ryouran! Victory Road (skid9000)
+- JPN - Love Live! Nijigasaki High School 2nd Season - IN - ENJOY IT! (skid9000)
+- JPN - Love Live! Nijigasaki High School 2nd Season - IN - Eternal Light ~ Short Vers (Sodachi)
+- JPN - Love Live! Nijigasaki High School 2nd Season - OP - Colorful Dreams! Colorful Smiles! (Sodachi)
+- JPN - Love Live! Sunshine!! - AUDIO - Paradise Chime ~ Full Vers (Sodachi)
+- JPN - Love Live! Sunshine!! - MV - Koi ni Naritai AQUARIUM (skid9000)
+- JPN - Love Live! Superstar!! - AUDIO - Tu Tu Tu! (Sodachi)
+- JPN - Luka Megurine - MV - Dreamin Chuchu (IkuY)
+- JPN - Macross Delta - AUDIO ED1 - Ikenai Borderline ~ Ranka & Sheryl Vers (Rinchama)
+- JPN - Macross F Music Clip Shuu Nyankuri - OVA MV - Anata no Oto (Amo)
+- JPN - Marine Houshou - MV - Marine shukkou ~ Short Vers (yt2ass)
+- JPN - Meitantei Conan - OP55 - SLEEPLESS ~ Alternative Vers (UniversJB)
+- JPN - Meitantei Conan Zero no Tea Time - OP - Shooting Star (UniversJB)
+- JPN - Miku Hatsune - MV - Beat Eater (BeVox)
+- JPN - Miku Hatsune - MV - Inochi ni Kirawete Iru (Amo, Dysp)
+- JPN - Miku Hatsune, Rin Kagamine - MV - GimmexGimme (Elliu)
+- JPN - Momokuri - OP - Daisuki da yo Daisuki da yo Umarete Kite Arigatou (IkuY)
+- JPN - NEEDY GIRL OVERDOSE - GAME PC MV - INTERNET OVERDOSE ~ Short Vers (memo65)
+- JPN - Okayu Nekomata - MV - Nani Yatte mo Umaku Ikanai ~ Cover Vers (Atsuyas)
+- JPN - Ollie Kureiji - MV - JOLLIE JOLLIE (yt2ass)
+- JPN - One Piece - OP23 - DREAMIN' ON (IkuY)
+- JPN - One Piece - OP24 - PAINT (IkuY)
+- JPN - Onipan! - ED - ONIPAPAPAN! PAN! (IkuY)
+- JPN - Ozuma - OP - Neverland (Currymalker)
+- JPN - Paripi Koumei - ED - Kibun Joujou (NextFire)
+- JPN - Paripi Koumei - OP - Chiki Chiki Bam Bam (Nock)
+- JPN - Princess Connect! Re Dive - GAME MV - Lost Princess ~ Full Vers (meulahke, Kaleidoscope)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Ifuudoudou ~ Cover Full Vers (noa)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Ifuudoudou ~ Cover Vers (noa)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Inochi ni Kirawete Iru ~ Cover Vers (Amo, Dysp)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Karakuri Pierrot ~ Cover Vers (Bakaclub, Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Nomad (Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Oki ni Mesu mama ~ Cover Vers (Elliu, Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Patchwork Staccato ~ Cover Vers (Elliu, Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Romeo to Cinderella ~ Cover Vers (asdFer, Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Showtime Ruler (Amo)
+- JPN - Puni Puni Poemi - OVA ED - Yume Warai.Uhyohyo (Colgate)
+- JPN - Puni Puni Poemi - OVA IN - Kyou mo Watanabe Poemi-chan (Colgate)
+- JPN - Re Zero kara Hajimeru Isekai Seikatsu - AMV - Suki desu (NextFire)
+- JPN - Rockman 2 Dr. Wairi no Nazo - GAME MV - Air Man ga Taosenai ~ JUNCA Vers. ~ Cover Vers (Bakaclub)
+- JPN - Ryuu to Sobakasu no Hime - MOVIE MV - Kokoro no Soba ni ~ Cover Full Vers (Rinchama)
+- JPN - SPYxFAMILY - ED - Kigeki (meulahke)
+- JPN - SPYxFAMILY - OP - Mixed Nuts (meulahke)
+- JPN - Sedeto - STREAM - Kami ppoi na ~ Cover Vers (Aeden, Atsuyas)
+- JPN - Splatoon - GAME MV - Ore ga Hanjou da ~ Cover Vers (Atsuyas)
+- JPN - Summer Time Rendering - OP - Hoshi ga Oyogu (Amo)
+- JPN - TOPHAMHAT-KYO - MV - Good luck, Clown (fabthehedgehog)
+- JPN - TWICE - MV - Candy Pop (Bisquette)
+- JPN - Tiger & Bunny 2 - OP - kaleido proud fiesta (meulahke)
+- JPN - Touhou - AUDIO - Bloody Devotion (Lasagna)
+- JPN - Touhou - AUDIO - Yoake no Werewolf (Lasagna)
+- JPN - Touhou - MV - Endless Tewi-ma Park (Dahel)
+- JPN - Touhou - MV - Futari no Kesshou -INNOCENCE- (Lasagna)
+- JPN - Touhou - MV - Futari no Kesshou -INNOCENCE- ~ Off Vocal Vers (Lasagna)
+- JPN - Touhou - MV - Gensou no Satellite (Dahel)
+- JPN - Touhou - MV - Kanzen Hanzai BANG! ~ Off Vocal Vers (fabthehedgehog)
+- JPN - Touhou - MV - STILL HERE (Lasagna)
+- JPN - Touhou - MV - Trance Dance Anarchy (Lasagna)
+- JPN - Touhou - REMIX AMV - Night of Nights (feat. ytr) ~ TOS Remis (Atsuyas)
+- JPN - Towa Tokoyami - AUDIO - My Roar (Uwhipa)
+- JPN - Tsubasa CHRoNiCLE - IN - You Are My Love (Yûgao)
+- JPN - Tsukuyomi - MV - Mayday (Elliu)
+- JPN - Vanitas no Karte - ED2 - 0 (Currymalker)
+- JPN - Watame Tsunomaki - MV - Holidays! (yt2ass)
+- JPN - Watashi ni Tenshi ga Maiorita! - AUDIO - Atashi kawaii sengen! ! ! (IkuY)
+- JPN - YOASOBI - AUDIO - Mister (Demoto, TheMio)
+- JPN - Yu-Gi-Oh! GO RUSH!! - ED - One Way (Spotty Len)
+- JPN - Yuru Camp Have a nice day! - GAME PS4 SWITCH ED - Loch to Tabibito ~ Full Vers (Spotty Len)
+- JPN - ZUTOMAYO - MV - MIRROR TUNE (leonekmi)
+- JPN - ZUTOMAYO - MV - MIRROR TUNE ~ Off Vocal Vers (leonekmi)
+- KOR - BIG BANG - MV - FANTASTIC BABY (Subkei)
+- KOR - BLACKPINK - MV - As If It's Your Last (asdFer)
+- KOR - BLACKPINK - MV - Kill This Love (asdFer)
+- KOR - BLACKPINK - MV - Lovesick Girls (asdFer)
+- KOR - BLACKPINK - MV - Playing With Fire (sakichan)
+- KOR - BLACKPINK - MV - Whistle (asdFer)
+- KOR - Fate Grand Order - GAME PC AMV - BAAM ~ Archer and Lancer Vers ~ Short Vers (tartar lord)
+- TUR - Tarkan - MV - Simarik (TeLiXj)
+- UND - NieR Gestalt, NieR Replicant, NieR Replicant ver.1.22474487139... - GAME XBOXONE PS4 PC PS3 XBOX360 AUDIO IN - Song of the Ancients Devola (fabthehedgehog)
+- UND - NieR Gestalt, NieR Replicant, NieR Replicant ver.1.22474487139... - GAME XBOXONE PS4 PC PS3 XBOX360 AUDIO IN - Song of the Ancients Fate (fabthehedgehog)
+- UND - NieR Gestalt, NieR Replicant, NieR Replicant ver.1.22474487139... - GAME XBOXONE PS4 PC PS3 XBOX360 AUDIO IN - Song of the Ancients Hollow Dreams (fabthehedgehog)
+- UND - NieR Gestalt, NieR Replicant, NieR Replicant ver.1.22474487139... - GAME XBOXONE PS4 PC PS3 XBOX360 AUDIO IN - Song of the Ancients Popola (fabthehedgehog)
+- UND - NieR Replicant ver.1.22474487139... - GAME XBOXONE PS4 PC AMV IN - Song of the Ancients Fate (fabthehedgehog)
+
 # March 2022
 
 Kara count: 12 161
