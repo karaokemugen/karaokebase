@@ -1,4 +1,4 @@
-# Karaoke Mugen Otaku database
+# Karaoke Mugen's Karaoke database
 
 ![Badge](https://img.shields.io/github/last-commit/AxelTerizaki/karaokebase.svg)
 ![Badge](https://img.shields.io/github/tag/AxelTerizaki/karaokebase.svg?sort=date)
@@ -16,7 +16,8 @@ A karaoke is made of the following elements :
 * A `.ass` file in the `lyrics` folder
 * A video or audio file in the `medias` folder
 * One or more `.tag.json` files in the `tags` folder
-* Optionally `.hook.yml` files in the `hooks` folder for tag automation when creating/editing songs in the app
+
+Optionally `.hook.yml` files in the `hooks` folder for tag automation when creating/editing songs in the app
 
 ### `karaokes` folder
 
@@ -34,7 +35,7 @@ This folder contains the video or audio file as specified in the `.kara.json` fi
 
 Videos aren't included in this git repository or else it'd be way too huge (about several hundred gigabytes at the moment). KM will take care of these for you.
 
-**If you get errors from Karaoke Mugen during database generation / folder validation, make sure you have the latest version of the repository (`git pull` or downloaded latest `master.zip`).**
+**If you get errors from Karaoke Mugen during database generation / validation, make sure you have the latest version of the repository (`git pull` or downloaded the latest `master.zip`).**
 
 ### `tags` folder
 
