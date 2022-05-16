@@ -4,7 +4,7 @@
 
 There's a tutorial describing how to make one here :
 
-* [Karaoke Tutorial](https://docs.karaokes.moe/en/contrib-guide/base/)
+* [Karaoke Tutorial](https://docs.karaokes.moe/contrib-guide/)
 
 ## I already have some karaoke files, I would like to add them to this database
 
