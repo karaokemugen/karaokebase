@@ -1,3 +1,194 @@
+# May 2022
+
+Kara count: 12 521
+
+Contributors: 
+
+- Alshkor
+- Amo
+- Armorial
+- Askédis
+- Atsuyas
+- BeVox
+- Bisquette
+- Cocs
+- Coppo
+- Currymalker
+- Daniel-Steinbock
+- Elliu
+- Haiko
+- Icefeed
+- IkuY
+- Kaleidoscope
+- Kmeuh
+- Krokro
+- Lasagna
+- Lord_Tenebro
+- Maxdomian
+- Mr.8
+- Mutsui
+- PatTwo
+- Pierre CAMILLI
+- Pixbomb
+- Rinchama
+- Rubn4
+- Spotty Len
+- TeLiXj
+- TheMio
+- Ultra
+- UniversJB
+- Uwhipa
+- Volodia
+- asb
+- asdFer
+- bibialice
+- c3dric49
+- fabthehedgehog
+- meulahke
+- mustangfred
+- noa
+- pecka
+- provençal
+- sakichan
+
+## Added
+
+New songs : 133
+
+- BRE - Nolwenn Leroy - MV - Tri Martolod (mustangfred)
+- CHI - Modao Zushi Qian Chen Pian - ONA ED1 - Wen Qin (Krokro)
+- ENG - BTS, Coldplay - MV - My Universe (asdFer)
+- ENG - Calliope Mori - MV - MERA MERA (yt2ass)
+- ENG - Die Another Day - MOVIE MV - Die Another Day (Coppo)
+- ENG - Fauna Ceres - MV - Let Me Stay Here (yt2ass)
+- ENG - Fetish Fever - AMV - Absolute Territory (Ultra)
+- ENG - Helluva Boss - OVA ONA IN - House of Asmodeus (Haiko)
+- ENG - Honkai Impact 3rd - MV - Mobius (Kaleidoscope)
+- ENG - JoJo no Kimyou na Bouken Part 6 Stone Ocean - ED - Distant Dreamer (Amo)
+- ENG - League of Legends - GAME PC MV - Get Jinxed (Haiko)
+- ENG - Memories - REMIX MOVIE AMV - Phantom Of The Opera ~ Cover Vers (Maxdomian)
+- ENG - Portal - GAME PC AMV - The Android Hell Blues (Askédis)
+- ENG - Portal - GAME PC PS3 XBOX360 AMV - The Pit Song (Askédis)
+- ENG - Portal - GAME PC PS3 XBOX360 AMV - The Sound Of Science (Askédis)
+- ENG - Portal 2 - GAME PC PS3 XBOX360 AMV - This Is Aperture (Askédis)
+- ENG - San Miguel Master Chorale - MV - The Coconut Song (Ultra)
+- ENG - Sonic The Hedgehog - MV - Up on the Green Hill ~ Full Vers (meulahke)
+- ENG - TWICE - MV - The Feels (asdFer)
+- ENG - The Phantom Of The Opera - MV - The Phantom Of The Opera (Lord_Tenebro)
+- ENG - Titanic - MOVIE MV - My Heart Will Go On (TeLiXj)
+- ENG - Tokyo Ghoul Root A - IN - GLASSY SKY ~ Short Vers (Cocs)
+- FRE - Captain Tsubasa (2018) - OP1 - Le Chemin de la gloire (UniversJB)
+- FRE - Captain Tsubasa (2018) - OP2 - Le Chemin de la gloire ~ Alternative Vers (UniversJB)
+- FRE - Celine Dion, Garou - MV - Sous le vent (TeLiXj)
+- FRE - Depuis quand - IN - A l'arrache (Kmeuh)
+- FRE - Fatal - IN - Canapi (fabthehedgehog)
+- FRE - Hercule - MOVIE IN - Le Gospel Pur I (bibialice)
+- FRE - Hugues Aufray - LIVE - Santiano (mustangfred)
+- FRE - Indila - MV - Derniere Danse (mustangfred)
+- FRE - Indila - MV - Tourner dans le vide (mustangfred, asb)
+- FRE - Johnny Hallyday - MV - Marie (mustangfred)
+- FRE - Johnny Hallyday - MV - Que je t'aime (Mr.8)
+- FRE - Mylene Farmer - MV - Peut-etre toi (Kmeuh)
+- FRE - Peter Pan no Bouken - MOVIE IN - Tu t'envoles (TeLiXj)
+- FRE - Pocahontas - MOVIE IN - Des sauvages (bibialice)
+- FRE - Romeo et Juliette, de la haine a l'amour - MV - Les Rois du monde (bibialice, mustangfred, PatTwo)
+- FRE - South Park - OP - South Park (provençal)
+- FRE - Tamako Market - IN - Un Lieu de Rencontre ~ Short Vers (Kmeuh)
+- FRE - Tarzan - MOVIE IN - Enfant de l'Homme (TeLiXj)
+- FRE - Tarzan - MOVIE IN - Entre deux mondes (Lord_Tenebro)
+- FRE - Tarzan - MOVIE IN - Je veux savoir (c3dric49)
+- FRE - The Hunchback of Notre Dame - MOVIE IN - Infernal (bibialice)
+- GER - Oonagh - MV - Ananau Wo die Hohen zum Himmel reichen (Daniel-Steinbock)
+- JPN - 100-man no Inochi no Ue ni Ore wa Tatte Iru - OP2 - Baddest (Kmeuh)
+- JPN - A3! - GAME AUDIO CS - Kiteretsu Poemer (pecka)
+- JPN - Ao Ashi - ED - Blue Diary (meulahke)
+- JPN - Araki - MV - Furachi na Kassai ~ Cover Vers (BeVox)
+- JPN - Araki - MV - Manimani ~ Cover Vers (BeVox)
+- JPN - Build Divide -#FFFFFF- Code White - OP - Gold (BeVox, Icefeed)
+- JPN - Build Divide Code White - ED - A Shout Of Triumph (Icefeed)
+- JPN - Dance Dance Danseur - OP - Narihibiku Kagiri (Icefeed)
+- JPN - GUMI - MV - Yoidore Shirazu (noa)
+- JPN - GUMI - MV - Yoidore Shirazu ~ Off Vocal Vers (BeVox)
+- JPN - Hatsune Miku ~ Project DIVA Arcade Future Tone - GAME MV - Catch the Wave (Uwhipa)
+- JPN - IRyS - MV - Till the end of me (yt2ass)
+- JPN - KAFU - MV - Marshall Maximizer ~ Off Vocal Vers (BeVox)
+- JPN - KAITO, MEIKO - AMV - Tsugai Kogarashi ~2019 Vers. ~ Alternative Vers (Uwhipa)
+- JPN - Kaguya-sama wa Kokurasetai Ultra Romantic - AMV - My Nonfiction ~ Full Vers (Kmeuh, fabthehedgehog)
+- JPN - Kaguya-sama wa Kokurasetai Ultra Romantic - ED1 - Heart wa oteage (meulahke)
+- JPN - Kaguya-sama wa Kokurasetai Ultra Romantic - ED2 - My Nonfiction (Kmeuh)
+- JPN - Kaguya-sama wa Kokurasetai Ultra Romantic - MV - GIRI GIRI ~ Full Vers (meulahke)
+- JPN - Kemurikusa - MV - Kemurikusa ~ Full Vers (meulahke)
+- JPN - Kidou Senshi Gundam AGE - ED2 - My World (UniversJB)
+- JPN - Kimetsu no Yaiba Mugen Ressha-hen - MOVIE AMV - Homura (Amo)
+- JPN - Komi-san wa, Komyushou Desu. - ED3 - Koshaberi Biyori (Cocs)
+- JPN - Kyoukai Senki - OP2 - Overload (Icefeed)
+- JPN - Len Kagamine - MV - Fukurou-san (Uwhipa)
+- JPN - Lost Judgment - GAME MV - Rasen (fabthehedgehog)
+- JPN - Lost Judgment - GAME MV - Rasen ~ Off Vocal Vers (fabthehedgehog)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai 2 - ED - Yume ga Bokura no Taiyou sa (Kaleidoscope)
+- JPN - Love Live! Superstar!! - IN - Tiny Stars (Kaleidoscope)
+- JPN - Luka Megurine - MV - Double Lariat (Uwhipa)
+- JPN - Luka Megurine - MV - Just Be Friends (Uwhipa)
+- JPN - Luka Megurine - MV - Just Be Friends ~ Off Vocal Vers (Uwhipa)
+- JPN - Megatera Zero - MV - Theory of Negativity ~ Cover Vers (BeVox)
+- JPN - Megatera Zero - MV - Yoidore Shirazu ~ Cover Vers (BeVox)
+- JPN - Meitantei Conan - ED66 - Karappo no Kokoro (UniversJB)
+- JPN - Meitantei Conan Zero no Tea Time - ED - Find the truth (UniversJB)
+- JPN - Memory of Grand Order - MV - The World Origin (Armorial)
+- JPN - Miku Hatsune - MV - Ai Kotoba IV (Kmeuh)
+- JPN - Miku Hatsune - MV - Dilemma (yt2ass)
+- JPN - Miku Hatsune - MV - Electric Love ~ Short Vers (Kmeuh)
+- JPN - Miku Hatsune - MV - Ghost Rule (BeVox)
+- JPN - Miku Hatsune - MV - Ghost Rule ~ Off Vocal Vers (BeVox)
+- JPN - Miku Hatsune - MV - Manimani (BeVox)
+- JPN - Miku Hatsune - MV - Manimani ~ Off Vocal Vers (BeVox)
+- JPN - Miku Hatsune, Rin Kagamine - MV - Gekkou (noa)
+- JPN - Mumei Nanashi - MV - Dilemma ~ Cover Vers (yt2ass)
+- JPN - Okayu Nekomata - MV - YONA YONA DANCE ~ Cover Vers (Lasagna)
+- JPN - Phantom The Animation - OVA ED - I Myself Am Hell (Currymalker)
+- JPN - Phantom The Animation - OVA OP - Gekkou (Currymalker)
+- JPN - Ping Pong The Animation - OP - Tada Hitori ~ Ep 01 Vers. ~ Alternative Vers (Kmeuh)
+- JPN - Ping Pong The Animation - OP - Tada Hitori ~ Ep 02 Vers. ~ Alternative Vers (Kmeuh)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Beat Eater (BeVox, Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Cinema (noa)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Gekkou (noa)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Inochi ni Kirawete Iru. ~ Kanade Yoisaki Vers. ~ Full Vers (Kaleidoscope)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Pa .SENSATION ~ Cover Vers (noa)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Salamander (Amo)
+- JPN - RE-MAIN - OP - Forget Me Not (Bisquette)
+- JPN - Rikei ga Koi ni Ochita no de Shoumei shitemita. r=1-sin0 (Heart) - ED - Bibitto Love (IkuY)
+- JPN - Ring Ni Kakero 1 - OP - Asu e no Toushi (UniversJB)
+- JPN - Ring ni Kakero 1 Sekai Taikai-hen - OP1 - Asu e no Toushi (UniversJB)
+- JPN - Ring ni Kakero 1 Sekai Taikai-hen - OP2 - Asu e no Toushi ~ Alternative Vers (UniversJB)
+- JPN - Ryuu to Sobakasu no Hime - MOVIE IN - Hanare Banare no Kimi he ~ Full Vers (Rinchama)
+- JPN - Ryuu to Sobakasu no Hime - MOVIE IN - Kokoro no Soba ni ~ Full Vers (Rinchama)
+- JPN - SPYxFAMILY - MV - Kigeki ~ Full Vers (meulahke)
+- JPN - SPYxFAMILY - MV - Mixed Nuts ~ Full Vers (meulahke)
+- JPN - Sakura Taisen - MV - Geki! Teikoku Kagekidan ~ Miona, Cocoa & Suzuna Vers. ~ Cover Vers (Kaleidoscope)
+- JPN - Shadows House - MV - Nai Nai ~ Full Vers (Currymalker)
+- JPN - Shadows House - MV - Nai Nai ~ Ina'nis Vers. ~ Cover Full Vers (Currymalker)
+- JPN - Shoujo Kageki Revue Starlight Rondo Rondo Rondo - MOVIE MV - Saisei Sanbikyoku (Movie Ver.) (Kaleidoscope)
+- JPN - Takane Lui - MV - Fukurou-san ~ Cover Vers (Uwhipa)
+- JPN - Tokyo Revengers - MV - Cry Baby ~ Full Vers (Atsuyas, TheMio)
+- JPN - Touhou - AMV - Narcissus no Sayonara (Alshkor)
+- JPN - Touhou - AUDIO - Uso to Doukoku (Spotty Len)
+- JPN - Touhou - GAME AUDIO - Kuro ni kaeru ~ Full Vers (Mutsui)
+- JPN - Touhou - MV - YUM YUM YUMMY (Lasagna)
+- JPN - Touhou Memories of Phantasm - OVA AMV - Demon Strundum (Elliu)
+- JPN - Touhou, Touhou LostWord - GAME MV - LostWord Chronicle (Pixbomb)
+- JPN - Uramichi Onii-san - OP - ABC Taisou (Bisquette)
+- JPN - ZUTOMAYO - MV - QUILT (Pierre CAMILLI)
+- JPN - ZUTOMAYO - MV - QUILT ~ Off Vocal Vers (Pierre CAMILLI, TheMio)
+- KOR - BTS - MV - Epiphany (asdFer)
+- KOR - BTS - MV - FIRE (sakichan)
+- KOR - BTS - MV - Life Goes On (asdFer)
+- KOR - BTS - MV - Run (sakichan)
+- KOR - BTS - MV - Singularity (asdFer)
+- KOR - BTS - MV - The Truth Untold (asdFer)
+- KOR - BTS - MV - Tomorrow (asdFer)
+- KOR - Momoland - MV - Bboom Bboom (Rubn4)
+- LAT - Andre Rieu, Johann Strauss Orchestra - LIVE - O Fortuna (Carmina Burana) (Volodia)
+
 # April 2022
 
 Kara count: 12 388
