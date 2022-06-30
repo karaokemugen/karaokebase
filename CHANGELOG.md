@@ -1,3 +1,198 @@
+# June 2022
+
+Kara count: 12 669
+
+Contributors: 
+
+- Alshkor
+- Amo
+- Armorial
+- Atsuyas
+- BeVox
+- Bisquette
+- Colgate
+- Dahel
+- DarkLink
+- Dysp
+- Elliu
+- Gilrael
+- Haiko
+- IkuY
+- Kaleidoscope
+- Karmidi
+- Klafhor
+- Kmeuh
+- Kodaman
+- Krokro
+- Lasagna
+- Miryuni
+- NextFire
+- Nock
+- Nodamin
+- Odinasgardson
+- Pacayaka
+- Pierre CAMILLI
+- RedRangerJo
+- Rinchama
+- Sodachi
+- Spotty Len
+- Subkei
+- Tatoon
+- TeLiXj
+- TheMio
+- Torreip
+- UniversJB
+- Wazzzaaa
+- XGeneral2000
+- asb
+- bekoashitaka
+- chelste
+- fabthehedgehog
+- gollum
+- leaby
+- meulahke
+- monk d vframeze
+- paranoik
+- pecka
+- prideland
+- sanicsip
+
+## Added
+
+New songs : 131
+
+- ENG - Critical Role - MV - Your Turn To Roll (Torreip)
+- ENG - Dean Summerwind - AUDIO OT - Parked Out By The Lake ~ Full Vers (RedRangerJo)
+- ENG - Death Note - AMV - Look What You Made Me Do (Bisquette)
+- ENG - Digimon Card Game - GAME MV - Official Rules Song (Colgate)
+- ENG - Dragon Hunter - OP - The Dragon Hunter Song (Haiko)
+- ENG - Gloria Gaynor - MV - I Will Survive (TeLiXj)
+- ENG - Hermes House Band - MV - I Will Survive (La La La) ~ Cover Vers (Karmidi)
+- ENG - Honkai Impact 3rd - GAME MV - Reburn (Kaleidoscope)
+- ENG - Honkai Impact 3rd - LIVE - Befall (Kaleidoscope)
+- ENG - Hoobastank - MV - The Reason (TeLiXj)
+- ENG - Linkin Park - MV - Breaking the Habit (TeLiXj)
+- ENG - Linkin Park - MV - From the Inside (paranoik)
+- ENG - Linkin Park - MV - In the End (paranoik)
+- ENG - Linkin Park - MV - Numb (Klafhor)
+- ENG - Linkin Park - MV - Somewhere I Belong (gollum)
+- ENG - Mafumafu, nqrse - MV - ECHO ~ Cover Vers (Atsuyas)
+- ENG - Michael Jackson - MV - Beat It (Gilrael)
+- ENG - Michael Jackson - MV - Billie Jean (sanicsip)
+- ENG - Michael Jackson - MV - Black or White (Gilrael)
+- ENG - Michael Jackson - MV - Earth Song (asb)
+- ENG - Michael Jackson - MV - They Don t Care About Us (Brazil Version) (chelste)
+- ENG - Sana Tsukumo - MV - Astrogirl (yt2ass)
+- ENG - Shin Seiki Evangelion, Tenacious D in The Pick of Destiny - MOVIE AMV - This is (not) the greatest song in the world (Spotty Len)
+- ENG - Snoot Game - GAME PC PV - Turn the Lights Off (Colgate)
+- ENG - South Park Bigger, Longer & Uncut - MOVIE IN - Kyle's Mom's a Bitch (leaby)
+- ENG - Steven Wilson - AUDIO - Drown With Me (bekoashitaka)
+- ENG - Steven Wilson - AUDIO - Drown With Me ~ Off Vocal Vers (bekoashitaka)
+- ENG - Taylor Swift - MV - Look What You Made Me Do (Bisquette)
+- ENG - U2 - MV - I Still Haven't Found What I'm Looking For (Kodaman)
+- ENG - U2 - MV - New Year's Day (Pacayaka)
+- ENG - U2 - MV - Vertigo (TeLiXj)
+- ENG - U2 - MV - With or Without You (Kodaman)
+- ENG - World of Warcraft - GAME PC MV - Warbringers Jaina (Torreip)
+- ENG - library of Ruina - GAME PC OP - String Theocracy (Dahel)
+- FRE - Hearthstone - GAME PC PV - Les Aventuriers d'Uldum (Kaleidoscope)
+- FRE - RPZ - MV - Dona Dona (Nodamin)
+- FRE - Suisse question_mark - MV - Je veux du sale (Kmeuh)
+- FRE - World of Warcraft - GAME PC MV - Premices la chanson de Jaina (Torreip)
+- GER - Digimon Adventure - OP - Leb deinen Traum (DarkLink)
+- GER - Rammstein - MV - Du Hast (gollum)
+- GER - World of Warcraft - GAME PC MV - Kriegsbringer Jaina (prideland)
+- ICE - SKALD - MV - Run (Odinasgardson)
+- JPN - 5-ji Kara 9-ji Made Watashi ni Koi Shita Obousan - MV - Christmas song ~ Full Vers (Subkei)
+- JPN - A3! - GAME AUDIO CS - Es no Yuutsu (pecka)
+- JPN - AKB48 - MV - Chiisa Na Sekai ~ Short Vers (Tatoon)
+- JPN - Ai Kayano, Yoshino Nanjou - CS LIVE - Nijiiro no Flugel ~ Full Vers (Colgate)
+- JPN - Alfakyun., majiko - MV - Kono Piano de Omae o 8759632145kai Bunnaguru (Dysp)
+- JPN - Ayame Nakiri - MV - Yoi no yo, yoi! (yt2ass)
+- JPN - Azur Lane Bisoku Zenshin! - ED - Mahiru-iro Siesta (Armorial)
+- JPN - B-Project Zecchou Emotion - IN - Juggler (pecka)
+- JPN - Bakemonogatari - MV - Ren'ai Circulation ~ Gura & Shion Vers. ~ Cover Full Vers (Rinchama)
+- JPN - Birdie Wing Golf Girls' Story - ED - Yodaka (Elliu)
+- JPN - Birdie Wing Golf Girls' Story - OP - Venus Line (monk d vframeze)
+- JPN - Boruto Naruto Next Generations - ED15 - Answers (Kmeuh)
+- JPN - Bubble - ONA MV - Bubble ~ Full Vers (Krokro)
+- JPN - Bubble - ONA OP - Bubble (Krokro)
+- JPN - Chuubyou Gekihatsu-Boy - AUDIO IN - KISS FOR LOVE (pecka)
+- JPN - Dance with Devils Fortuna - MOVIE OP - Sweet Grimoire! (pecka)
+- JPN - Doukyonin wa Hiza, Tokidoki, Atama no Ue. - OP - Unknown World (pecka)
+- JPN - Dragon Quest Dai no Daibouken (2020) - OP1 - Ikiru wo Suru ~ Alternative Vers (meulahke)
+- JPN - Dream 9 Toriko x One Piece x Dragon Ball Z Super Collaboration Special - SPECIAL OP - Go Shock My Way!! (monk d vframeze)
+- JPN - Durarara!!x2 Ketsu Dufufufu!! - SPECIAL ED - CLROWN (pecka)
+- JPN - Durarara!!x2 Shou Watashi no Kokoro wa Nabe Moyou - SPECIAL ED - Reflection (pecka)
+- JPN - Etrian Odyssey - MV - FOE Tono Souguu (Colgate)
+- JPN - Final Fantasy X, Mahou Shoujo Madoka Magica - REMIX OT - Tidus no chinpo kimochi yosugi daro! (Atsuyas)
+- JPN - Flower - MV - Vita (BeVox)
+- JPN - Flower - MV - Vita ~ Off Vocal Vers (BeVox)
+- JPN - Fumi - MV - YONA YONA DANCE ~ Cover Vers (Lasagna)
+- JPN - Galaxy Angel Rune - OP - Uchuu de Koi wa RUN RUUUUN (Colgate)
+- JPN - Gero - MV - Suiyoubi no Yakusoku (pecka)
+- JPN - Hellow World - MOVIE MV - Yesterday ~ Full Off Vocal Vers (TheMio, NextFire)
+- JPN - Hololive Alternative - PV - Story time (yt2ass)
+- JPN - Initial D Final Stage - OP - Outsoar the rainbow (meulahke)
+- JPN - Kemono Friends - IN - Hashira to Japari Man (Elliu)
+- JPN - Kemono Friends - IN - Nakama (Elliu)
+- JPN - Kimetsu no Yaiba Yukaku-hen - MV - Zankyou Sanka ~ Full Off Vocal Vers (yt2ass, TheMio)
+- JPN - Kimetsu no Yaiba Yukaku-hen - OP - Zankyou Sanka ~ Off Vocal Vers (Amo, TheMio)
+- JPN - Koi wa Sekai Seifuku no Ato de - ED - Koi wa Sekai Teiri to Tomo ni (Miryuni)
+- JPN - Love Live! Sunshine!! - LIVE - Kiseki Hikaru (Kaleidoscope)
+- JPN - Love Live! Sunshine!! - LIVE - Shadow gate to love ~ Full Vers (Sodachi)
+- JPN - MARGINAL #4 the Animation - ED4 - Revolution XX (pecka)
+- JPN - MILGRAM - MV - Half (Wazzzaaa)
+- JPN - Meitantei Conan - ED25 - Mou Kimi Dake wo Hanashitari wa Shinai (pecka)
+- JPN - Meitantei Conan - OP52 - JUST BELIEVE YOU (UniversJB)
+- JPN - Meitantei Conan - OP54 - YURA YURA (UniversJB)
+- JPN - Meitantei Conan Kara Kurenai no Love Letter - MOVIE ED - Togetsukyou ~Kimi Omou~ (pecka)
+- JPN - Miku Hatsune - MV - Enko Shoujo (pecka)
+- JPN - Miku Hatsune - MV - Watashi, Aidoru Sengen (IkuY)
+- JPN - NEEDY GIRL OVERDOSE - GAME PC MV - INTERNET OVERDOSE ~ Full Vers (Atsuyas)
+- JPN - NEEDY GIRL OVERDOSE - GAME PC MV - INTERNET OVERDOSE ~ IRyS Vers. ~ Cover Full Vers (Atsuyas)
+- JPN - NEEDY GIRL OVERDOSE - GAME PC MV - INTERNET OVERDOSE ~ Polka Vers. ~ Cover Full Vers (Atsuyas)
+- JPN - Nene Momosuzu, Subaru Oozora - MV - PANIGHT (yt2ass)
+- JPN - Nisemonogatari - AUDIO - Platinum Disco ~ Full Vers (XGeneral2000)
+- JPN - Nisemonogatari - MV - Platinum Disco ~ Gura & Shion Vers. ~ Cover Full Vers (XGeneral2000)
+- JPN - Onipan! - ED1 - ONIPAPAPAN! PAN! (Colgate)
+- JPN - Onipan! - ED2 - Oni Yaba! (Colgate)
+- JPN - Otaku no Video - OVA MV - Tatakae! Otaking ~ Short Vers (Kmeuh)
+- JPN - Ou-sama Ranking - AMV - Hadaka no yuusha ~ Full Vers (Pierre CAMILLI)
+- JPN - Paripi Koumei - MV - Chiki Chiki Bam Bam ~ Full Vers (Nock)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Bug ~ Full Vers (BeVox)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Bug ~ Short Vers (BeVox)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Vampire ~ Cover Vers (Kaleidoscope, Amo)
+- JPN - Sanrio Danshi - OP - Seishun Interlude (pecka)
+- JPN - Senki Zesshou Symphogear - CS LIVE - FIRST LOVE SONG ~ Full Vers (Colgate)
+- JPN - Senki Zesshou Symphogear - CS LIVE - Tsunaida Te Dake ga Tsumugu Mono ~ Full Vers (Colgate)
+- JPN - Senki Zesshou Symphogear - CS LIVE - Waikyou Shenshoujing ~ Full Vers (Colgate)
+- JPN - Senki Zesshou Symphogear - LIVE - Gekisou Gungnir ~ Full Vers (Colgate)
+- JPN - Senki Zesshou Symphogear GX - CS LIVE - Beyond the BLADE ~ Full Vers (Colgate)
+- JPN - Senki Zesshou Symphogear GX - CS LIVE - Genkai Toppa G-beat ~ Full Vers (Colgate)
+- JPN - Senki Zesshou Symphogear GX - CS LIVE - Ginwan Airgetlam ~ Full Vers (Colgate)
+- JPN - Senki Zesshou Symphogear GX - CS LIVE - Hajimari no Babel ~ Full Vers (Colgate)
+- JPN - Senki Zesshou Symphogear GX - CS LIVE - Hidamari Memoria ~ Full Vers (Colgate)
+- JPN - Senki Zesshou Symphogear GX - CS LIVE - Junpaku Innocent ~ Full Vers (Colgate)
+- JPN - Senki Zesshou Symphogear GX - CS LIVE - Little Miracle -Grip it tight- ~ Full Vers (Colgate)
+- JPN - Senki Zesshou Symphogear GX - CS LIVE - Okitegami ~ Full Vers (Colgate)
+- JPN - Senki Zesshou Symphogear GX - CS LIVE - SENSE OF DISTANCE ~ Full Vers (Colgate)
+- JPN - Senki Zesshou Symphogear GX - CS LIVE - Sora e... ~ Full Vers (Colgate)
+- JPN - Senki Zesshou Symphogear GX - CS LIVE - TRUST HEART ~ Full Vers (Colgate)
+- JPN - Senki Zesshou Symphogear GX - CS LIVE - tomorrow ~ Full Vers (Colgate)
+- JPN - Senki Zesshou Symphogear GX Senki Zesshou Shinai Symphogear - LIVE - Itsuka no Niji, Hana no Omoide ~ Full Vers (Colgate)
+- JPN - Summer Time Rendering - ED - Kaika (Dysp)
+- JPN - Summer Time Rendering - MV - Kaika ~ Full Vers (Dysp)
+- JPN - Sword Art Online - OP2 - INNOCENCE ~ Alternative Vers (UniversJB)
+- JPN - Takako Mamiya - MV - Kanashimi wa yoru no mukou (Alshkor)
+- JPN - Tenchi Souzou Design-bu - ED - DESIGNED BY HEAVEN! (pecka)
+- JPN - Tokyo Revengers - MV - Cry Baby ~ Full Off Vocal Vers (Atsuyas, TheMio)
+- JPN - Tokyo Revengers - OP - Cry Baby ~ Off Vocal Vers (fabthehedgehog, TheMio)
+- JPN - Touhou - AUDIO - Speedy Night (Spotty Len)
+- KOR - Orange Caramel - MV - Catallena (Bisquette)
+- KOR - TWICE - MV - Like OOH-AAH (Bisquette)
+- UND - Gekijouban Made in Abyss Fukaki Tamashii no Reimei - MOVIE IN - Tozo Hanoline ~ Short Vers (Krokro)
+
 # May 2022
 
 Kara count: 12 521
