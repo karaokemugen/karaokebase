@@ -1,6 +1,6 @@
 # June 2022
 
-Kara count: 12 669
+Kara count: 12 670
 
 Contributors: 
 
@@ -59,7 +59,7 @@ Contributors:
 
 ## Added
 
-New songs : 131
+New songs : 132
 
 - ENG - Critical Role - MV - Your Turn To Roll (Torreip)
 - ENG - Dean Summerwind - AUDIO OT - Parked Out By The Lake ~ Full Vers (RedRangerJo)
@@ -85,6 +85,7 @@ New songs : 131
 - ENG - Sana Tsukumo - MV - Astrogirl (yt2ass)
 - ENG - Shin Seiki Evangelion, Tenacious D in The Pick of Destiny - MOVIE AMV - This is (not) the greatest song in the world (Spotty Len)
 - ENG - Snoot Game - GAME PC PV - Turn the Lights Off (Colgate)
+- ENG - Sonic Unleashed - GAME XBOX360 PV - Endless Possibilites
 - ENG - South Park Bigger, Longer & Uncut - MOVIE IN - Kyle's Mom's a Bitch (leaby)
 - ENG - Steven Wilson - AUDIO - Drown With Me (bekoashitaka)
 - ENG - Steven Wilson - AUDIO - Drown With Me ~ Off Vocal Vers (bekoashitaka)
