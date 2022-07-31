@@ -1,14 +1,423 @@
 # August 2022
 
-Kara count: 12 999
+Kara count: 13 000
+Contributors:
 
-Contributors: 
-
+- Aeden
+- Alshkor
+- Amo
+- Ampo
+- Arikarin
+- Atsuyas
+- BadNewsBarett
+- Bakaclub
+- BeVox
+- Bisquette
+- Bonta-kun
+- Caruso
+- Chiko
+- Colgate
+- ConejoF1
+- Currymalker
+- DK
+- Double D
+- Dysp
+- Eden
+- Elliu
+- Erinoxe
+- Evla
+- Filianore
+- Geralt
+- Gilrael
+- Great Job
+- Gze
+- IC
+- Icefeed
+- Jeff54
+- JohnL
+- Kaleidoscope
+- KasrkinSaser
+- Kmeuh
+- Krokro
+- Kubat
+- Lasagna
+- M4
+- Mariko
+- MaxSonic
+- Michas17j
+- Nock
+- Nudelsuppe
+- Pantero
+- Phoko
+- Rinchama
+- RoyceThomas
+- Scorpiose86
+- Sodachi
+- Spotty Len
+- Subkei
+- Tatoon
+- TeLiXj
+- TenmaWorks
+- Terasuki
+- TheMio
+- Tsuki
+- Ultra
+- Uwhipa
+- Zoggoth
+- amoethyst
+- asdFer
+- c3dric49
+- chelste
+- clemandax
+- dr9229
+- extraaa
+- fabthehedgehog
+- fepo
+- gollum
+- hectorcito0
+- meulahke
+- mouton5000
+- mustangfred
+- noa
+- pecka
+- sohcer92
+- vicktoben
+- yt2ass
+- ¡JKA!
 
 ## Added
 
-New songs : 0
+New songs : 329
 
+- CHI - Tian Yiming - AUDIO - Super idol de xiaorong (Chiko)
+- ENG - 30 Seconds to Mars - MV - This Is War (chelste)
+- ENG - 4 Non Blondes - MV - What's Up question_mark (TeLiXj)
+- ENG - ABBA - MV - Dancing Queen (TeLiXj)
+- ENG - ABBA - MV - Gimme! Gimme! Gimme! (A Man After Midnight) (TeLiXj)
+- ENG - ABBA - MV - Mamma Mia (TeLiXj)
+- ENG - ABBA - MV - Super Trouper (TeLiXj)
+- ENG - ABBA - MV - Take a Chance on Me (TeLiXj)
+- ENG - ABBA - MV - The Winner Takes It All (TeLiXj)
+- ENG - ABBA - MV - Voulez-Vous (TeLiXj)
+- ENG - AC DC - LIVE - Dirty Deeds Done Dirt Cheap (gollum)
+- ENG - AC DC - LIVE - High Voltage (gollum)
+- ENG - AC DC - MV - Highway to Hell (gollum)
+- ENG - AI The Somnium Files - GAME SWITCH MV - Invincible Rainbow Arrow (Arikarin)
+- ENG - ALI - AUDIO - KEEP YOUR HEAD UP (fabthehedgehog)
+- ENG - ALI - LIVE - KEEP YOUR HEAD UP (fabthehedgehog)
+- ENG - Agalloch - AUDIO - Falling Snow (Double D)
+- ENG - Akon, Eminem - MV - Smack That (Caruso)
+- ENG - Amelia Watson - STREAM - Blister in the Sun ~ Cover Vers (gollum)
+- ENG - Avenged Sevenfold - MV - Bat Country ~ Short Vers (¡JKA!)
+- ENG - Ayahi Takagaki - AMV - Can't take my eyes off of you (Kaleidoscope)
+- ENG - Bastard!! - ONA ED - Blessless (meulahke)
+- ENG - Bastard!! - ONA OP - Bloody Power Fame (meulahke)
+- ENG - Billy Joel - MV - Piano Man (ConejoF1)
+- ENG - Black Clover (2017) - OP13 - Grandeur (pecka)
+- ENG - Black Lace - MV - Agadoo (IC)
+- ENG - Calliope Mori - AUDIO - Dead on Arrival (Uwhipa)
+- ENG - Calliope Mori - MV - Make ‘Em Afraid (fabthehedgehog)
+- ENG - Claudia Leitte, Jennifer Lopez - MV - We Are One (Ole Ola) (Olodum Mix) - 2014 FIFA World Cup Song
+- ENG - Cyberpunk Edgerunners - ONA OP - This Fffire (Kmeuh)
+- ENG - DJMAX Respect V - GAME PC MV - Myosotis (BeVox)
+- ENG - David Hasselhoff - MV - Hooked on a Feeling ~ Cover Vers (mouton5000)
+- ENG - Dirty Pair Project Eden - MOVIE IN - Matters to Me (Spotty Len)
+- ENG - Drive - MOVIE AUDIO OP - Nightcall ~ Full Vers (Jeff54)
+- ENG - Drive - MOVIE OP - Nightcall (Jeff54)
+- ENG - Fast and Furious 7 - MOVIE MV - See You Again (Pantero)
+- ENG - Five Nights at Freddy's 2 - MV - It's Been So Long (RoyceThomas)
+- ENG - Frozen - MOVIE AMV - Fuck It All ~ Cover Vers (Bakaclub)
+- ENG - GUMI, Miku Hatsune - MV - VOICE (BeVox)
+- ENG - Gran Turismo 2 - GAME PSX OP - My Favourite Game (Amo)
+- ENG - Guardians of the Galaxy - MOVIE AMV - Hooked on a Feeling ~ Blue Swede Vers. ~ Cover Vers (gollum)
+- ENG - Gyakuten Saiban Yomigaeru Gyakuten - GAME DS AMV - Objection Funk (Geralt)
+- ENG - Histeria! - IN - The Invasion Song (Bakaclub)
+- ENG - Inside - MV - Welcome to Anime (fabthehedgehog)
+- ENG - Isekai Ojisan - OP - Story (meulahke)
+- ENG - John Denver - MV - Take Me Home, Country Roads (mustangfred)
+- ENG - Josip On Deck - MV - Mai Waifu (Bakaclub)
+- ENG - Katy Perry - MV - I Kissed a Girl (TeLiXj)
+- ENG - Katy Perry - MV - Teenage Dream (Michas17j)
+- ENG - Kidou Senshi Gundam - Senkou no Hathway - MOVIE OP - Mobius ~ Full Vers (Icefeed)
+- ENG - LeetStreet Boys - MV - She's So Kawaii (Bakaclub)
+- ENG - Lonemoon - MV - Why I use Linux (NAW NAW) (Elliu)
+- ENG - Love Live! Nijigasaki Gakuen School Idol Doukoukai 2 - IN - stars we chase (Kaleidoscope)
+- ENG - Love Live! School Idol Festival All Stars - GAME MV - I'm Still (Kaleidoscope)
+- ENG - Made in Abyss Retsujitsu no Ougonkyou - ED - Endless Embrace (Krokro)
+- ENG - Madonna - MV - Material Girl (TeLiXj)
+- ENG - My Chemical Romance - AUDIO - Cancer (hectorcito0)
+- ENG - Nena - MV - 99 Red Balloons (TeLiXj)
+- ENG - Neutral Milk Hotel - AUDIO - My Dream Girl Don't Exist (Great Job)
+- ENG - Nico Nico Douga - AMV - ♂️ AssClap ♂️ (Right version) (Chiko)
+- ENG - No Guns Life (2019) - OP - MOTOR CITY (meulahke)
+- ENG - Otoboke Beaver - MV - Don't Light My Fire (Ampo)
+- ENG - Paradise Kiss - ED - Do You Want To (Amo)
+- ENG - Persona 5 - MV - Life will change ~ Bowflex Vers (Zoggoth)
+- ENG - Pikotaro - MV - PPAP (Pen-Pineapple-Apple-Pen) (Subkei)
+- ENG - Pikotaro - MV - PPAP (Pen-Pineapple-Apple-Pen) ~ Long Vers (Scorpiose86)
+- ENG - Pitch Perfect - MOVIE MV - Cups (When I'm Gone) (vicktoben)
+- ENG - RWBY Hyousetsu Teikoku - OP - Beyond Selves (Spotty Len)
+- ENG - Radiohead - MV - Creep (TeLiXj)
+- ENG - Reol (person), ill.bell - MV - Nounai Kakumei Girl ~ Cover Vers (fabthehedgehog)
+- ENG - Sonic The Hedgehog - GAME AMV - His World ~ Full Vers (meulahke)
+- ENG - Sonic Unleashed - GAME XBOX360 PV - Endless Possibilites (meulahke)
+- ENG - Street Fighter III 3rd Strike - Fight for the Future - GAME DC OP - Third Strike (meulahke)
+- ENG - The Killers - MV - Mr. Brightside (Gilrael)
+- ENG - The Legend of Zelda Ocarina of Time - GAME MV - Ocarina of Time With Lyrics (Spotty Len)
+- ENG - Tony Hawk's Pro Skater - GAME PSX AMV - Superman (Pantero)
+- ENG - Tony Hawk's Pro Skater - STREAM - Superman ~ Amelia Vers. ~ Cover Vers (Pantero)
+- ENG - Touhou - MV - Jordan Stole The Precious Slam (Evla)
+- ENG - Violent Femmes - AUDIO - Blister in the Sun (gollum)
+- ENG - Weird Al Yankovic - MV - Amish Paradise (Nudelsuppe)
+- ENG - Yuukoku no Moriarty - ED2 - OMEGA (Icefeed)
+- ENG - Yuukoku no Moriarty - OP2 - Twisted Hearts (meulahke)
+- ENG - senzawa - MV - WELECOME TO INTALY (Elliu)
+- ENG - vitalmouse - MV - She's Gone (Tatoon)
+- FRE - BOBBYODET des Montagnes - MV - Metro roule (Phoko)
+- FRE - Beverly Hills Teens - AUDIO OP - Becebege ~ Full Vers (c3dric49)
+- FRE - Beverly Hills Teens - OP - Becebege (c3dric49)
+- FRE - Captain Future - AUDIO OP - Capitaine Flam ~ Full Vers (c3dric49)
+- FRE - Carla Lazzari - STREAM - Bim bam toi ~ Short Vers (Bisquette)
+- FRE - Cat's Eye - AUDIO OP - Signe Cat's Eyes ~ Full Vers (c3dric49)
+- FRE - City Hunter - AUDIO OP1 - Nicky Larson ~ Full Vers (c3dric49)
+- FRE - Clementine - AUDIO OP - Clementine ~ Full Vers (c3dric49)
+- FRE - Club Dorothee - OP - C'est toujours les vacances au Club Dorothee (c3dric49)
+- FRE - Dallas - OP - Dallas (c3dric49)
+- FRE - Diplodo - AUDIO OP - Diplodo ~ Full Vers (c3dric49)
+- FRE - Dragon Ball Z - AUDIO OP - Dragon Ball Z ~ Full Vers (c3dric49)
+- FRE - En route pour l'aventure - AUDIO OP - En Route pour l'Aventure ~ Full Vers (c3dric49)
+- FRE - En route pour l'aventure - OP - En Route pour l'Aventure (c3dric49)
+- FRE - G-Senjou no Maou - GAME AMV - Lecon de time (Bakaclub)
+- FRE - Georges Brassens - MV - La Mauvaise Reputation (mustangfred)
+- FRE - Helene et les Garcons - MV - Pour l'amour d'un garcon ~ Full Vers (c3dric49)
+- FRE - Helene et les Garcons - OP - Pour l'amour d'un garcon (c3dric49)
+- FRE - Jayce and The Wheeled Warriors - AUDIO OP - Jayce et les Conquerants de la lumiere ~ Full Vers (c3dric49)
+- FRE - Kerokko Demetan - AUDIO OP - Gentil petit Demetan ~ Full Vers (c3dric49)
+- FRE - L'Ile aux Enfants - AUDIO OP - L'Ile aux Enfants ~ Full Vers (c3dric49)
+- FRE - Les Aventures de Colargol - OP - C'est moi qui suis Colargol (c3dric49)
+- FRE - Les Brigades du Tigre - AUDIO OP - La Complainte des Apaches ~ Full Vers (c3dric49)
+- FRE - Les Brigades du Tigre - OP - La Complainte des Apaches (c3dric49)
+- FRE - Les Minikeums - AUDIO IN - Ma Melissa ~ Full Vers (c3dric49)
+- FRE - Lucky Luke - OP - Bang Bang Lucky Luke (Gilrael)
+- FRE - Mahou no Princess Minky Momo - AUDIO OP - Gigi ~ Full Vers (c3dric49)
+- FRE - Moi Renart - AUDIO OP - Moi Renart ~ Full Vers (c3dric49)
+- FRE - My Little Pony - MV - La chanson de Mon Petit Poney ~ Full Vers (c3dric49)
+- FRE - My Little Pony - OP - La chanson de Mon Petit Poney (c3dric49)
+- FRE - PAW Patrol - OP - Pat' Patrouille (BadNewsBarett)
+- FRE - Pinky and the Brain - AUDIO OP - Minus et Cortex ~ Full Vers (c3dric49)
+- FRE - Popples - AUDIO OP - Les Popples ~ Full Vers (c3dric49)
+- FRE - Popples - OP - Les Popples (c3dric49)
+- FRE - Robin Hood no daibouken - OP - Les Aventures de Robin des bois (Eden)
+- FRE - Space Cobra - AUDIO OP - Cobra ~ Full Vers (c3dric49)
+- FRE - SpongeBob SquarePants - AMV - Tres muscle (Colgate)
+- FRE - Starsky and Hutch - OP - Starsky et Hutch (c3dric49)
+- FRE - Teenage Mutant Ninja Turtles - AUDIO OP - Tortues Ninja Les Chevaliers d'ecaille ~ Full Vers (c3dric49)
+- FRE - The Many Adventures of Winnie the Pooh - MOVIE OP - L'Univers De Jean-Christophe (c3dric49)
+- FRE - UFO Robo Grendizer - AUDIO OP1 - Accours vers nous, Prince de l'espace ~ Full Vers (extraaa)
+- FRE - UFO Robo Grendizer - AUDIO OP2 - Goldorak, le grand ~ Full Vers (c3dric49)
+- FRE - Uchuu Densetsu Ulysses 31 - AUDIO OP2 - Ulysse revient ~ Full Vers (c3dric49)
+- FRE - Uchuu Kaizoku Captain Harlock - AUDIO OP - Albator, le corsaire de l'espace ~ Full Vers (c3dric49)
+- FRE - Uchuu Keiji Gavan - AUDIO OP - Le sherif de l'espace ~ Full Vers (c3dric49)
+- FRE - Versailles no Bara - AUDIO OP - Lady Oscar ~ Full Vers (c3dric49)
+- FRE - Zorro - AUDIO OP - Zorro ~ Full Vers (c3dric49)
+- FRE - Zorro - OP - Zorro (c3dric49)
+- GER - Die Woody’s - MV - Fichtl's Lied (Filianore)
+- GER - Hallo aus Berlin - IN - Was Ist Dein Lieblingsfach (Mariko)
+- JPN - Ado - MV - Ashura-chan (BeVox)
+- JPN - Alice Mononobe, Ichigo Ushimi - MV - Identity ~ Cover Vers (BeVox)
+- JPN - Ao Ashi - OP2 - Presence (meulahke)
+- JPN - Ayano Kaneko - MV - Romance Sengen (Elliu)
+- JPN - Azur Lane the Animation - AUDIO CS - Pledge of liberation (Dysp)
+- JPN - Azur Lane the Animation - AUDIO CS - Pledge of liberation ~ Off Vocal Vers (Dysp)
+- JPN - Azur Lane the Animation - AUDIO CS - Yuukyuu no Catharsis ~ Entrerprise Vers (Dysp)
+- JPN - Azur Lane the Animation - AUDIO CS - Yuukyuu no Catharsis ~ Entrerprise Vers. ~ Off Vocal Vers (Dysp)
+- JPN - BTS - MV - Airplane Pt. 2 (asdFer)
+- JPN - BTS - MV - Film out (asdFer)
+- JPN - BTS - MV - For You (asdFer)
+- JPN - Black Clover (2017) - OP12 - Eien ni Hikare Everlasting Shine (Krokro)
+- JPN - Butter - MV - Neppa (BeVox)
+- JPN - Butter - MV - Neppa ~ Off Vocal Vers (BeVox)
+- JPN - CIEL - MV - Kimi no Nozomi, Kimi no Negai (Elliu)
+- JPN - Chitose Kudou - MV - Call Boy ~ Cover Vers (Atsuyas)
+- JPN - Chloe Sakamata - MV - Jinsei reset button pochii w (Atsuyas)
+- JPN - Chloe Sakamata - MV - Nisemono ningen40gou ~ Cover Vers (Atsuyas)
+- JPN - Cyber Angel Jibril - GAME PC OP - Angel Beat (RoyceThomas)
+- JPN - D4DJ First Mix - IN - ABSOLUTE (Kaleidoscope)
+- JPN - Digimon Adventure Tri. - MOVIE MV - Boku ni Totte ~ Short Vers (dr9229)
+- JPN - Donyatsu - ED2 - NOVA Revolution (pecka)
+- JPN - Enna Alouette, Millie Parfait - MV - Identity ~ Cover Vers (BeVox)
+- JPN - Eve - MV - Last Dance (Tsuki)
+- JPN - Fate Grand Carnival - OVA ED - Wonderful Carnival ~ Alternative Vers (fabthehedgehog)
+- JPN - Fate Grand Carnival - OVA OP - Super Affection ~ Alternative Vers (fabthehedgehog)
+- JPN - Fate hollow ataraxia - MV - broKen NIGHT ~ Full Vers (Subkei)
+- JPN - Finana Ryugu - MV - CH4NGE ~ Cover Vers (noa)
+- JPN - Flower - MV - Bocca della Verita (Amo)
+- JPN - Flower - MV - Nisemono ningen40gou (Atsuyas)
+- JPN - Fubuki Shirakami, hololive IDOL PROJECT - AUDIO - Dreaming Days ~ Short Vers (yt2ass)
+- JPN - Fukase, Sekai no Owari - MV - Habit (Atsuyas)
+- JPN - Fumi, Kei Nagao - MV - Tsugai Kogarashi ~ Cover Vers (Uwhipa)
+- JPN - Gero - MV - Vita ~ Cover Vers (BeVox)
+- JPN - Great Teacher Onizuka - ED3 - Cherished Memories (meulahke)
+- JPN - Hachinantte, Sore wa Nai Deshou! - OP - Jikuu no Mayoi Hito (Currymalker)
+- JPN - I Chu Halfway Through the Idol - AUDIO IN - DARK PROPHECY (pecka)
+- JPN - I Chu Halfway Through the Idol - ED - Singing! Swinging! (pecka)
+- JPN - InuYasha - MV - Dearest ~ Full Vers (asdFer)
+- JPN - Isekaijoucho - MV - Sirius no Shinzou (Elliu)
+- JPN - K Seven Stories SIDE GREEN ~Uwagaki Sekai~ - MOVIE ED - Uwagaki Sekai (pecka)
+- JPN - KAFU - MV - Alma ~ Off Vocal Vers (BeVox)
+- JPN - KAFU - MV - CH4NGE (noa)
+- JPN - KAITO, Miku Hatsune - MV - Ohedo Julia-Night (pecka)
+- JPN - KAITO, Miku Hatsune - MV - Tondemo WONDERS (Aeden)
+- JPN - Kageki Shoujo!! - ED2 - Shinayaka na Mirai (TenmaWorks)
+- JPN - Kageki Shoujo!! - ED3 - Bara to Watashi (TenmaWorks)
+- JPN - Kaguya-sama wa Kokurasetai Ultra Romantic - ED1 - Heart wa oteage ~ Karaoke Version ~ Off Vocal Vers (meulahke, TheMio)
+- JPN - Kaguya-sama wa Kokurasetai Ultra Romantic - ED1 - Heart wa oteage ~ Off Vocal Vers (meulahke, TheMio)
+- JPN - Kaguya-sama wa Kokurasetai Ultra Romantic - OP - GIRI GIRI ~ Karaoke Version ~ Off Vocal Vers (Kmeuh, TheMio)
+- JPN - Kaguya-sama wa Kokurasetai Ultra Romantic - OP - GIRI GIRI ~ Off Vocal Vers (Kmeuh, TheMio)
+- JPN - Kakyuusei 2 - GAME PC AUDIO ED2 - Seishun no kachu sha tachi (RoyceThomas)
+- JPN - Kanata no Astra - ED - Glow at the Velocity of Light (TenmaWorks)
+- JPN - Keroro Gunsou - OP4 - Hareru Michi ~Omeera ni Awaseru Kao ga Nee!~ (pecka)
+- JPN - Keyakizaka46 - MV - Glass wo Ware! (Subkei)
+- JPN - Kimetsu no Yaiba Yukaku-hen - ED - Asa ga kuru (TenmaWorks)
+- JPN - Kimi to Boku. - AUDIO CS - Marshmallow Days (pecka)
+- JPN - Kindaichi Shounen no Jikenbo - OP2 - meet again (JohnL)
+- JPN - Kobo Kanaeru - MV - Tondemo WONDERS ~ Cover Vers (Aeden)
+- JPN - Kuzuha - MV - Vampire ~ Cover Vers (Atsuyas)
+- JPN - Len Kagamine - MV - Gigantic O.T.N. ~ Dance Vers (Dysp)
+- JPN - Live A Live - GAME SWITCH MV - Go! Go! Buriki Daioh! (Spotty Len)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - AMV - Audrey (Kaleidoscope)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai 2 - IN - Infinity! Our wings!! (Kaleidoscope)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai 2 - IN - TOKIMEKI Runners (Kaleidoscope)
+- JPN - Love Live! School Idol Festival All Stars - GAME MV - Ketsui no Hikari (Kaleidoscope)
+- JPN - Love Live! School idol festival - GAME AUDIO IN - PSYCHIC FIRE (Chiko)
+- JPN - Love Live! Sunshine!! - LIVE - Deep Resonance - Orchestra Ver. ~ Full Vers (Sodachi)
+- JPN - Love Live! Sunshine!! - LIVE - No.10 ~ Full Vers (Sodachi)
+- JPN - Love Live! Sunshine!! - LIVE - Over The Next Rainbow ~ Full Vers (Sodachi)
+- JPN - Love Live! Superstar!! - IN - Dreaming Energy (Kaleidoscope)
+- JPN - Love Live! Superstar!! - IN - Tokonatsu Sunshine (Kaleidoscope)
+- JPN - Love Live! Superstar!! - IN - Watashi no Symphony ~Kanon Shibuya Ver.~ ~ Cover Vers (Kaleidoscope)
+- JPN - Love Live! Superstar!! - IN - Wish Song (Kaleidoscope)
+- JPN - Love Live! Superstar!! 2nd Season - IN - Butterfly Wing (MaxSonic)
+- JPN - Luka Megurine, Rin Kagamine - MV - drop pop candy ~ Cover Vers (Ultra)
+- JPN - Lycoris Recoil - ED - Hana no Tou (Gze)
+- JPN - Lycoris Recoil - OP - ALIVE (Kmeuh)
+- JPN - Made in Abyss Retsujitsu no Ougonkyou - OP - Katachi (Kmeuh)
+- JPN - Majo no Ocha Kai - GAME PC AUDIO ED2 - CHANGE OF LIFE ~ Full Vers (RoyceThomas)
+- JPN - Makai Tenshi Djibril 1 - GAME PC OP - Let's Go Lovely Henshin Time! ~ Short Vers (RoyceThomas)
+- JPN - Makai Tenshi Djibril 4 - GAME PC AUDIO OP - The First The Last ~ Full Vers (RoyceThomas)
+- JPN - Mars Red - OP - Seimei no Aria (Currymalker)
+- JPN - Matsuri Natsuiro, hololive IDOL PROJECT - AUDIO - SHIJOSHUGI ADTRUCK ~ Short Vers (yt2ass)
+- JPN - Megachu! -Megamisama Chuuihou- - GAME PC AUDIO ED OP - Tsunagatterukana question_mark ~ Full Vers (RoyceThomas)
+- JPN - Megachu! -Megamisama Chuuihou- - GAME PC OP - Help! Heaven! (RoyceThomas)
+- JPN - Meitantei Conan Konjou no Fist - MOVIE ED - BLUE SAPPHIRE (pecka)
+- JPN - Meitantei Conan Meikyuu no Crossroad - MOVIE ED - Time After Time Hana Mau Machi de (Gilrael)
+- JPN - Mel Yozora, Roboco-san - MV - AsuiroClearSky ~ Short Vers (yt2ass)
+- JPN - Miku Hatsune - MV - Bug (BeVox)
+- JPN - Miku Hatsune - MV - Bug ~ Off Vocal Vers (BeVox)
+- JPN - Miku Hatsune - MV - Call Boy (Atsuyas)
+- JPN - Miku Hatsune - MV - Dilemma ~ Off Vocal Vers (BeVox)
+- JPN - Miku Hatsune - MV - Dramaturgy ~ Off Vocal Vers (TheMio, amoethyst)
+- JPN - Miku Hatsune - MV - Vocaloid Bossa Nova Medley (Alshkor)
+- JPN - Miku Hatsune - MV - Yukkuri Shiteitte ne!!! (Lasagna)
+- JPN - Miku Hatsune, Yuyoyuppe - REMIX AUDIO - Hidamari no Uta (RoyceThomas)
+- JPN - Mitsudomoe - ED - Yume iro no Koi (RoyceThomas)
+- JPN - Monogatari Series Second Season - OP3 - Mousou Express ~ Off Vocal Vers (Nock, Rinchama, TheMio)
+- JPN - NHK ni Youkoso! - AUDIO IN - Youkoso! Hitori Bocchi ~ Full Vers (clemandax)
+- JPN - Nanbaka - ED - Nanbaka Datsugoku Riron ! (pecka)
+- JPN - Natsuzora Kanata - GAME PC OP - Omoi no Kanata (M4)
+- JPN - Norimono Man Mobile Land no Car-kun - OP - Kattobi Mobile Land (pecka)
+- JPN - Nyanbo - OP - Uchu Kara Yattekita Nyanbo (pecka)
+- JPN - Oga Aragami, Risu Ayunda - MV - Harapan PanPanPan (yt2ass, Aeden)
+- JPN - Okoshiyasu, Chitose-chan - ED1 - Nakuko mo Warau (pecka)
+- JPN - Okoshiyasu, Chitose-chan - ED2 - Itsuka Dokoka de (pecka)
+- JPN - One Piece RED - MOVIE MV - Gyakko (Amo)
+- JPN - Otome Youkai Zakuro - ED1 - Hatsukoi wa Zakuro-iro (pecka)
+- JPN - Otome Youkai Zakuro - ED2 - Junjou Masquerade (pecka)
+- JPN - Otome Youkai Zakuro - ED3 - Futari Shizuka (pecka)
+- JPN - Overlord IV - OP4 - HOLLOW HUNGER (BeVox)
+- JPN - Paripi Koumei - MV - Chiki Chiki Bam Bam ~ Watame Vers. ~ Cover Full Vers (Nock)
+- JPN - Pmaru-sama - MV - Goodbye Declaration ~ Cover Vers (Atsuyas, TheMio)
+- JPN - Popotan - AUDIO ED - S.U.K.I ~ Full Vers (RoyceThomas)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Bocca della Verita ~ Cover Vers (Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Bug ~ Full Off Vocal Vers (BeVox)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Bug ~ Full Vers (BeVox)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Mairieux ~ Cover Vers (Amo)
+- JPN - Reiwa no Digi Charat - OP - Aimaisa, Koufukuron (meulahke)
+- JPN - Renmei Kuugun Koukuu Mahou Ongakutai Luminous Witches - ED - Watashi to Minna no Uta (Rinchama)
+- JPN - Renmei Kuugun Koukuu Mahou Ongakutai Luminous Witches - OP - WONDERFUL WORLD (Rinchama)
+- JPN - Reol (person) - MV - Logic Agent (fabthehedgehog)
+- JPN - Rikei ga Koi ni Ochita no de Shoumei Shite Mita. - ONA OP - PARADOX (Gze)
+- JPN - Roboco-san, hololive IDOL PROJECT - AUDIO - Candy-Go-Round ~ Short Vers(yt2ass)
+- JPN - Rockman 2 Dr. Wairi no Nazo - GAME MV - HEAT!!! (Spotty Len)
+- JPN - Ryokuoushoku Shakai - MV - Mela! ~ Off Vocal Vers (TheMio, Tatoon)
+- JPN - Ryuu to Sobakasu no Hime - MOVIE IN - Uta Yo (Rinchama)
+- JPN - Saenai Heroine no Sodatekata Fine - MOVIE AUDIO IN - ULTIMATE Flat (Gze)
+- JPN - Sara Sara Sasara - GAME PC AUDIO ED - Home ~ Full Vers (RoyceThomas)
+- JPN - Sayonara Zetsubou-sensei - AUDIO IS - Buta no Gohan (DK)
+- JPN - Senki Zesshou Symphogear G - LIVE - Fushichou no Flamme ~ Symphogear Live 2016 Vers. ~ Full Vers (Colgate)
+- JPN - Senki Zesshou Symphogear GX - LIVE - Arigatou wo Utai Nagara ~ Symphogear Live 2016 Vers (Colgate)
+- JPN - Senki Zesshou Symphogear GX - LIVE - Glorious Break ~ Symphogear Live 2016 Vers (Colgate)
+- JPN - Senki Zesshou Symphogear GX - LIVE - Radiant Force ~ Symphogear Live 2016 Vers (Colgate)
+- JPN - Senki Zesshou Symphogear GX - LIVE - Rebirth-day ~ Symphogear Live 2016 Vers. ~ Full Vers (Colgate)
+- JPN - Senki Zesshou Symphogear GX - LIVE - Seiten Galaxy Cross ~ Symphogear Live 2016 Vers. ~ Full Vers (Colgate)
+- JPN - Sora wo Kakeru Shoujo - ED2 - Kishi Otome (Currymalker)
+- JPN - Sora wo Kakeru Shoujo - OP1 - Rara Eve Shinseiki (Currymalker)
+- JPN - Sounan Desu ka question_mark - ED - Ikiru (pecka)
+- JPN - Summer Time Rendering - ED2 - Shitsuren Song Takusan Kiite Naite Bakari no Watashi wa Mou (Kaleidoscope)
+- JPN - Summer Time Rendering - OP2 - Natsuyume Noisy (TenmaWorks)
+- JPN - Suzume no Tojimari - MOVIE PV - Suzume (Bonta-kun)
+- JPN - THE iDOLM@STER SHINY FESTA - OVA ED - MUSIC (M@STER VERSION) (Kmeuh)
+- JPN - Taishou Otome Otogibanashi - ED2 - Koi no Uta (Terasuki)
+- JPN - Takahashi Rumiko Gekijou - OP - Tsuzureori (pecka)
+- JPN - Teekyuu 5 - AUDIO OP - Qunka! ~ Full Vers (Great Job)
+- JPN - Teppen!!!!!!!!!!!!!!! - ED - Ahatte Teppen (Kmeuh)
+- JPN - Teppen!!!!!!!!!!!!!!! - OP - Teppen Tengoku ~TOP OF THE LAUGH!!!~ (Kmeuh)
+- JPN - Tokyo Mew Mew New - OP - Cat!! Shite Super Girls (Kmeuh)
+- JPN - Touhou - AMV - Captain Murasa no Ketsu Anchor (Colgate)
+- JPN - Touhou - AUDIO - Lovely Mound of Cherry Blossoms ~ Flower of Life ~ Alternative Vers (KasrkinSaser)
+- JPN - Touhou - MV - All is Fair in Love and AliMari (KasrkinSaser)
+- JPN - Touhou - MV - Dream Refrain (Spotty Len)
+- JPN - Touhou - MV - Itaden Yamete! Bokura no Scarlet Call (Colgate)
+- JPN - Touhou - MV - Jouga-zettai-korosu-Man no uta (Colgate)
+- JPN - Touhou - MV - Kitto mou hatarakanai ~ Short Vers (KasrkinSaser)
+- JPN - Touhou - MV - Yuusha Wanwan (Colgate)
+- JPN - Touhou - REMIX MV - Usatei 20XX (Colgate)
+- JPN - Tsuki to Laika to Nosferatu - OP - Hi no Tsuki (Currymalker)
+- JPN - Uchi Tama question_mark ! Uchi no Tama Shirimasen ka question_mark - OP - Friends (pecka)
+- JPN - Umineko no Naku Koro ni Chiru - GAME PC IN - Knox's Decalogue (Kubat)
+- JPN - Wagakki Band - MV - Phony ~ Cover Off Vocal Vers (BeVox)
+- JPN - Wagakki Band - MV - Phony ~ Cover Vers (BeVox)
+- JPN - Watame Tsunomaki - MV - Kimi dake no Melody (yt2ass)
+- JPN - Watame Tsunomaki - MV - Kimiiro Hanamizuki (yt2ass)
+- JPN - Watame Tsunomaki - MV - Ohayou no uta (yt2ass)
+- JPN - Watame Tsunomaki - MV - Otogi no uta to eikyuunaru mirai (yt2ass)
+- JPN - Watame Tsunomaki - MV - RAINBOW (yt2ass)
+- JPN - Watame Tsunomaki - MV - Yumemiru hitsuji (yt2ass)
+- JPN - Watame Tsunomaki - MV - Zero no Ashiato (yt2ass)
+- JPN - Watame Tsunomaki - MV - sweet night, sweet time (yt2ass)
+- JPN - Watashi ni Tenshi ga Maiorita! - REMIX AMV - Smol and Squishy (Elliu)
+- JPN - Welcome to Demon School! Iruma-kun - OP - Magical Babyrinth (fabthehedgehog)
+- JPN - Welcome to Demon School! Iruma-kun Season 2 - OP - No! No! Satisfaction! (fabthehedgehog)
+- JPN - White Album 2 - AMV - Todokanai Koi ~ Full Vers (Erinoxe)
+- JPN - Yofukashi no Uta - ED - Yofukashi no Uta (fabthehedgehog)
+- JPN - Yofukashi no Uta - MV - Yofukashi no Uta ~ Full Vers (fabthehedgehog)
+- JPN - Yokufashi no Uta - OP - Daten (Kmeuh)
+- JPN - Yumi Matsutouya - MV - Haru yo, Koi (Chiko)
+- JPN - Yuzuki Yukari - MV - Shiawase ni nareru kakushi command ga aru rashii (Atsuyas)
+- JPN - inewa - MV - Alma (BeVox)
+- JPN - nqrse - MV - Pokemon GO rap shite mimashita! (Atsuyas)
+- JPN - nqrse - MV - Utakata no yoru (Atsuyas)
+- JPN - nqrse - REMIX MV - Happy Halloween ~ Rap Vers. ~ Cover Vers (Atsuyas)
+- JPN - rei sirose - AMV - Unknown Mother-Goose ~ Cover Vers (Kmeuh)
+- KOR - BTS - AMV - House of Cards (asdFer)
+- KOR - BTS - LIVE - Hold Me Tight (asdFer)
+- KOR - BTS - MV - Blue & Grey (asdFer)
+- KOR - BTS - MV - Boy in Luv (Subkei)
+- KOR - BTS - MV - Butterfly (asdFer)
+- KOR - BTS - MV - Danger (asdFer)
+- KOR - BTS - MV - Go Go (asdFer)
+- SPA - Daddy Yankee, Luis Fonsi - MV - Despacito (sohcer92)
+- UND - NYORO NYOLO - MV - LocoRoco Song, Kulche (Colgate)
 
 # June 2022
 
