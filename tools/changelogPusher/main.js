@@ -108,7 +108,7 @@ ${currentChangelog}`;
 	const fileUpdate = (await axios.put(`https://gitlab.com/api/v4/projects/${PROJECT_ID}/repository/files/CHANGELOG.md`, {
 		branch: 'master',
 		content: completedChangelog,
-		commit_message: `ðŸ”– New tag - ${currentMonth[1]} ${new Date().getFullYear()} - ${karaCount.toLocaleString('fr')} karas\n[skip-ci]`,
+		commit_message: `🔖 New tag - ${currentMonth[1]} ${new Date().getFullYear()} - ${karaCount.toLocaleString('fr')} karas\n[skip-ci]`,
 		author_name: 'Changelog Bot',
 		author_email: 'mugen+changelogbot@karaokes.moe'
 	}, {headers: {'PRIVATE-TOKEN': process.env.GITLAB_TOKEN}}));
@@ -123,7 +123,7 @@ ${currentChangelog}`;
 	console.log('Discord hook!');
 
 	await axios.post(DISCORD_HOOK + process.env.DISCORD_TOKEN, {
-		content: `<@85383511690706944> Le tag est crÃ©Ã© !\n\n:microphone: On en est Ã  **${karaCount.toLocaleString('fr')}** karaokÃ©s !\n\n:technologist: Contributeurs : ${contributors.filter((item, index) => contributors.indexOf(item) === index).join(', ')}`,
+		content: `<@85383511690706944> Le tag est créé !\n\n:microphone: On en est à **${karaCount.toLocaleString('fr')}** karaokés !\n\n:technologist: Contributeurs : ${contributors.filter((item, index) => contributors.indexOf(item) === index).join(', ')}`,
 		embeds: null
 	});
 }
