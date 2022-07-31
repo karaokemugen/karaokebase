@@ -1,3 +1,15 @@
+# August 2022
+
+Kara count: 12 999
+
+Contributors: 
+
+
+## Added
+
+New songs : 0
+
+
 # June 2022
 
 Kara count: 12 670
