@@ -19,11 +19,11 @@ Read the entire document if you want to get more details.
 
 The database is a set of JSON files containing data about this karaoke collection. All these files (located in `karaokes` and `tags` folder) are the work of the contributors of this base.
 
-&copy; Otaku Karaoke Mugen **Data**base contributors 2017-2022 - The Otaku Karaoke Mugen **Data**base is made available under the Open Database License. Any rights in individual contents of the database are licensed under the Database Contents License. You should have received a copy of these licenses along with the database. If not, see https://opendatacommons.org/licenses/index.html
+&copy; Karaoke Mugen **Data**base contributors 2017-2022 - The Karaoke Mugen **Data**base is made available under the Open Database License. Any rights in individual contents of the database are licensed under the Database Contents License. You should have received a copy of these licenses along with the database. If not, see https://opendatacommons.org/licenses/index.html
 
 ## Medias
 
-Videos and music stored on the Erin server are the property of their respective right holders (which can be found in the `creators` section of each karaoke).
+Videos and music are the property of their respective right holders (which can be found in the `creators` section of each karaoke).
 
 In each `kara.json` file (located in `karaokes`), we strive to fill as much as we can the creators (studios, publishers), the songwriters, the singers and the name of the original work (series or artist).
 
@@ -33,7 +33,7 @@ All karaokes are property of their respective authors.
 
 The sync work is licensed under [Creative Commons CC-BY-SA 4.0](./LICENSE_CC-BY-SA-4.0.md) for karaokes created for this base. The lyrics **remain** the property of their respective right holders (songwriters and/or publishers).
 
-&copy; Otaku Karaoke Mugen Base contributors 2017-2020 - CC-BY-SA 4.0
+&copy; Karaoke Mugen Base contributors 2017-2022 - CC-BY-SA 4.0
 
 ### Imported karaokes
 
