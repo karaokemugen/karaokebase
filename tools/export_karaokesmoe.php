@@ -55,6 +55,8 @@ ORDER BY ak.serie_singergroup_singer_sortable, ak.songtypes_sortable DESC, ak.so
 
 $data = $pdo->query($query)->fetchAll();
 
+var_dump($data);
+
 function get_filename_without_ext($fname)
 {
     return substr($fname, 0, strrpos($fname, "."));
