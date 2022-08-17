@@ -49,7 +49,7 @@ async function readKaras() {
 				: author.push('Unknown');
 		});
 		if (created_at > start && created_at < end) {
-			newKaras.push(`${kara.filename.replace('.kara.json','')} (${author.join(', ')})`);
+			newKaras.push(`${kara.filename.replace('.kara.json','').replaceAll('~', '\\~')} (${author.join(', ')})`);
 			author.forEach(a => contributors.push(a));
 		}
 	}
