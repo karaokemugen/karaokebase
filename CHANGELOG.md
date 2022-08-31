@@ -1,5 +1,253 @@
 # August 2022
 
+Kara count: 13 187
+
+Contributors: 
+
+- Amo
+- Atsuyas
+- BeVox
+- Coppo
+- Deformer-Lua
+- Dysp
+- Gilrael
+- Haiko
+- IkuY
+- Kaleidoscope
+- Klafhor
+- Kmeuh
+- Koheitohikari
+- Lasagna
+- Leroidukitch
+- LunaAlphaKretin
+- Muppet355
+- NikoNikoD
+- Nock
+- OniiFGC
+- PatTwo
+- Pierre CAMILLI
+- Rinchama
+- RoyceThomas
+- SnowFox
+- Sodachi
+- Spotty Len
+- Subkei
+- TeLiXj
+- TheMio
+- Tsuki
+- Volodia
+- amoethyst
+- asb
+- asdFer
+- cinemalin0
+- fabthehedgehog
+- gollum
+- gun88
+- leonekmi
+- lucyisafairy
+- meulahke
+- mustangfred
+- pecka
+- radiopicca
+- sakichan
+- thau
+- thoun
+- thursday
+- vicktoben
+- webo
+
+## Added
+
+New songs : 185
+
+- ENG - Bleach - AMV - Number One ~ Full Vers (Deformer-Lua)
+- ENG - Bleach - PV - Number One ~ Thousand-Year Blood War Trailer Ver (Deformer-Lua)
+- ENG - Calliope Mori, Rikka (Hololive) - MV - spiral tones (fabthehedgehog)
+- ENG - Coldplay - MV - A Sky Full of Stars (gollum)
+- ENG - Coldplay - MV - Hymn for the Weekend (Volodia)
+- ENG - Coldplay - MV - Viva la Vida (Muppet355)
+- ENG - DJ Otzi, Hermes House Band - MV - Live is Life (TeLiXj)
+- ENG - Depeche Mode - MV - Enjoy the Silence (TeLiXj)
+- ENG - Dragon Quest Dai no Daibouken (2020) - OP2 - Bravest ~ Alternative Vers (Pierre CAMILLI)
+- ENG - Evanescence - MV - Going Under (Gilrael)
+- ENG - Evanescence - MV - My Immortal (Klafhor)
+- ENG - FAKE TYPE. - MV - Kruel Kreator (fabthehedgehog)
+- ENG - Gala - MV - Freed from Desire (Volodia)
+- ENG - Gekijouban Made in Abyss Fukaki Tamashii no Reimei - MOVIE ED - Forever Lost (pecka)
+- ENG - Guilty Gear (2020) - GAME PS4 AMV CS - Let Me Carve Your Way (Haiko, meulahke)
+- ENG - Guilty Gear (2020) - GAME PS4 AMV CS - The Disaster Of Passion! (meulahke, SnowFox)
+- ENG - HOLOSTARS English -TEMPUS- - MV - Top of the World (yt2ass)
+- ENG - Haato Akai - LIVE - Baby Haachama ~ Cover Vers (Deformer-Lua)
+- ENG - Keane - MV - Somewhere Only We Know (TeLiXj)
+- ENG - Lady Gaga - MV - Poker Face (vicktoben)
+- ENG - League of Legends - GAME PC MV - Everything Goes On (IkuY)
+- ENG - Live A Live - GAME SWITCH MV - Go! Go! Steel Titan! (Spotty Len)
+- ENG - Macklemore, Ryan Lewis - MV - Thrift Shop (gun88)
+- ENG - Madonna - MV - Like a Prayer (mustangfred, NikoNikoD)
+- ENG - Marine Houshou - MV - I'm Your Treasure Box Anata wa Marine Senchou Otakarabako Kara Mitsuketa. ~ Off Vocal Vers (Nock, fabthehedgehog)
+- ENG - Metal Gear Rising Revengeance - AMV - Mogu mogu bloodshed (fabthehedgehog)
+- ENG - Metal Gear Rising Revengeance - GAME PC AMV IN - It Has To Be This Way ~ Off Vocal Vers (OniiFGC)
+- ENG - Metal Gear Rising Revengeance - GAME PS3 AMV CS IN - The Only Thing I Know for Real (fabthehedgehog)
+- ENG - Metal Gear Rising Revengeance - GAME PS3 AMV CS IN - The Only Thing I Know for Real ~ Off Vocal Vers (fabthehedgehog)
+- ENG - Miraculous Ladybug - MV - It's Ladybug ~ Cover Full Vers (Deformer-Lua)
+- ENG - Miraculous Ladybug - MV - It's Ladybug ~ Full Vers (Deformer-Lua)
+- ENG - Miraculous Ladybug - OP - It's Ladybug (Deformer-Lua)
+- ENG - Montaigne, Tom Cardy - MV - Red Flags (Deformer-Lua)
+- ENG - Muse - MV - Undisclosed Desires (webo)
+- ENG - Muse - MV - Uprising (thursday)
+- ENG - One Piece RED - MV - BACKLIGHT ~ Cover Vers (fabthehedgehog)
+- ENG - Paradox Live - AUDIO - BErmud Tri nglE (pecka)
+- ENG - Paradox Live - AUDIO - Jumping Into My World (pecka)
+- ENG - Paradox Live - MV - Jumping Into My World ~ Short Vers (pecka)
+- ENG - R.E.M. - MV - Losing My Religion (gollum)
+- ENG - RWBY Hyousetsu Teikoku - IN - Mirror Mirror (fabthehedgehog)
+- ENG - Rihanna - MV - Diamonds (Coppo)
+- ENG - Rosemi Lovelock - ED - The Great Rosemi-sama Ending Theme (Kmeuh)
+- ENG - SiM - MV - Devil in Your Heart (fabthehedgehog)
+- ENG - Subarashiki Kono Sekai The Animation - MV - Teenage City Riot (Deformer-Lua)
+- ENG - Voez - GAME SWITCH AUDIO - Wilt (RoyceThomas)
+- ENG - Wham! - MV - Careless Whisper (meulahke, asb, NikoNikoD)
+- FRE - Daniel Balavoine - MV - Vivre ou Survivre (mustangfred)
+- FRE - Di Gi Charat Winter Garden - SPECIAL IN - Le petit jardin (Kmeuh)
+- FRE - Emma Daumas - MV - Tu seras (TeLiXj)
+- FRE - Fatal - MOVIE IN - Super Clash (Leroidukitch, NikoNikoD)
+- FRE - Garou - MV - Seul (mustangfred)
+- FRE - Garou, Michel Sardou - MV - La Riviere de notre enfance (mustangfred)
+- FRE - Jean-Pierre Mader - MV - Macumba (Deformer-Lua)
+- FRE - Julie Pietri - MV - Eve leve-toi (TeLiXj, NikoNikoD)
+- FRE - Lara Fabian - MV - Je t'aime (mustangfred, thoun)
+- FRE - Laurent Gerra - LIVE - Ma cabane au fond du jardin (Deformer-Lua)
+- FRE - Les Dix Commandements - MV - L'Envie d'aimer (cinemalin0, mustangfred, thoun)
+- FRE - Les vedettes - MOVIE MV - Je vous like (Deformer-Lua)
+- FRE - Michael Miro - MV - L'horloge tourne (mustangfred, thoun)
+- FRE - Nils no Fushigi na Tabi - ED - Tu es si petit (pecka)
+- FRE - Nils no Fushigi na Tabi - OP - La chanson de Nils Holgersson (pecka)
+- FRE - One Piece RED - MOVIE MV - A contre-jour ~ Full Vers (Deformer-Lua)
+- FRE - One Piece RED - MOVIE MV - Nouvelle ere ~ Full Vers (Deformer-Lua)
+- FRE - One Piece RED - MOVIE MV - Tot Musica ~ Full Vers (Deformer-Lua)
+- FRE - Stromae - MV - Formidable (mustangfred, PatTwo)
+- FRE - Tonus - AMV - La grosse bite a Dudule ~ Bande a Picsou Vers (Deformer-Lua)
+- FRE - Tonus - AMV - La grosse bite a Dudule ~ Boney M Vers (Deformer-Lua)
+- FRE - Tonus - AMV - La grosse bite a Dudule ~ Celine Dion Vers (Deformer-Lua)
+- FRE - Tonus - AMV - La grosse bite a Dudule ~ Jean-Jacques Goldman Vers (Deformer-Lua)
+- FRE - Tonus - AMV - La grosse bite a Dudule ~ Johnny Hallyday Vers (Deformer-Lua)
+- FRE - Tonus - AMV - La grosse bite a Dudule ~ Michel Sardou Vers (Deformer-Lua)
+- FRE - Tonus - AUDIO - La grosse bite a Dudule (Deformer-Lua)
+- ITA - Miraculous Ladybug - OP - Miraculous ! (Deformer-Lua)
+- ITA - Paola & Chiara - MV - Vamos a Bailar (radiopicca, NikoNikoD)
+- JPN - Ado - MV - Ashura-chan ~ Off Vocal Vers (BeVox, TheMio)
+- JPN - Ai no Utagoe wo Kikasete - MOVIE IN - Lead Your Partner ~ Short Vers (Kmeuh)
+- JPN - Akebi-chan no Sailor Fuku - ED1 - Baton (Kmeuh)
+- JPN - Akebi-chan no Sailor Fuku - ED2 - Kaze ni Makasete (Kmeuh)
+- JPN - Akebi-chan no Sailor Fuku - ED3 - Hajimari no Setsuna (Kmeuh)
+- JPN - Akebi-chan no Sailor Fuku - MV - Hajimari no Setsuna ~ Full Vers (Kmeuh)
+- JPN - Ao Ashi - ED2 - Calla Lily no Koibumi (meulahke)
+- JPN - Baby Steps Second Season - ED - Yume no Tsuzuki (pecka)
+- JPN - Blue Reflection Ray - ED1 - Saishin (IkuY)
+- JPN - Blue Reflection Ray - OP1 - DiViNE (IkuY)
+- JPN - Chimimo - OP - Marcoppa (Kmeuh)
+- JPN - Chuunibyou Demo KOI ga Shitai! - LIVE - Sparkling Daydream ~ Cover Vers (Deformer-Lua)
+- JPN - Chuunibyou Demo KOI ga Shitai! - LIVE - Sparkling Daydream ~ Full Vers (Deformer-Lua)
+- JPN - Classroom of the Elite - Saison 2 - OP1 - Dance in the Game (Koheitohikari)
+- JPN - Delicious Party PreCure - ED2 - Kokoro Delicious (meulahke)
+- JPN - Eve - MV - Last Dance ~ Off Vocal Vers (TheMio, Tsuki)
+- JPN - GIRLS und PANZER Saishuushou Daikon War! - OVA IN - Ouarai no Onna (Kaleidoscope)
+- JPN - GUMI - MV - QUEEN (BeVox)
+- JPN - GUMI - MV - QUEEN ~ Off Vocal Vers (BeVox)
+- JPN - Gake no Ue no Ponyo - AUDIO - Conyo on the Cringe (fabthehedgehog)
+- JPN - Genei Ibun Roku #FE - GAME SWITCH IN - Black Rain (LunaAlphaKretin)
+- JPN - Genei Ibun Roku #FE - GAME SWITCH IN - Reincarnation (LunaAlphaKretin)
+- JPN - Hatsune Miku ~ Project DIVA Arcade Future Tone - GAME PS4 MV - Alien Alien (Kmeuh)
+- JPN - Kagerou Project - MV - Ayano no Kofuku Riron (Amo)
+- JPN - Kagerou Project - MV - Children Record (Amo)
+- JPN - Kankyou Choujin Ecogainder - OP - Kankyou Choujin Ecogainder (Deformer-Lua)
+- JPN - Kawaii Dake ja Nai Shikimori-san - ED - Route BLUE (Kmeuh)
+- JPN - Kokoro Connect - ED3 - Salvage (Deformer-Lua)
+- JPN - Korone Inugami, Okayu Nekomata - MV - U&I ~ Cover Full Vers (Deformer-Lua)
+- JPN - Len Kagamine, Miku Hatsune - MV - RAD DOGS ~ Off Vocal Vers (BeVox)
+- JPN - Len Kagamine, Rin Kagamine - MV - RAD DOGS (BeVox)
+- JPN - Love Live! Sunshine!! - AUDIO - Meimei Tantei Yohane (Sodachi)
+- JPN - Love Live! Superstar!! 2nd Season - IN - Vitamin SUMMER! (Sodachi)
+- JPN - Love Live! Superstar!! 2nd Season - IN - Welcome to Bokura no Sekai (Kaleidoscope)
+- JPN - Love Live! Superstar!! 2nd Season - OP1 - WE WILL!! (Kaleidoscope)
+- JPN - Makai Tenshi Djibril 2 - GAME PC OP - LITTLE MY STAR (RoyceThomas)
+- JPN - Miku Hatsune - AUDIO - The Forgotten Song (yt2ass)
+- JPN - Mob Psycho 100 III - OP - 1 (meulahke)
+- JPN - Mumei Nanashi - MV - The Forgotten Song ~ Cover Vers (yt2ass)
+- JPN - Negima! question_mark - OP1 - 1000 percent SPARKING! ~ Haruna, Yue, Nodoka Uta Vers (Rinchama)
+- JPN - Negima! question_mark - OP1 - 1000 percent SPARKING! ~ Madoka, Misa, Sakurako Uta Vers (Rinchama)
+- JPN - Negima! question_mark - OP1 - 1000 percent SPARKING! ~ Natsumi, Zazie, Chizuru, Mana, Chisame Uta Vers (Rinchama)
+- JPN - Negima! question_mark - OP1 - 1000 percent SPARKING! ~ Satsuki, Kazumi, Sayo, Chao Uta Vers (Rinchama)
+- JPN - New Danganronpa V3 Minna no koroshihai shin gakki - GAME SWITCH ED - Dan Kusari -break- (meulahke)
+- JPN - Okayu Nekomata - MV - Adieu, salauds (Atsuyas)
+- JPN - One Piece RED - AUDIO IS - Binks no Sake ~ Cover Full Vers (lucyisafairy, IkuY)
+- JPN - One Piece RED - MOVIE AUDIO IN - Kaze no Yukue (Dysp)
+- JPN - One Piece RED - MOVIE MV - Shinjidai (IkuY)
+- JPN - One Piece RED - MOVIE MV - Tot Musica ~ Full Vers (Deformer-Lua, Dysp)
+- JPN - One Piece RED - MOVIE MV - Utakata Lullaby ~ Full Vers (Deformer-Lua, Dysp)
+- JPN - One Piece RED - MOVIE MV - Watashi wa saikyou ~ Full Vers (Deformer-Lua, Dysp)
+- JPN - Paradox Live - AUDIO - One Shot One Kill (pecka)
+- JPN - Paradox Live - AUDIO - ROWDIEZ -Akan Yatsura Wanted Vibes- (pecka)
+- JPN - Paradox Live - AUDIO - Rooftop (pecka)
+- JPN - Paradox Live - MV - Do as I say (pecka)
+- JPN - Paradox Live - MV - ROWDIEZ -Akan Yatsura Wanted Vibes- ~ Short Vers (pecka)
+- JPN - Paradox Live - MV - Rooftop ~ Short Vers (pecka)
+- JPN - Paradox Live - MV - Takin' Over (pecka)
+- JPN - Phew - AUDIO - Seinen wa kouya wo mezasu ~ Cover Vers (pecka)
+- JPN - Polka Omaru - MV - Saikyoutic Polka (yt2ass)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Children Record ~ Cover Vers (Amo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Flyer! (thau)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Peaky Peaky (thau)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Ready Steady (pecka)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Tenshi no Clover (thau)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Venom (Kyujitsu, Shumijin Doushi de. ver.) ~ Alternative Cover Vers (Amo)
+- JPN - Re cycle of Penguindrum - MOVIE OP - Boku no sonzaishoumei (meulahke)
+- JPN - SHADOWS HOUSE 2nd Season - MV - Shall we Dance question_mark ~ Full Vers (IkuY, Deformer-Lua)
+- JPN - SHADOWS HOUSE 2nd Season - OP - Shall we Dance question_mark (IkuY)
+- JPN - Sakura Taisen - AMV - Geki! Teikoku Kagekidan ~ Full Vers (Kmeuh)
+- JPN - Senki Zesshou Symphogear - AUDIO CS - Tsunaida Te dake ga Tsumugu Mono ~ Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear - AUDIO IN - FIRST LOVE SONG ~ Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear - AUDIO IN - FLIGHT FEATHERS ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear - AUDIO IN - FLIGHT FEATHERS ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear - AUDIO IN - Gekisou Gungnir ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear - AUDIO IN - Gyakkou no Flugel ~ Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear - AUDIO IN - Kimi to Iu Oto Kanade Tsukiru Made (Dysp)
+- JPN - Senki Zesshou Symphogear - AUDIO IN - Kimi to Iu Oto Kanade Tsukiru Made ~ Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear - AUDIO IN - Makyuu Ichaival (Dysp)
+- JPN - Senki Zesshou Symphogear - AUDIO IN - Makyuu Ichaival ~ Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear - AUDIO IN - Orbital Beat (Dysp)
+- JPN - Senki Zesshou Symphogear - AUDIO IN - Orbital Beat ~ Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear - AUDIO IN - Watashi to Iu Oto Hibiki Sono Saki ni (Dysp)
+- JPN - Senki Zesshou Symphogear - AUDIO IN - Watashi to Iu Oto Hibiki Sono Saki ni ~ Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear - AUDIO IN - Zettou Ame no Habakiri (Dysp)
+- JPN - Senki Zesshou Symphogear - AUDIO IN - Zettou Ame no Habakiri ~ Off Vocal Vers (Dysp)
+- JPN - Shadows House - LIVE - Nai Nai ~ Full Vers (amoethyst)
+- JPN - Soredemo Ayumu wa Yosetekuru - OP - Kakehiki wa Poker Face (Kmeuh)
+- JPN - Stack - MV - DESTRUDO -Self Destructive Generation- (Lasagna)
+- JPN - Suisei Hoshimachi - AMV - Suisei is Talalala (fabthehedgehog)
+- JPN - Super Danganronpa 2 Sayonara Zetsubou Gakuen - GAME SWITCH ED - Shukkou -departure- (meulahke)
+- JPN - Touhou - MV - S.A.R.I.E.L (Lasagna)
+- JPN - Utawarerumono Futari no Hakuoro - ED - Hyakunichisou (Koheitohikari)
+- JPN - Utawarerumono Futari no Hakuoro - OP - Hito Nanda (Koheitohikari)
+- JPN - Uzuki Tomoya - MV - QUEEN ~ Cover Vers (BeVox)
+- JPN - ZUTOMAYO - LIVE - MIRROR TUNE (leonekmi, TheMio)
+- JPN - ZUTOMAYO - LIVE - Nouri ue no Cracker (Pierre CAMILLI, TheMio)
+- JPN - ZUTOMAYO - LIVE - QUILT (Pierre CAMILLI, TheMio)
+- JPN - hololive IDOL PROJECT - MV - Holomen Ondo (yt2ass)
+- JPN - ivudot - MV - QUEEN ~ Cover Vers (BeVox)
+- JPN - nqrse - MV - Byoushin (Atsuyas)
+- KOR - BTS - AMV - Louder Than Bombs (asdFer)
+- KOR - BTS - LIVE - Let Me Know (sakichan)
+- KOR - BTS - LIVE - Make It Right (asdFer)
+- KOR - BTS - MV - Haruman (sakichan)
+- KOR - BTS - MV - Joh-ayo (asdFer)
+- KOR - BTS - MV - N.O (sakichan)
+- KOR - BTS - MV - Young Forever (asdFer)
+- KOR - Girls' Generation - MV - I GOT A BOY (Subkei)
+- KOR - f(x) - MV - Electric Shock (Subkei)
+
+# August 2022
+
 Kara count: 13 000
 Contributors:
 
