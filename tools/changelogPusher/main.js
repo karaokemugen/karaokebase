@@ -115,7 +115,7 @@ ${currentChangelog}`;
 
 	const tag = await axios.post(`https://gitlab.com/api/v4/projects/${PROJECT_ID}/releases`, {
 		tag_name: `${new Date().getFullYear()}${currentMonth[0]}`,
-		tag_description: `Kara count: ${karaCount.toLocaleString('fr')}`,
+		tag_message: `Kara count: ${karaCount.toLocaleString('fr')}`,
 		ref: 'master',
 		description: newChangelog
 	}, {headers: {'PRIVATE-TOKEN': process.env.GITLAB_TOKEN}});
