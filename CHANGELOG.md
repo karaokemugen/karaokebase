@@ -1,3 +1,17 @@
+# October 2022
+
+Kara count: 13 433
+
+Contributors: 
+
+- fabthehedgehog
+
+## Added
+
+New songs : 1
+
+- ENG - Amelia Watson, Kiara Takanashi - MV - Non-Fiction (fabthehedgehog)
+
 # August 2022
 
 Kara count: 13 187
