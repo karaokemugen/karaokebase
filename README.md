@@ -4,7 +4,9 @@
 ![Badge](https://img.shields.io/github/tag/AxelTerizaki/karaokebase.svg?sort=date)
 ![Badge](https://img.shields.io/github/repo-size/AxelTerizaki/karaokebase.svg) ![Discord](https://img.shields.io/discord/84245347336982528.svg)
 
-[![Creative Commons](https://img.shields.io/badge/License-Creative%20Commons%204.0%20BY--NC--SA-brightgreen.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Creative Commons](https://img.shields.io/badge/License-Creative%20Commons%204.0%20BY--NC--SA-brightgreen.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) 
+[![Open Database License](https://img.shields.io/badge/License-ODbL-brightgreen)](./LICENSE_ODBL.md)
+[![Open Database Commons Attribution License](https://img.shields.io/badge/License-ODbC-brightgreen)](./LICENSE_ODBC.md)
 
 This is the git repository for the [Karaoke Mugen](http://karaokes.moe) karaoke database. It is to be used with the software found at the site linked just now, but you can also use it freely for your own purposes. See [our license](LICENSE.md) for more information.
 
