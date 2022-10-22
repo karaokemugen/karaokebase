@@ -162,10 +162,9 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 			$families_tags = json_decode($kara['families'], true);
             if (!empty($families_tags)) {
                 foreach ($families_tags as $tag) {
-                    switch ($tag['name']) {
-                        case 'Video Game':
-                            $additional_types[] = 'Game';
-                            break;
+                    if ($tag['name'] === 'Video Game') {
+                        $additional_types[] = 'Game';
+                        break;
                     }
                 }
             }
@@ -173,6 +172,16 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
             if (!empty($versions_tags)) {
                 foreach ($versions_tags as $tag) {
                     $additional_types[] = $tag['name'];
+                }
+            }
+
+            $remix_tags = json_decode($kara['misc'], true);
+            if (!empty($remix_tags)) {
+                foreach ($remix_tags as $tag) {
+                    if ($tag['name'] === 'Remix') {
+                        $additional_types[] = 'Remix';
+                        break;
+                    }
                 }
             }
 
