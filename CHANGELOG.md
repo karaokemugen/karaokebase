@@ -1,3 +1,230 @@
+# October 2022
+
+Kara count: 13 601
+
+Contributors: 
+
+- Atsuyas
+- BeVox
+- Bisquette
+- Bouyar
+- Cocs
+- Cupcake
+- Currymalker
+- Dahel
+- Deformer-Lua
+- DiZeroX
+- Dysp
+- Elliu
+- Geralt
+- Gilrael
+- Gopa-san
+- IkuY
+- Kaleidoscope
+- Kibotori
+- Kmeuh
+- Kubat
+- Lasagna
+- Lulee
+- MellohNi
+- Pierre CAMILLI
+- Rinchama
+- RoyceThomas
+- Senortruco
+- SierraJohn
+- Sodachi
+- Soramimi
+- Spotty Len
+- TeLiXj
+- TheMio
+- TomBuLa
+- Touhou.net
+- Tracks
+- Ultra
+- UniversJB
+- Ushio
+- Yûgao
+- amoethyst
+- asb
+- fabthehedgehog
+- kaim21
+- lozboorman
+- makixnico
+- meulahke
+- mustangfred
+- pecka
+- red5h4d0w
+- thau
+
+## Added
+
+New songs : 164
+
+- CHI - Gekijouban Cardcaptor Sakura - MOVIE IN - Chunxiao qingge (Yûgao)
+- CHI - Jin Xin Si Yu - ED - Luo Mo (Cupcake)
+- ENG - Accel World - AUDIO OP2 - Burst The Gravity ~ Full Vers (Currymalker)
+- ENG - Amelia Watson, Kiara Takanashi - MV - Non-Fiction (fabthehedgehog)
+- ENG - Arknights - GAME AMV - Operation Pyrite ~ Full Off Vocal Vers (DiZeroX)
+- ENG - Arknights - GAME AMV - Operation Pyrite ~ Full Vers (DiZeroX)
+- ENG - Arknights - GAME PV - Operation Pyrite ~ Short Vers (DiZeroX)
+- ENG - Bayonetta 2 - GAME WIIU AMV - Tomorrow Is Mine ~ Short Vers (Lasagna)
+- ENG - Blade Runner Black Out 2022 - ONA AMV - Venger (Geralt)
+- ENG - Bleach - IN - Number One ~ Thousand-Year Blood War Ep. 1 Ver (Deformer-Lua)
+- ENG - Calliope Mori, Watame Tsunomaki - MV - Reaper vs. Sheep -Ouen ver.- (yt2ass)
+- ENG - Chainsaw Man - ED3 - HAWATARI NIOKU CENTI (fabthehedgehog)
+- ENG - Doctor Who - IN - Rasputin (SierraJohn, Deformer-Lua)
+- ENG - Florence Plus the Machine - MV - No Light, No Light (Senortruco)
+- ENG - Golden Kamuy 4th Season - OP - NEVER SAY GOODBYE feat. Mummy-D (meulahke)
+- ENG - Initial D Fifth Stage - AMV - I Won't Fall Apart (Cupcake)
+- ENG - Lizzo - MV - About Damn Time (Tracks)
+- ENG - Lizzo - MV - Good as Hell (lozboorman)
+- ENG - Lizzo - MV - Juice (asb)
+- ENG - Misha - MV - POKEMON GO SONG!!! (Ultra)
+- ENG - Naruto - AUDIO ED1 - Wind ~ Full Vers (Gilrael)
+- ENG - PaRappa the Rapper 2 - GAME PS2 AMV - Romantic Love -Anata mo Otona ni Nattara Wakaruwayo mix- (Spotty Len)
+- ENG - Perturbator - MV - Sentient (Geralt)
+- ENG - Randy Lent - AUDIO - Fuck The Moon ~ Cover Vers (amoethyst)
+- ENG - Steins Gate - AMV - No Light, No Light (Senortruco)
+- ENG - Taishou x Alice HEADS&TAILS - GAME SWITCH OP - Kagami no Kuni no Symphony (Lulee)
+- ENG - Team Fortress 2 - GAME MV - It's beginning to look la lot like Dustbowl (Dahel)
+- ENG - The Commonwealth Band - MV - Sing (RoyceThomas)
+- ENG - Thus Spoke Apocalypse - IN - IRAS 17514 (Kaleidoscope)
+- ENG - Touhou - MV - Draw the line (Touhou.net)
+- ENG - Touhou - MV - You may know Dream (Touhou.net)
+- ENG - Touhou - REMIX MV - Grip & Break Down (Touhou.net)
+- ENG - Wind Rose - MV - Diggy Diggy Hole ~ Cover Metal Vers (TomBuLa)
+- FRE - Corynne Charby - MV - Boule de flipper (TeLiXj)
+- FRE - Les Kassos - IN - RFL (Geralt)
+- FRE - Metal Gear Rising Revengeance - GAME AMV - Coupe-Decale Raiden (Cocs)
+- FRE - Michel Delpech - MV - Quand j'etais chanteur (mustangfred)
+- FRE - Mylene Farmer - MV - Desenchantee (mustangfred)
+- FRE - Stromae - MV - L'Enfer (mustangfred)
+- FRE - Stromae - MV - Sante (mustangfred)
+- FRE - Stupeflip - MV - Stupeflip vite !!! (fabthehedgehog)
+- IND - Hololive Indonesia Generation 3 - MV - id entity voices (yt2ass)
+- JPN - Akuyaku Reijou nano de Last Boss o Katte Mimashita - ED - Nomic (Kubat)
+- JPN - Ange Reve - MV - Ano Natsu no Melody ~ Full Vers (Kibotori)
+- JPN - Ayakashi Japanese Classic Horror - OP - HEAT ISLAND (Bouyar)
+- JPN - BOCCHI THE ROCK! - OP - Seishun Complex (IkuY)
+- JPN - Baelz Hakos, Mumei Nanashi - MV - QUEEN ~ Cover Vers (yt2ass)
+- JPN - Bleach Sennen Kessen Hen - OP1 - Scar (Kmeuh)
+- JPN - Boku no Hero Academia (2022) - OP - Hitamuki (Kmeuh)
+- JPN - Chainsaw Man - ED MV1 - CHAINSAW BLOOD ~ Full Vers (fabthehedgehog)
+- JPN - Chainsaw Man - ED1 - CHAINSAW BLOOD (fabthehedgehog)
+- JPN - Chainsaw Man - ED2 - Zanki (Pierre CAMILLI)
+- JPN - Chainsaw Man - MV OP - KICK BACK ~ Full Vers (fabthehedgehog)
+- JPN - Chainsaw Man - OP - KICK BACK (fabthehedgehog)
+- JPN - Chou no Doku Hana no Kusari - GAME SWITCH OP - Hana Kaori Namida Horori (Lulee)
+- JPN - Classroom of the Elite II - ED - Hitoshibai (red5h4d0w)
+- JPN - Classroom of the Elite II - ED - Hitoshibai ~ Off Vocal Vers (red5h4d0w)
+- JPN - Clock Zero ~Shuuen no Ichibyou~ - GAME SWITCH OP - Kaisa no Rasen (Lulee)
+- JPN - Cupid Parasite - GAME SWITCH OP - Koi wa Aserazu (Lulee)
+- JPN - Dear Vocalist - AUDIO - Awa uta (pecka)
+- JPN - Dear Vocalist - MV - Awa uta ~ Short Vers (pecka)
+- JPN - Dr. Stone Stone Wars - ED - Koe question_mark (Bouyar)
+- JPN - Ensemble Stars! - GAME MV - Trap For You ~ Short Vers (Lulee)
+- JPN - Gakuen Babysitters - OP - Endless happy world (pecka)
+- JPN - Gekijouban Cardcaptor Sakura - MOVIE ED - Tooi Kono Machi de (Yûgao)
+- JPN - Hakuouki Shinkai Kaze no Shou - GAME SWITCH OP - Arashi no Naka de Saku Hana (Lulee)
+- JPN - Hana Awase Himeutsugi Hen - GAME PC OP - Tsukioboro (Lulee)
+- JPN - Hana Awase ~Karakurenai Utsutsu Hen~ - GAME PC OP - Midare Sakura (Lulee)
+- JPN - Idoly Pride - AUDIO - Darkness sympathizer ~ Full Vers (makixnico)
+- JPN - Idoly Pride - MV - Blue sky summer ~ Short Vers (Sodachi)
+- JPN - Kaitou Joker - OP - Kaitou Miracle Shounen Boy (meulahke)
+- JPN - Kakegurui Twin - ONA ED - Queen's Bluff (red5h4d0w)
+- JPN - Kakegurui Twin - ONA ED - Queen's Bluff ~ Off Main Vocal Vers. ~ Alternative Off Vocal Vers (red5h4d0w)
+- JPN - Kakegurui Twin - ONA ED - Queen's Bluff ~ Off Vocal Vers (red5h4d0w)
+- JPN - Kattu - MV - Sendai ni Kakeru ~ Cover Vers (Gopa-san)
+- JPN - Ken ga Kimi for S - GAME SWITCH OP - Yokan (Lulee)
+- JPN - Ken ga Toki - GAME OP - Hana Akari (Lulee)
+- JPN - Kidou Senshi Gundam Suisei no Majou - ED1 - Kimi yo kedakaku are (meulahke)
+- JPN - Kimiiro Project - MV - Darwin Darwin (Kibotori)
+- JPN - Kimiiro Project - MV - koi koi koi koi (Kibotori)
+- JPN - Kobato. - IN - Ashita Kuru Hi (Yûgao)
+- JPN - Kokuchou no Psychedelica - GAME PC OP - Bloody Rain (Lulee)
+- JPN - Leadale no Daichi nite - OP - Happy encount (Elliu)
+- JPN - Len Kagamine, Rin Kagamine - MV - Aku no Meshitsukai (Soramimi, MellohNi)
+- JPN - Len Kagamine, Rin Kagamine - MV - Antichlorobenzene (Currymalker)
+- JPN - Love Live! Superstar!! - AUDIO - Dancing Heart La-Pa-Pa-Pa! ~ Full Vers (makixnico)
+- JPN - Love Live! Superstar!! - AUDIO - Star Sengen (Sodachi)
+- JPN - Love Live! Superstar!! - AUDIO - Stella! ~ Full Vers (Sodachi)
+- JPN - Love Live! Superstar!! 2nd Season - IN - Mirai no Oto ga Kikoeru ~ Short Vers (Sodachi)
+- JPN - MELTY BLOOD TYPE LUMINA - GAME SWITCH OP - Stack Black (Kubat)
+- JPN - Mafumafu - MV - Goodbye Sengen ~ Cover Vers (Atsuyas, TheMio)
+- JPN - Makai Tenshi Djibril 4, Touhou - AMV - the first the last (Meikai Kenshi Sanmusu 4) (Karaoke Mugen)
+- JPN - Marudase Kintarou - MOVIE ED - Ai wa Muteki ~ Full Vers (pecka)
+- JPN - Meitantei Conan - ED67 - Playmaker (UniversJB)
+- JPN - Meitantei Conan - OP6 - Girigiri Chop ~ Alternative Vers (Currymalker, UniversJB)
+- JPN - Meitantei Conan Hannin No Hanzawa-san - OP - Tsukamaete Konya (UniversJB)
+- JPN - Mousou Calibration - MV - Mahou no Juice (Kibotori)
+- JPN - Negima! question_mark - OP1 - 1000 percent SPARKING! ~ Negi, Nekane, Motsu, Full Uta Vers. ~ Alternative Vers (Rinchama)
+- JPN - Niji no Conquistador - MV - Triangular Dreamer (Kibotori)
+- JPN - Okayu Nekomata - MV - Adieu, salauds ~ Off Vocal Vers (Atsuyas)
+- JPN - Overlord IV - OP - HOLLOW HUNGER ~ Off Vocal Vers (BeVox)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Awake Now ~ Full Vers (thau)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Buriki no Dance ~ Cover Short Vers (MellohNi)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Color of Drops ~ Short Vers (MellohNi)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Ego Rock ~ Cover Short Vers (MellohNi)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Parasol Cider ~ Full Vers (thau)
+- JPN - Project SEKAI COLORFUL STAGE! - MV - Melty Land Nightmare ~ Cover Short Vers (MellohNi)
+- JPN - Rockman 2 Dr. Wairi no Nazo - MV - FLASH! (Spotty Len)
+- JPN - Sakura Taisen - LIVE OP - Geki! Teikoku Kagekidan (Bisquette)
+- JPN - Senki Zesshou Symphogear - AUDIO CS - FIRST LOVE SONG ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear - AUDIO CS - Tsunaida Te dake ga Tsumugu Mono (Dysp)
+- JPN - Senki Zesshou Symphogear - AUDIO IN - Gekisou Gungnir ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear G - AUDIO IN - Fushichou no Flamme ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear G - AUDIO IN - Fushichou no Flamme ~ Full Vers (Dysp)
+- JPN - Shuuen no Virche -ErroR salvation- - GAME SWITCH OP - Lycoris no Ai (Lulee)
+- JPN - South Park - IN - Princess Kenny Theme ~ Short Vers (red5h4d0w)
+- JPN - Suzumiya Haruhi no Yuuutsu - IN - God knows... ~ Clean audio Vers (Ushio)
+- JPN - Tokyo Marble Chocolate - OVA ED MV1 - Mata Aimashou (pecka)
+- JPN - Touhou - AUDIO - Mesen (pecka)
+- JPN - Touhou - GAME MV - Chen no Gensokyo ondo (Touhou.net)
+- JPN - Touhou - LIVE - Touhou Suimusou ~saigetu~ (Touhou.net)
+- JPN - Touhou - MV - Aoi Miren, Aoi Namida (Touhou.net)
+- JPN - Touhou - MV - D-89 (Touhou.net)
+- JPN - Touhou - MV - Deadman's Lovely Life (Touhou.net)
+- JPN - Touhou - MV - Itsumo no futari (Touhou.net)
+- JPN - Touhou - MV - Kyouen (Touhou.net)
+- JPN - Touhou - MV - Lucid Dream (Touhou.net)
+- JPN - Touhou - MV - Mishaguji Empire (Touhou.net)
+- JPN - Touhou - MV - Nine Head Pride (Touhou.net)
+- JPN - Touhou - MV - Owata ＼(^o^)／ Asia (Touhou.net)
+- JPN - Touhou - MV - Sayonara Kamisama (Touhou.net)
+- JPN - Touhou - MV - Touhou Youyoumu ~the maximum moving about~ (Touhou.net)
+- JPN - Touhou - MV - Traveling Without Shakehands (Touhou.net)
+- JPN - Touhou - MV - Wakasagi-hime no Inochi wo Kaketa Sushi Neta Hyappon Shoubu (Elliu)
+- JPN - Touhou - MV - Yurara Kamishibai (Touhou.net)
+- JPN - Touhou - MV - search&caved -kenteki hikkutsu- (Touhou.net)
+- JPN - Touhou - REMIX GAME MV - Choujin Hijiri no Air Muscle (Touhou.net)
+- JPN - Touhou - REMIX GAME MV - Koi no Moonlight Romance (Touhou.net)
+- JPN - Touhou - REMIX GAME MV - Sadistic Eirinkyo (Touhou.net, Dahel)
+- JPN - Touhou - REMIX MV - Gindan Marionette (Touhou.net)
+- JPN - Touhou - REMIX MV - Horobi no Rakuen - to the seventh heaven - (Touhou.net)
+- JPN - Touhou - REMIX MV - Jive at the Graveyard (Touhou.net)
+- JPN - Touhou - REMIX MV - Kill the Night (Touhou.net)
+- JPN - Touhou - REMIX MV - Ooeyama Giant Swing (Touhou.net)
+- JPN - Touhou - REMIX MV - Oyome ni Shinasai! (Touhou.net)
+- JPN - Touhou - REMIX MV - Shuwa Super Daisakusen (Touhou.net)
+- JPN - Touhou - REMIX MV - THE EVENING STAR (Touhou.net)
+- JPN - Touhou - REMIX MV - Touhou Holy Water Festival - The Troubled Maidens Year ~Pappa~ (Touhou.net)
+- JPN - Touhou Kinema Kan - REMIX MV - Kimi no yume (Touhou.net)
+- JPN - Uchi no Shishou wa Shippo ga Nai - OP - Gen`ai Yuugi (Elliu)
+- JPN - Urusei Yatsura (2022) - ED1 - Tokyo.Shandy.Rendez-vous (Kmeuh)
+- JPN - Urusei Yatsura (2022) - OP1 - aiue (meulahke)
+- JPN - Welcome to Demon School! Iruma-kun - ED - Devi-kyuu (fabthehedgehog)
+- JPN - Yama no Susume Next Summit - ED - Tobira wo Akete Bell wo Narasou (Kmeuh)
+- JPN - Yama no Susume Next Summit - OP - Omoi Nochi Hare (Kmeuh)
+- JPN - Yofukashi no Uta - MV OP - Daten ~ Full Vers (Kmeuh, fabthehedgehog)
+- JPN - Yu-Gi-Oh! GO RUSH!! - ED - One Way -Fresh Pop Rearrange- ~ Alternative Vers (Spotty Len)
+- JPN - Yue - MV - Tsuki ga Michiru (Kaleidoscope)
+- JPN - ZUTOMAYO - MV - Zanki ~ Full Off Vocal Vers (TheMio, fabthehedgehog)
+- JPN - ZUTOMAYO - MV - Zanki ~ Full Vers (fabthehedgehog)
+- JPN - takt op.Destiny - ED - SYMPHONIA (fabthehedgehog)
+- SPA - Dragon Ball GT - OP - Mi corazon encantado (kaim21)
+- SPA - Elvis Crespo - AMV - Suavemente (Geralt)
+- UND - Honkai Impact 3rd - GAME AMV - See You in the Next World (Kaleidoscope)
+
 # September 2022
 
 Kara count: 13 433
