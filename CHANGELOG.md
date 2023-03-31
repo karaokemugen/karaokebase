@@ -1,3 +1,266 @@
+# March 2023
+
+Kara count: 14 738
+
+Contributors: 
+
+- Alshkor
+- Amo
+- Ankhman
+- Atsuyas
+- Bisquette
+- Canni
+- Caruso
+- Chiko
+- Coppo
+- Currymalker
+- Deformer-Lua
+- Demoto
+- Deurstann
+- DoubleDee73
+- Dysp
+- Elliu
+- Ementi
+- Gopa-san
+- Hierane
+- IC
+- IkuY
+- JackyBaldhead
+- Kaleidoscope
+- Karmidi
+- Kmeuh
+- Krokro
+- Lasagna
+- Lorc
+- Luchia
+- Lukairata
+- Lulee
+- Mad Dog
+- Nemesise
+- NextFire
+- NikoNikoD
+- Niyaa
+- Nock
+- Nodamin
+- NoverMaC
+- Palandos
+- Pierre CAMILLI
+- Rinchama
+- RoyceThomas
+- Sodachi
+- Spotty Len
+- TACHYON
+- TeLiXj
+- Terasuki
+- TheMio
+- UniversJB
+- Uwhipa
+- Voltini
+- amro98
+- asb
+- balloonfish5
+- bibialice
+- fabthehedgehog
+- gollum
+- kaim21
+- meulahke
+- mustangfred
+- pecka
+- puyo
+- red5h4d0w
+- singstarfreak89
+- tcyrus
+
+## Added
+
+New songs : 185
+
+- CHI - Akie - MV - Shangshan Gang ~ Cover Vers (Niyaa)
+- CHI - Feng Ming Jiong Jun, QI Inory - MV - Xianluo zhi Xu (NoverMaC)
+- CHI - Genshin Impact - GAME PS4 IN - Shennu Piguan (tcyrus)
+- CHI - Luo xiao hei zhan ji - MOVIE PV - Bu zai liulang (NoverMaC)
+- CHI - Qian Cong Shou - ONA OP - Until the Wind Rises (NoverMaC)
+- CHI - Shiguang Dailiren - ONA ED - OverThink (NoverMaC)
+- CHI - Wu Liuqi Anying Suming - ONA AMV - Blank ~ Full Vers (NoverMaC)
+- CHI - Wu Liuqi Anying Suming - ONA ED - Huaibao de wenrou bing bu shuyu wo (NoverMaC)
+- CHI - Xing You Ji - OP - Fly Again (NoverMaC)
+- ENG - 007 Spectre - MV - Writing's on the Wall (gollum, NikoNikoD)
+- ENG - Aoki Hagane no Arpeggio Ars Nova - IN - Silver Sky (pecka)
+- ENG - D4DJ All Mix - IN - Look at me (red5h4d0w)
+- ENG - Eminem - MV - Not Afraid (kaim21)
+- ENG - En'en no shouboutai - MV - MAYDAY ~ Full Vers (Ementi)
+- ENG - Epic Rap Battles of History - MV - Eastern Philosophers vs Western Philosophers (Chiko)
+- ENG - Epic Rap Battles of History - MV - Steve Jobs vs Bill Gates (Chiko)
+- ENG - Jet Set Radio Future - LIVE - Birthday Cake (Lasagna)
+- ENG - Kidou Senshi Gundam Tekketsu no Orphans - Tokubetsu-hen - SPECIAL MV - Blaze ~ Full Vers (meulahke)
+- ENG - Kidou Senshi Gundam Tekketsu no Orphans - Tokubetsu-hen - SPECIAL OP - Blaze (meulahke)
+- ENG - Kobo Kanaeru - MV - Happy ~ Cover Vers (Alshkor)
+- ENG - League of Legends - GAME MV - Star Walkin' (League of Legends Worlds Anthem) (Palandos, puyo)
+- ENG - League of Legends - GAME MV - Star Walkin' (League of Legends Worlds Anthem) ~ Uncensored Vers. ~ Alternative Vers (Palandos, puyo)
+- ENG - Marianne Faithfull, Metallica - MV - The Memory Remains (gollum, NikoNikoD)
+- ENG - Mega Man (Ruby-Spears) - OP - Mega Man (Lasagna)
+- ENG - Mega Man (Ruby-Spears) - OP - Mega Man ~German Broadcast Vers (Lasagna)
+- ENG - Michael Jackson, Paul McCartney - MV - Say Say Say (asb, gollum, NikoNikoD)
+- ENG - Mili - MV - world.execute(me) (Elliu)
+- ENG - Mili - MV - world.execute(me) ~ Alternative Vers (Elliu)
+- ENG - Nathan Evans - MV - Wellerman (Sea Shanty) (DoubleDee73)
+- ENG - Nickelback - MV - When We Stand Together (Caruso, Ankhman, NikoNikoD)
+- ENG - Shania Twain - MV - I'm Gonna Getcha Good! (singstarfreak89, NikoNikoD)
+- ENG - Sia - MV - Cheap Thrills (amro98, Coppo, NikoNikoD)
+- ENG - Skillet - MV - Hero (Lorc, NikoNikoD)
+- ENG - Sonic Frontiers - GAME SWITCH MV - Vandalize (Ementi)
+- ENG - South Park - OP - South Park (Lasagna)
+- ENG - System of a Down - MV - Toxicity (gollum)
+- ENG - Talk Talk - MV - Such a Shame (TeLiXj, NikoNikoD)
+- ENG - The Smiths - AUDIO - Bigmouth Strikes Again (gollum)
+- ENG - The Smiths - AUDIO - There Is a Light That Never Goes Out (gollum)
+- ENG - The Smiths - MV - This Charming Man (TeLiXj)
+- ENG - Yellowcard - MV - Ocean Avenue (IC)
+- FRE - Gold - MV - Plus pres des etoiles (TeLiXj, NikoNikoD)
+- FRE - La Compagnie Creole - MV - Le Bal masque (TeLiXj, NikoNikoD)
+- FRE - Maitre Gims - MV - Zombie (bibialice, NikoNikoD)
+- FRE - Marc Lavoine - MV - Elle a les yeux revolver (mustangfred, NikoNikoD)
+- FRE - Michel Sardouille - IN - La rupture tranquilou (Deformer-Lua)
+- FRE - Michel Sardouille - IN - Le temps des femmes a poils (Deformer-Lua)
+- FRE - Michel Sardouille - IN - Michel Sardouille, le retouille (Deformer-Lua)
+- FRE - Oban Star Racer - OP - Envole-toi vers l'infini (Kmeuh)
+- FRE - Partenaire particulier - MV - Partenaire particulier (mustangfred, NikoNikoD)
+- FRE - The Aristocats - MOVIE STREAM - Des gammes et des arpeges ~ Cover Vers (Deformer-Lua, Nodamin)
+- FRE - Ultra Vomit - MV - TAKOYAKI (Ementi)
+- FRE - ronare - AMV - Bigard allez les bleus!!! JUL COVER ~ Short Vers (Deformer-Lua)
+- GER - iCarly - OP - Uberlass ihn mir (Demoto, TheMio)
+- HIN - RRR - MOVIE IN - Naacho Naacho (Kaleidoscope)
+- ITA - Shinigami to Shoujo - GAME PSV OP - Dio della Morte e La Fanciulla (Lulee)
+- JPN - ASIAN KUNG-FU GENERATION - MV - Korogaru Iwa, Kimi ni Asa ga Furu (NextFire)
+- JPN - Akatsuki no Yona - AUDIO ED2 - Akatsuki ~ Full Vers (yt2ass)
+- JPN - Akatsuki no Yona - MV - Akatsuki ~ Baelz Vers. ~ Cover Full Vers (yt2ass)
+- JPN - Akikan! - OP1 - Miracle Plan ga Dekichatta! (pecka)
+- JPN - Bakemonogatari - OP3 - ambivalent world ~ Off Vocal Vers (Nock, Rinchama)
+- JPN - Bakemonogatari - OP5 - sugar sweet nightmare ~ Anime Vers. ~ Alternative Off Vocal Vers (Nock, Rinchama)
+- JPN - BanG Dream! Girls Band Party - GAME AUDIO - Migikata no Chou ~ Cover Full Vers (puyo)
+- JPN - BanG Dream! Girls Band Party - GAME AUDIO - Migikata no Chou ~ Cover Short Vers (puyo)
+- JPN - Binan Koukou Chikyuu Bouei Bu LOVE! LOVE! LOVE! - OVA CS IN - Ore wa Kyuukyoku Taiman Shugisha!! (pecka)
+- JPN - Blue Lock - AUDIO CS - Boufuu to Prometheus (Hierane)
+- JPN - Blue Lock - OP1 - Chaos ga Kiwamaru (Hierane)
+- JPN - Brothers Conflict OVA - OVA ED - I LOVE YOU ga Kikoenai (pecka)
+- JPN - Chainsaw Man - MV - Deep down ~ Full Vers (fabthehedgehog)
+- JPN - Chainsaw Man - MV10 - DOGLAND ~ Full Vers (fabthehedgehog)
+- JPN - Chainsaw Man - MV11 - VIOLENCE ~ Full Vers (fabthehedgehog)
+- JPN - D4DJ All Mix - IN - 4 many colors (red5h4d0w)
+- JPN - D4DJ All Mix - IN - D.M.F (red5h4d0w)
+- JPN - D4DJ All Mix - IN - Taenaru Hoshi to (red5h4d0w)
+- JPN - D4DJ Groovy Mix - GAME PV - Synchronicity (red5h4d0w)
+- JPN - Dear Vocalist - AUDIO - Yakouka (pecka)
+- JPN - Deatte 5-byou de Battle - OP - No Continue (red5h4d0w)
+- JPN - FLOW - MV - Answer (Uwhipa)
+- JPN - FLOW - MV - Fuyu no Amaoto (Uwhipa)
+- JPN - Futsal Boys!!!!! - ED - Pianissimo (pecka)
+- JPN - Genei Ibun Roku #FE - GAME SWITCH IN - Give Me!! (Lukairata)
+- JPN - Getsuei no Kusari -Kyouran Moratorium- - GAME OP - Gekka no Fune (Lulee)
+- JPN - Gintama. (2018) - OP - Katte ni MY SOUL (red5h4d0w)
+- JPN - HAMBURGER BOYS - MV - R.M.O -RUMOI.MASHIKE.OBIRA- (Gopa-san)
+- JPN - Hatsune Miku ~ Project DIVA Arcade Future Tone - GAME MV - Migikata no Chou -39's Giving Day Edition- ~ Alternative Vers (puyo)
+- JPN - Hatsune Miku ~ Project DIVA Arcade Future Tone - GAME MV - Migikata no Chou ~ Alternative Vers (puyo)
+- JPN - Hatsune Miku ~ Project DIVA Arcade Future Tone - GAME MV - Sweet Magic (RoyceThomas)
+- JPN - Ijiranaide, Nagatoro-san 2nd Attack - OP - LOVE CRAZY (Lukairata)
+- JPN - Imouto sae Ireba Ii. - ED3 - Innocent Lovely (Terasuki)
+- JPN - In Spectre Season 2 - OP - Yotogibanashi (Spotty Len)
+- JPN - Inazuma Eleven Go Chrono Stone - OP1 - Jounetsu de Mune Atsu! (Luchia)
+- JPN - Inori Minase - LIVE - Yume no Tsubomi (Voltini)
+- JPN - InvaderT - MV - Reversible Campaign ~ Cover Vers (fabthehedgehog)
+- JPN - Junko Ohashi - AUDIO - Telephone Number ~ Full Vers (Mad Dog)
+- JPN - KAFU - MV - Watashi wa, Watashitachi wa (Niyaa)
+- JPN - Kaifuku Jutsushi no Yarinaoshi - MV - Yume de Sekai wo Kaeru nara ~ Full Vers (RoyceThomas)
+- JPN - Kano - AMV - Suki Suki Zecchou Shou ~ Cover Vers (balloonfish5)
+- JPN - Kenshi Yonezu - MV - Flamingo (Elliu)
+- JPN - Kirarin Revolution - ED13 - Happy Happy Sunday! (Luchia)
+- JPN - Kono Healer, Mendokusai - ED - HERO in HEALER (Elliu)
+- JPN - Kronii Ouro - MV - Bakushou ~ Cover Vers (fabthehedgehog)
+- JPN - Len Kagamine, Miku Hatsune - MV - Amayumerou (Lulee)
+- JPN - Len Kagamine, Miku Hatsune - MV - Amayumerou ~ Off Vocal Vers (Lulee)
+- JPN - Len Kagamine, Rin Kagamine - MV - Migikata no Chou ~ Alternative Vers (puyo)
+- JPN - Levius - ONA ED - Child Dancer (Elliu)
+- JPN - Like a Dragon Ishin! - GAME PC IN - Samurai Ondo (Lukairata)
+- JPN - Love Live! Superstar!! 2nd Season - AUDIO - Akane Kokoro ~ Full Vers (Sodachi)
+- JPN - Love Live! Superstar!! 2nd Season - AUDIO - Beginners Rock!! ~ Full Vers (Sodachi)
+- JPN - Love Live! Superstar!! 2nd Season - AUDIO - Eye wo Choudai ~ Full Vers (Sodachi)
+- JPN - Love Live! Superstar!! 2nd Season - AUDIO - Glass Ball Rejection ~ Full Vers (Sodachi)
+- JPN - Love Live! Superstar!! 2nd Season - AUDIO - Midnight Rhapsody ~ Full Vers (Sodachi)
+- JPN - Love Live! Superstar!! 2nd Season - AUDIO - Starry Prayer ~ Full Vers (Sodachi)
+- JPN - Love Live! Superstar!! 2nd Season - MV - Second Sparkle ~ Full Vers (Sodachi)
+- JPN - Maesetsu! Opening Act - OP - Pippippi Happy (TACHYON)
+- JPN - Mega Man Battle & Chase, Mega Man Upon a Star - GAME PSX AMV - Kaze yo Tsutaete (Lasagna)
+- JPN - Meitantei Conan - ED10 - Natsu no Maboroshi (Deurstann, UniversJB)
+- JPN - Meitantei Conan - ED11 - Start in my life (Deurstann)
+- JPN - Meitantei Conan - ED51 - Futari no Byoushin (Deurstann)
+- JPN - Meitantei Conan - ED52 - SAWAGE LIFE (Deurstann)
+- JPN - Meitantei Conan - ED53 - YESTERDAY LOVE (Deurstann)
+- JPN - Meitantei Conan - OP49 - Bara-iro no Jinsei (Deurstann)
+- JPN - Meitantei Conan - OP53 - ZERO kara Hajimete (Deurstann)
+- JPN - Meitantei Conan Shikkoku no Chaser - MOVIE ED - PUZZLE (Currymalker)
+- JPN - Miku Hatsune - MV - Kimagure Mercy (Atsuyas)
+- JPN - Miku Hatsune - MV - Reversible Campaign (fabthehedgehog)
+- JPN - Miku Hatsune - MV - Reversible Campaign ~ Off Vocal Vers (fabthehedgehog)
+- JPN - Moshi, Kono Sekai ni Kami-sama ga Iru to suru Naraba. - GAME PSV IS - Souhan Teiri no Red String ~ Full Vers (Lulee)
+- JPN - Moshi, Kono Sekai ni Kami-sama ga Iru to suru Naraba. - GAME PSV IS - Souhan Teiri no Red String ~ Short Vers (Lulee)
+- JPN - Nier Automata Ver1.1a - ED - antinomy ~ Alternative Vers (fabthehedgehog)
+- JPN - Nurse Angel Ririka SOS - IN - Koko ni Ite (Nemesise)
+- JPN - Ollie Kureiji - MV - NEW zom BIE!! (yt2ass)
+- JPN - One Piece RED - IN - Sekai no tsuzuki (yt2ass)
+- JPN - One Piece RED - MOVIE ED - Kaze no Yukue (Deformer-Lua, Dysp)
+- JPN - One Piece RED - MOVIE IN - Gyakkou (Amo)
+- JPN - One Piece RED - MOVIE IN - Shinjidai (IkuY)
+- JPN - One Piece RED - MOVIE IN - Tot Musica (Deformer-Lua, Dysp)
+- JPN - One Piece RED - MOVIE IN - Utakata Lullaby ~ Full Vers (Deformer-Lua, Dysp)
+- JPN - One Piece RED - MOVIE IN - Watashi wa saikyou ~ Full Vers (Deformer-Lua, Dysp)
+- JPN - Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken - ED2 - Ai Uta ~ Cover Vers (red5h4d0w)
+- JPN - Polka Omaru - MV - Persona (yt2ass)
+- JPN - Polka Omaru - MV - yaneura epilogue (yt2ass)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME AMV - KING ~ Cover Vers (Dysp)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME AUDIO - Migikata no Chou ~ Alternative Short Vers (puyo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - KING ~ Cover Vers (Dysp)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Zamuza ~ Short Vers (puyo)
+- JPN - Re Zero kara Hajimeru Isekai Seikatsu 2nd Season - ED2 - Door (red5h4d0w)
+- JPN - Rin Kagamine - MV - Migikata no Chou (puyo)
+- JPN - Royal Scandal - MV - Wonderland in Alice ~ Off Vocal Vers (Lulee)
+- JPN - Royal Scandal - OVA MV - Wonderland in Alice (Lulee)
+- JPN - Scarlet Nexus - GAME XBOXONE OP - DREAM IN DRIVE (IkuY)
+- JPN - Selection Project - IN - B.B. ~ Short Vers (Sodachi)
+- JPN - Selection Project - OP - Glorious Days (TACHYON)
+- JPN - Sen no Hatou, Tsukisome no Kouki - GAME AUDIO ED - Tsukiyo ni mau koi no hana ~ Full Vers (JackyBaldhead)
+- JPN - Sennen Joyuu - MOVIE AMV ED - Rotation LOTUS-2 (pecka)
+- JPN - Senren Banka - GAME PC OP - Koi Kou Enishi ~ R18 Vers. ~ Alternative Vers (Amo)
+- JPN - Shin Seiki Evangelion - OP - Zankoku na Tenshi no These ~ Off Vocal Vers (Kmeuh, TheMio)
+- JPN - Shinigami to Shoujo - GAME SWITCH MV - Saibi Naru Kotoba ~ Full Vers (Lulee)
+- JPN - Shinigami to Shoujo - GAME SWITCH OP - Saibi Naru Kotoba (Lulee)
+- JPN - Shoujo Kageki Revue Starlight Rondo Rondo Rondo - MOVIE IN - Hokori to Ogori (movie ver.) ~ Off Vocal Vers (Elliu)
+- JPN - Shoujo Kageki Revue Starlight Rondo Rondo Rondo - MOVIE IN - Sekai wo Hai ni Suru made (movie ver.) (red5h4d0w)
+- JPN - Shoujo Kageki Revue Starlight Rondo Rondo Rondo - MOVIE IN - Sekai wo Hai ni Suru made (movie ver.) ~ Off Vocal Vers (red5h4d0w)
+- JPN - Shoujo Kageki Revue Starlight Rondo Rondo Rondo - MOVIE MV - Saisei Sanbikyoku (Movie Ver.) ~ Off Vocal Vers (Kaleidoscope)
+- JPN - South Park - OP - South Park (Lasagna)
+- JPN - Suisei Hoshimachi - LIVE - Planetarium (Nodamin)
+- JPN - Suisei Hoshimachi - MV - Michizure (Nodamin)
+- JPN - TWICE - LIVE - Wonderful Day (Bisquette)
+- JPN - Taiyou Band - MV - Kaitaku no Uta (Gopa-san)
+- JPN - Technoroid Overmind - ED - Invisible -one heart- (pecka)
+- JPN - Tennis no Ouji-sama Atobe kara no Okurimono - Kimi ni Sasageru Tenipri Matsuri - MOVIE IN - BRAND NEW DAY (pecka)
+- JPN - To Your Eternity Season 2 - OP - PINK BLOOD (Krokro)
+- JPN - Toaru Shakai no Kaeuta - AMV - only my railgun (PM ver.) ~ Alternative Vers (Gopa-san)
+- JPN - Tokyo Revengers Seiya Kessen-hen - OP - White Noise (red5h4d0w)
+- JPN - Tonikaku Kawaii (2023) - OP - Setsuna no Chikai (red5h4d0w)
+- JPN - Touhou - AUDIO - Koi no mushi (JackyBaldhead)
+- JPN - Touhou - GAME AMV - Last Dance (Lasagna)
+- JPN - Touhou - MV - Rock 'n' Rock 'n' Beat (Lasagna)
+- JPN - Uchi Tama question_mark ! Uchi no Tama Shirimasen ka question_mark - ED9 - Play with me... question_mark (pecka)
+- JPN - Waccha PriMagi! - AUDIO IN - Lux Aeterna ~ Full Vers (Nemesise)
+- JPN - Watashi ni Tenshi ga Maiorita! Precious Friends - MOVIE OP - Precious Friends! (Nemesise)
+- JPN - Yojouhan Shinwa Taikei - OP2 - Kamisama no Iu Toori (Rinchama)
+- JPN - ZUTOMAYO - LIVE - Zanki (Pierre CAMILLI)
+- JPN - syudou - MV - Bakushou (fabthehedgehog)
+- POR - Fata Morgana no Yakata - COLLECTED EDITION - - GAME PSV OP - Reencarnacao (Lulee)
+- POR - Fata Morgana no Yakata - GAME 3DS AUDIO IN - Giselle (Lulee)
+- RUM - Rosemi Lovelock - STREAM - Dragostea Din Tei ~ Cover Full Vers (Deformer-Lua, Canni, Karmidi)
+
 # February 2023
 
 Kara count: 14 553
