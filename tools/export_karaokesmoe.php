@@ -61,10 +61,10 @@ $data = $pdo->query($query)->fetchAll();
 function create_mediafile_name($kid, $mediasize, $subfile)
 {
 	if (empty($subfile)) {
-		return $kid.".".$mediasize.".no_ass_file.mp4";
+		return $kid.".".$mediasize.".no_ass_file";
 	} else {
 		$md5 = md5_file("lyrics/".$subfile);
-		return $kid.".".$mediasize.".".$md5.".mp4";
+		return $kid.".".$mediasize.".".$md5;
 	}
 }
 
