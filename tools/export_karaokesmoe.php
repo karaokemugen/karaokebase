@@ -195,8 +195,7 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 
             $type_with_num = (!empty($additional_types) ? implode(' ', $additional_types) . ' ' : '') . $type . (!empty($kara['songorder']) ? ' ' . $kara['songorder'] : '') . ' - ' . $languages[0]['name'] . ' - ' . $kara['title'];
 
-            $audioOnly = (0 === strpos(strrev($kara['mediafile']), strrev('.mp3'))); // ends with mp3 ? we'll consider it as audio only.
-            $mimeType = $audioOnly ? 'audio/mp3' : 'video/mp4';
+            $mimeType = 'video/mp4';
 			$kara_data = [
 				'file' => create_mediafile_name($kara['kid'], $kara['mediasize'], $kara['subfile']),
 				'mime' => [$mimeType,],
