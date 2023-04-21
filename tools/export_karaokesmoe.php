@@ -2,6 +2,8 @@
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
+ini_set("memory_limit", "512M");
+
 error_reporting(E_ALL);
 
 $currPath = realpath(dirname(__FILE__));
@@ -42,6 +44,7 @@ SELECT
   jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 11)') AS origins,
   jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 4)') AS creators,
   ak.mediafile AS mediafile,
+  ak.mediasize AS mediasize,
   ak.gain AS gain,
   jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 8)') AS songwriters,
   jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 14)') AS versions,
@@ -49,15 +52,20 @@ SELECT
   jsonb_path_query_array( tags, '$[*] ? (@.type_in_kara == 16)') AS collections
 FROM all_karas AS ak
 WHERE (mediafile LIKE '%.mp4' or mediafile LIKE '%.mp3')
-GROUP BY ak.pk_kid, ak.tags, ak.titles, ak.titles_default_language, ak.songorder, ak.subfile, ak.mediafile, ak.gain, ak.titles_sortable, ak.serie_singergroup_singer_sortable, ak.songtypes_sortable
+GROUP BY ak.pk_kid, ak.tags, ak.titles, ak.titles_default_language, ak.songorder, ak.subfile, ak.mediafile, ak.gain, ak.titles_sortable, ak.serie_singergroup_singer_sortable, ak.songtypes_sortable, ak.mediasize
 ORDER BY ak.serie_singergroup_singer_sortable, ak.songtypes_sortable DESC, ak.songorder, ak.titles_sortable
 ";
 
 $data = $pdo->query($query)->fetchAll();
 
-function get_filename_without_ext($fname)
+function create_mediafile_name($kid, $mediasize, $subfile)
 {
-    return substr($fname, 0, strrpos($fname, "."));
+	if (empty($subfile)) {
+		return $kid.".".$mediasize.".no_ass_file.mp4";
+	} else {
+		$md5 = md5_file("lyrics/".$subfile);
+		return $kid.".".$mediasize.".".$md5.".mp4";
+	}
 }
 
 //(easter) eggs support
@@ -85,7 +93,7 @@ foreach ($data as $kara) {
         if (is_array($content))
         foreach($content as $tag) {
             if (!empty($tag['noLiveDownload']) && $tag['noLiveDownload']) {
-                echo $kara['mediafile'] . ' ignored, ' . $tag['name'] . ' has noLiveDownload.\n';
+                echo $kara['mediafile'] . ' ignored, ' . $tag['name'] . ' has noLiveDownload.' . "\xA";
                 $skip = true;
                 break;
             }
@@ -189,38 +197,27 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 
             $audioOnly = (0 === strpos(strrev($kara['mediafile']), strrev('.mp3'))); // ends with mp3 ? we'll consider it as audio only.
             $mimeType = $audioOnly ? 'audio/mp3' : 'video/mp4';
-            if (empty($kara['subfile'])) {
-                $kara_data = [
-                    'file' => get_filename_without_ext($kara['mediafile']),
-                    'mime' => [$mimeType,],
-                    'song' => [
-                        'title' => $kara['title'],
-                    ],
-                    'uid' => $kara['kid'],
-                    'gain' => floatval($kara['gain'])
-                ];
-            } else {
-                $kara_data = [
-                    'file' => get_filename_without_ext($kara['mediafile']),
-                    'mime' => [$mimeType,],
-                    'song' => [
-                        'title' => $kara['title'],
-                    ],
-                    'subtitles' => '(unknown)',
-                    'uid' => $kara['kid'],
-                    'gain' => floatval($kara['gain'])
-                ];
+			$kara_data = [
+				'file' => create_mediafile_name($kara['kid'], $kara['mediasize'], $kara['subfile']),
+				'mime' => [$mimeType,],
+				'song' => [
+					'title' => $kara['title'],
+				],
+				'subtitles' => '(unknown)',
+				'uid' => $kara['kid'],
+				'gain' => floatval($kara['gain'])
+			];
 
-                $authors = json_decode($kara['authors'], true);
-                if (!empty($authors) && $authors[0]['name'] != 'NO_TAG') {
-                    $karaAuthor = "";
-                    foreach ($authors as $author) {
-                        $karaAuthor .= ', ' . $author['name'];
-                    }
-                    $kara_data['subtitles'] = substr($karaAuthor, 2);
-                } else
-                    $kara_data['subtitles'] = '(unknown)';
-            }
+			$authors = json_decode($kara['authors'], true);
+			if (!empty($authors) && $authors[0]['name'] != 'NO_TAG') {
+				$karaAuthor = "";
+				foreach ($authors as $author) {
+					$karaAuthor .= ', ' . $author['name'];
+				}
+				$kara_data['subtitles'] = substr($karaAuthor, 2);
+			} else
+				$kara_data['subtitles'] = '(unknown)';
+
             $singers = json_decode($kara['singers'], true);
             if (!empty($singers[0]['name']) && $singers[0]['name'] != 'NO_TAG') {
                 $artist = "";
