@@ -167,6 +167,15 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
             $languages = json_decode($kara['languages'], true);
 
 			$additional_types = [];
+            $songtypes_tags = json_decode($kara['songtypes'], true);
+            if (!empty($songtypes_tags)) {
+                foreach ($songtypes_tags as $tag) {
+                    if ($tag['name'] === 'Movie') {
+                        $additional_types[] = 'Movie';
+                        break;
+                    }
+                }
+            }
 			$origins_tags = json_decode($kara['origins'], true);
             if (!empty($origins_tags)) {
                 foreach ($origins_tags as $tag) {
