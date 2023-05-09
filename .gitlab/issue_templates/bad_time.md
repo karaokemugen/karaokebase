@@ -2,3 +2,5 @@
 
 **Your issue** :
 
+/label ~incident
+/label ~lyrics

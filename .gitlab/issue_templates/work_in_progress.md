@@ -5,3 +5,5 @@ If this issue is older than one month, and you still want to do it, please ask b
 So we can avoid doing the same work multiple times.
 
 Thanks in advance :3
+
+/label ~Doing
