@@ -1,3 +1,345 @@
+# May 2023
+
+Kara count: 15 245
+
+Contributors: 
+
+- AnimeSoc
+- Atsuyas
+- Auguste
+- Axolotl
+- BeVox
+- Canni
+- Dahel
+- Demoto
+- Dysp
+- Eden
+- Elidel
+- Elliu
+- Ementi
+- Gigo
+- Gopa-san
+- Haiko
+- IkuY
+- Kaleidoscope
+- KasrkinSaser
+- Kibotori
+- Kmeuh
+- Lasagna
+- Lightbringer
+- Lord_Tenebro
+- Louis Royer
+- Luchia
+- Luthien
+- Mad Dog
+- Nemesise
+- NextFire
+- NikoNikoD
+- Niyaa
+- Nock
+- Nodamin
+- Phoko
+- Pierre CAMILLI
+- Rinchama
+- Risako
+- Sodachi
+- Soramimi
+- Soura
+- Spotty Len
+- Subkei
+- TBK
+- TeLiXj
+- TheMio
+- UniversJB
+- Zoggoth
+- asdFer
+- bibialice
+- daggeg
+- fabthehedgehog
+- meulahke
+- mustangfred
+- pecka
+- puyo
+- red5h4d0w
+- snake84
+- thoun
+- vicktoben
+
+## Added
+
+New songs : 270
+
+- ENG - Bon Jovi - MV - Livin' on a Prayer (NikoNikoD, TeLiXj)
+- ENG - Dragon's Dogma - GAME PS3 MV - Into Free -Dangan- (AnimeSoc)
+- ENG - Eric Turner, Tinie Tempah - MV - Written in the Stars (snake84, NikoNikoD)
+- ENG - Final Fantasy XIV - GAME PS4 IN - What Angels Wakes Me ~ Full Vers (Elidel)
+- ENG - Final Fantasy XIV - GAME PS4 IN31 - Return to Oblivion ~ Full Vers (Elidel, meulahke)
+- ENG - Final Fantasy XIV - GAME PS4 PV - Revolutions (Elidel)
+- ENG - Honkai Impact 3rd - MV - CHRYSALIS - Song of Perdition (Kaleidoscope)
+- ENG - Honkai Impact 3rd, Towards the Astral - AMV - Tranquility (Kaleidoscope)
+- ENG - Honkai Star Rail - GAME PS4 AUDIO IN - Wildfire (Haiko)
+- ENG - Houkai Gakuen 2 - PV - End Day (Kaleidoscope)
+- ENG - Jamiroquai - MV - Virtual Insanity (fabthehedgehog)
+- ENG - Keri Hilson, Sebastian - MV - The Way I Are (Lightbringer, NikoNikoD)
+- ENG - Modern Talking - MV - Cheri, Cheri Lady (NikoNikoD, Canni)
+- ENG - Omega Strikers - GAME PC OP - Go Strike! (Dahel)
+- ENG - Omega Strikers - GAME SWITCH CS - Vice-Versa (Spotty Len)
+- ENG - Omega Strikers - GAME XBOXONE CS - Thousand Absolutes (Dahel)
+- ENG - OneRepublic - AMV - Counting Stars (Kaleidoscope)
+- ENG - Scorpions - MV - Wind of Change (TeLiXj, NikoNikoD)
+- ENG - Shin Kono Subarashiki Sekai - GAME SWITCH OP - NEW GAME (red5h4d0w)
+- ENG - Taylor Swift - MV - You Belong with Me (vicktoben)
+- ENG - Taylor Swift - MV - You Belong with Me ~ Nightcore Vers (AnimeSoc)
+- ENG - The Legend of Vox Machina - ONA AUDIO IN - Pull My Beads of Love (NikoNikoD)
+- ENG - The Script, will.i.am - MV - Hall of Fame (snake84, NikoNikoD)
+- ENG - abingdon boys school - AUDIO - Fre@K $HoW (Soramimi)
+- ENG - abingdon boys school - AUDIO - Freedom (Soramimi)
+- ENG - abingdon boys school - AUDIO - LOST REASON (Soramimi)
+- ENG - abingdon boys school - AUDIO - LOST REASON feat. MICRO (Soramimi)
+- ENG - abingdon boys school - AUDIO - Nervous Breakdown (Soramimi)
+- ENG - abingdon boys school - AUDIO - Stay Away (Soramimi)
+- FRE - Alys - MV - Sous cette pluie (TBK)
+- FRE - Blanche Neige et les Sept Nains - MOVIE IN - Heigh-ho ! (bibialice, puyo)
+- FRE - Cinderella - MOVIE IN - Bibbidi-Bobbidi-Boo (puyo, TeLiXj)
+- FRE - Ganesh2, Renaud Sechan - STREAM - Les animes (Mad Dog)
+- FRE - Jean-Jacques Goldman - MV - Encore un matin (NikoNikoD, mustangfred, thoun)
+- FRE - Kaaris - REMIX MV - Bouchon de liege (Phoko)
+- FRE - Kirarin Revolution - IN - Mes vrais sentiments (Luchia)
+- FRE - Serge Gainsbourg - MV - Couleur cafe (daggeg)
+- FRE - The Super Mario Bros. Movie - MOVIE MV - Peach (Nodamin)
+- FRE - Thierry Hazard - MV - Le Jerk ! (Lord_Tenebro, NikoNikoD)
+- GER - Senki Zesshou Symphogear AXZ - AUDIO IN - Ewigkeit (Shito -Ewigkeit-) (Luthien)
+- JPN - 1-SHINE - MV - Usseewa ~ Yamaguchi-ben Vers. ~ Alternative Cover Vers (Gopa-san)
+- JPN - 10-FEET - MV - Sono Mukou e (Ementi)
+- JPN - 96Neko, Gakuto Kajiwara - MV - Bakushou ~ Cover Vers (fabthehedgehog, pecka)
+- JPN - ACTORS -Songs Connection- - MV - Dareka no Shinzou ni Nareta Nara ~ Cover Vers (pecka)
+- JPN - ACTORS -Songs Connection- - MV - Donor Song ~ Cover Vers (pecka)
+- JPN - ACTORS -Songs Connection- - MV - Saikyouiku ~ Cover Vers (pecka)
+- JPN - ACTORS -Songs Connection- - MV - Yuudachi no Ribbon ~ Cover Vers (pecka)
+- JPN - Ai Otsuka - AUDIO - 5 09a.m (Soramimi)
+- JPN - Ai Otsuka - AUDIO - SMILY (Soramimi)
+- JPN - Ai Otsuka - AUDIO - SMILY ~ Off Vocal Vers (Soramimi)
+- JPN - Ai Yori Aoshi - AUDIO OP - Towa no Hana ~ Full Off Vocal Vers (Soramimi)
+- JPN - Ai Yori Aoshi - AUDIO OP - Towa no Hana ~ Full Vers (Soramimi)
+- JPN - Akatsuki Records - MV - Fadeaway (Lasagna)
+- JPN - Albemuth - MV - Red baptism (Elliu)
+- JPN - Alfred J. Kwak - AUDIO OP - Yakusoku da yo ~ Full Vers (Soramimi)
+- JPN - Ange Reve - MV - Nakanaiyo ~ Full Vers (Kibotori)
+- JPN - Angolmois Genkou Kassenki - OP - Braver (Spotty Len)
+- JPN - Ao no Kanata no Four Rhythm - GAME SWITCH AUDIO ED - Sorakoi ~ Full Kana Vers (red5h4d0w)
+- JPN - Ao no Kanata no Four Rhythm - GAME SWITCH AUDIO ED - Sorakoi ~ Full Off Vocal Vers (red5h4d0w)
+- JPN - Ao no Kanata no Four Rhythm - GAME SWITCH AUDIO ED - Sorakoi ~ Full Vers (red5h4d0w)
+- JPN - Ao no Kanata no Four Rhythm - GAME SWITCH AUDIO ED - Sorakoi ~ Kana Off Vocal Vers (red5h4d0w)
+- JPN - Ao no Orchestra - ED - Yuusari no Canon (red5h4d0w)
+- JPN - Aria the Animation - AUDIO OP - Undine ~ Full Vers (AnimeSoc)
+- JPN - Ars no Kyojuu - OP - Hengen Jizai (pecka)
+- JPN - Ashita no Joe - ED1 - Joe no Komoriuta (UniversJB, Gigo)
+- JPN - Azsagawa - MV - Pop It (BeVox)
+- JPN - Azsagawa - MV - Pop It ~ Off Vocal Vers (BeVox)
+- JPN - Baelz Hakos - MV - PSYCHO (BeVox)
+- JPN - Baelz Hakos - MV - PSYCHO ~ Off Vocal Vers (BeVox)
+- JPN - Bakufu-Slump - LIVE - Runner (Gopa-san)
+- JPN - Bocchi the Rock! - AUDIO - Watashi dake Yuurei ~ Full Off Vocal Vers (Auguste)
+- JPN - Bocchi the Rock! - AUDIO - Watashi dake Yuurei ~ Full Vers (Auguste)
+- JPN - Bocchi the Rock! - MV - Hikari no Naka e (red5h4d0w)
+- JPN - Bocchi the Rock! - MV - Hikari no Naka e ~ Off Vocal Vers (red5h4d0w)
+- JPN - Bocchi the Rock! - MV - Seiza ni Naretara ~ Full Off Vocal Vers (NextFire)
+- JPN - Boku no Hero Academia S6 - OP2 - Bokurano (Demoto, TheMio)
+- JPN - Boku no Kokoro no Yabai Yatsu - OP - Shayou (Haiko)
+- JPN - Chainsaw Man - MV - Jouzai ~ Full Off Vocal Vers (fabthehedgehog)
+- JPN - Chou Tokimeki Sendenbu - MV - Gyutto! (Kibotori)
+- JPN - D4DJ First Mix - IN - Let's do the 'Big-Bang' feat. RINKU (red5h4d0w)
+- JPN - D4DJ First Mix - OP - Guru Guru DJ TURN!! (red5h4d0w)
+- JPN - D4DJ Groovy Mix - GAME AUDIO - JUST COMMUNICATION ~ Cover Vers (red5h4d0w)
+- JPN - D4DJ Groovy Mix - MV - Get into the Abyssmare (red5h4d0w)
+- JPN - Date City - MV - Date-shika (Gopa-san)
+- JPN - Dear Vocalist - AUDIO - Makoto no Ai (pecka)
+- JPN - Denonbu - AUDIO - Itadaki Babel (red5h4d0w)
+- JPN - Denonbu - LIVE - Itadaki Babel (red5h4d0w)
+- JPN - Dungeon ni Deai o Motomeru no wa Machigatteiru Darouka IV Fuka Shou - Yakusai-hen - IN MV - Not meet doubt (Kaleidoscope)
+- JPN - Eiga Daisuki Pompo-san - MOVIE OP - Dance On Fire (Nemesise)
+- JPN - Full Moon wo Sagashite - AUDIO IN - SMILE (AnimeSoc)
+- JPN - Fuufu Ijou, Koibito Miman. - MV - TRUE FOOL LOVE ~ Full Off Vocal Vers (Louis Royer)
+- JPN - GIRLS und PANZER Saishuushou - MOVIE IN - Chihatan no Lover-san (Kaleidoscope)
+- JPN - GUMI - MV - Dareka no Shinzou ni Nareta Nara (pecka)
+- JPN - GUMI - MV - Donor Song (pecka)
+- JPN - Gekijouban Pocket Monsters Minna no Monogatari - MOVIE ED - Breath (red5h4d0w)
+- JPN - H2 - OP2 - Back to the Ground (UniversJB)
+- JPN - HACHI - MV - Rainy proof (Kaleidoscope)
+- JPN - HAMBURGER BOYS - MV - Anyone Eniwa Anymore - Eniwa-shi - (Gopa-san)
+- JPN - Honekaruta - MV - Usseewa ~ Aizu-ben ~ Alternative Cover Vers (Gopa-san)
+- JPN - Iori Kanzaki - MV - Guuzou (Elliu)
+- JPN - Iori Kanzaki - MV - Otona (Elliu)
+- JPN - Isekaijoucho - MV - Hoshi wo Miru Hito (Nemesise)
+- JPN - JR Central - MV - Kimi wo Nosete (Gopa-san)
+- JPN - JR Kyushu - MV - Geki! Teikoku Kagekidan (Gopa-san)
+- JPN - Jack Jeanne - GAME OP - Jack&Jeanne Of Quartz (pecka)
+- JPN - Jashin-chan Dropkick X - ED1 - Ryuusenkei Mayday (Elliu)
+- JPN - Kidou Senshi Gundam SEED Destiny - OP4 - Wing of Words (meulahke)
+- JPN - Kidou Senshi Gundam Suisei no Majou - ED2 - Red birthmark (UniversJB)
+- JPN - Kimetsu no Yaiba Katanakaji no Sato-hen - ED - Koi Kogare (Ementi)
+- JPN - Kimetsu no Yaiba Katanakaji no Sato-hen - OP - Kizuna no Kiseki (Ementi)
+- JPN - Kimi wa Houkago Insomnia - ED - Lapse (Nock)
+- JPN - King's Raid Ishi o Tsugu Mono-tachi - OP2 - Eclipse (NikoNikoD)
+- JPN - Koronba 4-gou, Uta Utane - MV - Yatsume Ana (Gopa-san)
+- JPN - Kuusou Calibration - MV - TOGARE! ~ Full Vers (Kibotori)
+- JPN - Len Kagamine, Rin Kagamine - MV - Saikyouiku (pecka)
+- JPN - Link! Like! Love Live! - AUDIO - Spakly Spot ~ Full Vers (Sodachi)
+- JPN - Lost in translation - MOVIE AUDIO - Kaze o Atsumete ~ Full Vers (Mad Dog)
+- JPN - MAYU - MV - Yuudachi no Ribbon (pecka)
+- JPN - MILGRAM The Second Trial - MV - Tear Drop ~ Off Vocal Vers (IkuY)
+- JPN - Mahou Shoujo Magical Destroyers - MV - MAGICAL DESTROYER ~ Full Off Vocal Vers (red5h4d0w)
+- JPN - Mahou Shoujo Magical Destroyers - MV - MAGICAL DESTROYER ~ Full Vers (red5h4d0w)
+- JPN - Mashin Eiyuuden Wataru - OP2 - STEP ~ Alternative Vers (Eden, UniversJB)
+- JPN - Meitantei Conan - OP57 - RAISE INSIGHT (UniversJB)
+- JPN - Meitantei Conan - OP57 - RAISE INSIGHT ~ Alternative Vers (UniversJB)
+- JPN - Miko Sakura - MV - Kyoufuu All Back ~ Cover Vers (Nodamin)
+- JPN - Miku Hatsune - AUDIO - Nonsense Bungaku (puyo)
+- JPN - Miku Hatsune - MV - Ikizama (Risako)
+- JPN - Miku Hatsune - MV - Kimagure Mercy ~ Off Vocal Vers (Atsuyas, BeVox)
+- JPN - Miku Hatsune - MV - Marshmary (puyo)
+- JPN - Miku Hatsune - MV - Silence (Kmeuh)
+- JPN - Mix Meisei Story 2nd Season - OP1 - Starting Over (UniversJB)
+- JPN - Mushoku Tensei Isekai Ittara Honki Dasu - AUDIO OP1 - Tabibito no Uta ~ Full Vers (red5h4d0w)
+- JPN - NEEDY GIRL OVERDOSE - GAME SWITCH MV - INTERNET YAMERO (puyo)
+- JPN - NEEDY GIRL OVERDOSE - GAME SWITCH MV - INTERNET YAMERO ~ Off Vocal Vers (puyo, BeVox)
+- JPN - Naruto Shippuuden - MV - Sign ~ Full Vers (Subkei)
+- JPN - Ningen Fushin no Boukensha-tachi ga Sekai wo Sukuu you desu - ED - Never Fear (Elliu)
+- JPN - Nobuo Band - MV - Sumeba Miyako no Takanezawa (Gopa-san)
+- JPN - Omega Strikers - GAME SWITCH CS - Thousand Absolutes (Dahel)
+- JPN - Omega Strikers - GAME SWITCH OP - Go Strike! (Dahel)
+- JPN - Oregairu Kan OVA - OVA PV - Yukiharuame ~ Kana Vers (red5h4d0w)
+- JPN - Oshi no Ko - MV - Idol Eurobeat Remix (BeVox)
+- JPN - Oshi no Ko - MV - Idol Eurobeat Remix ~ Off Vocal Vers (BeVox)
+- JPN - Oshi no Ko - MV - Idol ~ Full Off Vocal Vers (BeVox, red5h4d0w)
+- JPN - Oshi no Ko - MV - Idol ~ Kasane Teto Vers. ~ Cover Full Vers (Niyaa)
+- JPN - Oshi no Ko - OP - Idol ~ Off Vocal Vers (red5h4d0w)
+- JPN - Ou-sama Ranking - Yuuki no takarabako - OP - Gold (meulahke)
+- JPN - Pokemon (2023) - ED1 - RVR ~Rising Volteccers' Rap~ Friede ver (IkuY)
+- JPN - Pokemon Horizons The Series - OP1 - Dokimeki Diary (IkuY)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME AUDIO - Kagerou Daze ~ Cover Full Vers (puyo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME AUDIO - Nonsense Bungaku ~ Cover Short Vers (puyo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME AUDIO - Nonsense Bungaku ~ KAITO Vers. ~ Alternative Cover Vers (puyo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME AUDIO - Nonsense Bungaku ~ Kamishiro Rui Vers. ~ Alternative Cover Vers (puyo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME AUDIO - Nonsense Bungaku ~ Tenma Tsukasa Vers. ~ Alternative Cover Vers (puyo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME AUDIO - Nonsense Bungaku ~ VIRTUAL SINGER Vers. ~ Alternative Cover Vers (puyo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Hitsuji ga Ippiki ~ Full Vers (Kaleidoscope)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Jackpot Sad Girl ~ Full Off Vocal Vers (BeVox)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Marshmary ~ Cover Full Vers (puyo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Nonsense Bungaku ~ Cover Full Vers (puyo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Okochama Sensou ~ Cover Short Vers (puyo)
+- JPN - RIME - MV - Aishite Atashi (Elliu)
+- JPN - Saiki Kusuo no Psi-nan 2 - OP2 - Oteage Psychics (Louis Royer)
+- JPN - Sakurako Ouhara - AUDIO - Hirari (red5h4d0w)
+- JPN - Sakurako Ouhara - AUDIO - Hirari ~ Off Vocal Vers (red5h4d0w)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO CS - Draft folder ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO CS - Draft folder ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO CS - Happy Smile Vacation ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO CS - Happy Smile Vacation ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO IN - Dangerous Sunshine ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO IN - Dangerous Sunshine ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO IN - Fuugestu no Shissou ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO IN - Fuugestu no Shissou ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO IN - Gekishou Infinity ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO IN - Gekishou Infinity ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO IN - Gizagiza Girari Full Throttle ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO IN - Gizagiza Girari Full Throttle ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO IN - Hitsuai Duo Shout ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO IN - Hitsuai Duo Shout ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO IN - Melodious Moonlight ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO IN - Melodious Moonlight ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO IN - Senritsu Sorority (IGNITED arrangement) ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO IN - Senritsu Sorority (IGNITED arrangement) ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO IN - Shito -Ewigkeit- ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear AXZ - AUDIO IN - Shito -Ewigkeit- ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO CS - Ashita no Atashi ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO CS - Ashita no Atashi ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO CS - FOR THE FUTURE (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO CS - FOR THE FUTURE ~ Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO CS - Happy Birthday no Uta ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO CS - Happy Birthday no Uta ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO CS - Kaze no Anata ni (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO CS - Kaze no Anata ni ~ Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO CS - Kimi dake ni ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO CS - Kimi dake ni ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO CS - Kimi ga Nakanai Sekai ni ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO CS - Kimi ga Nakanai Sekai ni ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO CS - Kono Ima wo Ikiru Hikari (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO CS - Kono Ima wo Ikiru Hikari ~ Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO ED - Ashita e no Flugel ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO ED - Ashita e no Flugel ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - ALL LOVES BLAZING ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - ALL LOVES BLAZING ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - Cutting Edgex2 Ready go! ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - Cutting Edgex2 Ready go! ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - Defender'Z Brand! ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - Defender'Z Brand! ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - Hanasaku Yuuki Ver. Amalgam ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - Hanasaku Yuuki Ver. Amalgam ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - Mata Au Hi made ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - Mata Au Hi made ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - Mijuku Shoujo Buttagiri! ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - Mijuku Shoujo Buttagiri! ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - Mikansei Ai Mapputatsu! ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - Mikansei Ai Mapputatsu! ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - Shirogane no Honoo -keep the faith- ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - Shirogane no Honoo -keep the faith- ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - Take this! All loaded ~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - Take this! All loaded ~ Full Vers (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - Xtreme Vibes (Dysp)
+- JPN - Senki Zesshou Symphogear XV - AUDIO IN - Xtreme Vibes ~ Off Vocal Vers (Dysp)
+- JPN - Shin Kidou Senki Gundam Wing - AUDIO OP1 - JUST COMMUNICATION ~ Full Off Vocal Vers (red5h4d0w)
+- JPN - Shin Kidou Senki Gundam Wing - AUDIO OP1 - JUST COMMUNICATION ~ Full Vers (red5h4d0w)
+- JPN - Shoujo Shin'iki ~ Shoujo Tengoku -The Garden of Fifth Zoa - GAME PC AUDIO ED - Towa yori eien ni (Zoggoth)
+- JPN - Slayers Gorgeous - MOVIE ED - raging waves (pecka)
+- JPN - Steins Gate - AUDIO CS - Yakusoku no Paradigm (red5h4d0w)
+- JPN - Steins Gate - AUDIO CS - Yakusoku no Paradigm ~ Off Vocal Vers (red5h4d0w)
+- JPN - Steins Gate - AUDIO OP - Hacking to the Gate ~ Symphonic Reunion Ver. ~ Full Off Vocal Vers (red5h4d0w)
+- JPN - Steins Gate - AUDIO OP - Hacking to the Gate ~ Symphonic Reunion Ver. ~ Full Vers (red5h4d0w)
+- JPN - Suzumiya Haruhi no Yuuutsu - OP2 - Bouken Desho Desho question_mark ~ Off Vocal Vers (Kmeuh)
+- JPN - Suzumiya Haruhi no Yuuutsu - OP3 - Super Driver ~ Off Vocal Vers (Rinchama, TheMio)
+- JPN - THE iDOLM@STER Cinderella Girls U149 - OP - Shine In The Sky (NextFire)
+- JPN - TOOBOE - MV - Shinzou (fabthehedgehog)
+- JPN - TOOBOE - MV - Shinzou ~ Off Vocal Vers (fabthehedgehog)
+- JPN - Taishou Otome Otogibanashi - ED1 - Magokoro ni Kanade (pecka)
+- JPN - Task Have Fun - MV - 3WD ~ Full Vers (Kibotori)
+- JPN - Tengoku Daimakyou - ED - Daremo Karemo Dokomo Nanimo Shiranai (#08 Special Arrange) ~ Alternative Vers (red5h4d0w)
+- JPN - Tengoku Daimakyou - ED - Daremo Karemo Dokomo Nanimo Shiranai (red5h4d0w)
+- JPN - Teto Kasane - MV - Requiem ~ Kasane Teto Vers. ~ Cover Vers (BeVox, Nodamin)
+- JPN - The Ancient Magus' Bride Season 2 - OP - Dear (Spotty Len)
+- JPN - The Vampire Dies in No Time 2nd Season - OP - NEW DRAMA PARADISE (Spotty Len)
+- JPN - Tochiotome 25 - MV - Ichigo Hakase ~ Full Vers (Kibotori)
+- JPN - Tochiotome 25 - MV - Wagyu Fire ~ Full Vers (Kibotori)
+- JPN - Tokimeki Sendenbu - MV - Otome no Glorious (Kibotori)
+- JPN - Tokyo Mew Mew New 2nd Season - OP - Megamorphose (Nemesise)
+- JPN - Tomo-chan wa Onnanoko! - OP - Kurae! Telepathy (NikoNikoD)
+- JPN - Touhou - AUDIO - Sanae-san (KasrkinSaser)
+- JPN - Touhou - MV - Shoujouseze (Lasagna)
+- JPN - Uchiage Hanabi Shita kara Miru ka question_mark Yoko kara Miru ka question_mark - AUDIO - Uchiage Hanabi (DAOKO SOLO ver.) (Pierre CAMILLI, red5h4d0w)
+- JPN - Uchuu Kyoudai - ED3 - Tete (Luchia)
+- JPN - Uma Musume Pretty Derby - AUDIO - Destroy for Dasein ~ Full Vers (Sodachi)
+- JPN - Uma Musume Pretty Derby - GAME MV - Special Record! ~ Short Vers (Sodachi)
+- JPN - Uma Musume Pretty Derby - MV - BLAZE ~ Short Vers (Sodachi)
+- JPN - Vivy - Fluorite Eye's Song - - MV - My Code (Soura)
+- JPN - Watashi no Yuri wa Oshigoto desu! - OP - Himitsu Melody (Louis Royer)
+- JPN - World Dai Star - OP - Wanna Be Star! (Nodamin)
+- JPN - Wotaku ni Koi wa Muzukashii - MV - Fiction ~ Full Vers (AnimeSoc)
+- JPN - YOASOBI - MV - Mou Sukoshi Dake ~ Off Vocal Vers (Axolotl)
+- JPN - Yamada-kun to Lv999 no Koi wo Suru - ED - Trick.Art (Nodamin)
+- JPN - Yu-Gi-Oh! GO RUSH!! - ED2 - Cosmos (Spotty Len)
+- JPN - Yuki Kaai - MV - Kyoufuu All Back (Nodamin)
+- JPN - Yuki Kaai - MV - Kyoufuu All Back ~ Off Vocal Vers (Nodamin)
+- JPN - abingdon boys school - AUDIO - Nephilim (Soramimi)
+- JPN - abingdon boys school - AUDIO - Sweetest Coma Again ~ Cover Vers (Soramimi)
+- JPN - abingdon boys school - AUDIO - Via Dolorosa (Soramimi)
+- JPN - ginger shimai - MV - Usseewa ~ Nambu-ben Vers. ~ Alternative Cover Vers (Gopa-san)
+- JPN - sunplaza Nakano - MV - Runner ~ Heisei 30 Vers (Gopa-san)
+- KOR - LE SSERAFIM - LIVE - Blue Flame (asdFer, NikoNikoD)
+- KOR - LE SSERAFIM - MV - ANTIFRAGILE (asdFer, NikoNikoD)
+- KOR - LE SSERAFIM - MV - FEARLESS (asdFer, NikoNikoD)
+- LTZ - Pocket Monsters - OP - Pokemon Theme ~ Cover Vers (TBK)
+- UND - Splatoon 3 - GAME SWITCH AUDIO - Liquid Sunshine ~ Full Vers (Demoto, TheMio)
+
 # April 2023
 
 Kara count: 14 973
