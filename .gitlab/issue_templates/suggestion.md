@@ -24,3 +24,4 @@
 
 ## Comment
 
+/label ~suggestion
