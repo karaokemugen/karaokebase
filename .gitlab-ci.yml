@@ -8,17 +8,6 @@ test:
   tags:
     - KM-Medias
   image: axelterizaki/karaokemugen-ci:node-18-phppg
-  services:
-    - postgres:13
-  variables:
-    POSTGRES_USER: karaokemugen_app
-    POSTGRES_PASSWORD: musubi
-  artifacts:
-    expire_in: 1 day
-    name: names.php
-    paths:
-      - names.php
-      - searchbase.php
   script:
     - git clone https://gitlab.com/karaokemugen/code/karaokemugen-app.git
     - cd karaokemugen-app
@@ -32,20 +21,17 @@ test:
     - node -v
     - export DISPLAY=':99.0'
     - Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 &
-    - yarn startHeadless --verbose --generate --strict
-    - cd ..
-    - php -d display_errors=stderr -d memory_limit=1G -f tools/export_karaokesmoe.php
+    - yarn startHeadless --verbose --validate --strict
   only:
     - master
 
 export:
   stage: deploy
-  image: axelterizaki/karaokemugen-ci:transferts
+  image: curlimages/curl
   interruptible: true
   tags: 
     - $RUNNER_LINUX
   script:
-    - lftp -c "set cmd:fail-exit yes; set ftp:ssl-allow no; set ftp:charset "UTF-8" ; set file:charset utf-8; open -u $USERNAME,$PASSWORD $HOST; cd www/live.karaokes.moe; put names.php; put searchbase.php"
     - echo "Triggering KM Server generation"
     - "curl -f -X POST -H authorization:$KMSERVERAUTH https://kara.moe/api/update"
     - "curl -f -X POST -H authorization:$KMSERVERDEVAUTH https://dev.kara.moe/api/update"
