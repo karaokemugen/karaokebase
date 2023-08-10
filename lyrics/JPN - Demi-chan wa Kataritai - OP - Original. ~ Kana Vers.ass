@@ -4,8 +4,8 @@
 Title: New subtitles
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 1920
-PlayResY: 1080
+PlayResX: 0
+PlayResY: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
 
@@ -14,20 +14,19 @@ Audio File: Z:/kmmedias/medias/JPN - Demi-chan wa Kataritai - OP - Original. ~ K
 Video File: Z:/kmmedias/medias/JPN - Demi-chan wa Kataritai - OP - Original. ~ Kana Vers.mp4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 12
-Active Line: 28
-Video Position: 653
+Active Line: 10
+Video Position: 1231
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default - Kanji-furigana,Arial,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.25,2.25,2,30,30,23,1
-Style: Default-furigana,Arial,40,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,3.375,0,8,23,23,23,1
-Style: Default,Arial,80,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,6.75,0,8,23,23,23,1
-Style: Default - Kanji,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4.5,4.5,2,30,30,23,1
+Style: Default - Kanji-furigana,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,2.25,2,15,15,20,1
+Style: Default-furigana,Arial,24,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Default,Arial,24,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Default - Kanji,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,4.5,2,15,15,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.62,Default,,0,0,0,template pre-line all keeptags,!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:02.80,0:00:09.24,Default,,0,0,0,karaoke,{\k19}ka{\k15}ta{\k36}ri{\k24}ta{\k29}i {\k63}yo{\k109} {\k14}ki{\k17}mi {\k27}no {\k46}su{\k24}te{\k52}ki {\k17}O{\k44}RI{\k24}GI{\k34}NA{\k50}L
 Comment: 0,0:00:15.56,0:00:22.16,Default,,0,0,0,karaoke,{\k14}za{\k24}wa{\k12}me{\k44}i{\k35}ta {\k40}kyo{\k26}u{\k40}shi{\k63}tsu{\k85} {\k19}u{\k33}ki{\k22}ta{\k33}ku {\k10}na{\k14}ni {\k14}yo{\k43}ri {\k32}i{\k57}ma
 Comment: 0,0:00:23.80,0:00:25.82,Default,,0,0,0,karaoke,{\k17}a{\k27}i{\k28}so{\k33}wa{\k41}ra{\k56}i
@@ -37,7 +36,7 @@ Comment: 0,0:00:35.16,0:00:38.57,Default,,0,0,0,karaoke,{\k18}tsu{\k20}yo{\k36}k
 Comment: 0,0:00:38.95,0:00:40.93,Default,,0,0,0,karaoke,{\k23}ki{\k15}mi {\k23}wa {\k30}i{\k41}t{\k18}ta {\k48}ne
 Comment: 0,0:00:41.15,0:00:44.38,Default,,0,0,0,karaoke,{\k25}da{\k46}re{\k27}ka {\k37}no {\k36}me {\k34}ki {\k33}ni {\k39}shi{\k46}te
 Comment: 0,0:00:44.86,0:00:50.34,Default,,0,0,0,karaoke,{\k16}be{\k20}tsu {\k17}no {\k35}da{\k32}re{\k20}ka {\k71}wo {\k28}ki{\k30}zu{\k43}tsu{\k32}ke{\k44}ta{\k32}ku{\k38}na{\k33}i {\k57}yo
-Comment: 0,0:00:51.34,0:00:56.60,Default,,0,0,0,karaoke,{\k36}na{\k36}ri{\k32}hi{\k35}bi{\k32}ku {\k57}a{\k20}me{\k49}a{\k46}ga{\k30}ri {\k22}no {\k28}cha{\k40}i{\k63}mu
+Comment: 0,0:00:51.34,0:00:56.60,Default,,0,0,0,karaoke,{\k36}na{\k36}ri{\k32}hi{\k35}bi{\k32}ku {\k57}a{\k20}me{\k49}a{\k46}ga{\k30}ri {\k22}no {\k28}CH{\k40}I{\k63}ME
 Comment: 0,0:00:57.28,0:01:01.64,Default,,0,0,0,karaoke,{\k33}i{\k37}sse {\k20}no {\k40}se {\k31}de {\k84}kou{\k49}sha {\k35}to{\k36}bi{\k15}da{\k56}su
 Comment: 0,0:01:03.12,0:01:08.26,Default,,0,0,0,karaoke,{\k36}mi{\k36}zu{\k22}ta{\k34}ma{\k37}ri {\k51}ha{\k20}ne{\k42}te {\k54}hi{\k28}ka{\k24}ri {\k41}chi{\k28}ra{\k61}su
 Comment: 0,0:01:08.99,0:01:13.25,Default,,0,0,0,karaoke,{\k31}e{\k34}ga{\k30}o {\k38}mo {\k33}ki{\k49}bo{\k40}u {\k40}ma{\k11}bu{\k43}shi{\k16}ku{\k61}te
@@ -56,31 +55,31 @@ Comment: 0,0:00:57.28,0:01:01.64,Default - Kanji,,0,0,0,karaoke,{\k33}い{\k37}�
 Comment: 0,0:01:03.12,0:01:08.26,Default - Kanji,,0,0,0,karaoke,{\k72}水{\k22}た{\k34}ま{\k37}り{\k51}跳{\k20}ね{\k42}て　{\k106}光{\k41}散{\k28}ら{\k61}す
 Comment: 0,0:01:08.99,0:01:13.25,Default - Kanji,,0,0,0,karaoke,{\k31}笑{\k64}顔{\k38}も{\k33}希{\k89}望{\k51} 眩{\k43}し{\k16}く{\k61}て
 Comment: 0,0:01:14.40,0:01:21.12,Default - Kanji,,0,0,0,karaoke,{\k41}語{\k37}り{\k40}た{\k19}い{\k61}よ　{\k93}{\k43}君{\k29}の{\k63}素{\k56}敵{\k24}オ{\k42}リ{\k26}ジ{\k31}ナ{\k67}ル。
-Dialogue: 0,0:00:01.80,0:00:09.34,Default,,0,0,0,fx,{\fade(255,0,255,0,850,7440,7540)\k90}{\k19}ka{\k15}ta{\k36}ri{\k24}ta{\k29}i {\k63}yo{\k109} {\k14}ki{\k17}mi {\k27}no {\k46}su{\k24}te{\k52}ki {\k17}O{\k44}RI{\k24}GI{\k34}NA{\k50}L
-Dialogue: 0,0:00:14.56,0:00:22.26,Default,,0,0,0,fx,{\fade(255,0,255,0,850,7600,7700)\k90}{\k14}za{\k24}wa{\k12}me{\k44}i{\k35}ta {\k40}kyo{\k26}u{\k40}shi{\k63}tsu{\k85} {\k19}u{\k33}ki{\k22}ta{\k33}ku {\k10}na{\k14}ni {\k14}yo{\k43}ri {\k32}i{\k57}ma
-Dialogue: 0,0:00:22.80,0:00:25.92,Default,,0,0,0,fx,{\fade(255,0,255,0,850,3020,3120)\k90}{\k17}a{\k27}i{\k28}so{\k33}wa{\k41}ra{\k56}i
-Dialogue: 0,0:00:26.25,0:00:30.23,Default,,0,0,0,fx,{\fade(255,0,255,0,850,3880,3980)\k90}{\k20}ma{\k17}ke{\k22}n{\k33}ki {\k25}na {\k53}hi{\k28}to{\k38}mi {\k52}no
-Dialogue: 0,0:00:29.72,0:00:33.69,Default,,0,0,0,fx,{\fade(255,0,255,0,850,3870,3970)\k90}{\k26}ki{\k16}mi {\k35}da{\k40}ke {\k37}ga {\k34}ku{\k34}chi{\k20}bi{\k45}ru
-Dialogue: 0,0:00:34.16,0:00:38.67,Default,,0,0,0,fx,{\fade(255,0,255,0,850,4410,4510)\k90}{\k18}tsu{\k20}yo{\k36}ku {\k35}ka{\k37}mi{\k36}shi{\k40}met{\k24}te{\k43}i{\k52}ta
-Dialogue: 0,0:00:37.95,0:00:41.03,Default,,0,0,0,fx,{\fade(255,0,255,0,850,2980,3080)\k90}{\k23}ki{\k15}mi {\k23}wa {\k30}i{\k41}t{\k18}ta {\k48}ne
-Dialogue: 0,0:00:40.15,0:00:44.48,Default,,0,0,0,fx,{\fade(255,0,255,0,850,4230,4330)\k90}{\k25}da{\k46}re{\k27}ka {\k37}no {\k36}me {\k34}ki {\k33}ni {\k39}shi{\k46}te
-Dialogue: 0,0:00:43.86,0:00:50.44,Default,,0,0,0,fx,{\fade(255,0,255,0,850,6480,6580)\k90}{\k16}be{\k20}tsu {\k17}no {\k35}da{\k32}re{\k20}ka {\k71}wo {\k28}ki{\k30}zu{\k43}tsu{\k32}ke{\k44}ta{\k32}ku{\k38}na{\k33}i {\k57}yo
-Dialogue: 0,0:00:50.34,0:00:56.70,Default,,0,0,0,fx,{\fade(255,0,255,0,850,6260,6360)\k90}{\k36}na{\k36}ri{\k32}hi{\k35}bi{\k32}ku {\k57}a{\k20}me{\k49}a{\k46}ga{\k30}ri {\k22}no {\k28}cha{\k40}i{\k63}mu
-Dialogue: 0,0:00:56.28,0:01:01.74,Default,,0,0,0,fx,{\fade(255,0,255,0,850,5360,5460)\k90}{\k33}i{\k37}sse {\k20}no {\k40}se {\k31}de {\k84}kou{\k49}sha {\k35}to{\k36}bi{\k15}da{\k56}su
-Dialogue: 0,0:01:02.12,0:01:08.36,Default,,0,0,0,fx,{\fade(255,0,255,0,850,6140,6240)\k90}{\k36}mi{\k36}zu{\k22}ta{\k34}ma{\k37}ri {\k51}ha{\k20}ne{\k42}te {\k54}hi{\k28}ka{\k24}ri {\k41}chi{\k28}ra{\k61}su
-Dialogue: 0,0:01:07.99,0:01:13.35,Default,,0,0,0,fx,{\fade(255,0,255,0,850,5260,5360)\k90}{\k31}e{\k34}ga{\k30}o {\k38}mo {\k33}ki{\k49}bo{\k40}u {\k40}ma{\k11}bu{\k43}shi{\k16}ku{\k61}te
-Dialogue: 0,0:01:13.40,0:01:21.22,Default,,0,0,0,fx,{\fade(255,0,255,0,850,7720,7820)\k90}{\k26}ka{\k15}ta{\k37}ri{\k40}ta{\k19}i {\k61}yo{\k93} {\k27}ki{\k16}mi {\k29}no {\k47}su{\k16}te{\k56}ki {\k24}O{\k42}RI{\k26}GI{\k31}NA{\k67}L
-Dialogue: 0,0:00:01.80,0:00:09.34,Default - Kanji,,0,0,0,fx,{\fade(255,0,255,0,850,7440,7540)\k90}{\k34}語{\k36}り{\k24}た{\k29}い{\k63}よ　{\k109}{\k31}君{\k27}の{\k70}素{\k52}敵{\k17}オ{\k44}リ{\k24}ジ{\k34}ナ{\k50}ル。
-Dialogue: 0,0:00:14.56,0:00:22.26,Default - Kanji,,0,0,0,fx,{\fade(255,0,255,0,850,7600,7700)\k90}{\k14}ざ{\k24}わ{\k12}め{\k44}い{\k35}た{\k66}教{\k103}室　{\k85}{\k19}浮{\k33}き{\k22}た{\k33}く {\k24}何{\k14}よ{\k43}り{\k89}今
-Dialogue: 0,0:00:22.80,0:00:25.92,Default - Kanji,,0,0,0,fx,{\fade(255,0,255,0,850,3020,3120)\k90}{\k44}愛{\k28}想{\k130}笑
-Dialogue: 0,0:00:26.25,0:00:30.23,Default - Kanji,,0,0,0,fx,{\fade(255,0,255,0,850,3880,3980)\k90}{\k20}負{\k17}け{\k22}ん{\k33}気{\k25}な{\k119}瞳{\k52}の
-Dialogue: 0,0:00:29.72,0:00:33.69,Default - Kanji,,0,0,0,fx,{\fade(255,0,255,0,850,3870,3970)\k90}{\k42}君{\k35}だ{\k40}け{\k37}が{\k133}唇
-Dialogue: 0,0:00:34.16,0:00:38.67,Default - Kanji,,0,0,0,fx,{\fade(255,0,255,0,850,4410,4510)\k90}{\k38}強{\k36}く{\k35}噛{\k37}み{\k36}締{\k40}め{\k24}って{\k43}い{\k52}た
-Dialogue: 0,0:00:37.95,0:00:41.03,Default - Kanji,,0,0,0,fx,{\fade(255,0,255,0,850,2980,3080)\k90}{\k38}君{\k23}は{\k30}言{\k41}っ{\k18}た{\k48}ね
-Dialogue: 0,0:00:40.15,0:00:44.48,Default - Kanji,,0,0,0,fx,{\fade(255,0,255,0,850,4230,4330)\k90}{\k71}「誰{\k27}か{\k37}の{\k36}目{\k34}気{\k33}に{\k39}し{\k46}て、
-Dialogue: 0,0:00:43.86,0:00:50.44,Default - Kanji,,0,0,0,fx,{\fade(255,0,255,0,850,6480,6580)\k90}{\k36}別{\k17}の{\k67}誰{\k20}か{\k71}を{\k58}傷{\k43}付{\k32}け{\k44}た{\k32}く{\k38}な{\k33}い{\k57}よ」
-Dialogue: 0,0:00:50.34,0:00:56.70,Default - Kanji,,0,0,0,fx,{\fade(255,0,255,0,850,6260,6360)\k90}{\k36}鳴{\k36}り{\k67}響{\k32}く{\k77}雨{\k49}上{\k46}が{\k30}り{\k22}の{\k28}チャ{\k40}イ{\k63}ム
-Dialogue: 0,0:00:56.28,0:01:01.74,Default - Kanji,,0,0,0,fx,{\fade(255,0,255,0,850,5360,5460)\k90}{\k33}い{\k37}っせー{\k20}のー{\k40}せ{\k31}で{\k84}校{\k49}舎{\k35}飛{\k36}び{\k15}出{\k56}す
-Dialogue: 0,0:01:02.12,0:01:08.36,Default - Kanji,,0,0,0,fx,{\fade(255,0,255,0,850,6140,6240)\k90}{\k72}水{\k22}た{\k34}ま{\k37}り{\k51}跳{\k20}ね{\k42}て　{\k106}光{\k41}散{\k28}ら{\k61}す
-Dialogue: 0,0:01:07.99,0:01:13.35,Default - Kanji,,0,0,0,fx,{\fade(255,0,255,0,850,5260,5360)\k90}{\k31}笑{\k64}顔{\k38}も{\k33}希{\k89}望{\k51} 眩{\k43}し{\k16}く{\k61}て
-Dialogue: 0,0:01:13.40,0:01:21.22,Default - Kanji,,0,0,0,fx,{\fade(255,0,255,0,850,7720,7820)\k90}{\k41}語{\k37}り{\k40}た{\k19}い{\k61}よ　{\k93}{\k43}君{\k29}の{\k63}素{\k56}敵{\k24}オ{\k42}リ{\k26}ジ{\k31}ナ{\k67}ル。
+Dialogue: 0,0:00:01.90,0:00:09.44,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ka{\k15}ta{\k36}ri{\k24}ta{\k29}i {\k63}yo{\k109} {\k14}ki{\k17}mi {\k27}no {\k46}su{\k24}te{\k52}ki {\k17}O{\k44}RI{\k24}GI{\k34}NA{\k50}L
+Dialogue: 0,0:00:14.66,0:00:22.36,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k14}za{\k24}wa{\k12}me{\k44}i{\k35}ta {\k40}kyo{\k26}u{\k40}shi{\k63}tsu{\k85} {\k19}u{\k33}ki{\k22}ta{\k33}ku {\k10}na{\k14}ni {\k14}yo{\k43}ri {\k32}i{\k57}ma
+Dialogue: 0,0:00:22.90,0:00:26.02,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}a{\k27}i{\k28}so{\k33}wa{\k41}ra{\k56}i
+Dialogue: 0,0:00:26.35,0:00:30.33,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ma{\k17}ke{\k22}n{\k33}ki {\k25}na {\k53}hi{\k28}to{\k38}mi {\k52}no
+Dialogue: 0,0:00:29.82,0:00:33.79,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ki{\k16}mi {\k35}da{\k40}ke {\k37}ga {\k34}ku{\k34}chi{\k20}bi{\k45}ru
+Dialogue: 0,0:00:34.26,0:00:38.77,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}tsu{\k20}yo{\k36}ku {\k35}ka{\k37}mi{\k36}shi{\k40}met{\k24}te{\k43}i{\k52}ta
+Dialogue: 0,0:00:38.05,0:00:41.13,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ki{\k15}mi {\k23}wa {\k30}i{\k41}t{\k18}ta {\k48}ne
+Dialogue: 0,0:00:40.25,0:00:44.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}da{\k46}re{\k27}ka {\k37}no {\k36}me {\k34}ki {\k33}ni {\k39}shi{\k46}te
+Dialogue: 0,0:00:43.96,0:00:50.54,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}be{\k20}tsu {\k17}no {\k35}da{\k32}re{\k20}ka {\k71}wo {\k28}ki{\k30}zu{\k43}tsu{\k32}ke{\k44}ta{\k32}ku{\k38}na{\k33}i {\k57}yo
+Dialogue: 0,0:00:50.44,0:00:56.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}na{\k36}ri{\k32}hi{\k35}bi{\k32}ku {\k57}a{\k20}me{\k49}a{\k46}ga{\k30}ri {\k22}no {\k28}CH{\k40}I{\k63}ME
+Dialogue: 0,0:00:56.38,0:01:01.84,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}i{\k37}sse {\k20}no {\k40}se {\k31}de {\k84}kou{\k49}sha {\k35}to{\k36}bi{\k15}da{\k56}su
+Dialogue: 0,0:01:02.22,0:01:08.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}mi{\k36}zu{\k22}ta{\k34}ma{\k37}ri {\k51}ha{\k20}ne{\k42}te {\k54}hi{\k28}ka{\k24}ri {\k41}chi{\k28}ra{\k61}su
+Dialogue: 0,0:01:08.09,0:01:13.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}e{\k34}ga{\k30}o {\k38}mo {\k33}ki{\k49}bo{\k40}u {\k40}ma{\k11}bu{\k43}shi{\k16}ku{\k61}te
+Dialogue: 0,0:01:13.50,0:01:21.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ka{\k15}ta{\k37}ri{\k40}ta{\k19}i {\k61}yo{\k93} {\k27}ki{\k16}mi {\k29}no {\k47}su{\k16}te{\k56}ki {\k24}O{\k42}RI{\k26}GI{\k31}NA{\k67}L
+Dialogue: 0,0:00:01.90,0:00:09.44,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k34}語{\k36}り{\k24}た{\k29}い{\k63}よ　{\k109}{\k31}君{\k27}の{\k70}素{\k52}敵{\k17}オ{\k44}リ{\k24}ジ{\k34}ナ{\k50}ル。
+Dialogue: 0,0:00:14.66,0:00:22.36,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ざ{\k24}わ{\k12}め{\k44}い{\k35}た{\k66}教{\k103}室　{\k85}{\k19}浮{\k33}き{\k22}た{\k33}く {\k24}何{\k14}よ{\k43}り{\k89}今
+Dialogue: 0,0:00:22.90,0:00:26.02,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k44}愛{\k28}想{\k130}笑
+Dialogue: 0,0:00:26.35,0:00:30.33,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k20}負{\k17}け{\k22}ん{\k33}気{\k25}な{\k119}瞳{\k52}の
+Dialogue: 0,0:00:29.82,0:00:33.79,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k42}君{\k35}だ{\k40}け{\k37}が{\k133}唇
+Dialogue: 0,0:00:34.26,0:00:38.77,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k38}強{\k36}く{\k35}噛{\k37}み{\k36}締{\k40}め{\k24}って{\k43}い{\k52}た
+Dialogue: 0,0:00:38.05,0:00:41.13,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k38}君{\k23}は{\k30}言{\k41}っ{\k18}た{\k48}ね
+Dialogue: 0,0:00:40.25,0:00:44.58,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k71}「誰{\k27}か{\k37}の{\k36}目{\k34}気{\k33}に{\k39}し{\k46}て、
+Dialogue: 0,0:00:43.96,0:00:50.54,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k36}別{\k17}の{\k67}誰{\k20}か{\k71}を{\k58}傷{\k43}付{\k32}け{\k44}た{\k32}く{\k38}な{\k33}い{\k57}よ」
+Dialogue: 0,0:00:50.44,0:00:56.80,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k36}鳴{\k36}り{\k67}響{\k32}く{\k77}雨{\k49}上{\k46}が{\k30}り{\k22}の{\k28}チャ{\k40}イ{\k63}ム
+Dialogue: 0,0:00:56.38,0:01:01.84,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k33}い{\k37}っせー{\k20}のー{\k40}せ{\k31}で{\k84}校{\k49}舎{\k35}飛{\k36}び{\k15}出{\k56}す
+Dialogue: 0,0:01:02.22,0:01:08.46,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k72}水{\k22}た{\k34}ま{\k37}り{\k51}跳{\k20}ね{\k42}て　{\k106}光{\k41}散{\k28}ら{\k61}す
+Dialogue: 0,0:01:08.09,0:01:13.45,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k31}笑{\k64}顔{\k38}も{\k33}希{\k89}望{\k51} 眩{\k43}し{\k16}く{\k61}て
+Dialogue: 0,0:01:13.50,0:01:21.32,Default - Kanji,,0,0,0,fx,{\k90\fad(300,200)}{\k41}語{\k37}り{\k40}た{\k19}い{\k61}よ　{\k93}{\k43}君{\k29}の{\k63}素{\k56}敵{\k24}オ{\k42}リ{\k26}ジ{\k31}ナ{\k67}ル。
