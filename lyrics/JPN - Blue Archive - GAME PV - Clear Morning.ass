@@ -1,0 +1,76 @@
+[Script Info]
+Title: Clear Morning
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.18,0:00:03.72,Sample KM [Up],,0,0,0,karaoke,{\k29}hi{\k18}ka{\k26}ru {\k17}ga{\k19}me{\k123}n {\k28}na{\k16}ga{\k26}re{\k18}te {\k13}yu{\k21}ku
+Comment: 0,0:00:01.62,0:00:04.65,Sample KM [Choir],,0,0,0,karaoke,{\k45}TAP {\k188}TAP {\k44}TIC {\k26}TAC
+Comment: 0,0:00:04.84,0:00:08.81,Sample KM [Up],,0,0,0,karaoke,{\k26}CHE{\k20}CK {\k26}shi{\k16}te {\k13}yu{\k132}ku {\k46}IT'S {\k43}MOR{\kf75}NING
+Comment: 0,0:00:06.28,0:00:09.30,Sample KM [Choir],,0,0,0,karaoke,{\k44}TIME{\k192}LINE {\k42}ROU{\k24}TINE
+Comment: 0,0:00:09.49,0:00:13.04,Sample KM [Up],,0,0,0,karaoke,{\k27}wa{\k19}ku{\k29}wa{\k14}ku {\k16}su{\k128}ru {\k28}to{\k15}ki{\k29}me{\k16}ku {\k16}you {\k18}na
+Comment: 0,0:00:10.95,0:00:14.02,Sample KM [Choir],,0,0,0,karaoke,{\k43}TO{\k190}PIC {\k43}GOOD {\k31}NEWS
+Comment: 0,0:00:14.15,0:00:17.77,Sample KM [Up],,0,0,0,karaoke,{\k30}HEAR{\k16}T {\k27}no {\k15}to{\k14}bi{\k123}ra {\k54}kyou {\k36}ni {\k47}SAY
+Comment: 0,0:00:15.60,0:00:18.66,Sample KM [Choir],,0,0,0,karaoke,{\k44}KNOCK {\k182}KNOCK {\k48}HEL{\k32}LO!!
+Comment: 0,0:00:19.40,0:00:23.58,Sample KM [Up],,0,0,0,karaoke,{\k16}a{\k29}sa{\k37}mo{\k34}ya {\k56}no {\k33}ko{\k12}u{\k31}sa{\k19}te{\k52}n {\k31}kyo{\k15}u {\k53}ga
+Comment: 0,0:00:24.05,0:00:27.55,Sample KM [Up],,0,0,0,karaoke,{\k17}yu{\k26}ru{\k42}ya{\k33}ka {\k57}ni {\k30}u{\k15}go{\k29}ki{\k14}da{\kf87}su
+Comment: 0,0:00:28.71,0:00:29.45,Sample KM [Up],,0,0,0,karaoke,{\k13}DO {\k31}YOU {\k30}FEEL?
+Comment: 0,0:00:29.56,0:00:32.56,Sample KM [Up],,0,0,0,karaoke,{\k32}ho{\k59}ra {\k28}na{\k15}ni{\k26}ka {\k16}ga {\k61}ha{\k28}ji{\k17}ma{\k18}ru
+Comment: 0,0:00:32.80,0:00:36.87,Sample KM [Up],,0,0,0,karaoke,{\k45}za{\k43}wa{\k54}me{\k30}ki {\k19}ni {\k42}ni{\k45}ta {\k40}yo{\kf89}kan
+Comment: 0,0:00:37.42,0:00:41.53,Sample KM [Up],,0,0,0,karaoke,{\kf92}TEA{\kf57}CHER…{\kf27} {\k17}ko{\k16}re {\k28}wa {\k31}na{\k12}n {\k27}de{\k16}su {\kf88}ka?
+Comment: 0,0:00:42.09,0:00:45.82,Sample KM [Up],,0,0,0,karaoke,{\k90}a{\k59}fu{\k42}re{\k41}te {\k30}ku{\k14}ru {\k33}ki{\k17}mo{\k47}chi
+Comment: 0,0:00:46.18,0:00:50.56,Sample KM [Up],,0,0,0,karaoke,{\k16}tsu{\k13}gi {\k30}ka{\k42}ra {\k45}tsu{\k59}gi {\k29}he {\k16}S{\k13}C{\k29}ROL{\k28}L {\k16}shi{\k29}ta{\k15}t{\k58}te
+Comment: 0,0:00:50.85,0:00:54.99,Sample KM [Up],,0,0,0,karaoke,{\k16}o{\k14}wa{\k29}ra{\kf68}nai{\k50} {\k41}to{\k45}ma{\k27}ra{\kf124}nai
+Comment: 0,0:00:55.51,0:00:59.72,Sample KM [Up],,0,0,0,karaoke,{\k16}a{\k14}o{\k28}ku {\kf88}su{\k58}n{\k43}da {\k44}C{\k44}LEA{\k41}R {\k45}SKY
+Comment: 0,0:00:59.88,0:01:04.56,Sample KM [Up],,0,0,0,karaoke,{\k28}tsu{\k17}ki{\k42}nu{\k44}ke{\k43}te{\k57}ku {\k47}ko{\k43}no {\k43}o{\k41}mo{\k63}i
+Comment: 0,0:01:04.82,0:01:09.00,Sample KM [Up],,0,0,0,karaoke,{\k21}ma{\k10}chi{\k29}ko{\kf87}ga{\k59}re{\k44}ta {\k39}ki{\k47}se{\k45}ki {\k37}wo
+Comment: 0,0:01:09.15,0:01:14.16,Sample KM [Up],,0,0,0,karaoke,{\k34}ki{\k15}mi {\k43}to {\k45}mi{\k42}ta{\k57}i{\k43}sou {\k47}i{\k41}s{\k47}sho {\kf87}ni
+Comment: 0,0:01:14.74,0:01:18.36,Sample KM [Up],,0,0,0,karaoke,{\k28}hi{\k30}ka{\k12}ru {\k18}ke{\k11}shi{\k133}ki {\k31}ha{\k14}zu{\k27}mu {\k16}ko{\k18}ko{\k24}ro
+Comment: 0,0:01:16.18,0:01:19.20,Sample KM [Choir],,0,0,0,karaoke,{\k45}TAP {\k189}TAP {\k44}TIP {\k24}TOP
+Comment: 0,0:01:19.40,0:01:23.84,Sample KM [Up],,0,0,0,karaoke,{\k28}o{\k16}mo{\k29}wa{\k14}zu {\k15}ho{\k129}ra {\k45}ku{\k44}ri{\k57}ka{\k31}e{\k36}su
+Comment: 0,0:01:20.81,0:01:21.56,Sample KM [Choir],,0,0,0,karaoke,{\k48}SMI{\k27}LING
+Comment: 0,0:01:24.05,0:01:27.64,Sample KM [Up],,0,0,0,karaoke,{\k29}wa{\k16}ku{\k29}wa{\k12}ku {\k19}su{\k130}ru {\k26}to{\k18}ki{\k26}me{\k16}ku {\k18}you {\k20}na
+Comment: 0,0:01:25.51,0:01:28.62,Sample KM [Choir],,0,0,0,karaoke,{\k43}TO{\k189}PIC {\k44}GOOD {\k35}NEWS
+Comment: 0,0:01:28.68,0:01:32.44,Sample KM [Up],,0,0,0,karaoke,{\k34}HEAR{\k16}T {\k27}no {\k15}to{\k14}bi{\k124}ra {\k49}SAY {\k43}HEL{\k54}LO!!
+Comment: 0,0:01:30.12,0:01:30.91,Sample KM [Choir],,0,0,0,karaoke,{\k51}KNOCK {\k28}KNOCK
+Dialogue: 0,0:00:00.00,0:00:03.92,Sample KM [Up],,0,0,0,fx,{\k18\fad(180,200)}{\k29}hi{\k18}ka{\k26}ru {\k17}ga{\k19}me{\k123}n {\k28}na{\k16}ga{\k26}re{\k18}te {\k13}yu{\k21}ku
+Dialogue: 0,0:00:00.72,0:00:04.85,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}TAP {\k188}TAP {\k44}TIC {\k26}TAC
+Dialogue: 0,0:00:03.94,0:00:09.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}CHE{\k20}CK {\k26}shi{\k16}te {\k13}yu{\k132}ku {\k46}IT'S {\k43}MOR{\kf75}NING
+Dialogue: 0,0:00:05.38,0:00:09.50,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}TIME{\k192}LINE {\k42}ROU{\k24}TINE
+Dialogue: 0,0:00:08.59,0:00:13.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}wa{\k19}ku{\k29}wa{\k14}ku {\k16}su{\k128}ru {\k28}to{\k15}ki{\k29}me{\k16}ku {\k16}you {\k18}na
+Dialogue: 0,0:00:10.05,0:00:14.22,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k43}TO{\k190}PIC {\k43}GOOD {\k31}NEWS
+Dialogue: 0,0:00:13.25,0:00:17.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}HEAR{\k16}T {\k27}no {\k15}to{\k14}bi{\k123}ra {\k54}kyou {\k36}ni {\k47}SAY
+Dialogue: 0,0:00:14.70,0:00:18.86,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}KNOCK {\k182}KNOCK {\k48}HEL{\k32}LO!!
+Dialogue: 0,0:00:18.50,0:00:23.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}a{\k29}sa{\k37}mo{\k34}ya {\k56}no {\k33}ko{\k12}u{\k31}sa{\k19}te{\k52}n {\k31}kyo{\k15}u {\k53}ga
+Dialogue: 0,0:00:23.15,0:00:27.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}yu{\k26}ru{\k42}ya{\k33}ka {\k57}ni {\k30}u{\k15}go{\k29}ki{\k14}da{\kf87}su
+Dialogue: 0,0:00:27.81,0:00:29.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}DO {\k31}YOU {\k30}FEEL?
+Dialogue: 0,0:00:28.66,0:00:32.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}ho{\k59}ra {\k28}na{\k15}ni{\k26}ka {\k16}ga {\k61}ha{\k28}ji{\k17}ma{\k18}ru
+Dialogue: 0,0:00:31.90,0:00:37.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}za{\k43}wa{\k54}me{\k30}ki {\k19}ni {\k42}ni{\k45}ta {\k40}yo{\kf89}kan
+Dialogue: 0,0:00:36.52,0:00:41.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf92}TEA{\kf57}CHER…{\kf27} {\k17}ko{\k16}re {\k28}wa {\k31}na{\k12}n {\k27}de{\k16}su {\kf88}ka?
+Dialogue: 0,0:00:41.19,0:00:46.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k90}a{\k59}fu{\k42}re{\k41}te {\k30}ku{\k14}ru {\k33}ki{\k17}mo{\k47}chi
+Dialogue: 0,0:00:45.28,0:00:50.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}tsu{\k13}gi {\k30}ka{\k42}ra {\k45}tsu{\k59}gi {\k29}he {\k16}S{\k13}C{\k29}ROL{\k28}L {\k16}shi{\k29}ta{\k15}t{\k58}te
+Dialogue: 0,0:00:49.95,0:00:55.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}o{\k14}wa{\k29}ra{\kf68}nai{\k50} {\k41}to{\k45}ma{\k27}ra{\kf124}nai
+Dialogue: 0,0:00:54.61,0:00:59.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}a{\k14}o{\k28}ku {\kf88}su{\k58}n{\k43}da {\k44}C{\k44}LEA{\k41}R {\k45}SKY
+Dialogue: 0,0:00:58.98,0:01:04.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}tsu{\k17}ki{\k42}nu{\k44}ke{\k43}te{\k57}ku {\k47}ko{\k43}no {\k43}o{\k41}mo{\k63}i
+Dialogue: 0,0:01:03.92,0:01:09.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}ma{\k10}chi{\k29}ko{\kf87}ga{\k59}re{\k44}ta {\k39}ki{\k47}se{\k45}ki {\k37}wo
+Dialogue: 0,0:01:08.25,0:01:14.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}ki{\k15}mi {\k43}to {\k45}mi{\k42}ta{\k57}i{\k43}sou {\k47}i{\k41}s{\k47}sho {\kf87}ni
+Dialogue: 0,0:01:13.84,0:01:18.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}hi{\k30}ka{\k12}ru {\k18}ke{\k11}shi{\k133}ki {\k31}ha{\k14}zu{\k27}mu {\k16}ko{\k18}ko{\k24}ro
+Dialogue: 0,0:01:15.28,0:01:19.40,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}TAP {\k189}TAP {\k44}TIP {\k24}TOP
+Dialogue: 0,0:01:18.50,0:01:24.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}o{\k16}mo{\k29}wa{\k14}zu {\k15}ho{\k129}ra {\k45}ku{\k44}ri{\k57}ka{\k31}e{\k36}su
+Dialogue: 0,0:01:19.91,0:01:21.76,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k48}SMI{\k27}LING
+Dialogue: 0,0:01:23.15,0:01:27.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}wa{\k16}ku{\k29}wa{\k12}ku {\k19}su{\k130}ru {\k26}to{\k18}ki{\k26}me{\k16}ku {\k18}you {\k20}na
+Dialogue: 0,0:01:24.61,0:01:28.82,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k43}TO{\k189}PIC {\k44}GOOD {\k35}NEWS
+Dialogue: 0,0:01:27.78,0:01:32.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}HEAR{\k16}T {\k27}no {\k15}to{\k14}bi{\k124}ra {\k49}SAY {\k43}HEL{\k54}LO!!
+Dialogue: 0,0:01:29.22,0:01:31.11,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k51}KNOCK {\k28}KNOCK
