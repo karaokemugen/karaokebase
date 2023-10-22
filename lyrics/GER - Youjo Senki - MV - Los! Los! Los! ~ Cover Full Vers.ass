@@ -1,0 +1,199 @@
+[Script Info]
+Title: Los! Los! Los!
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Lukairata
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00FFFFFF,&H003031FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FF54FA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.01,0:00:00.01,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:04.17,0:00:05.91,Sample KM [Choir],,0,0,0,karaoke,{\k25}Feu{\k26}er! {\k24}Sperr{\k16}feu{\k10}er! {\k23}Feu{\k23}er! {\k27}Los!
+Comment: 0,0:00:06.19,0:00:07.95,Sample KM [Choir],,0,0,0,karaoke,{\k26}Ach{\k25}tung! {\k20}De{\k34}ckung! {\k20}Hin{\k15}le{\k13}gen! {\k23}Halt!
+Comment: 0,0:00:08.22,0:00:09.97,Sample KM [Choir],,0,0,0,karaoke,{\k20}Feu{\k28}er! {\k20}Sperr{\k14}feu{\k16}er! {\k25}Feu{\k27}er! {\k25}Los!
+Comment: 0,0:00:10.23,0:00:11.99,Sample KM [Choir],,0,0,0,karaoke,{\k26}Ach{\k22}tung! {\k25}De{\k24}ckung! {\k28}Hin{\k14}le{\k10}gen! {\k27}Halt!
+Comment: 0,0:00:12.19,0:00:14.04,Sample KM [Up],,0,0,0,karaoke,{\k29}auf {\k23}zum {\k31}Schlacht{\k23}feld! {\k24}auf {\k25}zur {\k30}Front!
+Comment: 0,0:00:14.04,0:00:15.63,Sample KM [Up],,0,0,0,karaoke,{\k16}und {\k29}auf {\k14}bis {\k12}zu {\k27}eu{\k24}rem {\k37}Tod
+Comment: 0,0:00:15.77,0:00:17.69,Sample KM [Up],,0,0,0,karaoke,{\k25}werft {\k26}das {\k49}Le{\k27}ben {\k25}hin{\k40}fort
+Comment: 0,0:00:17.79,0:00:21.93,Sample KM [Up],,0,0,0,karaoke,{\k24}zeigt {\k25}die {\k29}Wil{\k24}lens{\k23}kraft, {\k25}die {\k50}in {\k52}euch {\k10}w{\kf140}ohn{\k12}t
+Comment: 0,0:00:20.35,0:00:22.20,Sample KM [Choir],,0,0,0,karaoke,{\k27}Feu{\k19}er! {\k26}Sperr{\k13}feu{\k12}er! {\k22}Feu{\k29}er! {\k37}Los!
+Comment: 0,0:00:22.32,0:00:24.29,Sample KM [Choir],,0,0,0,karaoke,{\k26}Ach{\k23}tung! {\k26}De{\k25}ckung! {\k26}Hin{\k14}le{\k12}gen! {\k45}Halt!
+Comment: 0,0:00:24.58,0:00:28.35,Sample KM [Up],,0,0,0,karaoke,{\k24}hört {\k26}nur {\k22}den {\k20}Schü{\k24}ssen {\k61}zu, {\k24}die {\k26}nach {\k21}ih{\k31}nen {\k39}ja{\k59}gen
+Comment: 0,0:00:28.59,0:00:32.27,Sample KM [Up],,0,0,0,karaoke,{\k30}hört {\k24}ihr {\k26}die {\k15}Schrei{\k29}e {\k23}au{\k28}ch? {\k31}hört {\k23}ihr {\k28}die{\k25}se {\k37}Ma{\k49}den?
+Comment: 0,0:00:32.42,0:00:34.14,Sample KM [Up],,0,0,0,karaoke,{\k25}stampft {\k22}sie {\k23}a{\k29}lle {\k51}to{\k22}t!
+Comment: 0,0:00:34.42,0:00:36.14,Sample KM [Up],,0,0,0,karaoke,{\k28}stampft {\k20}sie {\k25}a{\k25}lle {\k48}to{\k26}t!
+Comment: 0,0:00:36.44,0:00:38.28,Sample KM [Choir],,0,0,0,karaoke,{\k18}Feu{\k32}er! {\k24}Sperr{\k15}feu{\k12}er! {\k19}Feu{\k36}er! {\k28}Los!
+Comment: 0,0:00:36.45,0:00:38.35,Sample KM [Down],,0,0,0,karaoke,{\k16}Mä{\k55}nner! {\k14}wie {\k13}lau{\k10}tet {\k12}un{\k13}se{\k10}re {\k16}Mis{\k31}sion?
+Comment: 0,0:00:38.47,0:00:40.23,Sample KM [Choir],,0,0,0,karaoke,{\k19}Ach{\k28}tung! {\k27}De{\k30}ckung! {\k19}Hin{\k12}le{\k14}gen! {\k27}Halt
+Comment: 0,0:00:38.66,0:00:39.96,Sample KM [Down],,0,0,0,karaoke,{\k10}a{\k15}bso{\k17}lu{\k13}te {\k23}Aus{\k18}ro{\k34}ttung!
+Comment: 0,0:00:40.11,0:00:41.96,Sample KM [Down],,0,0,0,karaoke,{\k11}kein {\k25}ein{\k9}zi{\k10}ger {\k14}Fein{\k8}d {\k10}wird {\k14}am {\k22}Le{\k12}ben {\k18}blei{\k32}ben
+Comment: 0,0:00:40.47,0:00:42.25,Sample KM [Choir],,0,0,0,karaoke,{\k21}Feu{\k28}er! {\k26}Sperr{\k12}feu{\k14}er! {\k22}Feu{\k31}er! {\k24}Los!
+Comment: 0,0:00:40.58,0:00:42.11,Sample KM [Up],,0,0,0,karaoke,{\k17}wa{\k23}rum {\k21}ge{\k27}hen {\k27}wir {\k15}so {\k23}weit
+Comment: 0,0:00:42.33,0:00:44.39,Sample KM [Down],,0,0,0,karaoke,{\k9}wir {\k7}wer{\k5}den {\k6}die{\k7}sen {\k17}Ma{\k10}den {\k14}die {\k18}Hö{\k8}le {\k13}auf {\k17}Er{\k12}den {\k13}be{\k21}rei{\k29}ten!
+Comment: 0,0:00:42.24,0:00:44.28,Sample KM [Up],,0,0,0,karaoke,{\k26}ver{\k19}plich{\k26}ten {\k28}uns {\k25}nur {\k25}Tod {\k22}und {\k33}Leid?
+Comment: 0,0:00:42.33,0:00:44.25,Sample KM [Choir],,0,0,0,karaoke,{\k26}Ach{\k23}tung! {\k26}De{\k25}ckung! {\k26}Hin{\k14}le{\k12}gen! {\k45}Halt!
+Comment: 0,0:00:44.35,0:00:46.27,Sample KM [Up],,0,0,0,karaoke,{\k17}und {\k24}kau{\k26}fen {\k26}mit {\k22}dem {\k25}Kopf {\k23}vo{\k29}ran
+Comment: 0,0:00:46.39,0:00:48.23,Sample KM [Up],,0,0,0,karaoke,{\k20}zum {\k20}Ku{\k30}gel{\k19}ha{\k27}gel {\k27}hin {\k10}so{\k31}dann?
+Comment: 0,0:00:48.35,0:00:50.28,Sample KM [Up],,0,0,0,karaoke,{\k21}die {\k26}Ant{\k21}wort {\k27}liegt {\k28}klar {\k17}vo{\k23}r {\k30}uns:
+Comment: 0,0:00:50.37,0:00:54.22,Sample KM [Up],,0,0,0,karaoke,{\k16}es {\k54}ist {\k51}für {\k50}die{\k45}ses {\k9}L{\kf150}an{\k10}d!
+Comment: 0,0:00:54.58,0:00:56.39,Sample KM [Up],,0,0,0,karaoke,{\k25}auf {\k25}zum {\k27}Schlacht{\k21}feld! {\k30}auf {\k26}zur {\k27}Front!
+Comment: 0,0:00:56.39,0:00:58.09,Sample KM [Up],,0,0,0,karaoke,{\k17}und {\k29}auf {\k13}bis {\k12}zu {\k26}eu{\k26}rem {\k47}Tod
+Comment: 0,0:00:58.14,0:01:00.09,Sample KM [Up],,0,0,0,karaoke,{\k22}werft {\k26}das {\k50}Le{\k21}ben {\k31}hin{\k45}fort
+Comment: 0,0:01:00.17,0:01:02.57,Sample KM [Up],,0,0,0,karaoke,{\k20}zeigt {\k27}die {\k28}Wil{\k20}lens{\k25}kraft {\k24}tief {\k53}in {\k43}euch
+Comment: 0,0:01:02.67,0:01:04.60,Sample KM [Up],,0,0,0,karaoke,{\k24}zeigt {\k25}mir {\k26}Treu{\k23}e! {\k29}zeigt {\k23}Ge{\k24}hor{\k19}sam!
+Comment: 0,0:01:04.69,0:01:06.06,Sample KM [Up],,0,0,0,karaoke,{\k22}dient {\k15}nun {\k14}mit {\k24}Leib {\k23}und {\k39}Geist!
+Comment: 0,0:01:06.26,0:01:08.12,Sample KM [Up],,0,0,0,karaoke,{\k14}je{\k32}de {\k48}Fa{\k32}ser {\k19}in {\k41}euch
+Comment: 0,0:01:08.25,0:01:10.58,Sample KM [Up],,0,0,0,karaoke,{\k19}soll {\k22}laut {\k33}tri{\k22}um{\k23}phie{\k28}rend {\k40}auf{\k46}shrei'n
+Comment: 0,0:01:10.75,0:01:12.23,Sample KM [Up],,0,0,0,karaoke,{\k27}schrei{\k24}tet {\k23}nun {\k26}vo{\k48}ran!
+Comment: 0,0:01:12.25,0:01:14.57,Sample KM [Up],,0,0,0,karaoke,{\k17}a{\k32}uf {\k27}Ber{\k25}gen, {\k27}die {\k23}wir {\k30}bau'{\k26}n {\k25}aus
+Comment: 0,0:01:14.73,0:01:20.75,Sample KM [Up],,0,0,0,karaoke,{\k25}lei{\k28}chen {\k26}un{\k25}ter {\k53}uns {\k48}bis {\k50}noch {\k51}zum {\k51}Him{\k50}mels{\k9}z{\kf169}el{\k17}t
+Comment: 0,0:01:20.83,0:01:22.71,Sample KM [Choir],,0,0,0,karaoke,{\k19}Feu{\k29}er! {\k25}Sperr{\k12}feu{\k14}er! {\k27}Feu{\k24}er! {\k38}Los!
+Comment: 0,0:01:22.84,0:01:24.66,Sample KM [Choir],,0,0,0,karaoke,{\k24}Ach{\k26}tung! {\k24}De{\k25}ckung! {\k25}Hin{\k12}le{\k20}gen! {\k26}Halt!
+Comment: 0,0:01:24.85,0:01:26.69,Sample KM [Choir],,0,0,0,karaoke,{\k27}Feu{\k24}er! {\k23}Sperr{\k15}feu{\k13}er! {\k33}Feu{\k16}er! {\k33}Los!
+Comment: 0,0:01:26.87,0:01:28.76,Sample KM [Choir],,0,0,0,karaoke,{\k26}Ach{\k30}tung! {\k21}De{\k26}ckung! {\k27}Hin{\k13}le{\k12}gen! {\k34}Halt!
+Comment: 0,0:01:30.15,0:01:33.86,Sample KM [Up],,0,0,0,karaoke,{\k22}die {\k29}Angst {\k23}ver{\k25}geht, {\k12}so{\k32}bal{\k31}d {\k27}du {\k26}ge{\k20}nau{\k30}er {\k37}hin{\k57}siehst
+Comment: 0,0:01:34.13,0:01:37.84,Sample KM [Up],,0,0,0,karaoke,{\k31}ein {\k22}Feu{\k28}er{\k14}werk {\k24}aus {\k30}Blu{\k34}t, {\k24}das {\k24}nur {\k28}so {\k23}um{\k35}her {\k28}flie{\k26}gt
+Comment: 0,0:01:37.95,0:01:39.61,Sample KM [Up],,0,0,0,karaoke,{\k27}schau, {\k25}wie {\k24}schön {\k27}es {\k41}flie{\k22}ßt
+Comment: 0,0:01:39.89,0:01:41.57,Sample KM [Up],,0,0,0,karaoke,{\k30}schau, {\k26}wie {\k23}schön {\k32}es {\k41}flie{\k16}ßt
+Comment: 0,0:01:42.07,0:01:43.67,Sample KM [Up],,0,0,0,karaoke,{\k19}nie{\k21}mals {\k26}könnt' {\k25}ich {\k26}aus{\k13}rai{\k18}der'{\k12}n
+Comment: 0,0:01:43.76,0:01:45.95,Sample KM [Up],,0,0,0,karaoke,{\k25}welch {\k23}Bil{\k30}der {\k24}nun {\k24}mein {\k22}Le{\k15}ben {\k20}zier'{\k36}n
+Comment: 0,0:01:46.03,0:01:47.78,Sample KM [Up],,0,0,0,karaoke,{\k25}Feu{\k26}er, {\k25}das {\k26}zum {\k17}Him{\k22}mel {\k14}rei{\k20}cht
+Comment: 0,0:01:47.80,0:01:49.78,Sample KM [Up],,0,0,0,karaoke,{\k22}der {\k18}An{\k33}blick {\k26}des {\k21}ver{\k28}brann{\k16}ten {\k34}Fleischs
+Comment: 0,0:01:49.82,0:01:51.78,Sample KM [Up],,0,0,0,karaoke,{\k26}des {\k18}Le{\k31}bens {\k23}letz{\k26}ter {\k24}Hil{\k15}fe{\k33}schrei
+Comment: 0,0:01:51.83,0:01:53.71,Sample KM [Up],,0,0,0,karaoke,{\k25}der {\k26}Au{\k24}gen{\k25}glanz {\k27}dem {\k19}To{\k14}de {\k28}weicht
+Comment: 0,0:01:53.86,0:01:55.71,Sample KM [Up],,0,0,0,karaoke,{\k20}ah{\k31}h, {\k24}das {\k23}ist {\k25}der {\k41}An{\k21}blick
+Comment: 0,0:01:55.89,0:01:59.84,Sample KM [Up],,0,0,0,karaoke,{\k23}nach {\k49}dem {\k51}mein {\k47}Herz {\k41}so {\k11}schr{\kf159}ei{\k14}t
+Comment: 0,0:02:00.15,0:02:02.10,Sample KM [Up],,0,0,0,karaoke,{\k22}Frie{\k31}den {\k23}in {\k25}der {\k25}Welt {\k25}ist {\k25}blo{\k19}ßer
+Comment: 0,0:02:02.17,0:02:03.61,Sample KM [Up],,0,0,0,karaoke,{\k25}Trug, {\k22}der {\k24}schnell {\k26}zer{\k47}bricht
+Comment: 0,0:02:03.73,0:02:05.51,Sample KM [Up],,0,0,0,karaoke,{\k15}nur {\k28}ein {\k52}Hund, {\k24}den {\k26}man {\k33}längst
+Comment: 0,0:02:05.75,0:02:08.12,Sample KM [Up],,0,0,0,karaoke,{\k19}sei{\k25}ner {\k24}Krall'{\k12}n {\k14}be{\k27}raub{\k26}te, {\k26}käm{\k23}pft {\k41}nicht
+Comment: 0,0:02:08.21,0:02:10.12,Sample KM [Up],,0,0,0,karaoke,{\k22}Wahn{\k31}sinn, {\k22}der {\k14}die{\k12}ser {\k24}Welt {\k27}Ver{\k22}zwei{\k17}flung
+Comment: 0,0:02:10.19,0:02:11.63,Sample KM [Up],,0,0,0,karaoke,{\k25}end{\k28}lich {\k27}wie{\k23}der {\k22}brin{\k19}gt
+Comment: 0,0:02:11.80,0:02:13.63,Sample KM [Up],,0,0,0,karaoke,{\k17}ist {\k30}für {\k44}mich {\k26}wie {\k27}ein {\k39}Lied
+Comment: 0,0:02:13.76,0:02:16.22,Sample KM [Up],,0,0,0,karaoke,{\k24}das {\k31}vom {\k23}rei{\k20}nen {\k25}Pa{\k27}ra{\k51}dies {\k45}singt
+Comment: 0,0:02:16.29,0:02:20.06,Sample KM [Up],,0,0,0,karaoke,{\k27}dei{\k23}ne {\k24}Glie{\k25}der {\k50}sind {\k44}ge{\k52}macht, {\k32}um {\k23}zu {\k51}tan{\k26}zen
+Comment: 0,0:02:20.41,0:02:25.84,Sample KM [Up],,0,0,0,karaoke,{\k19}tan{\k24}ze, {\k23}bis {\k25}auch {\k51}du {\k49}dem {\k52}Wahn{\k50}sinn {\k52}ganz {\k50}ver{\k25}f{\kf106}äll{\k17}st
+Comment: 0,0:02:25.09,0:02:26.71,Sample KM [Down],,0,0,0,karaoke,{\k18}Men{\k14}schen {\k17}sind {\k18}a{\k15}bso{\k20}lut {\k21}wert{\k39}los
+Comment: 0,0:02:26.81,0:02:28.99,Sample KM [Down],,0,0,0,karaoke,{\k12}je{\k13}der, {\k6}der {\k12}auf {\k14}die{\k17}sem {\k22}Schlacht{\k18}feld {\k20}kämpft {\k25}ist {\k22}wert{\k37}los
+Comment: 0,0:02:29.46,0:02:32.26,Sample KM [Down],,0,0,0,karaoke,{\k24}zeigt {\k11}ih{\k7}nen, {\k15}dass {\k14}eu{\k6}re {\k15}Le{\k18}ben {\k22}trotz{\k11}dem {\k14}im {\k21}Kampf {\k14}er{\k13}blü{\k24}hen {\k22}kön{\k29}nen!
+Comment: 0,0:02:32.41,0:02:36.11,Sample KM [Up],,0,0,0,karaoke,{\k36}je{\k35}des {\k32}Ge{\k18}se{\k14}tz, {\k44}al{\k22}le {\k39}Re{\k37}geln {\k26}der {\k36}Wel{\k31}t
+Comment: 0,0:02:36.43,0:02:40.41,Sample KM [Up],,0,0,0,karaoke,{\k37}sind {\k33}Men{\k34}schen{\k37}werk, {\k36}das {\k26}uns {\k36}zähmt {\k42}und {\k24}ge{\k50}fang' {\k43}hat
+Comment: 0,0:02:40.61,0:02:42.81,Sample KM [Up],,0,0,0,karaoke,{\k25}ich {\k35}hab {\k35}die {\k32}Lü{\k38}gen {\k55}satt
+Comment: 0,0:02:42.97,0:02:45.87,Sample KM [Up],,0,0,0,karaoke,{\k30}den {\k49}Un{\k23}sinn, {\k26}der {\k21}uns {\k34}al{\k107}le
+Comment: 0,0:02:46.46,0:02:50.92,Sample KM [Up],,0,0,0,karaoke,{\k37}ein{\k59}sper{\k13}rt {\k30}von {\k45}An{\k24}fang {\kf238}an
+Comment: 0,0:02:52.55,0:02:54.31,Sample KM [Up],,0,0,0,karaoke,{\k26}auf {\k26}zum {\k26}Schlacht{\k29}feld! {\k22}auf {\k25}zur {\k22}Front!
+Comment: 0,0:02:54.35,0:02:56.09,Sample KM [Up],,0,0,0,karaoke,{\k19}und {\k29}auf {\k13}bis {\k15}zu {\k25}eu{\k23}rem {\k50}Tod
+Comment: 0,0:02:56.18,0:02:58.09,Sample KM [Up],,0,0,0,karaoke,{\k17}werft {\k27}das {\k49}Le{\k24}ben {\k27}hin{\k47}fort
+Comment: 0,0:02:58.15,0:03:00.55,Sample KM [Up],,0,0,0,karaoke,{\k23}zeigt {\k23}die {\k23}Wil{\k29}lens{\k26}kraft {\k21}tief {\k50}in {\k45}euch
+Comment: 0,0:03:00.65,0:03:02.61,Sample KM [Up],,0,0,0,karaoke,{\k24}zeigt {\k26}mir {\k21}Treu{\k32}e! {\k22}zeigt {\k25}Ge{\k26}hor{\k20}sam!
+Comment: 0,0:03:02.67,0:03:04.12,Sample KM [Up],,0,0,0,karaoke,{\k25}dient {\k13}nun {\k11}mit {\k26}Leib {\k25}und {\k45}Geist!
+Comment: 0,0:03:04.15,0:03:06.12,Sample KM [Up],,0,0,0,karaoke,{\k25}je{\k26}de {\k51}Fa{\k25}ser {\k30}in {\k40}euch
+Comment: 0,0:03:06.23,0:03:08.67,Sample KM [Up],,0,0,0,karaoke,{\k17}soll {\k30}laut {\k26}tri{\k22}um{\k24}phie{\k28}rend {\k50}auf{\k47}schrei'n
+Comment: 0,0:03:08.71,0:03:10.16,Sample KM [Up],,0,0,0,karaoke,{\k25}schrei{\k24}tet {\k26}nun {\k25}vo{\k45}ran!
+Comment: 0,0:03:10.25,0:03:12.69,Sample KM [Up],,0,0,0,karaoke,{\k18}a{\k28}uf {\k27}Ber{\k28}gen, {\k22}die {\k22}wie {\k34}bau'{\k33}n {\k32}aus
+Comment: 0,0:03:12.75,0:03:16.51,Sample KM [Up],,0,0,0,karaoke,{\k23}lei{\k25}chen {\k23}un{\k29}ter {\k53}uns {\k48}bis {\k50}hoch {\k52}zum {\k50}Him{\k23}mel
+Comment: 0,0:03:16.53,0:03:20.49,Sample KM [Up],,0,0,0,karaoke,{\k25}wir {\k26}ü{\k28}ber{\k22}tö{\k28}nen {\k47}laut {\k45}mit {\k56}uns'{\k48}ren {\k48}Waf{\k23}fen
+Comment: 0,0:03:20.80,0:03:24.67,Sample KM [Up],,0,0,0,karaoke,{\k26}all {\k18}den {\k34}Hass, {\k28}der {\k44}uns'{\k54}ren {\k47}Feind {\k53}be{\k72}wohn{\k11}t
+Comment: 0,0:03:24.85,0:03:26.67,Sample KM [Choir],,0,0,0,karaoke,{\k25}Feu{\k26}er! {\k23}Sperr{\k11}feu{\k16}er! {\k24}Feu{\k28}er! {\k29}Los!
+Comment: 0,0:03:26.86,0:03:28.69,Sample KM [Choir],,0,0,0,karaoke,{\k26}Ach{\k26}tung! {\k26}De{\k25}ckung! {\k18}Hin{\k12}le{\k18}gen! {\k32}Halt!
+Comment: 0,0:03:28.89,0:03:30.75,Sample KM [Choir],,0,0,0,karaoke,{\k26}Feu{\k24}er! {\k23}Sperr{\k14}feu{\k14}er! {\k24}Feu{\k24}er! {\k37}Los!
+Comment: 0,0:03:30.89,0:03:32.80,Sample KM [Choir],,0,0,0,karaoke,{\k21}Ach{\k32}tung! {\k22}De{\k27}ckung! {\k24}Hin{\k13}le{\k13}gen! {\k39}Halt!
+Dialogue: 0,0:00:03.27,0:00:06.11,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Feu{\k26}er! {\k24}Sperr{\k16}feu{\k10}er! {\k23}Feu{\k23}er! {\k27}Los!
+Dialogue: 0,0:00:05.29,0:00:08.15,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ach{\k25}tung! {\k20}De{\k34}ckung! {\k20}Hin{\k15}le{\k13}gen! {\k23}Halt!
+Dialogue: 0,0:00:07.32,0:00:10.17,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Feu{\k28}er! {\k20}Sperr{\k14}feu{\k16}er! {\k25}Feu{\k27}er! {\k25}Los!
+Dialogue: 0,0:00:09.33,0:00:12.19,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ach{\k22}tung! {\k25}De{\k24}ckung! {\k28}Hin{\k14}le{\k10}gen! {\k27}Halt!
+Dialogue: 0,0:00:11.29,0:00:14.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}auf {\k23}zum {\k31}Schlacht{\k23}feld! {\k24}auf {\k25}zur {\k30}Front!
+Dialogue: 0,0:00:13.14,0:00:15.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}und {\k29}auf {\k14}bis {\k12}zu {\k27}eu{\k24}rem {\k37}Tod
+Dialogue: 0,0:00:14.87,0:00:17.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}werft {\k26}das {\k49}Le{\k27}ben {\k25}hin{\k40}fort
+Dialogue: 0,0:00:16.89,0:00:22.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}zeigt {\k25}die {\k29}Wil{\k24}lens{\k23}kraft, {\k25}die {\k50}in {\k52}euch {\k10}w{\kf140}ohn{\k12}t
+Dialogue: 0,0:00:19.45,0:00:22.40,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Feu{\k19}er! {\k26}Sperr{\k13}feu{\k12}er! {\k22}Feu{\k29}er! {\k37}Los!
+Dialogue: 0,0:00:21.42,0:00:24.49,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ach{\k23}tung! {\k26}De{\k25}ckung! {\k26}Hin{\k14}le{\k12}gen! {\k45}Halt!
+Dialogue: 0,0:00:23.68,0:00:28.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}hört {\k26}nur {\k22}den {\k20}Schü{\k24}ssen {\k61}zu, {\k24}die {\k26}nach {\k21}ih{\k31}nen {\k39}ja{\k59}gen
+Dialogue: 0,0:00:27.69,0:00:32.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}hört {\k24}ihr {\k26}die {\k15}Schrei{\k29}e {\k23}au{\k28}ch? {\k31}hört {\k23}ihr {\k28}die{\k25}se {\k37}Ma{\k49}den?
+Dialogue: 0,0:00:31.52,0:00:34.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}stampft {\k22}sie {\k23}a{\k29}lle {\k51}to{\k22}t!
+Dialogue: 0,0:00:33.52,0:00:36.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}stampft {\k20}sie {\k25}a{\k25}lle {\k48}to{\k26}t!
+Dialogue: 0,0:00:35.54,0:00:38.48,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Feu{\k32}er! {\k24}Sperr{\k15}feu{\k12}er! {\k19}Feu{\k36}er! {\k28}Los!
+Dialogue: 0,0:00:35.55,0:00:38.55,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Mä{\k55}nner! {\k14}wie {\k13}lau{\k10}tet {\k12}un{\k13}se{\k10}re {\k16}Mis{\k31}sion?
+Dialogue: 0,0:00:37.57,0:00:40.43,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Ach{\k28}tung! {\k27}De{\k30}ckung! {\k19}Hin{\k12}le{\k14}gen! {\k27}Halt
+Dialogue: 0,0:00:37.76,0:00:40.16,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k10}a{\k15}bso{\k17}lu{\k13}te {\k23}Aus{\k18}ro{\k34}ttung!
+Dialogue: 0,0:00:39.21,0:00:42.16,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k11}kein {\k25}ein{\k9}zi{\k10}ger {\k14}Fein{\k8}d {\k10}wird {\k14}am {\k22}Le{\k12}ben {\k18}blei{\k32}ben
+Dialogue: 0,0:00:39.57,0:00:42.45,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Feu{\k28}er! {\k26}Sperr{\k12}feu{\k14}er! {\k22}Feu{\k31}er! {\k24}Los!
+Dialogue: 0,0:00:39.68,0:00:42.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}wa{\k23}rum {\k21}ge{\k27}hen {\k27}wir {\k15}so {\k23}weit
+Dialogue: 0,0:00:41.43,0:00:44.59,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k9}wir {\k7}wer{\k5}den {\k6}die{\k7}sen {\k17}Ma{\k10}den {\k14}die {\k18}Hö{\k8}le {\k13}auf {\k17}Er{\k12}den {\k13}be{\k21}rei{\k29}ten!
+Dialogue: 0,0:00:41.34,0:00:44.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}ver{\k19}plich{\k26}ten {\k28}uns {\k25}nur {\k25}Tod {\k22}und {\k33}Leid?
+Dialogue: 0,0:00:41.43,0:00:44.45,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ach{\k23}tung! {\k26}De{\k25}ckung! {\k26}Hin{\k14}le{\k12}gen! {\k45}Halt!
+Dialogue: 0,0:00:43.45,0:00:46.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}und {\k24}kau{\k26}fen {\k26}mit {\k22}dem {\k25}Kopf {\k23}vo{\k29}ran
+Dialogue: 0,0:00:45.49,0:00:48.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}zum {\k20}Ku{\k30}gel{\k19}ha{\k27}gel {\k27}hin {\k10}so{\k31}dann?
+Dialogue: 0,0:00:47.45,0:00:50.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}die {\k26}Ant{\k21}wort {\k27}liegt {\k28}klar {\k17}vo{\k23}r {\k30}uns:
+Dialogue: 0,0:00:49.47,0:00:54.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}es {\k54}ist {\k51}für {\k50}die{\k45}ses {\k9}L{\kf150}an{\k10}d!
+Dialogue: 0,0:00:53.68,0:00:56.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}auf {\k25}zum {\k27}Schlacht{\k21}feld! {\k30}auf {\k26}zur {\k27}Front!
+Dialogue: 0,0:00:55.49,0:00:58.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}und {\k29}auf {\k13}bis {\k12}zu {\k26}eu{\k26}rem {\k47}Tod
+Dialogue: 0,0:00:57.24,0:01:00.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}werft {\k26}das {\k50}Le{\k21}ben {\k31}hin{\k45}fort
+Dialogue: 0,0:00:59.27,0:01:02.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}zeigt {\k27}die {\k28}Wil{\k20}lens{\k25}kraft {\k24}tief {\k53}in {\k43}euch
+Dialogue: 0,0:01:01.77,0:01:04.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}zeigt {\k25}mir {\k26}Treu{\k23}e! {\k29}zeigt {\k23}Ge{\k24}hor{\k19}sam!
+Dialogue: 0,0:01:03.79,0:01:06.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}dient {\k15}nun {\k14}mit {\k24}Leib {\k23}und {\k39}Geist!
+Dialogue: 0,0:01:05.36,0:01:08.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}je{\k32}de {\k48}Fa{\k32}ser {\k19}in {\k41}euch
+Dialogue: 0,0:01:07.35,0:01:10.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}soll {\k22}laut {\k33}tri{\k22}um{\k23}phie{\k28}rend {\k40}auf{\k46}shrei'n
+Dialogue: 0,0:01:09.85,0:01:12.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}schrei{\k24}tet {\k23}nun {\k26}vo{\k48}ran!
+Dialogue: 0,0:01:11.35,0:01:14.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}a{\k32}uf {\k27}Ber{\k25}gen, {\k27}die {\k23}wir {\k30}bau'{\k26}n {\k25}aus
+Dialogue: 0,0:01:13.83,0:01:20.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}lei{\k28}chen {\k26}un{\k25}ter {\k53}uns {\k48}bis {\k50}noch {\k51}zum {\k51}Him{\k50}mels{\k9}z{\kf169}el{\k17}t
+Dialogue: 0,0:01:19.93,0:01:22.91,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Feu{\k29}er! {\k25}Sperr{\k12}feu{\k14}er! {\k27}Feu{\k24}er! {\k38}Los!
+Dialogue: 0,0:01:21.94,0:01:24.86,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ach{\k26}tung! {\k24}De{\k25}ckung! {\k25}Hin{\k12}le{\k20}gen! {\k26}Halt!
+Dialogue: 0,0:01:23.95,0:01:26.89,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Feu{\k24}er! {\k23}Sperr{\k15}feu{\k13}er! {\k33}Feu{\k16}er! {\k33}Los!
+Dialogue: 0,0:01:25.97,0:01:28.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ach{\k30}tung! {\k21}De{\k26}ckung! {\k27}Hin{\k13}le{\k12}gen! {\k34}Halt!
+Dialogue: 0,0:01:29.25,0:01:34.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}die {\k29}Angst {\k23}ver{\k25}geht, {\k12}so{\k32}bal{\k31}d {\k27}du {\k26}ge{\k20}nau{\k30}er {\k37}hin{\k57}siehst
+Dialogue: 0,0:01:33.23,0:01:38.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}ein {\k22}Feu{\k28}er{\k14}werk {\k24}aus {\k30}Blu{\k34}t, {\k24}das {\k24}nur {\k28}so {\k23}um{\k35}her {\k28}flie{\k26}gt
+Dialogue: 0,0:01:37.05,0:01:39.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}schau, {\k25}wie {\k24}schön {\k27}es {\k41}flie{\k22}ßt
+Dialogue: 0,0:01:38.99,0:01:41.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}schau, {\k26}wie {\k23}schön {\k32}es {\k41}flie{\k16}ßt
+Dialogue: 0,0:01:41.17,0:01:43.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}nie{\k21}mals {\k26}könnt' {\k25}ich {\k26}aus{\k13}rai{\k18}der'{\k12}n
+Dialogue: 0,0:01:42.86,0:01:46.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}welch {\k23}Bil{\k30}der {\k24}nun {\k24}mein {\k22}Le{\k15}ben {\k20}zier'{\k36}n
+Dialogue: 0,0:01:45.13,0:01:47.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Feu{\k26}er, {\k25}das {\k26}zum {\k17}Him{\k22}mel {\k14}rei{\k20}cht
+Dialogue: 0,0:01:46.90,0:01:49.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}der {\k18}An{\k33}blick {\k26}des {\k21}ver{\k28}brann{\k16}ten {\k34}Fleischs
+Dialogue: 0,0:01:48.92,0:01:51.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}des {\k18}Le{\k31}bens {\k23}letz{\k26}ter {\k24}Hil{\k15}fe{\k33}schrei
+Dialogue: 0,0:01:50.93,0:01:53.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}der {\k26}Au{\k24}gen{\k25}glanz {\k27}dem {\k19}To{\k14}de {\k28}weicht
+Dialogue: 0,0:01:52.96,0:01:55.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ah{\k31}h, {\k24}das {\k23}ist {\k25}der {\k41}An{\k21}blick
+Dialogue: 0,0:01:54.99,0:02:00.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}nach {\k49}dem {\k51}mein {\k47}Herz {\k41}so {\k11}schr{\kf159}ei{\k14}t
+Dialogue: 0,0:01:59.25,0:02:02.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Frie{\k31}den {\k23}in {\k25}der {\k25}Welt {\k25}ist {\k25}blo{\k19}ßer
+Dialogue: 0,0:02:01.27,0:02:03.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Trug, {\k22}der {\k24}schnell {\k26}zer{\k47}bricht
+Dialogue: 0,0:02:02.83,0:02:05.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}nur {\k28}ein {\k52}Hund, {\k24}den {\k26}man {\k33}längst
+Dialogue: 0,0:02:04.85,0:02:08.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}sei{\k25}ner {\k24}Krall'{\k12}n {\k14}be{\k27}raub{\k26}te, {\k26}käm{\k23}pft {\k41}nicht
+Dialogue: 0,0:02:07.31,0:02:10.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Wahn{\k31}sinn, {\k22}der {\k14}die{\k12}ser {\k24}Welt {\k27}Ver{\k22}zwei{\k17}flung
+Dialogue: 0,0:02:09.29,0:02:11.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}end{\k28}lich {\k27}wie{\k23}der {\k22}brin{\k19}gt
+Dialogue: 0,0:02:10.90,0:02:13.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}ist {\k30}für {\k44}mich {\k26}wie {\k27}ein {\k39}Lied
+Dialogue: 0,0:02:12.86,0:02:16.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}das {\k31}vom {\k23}rei{\k20}nen {\k25}Pa{\k27}ra{\k51}dies {\k45}singt
+Dialogue: 0,0:02:15.39,0:02:20.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}dei{\k23}ne {\k24}Glie{\k25}der {\k50}sind {\k44}ge{\k52}macht, {\k32}um {\k23}zu {\k51}tan{\k26}zen
+Dialogue: 0,0:02:19.51,0:02:26.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}tan{\k24}ze, {\k23}bis {\k25}auch {\k51}du {\k49}dem {\k52}Wahn{\k50}sinn {\k52}ganz {\k50}ver{\k25}f{\kf106}äll{\k17}st
+Dialogue: 0,0:02:24.19,0:02:26.91,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Men{\k14}schen {\k17}sind {\k18}a{\k15}bso{\k20}lut {\k21}wert{\k39}los
+Dialogue: 0,0:02:25.91,0:02:29.19,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k12}je{\k13}der, {\k6}der {\k12}auf {\k14}die{\k17}sem {\k22}Schlacht{\k18}feld {\k20}kämpft {\k25}ist {\k22}wert{\k37}los
+Dialogue: 0,0:02:28.56,0:02:32.46,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k24}zeigt {\k11}ih{\k7}nen, {\k15}dass {\k14}eu{\k6}re {\k15}Le{\k18}ben {\k22}trotz{\k11}dem {\k14}im {\k21}Kampf {\k14}er{\k13}blü{\k24}hen {\k22}kön{\k29}nen!
+Dialogue: 0,0:02:31.51,0:02:36.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}je{\k35}des {\k32}Ge{\k18}se{\k14}tz, {\k44}al{\k22}le {\k39}Re{\k37}geln {\k26}der {\k36}Wel{\k31}t
+Dialogue: 0,0:02:35.53,0:02:40.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}sind {\k33}Men{\k34}schen{\k37}werk, {\k36}das {\k26}uns {\k36}zähmt {\k42}und {\k24}ge{\k50}fang' {\k43}hat
+Dialogue: 0,0:02:39.71,0:02:43.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ich {\k35}hab {\k35}die {\k32}Lü{\k38}gen {\k55}satt
+Dialogue: 0,0:02:42.07,0:02:46.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}den {\k49}Un{\k23}sinn, {\k26}der {\k21}uns {\k34}al{\k107}le
+Dialogue: 0,0:02:45.56,0:02:51.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}ein{\k59}sper{\k13}rt {\k30}von {\k45}An{\k24}fang {\kf238}an
+Dialogue: 0,0:02:51.65,0:02:54.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}auf {\k26}zum {\k26}Schlacht{\k29}feld! {\k22}auf {\k25}zur {\k22}Front!
+Dialogue: 0,0:02:53.45,0:02:56.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}und {\k29}auf {\k13}bis {\k15}zu {\k25}eu{\k23}rem {\k50}Tod
+Dialogue: 0,0:02:55.28,0:02:58.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}werft {\k27}das {\k49}Le{\k24}ben {\k27}hin{\k47}fort
+Dialogue: 0,0:02:57.25,0:03:00.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}zeigt {\k23}die {\k23}Wil{\k29}lens{\k26}kraft {\k21}tief {\k50}in {\k45}euch
+Dialogue: 0,0:02:59.75,0:03:02.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}zeigt {\k26}mir {\k21}Treu{\k32}e! {\k22}zeigt {\k25}Ge{\k26}hor{\k20}sam!
+Dialogue: 0,0:03:01.77,0:03:04.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}dient {\k13}nun {\k11}mit {\k26}Leib {\k25}und {\k45}Geist!
+Dialogue: 0,0:03:03.25,0:03:06.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}je{\k26}de {\k51}Fa{\k25}ser {\k30}in {\k40}euch
+Dialogue: 0,0:03:05.33,0:03:08.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}soll {\k30}laut {\k26}tri{\k22}um{\k24}phie{\k28}rend {\k50}auf{\k47}schrei'n
+Dialogue: 0,0:03:07.81,0:03:10.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}schrei{\k24}tet {\k26}nun {\k25}vo{\k45}ran!
+Dialogue: 0,0:03:09.35,0:03:12.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}a{\k28}uf {\k27}Ber{\k28}gen, {\k22}die {\k22}wie {\k34}bau'{\k33}n {\k32}aus
+Dialogue: 0,0:03:11.85,0:03:16.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}lei{\k25}chen {\k23}un{\k29}ter {\k53}uns {\k48}bis {\k50}hoch {\k52}zum {\k50}Him{\k23}mel
+Dialogue: 0,0:03:15.63,0:03:20.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}wir {\k26}ü{\k28}ber{\k22}tö{\k28}nen {\k47}laut {\k45}mit {\k56}uns'{\k48}ren {\k48}Waf{\k23}fen
+Dialogue: 0,0:03:19.90,0:03:24.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}all {\k18}den {\k34}Hass, {\k28}der {\k44}uns'{\k54}ren {\k47}Feind {\k53}be{\k72}wohn{\k11}t
+Dialogue: 0,0:03:23.95,0:03:26.87,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Feu{\k26}er! {\k23}Sperr{\k11}feu{\k16}er! {\k24}Feu{\k28}er! {\k29}Los!
+Dialogue: 0,0:03:25.96,0:03:28.89,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ach{\k26}tung! {\k26}De{\k25}ckung! {\k18}Hin{\k12}le{\k18}gen! {\k32}Halt!
+Dialogue: 0,0:03:27.99,0:03:30.95,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Feu{\k24}er! {\k23}Sperr{\k14}feu{\k14}er! {\k24}Feu{\k24}er! {\k37}Los!
+Dialogue: 0,0:03:29.99,0:03:33.00,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ach{\k32}tung! {\k22}De{\k27}ckung! {\k24}Hin{\k13}le{\k13}gen! {\k39}Halt!
