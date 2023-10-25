@@ -1,0 +1,60 @@
+[Script Info]
+Title: ACHE in PULSE
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Demoto, TheMio
+PlayResX: 0
+PlayResY: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up] JPN,Arial,24,&H00FFFFFF,&H000088EF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Sample KM [Up] ENG,Arial,24,&H00FFFFFF,&H00003FEF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up] JPN,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:19.14,0:00:20.98,Sample KM [Up] JPN,,0,0,0,karaoke,{\k10}na{\k13}ni{\k46}mo {\k11}ka{\k12}mo {\k24}ga {\k22}nu{\k23}ku{\k23}i
+Comment: 0,0:00:20.98,0:00:22.81,Sample KM [Up] JPN,,0,0,0,karaoke,{\k12}ko{\k14}no {\k44}mi {\k12}ma{\k10}de {\k37}mo {\k54}ga
+Comment: 0,0:00:22.82,0:00:26.52,Sample KM [Up] JPN,,0,0,0,karaoke,{\k13}a{\k11}ma{\k46}i {\k10}yu{\k13}me {\k21}wa {\k24}ko{\k21}o{\k22}ri{\k72}tsu{\k24}i{\k38}ta {\k23}no {\k32}ni
+Comment: 0,0:00:26.52,0:00:30.21,Sample KM [Up] JPN,,0,0,0,karaoke,{\k14}da{\k12}re{\k43}mo {\k11}ka{\k10}re{\k25}mo {\k23}i{\k23}na{\k23}i {\k11}wa{\k10}ta{\k49}shi {\k10}i{\k10}ga{\k49}i {\k46}ni
+Comment: 0,0:00:30.21,0:00:34.36,Sample KM [Up] JPN,,0,0,0,karaoke,{\k13}hi{\k9}ki{\k48}sa{\k10}ka{\k14}re{\k24}ta {\k22}ko{\k20}ko{\k24}ro {\k69}da{\k18}ke {\k52}no{\k19}ko{\k27}shi{\k46}te
+Comment: 0,0:00:34.36,0:00:37.57,Sample KM [Up] ENG,,0,0,0,karaoke,{\k18}I {\k29}found {\k46}out, {\k21}I {\k26}found {\k45}out {\k23}my {\k20}des{\k49}ti{\k44}ny
+Comment: 0,0:00:37.57,0:00:41.30,Sample KM [Up] ENG,,0,0,0,karaoke,{\k41}But {\k26}I {\k29}still {\k46}feel, {\k15}I {\k24}still {\k50}feel {\k26}emp{\k22}ty {\k36}in{\k58}side
+Comment: 0,0:00:41.30,0:00:44.96,Sample KM [Up] JPN,,0,0,0,karaoke,{\k42}aa, {\k26}ko{\k23}e {\k47}mo {\k22}u{\k23}ba{\k37}wa{\k28}re{\k14}ru {\k11}no {\k46}na{\k47}ra
+Comment: 0,0:00:44.97,0:00:46.79,Sample KM [Up] JPN,,0,0,0,karaoke,{\k45}mou {\k25}na{\k22}ni{\k42}mo {\k24}ka{\k24}mo
+Comment: 0,0:00:46.80,0:00:48.69,Sample KM [Up] ENG,,0,0,0,karaoke,{\k39}Lost {\k31}all {\k23}mea{\k96}ning
+Comment: 0,0:00:51.26,0:00:52.35,Sample KM [Up] ENG,,0,0,0,karaoke,{\k54}Start {\k55}it
+Comment: 0,0:00:52.57,0:00:54.31,Sample KM [Up] ENG,,0,0,0,karaoke,{\k25}Don’t {\k24}stop {\k15}my {\k55}heart{\k121}ache
+Comment: 0,0:00:54.44,0:00:56.05,Sample KM [Up] ENG,,0,0,0,karaoke,{\k17}Don’t {\k27}stop {\k16}my {\k52}heart{\k218}break
+Comment: 0,0:00:56.05,0:00:59.73,Sample KM [Up] JPN,,0,0,0,karaoke,{\k70}na{\k23}ge{\k69}ki {\k69}ga {\k23}ka{\k24}re{\k23}ru {\k24}ma{\k43}de
+Comment: 0,0:00:59.98,0:01:01.82,Sample KM [Up] ENG,,0,0,0,karaoke,{\k25}Don’t {\k24}stop {\k15}my {\k55}heart{\k121}ache
+Comment: 0,0:01:01.83,0:01:03.45,Sample KM [Up] ENG,,0,0,0,karaoke,{\k17}Don’t {\k27}stop {\k16}my {\k52}heart{\k218}break
+Comment: 0,0:01:03.45,0:01:07.09,Sample KM [Up] JPN,,0,0,0,karaoke,{\k70}i{\k21}tsu{\k68}mi {\k67}ga {\k25}tsu{\k19}ki{\k29}ru {\k23}ma{\k42}de
+Comment: 0,0:01:09.24,0:01:11.07,Sample KM [Up] ENG,,0,0,0,karaoke,{\k20}I {\k24}can’t {\k23}stop {\k41}this {\k164}hate
+Comment: 0,0:01:12.88,0:01:14.76,Sample KM [Up] ENG,,0,0,0,karaoke,{\k20}I {\k22}won’t {\k30}stop {\k45}this {\k84}hate
+Comment: 0,0:01:16.59,0:01:18.30,Sample KM [Up] ENG,,0,0,0,karaoke,{\k25}Don’t {\k24}stop {\k15}my {\k55}heart{\k121}ache
+Comment: 0,0:01:20.28,0:01:21.90,Sample KM [Up] ENG,,0,0,0,karaoke,{\k17}Don’t {\k27}stop {\k16}my {\k52}heart{\k218}break
+Dialogue: 0,0:00:18.24,0:00:21.18,Sample KM [Up] JPN,,0,0,0,fx,{\k90\fad(300,200)}{\k10}na{\k13}ni{\k46}mo {\k11}ka{\k12}mo {\k24}ga {\k22}nu{\k23}ku{\k23}i
+Dialogue: 0,0:00:20.08,0:00:23.01,Sample KM [Up] JPN,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ko{\k14}no {\k44}mi {\k12}ma{\k10}de {\k37}mo {\k54}ga
+Dialogue: 0,0:00:21.92,0:00:26.72,Sample KM [Up] JPN,,0,0,0,fx,{\k90\fad(300,200)}{\k13}a{\k11}ma{\k46}i {\k10}yu{\k13}me {\k21}wa {\k24}ko{\k21}o{\k22}ri{\k72}tsu{\k24}i{\k38}ta {\k23}no {\k32}ni
+Dialogue: 0,0:00:25.62,0:00:30.41,Sample KM [Up] JPN,,0,0,0,fx,{\k90\fad(300,200)}{\k14}da{\k12}re{\k43}mo {\k11}ka{\k10}re{\k25}mo {\k23}i{\k23}na{\k23}i {\k11}wa{\k10}ta{\k49}shi {\k10}i{\k10}ga{\k49}i {\k46}ni
+Dialogue: 0,0:00:29.31,0:00:34.56,Sample KM [Up] JPN,,0,0,0,fx,{\k90\fad(300,200)}{\k13}hi{\k9}ki{\k48}sa{\k10}ka{\k14}re{\k24}ta {\k22}ko{\k20}ko{\k24}ro {\k69}da{\k18}ke {\k52}no{\k19}ko{\k27}shi{\k46}te
+Dialogue: 0,0:00:33.46,0:00:37.77,Sample KM [Up] ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k29}found {\k46}out, {\k21}I {\k26}found {\k45}out {\k23}my {\k20}des{\k49}ti{\k44}ny
+Dialogue: 0,0:00:36.67,0:00:41.50,Sample KM [Up] ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k41}But {\k26}I {\k29}still {\k46}feel, {\k15}I {\k24}still {\k50}feel {\k26}emp{\k22}ty {\k36}in{\k58}side
+Dialogue: 0,0:00:40.40,0:00:45.16,Sample KM [Up] JPN,,0,0,0,fx,{\k90\fad(300,200)}{\k42}aa, {\k26}ko{\k23}e {\k47}mo {\k22}u{\k23}ba{\k37}wa{\k28}re{\k14}ru {\k11}no {\k46}na{\k47}ra
+Dialogue: 0,0:00:44.07,0:00:46.99,Sample KM [Up] JPN,,0,0,0,fx,{\k90\fad(300,200)}{\k45}mou {\k25}na{\k22}ni{\k42}mo {\k24}ka{\k24}mo
+Dialogue: 0,0:00:45.90,0:00:48.89,Sample KM [Up] ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Lost {\k31}all {\k23}mea{\k96}ning
+Dialogue: 0,0:00:50.36,0:00:52.55,Sample KM [Up] ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k54}Start {\k55}it
+Dialogue: 0,0:00:51.67,0:00:54.51,Sample KM [Up] ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Don’t {\k24}stop {\k15}my {\k55}heart{\k121}ache
+Dialogue: 0,0:00:53.54,0:00:56.25,Sample KM [Up] ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Don’t {\k27}stop {\k16}my {\k52}heart{\k218}break
+Dialogue: 0,0:00:55.15,0:00:59.93,Sample KM [Up] JPN,,0,0,0,fx,{\k90\fad(300,200)}{\k70}na{\k23}ge{\k69}ki {\k69}ga {\k23}ka{\k24}re{\k23}ru {\k24}ma{\k43}de
+Dialogue: 0,0:00:59.08,0:01:02.02,Sample KM [Up] ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Don’t {\k24}stop {\k15}my {\k55}heart{\k121}ache
+Dialogue: 0,0:01:00.93,0:01:03.65,Sample KM [Up] ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Don’t {\k27}stop {\k16}my {\k52}heart{\k218}break
+Dialogue: 0,0:01:02.55,0:01:07.29,Sample KM [Up] JPN,,0,0,0,fx,{\k90\fad(300,200)}{\k70}i{\k21}tsu{\k68}mi {\k67}ga {\k25}tsu{\k19}ki{\k29}ru {\k23}ma{\k42}de
+Dialogue: 0,0:01:08.34,0:01:11.27,Sample KM [Up] ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k24}can’t {\k23}stop {\k41}this {\k164}hate
+Dialogue: 0,0:01:11.98,0:01:14.96,Sample KM [Up] ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k22}won’t {\k30}stop {\k45}this {\k84}hate
+Dialogue: 0,0:01:15.69,0:01:18.50,Sample KM [Up] ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Don’t {\k24}stop {\k15}my {\k55}heart{\k121}ache
+Dialogue: 0,0:01:19.38,0:01:22.10,Sample KM [Up] ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Don’t {\k27}stop {\k16}my {\k52}heart{\k218}break
