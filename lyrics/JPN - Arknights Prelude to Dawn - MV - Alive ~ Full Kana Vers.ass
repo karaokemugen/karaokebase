@@ -1,0 +1,613 @@
+[Script Info]
+Title: Alive
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: highwolf_x
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Furigana Working-furigana,Kosugi Maru,12.5,&H00D69A3F,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1.5,0,1,1,0,8,2,2,40,1
+Style: Sample KM [Up],Arial,23,&H00D69A3F,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.4,0,8,0,0,20,1
+Style: Sample KM [Choir],Arial,23,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Furigana Working,Kosugi Maru,23,&H00D69A3F,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template syl furi all,!retime("line",$lstart < 900 and -$lstart or -900,200)!{\fade(!$lstart < 900 and $lstart or 300!,200)\an5\pos($center,!$middle+offset()!)\k!$start/10+($lstart < 900 and $lstart or 900)/10!\!$skdur>kfThreshold and "kf" or "k"!!$skdur+20!}
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,code once,kfThreshold=110 -- minimum duration for applying kf instead of k
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,code once,lineOffset=60 -- vertical offset between lines with different vertical margins value
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,code once,function offset() return _G.tonumber(line.margin_t)*lineOffset end
+Comment: 0,0:00:18.37,0:00:24.37,Sample KM [Up],,0,0,0,karaoke,{\k43}I've {\k34}walked {\k33}the {\k35}road {\k40}of {\k161}lies {\k18}and {\k38}mi{\k25}se{\k173}ry
+Comment: 0,0:00:25.04,0:00:30.76,Furigana Working,,0,0,1,karaoke,{\k18}何|な{\k20}#|に{\k22}も{\k19}残|の{\k45}#|こ{\k38}っ{\k176}て{\k42}な{\k18}い{\k174}な
+Comment: 0,0:00:31.11,0:00:37.52,Sample KM [Up],,0,0,0,karaoke,{\k46}Scars {\k42}of {\k24}the {\k42}past {\k41}is {\k165}what {\k42}makes {\k26}me {\k39}who {\k24}I {\k150}am
+Comment: 0,0:00:38.00,0:00:43.56,Furigana Working,,0,0,1,karaoke,{\k42}溢|こ{\k39}#|ぼ{\k33}れ{\k22}落|お{\k42}ち{\k25}て{\k78}く{\k38}　落|お{\k42}ち{\k21}て{\k174}く
+Comment: 0,0:00:43.95,0:00:49.58,Furigana Working,,0,0,0,karaoke,{\k38}風|か{\k50}#|ぜ{\k23}が{\k55}全|す{\k39}#|べ{\k44}て{\k33}熱|ね{\k39}#|つ{\k43}を{\k43}奪|う{\k0}#|ば{\k47}っ{\k23}て{\k18}行|い{\k68}く
+Comment: 0,0:00:50.43,0:00:55.94,Sample KM [Up],,0,0,1,karaoke,{\k37}I {\k31}feel {\k46}my {\k65}heart {\k56}a{\k85}ching {\k62}in{\k169}side
+Comment: 0,0:00:55.94,0:01:00.06,Furigana Working,,0,0,0,karaoke,{\k25}何|な{\k13}#|に{\k47}を{\k43}守|ま{\k40}#|も{\k19}っ{\k79}て　{\k16}傷|き{\k26}#|ず{\k17}つ{\k22}け{\k65}て
+Comment: 0,0:01:00.19,0:01:03.24,Furigana Working,,0,0,1,karaoke,{\k22}今|い{\k20}#|ま{\k20}ま{\k14}で{\k23}生|い{\k23}き{\k20}て{\k21}き{\k36}たん{\k40}だ{\k66}ろう
+Comment: 0,0:01:03.39,0:01:06.41,Sample KM [Up],,0,0,0,karaoke,{\k16}To {\k47}find {\k19}the {\k52}truth {\k48}in {\k28}eve{\k26}ry{\k66}thing
+Comment: 0,0:01:06.41,0:01:09.52,Furigana Working,,0,0,1,karaoke,{\k19}理|り{\k19}不|ふ{\k44}尽|じん{\k19}と{\k20}戦|た{\k53}#|た{\k42}#|か{\k24}っ{\k71}て
+Comment: 0,0:01:10.00,0:01:16.55,Furigana Working,,0,0,0,karaoke,{\k33}You {\k48}see{\k73} {\k38}間|ま{\k42}違|ち{\k0}#|が{\k67}い{\k53}じゃ{\k56}な{\k109}い{\k136}と
+Comment: 0,0:01:16.55,0:01:19.52,Sample KM [Up],,0,0,1,karaoke,{\k25}'Cause {\k36}I'm {\k66}still {\k56}a{\k114}live
+Comment: 0,0:01:18.80,0:01:21.35,Sample KM [Choir],,0,0,0,karaoke,{\k64}Still {\k54}a{\k137}live
+Comment: 0,0:01:20.00,0:01:25.44,Sample KM [Up],,0,0,2,karaoke,{\k26}I {\k73}feel {\k56}a{\k86}live, {\k32}with {\k46}this {\kf225}pain
+Comment: 0,0:01:25.63,0:01:31.93,Sample KM [Up],,0,0,0,karaoke,{\k39}I'll {\k37}be {\k28}the {\k35}on{\k29}ly {\k186}one {\k37}with {\k24}a {\k215}voice
+Comment: 0,0:01:32.20,0:01:38.04,Furigana Working,,0,0,1,karaoke,{\k22}声|こ{\k23}#|え{\k13}を{\k29}上|あ{\k34}げ{\k33}たっ{\k168}て{\k21}返|へ{\k16}#|ん{\k21}事|じ{\k22}も{\k182}ない
+Comment: 0,0:01:38.43,0:01:41.35,Sample KM [Up],,0,0,0,karaoke,{\k34}Hol{\k63}ding {\k43}out {\k35}my {\k117}hand
+Comment: 0,0:01:41.81,0:01:44.80,Sample KM [Up],,0,0,1,karaoke,{\k21}But {\k17}no {\k35}one {\k48}seems {\k15}to {\k163}care
+Comment: 0,0:01:45.20,0:01:51.12,Furigana Working,,0,0,0,karaoke,{\k37}終|お{\k44}わ{\k37}り{\k18}は{\k67}ま{\k79}だ{\k39}遠|と{\k41}#|お{\k20}い{\k210}かい
+Comment: 0,0:01:51.12,0:01:57.25,Furigana Working,,0,0,1,karaoke,{\k48}ゆ{\k35}ら{\k43}ゆ{\k46}ら{\k36}ゆ{\k40}ら{\k26}り{\k56}揺|ゆ{\k40}れ{\k36}る{\k29}陽|<か{\k35}#|げ{\k20}炎|ろ{\k123}#|う
+Comment: 0,0:01:57.58,0:02:03.16,Sample KM [Up],,0,0,0,karaoke,{\k44}And {\k35}burn{\k39}ing {\k65}from {\k55}the {\k67}in{\k99}side {\k154}out
+Comment: 0,0:02:03.16,0:02:07.16,Furigana Working,,0,0,1,karaoke,{\k25}ま{\k25}た{\k27}失|<う{\k45}#|し{\k36}#|な{\k24}っ{\k85}て　{\k19}苛|い{\k20}#|ら{\k24}立|だ{\k19}っ{\k51}て
+Comment: 0,0:02:07.34,0:02:10.39,Furigana Working,,0,0,0,karaoke,{\k24}全|す{\k24}#|べ{\k19}て{\k25}嫌|き{\k0}#|ら{\k30}っ{\k26}て{\k20}き{\k37}たん{\k40}だ{\k60}ろう
+Comment: 0,0:02:10.60,0:02:16.85,Furigana Working,,0,0,1,karaoke,{\k20}凍|こ{\k41}#|ご{\k21}え{\k47}て　{\k45}焼{\k33}か{\k36}れ{\k59}て　{\k13}不|<ふ{\k23}条|じょ{\k26}#|う{\k18}理|り{\k24}に{\k20}抗|<あ{\k52}#|ら{\k34}#|が{\k26}っ{\k87}て
+Comment: 0,0:02:17.16,0:02:23.50,Furigana Working,,0,0,0,karaoke,{\k33}You {\k47}see{\k82} {\k32}忘|わ{\k46}#|す{\k66}れ{\k46}た{\k14}く{\k45}な{\k119}い{\k104}よ
+Comment: 0,0:02:23.80,0:02:26.76,Sample KM [Up],,0,0,1,karaoke,{\k22}'Cause {\k28}I'm {\k72}still {\k49}a{\k125}live
+Comment: 0,0:02:25.85,0:02:28.69,Sample KM [Choir],,0,0,0,karaoke,{\k69}Still {\k64}a{\k151}live
+Comment: 0,0:02:27.22,0:02:33.86,Sample KM [Up],,0,0,2,karaoke,{\k36}I {\k60}feel {\k60}a{\k79}live, {\k42}with {\k43}this {\kf344}pain
+Comment: 0,0:02:35.96,0:02:38.48,Sample KM [Up],,0,0,0,karaoke,{\k42}With {\k44}this {\k166}pain
+Comment: 0,0:02:55.96,0:03:01.95,Furigana Working,,0,0,0,karaoke,{\k26}動|う{\k19}#|ご{\k41}い{\k20}て{\k24}く{\k53}世|せ{\k38}界|か{\k25}#|い{\k77}に　{\k19}引|ひ{\k20}き{\k43}裂|さ{\k24}か{\k35}れ{\k42}たっ{\k93}て
+Comment: 0,0:03:02.40,0:03:08.32,Furigana Working,,0,0,1,karaoke,{\k22}誰|だ{\k18}#|れ{\k40}か{\k22}に{\k37}届|と{\k23}#|ど{\k68}く{\k48}よ{\k36}う{\kf278}に
+Comment: 0,0:03:08.79,0:03:14.41,Furigana Working,,0,0,0,karaoke,{\k21}あ{\k22}な{\k29}た{\k28}に{\k43}届|と{\k20}#|ど{\k72}く{\k40}よ{\k45}う{\kf242}に
+Comment: 0,0:03:14.76,0:03:16.20,Sample KM [Up],,0,0,1,karaoke,{\k144}Yeah
+Comment: 0,0:03:16.68,0:03:20.76,Furigana Working,,0,0,0,karaoke,{\k29}何|な{\k24}#|ん{\k35}度|ど{\k42}嘆|な{\k24}#|げ{\k20}い{\k20}て{\k81}も　{\k15}蓋|ふ{\k25}#|た{\k17}し{\k26}て{\k50}も
+Comment: 0,0:03:20.98,0:03:23.94,Furigana Working,,0,0,1,karaoke,{\k20}そ{\k20}れ{\k23}で{\k17}も{\k16}消|き{\k19}え{\k28}な{\k34}かっ{\k50}たん{\k20}だ{\k49}ろう
+Comment: 0,0:03:24.23,0:03:26.96,Sample KM [Up],,0,0,0,karaoke,{\k18}With {\k41}all {\k20}the {\k91}scars {\k27}with{\k30}in {\k46}me
+Comment: 0,0:03:27.19,0:03:30.32,Furigana Working,,0,0,1,karaoke,{\k36}後|<こう{\k41}悔|かい{\k21}も{\k21}握|に{\k44}#|ぎ{\k12}り{\k36}締|し{\k28}め{\k74}て
+Comment: 0,0:03:30.70,0:03:37.19,Furigana Working,,0,0,0,karaoke,{\k29}You {\k139}See {\k36}間|ま{\k46}違|ち{\k0}#|が{\k58}い{\k57}じゃ{\k44}な{\k112}い{\k128}よ
+Comment: 0,0:03:37.59,0:03:42.16,Sample KM [Up],,0,0,1,karaoke,{\k30}I {\k69}feel {\k60}a{\k121}live, {\k44}a{\k133}live
+Comment: 0,0:03:42.36,0:03:46.29,Furigana Working,,0,0,0,karaoke,{\k26}何|な{\k21}#|に{\k40}を{\k35}守|ま{\k37}#|も{\k23}っ{\k81}て　{\k16}傷|き{\k25}#|ず{\k19}つ{\k16}け{\k54}て
+Comment: 0,0:03:46.60,0:03:49.71,Furigana Working,,0,0,1,karaoke,{\k18}今|い{\k20}#|ま{\k24}ま{\k21}で{\k16}生|い{\k22}き{\k17}て{\k21}き{\k35}たん{\k52}だ{\k65}ろう
+Comment: 0,0:03:49.77,0:03:52.78,Sample KM [Up],,0,0,0,karaoke,{\k21}To {\k50}find {\k17}the {\k56}truth {\k36}in {\k33}eve{\k35}ry{\k53}thing
+Comment: 0,0:03:52.78,0:03:55.81,Furigana Working,,0,0,1,karaoke,{\k19}理|り{\k19}不|ふ{\k44}尽|じん{\k19}と{\k20}戦|<た{\k53}#|た{\k42}#|か{\k24}っ{\k71}て
+Comment: 0,0:03:56.28,0:04:02.72,Furigana Working,,0,0,0,karaoke,{\k33}You {\k61}see{\k60} {\k38}間|ま{\k42}違|ち{\k0}#|が{\k67}い{\k53}じゃ{\k56}な{\k109}い{\k125}と
+Comment: 0,0:04:02.97,0:04:05.96,Sample KM [Up],,0,0,1,karaoke,{\k22}'Cause {\k28}I'm {\k72}still {\k49}a{\k125}live
+Comment: 0,0:04:05.00,0:04:07.88,Sample KM [Choir],,0,0,0,karaoke,{\k69}Still {\k64}a{\k151}live
+Comment: 0,0:04:06.36,0:04:12.13,Sample KM [Up],,0,0,2,karaoke,{\k36}I {\k60}feel {\k60}a{\k79}live, {\k42}with {\k45}this {\kf255}pain
+Comment: 0,0:04:12.33,0:04:14.33,Sample KM [Up],,0,0,0,karaoke,
+Dialogue: 0,0:00:17.47,0:00:24.57,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(52,32)\k90\k20}
+Dialogue: 0,0:00:17.47,0:00:24.57,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(64,32)\k90\k63}I've
+Dialogue: 0,0:00:17.47,0:00:24.57,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(107,32)\k133\k54}walked
+Dialogue: 0,0:00:17.47,0:00:24.57,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(148,32)\k167\k53}the
+Dialogue: 0,0:00:17.47,0:00:24.57,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(181,32)\k200\k55}road
+Dialogue: 0,0:00:17.47,0:00:24.57,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(209,32)\k235\k60}of
+Dialogue: 0,0:00:17.47,0:00:24.57,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(234,32)\k275\kf181}lies
+Dialogue: 0,0:00:17.47,0:00:24.57,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(265,32)\k436\k38}and
+Dialogue: 0,0:00:17.47,0:00:24.57,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(292,32)\k454\k58}mi
+Dialogue: 0,0:00:17.47,0:00:24.57,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(309,32)\k492\k45}se
+Dialogue: 0,0:00:17.47,0:00:24.57,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(325,32)\k517\kf193}ry
+Dialogue: 0,0:00:24.14,0:00:30.96,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(125,73)\k90\k20}
+Dialogue: 0,0:00:24.14,0:00:30.96,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(134,73)\k90\k58}何
+Dialogue: 0,0:00:24.14,0:00:30.96,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(150,73)\k128\k42}も
+Dialogue: 0,0:00:24.14,0:00:30.96,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(167,73)\k150\k84}残
+Dialogue: 0,0:00:24.14,0:00:30.96,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(184,73)\k214\k58}っ
+Dialogue: 0,0:00:24.14,0:00:30.96,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(200,73)\k252\kf196}て
+Dialogue: 0,0:00:24.14,0:00:30.96,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(217,73)\k428\k62}な
+Dialogue: 0,0:00:24.14,0:00:30.96,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(234,73)\k470\k38}い
+Dialogue: 0,0:00:24.14,0:00:30.96,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(250,73)\k488\kf194}な
+Dialogue: 0,0:00:24.14,0:00:30.96,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(130,55)\k90\k38}な
+Dialogue: 0,0:00:24.14,0:00:30.96,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(140,55)\k108\k40}に
+Dialogue: 0,0:00:24.14,0:00:30.96,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(164,55)\k150\k39}の
+Dialogue: 0,0:00:24.14,0:00:30.96,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(173,55)\k169\k65}こ
+Dialogue: 0,0:00:30.21,0:00:37.72,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(27,32)\k90\k20}
+Dialogue: 0,0:00:30.21,0:00:37.72,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(48,32)\k90\k66}Scars
+Dialogue: 0,0:00:30.21,0:00:37.72,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(80,32)\k136\k62}of
+Dialogue: 0,0:00:30.21,0:00:37.72,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(104,32)\k178\k44}the
+Dialogue: 0,0:00:30.21,0:00:37.72,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(135,32)\k202\k62}past
+Dialogue: 0,0:00:30.21,0:00:37.72,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(162,32)\k244\k61}is
+Dialogue: 0,0:00:30.21,0:00:37.72,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(190,32)\k285\kf185}what
+Dialogue: 0,0:00:30.21,0:00:37.72,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(236,32)\k450\k62}makes
+Dialogue: 0,0:00:30.21,0:00:37.72,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(276,32)\k492\k46}me
+Dialogue: 0,0:00:30.21,0:00:37.72,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(307,32)\k518\k59}who
+Dialogue: 0,0:00:30.21,0:00:37.72,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(328,32)\k557\k44}I
+Dialogue: 0,0:00:30.21,0:00:37.72,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(346,32)\k581\kf170}am
+Dialogue: 0,0:00:37.10,0:00:43.76,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(100,73)\k90\k20}
+Dialogue: 0,0:00:37.10,0:00:43.76,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(109,73)\k90\k101}溢
+Dialogue: 0,0:00:37.10,0:00:43.76,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(125,73)\k171\k53}れ
+Dialogue: 0,0:00:37.10,0:00:43.76,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(142,73)\k204\k42}落
+Dialogue: 0,0:00:37.10,0:00:43.76,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(159,73)\k226\k62}ち
+Dialogue: 0,0:00:37.10,0:00:43.76,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(175,73)\k268\k45}て
+Dialogue: 0,0:00:37.10,0:00:43.76,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(192,73)\k293\k98}く
+Dialogue: 0,0:00:37.10,0:00:43.76,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(217,73)\k371\k58}　落
+Dialogue: 0,0:00:37.10,0:00:43.76,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(242,73)\k409\k62}ち
+Dialogue: 0,0:00:37.10,0:00:43.76,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(259,73)\k451\k41}て
+Dialogue: 0,0:00:37.10,0:00:43.76,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(275,73)\k472\kf194}く
+Dialogue: 0,0:00:37.10,0:00:43.76,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(105,55)\k90\k62}こ
+Dialogue: 0,0:00:37.10,0:00:43.76,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(115,55)\k132\k59}ぼ
+Dialogue: 0,0:00:37.10,0:00:43.76,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(142,55)\k204\k42}お
+Dialogue: 0,0:00:37.10,0:00:43.76,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(217,55)\k371\k58}お
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(100,32)\k90\k20}
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(109,32)\k90\k108}風
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(125,32)\k178\k43}が
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(142,32)\k201\k114}全
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(159,32)\k295\k64}て
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(175,32)\k339\k92}熱
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(192,32)\k411\k63}を
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(209,32)\k454\k63}奪
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(225,32)\k497\k67}っ
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(242,32)\k544\k43}て
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(259,32)\k567\k38}行
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(275,32)\k585\k88}く
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(105,14)\k90\k58}か
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(115,14)\k128\k70}ぜ
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(139,14)\k201\k75}す
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(148,14)\k256\k59}べ
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(172,14)\k339\k53}ね
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(182,14)\k372\k59}つ
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(205,14)\k454\k63}う
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(215,14)\k497\k20}ば
+Dialogue: 0,0:00:43.05,0:00:49.78,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(259,14)\k567\k38}い
+Dialogue: 0,0:00:49.53,0:00:56.14,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(89,73)\k90\k20}
+Dialogue: 0,0:00:49.53,0:00:56.14,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(91,73)\k90\k57}I
+Dialogue: 0,0:00:49.53,0:00:56.14,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(110,73)\k127\k51}feel
+Dialogue: 0,0:00:49.53,0:00:56.14,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(139,73)\k158\k66}my
+Dialogue: 0,0:00:49.53,0:00:56.14,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(174,73)\k204\k85}heart
+Dialogue: 0,0:00:49.53,0:00:56.14,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(201,73)\k269\k76}a
+Dialogue: 0,0:00:49.53,0:00:56.14,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(226,73)\k325\k105}ching
+Dialogue: 0,0:00:49.53,0:00:56.14,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(258,73)\k410\k82}in
+Dialogue: 0,0:00:49.53,0:00:56.14,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(280,73)\k472\kf189}side
+Dialogue: 0,0:00:55.04,0:01:00.26,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(109,32)\k90\k20}
+Dialogue: 0,0:00:55.04,0:01:00.26,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(117,32)\k90\k58}何
+Dialogue: 0,0:00:55.04,0:01:00.26,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(134,32)\k128\k67}を
+Dialogue: 0,0:00:55.04,0:01:00.26,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(150,32)\k175\k103}守
+Dialogue: 0,0:00:55.04,0:01:00.26,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(167,32)\k258\k39}っ
+Dialogue: 0,0:00:55.04,0:01:00.26,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(192,32)\k277\k99}て
+Dialogue: 0,0:00:55.04,0:01:00.26,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(217,32)\k356\k62}傷
+Dialogue: 0,0:00:55.04,0:01:00.26,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(234,32)\k398\k37}つ
+Dialogue: 0,0:00:55.04,0:01:00.26,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(250,32)\k415\k42}け
+Dialogue: 0,0:00:55.04,0:01:00.26,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(267,32)\k437\k85}て
+Dialogue: 0,0:00:55.04,0:01:00.26,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(114,14)\k90\k45}な
+Dialogue: 0,0:00:55.04,0:01:00.26,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(123,14)\k115\k33}に
+Dialogue: 0,0:00:55.04,0:01:00.26,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(147,14)\k175\k63}ま
+Dialogue: 0,0:00:55.04,0:01:00.26,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(157,14)\k218\k60}も
+Dialogue: 0,0:00:55.04,0:01:00.26,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(214,14)\k356\k36}き
+Dialogue: 0,0:00:55.04,0:01:00.26,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(223,14)\k372\k46}ず
+Dialogue: 0,0:00:59.29,0:01:03.44,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(92,73)\k90\k20}
+Dialogue: 0,0:00:59.29,0:01:03.44,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(100,73)\k90\k62}今
+Dialogue: 0,0:00:59.29,0:01:03.44,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(117,73)\k132\k40}ま
+Dialogue: 0,0:00:59.29,0:01:03.44,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(134,73)\k152\k34}で
+Dialogue: 0,0:00:59.29,0:01:03.44,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(150,73)\k166\k43}生
+Dialogue: 0,0:00:59.29,0:01:03.44,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(167,73)\k189\k43}き
+Dialogue: 0,0:00:59.29,0:01:03.44,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(184,73)\k212\k40}て
+Dialogue: 0,0:00:59.29,0:01:03.44,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(200,73)\k232\k41}き
+Dialogue: 0,0:00:59.29,0:01:03.44,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(225,73)\k253\k56}たん
+Dialogue: 0,0:00:59.29,0:01:03.44,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(250,73)\k289\k60}だ
+Dialogue: 0,0:00:59.29,0:01:03.44,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(275,73)\k329\k86}ろう
+Dialogue: 0,0:00:59.29,0:01:03.44,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(97,55)\k90\k42}い
+Dialogue: 0,0:00:59.29,0:01:03.44,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(107,55)\k112\k40}ま
+Dialogue: 0,0:00:59.29,0:01:03.44,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(150,55)\k166\k43}い
+Dialogue: 0,0:01:02.49,0:01:06.61,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(83,32)\k90\k20}
+Dialogue: 0,0:01:02.49,0:01:06.61,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(92,32)\k90\k36}To
+Dialogue: 0,0:01:02.49,0:01:06.61,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(119,32)\k106\k67}find
+Dialogue: 0,0:01:02.49,0:01:06.61,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(149,32)\k153\k39}the
+Dialogue: 0,0:01:02.49,0:01:06.61,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(183,32)\k172\k72}truth
+Dialogue: 0,0:01:02.49,0:01:06.61,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(212,32)\k224\k68}in
+Dialogue: 0,0:01:02.49,0:01:06.61,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(236,32)\k272\k48}eve
+Dialogue: 0,0:01:02.49,0:01:06.61,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(256,32)\k300\k46}ry
+Dialogue: 0,0:01:02.49,0:01:06.61,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(282,32)\k326\k86}thing
+Dialogue: 0,0:01:05.51,0:01:09.72,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(134,73)\k90\k20}
+Dialogue: 0,0:01:05.51,0:01:09.72,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(142,73)\k90\k39}理
+Dialogue: 0,0:01:05.51,0:01:09.72,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(159,73)\k109\k39}不
+Dialogue: 0,0:01:05.51,0:01:09.72,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(175,73)\k128\k64}尽
+Dialogue: 0,0:01:05.51,0:01:09.72,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(192,73)\k172\k39}と
+Dialogue: 0,0:01:05.51,0:01:09.72,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(209,73)\k191\kf135}戦
+Dialogue: 0,0:01:05.51,0:01:09.72,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(225,73)\k306\k44}っ
+Dialogue: 0,0:01:05.51,0:01:09.72,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(242,73)\k330\k91}て
+Dialogue: 0,0:01:05.51,0:01:09.72,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(144,55)\k90\k39}り
+Dialogue: 0,0:01:05.51,0:01:09.72,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(154,55)\k109\k39}ふ
+Dialogue: 0,0:01:05.51,0:01:09.72,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(169,55)\k128\k64}じん
+Dialogue: 0,0:01:05.51,0:01:09.72,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(205,55)\k191\k40}た
+Dialogue: 0,0:01:05.51,0:01:09.72,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(215,55)\k211\k73}た
+Dialogue: 0,0:01:05.51,0:01:09.72,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(225,55)\k264\k62}か
+Dialogue: 0,0:01:09.10,0:01:16.75,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(100,32)\k90\k20}
+Dialogue: 0,0:01:09.10,0:01:16.75,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(111,32)\k90\k53}You
+Dialogue: 0,0:01:09.10,0:01:16.75,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(137,32)\k123\k68}see
+Dialogue: 0,0:01:09.10,0:01:16.75,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(151,32)\k171\k93}
+Dialogue: 0,0:01:09.10,0:01:16.75,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(159,32)\k244\k58}間
+Dialogue: 0,0:01:09.10,0:01:16.75,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(176,32)\k282\k62}違
+Dialogue: 0,0:01:09.10,0:01:16.75,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(193,32)\k324\k87}い
+Dialogue: 0,0:01:09.10,0:01:16.75,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(218,32)\k391\k73}じゃ
+Dialogue: 0,0:01:09.10,0:01:16.75,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(243,32)\k444\k76}な
+Dialogue: 0,0:01:09.10,0:01:16.75,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(259,32)\k500\k129}い
+Dialogue: 0,0:01:09.10,0:01:16.75,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(276,32)\k609\kf156}と
+Dialogue: 0,0:01:09.10,0:01:16.75,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(158,14)\k244\k58}ま
+Dialogue: 0,0:01:09.10,0:01:16.75,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(168,14)\k282\k62}ち
+Dialogue: 0,0:01:09.10,0:01:16.75,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(177,14)\k324\k20}が
+Dialogue: 0,0:01:15.65,0:01:19.72,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(119,73)\k90\k20}
+Dialogue: 0,0:01:15.65,0:01:19.72,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(144,73)\k90\k45}'Cause
+Dialogue: 0,0:01:15.65,0:01:19.72,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(184,73)\k115\k56}I'm
+Dialogue: 0,0:01:15.65,0:01:19.72,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(213,73)\k151\k86}still
+Dialogue: 0,0:01:15.65,0:01:19.72,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(235,73)\k217\k76}a
+Dialogue: 0,0:01:15.65,0:01:19.72,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(252,73)\k273\kf134}live
+Dialogue: 0,0:01:17.90,0:01:21.55,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(159,92)\k90\k20}
+Dialogue: 0,0:01:17.90,0:01:21.55,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(173,92)\k90\k84}Still
+Dialogue: 0,0:01:17.90,0:01:21.55,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(195,92)\k154\k74}a
+Dialogue: 0,0:01:17.90,0:01:21.55,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(213,92)\k208\kf157}live
+Dialogue: 0,0:01:19.10,0:01:25.64,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(101,134)\k90\k20}
+Dialogue: 0,0:01:19.10,0:01:25.64,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(104,134)\k90\k46}I
+Dialogue: 0,0:01:19.10,0:01:25.64,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(123,134)\k116\k93}feel
+Dialogue: 0,0:01:19.10,0:01:25.64,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(145,134)\k189\k76}a
+Dialogue: 0,0:01:19.10,0:01:25.64,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(165,134)\k245\k106}live,
+Dialogue: 0,0:01:19.10,0:01:25.64,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(199,134)\k331\k52}with
+Dialogue: 0,0:01:19.10,0:01:25.64,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(233,134)\k363\k66}this
+Dialogue: 0,0:01:19.10,0:01:25.64,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(267,134)\k409\kf245}pain
+Dialogue: 0,0:01:24.73,0:01:32.13,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(79,32)\k90\k20}
+Dialogue: 0,0:01:24.73,0:01:32.13,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(87,32)\k90\k59}I'll
+Dialogue: 0,0:01:24.73,0:01:32.13,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(109,32)\k129\k57}be
+Dialogue: 0,0:01:24.73,0:01:32.13,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(134,32)\k166\k48}the
+Dialogue: 0,0:01:24.73,0:01:32.13,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(159,32)\k194\k55}on
+Dialogue: 0,0:01:24.73,0:01:32.13,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(175,32)\k229\k49}ly
+Dialogue: 0,0:01:24.73,0:01:32.13,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(199,32)\k258\kf206}one
+Dialogue: 0,0:01:24.73,0:01:32.13,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(233,32)\k444\k57}with
+Dialogue: 0,0:01:24.73,0:01:32.13,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(257,32)\k481\k44}a
+Dialogue: 0,0:01:24.73,0:01:32.13,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(285,32)\k505\kf235}voice
+Dialogue: 0,0:01:31.30,0:01:38.24,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(92,73)\k90\k20}
+Dialogue: 0,0:01:31.30,0:01:38.24,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(100,73)\k90\k65}声
+Dialogue: 0,0:01:31.30,0:01:38.24,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(117,73)\k135\k33}を
+Dialogue: 0,0:01:31.30,0:01:38.24,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(134,73)\k148\k49}上
+Dialogue: 0,0:01:31.30,0:01:38.24,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(150,73)\k177\k54}げ
+Dialogue: 0,0:01:31.30,0:01:38.24,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(175,73)\k211\k53}たっ
+Dialogue: 0,0:01:31.30,0:01:38.24,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(200,73)\k244\kf188}て
+Dialogue: 0,0:01:31.30,0:01:38.24,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(217,73)\k412\k57}返
+Dialogue: 0,0:01:31.30,0:01:38.24,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(234,73)\k449\k41}事
+Dialogue: 0,0:01:31.30,0:01:38.24,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(250,73)\k470\k42}も
+Dialogue: 0,0:01:31.30,0:01:38.24,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(275,73)\k492\kf202}ない
+Dialogue: 0,0:01:31.30,0:01:38.24,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(97,55)\k90\k42}こ
+Dialogue: 0,0:01:31.30,0:01:38.24,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(107,55)\k112\k43}え
+Dialogue: 0,0:01:31.30,0:01:38.24,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(134,55)\k148\k49}あ
+Dialogue: 0,0:01:31.30,0:01:38.24,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(215,55)\k412\k41}へ
+Dialogue: 0,0:01:31.30,0:01:38.24,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(225,55)\k433\k36}ん
+Dialogue: 0,0:01:31.30,0:01:38.24,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(235,55)\k449\k41}じ
+Dialogue: 0,0:01:37.53,0:01:41.55,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(115,32)\k90\k20}
+Dialogue: 0,0:01:37.53,0:01:41.55,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(128,32)\k90\k54}Hol
+Dialogue: 0,0:01:37.53,0:01:41.55,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(156,32)\k124\k83}ding
+Dialogue: 0,0:01:37.53,0:01:41.55,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(189,32)\k187\k63}out
+Dialogue: 0,0:01:37.53,0:01:41.55,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(216,32)\k230\k55}my
+Dialogue: 0,0:01:37.53,0:01:41.55,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(250,32)\k265\kf137}hand
+Dialogue: 0,0:01:40.91,0:01:45.00,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(98,73)\k90\k20}
+Dialogue: 0,0:01:40.91,0:01:45.00,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(111,73)\k90\k41}But
+Dialogue: 0,0:01:40.91,0:01:45.00,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(137,73)\k111\k37}no
+Dialogue: 0,0:01:40.91,0:01:45.00,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(165,73)\k128\k55}one
+Dialogue: 0,0:01:40.91,0:01:45.00,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(207,73)\k163\k68}seems
+Dialogue: 0,0:01:40.91,0:01:45.00,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(243,73)\k211\k35}to
+Dialogue: 0,0:01:40.91,0:01:45.00,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(270,73)\k226\kf183}care
+Dialogue: 0,0:01:44.30,0:01:51.32,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(109,32)\k90\k20}
+Dialogue: 0,0:01:44.30,0:01:51.32,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(117,32)\k90\k57}終
+Dialogue: 0,0:01:44.30,0:01:51.32,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(134,32)\k127\k64}わ
+Dialogue: 0,0:01:44.30,0:01:51.32,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(150,32)\k171\k57}り
+Dialogue: 0,0:01:44.30,0:01:51.32,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(167,32)\k208\k38}は
+Dialogue: 0,0:01:44.30,0:01:51.32,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(184,32)\k226\k87}ま
+Dialogue: 0,0:01:44.30,0:01:51.32,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(200,32)\k293\k99}だ
+Dialogue: 0,0:01:44.30,0:01:51.32,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(217,32)\k372\k100}遠
+Dialogue: 0,0:01:44.30,0:01:51.32,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(234,32)\k452\k40}い
+Dialogue: 0,0:01:44.30,0:01:51.32,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(259,32)\k472\kf230}かい
+Dialogue: 0,0:01:44.30,0:01:51.32,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(117,14)\k90\k57}お
+Dialogue: 0,0:01:44.30,0:01:51.32,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(214,14)\k372\k59}と
+Dialogue: 0,0:01:44.30,0:01:51.32,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(223,14)\k411\k61}お
+Dialogue: 0,0:01:50.22,0:01:57.45,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(92,73)\k90\k20}
+Dialogue: 0,0:01:50.22,0:01:57.45,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(100,73)\k90\k68}ゆ
+Dialogue: 0,0:01:50.22,0:01:57.45,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(117,73)\k138\k55}ら
+Dialogue: 0,0:01:50.22,0:01:57.45,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(134,73)\k173\k63}ゆ
+Dialogue: 0,0:01:50.22,0:01:57.45,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(150,73)\k216\k66}ら
+Dialogue: 0,0:01:50.22,0:01:57.45,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(167,73)\k262\k56}ゆ
+Dialogue: 0,0:01:50.22,0:01:57.45,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(184,73)\k298\k60}ら
+Dialogue: 0,0:01:50.22,0:01:57.45,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(200,73)\k338\k46}り
+Dialogue: 0,0:01:50.22,0:01:57.45,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(217,73)\k364\k76}揺
+Dialogue: 0,0:01:50.22,0:01:57.45,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(234,73)\k420\k60}れ
+Dialogue: 0,0:01:50.22,0:01:57.45,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(250,73)\k460\k56}る
+Dialogue: 0,0:01:50.22,0:01:57.45,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(267,73)\k496\k84}陽
+Dialogue: 0,0:01:50.22,0:01:57.45,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(284,73)\k560\kf163}炎
+Dialogue: 0,0:01:50.22,0:01:57.45,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(217,55)\k364\k76}ゆ
+Dialogue: 0,0:01:50.22,0:01:57.45,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(261,55)\k496\k49}か
+Dialogue: 0,0:01:50.22,0:01:57.45,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(270,55)\k525\k55}げ
+Dialogue: 0,0:01:50.22,0:01:57.45,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(280,55)\k560\k40}ろ
+Dialogue: 0,0:01:50.22,0:01:57.45,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(290,55)\k580\kf143}う
+Dialogue: 0,0:01:56.68,0:02:03.36,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(75,32)\k90\k20}
+Dialogue: 0,0:01:56.68,0:02:03.36,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(90,32)\k90\k64}And
+Dialogue: 0,0:01:56.68,0:02:03.36,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(126,32)\k134\k55}burn
+Dialogue: 0,0:01:56.68,0:02:03.36,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(155,32)\k169\k59}ing
+Dialogue: 0,0:01:56.68,0:02:03.36,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(188,32)\k208\k85}from
+Dialogue: 0,0:01:56.68,0:02:03.36,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(221,32)\k273\k75}the
+Dialogue: 0,0:01:56.68,0:02:03.36,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(243,32)\k328\k87}in
+Dialogue: 0,0:01:56.68,0:02:03.36,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(266,32)\k395\k119}side
+Dialogue: 0,0:01:56.68,0:02:03.36,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(297,32)\k494\kf174}out
+Dialogue: 0,0:02:02.26,0:02:07.36,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(109,73)\k90\k20}
+Dialogue: 0,0:02:02.26,0:02:07.36,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(117,73)\k90\k45}ま
+Dialogue: 0,0:02:02.26,0:02:07.36,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(134,73)\k115\k45}た
+Dialogue: 0,0:02:02.26,0:02:07.36,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(150,73)\k140\k128}失
+Dialogue: 0,0:02:02.26,0:02:07.36,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(167,73)\k248\k44}っ
+Dialogue: 0,0:02:02.26,0:02:07.36,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(192,73)\k272\k105}て
+Dialogue: 0,0:02:02.26,0:02:07.36,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(217,73)\k357\k59}苛
+Dialogue: 0,0:02:02.26,0:02:07.36,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(234,73)\k396\k44}立
+Dialogue: 0,0:02:02.26,0:02:07.36,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(250,73)\k420\k39}っ
+Dialogue: 0,0:02:02.26,0:02:07.36,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(267,73)\k439\k71}て
+Dialogue: 0,0:02:02.26,0:02:07.36,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(140,55)\k140\k47}う
+Dialogue: 0,0:02:02.26,0:02:07.36,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(150,55)\k167\k65}し
+Dialogue: 0,0:02:02.26,0:02:07.36,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(160,55)\k212\k56}な
+Dialogue: 0,0:02:02.26,0:02:07.36,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(215,55)\k357\k39}い
+Dialogue: 0,0:02:02.26,0:02:07.36,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(225,55)\k376\k40}ら
+Dialogue: 0,0:02:02.26,0:02:07.36,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(235,55)\k396\k44}だ
+Dialogue: 0,0:02:06.44,0:02:10.59,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(100,32)\k90\k20}
+Dialogue: 0,0:02:06.44,0:02:10.59,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(109,32)\k90\k68}全
+Dialogue: 0,0:02:06.44,0:02:10.59,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(125,32)\k138\k39}て
+Dialogue: 0,0:02:06.44,0:02:10.59,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(142,32)\k157\k45}嫌
+Dialogue: 0,0:02:06.44,0:02:10.59,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(159,32)\k182\k50}っ
+Dialogue: 0,0:02:06.44,0:02:10.59,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(175,32)\k212\k46}て
+Dialogue: 0,0:02:06.44,0:02:10.59,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(192,32)\k238\k40}き
+Dialogue: 0,0:02:06.44,0:02:10.59,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(217,32)\k258\k57}たん
+Dialogue: 0,0:02:06.44,0:02:10.59,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(242,32)\k295\k60}だ
+Dialogue: 0,0:02:06.44,0:02:10.59,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(267,32)\k335\k80}ろう
+Dialogue: 0,0:02:06.44,0:02:10.59,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(105,14)\k90\k44}す
+Dialogue: 0,0:02:06.44,0:02:10.59,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(115,14)\k114\k44}べ
+Dialogue: 0,0:02:06.44,0:02:10.59,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(139,14)\k157\k45}き
+Dialogue: 0,0:02:06.44,0:02:10.59,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(148,14)\k182\k20}ら
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(59,73)\k90\k20}
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(67,73)\k90\k81}凍
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(84,73)\k151\k41}え
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(109,73)\k172\k67}て
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(134,73)\k219\k65}焼
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(150,73)\k264\k53}か
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(167,73)\k297\k56}れ
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(192,73)\k333\k79}て
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(217,73)\k392\k33}不
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(234,73)\k405\k69}条
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(250,73)\k454\k38}理
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(267,73)\k472\k44}に
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(284,73)\k496\k126}抗
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(300,73)\k602\k46}っ
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(317,73)\k628\k107}て
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(63,55)\k90\k40}こ
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(73,55)\k110\k61}ご
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(214,55)\k392\k33}ふ
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(229,55)\k405\k43}じょ
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(244,55)\k428\k46}う
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(253,55)\k454\k38}り
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(274,55)\k496\k40}あ
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(284,55)\k516\k72}ら
+Dialogue: 0,0:02:09.70,0:02:17.05,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(294,55)\k568\k54}が
+Dialogue: 0,0:02:16.26,0:02:23.70,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(108,32)\k90\k20}
+Dialogue: 0,0:02:16.26,0:02:23.70,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(120,32)\k90\k53}You
+Dialogue: 0,0:02:16.26,0:02:23.70,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(145,32)\k123\k67}see
+Dialogue: 0,0:02:16.26,0:02:23.70,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(159,32)\k170\k102}
+Dialogue: 0,0:02:16.26,0:02:23.70,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(168,32)\k252\k98}忘
+Dialogue: 0,0:02:16.26,0:02:23.70,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(184,32)\k330\k86}れ
+Dialogue: 0,0:02:16.26,0:02:23.70,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(201,32)\k396\k66}た
+Dialogue: 0,0:02:16.26,0:02:23.70,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(218,32)\k442\k34}く
+Dialogue: 0,0:02:16.26,0:02:23.70,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(234,32)\k456\k65}な
+Dialogue: 0,0:02:16.26,0:02:23.70,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(251,32)\k501\kf139}い
+Dialogue: 0,0:02:16.26,0:02:23.70,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(268,32)\k620\k124}よ
+Dialogue: 0,0:02:16.26,0:02:23.70,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(164,14)\k252\k52}わ
+Dialogue: 0,0:02:16.26,0:02:23.70,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(174,14)\k284\k66}す
+Dialogue: 0,0:02:22.90,0:02:26.96,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(119,73)\k90\k20}
+Dialogue: 0,0:02:22.90,0:02:26.96,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(144,73)\k90\k42}'Cause
+Dialogue: 0,0:02:22.90,0:02:26.96,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(184,73)\k112\k48}I'm
+Dialogue: 0,0:02:22.90,0:02:26.96,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(213,73)\k140\k92}still
+Dialogue: 0,0:02:22.90,0:02:26.96,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(235,73)\k212\k69}a
+Dialogue: 0,0:02:22.90,0:02:26.96,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(252,73)\k261\kf145}live
+Dialogue: 0,0:02:24.95,0:02:28.89,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(159,92)\k90\k20}
+Dialogue: 0,0:02:24.95,0:02:28.89,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(173,92)\k90\k89}Still
+Dialogue: 0,0:02:24.95,0:02:28.89,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(195,92)\k159\k84}a
+Dialogue: 0,0:02:24.95,0:02:28.89,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(213,92)\k223\kf171}live
+Dialogue: 0,0:02:26.32,0:02:34.06,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(101,134)\k90\k20}
+Dialogue: 0,0:02:26.32,0:02:34.06,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(104,134)\k90\k56}I
+Dialogue: 0,0:02:26.32,0:02:34.06,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(123,134)\k126\k80}feel
+Dialogue: 0,0:02:26.32,0:02:34.06,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(145,134)\k186\k80}a
+Dialogue: 0,0:02:26.32,0:02:34.06,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(165,134)\k246\k99}live,
+Dialogue: 0,0:02:26.32,0:02:34.06,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(199,134)\k325\k62}with
+Dialogue: 0,0:02:26.32,0:02:34.06,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(233,134)\k367\k63}this
+Dialogue: 0,0:02:26.32,0:02:34.06,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(267,134)\k410\kf364}pain
+Dialogue: 0,0:02:35.06,0:02:38.68,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(141,32)\k90\k20}
+Dialogue: 0,0:02:35.06,0:02:38.68,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(158,32)\k90\k62}With
+Dialogue: 0,0:02:35.06,0:02:38.68,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(193,32)\k132\k64}this
+Dialogue: 0,0:02:35.06,0:02:38.68,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(227,32)\k176\kf186}pain
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(59,32)\k90\k20}
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(67,32)\k90\k65}動
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(84,32)\k135\k61}い
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(100,32)\k176\k40}て
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(117,32)\k196\k44}く
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(134,32)\k220\k73}世
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(150,32)\k273\k83}界
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(175,32)\k336\k97}に
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(200,32)\k413\k39}引
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(217,32)\k432\k40}き
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(234,32)\k452\k63}裂
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(250,32)\k495\k44}か
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(267,32)\k519\k55}れ
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(292,32)\k554\k62}たっ
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(317,32)\k596\k113}て
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(63,14)\k90\k46}う
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(73,14)\k116\k39}ご
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(132,14)\k220\k73}せ
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(142,14)\k273\k58}か
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(152,14)\k311\k45}い
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(200,14)\k413\k39}ひ
+Dialogue: 0,0:02:55.06,0:03:02.15,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(234,14)\k452\k63}さ
+Dialogue: 0,0:03:01.50,0:03:08.52,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(125,73)\k90\k20}
+Dialogue: 0,0:03:01.50,0:03:08.52,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(134,73)\k90\k60}誰
+Dialogue: 0,0:03:01.50,0:03:08.52,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(150,73)\k130\k60}か
+Dialogue: 0,0:03:01.50,0:03:08.52,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(167,73)\k170\k42}に
+Dialogue: 0,0:03:01.50,0:03:08.52,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(184,73)\k192\k80}届
+Dialogue: 0,0:03:01.50,0:03:08.52,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(200,73)\k252\k88}く
+Dialogue: 0,0:03:01.50,0:03:08.52,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(217,73)\k320\k68}よ
+Dialogue: 0,0:03:01.50,0:03:08.52,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(234,73)\k368\k56}う
+Dialogue: 0,0:03:01.50,0:03:08.52,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(250,73)\k404\kf298}に
+Dialogue: 0,0:03:01.50,0:03:08.52,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(130,55)\k90\k42}だ
+Dialogue: 0,0:03:01.50,0:03:08.52,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(140,55)\k112\k38}れ
+Dialogue: 0,0:03:01.50,0:03:08.52,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(180,55)\k192\k57}と
+Dialogue: 0,0:03:01.50,0:03:08.52,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(190,55)\k229\k43}ど
+Dialogue: 0,0:03:07.89,0:03:14.61,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(117,32)\k90\k20}
+Dialogue: 0,0:03:07.89,0:03:14.61,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(125,32)\k90\k41}あ
+Dialogue: 0,0:03:07.89,0:03:14.61,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(142,32)\k111\k42}な
+Dialogue: 0,0:03:07.89,0:03:14.61,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(159,32)\k133\k49}た
+Dialogue: 0,0:03:07.89,0:03:14.61,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(175,32)\k162\k48}に
+Dialogue: 0,0:03:07.89,0:03:14.61,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(192,32)\k190\k83}届
+Dialogue: 0,0:03:07.89,0:03:14.61,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(209,32)\k253\k92}く
+Dialogue: 0,0:03:07.89,0:03:14.61,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(225,32)\k325\k60}よ
+Dialogue: 0,0:03:07.89,0:03:14.61,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(242,32)\k365\k65}う
+Dialogue: 0,0:03:07.89,0:03:14.61,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(259,32)\k410\kf262}に
+Dialogue: 0,0:03:07.89,0:03:14.61,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(189,14)\k190\k63}と
+Dialogue: 0,0:03:07.89,0:03:14.61,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(198,14)\k233\k40}ど
+Dialogue: 0,0:03:13.86,0:03:16.40,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(174,73)\k90\k20}
+Dialogue: 0,0:03:13.86,0:03:16.40,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(192,73)\k90\kf164}Yeah
+Dialogue: 0,0:03:15.78,0:03:20.96,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(100,32)\k90\k20}
+Dialogue: 0,0:03:15.78,0:03:20.96,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(109,32)\k90\k73}何
+Dialogue: 0,0:03:15.78,0:03:20.96,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(125,32)\k143\k55}度
+Dialogue: 0,0:03:15.78,0:03:20.96,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(142,32)\k178\k86}嘆
+Dialogue: 0,0:03:15.78,0:03:20.96,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(159,32)\k244\k40}い
+Dialogue: 0,0:03:15.78,0:03:20.96,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(175,32)\k264\k40}て
+Dialogue: 0,0:03:15.78,0:03:20.96,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(200,32)\k284\k101}も
+Dialogue: 0,0:03:15.78,0:03:20.96,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(225,32)\k365\k60}蓋
+Dialogue: 0,0:03:15.78,0:03:20.96,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(242,32)\k405\k37}し
+Dialogue: 0,0:03:15.78,0:03:20.96,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(259,32)\k422\k46}て
+Dialogue: 0,0:03:15.78,0:03:20.96,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(275,32)\k448\k70}も
+Dialogue: 0,0:03:15.78,0:03:20.96,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(106,14)\k90\k49}な
+Dialogue: 0,0:03:15.78,0:03:20.96,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(115,14)\k119\k44}ん
+Dialogue: 0,0:03:15.78,0:03:20.96,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(125,14)\k143\k55}ど
+Dialogue: 0,0:03:15.78,0:03:20.96,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(135,14)\k178\k62}な
+Dialogue: 0,0:03:15.78,0:03:20.96,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(145,14)\k220\k44}げ
+Dialogue: 0,0:03:15.78,0:03:20.96,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(222,14)\k365\k35}ふ
+Dialogue: 0,0:03:15.78,0:03:20.96,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(232,14)\k380\k45}た
+Dialogue: 0,0:03:20.08,0:03:24.14,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(75,73)\k90\k20}
+Dialogue: 0,0:03:20.08,0:03:24.14,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(84,73)\k90\k40}そ
+Dialogue: 0,0:03:20.08,0:03:24.14,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(100,73)\k110\k40}れ
+Dialogue: 0,0:03:20.08,0:03:24.14,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(117,73)\k130\k43}で
+Dialogue: 0,0:03:20.08,0:03:24.14,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(134,73)\k153\k37}も
+Dialogue: 0,0:03:20.08,0:03:24.14,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(150,73)\k170\k36}消
+Dialogue: 0,0:03:20.08,0:03:24.14,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(167,73)\k186\k39}え
+Dialogue: 0,0:03:20.08,0:03:24.14,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(184,73)\k205\k48}な
+Dialogue: 0,0:03:20.08,0:03:24.14,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(209,73)\k233\k54}かっ
+Dialogue: 0,0:03:20.08,0:03:24.14,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(242,73)\k267\k70}たん
+Dialogue: 0,0:03:20.08,0:03:24.14,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(267,73)\k317\k40}だ
+Dialogue: 0,0:03:20.08,0:03:24.14,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(292,73)\k337\k69}ろう
+Dialogue: 0,0:03:20.08,0:03:24.14,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(150,55)\k170\k36}き
+Dialogue: 0,0:03:23.33,0:03:27.16,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(91,32)\k90\k20}
+Dialogue: 0,0:03:23.33,0:03:27.16,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(107,32)\k90\k38}With
+Dialogue: 0,0:03:23.33,0:03:27.16,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(137,32)\k108\k61}all
+Dialogue: 0,0:03:23.33,0:03:27.16,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(161,32)\k149\k40}the
+Dialogue: 0,0:03:23.33,0:03:27.16,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(198,32)\k169\k111}scars
+Dialogue: 0,0:03:23.33,0:03:27.16,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(237,32)\k260\k47}with
+Dialogue: 0,0:03:23.33,0:03:27.16,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(260,32)\k287\k50}in
+Dialogue: 0,0:03:23.33,0:03:27.16,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(282,32)\k317\k66}me
+Dialogue: 0,0:03:26.29,0:03:30.52,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(125,73)\k90\k20}
+Dialogue: 0,0:03:26.29,0:03:30.52,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(134,73)\k90\k56}後
+Dialogue: 0,0:03:26.29,0:03:30.52,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(150,73)\k126\k61}悔
+Dialogue: 0,0:03:26.29,0:03:30.52,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(167,73)\k167\k41}も
+Dialogue: 0,0:03:26.29,0:03:30.52,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(184,73)\k188\k85}握
+Dialogue: 0,0:03:26.29,0:03:30.52,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(200,73)\k253\k32}り
+Dialogue: 0,0:03:26.29,0:03:30.52,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(217,73)\k265\k56}締
+Dialogue: 0,0:03:26.29,0:03:30.52,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(234,73)\k301\k48}め
+Dialogue: 0,0:03:26.29,0:03:30.52,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(250,73)\k329\k94}て
+Dialogue: 0,0:03:26.29,0:03:30.52,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(132,55)\k90\k56}こう
+Dialogue: 0,0:03:26.29,0:03:30.52,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(152,55)\k126\k61}かい
+Dialogue: 0,0:03:26.29,0:03:30.52,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(180,55)\k188\k41}に
+Dialogue: 0,0:03:26.29,0:03:30.52,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(190,55)\k209\k64}ぎ
+Dialogue: 0,0:03:26.29,0:03:30.52,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(217,55)\k265\k56}し
+Dialogue: 0,0:03:29.80,0:03:37.39,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(99,32)\k90\k20}
+Dialogue: 0,0:03:29.80,0:03:37.39,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(111,32)\k90\k49}You
+Dialogue: 0,0:03:29.80,0:03:37.39,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(137,32)\k119\kf159}See
+Dialogue: 0,0:03:29.80,0:03:37.39,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(160,32)\k258\k56}間
+Dialogue: 0,0:03:29.80,0:03:37.39,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(176,32)\k294\k66}違
+Dialogue: 0,0:03:29.80,0:03:37.39,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(193,32)\k340\k78}い
+Dialogue: 0,0:03:29.80,0:03:37.39,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(218,32)\k398\k77}じゃ
+Dialogue: 0,0:03:29.80,0:03:37.39,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(243,32)\k455\k64}な
+Dialogue: 0,0:03:29.80,0:03:37.39,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(260,32)\k499\kf132}い
+Dialogue: 0,0:03:29.80,0:03:37.39,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(276,32)\k611\kf148}よ
+Dialogue: 0,0:03:29.80,0:03:37.39,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(158,14)\k258\k56}ま
+Dialogue: 0,0:03:29.80,0:03:37.39,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(168,14)\k294\k66}ち
+Dialogue: 0,0:03:29.80,0:03:37.39,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(178,14)\k340\k20}が
+Dialogue: 0,0:03:36.69,0:03:42.36,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(134,73)\k90\k20}
+Dialogue: 0,0:03:36.69,0:03:42.36,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(136,73)\k90\k50}I
+Dialogue: 0,0:03:36.69,0:03:42.36,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(156,73)\k120\k89}feel
+Dialogue: 0,0:03:36.69,0:03:42.36,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(177,73)\k189\k80}a
+Dialogue: 0,0:03:36.69,0:03:42.36,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(197,73)\k249\kf141}live,
+Dialogue: 0,0:03:36.69,0:03:42.36,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(220,73)\k370\k64}a
+Dialogue: 0,0:03:36.69,0:03:42.36,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(237,73)\k414\kf153}live
+Dialogue: 0,0:03:41.46,0:03:46.49,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(109,32)\k90\k20}
+Dialogue: 0,0:03:41.46,0:03:46.49,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(117,32)\k90\k67}何
+Dialogue: 0,0:03:41.46,0:03:46.49,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(134,32)\k137\k60}を
+Dialogue: 0,0:03:41.46,0:03:46.49,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(150,32)\k177\k92}守
+Dialogue: 0,0:03:41.46,0:03:46.49,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(167,32)\k249\k43}っ
+Dialogue: 0,0:03:41.46,0:03:46.49,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(192,32)\k272\k101}て
+Dialogue: 0,0:03:41.46,0:03:46.49,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(217,32)\k353\k61}傷
+Dialogue: 0,0:03:41.46,0:03:46.49,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(234,32)\k394\k39}つ
+Dialogue: 0,0:03:41.46,0:03:46.49,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(250,32)\k413\k36}け
+Dialogue: 0,0:03:41.46,0:03:46.49,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(267,32)\k429\k74}て
+Dialogue: 0,0:03:41.46,0:03:46.49,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(114,14)\k90\k46}な
+Dialogue: 0,0:03:41.46,0:03:46.49,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(123,14)\k116\k41}に
+Dialogue: 0,0:03:41.46,0:03:46.49,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(147,14)\k177\k55}ま
+Dialogue: 0,0:03:41.46,0:03:46.49,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(157,14)\k212\k57}も
+Dialogue: 0,0:03:41.46,0:03:46.49,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(214,14)\k353\k36}き
+Dialogue: 0,0:03:41.46,0:03:46.49,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(223,14)\k369\k45}ず
+Dialogue: 0,0:03:45.70,0:03:49.91,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(92,73)\k90\k20}
+Dialogue: 0,0:03:45.70,0:03:49.91,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(100,73)\k90\k58}今
+Dialogue: 0,0:03:45.70,0:03:49.91,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(117,73)\k128\k44}ま
+Dialogue: 0,0:03:45.70,0:03:49.91,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(134,73)\k152\k41}で
+Dialogue: 0,0:03:45.70,0:03:49.91,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(150,73)\k173\k36}生
+Dialogue: 0,0:03:45.70,0:03:49.91,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(167,73)\k189\k42}き
+Dialogue: 0,0:03:45.70,0:03:49.91,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(184,73)\k211\k37}て
+Dialogue: 0,0:03:45.70,0:03:49.91,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(200,73)\k228\k41}き
+Dialogue: 0,0:03:45.70,0:03:49.91,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(225,73)\k249\k55}たん
+Dialogue: 0,0:03:45.70,0:03:49.91,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(250,73)\k284\k72}だ
+Dialogue: 0,0:03:45.70,0:03:49.91,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(275,73)\k336\k85}ろう
+Dialogue: 0,0:03:45.70,0:03:49.91,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(97,55)\k90\k38}い
+Dialogue: 0,0:03:45.70,0:03:49.91,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(107,55)\k108\k40}ま
+Dialogue: 0,0:03:45.70,0:03:49.91,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(150,55)\k173\k36}い
+Dialogue: 0,0:03:48.87,0:03:52.98,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(83,32)\k90\k20}
+Dialogue: 0,0:03:48.87,0:03:52.98,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(92,32)\k90\k41}To
+Dialogue: 0,0:03:48.87,0:03:52.98,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(119,32)\k111\k70}find
+Dialogue: 0,0:03:48.87,0:03:52.98,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(149,32)\k161\k37}the
+Dialogue: 0,0:03:48.87,0:03:52.98,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(183,32)\k178\k76}truth
+Dialogue: 0,0:03:48.87,0:03:52.98,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(212,32)\k234\k56}in
+Dialogue: 0,0:03:48.87,0:03:52.98,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(236,32)\k270\k53}eve
+Dialogue: 0,0:03:48.87,0:03:52.98,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(256,32)\k303\k55}ry
+Dialogue: 0,0:03:48.87,0:03:52.98,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(282,32)\k338\k73}thing
+Dialogue: 0,0:03:51.88,0:03:56.01,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(134,73)\k90\k20}
+Dialogue: 0,0:03:51.88,0:03:56.01,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(142,73)\k90\k39}理
+Dialogue: 0,0:03:51.88,0:03:56.01,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(159,73)\k109\k39}不
+Dialogue: 0,0:03:51.88,0:03:56.01,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(175,73)\k128\k64}尽
+Dialogue: 0,0:03:51.88,0:03:56.01,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(192,73)\k172\k39}と
+Dialogue: 0,0:03:51.88,0:03:56.01,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(209,73)\k191\kf135}戦
+Dialogue: 0,0:03:51.88,0:03:56.01,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(225,73)\k306\k44}っ
+Dialogue: 0,0:03:51.88,0:03:56.01,Furigana Working,,0,0,1,fx,{\fade(300,200)\an5\pos(242,73)\k330\k91}て
+Dialogue: 0,0:03:51.88,0:03:56.01,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(144,55)\k90\k39}り
+Dialogue: 0,0:03:51.88,0:03:56.01,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(154,55)\k109\k39}ふ
+Dialogue: 0,0:03:51.88,0:03:56.01,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(169,55)\k128\k64}じん
+Dialogue: 0,0:03:51.88,0:03:56.01,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(199,55)\k191\k40}た
+Dialogue: 0,0:03:51.88,0:03:56.01,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(209,55)\k211\k73}た
+Dialogue: 0,0:03:51.88,0:03:56.01,Furigana Working-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(219,55)\k264\k62}か
+Dialogue: 0,0:03:55.38,0:04:02.92,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(100,32)\k90\k20}
+Dialogue: 0,0:03:55.38,0:04:02.92,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(111,32)\k90\k53}You
+Dialogue: 0,0:03:55.38,0:04:02.92,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(137,32)\k123\k81}see
+Dialogue: 0,0:03:55.38,0:04:02.92,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(151,32)\k184\k80}
+Dialogue: 0,0:03:55.38,0:04:02.92,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(159,32)\k244\k58}間
+Dialogue: 0,0:03:55.38,0:04:02.92,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(176,32)\k282\k62}違
+Dialogue: 0,0:03:55.38,0:04:02.92,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(193,32)\k324\k87}い
+Dialogue: 0,0:03:55.38,0:04:02.92,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(218,32)\k391\k73}じゃ
+Dialogue: 0,0:03:55.38,0:04:02.92,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(243,32)\k444\k76}な
+Dialogue: 0,0:03:55.38,0:04:02.92,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(259,32)\k500\k129}い
+Dialogue: 0,0:03:55.38,0:04:02.92,Furigana Working,,0,0,0,fx,{\fade(300,200)\an5\pos(276,32)\k609\kf145}と
+Dialogue: 0,0:03:55.38,0:04:02.92,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(158,14)\k244\k58}ま
+Dialogue: 0,0:03:55.38,0:04:02.92,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(168,14)\k282\k62}ち
+Dialogue: 0,0:03:55.38,0:04:02.92,Furigana Working-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(177,14)\k324\k20}が
+Dialogue: 0,0:04:02.07,0:04:06.16,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(119,73)\k90\k20}
+Dialogue: 0,0:04:02.07,0:04:06.16,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(144,73)\k90\k42}'Cause
+Dialogue: 0,0:04:02.07,0:04:06.16,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(184,73)\k112\k48}I'm
+Dialogue: 0,0:04:02.07,0:04:06.16,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(213,73)\k140\k92}still
+Dialogue: 0,0:04:02.07,0:04:06.16,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(235,73)\k212\k69}a
+Dialogue: 0,0:04:02.07,0:04:06.16,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(252,73)\k261\kf145}live
+Dialogue: 0,0:04:04.10,0:04:08.08,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(159,92)\k90\k20}
+Dialogue: 0,0:04:04.10,0:04:08.08,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(173,92)\k90\k89}Still
+Dialogue: 0,0:04:04.10,0:04:08.08,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(195,92)\k159\k84}a
+Dialogue: 0,0:04:04.10,0:04:08.08,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(213,92)\k223\kf171}live
+Dialogue: 0,0:04:05.46,0:04:12.33,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(101,134)\k90\k20}
+Dialogue: 0,0:04:05.46,0:04:12.33,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(104,134)\k90\k56}I
+Dialogue: 0,0:04:05.46,0:04:12.33,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(123,134)\k126\k80}feel
+Dialogue: 0,0:04:05.46,0:04:12.33,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(145,134)\k186\k80}a
+Dialogue: 0,0:04:05.46,0:04:12.33,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(165,134)\k246\k99}live,
+Dialogue: 0,0:04:05.46,0:04:12.33,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(199,134)\k325\k62}with
+Dialogue: 0,0:04:05.46,0:04:12.33,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(233,134)\k367\k65}this
+Dialogue: 0,0:04:05.46,0:04:12.33,Sample KM [Up],,0,0,2,fx,{\fade(300,200)\an5\pos(267,134)\k412\kf275}pain
+Dialogue: 0,0:04:11.43,0:04:14.53,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(192,32)\k90\k20}
+Dialogue: 0,0:04:11.43,0:04:14.53,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(192,32)\k90\k20}
