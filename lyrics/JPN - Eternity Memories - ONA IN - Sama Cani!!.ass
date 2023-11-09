@@ -1,0 +1,93 @@
+[Script Info]
+Title: Sama Cani!!
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Mizuki Kawashima,Arial,24,&H00FFFFFF,&H00FAD383,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Akane Hino,Arial,24,&H00FFFFFF,&H00FC9BD0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Yuko Hori,Arial,24,&H00FFFFFF,&H007AD1FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Suzuho Ueda,Arial,24,&H00FFFFFF,&H00A3FFA4,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Emi Namba,Arial,24,&H00FFFFFF,&H00A4F9FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.01,0:00:05.02,Sample KM [Up],,0,0,0,karaoke,{\kf29}LA{\kf66}DIES{\kf5} {\kf68}AND{\kf16} {\kf33}GEN{\kf18}TLE{\kf66}MEN
+Comment: 0,0:00:05.56,0:00:09.99,Sample KM [Up],,0,0,0,karaoke,{\kf34}WEL{\kf27}COME {\kf23}TO {\kf54}THE{\kf29} {\kf26}SUM{\kf100}MER {\kf38}CAR{\kf11}NI{\kf101}VAL!!
+Comment: 0,0:00:13.67,0:00:14.40,Sample KM [Choir],,0,0,0,karaoke,{\k21}PAR{\k15}TY!! {\k18}PAR{\k19}TY!!
+Comment: 0,0:00:18.84,0:00:19.65,Sample KM [Choir],,0,0,0,karaoke,{\k35}OH {\k46}YEAH!!
+Comment: 0,0:00:22.74,0:00:23.48,Sample KM [Choir],,0,0,0,karaoke,{\k20}HERE {\k16}WE {\k38}GO!!
+Comment: 0,0:00:23.74,0:00:26.73,Yuko Hori,,0,0,0,karaoke,{\k33}ma{\k34}nats' {\k15}no {\k33}ke{\k34}tsu{\k29}i {\k35}hyou{\kf86}mei
+Comment: 0,0:00:27.13,0:00:28.64,Yuko Hori,,0,0,0,karaoke,{\k20}i{\k16}tsu{\k16}mo {\k16}no {\k33}ki{\k16}mi {\k34}no
+Comment: 0,0:00:28.93,0:00:30.90,Yuko Hori,,0,0,0,karaoke,{\k17}e{\k33}ga{\k31}o {\k33}COUNT{\k32}DOWN {\k51}desu
+Comment: 0,0:00:30.72,0:00:31.81,Suzuho Ueda,,0,0,0,karaoke,{\k18}cho {\k13}cho {\k16}cho {\k33}mat{\k29}te
+Comment: 0,0:00:32.01,0:00:34.32,Suzuho Ueda,,0,0,0,karaoke,{\k18}ko{\k16}ko{\k15}ro {\k18}no {\k32}jun{\k14}bi {\k17}to{\k14}ka {\k17}a{\k19}run {\k33}dat{\k18}te
+Comment: 0,0:00:34.61,0:00:35.78,Emi Namba,,0,0,0,karaoke,{\k34}sen{\k12}te{\k35}his{\k36}shou
+Comment: 0,0:00:35.75,0:00:36.46,Sample KM [Choir],,0,0,0,karaoke,{\k31}JUST {\k40}NOW!!
+Comment: 0,0:00:36.56,0:00:38.41,Emi Namba,,0,0,0,karaoke,{\k17}to{\k15}na{\k15}ri {\k17}no {\k17}a{\k15}no {\k17}ko {\rYuko Hori}{\k19}da{\k13}re? {\rSuzuho Ueda}{\k17}da{\k23}re?
+Comment: 0,0:00:38.36,0:00:39.05,Sample KM [Choir],,0,0,0,karaoke,{\k18}WHO {\k15}ARE {\k36}YOU?
+Comment: 0,0:00:39.16,0:00:41.26,Mizuki Kawashima,,0,0,0,karaoke,{\k15}u{\k18}ka{\k14}u{\k19}ka {\k15}shi{\k16}te {\k32}i{\k33}ra{\k16}re{\k32}nai!!
+Comment: 0,0:00:41.55,0:00:43.52,Akane Hino,,0,0,0,karaoke,{\k36}kyou {\k96}wa {\k16}ki{\k18}mi {\k31}ni
+Comment: 0,0:00:42.23,0:00:44.15,Sample KM [Choir],,0,0,0,karaoke,{\k32}zet{\k98}tai {\k16}ki{\k16}mi {\k30}ni
+Comment: 0,0:00:44.13,0:00:47.91,Akane Hino,,0,0,0,karaoke,{\k20}T{\k18}RO{\k15}PI{\k17}CA{\k33}L {\k30}ni {\k33}tsu{\k33}ta{\k34}e{\k32}ru {\kf113}no
+Comment: 0,0:00:48.37,0:00:53.25,Sample KM [Up],,0,0,0,karaoke,{\k36}ka{\k30}ku{\k22}go {\k13}shi{\kf104}te!!{\kf21} {\kf68}MY {\kf66}DAR{\kf128}LING!!
+Comment: 0,0:00:53.22,0:00:54.58,Sample KM [Choir],,0,0,0,karaoke,{\kf136}Fu~!!
+Comment: 0,0:00:54.53,0:00:56.89,Sample KM [Up],,0,0,0,karaoke,{\k22}na{\k12}tsu {\k17}da!! {\k18}ma{\k13}ji {\k18}ko{\k15}i {\k16}da!! {\k35}AM{\k29}BI{\k41}TIOUS
+Comment: 0,0:00:56.65,0:00:57.17,Sample KM [Choir],,0,0,0,karaoke,{\k17}Fu {\k35}Fu~‎!!
+Comment: 0,0:00:57.16,0:00:58.93,Sample KM [Up],,0,0,0,karaoke,{\k32}sa{\k17}ke{\k30}n{\k33}ja{\k65}o!!
+Comment: 0,0:00:58.89,0:00:59.60,Sample KM [Choir],,0,0,0,karaoke,{\kf71}HEY‎!!
+Comment: 0,0:00:59.74,0:01:02.40,Sample KM [Up],,0,0,0,karaoke,{\k19}chi{\k13}ji{\k17}me{\k16}te {\k33}DIS{\k33}TANCE {\rMizuki Kawashima}{\k33}sou!! {\k16}SHAL{\k16}L {\k30}WE {\k40}DANCE?
+Comment: 0,0:01:02.31,0:01:04.35,Yuko Hori,,0,0,0,karaoke,{\k35}i{\k17}ma {\k34}su{\k30}gu {\kf88}ni
+Comment: 0,0:01:03.62,0:01:04.96,Sample KM [Choir],,0,0,0,karaoke,{\k18}SUM{\k16}MER {\k18}CAR{\k14}NI!! {\k30}WOO {\k38}YES!!
+Comment: 0,0:01:04.93,0:01:07.21,Sample KM [Up],,0,0,0,karaoke,{\k19}ma{\k13}zu {\k19}wa {\k16}T{\k15}I{\k17}MIN{\k14}G {\k17}wa {\k34}don{\k31}pi{\k33}shassu
+Comment: 0,0:01:07.05,0:01:07.60,Sample KM [Choir],,0,0,0,karaoke,{\k15}Fu {\k40}Fu~‎!!
+Comment: 0,0:01:07.53,0:01:09.42,Sample KM [Up],,0,0,0,karaoke,{\k32}te {\k17}wo {\k33}ta{\k30}ta{\kf77}kou!!
+Comment: 0,0:01:10.90,0:01:11.42,Sample KM [Choir],,0,0,0,karaoke,{\k16}ALL {\k36}RIGHT!!
+Comment: 0,0:01:11.41,0:01:13.94,Suzuho Ueda,,0,0,0,karaoke,{\k20}a{\k15}wa{\k18}te{\k13}te {\k33}FALL {\k33}DOWN {\rEmi Namba}{\k15}me {\k17}no {\k13}ma{\k16}e {\k36}IT'S {\k24}YOU
+Comment: 0,0:01:13.96,0:01:15.74,Akane Hino,,0,0,0,karaoke,{\k30}ha{\k24}na{\k16}re{\k22}ta{\k22}ku{\k22}na{\k42}i
+Comment: 0,0:01:15.61,0:01:16.64,Sample KM [Up],,0,0,0,karaoke,{\k34}YES!! {\k18}SUM{\k14}MER {\k37}TIME!!
+Comment: 0,0:01:18.54,0:01:19.24,Sample KM [Up],,0,0,0,karaoke,{\k20}PAR{\k15}TY!! {\k18}PAR{\k17}TY!!
+Dialogue: 0,0:00:01.11,0:00:05.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf29}LA{\kf66}DIES{\kf5} {\kf68}AND{\kf16} {\kf33}GEN{\kf18}TLE{\kf66}MEN
+Dialogue: 0,0:00:04.66,0:00:10.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf34}WEL{\kf27}COME {\kf23}TO {\kf54}THE{\kf29} {\kf26}SUM{\kf100}MER {\kf38}CAR{\kf11}NI{\kf101}VAL!!
+Dialogue: 0,0:00:12.77,0:00:14.60,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}PAR{\k15}TY!! {\k18}PAR{\k19}TY!!
+Dialogue: 0,0:00:17.94,0:00:19.85,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}OH {\k46}YEAH!!
+Dialogue: 0,0:00:21.84,0:00:23.68,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}HERE {\k16}WE {\k38}GO!!
+Dialogue: 0,0:00:22.84,0:00:26.93,Yuko Hori,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ma{\k34}nats' {\k15}no {\k33}ke{\k34}tsu{\k29}i {\k35}hyou{\kf86}mei
+Dialogue: 0,0:00:26.23,0:00:28.84,Yuko Hori,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k16}tsu{\k16}mo {\k16}no {\k33}ki{\k16}mi {\k34}no
+Dialogue: 0,0:00:28.03,0:00:31.10,Yuko Hori,,0,0,0,fx,{\k90\fad(300,200)}{\k17}e{\k33}ga{\k31}o {\k33}COUNT{\k32}DOWN {\k51}desu
+Dialogue: 0,0:00:29.82,0:00:32.01,Suzuho Ueda,,0,0,0,fx,{\k90\fad(300,200)}{\k18}cho {\k13}cho {\k16}cho {\k33}mat{\k29}te
+Dialogue: 0,0:00:31.11,0:00:34.52,Suzuho Ueda,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ko{\k16}ko{\k15}ro {\k18}no {\k32}jun{\k14}bi {\k17}to{\k14}ka {\k17}a{\k19}run {\k33}dat{\k18}te
+Dialogue: 0,0:00:33.71,0:00:35.98,Emi Namba,,0,0,0,fx,{\k90\fad(300,200)}{\k34}sen{\k12}te{\k35}his{\k36}shou
+Dialogue: 0,0:00:34.85,0:00:36.66,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k31}JUST {\k40}NOW!!
+Dialogue: 0,0:00:35.66,0:00:38.61,Emi Namba,,0,0,0,fx,{\k90\fad(300,200)}{\k17}to{\k15}na{\k15}ri {\k17}no {\k17}a{\k15}no {\k17}ko {\rYuko Hori}{\k19}da{\k13}re? {\rSuzuho Ueda}{\k17}da{\k23}re?
+Dialogue: 0,0:00:37.46,0:00:39.25,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}WHO {\k15}ARE {\k36}YOU?
+Dialogue: 0,0:00:38.26,0:00:41.46,Mizuki Kawashima,,0,0,0,fx,{\k90\fad(300,200)}{\k15}u{\k18}ka{\k14}u{\k19}ka {\k15}shi{\k16}te {\k32}i{\k33}ra{\k16}re{\k32}nai!!
+Dialogue: 0,0:00:40.65,0:00:43.72,Akane Hino,,0,0,0,fx,{\k90\fad(300,200)}{\k36}kyou {\k96}wa {\k16}ki{\k18}mi {\k31}ni
+Dialogue: 0,0:00:41.33,0:00:44.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}zet{\k98}tai {\k16}ki{\k16}mi {\k30}ni
+Dialogue: 0,0:00:43.23,0:00:48.11,Akane Hino,,0,0,0,fx,{\k90\fad(300,200)}{\k20}T{\k18}RO{\k15}PI{\k17}CA{\k33}L {\k30}ni {\k33}tsu{\k33}ta{\k34}e{\k32}ru {\kf113}no
+Dialogue: 0,0:00:47.47,0:00:53.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}ka{\k30}ku{\k22}go {\k13}shi{\kf104}te!!{\kf21} {\kf68}MY {\kf66}DAR{\kf128}LING!!
+Dialogue: 0,0:00:52.32,0:00:54.78,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf136}Fu~!!
+Dialogue: 0,0:00:53.63,0:00:57.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}na{\k12}tsu {\k17}da!! {\k18}ma{\k13}ji {\k18}ko{\k15}i {\k16}da!! {\k35}AM{\k29}BI{\k41}TIOUS
+Dialogue: 0,0:00:55.75,0:00:57.37,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Fu {\k35}Fu~‎!!
+Dialogue: 0,0:00:56.26,0:00:59.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}sa{\k17}ke{\k30}n{\k33}ja{\k65}o!!
+Dialogue: 0,0:00:57.99,0:00:59.80,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf71}HEY‎!!
+Dialogue: 0,0:00:58.84,0:01:02.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}chi{\k13}ji{\k17}me{\k16}te {\k33}DIS{\k33}TANCE {\rMizuki Kawashima}{\k33}sou!! {\k16}SHAL{\k16}L {\k30}WE {\k40}DANCE?
+Dialogue: 0,0:01:01.41,0:01:04.55,Yuko Hori,,0,0,0,fx,{\k90\fad(300,200)}{\k35}i{\k17}ma {\k34}su{\k30}gu {\kf88}ni
+Dialogue: 0,0:01:02.72,0:01:05.16,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}SUM{\k16}MER {\k18}CAR{\k14}NI!! {\k30}WOO {\k38}YES!!
+Dialogue: 0,0:01:04.03,0:01:07.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}ma{\k13}zu {\k19}wa {\k16}T{\k15}I{\k17}MIN{\k14}G {\k17}wa {\k34}don{\k31}pi{\k33}shassu
+Dialogue: 0,0:01:06.15,0:01:07.80,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Fu {\k40}Fu~‎!!
+Dialogue: 0,0:01:06.63,0:01:09.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}te {\k17}wo {\k33}ta{\k30}ta{\kf77}kou!!
+Dialogue: 0,0:01:10.00,0:01:11.62,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}ALL {\k36}RIGHT!!
+Dialogue: 0,0:01:10.51,0:01:14.14,Suzuho Ueda,,0,0,0,fx,{\k90\fad(300,200)}{\k20}a{\k15}wa{\k18}te{\k13}te {\k33}FALL {\k33}DOWN {\rEmi Namba}{\k15}me {\k17}no {\k13}ma{\k16}e {\k36}IT'S {\k24}YOU
+Dialogue: 0,0:01:13.06,0:01:15.94,Akane Hino,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ha{\k24}na{\k16}re{\k22}ta{\k22}ku{\k22}na{\k42}i
+Dialogue: 0,0:01:14.71,0:01:16.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}YES!! {\k18}SUM{\k14}MER {\k37}TIME!!
+Dialogue: 0,0:01:17.64,0:01:19.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}PAR{\k15}TY!! {\k18}PAR{\k17}TY!!
