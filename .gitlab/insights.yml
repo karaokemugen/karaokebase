@@ -2,7 +2,7 @@ issues:
   title: Issues Dashboard
   charts:
     - title: Issues created per month
-      type: bar
+      type: stacked-bar
       query:
         data_source: issuables
         params:
@@ -16,7 +16,7 @@ issues:
           group_by: month
           period_limit: 6
     - title: Issues closed per month
-      type: bar
+      type: stacked-bar
       query:
         data_source: issuables
         params:
