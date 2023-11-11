@@ -1,0 +1,31 @@
+issues:
+  title: Issues Dashboard
+  charts:
+    - title: Issues created per month
+      type: bar
+      query:
+        data_source: issuables
+        params:
+          issuable_type: issue
+          issuable_state: all
+          collection_labels:
+            - Doing
+            - incident
+            - suggestion
+            - To Add
+          group_by: month
+          period_limit: 6
+    - title: Issues closed per month
+      type: bar
+      query:
+        data_source: issuables
+        params:
+          issuable_type: issue
+          issuable_state: closed
+          collection_labels:
+            - Doing
+            - incident
+            - suggestion
+            - To Add
+          group_by: month
+          period_limit: 6
