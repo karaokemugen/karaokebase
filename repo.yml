@@ -5,7 +5,7 @@ contentsURL: https://kara.moe/downloads/master.zip
 gitURL: https://gitlab.com/karaokemugen/bases/karaokebase/
 projectID: 32123952
 rules:
-  video:
+  videoFile:
     containers:
       mandatory: true
       allowed:
@@ -20,34 +20,37 @@ rules:
           width: 1920
           mandatory: true
       codecs:
-        allowed:
-          - h264			
+        video:
+          allowed:
+            - h264          
       bitrate:
         max: 8000			
       colorSpace:
         allowed:
           - yuv420p			
-    audio:
-      containers:
-        mandatory: true
-        allowed: 
-          - mp3
-      codecs:
-        allowed:
-          - mp3
-        mandatory: true
-        bitrate:
-          min: 128
-      coverArt: 
-        mandatory: true
-    lyrics:
-      formats: 
-        - name: ass
-          removeGarbage: true
-          removeHeaderComments: true
-          removeUnusedStyles: true
-          removeUnusedFonts: true
-          setTitle: true
-          setOriginalTiming: true
-          set0x0Resolution: true
+  audioFile:
+    containers:
+      mandatory: true
+      allowed: 
+        - mp3
+      default: mp3
+    codecs:
+      allowed:
+        - mp3
+      default: mp3
+      mandatory: true
+      bitrate:
+        min: 128
+    coverArt: 
+      mandatory: true
+  lyrics:
+    formats: 
+      - name: ass
+        removeGarbage: true
+        removeHeaderComments: true
+        removeUnusedStyles: true
+        removeUnusedFonts: true
+        setTitle: true
+        setOriginalTiming: true
+        set0x0Resolution: true
        
