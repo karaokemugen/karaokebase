@@ -1,0 +1,100 @@
+[Script Info]
+Title: Ai wo Mitsukete
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Xashy
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Voice 1 (M),Arial,24,&H00FFFFFF,&H00DBA138,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Voice 2 (F),Arial,24,&H00FFFFFF,&H007827BB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Voice 1 & 2,Arial,24,&H00FFFFFF,&H000198F3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Choeur,Arial,24,&H00FFFFFF,&H000198F3,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Voice 1 (M),,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.97,0:00:04.91,Voice 1 & 2,,0,0,0,karaoke,{\k35}ne{\k45}e, {\k27}o{\k22}bo{\k26}e{\k31}te{\k24}i{\kf184}te
+Comment: 0,0:00:21.69,0:00:26.84,Voice 2 (F),,0,0,0,karaoke,{\k34}shi{\kf193}zun{\k28}de {\k72}i{\k30}ku {\k78}a{\k29}o {\k51}ni
+Comment: 0,0:00:28.09,0:00:31.55,Voice 2 (F),,0,0,0,karaoke,{\k30}ka{\k23}ta{\k28}mu{\k27}ku {\k56}yuu{\k27}hi {\k24}wo {\k17}na{\k58}zot{\k56}te
+Comment: 0,0:00:32.21,0:00:37.47,Voice 2 (F),,0,0,0,karaoke,{\k34}su{\k26}ku{\k12}e{\k64}sou {\k21}na {\k33}tsu{\k28}ki {\k23}wo {\k84}ma{\k19}ta {\k82}mi{\k29}te{\k71}ru
+Comment: 0,0:00:38.57,0:00:45.56,Voice 2 (F),,0,0,0,karaoke,{\k24}yu{\k54}u{\k25}na{\k77}gi {\k26}ga {\k81}ka{\k26}mi {\k78}wo {\k53}na{\k52}de{\k37}ru {\k65}yo{\k54}u {\k47}ni
+Comment: 0,0:00:46.07,0:00:49.54,Voice 2 (F),,0,0,0,karaoke,{\k30}ki{\k28}mi {\k16}wo {\k38}sa{\k53}ga{\k25}shi{\k79}te{\k40}i{\k38}ru
+Comment: 0,0:00:50.54,0:00:54.21,Voice 1 & 2,,0,0,0,karaoke,{\k23}i{\k30}tsu {\k28}ma{\k26}de {\k25}mo {\k27}wa{\k51}rat{\k29}te{\k26}i{\kf102}te
+Comment: 0,0:00:53.80,0:00:56.88,Choeur,,0,0,0,karaoke,{\k15}na{\k23}ki{\k29}ga{\k27}o {\k26}wo {\k16}mi{\k32}se{\kf140}te
+Comment: 0,0:00:54.65,0:00:58.39,Voice 1 & 2,,0,0,0,karaoke,{\k32}zu{\k31}t{\k27}to {\k16}wa{\k38}su{\k18}re{\k54}nai{\k29}de{\k26}i{\kf103}te
+Comment: 0,0:00:57.85,0:00:59.96,Choeur,,0,0,0,karaoke,{\k24}ha{\k31}na{\k23}re{\k72}nai{\k61}de
+Comment: 0,0:00:58.89,0:01:02.63,Voice 1 & 2,,0,0,0,karaoke,{\k33}do{\k18}u{\k25}ka {\k30}ka{\k27}wa{\k27}ra{\k49}nai{\k28}de{\k23}i{\kf114}te
+Comment: 0,0:01:01.54,0:01:03.85,Choeur,,0,0,0,karaoke,{\k21}i{\k26}ta{\k24}mi {\k20}wo {\k54}shit{\kf86}te
+Comment: 0,0:01:03.22,0:01:07.78,Voice 1 & 2,,0,0,0,karaoke,{\k65}ai {\k78}wo {\k18}mi{\k82}tsu{\k29}ke{\kf184}te
+Comment: 0,0:01:24.44,0:01:29.71,Voice 1 (M),,0,0,0,karaoke,{\k23}ka{\kf189}za{\k25}shi{\k73}ta {\k37}ko{\k71}no {\k32}te {\k77}ni
+Comment: 0,0:01:30.69,0:01:33.95,Voice 1 & 2,,0,0,0,karaoke,{\k29}“ha{\k27}ka{\k27}na{\k19}i {\k35}ma{\k24}bo{\k15}ro{\k32}shi {\k37}wo {\k13}mi{\k32}se{\k36}te”
+Comment: 0,0:01:34.87,0:01:39.82,Voice 1 & 2,,0,0,0,karaoke,{\k30}fu{\k26}re{\k29}ra{\k14}re{\k60}sou {\k28}na {\k14}ho{\k35}shi {\k80}ni {\k27}ne{\k58}ga{\k49}i {\k45}wo
+Comment: 0,0:01:40.36,0:01:44.80,Voice 1 & 2,,0,0,0,karaoke,{\k0}{\kf444}WOW...
+Comment: 0,0:02:10.46,0:02:17.58,Voice 1 & 2,,0,0,0,karaoke,{\k42}su{\k28}ku{\k14}e{\k66}sou {\k20}na {\k28}tsu{\k30}ki {\k21}ni {\k79}ki{\k31}mi {\k72}wo {\k31}o{\k51}mot{\k28}te{\k54}i{\k18}ru {\kf99}yo
+Comment: 0,0:02:18.15,0:02:20.83,Voice 1 & 2,,0,0,0,karaoke,{\k34}fu{\k24}re{\k24}ra{\k27}re{\k56}na{\k19}i {\k31}ma{\k53}ma
+Comment: 0,0:02:20.98,0:02:26.02,Voice 1 & 2,,0,0,0,karaoke,{\k38}se{\k79}ma{\k24}ru {\k31}a{\k22}o {\k16}ni {\k23}shi{\k67}zu{\k49}n{\k52}de {\k51}yu{\k52}ku
+Comment: 0,0:02:26.51,0:02:29.14,Voice 1 & 2,,0,0,0,karaoke,{\k33}fu{\k25}ri{\k22}mu{\k30}ka{\k78}nai{\k16}de {\k59}ne
+Comment: 0,0:02:29.43,0:02:34.74,Voice 1 & 2,,0,0,0,karaoke,{\k27}o{\k46}bo{\k54}ro{\k55}ge {\k49}na {\k80}ma{\k28}ma {\k73}de {\k31}i{\kf88}te
+Comment: 0,0:02:35.36,0:02:38.57,Voice 1 & 2,,0,0,0,karaoke,{\k31}ha{\k29}na{\k48}bi{\k29}ra {\k48}mau {\k84}you {\k52}ni
+Comment: 0,0:02:39.35,0:02:42.82,Voice 2 (F),,0,0,0,karaoke,{\k49}dou{\k27}ka {\k14}wa{\k38}su{\k21}re{\k60}nai{\k21}de{\k31}i{\k86}te
+Comment: 0,0:02:43.43,0:02:46.94,Voice 2 (F),,0,0,0,karaoke,{\k31}ka{\k17}na{\k36}shi{\k27}mi {\k23}mo {\k31}o{\k17}bo{\k33}e{\k29}te{\k28}i{\k79}te
+Comment: 0,0:02:47.67,0:02:50.71,Voice 2 (F),,0,0,0,karaoke,{\k27}da{\k25}re {\k29}yo{\k21}ri {\k27}mo {\k25}o{\k55}mot{\k23}te{\k29}i{\k43}ta
+Comment: 0,0:02:51.02,0:02:55.09,Voice 2 (F),,0,0,0,karaoke,{\k29}a{\k22}no {\k32}hi{\k25}bi {\k24}ni {\k13}u{\k70}so {\k50}wa {\k54}na{\k51}i {\k37}no
+Comment: 0,0:02:56.01,0:02:59.14,Voice 2 (F),,0,0,0,karaoke,{\k28}ni{\k13}ku{\k26}shi{\k29}mi {\k32}wa {\k26}ka{\k26}ka{\k30}e{\k25}ta {\k25}ma{\k27}ma {\k26}de
+Comment: 0,0:02:59.43,0:03:03.45,Voice 2 (F),,0,0,0,karaoke,{\k23}i{\k29}ki{\k23}ru {\k25}no {\k25}wa {\k30}ku{\k36}ru{\k64}shi{\k55}i {\k39}de{\k53}shou
+Comment: 0,0:03:04.06,0:03:08.16,Voice 1 & 2,,0,0,0,karaoke,{\k28}ta{\k27}mu{\k28}ke {\k25}to {\k30}na{\k49}ru {\k28}ko{\k25}no {\k25}u{\k25}ta {\kf120}wo
+Comment: 0,0:03:08.54,0:03:12.19,Voice 1 & 2,,0,0,0,karaoke,{\k24}i{\k28}tsu {\k28}ma{\k27}de {\k23}mo {\k25}wa{\k54}rat{\k29}te{\k24}i{\kf103}te
+Comment: 0,0:03:11.71,0:03:15.35,Choeur,,0,0,0,karaoke,{\k23}na{\k22}ki{\k26}ga{\k24}o {\k31}wo {\k21}mi{\k31}se{\kf186}te
+Comment: 0,0:03:12.63,0:03:16.41,Voice 1 & 2,,0,0,0,karaoke,{\k33}zu{\k31}t{\k21}to {\k19}wa{\k30}su{\k34}re{\k51}nai{\k28}de{\k24}i{\kf107}te
+Comment: 0,0:03:15.79,0:03:18.39,Choeur,,0,0,0,karaoke,{\k33}ha{\k30}na{\k19}re{\k59}nai{\kf119}de
+Comment: 0,0:03:16.91,0:03:20.84,Voice 1 & 2,,0,0,0,karaoke,{\k32}do{\k16}u{\k24}ka {\k33}ka{\k26}wa{\k18}ra{\k59}nai{\k27}de{\k21}i{\kf137}te
+Comment: 0,0:03:19.47,0:03:21.85,Choeur,,0,0,0,karaoke,{\k29}i{\k27}ta{\k27}mi {\k15}wo {\k63}shit{\k77}te
+Comment: 0,0:03:21.27,0:03:25.19,Voice 1 & 2,,0,0,0,karaoke,{\k60}ai {\k76}wo {\k17}mi{\k87}tsu{\k27}ke{\kf125}te
+Comment: 0,0:03:25.71,0:03:32.83,Voice 1 & 2,,0,0,0,karaoke,{\k31}o{\k53}kut{\k19}ta {\k35}ha{\k25}na{\k24}ta{\k28}ba {\k22}ga {\kf85}ki{\k25}mi {\k48}wo {\k29}i{\k24}ro{\k46}do{\k53}ru {\k59}yo{\k48}u {\k58}ni
+Comment: 0,0:03:33.22,0:03:39.52,Voice 1 & 2,,0,0,0,karaoke,{\k34}tsu{\k30}ki {\k21}no {\k30}hi{\k81}ka{\k26}ri {\k71}ga {\k31}ki{\k27}mi {\k23}no {\k26}yu{\k74}ku {\k34}hi{\k25}bi {\kf97}wo
+Comment: 0,0:03:40.10,0:03:46.84,Voice 1 & 2,,0,0,0,karaoke,{\k48}te{\k39}ra{\k70}su {\k52}yo{\k45}u {\kf212}ni{\kf208}~
+Dialogue: 0,0:00:00.07,0:00:05.11,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ne{\k45}e, {\k27}o{\k22}bo{\k26}e{\k31}te{\k24}i{\kf184}te
+Dialogue: 0,0:00:20.79,0:00:27.04,Voice 2 (F),,0,0,0,fx,{\k90\fad(300,200)}{\k34}shi{\kf193}zun{\k28}de {\k72}i{\k30}ku {\k78}a{\k29}o {\k51}ni
+Dialogue: 0,0:00:27.19,0:00:31.75,Voice 2 (F),,0,0,0,fx,{\k90\fad(300,200)}{\k30}ka{\k23}ta{\k28}mu{\k27}ku {\k56}yuu{\k27}hi {\k24}wo {\k17}na{\k58}zot{\k56}te
+Dialogue: 0,0:00:31.31,0:00:37.67,Voice 2 (F),,0,0,0,fx,{\k90\fad(300,200)}{\k34}su{\k26}ku{\k12}e{\k64}sou {\k21}na {\k33}tsu{\k28}ki {\k23}wo {\k84}ma{\k19}ta {\k82}mi{\k29}te{\k71}ru
+Dialogue: 0,0:00:37.67,0:00:45.76,Voice 2 (F),,0,0,0,fx,{\k90\fad(300,200)}{\k24}yu{\k54}u{\k25}na{\k77}gi {\k26}ga {\k81}ka{\k26}mi {\k78}wo {\k53}na{\k52}de{\k37}ru {\k65}yo{\k54}u {\k47}ni
+Dialogue: 0,0:00:45.17,0:00:49.74,Voice 2 (F),,0,0,0,fx,{\k90\fad(300,200)}{\k30}ki{\k28}mi {\k16}wo {\k38}sa{\k53}ga{\k25}shi{\k79}te{\k40}i{\k38}ru
+Dialogue: 0,0:00:49.64,0:00:54.41,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k23}i{\k30}tsu {\k28}ma{\k26}de {\k25}mo {\k27}wa{\k51}rat{\k29}te{\k26}i{\kf102}te
+Dialogue: 0,0:00:52.90,0:00:57.08,Choeur,,0,0,0,fx,{\k90\fad(300,200)}{\k15}na{\k23}ki{\k29}ga{\k27}o {\k26}wo {\k16}mi{\k32}se{\kf140}te
+Dialogue: 0,0:00:53.75,0:00:58.59,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k32}zu{\k31}t{\k27}to {\k16}wa{\k38}su{\k18}re{\k54}nai{\k29}de{\k26}i{\kf103}te
+Dialogue: 0,0:00:56.95,0:01:00.16,Choeur,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ha{\k31}na{\k23}re{\k72}nai{\k61}de
+Dialogue: 0,0:00:57.99,0:01:02.83,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k33}do{\k18}u{\k25}ka {\k30}ka{\k27}wa{\k27}ra{\k49}nai{\k28}de{\k23}i{\kf114}te
+Dialogue: 0,0:01:00.64,0:01:04.05,Choeur,,0,0,0,fx,{\k90\fad(300,200)}{\k21}i{\k26}ta{\k24}mi {\k20}wo {\k54}shit{\kf86}te
+Dialogue: 0,0:01:02.32,0:01:07.98,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k65}ai {\k78}wo {\k18}mi{\k82}tsu{\k29}ke{\kf184}te
+Dialogue: 0,0:01:23.54,0:01:29.91,Voice 1 (M),,0,0,0,fx,{\k90\fad(300,200)}{\k23}ka{\kf189}za{\k25}shi{\k73}ta {\k37}ko{\k71}no {\k32}te {\k77}ni
+Dialogue: 0,0:01:29.79,0:01:34.15,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k29}“ha{\k27}ka{\k27}na{\k19}i {\k35}ma{\k24}bo{\k15}ro{\k32}shi {\k37}wo {\k13}mi{\k32}se{\k36}te”
+Dialogue: 0,0:01:33.97,0:01:40.02,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k30}fu{\k26}re{\k29}ra{\k14}re{\k60}sou {\k28}na {\k14}ho{\k35}shi {\k80}ni {\k27}ne{\k58}ga{\k49}i {\k45}wo
+Dialogue: 0,0:01:39.46,0:01:45.00,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\kf444}WOW...
+Dialogue: 0,0:02:09.56,0:02:17.78,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k42}su{\k28}ku{\k14}e{\k66}sou {\k20}na {\k28}tsu{\k30}ki {\k21}ni {\k79}ki{\k31}mi {\k72}wo {\k31}o{\k51}mot{\k28}te{\k54}i{\k18}ru {\kf99}yo
+Dialogue: 0,0:02:17.25,0:02:21.03,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k34}fu{\k24}re{\k24}ra{\k27}re{\k56}na{\k19}i {\k31}ma{\k53}ma
+Dialogue: 0,0:02:20.08,0:02:26.22,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k38}se{\k79}ma{\k24}ru {\k31}a{\k22}o {\k16}ni {\k23}shi{\k67}zu{\k49}n{\k52}de {\k51}yu{\k52}ku
+Dialogue: 0,0:02:25.61,0:02:29.34,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k33}fu{\k25}ri{\k22}mu{\k30}ka{\k78}nai{\k16}de {\k59}ne
+Dialogue: 0,0:02:28.53,0:02:34.94,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k27}o{\k46}bo{\k54}ro{\k55}ge {\k49}na {\k80}ma{\k28}ma {\k73}de {\k31}i{\kf88}te
+Dialogue: 0,0:02:34.46,0:02:38.77,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ha{\k29}na{\k48}bi{\k29}ra {\k48}mau {\k84}you {\k52}ni
+Dialogue: 0,0:02:38.45,0:02:43.02,Voice 2 (F),,0,0,0,fx,{\k90\fad(300,200)}{\k49}dou{\k27}ka {\k14}wa{\k38}su{\k21}re{\k60}nai{\k21}de{\k31}i{\k86}te
+Dialogue: 0,0:02:42.53,0:02:47.14,Voice 2 (F),,0,0,0,fx,{\k90\fad(300,200)}{\k31}ka{\k17}na{\k36}shi{\k27}mi {\k23}mo {\k31}o{\k17}bo{\k33}e{\k29}te{\k28}i{\k79}te
+Dialogue: 0,0:02:46.77,0:02:50.91,Voice 2 (F),,0,0,0,fx,{\k90\fad(300,200)}{\k27}da{\k25}re {\k29}yo{\k21}ri {\k27}mo {\k25}o{\k55}mot{\k23}te{\k29}i{\k43}ta
+Dialogue: 0,0:02:50.12,0:02:55.29,Voice 2 (F),,0,0,0,fx,{\k90\fad(300,200)}{\k29}a{\k22}no {\k32}hi{\k25}bi {\k24}ni {\k13}u{\k70}so {\k50}wa {\k54}na{\k51}i {\k37}no
+Dialogue: 0,0:02:55.11,0:02:59.34,Voice 2 (F),,0,0,0,fx,{\k90\fad(300,200)}{\k28}ni{\k13}ku{\k26}shi{\k29}mi {\k32}wa {\k26}ka{\k26}ka{\k30}e{\k25}ta {\k25}ma{\k27}ma {\k26}de
+Dialogue: 0,0:02:58.53,0:03:03.65,Voice 2 (F),,0,0,0,fx,{\k90\fad(300,200)}{\k23}i{\k29}ki{\k23}ru {\k25}no {\k25}wa {\k30}ku{\k36}ru{\k64}shi{\k55}i {\k39}de{\k53}shou
+Dialogue: 0,0:03:03.16,0:03:08.36,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ta{\k27}mu{\k28}ke {\k25}to {\k30}na{\k49}ru {\k28}ko{\k25}no {\k25}u{\k25}ta {\kf120}wo
+Dialogue: 0,0:03:07.64,0:03:12.39,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k24}i{\k28}tsu {\k28}ma{\k27}de {\k23}mo {\k25}wa{\k54}rat{\k29}te{\k24}i{\kf103}te
+Dialogue: 0,0:03:10.81,0:03:15.55,Choeur,,0,0,0,fx,{\k90\fad(300,200)}{\k23}na{\k22}ki{\k26}ga{\k24}o {\k31}wo {\k21}mi{\k31}se{\kf186}te
+Dialogue: 0,0:03:11.73,0:03:16.61,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k33}zu{\k31}t{\k21}to {\k19}wa{\k30}su{\k34}re{\k51}nai{\k28}de{\k24}i{\kf107}te
+Dialogue: 0,0:03:14.89,0:03:18.59,Choeur,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ha{\k30}na{\k19}re{\k59}nai{\kf119}de
+Dialogue: 0,0:03:16.01,0:03:21.04,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k32}do{\k16}u{\k24}ka {\k33}ka{\k26}wa{\k18}ra{\k59}nai{\k27}de{\k21}i{\kf137}te
+Dialogue: 0,0:03:18.57,0:03:22.05,Choeur,,0,0,0,fx,{\k90\fad(300,200)}{\k29}i{\k27}ta{\k27}mi {\k15}wo {\k63}shit{\k77}te
+Dialogue: 0,0:03:20.37,0:03:25.39,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k60}ai {\k76}wo {\k17}mi{\k87}tsu{\k27}ke{\kf125}te
+Dialogue: 0,0:03:24.81,0:03:33.03,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k31}o{\k53}kut{\k19}ta {\k35}ha{\k25}na{\k24}ta{\k28}ba {\k22}ga {\kf85}ki{\k25}mi {\k48}wo {\k29}i{\k24}ro{\k46}do{\k53}ru {\k59}yo{\k48}u {\k58}ni
+Dialogue: 0,0:03:32.32,0:03:39.72,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k34}tsu{\k30}ki {\k21}no {\k30}hi{\k81}ka{\k26}ri {\k71}ga {\k31}ki{\k27}mi {\k23}no {\k26}yu{\k74}ku {\k34}hi{\k25}bi {\kf97}wo
+Dialogue: 0,0:03:39.20,0:03:47.04,Voice 1 & 2,,0,0,0,fx,{\k90\fad(300,200)}{\k48}te{\k39}ra{\k70}su {\k52}yo{\k45}u {\kf212}ni{\kf208}~
