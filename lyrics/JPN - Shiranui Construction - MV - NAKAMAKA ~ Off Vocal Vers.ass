@@ -1,0 +1,154 @@
+[Script Info]
+Title: NAKAMAKA
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Nodamin
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Kara haut - MIKO,Arial,24,&H00FFFFFF,&H00CA91F7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kara haut - FLARE,Arial,24,&H00FFFFFF,&H003C93F5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kara haut - NOEL,Arial,24,&H00FFFFFF,&H00D1C7BD,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kara haut - POLKA,Arial,24,&H00FFFFFF,&H005D5AE3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kara haut - SUISEI,Arial,24,&H00FFFFFF,&H00F4D595,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kara haut - DUO,Arial,24,&H00FFFFFF,&H00FAA8C8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:05.00,Kara haut,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:15.02,0:00:17.45,Kara haut - MIKO,,0,0,0,karaoke,{\k29}DO {\k16}RE {\k14}RE {\k32}MI {\k15}FA {\k14}FA {\k30}SOL{\k27} LA {\k35}SI {\k31}DO
+Comment: 0,0:00:17.47,0:00:19.60,Kara haut - MIKO,,0,0,0,karaoke,{\k31}o{\k14}te{\k17}te {\k28}tsu{\k18}na{\k15}i{\k29}de {\k17}ka{\k17}e{\k27}ro
+Comment: 0,0:00:19.85,0:00:22.35,Kara haut - FLARE,,0,0,0,karaoke,{\k39}shi{\k16}ra{\k16}na{\k30}i {\k13}ko{\k17}to {\k31}sou{\k27}kyuu {\k31}ken{\k30}kyuu
+Comment: 0,0:00:22.39,0:00:24.52,Kara haut - FLARE,,0,0,0,karaoke,{\k30}ki{\k14}mi {\k17}mo {\k32}to{\k14}mo{\k15}da{\k29}chin {\k31}na{\k31}ro
+Comment: 0,0:00:24.85,0:00:27.27,Kara haut - NOEL,,0,0,0,karaoke,{\k28}u{\k20}re{\k16}shi{\k26}mi {\k16}mo {\k15}ka{\k30}na{\k31}shi{\k30}mi {\k30}mo
+Comment: 0,0:00:27.30,0:00:29.47,Kara haut - NOEL,,0,0,0,karaoke,{\k30}kac{\k17}chi{\k16}ri {\k30}pit{\k14}ta{\k15}ri {\k32}han{\k31}bun{\k32}ko
+Comment: 0,0:00:29.72,0:00:32.18,Kara haut - POLKA,,0,0,0,karaoke,{\k33}gak{\k17}ka{\k17}ri {\k28}bak{\k18}ka{\k16}ri {\k27}na {\k31}kan{\k32}jou {\k27}mo
+Comment: 0,0:00:32.23,0:00:34.75,Kara haut - POLKA,,0,0,0,karaoke,{\k30}is{\k15}sho {\k17}ni {\k28}GOOD {\k20}JO{\k13}B {\k29}dai{\k33}jou{\k31}bu {\k36\rKara haut - DUO\i1}(eh?){\i0}
+Comment: 0,0:00:34.64,0:00:36.10,Kara haut - DUO,,0,0,0,karaoke,{\k19}ko{\k30}wa {\k18}ko{\k30}wa {\k16}ko{\k33}wa!
+Comment: 0,0:00:36.09,0:00:39.39,Kara haut - SUISEI,,0,0,0,karaoke,{\k15}ko{\k16}no {\k14}me{\k17}i{\k14}kyu{\k16}u {\k15}no {\k32}de{\k13}gu{\k16}chi {\k46}wa {\k47}do{\k16}ko {\k14}da{\k39}ro?
+Comment: 0,0:00:39.54,0:00:40.93,Kara haut - DUO,,0,0,0,karaoke,{\k23}ku{\k29}ra {\k16}ku{\k28}ra {\k20}ku{\k23}ra!
+Comment: 0,0:00:40.98,0:00:42.27,Kara haut - SUISEI,,0,0,0,karaoke,{\k18}C{\k15}R{\k13}I{\k18}SI{\k11}S {\k24}ka{\k30}mo?
+Comment: 0,0:00:42.05,0:00:44.31,Kara haut - DUO,,0,0,0,karaoke,{\k29}MIS{\k33}SION! {\k16}sei{\k15}shun {\k31}SHOW {\k17}ha{\k14}ji{\k17}me{\k13}ma{\k41}shou!
+Comment: 0,0:00:44.23,0:00:46.67,Kara haut - DUO,,0,0,0,karaoke,{\k15}ho{\k16}ra {\k47}chak{\k14}ka {\k15}na{\k15}ka{\k16}ma{\k16}ka {\k13}mak{\k10}ka {\k7}na {\k14}a{\k17}sa {\k29}ga
+Comment: 0,0:00:46.66,0:00:49.22,Kara haut - DUO,,0,0,0,karaoke,{\k16}A{\k19}HA{\k42}HA {\k19}tte {\k15}wa{\k15}ra{\k15}wa{\k14}se{\k16}at{\k11}ta{\k7}ra {\k13}rat{\k17}tat{\k37}ta
+Comment: 0,0:00:49.43,0:00:51.62,Kara haut - DUO,,0,0,0,karaoke,{\k48}mat{\k16}te {\k16}ma{\k15}da{\k16}ma{\k15}da {\k16}ma{\k10}ba{\k8}ra {\k11}na {\k18}CO{\k30}LOR
+Comment: 0,0:00:51.62,0:00:53.85,Kara haut - DUO,,0,0,0,karaoke,{\k15}de{\k12}mo {\k18}na{\k15}ka{\k16}na{\k15}i {\k29}mon! {\k17}na{\k17}ka{\k17}na{\k14}i {\k38}mon!
+Comment: 0,0:00:54.35,0:00:56.58,Kara haut - DUO,,0,0,0,karaoke,{\k48}chak{\k13}ka {\k17}na{\k15}ka{\k18}ma{\k15}ka {\k14}mak{\k9}ka {\k9}na {\k16}F{\k19}I{\k30}RE
+Comment: 0,0:00:56.52,0:00:59.06,Kara haut - DUO,,0,0,0,karaoke,{\k16}a{\k16}ta{\k45}ta{\k16}ka {\k16}na {\k15}ka{\k18}ra{\k15}da {\k13}at{\k9}ta{\k8}ra {\k16}ta{\k14}ka{\k37}ra
+Comment: 0,0:00:59.22,0:01:01.46,Kara haut - DUO,,0,0,0,karaoke,{\k58}CRAC{\k12}KER {\k13}na{\k16}ra{\k18}se{\k14}ba {\k15}rap{\k10}pa {\k7}de {\k15}pap{\k15}pap{\k31}pa
+Comment: 0,0:01:01.44,0:01:04.22,Kara haut - DUO,,0,0,0,karaoke,{\k16}de{\k14}mo {\k16}ha{\k19}ka{\k17}na{\k14}i {\k29}mon! {\k14}ha{\k16}ka{\k19}na{\k14}i {\k30}mon! {\k27}{\i1}ONE {\k33}TWO!{\i0}
+Comment: 0,0:01:04.18,0:01:06.43,Kara haut - FLARE,,0,0,0,karaoke,{\k20}ka{\k13}i{\k17}sha{\k20}ku {\k23}ic{\k20}chi {\k14}de {\k16\rKara haut - DUO}o{\k15}to{\k16}mo{\k17}da{\k34}chi
+Comment: 0,0:01:16.52,0:01:19.02,Kara haut - DUO,,0,0,0,karaoke,{\k33}ta{\k19}no{\k13}shi{\k28}mi {\k18}kon{\k16}na {\k29}fu{\k32}re{\k30}a{\k32}i
+Comment: 0,0:01:18.97,0:01:21.22,Kara haut - DUO,,0,0,0,karaoke,{\k34}ha{\k18}ji{\k13}me {\k31}no {\k17}ip{\k11}po{\k32} LOOK {\k30}AT {\k39}ME
+Comment: 0,0:01:21.43,0:01:23.89,Kara haut - DUO,,0,0,0,karaoke,{\k34}i{\k18}ki{\k12}ya{\k15}su{\k17}i {\k30}sei{\k32}katsu {\k28}so {\k32}HAP{\k28}PY
+Comment: 0,0:01:23.92,0:01:26.55,Kara haut - DUO,,0,0,0,karaoke,{\k32}ki{\k20}mi {\k12}no{\k30} YEL{\k17}L {\k13}de {\k30}gan{\k33}ba{\k16}re{\k12}ru {\k48}{\i1}(moo!){\i0}
+Comment: 0,0:01:26.31,0:01:27.76,Kara haut - DUO,,0,0,0,karaoke,{\k24}so{\k24}wa {\k21}so{\k26}wa {\k20}so{\k30}wa
+Comment: 0,0:01:27.82,0:01:31.18,Kara haut - SUISEI,,0,0,0,karaoke,{\k17}mu{\k12}ne {\k13}no {\k16}za{\k15}wa{\k16}me{\k13}ki {\k34}to{\k15}ma{\k15}ra{\k43}nai! {\k48}to{\k17}ma{\k15}ra{\k47}nai!
+Comment: 0,0:01:31.25,0:01:32.60,Kara haut - DUO,,0,0,0,karaoke,{\k19}fu{\k32}wa {\k15}fu{\k32}wa {\k16}fu{\k21}wa
+Comment: 0,0:01:32.64,0:01:33.93,Kara haut - SUISEI,,0,0,0,karaoke,{\k22}fu{\k16}a{\k15}n{\k17}te{\k13}i {\k16}de{\k30}mo
+Comment: 0,0:01:33.76,0:01:36.02,Kara haut - DUO,,0,0,0,karaoke,{\k26}MIS{\k35}SION! {\k14}sei{\k14}shun {\k33}SHOW {\k15}so{\k14}u {\k16}shi{\k14}ma{\k45}shou!
+Comment: 0,0:01:35.92,0:01:38.43,Kara haut - DUO,,0,0,0,karaoke,{\k15}ho{\k16}ra {\k47}chak{\k14}ka {\k15}na{\k15}ka{\k16}ma{\k16}ka {\k13}mak{\k10}ka {\k7}na {\k14}ki{\k17}zu{\k29}na
+Comment: 0,0:01:38.30,0:01:40.93,Kara haut - DUO,,0,0,0,karaoke,{\k21}ka{\k16}ta {\k49}kun{\k14}de {\k15}wa{\k17}ra{\k13}wa{\k15}se{\k13}at{\k11}ta{\k11}ra {\k12}rat{\k15}tat{\k41}ta
+Comment: 0,0:01:41.12,0:01:43.31,Kara haut - DUO,,0,0,0,karaoke,{\k49}mat{\k15}te {\k17}ma{\k14}da{\k17}ma{\k14}da {\k15}wa{\k11}ka{\k10}ra{\k11}na{\k15}i {\k31}WORLD
+Comment: 0,0:01:43.30,0:01:45.60,Kara haut - DUO,,0,0,0,karaoke,{\k16}de{\k14}mo {\k16}na{\k17}ka{\k17}na{\k14}i {\k29}mon! {\k14}na{\k16}ka{\k19}na{\k14}i {\k36}mon!
+Comment: 0,0:01:46.03,0:01:48.14,Kara haut - DUO,,0,0,0,karaoke,{\k51}chak{\k14}ka {\k15}na{\k16}ka{\k14}ma{\k16}ka {\k16}mak{\k7}ka {\k12}na {\k14}wak{\k14}kak{\k22}ka
+Comment: 0,0:01:48.15,0:01:50.72,Kara haut - DUO,,0,0,0,karaoke,{\k20}sa{\k15}sa{\k48}ya{\k15}ka {\k17}na {\k17}yu{\k17}me {\k15}ga {\k13}at{\k8}ta{\k9}ra {\k13}ta{\k15}ka{\k35}ra
+Comment: 0,0:01:50.89,0:01:53.18,Kara haut - DUO,,0,0,0,karaoke,{\k54}CLA{\k13}P {\k18}shi{\k18}na{\k14}ga{\k16}ra {\k16}jan{\k7}ja{\k10}ka {\k13}jan{\k16}jan{\k34}jan
+Comment: 0,0:01:53.14,0:01:55.89,Kara haut - DUO,,0,0,0,karaoke,{\k16}de{\k14}mo {\k16}ha{\k19}ka{\k17}na{\k14}i {\k29}mon! {\k14}ha{\k16}ka{\k18}na{\k14}i {\k31}mon! {\k28}{\i1}ONE {\k29}TWO!{\i0}
+Comment: 0,0:01:55.88,0:01:58.10,Kara haut - POLKA,,0,0,0,karaoke,{\k33}man{\k33}jou {\k24}ic{\k20}chi {\k18}de {\k16}{\rKara haut - DUO}o{\k16}to{\k13}mo{\k15}da{\k34}chi
+Comment: 0,0:01:58.39,0:02:00.85,Kara haut - NOEL,,0,0,0,karaoke,{\k17}na{\k15}ka{\k13}ma {\k15}ka {\k29}na? {\k19}na{\k14}ka{\k16}ma {\k16}ka {\k29}na? {\k16}na{\k15}ka{\k15}ma{\k17}ka
+Comment: 0,0:02:00.81,0:02:03.28,Kara haut - MIKO,,0,0,0,karaoke,{\k17}na{\k17}ka{\k15}ma {\k17}ka {\k28}na? {\k15}na{\k18}ka{\k13}ma {\k18}ka {\k30}na? {\k16}na{\k15}ka{\k13}ma{\k15}ka
+Comment: 0,0:02:03.28,0:02:05.74,Kara haut - FLARE,,0,0,0,karaoke,{\k18}na{\k17}ka{\k15}ma {\k17}ka {\k28}na? {\k15}na{\k18}ka{\k13}ma {\k16}ka {\k30}na? {\k15}na{\k15}ka{\k14}ma{\k15}ka
+Comment: 0,0:02:05.72,0:02:06.99,Kara haut - POLKA,,0,0,0,karaoke,{\k20}na{\k15}ka{\k15}ma{\k17}ka {\k16}na{\k15}ka{\k12}ma{\k17}ka
+Comment: 0,0:02:06.93,0:02:08.28,Kara haut - DUO,,0,0,0,karaoke,{\k36}na{\k33}ka{\k30}ma{\k36}ka!
+Comment: 0,0:02:10.36,0:02:10.73,Kara haut - DUO,,0,0,0,karaoke,{\k37\i1}hai!{\i0}
+Comment: 0,0:02:12.77,0:02:13.18,Kara haut - DUO,,0,0,0,karaoke,{\k41\i1}hai!{\i0}
+Comment: 0,0:02:15.25,0:02:15.65,Kara haut - DUO,,0,0,0,karaoke,{\k40\i1}hai!{\i0}
+Comment: 0,0:02:17.39,0:02:18.27,Kara haut - DUO,,0,0,0,karaoke,{\k32\i1}ONE {\k33}TWO!{\i0}
+Comment: 0,0:02:27.90,0:02:32.01,Kara haut - SUISEI,,0,0,0,karaoke,{\k62}yuu{\k31}da{\k34}chi {\k28}mi{\k31}chi {\k31}mi{\k31}chi {\k34}ka{\k29}e{\k30}ri{\k30}mi{\k40}chi
+Comment: 0,0:02:32.80,0:02:37.02,Kara haut - SUISEI,,0,0,0,karaoke,{\k46}ma{\k19}n{\k31}ma{\k27}ru {\k33}chi{\k31}kyu{\k33}u {\k31}no {\k59}MYS{\k65}TE{\k47}RY
+Comment: 0,0:02:37.74,0:02:42.18,Kara haut - POLKA,,0,0,0,karaoke,{\k64}yu{\k32}ru{\k28}ku {\k31}nu{\k32}ku{\k29}nu{\k30}ku {\k34}to{\k27}ki{\k32}a{\k28}ka{\k77}se
+Comment: 0,0:02:42.64,0:02:47.06,Kara haut - POLKA,,0,0,0,karaoke,{\k68}ne{\k58}mu{\k60}ku {\k67}na{\kf189}ru...
+Comment: 0,0:02:47.24,0:02:50.22,Kara haut - DUO,,0,0,0,karaoke,{\k19}ma{\k18}e {\kf261}ni!
+Comment: 0,0:02:51.00,0:02:53.47,Kara haut - FLARE,,0,0,0,karaoke,{\k15}ho{\k16}ra {\k47}chak{\k17}ka {\k15}na{\k14}ka{\k15}ma{\k16}ka {\k13}mak{\k9}ka {\k9}na {\k12}a{\k17}sa {\k32}ga
+Comment: 0,0:02:53.43,0:02:55.93,Kara haut - NOEL,,0,0,0,karaoke,{\k16}A{\k19}HA{\k42}HA {\k19}tte {\k15}wa{\k15}ra{\k17}wa{\k16}se{\k14}at{\k9}ta{\k9}ra {\k11}rat{\k15}tat{\k33}ta
+Comment: 0,0:02:56.22,0:02:58.33,Kara haut - MIKO,,0,0,0,karaoke,{\k46}mat{\k15}te {\k16}ma{\k15}da{\k16}ma{\k15}da {\k16}ma{\k10}ba{\k9}ra {\k14}na {\k14}CO{\k25}LOR
+Comment: 0,0:02:58.36,0:03:00.56,Kara haut - DUO,,0,0,0,karaoke,{\k18}de{\k15}mo {\k15}na{\k15}ka{\k16}na{\k15}i {\k29}mon! {\k17}na{\k17}ka{\k17}na{\k14}i {\k32}mon!
+Comment: 0,0:03:00.81,0:03:03.22,Kara haut - DUO,,0,0,0,karaoke,{\k16}ho{\k17}ra {\k47}chak{\k14}ka {\k15}na{\k15}ka{\k16}ma{\k16}ka {\k13}mak{\k10}ka {\k9}na {\k14}a{\k17}sa {\k22}ga
+Comment: 0,0:03:03.27,0:03:05.81,Kara haut - DUO,,0,0,0,karaoke,{\k16}A{\k19}HA{\k42}HA {\k19}tte {\k15}wa{\k15}ra{\k15}wa{\k14}se{\k16}at{\k11}ta{\k7}ra {\k13}rat{\k17}tat{\k37}ta
+Comment: 0,0:03:06.04,0:03:08.21,Kara haut - DUO,,0,0,0,karaoke,{\k49}mat{\k17}te {\k16}ma{\k15}da{\k16}ma{\k15}da {\k16}ma{\k9}ba{\k9}ra {\k12}na {\k16}CO{\k27}LOR
+Comment: 0,0:03:08.23,0:03:10.43,Kara haut - DUO,,0,0,0,karaoke,{\k15}de{\k12}mo {\k18}na{\k15}ka{\k16}na{\k15}i {\k29}mon! {\k17}na{\k17}ka{\k17}na{\k14}i {\k38}mon!
+Comment: 0,0:03:10.98,0:03:13.18,Kara haut - DUO,,0,0,0,karaoke,{\k48}chak{\k13}ka {\k17}na{\k15}ka{\k17}ma{\k15}ka {\k13}mak{\k9}ka {\k9}na {\k16}F{\k19}I{\k30}RE
+Comment: 0,0:03:13.14,0:03:15.64,Kara haut - DUO,,0,0,0,karaoke,{\k16}a{\k16}ta{\k45}ta{\k16}ka {\k16}na {\k15}ka{\k18}ra{\k15}da {\k13}at{\k9}ta{\k8}ra {\k14}ta{\k15}ka{\k34}ra
+Comment: 0,0:03:15.83,0:03:18.02,Kara haut - DUO,,0,0,0,karaoke,{\k56}CRAC{\k12}KER {\k14}na{\k16}ra{\k18}se{\k15}ba {\k15}rap{\k10}pa {\k7}de {\k15}pap{\k15}pap{\k26}pa
+Comment: 0,0:03:18.06,0:03:20.85,Kara haut - DUO,,0,0,0,karaoke,{\k16}de{\k14}mo {\k16}ha{\k19}ka{\k17}na{\k14}i {\k29}mon! {\k14}ha{\k16}ka{\k18}na{\k15}i {\k28}mon! {\k28}{\i1}ONE {\k35}TWO!{\i0}
+Comment: 0,0:03:20.78,0:03:23.27,Kara haut - DUO,,0,0,0,karaoke,{\k20}ka{\k13}i{\k17}sha{\k20}ku {\k23}ic{\k20}chi {\k14}de {\k16\rKara haut - DUO}o{\k15}to{\k16}mo{\k17}da{\k34}chi
+Dialogue: 0,0:00:14.12,0:00:17.65,Kara haut - MIKO,,0,0,0,fx,{\k90\fad(300,200)}{\k29}DO {\k16}RE {\k14}RE {\k32}MI {\k15}FA {\k14}FA {\k30}SOL{\k27} LA {\k35}SI {\k31}DO
+Dialogue: 0,0:00:16.57,0:00:19.80,Kara haut - MIKO,,0,0,0,fx,{\k90\fad(300,200)}{\k31}o{\k14}te{\k17}te {\k28}tsu{\k18}na{\k15}i{\k29}de {\k17}ka{\k17}e{\k27}ro
+Dialogue: 0,0:00:18.95,0:00:22.55,Kara haut - FLARE,,0,0,0,fx,{\k90\fad(300,200)}{\k39}shi{\k16}ra{\k16}na{\k30}i {\k13}ko{\k17}to {\k31}sou{\k27}kyuu {\k31}ken{\k30}kyuu
+Dialogue: 0,0:00:21.49,0:00:24.72,Kara haut - FLARE,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ki{\k14}mi {\k17}mo {\k32}to{\k14}mo{\k15}da{\k29}chin {\k31}na{\k31}ro
+Dialogue: 0,0:00:23.95,0:00:27.47,Kara haut - NOEL,,0,0,0,fx,{\k90\fad(300,200)}{\k28}u{\k20}re{\k16}shi{\k26}mi {\k16}mo {\k15}ka{\k30}na{\k31}shi{\k30}mi {\k30}mo
+Dialogue: 0,0:00:26.40,0:00:29.67,Kara haut - NOEL,,0,0,0,fx,{\k90\fad(300,200)}{\k30}kac{\k17}chi{\k16}ri {\k30}pit{\k14}ta{\k15}ri {\k32}han{\k31}bun{\k32}ko
+Dialogue: 0,0:00:28.82,0:00:32.38,Kara haut - POLKA,,0,0,0,fx,{\k90\fad(300,200)}{\k33}gak{\k17}ka{\k17}ri {\k28}bak{\k18}ka{\k16}ri {\k27}na {\k31}kan{\k32}jou {\k27}mo
+Dialogue: 0,0:00:31.33,0:00:34.95,Kara haut - POLKA,,0,0,0,fx,{\k90\fad(300,200)}{\k30}is{\k15}sho {\k17}ni {\k28}GOOD {\k20}JO{\k13}B {\k29}dai{\k33}jou{\k31}bu {\k36\rKara haut - DUO\i1}(eh?){\i0}
+Dialogue: 0,0:00:33.74,0:00:36.30,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ko{\k30}wa {\k18}ko{\k30}wa {\k16}ko{\k33}wa!
+Dialogue: 0,0:00:35.19,0:00:39.59,Kara haut - SUISEI,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ko{\k16}no {\k14}me{\k17}i{\k14}kyu{\k16}u {\k15}no {\k32}de{\k13}gu{\k16}chi {\k46}wa {\k47}do{\k16}ko {\k14}da{\k39}ro?
+Dialogue: 0,0:00:38.64,0:00:41.13,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ku{\k29}ra {\k16}ku{\k28}ra {\k20}ku{\k23}ra!
+Dialogue: 0,0:00:40.08,0:00:42.47,Kara haut - SUISEI,,0,0,0,fx,{\k90\fad(300,200)}{\k18}C{\k15}R{\k13}I{\k18}SI{\k11}S {\k24}ka{\k30}mo?
+Dialogue: 0,0:00:41.15,0:00:44.51,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k29}MIS{\k33}SION! {\k16}sei{\k15}shun {\k31}SHOW {\k17}ha{\k14}ji{\k17}me{\k13}ma{\k41}shou!
+Dialogue: 0,0:00:43.33,0:00:46.87,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ho{\k16}ra {\k47}chak{\k14}ka {\k15}na{\k15}ka{\k16}ma{\k16}ka {\k13}mak{\k10}ka {\k7}na {\k14}a{\k17}sa {\k29}ga
+Dialogue: 0,0:00:45.76,0:00:49.42,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k16}A{\k19}HA{\k42}HA {\k19}tte {\k15}wa{\k15}ra{\k15}wa{\k14}se{\k16}at{\k11}ta{\k7}ra {\k13}rat{\k17}tat{\k37}ta
+Dialogue: 0,0:00:48.53,0:00:51.82,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k48}mat{\k16}te {\k16}ma{\k15}da{\k16}ma{\k15}da {\k16}ma{\k10}ba{\k8}ra {\k11}na {\k18}CO{\k30}LOR
+Dialogue: 0,0:00:50.72,0:00:54.05,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k15}de{\k12}mo {\k18}na{\k15}ka{\k16}na{\k15}i {\k29}mon! {\k17}na{\k17}ka{\k17}na{\k14}i {\k38}mon!
+Dialogue: 0,0:00:53.45,0:00:56.78,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k48}chak{\k13}ka {\k17}na{\k15}ka{\k18}ma{\k15}ka {\k14}mak{\k9}ka {\k9}na {\k16}F{\k19}I{\k30}RE
+Dialogue: 0,0:00:55.62,0:00:59.26,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k16}a{\k16}ta{\k45}ta{\k16}ka {\k16}na {\k15}ka{\k18}ra{\k15}da {\k13}at{\k9}ta{\k8}ra {\k16}ta{\k14}ka{\k37}ra
+Dialogue: 0,0:00:58.32,0:01:01.66,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k58}CRAC{\k12}KER {\k13}na{\k16}ra{\k18}se{\k14}ba {\k15}rap{\k10}pa {\k7}de {\k15}pap{\k15}pap{\k31}pa
+Dialogue: 0,0:01:00.54,0:01:04.42,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k16}de{\k14}mo {\k16}ha{\k19}ka{\k17}na{\k14}i {\k29}mon! {\k14}ha{\k16}ka{\k19}na{\k14}i {\k30}mon! {\k27}{\i1}ONE {\k33}TWO!{\i0}
+Dialogue: 0,0:01:03.28,0:01:06.63,Kara haut - FLARE,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ka{\k13}i{\k17}sha{\k20}ku {\k23}ic{\k20}chi {\k14}de {\k16\rKara haut - DUO}o{\k15}to{\k16}mo{\k17}da{\k34}chi
+Dialogue: 0,0:01:15.62,0:01:19.22,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ta{\k19}no{\k13}shi{\k28}mi {\k18}kon{\k16}na {\k29}fu{\k32}re{\k30}a{\k32}i
+Dialogue: 0,0:01:18.07,0:01:21.42,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ha{\k18}ji{\k13}me {\k31}no {\k17}ip{\k11}po{\k32} LOOK {\k30}AT {\k39}ME
+Dialogue: 0,0:01:20.53,0:01:24.09,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k34}i{\k18}ki{\k12}ya{\k15}su{\k17}i {\k30}sei{\k32}katsu {\k28}so {\k32}HAP{\k28}PY
+Dialogue: 0,0:01:23.02,0:01:26.75,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ki{\k20}mi {\k12}no{\k30} YEL{\k17}L {\k13}de {\k30}gan{\k33}ba{\k16}re{\k12}ru {\k48}{\i1}(moo!){\i0}
+Dialogue: 0,0:01:25.41,0:01:27.96,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k24}so{\k24}wa {\k21}so{\k26}wa {\k20}so{\k30}wa
+Dialogue: 0,0:01:26.92,0:01:31.38,Kara haut - SUISEI,,0,0,0,fx,{\k90\fad(300,200)}{\k17}mu{\k12}ne {\k13}no {\k16}za{\k15}wa{\k16}me{\k13}ki {\k34}to{\k15}ma{\k15}ra{\k43}nai! {\k48}to{\k17}ma{\k15}ra{\k47}nai!
+Dialogue: 0,0:01:30.35,0:01:32.80,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k19}fu{\k32}wa {\k15}fu{\k32}wa {\k16}fu{\k21}wa
+Dialogue: 0,0:01:31.74,0:01:34.13,Kara haut - SUISEI,,0,0,0,fx,{\k90\fad(300,200)}{\k22}fu{\k16}a{\k15}n{\k17}te{\k13}i {\k16}de{\k30}mo
+Dialogue: 0,0:01:32.86,0:01:36.22,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k26}MIS{\k35}SION! {\k14}sei{\k14}shun {\k33}SHOW {\k15}so{\k14}u {\k16}shi{\k14}ma{\k45}shou!
+Dialogue: 0,0:01:35.02,0:01:38.63,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ho{\k16}ra {\k47}chak{\k14}ka {\k15}na{\k15}ka{\k16}ma{\k16}ka {\k13}mak{\k10}ka {\k7}na {\k14}ki{\k17}zu{\k29}na
+Dialogue: 0,0:01:37.40,0:01:41.13,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ka{\k16}ta {\k49}kun{\k14}de {\k15}wa{\k17}ra{\k13}wa{\k15}se{\k13}at{\k11}ta{\k11}ra {\k12}rat{\k15}tat{\k41}ta
+Dialogue: 0,0:01:40.22,0:01:43.51,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k49}mat{\k15}te {\k17}ma{\k14}da{\k17}ma{\k14}da {\k15}wa{\k11}ka{\k10}ra{\k11}na{\k15}i {\k31}WORLD
+Dialogue: 0,0:01:42.40,0:01:45.80,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k16}de{\k14}mo {\k16}na{\k17}ka{\k17}na{\k14}i {\k29}mon! {\k14}na{\k16}ka{\k19}na{\k14}i {\k36}mon!
+Dialogue: 0,0:01:45.13,0:01:48.34,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k51}chak{\k14}ka {\k15}na{\k16}ka{\k14}ma{\k16}ka {\k16}mak{\k7}ka {\k12}na {\k14}wak{\k14}kak{\k22}ka
+Dialogue: 0,0:01:47.25,0:01:50.92,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k20}sa{\k15}sa{\k48}ya{\k15}ka {\k17}na {\k17}yu{\k17}me {\k15}ga {\k13}at{\k8}ta{\k9}ra {\k13}ta{\k15}ka{\k35}ra
+Dialogue: 0,0:01:49.99,0:01:53.38,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k54}CLA{\k13}P {\k18}shi{\k18}na{\k14}ga{\k16}ra {\k16}jan{\k7}ja{\k10}ka {\k13}jan{\k16}jan{\k34}jan
+Dialogue: 0,0:01:52.24,0:01:56.09,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k16}de{\k14}mo {\k16}ha{\k19}ka{\k17}na{\k14}i {\k29}mon! {\k14}ha{\k16}ka{\k18}na{\k14}i {\k31}mon! {\k28}{\i1}ONE {\k29}TWO!{\i0}
+Dialogue: 0,0:01:54.98,0:01:58.30,Kara haut - POLKA,,0,0,0,fx,{\k90\fad(300,200)}{\k33}man{\k33}jou {\k24}ic{\k20}chi {\k18}de {\k16}{\rKara haut - DUO}o{\k16}to{\k13}mo{\k15}da{\k34}chi
+Dialogue: 0,0:01:57.49,0:02:01.05,Kara haut - NOEL,,0,0,0,fx,{\k90\fad(300,200)}{\k17}na{\k15}ka{\k13}ma {\k15}ka {\k29}na? {\k19}na{\k14}ka{\k16}ma {\k16}ka {\k29}na? {\k16}na{\k15}ka{\k15}ma{\k17}ka
+Dialogue: 0,0:01:59.91,0:02:03.48,Kara haut - MIKO,,0,0,0,fx,{\k90\fad(300,200)}{\k17}na{\k17}ka{\k15}ma {\k17}ka {\k28}na? {\k15}na{\k18}ka{\k13}ma {\k18}ka {\k30}na? {\k16}na{\k15}ka{\k13}ma{\k15}ka
+Dialogue: 0,0:02:02.38,0:02:05.94,Kara haut - FLARE,,0,0,0,fx,{\k90\fad(300,200)}{\k18}na{\k17}ka{\k15}ma {\k17}ka {\k28}na? {\k15}na{\k18}ka{\k13}ma {\k16}ka {\k30}na? {\k15}na{\k15}ka{\k14}ma{\k15}ka
+Dialogue: 0,0:02:04.82,0:02:07.19,Kara haut - POLKA,,0,0,0,fx,{\k90\fad(300,200)}{\k20}na{\k15}ka{\k15}ma{\k17}ka {\k16}na{\k15}ka{\k12}ma{\k17}ka
+Dialogue: 0,0:02:06.03,0:02:08.48,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k36}na{\k33}ka{\k30}ma{\k36}ka!
+Dialogue: 0,0:02:09.46,0:02:10.93,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k37\i1}hai!{\i0}
+Dialogue: 0,0:02:11.87,0:02:13.38,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k41\i1}hai!{\i0}
+Dialogue: 0,0:02:14.35,0:02:15.85,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k40\i1}hai!{\i0}
+Dialogue: 0,0:02:16.49,0:02:18.47,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k32\i1}ONE {\k33}TWO!{\i0}
+Dialogue: 0,0:02:27.00,0:02:32.21,Kara haut - SUISEI,,0,0,0,fx,{\k90\fad(300,200)}{\k62}yuu{\k31}da{\k34}chi {\k28}mi{\k31}chi {\k31}mi{\k31}chi {\k34}ka{\k29}e{\k30}ri{\k30}mi{\k40}chi
+Dialogue: 0,0:02:31.90,0:02:37.22,Kara haut - SUISEI,,0,0,0,fx,{\k90\fad(300,200)}{\k46}ma{\k19}n{\k31}ma{\k27}ru {\k33}chi{\k31}kyu{\k33}u {\k31}no {\k59}MYS{\k65}TE{\k47}RY
+Dialogue: 0,0:02:36.84,0:02:42.38,Kara haut - POLKA,,0,0,0,fx,{\k90\fad(300,200)}{\k64}yu{\k32}ru{\k28}ku {\k31}nu{\k32}ku{\k29}nu{\k30}ku {\k34}to{\k27}ki{\k32}a{\k28}ka{\k77}se
+Dialogue: 0,0:02:41.74,0:02:47.26,Kara haut - POLKA,,0,0,0,fx,{\k90\fad(300,200)}{\k68}ne{\k58}mu{\k60}ku {\k67}na{\kf189}ru...
+Dialogue: 0,0:02:46.34,0:02:50.42,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ma{\k18}e {\kf261}ni!
+Dialogue: 0,0:02:50.10,0:02:53.67,Kara haut - FLARE,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ho{\k16}ra {\k47}chak{\k17}ka {\k15}na{\k14}ka{\k15}ma{\k16}ka {\k13}mak{\k9}ka {\k9}na {\k12}a{\k17}sa {\k32}ga
+Dialogue: 0,0:02:52.53,0:02:56.13,Kara haut - NOEL,,0,0,0,fx,{\k90\fad(300,200)}{\k16}A{\k19}HA{\k42}HA {\k19}tte {\k15}wa{\k15}ra{\k17}wa{\k16}se{\k14}at{\k9}ta{\k9}ra {\k11}rat{\k15}tat{\k33}ta
+Dialogue: 0,0:02:55.32,0:02:58.53,Kara haut - MIKO,,0,0,0,fx,{\k90\fad(300,200)}{\k46}mat{\k15}te {\k16}ma{\k15}da{\k16}ma{\k15}da {\k16}ma{\k10}ba{\k9}ra {\k14}na {\k14}CO{\k25}LOR
+Dialogue: 0,0:02:57.46,0:03:00.76,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k18}de{\k15}mo {\k15}na{\k15}ka{\k16}na{\k15}i {\k29}mon! {\k17}na{\k17}ka{\k17}na{\k14}i {\k32}mon!
+Dialogue: 0,0:02:59.91,0:03:03.42,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ho{\k17}ra {\k47}chak{\k14}ka {\k15}na{\k15}ka{\k16}ma{\k16}ka {\k13}mak{\k10}ka {\k9}na {\k14}a{\k17}sa {\k22}ga
+Dialogue: 0,0:03:02.37,0:03:06.01,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k16}A{\k19}HA{\k42}HA {\k19}tte {\k15}wa{\k15}ra{\k15}wa{\k14}se{\k16}at{\k11}ta{\k7}ra {\k13}rat{\k17}tat{\k37}ta
+Dialogue: 0,0:03:05.14,0:03:08.41,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k49}mat{\k17}te {\k16}ma{\k15}da{\k16}ma{\k15}da {\k16}ma{\k9}ba{\k9}ra {\k12}na {\k16}CO{\k27}LOR
+Dialogue: 0,0:03:07.33,0:03:10.63,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k15}de{\k12}mo {\k18}na{\k15}ka{\k16}na{\k15}i {\k29}mon! {\k17}na{\k17}ka{\k17}na{\k14}i {\k38}mon!
+Dialogue: 0,0:03:10.08,0:03:13.38,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k48}chak{\k13}ka {\k17}na{\k15}ka{\k17}ma{\k15}ka {\k13}mak{\k9}ka {\k9}na {\k16}F{\k19}I{\k30}RE
+Dialogue: 0,0:03:12.24,0:03:15.84,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k16}a{\k16}ta{\k45}ta{\k16}ka {\k16}na {\k15}ka{\k18}ra{\k15}da {\k13}at{\k9}ta{\k8}ra {\k14}ta{\k15}ka{\k34}ra
+Dialogue: 0,0:03:14.93,0:03:18.22,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k56}CRAC{\k12}KER {\k14}na{\k16}ra{\k18}se{\k15}ba {\k15}rap{\k10}pa {\k7}de {\k15}pap{\k15}pap{\k26}pa
+Dialogue: 0,0:03:17.16,0:03:21.05,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k16}de{\k14}mo {\k16}ha{\k19}ka{\k17}na{\k14}i {\k29}mon! {\k14}ha{\k16}ka{\k18}na{\k15}i {\k28}mon! {\k28}{\i1}ONE {\k35}TWO!{\i0}
+Dialogue: 0,0:03:19.88,0:03:23.47,Kara haut - DUO,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ka{\k13}i{\k17}sha{\k20}ku {\k23}ic{\k20}chi {\k14}de {\k16\rKara haut - DUO}o{\k15}to{\k16}mo{\k17}da{\k34}chi
