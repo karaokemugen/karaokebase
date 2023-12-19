@@ -1,0 +1,177 @@
+﻿[Script Info]
+Title: Fire N Ice
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 0
+PlayResY: 0
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H009032FB,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mori,Arial,24,&H00FFFFFF,&H00F2BFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kiara,Arial,24,&H00FFFFFF,&H004A75FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H009032FB,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+Style: Mori - [Down],Arial,24,&H00FFFFFF,&H00F2BFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:08.57,0:00:10.68,Kiara,,0,0,0,karaoke,{\k25}This {\k25}fe{\k23}ver's {\k38}got {\k44}no {\k56}fall
+Comment: 0,0:00:10.68,0:00:12.74,Kiara,,0,0,0,karaoke,{\k18}Tem{\k13}pera{\k20}tures {\k24}cra{\k24}zy {\k26}off {\k12}the {\k69}wall
+Comment: 0,0:00:12.32,0:00:14.50,Mori,,0,0,0,karaoke,{\k22}Get {\k21}rea{\k8}dy {\k15}like {\k46}stop, {\k48}drop, {\k58}roll
+Comment: 0,0:00:14.50,0:00:16.55,Mori,,0,0,0,karaoke,{\k16}Not {\k33}gonna {\k29}break {\k9}a {\k36}sweat {\k23}at {\k59}all
+Comment: 0,0:00:16.55,0:00:19.99,Kiara,,0,0,0,karaoke,{\k34}Sparks {\k29}light {\k16}that {\k53}candle {\k4f3}fi{\kf169}re
+Comment: 0,0:00:20.46,0:00:23.61,Kiara,,0,0,0,karaoke,{\k26}The {\k23}phoe{\k23}nix {\k19}ri{\k25}ses {\kf53}high{\kf146}er
+Comment: 0,0:00:24.87,0:00:27.86,Mori,,0,0,0,karaoke,{\k40}Fri{\k56}gid, {\k31}fro{\k65}zen, {\k21}no {\k39}li{\k47}mits
+Comment: 0,0:00:27.86,0:00:31.95,Mori,,0,0,0,karaoke,{\k22}Dead{\k20}ly {\kf42}co{\kf56}-o{\kf43}-old, {\k31}ten {\kf12}be{\kf60}lo{\kf47}-o{\kf76}-ow
+Comment: 0,0:00:32.00,0:00:38.06,Sample KM [Up],,0,0,0,karaoke,{\k26}shi{\k31}ha{\k20}i {\k30}shi{\k50}tai {\k18}yo {\kf54}ki{\k22}mi {\k21}no {\k18}ko{\k43}ko{\k36}ro {\kf237}wo
+Comment: 0,0:00:38.06,0:00:39.76,Kiara,,0,0,0,karaoke,{\k26}ii {\k23}ko? {\k15}{\c&HFFFFFF&\2c&HF2BFFF&}bo{\k9}ku {\k23}no? {\k19}{\c&H9032FB&\2c&HFFFFFF&}NO {\k55}MORE!
+Comment: 0,0:00:39.76,0:00:41.76,Sample KM [Up],,0,0,0,karaoke,{\k22}Fire {\k12}it {\k36}up, {\k26}fire {\k15}it {\k26}up {\k60}now
+Comment: 0,0:00:41.76,0:00:43.58,Kiara,,0,0,0,karaoke,{\k36}Hot {\k24}pas{\k25}sion, {\k27}never {\k23}back {\k47}down
+Comment: 0,0:00:43.46,0:00:45.60,Mori,,0,0,0,karaoke,{\k35}Freeze {\k15}you {\k29}out, {\k33}freeze {\k10}you {\k25}out {\k67}now
+Comment: 0,0:00:45.67,0:00:47.38,Mori,,0,0,0,karaoke,{\k17}Not {\k28}about {\k21}to {\k28}bend {\k20}to {\k57}you
+Comment: 0,0:00:47.38,0:00:49.48,Sample KM [Up],,0,0,0,karaoke,{\k22}Fire {\k17}and {\k31}ice, {\k25}death {\k11}and {\k33}life, {\k71}now
+Comment: 0,0:00:49.48,0:00:51.20,Kiara,,0,0,0,karaoke,{\k26}High {\k20}pres{\k30}sure, {\k11}turn {\k13}it {\k20}up {\k52}loud
+Comment: 0,0:00:51.20,0:00:53.26,Mori,,0,0,0,karaoke,{\k25}Fire {\k16}and {\k27}ice, {\k29}fire {\k12}and {\k33}ice, {\k64}now
+Comment: 0,0:00:53.26,0:00:55.12,Mori,,0,0,0,karaoke,{\k33}This {\k23}world's {\k12}all {\k41}smoke {\k16}and {\k19}mir{\k42}rors
+Comment: 0,0:00:54.88,0:00:57.60,Sample KM [Down],,0,0,0,karaoke,{\kf172}(Nananana{\kf100}na)
+Comment: 0,0:00:57.06,0:00:59.06,Sample KM [Up],,0,0,0,karaoke,{\k21}ki{\k12}mi {\k22}no {\k9}o{\k19}mo{\k19}u {\k18}ka{\kf80}chi
+Comment: 0,0:00:58.64,0:01:01.17,Sample KM [Down],,0,0,0,karaoke,{\kf182}(Nananana{\kf71}na)
+Comment: 0,0:01:00.90,0:01:02.16,Sample KM [Up],,0,0,0,karaoke,{\k29}koe{\k22}te {\k27}koe{\k48}te
+Comment: 0,0:01:02.51,0:01:04.94,Sample KM [Down],,0,0,0,karaoke,{\kf172}(Nananana{\kf71}na)
+Comment: 0,0:01:04.64,0:01:06.64,Sample KM [Up],,0,0,0,karaoke,{\k36}jii{\k24}to {\k11}i{\k10}ki {\k25}wo {\k38}non{\k56}de
+Comment: 0,0:01:06.29,0:01:08.77,Sample KM [Down],,0,0,0,karaoke,{\kf172}(Nananana{\kf76}na)
+Comment: 0,0:01:08.50,0:01:09.92,Mori,,0,0,0,karaoke,{\k14}so{\k14}me{\k21}te {\k16}so{\k13}me{\kf64}te
+Comment: 0,0:01:10.64,0:01:12.29,Kiara,,0,0,0,karaoke,{\k27}Bla{\k51}zing, {\k17}un{\k35}chan{\k35}ging
+Comment: 0,0:01:12.58,0:01:15.46,Kiara,,0,0,0,karaoke,{\k20}No {\k33}strange {\k26}thing {\k18}a{\k27}bout {\k23}this {\k46}heat, {\k19}wit{\k32}ness {\k44}me
+Comment: 0,0:01:15.46,0:01:17.89,Kiara,,0,0,0,karaoke,{\k21}Hit {\k28}this {\k44}beat, {\k50}rinse {\k43}re{\k57}peat
+Comment: 0,0:01:17.50,0:01:20.72,Mori,,0,0,0,karaoke,{\k37}These {\k14}fee{\k33}lings {\k18}got {\k16}me {\k27}free{\k33}zing {\kf144}up
+Comment: 0,0:01:21.37,0:01:24.09,Mori,,0,0,0,karaoke,{\k31}chuu{\k16}do{\k16}ku{\k38}sei {\k15}no {\k33}a{\k25}i {\kf98}wa
+Comment: 0,0:01:25.94,0:01:28.81,Kiara,,0,0,0,karaoke,{\k12}ka{\k12}ra{\k13}da{\k13}ju{\k22}u {\k21}i{\k50}ma {\k13}ka{\k14}ke{\k12}me{\k12}gu{\k13}ra{\k32}se{\k48}ba
+Comment: 0,0:01:28.83,0:01:32.65,Kiara,,0,0,0,karaoke,{\k22}Can't {\kf19}con{\kf46}tro{\kf54}-o{\kf48}-ol, {\kf23}o{\kf20}ver{\kf51}flo{\kf43}-o{\kf56}-ow
+Comment: 0,0:01:29.68,0:01:33.04,Mori - [Down],,0,0,0,karaoke,{\k31}Can't {\k12}con{\k34}trol {\k27}it, {\kf23}o{\kf13}ver{\kf57}flo{\kf42}-o{\kf97}-ow
+Comment: 0,0:01:33.11,0:01:38.70,Kiara,,0,0,0,karaoke,{\k17}tsu{\k25}ka{\k28}ma{\k19}e{\k54}tai {\k19}no! {\k41}ki{\k33}mi {\k23}no {\k26}ko{\k30}ko{\k34}ro {\kf210}wo
+Comment: 0,0:01:39.01,0:01:40.71,Mori,,0,0,0,karaoke,{\k9}de{\k13}mo {\k30}ne? {\k24}{\c&HFFFFFF&\2c&H4A75FF&}dat{\k14}te? {\k16}{\c&H9032FB&\2c&HFFFFFF&}NO {\k64}MORE!
+Comment: 0,0:01:40.71,0:01:42.80,Sample KM [Up],,0,0,0,karaoke,{\k22}Fire {\k12}it {\k36}up, {\k26}fire {\k15}it {\k26}up {\k72}now
+Comment: 0,0:01:42.86,0:01:44.64,Kiara,,0,0,0,karaoke,{\k20}Hot {\k24}pas{\k25}sion, {\k27}never {\k23}back {\k59}down
+Comment: 0,0:01:44.53,0:01:46.53,Mori,,0,0,0,karaoke,{\k22}Freeze {\k18}you {\k29}out, {\k33}freeze {\k10}you {\k25}out {\k63}now
+Comment: 0,0:01:46.66,0:01:48.29,Mori,,0,0,0,karaoke,{\k17}Not {\k28}about {\k21}to {\k28}bend {\k20}to {\k49}you
+Comment: 0,0:01:48.30,0:01:50.39,Sample KM [Up],,0,0,0,karaoke,{\k25}Fire {\k17}and {\k31}ice, {\k25}death {\k11}and {\k33}life, {\k67}now
+Comment: 0,0:01:50.39,0:01:52.22,Kiara,,0,0,0,karaoke,{\k26}High {\k20}pres{\k34}sure, {\k15}turn {\k11}it {\k19}up {\k58}loud
+Comment: 0,0:01:52.22,0:01:54.22,Sample KM [Up],,0,0,0,karaoke,{\k18}Fire {\k16}and {\k27}ice, {\k29}fire {\k12}and {\k33}ice, {\k65}now
+Comment: 0,0:01:54.22,0:01:56.07,Mori,,0,0,0,karaoke,{\k33}This {\k23}world's {\k8}all {\k35}smoke {\k16}and {\k29}mir{\k41}rors
+Comment: 0,0:01:55.85,0:01:58.51,Sample KM [Down],,0,0,0,karaoke,{\kf172}(Nananana{\kf94}na)
+Comment: 0,0:01:58.05,0:01:59.98,Sample KM [Up],,0,0,0,karaoke,{\k14}u{\k12}ru{\k20}sai {\k24}so{\k25}no {\k20}ku{\kf78}chi
+Comment: 0,0:01:59.63,0:02:02.13,Sample KM [Down],,0,0,0,karaoke,{\kf172}(Nananana{\kf78}na)
+Comment: 0,0:02:01.83,0:02:03.27,Sample KM [Up],,0,0,0,karaoke,{\k19}to{\k12}ji{\k23}te {\k14}to{\k12}ji{\kf64}te
+Comment: 0,0:02:03.44,0:02:05.85,Sample KM [Down],,0,0,0,karaoke,{\kf172}(Nananana{\kf69}na)
+Comment: 0,0:02:05.57,0:02:07.68,Sample KM [Up],,0,0,0,karaoke,{\k39}yuu{\k8}do{\k9}ku{\k28}sei {\k22}no {\k45}"I" {\kf60}wo
+Comment: 0,0:02:07.28,0:02:09.64,Sample KM [Down],,0,0,0,karaoke,{\kf172}(Nananana{\kf64}na)
+Comment: 0,0:02:09.50,0:02:10.75,Sample KM [Up],,0,0,0,karaoke,{\k14}ko{\k14}me{\k22}te {\k11}ko{\k12}me{\k52}te
+Comment: 0,0:02:10.78,0:02:12.87,Mori,,0,0,0,karaoke,{\k13}We’re {\k23}caught {\k33}up {\k15}in {\k10}the {\k18}eye {\k15}of {\k7}a {\k26}storm {\k17}of {\k32}flame
+Comment: 0,0:02:12.62,0:02:14.74,Mori,,0,0,0,karaoke,{\k30}It’s {\k16}not {\k25}com{\k13}pli{\k21}ca{\k9}ted, {\k19}but {\k12}a {\k40}nuanced {\k27}game
+Comment: 0,0:02:14.62,0:02:16.61,Mori,,0,0,0,karaoke,{\k16}A {\k23}past {\k15}you {\k23}once {\k22}gave {\k10}me {\k16}some{\k12}thing {\k11}I {\k15}can’t {\k36}shake
+Comment: 0,0:02:16.61,0:02:18.46,Mori,,0,0,0,karaoke,{\k7}The {\k27}chance {\k9}know{\k9}ing {\k18}some{\k24}bo{\k9}dy {\k8}who {\k13}had {\k27}moves {\k11}to {\k23}make
+Comment: 0,0:02:18.46,0:02:20.38,Kiara,,0,0,0,karaoke,{\k13}So {\k8}what{\k12}’cha {\k18}wai{\k20}ting {\k25}for? {\k10}You {\k13}got{\k13}ta {\k26}burn {\k10}it {\k24}up
+Comment: 0,0:02:20.38,0:02:22.45,Kiara,,0,0,0,karaoke,{\k12}Cuz {\k13}when {\k10}it {\k23}rains {\k15}it {\k26}pours, {\k8}ya {\k9}got{\k13}ta {\k25}earn {\k11}the {\k42}love
+Comment: 0,0:02:22.24,0:02:23.24,Mori,,0,0,0,karaoke,{\k12}I’m {\k10}ne{\k13}ver {\k16}gi{\k23}ven {\k26}in
+Comment: 0,0:02:23.24,0:02:24.20,Mori,,0,0,0,karaoke,{\k12}They’ll {\k12}ne{\k10}ver {\k15}get {\k14}e{\k33}nough
+Comment: 0,0:02:24.20,0:02:25.63,Sample KM [Up],,0,0,0,karaoke,{\k10}Cuz {\k10}you {\k13}and {\k24}I {\k11}al{\k11}ways {\k28}rise {\k11}a{\k25}bove
+Comment: 0,0:02:25.64,0:02:26.41,Sample KM [Up],,0,0,0,karaoke,{\k22}You {\k21}got {\k34}it?
+Comment: 0,0:02:26.41,0:02:28.40,Sample KM [Up],,0,0,0,karaoke,{\k22}Fire {\k12}it {\k30}up, {\k32}fire {\k15}it {\k26}up {\k62}now
+Comment: 0,0:02:28.40,0:02:30.27,Kiara,,0,0,0,karaoke,{\k36}Hot {\k24}pas{\k25}sion, {\k27}never {\k23}back {\k52}down
+Comment: 0,0:02:30.27,0:02:32.27,Mori,,0,0,0,karaoke,{\k23}Freeze {\k15}you {\k29}out, {\k27}freeze {\k10}you {\k31}out {\k65}now
+Comment: 0,0:02:32.27,0:02:34.05,Mori,,0,0,0,karaoke,{\k17}Not {\k28}about {\k21}to {\k28}bend {\k20}to {\k64}you
+Comment: 0,0:02:34.05,0:02:36.01,Sample KM [Up],,0,0,0,karaoke,{\k22}Fire {\k17}and {\k31}ice, {\k25}death {\k11}and {\k33}life, {\k57}now
+Comment: 0,0:02:36.01,0:02:37.86,Kiara,,0,0,0,karaoke,{\k40}High {\k20}pres{\k30}sure, {\k11}turn {\k13}it {\k20}up {\k51}loud
+Comment: 0,0:02:37.86,0:02:39.83,Sample KM [Up],,0,0,0,karaoke,{\k23}Fire {\k16}and {\k27}ice, {\k29}fire {\k12}and {\k33}ice, {\k57}now
+Comment: 0,0:02:39.83,0:02:41.75,Mori,,0,0,0,karaoke,{\k33}This {\k23}world's {\k12}all {\k41}smoke {\k16}and {\k19}mir{\k48}rors
+Comment: 0,0:02:41.57,0:02:44.04,Sample KM [Down],,0,0,0,karaoke,{\kf172}(Nananana{\kf75}na)
+Comment: 0,0:02:43.77,0:02:45.68,Sample KM [Up],,0,0,0,karaoke,{\k15}ki{\k12}mi {\k22}no {\k9}o{\k19}mo{\k19}u {\k18}ka{\kf77}chi
+Comment: 0,0:02:45.34,0:02:47.73,Sample KM [Down],,0,0,0,karaoke,{\kf172}(Nananana{\kf67}na)
+Comment: 0,0:02:47.59,0:02:48.80,Sample KM [Up],,0,0,0,karaoke,{\k27}koe{\k24}te {\k24}koe{\k46}te
+Comment: 0,0:02:49.15,0:02:51.50,Sample KM [Down],,0,0,0,karaoke,{\kf172}(Nananana{\kf63}na)
+Comment: 0,0:02:51.36,0:02:53.29,Sample KM [Up],,0,0,0,karaoke,{\k30}jii{\k24}to {\k11}i{\k10}ki {\k25}wo {\k38}non{\k55}de
+Comment: 0,0:02:52.99,0:02:55.33,Sample KM [Down],,0,0,0,karaoke,{\kf172}(Nananana{\kf62}na)
+Comment: 0,0:02:55.09,0:02:56.60,Mori,,0,0,0,karaoke,{\k23}so{\k14}me{\k21}te {\k16}so{\k13}me{\kf64}te
+Dialogue: 0,0:00:07.67,0:00:10.88,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k25}This {\k25}fe{\k23}ver's {\k38}got {\k44}no {\k56}fall
+Dialogue: 0,0:00:09.78,0:00:12.94,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Tem{\k13}pera{\k20}tures {\k24}cra{\k24}zy {\k26}off {\k12}the {\k69}wall
+Dialogue: 0,0:00:11.42,0:00:14.70,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Get {\k21}rea{\k8}dy {\k15}like {\k46}stop, {\k48}drop, {\k58}roll
+Dialogue: 0,0:00:13.60,0:00:16.75,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Not {\k33}gonna {\k29}break {\k9}a {\k36}sweat {\k23}at {\k59}all
+Dialogue: 0,0:00:15.65,0:00:20.19,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Sparks {\k29}light {\k16}that {\k53}candle {\k4f3}fi{\kf169}re
+Dialogue: 0,0:00:19.56,0:00:23.81,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k26}The {\k23}phoe{\k23}nix {\k19}ri{\k25}ses {\kf53}high{\kf146}er
+Dialogue: 0,0:00:23.97,0:00:28.06,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Fri{\k56}gid, {\k31}fro{\k65}zen, {\k21}no {\k39}li{\k47}mits
+Dialogue: 0,0:00:26.96,0:00:32.15,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Dead{\k20}ly {\kf42}co{\kf56}-o{\kf43}-old, {\k31}ten {\kf12}be{\kf60}lo{\kf47}-o{\kf76}-ow
+Dialogue: 0,0:00:31.10,0:00:38.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}shi{\k31}ha{\k20}i {\k30}shi{\k50}tai {\k18}yo {\kf54}ki{\k22}mi {\k21}no {\k18}ko{\k43}ko{\k36}ro {\kf237}wo
+Dialogue: 0,0:00:37.16,0:00:39.96,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ii {\k23}ko? {\k15}{\c&HFFFFFF&\2c&HF2BFFF&}bo{\k9}ku {\k23}no? {\k19}{\c&H9032FB&\2c&HFFFFFF&}NO {\k55}MORE!
+Dialogue: 0,0:00:38.86,0:00:41.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Fire {\k12}it {\k36}up, {\k26}fire {\k15}it {\k26}up {\k60}now
+Dialogue: 0,0:00:40.86,0:00:43.78,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Hot {\k24}pas{\k25}sion, {\k27}never {\k23}back {\k47}down
+Dialogue: 0,0:00:42.56,0:00:45.80,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Freeze {\k15}you {\k29}out, {\k33}freeze {\k10}you {\k25}out {\k67}now
+Dialogue: 0,0:00:44.77,0:00:47.58,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Not {\k28}about {\k21}to {\k28}bend {\k20}to {\k57}you
+Dialogue: 0,0:00:46.48,0:00:49.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Fire {\k17}and {\k31}ice, {\k25}death {\k11}and {\k33}life, {\k71}now
+Dialogue: 0,0:00:48.58,0:00:51.40,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k26}High {\k20}pres{\k30}sure, {\k11}turn {\k13}it {\k20}up {\k52}loud
+Dialogue: 0,0:00:50.30,0:00:53.46,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Fire {\k16}and {\k27}ice, {\k29}fire {\k12}and {\k33}ice, {\k64}now
+Dialogue: 0,0:00:52.36,0:00:55.32,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k33}This {\k23}world's {\k12}all {\k41}smoke {\k16}and {\k19}mir{\k42}rors
+Dialogue: 0,0:00:53.98,0:00:57.80,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\kf172}(Nananana{\kf100}na)
+Dialogue: 0,0:00:56.16,0:00:59.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}ki{\k12}mi {\k22}no {\k9}o{\k19}mo{\k19}u {\k18}ka{\kf80}chi
+Dialogue: 0,0:00:57.74,0:01:01.37,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\kf182}(Nananana{\kf71}na)
+Dialogue: 0,0:01:00.00,0:01:02.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}koe{\k22}te {\k27}koe{\k48}te
+Dialogue: 0,0:01:01.61,0:01:05.14,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\kf172}(Nananana{\kf71}na)
+Dialogue: 0,0:01:03.74,0:01:06.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}jii{\k24}to {\k11}i{\k10}ki {\k25}wo {\k38}non{\k56}de
+Dialogue: 0,0:01:05.39,0:01:08.97,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\kf172}(Nananana{\kf76}na)
+Dialogue: 0,0:01:07.60,0:01:10.12,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k14}so{\k14}me{\k21}te {\k16}so{\k13}me{\kf64}te
+Dialogue: 0,0:01:09.74,0:01:12.49,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Bla{\k51}zing, {\k17}un{\k35}chan{\k35}ging
+Dialogue: 0,0:01:11.68,0:01:15.66,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k20}No {\k33}strange {\k26}thing {\k18}a{\k27}bout {\k23}this {\k46}heat, {\k19}wit{\k32}ness {\k44}me
+Dialogue: 0,0:01:14.56,0:01:18.09,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Hit {\k28}this {\k44}beat, {\k50}rinse {\k43}re{\k57}peat
+Dialogue: 0,0:01:16.60,0:01:20.92,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k37}These {\k14}fee{\k33}lings {\k18}got {\k16}me {\k27}free{\k33}zing {\kf144}up
+Dialogue: 0,0:01:20.47,0:01:24.29,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k31}chuu{\k16}do{\k16}ku{\k38}sei {\k15}no {\k33}a{\k25}i {\kf98}wa
+Dialogue: 0,0:01:25.04,0:01:29.01,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ka{\k12}ra{\k13}da{\k13}ju{\k22}u {\k21}i{\k50}ma {\k13}ka{\k14}ke{\k12}me{\k12}gu{\k13}ra{\k32}se{\k48}ba
+Dialogue: 0,0:01:27.93,0:01:32.85,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Can't {\kf19}con{\kf46}tro{\kf54}-o{\kf48}-ol, {\kf23}o{\kf20}ver{\kf51}flo{\kf43}-o{\kf56}-ow
+Dialogue: 0,0:01:28.78,0:01:33.24,Mori - [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Can't {\k12}con{\k34}trol {\k27}it, {\kf23}o{\kf13}ver{\kf57}flo{\kf42}-o{\kf97}-ow
+Dialogue: 0,0:01:32.21,0:01:38.90,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k17}tsu{\k25}ka{\k28}ma{\k19}e{\k54}tai {\k19}no! {\k41}ki{\k33}mi {\k23}no {\k26}ko{\k30}ko{\k34}ro {\kf210}wo
+Dialogue: 0,0:01:38.11,0:01:40.91,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k9}de{\k13}mo {\k30}ne? {\k24}{\c&HFFFFFF&\2c&H4A75FF&}dat{\k14}te? {\k16}{\c&H9032FB&\2c&HFFFFFF&}NO {\k64}MORE!
+Dialogue: 0,0:01:39.81,0:01:43.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Fire {\k12}it {\k36}up, {\k26}fire {\k15}it {\k26}up {\k72}now
+Dialogue: 0,0:01:41.96,0:01:44.84,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Hot {\k24}pas{\k25}sion, {\k27}never {\k23}back {\k59}down
+Dialogue: 0,0:01:43.63,0:01:46.73,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Freeze {\k18}you {\k29}out, {\k33}freeze {\k10}you {\k25}out {\k63}now
+Dialogue: 0,0:01:45.76,0:01:48.49,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Not {\k28}about {\k21}to {\k28}bend {\k20}to {\k49}you
+Dialogue: 0,0:01:47.40,0:01:50.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Fire {\k17}and {\k31}ice, {\k25}death {\k11}and {\k33}life, {\k67}now
+Dialogue: 0,0:01:49.49,0:01:52.42,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k26}High {\k20}pres{\k34}sure, {\k15}turn {\k11}it {\k19}up {\k58}loud
+Dialogue: 0,0:01:51.32,0:01:54.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Fire {\k16}and {\k27}ice, {\k29}fire {\k12}and {\k33}ice, {\k65}now
+Dialogue: 0,0:01:53.32,0:01:56.27,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k33}This {\k23}world's {\k8}all {\k35}smoke {\k16}and {\k29}mir{\k41}rors
+Dialogue: 0,0:01:54.95,0:01:58.71,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\kf172}(Nananana{\kf94}na)
+Dialogue: 0,0:01:57.15,0:02:00.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}u{\k12}ru{\k20}sai {\k24}so{\k25}no {\k20}ku{\kf78}chi
+Dialogue: 0,0:01:58.73,0:02:02.33,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\kf172}(Nananana{\kf78}na)
+Dialogue: 0,0:02:00.93,0:02:03.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}to{\k12}ji{\k23}te {\k14}to{\k12}ji{\kf64}te
+Dialogue: 0,0:02:02.54,0:02:06.05,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\kf172}(Nananana{\kf69}na)
+Dialogue: 0,0:02:04.67,0:02:07.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}yuu{\k8}do{\k9}ku{\k28}sei {\k22}no {\k45}"I" {\kf60}wo
+Dialogue: 0,0:02:06.38,0:02:09.84,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\kf172}(Nananana{\kf64}na)
+Dialogue: 0,0:02:08.60,0:02:10.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}ko{\k14}me{\k22}te {\k11}ko{\k12}me{\k52}te
+Dialogue: 0,0:02:09.88,0:02:13.07,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k13}We’re {\k23}caught {\k33}up {\k15}in {\k10}the {\k18}eye {\k15}of {\k7}a {\k26}storm {\k17}of {\k32}flame
+Dialogue: 0,0:02:11.72,0:02:14.94,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k30}It’s {\k16}not {\k25}com{\k13}pli{\k21}ca{\k9}ted, {\k19}but {\k12}a {\k40}nuanced {\k27}game
+Dialogue: 0,0:02:13.72,0:02:16.81,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k16}A {\k23}past {\k15}you {\k23}once {\k22}gave {\k10}me {\k16}some{\k12}thing {\k11}I {\k15}can’t {\k36}shake
+Dialogue: 0,0:02:15.71,0:02:18.66,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k7}The {\k27}chance {\k9}know{\k9}ing {\k18}some{\k24}bo{\k9}dy {\k8}who {\k13}had {\k27}moves {\k11}to {\k23}make
+Dialogue: 0,0:02:17.56,0:02:20.58,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k13}So {\k8}what{\k12}’cha {\k18}wai{\k20}ting {\k25}for? {\k10}You {\k13}got{\k13}ta {\k26}burn {\k10}it {\k24}up
+Dialogue: 0,0:02:19.48,0:02:22.65,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Cuz {\k13}when {\k10}it {\k23}rains {\k15}it {\k26}pours, {\k8}ya {\k9}got{\k13}ta {\k25}earn {\k11}the {\k42}love
+Dialogue: 0,0:02:21.34,0:02:23.44,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k12}I’m {\k10}ne{\k13}ver {\k16}gi{\k23}ven {\k26}in
+Dialogue: 0,0:02:22.34,0:02:24.40,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k12}They’ll {\k12}ne{\k10}ver {\k15}get {\k14}e{\k33}nough
+Dialogue: 0,0:02:23.30,0:02:25.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Cuz {\k10}you {\k13}and {\k24}I {\k11}al{\k11}ways {\k28}rise {\k11}a{\k25}bove
+Dialogue: 0,0:02:24.74,0:02:26.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}You {\k21}got {\k34}it?
+Dialogue: 0,0:02:25.51,0:02:28.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Fire {\k12}it {\k30}up, {\k32}fire {\k15}it {\k26}up {\k62}now
+Dialogue: 0,0:02:27.50,0:02:30.47,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Hot {\k24}pas{\k25}sion, {\k27}never {\k23}back {\k52}down
+Dialogue: 0,0:02:29.37,0:02:32.47,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Freeze {\k15}you {\k29}out, {\k27}freeze {\k10}you {\k31}out {\k65}now
+Dialogue: 0,0:02:31.37,0:02:34.25,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Not {\k28}about {\k21}to {\k28}bend {\k20}to {\k64}you
+Dialogue: 0,0:02:33.15,0:02:36.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Fire {\k17}and {\k31}ice, {\k25}death {\k11}and {\k33}life, {\k57}now
+Dialogue: 0,0:02:35.11,0:02:38.06,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k40}High {\k20}pres{\k30}sure, {\k11}turn {\k13}it {\k20}up {\k51}loud
+Dialogue: 0,0:02:36.96,0:02:40.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Fire {\k16}and {\k27}ice, {\k29}fire {\k12}and {\k33}ice, {\k57}now
+Dialogue: 0,0:02:38.93,0:02:41.95,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k33}This {\k23}world's {\k12}all {\k41}smoke {\k16}and {\k19}mir{\k48}rors
+Dialogue: 0,0:02:40.67,0:02:44.24,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\kf172}(Nananana{\kf75}na)
+Dialogue: 0,0:02:42.87,0:02:45.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}ki{\k12}mi {\k22}no {\k9}o{\k19}mo{\k19}u {\k18}ka{\kf77}chi
+Dialogue: 0,0:02:44.44,0:02:47.93,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\kf172}(Nananana{\kf67}na)
+Dialogue: 0,0:02:46.69,0:02:49.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}koe{\k24}te {\k24}koe{\k46}te
+Dialogue: 0,0:02:48.25,0:02:51.70,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\kf172}(Nananana{\kf63}na)
+Dialogue: 0,0:02:50.46,0:02:53.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}jii{\k24}to {\k11}i{\k10}ki {\k25}wo {\k38}non{\k55}de
+Dialogue: 0,0:02:52.09,0:02:55.53,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\kf172}(Nananana{\kf62}na)
+Dialogue: 0,0:02:54.19,0:02:56.80,Mori,,0,0,0,fx,{\k90\fad(300,200)}{\k23}so{\k14}me{\k21}te {\k16}so{\k13}me{\kf64}te
