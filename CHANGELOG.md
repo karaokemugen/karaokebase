@@ -1,3 +1,419 @@
+# December 2023
+
+Kara count: 17 510
+
+Contributors: 
+
+- AngelXC
+- Angor
+- Atsuyas
+- Azurys
+- BeVox
+- Chiko
+- Chü-Ju
+- Cocs
+- Coppo
+- DaBi
+- Deformer-Lua
+- Demoto
+- Deurstann
+- Dysp
+- GahyeonEnjoyer
+- Gopa-san
+- Gromanu
+- Hanaku
+- HinamiYami
+- Juney2008
+- KasrkinSaser
+- Kmeuh
+- Kuro_Yuki_
+- LN_TheDudess
+- Lasagna
+- Louis Royer
+- Lukairata
+- Mathxxl
+- Méga-poilu
+- Nabashi
+- Nemesise
+- NextFire
+- NikoNikoD
+- Niyaa
+- Noctiflora
+- Nodamin
+- NoverMaC
+- Pantero
+- RetroGirl
+- RoyceThomas
+- Rubn4
+- Salixor
+- Saulfire
+- Scorpiose86
+- Sodachi
+- Soramimi
+- Spotty Len
+- Subkei
+- TACHYON
+- TeLiXj
+- TheMio
+- Tomatsu
+- Variabels
+- WarnerBryce
+- Xashy
+- Yûgao
+- azusa_ch
+- bakus33
+- cinemalin0
+- dovinoxty
+- fabthehedgehog
+- gouthamma
+- gun8
+- meulahke
+- mustangfred
+- oya1357
+- paranoik
+- pecka
+- pockydany
+- puyo
+- red5h4d0w
+- victokben
+- wolf359
+
+## Added
+
+New songs : 331
+
+- CHI - Luo Tianyi - MV - Gou Zhi Qishi (Niyaa)
+- CHI - Winn, kana - AUDIO - Gou Zhi Qishi \~ Cover Vers (Niyaa)
+- COP - Andrew Thompson, Judd Burns - MV - Rhapsodia Bohemica (NoverMaC)
+- ENG - A Star Is Born (2018) - MOVIE MV - Always Remember Us This Way \~ Full Vers (WarnerBryce)
+- ENG - A Star Is Born (2018) - MOVIE MV - Shallow \~ Full Vers (WarnerBryce)
+- ENG - Alestorm - MV - Fucked With An Anchor (LN_TheDudess)
+- ENG - Alicia Keys - MV - No One \~ Full Vers (paranoik, WarnerBryce)
+- ENG - Alicia Keys, Jay-Z - MV - Empire State of Mind (bakus33)
+- ENG - BLACKPINK - AUDIO - Typa Girl (NikoNikoD)
+- ENG - Bill Withers - LIVE - Ain't No Sunshine \~ Full Vers (WarnerBryce)
+- ENG - Blue Archive - GAME AUDIO - Target for Love \~ Full Vers (red5h4d0w)
+- ENG - Blue Archive - GAME PV - Target for Love (red5h4d0w)
+- ENG - Bruno Mars - MV - When I Was Your Man \~ Full Vers (WarnerBryce)
+- ENG - Calliope Mori - MV - Show \~ Cover Vers (Nodamin, fabthehedgehog)
+- ENG - Calliope Mori, Kiara Takanashi - MV - Fire N Ice (Variabels)
+- ENG - Cat Stevens Yusuf - MV - Father and Son \~ Full Vers (Pantero, WarnerBryce)
+- ENG - Celine Dion - MV - All By Myself \~ Short Vers (WarnerBryce)
+- ENG - Chris Wallace - AUDIO - Remember When (Push Rewind) \~ Nightcore Vers (Chiko)
+- ENG - Cytus II - GAME AUDIO - Winter Games (red5h4d0w)
+- ENG - Demi Lovato - MV - Heart Attack (Coppo)
+- ENG - Doctor Who - IN - The Goblin Song (Deformer-Lua)
+- ENG - Drake - AUDIO - God's Plan (Noctiflora)
+- ENG - Final Fantasy XIV - GAME PC AUDIO IN - Rise (Gromanu)
+- ENG - Five Nights at Freddy's - GAME AMV - Just Gold (Hanaku)
+- ENG - Five Nights at Freddy's - MV - Five Nights at Freddy's 1 song \~ Full Vers (Variabels)
+- ENG - Glee - AUDIO - And I Am Telling You I'm Not Going \~ Cover Vers (Hanaku)
+- ENG - Goblin Slayer II - OP - Entertainment (fabthehedgehog)
+- ENG - Heathers - MV - Dead Girl Walking \~ Annapantsu Vers. \~ Cover Full Vers (Chü-Ju)
+- ENG - Honkai Impact 3rd - MV - Kaleidoscope (Mathxxl)
+- ENG - IDOLiSH7 Third Beat! Part 2 - ED1 - IMPERIAL CHAIN (Variabels)
+- ENG - Idlewild - MV - You Held The World In Your Arms (NikoNikoD)
+- ENG - Jungkook - AUDIO - Yes or No (NikoNikoD)
+- ENG - Miley Cyrus - MV - Flowers (victokben, WarnerBryce)
+- ENG - Nathan Evans, Santiano - MV - Santiano (mustangfred)
+- ENG - Naya Rivera - AUDIO - Prayer for the Broken (Hanaku)
+- ENG - Neuro-sama - STREAM - Get Lucky \~ Cover Vers (gun8)
+- ENG - Paradox Live THE ANIMATION - IN - F Bulous (pecka)
+- ENG - Pokemon The Johto Journeys - OP - Pokemon Johto (Variabels)
+- ENG - Project SEKAI COLORFUL STAGE! - GAME MV - Twilight Melody (BeVox)
+- ENG - RAISE A SUILEN - MV - Apocalypse (Nemesise)
+- ENG - RuPaul - MV - Supermodel (You Better Work) \~ Full Vers (RetroGirl, WarnerBryce)
+- ENG - SPYxFAMILY Season 2 - IN - Uneven Fruit \~ Short Vers (Tomatsu)
+- ENG - Stray Kids - MV - LALALALA (NikoNikoD)
+- ENG - Stuart Little 2 - MOVIE MV - I'm Alive \~ Full Vers (WarnerBryce)
+- ENG - Super Mario RPG - AMV - Rawest Forest Remake \~ Cover Vers (meulahke)
+- ENG - Taiko no Tatsujin Doki! Shinkyoku Darake no Haru Matsuri - GAME PS2 ED - Saturday Taiko Fever (pockydany)
+- ENG - Valorant - GAME PC MV - Die For You (gouthamma)
+- ENG - Wonka - MOVIE AUDIO - A Hateful Of Dreams (Hanaku)
+- FRE - Amel Bent - MV - Tu n'es plus la \~ Full Vers (TeLiXj, WarnerBryce)
+- FRE - Angele (Angele Van Laeken) - MV - Balance Ton Quoi (mustangfred, WarnerBryce)
+- FRE - Angele Van Laeken, Romeo Van Laeken - MV - Tout Oublier \~ Full Vers (Scorpiose86, WarnerBryce)
+- FRE - Bruno Courgeau - AUDIO - Hymne a la Beaujoire (NikoNikoD)
+- FRE - Calogero - MV - Si seulement je pouvais lui manquer (NikoNikoD)
+- FRE - Celine Dion - AUDIO - Encore Un Soir \~ Full Vers (WarnerBryce)
+- FRE - Dj Matafan - MV - Apero Vinzou (NikoNikoD)
+- FRE - Freddy Gladieux, Kezah - MV - Mirador (NikoNikoD)
+- FRE - Genshin Impact - GAME IN - La vaguelette (Mathxxl)
+- FRE - Genshin Impact - MV - La vaguelette (Mathxxl)
+- FRE - KALLITECHNIS, Kirouac - MV - PNJ (red5h4d0w)
+- FRE - Le Roi lion 2 L'Honneur de la tribu - MOVIE IN - L'Un des Noutres (Nodamin)
+- FRE - Rose Keren - MV - La Liste \~ Full Vers (cinemalin0, WarnerBryce)
+- JPN - 16bit Sensation Another Layer - MV - 65535 \~ Full Off Vocal Vers (Louis Royer)
+- JPN - ATARASHII GAKKO! - MV - Suki Lie (Hanaku)
+- JPN - ATARASHII GAKKO! - MV - Tokyo Calling (Hanaku)
+- JPN - Ace o Nerae! 2 - OVA OP - Endless Dream (AngelXC)
+- JPN - Ace o Nerae! 2, Ace o Nerae! Final Stage - OVA AMV - Caribbean Blue (AngelXC)
+- JPN - Aimer - MV - Everlasting Snow \~ Full Off Vocal Vers (oya1357)
+- JPN - Aimer - MV - Everlasting Snow \~ Full Vers (oya1357)
+- JPN - Aitsuki Nakuru - MV - Evil Bubble (red5h4d0w)
+- JPN - Aitsuki Nakuru - MV - Lucid Hallucination (red5h4d0w)
+- JPN - Anata ni wa Kaeru Ie ga Aru - LIVE - Fall \~ Cover Vers (Sodachi)
+- JPN - BanG Dream! - GAME AUDIO - Neo-Aspect \~ Full Vers (Kuro_Yuki_)
+- JPN - Buster Bros!!!, KING OF PRISM Street Unit - MV - EZ DO RAP & Hypnosis Mic -Street Rap Battle- Squash The Beef (pecka)
+- JPN - California Crisis Tsuigeki no Hibana - OVA ED - STREETS ARE HOT (AngelXC)
+- JPN - Cheat Kusushi no Slow Life Isekai ni Tsukurou Drugstore - OP - Kokoro Hayaru (azusa_ch)
+- JPN - ChouCho - AUDIO - Andante (red5h4d0w)
+- JPN - ChouCho - AUDIO - Andante \~ Off Vocal Vers (red5h4d0w)
+- JPN - D4DJ Groovy Mix - AUDIO - Merry-Go-Around! (red5h4d0w)
+- JPN - D4DJ Groovy Mix - AUDIO - This game \~ Cover Vers (red5h4d0w)
+- JPN - D4DJ Groovy Mix - GAME AUDIO - Leia \~ Cover Short Vers (red5h4d0w)
+- JPN - D4DJ Groovy Mix - GAME MV - High Tension BPM (Variabels)
+- JPN - DA PUMP - MV - if (fabthehedgehog)
+- JPN - Danshi Koukousei no Nichijou - ED1 - Bungaku Shoujo (Deurstann)
+- JPN - Eizouken ni wa Te wo Dasu na! - MV - Easy Breezy \~ Full Vers (meulahke, TACHYON)
+- JPN - Ensemble Stars! - GAME MV - Black Out See Saw \~ Short Vers (Variabels)
+- JPN - Ensemble Stars! - GAME MV - Bye-Bye Buddy \~ Short Vers (Variabels)
+- JPN - Ensemble Stars! - GAME MV - Dance in the Apocalypse \~ Short Vers (Variabels)
+- JPN - Ensemble Stars! - GAME MV - Have you been naughty or nice question_mark \~ Short Vers (Variabels)
+- JPN - Ensemble Stars! - GAME MV - Noir Neige \~ Short Vers (Variabels)
+- JPN - Ensemble Stars! - GAME MV - Noisy Beep \~ Short Vers (Variabels)
+- JPN - Full Metal Panic! - AUDIO - tomorrow \~ Full Off Vocal Vers (Soramimi)
+- JPN - Full Metal Panic! - AUDIO - tomorrow \~ Full Vers (Soramimi)
+- JPN - Fuwawa Abyssgard - MV - Cute na Kanojo \~ Alternative Cover Vers (puyo)
+- JPN - Fuwawa Abyssgard, Mococo Abyssgard - MV - Cute na Kanojo \~ Cover Vers (puyo)
+- JPN - GUMI - MV - DONUT HOLE (AngelXC)
+- JPN - Gekijouban Isekai Quartet Another World - MOVIE ED - Melodic Road Movie (GahyeonEnjoyer)
+- JPN - Genjitsu no Yohane -SUNSHINE in the MIRROR- - LIVE - BLOOM OF COLORS (Sodachi)
+- JPN - Genjitsu no Yohane -SUNSHINE in the MIRROR- - LIVE - Forever U & I (Sodachi)
+- JPN - Genjitsu no Yohane -SUNSHINE in the MIRROR- - LIVE - Special Holidays (Sodachi)
+- JPN - Genshin Impact - GAME AMV - Kyoufuu All Back (Nodamin)
+- JPN - Granblue Fantasy - GAME AUDIO CS - Kimi to Boku no Mirai \~Dragon Knights Ver.\~ \~ Full Vers (Nabashi)
+- JPN - Granblue Fantasy FES - GAME LIVE - Houmatsu-mugen kochoujin \~ 2023 Vers. \~ Full Vers (Nabashi)
+- JPN - Granblue Fantasy FES - GAME LIVE - Kimi to Boku no Mirai \~ 2020 Vers. \~ Full Vers (Nabashi)
+- JPN - Granblue Fantasy FES - GAME LIVE - Kimi to Boku no Mirai \~ Gran's Side \~ 2023 Vers. \~ Full Vers (Nabashi)
+- JPN - Granblue Fantasy FES - GAME LIVE - Pledge of the Tempest \~ 2023 Vers. \~ Full Vers (Nabashi)
+- JPN - Haikyuu!! To the Top 2nd Season - ED1 - One Day (wolf359)
+- JPN - Hakumei to Mikochi - AMV - Harvest Moon Night \~ Full Vers (TACHYON)
+- JPN - Hana Itoki - MV - THE GREATEST LIVING SHOW (Cocs)
+- JPN - Helck - ED1 - Statice (Louis Royer)
+- JPN - Helck - ED2 - Hikari (Louis Royer)
+- JPN - Helck - OP1 - It's My Soul (Louis Royer)
+- JPN - Helck - OP2 - HELP (Louis Royer)
+- JPN - Hirake! Ponkikki - MV - Hataraku Kuruma (Gopa-san)
+- JPN - Hiroki tetsudou Channel - MV - Yoru ni Kakeru \~ Train Otaku Vers (Gopa-san)
+- JPN - Hoshikuzu Telepath - MV - Ten to Sen \~ Full Off Vocal Vers (red5h4d0w)
+- JPN - Hoshikuzu Telepath - MV - Ten to Sen \~ Full Vers (red5h4d0w)
+- JPN - IDOLiSH7 Third Beat! Part 2 - ED3 - Negai wa shine on the Sea (GahyeonEnjoyer)
+- JPN - Ichiban Sukina Hana - MV - Hana (Demoto, TheMio)
+- JPN - Ichiban Sukina Hana - MV - Hana \~ Off Vocal Vers (Demoto, TheMio)
+- JPN - Imouto sae Ireba Ii. - AUDIO OP - Ashita no Kimi sae Ireba Ii. \~ Full Off Vocal Vers (red5h4d0w)
+- JPN - Imouto sae Ireba Ii. - AUDIO OP - Ashita no Kimi sae Ireba Ii. \~ Full Vers (red5h4d0w)
+- JPN - Ishuzoku Reviewers - AUDIO - Ikouze Paradise \~ Full Vers (HinamiYami)
+- JPN - Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. - ED - Play the world (Méga-poilu)
+- JPN - Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. 2 - ED - Step for Joy (Méga-poilu)
+- JPN - Iwa Kakeru! Sport Climbing Girls - MV - Motto Takaku \~ Full Vers (Azurys)
+- JPN - JR Kyushu - MV - Mangetsu no Chikuzen (Gopa-san)
+- JPN - Jack Jeanne - GAME AUDIO IN - Departure \~ Full Vers (pecka)
+- JPN - Jack Jeanne - GAME AUDIO IN - Nakatsukuni no Kielce \~ Full Vers (pecka)
+- JPN - Jack Jeanne - GAME AUDIO IN - Over the Wall \~ Full Vers (pecka)
+- JPN - Jack Jeanne - GAME IN - Departure (pecka)
+- JPN - Jack Jeanne - GAME IN - Nakatsukuni no Kielce (pecka)
+- JPN - Jack Jeanne - GAME IN - Over the Wall (pecka)
+- JPN - Jack Jeanne - GAME IN - Quartz Anima (pecka)
+- JPN - KAF - MV - Kako wo Kurau (NextFire)
+- JPN - Kawaikereba Hentai demo Suki ni Natte Kuremasu ka question_mark - OP - Daisuki (Hanaku)
+- JPN - Kizuna no Allele - OP2 - Perfect World!! (Tomatsu)
+- JPN - Konyaku Haki sareta Reijou wo Hirotta Ore ga, Ikenai Koto wo Oshiekomu - ED - Graceful World (Louis Royer)
+- JPN - Koseki Bijou - MV - Loveit question_mark \~ Cover Vers (BeVox, Tomatsu)
+- JPN - Kusuriya no Hitorigoto - IN - Asu wo Tazunete (red5h4d0w)
+- JPN - Liar Liar - ED - fakey merry game (red5h4d0w)
+- JPN - Link! Like! Love Live! - AUDIO - Ameiro (Xashy)
+- JPN - Link! Like! Love Live! - AUDIO - Ameiro \~ Off Vocal Vers (Xashy)
+- JPN - Link! Like! Love Live! - AUDIO - Nonfiction Hero Show (Xashy)
+- JPN - Link! Like! Love Live! - GAME AUDIO - Happy Synthesizer \~ Cover Short Vers (Xashy)
+- JPN - Link! Like! Love Live! - GAME AUDIO - Namae no Nai Kaibutsu \~ Cover Short Vers (Xashy)
+- JPN - Link! Like! Love Live! - GAME AUDIO - Shin'ai \~ Cover Short Vers (Xashy)
+- JPN - Link! Like! Love Live! - LIVE - Dream Believers \~ RUN! CAN! FUN! Vers (Xashy, Sodachi)
+- JPN - Link! Like! Love Live! - LIVE - Kokon Touzai \~ RUN! CAN! FUN! Vers (Xashy)
+- JPN - Link! Like! Love Live! - LIVE - Link to the FUTURE (Xashy)
+- JPN - Link! Like! Love Live! - LIVE - Trick & Cute \~ RUN! CAN! FUN! Vers (Xashy)
+- JPN - Link! Like! Love Live! - MV - Link to the FUTURE (Xashy)
+- JPN - Link! Like! Love Live! - MV - Tsubasa.La.Liberte (Sodachi)
+- JPN - Liyuu - MV - Yellow (Azurys)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - AUDIO - Itsu datte for you ! (Hanaku)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - LIVE - Doki Pipo Emotion (Xashy)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - LIVE - Evergreen (Hanaku)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - LIVE - Koe Tsunagou yo (Hanaku)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - LIVE - Nemureru Mori ni Ikitai na (Hanaku)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - LIVE - Romance no Naka de (Xashy, Sodachi)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - LIVE - Yada! (Xashy)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai - LIVE - Yume e no ippo (Hanaku)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Doukoukai Next Sky - AUDIO - Waku Waku! Monday Morning (Sodachi)
+- JPN - Love Live! School Idol Project - AUDIO - UNBALANCED LOVE (Hanaku)
+- JPN - Love Live! School Idol Project - LIVE - Kaguya no Shiro de Odoritai (Azurys)
+- JPN - Love Live! Sunshine!! - IN - Daisuki dattara Daijoubu! (Demoto, TheMio, Sodachi)
+- JPN - Love Live! Sunshine!! - IN - Omoi yo Hitotsu ni Nare \~ Short Vers (DaBi)
+- JPN - Love Live! Sunshine!! - LIVE - Bouken Type A, B, C (Hanaku)
+- JPN - Love Live! Sunshine!! - LIVE - Genki Zenkai DAY! DAY! DAY! (Hanaku)
+- JPN - Love Live! Sunshine!! - LIVE - Natsu no Owari no Amaoto ga (DaBi)
+- JPN - Love Live! Sunshine!! - LIVE - Omoi yo Hitotsu ni Nare \~ 9 Members Vers (DaBi)
+- JPN - Love Live! Sunshine!! - LIVE - Seinaru Hi no Inori (Sodachi)
+- JPN - Love Live! Sunshine!! - LIVE - Whistle of Revolution (Xashy)
+- JPN - Love Live! Sunshine!! - MV - BANZAI! digital trippers (Sodachi)
+- JPN - Love Live! Sunshine!! 2nd Season - LIVE - MIRACLE WAVE \~ Full Vers (Salixor, Sodachi)
+- JPN - Love Live! Sunshine!! The School Idol Movie Over the Rainbow - LIVE - Tousou Meisou Mobius Loop \~ Full Vers (Azurys)
+- JPN - Love Live! Sunshine!!, THE iDOLM@STER Shiny Colors - LIVE - Ryouran! Victory Road I Love You \~ Uta Gassen Vers. \~ Alternative Vers (DaBi)
+- JPN - Love Live! Superstar!! - AUDIO - Shake It Up (Sodachi)
+- JPN - Love Live! Superstar!! - LIVE - HOT PASSION!! (Xashy)
+- JPN - Love Live! Superstar!! - LIVE - Tokonatsu Sunshine \~ 11 Members Vers. \~ Full Vers (Mathxxl, Sodachi)
+- JPN - Love Live! Superstar!! - LIVE - Watashi no Symphony \~ Acoustic Vers. \~ Full Vers (Sodachi, NextFire)
+- JPN - Love Live! Superstar!! 2nd Season - AUDIO OP1 - WE WILL!! \~ Full Vers (Mathxxl, Azurys)
+- JPN - Love Live! Superstar!! 2nd Season - LIVE - Mirai no Oto ga Kikoeru \~ Full Vers (Sodachi)
+- JPN - Love Live! Superstar!! 2nd Season - LIVE - WE WILL!! \~ Bushirock Vers. \~ Full Vers (Mathxxl, Azurys)
+- JPN - Luka Megurine - MV - Leia (red5h4d0w)
+- JPN - Luka Megurine - MV - Leia - Remind (red5h4d0w)
+- JPN - Luka Megurine - MV - Leia \~ Off Vocal Vers (red5h4d0w)
+- JPN - MISAMO - MV - Do not touch (pockydany)
+- JPN - MadLax - AUDIO IN - Nowhere \~ Full Vers (Karaoke Mugen)
+- JPN - Mahou Shoujo Madoka Magica - MV - Magia \~ Full Off Vocal Vers (Soramimi)
+- JPN - Mahou Shoujo Madoka Magica - MV - Magia \~ Full Vers (Soramimi)
+- JPN - Makemon, Muse Dash - GAME SWITCH MV - Onegai! Konkon Oinari-sama \~ Full Vers (Juney2008)
+- JPN - Marine Houshou - MV - Megumi no Hito \~ Cover Vers (Variabels)
+- JPN - Marine Houshou - MV - Stay with Me \~ Cover Vers (Demoto, TheMio)
+- JPN - Marine Houshou, Pekora Usada - LIVE - God knows... \~ Full Vers (Deformer-Lua, Rubn4)
+- JPN - Meccha! Taiko no Tatsujin DS Nanatsu no Shima no Daibouken - GAME DS AUDIO - Nanairo Harmony (pockydany)
+- JPN - Meccha! Taiko no Tatsujin DS Nanatsu no Shima no Daibouken - GAME DS AUDIO - Warera Muteki no Dokon-dan (pockydany)
+- JPN - Meiko Haigou - AUDIO - Alice \~ Cover Vers (pockydany)
+- JPN - Midnight Grand Orchestra - MV - Igniter (Nodamin)
+- JPN - Miki Matsubara - MV - Stay with Me \~ Off Vocal Vers (Demoto, TheMio)
+- JPN - Miku Hatsune - MV - Zero Talking (BeVox)
+- JPN - Miku Hatsune - MV - Zero Talking \~ Off Vocal Vers (BeVox)
+- JPN - Misekai - MV - Ai wo Mitsukete (Xashy)
+- JPN - Mococo Abyssgard - MV - Cute na Kanojo \~ Alternative Cover Vers (puyo)
+- JPN - Monsto Anime - ONA ED - Light (pecka)
+- JPN - Naruto Shippuuden - MV - Silhouette (Subkei)
+- JPN - Natsu e no Tunnel, Sayonara no Deguchi - MOVIE IN MV - Pre-romance (Kmeuh)
+- JPN - Nijigasaki Gakuen School Idol Doukoukai, RONDO - LIVE - Ryouran! Bushirock \~ Cover Vers (DaBi)
+- JPN - No Game No Life - AMV - This game \~ Full Off Vocal Vers (red5h4d0w)
+- JPN - No Game No Life - LIVE - This game \~ Full Vers (red5h4d0w)
+- JPN - Oshi no Ko - AMV - Idol \~ Kyushu Dialects Vers. \~ Short Vers (Gopa-san)
+- JPN - Pekora Usada, Subaru Oozora - MV - DODEKAMBITIOUS (yt2ass)
+- JPN - Pokemon (2023) - OP2 - Halo (Kmeuh)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME AMV - Cute na Kanojo \~ Cover Full Vers (puyo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME AUDIO - Cute na Kanojo \~ Cover Full Vers (puyo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Beyond the way \~ Full Vers (puyo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Beyond the way \~ Short Vers (puyo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Bitter Choco Decoration \~ Cover Full Vers (HinamiYami)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Hitorinbo Envy \~ Cover Full Vers (HinamiYami, puyo)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - ID Smile \~ Full Vers (HinamiYami)
+- JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Jishou Mushoku \~ Cover Full Vers (HinamiYami)
+- JPN - Project Voltage - MV - Kimi to Sora wo Tobu (red5h4d0w)
+- JPN - Project Voltage - MV - Kimi to Sora wo Tobu \~ Kana Off Vocal Vers (red5h4d0w)
+- JPN - Project Voltage - MV - Kimi to Sora wo Tobu \~ Kana Vers (red5h4d0w)
+- JPN - Project Voltage - MV - Kimi to Sora wo Tobu \~ Off Vocal Vers (red5h4d0w)
+- JPN - RAISE A SUILEN - AUDIO - REIGNING \~ Full Vers (Kuro_Yuki_)
+- JPN - Revenger - OP - DownTimer (Louis Royer)
+- JPN - Roses Epicurean - AUDIO - Yami no Kodomo tachi (RoyceThomas)
+- JPN - Ryuu ga Gotoku 6 - GAME XBOXONE IN - hands (Chiko)
+- JPN - Saki Rose - MV - Reila \~ Cover Full Vers (Angor)
+- JPN - Saucy Dog - MV - Mahou ni Kakerarete (Xashy)
+- JPN - Scott Pilgrim Takes Off - IN - Kon'ya wa Hurricane \~ Cover Vers (Lukairata)
+- JPN - Senki Zesshou Symphogear GX - AUDIO IN - Beyond the BLADE (Ignited Arrangement) \~ Full Off Vocal Vers (Dysp)
+- JPN - Senki Zesshou Symphogear GX - AUDIO IN - Beyond the BLADE (Ignited Arrangement) \~ Full Vers (Dysp)
+- JPN - Shangri-La Frontier Kusoge Hunter, Kamige ni Idoman to su - IN - Tetsu Uchi Uta (Louis Royer)
+- JPN - Shin Tennis no Oujisama vs. Genius 10 - OVA OP - Kakumei e no Prelude (GahyeonEnjoyer)
+- JPN - Shiranui Construction - MV - NAKAMAKA (Nodamin)
+- JPN - Shiranui Construction - MV - NAKAMAKA \~ Off Vocal Vers (Nodamin)
+- JPN - Shoujo Kageki Revue Starlight Re LIVE - AUDIO - Eien wa Shishite Ikiru \~ Full Off Vocal Vers (red5h4d0w)
+- JPN - Shoujo Kageki Revue Starlight Re LIVE - AUDIO - Eien wa Shishite Ikiru \~ Full Vers (red5h4d0w)
+- JPN - Spy Kyoushitsu 2nd Season - OP - Rakuen (Louis Royer)
+- JPN - Steins Gate - AUDIO CS - Yasashii Yuugure (red5h4d0w)
+- JPN - Steins Gate - AUDIO CS - Yasashii Yuugure \~ Off Vocal Vers (red5h4d0w)
+- JPN - Street Fighter II - SNES AUDIO CS - Kurenai no Ken \~Burning Blood\~ (Spotty Len)
+- JPN - Street Fighter IV - GAME PS3 OP - THE NEXT DOOR (Spotty Len)
+- JPN - Suzumiya Haruhi no Yuuutsu - AUDIO CS - Etto... Returns Shite Revenge! (Louis Royer)
+- JPN - Suzumiya Haruhi no Yuuutsu - AUDIO CS - Etto... Returns Shite Revenge! \~ Off Vocal Vers (Louis Royer)
+- JPN - Suzumiya Haruhi no Yuuutsu - AUDIO CS - Matsutte Matsutte! Irasshai (Soramimi, Louis Royer)
+- JPN - Suzumiya Haruhi no Yuuutsu - AUDIO CS - Matsutte Matsutte! Irasshai \~ Off Vocal Vers (Soramimi, Louis Royer)
+- JPN - Suzumiya Haruhi no Yuuutsu - AUDIO CS - Osawagase no The End (Louis Royer)
+- JPN - Suzumiya Haruhi no Yuuutsu - AUDIO CS - Osawagase no The End \~ Off Vocal Vers (Louis Royer)
+- JPN - Suzumiya Haruhi no Yuuutsu - AUDIO CS - Punkish regular (Louis Royer)
+- JPN - Suzumiya Haruhi no Yuuutsu - AUDIO CS - Punkish regular \~ Off Vocal Vers (Louis Royer)
+- JPN - Suzumiya Haruhi no Yuuutsu - AUDIO CS - Sono Hi Sora wa Kitto Aoi (Louis Royer)
+- JPN - Suzumiya Haruhi no Yuuutsu - AUDIO CS - Sono Hi Sora wa Kitto Aoi \~ Off Vocal Vers (Louis Royer)
+- JPN - THE iDOLM@STER Cinderella Girls - LIVE - Sayonara Andromeda \~ Uta Gassen Vers. \~ Cover Vers (Sodachi)
+- JPN - THE iDOLM@STER Cinderella Girls Starlight Stage - GAME AUDIO - REVENGE \~ Cover Vers (dovinoxty, Nemesise)
+- JPN - THE iDOLM@STER Cinderella Girls Starlight Stage - GAME AUDIO - Taiga yo Tomo ni Naite Kure \~ Cover Full Vers (Hanaku, Atsuyas)
+- JPN - THE iDOLM@STER Cinderella Girls Starlight Stage - GAME IN - Angel Dream \~ Cover Vers (pockydany)
+- JPN - THE iDOLM@STER Cinderella Girls U149 - AUDIO IN - Atashi ga Rule \~ Full Vers (Nemesise)
+- JPN - THE iDOLM@STER Cinderella Girls U149 - ED10 - Goodday Goodnight (Nemesise)
+- JPN - THE iDOLM@STER Cinderella Girls U149 - ED11 - to you for me (Nemesise)
+- JPN - THE iDOLM@STER Cinderella Girls U149 - ED6 - ACE (Nemesise)
+- JPN - THE iDOLM@STER Cinderella Girls U149 - ED8 - Akogare Stitch (Nemesise)
+- JPN - THE iDOLM@STER Cinderella Girls U149 - ED9 - Himawari Mark o Sagase! (Nemesise)
+- JPN - THE iDOLM@STER Cinderella Girls U149 - IN - Atashi ga Rule (Nemesise)
+- JPN - THE iDOLM@STER Cinderella Girls U149 - OVA ED1 - Tokutoku...... Toku (Nemesise)
+- JPN - THE iDOLM@STER Cinderella Girls U149 - OVA ED2 - Omezame Meemee (Nemesise)
+- JPN - THE iDOLM@STER Million Live! Theater Days - GAME LIVE - Harmonics \~ Uta Gassen Vers. \~ Cover Vers (Sodachi)
+- JPN - THE iDOLM@STER Shiny Colors - GAME LIVE - Dye the sky (NextFire)
+- JPN - THE iDOLM@STER Shiny Colors - GAME LIVE - Mujikaku A Priori \~ Full Vers (Azurys)
+- JPN - THE iDOLM@STER Shiny Colors - OP - Tsubasa Gravity (Nemesise)
+- JPN - Taiko no Tatsujin 10 - GAME AUDIO - Angel Dream (pockydany)
+- JPN - Taiko no Tatsujin 11 - GAME AUDIO - Ego Ego Atakushi (pockydany)
+- JPN - Taiko no Tatsujin 3 - GAME AUDIO - MEKADON \~Uchuu ni Kieta Meka Taiko\~ (pockydany)
+- JPN - Taiko no Tatsujin 4 - GAME AUDIO - Donko no First Date (pockydany)
+- JPN - Taiko no Tatsujin 4 - GAME AUDIO - Unagi no Tamashii Rock (pockydany)
+- JPN - Taiko no Tatsujin 5 - GAME AUDIO - Neko Kujira (pockydany)
+- JPN - Taiko no Tatsujin 5 - GAME AUDIO - Shining 65 (pockydany)
+- JPN - Taiko no Tatsujin 6 - GAME AUDIO - Crane City (pockydany)
+- JPN - Taiko no Tatsujin 6 - GAME AUDIO - Scroll Mika (pockydany)
+- JPN - Taiko no Tatsujin Appare Sandaime - GAME PS2 ED - Mekadesu (pockydany)
+- JPN - Taiko no Tatsujin Appare Sandaime - GAME PS2 OP - Kyou wa Taikoyoubi (pockydany)
+- JPN - Taiko no Tatsujin Atsumare! Matsuri da!! Yondaime - GAME PS2 AUDIO - Buru-chan no Oyatsu (pockydany)
+- JPN - Taiko no Tatsujin Atsumare! Matsuri da!! Yondaime - GAME PS2 ED - Don-chan Sekai Ryokou (pockydany)
+- JPN - Taiko no Tatsujin Atsumare! Matsuri da!! Yondaime - GAME PS2 OP - Ohayou! Taiko Summer (pockydany)
+- JPN - Taiko no Tatsujin DS Touch de Dokodon! - GAME DS AUDIO - Kimi ni Touch! (pockydany)
+- JPN - Taiko no Tatsujin Doka! to Oomori Nanadaime - GAME PS2 ED - Densetsu no Matsuri (pockydany)
+- JPN - Taiko no Tatsujin Doka! to Oomori Nanadaime - GAME PS2 OP - Bouken Biyori (pockydany)
+- JPN - Taiko no Tatsujin Doki! Shinkyoku Darake no Haru Matsuri - GAME PS2 AUDIO - Eringi no Ekubo (pockydany)
+- JPN - Taiko no Tatsujin Doki! Shinkyoku Darake no Haru Matsuri - GAME PS2 OP - Taiko Love! (pockydany)
+- JPN - Taiko no Tatsujin Go! Go! Godaime - GAME PS2 AUDIO - Diet Padarise (pockydany)
+- JPN - Taiko no Tatsujin Go! Go! Godaime - GAME PS2 OP - Kyou no Gohan wa Taiko-zakari! (pockydany)
+- JPN - Taiko no Tatsujin Portable 2 - GAME PSP AUDIO - Karui Zawameki (pockydany)
+- JPN - Taiko no Tatsujin Portable 2 - GAME PSP OP - Kumo made Todoke! (pockydany)
+- JPN - Taiko no Tatsujin Tatacon de Dodon ga Don - GAME PS2 ED - Don-chan Ondo (pockydany)
+- JPN - Taiko no Tatsujin Tatacon de Dodon ga Don - GAME PS2 OP - Niji-iro Yume-iro Taiko-iro (pockydany)
+- JPN - Taiko no Tatsujin Wai Wai Happy! Rokudaime - GAME PS2 OP - Noshi Maite, Taiko Para! (pockydany)
+- JPN - Tamaonsen - MV - Game is Over (Gopa-san)
+- JPN - Tensei Shitara Ken Deshita - ED - More  STRONGLY (Hanaku)
+- JPN - Tensei Shitara Ken Deshita - MV - More  STRONGLY \~ Full Vers (Hanaku)
+- JPN - The IDOLM@STER Million Live! - LIVE - Alive Factor \~ Uta Gassen Vers. \~ Cover Vers (Sodachi)
+- JPN - The IDOLM@STER Million Live! - LIVE - Kyouki Ranbu \~ Uta Gassen Vers. \~ Cover Vers (Sodachi)
+- JPN - Todome no Kiss - LIVE - Sayonara Elegy (Yûgao)
+- JPN - Tokimeki Memorial Girl's Side 4th Heart - GAME SWITCH OP - Sweet Love (Nabashi)
+- JPN - Touhou - AUDIO - A-Yah-YAh-YaH-YAH! (HinamiYami)
+- JPN - Touhou - AUDIO - Bad Apple!! \~ Full Vers (HinamiYami)
+- JPN - Touhou - AUDIO - Shinkirou (HinamiYami)
+- JPN - Touhou - AUDIO - sweet home (KasrkinSaser)
+- JPN - Touhou - MV - YOMOTSUTICA LOVE (Lasagna)
+- JPN - Uma Musume Pretty Derby Season 3 - IN - Soshite minna no (Part B.) (meulahke)
+- JPN - Under Ninja - ED - Himitsu (Louis Royer)
+- JPN - Under Ninja - OP - Hyper (Louis Royer)
+- JPN - Urusei Yatsura (2022) - ED1 - Tokyo.Shandy.Rendez-vous \~ Off Vocal Vers (Kmeuh, TheMio)
+- JPN - Watashi no Yuri wa Oshigoto desu! - ED - Yume ga Samete mo (Louis Royer)
+- JPN - World Dai Star Yume no Stellarium - GAME AUDIO - Meguru Koyomi no You ni (red5h4d0w)
+- JPN - World Dai Star Yume no Stellarium - GAME AUDIO - Meguru Koyomi no You ni \~ Full Vers (red5h4d0w)
+- JPN - World Dai Star Yume no Stellarium - MV - Planetarium Revue \~ Full Vers (red5h4d0w)
+- JPN - World Dai Star Yume no Stellarium - MV - Stellar Stellar \~ Cover Short Vers (Tomatsu)
+- JPN - Ys Celceta no Jukai - GAME PSV OP - The Foliage Ocean in CELCETA \~ Break the Dawn Vers (Deurstann)
+- JPN - Yuusha Party wo Tsuihou sareta Beast Tamer, Saikyoushu no Nekomimi Shoujo to Deau - ED - LOVE&MOON (Nemesise)
+- JPN - Yuusha Party wo Tsuihou sareta Beast Tamer, Saikyoushu no Nekomimi Shoujo to Deau - OP - Change the World (Louis Royer)
+- JPN - hololive x HoneyWorks - MV - Bridal Dream (yt2ass)
+- JPN - hololive x HoneyWorks - MV - Hokori Takaki Idol \~ Cover Vers (yt2ass)
+- JPN - hololive x HoneyWorks - MV - Tokyo Wabi-Sabi Lullaby (yt2ass)
+- JPN - philo - MV - Mahou no Nai Sekai de Ikiru to Iu Koto (Xashy)
+- KOR - Dreamcatcher - LIVE - 4 Memory \~ Full Vers (GahyeonEnjoyer)
+- KOR - Dreamcatcher - MV - Fly High (GahyeonEnjoyer)
+- SPA - Ranma - ED3 - Ven Amor (Saulfire)
+- UND - NieR Automata - GAME SWITCH AUDIO - Vague Hope - Cold Rain (Demoto, TheMio)
+- UND - NieR Automata - GAME SWITCH AUDIO - Vague Hope - Spring Rain (Demoto, TheMio)
+- UND - NieR Automata - GAME SWITCH AUDIO - Voice of no Return - Guitar (Demoto, TheMio)
+
 # November 2023
 
 Kara count: 17 171
