@@ -1,0 +1,126 @@
+﻿[Script Info]
+Title: Takkyû de Dakkyû
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: pockydany
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [John],Arial,24,&H00FFFFFF,&H003CFF70,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Friends],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,
+Comment: 0,0:00:00.86,0:00:01.84,Sample KM Duo [John],,0,0,0,karaoke,{\kf98}Oh!
+Comment: 0,0:00:02.36,0:00:04.19,Sample KM Duo [John],,0,0,0,karaoke,{\k80}Oh, {\k103}no!
+Comment: 0,0:00:08.06,0:00:09.45,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}What's {\k32}hap{\k19}pen, {\k61}John?
+Comment: 0,0:00:10.09,0:00:11.43,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k17}Are {\k19}you {\k20}O{\k78}K?
+Comment: 0,0:00:12.13,0:00:13.43,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k18}What's {\k20}up {\k10}on {\k9}your {\k27}shoul{\k46}der?
+Comment: 0,0:00:17.22,0:00:18.48,Sample KM Duo [John],,0,0,0,karaoke,{\k21}tak{\k29}kyuu {\k17}de {\k20}dak{\k39}kyuu
+Comment: 0,0:00:18.96,0:00:20.22,Sample KM Duo [Friends],,0,0,0,karaoke,{\k26}PIN {\k24}PON {\k25}PAN {\k25}PON {\k26}PIN
+Comment: 0,0:00:20.69,0:00:22.81,Sample KM Duo [Friends],,0,0,0,karaoke,{\k27}PIN {\k25}PON {\k25}PAN {\k23}PIN {\k25}PON {\k50}PIN {\k37}PON
+Comment: 0,0:00:22.81,0:00:24.20,Sample KM Duo [Friends],,0,0,0,karaoke,{\k14}PO {\k24}PIN {\k24}PON {\k25}PAN {\k28}PON {\k24}PIN
+Comment: 0,0:00:24.70,0:00:26.94,Sample KM Duo [Friends],,0,0,0,karaoke,{\k25}PIN {\k26}PON {\k25}PAN {\k25}PIN {\k25}PON {\k48}Yeah! {\k50}Yeah!
+Comment: 0,0:00:26.94,0:00:28.20,Sample KM Duo [Friends],,0,0,0,karaoke,{\k27}PIN {\k24}PON {\k25}PAN {\k26}PON {\k24}PIN
+Comment: 0,0:00:28.67,0:00:30.81,Sample KM Duo [Friends],,0,0,0,karaoke,{\k28}PIN {\k25}PON {\k27}PAN {\k23}PIN {\k25}PON {\k50}PIN {\k36}PON
+Comment: 0,0:00:30.81,0:00:32.19,Sample KM Duo [Friends],,0,0,0,karaoke,{\k14}PO {\k25}PIN {\k23}PON {\k26}PAN {\k25}PON {\k25}PIN
+Comment: 0,0:00:32.69,0:00:34.96,Sample KM Duo [Friends],,0,0,0,karaoke,{\k26}PIN {\k24}PON {\k27}PAN {\k23}PIN {\k24}PON {\k49}Yeah! {\k54}Yeah!
+Comment: 0,0:00:35.16,0:00:39.04,Sample KM [Up],,0,0,0,karaoke,{\k27}tak{\k51}kyuu {\k25}dak{\k37}kyuu {\k36}sak{\k51}kyuu {\k26}you{\k51}kyuu {\k26}yuu{\k58}kyuu
+Comment: 0,0:00:39.16,0:00:42.95,Sample KM [Up],,0,0,0,karaoke,{\k25}tak{\k55}kyuu {\k22}dak{\k41}kyuu {\k31}sak{\k55}kyuu {\k22}you{\k53}kyuu {\k26}yuu{\k25}kyuu{\k0}\N{\k33}kyuu
+Comment: 0,0:00:43.18,0:00:47.06,Sample KM [Choir],,0,0,0,karaoke,{\k27}tak{\k51}kyuu {\k25}dak{\k37}kyuu {\k36}sak{\k51}kyuu {\k26}you{\k51}kyuu {\k26}yuu{\k58}kyuu
+Comment: 0,0:00:47.18,0:00:51.06,Sample KM [Choir],,0,0,0,karaoke,{\k25}tak{\k55}kyuu {\k22}dak{\k41}kyuu {\k31}sak{\k55}kyuu {\k22}you{\k53}kyuu {\k26}yuu{\k25}kyuu{\k0}\N{\k33}kyuu
+Comment: 0,0:00:51.15,0:00:52.34,Sample KM Duo [John],,0,0,0,karaoke,{\k19}tak{\k28}kyuu {\k10}de {\k37}dak{\k25}kyuu
+Comment: 0,0:00:52.92,0:00:54.20,Sample KM Duo [Friends],,0,0,0,karaoke,{\k26}PIN {\k24}PON {\k25}PAN {\k25}PON {\k26}PIN
+Comment: 0,0:00:54.70,0:00:56.82,Sample KM Duo [Friends],,0,0,0,karaoke,{\k27}PIN {\k25}PON {\k25}PAN {\k23}PIN {\k25}PON {\k50}PIN {\k37}PON
+Comment: 0,0:00:56.82,0:00:58.20,Sample KM Duo [Friends],,0,0,0,karaoke,{\k14}PO {\k24}PIN {\k24}PON {\k25}PAN {\k28}PON {\k24}PIN
+Comment: 0,0:00:58.69,0:01:00.94,Sample KM Duo [Friends],,0,0,0,karaoke,{\k25}PIN {\k26}PON {\k25}PAN {\k25}PIN {\k25}PON {\k48}Yeah! {\k50}Yeah!
+Comment: 0,0:01:00.94,0:01:02.20,Sample KM Duo [Friends],,0,0,0,karaoke,{\k26}PIN {\k24}PON {\k25}PAN {\k25}PON {\k26}PIN
+Comment: 0,0:01:02.68,0:01:04.83,Sample KM Duo [Friends],,0,0,0,karaoke,{\k27}PIN {\k25}PON {\k25}PAN {\k23}PIN {\k25}PON {\k50}PIN {\k37}PON
+Comment: 0,0:01:04.83,0:01:06.18,Sample KM Duo [Friends],,0,0,0,karaoke,{\k14}PO {\k24}PIN {\k24}PON {\k25}PAN {\k28}PON {\k24}PIN
+Comment: 0,0:01:06.71,0:01:08.96,Sample KM Duo [Friends],,0,0,0,karaoke,{\k25}PIN {\k26}PON {\k25}PAN {\k25}PIN {\k25}PON {\k48}Yeah! {\k50}Yeah!
+Comment: 0,0:01:09.20,0:01:13.08,Sample KM [Up],,0,0,0,karaoke,{\k27}tak{\k51}kyuu {\k25}dak{\k37}kyuu {\k36}sak{\k51}kyuu {\k26}you{\k51}kyuu {\k26}yuu{\k58}kyuu
+Comment: 0,0:01:09.84,0:01:13.08,Sample KM [Down],,0,0,0,karaoke,I'm afraid of table tennis
+Comment: 0,0:01:13.20,0:01:17.08,Sample KM [Up],,0,0,0,karaoke,{\k25}tak{\k55}kyuu {\k22}dak{\k41}kyuu {\k31}sak{\k55}kyuu {\k22}you{\k53}kyuu {\k26}yuu{\k25}kyuu{\k0}\N{\k33}kyuu
+Comment: 0,0:01:13.90,0:01:16.10,Sample KM [Down],,0,0,0,karaoke,So many table tennis...
+Comment: 0,0:01:17.20,0:01:21.08,Sample KM [Choir],,0,0,0,karaoke,{\k27}tak{\k51}kyuu {\k25}dak{\k37}kyuu {\k36}sak{\k51}kyuu {\k26}you{\k51}kyuu {\k26}yuu{\k58}kyuu
+Comment: 0,0:01:18.10,0:01:21.10,Sample KM [Down],,0,0,0,karaoke,Scary... so scary...
+Comment: 0,0:01:21.20,0:01:25.08,Sample KM [Choir],,0,0,0,karaoke,{\k25}tak{\k55}kyuu {\k22}dak{\k41}kyuu {\k31}sak{\k55}kyuu {\k22}you{\k53}kyuu {\k26}yuu{\k25}kyuu{\k0}\N{\k33}kyuu
+Comment: 0,0:01:21.70,0:01:25.18,Sample KM [Down],,0,0,0,karaoke,Oh, my GOD!
+Comment: 0,0:01:26.94,0:01:30.67,Sample KM Duo [Friends],,0,0,0,karaoke,{\k76}PIN, {\k26}PON {\k74}PAN, {\k27}PON {\k48}PIN, {\k25}PO {\k47}PAN {\k50}PAN
+Comment: 0,0:01:30.67,0:01:34.46,Sample KM Duo [Friends],,0,0,0,karaoke,{\k29}PO {\k72}PIN, {\k26}PON {\k76}PAN, {\k26}PON {\k49}PIN, {\k26}PO {\k48}PAN {\k27}PAN
+Comment: 0,0:01:34.94,0:01:38.46,Sample KM Duo [Friends],,0,0,0,karaoke,{\k76}PIN, {\k12}PO{\k14}KO{\k75}PAN, {\k12}PO{\k14}KO{\k47}PIN, {\k27}PO {\k43}PAN {\k32}PAN
+Comment: 0,0:01:38.68,0:01:40.93,Sample KM Duo [Friends],,0,0,0,karaoke,{\k15}PO{\k14}KO{\k72}PIN, {\k11}PO{\k17}KO{\k74}PAN, {\k12}PO{\k10}KO
+Comment: 0,0:01:40.93,0:01:42.68,Sample KM Duo [Friends],,0,0,0,karaoke,{\k37}PON {\k36}PON {\k26}PON {\k13}PO{\k11}KO{\k27}PON {\k25}PON
+Comment: 0,0:01:42.94,0:01:44.44,Sample KM Duo [Friends],,0,0,0,karaoke,{\k26}PIN {\k24}PON {\k25}PAN {\k25}PON {\k26}PIN
+Comment: 0,0:01:43.43,0:01:51.20,Sample KM [Choir],,2,2,80,karaoke,{\k48}tak{\kf129}kyuu{\k26} {\k50}tei{\kf121}kyuu{\k27} {\k49}dak{\kf127}kyuu{\k22} {\k54}TAKE {\kf124}YOU!
+Comment: 0,0:01:44.69,0:01:46.84,Sample KM Duo [Friends],,0,0,0,karaoke,{\k27}PIN {\k25}PON {\k25}PAN {\k23}PIN {\k25}PON {\k50}PIN {\k37}PON
+Comment: 0,0:01:46.84,0:01:48.20,Sample KM Duo [Friends],,0,0,0,karaoke,{\k11}PO {\k26}PIN {\k24}PON {\k25}PAN {\k26}PON {\k24}PIN
+Comment: 0,0:01:48.70,0:01:50.93,Sample KM Duo [Friends],,0,0,0,karaoke,{\k25}PIN {\k26}PON {\k25}PAN {\k25}PIN {\k25}PON {\k48}Yeah! {\k50}Yeah!
+Comment: 0,0:01:50.93,0:01:52.46,Sample KM Duo [Friends],,0,0,0,karaoke,{\k26}PIN {\k24}PON {\k25}PAN {\k25}PON {\k26}PIN
+Comment: 0,0:01:51.42,0:01:59.42,Sample KM [Choir],,2,2,80,karaoke,{\k48}tak{\kf129}kyuu{\k26} {\k50}tei{\kf121}kyuu{\k27} {\k49}dak{\kf127}kyuu{\k22} {\k54}TAKE {\kf124}YOU!
+Comment: 0,0:01:52.71,0:01:54.86,Sample KM Duo [Friends],,0,0,0,karaoke,{\k27}PIN {\k25}PON {\k25}PAN {\k23}PIN {\k25}PON {\k50}PIN {\k37}PON
+Comment: 0,0:01:54.86,0:01:56.40,Sample KM Duo [Friends],,0,0,0,karaoke,{\k11}PO {\k26}PIN {\k24}PON {\k25}PAN {\k26}PON {\k24}PIN
+Comment: 0,0:01:56.70,0:01:59.13,Sample KM Duo [Friends],,0,0,0,karaoke,{\k25}PIN {\k26}PON {\k25}PAN {\k25}PIN {\k25}PON {\k48}Yeah! {\k50}Yeah!
+Comment: 0,0:01:59.20,0:02:03.58,Sample KM [Up],,0,0,0,karaoke,{\kf109}Uu, {\kf329}ah~
+Dialogue: 0,0:00:00.00,0:00:00.20,Sample KM [Up],,0,0,0,fx,{\k0\fad(0,200)}
+Dialogue: 0,0:00:00.00,0:00:02.04,Sample KM Duo [John],,0,0,0,fx,{\k86\fad(860,200)}{\kf98}Oh!
+Dialogue: 0,0:00:01.46,0:00:04.39,Sample KM Duo [John],,0,0,0,fx,{\k90\fad(300,200)}{\k80}Oh, {\k103}no!
+Dialogue: 0,0:00:07.16,0:00:09.65,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k27}What's {\k32}hap{\k19}pen, {\k61}John?
+Dialogue: 0,0:00:09.19,0:00:11.63,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Are {\k19}you {\k20}O{\k78}K?
+Dialogue: 0,0:00:11.23,0:00:13.63,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k18}What's {\k20}up {\k10}on {\k9}your {\k27}shoul{\k46}der?
+Dialogue: 0,0:00:16.32,0:00:18.68,Sample KM Duo [John],,0,0,0,fx,{\k90\fad(300,200)}{\k21}tak{\k29}kyuu {\k17}de {\k20}dak{\k39}kyuu
+Dialogue: 0,0:00:18.06,0:00:20.42,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k26}PIN {\k24}PON {\k25}PAN {\k25}PON {\k26}PIN
+Dialogue: 0,0:00:19.79,0:00:23.01,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k27}PIN {\k25}PON {\k25}PAN {\k23}PIN {\k25}PON {\k50}PIN {\k37}PON
+Dialogue: 0,0:00:21.91,0:00:24.40,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k14}PO {\k24}PIN {\k24}PON {\k25}PAN {\k28}PON {\k24}PIN
+Dialogue: 0,0:00:23.80,0:00:27.14,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k25}PIN {\k26}PON {\k25}PAN {\k25}PIN {\k25}PON {\k48}Yeah! {\k50}Yeah!
+Dialogue: 0,0:00:26.04,0:00:28.40,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k27}PIN {\k24}PON {\k25}PAN {\k26}PON {\k24}PIN
+Dialogue: 0,0:00:27.77,0:00:31.01,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k28}PIN {\k25}PON {\k27}PAN {\k23}PIN {\k25}PON {\k50}PIN {\k36}PON
+Dialogue: 0,0:00:29.91,0:00:32.39,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k14}PO {\k25}PIN {\k23}PON {\k26}PAN {\k25}PON {\k25}PIN
+Dialogue: 0,0:00:31.79,0:00:35.16,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k26}PIN {\k24}PON {\k27}PAN {\k23}PIN {\k24}PON {\k49}Yeah! {\k54}Yeah!
+Dialogue: 0,0:00:34.26,0:00:39.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}tak{\k51}kyuu {\k25}dak{\k37}kyuu {\k36}sak{\k51}kyuu {\k26}you{\k51}kyuu {\k26}yuu{\k58}kyuu
+Dialogue: 0,0:00:38.26,0:00:43.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}tak{\k55}kyuu {\k22}dak{\k41}kyuu {\k31}sak{\k55}kyuu {\k22}you{\k53}kyuu {\k26}yuu{\k25}kyuu{\k0}\N{\k33}kyuu
+Dialogue: 0,0:00:42.28,0:00:47.26,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}tak{\k51}kyuu {\k25}dak{\k37}kyuu {\k36}sak{\k51}kyuu {\k26}you{\k51}kyuu {\k26}yuu{\k58}kyuu
+Dialogue: 0,0:00:46.28,0:00:51.26,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}tak{\k55}kyuu {\k22}dak{\k41}kyuu {\k31}sak{\k55}kyuu {\k22}you{\k53}kyuu {\k26}yuu{\k25}kyuu{\k0}\N{\k33}kyuu
+Dialogue: 0,0:00:50.25,0:00:52.54,Sample KM Duo [John],,0,0,0,fx,{\k90\fad(300,200)}{\k19}tak{\k28}kyuu {\k10}de {\k37}dak{\k25}kyuu
+Dialogue: 0,0:00:52.02,0:00:54.40,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k26}PIN {\k24}PON {\k25}PAN {\k25}PON {\k26}PIN
+Dialogue: 0,0:00:53.80,0:00:57.02,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k27}PIN {\k25}PON {\k25}PAN {\k23}PIN {\k25}PON {\k50}PIN {\k37}PON
+Dialogue: 0,0:00:55.92,0:00:58.40,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k14}PO {\k24}PIN {\k24}PON {\k25}PAN {\k28}PON {\k24}PIN
+Dialogue: 0,0:00:57.79,0:01:01.14,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k25}PIN {\k26}PON {\k25}PAN {\k25}PIN {\k25}PON {\k48}Yeah! {\k50}Yeah!
+Dialogue: 0,0:01:00.04,0:01:02.40,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k26}PIN {\k24}PON {\k25}PAN {\k25}PON {\k26}PIN
+Dialogue: 0,0:01:01.78,0:01:05.03,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k27}PIN {\k25}PON {\k25}PAN {\k23}PIN {\k25}PON {\k50}PIN {\k37}PON
+Dialogue: 0,0:01:03.93,0:01:06.38,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k14}PO {\k24}PIN {\k24}PON {\k25}PAN {\k28}PON {\k24}PIN
+Dialogue: 0,0:01:05.81,0:01:09.16,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k25}PIN {\k26}PON {\k25}PAN {\k25}PIN {\k25}PON {\k48}Yeah! {\k50}Yeah!
+Dialogue: 0,0:01:08.30,0:01:13.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}tak{\k51}kyuu {\k25}dak{\k37}kyuu {\k36}sak{\k51}kyuu {\k26}you{\k51}kyuu {\k26}yuu{\k58}kyuu
+Dialogue: 0,0:01:08.94,0:01:13.28,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}I'm afraid of table tennis
+Dialogue: 0,0:01:12.30,0:01:17.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}tak{\k55}kyuu {\k22}dak{\k41}kyuu {\k31}sak{\k55}kyuu {\k22}you{\k53}kyuu {\k26}yuu{\k25}kyuu{\k0}\N{\k33}kyuu
+Dialogue: 0,0:01:13.00,0:01:16.30,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}So many table tennis...
+Dialogue: 0,0:01:16.30,0:01:21.28,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}tak{\k51}kyuu {\k25}dak{\k37}kyuu {\k36}sak{\k51}kyuu {\k26}you{\k51}kyuu {\k26}yuu{\k58}kyuu
+Dialogue: 0,0:01:17.20,0:01:21.30,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Scary... so scary...
+Dialogue: 0,0:01:20.30,0:01:25.28,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}tak{\k55}kyuu {\k22}dak{\k41}kyuu {\k31}sak{\k55}kyuu {\k22}you{\k53}kyuu {\k26}yuu{\k25}kyuu{\k0}\N{\k33}kyuu
+Dialogue: 0,0:01:20.80,0:01:25.38,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Oh, my GOD!
+Dialogue: 0,0:01:26.04,0:01:30.87,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k76}PIN, {\k26}PON {\k74}PAN, {\k27}PON {\k48}PIN, {\k25}PO {\k47}PAN {\k50}PAN
+Dialogue: 0,0:01:29.77,0:01:34.66,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k29}PO {\k72}PIN, {\k26}PON {\k76}PAN, {\k26}PON {\k49}PIN, {\k26}PO {\k48}PAN {\k27}PAN
+Dialogue: 0,0:01:34.04,0:01:38.66,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k76}PIN, {\k12}PO{\k14}KO{\k75}PAN, {\k12}PO{\k14}KO{\k47}PIN, {\k27}PO {\k43}PAN {\k32}PAN
+Dialogue: 0,0:01:37.78,0:01:41.13,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k15}PO{\k14}KO{\k72}PIN, {\k11}PO{\k17}KO{\k74}PAN, {\k12}PO{\k10}KO
+Dialogue: 0,0:01:40.03,0:01:42.88,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k37}PON {\k36}PON {\k26}PON {\k13}PO{\k11}KO{\k27}PON {\k25}PON
+Dialogue: 0,0:01:42.04,0:01:44.64,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k26}PIN {\k24}PON {\k25}PAN {\k25}PON {\k26}PIN
+Dialogue: 0,0:01:42.53,0:01:51.40,Sample KM [Choir],,2,2,80,fx,{\k90\fad(300,200)}{\k48}tak{\kf129}kyuu{\k26} {\k50}tei{\kf121}kyuu{\k27} {\k49}dak{\kf127}kyuu{\k22} {\k54}TAKE {\kf124}YOU!
+Dialogue: 0,0:01:43.79,0:01:47.04,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k27}PIN {\k25}PON {\k25}PAN {\k23}PIN {\k25}PON {\k50}PIN {\k37}PON
+Dialogue: 0,0:01:45.94,0:01:48.40,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k11}PO {\k26}PIN {\k24}PON {\k25}PAN {\k26}PON {\k24}PIN
+Dialogue: 0,0:01:47.80,0:01:51.13,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k25}PIN {\k26}PON {\k25}PAN {\k25}PIN {\k25}PON {\k48}Yeah! {\k50}Yeah!
+Dialogue: 0,0:01:50.03,0:01:52.66,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k26}PIN {\k24}PON {\k25}PAN {\k25}PON {\k26}PIN
+Dialogue: 0,0:01:50.52,0:01:59.62,Sample KM [Choir],,2,2,80,fx,{\k90\fad(300,200)}{\k48}tak{\kf129}kyuu{\k26} {\k50}tei{\kf121}kyuu{\k27} {\k49}dak{\kf127}kyuu{\k22} {\k54}TAKE {\kf124}YOU!
+Dialogue: 0,0:01:51.81,0:01:55.06,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k27}PIN {\k25}PON {\k25}PAN {\k23}PIN {\k25}PON {\k50}PIN {\k37}PON
+Dialogue: 0,0:01:53.96,0:01:56.60,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k11}PO {\k26}PIN {\k24}PON {\k25}PAN {\k26}PON {\k24}PIN
+Dialogue: 0,0:01:55.80,0:01:59.33,Sample KM Duo [Friends],,0,0,0,fx,{\k90\fad(300,200)}{\k25}PIN {\k26}PON {\k25}PAN {\k25}PIN {\k25}PON {\k48}Yeah! {\k50}Yeah!
+Dialogue: 0,0:01:58.30,0:02:03.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf109}Uu, {\kf329}ah~
