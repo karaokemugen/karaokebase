@@ -1,5 +1,5 @@
 name: kara.moe
-description: 'The greatedt karaoke database ever'
+description: 'The greatest karaoke database ever'
 homeURL: https://kara.moe,
 contentsURL: https://kara.moe/downloads/master.zip
 gitURL: https://gitlab.com/karaokemugen/bases/karaokebase/
@@ -9,25 +9,35 @@ rules:
     containers:
       mandatory: true
       allowed:
-        - mp4			
-      resolution:
-        min:
-          height: 720
-          width: 1280
-          mandatory: false
-        max:
-          height: 1080
-          width: 1920
-          mandatory: true
-      codecs:
-        video:
-          allowed:
-            - h264          
-      bitrate:
-        max: 8000			
-      colorSpace:
+        - mp4
+      default: mp4
+    resolution:
+      min:
+        height: 720
+        width: 1280
+      max:
+        height: 1440
+        width: 1920
+        mandatory: true
+    codecs:
+      video:
+        mandatory: true
         allowed:
-          - yuv420p			
+          - h264    
+        default: h264
+      audio:
+        mandatory: true
+        allowed:
+          - aac     
+        default: aac 
+    bitrate:
+      max: 8360			
+      mandatory: true
+    colorSpace:
+      allowed:
+        - yuv420p
+      default: yuv420p
+      mandatory: true
   audioFile:
     containers:
       mandatory: true
@@ -39,8 +49,10 @@ rules:
         - mp3
       default: mp3
       mandatory: true
-      bitrate:
+    bitrate:
         min: 128
+        max: 512
+        mandatory: true
     coverArt: 
       mandatory: true
   lyrics:
