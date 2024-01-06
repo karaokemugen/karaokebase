@@ -10,53 +10,63 @@ rules:
       mandatory: true
       allowed:
         - mp4
-      default: mp4
-    resolution:
-      min:
-        height: 720
-        width: 1280
-      max:
-        height: 1440
-        width: 1920
-        mandatory: true
-    codecs:
-      video:
-        mandatory: true
+        - mkv
+        - webm      
+      resolution:
+        min:
+          height: 720
+          width: 1280
+          mandatory: false
+        max:
+          height: 1080
+          width: 1920
+          mandatory: true
+      codecs:
+        video:
+          mandatory: false
+          allowed:
+            - h264
+            - hevc
+            - av1
+        audio:
+          mandatory: true
+          allowed:
+            - aac
+            - vorbis
+            - opus     
+            - mp3
+      bitrate:
+        max: 8000
+      colorSpace:
         allowed:
-          - h264    
-        default: h264
-      audio:
-        mandatory: true
-        allowed:
-          - aac     
-        default: aac 
-    bitrate:
-      max: 8360			
-      mandatory: true
-    colorSpace:
-      allowed:
-        - yuv420p
-      default: yuv420p
-      mandatory: true
+          - yuv420p
   audioFile:
     containers:
       mandatory: true
       allowed: 
         - mp3
+        - aac
+        - m4a
+        - ogg
       default: mp3
     codecs:
       allowed:
+        - aac
+        - vorbis
+        - opus     
         - mp3
-      default: mp3
+      default: aac
       mandatory: true
-    bitrate:
-        min: 128
-        max: 512
-        mandatory: true
+      bitrate:
+        min: 128        
     coverArt: 
       mandatory: true
   lyrics:
-    formats: 
+    formats:
+      - name: kfn
+      - name: txt
+      - name: kar
+      - name: kbp
       - name: ass
         removeGarbage: true
         removeHeaderComments: true
@@ -64,5 +74,4 @@ rules:
         removeUnusedFonts: true
         setTitle: true
         setOriginalTiming: true
-        set0x0Resolution: true
-       
+        set0x0Resolution: true     
