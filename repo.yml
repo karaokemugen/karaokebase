@@ -11,35 +11,40 @@ rules:
       allowed:
         - mp4
         - mkv
-        - webm      
-      resolution:
-        min:
-          height: 720
-          width: 1280
-          mandatory: false
-        max:
-          height: 1080
-          width: 1920
-          mandatory: true
-      codecs:
-        video:
-          mandatory: false
-          allowed:
-            - h264
-            - hevc
-            - av1
-        audio:
-          mandatory: true
-          allowed:
-            - aac
-            - vorbis
-            - opus     
-            - mp3
-      bitrate:
-        max: 8000
-      colorSpace:
+        - webm
+      default: mp4
+    resolution:
+      min:
+        height: 720
+        width: 1280
+        mandatory: false
+      max:
+        height: 1080
+        width: 1920
+        mandatory: true
+    codecs:
+      video:
+        mandatory: false
         allowed:
-          - yuv420p
+          - h264
+          - hevc
+          - av1
+        default: h264
+      audio:
+        mandatory: true
+        allowed:
+          - aac
+          - vorbis
+          - opus
+          - mp3
+        default: aac
+    bitrate:
+      max: 8000
+    colorSpace:
+      allowed:
+        - yuv420p
+      default: yuv420p
+      mandatory: false
   audioFile:
     containers:
       mandatory: true
@@ -53,12 +58,14 @@ rules:
       allowed:
         - aac
         - vorbis
-        - opus     
+        - opus
         - mp3
-      default: aac
+      default: mp3
       mandatory: true
       bitrate:
-        min: 128        
+        min: 128
+        max: 512
+        mandatory: true
     coverArt: 
       mandatory: true
   lyrics:
@@ -74,4 +81,5 @@ rules:
         removeUnusedFonts: true
         setTitle: true
         setOriginalTiming: true
-        set0x0Resolution: true     
+        set0x0Resolution: true
+
