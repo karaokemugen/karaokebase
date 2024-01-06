@@ -28,6 +28,7 @@ rules:
         allowed:
           - h264
           - hevc
+          - vp9
           - av1
         default: h264
       audio:
@@ -48,7 +49,7 @@ rules:
   audioFile:
     containers:
       mandatory: true
-      allowed: 
+      allowed:
         - mp3
         - aac
         - m4a
@@ -66,7 +67,7 @@ rules:
         min: 128
         max: 512
         mandatory: true
-    coverArt: 
+    coverArt:
       mandatory: true
   lyrics:
     formats:
@@ -82,4 +83,3 @@ rules:
         setTitle: true
         setOriginalTiming: true
         set0x0Resolution: true
-
