@@ -1,5 +1,5 @@
 name: kara.moe
-description: 'The greatedt karaoke database ever'
+description: 'The greatest karaoke database ever'
 homeURL: https://kara.moe,
 contentsURL: https://kara.moe/downloads/master.zip
 gitURL: https://gitlab.com/karaokemugen/bases/karaokebase/
@@ -9,42 +9,72 @@ rules:
     containers:
       mandatory: true
       allowed:
-        - mp4			
-      resolution:
-        min:
-          height: 720
-          width: 1280
-          mandatory: false
-        max:
-          height: 1080
-          width: 1920
-          mandatory: true
-      codecs:
-        video:
-          allowed:
-            - h264          
-      bitrate:
-        max: 8000			
-      colorSpace:
+        - mp4
+        - mkv
+        - webm
+      default: mp4
+    resolution:
+      min:
+        height: 720
+        width: 1280
+        mandatory: false
+      max:
+        height: 1080
+        width: 1920
+        mandatory: true
+    codecs:
+      video:
+        mandatory: false
         allowed:
-          - yuv420p			
+          - h264
+          - hevc
+          - vp9
+          - av1
+        default: h264
+      audio:
+        mandatory: true
+        allowed:
+          - aac
+          - vorbis
+          - opus
+          - mp3
+        default: aac
+    bitrate:
+      max: 8000
+    colorSpace:
+      allowed:
+        - yuv420p
+      default: yuv420p
+      mandatory: false
   audioFile:
     containers:
       mandatory: true
-      allowed: 
+      allowed:
         - mp3
+        - aac
+        - m4a
+        - ogg
       default: mp3
     codecs:
       allowed:
+        - aac
+        - vorbis
+        - opus
         - mp3
       default: mp3
       mandatory: true
       bitrate:
         min: 128
-    coverArt: 
+        max: 512
+        mandatory: true
+    coverArt:
       mandatory: true
   lyrics:
-    formats: 
+    formats:
+      - name: kfn
+      - name: txt
+      - name: kar
+      - name: kbp
       - name: ass
         removeGarbage: true
         removeHeaderComments: true
@@ -53,4 +83,3 @@ rules:
         setTitle: true
         setOriginalTiming: true
         set0x0Resolution: true
-       
