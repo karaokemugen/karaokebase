@@ -1,0 +1,103 @@
+﻿[Script Info]
+Title: Counting on Christmas
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 0
+PlayResY: 0
+Original Timing: Gopa-san
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H00888888,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: zero,Arial,24,&H00888888,&H00DFE1A4,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,3.8,8,15,15,20,1
+Style: two,Arial,24,&H00FFFFFF,&H0034F309,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: four,Arial,24,&H00FFFFFF,&H00D36462,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: six,Arial,24,&H00FFFFFF,&H00FFC15B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: seven,Arial,24,&H00FFFFFF,&H00BD46CC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: five,Arial,24,&H00FFFFFF,&H00E34ECD,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: nine,Arial,24,&H00FFFFFF,&H00CDCDCD,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: ten,Arial,24,&H00888888,&H004F9AEE,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,3.8,8,15,15,20,1
+Style: fourteen,Arial,24,&H00FFFFFF,&H00199325,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: fifteen,Arial,24,&H00888888,&H002847B8,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,3.8,8,15,15,20,1
+Style: eight,Arial,24,&H00FFFFFF,&H00BC87B3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: x,Arial,24,&H00FFFFFF,&H0034E5E8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,all,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:06.67,0:00:10.11,Default,all,0,0,0,karaoke,{\k23}We're {\k28}coun{\k18}ting {\k22}on {\k17}a {\k26}ve{\k19}ry {\k21}Mer{\k22}ry {\k42}Christ{\k106}mas
+Comment: 0,0:00:10.11,0:00:13.16,Default,all,0,0,0,karaoke,{\k22}We're {\k24}coun{\k23}ting {\k23}on {\k19}a {\k25}Mer{\k21}ry {\k19}Ho{\k18}li{\k111}day
+Comment: 0,0:00:13.53,0:00:14.92,Default,all,0,0,0,karaoke,{\k22}We're {\k25}coun{\k20}ting {\k19}on {\k21}each {\k14}o{\k18}ther
+Comment: 0,0:00:14.92,0:00:16.82,Default,all,0,0,0,karaoke,{\k14}to {\k23}not {\k40}make {\k17}poor {\k22}San{\k18}ta {\k20}suf{\k36}fer
+Comment: 0,0:00:16.99,0:00:20.05,Default,all,0,0,0,karaoke,{\k19}with {\k23}all {\k18}the {\k24}stuff {\k21}we {\k22}want {\k21}on {\k21}Christ{\k22}mas {\k115}day!
+Comment: 0,0:00:24.05,0:00:27.02,nine,nine,0,0,0,karaoke,{\k19}I {\k25}want {\k20}a {\k18}new {\k26}skate{\k20}board {\k20}and {\k22}some {\k45}sun{\k82}nies
+Comment: 0,0:00:27.44,0:00:30.43,six,six,0,0,0,karaoke,{\k24}I {\k23}want {\k18}a {\k21}new {\k23}white{\k20}board {\k22}and {\k24}some {\k124}pens
+Comment: 0,0:00:30.85,0:00:33.87,fourteen,fourteen,0,0,0,karaoke,{\k31}I {\k18}wan{\k19}na {\k25}be {\k47}free, {\k14}and {\k21}I {\k20}want {\k14}a {\k28}new {\k26}T{\k39}V!
+Comment: 0,0:00:33.87,0:00:37.02,seven,seven,0,0,0,karaoke,{\k22}And {\k22}I {\k24}real{\k24}ly, {\k19}real{\k21}ly, {\k19}real{\k20}ly {\k24}want {\k22}some {\k98}friends!
+Comment: 0,0:00:37.73,0:00:40.72,fifteen,fifteen,0,0,0,karaoke,{\k25}I {\k24}want {\k19}a {\k21}new {\k20}shack {\k24}out {\k21}in {\k21}the {\k37}fo{\k87}rest
+Comment: 0,0:00:41.20,0:00:43.96,ten,ten,0,0,0,karaoke,{\k22}I {\k21}wan{\k20}na {\k22}com{\k21}pete {\k21}in {\k23}my {\k33}own {\k93}show
+Comment: 0,0:00:44.43,0:00:47.61,eight,eight,0,0,0,karaoke,{\k20}I {\k23}want {\k15}a {\k26}deck {\k21}of {\k46}cards, {\k11}and {\k15}a {\k34}life {\k21}that's {\k24}not {\k18}so {\k44}hard
+Comment: 0,0:00:47.61,0:00:50.62,zero,zero,0,0,0,karaoke,{\k22}And {\k19}I {\k26}real{\k24}ly, {\k20}real{\k21}ly, {\k20}real{\k23}ly {\k16}want {\k16}some {\k94}snow!
+Comment: 0,0:00:51.26,0:00:54.70,Default,all,0,0,0,karaoke,{\k20}We're {\k28}coun{\k18}ting {\k22}on {\k17}a {\k26}ve{\k19}ry {\k21}Mer{\k22}ry {\k42}Christ{\k109}mas
+Comment: 0,0:00:54.70,0:00:57.69,Default,all,0,0,0,karaoke,{\k22}We're {\k24}coun{\k23}ting {\k23}on {\k19}a {\k25}Mer{\k21}ry {\k19}Ho{\k18}li{\k105}day
+Comment: 0,0:00:58.10,0:00:59.52,Default,all,0,0,0,karaoke,{\k22}We're {\k25}coun{\k20}ting {\k19}on {\k21}each {\k14}o{\k21}ther
+Comment: 0,0:00:59.52,0:01:01.36,Default,all,0,0,0,karaoke,{\k11}to {\k23}not {\k40}make {\k17}poor {\k22}San{\k18}ta {\k20}suf{\k33}fer
+Comment: 0,0:01:01.57,0:01:04.58,Default,all,0,0,0,karaoke,{\k19}with {\k23}all {\k18}the {\k24}stuff {\k21}we {\k22}want {\k21}on {\k21}Christ{\k22}mas {\k110}day!
+Comment: 0,0:01:08.61,0:01:11.42,two,two,0,0,0,karaoke,{\k23}I {\k22}want {\k23}a {\k18}va{\k21}ca{\k25}tion {\k20}and {\k23}a {\k34}beach {\k72}house
+Comment: 0,0:01:12.06,0:01:14.86,four,four,0,0,0,karaoke,{\k22}I {\k22}want {\k24}my {\k17}con{\k22}tes{\k23}tants {\k18}back {\k27}from {\k105}you
+Comment: 0,0:01:15.28,0:01:16.55,x,x,0,0,0,karaoke,{\k18}and {\k23}I {\k21}want {\k22}e{\k17}very{\k26}one
+Comment: 0,0:01:16.55,0:01:18.50,x,x,0,0,0,karaoke,{\k18}to {\k19}get {\k18}a{\k27}long {\k16}and {\k24}have {\k25}some {\k48}fun
+Comment: 0,0:01:18.50,0:01:21.16,four,four,0,0,0,karaoke,{\k20}But {\k20}I {\k26}real{\k21}ly, {\k22}real{\k19}ly, {\k23}real{\k19}ly {\k20}don't {\k22}want {\k54}to!
+Comment: 0,0:01:18.50,0:01:21.16,two,two,0,0,0,karaoke,{\k20}But {\k20}I {\k26}real{\k21}ly, {\k22}real{\k19}ly, {\k23}real{\k19}ly {\k20}don't {\k22}want {\k54}to!
+Comment: 0,0:01:22.33,0:01:25.40,five,five,0,0,0,karaoke,{\k22}I {\k22}want {\k21}some {\k23}new {\k32}books {\k9}to {\k24}fill {\k21}my {\k29}book{\k104}shelves
+Comment: 0,0:01:25.54,0:01:28.00,seven,seven,0,0,0,karaoke,{\k21}and {\k24}I {\k21}want {\k22}Five {\k16}to {\k37}stop {\k18}be{\k14}ing {\k23}a {\k50}dork
+Comment: 0,0:01:28.35,0:01:28.85,five,five,0,0,0,karaoke,{\k50}HEY!
+Comment: 0,0:01:29.17,0:01:30.43,eight,eight,0,0,0,karaoke,{\k23}Guys, {\k22}let's {\k23}please {\k19}not {\k39}fight!
+Comment: 0,0:01:30.44,0:01:32.20,six,six,0,0,0,karaoke,{\k21}Some{\k23}how {\k24}I {\k22}think {\k22}Eight {\k19}is {\k45}right...
+Comment: 0,0:01:32.20,0:01:35.14,fourteen,fourteen,0,0,0,karaoke,{\k18}And {\k27}I {\k21}real{\k20}ly, {\k21}real{\k23}ly, {\k20}real{\k19}ly {\k20}want {\k25}a {\k80}fork!
+Comment: 0,0:01:35.14,0:01:35.81,Default,all,0,0,0,karaoke,{\k67}NO!
+Comment: 0,0:01:35.81,0:01:39.24,Default,all,0,0,0,karaoke,{\k20}We're {\k28}coun{\k18}ting {\k22}on {\k17}a {\k26}ve{\k19}ry {\k21}Mer{\k22}ry {\k42}Christ{\k108}mas
+Comment: 0,0:01:39.29,0:01:42.41,Default,all,0,0,0,karaoke,{\k22}We're {\k24}coun{\k23}ting {\k23}on {\k19}a {\k25}Mer{\k21}ry {\k19}Ho{\k18}li{\k118}day
+Comment: 0,0:01:42.68,0:01:44.02,Default,all,0,0,0,karaoke,{\k22}We're {\k25}coun{\k20}ting {\k19}on {\k21}each {\k14}o{\k13}ther
+Comment: 0,0:01:44.02,0:01:45.97,Default,all,0,0,0,karaoke,{\k16}to {\k23}not {\k40}make {\k17}poor {\k22}San{\k18}ta {\k20}suf{\k39}fer
+Comment: 0,0:01:46.10,0:01:51.61,Default,all,0,0,0,karaoke,{\k19}with {\k49}all {\k38}the {\k41}stuff {\k49}we {\k40}want {\k41}on {\k39}Christ{\k45}mas {\k190}day!
+Comment: 0,0:01:52.00,0:01:53.01,Default,all,0,0,0,karaoke,{\k16}Hoo{\k85}ray!
+Dialogue: 0,0:00:05.77,0:00:10.31,Default,all,0,0,0,fx,{\k90\fad(300,200)}{\k23}We're {\k28}coun{\k18}ting {\k22}on {\k17}a {\k26}ve{\k19}ry {\k21}Mer{\k22}ry {\k42}Christ{\k106}mas
+Dialogue: 0,0:00:09.21,0:00:13.36,Default,all,0,0,0,fx,{\k90\fad(300,200)}{\k22}We're {\k24}coun{\k23}ting {\k23}on {\k19}a {\k25}Mer{\k21}ry {\k19}Ho{\k18}li{\k111}day
+Dialogue: 0,0:00:12.63,0:00:15.12,Default,all,0,0,0,fx,{\k90\fad(300,200)}{\k22}We're {\k25}coun{\k20}ting {\k19}on {\k21}each {\k14}o{\k18}ther
+Dialogue: 0,0:00:14.02,0:00:17.02,Default,all,0,0,0,fx,{\k90\fad(300,200)}{\k14}to {\k23}not {\k40}make {\k17}poor {\k22}San{\k18}ta {\k20}suf{\k36}fer
+Dialogue: 0,0:00:16.09,0:00:20.25,Default,all,0,0,0,fx,{\k90\fad(300,200)}{\k19}with {\k23}all {\k18}the {\k24}stuff {\k21}we {\k22}want {\k21}on {\k21}Christ{\k22}mas {\k115}day!
+Dialogue: 0,0:00:23.15,0:00:27.22,nine,nine,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k25}want {\k20}a {\k18}new {\k26}skate{\k20}board {\k20}and {\k22}some {\k45}sun{\k82}nies
+Dialogue: 0,0:00:26.54,0:00:30.63,six,six,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k23}want {\k18}a {\k21}new {\k23}white{\k20}board {\k22}and {\k24}some {\k124}pens
+Dialogue: 0,0:00:29.95,0:00:34.07,fourteen,fourteen,0,0,0,fx,{\k90\fad(300,200)}{\k31}I {\k18}wan{\k19}na {\k25}be {\k47}free, {\k14}and {\k21}I {\k20}want {\k14}a {\k28}new {\k26}T{\k39}V!
+Dialogue: 0,0:00:32.97,0:00:37.22,seven,seven,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k22}I {\k24}real{\k24}ly, {\k19}real{\k21}ly, {\k19}real{\k20}ly {\k24}want {\k22}some {\k98}friends!
+Dialogue: 0,0:00:36.83,0:00:40.92,fifteen,fifteen,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k24}want {\k19}a {\k21}new {\k20}shack {\k24}out {\k21}in {\k21}the {\k37}fo{\k87}rest
+Dialogue: 0,0:00:40.30,0:00:44.16,ten,ten,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k21}wan{\k20}na {\k22}com{\k21}pete {\k21}in {\k23}my {\k33}own {\k93}show
+Dialogue: 0,0:00:43.53,0:00:47.81,eight,eight,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k23}want {\k15}a {\k26}deck {\k21}of {\k46}cards, {\k11}and {\k15}a {\k34}life {\k21}that's {\k24}not {\k18}so {\k44}hard
+Dialogue: 0,0:00:46.71,0:00:50.82,zero,zero,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k19}I {\k26}real{\k24}ly, {\k20}real{\k21}ly, {\k20}real{\k23}ly {\k16}want {\k16}some {\k94}snow!
+Dialogue: 0,0:00:50.36,0:00:54.90,Default,all,0,0,0,fx,{\k90\fad(300,200)}{\k20}We're {\k28}coun{\k18}ting {\k22}on {\k17}a {\k26}ve{\k19}ry {\k21}Mer{\k22}ry {\k42}Christ{\k109}mas
+Dialogue: 0,0:00:53.80,0:00:57.89,Default,all,0,0,0,fx,{\k90\fad(300,200)}{\k22}We're {\k24}coun{\k23}ting {\k23}on {\k19}a {\k25}Mer{\k21}ry {\k19}Ho{\k18}li{\k105}day
+Dialogue: 0,0:00:57.20,0:00:59.72,Default,all,0,0,0,fx,{\k90\fad(300,200)}{\k22}We're {\k25}coun{\k20}ting {\k19}on {\k21}each {\k14}o{\k21}ther
+Dialogue: 0,0:00:58.62,0:01:01.56,Default,all,0,0,0,fx,{\k90\fad(300,200)}{\k11}to {\k23}not {\k40}make {\k17}poor {\k22}San{\k18}ta {\k20}suf{\k33}fer
+Dialogue: 0,0:01:00.67,0:01:04.78,Default,all,0,0,0,fx,{\k90\fad(300,200)}{\k19}with {\k23}all {\k18}the {\k24}stuff {\k21}we {\k22}want {\k21}on {\k21}Christ{\k22}mas {\k110}day!
+Dialogue: 0,0:01:07.71,0:01:11.62,two,two,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k22}want {\k23}a {\k18}va{\k21}ca{\k25}tion {\k20}and {\k23}a {\k34}beach {\k72}house
+Dialogue: 0,0:01:11.16,0:01:15.06,four,four,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k22}want {\k24}my {\k17}con{\k22}tes{\k23}tants {\k18}back {\k27}from {\k105}you
+Dialogue: 0,0:01:14.38,0:01:16.75,x,x,0,0,0,fx,{\k90\fad(300,200)}{\k18}and {\k23}I {\k21}want {\k22}e{\k17}very{\k26}one
+Dialogue: 0,0:01:15.65,0:01:18.70,x,x,0,0,0,fx,{\k90\fad(300,200)}{\k18}to {\k19}get {\k18}a{\k27}long {\k16}and {\k24}have {\k25}some {\k48}fun
+Dialogue: 0,0:01:17.60,0:01:21.36,four,four,0,0,0,fx,{\k90\fad(300,200)}{\k20}But {\k20}I {\k26}real{\k21}ly, {\k22}real{\k19}ly, {\k23}real{\k19}ly {\k20}don't {\k22}want {\k54}to!
+Dialogue: 0,0:01:17.60,0:01:21.36,two,two,0,0,0,fx,{\k90\fad(300,200)}{\k20}But {\k20}I {\k26}real{\k21}ly, {\k22}real{\k19}ly, {\k23}real{\k19}ly {\k20}don't {\k22}want {\k54}to!
+Dialogue: 0,0:01:21.43,0:01:25.60,five,five,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k22}want {\k21}some {\k23}new {\k32}books {\k9}to {\k24}fill {\k21}my {\k29}book{\k104}shelves
+Dialogue: 0,0:01:24.64,0:01:28.20,seven,seven,0,0,0,fx,{\k90\fad(300,200)}{\k21}and {\k24}I {\k21}want {\k22}Five {\k16}to {\k37}stop {\k18}be{\k14}ing {\k23}a {\k50}dork
+Dialogue: 0,0:01:27.45,0:01:29.05,five,five,0,0,0,fx,{\k90\fad(300,200)}{\k50}HEY!
+Dialogue: 0,0:01:28.27,0:01:30.63,eight,eight,0,0,0,fx,{\k90\fad(300,200)}{\k23}Guys, {\k22}let's {\k23}please {\k19}not {\k39}fight!
+Dialogue: 0,0:01:29.54,0:01:32.40,six,six,0,0,0,fx,{\k90\fad(300,200)}{\k21}Some{\k23}how {\k24}I {\k22}think {\k22}Eight {\k19}is {\k45}right...
+Dialogue: 0,0:01:31.30,0:01:35.34,fourteen,fourteen,0,0,0,fx,{\k90\fad(300,200)}{\k18}And {\k27}I {\k21}real{\k20}ly, {\k21}real{\k23}ly, {\k20}real{\k19}ly {\k20}want {\k25}a {\k80}fork!
+Dialogue: 0,0:01:34.24,0:01:36.01,Default,all,0,0,0,fx,{\k90\fad(300,200)}{\k67}NO!
+Dialogue: 0,0:01:34.91,0:01:39.44,Default,all,0,0,0,fx,{\k90\fad(300,200)}{\k20}We're {\k28}coun{\k18}ting {\k22}on {\k17}a {\k26}ve{\k19}ry {\k21}Mer{\k22}ry {\k42}Christ{\k108}mas
+Dialogue: 0,0:01:38.39,0:01:42.61,Default,all,0,0,0,fx,{\k90\fad(300,200)}{\k22}We're {\k24}coun{\k23}ting {\k23}on {\k19}a {\k25}Mer{\k21}ry {\k19}Ho{\k18}li{\k118}day
+Dialogue: 0,0:01:41.78,0:01:44.22,Default,all,0,0,0,fx,{\k90\fad(300,200)}{\k22}We're {\k25}coun{\k20}ting {\k19}on {\k21}each {\k14}o{\k13}ther
+Dialogue: 0,0:01:43.12,0:01:46.17,Default,all,0,0,0,fx,{\k90\fad(300,200)}{\k16}to {\k23}not {\k40}make {\k17}poor {\k22}San{\k18}ta {\k20}suf{\k39}fer
+Dialogue: 0,0:01:45.20,0:01:51.81,Default,all,0,0,0,fx,{\k90\fad(300,200)}{\k19}with {\k49}all {\k38}the {\k41}stuff {\k49}we {\k40}want {\k41}on {\k39}Christ{\k45}mas {\k190}day!
+Dialogue: 0,0:01:51.10,0:01:53.21,Default,all,0,0,0,fx,{\k90\fad(300,200)}{\k16}Hoo{\k85}ray!
