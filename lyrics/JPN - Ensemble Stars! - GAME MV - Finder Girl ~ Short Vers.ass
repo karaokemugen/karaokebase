@@ -1,0 +1,110 @@
+﻿[Script Info]
+Title: Finder Girl
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00BA72FE,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mao,Arial,24,&H00FFFFFF,&H007761FE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Subaru,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Makoto,Arial,24,&H00FFFFFF,&H000BD616,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hokuto,Arial,24,&H00FFFFFF,&H00FE8D79,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mao Makoto,Arial,24,&H00FFFFFF,&H0063E56A,&H001B00A4,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Subaru Makoto Hokuto,Arial,24,&H00FFFFFF,&H00FE73D9,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mao [Down],Arial,24,&H00FFFFFF,&H007761FE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:09.01,0:00:12.42,Mao,,0,0,0,karaoke,{\k45}FIN{\k36}DER {\k107}ga {\k22}ki{\k11}ri{\k12}to{\k30}ru {\k26}ki{\k52}mi
+Comment: 0,0:00:12.77,0:00:16.59,Mao,,0,0,0,karaoke,{\k36}shun{\k46}kan {\k109}wo {\k26}da{\k8}ki{\k15}shi{\k37}me{\k21}ru {\k25}yo{\k25}u {\k34}ni
+Comment: 0,0:00:16.60,0:00:20.39,Makoto,,0,0,0,karaoke,{\k23}mi{\k11}tsu{\k14}me{\k28}at{\k95}te {\k22}hi{\k29}to{\k15}ri{\k35}ji{\k14}me {\k35}shi{\k23}ta{\k35}i
+Comment: 0,0:00:20.40,0:00:23.86,Mao Makoto,,0,0,0,karaoke,{\k24}i{\k12}ma {\k12}da{\k34}ke {\k72}wa {\k48}ii {\k23}yo {\kf121}ne?
+Comment: 0,0:00:24.44,0:00:26.37,Subaru,,0,0,0,karaoke,{\k25}to{\k34}bi{\k17}ki{\k34}ri {\k18}no {\k42}CHAR{\k23}MING
+Comment: 0,0:00:26.37,0:00:28.37,Hokuto,,0,0,0,karaoke,{\k13}mi{\k38}se{\k28}tsu{\k27}ke{\k15}te {\k45}SMI{\k34}LING
+Comment: 0,0:00:28.37,0:00:32.19,Makoto,,0,0,0,karaoke,{\k41}SHU{\k32}T{\k36}TER {\k34}on{\k25}a{\k19}wa{\k16}su {\k35}i{\k21}ki{\k27}tzu{\k18}ka{\kf78}i
+Comment: 0,0:00:32.07,0:00:34.09,Hokuto,,0,0,0,karaoke,{\k23}o{\k32}mo{\k21}wa{\k33}se{\k21}bu{\k37}ri {\k35}ni
+Comment: 0,0:00:33.91,0:00:35.96,Subaru,,0,0,0,karaoke,{\k23}kan{\k44}chi{\k23}ga{\k17}i {\k23}sa{\k45}se{\k30}te
+Comment: 0,0:00:35.97,0:00:39.76,Mao,,0,0,0,karaoke,{\k51}so{\k20}no {\k24}ku{\k28}chi{\k37}bi{\k32}ru {\k19}ni {\kf77}FO{\kf91}CUS
+Comment: 0,0:00:39.31,0:00:41.62,Hokuto,,0,0,0,karaoke,{\k24}mu{\k24}ja{\k26}ki {\k19}na {\k19}ki{\k9}mi {\k26}na{\k20}ra {\k21}YEL{\k43}LOW
+Comment: 0,0:00:41.66,0:00:43.62,Subaru,,0,0,0,karaoke,{\k18}wa{\k10}ga{\k26}ma{\k15}ma {\k8}ji{\k21}ra{\k12}su {\k17}CHER{\k24}RY {\k45}PINK
+Comment: 0,0:00:43.62,0:00:46.59,Sample KM [Up],,0,0,0,karaoke,{\k20}to{\k26}ki{\k23}me{\k24}ki {\k42}FUL{\k28}L {\k28}CO{\kf106}LOR
+Comment: 0,0:00:46.71,0:00:50.25,Sample KM [Up],,0,0,0,karaoke,{\k22}a{\k25}u {\k23}ta{\k51}bi {\k66}ni {\k25}ka{\k27}wa{\k23}t{\k46}te{\k46}ku
+Comment: 0,0:00:50.51,0:00:54.08,Sample KM [Up],,0,0,0,karaoke,{\k25}me {\k12}ga {\k30}so{\k42}ra{\k56}se{\k53}na{\k41}i {\k50}MY {\k48}GIRL
+Comment: 0,0:00:54.32,0:01:00.19,Sample KM [Up],,0,0,0,karaoke,{\k20}fu{\k29}ta{\k22}ri {\k48}ki{\k72}ri {\k20}a{\k25}za{\k24}ya{\k50}ka {\k40}na {\k54}se{\k52}ka{\kf131}i...
+Comment: 0,0:01:00.24,0:01:03.06,Mao,,0,0,0,karaoke,{\k28}to{\k21}bi{\k48}kon{\k49}de {\k46}FIN{\k25}DER {\k65}GIRL
+Comment: 0,0:01:03.33,0:01:06.78,Sample KM [Up],,0,0,0,karaoke,{\k27}Pla{\k24}to{\k29}nic {\k115}Spring, {\k25}end{\k23}less {\k39}Sum{\k63}mer
+Comment: 0,0:01:07.12,0:01:10.58,Sample KM [Up],,0,0,0,karaoke,{\k30}ma{\k21}i{\k33}ni{\k112}chi {\k26}a{\k23}i{\k36}ta{\k65}i
+Comment: 0,0:01:10.96,0:01:14.43,Sample KM [Up],,0,0,0,karaoke,{\k31}Fall {\k20}in {\k34}Au{\k104}tumn, {\k31}pro{\k21}mise {\k37}Win{\k69}ter
+Comment: 0,0:01:14.70,0:01:18.71,Sample KM [Up],,0,0,0,karaoke,{\k35}ki{\k23}mi {\k33}ko{\k38}so {\k41}FIN{\k55}DER {\k41}FIN{\k30}DER {\kf105}GIRL
+Comment: 0,0:01:18.82,0:01:22.55,Makoto,,0,0,0,karaoke,{\k21}u{\k29}tsu{\k20}ri{\k28}ko{\k49}n{\k43}da {\k47}yu{\k50}me {\kf86}ga
+Comment: 0,0:01:22.55,0:01:26.35,Subaru,,0,0,0,karaoke,{\k34}ki{\k24}ra{\k23}ki{\k25}ra {\k47}ka{\k42}ga{\k52}ya{\k49}i{\kf84}te
+Comment: 0,0:01:26.35,0:01:29.26,Hokuto,,0,0,0,karaoke,{\k36}o{\k24}mo{\k41}waz' {\k30}{\2c&H2FA0FF&\3c&H130077&}yu{\k25}bi {\k44}wo {\k27\2c&H5BE963&\3c&HA54935&}to{\k21}me{\k43}te
+Comment: 0,0:01:29.26,0:01:33.41,Sample KM [Up],,0,0,0,karaoke,{\k30}mi{\k26}to{\k22}re{\k18}te {\k23}shi{\k33}ma{\k18}u {\k29}ho{\kf216}do
+Comment: 0,0:01:34.31,0:01:37.95,Subaru,,0,0,0,karaoke,{\k19}a{\k30}u {\k26}ta{\k48}bi {\k70}ni {\k25}ka{\k20}wa{\k28}t{\k44}te{\k54}ku
+Comment: 0,0:01:38.10,0:01:41.76,Hokuto,,0,0,0,karaoke,{\k27}me {\k23}ga {\k25}so{\k46}ra{\k49}se{\k49}na{\k48}i {\k46}MY {\k53}GIRL
+Comment: 0,0:01:41.91,0:01:48.13,Makoto,,0,0,0,karaoke,{\k27}fu{\k27}ta{\k19}ri {\k51}ki{\k70}ri {\k22}a{\k26}za{\k26}ya{\k38}ka {\k58}na {\k46}se{\k60}ka{\kf152}i...
+Comment: 0,0:01:48.33,0:01:50.24,Mao,,0,0,0,karaoke,{\k52}to{\k20}bi{\k28}ko{\k23}mo{\k68}u
+Comment: 0,0:01:49.49,0:01:53.13,Subaru Makoto Hokuto,,0,0,0,karaoke,{\k25}ki{\k30}mi {\k23}wo {\k41}mot{\k76}to {\k22}bo{\k29}ku {\k23}ga {\k49}mot{\k46}to
+Comment: 0,0:01:50.24,0:01:54.52,Mao [Down],,0,0,0,karaoke,{\kf191}(YEAH! {\kf237}YEAH!)
+Comment: 0,0:01:53.30,0:01:56.91,Subaru Makoto Hokuto,,0,0,0,karaoke,{\k25}ki{\k23}ki {\k17}da{\k59}shi{\k51}ta{\k46}in {\k45}da {\k42}MY {\k53}SWEET
+Comment: 0,0:01:56.70,0:01:58.30,Mao [Down],,0,0,0,karaoke,{\k48}(My {\k47}sweet {\k65}heart)
+Comment: 0,0:01:57.18,0:01:58.82,Subaru Makoto Hokuto,,0,0,0,karaoke,{\k38}gen{\k25}sho{\k50}ku {\k51}no
+Comment: 0,0:01:58.98,0:02:02.91,Sample KM [Up],,0,0,0,karaoke,{\k37}ma{\k13}bu{\k25}shi{\k55}sa {\k48}no {\k45}ma{\k50}ma {\kf120}de
+Comment: 0,0:02:03.12,0:02:05.95,Sample KM [Up],,0,0,0,karaoke,{\k25}i{\k25}ro{\k45}dot{\k46}te {\k49}FIN{\k24}DER {\k69}GIRL
+Comment: 0,0:02:06.20,0:02:09.70,Subaru Makoto Hokuto,,0,0,0,karaoke,{\k27}Pla{\k24}to{\k29}nic {\k115}Spring, {\k25}end{\k23}less {\k34}Sum{\k73}mer
+Comment: 0,0:02:07.39,0:02:10.21,Mao [Down],,0,0,0,karaoke,{\k49}(ma{\k48}i{\k44}ni{\kf141}chi)
+Comment: 0,0:02:09.98,0:02:13.49,Subaru Makoto Hokuto,,0,0,0,karaoke,{\k30}ma{\k21}i{\k33}ni{\k112}chi {\k26}a{\k23}i{\k36}ta{\k70}i
+Comment: 0,0:02:11.21,0:02:14.00,Mao [Down],,0,0,0,karaoke,{\k50}(a{\k46}i{\k60}ta{\kf123}i)
+Comment: 0,0:02:13.85,0:02:17.29,Subaru Makoto Hokuto,,0,0,0,karaoke,{\k26}Fall {\k25}in {\k34}Au{\k104}tumn, {\k28}pro{\k24}mise {\k37}Win{\k66}ter
+Comment: 0,0:02:14.94,0:02:18.74,Mao [Down],,0,0,0,karaoke,{\kf203}(YEAH {\k47}OOH {\kf130}WOO...)
+Comment: 0,0:02:18.76,0:02:23.38,Sample KM [Up],,0,0,0,karaoke,{\k53}FIN{\k51}DER {\k46}FIN{\k26}DER {\kf286}GIRL
+Dialogue: 0,0:00:08.11,0:00:12.62,Mao,,0,0,0,fx,{\k90\fad(300,200)}{\k45}FIN{\k36}DER {\k107}ga {\k22}ki{\k11}ri{\k12}to{\k30}ru {\k26}ki{\k52}mi
+Dialogue: 0,0:00:11.87,0:00:16.79,Mao,,0,0,0,fx,{\k90\fad(300,200)}{\k36}shun{\k46}kan {\k109}wo {\k26}da{\k8}ki{\k15}shi{\k37}me{\k21}ru {\k25}yo{\k25}u {\k34}ni
+Dialogue: 0,0:00:15.70,0:00:20.59,Makoto,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mi{\k11}tsu{\k14}me{\k28}at{\k95}te {\k22}hi{\k29}to{\k15}ri{\k35}ji{\k14}me {\k35}shi{\k23}ta{\k35}i
+Dialogue: 0,0:00:19.50,0:00:24.06,Mao Makoto,,0,0,0,fx,{\k90\fad(300,200)}{\k24}i{\k12}ma {\k12}da{\k34}ke {\k72}wa {\k48}ii {\k23}yo {\kf121}ne?
+Dialogue: 0,0:00:23.54,0:00:26.57,Subaru,,0,0,0,fx,{\k90\fad(300,200)}{\k25}to{\k34}bi{\k17}ki{\k34}ri {\k18}no {\k42}CHAR{\k23}MING
+Dialogue: 0,0:00:25.47,0:00:28.57,Hokuto,,0,0,0,fx,{\k90\fad(300,200)}{\k13}mi{\k38}se{\k28}tsu{\k27}ke{\k15}te {\k45}SMI{\k34}LING
+Dialogue: 0,0:00:27.47,0:00:32.39,Makoto,,0,0,0,fx,{\k90\fad(300,200)}{\k41}SHU{\k32}T{\k36}TER {\k34}on{\k25}a{\k19}wa{\k16}su {\k35}i{\k21}ki{\k27}tzu{\k18}ka{\kf78}i
+Dialogue: 0,0:00:31.17,0:00:34.29,Hokuto,,0,0,0,fx,{\k90\fad(300,200)}{\k23}o{\k32}mo{\k21}wa{\k33}se{\k21}bu{\k37}ri {\k35}ni
+Dialogue: 0,0:00:33.01,0:00:36.16,Subaru,,0,0,0,fx,{\k90\fad(300,200)}{\k23}kan{\k44}chi{\k23}ga{\k17}i {\k23}sa{\k45}se{\k30}te
+Dialogue: 0,0:00:35.07,0:00:39.96,Mao,,0,0,0,fx,{\k90\fad(300,200)}{\k51}so{\k20}no {\k24}ku{\k28}chi{\k37}bi{\k32}ru {\k19}ni {\kf77}FO{\kf91}CUS
+Dialogue: 0,0:00:38.41,0:00:41.82,Hokuto,,0,0,0,fx,{\k90\fad(300,200)}{\k24}mu{\k24}ja{\k26}ki {\k19}na {\k19}ki{\k9}mi {\k26}na{\k20}ra {\k21}YEL{\k43}LOW
+Dialogue: 0,0:00:40.76,0:00:43.82,Subaru,,0,0,0,fx,{\k90\fad(300,200)}{\k18}wa{\k10}ga{\k26}ma{\k15}ma {\k8}ji{\k21}ra{\k12}su {\k17}CHER{\k24}RY {\k45}PINK
+Dialogue: 0,0:00:42.72,0:00:46.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}to{\k26}ki{\k23}me{\k24}ki {\k42}FUL{\k28}L {\k28}CO{\kf106}LOR
+Dialogue: 0,0:00:45.81,0:00:50.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}a{\k25}u {\k23}ta{\k51}bi {\k66}ni {\k25}ka{\k27}wa{\k23}t{\k46}te{\k46}ku
+Dialogue: 0,0:00:49.61,0:00:54.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}me {\k12}ga {\k30}so{\k42}ra{\k56}se{\k53}na{\k41}i {\k50}MY {\k48}GIRL
+Dialogue: 0,0:00:53.42,0:01:00.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}fu{\k29}ta{\k22}ri {\k48}ki{\k72}ri {\k20}a{\k25}za{\k24}ya{\k50}ka {\k40}na {\k54}se{\k52}ka{\kf131}i...
+Dialogue: 0,0:00:59.34,0:01:03.26,Mao,,0,0,0,fx,{\k90\fad(300,200)}{\k28}to{\k21}bi{\k48}kon{\k49}de {\k46}FIN{\k25}DER {\k65}GIRL
+Dialogue: 0,0:01:02.43,0:01:06.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Pla{\k24}to{\k29}nic {\k115}Spring, {\k25}end{\k23}less {\k39}Sum{\k63}mer
+Dialogue: 0,0:01:06.22,0:01:10.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}ma{\k21}i{\k33}ni{\k112}chi {\k26}a{\k23}i{\k36}ta{\k65}i
+Dialogue: 0,0:01:10.06,0:01:14.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Fall {\k20}in {\k34}Au{\k104}tumn, {\k31}pro{\k21}mise {\k37}Win{\k69}ter
+Dialogue: 0,0:01:13.80,0:01:18.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}ki{\k23}mi {\k33}ko{\k38}so {\k41}FIN{\k55}DER {\k41}FIN{\k30}DER {\kf105}GIRL
+Dialogue: 0,0:01:17.92,0:01:22.75,Makoto,,0,0,0,fx,{\k90\fad(300,200)}{\k21}u{\k29}tsu{\k20}ri{\k28}ko{\k49}n{\k43}da {\k47}yu{\k50}me {\kf86}ga
+Dialogue: 0,0:01:21.65,0:01:26.55,Subaru,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ki{\k24}ra{\k23}ki{\k25}ra {\k47}ka{\k42}ga{\k52}ya{\k49}i{\kf84}te
+Dialogue: 0,0:01:25.45,0:01:29.46,Hokuto,,0,0,0,fx,{\k90\fad(300,200)}{\k36}o{\k24}mo{\k41}waz' {\k30}{\2c&H2FA0FF&\3c&H130077&}yu{\k25}bi {\k44}wo {\k27\2c&H5BE963&\3c&HA54935&}to{\k21}me{\k43}te
+Dialogue: 0,0:01:28.36,0:01:33.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}mi{\k26}to{\k22}re{\k18}te {\k23}shi{\k33}ma{\k18}u {\k29}ho{\kf216}do
+Dialogue: 0,0:01:33.41,0:01:38.15,Subaru,,0,0,0,fx,{\k90\fad(300,200)}{\k19}a{\k30}u {\k26}ta{\k48}bi {\k70}ni {\k25}ka{\k20}wa{\k28}t{\k44}te{\k54}ku
+Dialogue: 0,0:01:37.20,0:01:41.96,Hokuto,,0,0,0,fx,{\k90\fad(300,200)}{\k27}me {\k23}ga {\k25}so{\k46}ra{\k49}se{\k49}na{\k48}i {\k46}MY {\k53}GIRL
+Dialogue: 0,0:01:41.01,0:01:48.33,Makoto,,0,0,0,fx,{\k90\fad(300,200)}{\k27}fu{\k27}ta{\k19}ri {\k51}ki{\k70}ri {\k22}a{\k26}za{\k26}ya{\k38}ka {\k58}na {\k46}se{\k60}ka{\kf152}i...
+Dialogue: 0,0:01:47.43,0:01:50.44,Mao,,0,0,0,fx,{\k90\fad(300,200)}{\k52}to{\k20}bi{\k28}ko{\k23}mo{\k68}u
+Dialogue: 0,0:01:48.59,0:01:53.33,Subaru Makoto Hokuto,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ki{\k30}mi {\k23}wo {\k41}mot{\k76}to {\k22}bo{\k29}ku {\k23}ga {\k49}mot{\k46}to
+Dialogue: 0,0:01:49.34,0:01:54.72,Mao [Down],,0,0,0,fx,{\k90\fad(300,200)}{\kf191}(YEAH! {\kf237}YEAH!)
+Dialogue: 0,0:01:52.40,0:01:57.11,Subaru Makoto Hokuto,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ki{\k23}ki {\k17}da{\k59}shi{\k51}ta{\k46}in {\k45}da {\k42}MY {\k53}SWEET
+Dialogue: 0,0:01:55.80,0:01:58.50,Mao [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k48}(My {\k47}sweet {\k65}heart)
+Dialogue: 0,0:01:56.28,0:01:59.02,Subaru Makoto Hokuto,,0,0,0,fx,{\k90\fad(300,200)}{\k38}gen{\k25}sho{\k50}ku {\k51}no
+Dialogue: 0,0:01:58.08,0:02:03.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}ma{\k13}bu{\k25}shi{\k55}sa {\k48}no {\k45}ma{\k50}ma {\kf120}de
+Dialogue: 0,0:02:02.22,0:02:06.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}i{\k25}ro{\k45}dot{\k46}te {\k49}FIN{\k24}DER {\k69}GIRL
+Dialogue: 0,0:02:05.30,0:02:09.90,Subaru Makoto Hokuto,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Pla{\k24}to{\k29}nic {\k115}Spring, {\k25}end{\k23}less {\k34}Sum{\k73}mer
+Dialogue: 0,0:02:06.49,0:02:10.41,Mao [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k49}(ma{\k48}i{\k44}ni{\kf141}chi)
+Dialogue: 0,0:02:09.08,0:02:13.69,Subaru Makoto Hokuto,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ma{\k21}i{\k33}ni{\k112}chi {\k26}a{\k23}i{\k36}ta{\k70}i
+Dialogue: 0,0:02:10.31,0:02:14.20,Mao [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k50}(a{\k46}i{\k60}ta{\kf123}i)
+Dialogue: 0,0:02:12.95,0:02:17.49,Subaru Makoto Hokuto,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Fall {\k25}in {\k34}Au{\k104}tumn, {\k28}pro{\k24}mise {\k37}Win{\k66}ter
+Dialogue: 0,0:02:14.04,0:02:18.94,Mao [Down],,0,0,0,fx,{\k90\fad(300,200)}{\kf203}(YEAH {\k47}OOH {\kf130}WOO...)
+Dialogue: 0,0:02:17.86,0:02:23.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}FIN{\k51}DER {\k46}FIN{\k26}DER {\kf286}GIRL
