@@ -1,15 +1,3 @@
-# March 2024
-
-Kara count: 18 363
-
-Contributors: 
-
-
-## Added
-
-New songs : 0
-
-
 # February 2024
 
 Kara count: 18 351
