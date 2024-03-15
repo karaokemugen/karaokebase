@@ -1,0 +1,43 @@
+﻿[Script Info]
+Title: Attrapez-les tous
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Kmeuh
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,20,1
+Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.47,0:00:02.39,Sample KM [Up],,0,0,0,karaoke,{\k21}Po{\k22}ké{\k62}mon ! {\k20}A{\k22}ttra{\k22}pez{\k23}-les !
+Comment: 0,0:00:02.48,0:00:04.25,Sample KM [Up],,0,0,0,karaoke,{\k25}C'est {\k28}notre {\k35}his{\k95}toire
+Comment: 0,0:00:04.96,0:00:07.11,Sample KM [Up],,0,0,0,karaoke,{\k24}En{\k18}sem{\k22}ble {\k23}pour {\k41}la {\k38}vic{\k49}toire
+Comment: 0,0:00:07.07,0:00:07.92,Sample KM [Choir],,0,0,0,karaoke,{\k20}Po{\k24}ké{\k43}mon !
+Comment: 0,0:00:08.07,0:00:10.36,Sample KM [Up],,0,0,0,karaoke,{\k87}Rien {\k23}ne {\k18}nous {\k23}a{\k21}rrê{\k19}te{\k38}ra
+Comment: 0,0:00:10.40,0:00:13.70,Sample KM [Up],,0,0,0,karaoke,{\k21}Notre {\k20}a{\k20}mi{\k45}tié {\k20}tri{\k40}om{\k23}phe{\k161}ra
+Comment: 0,0:00:13.73,0:00:15.66,Sample KM [Up],,0,0,0,karaoke,{\k22}Po{\k22}ké{\k61}mon ! {\k20}A{\k20}ttra{\k23}pez{\k25}-les !
+Comment: 0,0:00:15.76,0:00:17.76,Sample KM [Up],,0,0,0,karaoke,{\k22}Même {\k24}à {\k36}notre {\k122}âge
+Comment: 0,0:00:18.25,0:00:20.70,Sample KM [Up],,0,0,0,karaoke,{\k22}Un {\k20}vo{\k21}yage {\k25}d'a{\k37}ppren{\k40}ti{\k80}ssage
+Comment: 0,0:00:20.92,0:00:23.90,Sample KM [Up],,0,0,0,karaoke,{\k24}Ça {\k39}de{\k42}man{\k41}de {\k41}du {\k42}cou{\k69}rage
+Comment: 0,0:00:24.25,0:00:26.29,Sample KM [Up],,0,0,0,karaoke,{\k61}Po{\k61}ké{\k82}mon !
+Comment: 0,0:00:26.29,0:00:28.00,Sample KM [Up],,0,0,0,karaoke,{\k23}A{\k21}ttra{\k23}pez{\k36}-les {\k68}tous !
+Comment: 0,0:00:28.16,0:00:29.63,Sample KM [Up],,0,0,0,karaoke,{\k22}Po{\k21}ké{\k241}mon !
+Dialogue: 0,0:00:00.00,0:00:02.59,Sample KM [Up],,0,0,0,fx,{\k47\fad(100,200)}{\k21}Po{\k22}ké{\k62}mon ! {\k20}A{\k22}ttra{\k22}pez{\k23}-les !
+Dialogue: 0,0:00:01.58,0:00:04.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}C'est {\k28}notre {\k35}his{\k95}toire
+Dialogue: 0,0:00:04.06,0:00:07.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}En{\k18}sem{\k22}ble {\k23}pour {\k41}la {\k38}vic{\k49}toire
+Dialogue: 0,0:00:06.17,0:00:08.12,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Po{\k24}ké{\k43}mon !
+Dialogue: 0,0:00:07.17,0:00:10.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k87}Rien {\k23}ne {\k18}nous {\k23}a{\k21}rrê{\k19}te{\k38}ra
+Dialogue: 0,0:00:09.50,0:00:13.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Notre {\k20}a{\k20}mi{\k45}tié {\k20}tri{\k40}om{\k23}phe{\k161}ra
+Dialogue: 0,0:00:12.83,0:00:15.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Po{\k22}ké{\k61}mon ! {\k20}A{\k20}ttra{\k23}pez{\k25}-les !
+Dialogue: 0,0:00:14.86,0:00:17.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Même {\k24}à {\k36}notre {\k122}âge
+Dialogue: 0,0:00:17.35,0:00:20.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Un {\k20}vo{\k21}yage {\k25}d'a{\k37}ppren{\k40}ti{\k80}ssage
+Dialogue: 0,0:00:20.02,0:00:24.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ça {\k39}de{\k42}man{\k41}de {\k41}du {\k42}cou{\k69}rage
+Dialogue: 0,0:00:23.35,0:00:26.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k61}Po{\k61}ké{\k82}mon !
+Dialogue: 0,0:00:25.39,0:00:28.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}A{\k21}ttra{\k23}pez{\k36}-les {\k68}tous !
+Dialogue: 0,0:00:27.26,0:00:29.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Po{\k21}ké{\k241}mon !
