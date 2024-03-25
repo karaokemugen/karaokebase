@@ -1,0 +1,125 @@
+﻿[Script Info]
+Title: Rakuraku Zenshudô Kûkan
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Editing: Louis Royer
+Synch Point: Louis Royer
+YCbCr Matrix: TV.601
+Original Timing: Louis Royer
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Haruhi (up),Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Nagato (up),Arial,24,&H00FFFFFF,&H0057C573,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mikuru (up),Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Duo (up),Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Trio (up),Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Duo (choir),Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Nagato (choir),Arial,24,&H00FFFFFF,&H0057C573,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Haruhi (up),,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.60,0:00:02.93,Haruhi (up),,0,0,0,karaoke,{\k35}mou {\k36}chot{\k29}to, {\k22}{\k31}a{\k18}so{\k33}bou {\k29}ka
+Comment: 0,0:00:02.97,0:00:03.22,Duo (choir),,0,0,0,karaoke,{\k25}hai!
+Comment: 0,0:00:03.32,0:00:05.63,Mikuru (up),,0,0,0,karaoke,{\k32}jan {\k33}jan {\k28}chi, {\k22}{\k33}ta{\k17}ka{\k33}mat{\k33}te
+Comment: 0,0:00:05.30,0:00:05.95,Duo (choir),,0,0,0,karaoke,{\k33}saa, {\k32}saa!
+Comment: 0,0:00:06.01,0:00:08.20,Nagato (up),,0,0,0,karaoke,{\k30}an{\k34}pai {\k26}kai, {\k32}{\k24}mot{\k17}te{\k32}nai {\k24}pai
+Comment: 0,0:00:08.28,0:00:08.66,Duo (choir),,0,0,0,karaoke,{\k38}nai!
+Comment: 0,0:00:08.63,0:00:10.14,Trio (up),,0,0,0,karaoke,{\k17}yu{\k16}zu{\k19}ri{\k32}at{\k34}tat{\k33}te
+Comment: 0,0:00:10.48,0:00:12.02,Trio (up),,0,0,0,karaoke,{\k17}o{\k17}wa{\k32}ra{\k88}nai
+Comment: 0,0:00:11.45,0:00:13.63,Haruhi (up),,0,0,0,karaoke,{\k18}wa{\k18}ka{\k16}ri {\k34}kit{\k17}ta {\k32}te{\k17}n{\k17}ka{\k16}i {\k33}ja
+Comment: 0,0:00:13.81,0:00:15.27,Haruhi (up),,0,0,0,karaoke,{\k33}ne{\k16}mu{\k18}ta{\k16}ku {\k17}na{\k16}ru {\k17}wa {\k13}to
+Comment: 0,0:00:15.31,0:00:16.72,Trio (up),,0,0,0,karaoke,{\k33}mon{\k33}dai {\k16}ha{\k17}tsu{\k17}ge{\k25}n
+Comment: 0,0:00:16.84,0:00:18.92,Mikuru (up),,0,0,0,karaoke,{\k13}na{\k17}na{\k17}me {\k17}ma{\k16}e {\k16}ni {\k34}to{\k18}bi{\k15}ma{\k17}sho{\k28}u
+Comment: 0,0:00:19.15,0:00:20.72,Mikuru (up),,0,0,0,karaoke,{\k32}tsu{\k18}gi {\k16}wa {\k16}ni{\k18}ge{\k15}ma{\k19}sho{\k23}u
+Comment: 0,0:00:20.81,0:00:21.58,Trio (up),,0,0,0,karaoke,{\k17}do{\k16}ta {\k16}ba{\k28}ta
+Comment: 0,0:00:21.61,0:00:21.84,Duo (choir),,0,0,0,karaoke,{\k23}hai!
+Comment: 0,0:00:22.14,0:00:24.28,Haruhi (up),,0,0,0,karaoke,{\k18}wa{\k16}ka{\k17}chi{\k32}at{\k17}ta {\k33}ke{\k17}n{\k17}ta{\k16}i{\k31}kan
+Comment: 0,0:00:24.48,0:00:25.74,Haruhi (up),,0,0,0,karaoke,{\k32}ji{\k17}ka{\k17}n {\k16}no {\k26}rou{\k18}hi
+Comment: 0,0:00:25.75,0:00:27.31,Trio (up),,0,0,0,karaoke,{\k40}sei{\k33}mei {\k33}wa {\k17}go{\k16}ra{\k17}ku
+Comment: 0,0:00:27.48,0:00:29.41,Mikuru (up),,0,0,0,karaoke,{\k16}i{\k16}ki{\k18}to{\k18}shi {\k15}i{\k18}ke{\k15}ru {\k50}mo{\k27}no
+Comment: 0,0:00:29.64,0:00:31.64,Nagato (up),,0,0,0,karaoke,{\k31}a{\k52}tsu{\k33}mac{\k36}chat{\k48}ta
+Comment: 0,0:00:32.28,0:00:34.54,Haruhi (up),,0,0,0,karaoke,{\k19}ya{\k18}o {\k32}chuu{\k17}ha{\k26}i {\k42}ho{\k72}ra
+Comment: 0,0:00:34.88,0:00:37.25,Nagato (up),,0,0,0,karaoke,{\k43}so{\k34}rot{\k16}te{\k34}ru {\k33}na{\k77}ra
+Comment: 0,0:00:37.65,0:00:39.63,Mikuru (up),,0,0,0,karaoke,{\k17}do{\k16}ra {\k34}an{\k16}ko {\k33}dat{\k33}tat{\k49}te
+Comment: 0,0:00:39.80,0:00:43.27,Haruhi (up),,0,0,0,karaoke,{\k17}o{\k18}to{\k16}shi{\k28}te, {\k5}{\k24}ne{\k10}ra{\k15}u {\k17}wa {\k16}mo{\k17}chi{\k16}ro{\k16}n {\k15}ko{\k19}ku{\k16}shi{\k17}mu{\k34}sou {\k31}yo
+Comment: 0,0:00:43.29,0:00:44.14,Duo (up),,0,0,0,karaoke,{\k19}ja{\k15}ra {\k18}ja{\k33}ra
+Comment: 0,0:00:44.14,0:00:44.62,Nagato (choir),,0,0,0,karaoke,{\k9}te{\k7}ki{\k32}to
+Comment: 0,0:00:44.63,0:00:45.52,Duo (up),,0,0,0,karaoke,{\k18}ja{\k17}ra {\k16}ja{\k38}ra
+Comment: 0,0:00:45.33,0:00:46.00,Nagato (choir),,0,0,0,karaoke,{\k25}ai{\k42}yaa!
+Comment: 0,0:00:45.93,0:00:46.94,Trio (up),,0,0,0,karaoke,{\k38}chou{\k33}sen {\k30}FIGHT
+Comment: 0,0:00:47.15,0:00:48.57,Duo (up),,0,0,0,karaoke,{\k33}mi{\k16}na{\k33}git{\k33}te {\k27}yo
+Comment: 0,0:00:48.64,0:00:49.62,Trio (up),,0,0,0,karaoke,{\k33}tou{\k34}zen {\k31}ne
+Comment: 0,0:00:49.82,0:00:51.28,Duo (up),,0,0,0,karaoke,{\k32}mi{\k17}na{\k34}git{\k33}te{\k30}ru
+Comment: 0,0:00:51.63,0:00:53.98,Haruhi (up),,0,0,0,karaoke,{\k17}wa{\k16}ta{\k19}shi {\k32}wa {\k33}tan{\k33}tan {\k17}to {\k34}tai{\k34}hen
+Comment: 0,0:00:54.31,0:00:56.25,Haruhi (up),,0,0,0,karaoke,{\k17}ta{\k16}ri {\k17}ta{\k32}ri {\k34}ta{\k16}ri{\k34}nai {\k28}yo
+Comment: 0,0:00:56.57,0:00:57.61,Trio (up),,0,0,0,karaoke,{\k41}ship{\k33}pai {\k30}wo
+Comment: 0,0:00:57.81,0:00:59.23,Duo (up),,0,0,0,karaoke,{\k33}no{\k15}ri{\k35}kit{\k33}ta{\k26}ra
+Comment: 0,0:00:59.32,0:01:00.30,Trio (up),,0,0,0,karaoke,{\k32}mou {\k31}ik{\k35}kai
+Comment: 0,0:01:00.48,0:01:01.97,Duo (up),,0,0,0,karaoke,{\k33}ku{\k17}ri{\k16}ka{\k18}e{\k32}su {\k33}na
+Comment: 0,0:01:02.31,0:01:04.60,Haruhi (up),,0,0,0,karaoke,{\k17}wa{\k15}ta{\k18}shi {\k32}to {\k35}sek{\k34}kin{\k16}shi {\k17}to {\k16}i{\k29}te
+Comment: 0,0:01:04.97,0:01:08.46,Haruhi (up),,0,0,0,karaoke,{\k16}i{\k18}ki{\k17}na{\k32}ri {\k35}poit{\k31}te {\k19}no {\k19}ya{\k28}da {\kf134}yo
+Comment: 0,0:01:09.81,0:01:11.43,Trio (up),,0,0,0,karaoke,{\k34}ta{\k30}no{\k33}shi{\k18}ku {\k18}shi{\k29}te
+Comment: 0,0:01:11.44,0:01:12.37,Haruhi (up),,0,0,0,karaoke,{\k19}ka{\k9}ku{\k12}go {\k10}shi{\k13}na{\k30}sai
+Comment: 0,0:01:12.56,0:01:14.92,Haruhi (up),,0,0,0,karaoke,{\k41}saa {\k35}mot{\k26}to, {\k24}{\k31}a{\k18}se{\k31}rou {\k30}yo
+Comment: 0,0:01:14.96,0:01:15.20,Duo (choir),,0,0,0,karaoke,{\k24}hai!
+Comment: 0,0:01:15.30,0:01:17.61,Mikuru (up),,0,0,0,karaoke,{\k32}jan {\k35}jan {\k30}shin, {\k19}{\k18}mo{\k16}ri{\k16}a{\k28}gat{\k37}te
+Comment: 0,0:01:17.28,0:01:17.85,Duo (choir),,0,0,0,karaoke,{\k37}hei, {\k20}hei!
+Comment: 0,0:01:17.97,0:01:20.23,Nagato (up),,0,0,0,karaoke,{\k33}an{\k35}pai {\k26}kai, {\k25}{\k33}mot{\k17}te {\k34}koi {\k23}pai
+Comment: 0,0:01:20.27,0:01:20.63,Duo (choir),,0,0,0,karaoke,{\k36}nai!
+Comment: 0,0:01:20.65,0:01:22.14,Trio (up),,0,0,0,karaoke,{\k16}yu{\k17}zu{\k16}ri{\k33}at{\k34}tat{\k33}te
+Comment: 0,0:01:22.48,0:01:24.98,Trio (up),,0,0,0,karaoke,{\k17}o{\k16}wa{\k33}re{\kf184}nai
+Dialogue: 0,0:00:00.00,0:00:03.13,Haruhi (up),,0,0,0,fx,{\k60\fad(600,200)}{\k35}mou {\k36}chot{\k29}to, {\k22}{\k31}a{\k18}so{\k33}bou {\k29}ka
+Dialogue: 0,0:00:02.07,0:00:03.42,Duo (choir),,0,0,0,fx,{\k90\fad(300,200)}{\k25}hai!
+Dialogue: 0,0:00:02.42,0:00:05.83,Mikuru (up),,0,0,0,fx,{\k90\fad(300,200)}{\k32}jan {\k33}jan {\k28}chi, {\k22}{\k33}ta{\k17}ka{\k33}mat{\k33}te
+Dialogue: 0,0:00:04.40,0:00:06.15,Duo (choir),,0,0,0,fx,{\k90\fad(300,200)}{\k33}saa, {\k32}saa!
+Dialogue: 0,0:00:05.11,0:00:08.40,Nagato (up),,0,0,0,fx,{\k90\fad(300,200)}{\k30}an{\k34}pai {\k26}kai, {\k32}{\k24}mot{\k17}te{\k32}nai {\k24}pai
+Dialogue: 0,0:00:07.38,0:00:08.86,Duo (choir),,0,0,0,fx,{\k90\fad(300,200)}{\k38}nai!
+Dialogue: 0,0:00:07.73,0:00:10.34,Trio (up),,0,0,0,fx,{\k90\fad(300,200)}{\k17}yu{\k16}zu{\k19}ri{\k32}at{\k34}tat{\k33}te
+Dialogue: 0,0:00:09.58,0:00:12.22,Trio (up),,0,0,0,fx,{\k90\fad(300,200)}{\k17}o{\k17}wa{\k32}ra{\k88}nai
+Dialogue: 0,0:00:10.55,0:00:13.83,Haruhi (up),,0,0,0,fx,{\k90\fad(300,200)}{\k18}wa{\k18}ka{\k16}ri {\k34}kit{\k17}ta {\k32}te{\k17}n{\k17}ka{\k16}i {\k33}ja
+Dialogue: 0,0:00:12.91,0:00:15.47,Haruhi (up),,0,0,0,fx,{\k90\fad(300,200)}{\k33}ne{\k16}mu{\k18}ta{\k16}ku {\k17}na{\k16}ru {\k17}wa {\k13}to
+Dialogue: 0,0:00:14.41,0:00:16.92,Trio (up),,0,0,0,fx,{\k90\fad(300,200)}{\k33}mon{\k33}dai {\k16}ha{\k17}tsu{\k17}ge{\k25}n
+Dialogue: 0,0:00:15.94,0:00:19.12,Mikuru (up),,0,0,0,fx,{\k90\fad(300,200)}{\k13}na{\k17}na{\k17}me {\k17}ma{\k16}e {\k16}ni {\k34}to{\k18}bi{\k15}ma{\k17}sho{\k28}u
+Dialogue: 0,0:00:18.25,0:00:20.92,Mikuru (up),,0,0,0,fx,{\k90\fad(300,200)}{\k32}tsu{\k18}gi {\k16}wa {\k16}ni{\k18}ge{\k15}ma{\k19}sho{\k23}u
+Dialogue: 0,0:00:19.91,0:00:21.78,Trio (up),,0,0,0,fx,{\k90\fad(300,200)}{\k17}do{\k16}ta {\k16}ba{\k28}ta
+Dialogue: 0,0:00:20.71,0:00:22.04,Duo (choir),,0,0,0,fx,{\k90\fad(300,200)}{\k23}hai!
+Dialogue: 0,0:00:21.24,0:00:24.48,Haruhi (up),,0,0,0,fx,{\k90\fad(300,200)}{\k18}wa{\k16}ka{\k17}chi{\k32}at{\k17}ta {\k33}ke{\k17}n{\k17}ta{\k16}i{\k31}kan
+Dialogue: 0,0:00:23.58,0:00:25.94,Haruhi (up),,0,0,0,fx,{\k90\fad(300,200)}{\k32}ji{\k17}ka{\k17}n {\k16}no {\k26}rou{\k18}hi
+Dialogue: 0,0:00:24.85,0:00:27.51,Trio (up),,0,0,0,fx,{\k90\fad(300,200)}{\k40}sei{\k33}mei {\k33}wa {\k17}go{\k16}ra{\k17}ku
+Dialogue: 0,0:00:26.58,0:00:29.61,Mikuru (up),,0,0,0,fx,{\k90\fad(300,200)}{\k16}i{\k16}ki{\k18}to{\k18}shi {\k15}i{\k18}ke{\k15}ru {\k50}mo{\k27}no
+Dialogue: 0,0:00:28.74,0:00:31.84,Nagato (up),,0,0,0,fx,{\k90\fad(300,200)}{\k31}a{\k52}tsu{\k33}mac{\k36}chat{\k48}ta
+Dialogue: 0,0:00:31.38,0:00:34.74,Haruhi (up),,0,0,0,fx,{\k90\fad(300,200)}{\k19}ya{\k18}o {\k32}chuu{\k17}ha{\k26}i {\k42}ho{\k72}ra
+Dialogue: 0,0:00:33.98,0:00:37.45,Nagato (up),,0,0,0,fx,{\k90\fad(300,200)}{\k43}so{\k34}rot{\k16}te{\k34}ru {\k33}na{\k77}ra
+Dialogue: 0,0:00:36.75,0:00:39.83,Mikuru (up),,0,0,0,fx,{\k90\fad(300,200)}{\k17}do{\k16}ra {\k34}an{\k16}ko {\k33}dat{\k33}tat{\k49}te
+Dialogue: 0,0:00:38.90,0:00:43.47,Haruhi (up),,0,0,0,fx,{\k90\fad(300,200)}{\k17}o{\k18}to{\k16}shi{\k28}te, {\k5}{\k24}ne{\k10}ra{\k15}u {\k17}wa {\k16}mo{\k17}chi{\k16}ro{\k16}n {\k15}ko{\k19}ku{\k16}shi{\k17}mu{\k34}sou {\k31}yo
+Dialogue: 0,0:00:42.39,0:00:44.34,Duo (up),,0,0,0,fx,{\k90\fad(300,200)}{\k19}ja{\k15}ra {\k18}ja{\k33}ra
+Dialogue: 0,0:00:43.24,0:00:44.82,Nagato (choir),,0,0,0,fx,{\k90\fad(300,200)}{\k9}te{\k7}ki{\k32}to
+Dialogue: 0,0:00:43.73,0:00:45.72,Duo (up),,0,0,0,fx,{\k90\fad(300,200)}{\k18}ja{\k17}ra {\k16}ja{\k38}ra
+Dialogue: 0,0:00:44.43,0:00:46.20,Nagato (choir),,0,0,0,fx,{\k90\fad(300,200)}{\k25}ai{\k42}yaa!
+Dialogue: 0,0:00:45.03,0:00:47.14,Trio (up),,0,0,0,fx,{\k90\fad(300,200)}{\k38}chou{\k33}sen {\k30}FIGHT
+Dialogue: 0,0:00:46.25,0:00:48.77,Duo (up),,0,0,0,fx,{\k90\fad(300,200)}{\k33}mi{\k16}na{\k33}git{\k33}te {\k27}yo
+Dialogue: 0,0:00:47.74,0:00:49.82,Trio (up),,0,0,0,fx,{\k90\fad(300,200)}{\k33}tou{\k34}zen {\k31}ne
+Dialogue: 0,0:00:48.92,0:00:51.48,Duo (up),,0,0,0,fx,{\k90\fad(300,200)}{\k32}mi{\k17}na{\k34}git{\k33}te{\k30}ru
+Dialogue: 0,0:00:50.73,0:00:54.18,Haruhi (up),,0,0,0,fx,{\k90\fad(300,200)}{\k17}wa{\k16}ta{\k19}shi {\k32}wa {\k33}tan{\k33}tan {\k17}to {\k34}tai{\k34}hen
+Dialogue: 0,0:00:53.41,0:00:56.45,Haruhi (up),,0,0,0,fx,{\k90\fad(300,200)}{\k17}ta{\k16}ri {\k17}ta{\k32}ri {\k34}ta{\k16}ri{\k34}nai {\k28}yo
+Dialogue: 0,0:00:55.67,0:00:57.81,Trio (up),,0,0,0,fx,{\k90\fad(300,200)}{\k41}ship{\k33}pai {\k30}wo
+Dialogue: 0,0:00:56.91,0:00:59.43,Duo (up),,0,0,0,fx,{\k90\fad(300,200)}{\k33}no{\k15}ri{\k35}kit{\k33}ta{\k26}ra
+Dialogue: 0,0:00:58.42,0:01:00.50,Trio (up),,0,0,0,fx,{\k90\fad(300,200)}{\k32}mou {\k31}ik{\k35}kai
+Dialogue: 0,0:00:59.58,0:01:02.17,Duo (up),,0,0,0,fx,{\k90\fad(300,200)}{\k33}ku{\k17}ri{\k16}ka{\k18}e{\k32}su {\k33}na
+Dialogue: 0,0:01:01.41,0:01:04.80,Haruhi (up),,0,0,0,fx,{\k90\fad(300,200)}{\k17}wa{\k15}ta{\k18}shi {\k32}to {\k35}sek{\k34}kin{\k16}shi {\k17}to {\k16}i{\k29}te
+Dialogue: 0,0:01:04.07,0:01:08.66,Haruhi (up),,0,0,0,fx,{\k90\fad(300,200)}{\k16}i{\k18}ki{\k17}na{\k32}ri {\k35}poit{\k31}te {\k19}no {\k19}ya{\k28}da {\kf134}yo
+Dialogue: 0,0:01:08.91,0:01:11.63,Trio (up),,0,0,0,fx,{\k90\fad(300,200)}{\k34}ta{\k30}no{\k33}shi{\k18}ku {\k18}shi{\k29}te
+Dialogue: 0,0:01:10.54,0:01:12.57,Haruhi (up),,0,0,0,fx,{\k90\fad(300,200)}{\k19}ka{\k9}ku{\k12}go {\k10}shi{\k13}na{\k30}sai
+Dialogue: 0,0:01:11.66,0:01:15.12,Haruhi (up),,0,0,0,fx,{\k90\fad(300,200)}{\k41}saa {\k35}mot{\k26}to, {\k24}{\k31}a{\k18}se{\k31}rou {\k30}yo
+Dialogue: 0,0:01:14.06,0:01:15.40,Duo (choir),,0,0,0,fx,{\k90\fad(300,200)}{\k24}hai!
+Dialogue: 0,0:01:14.40,0:01:17.81,Mikuru (up),,0,0,0,fx,{\k90\fad(300,200)}{\k32}jan {\k35}jan {\k30}shin, {\k19}{\k18}mo{\k16}ri{\k16}a{\k28}gat{\k37}te
+Dialogue: 0,0:01:16.38,0:01:18.05,Duo (choir),,0,0,0,fx,{\k90\fad(300,200)}{\k37}hei, {\k20}hei!
+Dialogue: 0,0:01:17.07,0:01:20.43,Nagato (up),,0,0,0,fx,{\k90\fad(300,200)}{\k33}an{\k35}pai {\k26}kai, {\k25}{\k33}mot{\k17}te {\k34}koi {\k23}pai
+Dialogue: 0,0:01:19.37,0:01:20.83,Duo (choir),,0,0,0,fx,{\k90\fad(300,200)}{\k36}nai!
+Dialogue: 0,0:01:19.75,0:01:22.34,Trio (up),,0,0,0,fx,{\k90\fad(300,200)}{\k16}yu{\k17}zu{\k16}ri{\k33}at{\k34}tat{\k33}te
+Dialogue: 0,0:01:21.58,0:01:25.18,Trio (up),,0,0,0,fx,{\k90\fad(300,200)}{\k17}o{\k16}wa{\k33}re{\kf184}nai
