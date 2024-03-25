@@ -1,0 +1,933 @@
+﻿[Script Info]
+Title: Co~nsultant!
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 0
+PlayResY: 0
+YCbCr Matrix: None
+Original Timing: Lasagna
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: hora-furigana,Arial,15,&H0000AAF1,&H00F0F0F8,&H00401B0F,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,9,2,20,100,1
+Style: itta toori-furigana,Arial,15,&H0000AAF1,&H00F0F0F8,&H00401B0F,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,7,20,2,40,1
+Style: itta toori,Arial,30,&H0000AAF1,&H00F0F0F8,&H00401B0F,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,20,2,40,1
+Style: hora,Arial,30,&H0000AAF1,&H00F0F0F8,&H00401B0F,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,2,20,100,1
+Style: I told you so L,Arial,30,&H0000AAF1,&H00F0F0F8,&H00401B0F,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,20,2,40,1
+Style: I told you so R,Arial,30,&H0000AAF1,&H00F0F0F8,&H00401B0F,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,2,20,100,1
+Style: foxy!,Arial,24,&H00474FEA,&H00D4D4D4,&H00401B0F,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,0,0,20,1
+Style: CONSULTANT,Arial,20,&H19E7E7E7,&H196E6E75,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,0,0,20,1
+Style: surprise attack,Arial,26,&H00E100F1,&H00000000,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,1.5,0,2,0,0,28,1
+Style: surprise attack-furigana,Arial,16,&H00E100F1,&H00000000,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,0.75,0,2,0,0,28,1
+
+[Fonts]
+fontname: Bahnschrift.ttf
+!!%!!!!:!1!!"!#12&.*2]F-NUI!"9EQ!!!BB%>%25;XXK@$!!&Z<!!!%=*(5%^4NT5*_!!"CT!!!+Z=
+2V.61D>1A:9!!DG-!!!*<%B716,F+?*U!!*#_!!!"_J.6E&3BYNSJQ!#3O1!!!"*4V-P-EUJ5R!!!!)9
+!!!!9&.5164]%G9I!!*,-!!!!*2B>G&S)!=KM!!#3]1!!!!I9WVB=$*\#FM!!"&M!!!)Y'.W>#!ZF36A
+!!!M(!!!!/*G='>N<]3CF!!!'EQ!!!^V:H:B=C7K8P]!!EPM!!!!\'>B=X!!#1!<!!&Z9!!!!!RH<(FG
+L1O481!!.)1!!4D5:X:B=KN<UR9!!ET9!!-\H'BF971064Z[!!!"H!!!!$:I;'6B#&]+\!!!!>1!!!!E
+;'VU?#RU&:]!!!*Y!!!/]GRP9W&Y\];I!!!N!!!!"Y2N98BQ"Q51K!!!!@A!!!!A<76U94I(,&M!"9BU
+!!!!O7ZB<75EAOSE!!&N7!!!#_6Q<X.U`Z]!-A!"?5!!!!!A=(*F='>:4"M!!#H%!!!#61!"!!!!!A^=
+%3_W8&]0005!#QA!!!!!!.:_RJ!!!!!!W5Y=W0?-`>9)X!DE!!!!"Q!#!!!!!!!!!!%!!!@U`FI!!!F+
+^YT`DQD=!!%!!!!!!!!!!!!!!!!!!!/Y!!%!!!0"!+!!#1"A!!A!!A!1!#]!GA!!!I50>1!$!!)!"!32
+!:!!"1!)"4-%T!!!!*E&-Q4-!!!#T!"G!GY!!!),"1)%!A1#!A/A!!,(!!!!!A!!!!!!!!!!46-A)!$!
+!#!C.A:;`FI"GA@U!;9A!!'@!!!!!!1/";Y!!!!A!!5&P!#U!C9!!!5O!#A&,A!I"3Y!+!5O!#A&,A!I
+"3Y!+!5O!#A&,A!I"3Y!+!5O!#A&,A!I"^!!!!5K!,1&W``M"0-!FA4T!*9%]Q#7"0-!FA4T!*9&1!#U
+"7]!4A6P!%Y&1!#U"7]!4A8R`_Q%S!#U"-A!N!4)!,1%S!#U"-A!N!4)!,1%S!#U"-A!N!4)!,1%S!#U
+"'-!D!4)!'Y%71";"(E!N!3'!"1&,!#7"3Q!FA5M!*9&,!#7"7Y!N!9/!'Y#.!#U!D1!N!)U`^U#.0`H
+!D1!N!)U!+]#.0`F!D4`L1)U!$Q%#Q!?"3)!N!5C!,1&)A#U"*9!N!37!,1%FA#U"*9!N!4Q!(A'0!#U
+":I!N!7;!,1&GA#U":I!N!7;!,1&GA#U"3I!FA5K!*9&+A#7"3I!FA5K!*9&+A#7"6)!FA5K!*9&+A#7
+"0-!<A5K!*9&+A#7#!5!FA4\!,1%_Q#U"5)!FA5X!,1&.Q#U"4=!N!5X!,1%\1";"/U!7A4N!&I%\1";
+"/U!7A4N!&I&!1#A!^L`\!0;`_Q$WP`M!^L`\!5_!+!&0A#A"4Y!I!5_!+!&0A#A"4Y!I!5_!+!&T!#A
+"4Y!I!5_!+!&0A#A"4Y!I!3S!"Y%MA!?"4Y!I!<'!"Y%CA!5"!<`YA1'`_)%"P`C"#,`YA2;!(A%7A"Y
+"&I!?!2;!(A&+A#7"%)!<A2#!'Y%1A"O"%)!<A2#!'Y%1A"O"%)!<A2#!'Y%1A"O"%)!<A2#!'Y'L!"O
+"&I!I!2;!+!$`!##!`Q!AA0]!))$`!##!`Q!AA21!))%4A##"3)!AA21!))%81##"&U!AA2+!))%3A##
+"%I!AA2+!))%3A##"%I!AA2+!))%3A##"%I!AA2+!))$QQ"Y"%I!?!2+!(A#C1"1"&!!AA21!))%5!##
+"&!!AA2Y!+!%DQ!S!A)!I!)#!+!#!A#8!A,`T!)#`]Y#!A#A!A,`P1)#`ZE#!A!Z!C5!&!1\!+!%/Q#A
+"$M!I!*2!+!#51#A!P%!I!*2!+!#51!?"NI!I!2Y!+!%?!#A"(A!I!2Y!+!%?!#A"(A!I!2=!))%8!##
+"&Q!AA2=!))%8!##"&Q!AA2E!))%8!##"&Q!AA0]!%%%8!##"&Q!AA<-!))%7A#A"&I!I!21!))$;A#A
+!WI!I!.K!+!$;A#A"#9!3Q1G!%M%*A","#9!3Q1G!%M%*A","(%!I!+=!&!$&!"1!JQ!5!+=!&!%=Q#A
+"(-!I!2T!+!%=Q#A"(-!I!2T!+!%=Q#A"09!I!2T!+!%=Q#A"(-!I!2T!+!%!!!S"D!!2A1D!$Q$X1!S
+!^U!-A0>!$)%'Q!S!`5!AA0V!))$^1##!`5!AA2=!))#Q1"E!LQ!:!5O!#A&'1#U"3I!N!0X!,1$^Q#U
+!`=!N!85!$Q%S!#U"-A!N!4)!,1(KA!5",A!<A7;!,1&GA#U":I!N!7Z!,1&)A#U"3)!N!7^!(A'0!#U
+"7Y!N!5K!*9&<A#U"0M!N!4T!*9$WP`M"/)!0!4C!$Q'6A";")I!&!5#!)Q&TA#U"WA!N!@'!,1&<A#U
+"21!N!7D!!I'LQ#U##5!?!AF!,1%\1";"0-!FA4T!'Y#.!#U!D4`ZQ1,!"Y''P`M"UI!N!4\!&]&TP`M
+#&A!FA61!!I'GQ#U"3Y!+!<K!,1&Y!!5"]1!N!3X!'Y&NA#A"3I!FA4)!"Y%S!!?#-%!FA3V!*9&1A#U
+"`I!&!3Y!'Y&8A#U"3)!N!6I!"Y&```C";I!N!;[!,1)=A#U"=U!N!8*!*9%]Q#7!^L`\!1'`_)%"P`C
+"-9!&!9S`_Q&9!#-"1)!D!6)!,1&^Q!]"@=!0!)U!,1(KA!5"4!!N!8=!(A&<A#U"9U!N!5#!)Q'7Q#U
+"3Y!+!5O!#A(U!!!"-A!N!5"!+!&!1#A"[I!&!3Y!'Y%O!"O":I!N!7;!,1&+A#7"3I!FA5K!*9%]Q"O
+"/)!0!4C!$Q%YA!]"1)!D!0X!,1'LQ#U",5!FA3=!"1%CA!5"3]!FA61!$Q%_Q#U"%)!<A2[!+!%5Q#A
+!WM!I!.L!+!$;Q#A"1I!7A2+!))%3A##"%I!AA7Y!!!$TA";"*9!I!37!+!%FA#A",Y!I!1?!+!%(A#A
+"(]!7A51!+!%H!#A"&Q!AA3=!+!%7A#A!`Q!AA1#!'Y$X1!S!^U!-A7\!))%)Q!]")!!FA4I!+!'+!#A
+"J)!I!2_!+!%0!#A"/=!5!7;!+!'=Q";"JM!I!1G!%M$`!##!`Q!11)#!+!#!P`/!C5!&!3-`_Q'.A#A
+"%Q!7A3-`_Q&[A!I"&8`\!87!+!%0A!I"A1!I!3U!!!'B!#A!Z]!7A7M!+!%8!##""%!0!12!$E(`1##
+!]5!0!2Q!+!'#!!!![I!7A3#!+!%(A#A"%<`\!59!&!%H!#A"<]!I!<W!+!%H!#A"9U!FA0]!))%!A"O
+"!!!-A1!!$)%)Q!]"6-!<A3!!*9%A!#7"(A!I!59!$)&'!!S!D1!N!7Y!!!%A!#A"+=!7A3=!+!%R!#A
+")!!FA5Y!+!%1A"O"%)!<A;M!'Y%3A##"%I!?!2+!(A&O!!!!]Y!7A/-!!I%FA#A"*9!I!2=!))%8!##
+"&Q!AA0]!%%$X1!S!^U!-A0>!$)%A!#7!WM!I!7;!+!$R1!]""=!0!1D!$Q$`!##"&(`\!2;!+!$_@`%
+"/M!8Q61!#A%W1"O"11!I!@1!,1&>!#7"!M!(A5O!#A&+A#U!`=!N!5O!#A%S!#U"&I!?!6O!,1&+A#7
+!D1!N!5C!,1&,A!I"DQ!N!7;!,1&7A#K"3I!FA6O!,1%_Q#U![A!0!0;`_Q%"P`C"F9!7A3+!"1&NA#A
+"3I!FA6]!#A&G0`9"ED`W!,[`^A&\P`C"=9!+!9W!#A#.0`H"!<`YA3%!,1%?A!]":I!N!5K!*9%L!#7
+"(E!N!5?!#A%?!!]"3)!N!1S`_Q&NP`C"$,`\!5K!*9%_Q#U"0-!FA9]!,1%]Q"O"0-!FA4T!'Y$MA"'
+"0I!AA2F!&!%EA##"&I!I!1F!$)%8!##!]-!?!11!))%?!#A"&Q!AA*3!+!%/Q#A"$1!+!4$!+!%%1!]
+"%A!D!2=!))&;A"O"&I!I!0]!))%Q!##"#!!<A2^!$Q&6A"T"!M!(A7M!+!&U!##!F)!I!*3`]E#5P_$
+"(U!0!2^!$Q%@1!]"&Q!AA81!))%EA##!]-!?!2Y!+!#^!#A!^I!+!37!+!$`!""!`Q!AA0]!%%%8!##
+"#5!AA0N!,1%OA"'"*9!0!63!+!%=!#7"-A!0!67!(-'`!"O"/1!7A2;!+!$`!##!C5!&!0]!))%7A#A
+"2!!I!2;!$)$`A"J"*)!:!:?!+!%?A#A!7%!0!:U!+!%;A#7!KE!7A1C!'Y%/Q";")U!AA2<!*9%'Q"Y
+"!=!<A3!!)=%'Q"Y!K)!:!(R!'1#A!"E!L!!:!+=!'1&<1"E"8E!:!7B!'1$=1!U!Q@`KQ'S!'Y#.Q"O
+!>!!@1(1!(U%KA"^!CI!KA)K!+I%`A";!>!!@1.U!#A$4!";!Q=!AA&M!&!"U!"^!Q@`^A.]!"Y#YA#-
+!O)!+!*;!,Y#7A!?!L=!N!+X!"1'W1#A"(9!I!<:!+!$VA#A!^9!I!1&!#A%"1!?!HI!+!*[!"Y#DA"1
+!IY!5!+/!&!"<!",!7Q!3Q(1!(U"U!"^!>!!@1)G!!!&TA"E"0-!FA05!))%]Q#7"0-!FA3;!'1%H1";
+"'Y!AAF+!$)&#A"O"DI!:!+*!&!%L1!]"1``R!5M!*9%\1";"8)!0!7\!+!%P!";"1)!?!3;!'1&]A##
+"NI!I!8Y!&5&PA!5"2)!?!53!(A&7!"Y#4]!N!4S!+!&IA#A".E!-A3]!&I$WP`M!^L`\!<O!"1%"P`C
+"0-!FA05!))%]Q#7"*U!7A5M!*9&_!"6"2)!?!<O!"1%/A#-"!=!D!0=!)Q$L!#-!W]!D!.F!%9%/A#-
+""Q!D!1O!)Q%QQ#A"8]!:!?G!'1((Q#7"4=!AA7%!&!%H!"E":9!<A77!'Y&4@`W!OI!5!)U!,1#.!#U
+!P)!:!,S!'1(]A#U"!9!?!0]!%%"<!",!>!!@15!!&!!!0VD!!$`+A!!`DM!!0Y_!!$^!!!!`SI!!0W#
+!!$^:!!!`6Y!!0XE!!$^.A!!`01!!0Y]!!$_'!!!`Q)!!0]K!!$_21!!`M-!!0UQ!!$^;!!!`SI!!0[Y
+!!$_3A!!`-Y!!0W#!!$^C!!!`11!!0XE!!$^$A!!`01!!0Z'!!$_'!!!`FE!!0Z9!!$^-!&M!%M"<!",
+!XI!5!*<!&5$"A"1!SA!7A*'!&!$+!";!RI!61(Y!*9#7Q"6!TU!*!.[!&!"7Q!5!V9!5!!!`H!"]A"6
+!@)!61/Q!&5!!0T6!!$^.A!!`.1!!0T6!!$^.A!!`6Y!!0U%!!$XD!!!^`1!!0]#!!$`!A5K!*9%8!##
+#&A!FA8K!#A)7!#7"?I!+!(1!(U&V!!]"3Y!+!:7!&I%=!#7"#9!:!21!))&O!!!!]Y!7A2T!+!%=Q#A
+"(-!I!1?!+!%0A!I"(A!I!<;!+!%[!#A"CA!I!;3!+!%0!#A"/=!5!9W!+!%?A#A"3Y!+!5O!#A&,A!I
+"3Y!+!5O!#A&,A!I"3Y!+!5O!#A&,A!I"3Y!+!5O!#A%S!#U"-A!N!4)!,1%S!#U"-A!N!4)!,1%S!#U
+!D1!@A)U`Z=&+A#7"3I!FA5K!*9&+A#7"3I!FA5K!*9&5A#7"6)!FA63!*9&5A#7"6)!FA5_!+!&T!#A
+"=Q!I!8-!+!&T!#A"=Q!I!5_!+!%"P`C"!<`YA1'`_)%"P`C"%)!<A2#!'Y%1A"O"%)!<A2#!'Y%1A"O
+"%)!<A2#!'Y%1A"O"%)!<A2#!'Y%3A##"%I!AA2+!))%3A##"%I!AA2+!))#D0`U"%I!AA/-!!I%!!!S
+!A)!9!)#`[M%8!##"&Q!AA2=!))%8!##"&Q!AA2=!))%:!##"'1!AA2E!))%:!##"'1!AA2T!+!%^A#A
+"09!I!4W!+!%^A#A"09!I!2T!+!%8!##!^U!-A0>!$)$X1!S"5)!FA<'!"Y%5!##"D!!2A5K!,1%1A#7
+!.!!<A";!))!FA"Y!'Y!BQ"Y!!!!!!!#!!!!!Q!!!"1!!Q!"!!!!&!!%#-Q!!!#G!)!!"A!G!#]!/1"_
+!1="%Q%<!3-"+Q%R!4="0A&)!5U"7Q&F!8-"@A'"!99"CA'3!:1"G1'B!<!"N!'X!>U#'Q*5!F=#71*<
+!G-#AQ+,!J)#P!,(!ME#W1,>!Q1$$!-<!S-$+!-V!U5$>Q.`!YI$D!/1![%$K1/Q!]E%'A1D"$I%1Q4`
+"2U&*2ZD(P9?_3!6)"IA(C!C)#9A-#![)(!A>##`)29B)C%T)D<``Q!!!#!!-!![!+!"#A%7!2Y"*A%O
+!49"/1&"!5I"5!&?!7A"?!'"!99"C1'/!:1"G!'A!;]"MA'X!>U#'!*4!F9#71*<!G-#AQ+,!J)#OQ,'
+!ME#W!,<!Q!$"A-<!S-$*A-V!U5$=!.[!Y1$D!//!Z%$IQ/K!\%$SA1<"#1%/Q2%"2I&*"ZC(K!?_#!4
+)"AA(#!A)#9A-#!Z)(!A>##A)29B)C%T)D<``Q!!!E9!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!$_DP\-!!!!!0\B!!!!!!!!!!$_=0\*!!!!!!!!`E\_3A%W!2-")Q%'!!!!!!":!!!!!!!!!!$`\``I
+`_<`WP`K!!!!!!!!`IU!!0ZM`GM!!0[$!!$]_!!!`6)!!!!!!!!!!!!!!!!!!/+5!!!!!/*IYLLC<O)1
+YB!!!/(BY=`B1O%/!!%!JA!!!-)"3A)9!CI#.!)_!EA#4A*1!FI#;!*O!I1#EA+I!!!!!!+Q!L)!!!+Y
+!LI#P!+_!!!!!!+_!M1#RA!!!!!!!!!!!!!!!!+]!LY!!!+_!M!#R!,-!!!!!!!!!!!!!!,/!NQ#ZA!!
+!P!!!!!!!P!!!!,[!!!$G!!!!])&/!5_"5!&1A8O"@!!!!8S"@9!!!!!!!!!!!!!"@!!!!!!!!!!!!!!
+!!%#DQ+6!J%#O!,J!OQ#FA+?!J]#C!,@!IU#IQ+3!JA#D!+8!O1#YA,D!J-#[Q!#!!Y!%!!6!"M!+!!K
+!#Y!-!!Z!$I!01"#!%-!31"7!&A!71">!'1!;!"U!(=!?!"Z!(U#H!+*!JU#_!+:!SI!AA#/!*!!F1#<
+!+A!K1#N!+]!O!#Z!,Q!Q1$#!-A!V1$8!.A!X!$D!/=!]Q$U!05!^A$[!JI#]Q+<!O9#M1+1!L1#UA+X
+!N9#^!,O!SA#\Q$`!K5#ZQ+E!P!$,!,S!O5#AA+$!S-#[!,N!II$*A+"!1!#JA+'!I5#BQ+5!!A!!Q!&
+!!Q!"A!,!!U!%Q!C!"Q!(A!@!$9!-1!S!$-!&Q")!%Y!3A",!&1!4!,A!&-!<A"J!'M!<!"[!&=!YA#)
+!)-!B1#-!)9!CQ#.!*-!IA#=!*Y!HQ#V!,%!MA#T!*9!RQ$.!-E!SA$4!-M#Y1$3!/U![!$K!/M!^Q$7
+!0A!#1#*!!1!B!!+!)I!%1#2!"1!F!!3!*)!'!#8!"E!G!!D!+-!)!#A!#1!J!!>!*U!+Q#K!#U!L!!M
+!+M!,Q#O!WY$GQ!X!,9!/!#X!$1!M!!\!,I!0A#^!%!!PQ!`!,Y!11$!!%1!QQ"'!-5!21$%!%=!RA"2
+!.!!5!$0!&5!V!";!.E!8!$<!&M!WA"?!.U!9!$@!&]!XA"G!/5!:1$E!Y!$L1"R!0!!;A$J!(-!]A"Q
+!/]!=A$R!(M!@A$\!)!!`1"`!0Q!&A!;!#9!9Q!F!#E#P1!]!,M!4Q$/!']!\A"W!(Q!_1"B!/!!:Q$G
+!)]!U1#;!*E$)1-A!S=$*1-E!SE$,1-O!SM#`Q-!!Q-$"Q-)!Q5#`A,^!QE$"A-"!Q1#(A*9!B]#71,[
+!PM#)!*;!H1#7Q*=!FU#M!(]!T!$-A)6!K]#&A)8!BA#'A)<!E]#(!)>!F5#6A*8!EU#5A*/!F%#5Q*1
+!F1#*A*E!G5#*Q)I!CE#:A*H!G-#)1*?!C)#8Q)D!G!#*!*B!C5#9A([!H)"^A)S!@E#=1(Y!H!"^Q)T
+!@M#=Q(V!D%#;!*J!GI#;Q)K!GQ#_1)L!GU#,!)N!GY#<Q)O!C]#-!%*!1I"-A%&!3I"+1%M!3U",A%H
+!3A",Q%3!1]"(!%D!1%"!A%$!11""Q%)!1M"$!%.!1Y"%1%>!2Y")!%@!3%")A%F!39"*!%L!4!"-1&\
+!8Q"@1&_!9%"AA'&!99"BQ')!9M"FQ'9!:I"G1'<!:Q"HQ'A!:Y"J1'K!;M"AQ'%!;Q"@Q'E!;-"JA'H
+!;A"I1'C!;E"D!'*!:9"H1%T!;U".!'O!45"LQ%W!<!".Q'R!4A"MA%Z!<-"/A'U!4M"N1%]!<9"01'X
+!4Y"O!%`!<E$0A-`!U!$11.#!U-"?!(S!PQ$-Q-U!T5$.A-X!TI$/Q%1!9I"?1(T!8I"^!%'!9!"1!'[
+!5%"OQ&#!<Q"1Q'^!51"PA&&!<]"2A(!!5="Q1&)!=)"31($!5I"R!&-!=9"41((!5Y"S!&0!=E"5!(+
+!6%"SQ&3!=Q"5Q(.!61"TA&6!=]"6A(1!6="U1&9!6E"UQ&;!>1"7Q(6!6Q"VA&>!>="8A(9!6]"W1(3
+!7!"WA&B!>M"9A(=!7-"X1&E!>Y":1(@!79"Y!&H!?%";!(C!7E"YQ&K!?1";Q(F!7Q"ZA&N!?="<A(I
+!7]"[1&Q!?I"=1(L!8)"\!&T!?U">!(O!85"\Q&W!@!">Q(R!\)$N!/T!\5"3Q(&!')!Y1!(!)=$:1/0
+!W!$CA.C!YQ$9Q/.!W1$DA.B!YM$7Q/&!VU$BQ.?!YA$8Q/*!VQ$BA!B!+%$;Q/6!WQ$FQ.G!Z!$;!/3
+!WE$EQ.K!Z1$:Q/2!WU$GA!V!,1!41$-!X1$I1.P!ZQ$=1/?!X)$HQ.T![!$=!/>!X5$IA.X![1$?!/F
+!XE$JA.W![-!<1$M!XI$JQ.\![A$@1/K!XY$KQ.`![Q$@!/J!Y)$M!/"![]$AQ/%!\%#I1+A!K)#KA+L
+!KE#^1,W!IM#P!+V!L9#PA,%!MA#S1,,!MY#V1,1!LE#OQ,#!N1#OA+`!MQ#Q!+S!M%#MQ,'!N%#UQ,0
+!M5#SA,(!MU#QQ/W1%K:G*?7BY;&B)/#A9"`@HV]?XJZ?(>W>82T=H&Q<WZN<'NK;7BH:G6E9W*B9&^?
+86R<7FF96V:66&.25%^/45R,3EF)2U9I(R!+#3Q"M1M+1S.$:1IN,!#R#AN$)U-,,3Q"M!:$M!>$:1IN
+,,"0+S#Q1&&9)5N37%6%'S%B72MD)<"!M!1F2<!%*56B:)JD5FB&2"MB)6F:,3Q!M!>$M!:$#SUM3V-D
+3V&;7#"&CG"%'S%B73UM3V29)%7+9%1<)3&:,3R,5S.,56J9/"MB)6EN,%N57$A<)3&:,3SQ!E.57,"'
++RMB)3%B73UMM!*$6&CQ2SM<)3%B73UMM!*$6&CQ3#M<)3%B)6EN,,!#1V29M%EL'S%B)6EN,#-AM!"1
+CIJEM1!$*629M%!<M1%$*629M!6$CVGQ4SN:)\"C+S-B)VBF73UMM1A!$#&59%-N,,%-!!QB6'"$,3Q"
+)%?Q!E-AO"!!9LA1!'.8)\A"!'+Y%!"D6VJ9M#"A:FF),3SR!!)FM!)FM!)F5\A!.3.YM!)FM!)F9,!A
+9S!AM!9F)W*17)IBM!&A)RMA),!'*3.C5FAD)<!"92O+)3-B)&F:O0`"('#Q)'-D)3UMM1)!1L%D!9B2
+M5!"C&.;7,E1!!!AC&29MA)"!E.A1FGR*!')56CZ)!!!1)B57,)#!A*$9%+R*!')6&CS!C!#1W"#!%M"
+3V*9MA))!E.A1FE<O5!!!)#)6&CS!A1#1W"#7<F!!!#!9\A"!)B57,)##!*$9%*:O5!!!1"DO!)!C&29
+MA)1!E.A1FGR*A')56CZ1!!#!'/Y"!#)6&CS!E!#1W"#7<F!!!1!9\A)!)B57,)#A!*$9%*:M3A"C&&9
+O5!!#!"DO"!!C&29OA!#!1!!!E.A1FF:76F:76GR!!*$6&B!#A6!#%!*1!Q#$1)<M1%#1V29MA6!#,I"
+!!!*!1#T$!%.!2ORA!*$5FCS"5!)O!'!M1F!'\E"!!!#1V*9MA6!#,I"A!!*!5!<O1'!!!*$5FCS"5!)
+O!)!M1F!'\)&1!C[!1!!#1%!76F:O5!!!)#)6<F!!!)!9\A%!)B67FCT$!!.!2OT$!!.!6F:75*#1E*#
+,3R&M1*/+S/Q4SMAM%"27#&,56CQ!C6&M1&/+W":'S.,56CQ!S6&)'3+9\"!5VCR!EYL9"MB72MB76F%
+,3QAM!"1)&AD:2MD7<%5&)JQ2<"0+S/R919G9#O+7,!&1YN:)VBF73-1/CUMM!-F37-D2G#Q4SMDM!1F
+M!1F3<!$*7.7)'#Q9G!LM!-F)""'CE:AM#"D94IN,,!!&L%#!S7R!11F!4Y!0L%"!A9-M!ID:5+Q#S.#
+M1)$*<%""#5"0Q!`M1%#"ASQ"C.F1L!()U+Q!2;R!!*$6&B&)U5A''G+9S.C)##Q1&"9:RNG77'Q)'/Q
+1#.BM!1D1BOR"!"#)3&:'!%N,#"&M1"/+U1N,%N2M5"0+V"<7#"&M1&/+S#+CE1AM5!%*G&D9<%"4CN%
+)2MD)9J&M1&/+S#+)U2%73UM3V'R1%]L5&N923#+M%"B9W!<)S&&7<%"4CN%,3QD23#+23.B)'3Q1&'Q
+"#5AM!"4)\"!56J;M5"0+V2;7)I-:#.E)V.9M5"!CG%A9W%<)'.:'YJ:9\%#4CNA2#UM!3UM!#UM"<%,
+#E-D1W5+,3SR#AN$)U-,!CUMM!)F9W;Q!C7Y)!"C9#.C,3SQ!C6DM#"A:L!#*<AA!'*A)W)N,,!#*7.H
+M!)FO#!!9G!D9CUMM!)F9W;Q)'#Q!C7Y)!"C9#.C,3QD3L%#4CMN,#.+M1&/+SUM)YJ+)U6EM!)F:,!#
+*7&EM!.$5FAB)'2:M1*/+S/Q!&"9:6EN,#/+3C.&:,!#*73Q!C6B:,!$1V*9)3"E7<%"4CMDM!"17'6:
+,3QAM!-F3L%#4CO+%$MN,##Q!S6+M1&/+YI1/SUMM!-FM!-FCL"H+YI1/SUMM!-FM!-FCL"I+YI1/SUM
+M!-F2L!$*5:AM!1F,L!%*<!%*<!%*C#Q!&"9)<"K'\"M73OQ!S6'M!-F2G"BM)"C))IA%#-[)S!1)TIN
+,,!$*5?Q!S6(9,!&*5?QA'.BM!)FM!9F37-DM!5F3L#!9S"99BMB7<!%*E:ACE;+2G#Q)'.B,3SQ"#;Q
+"#7Q"#7Q"#;Q<CMACC!1)TID)"!D/CUM)S#Q!629)<!#*<%#4COQA&!A9&EA9'!AM!&27#%B'S#Q"6&9
+)3"G9<"!)W'R!!-F5,!$*<!$*6";7##Q!S6BCF.9)<!!72MB72OQ"V29)':B:3-B'S%BM!":76GR!EYL
+,3SQ!C7Q"#6+M!"47,!!'YK+)YKQ!6GQ"#6')':B),!&*L!'*EGQ"3;Q"3;Q=#MD977Q)'!A:G'Q)'&F
+,3SQ!C6'))IAM!"17#'R!EYL'U5D)6FB:<!#*2!\,3SQ"#9AO!)!9C#Y!A"DCC.B),">9#OQ"352CB++
+)$G+7,I!82!!!!1G9V:A+S-B)"!A2C#R!EYL)W%<)S%ACC!13<%#4CN:/SUMOA">%!!!#36D6G!LM!5F
+M!5FM!5GM'ULM6U(*7!LM!5FM!5FM!5FM!5FM']LOA">%!!!##:D6G!L),!!5FCQ5#OQ"37Q"37Q"S7Q
+"S7Q"37Q=3OQ!B=YM!"3M!)FM!&37FCQ"#7Q"C6*M!-FM!5F37!AM%"37#%<M!"37##Q!F29M!1FM!1F
+M!=FM!=F3<!#&TA<M!1FM!1FM!1FM!9F3<!#&TB:76F:73%B)3%B,3S[!&U1!!!,*7.79#OQ"S7Q"S7Q
+"C7Q"C7Q$#7Q$#7Q#37Q##7Q<COQ""=YM!=FM!=FM!=GM'ULM!1FM!1FM!1GM'ULM&!LM!9FM!9FM!-F
+M(%LM!5FM!5FM!-FM!)8/##Q"C7Q"C7Q"37Q=3NAM!9FM!9FM!1F:<!#&TCQ!C7Q!C6A),"!5VABM%"B
+)\"!93-<O0`!5&CQ1'!DM%"A)VF:M!AFM!AFM!1GM!)8/,!&*<!&*9KQ!B=Y),!!5FCQ"C7Q##6*M!-F
+M!5F37!AM%"37#%<M!"37,!'*<!'*<!'*<!'*<!,*<!,*5GQ""=YM!9FM!9FM!9FM!9FM!IFM!IFM!=F
+M(%LM!18/,!%*<!%*<!&*<!(*<!&*<"R+\!#&TA<M!1FM!1FO@`!!!)8/&F:73%B)3%B)3%B,3SQ"#7Q
+!S7(M!-FM!-FCC#Q!&"9)<"F'\"I73NEM!1FM!1F"L!%*<!%*5EA)'/Q!S5A9V'R!!-F6&N9)3%D)1=<
+)'/Q!C5A9W%AM&-LCG/Q"37Q"37(M!1FM!1G3L!!5&BF7<!%*C!"2C-!2L!&*C!"2C-!2L!!&A#Q!#.)
+!<!!)UA!),!")UCQ!C.)!3#Q!3.)M!)D3#/S!A!"##-YMA)!!1ED/,%#!1?Q!2::,3QD%!U-CG-DCG.A
+:,F!!!1!9V"9M!!Y'TR:,3SQ"C7Q#37Q#37Q"S;Q>CMDM!"57!5<"&GQ"#7Q"C;Q>SOQ"37Q"3;Q"37Q
+"3;Q>COQ!&29"2M%7<"X+SUMM!=FM!IFM!IFM!AGM(9LCL!!6&A&'Q2:M!5FM!=GM(=LM!9FM!9GM!9F
+M!9GM(9L#,"X+SUMM!=FM!IFM!IFM!AGM(9LCII)M!1FM!9GM(=LM!5FM!5GM!5FM!5GM(9LM!"57!5<
+"&GQ>SMN,,!)*<!,*<!,*<!**L"W+\!%*L!%*ACQ"37Q"S;Q>SOQ"C7Q"C;Q"C7Q"C;Q>CM)M(=L,3Q$
+M!-FM!-F3L!%*<!$*5I#M!5FM!5G3L!&*L!&*EKQ"#:DCIJD93UMM6U/*7!LM!QG%<!&*B+Q#C5ZM!=F
+/<!+*<!+*<!**<"]+\!!5,!,*<!)*<!+*<"]+\!!5&29M!=FM!MFB\!%*<!%*1OQ#C51M!EFQ<!#*<!#
+*1OQ"S51M!9FQ2OQ"S7Q#S7Q#S7Z``]!>COQ"#7Q"#5,M!=FM!IFM(=LM!IFM!AFM!AFO@``!(9LM!)F
+M!)F#\!+*<!(*<"X+VGQ#C6'M!IF2G#Q##6'M!AF2G#Q"C7Q"C5,M!QFM!QFM!QG),!!5&ABM'I<M'R:
++\!%*<!%*1OQ#37Q#37Q#39AM!"17#'Q;BOQ<&EL)\!+*5;Q#C6'9''Q)'-DM!AF2L!)*5:A9<!A9\%"
+$#657!1<"6GQ#C9A%,!$*4KQ"C;Q"C9,M!=G)"#+/L%""S:57!1<"6GQ"39A%,!#*4K+CAMD)"!D/CUM
+)\!"6&CZ!!"!!"OZ1!!!!&G+M!&57,E!!%!!'\F!!!!!7<"^+SUMCII)$9KQ!629O1!!1!!<O5!!!!":
+M(UL,3Q)M!&57,E!!%!!'\F!!!!!71WQ@3MN,,!%*L!%*AA.M!1GM!1G#!WQ@3MN,#!"2C-!2L!+1\!,
+1YJD)W*B,3SQ#3OQ"C5OM!5F@=7Q"C7Q"37Q"#5AM!"17#'Q;BOQ<&ELM!5FM!1FM!-F),!!5&ABM'I<
+M'R:+RCQ##7Q"S7Q"C7Q#C7Q<SOQ"C7Q"37Q"#9AM!"17#'Q:BOQ;&ELM!5FM!1FM!1G),!!5&ABM'9<
+M'B:+V29@<!%*2#Q!S8&M!)F%,!"*=7Q"39BM!5G)2OQ"C;Q"#7Q!S7Q##;Q<SN:M1!#1V29@<!#*<##
++\!&*<##+S!A;7'Q"%-")W'Q9'!A;7'Q)'%AM!AGM!AGCL!#&TC+CG%A;7&BM!)8/"MB)3%B72AN,%N3
+M1%#1V.;7#-1)!%]!$Q<)3&:,3QDM!)FM!)F5VAAM!1F7$Q</6GQ!7#Y`_E=73%B)3UMM!)F2\!#*5>5
+CC!A%"'Q!7#+)"+Q!7'QB3MN,,!%*5?Q!C6(6#-A%L!"93-AM!9G)#!1%<!"9,!'*L#&+YK+M)5L,3SQ
+!E.57!Q#CEN4M!1G3V&;7!IY'QIB)6E<)3%B)6EN,,#9+VA-!IJ,5\!%*EN27FA+/"M+)3&:'S%B)3&:
+,3QAM!*$6,!")\"@)XABM1!#1\"7)XEBM!*$)\!A)&R9)3%BM1"((&G+CC#+))IDO"!!9V:9O"!!9V:9
+)3%BM1%M(&E<)6GQA')A8&AB)3'R!"M=73/QA')A8&AB)3'R!!Q=79KQ!7'Y`\-=)S%N,##Q!E.5M!%D
+M(MD?#'R!!*$M()D?3'R!!*$CL!A)&R9)3%BM'-=79K+))IACC/Y%!"D6FCY%!"D6FCQ"#;Q!6OQ"#;Q
+"#;Q"#9<)3%B)<%W!#-=72MB7<!%*C/QA')A8&C+8)J;)S%D)<!>(&G+M)"C)&R9)3%D)<!/(&GQ"#;Q
+!7'Y`ZA=)S%N!!!!10^Q.P]@<T;L(WYU`R^N.+M@<$8`(WMVT2^K-`]@;4,`(WAR`R^H-0]@:D$.(W5N
+`R^E,=U@9S\`(W)OT2^B,`]@9#UA(V]M`R^?,'=@83QU(VQL`R^<+FY@7CL`(VEK8B^9+D1@6SH`(V9J
+KR^6+8)@6#C!(V-I`R^3+-U@53@`(V!H4R^0*P]@4C:0(UUG+2^-*9!@3S7!(UID8B^*)`]@3#4`(U=E
+:R^')P]@23(`(U1B8B^$)*-@1C$`(U%AKR^!(]U@0R``(TY@6B]^(KM@0"\`(TM?:R][(=U@/2X`(TA=
+A"]X(()@.D2&(T5U6B]T-KM@-#VH(S]O8B]O,7>!C2]H*C5@*BMW(S5<$"]EES.6)RL`(S);*"]B'@]@
+)$I9&FQ@'()@(B@`(RU[&R:=("9)(RM]'7"<'$Q79&M;0"FA7R=]&G"<&2E`&P^;%U5362&&%&5372":
+$4U-615^"&5-712:#U5+61>&"F5/71J:"FE!71]!!1F&#&5$21*6#&E#71.!1!5"O1'1!&1L3\!S5EOQ
+#6"<M!')M#64M!')M%"27L!'C,!!66J<7,%"!9Z:B9W.!"V#3\#15VCS!Q!!(5*:M1)#1V&9M11$DFE!
++Q!L+SNT!#M!+Q!L!#ML+Q!L!#ML+Q!L!#ML+Q%L!3M"+Q%L!3M"+Q%L!#ML!3M"+Q!L+SML+SML+SML
++SM"+SML+Q!L+SML+SML+SM"+SM!+SML+SML+SML+SML!3ML+Q!L+SML+SML!3ML+SM!+SML+SML+SML
++SML+SML+SM9!!!!";Y&LA7O!!]&LA!2"!Y!$Q!!``%!!0`R!!$`\`Z;`FI&LA!0!!$`]1!!!-Q!T1$#
+!-)!T!$"!-%!3Q$-!-)!O1$-!-Q!J!$!``E!:1#O!-I!T!$$!--!JQ$-!-!!O!#N!-Q"/1#A!+9!P!#S
+!-M!1A"4!-Q!U1#Y!-)!S!#N!,E!PA$'!-Q!UQ$"!-Q!J!#P!,E!QA$-!&U!<1#6!+%!LQ#^!-I!RQ$-
+!.1!OA#^!--!LQ#Z!--!TA#H!,A!QA$-!+!!L!#T!,A!P1$#!-=!T!%Z!*U!JA#N!,)!O!#_!-5!SQ!!
+!!!!(!!=!%=!7A"N!)!!F!#I!,M!TA$;!39"/1'(!>Q#31+0!K)#N1,"!N1$$!-5!SA$/Q.$!YY$QA06
+!_A$_Q10"#)%.A2*"&Q%<Q4+"0Y&3!6R";M&^Q9+"BY'-1:;"IU'HQ;S"M5'W1<M"Q!(%Q=G"UY(>1?B
+"\5(\1A,#"Y)-AB'#(1)I1D*#.Q)\QE$#4U*5!G3#;5*O!H-#?!*]QJ(#FM+<AKT#P],%AN`#\M,_1R,
+$*%-J!SX$-M..!V($6I.<AW#$:9.HAW^$>!.Z!XY$C1/.QZ+$FU/=1[&$JA/KQ[`$N)0&1]J$U90C!`'
+$`11*2")%&M1<R#I%-I1X2$Q%1-282'N%=!2UR(G%@I3$B)B%D132R*<%GY3_2.$%Z54V20I%`M5$R1C
+&'Q5RB4:&3Y6A28=&C)7.2:)&FM7<R;#&J97K2;]&RY8*B=O&T988R?_&^%9/2B-'(Q9NBD3'/59_"E,
+'2]:-RF''6E:;2G2'<]:URI*'CA;/RJ/'G);E"LA'R!<)RMW'UI<DBOB'^M<\BQ"("5=+2Q]()I=HBSR
+(/]>-RV'(<Q?"BZ1(JI?S"\<(OY@!B^H(XI@D2_B(\5@S3!:)%)A6C"K)(YALS$#).5A[#$])2!B)S%W
+)5IB83&Q)91BI3(-)A!C,C*")F5CE#+S)M5CW#,L)TUDAC/S)\IE!#1)*#5E/#2@*+IEMC4&*.EF*#6^
+*;1FNS8+*C!G6S:K*J]GJS;P*L=GY#<I*P!G_#=G*TEHA3?**\]H]#AE+&YID3D)+1YJ5SGR+A!K##J;
++KQKN#L)+N!L$CNI+[]L_SRK,,)N&CV',9IN_3[!,P5P,S]X,W)PHS_L,^5Q)D!W-*5QK4$L-3YR<D'#
+-<=S$D)C-I!ST4,B-OET&D-K-W5T?4/[-_MU2T3K.,)UR456.7!VH$89.B9W7$:L.H]WBT;;.O%W^4=*
+.RUX:D>Z.YUXI4@P/!-Y&TAK/$YY5DBG/(IYDDD-/2-Z4DG,/>1[(DIG/I%[TTLM/P]\*DNR/XE\D$OA
+/_M]1$RH0(I]D4TA02A^+TV@09Q^NTW`0?A^]$XY0B9_(DYR0JY_JD\<0QQ`14^\0[I`Z%!J1'Z!S%%;
+13*"<U'\1=."VU(@1BR#<5+T1PR$.5.[1^>%$%222,F&.57N2?6&\5982F:'9E;-2N>'[E>$2V:(FU@B
+3#.).EBL3-")UUEW38N*DEGU3?6*_%IT3E:+BEK/3O^,55N:3WR,O5P[4#^-:USG4/&-^%U)42".)UVH
+48N.DUWD4?J.`5Y24C6/;EZ_4J*/J5[Z4MV/Y5\U4QB02E_-4]J1"6"25+>1UF%456:2N6)!5G^3R6,.
+5N63X6,F5QR4&&-=5S24=F.[5Y*4I&/I5\"4WF0C5_J4]F1@6#>5,V1X6$^52V3B6,.5RF4:6/R5`V53
+6366/66.67N6GV7D6?R7+F9S6FV7J6<<6R28)&=U6TR82&>-6V288&>I6X28H&@:7"R9<6D071N:8&GS
+7A&;-FJ\7JJ;U&M+7V.<@&P37^J=$6R,8)F=TFTX83Z>=FW_8=:?)&YS8E:?7VZO8I*?FF[J8LR?TV\C
+8P6@%V^"8UF@56^F8X&@N6`R9"JA2'#-9/NB2G'H9?^C4W+<9PND!W-,9R.D'W.19Z>D_728:->ETW4K
+:2>F476D:;"F_G9C:GNGO'<::UJHG'@,:_&I'GBK;)VIZ7ED;:*JU'HD;@2K"WI4;C6K.7J2;GNKHWKR
+;PFL1GN/;W"L<'N_;Y>LR7Q%<#JM4GRV<*NML7S`<->MW7TB<22N2WVC<8VNG'WW<>*NZWX[<A.O$'Y5
+<B2O3'[6<NVP.W_E<`JQ=8$1=5RRJ8),=E2S>X,<=T"TH(0=>$.UB(4+>0ZV.H72>=6W7X;E>P2X2X>4
+>[*XZXC@?/:Z$8F*?9.ZNXI,?FR[SXN*?[:\XHQ`@)*]H8S]@/.^!(UA@5*^;8WM@=B^U(Y[@MR`5H_O
+@_G!D)%%A8C"N9(FA@;#%))OAF/#N),4ANO#\I-!AT/$4).>AX/$CI/OA]'$X)0XB"W%4I31B++%T94K
+B0O&$)5^B7#&=I7,B:S&M98'B?;'!Y9>BE;'>);_BN#'`Y=?BUO(<)>_BY;(DI?7BZ_(K)?RB\K(QY@-
+B^7(XI@HB`#(_9A#C"[)+YAYC&_)B)D#C/7*#9F$C5O*5YJ/CL3+R9LACT',?IO'CZ+-)IRZD)+-O9T"
+D1W.&9V]D93.U)YDDCO/.YZ$DHS/GI[CDKK/YI]QDYC0S*!1E''1UZ$PE1S2+*&&E7'2@:';E<?2V:(R
+EA73)J)`EFS3?J+7EKK3P:,2EO34!:-?ETO47:.VEYG4H*/QE]/4VZ0KE`[5%:1FF$C54*2@F(+5BJ3:
+F+W5Q*4=F0G6&:5SF5[6;J7(F;36Q:8>F@'7$:9KFE;79Z:`FJ/7P*<0FN?8'J=OFU'88:>[FZ;8MZ@0
+F_/8^JA+G"W9-:B%G&C9;ZB`G*+9JJCZG-S:!JE6G3C:/ZF$G5O:5ZF<G>?;$*IUGH';S:LSGTK<C:OK
+H"O=;A!#!,1!!!5)";Y!!Q!(!"#X!!2K!1>K!1!!,S]L+T!R-R%B%35B%3'U"&4]7Q,W`1I&LPJ3LQ21
+!!)!+!!!"19&LA!'!!I!(U!1#A>K#AI'"!-!!Q9)=A!#=A!L+T)2%DE3/3]L-$%"-Q%D!1%D%S%6)1*!
+LA)9X0ZN`GX=^Q,^`1-&LPJ3"*8\;Q)"QA$``Q!I!!!&"A>^!#)!!A!!!1-$%Q0P!!!!#\9#$A!"!727
+!#MU!0``!#A!!!5'"U=!)A!#!!!"!Q-8"%)!!!!,NA)0!!%";&9!+T1!``]!+!!!"19(=A!C!!)!!!%$
+!R5$W!!!!!OW!AQ!!1&C6A!L.!$``Q!I!!!&"A<R!#)!!A!!!1-$%!0]!!!!$<=$!AY!!1&X6A!L.$1!
+``]!+0Z9"19&LA!C!!)!!!%$!QM$,Q!!!![U!AM$!1'Z`UQ!6A!L.0``!#A!!!5'"X-!)A!#!!!"!Q-3
+!KI!!!!,NA)/!!%"7F9!+T1!``]!+!!!"19'\1!C!!)!!!%$!RI%.A!!!!OW!AU!!1&X6A!L.!$``Q!I
+`FQ&"A7O!#)!!A!!!!-$(A5B!!!!"!!I!!!&"A>G!!M!&Q!?!#)!)U!5)B^K&RE9#RQ&)C)&'RY)=A52
+;A5!,SML-B)Z,R=Z+T!R!#9V.$9T-B96&!9D.D9V.#9D)A96&"9T"T-")Q%")R-B&3%#)8^`>H7!A(5R
+.D9R-49W-6?O!BD=`GX_<>TX!PX^!Q7/?'^U@8^S<XC#/$%T/4ET-4BC_F)%F@NL!A(#!0``!#A!!!5'
+"TA!)A!#!!!"!Q-:"!9!!!!,NA)R!!%";&9!+T1!!!9!!!!!"W)&LA!$!!=!#Q!0!"-!&Q!\1#%+!QA!
+$QRK$Q-("'I("Q-!%R"K%R-$!"18;B1!!H)$#()!+SMS+R%3/3]L%2)Z,SM2-SM2-R%T-$%"-Q%D!3%6
+)1%T%3-X)25B%3%6)2%B&3%$*NX]Y/-"9Q,"`4]#7=T-9Q.$`,U#V@UL!U0]P17O_F)"`])%=@J3QM)$
+-])$0=)!!!)!N!!!"+U&LA!J!#U!*U!7+1"K+3U@#ANK#AIK,1BS&22K&3I#=A!L-CML%DEP+TE2-SMQ
+-35B-D9V.41G*C-B.3%S.D5R.#9D)45B-B97&4%5"A9((A)6&21'"C-B!T-2)Q%M!9K<DD.O6PZ%!<RR
+=Y#!`G!"R9W_8DJX7&C!2'D#A@YK?-P,P8:L!UJK/<BK;'VMP7#Q?EO$82!.9Z27!X;U9A7O_F)!!``M
+!!!&8A7O!!M!.1!Z!$>!(45-;D5V/3M7&WI7&D9Z%D=B)49+#A9&.C"J!T9#!$]T+T)ST#]2-R%T0R)Z
+,SMZ%4-P+T!R!T1W-T-6)S)'&25D!3%S.D5V.#9G)S%V)4)W.4%U*C-B.3%S&B96-21'"A=?!B56&!9'
+)S%$-R%D&*#$[_1G+=M"]1'+GYYT<F<_2!']=8/!A0ZA!=7.PFY[>VB9A%2IQI(_+HD,SQ3\>(_^(RR&
+`%RW;Q.+;DGY;GBN<,VAM(J,AVU1$7/56A.WN')&LPJ3!!!"!*<`]13&"<U!*Q!<1!]B*S==;C=*=AA4
+;AY)!X)!+]1L+SM1R$!R"#9G.2%U.D9T-B97&T%D-3Y#)S)'"B52&"97-T)W.D=R-T%/!C-"_?6_@O78
+@>+.'>%478B!79:+3I::18>:%^%:DN*]$Y<WIA'0IP;(;]3"2'M[6JNH`H&GH&5W;EG"R'M!``]!FP`R
+")5(@1!C!"!!!!%$!R-$[A!!!!OW!3M)!1&66A!L.!$``Q#7``%%B1?"!#)!%!!!!1-$&A06!!!!#\9"
+,1A"!6V7!#MU!0``!*<_7A3&"<U!)A!1!!!!!Q->!XY!!0``!*<`]13&"P%!)A!1!!!"!Q-2!Q)!!!!,
+NA%L#!%";&9!+T1!!!)!N!!!"+I&LA!6!"E!'U!0&1"K&2E+#7I+&A*S'1BS!#ML-CM2-SMQ-35B-D9V
+%41G)S%V)4)7&B52&!9')S%$-R%D!4Y"3;'RM;(_NQ&$L`C#APGP`L[+T-T#JZA"L*CHQHLKJ@ZEJ?J[
+";\[5P``!%Y!!!4:";Y!!A!8!!$``Q"/!!!%W17O!#)!&3]!!1-$(Q-?!!!!$L1#("E#!,E#A!"7!#MU
+``]!N!!!"+I(A1!C!"5!!!%$!R9$UQ!!!!OW!B]+!1&M6A!L.!$``Q"/!!!%W17O!!)!&Q!!!!0`\!!!
+"6M&LA!,!#%!*1!C1"-+#C)6;29C"7E%)A)F)1RK)1BS!#ML-T]T+T-LR#]Q-1-U.D-T&3-C"B56)Q%B
+-D9V%41G)S%V)4)7&B52&!9')S%$-R%D&*#$[_1G+=M#!Q&*I<'RI@[X!5/P_)+#_;`_PIL-T!3\>(_^
+(RR&`&'HG!'MG+@#?OKF`G3F[HI&LPJ3!!1!N!!!"&I&LA!$!!=!#Q!0!#>!&A=%;A=$#QBK#QM$!!Q0
+;AQ!!H)$#()!+SMS+R%3/3]L%4-L-$%4-R%D.S%6)2%B&3%2)25BN-T-9Q.$`,U#V@UL!U0]P17O_F,#
+QA-TQA-^QA$``Q#U!!!%7A>^!#)!'Q!!!1-$%Q0R!!!!#\9%%Q!"!727!#MU!0``!,1!!!2;"Y%!)A!<
+!!!"!Q-7!^Q!!!!,NA16!!%"<&9!+T1!``]!N!!!"&I(=A!C!"M!!!%$!R5$WA!!!!OW""%!!1&C6A!L
+.!$``Q#U!!!%7A<R!#)!'Q!!!1-$%!0_!!!!$<=&""-!!1&X6A!L.$1!``]!N!!!"&I']1!C!"M!!!%$
+!R%$#1!!!!OW""-!!1&X6A!L.!$``Q#U`FA%7A7O!#)!'Q!!!1-$#Q-R!!!!$L1%%!="!<H`4!"7!#MU
+``]!N!!!"&I(=Q!C!"M!!!%$!R)#L!!!!!OW""-!!1&;6A!L.!$``Q#U!!!%7A<N!#)!'Q!!!1-$'A1Y
+!!!!#\9%%A!"!8>7!#MU!0``!,4_8!2;";Y!)A!<!!!"!Q-?"(5!!!!,NA16"Q!!;V9!+T1!!!%!D0`R
+"!E&P1!W!#6!&!=E)7IE*!]Q.D9L;D9*$RJK&1]$!$`%+T]L%-13/3]L/4!R"#9G.45U.D=G*D5V.$9W
+-T)7&B=R)T%O!C-C"B56&"9T-R5D)A96&217-T)W.D=R-T%/!C-"MM2C@8VR=6W[D(GO<2<0$DJ9/WRL
+8V[:G7JL>X>):4U*U""QP9907<+''*3O'S?;=RB`JV24K(Y^5#B;7CVB9M*S=CRH:SB20([H6!!!"!"O
+!!!%&!7O!!-!"Q!,!!]!*U!7!!1"$11&;AA*;AA)"!U-;AU#=A1)=A!L+SM3/3]L+R%T%4-Q-3%2-R%B
+.3%6!45B&1%V)25$3-T]7A.$`3M#V@S^!U-&LPJ3QM)#==,#!HP#QA!#!&L`]10.";Y!(!!D!#>!&2UD
+%2*K%2%=)C!?;C!#(!FK"15=#1!`-S]L0SMT%DEP+TEZ-$%%*C9H-4-R&B9T-D9V.41G)S-V-T)7&B56
+&!9')Q-")45B&1%"E\NN%>!/>WFV>(2VI[/3QG&BQJ+D!58^WA-=`GM06+>_7VJH:SRS=M*AQ*%9CL:<
+!W1"F]+Q`A)!!Q#U!!!%2Q7O!!-!"Q!,!"V!%!=%;A=(!!-)=AA,;AA!!H)!+T)L+R%Z,SMQ-2-T%3-4
+)25B%3%6)<4-T'1#Q@U`!S`]U17O_F)$*M)$3M)!!!1!&0Z^"&1&LA!,!!]!%Q!8!#&!%2-1;B-4$!],
+!!])&">K&!Q#!$]T+T`7T2%3/3]L-$%8-T)W.2%T%21')S-4-R%D%S%6)2%B&3%5=BQ@T(^UBKX-T'1#
+Q@U`!S`]U=%J*A&Z`IG$E!=R_F)$*M)$3M)!!1#7``%%FA7^!#E!)5!4+#FK+#A&$BFK&!Y$=A5C;A5*
+=A!L+SP%+R)Z,SMQ-1%6&!9')S)G*D52.$9W-T)7&B=R)T%O!C-C"A96%217&D-S.D9V.3%V"*:_ZZC;
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,itta toori,,0,0,0,template syl furi,!retime("line",-1500,200)!{\fade(600,200)\an5\pos($center,!$middle+offset()!)\k!$start/10+150!\k!$skdur+20!}
+Comment: 0,0:00:00.00,0:00:00.00,itta toori,,0,0,0,code once,function offset() return _G.tonumber(line.margin_t)*lineOffset end
+Comment: 0,0:00:21.91,0:00:27.17,itta toori,,0,0,0,code once,lineOffset=60 -- vertical offset between lines with different vertical margins value
+Comment: 0,0:00:00.00,0:00:00.00,hora,,0,0,0,,
+Comment: 0,0:00:00.00,0:00:00.00,hora,,0,0,0,template syl furi,!retime("line",-1500,200)!{\fade(600,200)\an5\pos($center,!$middle+offset()!)\k!$start/10+150!\k!$skdur+20!}
+Comment: 0,0:00:00.00,0:00:00.00,hora,,0,0,0,code once,function offset() return _G.tonumber(line.margin_t)*lineOffset end
+Comment: 0,0:00:21.91,0:00:27.17,hora,,0,0,0,code once,lineOffset=60 -- vertical offset between lines with different vertical margins value
+Comment: 0,0:00:00.00,0:00:00.00,hora,,0,0,0,,
+Comment: 0,0:00:00.00,0:00:00.00,I told you so L,,0,0,0,template pre-line keeptags,!retime("line",$start < 1500 and -$start or -1500,200)!{!$start < 1500 and "\\k" .. ($start/10) or "\\k150"!\fad(!$start < 1500 and $start or 600!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,I told you so R,,0,0,0,template pre-line keeptags,!retime("line",$start < 1500 and -$start or -1500,200)!{!$start < 1500 and "\\k" .. ($start/10) or "\\k150"!\fad(!$start < 1500 and $start or 600!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,foxy!,,0,0,0,template pre-line keeptags,!retime("line",$start < 1500 and -$start or -1500,200)!{!$start < 1500 and "\\k" .. ($start/10) or "\\k150"!\fad(!$start < 1500 and $start or 600!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,CONSULTANT,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.14,0:00:07.12,itta toori,,0,0,0,karaoke,{\kf33}さ{\k18}{\kf16}て{\k9}{\k77}お{\k72}立|た{\k18}ち{\k16}会|あ{\k18}い{\k19}　{\k35}損|そう{\k17}は{\k21}さ{\k72}せ{\k18}な{\k17}い{\k22}よ
+Comment: 0,0:00:07.12,0:00:11.20,hora,,0,0,0,karaoke,{\k15}お{\k30}代|だ{\k38}#|い{\k77}は{\k15}見|み{\k20}て{\k20}の{\k17}お{\k36}帰|か{\k38}#|え{\k36}り{\k66}だ
+Comment: 0,0:00:11.57,0:00:16.54,itta toori,,0,0,0,karaoke,{\k43}金|<き{\k35}#|ん{\k36}#|ぎ{\k34}#|ん{\k18}財|!ざ{\k16}#|い{\k20}宝|ほ{\k0}#|う{\k19}、{\k71}龍|<りゅ{\k67}#|う{\k42}珠|しゅ{\k34}ま{\k62}で
+Comment: 0,0:00:16.66,0:00:21.33,hora,,0,0,0,karaoke,{\k18}首|しゅ{\k18}尾|び{\k35}よ{\k36}く{\k18}行|い{\k19}け{\k33}ば{\k41}御|お{\k71}慰|な{\k34}#|ぐ{\k41}#|さ{\k103}み！
+Comment: 0,0:00:31.84,0:00:33.32,foxy!,,0,0,0,karaoke,{\k18}（Fo{\k18}xy {\k18}fo{\k18}xy {\k18}fo{\k18}xy {\k21}fo{\k19}xy）
+Comment: 0,0:00:44.84,0:00:47.73,itta toori,,0,0,0,karaoke,{\k32}遅|お{\k41}#|そ{\k17}か{\k14}れ{\k25}早|は{\k37}#|や{\k15}か{\k11}れ{\k26}い{\k17}ず{\k19}れ{\k35}は
+Comment: 0,0:00:47.73,0:00:50.68,hora,,0,0,0,karaoke,{\k37}こ{\k36}こ{\k18}も{\k18}枯|か{\k22}れ{\k32}果|は{\k19}て{\k16}ま{\k14}しょう{\k5}　{\k14}で{\k21}す{\k21}か{\k22}ら
+Comment: 0,0:00:50.67,0:00:53.43,itta toori,,0,0,0,karaoke,{\k31}今|<い‎ ‎{\k36}#|ま{\k18}の{\k37}う{\k18}ち{\k11}に{\kf8}サ{\kf8}ス{\kf22}ティナ{\kf15}ブル{\kf8}な{\k18}利|り{\k18}益|え{\k0}#|き{\k28}、
+Comment: 0,0:00:53.53,0:00:56.39,hora,,0,0,0,karaoke,{\k37}そ{\k35}れ{\k19}を{\k17}追|つ{\k19}#|い{\k35}求|きゅ{\k39}#|う{\k15}す{\k19}べ{\k18}き{\k15}で{\k18}す
+Comment: 0,0:00:56.39,0:00:59.31,itta toori,,0,0,0,karaoke,{\k37}こ{\k38}こ{\k18}だ{\k36}け{\k36}の{\k18}話|は{\k16}#|な{\k19}#|し{\k19}で{\k18}す{\k37}よ
+Comment: 0,0:00:59.31,0:01:02.20,hora,,0,0,0,karaoke,{\k35}ア{\k37}ナ{\k18}タ{\k36}だ{\k37}け{\k17}に{\k18}明|あ{\k15}か{\k23}す{\k17}の{\k15}で{\k21}す
+Comment: 0,0:01:02.20,0:01:05.09,itta toori,,0,0,0,karaoke,{\k36}今|い‎ ‎{\k33}#|ま{\k21}す{\k18}ぐ{\k11}に{\k7}動|う{\k19}#|ご{\k17}く{\k38}べ{\k17}き{\k16}で{\k20}す{\k36}よ
+Comment: 0,0:01:05.09,0:01:07.98,hora,,0,0,0,karaoke,{\k36}私|わ{\k31}#|た{\k25}#|し{\k35}め{\k74}に{\k16}お{\k17}任|ま{\k15}#|か{\k22}せ{\k18}を
+Comment: 0,0:01:07.98,0:01:10.87,itta toori,,0,0,0,karaoke,{\k18}そ{\k19}そ{\k17}の{\k18}か{\k19}す{\k18}な{\k9}ど{\k10}　{\k36}た{\k16}ぶ{\k20}ら{\k16}か{\k19}す{\k18}な{\k36}ど
+Comment: 0,0:01:10.87,0:01:13.73,hora,,0,0,0,karaoke,{\k20}け{\k16}し{\k19}か{\k16}け{\k20}る{\k18}な{\k8}ど{\k8}　{\k55}こん{\k40}こん{\k16}ち{\k18}き{\k32}な！
+Comment: 0,0:01:13.73,0:01:16.66,itta toori,,0,0,0,karaoke,{\k19}こ{\k21}の{\k17}世|よ{\k19}で{\k14}一|い{\k22}#|っ{\k16}等|!とう{\k39}正直|!しょ{\k17}#|う{\k19}直|じ{\k17}#|き{\k19}な{\k17}の{\k37}は、
+Comment: 0,0:01:16.66,0:01:18.90,hora,,0,0,0,karaoke,{\k21}狐|き{\k15}#|つ{\k19}#|ね{\k17}と{\k18}聞|き{\k18}き{\k21}ま{\kf45}す{\k50}
+Comment: 0,0:01:19.54,0:01:22.51,itta toori,,0,0,0,karaoke,{\k13}言|い{\k6}っ{\k17}た{\k15}とお{\k19}り{\k19}　{\k38}ホ{\k17}ラ{\k14}言|い{\k6}っ{\k17}た{\k19}とお{\k36}り{\k19}で{\k17}しょ{\k25}う
+Comment: 0,0:01:22.62,0:01:25.34,hora,,0,0,0,karaoke,{\k19}ま{\k18}こ{\k18}と{\k18}し{\k17}や{\k8}か{\k8}　{\k36}こん！{\kf29}こ～{\k10}{\k16}ん{\k20}さ{\k18}る{\k18}た{\k19}ん
+Comment: 0,0:01:25.34,0:01:28.34,itta toori,,0,0,0,karaoke,{\k12}言|い{\k5}っ{\k19}た{\k18}とお{\k17}り{\k18}　{\k38}ソ{\k14}ラ{\k15}言|い{\k7}っ{\k17}た{\k16}とお{\k39}り{\k20}で{\k16}しょ{\k29}う
+Comment: 0,0:01:28.41,0:01:31.06,hora,,0,0,0,karaoke,{\k17}頼|た{\k19}#|の{\k18}る{\k18}べ{\k18}き{\k9}は{\k9}　{\k36}こん！{\kf27}こ～{\k10}{\k17}ん{\k19}さ{\k18}る{\k30}たん
+Comment: 0,0:01:31.12,0:01:34.09,itta toori,,0,0,0,karaoke,{\k13}言|い{\k6}っ{\k17}た{\k15}とお{\k19}り{\k19}　{\k38}ホ{\k12}ラ{\k16}言|い{\k7}っ{\k19}た{\k17}とお{\k38}り{\k17}で{\k19}しょ{\k25}う
+Comment: 0,0:01:34.20,0:01:36.92,hora,,0,0,0,karaoke,{\k19}ア{\k16}ナ{\k18}タ{\k18}だ{\k19}け{\k9}に{\k9}　{\k34}こん！{\kf27}こ～{\k10}{\k18}ん{\k20}みっ{\k18}と{\k18}めん{\k19}と
+Comment: 0,0:01:36.92,0:01:39.92,itta toori,,0,0,0,karaoke,{\k12}言|い{\k5}っ{\k17}た{\k16}とお{\k19}り{\k20}　{\k36}ソ{\k11}ラ{\k17}言|い{\k8}っ{\k18}た{\k17}とお{\k37}り{\k18}で{\k18}しょ{\k31}う
+Comment: 0,0:01:39.99,0:01:42.64,hora,,0,0,0,karaoke,{\k17}頼|た{\k19}#|の{\k17}る{\k19}べ{\k16}き{\k10}は{\k10}　{\k35}こん！{\kf28}こ～{\k10}{\k17}ん{\k37}さる{\k30}たん！
+Comment: 0,0:01:54.27,0:01:55.71,CONSULTANT,,0,0,0,karaoke,{\k18}CO-{\k18}CO-{\k18}CON{\k17}SUL {\k28}TANT! {\k25}TANT! {\k20}TANT!
+Comment: 0,0:01:55.71,0:01:57.17,CONSULTANT,,0,0,0,karaoke,{\kf24}COOOON {\k12}{\k19}CO-{\k9}CO-{\k8}CO {\k27}TANT! {\k27}TANT! {\k20}TANT!
+Comment: 0,0:01:57.17,0:01:58.49,CONSULTANT,,0,0,0,karaoke,{\k17}CO-{\k18}CO-{\k18}CON{\k17}SUL {\k28}TANT! {\k26}TANT! {\k8}TANT!
+Comment: 0,0:01:58.49,0:02:00.05,CONSULTANT,,0,0,0,karaoke,{\k12}CON-{\k16}CON {\k12}SUL-{\k8}SUL {\k18}TAL-{\k17}TAL {\k10}TA{\k8}TA{\k10}TA{\k9}TA-{\k9}TA{\k9}TA{\k10}TA-{\k8}TANT!
+Comment: 0,0:02:00.05,0:02:01.50,CONSULTANT,,0,0,0,karaoke,{\k18}CO-{\k18}CO-{\k18}CON{\k17}SUL {\k28}TANT! {\k25}TANT! {\k21}TANT!
+Comment: 0,0:02:01.50,0:02:02.94,CONSULTANT,,0,0,0,karaoke,{\kf24}COOOON {\k12}{\k19}CO-{\k9}CO-{\k8}CO {\k27}TANT! {\k27}TANT! {\k18}TANT!
+Comment: 0,0:02:02.94,0:02:04.40,CONSULTANT,,0,0,0,karaoke,{\k17}CO-{\k18}CO-{\k16}CON{\k21}SUL {\k27}TANT! {\k26}TANT! {\k21}TANT!
+Comment: 0,0:02:04.40,0:02:05.60,CONSULTANT,,0,0,0,karaoke,{\k12}CON-{\k16}CON {\k12}SUL-{\k8}SUL {\k18}TAL-{\k17}TAL {\k10}TA{\k8}TA{\k10}TA{\k9}TA-
+Comment: 0,0:02:05.83,0:02:06.73,itta toori,,0,0,0,karaoke,{\k19}結|けっ{\k14}果|か{\k18}オー{\k39}ライ
+Comment: 0,0:02:06.73,0:02:08.90,hora,,0,0,0,karaoke,{\k0}き{\k35}っ{\k19}と{\k21}結|けっ{\k15}果|か{\k18}オー{\k39}ライ{\k14}で{\k19}しょ{\k37}う
+Comment: 0,0:02:08.90,0:02:11.61,itta toori,,0,0,0,karaoke,{\k20}お{\k16}耳|<み{\k15}#|み{\k15}拝|!は{\k13}#|い{\k29}借|!しゃ{\k36}#|く{\kf25}こ～{\k10}{\k19}ん{\k18}さ{\k18}る{\k15}た{\k22}ん
+Comment: 0,0:02:11.61,0:02:14.66,hora,,0,0,0,karaoke,{\k16}無|む{\k0}理|り{\k20}、{\k18}通|とお{\k17}り{\k18}　{\k13}引|ひ{\k23}っ{\k19}込|こ{\k20}ま{\k16}せ{\k18}ちゃっ{\k37}て{\k16}道|ど{\k21}#|う{\k33}り
+Comment: 0,0:02:14.66,0:02:17.38,itta toori,,0,0,0,karaoke,{\k19}先|さ{\k19}#|き{\k19}の{\k19}こ{\k12}と{\k20}は{\k16}知|し{\k21}っ{\k35}た{\k13}こ{\k24}っ{\k18}ちゃ{\k37}ない
+Comment: 0,0:02:17.38,0:02:20.29,hora,,0,0,0,karaoke,{\k13}言|い{\k6}っ{\k17}た{\k15}とお{\k20}り{\k20}　{\k36}ホ{\k13}ラ{\k17}言|い{\k7}っ{\k17}た{\k15}とお{\k40}り{\k19}で{\k17}しょ{\k19}う
+Comment: 0,0:02:20.29,0:02:21.54,I told you so L,,0,0,0,karaoke,{\k17}I {\k16}told {\k20}you {\k16}so, {\k20}I {\k17}told {\k19}you
+Comment: 0,0:02:21.54,0:02:23.18,hora,,0,0,0,karaoke,{\k36}こん！{\kf26}こ～{\k10}{\k17}ん{\k19}さ{\k19}る{\k37}たん！
+Comment: 0,0:02:23.18,0:02:26.04,itta toori,,0,0,0,karaoke,{\k12}言|い{\k5}っ{\k17}た{\k19}とお{\k27}り{\k9} {\k36}ソ{\k18}ラ{\k13}言|い{\k5}っ{\k18}た{\k18}とお{\k37}り{\k17}で{\k19}しょ{\k16}う
+Comment: 0,0:02:26.04,0:02:27.31,I told you so R,,0,0,0,karaoke,{\k17}I {\k16}told {\k20}you {\k16}so, {\k20}I {\k17}told {\k19}you
+Comment: 0,0:02:27.31,0:02:28.90,itta toori,,0,0,0,karaoke,{\k37}こん！{\kf31}こ～{\k10}{\k14}ん{\k19}さ{\k16}る{\k32}たん！
+Comment: 0,0:02:28.96,0:02:30.40,CONSULTANT,,0,0,0,karaoke,{\k18}CO-{\k18}CO-{\k18}CON{\k17}SUL {\k28}TANT! {\k25}TANT! {\k20}TANT!
+Comment: 0,0:02:30.40,0:02:31.86,CONSULTANT,,0,0,0,karaoke,{\kf24}COOOON {\k12}{\k19}CO-{\k9}CO-{\k8}CO {\k27}TANT! {\k27}TANT! {\k20}TANT!
+Comment: 0,0:02:31.86,0:02:33.18,CONSULTANT,,0,0,0,karaoke,{\k17}CO-{\k18}CO-{\k18}CON{\k17}SUL {\k28}TANT! {\k26}TANT! {\k8}TANT!
+Comment: 0,0:02:33.18,0:02:34.74,CONSULTANT,,0,0,0,karaoke,{\k12}CON-{\k16}CON {\k12}SUL-{\k8}SUL {\k18}TAL-{\k17}TAL {\k10}TA{\k8}TA{\k10}TA{\k9}TA-{\k9}TA{\k9}TA{\k10}TA-{\k8}TANT!
+Comment: 0,0:02:34.74,0:02:36.19,CONSULTANT,,0,0,0,karaoke,{\k18}CO-{\k18}CO-{\k18}CON{\k17}SUL {\k28}TANT! {\k25}TANT! {\k21}TANT!
+Comment: 0,0:02:36.19,0:02:37.63,CONSULTANT,,0,0,0,karaoke,{\kf24}COOOON {\k12}{\k19}CO-{\k9}CO-{\k8}CO {\k27}TANT! {\k27}TANT! {\k18}TANT!
+Comment: 0,0:02:37.63,0:02:39.09,CONSULTANT,,0,0,0,karaoke,{\k17}CO-{\k18}CO-{\k16}CON{\k21}SUL {\k27}TANT! {\k26}TANT! {\k21}TANT!
+Comment: 0,0:02:39.09,0:02:40.51,CONSULTANT,,0,0,0,karaoke,{\k9}CON-{\k8}CON {\k6}SUL-{\k9}SUL {\k16}TAL-{\k22}TAL {\k9}TA{\k9}TA{\k10}TA{\k9}TA-{\k7}TA{\k8}TA{\k11}TA-{\k9}TANT!
+Comment: 0,0:01:42.71,0:01:45.71,itta toori,,0,0,0,karaoke,
+Comment: 0,0:01:18.90,0:01:18.97,foxy!,,0,0,0,karaoke,
+Dialogue: 0,0:01:18.97,0:01:19.54,foxy!,,0,0,0,NO EFFECT,{\k11}{\k18}やー{\k28}は ♪
+Dialogue: 0,0:01:45.71,0:01:48.38,surprise attack,,0,0,0,NO EFFECT,{\bord0\c&HE7E8D1&}{\pos(192,264)}{\p1}m 0 0 l 240 0 240 40 0 40{\p0}
+Dialogue: 0,0:01:45.71,0:01:48.38,surprise attack,,0,0,0,NO EFFECT,{\pos(125.630859375,247)\an5\k0\k20}ず、
+Dialogue: 0,0:01:45.71,0:01:48.38,surprise attack,,0,0,0,NO EFFECT,{\pos(145.96875,247)\an5\k20\k36}ず
+Dialogue: 0,0:01:45.71,0:01:48.38,surprise attack,,0,0,0,NO EFFECT,{\pos(159.84375,247)\an5\k56\k27}ろ
+Dialogue: 0,0:01:45.71,0:01:48.38,surprise attack,,0,0,0,NO EFFECT,{\pos(173.44921875,247)\an5\k83\k26}い
+Dialogue: 0,0:01:45.71,0:01:48.38,surprise attack,,0,0,0,NO EFFECT,{\pos(192.708984375,247)\an5\k109\k37}よ、
+Dialogue: 0,0:01:45.71,0:01:48.38,surprise attack,,0,0,0,NO EFFECT,{\pos(213.55078125,247)\an5\k146\k18}奇
+Dialogue: 0,0:01:45.71,0:01:48.38,surprise attack,,0,0,0,NO EFFECT,{\pos(230.7890625,247)\an5\k164\k35}襲
+Dialogue: 0,0:01:45.71,0:01:48.38,surprise attack,,0,0,0,NO EFFECT,{\pos(255.404296875,247)\an5\k199\k36}は！
+Dialogue: 0,0:01:45.71,0:01:48.38,surprise attack-furigana,,0,0,0,NO EFFECT,{\pos(213,229)\an5\k146\k18}き
+Dialogue: 0,0:01:45.71,0:01:48.38,surprise attack-furigana,,0,0,0,NO EFFECT,{\pos(231,229)\an5\k164\k35}しゅ
+Dialogue: 0,0:01:45.71,0:01:48.38,surprise attack,,0,0,0,NO EFFECT,
+Dialogue: 0,0:01:45.71,0:01:48.38,surprise attack,,0,0,0,NO EFFECT,
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,55)\k150\k20}
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(27,55)\k150\k53}さ
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(34,55)\k183\k38}
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(42,55)\k201\k36}て
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(49,55)\k217\k29}
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(58,55)\k226\k97}お
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(76,55)\k303\k92}立
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(93,55)\k375\k38}ち
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(111,55)\k393\k36}会
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(129,55)\k409\k38}い
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(143,55)\k427\k39}
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(160,55)\k446\k55}損
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(178,55)\k481\k37}は
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(194,55)\k498\k41}さ
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(209,55)\k519\k92}せ
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(226,55)\k591\k38}な
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(243,55)\k609\k37}い
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(258,55)\k626\k42}よ
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(76,33)\k303\k92}た
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(111,33)\k393\k36}あ
+Dialogue: 0,0:00:00.64,0:00:07.32,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(160,33)\k446\k55}そう
+Dialogue: 0,0:00:05.62,0:00:11.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(195,115)\k150\k20}
+Dialogue: 0,0:00:05.62,0:00:11.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(203,115)\k150\k35}お
+Dialogue: 0,0:00:05.62,0:00:11.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(221,115)\k165\k88}代
+Dialogue: 0,0:00:05.62,0:00:11.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(239,115)\k233\k97}は
+Dialogue: 0,0:00:05.62,0:00:11.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(258,115)\k310\k35}見
+Dialogue: 0,0:00:05.62,0:00:11.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(276,115)\k325\k40}て
+Dialogue: 0,0:00:05.62,0:00:11.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(292,115)\k345\k40}の
+Dialogue: 0,0:00:05.62,0:00:11.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(308,115)\k365\k37}お
+Dialogue: 0,0:00:05.62,0:00:11.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(326,115)\k382\k94}帰
+Dialogue: 0,0:00:05.62,0:00:11.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(342,115)\k456\k56}り
+Dialogue: 0,0:00:05.62,0:00:11.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(356,115)\k492\k86}だ
+Dialogue: 0,0:00:05.62,0:00:11.40,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(217,93)\k165\k50}だ
+Dialogue: 0,0:00:05.62,0:00:11.40,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(225,93)\k195\k58}い
+Dialogue: 0,0:00:05.62,0:00:11.40,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(258,93)\k310\k35}み
+Dialogue: 0,0:00:05.62,0:00:11.40,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(322,93)\k382\k56}か
+Dialogue: 0,0:00:05.62,0:00:11.40,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(330,93)\k418\k58}え
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,55)\k150\k20}
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(30,55)\k150\k168}金
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(56,55)\k298\k54}財
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(76,55)\k332\k40}宝
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(92,55)\k352\k39}、
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(109,55)\k371\k158}龍
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(129,55)\k509\k62}珠
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(146,55)\k551\k54}ま
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(162,55)\k585\k82}で
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(18,33)\k150\k63}き
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(26,33)\k193\k55}ん
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(34,33)\k228\k56}ぎ
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(42,33)\k264\k54}ん
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(54,33)\k298\k38}ざ
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(62,33)\k316\k36}い
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(71,33)\k332\k40}ほ
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(78,33)\k352\k20}う
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(109,33)\k371\k91}りゅ
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(118,33)\k442\k87}う
+Dialogue: 0,0:00:10.07,0:00:16.74,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(128,33)\k509\k62}しゅ
+Dialogue: 0,0:00:15.16,0:00:21.53,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(169,115)\k150\k20}
+Dialogue: 0,0:00:15.16,0:00:21.53,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(179,115)\k150\k38}首
+Dialogue: 0,0:00:15.16,0:00:21.53,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(199,115)\k168\k38}尾
+Dialogue: 0,0:00:15.16,0:00:21.53,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(216,115)\k186\k55}よ
+Dialogue: 0,0:00:15.16,0:00:21.53,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(229,115)\k221\k56}く
+Dialogue: 0,0:00:15.16,0:00:21.53,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(244,115)\k257\k38}行
+Dialogue: 0,0:00:15.16,0:00:21.53,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(262,115)\k275\k39}け
+Dialogue: 0,0:00:15.16,0:00:21.53,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(278,115)\k294\k53}ば
+Dialogue: 0,0:00:15.16,0:00:21.53,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(297,115)\k327\k61}御
+Dialogue: 0,0:00:15.16,0:00:21.53,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(317,115)\k368\k166}慰
+Dialogue: 0,0:00:15.16,0:00:21.53,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(345,115)\k514\k123}み！
+Dialogue: 0,0:00:15.16,0:00:21.53,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(184,93)\k150\k38}しゅ
+Dialogue: 0,0:00:15.16,0:00:21.53,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(196,93)\k168\k38}び
+Dialogue: 0,0:00:15.16,0:00:21.53,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(244,93)\k257\k38}い
+Dialogue: 0,0:00:15.16,0:00:21.53,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(296,93)\k327\k61}お
+Dialogue: 0,0:00:15.16,0:00:21.53,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(304,93)\k368\k91}な
+Dialogue: 0,0:00:15.16,0:00:21.53,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(311,93)\k439\k54}ぐ
+Dialogue: 0,0:00:15.16,0:00:21.53,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(318,93)\k473\k61}さ
+Dialogue: 0,0:00:30.34,0:00:33.52,foxy!,,0,0,0,fx,{\k150\fad(600,200)}{\k18}（Fo{\k18}xy {\k18}fo{\k18}xy {\k18}fo{\k18}xy {\k21}fo{\k19}xy）
+Dialogue: 0,0:00:43.34,0:00:47.93,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,55)\k150\k20}
+Dialogue: 0,0:00:43.34,0:00:47.93,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(30,55)\k150\k93}遅
+Dialogue: 0,0:00:43.34,0:00:47.93,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(48,55)\k223\k37}か
+Dialogue: 0,0:00:43.34,0:00:47.93,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(65,55)\k240\k34}れ
+Dialogue: 0,0:00:43.34,0:00:47.93,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(84,55)\k254\k82}早
+Dialogue: 0,0:00:43.34,0:00:47.93,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(102,55)\k316\k35}か
+Dialogue: 0,0:00:43.34,0:00:47.93,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(119,55)\k331\k31}れ
+Dialogue: 0,0:00:43.34,0:00:47.93,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(136,55)\k342\k46}い
+Dialogue: 0,0:00:43.34,0:00:47.93,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(152,55)\k368\k37}ず
+Dialogue: 0,0:00:43.34,0:00:47.93,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(169,55)\k385\k39}れ
+Dialogue: 0,0:00:43.34,0:00:47.93,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(187,55)\k404\k55}は
+Dialogue: 0,0:00:43.34,0:00:47.93,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(26,33)\k150\k52}お
+Dialogue: 0,0:00:43.34,0:00:47.93,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(34,33)\k182\k61}そ
+Dialogue: 0,0:00:43.34,0:00:47.93,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(79,33)\k254\k45}は
+Dialogue: 0,0:00:43.34,0:00:47.93,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(88,33)\k279\k57}や
+Dialogue: 0,0:00:46.23,0:00:50.88,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(119,115)\k150\k20}
+Dialogue: 0,0:00:46.23,0:00:50.88,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(126,115)\k150\k57}こ
+Dialogue: 0,0:00:46.23,0:00:50.88,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(139,115)\k187\k56}こ
+Dialogue: 0,0:00:46.23,0:00:50.88,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(154,115)\k223\k38}も
+Dialogue: 0,0:00:46.23,0:00:50.88,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(171,115)\k241\k38}枯
+Dialogue: 0,0:00:46.23,0:00:50.88,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(190,115)\k259\k42}れ
+Dialogue: 0,0:00:46.23,0:00:50.88,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(209,115)\k281\k52}果
+Dialogue: 0,0:00:46.23,0:00:50.88,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(227,115)\k313\k39}て
+Dialogue: 0,0:00:46.23,0:00:50.88,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(242,115)\k332\k36}ま
+Dialogue: 0,0:00:46.23,0:00:50.88,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(269,115)\k348\k34}しょう
+Dialogue: 0,0:00:46.23,0:00:50.88,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(294,115)\k362\k25}
+Dialogue: 0,0:00:46.23,0:00:50.88,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(309,115)\k367\k34}で
+Dialogue: 0,0:00:46.23,0:00:50.88,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(326,115)\k381\k41}す
+Dialogue: 0,0:00:46.23,0:00:50.88,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(342,115)\k402\k41}か
+Dialogue: 0,0:00:46.23,0:00:50.88,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(357,115)\k423\k42}ら
+Dialogue: 0,0:00:46.23,0:00:50.88,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(171,93)\k241\k38}か
+Dialogue: 0,0:00:46.23,0:00:50.88,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(209,93)\k281\k52}は
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,55)\k150\k20}
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(30,55)\k150\k87}今
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(48,55)\k217\k38}の
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(62,55)\k235\k57}う
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(76,55)\k272\k38}ち
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(91,55)\k290\k31}に
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(107,55)\k301\k28}サ
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(123,55)\k309\k28}ス
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(151,55)\k317\k42}ティナ
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(188,55)\k339\k35}ブル
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(212,55)\k354\k28}な
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(231,55)\k362\k38}利
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(251,55)\k380\k38}益
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(267,55)\k398\k48}、
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(26,33)\k150\k51}い‎ ‎
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(35,33)\k181\k56}ま
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(233,33)\k362\k38}り
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(240,33)\k380\k38}え
+Dialogue: 0,0:00:49.17,0:00:53.63,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(248,33)\k398\k20}き
+Dialogue: 0,0:00:52.03,0:00:56.59,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(196,115)\k150\k20}
+Dialogue: 0,0:00:52.03,0:00:56.59,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(203,115)\k150\k57}そ
+Dialogue: 0,0:00:52.03,0:00:56.59,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(219,115)\k187\k55}れ
+Dialogue: 0,0:00:52.03,0:00:56.59,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(236,115)\k222\k39}を
+Dialogue: 0,0:00:52.03,0:00:56.59,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(253,115)\k241\k56}追
+Dialogue: 0,0:00:52.03,0:00:56.59,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(273,115)\k277\k94}求
+Dialogue: 0,0:00:52.03,0:00:56.59,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(291,115)\k351\k35}す
+Dialogue: 0,0:00:52.03,0:00:56.59,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(308,115)\k366\k39}べ
+Dialogue: 0,0:00:52.03,0:00:56.59,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(323,115)\k385\k38}き
+Dialogue: 0,0:00:52.03,0:00:56.59,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(339,115)\k403\k35}で
+Dialogue: 0,0:00:52.03,0:00:56.59,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(356,115)\k418\k38}す
+Dialogue: 0,0:00:52.03,0:00:56.59,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(249,93)\k241\k37}つ
+Dialogue: 0,0:00:52.03,0:00:56.59,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(257,93)\k258\k39}い
+Dialogue: 0,0:00:52.03,0:00:56.59,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(268,93)\k277\k55}きゅ
+Dialogue: 0,0:00:52.03,0:00:56.59,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(278,93)\k312\k59}う
+Dialogue: 0,0:00:54.89,0:00:59.51,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,55)\k150\k20}
+Dialogue: 0,0:00:54.89,0:00:59.51,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(27,55)\k150\k57}こ
+Dialogue: 0,0:00:54.89,0:00:59.51,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(41,55)\k187\k58}こ
+Dialogue: 0,0:00:54.89,0:00:59.51,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(55,55)\k225\k38}だ
+Dialogue: 0,0:00:54.89,0:00:59.51,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(71,55)\k243\k56}け
+Dialogue: 0,0:00:54.89,0:00:59.51,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(88,55)\k279\k56}の
+Dialogue: 0,0:00:54.89,0:00:59.51,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(106,55)\k315\k73}話
+Dialogue: 0,0:00:54.89,0:00:59.51,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(124,55)\k368\k39}で
+Dialogue: 0,0:00:54.89,0:00:59.51,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(140,55)\k387\k38}す
+Dialogue: 0,0:00:54.89,0:00:59.51,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(156,55)\k405\k57}よ
+Dialogue: 0,0:00:54.89,0:00:59.51,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(100,33)\k315\k38}は
+Dialogue: 0,0:00:54.89,0:00:59.51,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(108,33)\k333\k36}な
+Dialogue: 0,0:00:54.89,0:00:59.51,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(116,33)\k349\k39}し
+Dialogue: 0,0:00:57.81,0:01:02.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(169,115)\k150\k20}
+Dialogue: 0,0:00:57.81,0:01:02.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(177,115)\k150\k55}ア
+Dialogue: 0,0:00:57.81,0:01:02.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(192,115)\k185\k57}ナ
+Dialogue: 0,0:00:57.81,0:01:02.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(207,115)\k222\k38}タ
+Dialogue: 0,0:00:57.81,0:01:02.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(222,115)\k240\k56}だ
+Dialogue: 0,0:00:57.81,0:01:02.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(238,115)\k276\k57}け
+Dialogue: 0,0:00:57.81,0:01:02.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(254,115)\k313\k37}に
+Dialogue: 0,0:00:57.81,0:01:02.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(272,115)\k330\k38}明
+Dialogue: 0,0:00:57.81,0:01:02.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(290,115)\k348\k35}か
+Dialogue: 0,0:00:57.81,0:01:02.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(306,115)\k363\k43}す
+Dialogue: 0,0:00:57.81,0:01:02.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(323,115)\k386\k37}の
+Dialogue: 0,0:00:57.81,0:01:02.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(339,115)\k403\k35}で
+Dialogue: 0,0:00:57.81,0:01:02.40,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(356,115)\k418\k41}す
+Dialogue: 0,0:00:57.81,0:01:02.40,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(272,93)\k330\k38}あ
+Dialogue: 0,0:01:00.70,0:01:05.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,55)\k150\k20}
+Dialogue: 0,0:01:00.70,0:01:05.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(30,55)\k150\k89}今
+Dialogue: 0,0:01:00.70,0:01:05.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(48,55)\k219\k41}す
+Dialogue: 0,0:01:00.70,0:01:05.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(63,55)\k240\k38}ぐ
+Dialogue: 0,0:01:00.70,0:01:05.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(77,55)\k258\k31}に
+Dialogue: 0,0:01:00.70,0:01:05.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(95,55)\k269\k46}動
+Dialogue: 0,0:01:00.70,0:01:05.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(110,55)\k295\k37}く
+Dialogue: 0,0:01:00.70,0:01:05.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(123,55)\k312\k58}べ
+Dialogue: 0,0:01:00.70,0:01:05.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(139,55)\k350\k37}き
+Dialogue: 0,0:01:00.70,0:01:05.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(154,55)\k367\k36}で
+Dialogue: 0,0:01:00.70,0:01:05.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(171,55)\k383\k40}す
+Dialogue: 0,0:01:00.70,0:01:05.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(187,55)\k403\k56}よ
+Dialogue: 0,0:01:00.70,0:01:05.29,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(26,33)\k150\k56}い‎ ‎
+Dialogue: 0,0:01:00.70,0:01:05.29,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(35,33)\k186\k53}ま
+Dialogue: 0,0:01:00.70,0:01:05.29,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(91,33)\k269\k27}う
+Dialogue: 0,0:01:00.70,0:01:05.29,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(98,33)\k276\k39}ご
+Dialogue: 0,0:01:03.59,0:01:08.18,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(244,115)\k150\k20}
+Dialogue: 0,0:01:03.59,0:01:08.18,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(254,115)\k150\k112}私
+Dialogue: 0,0:01:03.59,0:01:08.18,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(272,115)\k242\k55}め
+Dialogue: 0,0:01:03.59,0:01:08.18,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(288,115)\k277\k94}に
+Dialogue: 0,0:01:03.59,0:01:08.18,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(304,115)\k351\k36}お
+Dialogue: 0,0:01:03.59,0:01:08.18,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(322,115)\k367\k52}任
+Dialogue: 0,0:01:03.59,0:01:08.18,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(341,115)\k399\k42}せ
+Dialogue: 0,0:01:03.59,0:01:08.18,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(357,115)\k421\k38}を
+Dialogue: 0,0:01:03.59,0:01:08.18,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(248,93)\k150\k56}わ
+Dialogue: 0,0:01:03.59,0:01:08.18,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(257,93)\k186\k51}た
+Dialogue: 0,0:01:03.59,0:01:08.18,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(264,93)\k217\k45}し
+Dialogue: 0,0:01:03.59,0:01:08.18,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(318,93)\k367\k37}ま
+Dialogue: 0,0:01:03.59,0:01:08.18,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(326,93)\k384\k35}か
+Dialogue: 0,0:01:06.48,0:01:11.07,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,55)\k150\k20}
+Dialogue: 0,0:01:06.48,0:01:11.07,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(27,55)\k150\k38}そ
+Dialogue: 0,0:01:06.48,0:01:11.07,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(42,55)\k168\k39}そ
+Dialogue: 0,0:01:06.48,0:01:11.07,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(58,55)\k187\k37}の
+Dialogue: 0,0:01:06.48,0:01:11.07,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(74,55)\k204\k38}か
+Dialogue: 0,0:01:06.48,0:01:11.07,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(91,55)\k222\k39}す
+Dialogue: 0,0:01:06.48,0:01:11.07,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(108,55)\k241\k38}な
+Dialogue: 0,0:01:06.48,0:01:11.07,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(123,55)\k259\k29}ど
+Dialogue: 0,0:01:06.48,0:01:11.07,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(137,55)\k268\k30}
+Dialogue: 0,0:01:06.48,0:01:11.07,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(152,55)\k278\k56}た
+Dialogue: 0,0:01:06.48,0:01:11.07,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(168,55)\k314\k36}ぶ
+Dialogue: 0,0:01:06.48,0:01:11.07,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(183,55)\k330\k40}ら
+Dialogue: 0,0:01:06.48,0:01:11.07,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(198,55)\k350\k36}か
+Dialogue: 0,0:01:06.48,0:01:11.07,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(214,55)\k366\k39}す
+Dialogue: 0,0:01:06.48,0:01:11.07,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(231,55)\k385\k38}な
+Dialogue: 0,0:01:06.48,0:01:11.07,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(247,55)\k403\k56}ど
+Dialogue: 0,0:01:09.37,0:01:13.93,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(114,115)\k150\k20}
+Dialogue: 0,0:01:09.37,0:01:13.93,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(122,115)\k150\k40}け
+Dialogue: 0,0:01:09.37,0:01:13.93,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(137,115)\k170\k36}し
+Dialogue: 0,0:01:09.37,0:01:13.93,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(153,115)\k186\k39}か
+Dialogue: 0,0:01:09.37,0:01:13.93,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(169,115)\k205\k36}け
+Dialogue: 0,0:01:09.37,0:01:13.93,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(184,115)\k221\k40}る
+Dialogue: 0,0:01:09.37,0:01:13.93,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(201,115)\k241\k38}な
+Dialogue: 0,0:01:09.37,0:01:13.93,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(216,115)\k259\k28}ど
+Dialogue: 0,0:01:09.37,0:01:13.93,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(230,115)\k267\k28}
+Dialogue: 0,0:01:09.37,0:01:13.93,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(252,115)\k275\k75}こん
+Dialogue: 0,0:01:09.37,0:01:13.93,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(282,115)\k330\k60}こん
+Dialogue: 0,0:01:09.37,0:01:13.93,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(305,115)\k370\k36}ち
+Dialogue: 0,0:01:09.37,0:01:13.93,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(320,115)\k386\k38}き
+Dialogue: 0,0:01:09.37,0:01:13.93,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(346,115)\k404\k52}な！
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,55)\k150\k20}
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(27,55)\k150\k39}こ
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(42,55)\k169\k41}の
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(60,55)\k190\k37}世
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(78,55)\k207\k39}で
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(96,55)\k226\k56}一
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(116,55)\k262\k36}等
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(146,55)\k278\k76}正直
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(176,55)\k334\k56}直
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(194,55)\k370\k39}な
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(211,55)\k389\k37}の
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(234,55)\k406\k57}は、
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(60,33)\k190\k37}よ
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(93,33)\k226\k34}い
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(100,33)\k240\k42}っ
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(116,33)\k262\k36}とう
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(145,33)\k278\k59}しょ
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(155,33)\k317\k37}う
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(162,33)\k334\k39}じ
+Dialogue: 0,0:01:12.23,0:01:16.86,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(169,33)\k353\k37}き
+Dialogue: 0,0:01:15.16,0:01:19.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(265,115)\k150\k20}
+Dialogue: 0,0:01:15.16,0:01:19.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(275,115)\k150\k75}狐
+Dialogue: 0,0:01:15.16,0:01:19.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(291,115)\k205\k37}と
+Dialogue: 0,0:01:15.16,0:01:19.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(307,115)\k222\k38}聞
+Dialogue: 0,0:01:15.16,0:01:19.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(325,115)\k240\k38}き
+Dialogue: 0,0:01:15.16,0:01:19.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(340,115)\k258\k41}ま
+Dialogue: 0,0:01:15.16,0:01:19.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(356,115)\k279\k65}す
+Dialogue: 0,0:01:15.16,0:01:19.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(364,115)\k324\k70}
+Dialogue: 0,0:01:15.16,0:01:19.10,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(269,93)\k150\k41}き
+Dialogue: 0,0:01:15.16,0:01:19.10,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(276,93)\k171\k35}つ
+Dialogue: 0,0:01:15.16,0:01:19.10,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(285,93)\k186\k39}ね
+Dialogue: 0,0:01:15.16,0:01:19.10,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(307,93)\k222\k38}き
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,55)\k150\k20}
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(30,55)\k150\k33}言
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(46,55)\k163\k26}っ
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(60,55)\k169\k37}た
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(82,55)\k186\k35}とお
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(103,55)\k201\k39}り
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(116,55)\k220\k39}
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(131,55)\k239\k58}ホ
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(146,55)\k277\k37}ラ
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(162,55)\k294\k34}言
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(179,55)\k308\k26}っ
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(193,55)\k314\k37}た
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(215,55)\k331\k39}とお
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(236,55)\k350\k56}り
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(250,55)\k386\k39}で
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(271,55)\k405\k37}しょ
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(290,55)\k422\k45}う
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(30,33)\k150\k33}い
+Dialogue: 0,0:01:18.04,0:01:22.71,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(162,33)\k294\k34}い
+Dialogue: 0,0:01:21.12,0:01:25.54,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(101,115)\k150\k20}
+Dialogue: 0,0:01:21.12,0:01:25.54,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(109,115)\k150\k39}ま
+Dialogue: 0,0:01:21.12,0:01:25.54,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(123,115)\k169\k38}こ
+Dialogue: 0,0:01:21.12,0:01:25.54,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(137,115)\k187\k38}と
+Dialogue: 0,0:01:21.12,0:01:25.54,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(150,115)\k205\k38}し
+Dialogue: 0,0:01:21.12,0:01:25.54,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(166,115)\k223\k37}や
+Dialogue: 0,0:01:21.12,0:01:25.54,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(182,115)\k240\k28}か
+Dialogue: 0,0:01:21.12,0:01:25.54,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(197,115)\k248\k28}
+Dialogue: 0,0:01:21.12,0:01:25.54,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(228,115)\k256\k56}こん！
+Dialogue: 0,0:01:21.12,0:01:25.54,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(270,115)\k292\k49}こ～
+Dialogue: 0,0:01:21.12,0:01:25.54,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(287,115)\k321\k30}
+Dialogue: 0,0:01:21.12,0:01:25.54,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(295,115)\k331\k36}ん
+Dialogue: 0,0:01:21.12,0:01:25.54,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(310,115)\k347\k40}さ
+Dialogue: 0,0:01:21.12,0:01:25.54,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(325,115)\k367\k38}る
+Dialogue: 0,0:01:21.12,0:01:25.54,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(340,115)\k385\k38}た
+Dialogue: 0,0:01:21.12,0:01:25.54,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(356,115)\k403\k39}ん
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,55)\k150\k20}
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(30,55)\k150\k32}言
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(46,55)\k162\k25}っ
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(60,55)\k167\k39}た
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(82,55)\k186\k38}とお
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(103,55)\k204\k37}り
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(116,55)\k221\k38}
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(130,55)\k239\k58}ソ
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(144,55)\k277\k34}ラ
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(161,55)\k291\k35}言
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(177,55)\k306\k27}っ
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(191,55)\k313\k37}た
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(214,55)\k330\k36}とお
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(234,55)\k346\k59}り
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(249,55)\k385\k40}で
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(270,55)\k405\k36}しょ
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(289,55)\k421\k49}う
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(30,33)\k150\k32}い
+Dialogue: 0,0:01:23.84,0:01:28.54,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(161,33)\k291\k35}い
+Dialogue: 0,0:01:26.91,0:01:31.26,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(107,115)\k150\k20}
+Dialogue: 0,0:01:26.91,0:01:31.26,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(117,115)\k150\k56}頼
+Dialogue: 0,0:01:26.91,0:01:31.26,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(134,115)\k186\k38}る
+Dialogue: 0,0:01:26.91,0:01:31.26,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(150,115)\k204\k38}べ
+Dialogue: 0,0:01:26.91,0:01:31.26,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(166,115)\k222\k38}き
+Dialogue: 0,0:01:26.91,0:01:31.26,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(182,115)\k240\k29}は
+Dialogue: 0,0:01:26.91,0:01:31.26,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(197,115)\k249\k29}
+Dialogue: 0,0:01:26.91,0:01:31.26,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(228,115)\k258\k56}こん！
+Dialogue: 0,0:01:26.91,0:01:31.26,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(270,115)\k294\k47}こ～
+Dialogue: 0,0:01:26.91,0:01:31.26,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(287,115)\k321\k30}
+Dialogue: 0,0:01:26.91,0:01:31.26,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(295,115)\k331\k37}ん
+Dialogue: 0,0:01:26.91,0:01:31.26,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(310,115)\k348\k39}さ
+Dialogue: 0,0:01:26.91,0:01:31.26,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(325,115)\k367\k38}る
+Dialogue: 0,0:01:26.91,0:01:31.26,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(348,115)\k385\k50}たん
+Dialogue: 0,0:01:26.91,0:01:31.26,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(113,93)\k150\k37}た
+Dialogue: 0,0:01:26.91,0:01:31.26,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(121,93)\k167\k39}の
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,55)\k150\k20}
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(30,55)\k150\k33}言
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(46,55)\k163\k26}っ
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(60,55)\k169\k37}た
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(82,55)\k186\k35}とお
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(103,55)\k201\k39}り
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(116,55)\k220\k39}
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(131,55)\k239\k58}ホ
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(146,55)\k277\k32}ラ
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(162,55)\k289\k36}言
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(179,55)\k305\k27}っ
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(193,55)\k312\k39}た
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(215,55)\k331\k37}とお
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(236,55)\k348\k58}り
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(250,55)\k386\k37}で
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(271,55)\k403\k39}しょ
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(290,55)\k422\k45}う
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(30,33)\k150\k33}い
+Dialogue: 0,0:01:29.62,0:01:34.29,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(162,33)\k289\k36}い
+Dialogue: 0,0:01:32.70,0:01:37.12,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(71,115)\k150\k20}
+Dialogue: 0,0:01:32.70,0:01:37.12,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(79,115)\k150\k39}ア
+Dialogue: 0,0:01:32.70,0:01:37.12,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(94,115)\k169\k36}ナ
+Dialogue: 0,0:01:32.70,0:01:37.12,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(109,115)\k185\k38}タ
+Dialogue: 0,0:01:32.70,0:01:37.12,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(124,115)\k203\k38}だ
+Dialogue: 0,0:01:32.70,0:01:37.12,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(140,115)\k221\k39}け
+Dialogue: 0,0:01:32.70,0:01:37.12,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(156,115)\k240\k29}に
+Dialogue: 0,0:01:32.70,0:01:37.12,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(170,115)\k249\k29}
+Dialogue: 0,0:01:32.70,0:01:37.12,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(202,115)\k258\k54}こん！
+Dialogue: 0,0:01:32.70,0:01:37.12,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(243,115)\k292\k47}こ～
+Dialogue: 0,0:01:32.70,0:01:37.12,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(260,115)\k319\k30}
+Dialogue: 0,0:01:32.70,0:01:37.12,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(268,115)\k329\k38}ん
+Dialogue: 0,0:01:32.70,0:01:37.12,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(291,115)\k347\k40}みっ
+Dialogue: 0,0:01:32.70,0:01:37.12,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(313,115)\k367\k38}と
+Dialogue: 0,0:01:32.70,0:01:37.12,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(335,115)\k385\k38}めん
+Dialogue: 0,0:01:32.70,0:01:37.12,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(358,115)\k403\k39}と
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,55)\k150\k20}
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(30,55)\k150\k32}言
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(46,55)\k162\k25}っ
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(60,55)\k167\k37}た
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(82,55)\k184\k36}とお
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(103,55)\k200\k39}り
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(116,55)\k219\k40}
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(130,55)\k239\k56}ソ
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(144,55)\k275\k31}ラ
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(161,55)\k286\k37}言
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(177,55)\k303\k28}っ
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(191,55)\k311\k38}た
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(214,55)\k329\k37}とお
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(234,55)\k346\k57}り
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(249,55)\k383\k38}で
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(270,55)\k401\k38}しょ
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(289,55)\k419\k51}う
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(30,33)\k150\k32}い
+Dialogue: 0,0:01:35.42,0:01:40.12,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(161,33)\k286\k37}い
+Dialogue: 0,0:01:38.49,0:01:42.84,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(87,115)\k150\k20}
+Dialogue: 0,0:01:38.49,0:01:42.84,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(97,115)\k150\k56}頼
+Dialogue: 0,0:01:38.49,0:01:42.84,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(115,115)\k186\k37}る
+Dialogue: 0,0:01:38.49,0:01:42.84,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(130,115)\k203\k39}べ
+Dialogue: 0,0:01:38.49,0:01:42.84,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(146,115)\k222\k36}き
+Dialogue: 0,0:01:38.49,0:01:42.84,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(162,115)\k238\k30}は
+Dialogue: 0,0:01:38.49,0:01:42.84,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(177,115)\k248\k30}
+Dialogue: 0,0:01:38.49,0:01:42.84,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(209,115)\k258\k55}こん！
+Dialogue: 0,0:01:38.49,0:01:42.84,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(250,115)\k293\k48}こ～
+Dialogue: 0,0:01:38.49,0:01:42.84,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(267,115)\k321\k30}
+Dialogue: 0,0:01:38.49,0:01:42.84,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(275,115)\k331\k37}ん
+Dialogue: 0,0:01:38.49,0:01:42.84,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(298,115)\k348\k57}さる
+Dialogue: 0,0:01:38.49,0:01:42.84,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(338,115)\k385\k50}たん！
+Dialogue: 0,0:01:38.49,0:01:42.84,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(93,93)\k150\k37}た
+Dialogue: 0,0:01:38.49,0:01:42.84,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(101,93)\k167\k39}の
+Dialogue: 0,0:01:53.37,0:01:55.91,CONSULTANT,,0,0,0,fx,{\k90\fad(300,200)}{\k18}CO-{\k18}CO-{\k18}CON{\k17}SUL {\k28}TANT! {\k25}TANT! {\k20}TANT!
+Dialogue: 0,0:01:54.81,0:01:57.37,CONSULTANT,,0,0,0,fx,{\k90\fad(300,200)}{\kf24}COOOON {\k12}{\k19}CO-{\k9}CO-{\k8}CO {\k27}TANT! {\k27}TANT! {\k20}TANT!
+Dialogue: 0,0:01:56.27,0:01:58.69,CONSULTANT,,0,0,0,fx,{\k90\fad(300,200)}{\k17}CO-{\k18}CO-{\k18}CON{\k17}SUL {\k28}TANT! {\k26}TANT! {\k8}TANT!
+Dialogue: 0,0:01:57.59,0:02:00.25,CONSULTANT,,0,0,0,fx,{\k90\fad(300,200)}{\k12}CON-{\k16}CON {\k12}SUL-{\k8}SUL {\k18}TAL-{\k17}TAL {\k10}TA{\k8}TA{\k10}TA{\k9}TA-{\k9}TA{\k9}TA{\k10}TA-{\k8}TANT!
+Dialogue: 0,0:01:59.15,0:02:01.70,CONSULTANT,,0,0,0,fx,{\k90\fad(300,200)}{\k18}CO-{\k18}CO-{\k18}CON{\k17}SUL {\k28}TANT! {\k25}TANT! {\k21}TANT!
+Dialogue: 0,0:02:00.60,0:02:03.14,CONSULTANT,,0,0,0,fx,{\k90\fad(300,200)}{\kf24}COOOON {\k12}{\k19}CO-{\k9}CO-{\k8}CO {\k27}TANT! {\k27}TANT! {\k18}TANT!
+Dialogue: 0,0:02:02.04,0:02:04.60,CONSULTANT,,0,0,0,fx,{\k90\fad(300,200)}{\k17}CO-{\k18}CO-{\k16}CON{\k21}SUL {\k27}TANT! {\k26}TANT! {\k21}TANT!
+Dialogue: 0,0:02:03.50,0:02:05.80,CONSULTANT,,0,0,0,fx,{\k90\fad(300,200)}{\k12}CON-{\k16}CON {\k12}SUL-{\k8}SUL {\k18}TAL-{\k17}TAL {\k10}TA{\k8}TA{\k10}TA{\k9}TA-
+Dialogue: 0,0:02:04.33,0:02:06.93,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,55)\k150\k20}
+Dialogue: 0,0:02:04.33,0:02:06.93,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(30,55)\k150\k39}結
+Dialogue: 0,0:02:04.33,0:02:06.93,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(50,55)\k169\k34}果
+Dialogue: 0,0:02:04.33,0:02:06.93,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(76,55)\k183\k38}オー
+Dialogue: 0,0:02:04.33,0:02:06.93,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(105,55)\k201\k59}ライ
+Dialogue: 0,0:02:04.33,0:02:06.93,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(36,33)\k150\k39}けっ
+Dialogue: 0,0:02:04.33,0:02:06.93,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(47,33)\k169\k34}か
+Dialogue: 0,0:02:05.23,0:02:09.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(170,115)\k150\k20}
+Dialogue: 0,0:02:05.23,0:02:09.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(178,115)\k150\k20}き
+Dialogue: 0,0:02:05.23,0:02:09.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(191,115)\k150\k55}っ
+Dialogue: 0,0:02:05.23,0:02:09.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(204,115)\k185\k39}と
+Dialogue: 0,0:02:05.23,0:02:09.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(220,115)\k204\k41}結
+Dialogue: 0,0:02:05.23,0:02:09.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(240,115)\k225\k35}果
+Dialogue: 0,0:02:05.23,0:02:09.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(266,115)\k240\k38}オー
+Dialogue: 0,0:02:05.23,0:02:09.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(296,115)\k258\k59}ライ
+Dialogue: 0,0:02:05.23,0:02:09.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(318,115)\k297\k34}で
+Dialogue: 0,0:02:05.23,0:02:09.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(339,115)\k311\k39}しょ
+Dialogue: 0,0:02:05.23,0:02:09.10,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(358,115)\k330\k57}う
+Dialogue: 0,0:02:05.23,0:02:09.10,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(226,93)\k204\k41}けっ
+Dialogue: 0,0:02:05.23,0:02:09.10,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(237,93)\k225\k35}か
+Dialogue: 0,0:02:07.40,0:02:11.81,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,55)\k150\k20}
+Dialogue: 0,0:02:07.40,0:02:11.81,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(28,55)\k150\k40}お
+Dialogue: 0,0:02:07.40,0:02:11.81,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(46,55)\k170\k51}耳
+Dialogue: 0,0:02:07.40,0:02:11.81,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(66,55)\k201\k48}拝
+Dialogue: 0,0:02:07.40,0:02:11.81,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(86,55)\k229\k85}借
+Dialogue: 0,0:02:07.40,0:02:11.81,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(113,55)\k294\k45}こ～
+Dialogue: 0,0:02:07.40,0:02:11.81,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(130,55)\k319\k30}
+Dialogue: 0,0:02:07.40,0:02:11.81,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(138,55)\k329\k39}ん
+Dialogue: 0,0:02:07.40,0:02:11.81,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(153,55)\k348\k38}さ
+Dialogue: 0,0:02:07.40,0:02:11.81,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(167,55)\k366\k38}る
+Dialogue: 0,0:02:07.40,0:02:11.81,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(183,55)\k384\k35}た
+Dialogue: 0,0:02:07.40,0:02:11.81,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(198,55)\k399\k42}ん
+Dialogue: 0,0:02:07.40,0:02:11.81,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(42,33)\k170\k36}み
+Dialogue: 0,0:02:07.40,0:02:11.81,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(51,33)\k186\k35}み
+Dialogue: 0,0:02:07.40,0:02:11.81,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(62,33)\k201\k35}は
+Dialogue: 0,0:02:07.40,0:02:11.81,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(70,33)\k216\k33}い
+Dialogue: 0,0:02:07.40,0:02:11.81,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(83,33)\k229\k49}しゃ
+Dialogue: 0,0:02:07.40,0:02:11.81,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(93,33)\k258\k56}く
+Dialogue: 0,0:02:10.11,0:02:14.86,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(92,115)\k150\k20}
+Dialogue: 0,0:02:10.11,0:02:14.86,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(102,115)\k150\k36}無
+Dialogue: 0,0:02:10.11,0:02:14.86,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(122,115)\k166\k20}理
+Dialogue: 0,0:02:10.11,0:02:14.86,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(138,115)\k166\k40}、
+Dialogue: 0,0:02:10.11,0:02:14.86,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(155,115)\k186\k38}通
+Dialogue: 0,0:02:10.11,0:02:14.86,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(171,115)\k204\k37}り
+Dialogue: 0,0:02:10.11,0:02:14.86,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(184,115)\k221\k38}
+Dialogue: 0,0:02:10.11,0:02:14.86,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(200,115)\k239\k33}引
+Dialogue: 0,0:02:10.11,0:02:14.86,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(217,115)\k252\k43}っ
+Dialogue: 0,0:02:10.11,0:02:14.86,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(233,115)\k275\k39}込
+Dialogue: 0,0:02:10.11,0:02:14.86,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(250,115)\k294\k40}ま
+Dialogue: 0,0:02:10.11,0:02:14.86,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(266,115)\k314\k36}せ
+Dialogue: 0,0:02:10.11,0:02:14.86,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(295,115)\k330\k38}ちゃっ
+Dialogue: 0,0:02:10.11,0:02:14.86,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(324,115)\k348\k57}て
+Dialogue: 0,0:02:10.11,0:02:14.86,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(342,115)\k385\k57}道
+Dialogue: 0,0:02:10.11,0:02:14.86,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(358,115)\k422\k53}り
+Dialogue: 0,0:02:10.11,0:02:14.86,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(109,93)\k150\k36}む
+Dialogue: 0,0:02:10.11,0:02:14.86,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(116,93)\k166\k20}り
+Dialogue: 0,0:02:10.11,0:02:14.86,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(155,93)\k186\k38}とお
+Dialogue: 0,0:02:10.11,0:02:14.86,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(200,93)\k239\k33}ひ
+Dialogue: 0,0:02:10.11,0:02:14.86,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(233,93)\k275\k39}こ
+Dialogue: 0,0:02:10.11,0:02:14.86,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(339,93)\k385\k36}ど
+Dialogue: 0,0:02:10.11,0:02:14.86,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(345,93)\k401\k41}う
+Dialogue: 0,0:02:13.16,0:02:17.58,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,55)\k150\k20}
+Dialogue: 0,0:02:13.16,0:02:17.58,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(30,55)\k150\k58}先
+Dialogue: 0,0:02:13.16,0:02:17.58,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(48,55)\k188\k39}の
+Dialogue: 0,0:02:13.16,0:02:17.58,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(63,55)\k207\k39}こ
+Dialogue: 0,0:02:13.16,0:02:17.58,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(76,55)\k226\k32}と
+Dialogue: 0,0:02:13.16,0:02:17.58,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(91,55)\k238\k40}は
+Dialogue: 0,0:02:13.16,0:02:17.58,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(109,55)\k258\k36}知
+Dialogue: 0,0:02:13.16,0:02:17.58,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(126,55)\k274\k41}っ
+Dialogue: 0,0:02:13.16,0:02:17.58,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(140,55)\k295\k55}た
+Dialogue: 0,0:02:13.16,0:02:17.58,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(154,55)\k330\k33}こ
+Dialogue: 0,0:02:13.16,0:02:17.58,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(167,55)\k343\k44}っ
+Dialogue: 0,0:02:13.16,0:02:17.58,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(188,55)\k367\k38}ちゃ
+Dialogue: 0,0:02:13.16,0:02:17.58,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(219,55)\k385\k57}ない
+Dialogue: 0,0:02:13.16,0:02:17.58,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(26,33)\k150\k39}さ
+Dialogue: 0,0:02:13.16,0:02:17.58,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(33,33)\k169\k39}き
+Dialogue: 0,0:02:13.16,0:02:17.58,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(109,33)\k258\k36}し
+Dialogue: 0,0:02:15.88,0:02:20.49,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(88,115)\k150\k20}
+Dialogue: 0,0:02:15.88,0:02:20.49,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(98,115)\k150\k33}言
+Dialogue: 0,0:02:15.88,0:02:20.49,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(114,115)\k163\k26}っ
+Dialogue: 0,0:02:15.88,0:02:20.49,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(128,115)\k169\k37}た
+Dialogue: 0,0:02:15.88,0:02:20.49,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(150,115)\k186\k35}とお
+Dialogue: 0,0:02:15.88,0:02:20.49,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(171,115)\k201\k40}り
+Dialogue: 0,0:02:15.88,0:02:20.49,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(184,115)\k221\k40}
+Dialogue: 0,0:02:15.88,0:02:20.49,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(198,115)\k241\k56}ホ
+Dialogue: 0,0:02:15.88,0:02:20.49,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(213,115)\k277\k33}ラ
+Dialogue: 0,0:02:15.88,0:02:20.49,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(230,115)\k290\k37}言
+Dialogue: 0,0:02:15.88,0:02:20.49,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(246,115)\k307\k27}っ
+Dialogue: 0,0:02:15.88,0:02:20.49,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(261,115)\k314\k37}た
+Dialogue: 0,0:02:15.88,0:02:20.49,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(283,115)\k331\k35}とお
+Dialogue: 0,0:02:15.88,0:02:20.49,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(303,115)\k346\k60}り
+Dialogue: 0,0:02:15.88,0:02:20.49,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(318,115)\k386\k39}で
+Dialogue: 0,0:02:15.88,0:02:20.49,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(339,115)\k405\k37}しょ
+Dialogue: 0,0:02:15.88,0:02:20.49,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(358,115)\k422\k39}う
+Dialogue: 0,0:02:15.88,0:02:20.49,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(98,93)\k150\k33}い
+Dialogue: 0,0:02:15.88,0:02:20.49,hora-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(230,93)\k290\k37}い
+Dialogue: 0,0:02:18.79,0:02:21.74,I told you so L,,0,0,0,fx,{\k150\fad(600,200)}{\k17}I {\k16}told {\k20}you {\k16}so, {\k20}I {\k17}told {\k19}you
+Dialogue: 0,0:02:20.04,0:02:23.38,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(184,115)\k150\k20}
+Dialogue: 0,0:02:20.04,0:02:23.38,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(209,115)\k150\k56}こん！
+Dialogue: 0,0:02:20.04,0:02:23.38,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(250,115)\k186\k46}こ～
+Dialogue: 0,0:02:20.04,0:02:23.38,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(267,115)\k212\k30}
+Dialogue: 0,0:02:20.04,0:02:23.38,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(275,115)\k222\k37}ん
+Dialogue: 0,0:02:20.04,0:02:23.38,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(290,115)\k239\k39}さ
+Dialogue: 0,0:02:20.04,0:02:23.38,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(305,115)\k258\k39}る
+Dialogue: 0,0:02:20.04,0:02:23.38,hora,,0,0,0,fx,{\fade(600,200)\an5\pos(338,115)\k277\k57}たん！
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,55)\k150\k20}
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(30,55)\k150\k32}言
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(46,55)\k162\k25}っ
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(60,55)\k167\k37}た
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(82,55)\k184\k39}とお
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(103,55)\k203\k47}り
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(115,55)\k230\k29}
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(122,55)\k239\k56}ソ
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(137,55)\k275\k38}ラ
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(154,55)\k293\k33}言
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(170,55)\k306\k25}っ
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(184,55)\k311\k38}た
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(206,55)\k329\k38}とお
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(227,55)\k347\k57}り
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(241,55)\k384\k37}で
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(262,55)\k401\k39}しょ
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(281,55)\k420\k36}う
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(30,33)\k150\k32}い
+Dialogue: 0,0:02:21.68,0:02:26.24,itta toori-furigana,,0,0,0,fx,{\fade(600,200)\an5\pos(154,33)\k293\k33}い
+Dialogue: 0,0:02:24.54,0:02:27.51,I told you so R,,0,0,0,fx,{\k150\fad(600,200)}{\k17}I {\k16}told {\k20}you {\k16}so, {\k20}I {\k17}told {\k19}you
+Dialogue: 0,0:02:25.81,0:02:29.10,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,55)\k150\k20}
+Dialogue: 0,0:02:25.81,0:02:29.10,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(45,55)\k150\k57}こん！
+Dialogue: 0,0:02:25.81,0:02:29.10,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(87,55)\k187\k51}こ～
+Dialogue: 0,0:02:25.81,0:02:29.10,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(104,55)\k218\k30}
+Dialogue: 0,0:02:25.81,0:02:29.10,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(112,55)\k228\k34}ん
+Dialogue: 0,0:02:25.81,0:02:29.10,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(127,55)\k242\k39}さ
+Dialogue: 0,0:02:25.81,0:02:29.10,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(141,55)\k261\k36}る
+Dialogue: 0,0:02:25.81,0:02:29.10,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(175,55)\k277\k52}たん！
+Dialogue: 0,0:02:28.06,0:02:30.60,CONSULTANT,,0,0,0,fx,{\k90\fad(300,200)}{\k18}CO-{\k18}CO-{\k18}CON{\k17}SUL {\k28}TANT! {\k25}TANT! {\k20}TANT!
+Dialogue: 0,0:02:29.50,0:02:32.06,CONSULTANT,,0,0,0,fx,{\k90\fad(300,200)}{\kf24}COOOON {\k12}{\k19}CO-{\k9}CO-{\k8}CO {\k27}TANT! {\k27}TANT! {\k20}TANT!
+Dialogue: 0,0:02:30.96,0:02:33.38,CONSULTANT,,0,0,0,fx,{\k90\fad(300,200)}{\k17}CO-{\k18}CO-{\k18}CON{\k17}SUL {\k28}TANT! {\k26}TANT! {\k8}TANT!
+Dialogue: 0,0:02:32.28,0:02:34.94,CONSULTANT,,0,0,0,fx,{\k90\fad(300,200)}{\k12}CON-{\k16}CON {\k12}SUL-{\k8}SUL {\k18}TAL-{\k17}TAL {\k10}TA{\k8}TA{\k10}TA{\k9}TA-{\k9}TA{\k9}TA{\k10}TA-{\k8}TANT!
+Dialogue: 0,0:02:33.84,0:02:36.39,CONSULTANT,,0,0,0,fx,{\k90\fad(300,200)}{\k18}CO-{\k18}CO-{\k18}CON{\k17}SUL {\k28}TANT! {\k25}TANT! {\k21}TANT!
+Dialogue: 0,0:02:35.29,0:02:37.83,CONSULTANT,,0,0,0,fx,{\k90\fad(300,200)}{\kf24}COOOON {\k12}{\k19}CO-{\k9}CO-{\k8}CO {\k27}TANT! {\k27}TANT! {\k18}TANT!
+Dialogue: 0,0:02:36.73,0:02:39.29,CONSULTANT,,0,0,0,fx,{\k90\fad(300,200)}{\k17}CO-{\k18}CO-{\k16}CON{\k21}SUL {\k27}TANT! {\k26}TANT! {\k21}TANT!
+Dialogue: 0,0:02:38.19,0:02:40.71,CONSULTANT,,0,0,0,fx,{\k90\fad(300,200)}{\k9}CON-{\k8}CON {\k6}SUL-{\k9}SUL {\k16}TAL-{\k22}TAL {\k9}TA{\k9}TA{\k10}TA{\k9}TA-{\k7}TA{\k8}TA{\k11}TA-{\k9}TANT!
+Dialogue: 0,0:01:41.21,0:01:45.91,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,40)\k150\k20}
+Dialogue: 0,0:01:41.21,0:01:45.91,itta toori,,0,0,0,fx,{\fade(600,200)\an5\pos(20,40)\k150\k20}
+Dialogue: 0,0:01:17.40,0:01:19.17,foxy!,,0,0,0,fx,{\k150\fad(600,200)}
