@@ -1,0 +1,96 @@
+﻿[Script Info]
+Title: Luminous Crown
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FE914C,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tsukasa,Arial,24,&H00FFFFFF,&H004F47F7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Izumi,Arial,24,&H00FFFFFF,&H00F9D98A,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Ritsu,Arial,24,&H00FFFFFF,&H00FF5F70,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Arashi,Arial,24,&H00FFFFFF,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Leo,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Leo Tsukasa,Arial,24,&H00FFFFFF,&H003AA5FF,&H0006007D,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tsukasa Ritsu,Arial,24,&H00FFFFFF,&H00786EFF,&H00A00011,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Leo Izumi Ritsu Arashi,Arial,24,&H00FFFFFF,&H0035D42E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Leo Izumi Ritsu Arashi [Down],Arial,24,&H00FFFFFF,&H0035D42E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:18.99,0:00:26.03,Tsukasa,,0,0,0,karaoke,{\k25}o{\k47}moi{\k19}da{\k28}su {\k26}no {\k45}wa {\k20}ki{\k50}mat{\k40}te {\k31}ni{\k52}gai {\k42}kou{\k47}kai {\k21}ba{\k28}ka{\k42}ri {\kf141}kai?
+Comment: 0,0:00:26.48,0:00:33.40,Arashi,,0,0,0,karaoke,{\k23}hi{\k51}roi {\k19}a{\k26}tsu{\k27}me{\k48}te{\k21}ta {\k23}mo{\k46}no {\k24}su{\k21}te{\k49}ra{\k22}re{\k26}na{\k47}i {\k19}da{\k29}ke {\k43}da{\kf128}yo
+Comment: 0,0:00:33.68,0:00:35.62,Leo,,0,0,0,karaoke,{\k21}ki{\k14}zu{\k35}tsui{\k16}tat{\k17}te, {\k36}sou {\k28}zu{\k27}tto
+Comment: 0,0:00:35.47,0:00:37.62,Izumi,,0,0,0,karaoke,{\k19}ki{\k13}e{\k11}ya{\k12}shi{\k24}nait{\k18}te {\k28}wa{\k25}kat{\k24}tan{\k41}da
+Comment: 0,0:00:37.63,0:00:41.47,Leo,,0,0,0,karaoke,{\k16}de{\k11}a{\k25}i, {\k13}{\2c&HF9D98A&}ka{\k10}ta{\k25}rai, {\k10}{\2c&H008AFF&}wa{\k14}ra{\k21}i, {\k33}{\2c&HF9D98A&}AH, {\k10}{\3c&H0060B1&}to{\k15}ki {\k19}ni {\k16}i{\k23}ga{\k23}mi{\k24}at{\k35}ta {\k41}kke
+Comment: 0,0:00:41.23,0:00:45.23,Ritsu,,0,0,0,karaoke,{\k30}sei{\k19}ka{\k21}i {\k20}na{\k21}nte {\k22}sai{\k30}sho {\k19}ni {\k10}hi{\k14}ki {\k11}a{\k12}te{\k24}tat{\k14}te {\k35}shou{\k20}ga{\k33}nai {\k45}sa
+Comment: 0,0:00:45.25,0:00:47.36,Tsukasa Ritsu,,0,0,0,karaoke,{\k26}wa{\k45}kat{\k30}te{\k16}ru {\k24}yo {\k70}ne
+Comment: 0,0:00:47.53,0:00:52.65,Tsukasa,,0,0,0,karaoke,{\k31}so{\k23}no {\k22}te {\k26}ka{\k92}ra {\k26}su{\k26}ri{\k21}nu{\k23}ke{\k48}te {\k46}it{\k48}ta{\k24}t{\k56}te
+Comment: 0,0:00:52.65,0:00:55.93,Arashi,,0,0,0,karaoke,{\k37}na{\k31}ku{\k14}shi{\k24}ta {\k17}wa{\k26}ke {\k50}ja{\k34}na{\k13}ku{\kf82}te
+Comment: 0,0:00:56.43,0:01:02.85,Tsukasa,,0,0,0,karaoke,{\k28}ko{\k27}no {\k24}o{\k23}mo{\k24}i {\k68}wa {\k50}{\2c&H41B5E6&}un{\k23}me{\k24}i {\k24}no {\k21}{\3c&H06007D&}ka{\k49}ke{\k46}ra {\k44}da{\k50}ka{\kf117}ra
+Comment: 0,0:01:03.06,0:01:07.21,Sample KM [Up],,0,0,0,karaoke,{\k26}a{\k20}i {\k67}to {\k49}shu{\k49}ku{\k26}fu{\k47}ku {\k47}no {\k32}LU{\k15}MI{\k37}NOUS
+Comment: 0,0:01:07.21,0:01:10.49,Leo,,0,0,0,karaoke,{\k21}so{\k13}re {\k22}wa {\k22}ki{\k23}ra{\k24}me{\k45}ku {\k24}C{\k52}RO{\k40}WN {\k42}sa
+Comment: 0,0:01:10.54,0:01:14.74,Sample KM [Up],,0,0,0,karaoke,{\k26}ka{\k28}za{\k62}ri {\k51}tsu{\k49}ke{\k23}ru {\k45}hou{\k46}se{\k38}ki {\k11}ta{\k41}chi
+Comment: 0,0:01:14.76,0:01:22.34,Sample KM [Up],,0,0,0,karaoke,{\k49}kit{\k24}to {\k24}bo{\k43}ku{\k27}ra {\k25}ga {\k20}e{\k39}ran{\k34}de{\k21}ku {\k24}mi{\k24}ra{\k24}i {\kf380}sa...
+Comment: 0,0:01:19.00,0:01:22.36,Leo Izumi Ritsu Arashi [Down],,0,0,0,karaoke,{\k27}(Hear{\k21}t {\k41}that {\k41}has {\k60}been {\k20}gi{\k24}ven {\k47}the {\k55}crown)
+Comment: 0,0:01:22.74,0:01:26.01,Leo Izumi Ritsu Arashi [Down],,0,0,0,karaoke,{\k26}(I {\k26}know {\k43}that {\k37}is {\k55}no{\k50}ble {\k42}of {\k48}me)
+Comment: 0,0:01:25.30,0:01:29.81,Tsukasa,,0,0,0,karaoke,{\k24}mi{\k28}ra{\k19}i {\kf380}sa!
+Comment: 0,0:01:26.51,0:01:29.96,Leo Izumi Ritsu Arashi [Down],,0,0,0,karaoke,{\k27}(Hear{\k21}t {\k41}that {\k41}has {\k60}been {\k20}gi{\k24}ven {\k47}the {\k64}crown)
+Comment: 0,0:01:30.24,0:01:33.55,Leo Izumi Ritsu Arashi [Down],,0,0,0,karaoke,{\k26}(I {\k26}know {\k43}that {\k37}is {\k55}no{\k50}ble {\k42}of {\k52}me)
+Comment: 0,0:01:33.01,0:01:37.24,Izumi,,0,0,0,karaoke,{\k32}ka{\k21}ga{\k69}yai{\k48}te{\k48}ta {\k28}hi{\k42}bi {\k50}ni {\k20}da{\k26}t{\k39}te
+Comment: 0,0:01:37.30,0:01:40.50,Ritsu,,0,0,0,karaoke,{\k13}ka{\k13}ge {\k18}wa {\k27}ka{\k24}na{\k22}ra{\k49}zu {\k25}a{\k46}ru {\k44}ka{\k39}ra
+Comment: 0,0:01:40.50,0:01:44.69,Arashi,,0,0,0,karaoke,{\k48}mas{\k79}su{\k43}gu {\k44}mi{\k30}tsu{\k49}me {\k42}a{\k46}ou {\k38}yo
+Comment: 0,0:01:44.69,0:01:47.95,Leo Tsukasa,,0,0,0,karaoke,{\k30}so{\k30}shi{\k22}te {\k23}ta{\k47}gai {\k24}ni {\k22}o{\k23}ku{\k37}ri {\k34}a{\k34}ou
+Comment: 0,0:01:48.08,0:01:52.22,Leo Izumi Ritsu Arashi,,0,0,0,karaoke,{\k26}a{\k20}i {\k67}to {\k49}shu{\k49}ku{\k26}fu{\k47}ku {\k44}no {\k35}LU{\k15}MI{\k36}NOUS
+Comment: 0,0:01:48.77,0:01:53.72,Tsukasa,,0,0,0,karaoke,{\kf258}saa, {\k45}ha{\k26}ji{\k21}me{\kf145}you
+Comment: 0,0:01:52.25,0:01:55.57,Leo Izumi Ritsu Arashi,,0,0,0,karaoke,{\k30}sou {\k19}sa {\k20}ki{\k26}ra{\k30}me{\k41}ku {\k28}C{\k50}RO{\k38}WN {\k50}wo
+Comment: 0,0:01:54.80,0:01:56.42,Tsukasa,,0,0,0,karaoke,{\k30}a{\k48}ta{\k22}ra{\k62}shik'
+Comment: 0,0:01:55.55,0:01:59.72,Leo Izumi Ritsu Arashi,,0,0,0,karaoke,{\k22}ki{\k28}mi {\k73}to {\k42}a{\k49}tsu{\k24}me{\k45}ta {\k48}hou{\k48}sek' {\k38}de
+Comment: 0,0:01:59.78,0:02:07.37,Tsukasa,,0,0,0,karaoke,{\k21}ka{\k28}za{\k19}ri {\k24}tsu{\k47}ke{\k26}te{\k21}ku {\k21}a{\k41}shi{\k36}ta {\k22}ga {\k24}mi{\k25}ra{\k22}i {\kf382}sa...
+Comment: 0,0:02:03.92,0:02:07.46,Leo Izumi Ritsu Arashi [Down],,0,0,0,karaoke,{\k31}(Hear{\k23}t {\k39}that {\k54}has {\k35}been {\k34}gi{\k25}ven {\k40}the {\k73}crown)
+Comment: 0,0:02:07.72,0:02:11.00,Leo Izumi Ritsu Arashi [Down],,0,0,0,karaoke,{\k26}(I {\k26}know {\k43}that {\k37}is {\k55}no{\k50}ble {\k42}of {\k49}me)
+Comment: 0,0:02:10.28,0:02:15.15,Tsukasa,,0,0,0,karaoke,{\k30}mi{\k22}ra{\k26}i {\kf409}sa!
+Comment: 0,0:02:11.43,0:02:15.08,Leo Izumi Ritsu Arashi [Down],,0,0,0,karaoke,{\k27}(Hear{\k21}t {\k41}that {\k52}has {\k49}been {\k30}gi{\k18}ven {\k43}the {\k84}crown)
+Comment: 0,0:02:15.23,0:02:18.51,Leo Izumi Ritsu Arashi [Down],,0,0,0,karaoke,{\k26}(I {\k26}know {\k43}that {\k37}is {\k55}no{\k50}ble {\k42}of {\k49}me)
+Comment: 0,0:02:17.74,0:02:26.80,Tsukasa,,0,0,0,karaoke,{\k31}hi{\k29}ka{\k17}ri {\kf152}wo{\k133} {\k39}wa{\k34}su{\k20}re{\k48}na{\kf95}i,{\k128} {\k35}so{\k23}no {\k24}ta{\k23}me {\k75}ni
+Dialogue: 0,0:00:18.09,0:00:26.23,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k25}o{\k47}moi{\k19}da{\k28}su {\k26}no {\k45}wa {\k20}ki{\k50}mat{\k40}te {\k31}ni{\k52}gai {\k42}kou{\k47}kai {\k21}ba{\k28}ka{\k42}ri {\kf141}kai?
+Dialogue: 0,0:00:25.58,0:00:33.60,Arashi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}hi{\k51}roi {\k19}a{\k26}tsu{\k27}me{\k48}te{\k21}ta {\k23}mo{\k46}no {\k24}su{\k21}te{\k49}ra{\k22}re{\k26}na{\k47}i {\k19}da{\k29}ke {\k43}da{\kf128}yo
+Dialogue: 0,0:00:32.78,0:00:35.82,Leo,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ki{\k14}zu{\k35}tsui{\k16}tat{\k17}te, {\k36}sou {\k28}zu{\k27}tto
+Dialogue: 0,0:00:34.57,0:00:37.82,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ki{\k13}e{\k11}ya{\k12}shi{\k24}nait{\k18}te {\k28}wa{\k25}kat{\k24}tan{\k41}da
+Dialogue: 0,0:00:36.73,0:00:41.67,Leo,,0,0,0,fx,{\k90\fad(300,200)}{\k16}de{\k11}a{\k25}i, {\k13}{\2c&HF9D98A&}ka{\k10}ta{\k25}rai, {\k10}{\2c&H008AFF&}wa{\k14}ra{\k21}i, {\k33}{\2c&HF9D98A&}AH, {\k10}{\3c&H0060B1&}to{\k15}ki {\k19}ni {\k16}i{\k23}ga{\k23}mi{\k24}at{\k35}ta {\k41}kke
+Dialogue: 0,0:00:40.33,0:00:45.43,Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k30}sei{\k19}ka{\k21}i {\k20}na{\k21}nte {\k22}sai{\k30}sho {\k19}ni {\k10}hi{\k14}ki {\k11}a{\k12}te{\k24}tat{\k14}te {\k35}shou{\k20}ga{\k33}nai {\k45}sa
+Dialogue: 0,0:00:44.35,0:00:47.56,Tsukasa Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k26}wa{\k45}kat{\k30}te{\k16}ru {\k24}yo {\k70}ne
+Dialogue: 0,0:00:46.63,0:00:52.85,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k31}so{\k23}no {\k22}te {\k26}ka{\k92}ra {\k26}su{\k26}ri{\k21}nu{\k23}ke{\k48}te {\k46}it{\k48}ta{\k24}t{\k56}te
+Dialogue: 0,0:00:51.75,0:00:56.13,Arashi,,0,0,0,fx,{\k90\fad(300,200)}{\k37}na{\k31}ku{\k14}shi{\k24}ta {\k17}wa{\k26}ke {\k50}ja{\k34}na{\k13}ku{\kf82}te
+Dialogue: 0,0:00:55.53,0:01:03.05,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ko{\k27}no {\k24}o{\k23}mo{\k24}i {\k68}wa {\k50}{\2c&H41B5E6&}un{\k23}me{\k24}i {\k24}no {\k21}{\3c&H06007D&}ka{\k49}ke{\k46}ra {\k44}da{\k50}ka{\kf117}ra
+Dialogue: 0,0:01:02.16,0:01:07.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}a{\k20}i {\k67}to {\k49}shu{\k49}ku{\k26}fu{\k47}ku {\k47}no {\k32}LU{\k15}MI{\k37}NOUS
+Dialogue: 0,0:01:06.31,0:01:10.69,Leo,,0,0,0,fx,{\k90\fad(300,200)}{\k21}so{\k13}re {\k22}wa {\k22}ki{\k23}ra{\k24}me{\k45}ku {\k24}C{\k52}RO{\k40}WN {\k42}sa
+Dialogue: 0,0:01:09.64,0:01:14.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}ka{\k28}za{\k62}ri {\k51}tsu{\k49}ke{\k23}ru {\k45}hou{\k46}se{\k38}ki {\k11}ta{\k41}chi
+Dialogue: 0,0:01:13.86,0:01:22.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}kit{\k24}to {\k24}bo{\k43}ku{\k27}ra {\k25}ga {\k20}e{\k39}ran{\k34}de{\k21}ku {\k24}mi{\k24}ra{\k24}i {\kf380}sa...
+Dialogue: 0,0:01:18.10,0:01:22.56,Leo Izumi Ritsu Arashi [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k27}(Hear{\k21}t {\k41}that {\k41}has {\k60}been {\k20}gi{\k24}ven {\k47}the {\k55}crown)
+Dialogue: 0,0:01:21.84,0:01:26.21,Leo Izumi Ritsu Arashi [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k26}(I {\k26}know {\k43}that {\k37}is {\k55}no{\k50}ble {\k42}of {\k48}me)
+Dialogue: 0,0:01:24.40,0:01:30.01,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k24}mi{\k28}ra{\k19}i {\kf380}sa!
+Dialogue: 0,0:01:25.61,0:01:30.16,Leo Izumi Ritsu Arashi [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k27}(Hear{\k21}t {\k41}that {\k41}has {\k60}been {\k20}gi{\k24}ven {\k47}the {\k64}crown)
+Dialogue: 0,0:01:29.34,0:01:33.75,Leo Izumi Ritsu Arashi [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k26}(I {\k26}know {\k43}that {\k37}is {\k55}no{\k50}ble {\k42}of {\k52}me)
+Dialogue: 0,0:01:32.11,0:01:37.44,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ka{\k21}ga{\k69}yai{\k48}te{\k48}ta {\k28}hi{\k42}bi {\k50}ni {\k20}da{\k26}t{\k39}te
+Dialogue: 0,0:01:36.40,0:01:40.70,Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ka{\k13}ge {\k18}wa {\k27}ka{\k24}na{\k22}ra{\k49}zu {\k25}a{\k46}ru {\k44}ka{\k39}ra
+Dialogue: 0,0:01:39.60,0:01:44.89,Arashi,,0,0,0,fx,{\k90\fad(300,200)}{\k48}mas{\k79}su{\k43}gu {\k44}mi{\k30}tsu{\k49}me {\k42}a{\k46}ou {\k38}yo
+Dialogue: 0,0:01:43.79,0:01:48.15,Leo Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k30}so{\k30}shi{\k22}te {\k23}ta{\k47}gai {\k24}ni {\k22}o{\k23}ku{\k37}ri {\k34}a{\k34}ou
+Dialogue: 0,0:01:47.18,0:01:52.42,Leo Izumi Ritsu Arashi,,0,0,0,fx,{\k90\fad(300,200)}{\k26}a{\k20}i {\k67}to {\k49}shu{\k49}ku{\k26}fu{\k47}ku {\k44}no {\k35}LU{\k15}MI{\k36}NOUS
+Dialogue: 0,0:01:47.87,0:01:53.92,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\kf258}saa, {\k45}ha{\k26}ji{\k21}me{\kf145}you
+Dialogue: 0,0:01:51.35,0:01:55.77,Leo Izumi Ritsu Arashi,,0,0,0,fx,{\k90\fad(300,200)}{\k30}sou {\k19}sa {\k20}ki{\k26}ra{\k30}me{\k41}ku {\k28}C{\k50}RO{\k38}WN {\k50}wo
+Dialogue: 0,0:01:53.90,0:01:56.62,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k30}a{\k48}ta{\k22}ra{\k62}shik'
+Dialogue: 0,0:01:54.65,0:01:59.92,Leo Izumi Ritsu Arashi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ki{\k28}mi {\k73}to {\k42}a{\k49}tsu{\k24}me{\k45}ta {\k48}hou{\k48}sek' {\k38}de
+Dialogue: 0,0:01:58.88,0:02:07.57,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ka{\k28}za{\k19}ri {\k24}tsu{\k47}ke{\k26}te{\k21}ku {\k21}a{\k41}shi{\k36}ta {\k22}ga {\k24}mi{\k25}ra{\k22}i {\kf382}sa...
+Dialogue: 0,0:02:03.02,0:02:07.66,Leo Izumi Ritsu Arashi [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k31}(Hear{\k23}t {\k39}that {\k54}has {\k35}been {\k34}gi{\k25}ven {\k40}the {\k73}crown)
+Dialogue: 0,0:02:06.82,0:02:11.20,Leo Izumi Ritsu Arashi [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k26}(I {\k26}know {\k43}that {\k37}is {\k55}no{\k50}ble {\k42}of {\k49}me)
+Dialogue: 0,0:02:09.38,0:02:15.35,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k30}mi{\k22}ra{\k26}i {\kf409}sa!
+Dialogue: 0,0:02:10.53,0:02:15.28,Leo Izumi Ritsu Arashi [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k27}(Hear{\k21}t {\k41}that {\k52}has {\k49}been {\k30}gi{\k18}ven {\k43}the {\k84}crown)
+Dialogue: 0,0:02:14.33,0:02:18.71,Leo Izumi Ritsu Arashi [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k26}(I {\k26}know {\k43}that {\k37}is {\k55}no{\k50}ble {\k42}of {\k49}me)
+Dialogue: 0,0:02:16.84,0:02:27.00,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k31}hi{\k29}ka{\k17}ri {\kf152}wo{\k133} {\k39}wa{\k34}su{\k20}re{\k48}na{\kf95}i,{\k128} {\k35}so{\k23}no {\k24}ta{\k23}me {\k75}ni
