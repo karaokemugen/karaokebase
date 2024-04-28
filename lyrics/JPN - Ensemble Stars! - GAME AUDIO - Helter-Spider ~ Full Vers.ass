@@ -1,0 +1,147 @@
+﻿[Script Info]
+Title: Helter-Spider
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FE1BED,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rinne,Arial,24,&H00FFFFFF,&H004638FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Niki,Arial,24,&H00FFFFFF,&H00B8A89B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Himeru,Arial,24,&H00FFFFFF,&H00FDC50E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kohaku,Arial,24,&H00FFFFFF,&H00E78CFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kohaku Niki,Arial,24,&H00FFFFFF,&H00E88EFF,&H00564739,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rinne Himeru,Arial,24,&H00FFFFFF,&H00FFD94B,&H00180976,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rinne Niki,Arial,24,&H00FFFFFF,&H00B8A89B,&H00180976,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kohaku Himeru,Arial,24,&H00FFFFFF,&H00E88EFF,&H00725A00,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:04.00,Sample KM [Up],,0,0,0,karaoke,Everyone
+Comment: 0,0:00:00.00,0:00:04.00,Rinne,,0,0,0,karaoke,{\c&H4638FF&}Rinne {\c&HB8A89B&}Niki {\c&HFDC50E&}HiMERU {\c&HE78CFF&}Kohaku
+Comment: 0,0:00:00.00,0:00:04.00,Rinne Niki,,0,0,0,karaoke,{\c&HB8A89B&}Rinne & Niki
+Comment: 0,0:00:00.00,0:00:04.00,Kohaku Himeru,,0,0,0,karaoke,{\c&HE88EFF&}Kohaku & HiMERU
+Comment: 0,0:00:00.00,0:00:04.00,Kohaku Niki,,0,0,0,karaoke,{\c&HE88EFF&}Niki & Kohaku
+Comment: 0,0:00:00.00,0:00:04.00,Rinne Himeru,,0,0,0,karaoke,{\c&HFFD94B&}Rinne & HiMERU
+Comment: 0,0:00:05.54,0:00:07.95,Kohaku,,0,0,0,karaoke,{\k21}ku{\k20}mo {\k11}no {\k12}su {\k33}ji{\k26}ta{\k40}te {\k13}no {\k65}TRAP
+Comment: 0,0:00:08.02,0:00:10.40,Niki,,0,0,0,karaoke,{\k23}ha{\k18}ri{\k18}me{\k10}gu{\k23}ra{\k28}se {\k40}ko{\k21}yo{\k57}i
+Comment: 0,0:00:10.47,0:00:12.94,Himeru,,0,0,0,karaoke,{\k28}ma{\k15}yo{\k7}wa{\k17}se {\k37}ma{\k24}do{\k30}wa{\k25}se{\k64}te
+Comment: 0,0:00:12.98,0:00:15.20,Rinne,,0,0,0,karaoke,{\k19}i{\k19}za{\k27}nau {\k29}POI{\k34}SON {\k36}PAR{\k17}TY {\k41}NIGHT
+Comment: 0,0:00:15.51,0:00:17.67,Kohaku,,0,0,0,karaoke,{\k19}ya{\k15}mi {\kf77}ni {\k17}u{\k29}kan{\k59}de
+Comment: 0,0:00:17.92,0:00:20.42,Kohaku,,0,0,0,karaoke,{\k17}ni{\k22}ya{\k19}ri {\k32}wa{\k11}ra{\k23}u {\k22}JAC{\k36}K-O’-{\k28}LAN{\k40}TERN
+Comment: 0,0:00:20.46,0:00:25.25,Niki,,0,0,0,karaoke,{\k14}a{\k15}ka{\kf76}ku {\k21}tsu{\k18}ya{\k10}me{\kf91}ku {\k59}do{\k63}ku {\k67}rin{\k45}go
+Comment: 0,0:00:25.25,0:00:27.59,Himeru,,0,0,0,karaoke,{\k47}kyou{\kf77}mi {\k15}a{\k22}ru {\k11}na{\k62}ra
+Comment: 0,0:00:27.85,0:00:30.21,Himeru,,0,0,0,karaoke,{\k21}ho{\k13}ra {\k22}hi{\k23}to{\k15}ku{\k29}chi {\k35}mou {\k21}hi{\k22}to{\k13}ku{\k22}chi...
+Comment: 0,0:00:30.21,0:00:35.32,Rinne,,0,0,0,karaoke,{\k34}CRA{\kf92}ZY {\k15}na {\k17}ku{\k11}mo {\kf75}wa {\k71}so{\k60}so{\k55}no{\k18}ka{\k63}su
+Comment: 0,0:00:35.86,0:00:40.10,Kohaku Niki,,0,0,0,karaoke,{\k46}ki{\k28}ke{\k33}n {\k23}na {\k48}RU{\k15}BE{\k28}E {\k33}no {\k25}wa{\k65}na {\kf80}ni
+Comment: 0,0:00:40.16,0:00:44.75,Rinne Himeru,,0,0,0,karaoke,{\k32}to{\k18}ra{\k23}wa{\k17}re{\k23}ta{\k18}ra {\k39}mou {\k19}ka{\k30}e{\k24}re{\k20}na{\kf196}i...
+Comment: 0,0:00:45.18,0:00:47.25,Sample KM [Up],,0,0,0,karaoke,{\k14}a{\k17}ya{\k20}shi{\k24}ku {\k19}hi{\k19}ka{\k19}ru {\k16}HO{\k28}NEY{\k31}MOON
+Comment: 0,0:00:47.25,0:00:50.06,Sample KM [Up],,0,0,0,karaoke,{\k15}te{\k29}ras' {\k27}HEL{\k35}TER-{\k30}SPI{\k31}DER, {\k30}BE {\k18}IN {\k28}DAN{\k38}GER!
+Comment: 0,0:00:50.06,0:00:52.76,Kohaku,,0,0,0,karaoke,{\k23}a{\k32}mai {\k18}a{\k28}mai {\k20}do{\k13}ku {\k20}wo {\k10}shi{\k29}kon{\k25}den{\k52}da
+Comment: 0,0:00:52.59,0:00:55.01,Sample KM [Up],,0,0,0,karaoke,{\k57}CLAP! {\k58}CLAP! {\k28}sa{\k24}se{\k17}ru {\k58}ze
+Comment: 0,0:00:55.01,0:00:57.12,Sample KM [Up],,0,0,0,karaoke,{\k25}mi{\k15}tsu{\k20}i{\k26}ro {\k15}shi{\k20}ta{\k14}ta{\k14}ru {\k15}ma{\k16}mo{\k31}no
+Comment: 0,0:00:57.12,0:01:00.04,Sample KM [Up],,0,0,0,karaoke,{\k19}ma{\k15}ru{\k13}de {\k28}HEL{\k31}TER-{\k32}SKEL{\k31}TER, {\k28}BE {\k21}IN{\k32}SPIR{\k42}ED!
+Comment: 0,0:01:00.04,0:01:02.50,Himeru,,0,0,0,karaoke,{\k26}mot{\k26}to {\k25}mot{\k17}to {\k31}mot{\k18}to {\k11}ka{\k20}ra{\k40}miat{\k32}te
+Comment: 0,0:01:02.37,0:01:04.86,Sample KM [Up],,0,0,0,karaoke,{\k71}MAD {\k61}DREAM {\k28}ta{\k17}no{\k23}shi{\k49}mou
+Comment: 0,0:01:04.86,0:01:07.48,Niki,,0,0,0,karaoke,{\k63}o{\k17}do{\k44}re {\k13}a{\k50}mai {\k8}a{\k21}ku{\k15}mu {\k31}wo...
+Comment: 0,0:01:14.89,0:01:17.20,Sample KM [Up],,0,0,0,karaoke,{\k32}WEL{\k31}COME {\k30}HAL{\k30}LO{\k47}WEEN {\k61}FEAST!
+Comment: 0,0:01:17.35,0:01:19.55,Niki,,0,0,0,karaoke,{\k29}yor' {\kf83}no {\k14}kyo{\k11}u{\k20}so{\k63}u
+Comment: 0,0:01:19.81,0:01:22.22,Niki,,0,0,0,karaoke,{\k32}hon{\k19}ne {\k34}no {\k10}i{\k29}to {\k20}ha{\k13}ki{\k16}da{\k33}se{\k35}ba
+Comment: 0,0:01:22.29,0:01:27.12,Kohaku,,0,0,0,karaoke,{\k22}yu{\k11}re{\k78}ru {\k17}ko{\k28}hak' {\k82}no {\k71}shi{\k61}n{\k48}ki{\k18}ro{\k47}u
+Comment: 0,0:01:27.27,0:01:29.42,Rinne,,0,0,0,karaoke,{\k18}o{\k14}ka{\kf90}shi {\k6}i{\k13}ta{\k10}zu{\k64}ra
+Comment: 0,0:01:29.73,0:01:32.11,Rinne,,0,0,0,karaoke,{\k29}doc{\k23}chi {\k24}da{\k17}t{\k31}te {\k17}ho{\k13}shi{\k17}ku {\k33}na{\k34}ru
+Comment: 0,0:01:32.16,0:01:37.39,Himeru,,0,0,0,karaoke,{\k34}CAN{\kf83}DY {\k13}mo {\k16}yu{\k13}me {\k63}mo{\k30} {\k57}i{\k69}ke{\k44}do{\k17}ro{\kf84}u
+Comment: 0,0:01:37.76,0:01:41.86,Rinne Niki,,0,0,0,karaoke,{\k50}PA{\k15}RA{\k46}~{\k15}DE {\k47}ga {\k16}o{\k29}wa{\k31}ru {\k30}ma{\k62}e {\k69}ni
+Comment: 0,0:01:42.08,0:01:46.60,Kohaku Himeru,,0,0,0,karaoke,{\k42}oi{\k19}de {\k21}ki{\k20}mi {\k19}wo {\k44}mou {\k21}ka{\k17}e{\k28}sa{\k22}na{\kf199}i~
+Comment: 0,0:01:47.02,0:01:49.53,Sample KM [Up],,0,0,0,karaoke,{\k21}ko{\k12}wa{\k18}ku {\k35}no {\k12}ho{\k29}noo {\k17}yu{\k17}ra{\k17}me{\k26}ku {\k19}RHY{\k17}TH{\k11}M
+Comment: 0,0:01:49.53,0:01:52.00,Sample KM [Up],,0,0,0,karaoke,{\k27}HEL{\k35}TER-{\k30}SPI{\k31}DER, {\k20}BE {\k28}IN {\k28}DAN{\k48}GER!
+Comment: 0,0:01:52.00,0:01:54.61,Niki,,0,0,0,karaoke,{\k21}a{\k28}mai {\k13}a{\k30}mai {\k20}do{\k13}ku {\k15}ni {\k14}shi{\k16}bi{\k13}re{\k24}chat{\k54}te
+Comment: 0,0:01:54.46,0:01:56.89,Sample KM [Up],,0,0,0,karaoke,{\k59}CLAP! {\k52}CLAP! {\k33}shi{\k21}yo{\k22}u {\k56}ze
+Comment: 0,0:01:56.89,0:01:59.44,Sample KM [Up],,0,0,0,karaoke,{\k37}hon{\k22}no{\k28}u {\k13}o{\k18}mo{\k13}mu{\k14}ku {\k16}ma{\k23}ma {\k24}ni {\k29}sou {\k18}sa
+Comment: 0,0:01:59.44,0:02:01.90,Sample KM [Up],,0,0,0,karaoke,{\k28}HEL{\k31}TER-{\k32}SKEL{\k31}TER, {\k19}BE {\k30}IN{\k32}SPIR{\k43}ED!
+Comment: 0,0:02:01.90,0:02:04.51,Kohaku,,0,0,0,karaoke,{\k30}mot{\k21}to {\k30}mot{\k11}to {\k21}mot{\k28}to {\k13}to{\k19}ki{\k12}ha{\k23}nat{\k53}te
+Comment: 0,0:02:04.32,0:02:06.73,Sample KM [Up],,0,0,0,karaoke,{\k65}GET {\k58}DOWN {\k22}ji{\k22}yu{\k23}u {\k51}ni
+Comment: 0,0:02:06.73,0:02:09.30,Rinne,,0,0,0,karaoke,{\k61}o{\k17}do{\k42}rou {\k14}hi{\k32}to{\k20}yo {\k15}no {\k17}yu{\k14}me {\k25}wo…
+Comment: 0,0:02:14.23,0:02:16.60,Sample KM [Up],,0,0,0,karaoke,{\k17}ku{\k19}mo {\k13}no {\k17}su {\k29}ji{\k29}ta{\k35}te {\k13}no {\k65}TRAP
+Comment: 0,0:02:16.74,0:02:18.96,Sample KM [Up],,0,0,0,karaoke,{\k19}ha{\k16}ri{\k20}me{\k9}gu{\k20}ra{\k41}se {\k33}ko{\k20}yo{\k44}i
+Comment: 0,0:02:19.21,0:02:23.97,Rinne,,0,0,0,karaoke,{\k22}a{\k41}ku{\k29}ma {\k27}ni {\k49}kyou {\k44}shi{\k33}ta {\k30}ta{\k26}ma{\k40}shi{\k25}i {\kf110}mo
+Comment: 0,0:02:24.19,0:02:29.16,Niki,,0,0,0,karaoke,{\k32}te{\k19}n{\k42}shi {\k24}mo {\k55}kyou{\k46}ji{\k23}ru {\k66}kyo{\k63}u{\k56}en {\k71}sa
+Comment: 0,0:02:29.41,0:02:34.00,Kohaku,,0,0,0,karaoke,{\k36}ka{\k28}ra{\k59}me{\k37}to{\k22}t{\k65}ta {\k31}e{\k34}mo{\k47}no {\k48}so{\k23}t{\k29}to
+Comment: 0,0:02:34.00,0:02:41.41,Himeru,,0,0,0,karaoke,{\k31}sa{\k25}sa{\k41}ya{\k35}ke{\k62}ba {\k21}da{\k14}re {\k24}mo {\k30}ga {\k25}to{\k39}ri{\k34}ko {\k57}ni {\k30}na{\k16}ru {\k15}no {\kf242}sa
+Comment: 0,0:02:43.87,0:02:46.01,Sample KM [Up],,0,0,0,karaoke,{\k23}a{\k17}ya{\k21}shi{\k29}ku {\k13}hi{\k20}ka{\k14}ru {\k25}HO{\k24}NEY{\k28}MOON
+Comment: 0,0:02:46.01,0:02:48.92,Sample KM [Up],,0,0,0,karaoke,{\k17}te{\k28}ras' {\k28}HEL{\k32}TER-{\k29}SPI{\k35}DER, {\k25}BE {\k21}IN {\k33}DAN{\k43}GER!
+Comment: 0,0:02:48.92,0:02:51.52,Himeru,,0,0,0,karaoke,{\k24}a{\k18}mai {\k21}a{\k30}mai {\k20}do{\k15}ku {\k16}wo {\k10}shi{\k31}kon{\k33}den{\k42}da
+Comment: 0,0:02:51.28,0:02:53.80,Sample KM [Up],,0,0,0,karaoke,{\k69}CLAP! {\k53}CLAP! {\k33}sa{\k23}se{\k19}ru {\k55}ze
+Comment: 0,0:02:53.80,0:02:55.89,Sample KM [Up],,0,0,0,karaoke,{\k17}mi{\k21}tsu{\k24}i{\k29}ro {\k10}shi{\k17}ta{\k14}ta{\k20}ru {\k8}ma{\k26}mo{\k23}no
+Comment: 0,0:02:55.89,0:02:58.83,Sample KM [Up],,0,0,0,karaoke,{\k16}ma{\k16}ru{\k16}de {\k27}HEL{\k33}TER-{\k30}SKEL{\k31}TER, {\k32}BE {\k21}IN{\k30}SPIR{\k42}ED!
+Comment: 0,0:02:58.83,0:03:01.42,Niki,,0,0,0,karaoke,{\k29}mot{\k18}to {\k31}mot{\k12}to {\k34}mot{\k14}to {\k15}ka{\k21}ra{\k12}mi{\k21}at{\k52}te
+Comment: 0,0:03:01.13,0:03:03.68,Sample KM [Up],,0,0,0,karaoke,{\k72}MAD {\k63}DREAM {\k23}ta{\k22}no{\k23}shi{\k52}mou
+Comment: 0,0:03:03.68,0:03:06.27,Kohaku,,0,0,0,karaoke,{\k57}o{\k19}do{\k47}re {\k10}a{\k46}mai {\k15}a{\k18}ku{\k17}mu {\k30}wo...
+Comment: 0,0:03:13.59,0:03:16.01,Sample KM [Up],,0,0,0,karaoke,{\k37}WEL{\k33}COME {\k36}HAL{\k26}LO{\k48}WEEN {\k62}FEAST!
+Dialogue: 0,0:00:00.00,0:00:04.20,Sample KM [Up],,0,0,0,fx,{\k0\fad(0,200)}Everyone
+Dialogue: 0,0:00:00.00,0:00:04.20,Rinne,,0,0,0,fx,{\k0\fad(0,200)}{\c&H4638FF&}Rinne {\c&HB8A89B&}Niki {\c&HFDC50E&}HiMERU {\c&HE78CFF&}Kohaku
+Dialogue: 0,0:00:00.00,0:00:04.20,Rinne Niki,,0,0,0,fx,{\k0\fad(0,200)}{\c&HB8A89B&}Rinne & Niki
+Dialogue: 0,0:00:00.00,0:00:04.20,Kohaku Himeru,,0,0,0,fx,{\k0\fad(0,200)}{\c&HE88EFF&}Kohaku & HiMERU
+Dialogue: 0,0:00:00.00,0:00:04.20,Kohaku Niki,,0,0,0,fx,{\k0\fad(0,200)}{\c&HE88EFF&}Niki & Kohaku
+Dialogue: 0,0:00:00.00,0:00:04.20,Rinne Himeru,,0,0,0,fx,{\k0\fad(0,200)}{\c&HFFD94B&}Rinne & HiMERU
+Dialogue: 0,0:00:04.64,0:00:08.15,Kohaku,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ku{\k20}mo {\k11}no {\k12}su {\k33}ji{\k26}ta{\k40}te {\k13}no {\k65}TRAP
+Dialogue: 0,0:00:07.12,0:00:10.60,Niki,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ha{\k18}ri{\k18}me{\k10}gu{\k23}ra{\k28}se {\k40}ko{\k21}yo{\k57}i
+Dialogue: 0,0:00:09.57,0:00:13.14,Himeru,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ma{\k15}yo{\k7}wa{\k17}se {\k37}ma{\k24}do{\k30}wa{\k25}se{\k64}te
+Dialogue: 0,0:00:12.08,0:00:15.40,Rinne,,0,0,0,fx,{\k90\fad(300,200)}{\k19}i{\k19}za{\k27}nau {\k29}POI{\k34}SON {\k36}PAR{\k17}TY {\k41}NIGHT
+Dialogue: 0,0:00:14.61,0:00:17.87,Kohaku,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ya{\k15}mi {\kf77}ni {\k17}u{\k29}kan{\k59}de
+Dialogue: 0,0:00:17.02,0:00:20.62,Kohaku,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ni{\k22}ya{\k19}ri {\k32}wa{\k11}ra{\k23}u {\k22}JAC{\k36}K-O’-{\k28}LAN{\k40}TERN
+Dialogue: 0,0:00:19.56,0:00:25.45,Niki,,0,0,0,fx,{\k90\fad(300,200)}{\k14}a{\k15}ka{\kf76}ku {\k21}tsu{\k18}ya{\k10}me{\kf91}ku {\k59}do{\k63}ku {\k67}rin{\k45}go
+Dialogue: 0,0:00:24.35,0:00:27.79,Himeru,,0,0,0,fx,{\k90\fad(300,200)}{\k47}kyou{\kf77}mi {\k15}a{\k22}ru {\k11}na{\k62}ra
+Dialogue: 0,0:00:26.95,0:00:30.41,Himeru,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ho{\k13}ra {\k22}hi{\k23}to{\k15}ku{\k29}chi {\k35}mou {\k21}hi{\k22}to{\k13}ku{\k22}chi...
+Dialogue: 0,0:00:29.31,0:00:35.52,Rinne,,0,0,0,fx,{\k90\fad(300,200)}{\k34}CRA{\kf92}ZY {\k15}na {\k17}ku{\k11}mo {\kf75}wa {\k71}so{\k60}so{\k55}no{\k18}ka{\k63}su
+Dialogue: 0,0:00:34.96,0:00:40.30,Kohaku Niki,,0,0,0,fx,{\k90\fad(300,200)}{\k46}ki{\k28}ke{\k33}n {\k23}na {\k48}RU{\k15}BE{\k28}E {\k33}no {\k25}wa{\k65}na {\kf80}ni
+Dialogue: 0,0:00:39.26,0:00:44.95,Rinne Himeru,,0,0,0,fx,{\k90\fad(300,200)}{\k32}to{\k18}ra{\k23}wa{\k17}re{\k23}ta{\k18}ra {\k39}mou {\k19}ka{\k30}e{\k24}re{\k20}na{\kf196}i...
+Dialogue: 0,0:00:44.28,0:00:47.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}a{\k17}ya{\k20}shi{\k24}ku {\k19}hi{\k19}ka{\k19}ru {\k16}HO{\k28}NEY{\k31}MOON
+Dialogue: 0,0:00:46.35,0:00:50.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}te{\k29}ras' {\k27}HEL{\k35}TER-{\k30}SPI{\k31}DER, {\k30}BE {\k18}IN {\k28}DAN{\k38}GER!
+Dialogue: 0,0:00:49.16,0:00:52.96,Kohaku,,0,0,0,fx,{\k90\fad(300,200)}{\k23}a{\k32}mai {\k18}a{\k28}mai {\k20}do{\k13}ku {\k20}wo {\k10}shi{\k29}kon{\k25}den{\k52}da
+Dialogue: 0,0:00:51.69,0:00:55.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k57}CLAP! {\k58}CLAP! {\k28}sa{\k24}se{\k17}ru {\k58}ze
+Dialogue: 0,0:00:54.11,0:00:57.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}mi{\k15}tsu{\k20}i{\k26}ro {\k15}shi{\k20}ta{\k14}ta{\k14}ru {\k15}ma{\k16}mo{\k31}no
+Dialogue: 0,0:00:56.22,0:01:00.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}ma{\k15}ru{\k13}de {\k28}HEL{\k31}TER-{\k32}SKEL{\k31}TER, {\k28}BE {\k21}IN{\k32}SPIR{\k42}ED!
+Dialogue: 0,0:00:59.14,0:01:02.70,Himeru,,0,0,0,fx,{\k90\fad(300,200)}{\k26}mot{\k26}to {\k25}mot{\k17}to {\k31}mot{\k18}to {\k11}ka{\k20}ra{\k40}miat{\k32}te
+Dialogue: 0,0:01:01.47,0:01:05.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k71}MAD {\k61}DREAM {\k28}ta{\k17}no{\k23}shi{\k49}mou
+Dialogue: 0,0:01:03.96,0:01:07.68,Niki,,0,0,0,fx,{\k90\fad(300,200)}{\k63}o{\k17}do{\k44}re {\k13}a{\k50}mai {\k8}a{\k21}ku{\k15}mu {\k31}wo...
+Dialogue: 0,0:01:13.99,0:01:17.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}WEL{\k31}COME {\k30}HAL{\k30}LO{\k47}WEEN {\k61}FEAST!
+Dialogue: 0,0:01:16.45,0:01:19.75,Niki,,0,0,0,fx,{\k90\fad(300,200)}{\k29}yor' {\kf83}no {\k14}kyo{\k11}u{\k20}so{\k63}u
+Dialogue: 0,0:01:18.91,0:01:22.42,Niki,,0,0,0,fx,{\k90\fad(300,200)}{\k32}hon{\k19}ne {\k34}no {\k10}i{\k29}to {\k20}ha{\k13}ki{\k16}da{\k33}se{\k35}ba
+Dialogue: 0,0:01:21.39,0:01:27.32,Kohaku,,0,0,0,fx,{\k90\fad(300,200)}{\k22}yu{\k11}re{\k78}ru {\k17}ko{\k28}hak' {\k82}no {\k71}shi{\k61}n{\k48}ki{\k18}ro{\k47}u
+Dialogue: 0,0:01:26.37,0:01:29.62,Rinne,,0,0,0,fx,{\k90\fad(300,200)}{\k18}o{\k14}ka{\kf90}shi {\k6}i{\k13}ta{\k10}zu{\k64}ra
+Dialogue: 0,0:01:28.83,0:01:32.31,Rinne,,0,0,0,fx,{\k90\fad(300,200)}{\k29}doc{\k23}chi {\k24}da{\k17}t{\k31}te {\k17}ho{\k13}shi{\k17}ku {\k33}na{\k34}ru
+Dialogue: 0,0:01:31.26,0:01:37.59,Himeru,,0,0,0,fx,{\k90\fad(300,200)}{\k34}CAN{\kf83}DY {\k13}mo {\k16}yu{\k13}me {\k63}mo{\k30} {\k57}i{\k69}ke{\k44}do{\k17}ro{\kf84}u
+Dialogue: 0,0:01:36.86,0:01:42.06,Rinne Niki,,0,0,0,fx,{\k90\fad(300,200)}{\k50}PA{\k15}RA{\k46}~{\k15}DE {\k47}ga {\k16}o{\k29}wa{\k31}ru {\k30}ma{\k62}e {\k69}ni
+Dialogue: 0,0:01:41.18,0:01:46.80,Kohaku Himeru,,0,0,0,fx,{\k90\fad(300,200)}{\k42}oi{\k19}de {\k21}ki{\k20}mi {\k19}wo {\k44}mou {\k21}ka{\k17}e{\k28}sa{\k22}na{\kf199}i~
+Dialogue: 0,0:01:46.12,0:01:49.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}ko{\k12}wa{\k18}ku {\k35}no {\k12}ho{\k29}noo {\k17}yu{\k17}ra{\k17}me{\k26}ku {\k19}RHY{\k17}TH{\k11}M
+Dialogue: 0,0:01:48.63,0:01:52.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}HEL{\k35}TER-{\k30}SPI{\k31}DER, {\k20}BE {\k28}IN {\k28}DAN{\k48}GER!
+Dialogue: 0,0:01:51.10,0:01:54.81,Niki,,0,0,0,fx,{\k90\fad(300,200)}{\k21}a{\k28}mai {\k13}a{\k30}mai {\k20}do{\k13}ku {\k15}ni {\k14}shi{\k16}bi{\k13}re{\k24}chat{\k54}te
+Dialogue: 0,0:01:53.56,0:01:57.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}CLAP! {\k52}CLAP! {\k33}shi{\k21}yo{\k22}u {\k56}ze
+Dialogue: 0,0:01:55.99,0:01:59.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}hon{\k22}no{\k28}u {\k13}o{\k18}mo{\k13}mu{\k14}ku {\k16}ma{\k23}ma {\k24}ni {\k29}sou {\k18}sa
+Dialogue: 0,0:01:58.54,0:02:02.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}HEL{\k31}TER-{\k32}SKEL{\k31}TER, {\k19}BE {\k30}IN{\k32}SPIR{\k43}ED!
+Dialogue: 0,0:02:01.00,0:02:04.71,Kohaku,,0,0,0,fx,{\k90\fad(300,200)}{\k30}mot{\k21}to {\k30}mot{\k11}to {\k21}mot{\k28}to {\k13}to{\k19}ki{\k12}ha{\k23}nat{\k53}te
+Dialogue: 0,0:02:03.42,0:02:06.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}GET {\k58}DOWN {\k22}ji{\k22}yu{\k23}u {\k51}ni
+Dialogue: 0,0:02:05.83,0:02:09.50,Rinne,,0,0,0,fx,{\k90\fad(300,200)}{\k61}o{\k17}do{\k42}rou {\k14}hi{\k32}to{\k20}yo {\k15}no {\k17}yu{\k14}me {\k25}wo…
+Dialogue: 0,0:02:13.33,0:02:16.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}ku{\k19}mo {\k13}no {\k17}su {\k29}ji{\k29}ta{\k35}te {\k13}no {\k65}TRAP
+Dialogue: 0,0:02:15.84,0:02:19.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}ha{\k16}ri{\k20}me{\k9}gu{\k20}ra{\k41}se {\k33}ko{\k20}yo{\k44}i
+Dialogue: 0,0:02:18.31,0:02:24.17,Rinne,,0,0,0,fx,{\k90\fad(300,200)}{\k22}a{\k41}ku{\k29}ma {\k27}ni {\k49}kyou {\k44}shi{\k33}ta {\k30}ta{\k26}ma{\k40}shi{\k25}i {\kf110}mo
+Dialogue: 0,0:02:23.29,0:02:29.36,Niki,,0,0,0,fx,{\k90\fad(300,200)}{\k32}te{\k19}n{\k42}shi {\k24}mo {\k55}kyou{\k46}ji{\k23}ru {\k66}kyo{\k63}u{\k56}en {\k71}sa
+Dialogue: 0,0:02:28.51,0:02:34.20,Kohaku,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ka{\k28}ra{\k59}me{\k37}to{\k22}t{\k65}ta {\k31}e{\k34}mo{\k47}no {\k48}so{\k23}t{\k29}to
+Dialogue: 0,0:02:33.10,0:02:41.61,Himeru,,0,0,0,fx,{\k90\fad(300,200)}{\k31}sa{\k25}sa{\k41}ya{\k35}ke{\k62}ba {\k21}da{\k14}re {\k24}mo {\k30}ga {\k25}to{\k39}ri{\k34}ko {\k57}ni {\k30}na{\k16}ru {\k15}no {\kf242}sa
+Dialogue: 0,0:02:42.97,0:02:46.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}a{\k17}ya{\k21}shi{\k29}ku {\k13}hi{\k20}ka{\k14}ru {\k25}HO{\k24}NEY{\k28}MOON
+Dialogue: 0,0:02:45.11,0:02:49.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}te{\k28}ras' {\k28}HEL{\k32}TER-{\k29}SPI{\k35}DER, {\k25}BE {\k21}IN {\k33}DAN{\k43}GER!
+Dialogue: 0,0:02:48.02,0:02:51.72,Himeru,,0,0,0,fx,{\k90\fad(300,200)}{\k24}a{\k18}mai {\k21}a{\k30}mai {\k20}do{\k15}ku {\k16}wo {\k10}shi{\k31}kon{\k33}den{\k42}da
+Dialogue: 0,0:02:50.38,0:02:54.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k69}CLAP! {\k53}CLAP! {\k33}sa{\k23}se{\k19}ru {\k55}ze
+Dialogue: 0,0:02:52.90,0:02:56.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}mi{\k21}tsu{\k24}i{\k29}ro {\k10}shi{\k17}ta{\k14}ta{\k20}ru {\k8}ma{\k26}mo{\k23}no
+Dialogue: 0,0:02:54.99,0:02:59.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}ma{\k16}ru{\k16}de {\k27}HEL{\k33}TER-{\k30}SKEL{\k31}TER, {\k32}BE {\k21}IN{\k30}SPIR{\k42}ED!
+Dialogue: 0,0:02:57.93,0:03:01.62,Niki,,0,0,0,fx,{\k90\fad(300,200)}{\k29}mot{\k18}to {\k31}mot{\k12}to {\k34}mot{\k14}to {\k15}ka{\k21}ra{\k12}mi{\k21}at{\k52}te
+Dialogue: 0,0:03:00.23,0:03:03.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k72}MAD {\k63}DREAM {\k23}ta{\k22}no{\k23}shi{\k52}mou
+Dialogue: 0,0:03:02.78,0:03:06.47,Kohaku,,0,0,0,fx,{\k90\fad(300,200)}{\k57}o{\k19}do{\k47}re {\k10}a{\k46}mai {\k15}a{\k18}ku{\k17}mu {\k30}wo...
+Dialogue: 0,0:03:12.69,0:03:16.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}WEL{\k33}COME {\k36}HAL{\k26}LO{\k48}WEEN {\k62}FEAST!
