@@ -8,11 +8,12 @@ Original Timing: Soramimi
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 1,0:00:09.59,0:00:11.61,Default,,0,0,0,karaoke,{\k12}to{\k16}o{\k12}ku {\k9}de {\k13}ki{\k13}ko{\k14}e{\k13}ru {\k15}ko{\k22}e {\k15}wo {\k22}HIN{\k15}TO {\k11}ni
+Comment: 1,0:00:09.59,0:00:11.61,Default,,0,0,0,karaoke,{\k12}to{\k16}o{\k12}ku {\k9}de {\k13}ki{\k13}ko{\k14}e{\k13}ru {\k15}ko{\k22}e {\k15}wo {\k22}HIN{\k15}T {\k11}ni
 Comment: 1,0:00:11.75,0:00:14.25,Default,,0,0,0,karaoke,{\k16}hi{\k16}to{\k14}ri {\k16}ma{\k13}ta {\k16}hi{\k16}to{\k15}ri {\k12}ta{\k16}chi{\k14}a{\k15}ga{\k14}ru {\k31}tou{\k26}shi
 Comment: 1,0:00:14.42,0:00:16.52,Default,,0,0,0,karaoke,{\k16}ku{\k14}ri{\k13}ka{\k14}e{\k14}su {\k15}da{\k14}ke {\k15}no {\k12}fu{\k15}da{\k14}n {\k30}doo{\k24}ri
 Comment: 1,0:00:16.38,0:00:18.66,Default,,0,0,0,karaoke,{\k13}ku{\k16}tsu{\k14}ga{\k14}e{\k16}su {\k40}jun{\k11}bi {\k23}ii {\k14}ze {\k15}ARE {\k13}YOU {\k14}REA{\k25}DY?
@@ -36,7 +37,9 @@ Comment: 1,0:01:05.89,0:01:06.96,Default,,0,0,0,karaoke,{\k15}WHAT {\k15}YOU {\k
 Comment: 1,0:01:07.02,0:01:09.30,Default,,0,0,0,karaoke,{\k13}ta{\k17}e{\k13}ma{\k13}na{\k20}ku {\k15}o{\k15}da{\k30}ri {\k12}hi{\k16}bi{\k14}ki {\k13}ki{\k14}za{\k23}mu
 Comment: 1,0:01:09.36,0:01:11.86,Default,,0,0,0,karaoke,{\k7}DE{\k13}JA {\k49}VU {\k13}yo{\k16}ri {\k30}mo {\k15}go{\k4}tsu{\k14}i {\k40}shou{\k14}ge{\k13}ki {\k22}ga
 Comment: 1,0:01:11.92,0:01:13.97,Default,,0,0,0,karaoke,{\k19}zen{\k17}shin {\k16}ha{\k21}shi{\k8}ri {\k9}ha{\k9}na{\k10}re{\k33}san {\k17}BREAK {\k14}IT {\k32}DOWN
-Comment: 1,0:01:14.61,0:01:16.69,Default,,0,0,0,karaoke,{\k13}TURN {\k14}IT {\k17}UP ({\k13}TURN {\k16}IT {\k30}UP) {\k32}hey {\k16}ki{\k14}kko{\k37}e{\k6}ka
+Comment: 1,0:01:14.61,0:01:15.05,Default,,0,0,0,karaoke,{\k13}TURN {\k14}IT {\k17}UP
+Comment: 1,0:01:15.05,0:01:15.64,Sample KM [Choir],,0,0,0,karaoke,{\k13}TURN {\k16}IT {\k30}UP
+Comment: 1,0:01:15.64,0:01:16.69,Default,,0,0,0,karaoke,{\k32}hey {\k16}ki{\k14}kko{\k37}e{\k6}ka
 Comment: 1,0:01:16.90,0:01:18.82,Default,,0,0,0,karaoke,{\k14}sa{\k3}ken{\k27}da {\k16}ki{\k31}no {\k14}ma{\k12}de {\k14}no {\k13}ko{\k16}to {\k32}ga
 Comment: 1,0:01:18.85,0:01:20.70,Default,,0,0,0,karaoke,{\k14}ka{\k13}wa{\k22}ru {\k11}da{\k27}rou {\k14}ma{\k16}da{\k13}mi{\k15}nu {\k10}a{\k9}su {\k21}he
 Comment: 1,0:01:20.86,0:01:23.39,Default,,0,0,0,karaoke,{\k13}ko{\k14}bo{\k18}re{\k14}te {\k14}a{\k13}fu{\k13}re{\k14}ta {\k16}o{\k30}moi {\k16}no {\k29}bun {\k17}ma{\k32}de
@@ -57,7 +60,7 @@ Comment: 1,0:01:51.33,0:01:52.79,Default,,0,0,0,karaoke,{\k11}i{\k15}tsu{\k13}mo
 Comment: 1,0:01:52.79,0:01:54.25,Default,,0,0,0,karaoke,{\k15}jin{\k15}ka{\k21}ku {\k12}ma{\k15}mo{\k13}ru {\k12}no {\k15}sa{\k13}su{\k14}be{\k1}te
 Comment: 1,0:01:54.47,0:01:55.73,Default,,0,0,0,karaoke,{\k28}LIKE {\k17}A {\k4}TER{\k17}MI{\k32}NA{\k28}TOR
 Comment: 1,0:01:55.78,0:01:57.78,Default,,0,0,0,karaoke,{\k29}yon{\k29}kai {\k14}go{\k27}kai {\k16}de {\k13}ta{\k14}tsu {\k29}HIGH{\k29}LIGHT
-Comment: 1,0:01:57.81,0:01:58.61,Default,,0,0,0,karaoke,{\k20}(FLY {\k31}HIGH, {\k29}YEAH!)
+Comment: 1,0:01:57.81,0:01:58.61,Sample KM [Choir],,0,0,0,karaoke,{\k20}FLY {\k31}HIGH, {\k29}YEAH!
 Comment: 1,0:01:58.71,0:02:00.38,Default,,0,0,0,karaoke,{\k21}i{\k21}ssou {\k12}ko{\k15}no {\k1}ba{\k17}de {\k13}tsu{\k15}ta{\k14}e{\k14}ta{\k16}ru{\k8}zo
 Comment: 1,0:02:00.72,0:02:00.72,Default,,0,0,0,karaoke,
 Comment: 1,0:02:00.66,0:02:01.86,Default,,0,0,0,karaoke,{\k8}EVE{\k21}RY{\k25}BO{\k15}DY {\k29}STAND {\k22}UP!
@@ -86,7 +89,7 @@ Comment: 1,0:02:55.94,0:02:57.60,Default,,0,0,0,karaoke,{\k13}i{\k13}chi{\k14}ya
 Comment: 1,0:02:57.56,0:03:00.37,Default,,0,0,0,karaoke,{\k16}ma{\k15}mo{\k16}ru {\k33}mon {\k16}ga {\k13}chi{\k28}gau {\k14}na {\k15}shi{\k16}ro{\k14}ha{\k15}ta {\k16}wo {\k12}bu{\k16}ri {\k26}na
 Comment: 1,0:03:00.55,0:03:02.53,Default,,0,0,0,karaoke,{\k11}hi {\k15}no {\k14}me {\k15}a{\k14}ko{\k14}ga{\k16}re{\k15}ru {\k16}hi{\k16}ka{\k14}ge {\k16}wo {\k16}shi{\k6}ru
 Comment: 1,0:03:02.64,0:03:04.80,Default,,0,0,0,karaoke,{\k24}ii{\k13}wa{\k12}ke {\k15}ha {\k14}ki{\k25}kan {\k16}so{\k15}re{\k14}ko{\k16}so {\k15}ga {\k37}REAL
-Comment: 1,0:03:04.96,0:03:06.58,Default,,0,0,0,karaoke,{\k33}FIGH{\k16}TO {\k25}mai{\k16}do {\k26}I'M {\k46}PROUD
+Comment: 1,0:03:04.96,0:03:06.58,Default,,0,0,0,karaoke,{\k33}FIGH{\k16}T {\k25}mai{\k16}do {\k26}I'M {\k46}PROUD
 Comment: 1,0:03:06.74,0:03:09.54,Default,,0,0,0,karaoke,{\k14}na{\k16}ni {\k13}ka{\k7}ra{\k21} {\k15}na{\k12}ni {\k15}ma {\k13}de {\k12}ma{\k15}da {\k14}u{\k22}shi{\k27}na{\k13}ccha {\k30}nai {\k21}zo
 Comment: 1,0:03:09.73,0:03:11.76,Default,,0,0,0,karaoke,{\k20}YES {\k18}ka {\k22}NO {\k15}ja{\k22}nai {\k14}i{\k39}tsu{\k24}ka {\k4}kou {\k13}wa{\k12}rau
 Comment: 1,0:03:11.94,0:03:14.07,Default,,0,0,0,karaoke,{\k15}ha{\k17}na{\k13}ka{\k21}ra{\k26}ba {\k12}ki{\k13}me{\k15}ru {\k12}i{\k13}ku{\k19}ze {\k25}ai{\k12}bou
@@ -113,7 +116,7 @@ Comment: 1,0:03:51.49,0:03:52.77,Default,,0,0,0,karaoke,{\k11}EVE{\k14}RY{\k31}B
 Comment: 1,0:03:53.07,0:03:55.20,Default,,0,0,0,karaoke,{\k15}ma{\k15}ta {\k13}a{\k13}shi{\k15}ta {\k8}no {\k57}HERO'{\k18}S {\k22}COME {\k37}BACK!!
 Comment: 1,0:03:55.31,0:03:57.30,Default,,0,0,0,karaoke,{\k15}zu{\k13}jo{\k17}u {\k15}ka{\k14}zo{\k12}e {\k15}yu{\k14}bi{\k15}o{\k14}ri {\k28}COUNT{\k27}DOWN
 Comment: 1,0:03:57.59,0:04:00.20,Default,,0,0,0,karaoke,{\k14}i{\k17}ku{\k13}ze {\k46}THREE-{\k39}TWO-{\k33}ONE {\k22}MAKE {\k22}SOME {\k55}NOISE!
-Dialogue: 1,0:00:08.69,0:00:11.81,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k12}to{\k16}o{\k12}ku {\k9}de {\k13}ki{\k13}ko{\k14}e{\k13}ru {\k15}ko{\k22}e {\k15}wo {\k22}HIN{\k15}TO {\k11}ni
+Dialogue: 1,0:00:08.69,0:00:11.81,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k12}to{\k16}o{\k12}ku {\k9}de {\k13}ki{\k13}ko{\k14}e{\k13}ru {\k15}ko{\k22}e {\k15}wo {\k22}HIN{\k15}T {\k11}ni
 Dialogue: 1,0:00:10.85,0:00:14.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}hi{\k16}to{\k14}ri {\k16}ma{\k13}ta {\k16}hi{\k16}to{\k15}ri {\k12}ta{\k16}chi{\k14}a{\k15}ga{\k14}ru {\k31}tou{\k26}shi
 Dialogue: 1,0:00:13.52,0:00:16.72,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ku{\k14}ri{\k13}ka{\k14}e{\k14}su {\k15}da{\k14}ke {\k15}no {\k12}fu{\k15}da{\k14}n {\k30}doo{\k24}ri
 Dialogue: 1,0:00:15.48,0:00:18.86,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ku{\k16}tsu{\k14}ga{\k14}e{\k16}su {\k40}jun{\k11}bi {\k23}ii {\k14}ze {\k15}ARE {\k13}YOU {\k14}REA{\k25}DY?
@@ -137,7 +140,9 @@ Dialogue: 1,0:01:04.99,0:01:07.16,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}WHA
 Dialogue: 1,0:01:06.12,0:01:09.50,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ta{\k17}e{\k13}ma{\k13}na{\k20}ku {\k15}o{\k15}da{\k30}ri {\k12}hi{\k16}bi{\k14}ki {\k13}ki{\k14}za{\k23}mu
 Dialogue: 1,0:01:08.46,0:01:12.06,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k7}DE{\k13}JA {\k49}VU {\k13}yo{\k16}ri {\k30}mo {\k15}go{\k4}tsu{\k14}i {\k40}shou{\k14}ge{\k13}ki {\k22}ga
 Dialogue: 1,0:01:11.02,0:01:14.17,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}zen{\k17}shin {\k16}ha{\k21}shi{\k8}ri {\k9}ha{\k9}na{\k10}re{\k33}san {\k17}BREAK {\k14}IT {\k32}DOWN
-Dialogue: 1,0:01:13.71,0:01:16.89,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}TURN {\k14}IT {\k17}UP ({\k13}TURN {\k16}IT {\k30}UP) {\k32}hey {\k16}ki{\k14}kko{\k37}e{\k6}ka
+Dialogue: 1,0:01:13.71,0:01:15.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}TURN {\k14}IT {\k17}UP
+Dialogue: 1,0:01:14.15,0:01:15.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k13}TURN {\k16}IT {\k30}UP
+Dialogue: 1,0:01:14.74,0:01:16.89,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}hey {\k16}ki{\k14}kko{\k37}e{\k6}ka
 Dialogue: 1,0:01:16.00,0:01:19.02,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k14}sa{\k3}ken{\k27}da {\k16}ki{\k31}no {\k14}ma{\k12}de {\k14}no {\k13}ko{\k16}to {\k32}ga
 Dialogue: 1,0:01:17.95,0:01:20.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ka{\k13}wa{\k22}ru {\k11}da{\k27}rou {\k14}ma{\k16}da{\k13}mi{\k15}nu {\k10}a{\k9}su {\k21}he
 Dialogue: 1,0:01:19.96,0:01:23.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ko{\k14}bo{\k18}re{\k14}te {\k14}a{\k13}fu{\k13}re{\k14}ta {\k16}o{\k30}moi {\k16}no {\k29}bun {\k17}ma{\k32}de
@@ -158,7 +163,7 @@ Dialogue: 1,0:01:50.43,0:01:52.99,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k11}i{\
 Dialogue: 1,0:01:51.89,0:01:54.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}jin{\k15}ka{\k21}ku {\k12}ma{\k15}mo{\k13}ru {\k12}no {\k15}sa{\k13}su{\k14}be{\k1}te
 Dialogue: 1,0:01:53.57,0:01:55.93,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}LIKE {\k17}A {\k4}TER{\k17}MI{\k32}NA{\k28}TOR
 Dialogue: 1,0:01:54.88,0:01:57.98,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}yon{\k29}kai {\k14}go{\k27}kai {\k16}de {\k13}ta{\k14}tsu {\k29}HIGH{\k29}LIGHT
-Dialogue: 1,0:01:56.91,0:01:58.81,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}(FLY {\k31}HIGH, {\k29}YEAH!)
+Dialogue: 1,0:01:56.91,0:01:58.81,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}FLY {\k31}HIGH, {\k29}YEAH!
 Dialogue: 1,0:01:57.81,0:02:00.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}i{\k21}ssou {\k12}ko{\k15}no {\k1}ba{\k17}de {\k13}tsu{\k15}ta{\k14}e{\k14}ta{\k16}ru{\k8}zo
 Dialogue: 1,0:01:59.82,0:02:00.92,Default,,0,0,0,fx,{\k90\fad(300,200)}
 Dialogue: 1,0:01:59.76,0:02:02.06,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k8}EVE{\k21}RY{\k25}BO{\k15}DY {\k29}STAND {\k22}UP!
@@ -187,7 +192,7 @@ Dialogue: 1,0:02:55.04,0:02:57.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}i{\
 Dialogue: 1,0:02:56.66,0:03:00.57,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ma{\k15}mo{\k16}ru {\k33}mon {\k16}ga {\k13}chi{\k28}gau {\k14}na {\k15}shi{\k16}ro{\k14}ha{\k15}ta {\k16}wo {\k12}bu{\k16}ri {\k26}na
 Dialogue: 1,0:02:59.65,0:03:02.73,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k11}hi {\k15}no {\k14}me {\k15}a{\k14}ko{\k14}ga{\k16}re{\k15}ru {\k16}hi{\k16}ka{\k14}ge {\k16}wo {\k16}shi{\k6}ru
 Dialogue: 1,0:03:01.74,0:03:05.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ii{\k13}wa{\k12}ke {\k15}ha {\k14}ki{\k25}kan {\k16}so{\k15}re{\k14}ko{\k16}so {\k15}ga {\k37}REAL
-Dialogue: 1,0:03:04.06,0:03:06.78,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}FIGH{\k16}TO {\k25}mai{\k16}do {\k26}I'M {\k46}PROUD
+Dialogue: 1,0:03:04.06,0:03:06.78,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}FIGH{\k16}T {\k25}mai{\k16}do {\k26}I'M {\k46}PROUD
 Dialogue: 1,0:03:05.84,0:03:09.74,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k14}na{\k16}ni {\k13}ka{\k7}ra{\k21} {\k15}na{\k12}ni {\k15}ma {\k13}de {\k12}ma{\k15}da {\k14}u{\k22}shi{\k27}na{\k13}ccha {\k30}nai {\k21}zo
 Dialogue: 1,0:03:08.83,0:03:11.96,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}YES {\k18}ka {\k22}NO {\k15}ja{\k22}nai {\k14}i{\k39}tsu{\k24}ka {\k4}kou {\k13}wa{\k12}rau
 Dialogue: 1,0:03:11.04,0:03:14.27,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ha{\k17}na{\k13}ka{\k21}ra{\k26}ba {\k12}ki{\k13}me{\k15}ru {\k12}i{\k13}ku{\k19}ze {\k25}ai{\k12}bou
