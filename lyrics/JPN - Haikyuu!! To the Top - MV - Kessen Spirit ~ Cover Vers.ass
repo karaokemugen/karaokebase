@@ -1,0 +1,198 @@
+﻿[Script Info]
+Title: Kessen Spirit
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Hanaku
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Erisa,Arial,24,&H00FFFFFF,&H004795FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Suzumi,Arial,24,&H00FFFFFF,&H00FFFF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Momoko,Arial,24,&H00FFFFFF,&H00590093,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Nao,Arial,24,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Haruno,Arial,24,&H00FFFFFF,&H0000FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hina,Arial,24,&H00FFFFFF,&H00E475FB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mikuru,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Momona,Arial,24,&H00FFFFFF,&H00E2B0DF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Himeri,Arial,24,&H00FFFFFF,&H009E6E25,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hazuki,Arial,24,&H000066B5,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Takane,Arial,24,&H00FFFFFF,&H000067B7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:14.63,0:00:18.84,Himeri,,0,0,0,karaoke,{\k32}P{\k19}RE{\k29}S{\k32}SU{\k81}RE {\k30}so{\k32}re {\k33}ga {\k16}do{\k29}u{\k35}shi{\k44}ta
+Comment: 0,0:00:19.80,0:00:24.10,Himeri,,0,0,0,karaoke,{\k36}ka{\k13}mi{\k34}sa{\k33}ma {\k78}no {\k30}ta{\k31}su{\k35}ke {\k15}wa {\k31}i{\k30}ra{\k49}nai
+Comment: 0,0:00:24.85,0:00:29.20,Momoko,,0,0,0,karaoke,{\k31}E{\k17}GO{\k27}I{\k35}S{\k77}T {\k36}so{\k33}re {\k32}ga {\k16}do{\k33}u{\k31}shi{\k52}ta
+Comment: 0,0:00:24.85,0:00:29.20,Hazuki,,0,0,0,karaoke,{\k31}E{\k17}GO{\k27}I{\k35}S{\k77}T {\k36}so{\k33}re {\k32}ga {\k16}do{\k33}u{\k31}shi{\k52}ta
+Comment: 0,0:00:30.01,0:00:34.02,Nao,,0,0,0,karaoke,{\k33}ka{\k16}chi{\k31}ta{\k28}i {\k83}ni {\k33}ri{\k33}yu{\k32}u {\k16}na{\k33}do {\k30}na{\k54}i
+Comment: 0,0:00:30.01,0:00:34.02,Suzumi,,0,0,0,karaoke,{\k33}ka{\k16}chi{\k31}ta{\k28}i {\k83}ni {\k33}ri{\k33}yu{\k32}u {\k16}na{\k33}do {\k30}na{\k54}i
+Comment: 0,0:00:34.66,0:00:35.43,Sample KM [Choir],,0,0,0,karaoke,{\k44}BREAK {\k33}OUT
+Comment: 0,0:00:35.43,0:00:37.36,Mikuru,,0,0,0,karaoke,{\k12}i{\k19}do{\k11}ma{\k20}zu {\k17}ni {\k13}wa {\k17}i{\k14}ra{\k16}re{\k14}na{\k33}i
+Comment: 0,0:00:37.29,0:00:38.00,Sample KM [Choir],,0,0,0,karaoke,{\k36}BREAK {\k35}OUT
+Comment: 0,0:00:37.98,0:00:39.88,Momona,,0,0,0,karaoke,{\k13}ka{\k12}ge {\k25}sa{\k14}e {\k11}mo {\k19}fu{\k11}ri{\k17}ki{\k15}t{\k23}te{\k28}ke
+Comment: 0,0:00:39.84,0:00:40.54,Sample KM [Choir],,0,0,0,karaoke,{\k32}BREAK {\k38}OUT
+Comment: 0,0:00:40.54,0:00:42.32,Haruno,,0,0,0,karaoke,{\k32}gen{\k32}jou {\k16}no {\k18}ge{\k13}n{\k18}ka{\k37}i
+Comment: 0,0:00:42.44,0:00:45.02,Haruno,,0,0,0,karaoke,{\k33}no{\k36}ri{\k33}ko{\k32}e{\k32}ro {\k59}CHAN{\k45}CE
+Comment: 0,0:00:44.94,0:00:45.65,Sample KM [Choir],,0,0,0,karaoke,{\k34}WE {\k37}ARE
+Comment: 0,0:00:45.56,0:00:47.54,Hina,,0,0,0,karaoke,{\k35}zen{\k14}ryo{\k16}ku {\k13}wo {\k36}ka{\k15}ke{\k30}ta
+Comment: 0,0:00:47.44,0:00:48.19,Sample KM [Choir],,0,0,0,karaoke,{\k41}WE {\k34}ARE
+Comment: 0,0:00:48.10,0:00:50.12,Hina,,0,0,0,karaoke,{\k16}o{\k21}bi{\k11}e{\k16}ru {\k15}ko{\k35}to{\k15}na{\k50}i
+Comment: 0,0:00:50.12,0:00:50.75,Sample KM [Choir],,0,0,0,karaoke,{\k27}WI{\k36}NNER
+Comment: 0,0:00:50.72,0:00:52.57,Erisa,,0,0,0,karaoke,{\k21}ka{\k16}ku{\k30}shin {\k17}he {\k30}ka{\k20}wa{\k60}re
+Comment: 0,0:00:52.68,0:00:56.45,Himeri,,0,0,0,karaoke,{\k35}ta{\k28}ka{\k66}ku {\k33}ta{\k33}ka{\k65}ku {\k30}ta{\k31}ka{\k31}ku
+Comment: 0,0:00:56.40,0:00:58.09,Himeri,,0,0,0,karaoke,{\k38}ma{\k31}i{\k33}a{\k30}ga{\k30}re
+Comment: 0,0:00:57.99,0:01:02.58,Takane,,0,0,0,karaoke,{\k28}a{\k35}ji{\k64}wat{\k58}ta {\k40}ha{\k28}i{\k23}bo{\k11}ku {\k30}no {\k28}ki{\k38}zu {\k65}wa
+Comment: 0,0:01:02.88,0:01:07.50,Takane,,0,0,0,karaoke,{\k37}na{\k33}mi{\k29}da {\k66}yat{\k64}te {\k33}ha{\k34}na {\k31}wo {\k32}sa{\k31}ka{\k30}se{\k45}ru
+Comment: 0,0:01:07.66,0:01:12.80,Takane,,0,0,0,karaoke,{\k55}a{\k39}ki{\k36}ra{\k31}me{\k33}ro {\k67}to {\k34}wa{\k33}ra{\k30}e{\k30}ba {\k28}i{\k33}i {\k65}sa
+Comment: 0,0:01:12.97,0:01:18.05,Takane,,0,0,0,karaoke,{\k38}so{\k34}n{\k30}na {\k31}ko{\k33}to{\k62}ba {\k33}bo{\k31}ku {\k32}wa {\k31}shi{\k30}ra{\k34}na{\k51}i
+Comment: 0,0:01:28.68,0:01:32.90,Hina,,0,0,0,karaoke,{\k34}se{\k22}o{\k33}u {\k31}mo{\k32}no{\k31} {\k47}so{\k22}re {\k43}mo {\k17}ta{\k31}no{\k31}shi{\k48}me
+Comment: 0,0:01:33.85,0:01:38.00,Hina,,0,0,0,karaoke,{\k33}do{\k15}u{\k32}jo{\k32}u {\k74}ni {\k24}tsu{\k37}ki{\k42}a{\k17}u {\k29}ki {\k34}wa {\k46}nai
+Comment: 0,0:01:38.93,0:01:43.24,Himeri,,0,0,0,karaoke,{\k34}RE{\k18}A{\k24}LI{\k39}S{\k74}T {\k37}ka{\k31}t{\k34}te {\k15}ni {\k30}shi{\k32}ro {\k63}yo
+Comment: 0,0:01:38.93,0:01:43.24,Erisa,,0,0,0,karaoke,{\k34}RE{\k18}A{\k24}LI{\k39}S{\k74}T {\k37}ka{\k31}t{\k34}te {\k15}ni {\k30}shi{\k32}ro {\k63}yo
+Comment: 0,0:01:44.07,0:01:48.14,Momona,,0,0,0,karaoke,{\k31}ban{\k19}ku{\k15}ru{\k32}wa{\k88}se {\k37}ko{\k33}wa{\k33}shi{\k17}te {\k30}shi{\k32}ma{\k40}e
+Comment: 0,0:01:44.07,0:01:48.14,Haruno,,0,0,0,karaoke,{\k31}ban{\k19}ku{\k15}ru{\k32}wa{\k88}se {\k37}ko{\k33}wa{\k33}shi{\k17}te {\k30}shi{\k32}ma{\k40}e
+Comment: 0,0:01:48.83,0:01:49.48,Sample KM [Choir],,0,0,0,karaoke,{\k33}BREAK {\k32}OUT
+Comment: 0,0:01:49.41,0:01:51.33,Suzumi,,0,0,0,karaoke,{\k24}ko{\k13}no {\k20}ma{\k12}ma {\k15}mo{\k13}e{\k23}tsu{\k15}ki{\k18}ta{\k15}t{\k24}te
+Comment: 0,0:01:51.33,0:01:52.00,Sample KM [Choir],,0,0,0,karaoke,{\k34}BREAK {\k33}OUT
+Comment: 0,0:01:51.94,0:01:53.92,Suzumi,,0,0,0,karaoke,{\k24}ha{\k20}ji{\k13}ru {\k17}ko{\k16}to{\k16}nai {\k32}i{\k16}ki{\k16}za{\k28}ma
+Comment: 0,0:01:53.93,0:01:54.59,Sample KM [Choir],,0,0,0,karaoke,{\k35}BREAK {\k31}OUT
+Comment: 0,0:01:54.59,0:01:56.21,Mikuru,,0,0,0,karaoke,{\k25}kan{\k40}jou {\k16}no {\k15}ta{\k16}ka{\k18}na{\k32}ri
+Comment: 0,0:01:56.48,0:01:59.07,Mikuru,,0,0,0,karaoke,{\k36}chi{\k30}ka{\k34}ra {\k31}ni {\k29}ka{\k52}e{\k12}te{\k35}ke
+Comment: 0,0:01:59.00,0:01:59.69,Sample KM [Choir],,0,0,0,karaoke,{\k31}WE {\k38}ARE
+Comment: 0,0:01:59.63,0:02:01.62,Momoko,,0,0,0,karaoke,{\k38}yuu{\k33}kan {\k16}na {\k31}ko{\k18}ko{\k63}ro
+Comment: 0,0:02:01.62,0:02:02.27,Sample KM [Choir],,0,0,0,karaoke,{\k27}WE {\k38}ARE
+Comment: 0,0:02:02.18,0:02:04.13,Momoko,,0,0,0,karaoke,{\k32}zen{\k40}shin {\k17}a{\k32}ru {\k16}no{\k58}mi
+Comment: 0,0:02:04.10,0:02:04.77,Sample KM [Choir],,0,0,0,karaoke,{\k33}WI{\k34}NNER
+Comment: 0,0:02:04.75,0:02:06.52,Himeri,,0,0,0,karaoke,{\k29}man{\k40}shin {\k18}so{\k28}u{\k18}i {\k44}de
+Comment: 0,0:02:06.68,0:02:10.44,Haruno,,0,0,0,karaoke,{\k35}a{\k33}ga{\k63}ke {\k34}a{\k31}ga{\k63}ke {\k33}a{\k31}ga{\k53}ke
+Comment: 0,0:02:10.44,0:02:12.11,Haruno,,0,0,0,karaoke,{\k40}tsu{\k34}ka{\k30}mi{\k36}to{\k27}re
+Comment: 0,0:02:12.04,0:02:16.63,Takane,,0,0,0,karaoke,{\k39}bu{\k30}tsu{\k70}kat{\k58}te {\k34}ko{\k36}ke{\k30}te {\k31}wa {\k31}ta{\k34}t{\k66}te
+Comment: 0,0:02:16.90,0:02:21.50,Takane,,0,0,0,karaoke,{\k37}hi{\k31}za {\k33}no {\k64}ki{\k61}zu {\k33}ku{\k32}n{\k34}sho{\k31}u {\k31}ni {\k33}na{\k40}ru
+Comment: 0,0:02:21.56,0:02:26.84,Takane,,0,0,0,karaoke,{\k74}i{\k38}ki{\k30}ga{\k33}t{\k36}te{\k57}ro {\k36}ba{\k33}ka {\k28}ni {\k36}sa{\k27}re{\k36}te{\k64}mo
+Comment: 0,0:02:27.00,0:02:32.40,Takane,,0,0,0,karaoke,{\k47}sho{\k34}u{\k32}ri {\k29}ka{\k32}ka{\k63}ge {\k35}bo{\k30}ku {\k29}wa {\k32}i{\k31}ki{\k37}ta{\k109}i
+Comment: 0,0:02:33.11,0:02:35.37,Hina,,0,0,0,karaoke,{\k77}ah! {\kf149}ah~
+Comment: 0,0:02:35.67,0:02:40.44,Hina,,0,0,0,karaoke,{\k27}o{\k11}ku{\k37}su{\k95}ru {\k32}ko{\k63}to{\k65}na{\kf147}i
+Comment: 0,0:02:41.48,0:02:44.05,Sample KM [Choir],,0,0,0,karaoke,{\kf257}WOW
+Comment: 0,0:02:43.66,0:02:46.59,Momona,,0,0,0,karaoke,{\k21}tsu{\k20}yo{\k33}ki {\k30}ka{\k33}ze {\k30}ga {\k34}se{\k30}na{\k18}ka {\k12}o{\k32}su
+Comment: 0,0:02:46.48,0:02:48.81,Sample KM [Choir],,0,0,0,karaoke,{\kf233}WOW
+Comment: 0,0:02:48.70,0:02:51.08,Erisa,,0,0,0,karaoke,{\k32}ya{\k16}do{\k28}re {\k36}a{\k13}o{\k17}i {\k34}ho{\k62}nou
+Comment: 0,0:02:51.69,0:02:54.12,Sample KM [Choir],,0,0,0,karaoke,{\kf243}WOW
+Comment: 0,0:02:53.85,0:02:56.92,Haruno,,0,0,0,karaoke,{\k28}ji{\k11}da{\k37}i {\k24}wo {\k36}tsu{\k35}ku{\k33}re {\k30}fuu{\k31}un{\k42}ji
+Comment: 0,0:02:56.64,0:02:59.24,Sample KM [Choir],,0,0,0,karaoke,{\kf260}WOW
+Comment: 0,0:02:58.99,0:03:04.61,Himeri,,0,0,0,karaoke,{\k38}chou{\k35}jou {\k28}he {\k21}i{\k14}za{\k32}na{\kf83}u{\k37} {\kf135}mi{\kf139}chi
+Comment: 0,0:03:14.24,0:03:15.01,Sample KM [Choir],,0,0,0,karaoke,{\k45}BREAK {\k32}OUT
+Comment: 0,0:03:14.97,0:03:16.93,Hazuki,,0,0,0,karaoke,{\k21}i{\k17}do{\k13}ma{\k20}zu {\k12}ni {\k17}wa {\k17}i{\k17}ra{\k16}re{\k15}na{\k31}i
+Comment: 0,0:03:16.72,0:03:17.58,Sample KM [Choir],,0,0,0,karaoke,{\k38}BREAK {\k48}OUT
+Comment: 0,0:03:17.43,0:03:19.43,Hazuki,,0,0,0,karaoke,{\k46}sai{\k29}kyou {\k20}no {\k14}sa{\k18}i {\k33}zen{\k40}sen
+Comment: 0,0:03:19.32,0:03:20.14,Sample KM [Choir],,0,0,0,karaoke,{\k46}BREAK {\k36}OUT
+Comment: 0,0:03:20.01,0:03:21.90,Momoko,,0,0,0,karaoke,{\k43}sen{\k34}jou {\k12}no {\k20}ki{\k15}n{\k17}ko{\k48}u
+Comment: 0,0:03:21.97,0:03:24.69,Momoko,,0,0,0,karaoke,{\k36}bu{\k35}chi{\k29}ko{\k29}wa{\k35}se {\k50}REA{\k18}DY {\k40}GO!!
+Comment: 0,0:03:24.52,0:03:25.22,Sample KM [Choir],,0,0,0,karaoke,{\k34}WE {\k36}ARE
+Comment: 0,0:03:25.18,0:03:27.16,Nao,,0,0,0,karaoke,{\k36}gyak{\k35}kyou {\k10}no {\k37}a{\k16}ra{\k64}shi
+Comment: 0,0:03:26.99,0:03:27.78,Sample KM [Choir],,0,0,0,karaoke,{\k49}WE {\k30}ARE
+Comment: 0,0:03:27.78,0:03:29.70,Nao,,0,0,0,karaoke,{\k19}o{\k16}so{\k15}ru{\k15}ru {\k16}ni {\k30}ta{\k19}ra{\k62}zu
+Comment: 0,0:03:29.60,0:03:30.33,Sample KM [Choir],,0,0,0,karaoke,{\k36}WI{\k37}NNER
+Comment: 0,0:03:30.26,0:03:31.98,Mikuru,,0,0,0,karaoke,{\k41}kas{\k28}sai {\k17}wo {\k34}a{\k13}bi{\k39}te
+Comment: 0,0:03:32.18,0:03:35.77,Himeri,,0,0,0,karaoke,{\k33}tsu{\k32}yo{\k63}ku {\k34}tsu{\k34}yo{\k60}ku {\k35}tsu{\k32}yo{\k36}ku
+Comment: 0,0:03:35.92,0:03:37.61,Himeri,,0,0,0,karaoke,{\k49}ki{\k30}yo{\k31}ku {\k35}a{\k24}re
+Comment: 0,0:03:37.55,0:03:42.16,Takane,,0,0,0,karaoke,{\k45}a{\k29}ji{\k68}wat{\k58}ta {\k26}ha{\k41}i{\k24}bo{\k9}ku {\k30}no {\k30}ki{\k37}zu {\k64}wa
+Comment: 0,0:03:42.40,0:03:47.09,Takane,,0,0,0,karaoke,{\k37}na{\k33}mi{\k29}da {\k66}yat{\k64}te {\k33}ha{\k34}na {\k31}wo {\k32}sa{\k31}ka{\k30}se{\k45}ru
+Comment: 0,0:03:47.24,0:03:52.37,Takane,,0,0,0,karaoke,{\k55}a{\k39}ki{\k36}ra{\k31}me{\k33}ro {\k67}to {\k34}wa{\k33}ra{\k30}e{\k30}ba {\k28}i{\k33}i {\k65}sa
+Comment: 0,0:03:52.52,0:03:57.38,Takane,,0,0,0,karaoke,{\k38}so{\k34}n{\k30}na {\k31}ko{\k33}to{\k62}ba {\k33}bo{\k31}ku {\k32}wa {\rHimeri\k31}shi{\k30}ra{\k34}na{\k51}i
+Comment: 0,0:03:57.44,0:04:02.76,Takane,,0,0,0,karaoke,{\k64}i{\k30}ki{\k31}ga{\k37}t{\k33}te{\k65}ro {\k29}ba{\k35}ka {\k29}ni {\k32}sa{\k32}re{\k34}te{\k81}mo
+Comment: 0,0:04:02.82,0:04:07.60,Takane,,0,0,0,karaoke,{\k39}sho{\k33}u{\k30}ri {\k30}ka{\k33}ka{\k64}ge {\k31}bo{\k34}ku {\k30}wa {\k28}i{\k36}ki{\k30}ta{\k60}i
+Comment: 0,0:04:07.60,0:04:12.11,Takane,,0,0,0,karaoke,{\k32}ha{\k40}i{\k30}bo{\k35}ku {\k31}wo {\k37}shi{\kf246}ri
+Comment: 0,0:04:13.04,0:04:16.80,Takane,,0,0,0,karaoke,{\k37}ha{\k35}na {\k30}wa {\k60}sa{\kf214}ku
+Comment: 0,0:04:18.37,0:04:23.07,Hina,,0,0,0,karaoke,{\k36}fu{\k31}ka{\k63}nou {\k65}to {\k35}wa{\k32}ra{\k32}e{\k31}ba {\k30}i{\k31}i {\k62}sa
+Comment: 0,0:04:23.16,0:04:28.58,Himeri,,0,0,0,karaoke,{\k37}so{\k33}n{\k32}na {\k33}ko{\k31}to{\k61}ba {\k35}bo{\k34}ku {\k30}wa {\k33}shi{\k32}ra{\k32}na{\k79}i
+Dialogue: 0,0:00:13.73,0:00:19.04,Himeri,,0,0,0,fx,{\k90\fad(300,200)}{\k32}P{\k19}RE{\k29}S{\k32}SU{\k81}RE {\k30}so{\k32}re {\k33}ga {\k16}do{\k29}u{\k35}shi{\k44}ta
+Dialogue: 0,0:00:18.90,0:00:24.30,Himeri,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ka{\k13}mi{\k34}sa{\k33}ma {\k78}no {\k30}ta{\k31}su{\k35}ke {\k15}wa {\k31}i{\k30}ra{\k49}nai
+Dialogue: 0,0:00:23.95,0:00:29.40,Momoko,,0,0,0,fx,{\k90\fad(300,200)}{\k31}E{\k17}GO{\k27}I{\k35}S{\k77}T {\k36}so{\k33}re {\k32}ga {\k16}do{\k33}u{\k31}shi{\k52}ta
+Dialogue: 0,0:00:23.95,0:00:29.40,Hazuki,,0,0,0,fx,{\k90\fad(300,200)}{\k31}E{\k17}GO{\k27}I{\k35}S{\k77}T {\k36}so{\k33}re {\k32}ga {\k16}do{\k33}u{\k31}shi{\k52}ta
+Dialogue: 0,0:00:29.11,0:00:34.22,Nao,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ka{\k16}chi{\k31}ta{\k28}i {\k83}ni {\k33}ri{\k33}yu{\k32}u {\k16}na{\k33}do {\k30}na{\k54}i
+Dialogue: 0,0:00:29.11,0:00:34.22,Suzumi,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ka{\k16}chi{\k31}ta{\k28}i {\k83}ni {\k33}ri{\k33}yu{\k32}u {\k16}na{\k33}do {\k30}na{\k54}i
+Dialogue: 0,0:00:33.76,0:00:35.63,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}BREAK {\k33}OUT
+Dialogue: 0,0:00:34.53,0:00:37.56,Mikuru,,0,0,0,fx,{\k90\fad(300,200)}{\k12}i{\k19}do{\k11}ma{\k20}zu {\k17}ni {\k13}wa {\k17}i{\k14}ra{\k16}re{\k14}na{\k33}i
+Dialogue: 0,0:00:36.39,0:00:38.20,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}BREAK {\k35}OUT
+Dialogue: 0,0:00:37.08,0:00:40.08,Momona,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ka{\k12}ge {\k25}sa{\k14}e {\k11}mo {\k19}fu{\k11}ri{\k17}ki{\k15}t{\k23}te{\k28}ke
+Dialogue: 0,0:00:38.94,0:00:40.74,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}BREAK {\k38}OUT
+Dialogue: 0,0:00:39.64,0:00:42.52,Haruno,,0,0,0,fx,{\k90\fad(300,200)}{\k32}gen{\k32}jou {\k16}no {\k18}ge{\k13}n{\k18}ka{\k37}i
+Dialogue: 0,0:00:41.54,0:00:45.22,Haruno,,0,0,0,fx,{\k90\fad(300,200)}{\k33}no{\k36}ri{\k33}ko{\k32}e{\k32}ro {\k59}CHAN{\k45}CE
+Dialogue: 0,0:00:44.04,0:00:45.85,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}WE {\k37}ARE
+Dialogue: 0,0:00:44.66,0:00:47.74,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k35}zen{\k14}ryo{\k16}ku {\k13}wo {\k36}ka{\k15}ke{\k30}ta
+Dialogue: 0,0:00:46.54,0:00:48.39,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k41}WE {\k34}ARE
+Dialogue: 0,0:00:47.20,0:00:50.32,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k16}o{\k21}bi{\k11}e{\k16}ru {\k15}ko{\k35}to{\k15}na{\k50}i
+Dialogue: 0,0:00:49.22,0:00:50.95,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}WI{\k36}NNER
+Dialogue: 0,0:00:49.82,0:00:52.77,Erisa,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ka{\k16}ku{\k30}shin {\k17}he {\k30}ka{\k20}wa{\k60}re
+Dialogue: 0,0:00:51.78,0:00:56.65,Himeri,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ta{\k28}ka{\k66}ku {\k33}ta{\k33}ka{\k65}ku {\k30}ta{\k31}ka{\k31}ku
+Dialogue: 0,0:00:55.50,0:00:58.29,Himeri,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ma{\k31}i{\k33}a{\k30}ga{\k30}re
+Dialogue: 0,0:00:57.09,0:01:02.78,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k28}a{\k35}ji{\k64}wat{\k58}ta {\k40}ha{\k28}i{\k23}bo{\k11}ku {\k30}no {\k28}ki{\k38}zu {\k65}wa
+Dialogue: 0,0:01:01.98,0:01:07.70,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k37}na{\k33}mi{\k29}da {\k66}yat{\k64}te {\k33}ha{\k34}na {\k31}wo {\k32}sa{\k31}ka{\k30}se{\k45}ru
+Dialogue: 0,0:01:06.76,0:01:13.00,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k55}a{\k39}ki{\k36}ra{\k31}me{\k33}ro {\k67}to {\k34}wa{\k33}ra{\k30}e{\k30}ba {\k28}i{\k33}i {\k65}sa
+Dialogue: 0,0:01:12.07,0:01:18.25,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k38}so{\k34}n{\k30}na {\k31}ko{\k33}to{\k62}ba {\k33}bo{\k31}ku {\k32}wa {\k31}shi{\k30}ra{\k34}na{\k51}i
+Dialogue: 0,0:01:27.78,0:01:33.10,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k34}se{\k22}o{\k33}u {\k31}mo{\k32}no{\k31} {\k47}so{\k22}re {\k43}mo {\k17}ta{\k31}no{\k31}shi{\k48}me
+Dialogue: 0,0:01:32.95,0:01:38.20,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k33}do{\k15}u{\k32}jo{\k32}u {\k74}ni {\k24}tsu{\k37}ki{\k42}a{\k17}u {\k29}ki {\k34}wa {\k46}nai
+Dialogue: 0,0:01:38.03,0:01:43.44,Himeri,,0,0,0,fx,{\k90\fad(300,200)}{\k34}RE{\k18}A{\k24}LI{\k39}S{\k74}T {\k37}ka{\k31}t{\k34}te {\k15}ni {\k30}shi{\k32}ro {\k63}yo
+Dialogue: 0,0:01:38.03,0:01:43.44,Erisa,,0,0,0,fx,{\k90\fad(300,200)}{\k34}RE{\k18}A{\k24}LI{\k39}S{\k74}T {\k37}ka{\k31}t{\k34}te {\k15}ni {\k30}shi{\k32}ro {\k63}yo
+Dialogue: 0,0:01:43.17,0:01:48.34,Momona,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ban{\k19}ku{\k15}ru{\k32}wa{\k88}se {\k37}ko{\k33}wa{\k33}shi{\k17}te {\k30}shi{\k32}ma{\k40}e
+Dialogue: 0,0:01:43.17,0:01:48.34,Haruno,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ban{\k19}ku{\k15}ru{\k32}wa{\k88}se {\k37}ko{\k33}wa{\k33}shi{\k17}te {\k30}shi{\k32}ma{\k40}e
+Dialogue: 0,0:01:47.93,0:01:49.68,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k33}BREAK {\k32}OUT
+Dialogue: 0,0:01:48.51,0:01:51.53,Suzumi,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ko{\k13}no {\k20}ma{\k12}ma {\k15}mo{\k13}e{\k23}tsu{\k15}ki{\k18}ta{\k15}t{\k24}te
+Dialogue: 0,0:01:50.43,0:01:52.20,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}BREAK {\k33}OUT
+Dialogue: 0,0:01:51.04,0:01:54.12,Suzumi,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ha{\k20}ji{\k13}ru {\k17}ko{\k16}to{\k16}nai {\k32}i{\k16}ki{\k16}za{\k28}ma
+Dialogue: 0,0:01:53.03,0:01:54.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}BREAK {\k31}OUT
+Dialogue: 0,0:01:53.69,0:01:56.41,Mikuru,,0,0,0,fx,{\k90\fad(300,200)}{\k25}kan{\k40}jou {\k16}no {\k15}ta{\k16}ka{\k18}na{\k32}ri
+Dialogue: 0,0:01:55.58,0:01:59.27,Mikuru,,0,0,0,fx,{\k90\fad(300,200)}{\k36}chi{\k30}ka{\k34}ra {\k31}ni {\k29}ka{\k52}e{\k12}te{\k35}ke
+Dialogue: 0,0:01:58.10,0:01:59.89,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k31}WE {\k38}ARE
+Dialogue: 0,0:01:58.73,0:02:01.82,Momoko,,0,0,0,fx,{\k90\fad(300,200)}{\k38}yuu{\k33}kan {\k16}na {\k31}ko{\k18}ko{\k63}ro
+Dialogue: 0,0:02:00.72,0:02:02.47,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}WE {\k38}ARE
+Dialogue: 0,0:02:01.28,0:02:04.33,Momoko,,0,0,0,fx,{\k90\fad(300,200)}{\k32}zen{\k40}shin {\k17}a{\k32}ru {\k16}no{\k58}mi
+Dialogue: 0,0:02:03.20,0:02:04.97,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k33}WI{\k34}NNER
+Dialogue: 0,0:02:03.85,0:02:06.72,Himeri,,0,0,0,fx,{\k90\fad(300,200)}{\k29}man{\k40}shin {\k18}so{\k28}u{\k18}i {\k44}de
+Dialogue: 0,0:02:05.78,0:02:10.64,Haruno,,0,0,0,fx,{\k90\fad(300,200)}{\k35}a{\k33}ga{\k63}ke {\k34}a{\k31}ga{\k63}ke {\k33}a{\k31}ga{\k53}ke
+Dialogue: 0,0:02:09.54,0:02:12.31,Haruno,,0,0,0,fx,{\k90\fad(300,200)}{\k40}tsu{\k34}ka{\k30}mi{\k36}to{\k27}re
+Dialogue: 0,0:02:11.14,0:02:16.83,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k39}bu{\k30}tsu{\k70}kat{\k58}te {\k34}ko{\k36}ke{\k30}te {\k31}wa {\k31}ta{\k34}t{\k66}te
+Dialogue: 0,0:02:16.00,0:02:21.70,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k37}hi{\k31}za {\k33}no {\k64}ki{\k61}zu {\k33}ku{\k32}n{\k34}sho{\k31}u {\k31}ni {\k33}na{\k40}ru
+Dialogue: 0,0:02:20.66,0:02:27.04,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k74}i{\k38}ki{\k30}ga{\k33}t{\k36}te{\k57}ro {\k36}ba{\k33}ka {\k28}ni {\k36}sa{\k27}re{\k36}te{\k64}mo
+Dialogue: 0,0:02:26.10,0:02:32.60,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k47}sho{\k34}u{\k32}ri {\k29}ka{\k32}ka{\k63}ge {\k35}bo{\k30}ku {\k29}wa {\k32}i{\k31}ki{\k37}ta{\k109}i
+Dialogue: 0,0:02:32.21,0:02:35.57,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k77}ah! {\kf149}ah~
+Dialogue: 0,0:02:34.77,0:02:40.64,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k27}o{\k11}ku{\k37}su{\k95}ru {\k32}ko{\k63}to{\k65}na{\kf147}i
+Dialogue: 0,0:02:40.58,0:02:44.25,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf257}WOW
+Dialogue: 0,0:02:42.76,0:02:46.79,Momona,,0,0,0,fx,{\k90\fad(300,200)}{\k21}tsu{\k20}yo{\k33}ki {\k30}ka{\k33}ze {\k30}ga {\k34}se{\k30}na{\k18}ka {\k12}o{\k32}su
+Dialogue: 0,0:02:45.58,0:02:49.01,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf233}WOW
+Dialogue: 0,0:02:47.80,0:02:51.28,Erisa,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ya{\k16}do{\k28}re {\k36}a{\k13}o{\k17}i {\k34}ho{\k62}nou
+Dialogue: 0,0:02:50.79,0:02:54.32,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf243}WOW
+Dialogue: 0,0:02:52.95,0:02:57.12,Haruno,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ji{\k11}da{\k37}i {\k24}wo {\k36}tsu{\k35}ku{\k33}re {\k30}fuu{\k31}un{\k42}ji
+Dialogue: 0,0:02:55.74,0:02:59.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf260}WOW
+Dialogue: 0,0:02:58.09,0:03:04.81,Himeri,,0,0,0,fx,{\k90\fad(300,200)}{\k38}chou{\k35}jou {\k28}he {\k21}i{\k14}za{\k32}na{\kf83}u{\k37} {\kf135}mi{\kf139}chi
+Dialogue: 0,0:03:13.34,0:03:15.21,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}BREAK {\k32}OUT
+Dialogue: 0,0:03:14.07,0:03:17.13,Hazuki,,0,0,0,fx,{\k90\fad(300,200)}{\k21}i{\k17}do{\k13}ma{\k20}zu {\k12}ni {\k17}wa {\k17}i{\k17}ra{\k16}re{\k15}na{\k31}i
+Dialogue: 0,0:03:15.82,0:03:17.78,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}BREAK {\k48}OUT
+Dialogue: 0,0:03:16.53,0:03:19.63,Hazuki,,0,0,0,fx,{\k90\fad(300,200)}{\k46}sai{\k29}kyou {\k20}no {\k14}sa{\k18}i {\k33}zen{\k40}sen
+Dialogue: 0,0:03:18.42,0:03:20.34,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}BREAK {\k36}OUT
+Dialogue: 0,0:03:19.11,0:03:22.10,Momoko,,0,0,0,fx,{\k90\fad(300,200)}{\k43}sen{\k34}jou {\k12}no {\k20}ki{\k15}n{\k17}ko{\k48}u
+Dialogue: 0,0:03:21.07,0:03:24.89,Momoko,,0,0,0,fx,{\k90\fad(300,200)}{\k36}bu{\k35}chi{\k29}ko{\k29}wa{\k35}se {\k50}REA{\k18}DY {\k40}GO!!
+Dialogue: 0,0:03:23.62,0:03:25.42,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}WE {\k36}ARE
+Dialogue: 0,0:03:24.28,0:03:27.36,Nao,,0,0,0,fx,{\k90\fad(300,200)}{\k36}gyak{\k35}kyou {\k10}no {\k37}a{\k16}ra{\k64}shi
+Dialogue: 0,0:03:26.09,0:03:27.98,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k49}WE {\k30}ARE
+Dialogue: 0,0:03:26.88,0:03:29.90,Nao,,0,0,0,fx,{\k90\fad(300,200)}{\k19}o{\k16}so{\k15}ru{\k15}ru {\k16}ni {\k30}ta{\k19}ra{\k62}zu
+Dialogue: 0,0:03:28.70,0:03:30.53,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}WI{\k37}NNER
+Dialogue: 0,0:03:29.36,0:03:32.18,Mikuru,,0,0,0,fx,{\k90\fad(300,200)}{\k41}kas{\k28}sai {\k17}wo {\k34}a{\k13}bi{\k39}te
+Dialogue: 0,0:03:31.28,0:03:35.97,Himeri,,0,0,0,fx,{\k90\fad(300,200)}{\k33}tsu{\k32}yo{\k63}ku {\k34}tsu{\k34}yo{\k60}ku {\k35}tsu{\k32}yo{\k36}ku
+Dialogue: 0,0:03:35.02,0:03:37.81,Himeri,,0,0,0,fx,{\k90\fad(300,200)}{\k49}ki{\k30}yo{\k31}ku {\k35}a{\k24}re
+Dialogue: 0,0:03:36.65,0:03:42.36,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k45}a{\k29}ji{\k68}wat{\k58}ta {\k26}ha{\k41}i{\k24}bo{\k9}ku {\k30}no {\k30}ki{\k37}zu {\k64}wa
+Dialogue: 0,0:03:41.50,0:03:47.29,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k37}na{\k33}mi{\k29}da {\k66}yat{\k64}te {\k33}ha{\k34}na {\k31}wo {\k32}sa{\k31}ka{\k30}se{\k45}ru
+Dialogue: 0,0:03:46.34,0:03:52.57,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k55}a{\k39}ki{\k36}ra{\k31}me{\k33}ro {\k67}to {\k34}wa{\k33}ra{\k30}e{\k30}ba {\k28}i{\k33}i {\k65}sa
+Dialogue: 0,0:03:51.62,0:03:57.58,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k38}so{\k34}n{\k30}na {\k31}ko{\k33}to{\k62}ba {\k33}bo{\k31}ku {\k32}wa {\rHimeri\k31}shi{\k30}ra{\k34}na{\k51}i
+Dialogue: 0,0:03:56.54,0:04:02.96,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k64}i{\k30}ki{\k31}ga{\k37}t{\k33}te{\k65}ro {\k29}ba{\k35}ka {\k29}ni {\k32}sa{\k32}re{\k34}te{\k81}mo
+Dialogue: 0,0:04:01.92,0:04:07.80,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k39}sho{\k33}u{\k30}ri {\k30}ka{\k33}ka{\k64}ge {\k31}bo{\k34}ku {\k30}wa {\k28}i{\k36}ki{\k30}ta{\k60}i
+Dialogue: 0,0:04:06.70,0:04:12.31,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ha{\k40}i{\k30}bo{\k35}ku {\k31}wo {\k37}shi{\kf246}ri
+Dialogue: 0,0:04:12.14,0:04:17.00,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ha{\k35}na {\k30}wa {\k60}sa{\kf214}ku
+Dialogue: 0,0:04:17.47,0:04:23.27,Hina,,0,0,0,fx,{\k90\fad(300,200)}{\k36}fu{\k31}ka{\k63}nou {\k65}to {\k35}wa{\k32}ra{\k32}e{\k31}ba {\k30}i{\k31}i {\k62}sa
+Dialogue: 0,0:04:22.26,0:04:28.78,Himeri,,0,0,0,fx,{\k90\fad(300,200)}{\k37}so{\k33}n{\k32}na {\k33}ko{\k31}to{\k61}ba {\k35}bo{\k34}ku {\k30}wa {\k33}shi{\k32}ra{\k32}na{\k79}i
