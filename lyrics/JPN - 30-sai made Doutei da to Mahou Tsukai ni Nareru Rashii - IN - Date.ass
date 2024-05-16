@@ -1,0 +1,25 @@
+﻿[Script Info]
+Title: Date
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Nabashi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:13.06,0:00:17.23,Sample KM [Up],,0,0,0,karaoke,{\k39}fu{\k51}ta{\k38}ri {\k45}ki{\k21}mi {\k99}no {\k43}SPE{\k35}CIAL {\k51}DAY
+Comment: 0,0:00:17.25,0:00:18.75,Sample KM [Up],,0,0,0,karaoke,{\k17}ha{\k26}sha{\k23}gu {\k43}BE{\k21}A{\k16}T
+Comment: 0,0:00:19.60,0:00:20.71,Sample KM [Up],,0,0,0,karaoke,{\k27}ko{\k20}re {\k23}wa {\k37}DATE?
+Comment: 0,0:00:20.71,0:00:26.52,Sample KM [Up],,0,0,0,karaoke,{\k21}ki{\k25}me{\k19}ru {\k22}no {\k191}wa {\k44}bo{\k46}ku {\k42}no {\k64}HE{\k16}A{\k17}R{\k74}T
+Dialogue: 0,0:00:12.16,0:00:17.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}fu{\k51}ta{\k38}ri {\k45}ki{\k21}mi {\k99}no {\k43}SPE{\k35}CIAL {\k51}DAY
+Dialogue: 0,0:00:16.35,0:00:18.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}ha{\k26}sha{\k23}gu {\k43}BE{\k21}A{\k16}T
+Dialogue: 0,0:00:18.70,0:00:20.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}ko{\k20}re {\k23}wa {\k37}DATE?
+Dialogue: 0,0:00:19.81,0:00:26.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}ki{\k25}me{\k19}ru {\k22}no {\k191}wa {\k44}bo{\k46}ku {\k42}no {\k64}HE{\k16}A{\k17}R{\k74}T
