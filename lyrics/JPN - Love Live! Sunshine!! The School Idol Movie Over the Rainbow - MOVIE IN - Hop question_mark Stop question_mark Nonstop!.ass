@@ -1,0 +1,119 @@
+﻿[Script Info]
+Title: Hop? Stop? Nonstop!
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Hanaku
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Aqours,Arial,24,&H00FFFFFF,&H00E89F00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: You,Arial,24,&H00FFFFFF,&H00F9B949,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Yoshiko,Arial,24,&H00FFFFFF,&H00898989,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Ruby,Arial,24,&H00FFFFFF,&H00E475FB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Mari,Arial,24,&H00FFFFFF,&H00C652C2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Hanamaru,Arial,24,&H00FFFFFF,&H0010D0FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Chika,Arial,24,&H00FFFFFF,&H004795FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Riko,Arial,24,&H00FFFFFF,&H00AC9EFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kanan,Arial,24,&H00FFFFFF,&H00B7C127,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Dia,Arial,24,&H00FFFFFF,&H003908DB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:14.71,0:00:17.37,Aqours,,0,0,0,karaoke,{\k37}NON-{\k55}STOP {\k36}NON-{\k37}STOP {\k20}THE {\k34}MU{\k47}SIC
+Comment: 0,0:00:17.48,0:00:23.12,Aqours,,0,0,0,karaoke,{\k56}NON-{\k54}STOP {\k39}NON-{\k37}STOP {\k18}THE {\k37}HOP{\k19}PING {\kf304}HEART!
+Comment: 0,0:00:23.40,0:00:26.30,Ruby,,0,0,0,karaoke,{\k57}nan{\k18}te {\k38}nan{\k15}te {\k40}chii{\k19}sa {\kf103}na
+Comment: 0,0:00:26.55,0:00:29.17,Ruby,,0,0,0,karaoke,{\k17}bo{\k20}ku{\k19}ra {\k36}nan{\k20}da {\k37}de{\k18}mo {\k38}de{\k57}mo
+Comment: 0,0:00:29.46,0:00:32.37,Yoshiko,,0,0,0,karaoke,{\k43}nan{\k18}ka {\k38}nan{\k19}ka {\k36}ip{\k19}pa{\kf118}i
+Comment: 0,0:00:32.37,0:00:34.93,Yoshiko,,0,0,0,karaoke,{\k31}wa{\k34}kat{\k20}te {\k17}ki{\k18}ta {\k39}mot{\k17}to {\k39}mot{\k41}to
+Comment: 0,0:00:35.06,0:00:36.90,Hanamaru,,0,0,0,karaoke,{\k18}yu{\k20}me {\k20}ga {\k17}mi{\k38}ta{\k18}i {\k53}yo
+Comment: 0,0:00:37.49,0:00:38.20,Sample KM [Choir],,0,0,0,karaoke,{\k71}YES!
+Comment: 0,0:00:38.41,0:00:41.17,Dia,,0,0,0,karaoke,{\k18}de{\k19}ki{\k18}na{\k36}kat{\k20}ta {\k16}ko{\k21}to {\k18}ga {\k20}de{\k17}ki{\k20}ta{\k53}ri
+Comment: 0,0:00:41.25,0:00:44.03,Mari,,0,0,0,karaoke,{\k30}hi{\k20}to{\k16}ri {\k21}ja {\k16}mu{\k21}ri {\k36}dat{\k18}ta {\k36}ke{\k64}do
+Comment: 0,0:00:44.33,0:00:46.87,Kanan,,0,0,0,karaoke,{\k38}is{\k17}sho {\k20}na{\k26}ra {\k27}ha{\k21}ji{\k16}ke{\k21}ru {\k18}PO{\k50}WER!
+Comment: 0,0:00:46.87,0:00:48.78,Aqours,,0,0,0,karaoke,{\k24}u{\k17}re{\k20}shi{\k17}ku {\k39}nat{\k18}ta {\k56}ne
+Comment: 0,0:00:49.43,0:00:49.90,Sample KM [Choir],,0,0,0,karaoke,{\k47}sou!
+Comment: 0,0:00:50.19,0:00:55.33,You,,0,0,0,karaoke,{\k42}mi{\k39}ra{\k37}i {\k36}wa {\k19}i{\k38}ma {\k55}no {\k75}sa{\k36}ki {\k19}ni {\k37}a{\kf81}ru
+Comment: 0,0:00:55.71,0:00:58.50,Riko,,0,0,0,karaoke,{\k46}shik{\k21}ka{\k16}ri {\k20}ji{\k17}bu{\k20}n {\k14}de {\k23}tsu{\k19}ka{\k16}ma{\k21}na{\k46}kya
+Comment: 0,0:00:58.79,0:01:04.37,Chika,,0,0,0,karaoke,{\k18}so{\k16}re {\k19}ni {\k18}wa {\k21}ji{\k16}yu{\k21}u {\k16}na {\k39}tsu{\k38}ba{\k36}sa {\k35}de {\rAqours\kf111}FLY {\k21}A{\kf133}WAY!!
+Comment: 0,0:01:04.37,0:01:08.78,Aqours,,0,0,0,karaoke,{\k52}wa{\k17}ku{\k20}wa{\k15}ku {\k20}shi{\k20}ta{\k20}ku{\k18}te {\k37}sa{\k37}se{\k36}ta{\kf149}k'te
+Comment: 0,0:01:07.64,0:01:10.00,Aqours,,0,0,0,karaoke,{\k38}o{\k39}do{\k38}re{\kf121}ba
+Comment: 0,0:01:09.07,0:01:13.47,Aqours,,0,0,0,karaoke,{\k45}hi{\k33}to{\k41}tsu {\k37}ni {\k54}na{\k20}ru {\k50}yo {\k24}se{\k36}ka{\k35}i{\k41}juu {\k24}ga
+Comment: 0,0:01:13.59,0:01:15.20,Aqours,,0,0,0,karaoke,{\k19}COME {\k37}ON! {\k19}COME {\k35}ON! {\k20}COME {\k31}ON!
+Comment: 0,0:01:15.20,0:01:16.40,Aqours,,0,0,0,karaoke,{\k24}a{\k17}tsu{\k21}ku {\k37}na{\k21}re!!
+Comment: 0,0:01:16.32,0:01:20.64,Aqours,,0,0,0,karaoke,{\k42}wa{\k19}ku{\k16}wa{\k18}ku {\k22}shi{\k19}ta{\k17}ku{\k20}te {\k36}sa{\k32}se{\k25}cha{\k17}u {\kf149}yo
+Comment: 0,0:01:19.44,0:01:22.48,Aqours,,0,0,0,karaoke,{\k45}o{\k37}do{\k38}re{\k34}ba {\k39}ko{\k38}ko{\k73}ro!
+Comment: 0,0:01:22.76,0:01:25.08,Aqours,,0,0,0,karaoke,{\k26}tsu{\k20}na{\k37}gat{\k20}te{\k18}ku {\k28}min{\k27}na {\k56}to
+Comment: 0,0:01:25.24,0:01:30.00,Aqours,,0,0,0,karaoke,{\k39}kon{\k14}na {\k24}su{\k16}te{\k20}ki {\k18}na {\k20}ko{\k18}to {\k36}ya{\k38}me{\k37}ra{\k37}re{\kf159}nai
+Comment: 0,0:01:29.55,0:01:30.45,Sample KM [Choir],,0,0,0,karaoke,{\kf90}fuu!
+Comment: 0,0:01:30.45,0:01:32.87,Aqours,,0,0,0,karaoke,{\k55}sou{\k19}da {\kf168}ne!
+Comment: 0,0:01:33.41,0:01:35.80,Aqours,,0,0,0,karaoke,{\k55}sou {\k19}da {\kf165}yo!
+Comment: 0,0:01:35.80,0:01:37.30,Aqours,,0,0,0,karaoke,{\k20}min{\k10}na {\k9}ga {\k37}ne {\k18}dai{\k10}su{\k8}ki {\k38}da!
+Comment: 0,0:01:41.73,0:01:43.27,Aqours,,0,0,0,karaoke,{\k15}min{\k11}na {\k12}ga {\k37}ne {\k19}dai{\k10}su{\k8}ki {\k42}da!
+Comment: 0,0:01:43.56,0:01:49.10,Mari,,0,0,0,karaoke,{\k39}ko{\k38}to{\k38}ba {\k27}wo {\k28}u{\k37}ta {\kf85}ni {\k40}no{\k40}se{\k39}ta {\k18}to{\k34}ki {\kf91}ni
+Comment: 0,0:01:49.53,0:01:54.27,Mari,,0,0,0,karaoke,{\k18}tsu{\k18}ta{\k35}wat{\k20}te{\k37}ku {\k31}ko{\k25}no {\k37}o{\k36}mo{\kf217}i
+Comment: 0,0:01:54.43,0:01:58.97,Mari,,0,0,0,karaoke,{\k44}zut{\k21}to {\k38}wa{\k37}su{\k37}re{\kf277}nai!
+Comment: 0,0:01:59.15,0:02:03.60,Aqours,,0,0,0,karaoke,{\k52}wa{\k17}ku{\k20}wa{\k15}ku {\k20}shi{\k20}ta{\k20}ku{\k18}te {\k37}sa{\k37}se{\k36}ta{\kf149}k'te
+Comment: 0,0:02:02.42,0:02:04.89,Aqours,,0,0,0,karaoke,{\k38}o{\k39}do{\k38}re{\kf121}ba
+Comment: 0,0:02:03.82,0:02:08.27,Aqours,,0,0,0,karaoke,{\k45}hi{\k33}to{\k41}tsu {\k37}ni {\k54}na{\k20}ru {\k50}yo {\k24}se{\k36}ka{\k35}i{\k41}juu {\k24}ga
+Comment: 0,0:02:08.27,0:02:10.02,Aqours,,0,0,0,karaoke,{\k33}COME {\k36}ON! {\k19}COME {\k35}ON! {\k21}COME {\k31}ON!
+Comment: 0,0:02:10.07,0:02:11.27,Aqours,,0,0,0,karaoke,{\k19}a{\k19}tsu{\k17}ku {\k38}na{\k27}re!!
+Comment: 0,0:02:11.06,0:02:15.45,Aqours,,0,0,0,karaoke,{\k42}wa{\k19}ku{\k16}wa{\k18}ku {\k22}shi{\k19}ta{\k17}ku{\k20}te {\k36}sa{\k32}se{\k25}cha{\k17}u {\kf149}yo
+Comment: 0,0:02:14.24,0:02:17.48,Aqours,,0,0,0,karaoke,{\k45}o{\k37}do{\k38}re{\k34}ba {\k39}ko{\k38}ko{\k73}ro!
+Comment: 0,0:02:17.57,0:02:19.97,Aqours,,0,0,0,karaoke,{\k26}tsu{\k20}na{\k37}gat{\k20}te{\k18}ku {\k28}min{\k27}na {\k56}to
+Comment: 0,0:02:20.07,0:02:24.87,Aqours,,0,0,0,karaoke,{\k39}kon{\k14}na {\k24}su{\k16}te{\k20}ki {\k18}na {\k20}ko{\k18}to {\k36}ya{\k38}me{\k37}ra{\k37}re{\kf159}nai
+Comment: 0,0:02:24.58,0:02:25.44,Sample KM [Choir],,0,0,0,karaoke,{\kf90}fuu!
+Comment: 0,0:02:25.26,0:02:29.00,Aqours,,0,0,0,karaoke,{\k56}sou{\k18}da {\kf300}yo!
+Comment: 0,0:02:26.41,0:02:29.27,Aqours,,0,0,0,karaoke,{\k51}NON-{\k56}STOP {\k37}NON-{\k35}STOP {\k21}THE {\k31}MU{\k55}SIC
+Comment: 0,0:02:29.52,0:02:35.00,Aqours,,0,0,0,karaoke,{\k37}NON-{\k54}STOP {\k39}NON-{\k35}STOP {\k21}THE {\k36}HOP{\k19}PING {\kf307}HEART!
+Dialogue: 0,0:00:13.81,0:00:17.57,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k37}NON-{\k55}STOP {\k36}NON-{\k37}STOP {\k20}THE {\k34}MU{\k47}SIC
+Dialogue: 0,0:00:16.58,0:00:23.32,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k56}NON-{\k54}STOP {\k39}NON-{\k37}STOP {\k18}THE {\k37}HOP{\k19}PING {\kf304}HEART!
+Dialogue: 0,0:00:22.50,0:00:26.50,Ruby,,0,0,0,fx,{\k90\fad(300,200)}{\k57}nan{\k18}te {\k38}nan{\k15}te {\k40}chii{\k19}sa {\kf103}na
+Dialogue: 0,0:00:25.65,0:00:29.37,Ruby,,0,0,0,fx,{\k90\fad(300,200)}{\k17}bo{\k20}ku{\k19}ra {\k36}nan{\k20}da {\k37}de{\k18}mo {\k38}de{\k57}mo
+Dialogue: 0,0:00:28.56,0:00:32.57,Yoshiko,,0,0,0,fx,{\k90\fad(300,200)}{\k43}nan{\k18}ka {\k38}nan{\k19}ka {\k36}ip{\k19}pa{\kf118}i
+Dialogue: 0,0:00:31.47,0:00:35.13,Yoshiko,,0,0,0,fx,{\k90\fad(300,200)}{\k31}wa{\k34}kat{\k20}te {\k17}ki{\k18}ta {\k39}mot{\k17}to {\k39}mot{\k41}to
+Dialogue: 0,0:00:34.16,0:00:37.10,Hanamaru,,0,0,0,fx,{\k90\fad(300,200)}{\k18}yu{\k20}me {\k20}ga {\k17}mi{\k38}ta{\k18}i {\k53}yo
+Dialogue: 0,0:00:36.59,0:00:38.40,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k71}YES!
+Dialogue: 0,0:00:37.51,0:00:41.37,Dia,,0,0,0,fx,{\k90\fad(300,200)}{\k18}de{\k19}ki{\k18}na{\k36}kat{\k20}ta {\k16}ko{\k21}to {\k18}ga {\k20}de{\k17}ki{\k20}ta{\k53}ri
+Dialogue: 0,0:00:40.35,0:00:44.23,Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k30}hi{\k20}to{\k16}ri {\k21}ja {\k16}mu{\k21}ri {\k36}dat{\k18}ta {\k36}ke{\k64}do
+Dialogue: 0,0:00:43.43,0:00:47.07,Kanan,,0,0,0,fx,{\k90\fad(300,200)}{\k38}is{\k17}sho {\k20}na{\k26}ra {\k27}ha{\k21}ji{\k16}ke{\k21}ru {\k18}PO{\k50}WER!
+Dialogue: 0,0:00:45.97,0:00:48.98,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k24}u{\k17}re{\k20}shi{\k17}ku {\k39}nat{\k18}ta {\k56}ne
+Dialogue: 0,0:00:48.53,0:00:50.10,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}sou!
+Dialogue: 0,0:00:49.29,0:00:55.53,You,,0,0,0,fx,{\k90\fad(300,200)}{\k42}mi{\k39}ra{\k37}i {\k36}wa {\k19}i{\k38}ma {\k55}no {\k75}sa{\k36}ki {\k19}ni {\k37}a{\kf81}ru
+Dialogue: 0,0:00:54.81,0:00:58.70,Riko,,0,0,0,fx,{\k90\fad(300,200)}{\k46}shik{\k21}ka{\k16}ri {\k20}ji{\k17}bu{\k20}n {\k14}de {\k23}tsu{\k19}ka{\k16}ma{\k21}na{\k46}kya
+Dialogue: 0,0:00:57.89,0:01:04.57,Chika,,0,0,0,fx,{\k90\fad(300,200)}{\k18}so{\k16}re {\k19}ni {\k18}wa {\k21}ji{\k16}yu{\k21}u {\k16}na {\k39}tsu{\k38}ba{\k36}sa {\k35}de {\rAqours\kf111}FLY {\k21}A{\kf133}WAY!!
+Dialogue: 0,0:01:03.47,0:01:08.98,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k52}wa{\k17}ku{\k20}wa{\k15}ku {\k20}shi{\k20}ta{\k20}ku{\k18}te {\k37}sa{\k37}se{\k36}ta{\kf149}k'te
+Dialogue: 0,0:01:06.74,0:01:10.20,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k38}o{\k39}do{\k38}re{\kf121}ba
+Dialogue: 0,0:01:08.17,0:01:13.67,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k45}hi{\k33}to{\k41}tsu {\k37}ni {\k54}na{\k20}ru {\k50}yo {\k24}se{\k36}ka{\k35}i{\k41}juu {\k24}ga
+Dialogue: 0,0:01:12.69,0:01:15.40,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k19}COME {\k37}ON! {\k19}COME {\k35}ON! {\k20}COME {\k31}ON!
+Dialogue: 0,0:01:14.30,0:01:16.60,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k24}a{\k17}tsu{\k21}ku {\k37}na{\k21}re!!
+Dialogue: 0,0:01:15.42,0:01:20.84,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k42}wa{\k19}ku{\k16}wa{\k18}ku {\k22}shi{\k19}ta{\k17}ku{\k20}te {\k36}sa{\k32}se{\k25}cha{\k17}u {\kf149}yo
+Dialogue: 0,0:01:18.54,0:01:22.68,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k45}o{\k37}do{\k38}re{\k34}ba {\k39}ko{\k38}ko{\k73}ro!
+Dialogue: 0,0:01:21.86,0:01:25.28,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k26}tsu{\k20}na{\k37}gat{\k20}te{\k18}ku {\k28}min{\k27}na {\k56}to
+Dialogue: 0,0:01:24.34,0:01:30.20,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k39}kon{\k14}na {\k24}su{\k16}te{\k20}ki {\k18}na {\k20}ko{\k18}to {\k36}ya{\k38}me{\k37}ra{\k37}re{\kf159}nai
+Dialogue: 0,0:01:28.65,0:01:30.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf90}fuu!
+Dialogue: 0,0:01:29.55,0:01:33.07,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k55}sou{\k19}da {\kf168}ne!
+Dialogue: 0,0:01:32.51,0:01:36.00,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k55}sou {\k19}da {\kf165}yo!
+Dialogue: 0,0:01:34.90,0:01:37.50,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k20}min{\k10}na {\k9}ga {\k37}ne {\k18}dai{\k10}su{\k8}ki {\k38}da!
+Dialogue: 0,0:01:40.83,0:01:43.47,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k15}min{\k11}na {\k12}ga {\k37}ne {\k19}dai{\k10}su{\k8}ki {\k42}da!
+Dialogue: 0,0:01:42.66,0:01:49.30,Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k39}ko{\k38}to{\k38}ba {\k27}wo {\k28}u{\k37}ta {\kf85}ni {\k40}no{\k40}se{\k39}ta {\k18}to{\k34}ki {\kf91}ni
+Dialogue: 0,0:01:48.63,0:01:54.47,Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k18}tsu{\k18}ta{\k35}wat{\k20}te{\k37}ku {\k31}ko{\k25}no {\k37}o{\k36}mo{\kf217}i
+Dialogue: 0,0:01:53.53,0:01:59.17,Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k44}zut{\k21}to {\k38}wa{\k37}su{\k37}re{\kf277}nai!
+Dialogue: 0,0:01:58.25,0:02:03.80,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k52}wa{\k17}ku{\k20}wa{\k15}ku {\k20}shi{\k20}ta{\k20}ku{\k18}te {\k37}sa{\k37}se{\k36}ta{\kf149}k'te
+Dialogue: 0,0:02:01.52,0:02:05.09,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k38}o{\k39}do{\k38}re{\kf121}ba
+Dialogue: 0,0:02:02.92,0:02:08.47,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k45}hi{\k33}to{\k41}tsu {\k37}ni {\k54}na{\k20}ru {\k50}yo {\k24}se{\k36}ka{\k35}i{\k41}juu {\k24}ga
+Dialogue: 0,0:02:07.37,0:02:10.22,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k33}COME {\k36}ON! {\k19}COME {\k35}ON! {\k21}COME {\k31}ON!
+Dialogue: 0,0:02:09.17,0:02:11.47,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k19}a{\k19}tsu{\k17}ku {\k38}na{\k27}re!!
+Dialogue: 0,0:02:10.16,0:02:15.65,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k42}wa{\k19}ku{\k16}wa{\k18}ku {\k22}shi{\k19}ta{\k17}ku{\k20}te {\k36}sa{\k32}se{\k25}cha{\k17}u {\kf149}yo
+Dialogue: 0,0:02:13.34,0:02:17.68,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k45}o{\k37}do{\k38}re{\k34}ba {\k39}ko{\k38}ko{\k73}ro!
+Dialogue: 0,0:02:16.67,0:02:20.17,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k26}tsu{\k20}na{\k37}gat{\k20}te{\k18}ku {\k28}min{\k27}na {\k56}to
+Dialogue: 0,0:02:19.17,0:02:25.07,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k39}kon{\k14}na {\k24}su{\k16}te{\k20}ki {\k18}na {\k20}ko{\k18}to {\k36}ya{\k38}me{\k37}ra{\k37}re{\kf159}nai
+Dialogue: 0,0:02:23.68,0:02:25.64,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf90}fuu!
+Dialogue: 0,0:02:24.36,0:02:29.20,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k56}sou{\k18}da {\kf300}yo!
+Dialogue: 0,0:02:25.51,0:02:29.47,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k51}NON-{\k56}STOP {\k37}NON-{\k35}STOP {\k21}THE {\k31}MU{\k55}SIC
+Dialogue: 0,0:02:28.62,0:02:35.20,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k37}NON-{\k54}STOP {\k39}NON-{\k35}STOP {\k21}THE {\k36}HOP{\k19}PING {\kf307}HEART!
