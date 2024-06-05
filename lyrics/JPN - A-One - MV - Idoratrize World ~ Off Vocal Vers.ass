@@ -1,0 +1,215 @@
+﻿[Script Info]
+Title: Idoratrize World
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 0
+PlayResY: 0
+YCbCr Matrix: TV.709
+Original Timing: TheMio
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Idola,Arial,24,&H00E8E8F7,&H009385FF,&H00000000,&H000502AC,-1,-1,0,0,100,100,0,0,1,1.5,0.9,8,15,15,20,1
+Style: KM,Arial,24,&H00FFFFFF,&H00D2E010,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Rave Again,Arial,24,&H00FFFFFF,&H0030CEF6,&H000B1301,&H00A1DE23,-1,0,0,0,100,100,0,0,1,1.5,1.3,8,15,15,20,1
+Style: Rave Again Orange,Arial,24,&H00FFFFFF,&H002357EB,&H000B1301,&H00BBD21C,-1,0,0,0,100,100,0,0,1,1.5,1.3,8,15,15,20,1
+Style: Rave Again Yellow,Arial,24,&H00FFFFFF,&H0030CEF6,&H000B1301,&H00FC4C57,-1,0,0,0,100,100,0,0,1,1.5,1.3,8,15,15,20,1
+Style: Rave Again Red,Arial,24,&H00FFFFFF,&H004C31F6,&H000B1301,&H00A1DE23,-1,0,0,0,100,100,0,0,1,1.5,1.4,8,15,15,20,1
+Style: Skyblue,Arial,24,&H00FFFFFF,&H00FFAF55,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,40,1
+Style: RaveRed,Arial,24,&H00FFFFFF,&H006F34F7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: ChangeTheWorld,Arial,30,&H04FFFFFF,&H00EDEC1C,&H00000000,&H9A3435F2,-1,0,0,0,100,100,0,0,1,1.5,1,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:10.12,KM,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:38.16,0:00:41.71,KM,,0,0,0,karaoke,{\k71}too{\k22}i {\k32}STA{\k18}GE {\k66}de {\k29}hi{\k28}kat{\k18}te{\k71}ru
+Comment: 0,0:00:41.87,0:00:44.87,KM,,0,0,0,karaoke,{\k18}fu{\k18}re {\k17}ra{\k29}re{\k25}na{\k18}i {\k17}{\rIdola}I{\k36}DO{\k16}LA {\k36}{\rKM}no {\k19}you{\k51}na
+Comment: 0,0:00:44.87,0:00:47.79,KM,,0,0,0,karaoke,{\k36}a{\k71}h~ {\k29}mi{\k23}ra{\k18}i {\k28}ko{\k25}so {\k62}ga
+Comment: 0,0:00:49.47,0:00:54.41,KM,,0,0,0,karaoke,{\k35}kan{\k17}ji{\k18}ra{\k29}re{\k25}ru {\k17}ka{\k70}na {\k27}i{\k26}tsu{\k18}de{\k71}mo {\k27}mu{\k26}ne {\k18}no {\k25}o{\k45}ku
+Comment: 0,0:00:54.41,0:00:56.00,KM,,0,0,0,karaoke,{\k27}u{\k9}bu{\k17}goe {\k17}wo {\k36}mat{\k18}te{\k35}ru
+Comment: 0,0:00:55.99,0:01:00.40,KM,,0,0,0,karaoke,{\k16}{\rIdola}I{\k20}DO{\k17}LA {\k37}{\rKM}LAST {\k35}BOSS {\k27}de {\k26}BE{\k17}LIE{\kf246}VER
+Comment: 0,0:01:00.40,0:01:00.76,KM,,0,0,0,karaoke,
+Comment: 0,0:01:00.76,0:01:03.23,ChangeTheWorld,,0,0,0,karaoke,{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Comment: 0,0:01:02.26,0:01:03.57,RaveRed,,0,0,0,karaoke,{\k25}tat{\k20}ta {\k18}i{\k22}chi {\k16}o{\k13}to {\k17}ga
+Comment: 0,0:01:03.57,0:01:06.05,ChangeTheWorld,,45,0,0,karaoke,{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Comment: 0,0:01:04.95,0:01:06.41,RaveRed,,0,0,0,karaoke,{\k32}ka{\k8}ko {\k17}wo {\k17}ko{\k18}wa{\k19}shi{\k35}te
+Comment: 0,0:01:06.41,0:01:08.71,ChangeTheWorld,,0,45,0,karaoke,{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Comment: 0,0:01:07.91,0:01:09.22,RaveRed,,0,0,0,karaoke,{\k25}tat{\k19}ta {\k17}i{\k27}chi{\k27}go {\k16}ga
+Comment: 0,0:01:09.22,0:01:11.52,ChangeTheWorld,,0,0,0,karaoke,{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Comment: 0,0:01:10.64,0:01:12.05,RaveRed,,0,0,0,karaoke,{\k20}mi{\k33}rai {\k15}wo {\k20}tsu{\k18}ku{\k35}ru
+Comment: 0,0:01:12.05,0:01:15.05,KM,,0,0,0,karaoke,
+Comment: 0,0:01:23.35,0:01:24.76,RaveRed,,0,0,0,karaoke,{\kf72}LET {\kf69}ME
+Comment: 0,0:01:24.76,0:01:26.17,Rave Again,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k28}GAIN{\k22}  {\i1}sa{\k20}ke{\k17}be{\i0}
+Comment: 0,0:01:26.16,0:01:27.56,Rave Again,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k34}GAIN{\k20}  {\i1}yu{\k18}ra{\k15}se{\i0}
+Comment: 0,0:01:27.56,0:01:28.46,Rave Again,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k28}GAIN
+Comment: 0,0:01:28.46,0:01:30.23,Rave Again,,0,0,0,karaoke,{\k19}ko{\k18}ko{\k16}ro {\k30}tsu{\k12}ki {\k11}u{\k16}go{\k16}ka{\k39}su
+Comment: 0,0:01:30.23,0:01:31.78,Rave Again,,0,0,0,karaoke,{\k18}FA{\k16}N{\kf37}FA{\k36}RE{\k17}  {\i1}na{\k17}ra{\k14}se{\i0}
+Comment: 0,0:01:31.78,0:01:34.26,Rave Again,,0,0,0,karaoke,{\k40}sa {\k17}i{\k35}ma {\k19}ko{\k16}e{\k19}te {\k28}mi{\k7}se{\k18}te{\k9}ya{\k15}ro{\k10}u {\k15}ka
+Comment: 0,0:01:34.26,0:01:36.05,Rave Again,,0,0,0,karaoke,{\k21}I{\k17}DO{\k72}LA {\k38}DE{\k31}US
+Comment: 0,0:01:36.05,0:01:37.47,Rave Again Red,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k28}GAIN{\k22}  {\i1}sa{\k20}ke{\k17}be{\i0}
+Comment: 0,0:01:37.47,0:01:38.88,Rave Again Yellow,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k34}GAIN{\k20}  {\i1}yu{\k18}ra{\k15}se{\i0}
+Comment: 0,0:01:38.88,0:01:39.76,Rave Again Orange,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k28}GAIN
+Comment: 0,0:01:39.76,0:01:43.09,Rave Again,,0,0,0,karaoke,{\k18}o{\k17}re{\k18}ta{\k27}chi {\k8}shi{\k19}ka {\k17}e{\k16}ga{\k37}ke{\k18}na{\k18}i {\k16}o{\k19}to {\k34}ni{\k18}  {\i1}na{\k13}ra{\k20}se{\i0}
+Comment: 0,0:01:43.09,0:01:47.34,Rave Again,,0,0,0,karaoke,{\k33}gen{\k39}sou {\k18}wo {\k10}yu{\k27}da{\k13}ne{\kf285}teru
+Comment: 0,0:01:47.34,0:01:50.34,Rave Again,,0,0,0,karaoke,
+Comment: 0,0:02:09.92,0:02:13.65,KM,,0,0,0,karaoke,{\k58}kan{\k14}chi{\k23}ga{\k29}i {\k19}to{\k53}ka {\k17}u{\k28}nu{\k25}bo{\k17}re{\k90} to
+Comment: 0,0:02:13.65,0:02:16.48,KM,,0,0,0,karaoke,{\k17}da{\k17}re {\k16}mo {\k32}ga {\k24}ma{\k17}da {\k24}{\rIdola}I{\k29}DO{\k18}LA {\k35}{\rKM}to {\k18}wa{\k36}rau
+Comment: 0,0:02:16.56,0:02:19.65,KM,,0,0,0,karaoke,{\k44}son{\k51}na {\k19}tsu{\k27}mo{\k26}t{\k18}ta {\k34}do{\k19}ku {\k71}ga
+Comment: 0,0:02:21.20,0:02:24.58,KM,,0,0,0,karaoke,{\k37}shin{\k19}ji{\k18}ra{\k29}re{\k23}nai{\k18} ke{\k71}do {\k28}a{\k25}re {\k17}ka{\k53}ra
+Comment: 0,0:02:24.72,0:02:27.76,KM,,0,0,0,karaoke,{\k31}su{\k26}ko{\k20}shi {\k19}o{\k31}to{\k19}na {\k24}ni {\k29}nat{\k11}te{\k7}shi{\k35}mat{\k17}ta {\k35}to
+Comment: 0,0:02:27.76,0:02:32.00,KM,,0,0,0,karaoke,{\k17}{\rIdola}I{\k19}DO{\k18}LA {\k35}{\rKM}ii{\k17}wa{\k18}ke {\k25}wo {\k19}u{\k9}n{\k16}de{\kf231}ku
+Comment: 0,0:02:32.00,0:02:32.53,KM,,0,0,0,karaoke,
+Comment: 0,0:02:32.53,0:02:34.99,ChangeTheWorld,,0,0,0,karaoke,{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Comment: 0,0:02:34.02,0:02:35.34,RaveRed,,0,0,0,karaoke,{\k25}tat{\k20}ta {\k18}i{\k22}chi {\k16}o{\k13}to {\k17}ga
+Comment: 0,0:02:35.36,0:02:37.55,ChangeTheWorld,,45,0,0,karaoke,{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Comment: 0,0:02:36.74,0:02:38.17,RaveRed,,0,0,0,karaoke,{\k29}i{\k16}ma {\k11}wo {\k17}ko{\k13}wa{\k23}shi{\k34}te
+Comment: 0,0:02:38.17,0:02:40.80,ChangeTheWorld,,0,45,0,karaoke,{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Comment: 0,0:02:39.68,0:02:41.16,RaveRed,,0,0,0,karaoke,{\k25}tat{\k19}ta {\k17}i{\k27}chi{\k27}go {\k16}ga
+Comment: 0,0:02:40.98,0:02:43.02,ChangeTheWorld,,0,0,0,karaoke,{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Comment: 0,0:02:42.40,0:02:43.99,RaveRed,,0,0,0,karaoke,{\k20}mi{\k33}rai {\k15}wo {\k20}tsu{\k18}ku{\k35}ru
+Comment: 0,0:02:43.99,0:02:46.99,KM,,0,0,0,karaoke,
+Comment: 0,0:02:55.10,0:02:56.53,RaveRed,,0,0,0,karaoke,{\kf72}LET {\kf69}ME
+Comment: 0,0:02:56.53,0:02:57.93,Rave Again,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k28}GAIN{\k22}  {\i1}sa{\k20}ke{\k17}be{\i0}
+Comment: 0,0:02:57.93,0:02:59.35,Rave Again,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k34}GAIN{\k20}  {\i1}yu{\k18}ra{\k15}se{\i0}
+Comment: 0,0:02:59.35,0:03:00.22,Rave Again,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k28}GAIN
+Comment: 0,0:03:00.23,0:03:01.99,Rave Again,,0,0,0,karaoke,{\k19}ko{\k18}ko{\k16}ro {\k30}tsu{\k12}ki {\k11}u{\k16}go{\k16}ka{\k39}su
+Comment: 0,0:03:01.99,0:03:03.53,Rave Again,,0,0,0,karaoke,{\k18}FA{\k16}N{\kf37}FA{\k36}RE{\k17}  {\i1}na{\k17}ra{\k14}se{\i0}
+Comment: 0,0:03:03.53,0:03:06.05,Rave Again,,0,0,0,karaoke,{\k40}sa {\k17}i{\k35}ma {\k19}ko{\k16}e{\k19}te {\k28}mi{\k7}se{\k18}te{\k9}ya{\k15}ro{\k10}u {\k15}ka
+Comment: 0,0:03:06.05,0:03:07.82,Rave Again,,0,0,0,karaoke,{\k21}I{\k17}DO{\k72}LA {\k38}DE{\k31}US
+Comment: 0,0:03:07.82,0:03:09.23,Rave Again Red,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k28}GAIN{\k22}  {\i1}sa{\k20}ke{\k17}be{\i0}
+Comment: 0,0:03:09.23,0:03:10.65,Rave Again Yellow,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k34}GAIN{\k20}  {\i1}yu{\k18}ra{\k15}se{\i0}
+Comment: 0,0:03:10.65,0:03:11.52,Rave Again Orange,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k28}GAIN
+Comment: 0,0:03:11.52,0:03:14.88,Rave Again,,0,0,0,karaoke,{\k18}o{\k17}re{\k18}ta{\k27}chi {\k8}shi{\k19}ka {\k17}e{\k16}ga{\k37}ke{\k18}na{\k18}i {\k16}o{\k19}to {\k34}ni{\k18}  {\i1}na{\k13}ra{\k20}se{\i0}
+Comment: 0,0:03:14.88,0:03:19.11,Rave Again,,0,0,0,karaoke,{\k33}gen{\k39}sou {\k18}wo {\k10}yu{\k27}da{\k13}ne{\kf285}teru
+Comment: 0,0:03:19.11,0:03:22.11,KM,,0,0,0,karaoke,
+Comment: 0,0:03:41.72,0:03:44.25,ChangeTheWorld,,0,0,0,karaoke,{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Comment: 0,0:03:43.21,0:03:44.53,KM,,0,0,0,karaoke,{\k25}tat{\k20}ta {\k18}i{\k22}chi {\k16}o{\k13}to {\k17}ga
+Comment: 0,0:03:44.55,0:03:46.74,ChangeTheWorld,,45,0,0,karaoke,{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Comment: 0,0:03:45.93,0:03:47.36,KM,,0,0,0,karaoke,{\k28}ka{\k14}ko {\k12}wo {\k19}ko{\k13}wa{\k23}shi{\k34}te
+Comment: 0,0:03:47.36,0:03:49.99,ChangeTheWorld,,0,45,0,karaoke,{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Comment: 0,0:03:48.87,0:03:50.35,KM,,0,0,0,karaoke,{\k25}tat{\k19}ta {\k17}i{\k27}chi{\k27}go {\k16}ga
+Comment: 0,0:03:50.17,0:03:52.21,ChangeTheWorld,,0,0,0,karaoke,{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Comment: 0,0:03:51.59,0:03:53.18,KM,,0,0,0,karaoke,{\k20}mi{\k33}rai {\k15}wo {\k20}tsu{\k18}ku{\k35}ru
+Comment: 0,0:03:53.18,0:03:56.18,KM,,0,0,0,karaoke,
+Comment: 0,0:04:04.27,0:04:05.70,RaveRed,,0,0,0,karaoke,{\kf72}LET {\kf69}ME
+Comment: 0,0:04:05.70,0:04:07.10,Skyblue,,0,250,0,karaoke,{\k36}RAVE {\k17}A{\k28}GAIN
+Comment: 0,0:04:07.10,0:04:08.52,Skyblue,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k28}GAIN
+Comment: 0,0:04:08.52,0:04:09.39,Skyblue,,0,-230,0,karaoke,{\k36}RAVE {\k17}A{\k28}GAIN
+Comment: 0,0:04:09.40,0:04:11.16,Skyblue,,0,0,0,karaoke,{\k19}ko{\k18}ko{\k16}ro {\k30}tsu{\k12}ki {\k11}u{\k16}go{\k16}ka{\k39}su
+Comment: 0,0:04:11.16,0:04:12.70,Skyblue,,0,0,0,karaoke,{\k18}FA{\k16}N{\kf37}FA{\k36}RE
+Comment: 0,0:04:12.70,0:04:15.22,Skyblue,,0,0,0,karaoke,{\k40}sa {\k17}i{\k35}ma {\k19}ko{\k16}e{\k19}te {\k28}mi{\k7}se{\k18}te{\k9}ya{\k15}ro{\k10}u {\k15}ka
+Comment: 0,0:04:15.22,0:04:16.99,Skyblue,,0,0,0,karaoke,{\k21}I{\k17}DO{\k72}LA {\k38}DE{\k31}US
+Comment: 0,0:04:16.99,0:04:18.40,Skyblue,,0,250,0,karaoke,{\k36}RAVE {\k17}A{\k28}GAIN
+Comment: 0,0:04:18.40,0:04:19.82,Skyblue,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k28}GAIN
+Comment: 0,0:04:19.82,0:04:20.69,Skyblue,,0,-230,0,karaoke,{\k36}RAVE {\k17}A{\k28}GAIN
+Comment: 0,0:04:20.69,0:04:24.05,Skyblue,,0,0,0,karaoke,{\k18}o{\k17}re{\k18}ta{\k27}chi {\k8}shi{\k19}ka {\k17}e{\k16}ga{\k37}ke{\k18}na{\k18}i {\k16}o{\k19}to {\k34}ni
+Comment: 0,0:04:24.05,0:04:28.28,Skyblue,,0,0,0,karaoke,{\k33}gen{\k39}sou {\k18}wo {\k10}yu{\k27}da{\k13}ne{\kf285}teru
+Comment: 0,0:04:28.30,0:04:29.70,Rave Again,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k28}GAIN{\k22}  {\i1}sa{\k20}ke{\k17}be{\i0}
+Comment: 0,0:04:29.70,0:04:31.10,Rave Again,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k34}GAIN{\k20}  {\i1}yu{\k18}ra{\k15}se{\i0}
+Comment: 0,0:04:31.10,0:04:32.00,Rave Again,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k28}GAIN
+Comment: 0,0:04:32.00,0:04:33.77,Rave Again,,0,0,0,karaoke,{\k19}ko{\k18}ko{\k16}ro {\k30}tsu{\k12}ki {\k11}u{\k16}go{\k16}ka{\k39}su
+Comment: 0,0:04:33.77,0:04:35.32,Rave Again,,0,0,0,karaoke,{\k18}FA{\k16}N{\kf37}FA{\k36}RE{\k17}  {\i1}na{\k17}ra{\k14}se{\i0}
+Comment: 0,0:04:35.32,0:04:37.80,Rave Again,,0,0,0,karaoke,{\k40}sa {\k17}i{\k35}ma {\k19}ko{\k16}e{\k19}te {\k28}mi{\k7}se{\k18}te{\k9}ya{\k15}ro{\k10}u {\k15}ka
+Comment: 0,0:04:37.80,0:04:39.59,Rave Again,,0,0,0,karaoke,{\k21}I{\k17}DO{\k72}LA {\k38}DE{\k31}US
+Comment: 0,0:04:39.59,0:04:41.01,Rave Again Red,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k28}GAIN{\k22}  {\i1}sa{\k20}ke{\k17}be{\i0}
+Comment: 0,0:04:41.01,0:04:42.42,Rave Again Yellow,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k34}GAIN{\k20}  {\i1}yu{\k18}ra{\k15}se{\i0}
+Comment: 0,0:04:42.42,0:04:43.30,Rave Again Orange,,0,0,0,karaoke,{\k36}RAVE {\k17}A{\k28}GAIN
+Comment: 0,0:04:43.30,0:04:46.63,Rave Again,,0,0,0,karaoke,{\k18}o{\k17}re{\k18}ta{\k27}chi {\k8}shi{\k19}ka {\k17}e{\k16}ga{\k37}ke{\k18}na{\k18}i {\k16}o{\k19}to {\k34}ni{\k18}  {\i1}na{\k13}ra{\k20}se{\i0}
+Comment: 0,0:04:46.63,0:04:50.88,Rave Again,,0,0,0,karaoke,{\k33}gen{\k39}sou {\k18}wo {\k10}yu{\k27}da{\k13}ne{\kf285}teru
+Comment: 0,0:00:00.00,0:00:05.00,Rave Again,,0,0,0,karaoke,
+Dialogue: 0,0:00:37.26,0:00:41.91,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k71}too{\k22}i {\k32}STA{\k18}GE {\k66}de {\k29}hi{\k28}kat{\k18}te{\k71}ru
+Dialogue: 0,0:00:40.97,0:00:45.07,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k18}fu{\k18}re {\k17}ra{\k29}re{\k25}na{\k18}i {\k17}{\rIdola}I{\k36}DO{\k16}LA {\k36}{\rKM}no {\k19}you{\k51}na
+Dialogue: 0,0:00:43.97,0:00:47.99,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k36}a{\k71}h~ {\k29}mi{\k23}ra{\k18}i {\k28}ko{\k25}so {\k62}ga
+Dialogue: 0,0:00:48.57,0:00:54.61,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k35}kan{\k17}ji{\k18}ra{\k29}re{\k25}ru {\k17}ka{\k70}na {\k27}i{\k26}tsu{\k18}de{\k71}mo {\k27}mu{\k26}ne {\k18}no {\k25}o{\k45}ku
+Dialogue: 0,0:00:53.51,0:00:56.20,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k27}u{\k9}bu{\k17}goe {\k17}wo {\k36}mat{\k18}te{\k35}ru
+Dialogue: 0,0:00:55.09,0:01:00.60,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k16}{\rIdola}I{\k20}DO{\k17}LA {\k37}{\rKM}LAST {\k35}BOSS {\k27}de {\k26}BE{\k17}LIE{\kf246}VER
+Dialogue: 0,0:00:59.50,0:01:00.96,KM,,0,0,0,fx,{\k90\fad(300,200)}
+Dialogue: 0,0:00:59.86,0:01:03.43,ChangeTheWorld,,0,0,0,fx,{\k90\fad(300,200)}{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Dialogue: 0,0:01:01.36,0:01:03.77,RaveRed,,0,0,0,fx,{\k90\fad(300,200)}{\k25}tat{\k20}ta {\k18}i{\k22}chi {\k16}o{\k13}to {\k17}ga
+Dialogue: 0,0:01:02.67,0:01:06.25,ChangeTheWorld,,45,0,0,fx,{\k90\fad(300,200)}{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Dialogue: 0,0:01:04.05,0:01:06.61,RaveRed,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ka{\k8}ko {\k17}wo {\k17}ko{\k18}wa{\k19}shi{\k35}te
+Dialogue: 0,0:01:05.51,0:01:08.91,ChangeTheWorld,,0,45,0,fx,{\k90\fad(300,200)}{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Dialogue: 0,0:01:07.01,0:01:09.42,RaveRed,,0,0,0,fx,{\k90\fad(300,200)}{\k25}tat{\k19}ta {\k17}i{\k27}chi{\k27}go {\k16}ga
+Dialogue: 0,0:01:08.32,0:01:11.72,ChangeTheWorld,,0,0,0,fx,{\k90\fad(300,200)}{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Dialogue: 0,0:01:09.74,0:01:12.25,RaveRed,,0,0,0,fx,{\k90\fad(300,200)}{\k20}mi{\k33}rai {\k15}wo {\k20}tsu{\k18}ku{\k35}ru
+Dialogue: 0,0:01:11.15,0:01:15.25,KM,,0,0,0,fx,{\k90\fad(300,200)}
+Dialogue: 0,0:01:22.45,0:01:24.96,RaveRed,,0,0,0,fx,{\k90\fad(300,200)}{\kf72}LET {\kf69}ME
+Dialogue: 0,0:01:23.86,0:01:26.37,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k28}GAIN{\k22}  {\i1}sa{\k20}ke{\k17}be{\i0}
+Dialogue: 0,0:01:25.26,0:01:27.76,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k34}GAIN{\k20}  {\i1}yu{\k18}ra{\k15}se{\i0}
+Dialogue: 0,0:01:26.66,0:01:28.66,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k28}GAIN
+Dialogue: 0,0:01:27.56,0:01:30.43,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ko{\k18}ko{\k16}ro {\k30}tsu{\k12}ki {\k11}u{\k16}go{\k16}ka{\k39}su
+Dialogue: 0,0:01:29.33,0:01:31.98,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k18}FA{\k16}N{\kf37}FA{\k36}RE{\k17}  {\i1}na{\k17}ra{\k14}se{\i0}
+Dialogue: 0,0:01:30.88,0:01:34.46,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k40}sa {\k17}i{\k35}ma {\k19}ko{\k16}e{\k19}te {\k28}mi{\k7}se{\k18}te{\k9}ya{\k15}ro{\k10}u {\k15}ka
+Dialogue: 0,0:01:33.36,0:01:36.25,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I{\k17}DO{\k72}LA {\k38}DE{\k31}US
+Dialogue: 0,0:01:35.15,0:01:37.67,Rave Again Red,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k28}GAIN{\k22}  {\i1}sa{\k20}ke{\k17}be{\i0}
+Dialogue: 0,0:01:36.57,0:01:39.08,Rave Again Yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k34}GAIN{\k20}  {\i1}yu{\k18}ra{\k15}se{\i0}
+Dialogue: 0,0:01:37.98,0:01:39.96,Rave Again Orange,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k28}GAIN
+Dialogue: 0,0:01:38.86,0:01:43.29,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k18}o{\k17}re{\k18}ta{\k27}chi {\k8}shi{\k19}ka {\k17}e{\k16}ga{\k37}ke{\k18}na{\k18}i {\k16}o{\k19}to {\k34}ni{\k18}  {\i1}na{\k13}ra{\k20}se{\i0}
+Dialogue: 0,0:01:42.19,0:01:47.54,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k33}gen{\k39}sou {\k18}wo {\k10}yu{\k27}da{\k13}ne{\kf285}teru
+Dialogue: 0,0:01:46.44,0:01:50.54,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}
+Dialogue: 0,0:02:09.02,0:02:13.85,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k58}kan{\k14}chi{\k23}ga{\k29}i {\k19}to{\k53}ka {\k17}u{\k28}nu{\k25}bo{\k17}re{\k90} to
+Dialogue: 0,0:02:12.75,0:02:16.68,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k17}da{\k17}re {\k16}mo {\k32}ga {\k24}ma{\k17}da {\k24}{\rIdola}I{\k29}DO{\k18}LA {\k35}{\rKM}to {\k18}wa{\k36}rau
+Dialogue: 0,0:02:15.66,0:02:19.85,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k44}son{\k51}na {\k19}tsu{\k27}mo{\k26}t{\k18}ta {\k34}do{\k19}ku {\k71}ga
+Dialogue: 0,0:02:20.30,0:02:24.78,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k37}shin{\k19}ji{\k18}ra{\k29}re{\k23}nai{\k18} ke{\k71}do {\k28}a{\k25}re {\k17}ka{\k53}ra
+Dialogue: 0,0:02:23.82,0:02:27.96,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k31}su{\k26}ko{\k20}shi {\k19}o{\k31}to{\k19}na {\k24}ni {\k29}nat{\k11}te{\k7}shi{\k35}mat{\k17}ta {\k35}to
+Dialogue: 0,0:02:26.86,0:02:32.20,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k17}{\rIdola}I{\k19}DO{\k18}LA {\k35}{\rKM}ii{\k17}wa{\k18}ke {\k25}wo {\k19}u{\k9}n{\k16}de{\kf231}ku
+Dialogue: 0,0:02:31.10,0:02:32.73,KM,,0,0,0,fx,{\k90\fad(300,200)}
+Dialogue: 0,0:02:31.63,0:02:35.19,ChangeTheWorld,,0,0,0,fx,{\k90\fad(300,200)}{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Dialogue: 0,0:02:33.12,0:02:35.54,RaveRed,,0,0,0,fx,{\k90\fad(300,200)}{\k25}tat{\k20}ta {\k18}i{\k22}chi {\k16}o{\k13}to {\k17}ga
+Dialogue: 0,0:02:34.46,0:02:37.75,ChangeTheWorld,,45,0,0,fx,{\k90\fad(300,200)}{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Dialogue: 0,0:02:35.84,0:02:38.37,RaveRed,,0,0,0,fx,{\k90\fad(300,200)}{\k29}i{\k16}ma {\k11}wo {\k17}ko{\k13}wa{\k23}shi{\k34}te
+Dialogue: 0,0:02:37.27,0:02:41.00,ChangeTheWorld,,0,45,0,fx,{\k90\fad(300,200)}{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Dialogue: 0,0:02:38.78,0:02:41.36,RaveRed,,0,0,0,fx,{\k90\fad(300,200)}{\k25}tat{\k19}ta {\k17}i{\k27}chi{\k27}go {\k16}ga
+Dialogue: 0,0:02:40.08,0:02:43.22,ChangeTheWorld,,0,0,0,fx,{\k90\fad(300,200)}{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Dialogue: 0,0:02:41.50,0:02:44.19,RaveRed,,0,0,0,fx,{\k90\fad(300,200)}{\k20}mi{\k33}rai {\k15}wo {\k20}tsu{\k18}ku{\k35}ru
+Dialogue: 0,0:02:43.09,0:02:47.19,KM,,0,0,0,fx,{\k90\fad(300,200)}
+Dialogue: 0,0:02:54.20,0:02:56.73,RaveRed,,0,0,0,fx,{\k90\fad(300,200)}{\kf72}LET {\kf69}ME
+Dialogue: 0,0:02:55.63,0:02:58.13,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k28}GAIN{\k22}  {\i1}sa{\k20}ke{\k17}be{\i0}
+Dialogue: 0,0:02:57.03,0:02:59.55,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k34}GAIN{\k20}  {\i1}yu{\k18}ra{\k15}se{\i0}
+Dialogue: 0,0:02:58.45,0:03:00.42,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k28}GAIN
+Dialogue: 0,0:02:59.33,0:03:02.19,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ko{\k18}ko{\k16}ro {\k30}tsu{\k12}ki {\k11}u{\k16}go{\k16}ka{\k39}su
+Dialogue: 0,0:03:01.09,0:03:03.73,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k18}FA{\k16}N{\kf37}FA{\k36}RE{\k17}  {\i1}na{\k17}ra{\k14}se{\i0}
+Dialogue: 0,0:03:02.63,0:03:06.25,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k40}sa {\k17}i{\k35}ma {\k19}ko{\k16}e{\k19}te {\k28}mi{\k7}se{\k18}te{\k9}ya{\k15}ro{\k10}u {\k15}ka
+Dialogue: 0,0:03:05.15,0:03:08.02,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I{\k17}DO{\k72}LA {\k38}DE{\k31}US
+Dialogue: 0,0:03:06.92,0:03:09.43,Rave Again Red,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k28}GAIN{\k22}  {\i1}sa{\k20}ke{\k17}be{\i0}
+Dialogue: 0,0:03:08.33,0:03:10.85,Rave Again Yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k34}GAIN{\k20}  {\i1}yu{\k18}ra{\k15}se{\i0}
+Dialogue: 0,0:03:09.75,0:03:11.72,Rave Again Orange,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k28}GAIN
+Dialogue: 0,0:03:10.62,0:03:15.08,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k18}o{\k17}re{\k18}ta{\k27}chi {\k8}shi{\k19}ka {\k17}e{\k16}ga{\k37}ke{\k18}na{\k18}i {\k16}o{\k19}to {\k34}ni{\k18}  {\i1}na{\k13}ra{\k20}se{\i0}
+Dialogue: 0,0:03:13.98,0:03:19.31,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k33}gen{\k39}sou {\k18}wo {\k10}yu{\k27}da{\k13}ne{\kf285}teru
+Dialogue: 0,0:03:18.21,0:03:22.31,KM,,0,0,0,fx,{\k90\fad(300,200)}
+Dialogue: 0,0:03:40.82,0:03:44.45,ChangeTheWorld,,0,0,0,fx,{\k90\fad(300,200)}{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Dialogue: 0,0:03:42.31,0:03:44.73,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k25}tat{\k20}ta {\k18}i{\k22}chi {\k16}o{\k13}to {\k17}ga
+Dialogue: 0,0:03:43.65,0:03:46.94,ChangeTheWorld,,45,0,0,fx,{\k90\fad(300,200)}{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Dialogue: 0,0:03:45.03,0:03:47.56,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ka{\k14}ko {\k12}wo {\k19}ko{\k13}wa{\k23}shi{\k34}te
+Dialogue: 0,0:03:46.46,0:03:50.19,ChangeTheWorld,,0,45,0,fx,{\k90\fad(300,200)}{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Dialogue: 0,0:03:47.97,0:03:50.55,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k25}tat{\k19}ta {\k17}i{\k27}chi{\k27}go {\k16}ga
+Dialogue: 0,0:03:49.27,0:03:52.41,ChangeTheWorld,,0,0,0,fx,{\k90\fad(300,200)}{\k36}YOU {\k34}CAN {\k36}CHANGE {\k18}THE {\k123}WORLD
+Dialogue: 0,0:03:50.69,0:03:53.38,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k20}mi{\k33}rai {\k15}wo {\k20}tsu{\k18}ku{\k35}ru
+Dialogue: 0,0:03:52.28,0:03:56.38,KM,,0,0,0,fx,{\k90\fad(300,200)}
+Dialogue: 0,0:04:03.37,0:04:05.90,RaveRed,,0,0,0,fx,{\k90\fad(300,200)}{\kf72}LET {\kf69}ME
+Dialogue: 0,0:04:04.80,0:04:07.30,Skyblue,,0,250,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k28}GAIN
+Dialogue: 0,0:04:06.20,0:04:08.72,Skyblue,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k28}GAIN
+Dialogue: 0,0:04:07.62,0:04:09.59,Skyblue,,0,-230,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k28}GAIN
+Dialogue: 0,0:04:08.50,0:04:11.36,Skyblue,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ko{\k18}ko{\k16}ro {\k30}tsu{\k12}ki {\k11}u{\k16}go{\k16}ka{\k39}su
+Dialogue: 0,0:04:10.26,0:04:12.90,Skyblue,,0,0,0,fx,{\k90\fad(300,200)}{\k18}FA{\k16}N{\kf37}FA{\k36}RE
+Dialogue: 0,0:04:11.80,0:04:15.42,Skyblue,,0,0,0,fx,{\k90\fad(300,200)}{\k40}sa {\k17}i{\k35}ma {\k19}ko{\k16}e{\k19}te {\k28}mi{\k7}se{\k18}te{\k9}ya{\k15}ro{\k10}u {\k15}ka
+Dialogue: 0,0:04:14.32,0:04:17.19,Skyblue,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I{\k17}DO{\k72}LA {\k38}DE{\k31}US
+Dialogue: 0,0:04:16.09,0:04:18.60,Skyblue,,0,250,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k28}GAIN
+Dialogue: 0,0:04:17.50,0:04:20.02,Skyblue,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k28}GAIN
+Dialogue: 0,0:04:18.92,0:04:20.89,Skyblue,,0,-230,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k28}GAIN
+Dialogue: 0,0:04:19.79,0:04:24.25,Skyblue,,0,0,0,fx,{\k90\fad(300,200)}{\k18}o{\k17}re{\k18}ta{\k27}chi {\k8}shi{\k19}ka {\k17}e{\k16}ga{\k37}ke{\k18}na{\k18}i {\k16}o{\k19}to {\k34}ni
+Dialogue: 0,0:04:23.15,0:04:28.48,Skyblue,,0,0,0,fx,{\k90\fad(300,200)}{\k33}gen{\k39}sou {\k18}wo {\k10}yu{\k27}da{\k13}ne{\kf285}teru
+Dialogue: 0,0:04:27.40,0:04:29.90,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k28}GAIN{\k22}  {\i1}sa{\k20}ke{\k17}be{\i0}
+Dialogue: 0,0:04:28.80,0:04:31.30,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k34}GAIN{\k20}  {\i1}yu{\k18}ra{\k15}se{\i0}
+Dialogue: 0,0:04:30.20,0:04:32.20,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k28}GAIN
+Dialogue: 0,0:04:31.10,0:04:33.97,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ko{\k18}ko{\k16}ro {\k30}tsu{\k12}ki {\k11}u{\k16}go{\k16}ka{\k39}su
+Dialogue: 0,0:04:32.87,0:04:35.52,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k18}FA{\k16}N{\kf37}FA{\k36}RE{\k17}  {\i1}na{\k17}ra{\k14}se{\i0}
+Dialogue: 0,0:04:34.42,0:04:38.00,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k40}sa {\k17}i{\k35}ma {\k19}ko{\k16}e{\k19}te {\k28}mi{\k7}se{\k18}te{\k9}ya{\k15}ro{\k10}u {\k15}ka
+Dialogue: 0,0:04:36.90,0:04:39.79,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I{\k17}DO{\k72}LA {\k38}DE{\k31}US
+Dialogue: 0,0:04:38.69,0:04:41.21,Rave Again Red,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k28}GAIN{\k22}  {\i1}sa{\k20}ke{\k17}be{\i0}
+Dialogue: 0,0:04:40.11,0:04:42.62,Rave Again Yellow,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k34}GAIN{\k20}  {\i1}yu{\k18}ra{\k15}se{\i0}
+Dialogue: 0,0:04:41.52,0:04:43.50,Rave Again Orange,,0,0,0,fx,{\k90\fad(300,200)}{\k36}RAVE {\k17}A{\k28}GAIN
+Dialogue: 0,0:04:42.40,0:04:46.83,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k18}o{\k17}re{\k18}ta{\k27}chi {\k8}shi{\k19}ka {\k17}e{\k16}ga{\k37}ke{\k18}na{\k18}i {\k16}o{\k19}to {\k34}ni{\k18}  {\i1}na{\k13}ra{\k20}se{\i0}
+Dialogue: 0,0:04:45.73,0:04:51.08,Rave Again,,0,0,0,fx,{\k90\fad(300,200)}{\k33}gen{\k39}sou {\k18}wo {\k10}yu{\k27}da{\k13}ne{\kf285}teru
+Dialogue: 0,0:00:00.00,0:00:05.20,Rave Again,,0,0,0,fx,{\k0\fad(0,200)}
