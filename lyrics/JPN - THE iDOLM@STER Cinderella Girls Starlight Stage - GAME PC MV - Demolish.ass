@@ -1,0 +1,78 @@
+﻿[Script Info]
+Title: Demolish
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ThreatSign,Arial,24,&H000013FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Mio,Arial,24,&H00FFFFFF,&H00065D86,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Haru,Arial,24,&H00FFFFFF,&H00797E20,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Natalia,Arial,24,&H00FFFFFF,&H001042AF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,ThreatSign,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:06.28,0:00:09.64,Natalia,,0,0,0,karaoke,{\k24}ma{\k66}da {\k23}ma{\k66}da {\k21}wa{\k25}su{\k22}re{\k24}ra{\k20}re{\k22}na{\k23}i
+Comment: 0,0:00:09.86,0:00:13.30,Haru,,0,0,0,karaoke,{\k22}ya{\k64}da {\k24}ya{\k65}da {\k25}ha{\k23}na{\k21}re{\k22}ta{\k23}ku{\k23}na{\k32}i
+Comment: 0,0:00:13.41,0:00:16.83,ThreatSign,,0,0,0,karaoke,{\k22}de{\k66}mo {\k24}de{\k61}mo {\rMio}{\k27}wa{\k24}ka{\k21}t{\k21}te {\k23}i{\k24}te{\k29}mo
+Comment: 0,0:00:16.96,0:00:20.90,ThreatSign,,0,0,0,karaoke,{\k24}de{\k66}mo {\k22}de{\k66}mo {\rMio}{\k24}ma{\k22}da {\k20}wa{\k25}ka{\k20}ri{\k24}ta{\k21}ku{\k24}na{\k36}i
+Comment: 0,0:00:21.18,0:00:24.38,Haru,,0,0,0,karaoke,{\k22}sai{\k23}sho {\k25}ka{\k42}ra {\k11}da{\k11}i{\k12}su{\k14}ki {\k10}ni {\k12}na{\k19}t{\k25}te {\k19}i{\k23}ta {\k23}ka{\k29}ra
+Comment: 0,0:00:24.72,0:00:27.53,Natalia,,0,0,0,karaoke,{\k16}mi{\k8}tsu{\k12}me{\k13}ta {\k19}no {\k45}wa {\k22}sou {\k13}wa{\k10}ta{\k8}shi {\k15}no {\k22}ho{\k22}u {\k22}ka{\k34}ra
+Comment: 0,0:00:27.62,0:00:31.04,ThreatSign,,0,0,0,karaoke,{\k23}de{\k66}mo {\k24}de{\k64}mo {\rMio}{\k24}kou{\k22}kai {\k23}nan{\k27}te {\k18}shi{\k22}na{\k28}i
+Comment: 0,0:00:31.20,0:00:35.07,ThreatSign,,0,0,0,karaoke,{\k21}de{\k66}mo {\k23}ne{\k64}e {\rMio}{\k23}mat{\k15}te{\k8}ru {\k24}hou {\k20}ga {\k22}yo{\k22}ka{\k24}t{\k26}ta {\k29}no?
+Comment: 0,0:00:35.65,0:00:41.20,Natalia,,0,0,0,karaoke,{\k21}o{\k23}na{\k21}ji {\k30}KI{\k80}SS {\rHaru}{\k23}o{\k22}na{\k23}ji {\k22}ba{\k87}men {\rMio}{\k24}o{\k23}mo{\k23}i{\k22}de {\k44}no {\k20}zen{\k47}bu
+Comment: 0,0:00:41.73,0:00:43.51,Natalia,,0,0,0,karaoke,{\k12}su{\k12}su{\k11}me{\k21}nai {\k12}so{\k10}re {\k12}de{\k13}mo {\k10}su{\k11}su{\k22}mi{\k12}ta{\k20}i
+Comment: 0,0:00:43.53,0:00:45.26,Haru,,0,0,0,karaoke,{\k9}yu{\k14}ru{\k9}shi{\k10}te{\k12}ru {\k11}de{\k12}mo {\k11}yu{\k10}ru{\k12}shi{\k12}te {\k22}i{\k11}na{\k18}i
+Comment: 0,0:00:45.32,0:00:49.17,Mio,,0,0,0,karaoke,{\k22}mou{\k10}i{\k11}chi{\k10}do {\k12}a{\k12}i{\k10}shi{\k11}te {\k12}ho{\k10}shi{\k22}kat{\k22}ta {\k23}de{\k21}mo {\rThreatSign}{\k43}sa{\k45}yo{\k45}na{\k44}ra
+Comment: 0,0:00:49.41,0:00:51.43,ThreatSign,,0,0,0,karaoke,{\k24}mu{\k27}ju{\k16}n {\k44}da{\k22}ra{\k69}ke
+Comment: 0,0:00:51.61,0:00:55.94,ThreatSign,,0,0,0,karaoke,{\k16}i{\k8}tsu{\k24}ka{\k21}ra {\k23}da{\k44}rou {\k20}su{\k24}re{\k22}chi{\k44}gat{\k23}te{\k88}ta {\k11}tsu{\k11}ma{\k23}sa{\k31}ki
+Comment: 0,0:00:56.06,0:00:59.47,Natalia,,0,0,0,karaoke,{\k24}de{\k67}mo {\k22}de{\k62}mo {\rHaru}{\k26}ki{\k23}zu {\k23}da{\k20}ra{\k23}ke {\k22}de{\k29}mo
+Comment: 0,0:00:59.60,0:01:03.88,Mio,,0,0,0,karaoke,{\k26}hi{\k63}ri{\k29}hi{\k62}ri {\rNatalia}{\k24}su{\k20}ri{\k24}he{\k22}ra{\k21}shi {\k23}tsu{\k23}zu{\k22}ke{\k22}ta{\k47}i
+Comment: 0,0:01:04.22,0:01:10.27,Haru,,0,0,0,karaoke,{\k39}wa{\k31}ka{\k26}re {\k89}no {\k32}de{\k35}gu{\k22}chi {\k87}wa {\k34}hi{\k35}ka{\k23}ri {\k65}no {\k24}na{\k63}ka
+Comment: 0,0:01:10.28,0:01:13.62,Mio,,0,0,0,karaoke,{\k24}ji{\k68}ri{\k24}ji{\k63}ri {\rNatalia}{\k23}ko{\k21}ga{\k23}su {\k23}ka{\k22}na{\k23}shi{\k20}mi
+Comment: 0,0:01:13.78,0:01:22.88,Haru,,0,0,0,karaoke,{\k29}a{\k68}na{\k21}ta {\k62}wo {\rMio}{\k30}ki{\k20}ra{\k22}i {\k22}ni {\k42}na{\k23}ri{\k25}ta{\kf272}ku{\k60}{\k23}na{\kf191}i
+Comment: 0,0:01:29.62,0:01:31.79,ThreatSign,,0,0,0,karaoke,{\k23}de{\k21}mo {\k45}sa{\k45}yo{\k43}na{\k40}ra
+Comment: 0,0:01:32.08,0:01:34.08,ThreatSign,,0,0,0,karaoke,{\k23}mu{\k24}ju{\k19}n {\k44}da{\k22}ra{\k68}ke
+Comment: 0,0:01:34.30,0:01:38.58,ThreatSign,,0,0,0,karaoke,{\k15}i{\k7}tsu{\k25}ka{\k20}ra {\k24}da{\k42}rou {\k23}su{\k22}re{\k22}chi{\k44}gat{\k22}te{\k90}ta {\k10}tsu{\k11}ma{\k22}sa{\k29}ki
+Comment: 0,0:01:38.73,0:01:42.15,Mio,,0,0,0,karaoke,{\k25}de{\k66}mo {\k23}de{\k62}mo {\rHaru}{\k26}ki{\k21}zu {\k23}da{\k22}ra{\k23}ke {\k22}de{\k29}mo
+Comment: 0,0:01:38.73,0:01:40.20,Natalia,,0,140,0,karaoke,{\k25}de{\k66}mo {\k23}de{\k33}mo
+Comment: 0,0:01:42.29,0:01:46.50,Natalia,,0,0,0,karaoke,{\k26}hi{\k64}ri{\k25}hi{\k64}ri {\rThreatSign}{\k26}su{\k18}ri{\k24}he{\k21}ra{\k24}shi {\k22}tsu{\k20}zu{\k23}ke{\k21}ta{\k43}i
+Comment: 0,0:01:42.29,0:01:43.72,Haru,,0,174,0,karaoke,{\k26}hi{\k64}ri{\k25}hi{\k306}ri
+Comment: 0,0:01:46.95,0:01:52.97,ThreatSign,,0,0,0,karaoke,{\k37}wa{\k32}ka{\k24}re {\k85}no {\k36}de{\k33}gu{\k22}chi {\k86}wa {\k37}hi{\k34}ka{\k22}ri {\k65}no {\k21}na{\k68}ka
+Comment: 0,0:01:52.98,0:01:56.35,Mio,,0,0,0,karaoke,{\k22}ji{\k66}ri{\k24}ji{\k61}ri {\rThreatSign}{\k26}ko{\k21}ga{\k23}su {\k24}ka{\k23}na{\k22}shi{\k25}mi
+Comment: 0,0:01:56.50,0:02:05.71,ThreatSign,,0,0,0,karaoke,{\k25}a{\k66}na{\k23}ta {\k63}wo {\k27}ki{\k22}ra{\k22}i {\k23}ni {\k43}na{\k23}ri{\k24}ta{\kf284}ku{\k48}{\k28}na{\kf200}i
+Dialogue: 0,0:00:05.38,0:00:09.84,Natalia,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ma{\k66}da {\k23}ma{\k66}da {\k21}wa{\k25}su{\k22}re{\k24}ra{\k20}re{\k22}na{\k23}i
+Dialogue: 0,0:00:08.96,0:00:13.50,Haru,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ya{\k64}da {\k24}ya{\k65}da {\k25}ha{\k23}na{\k21}re{\k22}ta{\k23}ku{\k23}na{\k32}i
+Dialogue: 0,0:00:12.51,0:00:17.03,ThreatSign,,0,0,0,fx,{\k90\fad(300,200)}{\k22}de{\k66}mo {\k24}de{\k61}mo {\rMio}{\k27}wa{\k24}ka{\k21}t{\k21}te {\k23}i{\k24}te{\k29}mo
+Dialogue: 0,0:00:16.06,0:00:21.10,ThreatSign,,0,0,0,fx,{\k90\fad(300,200)}{\k24}de{\k66}mo {\k22}de{\k66}mo {\rMio}{\k24}ma{\k22}da {\k20}wa{\k25}ka{\k20}ri{\k24}ta{\k21}ku{\k24}na{\k36}i
+Dialogue: 0,0:00:20.28,0:00:24.58,Haru,,0,0,0,fx,{\k90\fad(300,200)}{\k22}sai{\k23}sho {\k25}ka{\k42}ra {\k11}da{\k11}i{\k12}su{\k14}ki {\k10}ni {\k12}na{\k19}t{\k25}te {\k19}i{\k23}ta {\k23}ka{\k29}ra
+Dialogue: 0,0:00:23.82,0:00:27.73,Natalia,,0,0,0,fx,{\k90\fad(300,200)}{\k16}mi{\k8}tsu{\k12}me{\k13}ta {\k19}no {\k45}wa {\k22}sou {\k13}wa{\k10}ta{\k8}shi {\k15}no {\k22}ho{\k22}u {\k22}ka{\k34}ra
+Dialogue: 0,0:00:26.72,0:00:31.24,ThreatSign,,0,0,0,fx,{\k90\fad(300,200)}{\k23}de{\k66}mo {\k24}de{\k64}mo {\rMio}{\k24}kou{\k22}kai {\k23}nan{\k27}te {\k18}shi{\k22}na{\k28}i
+Dialogue: 0,0:00:30.30,0:00:35.27,ThreatSign,,0,0,0,fx,{\k90\fad(300,200)}{\k21}de{\k66}mo {\k23}ne{\k64}e {\rMio}{\k23}mat{\k15}te{\k8}ru {\k24}hou {\k20}ga {\k22}yo{\k22}ka{\k24}t{\k26}ta {\k29}no?
+Dialogue: 0,0:00:34.75,0:00:41.40,Natalia,,0,0,0,fx,{\k90\fad(300,200)}{\k21}o{\k23}na{\k21}ji {\k30}KI{\k80}SS {\rHaru}{\k23}o{\k22}na{\k23}ji {\k22}ba{\k87}men {\rMio}{\k24}o{\k23}mo{\k23}i{\k22}de {\k44}no {\k20}zen{\k47}bu
+Dialogue: 0,0:00:40.83,0:00:43.71,Natalia,,0,0,0,fx,{\k90\fad(300,200)}{\k12}su{\k12}su{\k11}me{\k21}nai {\k12}so{\k10}re {\k12}de{\k13}mo {\k10}su{\k11}su{\k22}mi{\k12}ta{\k20}i
+Dialogue: 0,0:00:42.63,0:00:45.46,Haru,,0,0,0,fx,{\k90\fad(300,200)}{\k9}yu{\k14}ru{\k9}shi{\k10}te{\k12}ru {\k11}de{\k12}mo {\k11}yu{\k10}ru{\k12}shi{\k12}te {\k22}i{\k11}na{\k18}i
+Dialogue: 0,0:00:44.42,0:00:49.37,Mio,,0,0,0,fx,{\k90\fad(300,200)}{\k22}mou{\k10}i{\k11}chi{\k10}do {\k12}a{\k12}i{\k10}shi{\k11}te {\k12}ho{\k10}shi{\k22}kat{\k22}ta {\k23}de{\k21}mo {\rThreatSign}{\k43}sa{\k45}yo{\k45}na{\k44}ra
+Dialogue: 0,0:00:48.51,0:00:51.63,ThreatSign,,0,0,0,fx,{\k90\fad(300,200)}{\k24}mu{\k27}ju{\k16}n {\k44}da{\k22}ra{\k69}ke
+Dialogue: 0,0:00:50.71,0:00:56.14,ThreatSign,,0,0,0,fx,{\k90\fad(300,200)}{\k16}i{\k8}tsu{\k24}ka{\k21}ra {\k23}da{\k44}rou {\k20}su{\k24}re{\k22}chi{\k44}gat{\k23}te{\k88}ta {\k11}tsu{\k11}ma{\k23}sa{\k31}ki
+Dialogue: 0,0:00:55.16,0:00:59.67,Natalia,,0,0,0,fx,{\k90\fad(300,200)}{\k24}de{\k67}mo {\k22}de{\k62}mo {\rHaru}{\k26}ki{\k23}zu {\k23}da{\k20}ra{\k23}ke {\k22}de{\k29}mo
+Dialogue: 0,0:00:58.70,0:01:04.08,Mio,,0,0,0,fx,{\k90\fad(300,200)}{\k26}hi{\k63}ri{\k29}hi{\k62}ri {\rNatalia}{\k24}su{\k20}ri{\k24}he{\k22}ra{\k21}shi {\k23}tsu{\k23}zu{\k22}ke{\k22}ta{\k47}i
+Dialogue: 0,0:01:03.32,0:01:10.47,Haru,,0,0,0,fx,{\k90\fad(300,200)}{\k39}wa{\k31}ka{\k26}re {\k89}no {\k32}de{\k35}gu{\k22}chi {\k87}wa {\k34}hi{\k35}ka{\k23}ri {\k65}no {\k24}na{\k63}ka
+Dialogue: 0,0:01:09.38,0:01:13.82,Mio,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ji{\k68}ri{\k24}ji{\k63}ri {\rNatalia}{\k23}ko{\k21}ga{\k23}su {\k23}ka{\k22}na{\k23}shi{\k20}mi
+Dialogue: 0,0:01:12.88,0:01:23.08,Haru,,0,0,0,fx,{\k90\fad(300,200)}{\k29}a{\k68}na{\k21}ta {\k62}wo {\rMio}{\k30}ki{\k20}ra{\k22}i {\k22}ni {\k42}na{\k23}ri{\k25}ta{\kf272}ku{\k60}{\k23}na{\kf191}i
+Dialogue: 0,0:01:28.72,0:01:31.99,ThreatSign,,0,0,0,fx,{\k90\fad(300,200)}{\k23}de{\k21}mo {\k45}sa{\k45}yo{\k43}na{\k40}ra
+Dialogue: 0,0:01:31.18,0:01:34.28,ThreatSign,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mu{\k24}ju{\k19}n {\k44}da{\k22}ra{\k68}ke
+Dialogue: 0,0:01:33.40,0:01:38.78,ThreatSign,,0,0,0,fx,{\k90\fad(300,200)}{\k15}i{\k7}tsu{\k25}ka{\k20}ra {\k24}da{\k42}rou {\k23}su{\k22}re{\k22}chi{\k44}gat{\k22}te{\k90}ta {\k10}tsu{\k11}ma{\k22}sa{\k29}ki
+Dialogue: 0,0:01:37.83,0:01:42.35,Mio,,0,0,0,fx,{\k90\fad(300,200)}{\k25}de{\k66}mo {\k23}de{\k62}mo {\rHaru}{\k26}ki{\k21}zu {\k23}da{\k22}ra{\k23}ke {\k22}de{\k29}mo
+Dialogue: 0,0:01:37.83,0:01:40.40,Natalia,,0,140,0,fx,{\k90\fad(300,200)}{\k25}de{\k66}mo {\k23}de{\k33}mo
+Dialogue: 0,0:01:41.39,0:01:46.70,Natalia,,0,0,0,fx,{\k90\fad(300,200)}{\k26}hi{\k64}ri{\k25}hi{\k64}ri {\rThreatSign}{\k26}su{\k18}ri{\k24}he{\k21}ra{\k24}shi {\k22}tsu{\k20}zu{\k23}ke{\k21}ta{\k43}i
+Dialogue: 0,0:01:41.39,0:01:43.92,Haru,,0,174,0,fx,{\k90\fad(300,200)}{\k26}hi{\k64}ri{\k25}hi{\k306}ri
+Dialogue: 0,0:01:46.05,0:01:53.17,ThreatSign,,0,0,0,fx,{\k90\fad(300,200)}{\k37}wa{\k32}ka{\k24}re {\k85}no {\k36}de{\k33}gu{\k22}chi {\k86}wa {\k37}hi{\k34}ka{\k22}ri {\k65}no {\k21}na{\k68}ka
+Dialogue: 0,0:01:52.08,0:01:56.55,Mio,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ji{\k66}ri{\k24}ji{\k61}ri {\rThreatSign}{\k26}ko{\k21}ga{\k23}su {\k24}ka{\k23}na{\k22}shi{\k25}mi
+Dialogue: 0,0:01:55.60,0:02:05.91,ThreatSign,,0,0,0,fx,{\k90\fad(300,200)}{\k25}a{\k66}na{\k23}ta {\k63}wo {\k27}ki{\k22}ra{\k22}i {\k23}ni {\k43}na{\k23}ri{\k24}ta{\kf284}ku{\k48}{\k28}na{\kf200}i
