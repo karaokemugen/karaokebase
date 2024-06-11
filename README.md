@@ -31,6 +31,10 @@ This folder contains the subtitles files as specified in the `.kara.json` file.
 
 It is generally a `.ass` file made with Aegisub. See [the contribution guide](CONTRIBUTING.md) for a more detailed tutorial on how to write good karaokes.
 
+### `fonts` folder
+
+This contains optional fonts that many ASS files might use in the repository. This will be copied by KM at startup for the player to use.
+
 ### `medias` folder
 
 This folder contains the video or audio file as specified in the `.kara.json` file.
