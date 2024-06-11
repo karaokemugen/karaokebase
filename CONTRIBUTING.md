@@ -6,6 +6,10 @@ There's a tutorial describing how to make one here :
 
 * [Karaoke Tutorial](https://docs.karaokes.moe/contrib-guide/)
 
+**Remember to follow this repository's karaoke making rules**
+
+* [See rules on the wiki](https://gitlab.com/karaokemugen/bases/karaokebase/-/wikis/rules)
+
 ## I already have some karaoke files, I would like to add them to this database
 
 If your files are ready, you can add them in different ways.
