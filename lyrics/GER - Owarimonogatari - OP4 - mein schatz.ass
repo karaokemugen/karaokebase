@@ -14,7 +14,7 @@ Style: KM,Arial,24,&H009D85FB,&H00FFFFFF,&H00000000,&H00666666,-1,0,0,0,100,100,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.05,0:00:00.05,KM,,0,0,0,template pre-line all keeptags,!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}
+Comment: 0,0:00:00.80,0:00:00.80,KM,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 1,0:00:22.02,0:00:28.23,KM,,0,0,0,karaoke,{\k90}Du {\k88}bist {\k80}al{\k363}les
 Comment: 1,0:00:28.88,0:00:35.19,KM,,0,0,0,karaoke,{\k85}Ich {\k85}kann {\k86}dich {\k87}hö{\k288}ren
 Comment: 1,0:00:35.59,0:00:41.71,KM,,0,0,0,karaoke,{\k71}ru{\k27}fe {\k86}mei{\k86}nen {\k172}Na{\k170}men
@@ -22,10 +22,10 @@ Comment: 1,0:00:41.71,0:00:47.54,KM,,0,0,0,karaoke,{\k174}Ich {\k87}kann {\k83}d
 Comment: 1,0:00:40.59,0:00:47.70,KM,,0,0,0,karaoke,{\k113}Ich {\k86}fin{\k173}de {\k84}und {\k88}lie{\k167}be
 Comment: 1,0:00:47.70,0:00:54.59,KM,,0,0,0,karaoke,{\k87}für {\k86}im{\k168}mer {\k90}nur {\k84}di{\k174}ch
 Comment: 1,0:00:54.59,0:00:58.93,KM,,0,0,0,karaoke,{\k79}mein {\k355}Schatz
-Dialogue: 0,0:00:21.02,0:00:28.33,KM,,0,0,0,fx,{\fade(255,0,255,0,850,7210,7310)\k90}{\k90}Du {\k88}bist {\k80}al{\k363}les
-Dialogue: 0,0:00:27.88,0:00:35.29,KM,,0,0,0,fx,{\fade(255,0,255,0,850,7310,7410)\k90}{\k85}Ich {\k85}kann {\k86}dich {\k87}hö{\k288}ren
-Dialogue: 0,0:00:34.59,0:00:41.81,KM,,0,0,0,fx,{\fade(255,0,255,0,850,7120,7220)\k90}{\k71}ru{\k27}fe {\k86}mei{\k86}nen {\k172}Na{\k170}men
-Dialogue: 0,0:00:40.71,0:00:47.64,KM,,0,0,0,fx,{\fade(255,0,255,0,850,6830,6930)\k90}{\k174}Ich {\k87}kann {\k83}dich {\k86}hö{\k253}ren
-Dialogue: 0,0:00:39.59,0:00:47.80,KM,,0,0,0,fx,{\fade(255,0,255,0,850,8110,8210)\k90}{\k113}Ich {\k86}fin{\k173}de {\k84}und {\k88}lie{\k167}be
-Dialogue: 0,0:00:46.70,0:00:54.69,KM,,0,0,0,fx,{\fade(255,0,255,0,850,7890,7990)\k90}{\k87}für {\k86}im{\k168}mer {\k90}nur {\k84}di{\k174}ch
-Dialogue: 0,0:00:53.59,0:00:59.03,KM,,0,0,0,fx,{\fade(255,0,255,0,850,5340,5440)\k90}{\k79}mein {\k355}Schatz
+Dialogue: 0,0:00:21.12,0:00:28.43,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k90}Du {\k88}bist {\k80}al{\k363}les
+Dialogue: 0,0:00:27.98,0:00:35.39,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k85}Ich {\k85}kann {\k86}dich {\k87}hö{\k288}ren
+Dialogue: 0,0:00:34.69,0:00:41.91,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k71}ru{\k27}fe {\k86}mei{\k86}nen {\k172}Na{\k170}men
+Dialogue: 0,0:00:40.81,0:00:47.74,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k174}Ich {\k87}kann {\k83}dich {\k86}hö{\k253}ren
+Dialogue: 0,0:00:39.69,0:00:47.90,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k113}Ich {\k86}fin{\k173}de {\k84}und {\k88}lie{\k167}be
+Dialogue: 0,0:00:46.80,0:00:54.79,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k87}für {\k86}im{\k168}mer {\k90}nur {\k84}di{\k174}ch
+Dialogue: 0,0:00:53.69,0:00:59.13,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k79}mein {\k355}Schatz
