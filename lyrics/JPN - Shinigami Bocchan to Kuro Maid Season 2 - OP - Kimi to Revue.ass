@@ -1,0 +1,81 @@
+﻿[Script Info]
+Title: Kimi to Revue
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Spotty Len
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFAB00,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,0,0,13,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00A1A1A1,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,0,0,13,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H0000C6EA,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,0,0,13,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.64,0:00:04.56,Sample KM [Up],,0,0,0,karaoke,{\k45}rat{\k34}ta {\k40}ta{\k36}rat{\k37}ta
+Comment: 0,0:00:04.71,0:00:06.48,Sample KM [Up],,0,0,0,karaoke,{\k41}rat{\k34}ta {\k42}ta{\k35}rat{\k25}ta
+Comment: 0,0:00:06.74,0:00:08.48,Sample KM [Up],,0,0,0,karaoke,{\k42}rat{\k34}ta {\k43}ta{\k36}rat{\k19}ta
+Comment: 0,0:00:08.48,0:00:12.81,Sample KM [Up],,0,0,0,karaoke,{\k56}ki{\k48}mi {\k54}to {\k24}RE{\kf251}VUE
+Comment: 0,0:00:15.09,0:00:17.14,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k33}ma{\k21}ru{\k23}de {\k29}shi{\k26}ka{\k25}ku{\k48}i
+Comment: 0,0:00:17.41,0:00:19.33,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}T{\k24}I{\k26}RE {\k26}no {\k25}BI{\k65}KE
+Comment: 0,0:00:19.44,0:00:21.54,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}yo{\k26}ro{\k25}yo{\k25}ro {\k40}ko{\k9}gu {\k60}LIFE
+Comment: 0,0:00:21.73,0:00:24.53,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k28}so{\k22}no {\k26}u{\k48}shi{\k27}ro {\k26}no {\k26}se{\k24}ki {\k53}ni
+Comment: 0,0:00:24.53,0:00:26.82,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k25}su{\k26}wa{\k27}t{\k24}te {\k51}iin {\k26}de{\k25}su {\k25}ka
+Comment: 0,0:00:27.07,0:00:27.84,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}do{\k22}ko {\k28}ka
+Comment: 0,0:00:27.84,0:00:28.58,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k26}mi{\k23}n{\k25}na
+Comment: 0,0:00:28.58,0:00:30.48,Sample KM [Up],,0,0,0,karaoke,{\k29}kok{\k38}kei {\k37}ni {\k29}na{\k57}ru
+Comment: 0,0:00:31.14,0:00:31.92,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}ko{\k26}i {\k26}wo
+Comment: 0,0:00:31.92,0:00:32.66,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k26}shi{\k22}ta{\k26}ra
+Comment: 0,0:00:32.66,0:00:34.45,Sample KM [Up],,0,0,0,karaoke,{\k26}tsu{\k40}na{\k36}wa{\k31}ta{\k46}ri
+Comment: 0,0:00:35.19,0:00:36.72,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k28}IR{\k25}RE{\k25}GU{\k39}LAR {\k36}wa
+Comment: 0,0:00:36.73,0:00:39.26,Sample KM [Up],,0,0,0,karaoke,{\k27}mi{\k49}ryo{\k51}ku{\k49}nan {\k29}de{\k48}su
+Comment: 0,0:00:39.26,0:00:39.92,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k13}da{\k15}re{\k38}ka
+Comment: 0,0:00:39.92,0:00:42.21,Sample KM [Up],,0,0,0,karaoke,{\k12}mi{\k26}tsu{\k26}me{\k25}te{\kf140}ru
+Comment: 0,0:00:42.56,0:00:43.61,Sample KM [Up],,0,0,0,karaoke,{\k25}ME {\k27}AND {\k53}YOU
+Comment: 0,0:00:43.84,0:00:46.65,Sample KM [Up],,0,0,0,karaoke,{\k28}S{\k49}POT{\k26}LI{\k26}GHT {\k51}a{\k50}bi{\k51}te
+Comment: 0,0:00:46.65,0:00:47.92,Sample KM [Up],,0,0,0,karaoke,{\k26}THE {\k49}RE{\k52}VUE
+Comment: 0,0:00:48.18,0:00:52.00,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}fu{\k25}ta{\k23}ri {\k26}o{\k53}do{\k26}ri{\k45}da{\k28}shi{\k26}ta{\k103}ra
+Comment: 0,0:00:52.21,0:00:54.95,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k27}se{\k27}ka{\k27}i {\k25}wa {\k50}do{\k27}ko {\k50}dat{\k41}te
+Comment: 0,0:00:54.97,0:00:58.49,Sample KM [Up],,0,0,0,karaoke,{\k83}STA{\k51}GE {\k26}ni {\k25}ka{\k26}wa{\k48}ru {\k16}mi{\k15}ta{\k62}i
+Comment: 0,0:00:58.82,0:01:00.12,Sample KM [Up],,0,0,0,karaoke,{\k29}ME {\k24}AND {\k77}YOU
+Comment: 0,0:01:00.60,0:01:06.21,Sample KM [Up],,0,0,0,karaoke,{\k29}ma{\k53}n{\k22}ge{\k53}tsu {\k25}no {\k76}ma{\k75}ho{\k76}u {\k52}THE {\k24}RE{\k76}VUE
+Comment: 0,0:01:06.72,0:01:12.42,Sample KM [Up],,0,0,0,karaoke,{\k25}ko{\k52}ko{\k26}ro {\k50}de {\k27}tsu{\k75}bu{\k51}ya{\k103}i{\k47}te{\k114}ta
+Comment: 0,0:01:12.81,0:01:15.84,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k53}bo{\k26}ku {\k53}no {\k48}ne{\k52}ga{\k71}i
+Comment: 0,0:01:16.63,0:01:19.81,Sample KM [Up],,0,0,0,karaoke,{\k41}ki{\k31}mi {\k31}no {\k39}ko{\k37}ko{\k26}ro {\k33}u{\k44}tsu{\k36}shi
+Comment: 0,0:01:20.70,0:01:26.89,Sample KM [Up],,0,0,0,karaoke,{\k53}FO{\k50}RE{\k79}VER {\k24}mu{\k39}su{\k37}ba{\k51}re{\kf286}ru
+Dialogue: 0,0:00:01.74,0:00:04.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}rat{\k34}ta {\k40}ta{\k36}rat{\k37}ta
+Dialogue: 0,0:00:03.81,0:00:06.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}rat{\k34}ta {\k42}ta{\k35}rat{\k25}ta
+Dialogue: 0,0:00:05.84,0:00:08.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}rat{\k34}ta {\k43}ta{\k36}rat{\k19}ta
+Dialogue: 0,0:00:07.58,0:00:13.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k56}ki{\k48}mi {\k54}to {\k24}RE{\kf251}VUE
+Dialogue: 0,0:00:14.19,0:00:17.34,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k33}ma{\k21}ru{\k23}de {\k29}shi{\k26}ka{\k25}ku{\k48}i
+Dialogue: 0,0:00:16.51,0:00:19.53,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k26}T{\k24}I{\k26}RE {\k26}no {\k25}BI{\k65}KE
+Dialogue: 0,0:00:18.54,0:00:21.74,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k25}yo{\k26}ro{\k25}yo{\k25}ro {\k40}ko{\k9}gu {\k60}LIFE
+Dialogue: 0,0:00:20.83,0:00:24.73,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k28}so{\k22}no {\k26}u{\k48}shi{\k27}ro {\k26}no {\k26}se{\k24}ki {\k53}ni
+Dialogue: 0,0:00:23.63,0:00:27.02,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k25}su{\k26}wa{\k27}t{\k24}te {\k51}iin {\k26}de{\k25}su {\k25}ka
+Dialogue: 0,0:00:26.17,0:00:28.04,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k27}do{\k22}ko {\k28}ka
+Dialogue: 0,0:00:26.94,0:00:28.78,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k26}mi{\k23}n{\k25}na
+Dialogue: 0,0:00:27.68,0:00:30.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}kok{\k38}kei {\k37}ni {\k29}na{\k57}ru
+Dialogue: 0,0:00:30.24,0:00:32.12,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k26}ko{\k26}i {\k26}wo
+Dialogue: 0,0:00:31.02,0:00:32.86,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k26}shi{\k22}ta{\k26}ra
+Dialogue: 0,0:00:31.76,0:00:34.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}tsu{\k40}na{\k36}wa{\k31}ta{\k46}ri
+Dialogue: 0,0:00:34.29,0:00:36.92,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k28}IR{\k25}RE{\k25}GU{\k39}LAR {\k36}wa
+Dialogue: 0,0:00:35.83,0:00:39.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}mi{\k49}ryo{\k51}ku{\k49}nan {\k29}de{\k48}su
+Dialogue: 0,0:00:38.36,0:00:40.12,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k13}da{\k15}re{\k38}ka
+Dialogue: 0,0:00:39.02,0:00:42.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}mi{\k26}tsu{\k26}me{\k25}te{\kf140}ru
+Dialogue: 0,0:00:41.66,0:00:43.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ME {\k27}AND {\k53}YOU
+Dialogue: 0,0:00:42.94,0:00:46.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}S{\k49}POT{\k26}LI{\k26}GHT {\k51}a{\k50}bi{\k51}te
+Dialogue: 0,0:00:45.75,0:00:48.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}THE {\k49}RE{\k52}VUE
+Dialogue: 0,0:00:47.28,0:00:52.20,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k27}fu{\k25}ta{\k23}ri {\k26}o{\k53}do{\k26}ri{\k45}da{\k28}shi{\k26}ta{\k103}ra
+Dialogue: 0,0:00:51.31,0:00:55.15,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k27}se{\k27}ka{\k27}i {\k25}wa {\k50}do{\k27}ko {\k50}dat{\k41}te
+Dialogue: 0,0:00:54.07,0:00:58.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k83}STA{\k51}GE {\k26}ni {\k25}ka{\k26}wa{\k48}ru {\k16}mi{\k15}ta{\k62}i
+Dialogue: 0,0:00:57.92,0:01:00.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}ME {\k24}AND {\k77}YOU
+Dialogue: 0,0:00:59.70,0:01:06.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}ma{\k53}n{\k22}ge{\k53}tsu {\k25}no {\k76}ma{\k75}ho{\k76}u {\k52}THE {\k24}RE{\k76}VUE
+Dialogue: 0,0:01:05.82,0:01:12.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ko{\k52}ko{\k26}ro {\k50}de {\k27}tsu{\k75}bu{\k51}ya{\k103}i{\k47}te{\k114}ta
+Dialogue: 0,0:01:11.91,0:01:16.04,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k53}bo{\k26}ku {\k53}no {\k48}ne{\k52}ga{\k71}i
+Dialogue: 0,0:01:15.73,0:01:20.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}ki{\k31}mi {\k31}no {\k39}ko{\k37}ko{\k26}ro {\k33}u{\k44}tsu{\k36}shi
+Dialogue: 0,0:01:19.80,0:01:27.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}FO{\k50}RE{\k79}VER {\k24}mu{\k39}su{\k37}ba{\k51}re{\kf286}ru
