@@ -24,6 +24,19 @@ test:
   only:
     - master
 
+i18nUpdate:
+  stage: deploy
+  image: curlimages/curl
+  interruptible: true
+  tags:
+    - $RUNNER_LINUX
+  script:
+    - curl -X POST -F "variables[FROM_BASE]=true" -F "token=$TRIGGER_I18N_TOKEN" -F "ref=main" "https://gitlab.com/api/v4/projects/59172300/trigger/pipeline"
+  rules:
+    - changes:
+      - tags/*.tag.json
+  only: 
+    - master
 export:
   stage: deploy
   image: curlimages/curl
@@ -31,7 +44,6 @@ export:
   tags: 
     - $RUNNER_LINUX
   script:
-    - echo "Triggering KM Server generation"
     - "curl -f -X POST -H authorization:$KMSERVERAUTH https://kara.moe/api/update"
     - "curl -f -X POST -H authorization:$KMSERVERDEVAUTH https://dev.kara.moe/api/update"
   only:
