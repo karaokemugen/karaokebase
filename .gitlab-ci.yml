@@ -33,10 +33,12 @@ i18nUpdate:
   script:
     - curl -X POST -F "variables[FROM_BASE]=true" -F "token=$TRIGGER_I18N_TOKEN" -F "ref=main" "https://gitlab.com/api/v4/projects/59172300/trigger/pipeline"
   rules:
+    - if: $CI_COMMIT_BRANCH != 'master'
+      when: never
     - changes:
       - tags/*.tag.json
-  only: 
-    - master
+    - when: never
+  
 export:
   stage: deploy
   image: curlimages/curl
