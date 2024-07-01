@@ -1,0 +1,184 @@
+﻿[Script Info]
+Title: Ringing Evil Phone
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hokuto,Arial,24,&H00FFFFFF,&H00FB9560,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Natsume,Arial,24,&H00FFFFFF,&H004638FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Ritsu,Arial,24,&H00FFFFFF,&H00FF60A1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hajime,Arial,24,&H00FFFFFF,&H00FDC50E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hinata,Arial,24,&H00FFFFFF,&H00EE3CFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hinata Hajime Ritsu,Arial,24,&H00EE3CFF,&H00FFEEB2,&H0096004B,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hajime Ritsu,Arial,24,&H00FFFFFF,&H00FDC50E,&H0096004B,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hokuto Natsume,Arial,24,&H00FFFFFF,&H00E19688,&H000F0082,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hinata Hajime,Arial,24,&H00FFFFFF,&H00F48AFF,&H007A6000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hokuto Natsume Hajime,Arial,24,&H00FB8548,&H00FFEEB2,&H000F0082,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:05.00,Sample KM [Up],,0,0,0,karaoke,{\kf500}Everyone
+Comment: 0,0:00:00.00,0:00:05.00,Natsume,,0,0,0,karaoke,{\kf118}Natsume {\kf103}{\2c&HFB9560&}Hokuto {\kf88}{\2c&HFF60A1&}Ritsu {\kf103}{\2c&HFDC50E&}Hajime{\2c&HEE3CFF&} {\kf88}Hinata
+Comment: 0,0:00:00.00,0:00:05.00,Hajime Ritsu,,0,0,0,karaoke,{\kf250}Hajime {\kf71}& {\kf179}Ritsu
+Comment: 0,0:00:00.00,0:00:05.00,Hokuto Natsume,,0,0,0,karaoke,{\kf250}Natsume {\kf62}& {\kf188}Hokuto
+Comment: 0,0:00:00.00,0:00:05.00,Hinata Hajime,,0,0,0,karaoke,{\kf233}Hinata {\kf67}& {\kf200}Hajime
+Comment: 0,0:00:00.00,0:00:05.00,Hinata Hajime Ritsu,,0,0,0,karaoke,{\kf182}Hinata, {\kf159}Hajime {\kf45}& {\kf114}Ritsu
+Comment: 0,0:00:00.00,0:00:05.00,Hokuto Natsume Hajime,,0,0,0,karaoke,{\kf187}Natsume, {\kf146}Hokuto {\kf42}& {\kf125}Hajime
+Comment: 0,0:00:08.85,0:00:10.25,Hokuto,,0,0,0,karaoke,{\k20}Ring{\k27}ing {\k20}e{\k23}vil {\k50}phone
+Comment: 0,0:00:26.81,0:00:27.28,Natsume,,0,0,0,karaoke,{\k17}Hel{\k30}lo
+Comment: 0,0:00:27.30,0:00:28.83,Hokuto,,0,0,0,karaoke,{\k7}hi{\k15}mi{\k13}tsu {\k11}no {\k36}DI{\k35}A{\k10}L {\k26}wo
+Comment: 0,0:00:28.83,0:00:32.83,Hokuto,,0,0,0,karaoke,{\k10}ta{\k9}me{\k13}ra{\k22}u {\k23}yu{\k24}bi {\k22}ga {\k24}it{\k11}ta{\k24}ri {\k9}ki{\k28}ta{\kf181}ri
+Comment: 0,0:00:30.93,0:00:34.67,Hinata Hajime Ritsu,,0,0,0,karaoke,{\k21}ri{\k21}sei {\k25}no {\k31}BOR{\k45}DER{\k47}LINE {\k15}a{\k13}ya{\k9}u{\k26}i {\k32}BOR{\k41}DER{\k48}LINE
+Comment: 0,0:00:34.65,0:00:36.21,Natsume,,0,0,0,karaoke,{\k17}fu{\k23}an {\k11}yo{\k21}ri {\k25}ki{\k34}tai {\k25}ga
+Comment: 0,0:00:36.23,0:00:40.19,Natsume,,0,0,0,karaoke,{\k9}u{\k10}wa{\k11}ma{\k24}wa{\k23}ru {\k22}no {\k22}mo {\k24}mo{\k12}u{\k18}su{\k16}gu{\k22}da{\kf183}ne
+Comment: 0,0:00:38.37,0:00:42.20,Hinata Hajime Ritsu,,0,0,0,karaoke,{\k13}fu{\k10}mi{\k16}da{\k32}su {\k22}BOR{\k45}DER{\k45}LINE {\k17}tsu{\k11}na{\k14}ga{\k22}ru {\k24}se{\k32}ka{\k20}i{\k24}se{\k36}n
+Comment: 0,0:00:42.25,0:00:45.72,Ritsu,,0,0,0,karaoke,{\k27}ju{\k24}wa{\k25}ki{\k18}go{\k17}shi {\k33}no {\k23}i{\k19}ki {\k19}wo {\k22}no{\k26}mu {\k19}ku{\k11}u{\k64}ki
+Comment: 0,0:00:45.96,0:00:49.56,Hajime Ritsu,,0,0,0,karaoke,{\k13}o{\k15}mo{\k19}wa{\k17}zu {\k26}e{\k20}mi {\k30}ga {\k24}ko{\k23}bo{\k15}re{\kf158}ru
+Comment: 0,0:00:48.24,0:00:49.56,Hinata,,0,0,0,karaoke,{\k30}ko{\k23}bo{\k24}re{\k55}ru
+Comment: 0,0:00:49.67,0:00:52.83,Natsume,,0,0,0,karaoke,{\k23}fu{\k11}ru{\k15}e{\k21}ru {\k24}ko{\k15}e {\k30}de {\k24}ki{\k24}ri{\k19}da{\k20}se{\k12}zu {\k9}ni {\k23}i{\k9}ru {\k37}no?
+Comment: 0,0:00:52.89,0:00:56.55,Sample KM [Up],,0,0,0,karaoke,{\k16}chi{\k11}gu{\k23}ha{\k18}gu {\k27}na {\k22}yuu{\k22}ki {\k23}ta{\k24}ta{\k25}e{\kf155}te
+Comment: 0,0:00:55.41,0:00:57.05,Hinata,,0,0,0,karaoke,{\k51}Who's {\k23}cal{\k24}ling, {\k66}please?
+Comment: 0,0:00:56.73,0:00:58.17,Hokuto,,0,0,0,karaoke,{\k21}ha{\k8}na{\k16}shi {\k28}wo {\k14}ki{\k29}kou {\k28}ka
+Comment: 0,0:00:58.13,0:00:58.70,Sample KM [Up],,0,0,0,karaoke,{\k57}saa
+Comment: 0,0:00:58.68,0:01:00.17,Hajime,,0,0,0,karaoke,{\k25}Ring{\k24}ing {\k17}e{\k26}vil {\k57}phone
+Comment: 0,0:01:00.53,0:01:02.06,Sample KM [Up],,0,0,0,karaoke,{\k15}da{\k10}re {\k13}ni {\k15}mo {\k7}i{\k11}e{\k21}nai {\k15}ne{\k22}gai {\k24}wo
+Comment: 0,0:01:02.06,0:01:03.88,Sample KM [Up],,0,0,0,karaoke,{\k11}ko{\k12}ko{\k8}ro {\k22}ni {\k17}ka{\k18}ku{\k11}shi{\k24}mot{\k59}ta
+Comment: 0,0:01:03.99,0:01:07.59,Hinata,,0,0,0,karaoke,{\k22}aa {\k38}nan{\k33}te {\k25}o{\k16}i{\k13}shi {\k38}sou{\k20}na {\k17}ta{\k10}ma{\k20}shii {\k25}nan {\k24}da{\k59}rou
+Comment: 0,0:01:07.85,0:01:09.53,Sample KM [Up],,0,0,0,karaoke,{\k29}CAL{\k23}LING-{\k24}CAL{\k24}LING {\k13}i{\k24}rai {\k31}wa
+Comment: 0,0:01:09.53,0:01:12.22,Sample KM [Up],,0,0,0,karaoke,{\k21}de{\k26}ki{\k12}ru{\k33}da{\k23}ke {\k34}sei{\k34}ka{\k23}ku {\k63}ni...
+Comment: 0,0:01:12.29,0:01:14.98,Ritsu,,0,0,0,karaoke,{\k15}ka{\k11}na{\k20}e{\k24}te {\k21}ho{\k28}shi{\k19}in {\k16}de{\kf115}sho?
+Comment: 0,0:01:15.28,0:01:16.92,Sample KM [Up],,0,0,0,karaoke,{\k23}tai{\k11}ka {\k14}wa {\k13}so{\k11}no {\k9}tsu{\k13}do {\k39}FAIR {\k31}ni
+Comment: 0,0:01:17.14,0:01:18.77,Sample KM [Up],,0,0,0,karaoke,{\k14}da{\k22}mash' {\k11}ta{\k14}ri {\k18}nan{\k13}ka {\k25}shi{\k16}na{\k30}i
+Comment: 0,0:01:18.99,0:01:21.51,Sample KM [Up],,0,0,0,karaoke,{\k17}ka{\k9}ku{\k11}go {\k10}ga {\k11}de{\k11}ki{\k10}ta{\k14}ra {\k23}ki{\k15}ka{\k31}se{\k21}te{\k69}yo
+Comment: 0,0:01:21.08,0:01:22.68,Hokuto Natsume,,0,0,0,karaoke,{\k30}kei{\k15}ya{\k22}ku {\k26}YES {\k14}no {\k53}VOICE
+Comment: 0,0:01:39.28,0:01:40.80,Hinata,,0,0,0,karaoke,{\k17}ka{\k9}mi{\k13}da{\k10}no{\k22}mi {\k24}ku{\k36}rai {\k21}ni
+Comment: 0,0:01:40.80,0:01:44.31,Hinata,,0,0,0,karaoke,{\k13}shi{\k12}to{\k12}ke{\k17}ba {\k28}ma{\k20}ru{\k23}ku {\k24}o{\k14}sa{\k24}ma{\k11}ru {\k21}no {\kf132}ni
+Comment: 0,0:01:42.97,0:01:46.64,Hokuto Natsume Hajime,,0,0,0,karaoke,{\k18}ni{\k15}te{\k10}hi{\k25}nar' {\k28}SE{\k41}CRET {\k50}LINE {\k24}un{\k17}me{\k26}i {\k24}SE{\k46}CRET {\k43}LIE
+Comment: 0,0:01:46.64,0:01:48.21,Ritsu,,0,0,0,karaoke,{\k18}ma {\k13}ga {\k20}sash'{\k21}ta {\k24}tte {\k24}kin{\k15}ku {\k22}ne
+Comment: 0,0:01:48.21,0:01:51.90,Ritsu,,0,0,0,karaoke,{\k9}ji{\k13}ko {\k10}se{\k21}ki{\k24}ni{\k25}n {\k20}tte {\k23}ME{\k9}MO {\k28}shi {\k11}to{\k24}i{\kf152}te
+Comment: 0,0:01:50.38,0:01:54.18,Hokuto Natsume Hajime,,0,0,0,karaoke,{\k16}e{\k24}ran{\k24}da {\k28}SE{\k47}CRET {\k45}LINE {\k24}you{\k16}ko{\k23}so {\k22}u{\k22}n{\k31}no{\k25}tsu{\k33}ki
+Comment: 0,0:01:54.29,0:01:57.67,Hokuto,,0,0,0,karaoke,{\k24}ho{\k22}n{\k25}no {\k20}su{\k16}ko{\k33}shi {\k21}u{\k27}chi{\k16}to{\k20}ke{\k26}ta {\k14}ko{\k15}e {\k59}ga
+Comment: 0,0:01:57.93,0:02:01.12,Hokuto Natsume,,0,0,0,karaoke,{\k22}a{\k9}bu{\k15}nak{\k24}ka{\k27}shi{\k25}ku{\k21}te {\k22}ka{\k25}wa{\kf129}ii
+Comment: 0,0:02:00.27,0:02:01.38,Hajime,,0,0,0,karaoke,{\k28}ka{\k15}wa{\k68}ii
+Comment: 0,0:02:01.66,0:02:04.82,Hinata,,0,0,0,karaoke,{\k23}gi{\k17}ri{\k9}gi{\k23}ri {\k22}de {\k17}ma{\k30}da {\k22}i{\k21}i{\k26}ko {\k22}but{\k15}te{\k32}nai{\k37}de
+Comment: 0,0:02:04.90,0:02:08.49,Sample KM [Up],,0,0,0,karaoke,{\k17}wa{\k9}ru{\k19}da{\k22}ku{\k25}mi {\k26}ta{\k18}no{\k27}shi {\k23}mo{\k24}u {\kf149}ka
+Comment: 0,0:02:07.40,0:02:08.90,Hajime,,0,0,0,karaoke,{\k50}Whose {\k33}fault {\k16}is {\k51}it?
+Comment: 0,0:02:08.75,0:02:10.11,Ritsu,,0,0,0,karaoke,{\k18}ko{\k12}ko {\k13}ka{\k37}ra {\k21}hon{\k17}da{\k18}i
+Comment: 0,0:02:10.11,0:02:10.69,Sample KM [Up],,0,0,0,karaoke,{\k58}saa
+Comment: 0,0:02:10.69,0:02:12.00,Ritsu,,0,0,0,karaoke,{\k23}Ring{\k26}ing {\k21}e{\k22}vil {\k39}phone
+Comment: 0,0:02:12.52,0:02:15.87,Sample KM [Up],,0,0,0,karaoke,{\k14}a{\k13}ki{\k8}ra{\k12}me {\k11}ki{\k12}re{\k23}nai {\k16}ne{\k24}gai {\k24}wo {\k8}ko{\k11}ko{\k10}ro {\k23}ni {\k12}ka{\k14}ku{\k19}shi{\k25}mot{\k56}te
+Comment: 0,0:02:15.96,0:02:19.45,Hajime,,0,0,0,karaoke,{\k26}aa {\k37}nan{\k30}te {\k26}sa{\k19}bi{\k16}shi {\k35}sou{\k21}na {\k12}ta{\k10}ma{\k26}shii {\k24}nan {\k22}da{\k45}rou
+Comment: 0,0:02:19.88,0:02:21.45,Sample KM [Up],,0,0,0,karaoke,{\k27}CAL{\k20}LING-{\k23}CAL{\k22}LING {\k13}ma{\k13}ka{\k13}se{\k26}te
+Comment: 0,0:02:21.50,0:02:24.04,Sample KM [Up],,0,0,0,karaoke,{\k25}no{\k23}zo{\k15}mi{\k33}dou{\k22}ri {\k31}ni {\k37}ze{\k26}n{\k42}bu
+Comment: 0,0:02:24.30,0:02:26.93,Natsume,,0,0,0,karaoke,{\k12}ka{\k12}na{\k21}e{\k23}te {\k24}a{\k24}ge{\k20}ru {\k15}ka{\kf112}ra
+Comment: 0,0:02:27.26,0:02:28.93,Sample KM [Up],,0,0,0,karaoke,{\k16}ko{\k11}no {\k11}ma{\k12}ma {\k11}ku{\k11}chi{\k22}yak'{\k23}so{\k13}ku {\k37}de
+Comment: 0,0:02:29.12,0:02:30.78,Sample KM [Up],,0,0,0,karaoke,{\k25}kou{\k22}shou {\k24}sei{\k15}ri{\k10}tsu {\k18}ni {\k17}shi{\k35}you
+Comment: 0,0:02:30.89,0:02:33.89,Sample KM [Up],,0,0,0,karaoke,{\k19}so{\k13}no {\k9}ku{\k13}chi{\k12}bi{\k11}ru {\k13}ka{\k9}ra {\k23}ki{\k16}ka{\k30}se{\k24}te{\kf108}yo
+Comment: 0,0:02:34.66,0:02:38.00,Sample KM [Up],,0,0,0,karaoke,{\k24}Ring{\k21}ing {\k24}e{\k23}vil {\k91}phone... {\k26}Ring{\k19}ing {\k18}e{\k32}vil {\k56}phone...
+Comment: 0,0:02:38.58,0:02:42.05,Sample KM [Up],,0,0,0,karaoke,{\k36}kei{\k14}ya{\k20}ku {\k22}YES {\k15}no {\k79}VOICE {\k33}kei{\k14}ya{\k20}ku {\k24}YES {\k13}no {\k57}VOICE
+Comment: 0,0:02:42.05,0:02:45.39,Sample KM [Up],,0,0,0,karaoke,{\k24}Ring{\k21}ing {\k24}e{\k23}vil {\k91}phone... {\k26}Ring{\k19}ing {\k18}e{\k32}vil {\k56}phone...
+Comment: 0,0:02:49.89,0:02:52.68,Natsume,,0,0,0,karaoke,{\k48}nee, {\k48}don{\k26}na {\k21}i{\k18}i{\k20}wa{\k29}ke {\k17}de{\k52}mo
+Comment: 0,0:02:52.85,0:02:56.84,Hokuto,,0,0,0,karaoke,{\k27}a{\k19}tsu{\k19}me{\k28}te {\k25}mi{\k25}to{\k15}me{\k31}re{\k28}ba {\kf90}ii{\kf92}sa
+Comment: 0,0:02:57.23,0:03:00.14,Hinata,,0,0,0,karaoke,{\k53}nee, {\k43}son{\k25}na {\k24}ga{\k44}man{\k21}zu{\k28}yo{\k53}ku
+Comment: 0,0:03:00.23,0:03:01.18,Ritsu,,0,0,0,karaoke,{\k26}ko{\k26}ko{\k11}ro {\k32}mo
+Comment: 0,0:03:01.19,0:03:02.09,Hinata Hajime,,0,0,0,karaoke,{\k23}ka{\k25}ra{\k15}da {\k27}mo
+Comment: 0,0:03:02.13,0:03:06.07,Hinata Hajime,,0,0,0,karaoke,{\k22}de{\k23}ki{\k14}te{\k28}nai {\k24}{\c&H008AFF&\2c&HFFFFFF&\3c&H000000&}ki{\k26}zu{\k24}i{\k47}te{\k22}run {\k17}de{\kf147}sho?
+Comment: 0,0:03:07.89,0:03:09.40,Hinata,,0,0,0,karaoke,{\k30}Ring{\k19}ing {\k22}e{\k24}vil {\k56}phone
+Comment: 0,0:03:09.73,0:03:11.26,Hajime,,0,0,0,karaoke,{\k15}da{\k10}re {\k13}ni {\k15}mo {\k7}i{\k11}e{\k21}nai {\k15}ne{\k22}gai {\k24}wo
+Comment: 0,0:03:11.26,0:03:13.08,Hajime,,0,0,0,karaoke,{\k11}ko{\k12}ko{\k8}ro {\k23}ni {\k16}ka{\k18}ku{\k15}shi{\k22}mot{\k57}ta
+Comment: 0,0:03:13.19,0:03:16.79,Ritsu,,0,0,0,karaoke,{\k24}aa {\k37}nan{\k36}te {\k21}o{\k16}i{\k13}shi {\k38}sou{\k20}na {\k17}ta{\k10}ma{\k20}shii {\k25}nan {\k24}da{\k59}rou
+Comment: 0,0:03:16.39,0:03:17.09,Sample KM [Up],,0,0,0,karaoke,{\k70}saa
+Comment: 0,0:03:17.11,0:03:18.67,Sample KM [Up],,0,0,0,karaoke,{\k27}CAL{\k20}LING-{\k23}CAL{\k22}LING {\k13}ma{\k13}ka{\k13}se{\k25}te
+Comment: 0,0:03:18.67,0:03:21.47,Sample KM [Up],,0,0,0,karaoke,{\k29}no{\k23}zo{\k15}mi{\k33}dou{\k22}ri {\k31}ni {\k37}ze{\k26}n{\k64}bu
+Comment: 0,0:03:21.49,0:03:24.20,Sample KM [Up],,0,0,0,karaoke,{\k14}ka{\k12}na{\k21}e{\k23}te {\k24}a{\k24}ge{\k20}ru {\k15}ka{\kf118}ra
+Comment: 0,0:03:24.48,0:03:26.20,Hinata,,0,0,0,karaoke,{\k16}ko{\k11}no {\k11}ma{\k12}ma {\k11}ku{\k11}chi{\k22}yak'{\k23}so{\k13}ku {\k42}de
+Comment: 0,0:03:26.29,0:03:28.09,Hokuto,,0,0,0,karaoke,{\k30}kou{\k22}shou {\k24}sei{\k15}ri{\k10}tsu {\k18}ni {\k17}shi{\k44}you
+Comment: 0,0:03:28.13,0:03:30.99,Natsume,,0,0,0,karaoke,{\k19}so{\k13}no {\k9}ku{\k13}chi{\k12}bi{\k11}ru {\k12}ka{\k10}ra {\k23}ki{\k16}ka{\k30}se{\k24}te{\kf94}yo
+Comment: 0,0:03:30.22,0:03:31.90,Sample KM [Up],,0,0,0,karaoke,{\k38}kei{\k13}ya{\k25}ku {\k24}YES {\k14}no {\k54}VOICE
+Comment: 0,0:03:46.63,0:03:48.05,Natsume,,0,0,0,karaoke,{\k34}Ring{\k19}ing {\k22}e{\k22}vil {\k45}phone
+Dialogue: 0,0:00:00.00,0:00:05.20,Sample KM [Up],,0,0,0,fx,{\k0\fad(0,200)}{\kf500}Everyone
+Dialogue: 0,0:00:00.00,0:00:05.20,Natsume,,0,0,0,fx,{\k0\fad(0,200)}{\kf118}Natsume {\kf103}{\2c&HFB9560&}Hokuto {\kf88}{\2c&HFF60A1&}Ritsu {\kf103}{\2c&HFDC50E&}Hajime{\2c&HEE3CFF&} {\kf88}Hinata
+Dialogue: 0,0:00:00.00,0:00:05.20,Hajime Ritsu,,0,0,0,fx,{\k0\fad(0,200)}{\kf250}Hajime {\kf71}& {\kf179}Ritsu
+Dialogue: 0,0:00:00.00,0:00:05.20,Hokuto Natsume,,0,0,0,fx,{\k0\fad(0,200)}{\kf250}Natsume {\kf62}& {\kf188}Hokuto
+Dialogue: 0,0:00:00.00,0:00:05.20,Hinata Hajime,,0,0,0,fx,{\k0\fad(0,200)}{\kf233}Hinata {\kf67}& {\kf200}Hajime
+Dialogue: 0,0:00:00.00,0:00:05.20,Hinata Hajime Ritsu,,0,0,0,fx,{\k0\fad(0,200)}{\kf182}Hinata, {\kf159}Hajime {\kf45}& {\kf114}Ritsu
+Dialogue: 0,0:00:00.00,0:00:05.20,Hokuto Natsume Hajime,,0,0,0,fx,{\k0\fad(0,200)}{\kf187}Natsume, {\kf146}Hokuto {\kf42}& {\kf125}Hajime
+Dialogue: 0,0:00:07.95,0:00:10.45,Hokuto,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ring{\k27}ing {\k20}e{\k23}vil {\k50}phone
+Dialogue: 0,0:00:25.91,0:00:27.48,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Hel{\k30}lo
+Dialogue: 0,0:00:26.40,0:00:29.03,Hokuto,,0,0,0,fx,{\k90\fad(300,200)}{\k7}hi{\k15}mi{\k13}tsu {\k11}no {\k36}DI{\k35}A{\k10}L {\k26}wo
+Dialogue: 0,0:00:27.93,0:00:33.03,Hokuto,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ta{\k9}me{\k13}ra{\k22}u {\k23}yu{\k24}bi {\k22}ga {\k24}it{\k11}ta{\k24}ri {\k9}ki{\k28}ta{\kf181}ri
+Dialogue: 0,0:00:30.03,0:00:34.87,Hinata Hajime Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ri{\k21}sei {\k25}no {\k31}BOR{\k45}DER{\k47}LINE {\k15}a{\k13}ya{\k9}u{\k26}i {\k32}BOR{\k41}DER{\k48}LINE
+Dialogue: 0,0:00:33.75,0:00:36.41,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k17}fu{\k23}an {\k11}yo{\k21}ri {\k25}ki{\k34}tai {\k25}ga
+Dialogue: 0,0:00:35.33,0:00:40.39,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k9}u{\k10}wa{\k11}ma{\k24}wa{\k23}ru {\k22}no {\k22}mo {\k24}mo{\k12}u{\k18}su{\k16}gu{\k22}da{\kf183}ne
+Dialogue: 0,0:00:37.47,0:00:42.40,Hinata Hajime Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k13}fu{\k10}mi{\k16}da{\k32}su {\k22}BOR{\k45}DER{\k45}LINE {\k17}tsu{\k11}na{\k14}ga{\k22}ru {\k24}se{\k32}ka{\k20}i{\k24}se{\k36}n
+Dialogue: 0,0:00:41.35,0:00:45.92,Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ju{\k24}wa{\k25}ki{\k18}go{\k17}shi {\k33}no {\k23}i{\k19}ki {\k19}wo {\k22}no{\k26}mu {\k19}ku{\k11}u{\k64}ki
+Dialogue: 0,0:00:45.06,0:00:49.76,Hajime Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k13}o{\k15}mo{\k19}wa{\k17}zu {\k26}e{\k20}mi {\k30}ga {\k24}ko{\k23}bo{\k15}re{\kf158}ru
+Dialogue: 0,0:00:47.34,0:00:49.76,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ko{\k23}bo{\k24}re{\k55}ru
+Dialogue: 0,0:00:48.77,0:00:53.03,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k23}fu{\k11}ru{\k15}e{\k21}ru {\k24}ko{\k15}e {\k30}de {\k24}ki{\k24}ri{\k19}da{\k20}se{\k12}zu {\k9}ni {\k23}i{\k9}ru {\k37}no?
+Dialogue: 0,0:00:51.99,0:00:56.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}chi{\k11}gu{\k23}ha{\k18}gu {\k27}na {\k22}yuu{\k22}ki {\k23}ta{\k24}ta{\k25}e{\kf155}te
+Dialogue: 0,0:00:54.51,0:00:57.25,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k51}Who's {\k23}cal{\k24}ling, {\k66}please?
+Dialogue: 0,0:00:55.83,0:00:58.37,Hokuto,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ha{\k8}na{\k16}shi {\k28}wo {\k14}ki{\k29}kou {\k28}ka
+Dialogue: 0,0:00:57.23,0:00:58.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k57}saa
+Dialogue: 0,0:00:57.78,0:01:00.37,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ring{\k24}ing {\k17}e{\k26}vil {\k57}phone
+Dialogue: 0,0:00:59.63,0:01:02.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}da{\k10}re {\k13}ni {\k15}mo {\k7}i{\k11}e{\k21}nai {\k15}ne{\k22}gai {\k24}wo
+Dialogue: 0,0:01:01.16,0:01:04.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}ko{\k12}ko{\k8}ro {\k22}ni {\k17}ka{\k18}ku{\k11}shi{\k24}mot{\k59}ta
+Dialogue: 0,0:01:03.09,0:01:07.79,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k22}aa {\k38}nan{\k33}te {\k25}o{\k16}i{\k13}shi {\k38}sou{\k20}na {\k17}ta{\k10}ma{\k20}shii {\k25}nan {\k24}da{\k59}rou
+Dialogue: 0,0:01:06.95,0:01:09.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}CAL{\k23}LING-{\k24}CAL{\k24}LING {\k13}i{\k24}rai {\k31}wa
+Dialogue: 0,0:01:08.63,0:01:12.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}de{\k26}ki{\k12}ru{\k33}da{\k23}ke {\k34}sei{\k34}ka{\k23}ku {\k63}ni...
+Dialogue: 0,0:01:11.39,0:01:15.18,Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ka{\k11}na{\k20}e{\k24}te {\k21}ho{\k28}shi{\k19}in {\k16}de{\kf115}sho?
+Dialogue: 0,0:01:14.38,0:01:17.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}tai{\k11}ka {\k14}wa {\k13}so{\k11}no {\k9}tsu{\k13}do {\k39}FAIR {\k31}ni
+Dialogue: 0,0:01:16.24,0:01:18.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}da{\k22}mash' {\k11}ta{\k14}ri {\k18}nan{\k13}ka {\k25}shi{\k16}na{\k30}i
+Dialogue: 0,0:01:18.09,0:01:21.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}ka{\k9}ku{\k11}go {\k10}ga {\k11}de{\k11}ki{\k10}ta{\k14}ra {\k23}ki{\k15}ka{\k31}se{\k21}te{\k69}yo
+Dialogue: 0,0:01:20.18,0:01:22.88,Hokuto Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k30}kei{\k15}ya{\k22}ku {\k26}YES {\k14}no {\k53}VOICE
+Dialogue: 0,0:01:38.38,0:01:41.00,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ka{\k9}mi{\k13}da{\k10}no{\k22}mi {\k24}ku{\k36}rai {\k21}ni
+Dialogue: 0,0:01:39.90,0:01:44.51,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k13}shi{\k12}to{\k12}ke{\k17}ba {\k28}ma{\k20}ru{\k23}ku {\k24}o{\k14}sa{\k24}ma{\k11}ru {\k21}no {\kf132}ni
+Dialogue: 0,0:01:42.07,0:01:46.84,Hokuto Natsume Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ni{\k15}te{\k10}hi{\k25}nar' {\k28}SE{\k41}CRET {\k50}LINE {\k24}un{\k17}me{\k26}i {\k24}SE{\k46}CRET {\k43}LIE
+Dialogue: 0,0:01:45.74,0:01:48.41,Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ma {\k13}ga {\k20}sash'{\k21}ta {\k24}tte {\k24}kin{\k15}ku {\k22}ne
+Dialogue: 0,0:01:47.31,0:01:52.10,Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k9}ji{\k13}ko {\k10}se{\k21}ki{\k24}ni{\k25}n {\k20}tte {\k23}ME{\k9}MO {\k28}shi {\k11}to{\k24}i{\kf152}te
+Dialogue: 0,0:01:49.48,0:01:54.38,Hokuto Natsume Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k16}e{\k24}ran{\k24}da {\k28}SE{\k47}CRET {\k45}LINE {\k24}you{\k16}ko{\k23}so {\k22}u{\k22}n{\k31}no{\k25}tsu{\k33}ki
+Dialogue: 0,0:01:53.39,0:01:57.87,Hokuto,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ho{\k22}n{\k25}no {\k20}su{\k16}ko{\k33}shi {\k21}u{\k27}chi{\k16}to{\k20}ke{\k26}ta {\k14}ko{\k15}e {\k59}ga
+Dialogue: 0,0:01:57.03,0:02:01.32,Hokuto Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k22}a{\k9}bu{\k15}nak{\k24}ka{\k27}shi{\k25}ku{\k21}te {\k22}ka{\k25}wa{\kf129}ii
+Dialogue: 0,0:01:59.37,0:02:01.58,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ka{\k15}wa{\k68}ii
+Dialogue: 0,0:02:00.76,0:02:05.02,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k23}gi{\k17}ri{\k9}gi{\k23}ri {\k22}de {\k17}ma{\k30}da {\k22}i{\k21}i{\k26}ko {\k22}but{\k15}te{\k32}nai{\k37}de
+Dialogue: 0,0:02:04.00,0:02:08.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}wa{\k9}ru{\k19}da{\k22}ku{\k25}mi {\k26}ta{\k18}no{\k27}shi {\k23}mo{\k24}u {\kf149}ka
+Dialogue: 0,0:02:06.50,0:02:09.10,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Whose {\k33}fault {\k16}is {\k51}it?
+Dialogue: 0,0:02:07.85,0:02:10.31,Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ko{\k12}ko {\k13}ka{\k37}ra {\k21}hon{\k17}da{\k18}i
+Dialogue: 0,0:02:09.21,0:02:10.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}saa
+Dialogue: 0,0:02:09.79,0:02:12.20,Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ring{\k26}ing {\k21}e{\k22}vil {\k39}phone
+Dialogue: 0,0:02:11.62,0:02:16.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}a{\k13}ki{\k8}ra{\k12}me {\k11}ki{\k12}re{\k23}nai {\k16}ne{\k24}gai {\k24}wo {\k8}ko{\k11}ko{\k10}ro {\k23}ni {\k12}ka{\k14}ku{\k19}shi{\k25}mot{\k56}te
+Dialogue: 0,0:02:15.06,0:02:19.65,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k26}aa {\k37}nan{\k30}te {\k26}sa{\k19}bi{\k16}shi {\k35}sou{\k21}na {\k12}ta{\k10}ma{\k26}shii {\k24}nan {\k22}da{\k45}rou
+Dialogue: 0,0:02:18.98,0:02:21.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}CAL{\k20}LING-{\k23}CAL{\k22}LING {\k13}ma{\k13}ka{\k13}se{\k26}te
+Dialogue: 0,0:02:20.60,0:02:24.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}no{\k23}zo{\k15}mi{\k33}dou{\k22}ri {\k31}ni {\k37}ze{\k26}n{\k42}bu
+Dialogue: 0,0:02:23.40,0:02:27.13,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ka{\k12}na{\k21}e{\k23}te {\k24}a{\k24}ge{\k20}ru {\k15}ka{\kf112}ra
+Dialogue: 0,0:02:26.36,0:02:29.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}ko{\k11}no {\k11}ma{\k12}ma {\k11}ku{\k11}chi{\k22}yak'{\k23}so{\k13}ku {\k37}de
+Dialogue: 0,0:02:28.22,0:02:30.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}kou{\k22}shou {\k24}sei{\k15}ri{\k10}tsu {\k18}ni {\k17}shi{\k35}you
+Dialogue: 0,0:02:29.99,0:02:34.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}so{\k13}no {\k9}ku{\k13}chi{\k12}bi{\k11}ru {\k13}ka{\k9}ra {\k23}ki{\k16}ka{\k30}se{\k24}te{\kf108}yo
+Dialogue: 0,0:02:33.76,0:02:38.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ring{\k21}ing {\k24}e{\k23}vil {\k91}phone... {\k26}Ring{\k19}ing {\k18}e{\k32}vil {\k56}phone...
+Dialogue: 0,0:02:37.68,0:02:42.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}kei{\k14}ya{\k20}ku {\k22}YES {\k15}no {\k79}VOICE {\k33}kei{\k14}ya{\k20}ku {\k24}YES {\k13}no {\k57}VOICE
+Dialogue: 0,0:02:41.15,0:02:45.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ring{\k21}ing {\k24}e{\k23}vil {\k91}phone... {\k26}Ring{\k19}ing {\k18}e{\k32}vil {\k56}phone...
+Dialogue: 0,0:02:48.99,0:02:52.88,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k48}nee, {\k48}don{\k26}na {\k21}i{\k18}i{\k20}wa{\k29}ke {\k17}de{\k52}mo
+Dialogue: 0,0:02:51.95,0:02:57.04,Hokuto,,0,0,0,fx,{\k90\fad(300,200)}{\k27}a{\k19}tsu{\k19}me{\k28}te {\k25}mi{\k25}to{\k15}me{\k31}re{\k28}ba {\kf90}ii{\kf92}sa
+Dialogue: 0,0:02:56.33,0:03:00.34,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k53}nee, {\k43}son{\k25}na {\k24}ga{\k44}man{\k21}zu{\k28}yo{\k53}ku
+Dialogue: 0,0:02:59.33,0:03:01.38,Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ko{\k26}ko{\k11}ro {\k32}mo
+Dialogue: 0,0:03:00.29,0:03:02.29,Hinata Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ka{\k25}ra{\k15}da {\k27}mo
+Dialogue: 0,0:03:01.23,0:03:06.27,Hinata Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k22}de{\k23}ki{\k14}te{\k28}nai {\k24}{\c&H008AFF&\2c&HFFFFFF&\3c&H000000&}ki{\k26}zu{\k24}i{\k47}te{\k22}run {\k17}de{\kf147}sho?
+Dialogue: 0,0:03:06.99,0:03:09.60,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Ring{\k19}ing {\k22}e{\k24}vil {\k56}phone
+Dialogue: 0,0:03:08.83,0:03:11.46,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k15}da{\k10}re {\k13}ni {\k15}mo {\k7}i{\k11}e{\k21}nai {\k15}ne{\k22}gai {\k24}wo
+Dialogue: 0,0:03:10.36,0:03:13.28,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ko{\k12}ko{\k8}ro {\k23}ni {\k16}ka{\k18}ku{\k15}shi{\k22}mot{\k57}ta
+Dialogue: 0,0:03:12.29,0:03:16.99,Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k24}aa {\k37}nan{\k36}te {\k21}o{\k16}i{\k13}shi {\k38}sou{\k20}na {\k17}ta{\k10}ma{\k20}shii {\k25}nan {\k24}da{\k59}rou
+Dialogue: 0,0:03:15.49,0:03:17.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k70}saa
+Dialogue: 0,0:03:16.21,0:03:18.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}CAL{\k20}LING-{\k23}CAL{\k22}LING {\k13}ma{\k13}ka{\k13}se{\k25}te
+Dialogue: 0,0:03:17.77,0:03:21.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}no{\k23}zo{\k15}mi{\k33}dou{\k22}ri {\k31}ni {\k37}ze{\k26}n{\k64}bu
+Dialogue: 0,0:03:20.59,0:03:24.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}ka{\k12}na{\k21}e{\k23}te {\k24}a{\k24}ge{\k20}ru {\k15}ka{\kf118}ra
+Dialogue: 0,0:03:23.58,0:03:26.40,Hinata,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ko{\k11}no {\k11}ma{\k12}ma {\k11}ku{\k11}chi{\k22}yak'{\k23}so{\k13}ku {\k42}de
+Dialogue: 0,0:03:25.39,0:03:28.29,Hokuto,,0,0,0,fx,{\k90\fad(300,200)}{\k30}kou{\k22}shou {\k24}sei{\k15}ri{\k10}tsu {\k18}ni {\k17}shi{\k44}you
+Dialogue: 0,0:03:27.23,0:03:31.19,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k19}so{\k13}no {\k9}ku{\k13}chi{\k12}bi{\k11}ru {\k12}ka{\k10}ra {\k23}ki{\k16}ka{\k30}se{\k24}te{\kf94}yo
+Dialogue: 0,0:03:29.32,0:03:32.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}kei{\k13}ya{\k25}ku {\k24}YES {\k14}no {\k54}VOICE
+Dialogue: 0,0:03:45.73,0:03:48.25,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Ring{\k19}ing {\k22}e{\k22}vil {\k45}phone
