@@ -1,0 +1,105 @@
+﻿[Script Info]
+Title: Ready!! Steady!! Derby!!
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Naruse
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Jungle Pocket,Arial,24,&H0000FF9D,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Dantsu Flame,Arial,24,&H00A700FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Agnes Tachyon,Arial,24,&H00FFA500,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Manhattan Café,Arial,24,&H00717171,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down] - Copier,Arial,24,&H000000FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+Style: Sample KM Duo [Voice 1&2] - Copier,Arial,24,&H00FFFFFF,&H004E4EEB,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down] - Manhattan Café,Arial,24,&H00717171,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+Style: Sample KM [Down] - Dantsu Flame,Arial,24,&H008F00FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+Style: Sample KM [Down] Jungle Pocket,Arial,24,&H0000FF50,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+Style: Sample KM [Down] Agnes Tachyon,Arial,24,&H00FF8100,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:13.20,0:00:15.92,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,karaoke,{\k19}ha{\k14}shi{\k36}t{\k72}te {\k13}ha{\k22}shi{\k27}t{\k69}te
+Comment: 0,0:00:15.92,0:00:19.18,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,karaoke,{\k19}a{\k16}ko{\k29}ga{\k39}re {\k13}wo {\k27}ko{\k34}e{\kf149}te
+Comment: 0,0:00:19.18,0:00:20.35,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,karaoke,{\k28}REA{\k89}DY!!
+Comment: 0,0:00:21.62,0:00:22.68,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,karaoke,{\k43}STEA{\k63}DY!!
+Comment: 0,0:00:24.42,0:00:25.45,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,karaoke,{\k33}DER{\k70}BY!!
+Comment: 0,0:00:29.48,0:00:32.12,Jungle Pocket,,0,0,0,karaoke,{\k34}ma{\k39}da {\k21}mi{\k44}ta {\k24}ko{\k35}to {\k29}no {\k25}na{\k13}i
+Comment: 0,0:00:32.12,0:00:35.12,Jungle Pocket,,0,0,0,karaoke,{\kf98}SPEED {\k31}no {\k28}mu{\k37}kou{\k26}ga{\k39}wa {\k41}he
+Comment: 0,0:00:35.22,0:00:37.12,Sample KM [Down] - Manhattan Café,,0,0,0,karaoke,{\k44}WARM{\k25}-UP {\k26}wa {\k26}kan{\k17}pe{\k22}ki {\k30}sa!
+Comment: 0,0:00:35.22,0:00:37.12,Sample KM [Down] - Dantsu Flame,,0,0,0,karaoke,{\k44}WARM{\k25}-UP {\k26}wa {\k26}kan{\k17}pe{\k22}ki {\k30}sa!
+Comment: 0,0:00:37.12,0:00:40.35,Agnes Tachyon,,0,0,0,karaoke,{\k23}chi{\k22}kyu{\k14}u {\k48}wo {\k20}ho{\k38}ra {\k35}fu{\k18}mi{\k16}ko{\k18}mu {\k12}te{\k16}i{\k23}te{\k20}tsu
+Comment: 0,0:00:40.35,0:00:42.75,Jungle Pocket,,0,0,0,karaoke,{\k69}GOAL {\k31}ma{\k13}e {\k16}no {\k38}ki{\k26}se{\k47}ki
+Comment: 0,0:00:42.75,0:00:46.55,Dantsu Flame,,0,0,0,karaoke,{\k22}shi{\k39}ka{\k25}ke{\k42}ru {\k18}ba{\k38}sho {\k24}wa {\k23}sa{\k13}i{\k35}shu{\k6}u {\k49}COR{\k46}NER
+Comment: 0,0:00:46.55,0:00:51.02,Jungle Pocket,,0,0,0,karaoke,{\k30}a{\k52}to {\k74}wa {\k12}i{\k15}ke{\k17}ru {\k12}to{\k17}ko {\k19}ma{\k17}de {\k21}i{\k20}ki {\k22}wo {\k24}ki{\k10}ra{\k23}shi{\k17}te{\k34}ta{\k11}i
+Comment: 0,0:00:51.12,0:00:53.65,Sample KM [Down] Agnes Tachyon,,0,0,0,karaoke,{\k23}na{\k15}n{\k12}ma{\k14}n {\k17}to {\k25}te {\k13}wo {\k16}ta{\k24}ta{\k16}ku {\k19}AU{\k59}DIENCE
+Comment: 0,0:00:51.12,0:00:53.65,Sample KM [Down] Jungle Pocket,,0,0,0,karaoke,{\k23}na{\k15}n{\k12}ma{\k14}n {\k17}to {\k25}te {\k13}wo {\k16}ta{\k24}ta{\k16}ku {\k19}AU{\k59}DIENCE
+Comment: 0,0:00:51.12,0:00:53.65,Sample KM [Down] - Dantsu Flame,,0,0,0,karaoke,{\k23}na{\k15}n{\k12}ma{\k14}n {\k17}to {\k25}te {\k13}wo {\k16}ta{\k24}ta{\k16}ku {\k19}AU{\k59}DIENCE
+Comment: 0,0:00:53.65,0:00:56.02,Sample KM [Down] Jungle Pocket,,0,0,0,karaoke,{\k16}wa{\k16}re{\k17}n {\k16}ba{\k21}ka{\k15}ri {\k17}hi{\k17}bi{\k20}ku {\k24}da{\k8}i{\k17}ka{\k8}n{\k17}se{\k8}i
+Comment: 0,0:00:53.65,0:00:56.02,Sample KM [Down] - Dantsu Flame,,0,0,0,karaoke,{\k16}wa{\k16}re{\k17}n {\k16}ba{\k21}ka{\k15}ri {\k17}hi{\k17}bi{\k20}ku {\k24}da{\k8}i{\k17}ka{\k8}n{\k17}se{\k8}i
+Comment: 0,0:00:56.02,0:00:58.05,Manhattan Café,,0,0,0,karaoke,{\k22}FA{\k10}N{\k31}FA{\k33}RE {\k16}ga {\k19}na{\k72}ru
+Comment: 0,0:00:58.05,0:01:00.55,Agnes Tachyon,,0,0,0,karaoke,{\k61}shi{\k28}no{\k19}n {\k15}ga {\k29}ta{\k21}ka{\k14}ma{\k63}ru
+Comment: 0,0:00:58.05,0:01:00.55,Manhattan Café,,0,0,0,karaoke,{\k61}shi{\k28}no{\k19}n {\k15}ga {\k29}ta{\k21}ka{\k14}ma{\k63}ru
+Comment: 0,0:01:00.75,0:01:05.55,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,karaoke,{\k29}u{\k31}go{\k28}ki{\k14}da{\k15}su {\k25}byou{\k27}shi{\k8}n {\k34}yu{\k21}me {\k18}no {\k30}GA{\k13}TE {\k18}ga {\k50}hi{\k34}ra{\k85}ku
+Comment: 0,0:01:05.32,0:01:06.45,Sample KM [Down] - Copier,,0,0,0,karaoke,{\k22}"i{\k15}ku {\k76}zoo!"
+Comment: 0,0:01:05.98,0:01:08.52,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,karaoke,{\k30}ha{\k55}shi{\k17}t{\k50}te {\k13}ha{\k58}shi{\k30}t{\k1}te
+Comment: 0,0:01:07.05,0:01:07.42,Sample KM [Down] - Copier,,0,0,0,karaoke,{\k18}HA{\k19}I!
+Comment: 0,0:01:08.32,0:01:08.68,Sample KM [Down] - Copier,,0,0,0,karaoke,{\k18}HA{\k18}I!
+Comment: 0,0:01:08.68,0:01:11.48,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,karaoke,{\k14}a{\k22}ko{\k28}ga{\k40}re {\k16}wo {\k37}o{\k35}i{\k29}ko{\k23}shi{\k36}te
+Comment: 0,0:01:11.55,0:01:13.82,Jungle Pocket,,0,0,0,karaoke,{\k36}tsu{\k18}gi {\k22}wa {\k15}da{\k21}re {\k14}no {\k19}ba{\k15}n {\k67}da!?
+Comment: 0,0:01:13.92,0:01:16.42,Jungle Pocket,,0,0,0,karaoke,{\k21}sa{\k29}a {\k15}me{\k34}zas' {\k13}wa {\k39}SU{\k24}PER{\k75}STAR
+Comment: 0,0:01:16.45,0:01:18.92,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,karaoke,{\k29}i{\k17}ki{\k26}te{\k29}ku{\k41} {\k14}i{\k18}mi {\k29}na{\k11}n{\k33}te
+Comment: 0,0:01:17.55,0:01:17.92,Sample KM [Down] - Copier,,0,0,0,karaoke,{\k18}HA{\k19}I!
+Comment: 0,0:01:18.92,0:01:19.22,Sample KM [Down] - Copier,,0,0,0,karaoke,{\k15}HA{\k15}I!
+Comment: 0,0:01:19.22,0:01:22.75,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,karaoke,{\k31}bu{\k12}c{\k19}chi{\k32}gi{\k12}t{\k15}ta {\k22}a{\k37}to {\k57}de {\k30}tsu{\k14}i{\k16}te {\k17}ku{\k39}ru
+Comment: 0,0:01:22.75,0:01:23.42,Sample KM [Down] - Copier,,0,0,0,karaoke,{\k22}ka{\k15}chi{\k15}ta{\k15}i!
+Comment: 0,0:01:23.42,0:01:25.35,Agnes Tachyon,,0,0,0,karaoke,{\k59}sou {\k14}ko{\k15}re {\k21}wa {\k32}ho{\k7}n{\k13}no{\k32}u
+Comment: 0,0:01:25.35,0:01:26.22,Sample KM [Down] - Copier,,0,0,0,karaoke,{\k16}ha{\k24}shi{\k12}ri{\k19}ta{\k16}i!
+Comment: 0,0:01:26.22,0:01:27.92,Jungle Pocket,,0,0,0,karaoke,{\k30}ya{\k24}ma{\k14}na{\k15}i {\k40}shou{\k25}do{\k22}u
+Comment: 0,0:01:27.92,0:01:28.85,Sample KM [Down] - Copier,,0,0,0,karaoke,{\k19}sa{\k18}ke{\k19}bi{\k18}ta{\k19}i!
+Comment: 0,0:01:28.85,0:01:33.78,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,karaoke,{\k46}shou{\k14}ri {\k23}no {\k9}o{\k17}ta{\k20}ke{\k15}bi {\kf121}yo {\k21}to{\k69}do{\k58}ro{\k80}ke!
+Dialogue: 0,0:00:12.30,0:00:16.12,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ha{\k14}shi{\k36}t{\k72}te {\k13}ha{\k22}shi{\k27}t{\k69}te
+Dialogue: 0,0:00:15.02,0:00:19.38,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k19}a{\k16}ko{\k29}ga{\k39}re {\k13}wo {\k27}ko{\k34}e{\kf149}te
+Dialogue: 0,0:00:18.28,0:00:20.55,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k28}REA{\k89}DY!!
+Dialogue: 0,0:00:20.72,0:00:22.88,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k43}STEA{\k63}DY!!
+Dialogue: 0,0:00:23.52,0:00:25.65,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k33}DER{\k70}BY!!
+Dialogue: 0,0:00:28.58,0:00:32.32,Jungle Pocket,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ma{\k39}da {\k21}mi{\k44}ta {\k24}ko{\k35}to {\k29}no {\k25}na{\k13}i
+Dialogue: 0,0:00:31.22,0:00:35.32,Jungle Pocket,,0,0,0,fx,{\k90\fad(300,200)}{\kf98}SPEED {\k31}no {\k28}mu{\k37}kou{\k26}ga{\k39}wa {\k41}he
+Dialogue: 0,0:00:34.32,0:00:37.32,Sample KM [Down] - Manhattan Café,,0,0,0,fx,{\k90\fad(300,200)}{\k44}WARM{\k25}-UP {\k26}wa {\k26}kan{\k17}pe{\k22}ki {\k30}sa!
+Dialogue: 0,0:00:34.32,0:00:37.32,Sample KM [Down] - Dantsu Flame,,0,0,0,fx,{\k90\fad(300,200)}{\k44}WARM{\k25}-UP {\k26}wa {\k26}kan{\k17}pe{\k22}ki {\k30}sa!
+Dialogue: 0,0:00:36.22,0:00:40.55,Agnes Tachyon,,0,0,0,fx,{\k90\fad(300,200)}{\k23}chi{\k22}kyu{\k14}u {\k48}wo {\k20}ho{\k38}ra {\k35}fu{\k18}mi{\k16}ko{\k18}mu {\k12}te{\k16}i{\k23}te{\k20}tsu
+Dialogue: 0,0:00:39.45,0:00:42.95,Jungle Pocket,,0,0,0,fx,{\k90\fad(300,200)}{\k69}GOAL {\k31}ma{\k13}e {\k16}no {\k38}ki{\k26}se{\k47}ki
+Dialogue: 0,0:00:41.85,0:00:46.75,Dantsu Flame,,0,0,0,fx,{\k90\fad(300,200)}{\k22}shi{\k39}ka{\k25}ke{\k42}ru {\k18}ba{\k38}sho {\k24}wa {\k23}sa{\k13}i{\k35}shu{\k6}u {\k49}COR{\k46}NER
+Dialogue: 0,0:00:45.65,0:00:51.22,Jungle Pocket,,0,0,0,fx,{\k90\fad(300,200)}{\k30}a{\k52}to {\k74}wa {\k12}i{\k15}ke{\k17}ru {\k12}to{\k17}ko {\k19}ma{\k17}de {\k21}i{\k20}ki {\k22}wo {\k24}ki{\k10}ra{\k23}shi{\k17}te{\k34}ta{\k11}i
+Dialogue: 0,0:00:50.22,0:00:53.85,Sample KM [Down] Agnes Tachyon,,0,0,0,fx,{\k90\fad(300,200)}{\k23}na{\k15}n{\k12}ma{\k14}n {\k17}to {\k25}te {\k13}wo {\k16}ta{\k24}ta{\k16}ku {\k19}AU{\k59}DIENCE
+Dialogue: 0,0:00:50.22,0:00:53.85,Sample KM [Down] Jungle Pocket,,0,0,0,fx,{\k90\fad(300,200)}{\k23}na{\k15}n{\k12}ma{\k14}n {\k17}to {\k25}te {\k13}wo {\k16}ta{\k24}ta{\k16}ku {\k19}AU{\k59}DIENCE
+Dialogue: 0,0:00:50.22,0:00:53.85,Sample KM [Down] - Dantsu Flame,,0,0,0,fx,{\k90\fad(300,200)}{\k23}na{\k15}n{\k12}ma{\k14}n {\k17}to {\k25}te {\k13}wo {\k16}ta{\k24}ta{\k16}ku {\k19}AU{\k59}DIENCE
+Dialogue: 0,0:00:52.75,0:00:56.22,Sample KM [Down] Jungle Pocket,,0,0,0,fx,{\k90\fad(300,200)}{\k16}wa{\k16}re{\k17}n {\k16}ba{\k21}ka{\k15}ri {\k17}hi{\k17}bi{\k20}ku {\k24}da{\k8}i{\k17}ka{\k8}n{\k17}se{\k8}i
+Dialogue: 0,0:00:52.75,0:00:56.22,Sample KM [Down] - Dantsu Flame,,0,0,0,fx,{\k90\fad(300,200)}{\k16}wa{\k16}re{\k17}n {\k16}ba{\k21}ka{\k15}ri {\k17}hi{\k17}bi{\k20}ku {\k24}da{\k8}i{\k17}ka{\k8}n{\k17}se{\k8}i
+Dialogue: 0,0:00:55.12,0:00:58.25,Manhattan Café,,0,0,0,fx,{\k90\fad(300,200)}{\k22}FA{\k10}N{\k31}FA{\k33}RE {\k16}ga {\k19}na{\k72}ru
+Dialogue: 0,0:00:57.15,0:01:00.75,Agnes Tachyon,,0,0,0,fx,{\k90\fad(300,200)}{\k61}shi{\k28}no{\k19}n {\k15}ga {\k29}ta{\k21}ka{\k14}ma{\k63}ru
+Dialogue: 0,0:00:57.15,0:01:00.75,Manhattan Café,,0,0,0,fx,{\k90\fad(300,200)}{\k61}shi{\k28}no{\k19}n {\k15}ga {\k29}ta{\k21}ka{\k14}ma{\k63}ru
+Dialogue: 0,0:00:59.85,0:01:05.75,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k29}u{\k31}go{\k28}ki{\k14}da{\k15}su {\k25}byou{\k27}shi{\k8}n {\k34}yu{\k21}me {\k18}no {\k30}GA{\k13}TE {\k18}ga {\k50}hi{\k34}ra{\k85}ku
+Dialogue: 0,0:01:04.42,0:01:06.65,Sample KM [Down] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k22}"i{\k15}ku {\k76}zoo!"
+Dialogue: 0,0:01:05.08,0:01:08.72,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ha{\k55}shi{\k17}t{\k50}te {\k13}ha{\k58}shi{\k30}t{\k1}te
+Dialogue: 0,0:01:06.15,0:01:07.62,Sample KM [Down] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k18}HA{\k19}I!
+Dialogue: 0,0:01:07.42,0:01:08.88,Sample KM [Down] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k18}HA{\k18}I!
+Dialogue: 0,0:01:07.78,0:01:11.68,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k14}a{\k22}ko{\k28}ga{\k40}re {\k16}wo {\k37}o{\k35}i{\k29}ko{\k23}shi{\k36}te
+Dialogue: 0,0:01:10.65,0:01:14.02,Jungle Pocket,,0,0,0,fx,{\k90\fad(300,200)}{\k36}tsu{\k18}gi {\k22}wa {\k15}da{\k21}re {\k14}no {\k19}ba{\k15}n {\k67}da!?
+Dialogue: 0,0:01:13.02,0:01:16.62,Jungle Pocket,,0,0,0,fx,{\k90\fad(300,200)}{\k21}sa{\k29}a {\k15}me{\k34}zas' {\k13}wa {\k39}SU{\k24}PER{\k75}STAR
+Dialogue: 0,0:01:15.55,0:01:19.12,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k29}i{\k17}ki{\k26}te{\k29}ku{\k41} {\k14}i{\k18}mi {\k29}na{\k11}n{\k33}te
+Dialogue: 0,0:01:16.65,0:01:18.12,Sample KM [Down] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k18}HA{\k19}I!
+Dialogue: 0,0:01:18.02,0:01:19.42,Sample KM [Down] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k15}HA{\k15}I!
+Dialogue: 0,0:01:18.32,0:01:22.95,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k31}bu{\k12}c{\k19}chi{\k32}gi{\k12}t{\k15}ta {\k22}a{\k37}to {\k57}de {\k30}tsu{\k14}i{\k16}te {\k17}ku{\k39}ru
+Dialogue: 0,0:01:21.85,0:01:23.62,Sample KM [Down] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ka{\k15}chi{\k15}ta{\k15}i!
+Dialogue: 0,0:01:22.52,0:01:25.55,Agnes Tachyon,,0,0,0,fx,{\k90\fad(300,200)}{\k59}sou {\k14}ko{\k15}re {\k21}wa {\k32}ho{\k7}n{\k13}no{\k32}u
+Dialogue: 0,0:01:24.45,0:01:26.42,Sample KM [Down] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ha{\k24}shi{\k12}ri{\k19}ta{\k16}i!
+Dialogue: 0,0:01:25.32,0:01:28.12,Jungle Pocket,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ya{\k24}ma{\k14}na{\k15}i {\k40}shou{\k25}do{\k22}u
+Dialogue: 0,0:01:27.02,0:01:29.05,Sample KM [Down] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k19}sa{\k18}ke{\k19}bi{\k18}ta{\k19}i!
+Dialogue: 0,0:01:27.95,0:01:33.98,Sample KM Duo [Voice 1&2] - Copier,,0,0,0,fx,{\k90\fad(300,200)}{\k46}shou{\k14}ri {\k23}no {\k9}o{\k17}ta{\k20}ke{\k15}bi {\kf121}yo {\k21}to{\k69}do{\k58}ro{\k80}ke!
