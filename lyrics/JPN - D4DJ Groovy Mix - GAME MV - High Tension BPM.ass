@@ -1,4 +1,4 @@
-[Script Info]
+﻿[Script Info]
 Title: High Tension BPM
 ScriptType: v4.00+
 WrapStyle: 0
@@ -10,64 +10,76 @@ Original Timing: Variabels
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Rika,Arial,24,&H00FFFFFF,&H00385AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Marika,Arial,24,&H00FFFFFF,&H0038FF3E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Saori,Arial,24,&H00FFFFFF,&H00FB38FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Dalia,Arial,24,&H00FFFFFF,&H0038EEFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Dalia Saori,Arial,24,&H00FFFFFF,&H0038EEFF,&H00A219A5,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Marika Rika,Arial,24,&H00FFFFFF,&H008EFF91,&H001B319E,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up],Arial,24,&H003621D4,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rika,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Marika,Arial,24,&H00FFFFFF,&H001AE199,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Saori,Arial,24,&H00FFFFFF,&H00E78CFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Dalia,Arial,24,&H00FFFFFF,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:33.09,0:00:34.91,Dalia Saori,,0,0,0,karaoke,{\k39}WEL{\k64}COME {\k23}PAR{\k15}TY {\k21}TO{\k20}NIGHT
-Comment: 0,0:00:35.84,0:00:38.41,Dalia,,0,0,0,karaoke,{\k17}i{\k23}tsu {\k45}men {\k46}so{\k13}ro{\k17}t{\k28}ta{\kf68}~?
-Comment: 0,0:00:38.60,0:00:43.92,Dalia,,0,0,0,karaoke,{\k26}ko{\k13}re{\kf54}ka{\k19}ra {\k16}a{\k13}ge{\k18}te {\k32}kou{\k84} {\k17}tsu{\k24}i{\k36}te{\k33} {\k22}ko{\k17}re{\k12}ru {\k24}ka{\kf72}na?
-Comment: 0,0:00:44.51,0:00:49.85,Marika Rika,,0,0,0,karaoke,{\k35}o{\k34}do{\k36}ru {\k15}yo {\k30}ha{\k43}ne{\k15}te {\k34}mot{\k35}to {\k37}ma{\k33}wa{\k34}t{\k18}te {\k37}koo{\k16}ru {\k32}shi{\k50}te
-Comment: 0,0:00:50.04,0:00:52.80,Marika Rika,,0,0,0,karaoke,{\k36}ta{\k25}no{\k43}shin {\k15}de {\k34}sa{\k36}wa{\k17}i {\k35}ja{\k35}ou
+Comment: 0,0:00:33.09,0:00:34.91,Dalia,,0,0,0,karaoke,{\k39}WEL{\k64}COME {\k23}PAR{\k15}TY {\k21}TO{\k20}NIGHT
+Comment: 0,0:00:33.09,0:00:34.91,Saori,,0,0,0,karaoke,{\k39}WEL{\k64}COME {\k23}PAR{\k15}TY {\k21}TO{\k20}NIGHT
+Comment: 0,0:00:35.84,0:00:38.41,Dalia,,0,0,0,karaoke,{\k17}i{\k23}tsu {\k45}MEN {\k46}so{\k13}ro{\k17}t{\k28}ta{\k68}~?
+Comment: 0,0:00:38.60,0:00:43.92,Dalia,,0,0,0,karaoke,{\k26}ko{\k13}re{\k54}ka{\k19}ra {\k16}a{\k13}ge{\k18}te {\k32}kou{\k84} {\k17}tsu{\k24}i{\k36}te{\k33} {\k22}ko{\k17}re{\k12}ru {\k24}ka{\kf72}na?
+Comment: 0,0:00:44.51,0:00:49.85,Rika,,0,0,0,karaoke,{\k35}o{\k34}do{\k36}ru {\k15}yo {\k30}ha{\k43}ne{\k15}te {\k34}mot{\k35}to {\k37}ma{\k33}wa{\k34}t{\k18}te {\k37}CAL{\k16}L {\k32}shi{\k50}te
+Comment: 0,0:00:44.51,0:00:49.85,Marika,,0,0,0,karaoke,{\k35}o{\k34}do{\k36}ru {\k15}yo {\k30}ha{\k43}ne{\k15}te {\k34}mot{\k35}to {\k37}ma{\k33}wa{\k34}t{\k18}te {\k37}CAL{\k16}L {\k32}shi{\k50}te
+Comment: 0,0:00:50.04,0:00:52.80,Rika,,0,0,0,karaoke,{\k36}ta{\k25}no{\k43}shin {\k15}de {\k34}sa{\k36}wa{\k17}i {\k35}ja{\k35}ou
+Comment: 0,0:00:50.04,0:00:52.80,Marika,,0,0,0,karaoke,{\k36}ta{\k25}no{\k43}shin {\k15}de {\k34}sa{\k36}wa{\k17}i {\k35}ja{\k35}ou
 Comment: 0,0:00:52.80,0:00:55.55,Rika,,0,0,0,karaoke,{\k37}it{\k34}tai{\k45}kan {\k23}wo {\k49}kan{\k13}ji {\k41}chao{\k33}u
 Comment: 0,0:00:55.55,0:01:00.39,Saori,,0,0,0,karaoke,{\k34}ha{\k35}zu{\k26}ka{\k25}shi{\k36}i {\k29}nan{\k22}te {\k18}ki{\k17}mo{\k35}chi {\k36}i{\k31}ra{\k33}nai {\k22}ka{\kf85}ra
-Comment: 0,0:01:00.99,0:01:03.68,Marika,,0,0,0,karaoke,{\kf73}HEAR{\k36}T {\k20}no {\k35}o{\k34}ku {\k17}no {\k36}REA{\k18}L
-Comment: 0,0:01:03.68,0:01:06.57,Marika,,0,0,0,karaoke,{\k48}RHY{\k36}TH{\k36}M {\k16}ni {\k32}bu{\k20}tsu{\k14}ke{\k39}te {\k17}go{\k31}ran
+Comment: 0,0:01:00.99,0:01:03.68,Marika,,0,0,0,karaoke,{\k42}HE{\k31}AR{\k36}T {\k20}no {\k35}o{\k34}ku {\k17}no {\k16}RE{\k20}A{\k18}L
+Comment: 0,0:01:03.82,0:01:06.57,Marika,,0,0,0,karaoke,{\k34}RHY{\k36}TH{\k37}M {\k15}ni {\k33}bu{\k17}tsu{\k17}ke{\k39}te {\k19}go{\k28}ran
 Comment: 0,0:01:06.57,0:01:09.34,Sample KM [Up],,0,0,0,karaoke,{\k37}HIGH {\k25}TEN{\k41}SION {\k16}E{\k22}MO{\k36}TION {\k25}SEN{\k36}SA{\k39}TION
-Comment: 0,0:01:09.34,0:01:12.10,Marika Rika,,0,0,0,karaoke,{\k35}ba{\k26}ku{\k35}re{\k28}tsu {\k25}ni {\k22}bu{\k19}chi {\k17}a{\k34}ga{\k35}re
+Comment: 0,0:01:09.34,0:01:12.10,Rika,,0,0,0,karaoke,{\k35}ba{\k26}ku{\k35}re{\k28}tsu {\k25}ni {\k22}bu{\k19}chi {\k17}a{\k34}ga{\k35}re
+Comment: 0,0:01:09.34,0:01:12.10,Marika,,0,0,0,karaoke,{\k35}ba{\k26}ku{\k35}re{\k28}tsu {\k25}ni {\k22}bu{\k19}chi {\k17}a{\k34}ga{\k35}re
 Comment: 0,0:01:12.10,0:01:14.85,Sample KM [Up],,0,0,0,karaoke,{\k36}HIGH {\k26}TEN{\k38}SION {\k18}PAS{\k38}SION {\k32}TEM{\k16}P{\k28}TA{\k43}TION
-Comment: 0,0:01:14.85,0:01:17.46,Rika,,0,0,0,karaoke,{\k25}ha{\k35}ku{\k41}ne{\k23}tsu {\k15}no {\kf49}F{\kf73}LOOR
+Comment: 0,0:01:14.85,0:01:17.46,Rika,,0,0,0,karaoke,{\k25}ha{\k35}ku{\k41}ne{\k23}tsu {\k35}no {\k29}F{\k20}LO{\k53}OR
 Comment: 0,0:01:17.59,0:01:20.29,Dalia,,0,0,0,karaoke,{\k35}ko{\k19}no {\k14}ma{\k41}ma {\k15}de {\k37}o{\k31}wat{\k19}te {\k35}ii {\k24}no?
-Comment: 0,0:01:20.29,0:01:23.16,Dalia Saori,,0,0,0,karaoke,{\k40}fu{\k35}kan{\k49}zen {\k33}nen{\k39}shou {\k20}no {\k35}ma{\k36}ma
+Comment: 0,0:01:20.29,0:01:23.16,Dalia,,0,0,0,karaoke,{\k40}fu{\k35}kan{\k49}zen {\k33}nen{\k39}shou {\k20}no {\k35}ma{\k36}ma
+Comment: 0,0:01:20.29,0:01:23.16,Saori,,0,0,0,karaoke,{\k40}fu{\k35}kan{\k49}zen {\k33}nen{\k39}shou {\k20}no {\k35}ma{\k36}ma
 Comment: 0,0:01:23.16,0:01:25.86,Marika,,0,0,0,karaoke,{\k35}ka{\k15}ra{\k15}da{\k55}juu {\k28}de {\k20}tsu{\k17}ta{\k17}e{\k35}te {\k33}yo
 Comment: 0,0:01:25.86,0:01:29.19,Sample KM [Up],,0,0,0,karaoke,{\k36}a{\k18}na{\k18}ta {\k50}no {\k39}ko{\k33}dou {\k19}no {\k31}B{\k33}P{\k56}M
 Comment: 0,0:01:28.61,0:01:31.39,Sample KM [Up],,0,0,0,karaoke,{\k40}HIGH {\k23}TEN{\k38}SION {\k21}SES{\k36}SION {\k21}COL{\k14}LA{\k17}BO{\k31}RA{\k37}TION
-Comment: 0,0:01:31.39,0:01:34.11,Marika Rika,,0,0,0,karaoke,{\k38}ba{\k33}ku {\k33}a{\k20}ge{\k35}te {\k16}bu{\k16}chi {\k16}a{\k39}ga{\k26}re
+Comment: 0,0:01:31.39,0:01:34.11,Rika,,0,0,0,karaoke,{\k38}ba{\k33}ku {\k33}a{\k20}ge{\k35}te {\k16}bu{\k16}chi {\k16}a{\k39}ga{\k26}re
+Comment: 0,0:01:31.39,0:01:34.11,Marika,,0,0,0,karaoke,{\k38}ba{\k33}ku {\k33}a{\k20}ge{\k35}te {\k16}bu{\k16}chi {\k16}a{\k39}ga{\k26}re
 Comment: 0,0:01:34.11,0:01:36.86,Sample KM [Up],,0,0,0,karaoke,{\k42}HIGH {\k25}TEN{\k41}SION {\k16}MIS{\k37}SION {\k38}VI{\k15}B{\k27}RA{\k34}TION
 Comment: 0,0:01:36.86,0:01:39.52,Rika,,0,0,0,karaoke,{\k35}ge{\k36}ki{\k33}a{\k23}tsu {\k35}no {\k19}F{\k33}LOOR {\k52}de
 Comment: 0,0:01:39.67,0:01:42.40,Dalia,,0,0,0,karaoke,{\k36}ko{\k17}no {\k17}ma{\k19}ma {\k33}de {\k19}o{\k19}wa{\k11}ra{\k18}se{\k17}te {\k36}ii {\k31}no?
-Comment: 0,0:01:42.40,0:01:45.17,Dalia Saori,,0,0,0,karaoke,{\k30}da{\k26}shi {\k20}ki{\k18}t{\k33}ta? {\k26}ya{\k20}ri {\k36}kit{\k37}ta {\k31}no?
+Comment: 0,0:01:42.40,0:01:45.17,Dalia,,0,0,0,karaoke,{\k30}da{\k26}shi {\k20}ki{\k18}t{\k33}ta? {\k26}ya{\k20}ri {\k36}kit{\k37}ta {\k31}no?
+Comment: 0,0:01:42.40,0:01:45.17,Saori,,0,0,0,karaoke,{\k30}da{\k26}shi {\k20}ki{\k18}t{\k33}ta? {\k26}ya{\k20}ri {\k36}kit{\k37}ta {\k31}no?
 Comment: 0,0:01:45.17,0:01:47.79,Marika,,0,0,0,karaoke,{\k40}wa{\k9}ta{\k26}shi {\k15}no {\k33}mu{\k37}ne {\k17}no {\k17}o{\k18}ku {\k50}de
-Comment: 0,0:01:47.79,0:01:51.41,Sample KM [Up],,0,0,0,karaoke,{\kf52}ta{\k15}ka{\k21}na{\k13}ru {\k36}yo {\k45}MA{\k18}X{\k23}~ {\k34}B{\k35}P{\kf70}M
-Dialogue: 0,0:00:32.19,0:00:35.11,Dalia Saori,,0,0,0,fx,{\k90\fad(300,200)}{\k39}WEL{\k64}COME {\k23}PAR{\k15}TY {\k21}TO{\k20}NIGHT
-Dialogue: 0,0:00:34.94,0:00:38.61,Dalia,,0,0,0,fx,{\k90\fad(300,200)}{\k17}i{\k23}tsu {\k45}men {\k46}so{\k13}ro{\k17}t{\k28}ta{\kf68}~?
-Dialogue: 0,0:00:37.70,0:00:44.12,Dalia,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ko{\k13}re{\kf54}ka{\k19}ra {\k16}a{\k13}ge{\k18}te {\k32}kou{\k84} {\k17}tsu{\k24}i{\k36}te{\k33} {\k22}ko{\k17}re{\k12}ru {\k24}ka{\kf72}na?
-Dialogue: 0,0:00:43.61,0:00:50.05,Marika Rika,,0,0,0,fx,{\k90\fad(300,200)}{\k35}o{\k34}do{\k36}ru {\k15}yo {\k30}ha{\k43}ne{\k15}te {\k34}mot{\k35}to {\k37}ma{\k33}wa{\k34}t{\k18}te {\k37}koo{\k16}ru {\k32}shi{\k50}te
-Dialogue: 0,0:00:49.14,0:00:53.00,Marika Rika,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ta{\k25}no{\k43}shin {\k15}de {\k34}sa{\k36}wa{\k17}i {\k35}ja{\k35}ou
+Comment: 0,0:01:47.96,0:01:51.41,Sample KM [Up],,0,0,0,karaoke,{\k35}ta{\k18}ka{\k17}na{\k20}ru {\k32}yo {\k48}MA{\k19}X{\k20}~ {\k30}B{\k38}P{\k68}M
+Dialogue: 0,0:00:32.19,0:00:35.11,Dalia,,0,0,0,fx,{\k90\fad(300,200)}{\k39}WEL{\k64}COME {\k23}PAR{\k15}TY {\k21}TO{\k20}NIGHT
+Dialogue: 0,0:00:32.19,0:00:35.11,Saori,,0,0,0,fx,{\k90\fad(300,200)}{\k39}WEL{\k64}COME {\k23}PAR{\k15}TY {\k21}TO{\k20}NIGHT
+Dialogue: 0,0:00:34.94,0:00:38.61,Dalia,,0,0,0,fx,{\k90\fad(300,200)}{\k17}i{\k23}tsu {\k45}MEN {\k46}so{\k13}ro{\k17}t{\k28}ta{\k68}~?
+Dialogue: 0,0:00:37.70,0:00:44.12,Dalia,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ko{\k13}re{\k54}ka{\k19}ra {\k16}a{\k13}ge{\k18}te {\k32}kou{\k84} {\k17}tsu{\k24}i{\k36}te{\k33} {\k22}ko{\k17}re{\k12}ru {\k24}ka{\kf72}na?
+Dialogue: 0,0:00:43.61,0:00:50.05,Rika,,0,0,0,fx,{\k90\fad(300,200)}{\k35}o{\k34}do{\k36}ru {\k15}yo {\k30}ha{\k43}ne{\k15}te {\k34}mot{\k35}to {\k37}ma{\k33}wa{\k34}t{\k18}te {\k37}CAL{\k16}L {\k32}shi{\k50}te
+Dialogue: 0,0:00:43.61,0:00:50.05,Marika,,0,0,0,fx,{\k90\fad(300,200)}{\k35}o{\k34}do{\k36}ru {\k15}yo {\k30}ha{\k43}ne{\k15}te {\k34}mot{\k35}to {\k37}ma{\k33}wa{\k34}t{\k18}te {\k37}CAL{\k16}L {\k32}shi{\k50}te
+Dialogue: 0,0:00:49.14,0:00:53.00,Rika,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ta{\k25}no{\k43}shin {\k15}de {\k34}sa{\k36}wa{\k17}i {\k35}ja{\k35}ou
+Dialogue: 0,0:00:49.14,0:00:53.00,Marika,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ta{\k25}no{\k43}shin {\k15}de {\k34}sa{\k36}wa{\k17}i {\k35}ja{\k35}ou
 Dialogue: 0,0:00:51.90,0:00:55.75,Rika,,0,0,0,fx,{\k90\fad(300,200)}{\k37}it{\k34}tai{\k45}kan {\k23}wo {\k49}kan{\k13}ji {\k41}chao{\k33}u
 Dialogue: 0,0:00:54.65,0:01:00.59,Saori,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ha{\k35}zu{\k26}ka{\k25}shi{\k36}i {\k29}nan{\k22}te {\k18}ki{\k17}mo{\k35}chi {\k36}i{\k31}ra{\k33}nai {\k22}ka{\kf85}ra
-Dialogue: 0,0:01:00.09,0:01:03.88,Marika,,0,0,0,fx,{\k90\fad(300,200)}{\kf73}HEAR{\k36}T {\k20}no {\k35}o{\k34}ku {\k17}no {\k36}REA{\k18}L
-Dialogue: 0,0:01:02.78,0:01:06.77,Marika,,0,0,0,fx,{\k90\fad(300,200)}{\k48}RHY{\k36}TH{\k36}M {\k16}ni {\k32}bu{\k20}tsu{\k14}ke{\k39}te {\k17}go{\k31}ran
+Dialogue: 0,0:01:00.09,0:01:03.88,Marika,,0,0,0,fx,{\k90\fad(300,200)}{\k42}HE{\k31}AR{\k36}T {\k20}no {\k35}o{\k34}ku {\k17}no {\k16}RE{\k20}A{\k18}L
+Dialogue: 0,0:01:02.92,0:01:06.77,Marika,,0,0,0,fx,{\k90\fad(300,200)}{\k34}RHY{\k36}TH{\k37}M {\k15}ni {\k33}bu{\k17}tsu{\k17}ke{\k39}te {\k19}go{\k28}ran
 Dialogue: 0,0:01:05.67,0:01:09.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}HIGH {\k25}TEN{\k41}SION {\k16}E{\k22}MO{\k36}TION {\k25}SEN{\k36}SA{\k39}TION
-Dialogue: 0,0:01:08.44,0:01:12.30,Marika Rika,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ba{\k26}ku{\k35}re{\k28}tsu {\k25}ni {\k22}bu{\k19}chi {\k17}a{\k34}ga{\k35}re
+Dialogue: 0,0:01:08.44,0:01:12.30,Rika,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ba{\k26}ku{\k35}re{\k28}tsu {\k25}ni {\k22}bu{\k19}chi {\k17}a{\k34}ga{\k35}re
+Dialogue: 0,0:01:08.44,0:01:12.30,Marika,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ba{\k26}ku{\k35}re{\k28}tsu {\k25}ni {\k22}bu{\k19}chi {\k17}a{\k34}ga{\k35}re
 Dialogue: 0,0:01:11.20,0:01:15.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}HIGH {\k26}TEN{\k38}SION {\k18}PAS{\k38}SION {\k32}TEM{\k16}P{\k28}TA{\k43}TION
-Dialogue: 0,0:01:13.95,0:01:17.66,Rika,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ha{\k35}ku{\k41}ne{\k23}tsu {\k15}no {\kf49}F{\kf73}LOOR
+Dialogue: 0,0:01:13.95,0:01:17.66,Rika,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ha{\k35}ku{\k41}ne{\k23}tsu {\k35}no {\k29}F{\k20}LO{\k53}OR
 Dialogue: 0,0:01:16.69,0:01:20.49,Dalia,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ko{\k19}no {\k14}ma{\k41}ma {\k15}de {\k37}o{\k31}wat{\k19}te {\k35}ii {\k24}no?
-Dialogue: 0,0:01:19.39,0:01:23.36,Dalia Saori,,0,0,0,fx,{\k90\fad(300,200)}{\k40}fu{\k35}kan{\k49}zen {\k33}nen{\k39}shou {\k20}no {\k35}ma{\k36}ma
+Dialogue: 0,0:01:19.39,0:01:23.36,Dalia,,0,0,0,fx,{\k90\fad(300,200)}{\k40}fu{\k35}kan{\k49}zen {\k33}nen{\k39}shou {\k20}no {\k35}ma{\k36}ma
+Dialogue: 0,0:01:19.39,0:01:23.36,Saori,,0,0,0,fx,{\k90\fad(300,200)}{\k40}fu{\k35}kan{\k49}zen {\k33}nen{\k39}shou {\k20}no {\k35}ma{\k36}ma
 Dialogue: 0,0:01:22.26,0:01:26.06,Marika,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ka{\k15}ra{\k15}da{\k55}juu {\k28}de {\k20}tsu{\k17}ta{\k17}e{\k35}te {\k33}yo
 Dialogue: 0,0:01:24.96,0:01:29.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}a{\k18}na{\k18}ta {\k50}no {\k39}ko{\k33}dou {\k19}no {\k31}B{\k33}P{\k56}M
 Dialogue: 0,0:01:27.71,0:01:31.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}HIGH {\k23}TEN{\k38}SION {\k21}SES{\k36}SION {\k21}COL{\k14}LA{\k17}BO{\k31}RA{\k37}TION
-Dialogue: 0,0:01:30.49,0:01:34.31,Marika Rika,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ba{\k33}ku {\k33}a{\k20}ge{\k35}te {\k16}bu{\k16}chi {\k16}a{\k39}ga{\k26}re
+Dialogue: 0,0:01:30.49,0:01:34.31,Rika,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ba{\k33}ku {\k33}a{\k20}ge{\k35}te {\k16}bu{\k16}chi {\k16}a{\k39}ga{\k26}re
+Dialogue: 0,0:01:30.49,0:01:34.31,Marika,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ba{\k33}ku {\k33}a{\k20}ge{\k35}te {\k16}bu{\k16}chi {\k16}a{\k39}ga{\k26}re
 Dialogue: 0,0:01:33.21,0:01:37.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}HIGH {\k25}TEN{\k41}SION {\k16}MIS{\k37}SION {\k38}VI{\k15}B{\k27}RA{\k34}TION
 Dialogue: 0,0:01:35.96,0:01:39.72,Rika,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ge{\k36}ki{\k33}a{\k23}tsu {\k35}no {\k19}F{\k33}LOOR {\k52}de
 Dialogue: 0,0:01:38.77,0:01:42.60,Dalia,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ko{\k17}no {\k17}ma{\k19}ma {\k33}de {\k19}o{\k19}wa{\k11}ra{\k18}se{\k17}te {\k36}ii {\k31}no?
-Dialogue: 0,0:01:41.50,0:01:45.37,Dalia Saori,,0,0,0,fx,{\k90\fad(300,200)}{\k30}da{\k26}shi {\k20}ki{\k18}t{\k33}ta? {\k26}ya{\k20}ri {\k36}kit{\k37}ta {\k31}no?
+Dialogue: 0,0:01:41.50,0:01:45.37,Dalia,,0,0,0,fx,{\k90\fad(300,200)}{\k30}da{\k26}shi {\k20}ki{\k18}t{\k33}ta? {\k26}ya{\k20}ri {\k36}kit{\k37}ta {\k31}no?
+Dialogue: 0,0:01:41.50,0:01:45.37,Saori,,0,0,0,fx,{\k90\fad(300,200)}{\k30}da{\k26}shi {\k20}ki{\k18}t{\k33}ta? {\k26}ya{\k20}ri {\k36}kit{\k37}ta {\k31}no?
 Dialogue: 0,0:01:44.27,0:01:47.99,Marika,,0,0,0,fx,{\k90\fad(300,200)}{\k40}wa{\k9}ta{\k26}shi {\k15}no {\k33}mu{\k37}ne {\k17}no {\k17}o{\k18}ku {\k50}de
-Dialogue: 0,0:01:46.89,0:01:51.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf52}ta{\k15}ka{\k21}na{\k13}ru {\k36}yo {\k45}MA{\k18}X{\k23}~ {\k34}B{\k35}P{\kf70}M
+Dialogue: 0,0:01:47.06,0:01:51.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}ta{\k18}ka{\k17}na{\k20}ru {\k32}yo {\k48}MA{\k19}X{\k20}~ {\k30}B{\k38}P{\k68}M
