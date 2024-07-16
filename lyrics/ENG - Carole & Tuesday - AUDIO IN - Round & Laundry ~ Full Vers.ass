@@ -1,0 +1,105 @@
+﻿[Script Info]
+Title: Round & Laundry
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 0
+PlayResY: 0
+YCbCr Matrix: None
+Original Timing: red5h4d0w
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00FF00BC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:01.64,0:00:01.64,Sample KM Duo [Voice 1],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:24.98,0:00:28.48,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k20}Al{\k27}ways {\k70}knew {\rSample KM Duo [Voice 1]\k32}what {\k28}I {\k31}wan{\k30}ted {\k28}to {\k84}do
+Comment: 0,0:00:28.82,0:00:32.24,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k31}But {\k60}things {\k29}just {\k60}don't {\k26}go {\k30}as {\k106}smooth
+Comment: 0,0:00:31.22,0:00:35.07,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k28}But {\k51}things {\k37}just {\k63}don't {\k29}go {\k28}as {\k149}smooth
+Comment: 0,0:00:33.89,0:00:37.83,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k47}In{\k43}side {\k60}out, {\k28}then {\k14}go{\k46}ing {\k46}up{\k44}side {\k66}down
+Comment: 0,0:00:35.66,0:00:37.04,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k21}oh {\k25}oh {\k92}oh
+Comment: 0,0:00:38.33,0:00:43.46,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k31}It's {\k26}ea{\k29}sy {\k35}to {\k61}sing, {\k59}but {\rSample KM Duo [Voice 1&2]}{\k27}it's {\k35}har{\k26}der {\k30}to {\kf154}live
+Comment: 0,0:00:43.98,0:00:47.42,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k19}I {\k26}met {\k96}you {\rSample KM Duo [Voice 2]\k11}and {\k11}then {\k14}the {\k32}sto{\k30}ry {\k29}be{\k76}gan
+Comment: 0,0:00:47.85,0:00:51.40,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k30}The {\k59}on{\k30}ly {\k87}lone{\k30}ly {\k119}two
+Comment: 0,0:00:50.49,0:00:53.72,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k62}On{\k27}ly {\k63}lone{\k55}ly {\k116}two
+Comment: 0,0:00:52.90,0:00:57.06,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k45}Must {\k47}have {\k59}been {\k28}some {\k31}kind {\k28}of {\k22}ma{\k23}gic {\k45}in {\k19}the {\k69}wind
+Comment: 0,0:00:57.35,0:01:00.03,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k29}Hit {\k29}me {\k30}with {\k32}the {\k60}beat {\k29}and {\k30}sing{\k29}ing
+Comment: 0,0:01:00.03,0:01:02.21,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k49}Boom, {\k43}boom, {\k45}boom, {\k41}boom, {\k40}yeah
+Comment: 0,0:01:02.41,0:01:06.58,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k91}Round {\k58}and {\k60}round, {\k30}the {\k58}dan{\k33}cing {\k51}laun{\k36}dry
+Comment: 0,0:01:06.86,0:01:09.26,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k28}Let's {\k32}lose {\k29}our {\k31}minds, {\k28}for{\k30}get {\k30}the {\k32}time
+Comment: 0,0:01:09.26,0:01:11.92,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k13}And {\k45}e{\k30}very{\k28}thing {\k18}will {\k42}be {\k32}just {\k58}fine
+Comment: 0,0:01:11.92,0:01:16.07,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k88}Round {\k61}and {\k60}round {\k29}like {\k59}dan{\k31}cing {\k53}laun{\k34}dry
+Comment: 0,0:01:16.38,0:01:18.77,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k27}It's {\k32}you {\k29}and {\k30}me, {\k34}that's {\k28}all {\k27}we {\k32}need
+Comment: 0,0:01:18.77,0:01:22.04,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k29}You {\k26}were {\k33}the {\k29}mis{\k29}sing {\k60}puz{\k58}zle {\k63}piece
+Comment: 0,0:01:31.53,0:01:34.87,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k21}Se{\k27}ven{\k71}teen, {\rSample KM Duo [Voice 2]\k27}won{\k18}der {\k14}what {\k33}it {\k26}real{\k30}ly {\k67}means
+Comment: 0,0:01:35.41,0:01:38.79,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k29}When {\k30}peo{\k28}ple {\k30}say {\k30}I {\k30}live {\k30}in {\k27}a {\k104}dream
+Comment: 0,0:01:37.76,0:01:41.58,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k32}When {\k32}peo{\k27}ple {\k30}say {\k28}I {\k32}live {\k28}in {\k30}a {\k143}dream
+Comment: 0,0:01:40.44,0:01:44.58,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k32}Com{\k14}pli{\k28}ca{\k20}ted {\k59}fee{\k27}lings {\k34}al{\k25}ways {\k31}ru{\k20}shing {\k42}through {\k82}me
+Comment: 0,0:01:42.20,0:01:43.42,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k30}oh {\k21}oh {\k71}oh
+Comment: 0,0:01:44.92,0:01:50.05,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k28}It {\k61}keeps {\k31}on {\k62}go{\k54}ing {\k15}like {\k14}a {\rSample KM Duo [Voice 1&2]\k30}mer{\k30}ry{\k29}-go{\kf159}-round
+Comment: 0,0:01:50.55,0:01:53.97,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k25}I {\k24}had {\k69}been {\rSample KM Duo [Voice 1]\k29}feel{\k32}ing {\k33}lone{\k26}ly {\k31}till {\k73}when
+Comment: 0,0:01:54.42,0:01:57.56,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k28}You {\k60}came {\k32}a{\k59}long {\k58}that {\k77}day
+Comment: 0,0:01:56.79,0:02:00.14,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k29}You {\k60}came {\k34}a{\k54}long {\k61}that {\k97}day
+Comment: 0,0:01:59.37,0:02:03.56,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k10}We {\k42}kept {\k47}on {\k48}run{\k32}ning {\k39}till {\k13}we {\k10}were {\k31}all {\k17}a{\k50}lone {\k18}a{\k62}gain
+Comment: 0,0:02:01.24,0:02:02.74,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k52}oh {\k98}oh
+Comment: 0,0:02:03.90,0:02:06.59,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k29}But {\k48}this {\k45}time {\k57}we {\k33}can {\k29}sing {\k28}the
+Comment: 0,0:02:06.59,0:02:08.77,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k47}Boom, {\k43}boom, {\k45}boom, {\k41}boom, {\k42}yeah
+Comment: 0,0:02:08.99,0:02:13.16,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k91}Round {\k58}and {\k60}round, {\k30}the {\k58}dan{\k33}cing {\k51}laun{\k36}dry
+Comment: 0,0:02:13.44,0:02:15.84,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k28}Let's {\k32}lose {\k29}our {\k31}minds, {\k28}for{\k30}get {\k30}the {\k32}time
+Comment: 0,0:02:15.84,0:02:18.50,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k13}And {\k45}e{\k30}very{\k28}thing {\k18}will {\k42}be {\k32}just {\k58}fine
+Comment: 0,0:02:18.50,0:02:22.65,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k88}Round {\k61}and {\k60}round {\k29}like {\k59}dan{\k31}cing {\k53}laun{\k34}dry
+Comment: 0,0:02:22.96,0:02:25.35,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k27}It's {\k32}you {\k29}and {\k30}me, {\k34}that's {\k28}all {\k27}we {\k32}need
+Comment: 0,0:02:25.35,0:02:27.40,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k29}You {\k26}were {\k33}the {\k29}mis{\k29}sing {\k27}puz{\k32}zle
+Comment: 0,0:02:28.00,0:02:32.17,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k91}Round {\k58}and {\k60}round, {\k30}the {\k58}dan{\k33}cing {\k51}laun{\k36}dry
+Comment: 0,0:02:32.45,0:02:34.85,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k28}Let's {\k32}lose {\k29}our {\k31}minds, {\k28}for{\k30}get {\k30}the {\k32}time
+Comment: 0,0:02:34.85,0:02:37.51,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k13}And {\k45}e{\k30}very{\k28}thing {\k18}will {\k42}be {\k32}just {\k58}fine
+Comment: 0,0:02:37.51,0:02:41.66,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k88}Round {\k61}and {\k60}round {\k29}like {\k59}dan{\k31}cing {\k53}laun{\k34}dry
+Comment: 0,0:02:41.97,0:02:44.36,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k27}It's {\k32}you {\k29}and {\k30}me, {\k34}that's {\k28}all {\k27}we {\k32}need
+Comment: 0,0:02:44.36,0:02:47.63,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k29}You {\k26}were {\k33}the {\k29}mis{\k29}sing {\k60}puz{\k58}zle {\k63}piece
+Dialogue: 0,0:00:24.08,0:00:28.68,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Al{\k27}ways {\k70}knew {\rSample KM Duo [Voice 1]\k32}what {\k28}I {\k31}wan{\k30}ted {\k28}to {\k84}do
+Dialogue: 0,0:00:27.92,0:00:32.44,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k31}But {\k60}things {\k29}just {\k60}don't {\k26}go {\k30}as {\k106}smooth
+Dialogue: 0,0:00:30.32,0:00:35.27,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k28}But {\k51}things {\k37}just {\k63}don't {\k29}go {\k28}as {\k149}smooth
+Dialogue: 0,0:00:32.99,0:00:38.03,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k47}In{\k43}side {\k60}out, {\k28}then {\k14}go{\k46}ing {\k46}up{\k44}side {\k66}down
+Dialogue: 0,0:00:34.76,0:00:37.24,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k21}oh {\k25}oh {\k92}oh
+Dialogue: 0,0:00:37.43,0:00:43.66,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k31}It's {\k26}ea{\k29}sy {\k35}to {\k61}sing, {\k59}but {\rSample KM Duo [Voice 1&2]}{\k27}it's {\k35}har{\k26}der {\k30}to {\kf154}live
+Dialogue: 0,0:00:43.08,0:00:47.62,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k26}met {\k96}you {\rSample KM Duo [Voice 2]\k11}and {\k11}then {\k14}the {\k32}sto{\k30}ry {\k29}be{\k76}gan
+Dialogue: 0,0:00:46.95,0:00:51.60,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k30}The {\k59}on{\k30}ly {\k87}lone{\k30}ly {\k119}two
+Dialogue: 0,0:00:49.59,0:00:53.92,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k62}On{\k27}ly {\k63}lone{\k55}ly {\k116}two
+Dialogue: 0,0:00:52.00,0:00:57.26,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Must {\k47}have {\k59}been {\k28}some {\k31}kind {\k28}of {\k22}ma{\k23}gic {\k45}in {\k19}the {\k69}wind
+Dialogue: 0,0:00:56.45,0:01:00.23,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Hit {\k29}me {\k30}with {\k32}the {\k60}beat {\k29}and {\k30}sing{\k29}ing
+Dialogue: 0,0:00:59.13,0:01:02.41,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Boom, {\k43}boom, {\k45}boom, {\k41}boom, {\k40}yeah
+Dialogue: 0,0:01:01.51,0:01:06.78,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k91}Round {\k58}and {\k60}round, {\k30}the {\k58}dan{\k33}cing {\k51}laun{\k36}dry
+Dialogue: 0,0:01:05.96,0:01:09.46,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Let's {\k32}lose {\k29}our {\k31}minds, {\k28}for{\k30}get {\k30}the {\k32}time
+Dialogue: 0,0:01:08.36,0:01:12.12,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k13}And {\k45}e{\k30}very{\k28}thing {\k18}will {\k42}be {\k32}just {\k58}fine
+Dialogue: 0,0:01:11.02,0:01:16.27,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k88}Round {\k61}and {\k60}round {\k29}like {\k59}dan{\k31}cing {\k53}laun{\k34}dry
+Dialogue: 0,0:01:15.48,0:01:18.97,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k27}It's {\k32}you {\k29}and {\k30}me, {\k34}that's {\k28}all {\k27}we {\k32}need
+Dialogue: 0,0:01:17.87,0:01:22.24,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k29}You {\k26}were {\k33}the {\k29}mis{\k29}sing {\k60}puz{\k58}zle {\k63}piece
+Dialogue: 0,0:01:30.63,0:01:35.07,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Se{\k27}ven{\k71}teen, {\rSample KM Duo [Voice 2]\k27}won{\k18}der {\k14}what {\k33}it {\k26}real{\k30}ly {\k67}means
+Dialogue: 0,0:01:34.51,0:01:38.99,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k29}When {\k30}peo{\k28}ple {\k30}say {\k30}I {\k30}live {\k30}in {\k27}a {\k104}dream
+Dialogue: 0,0:01:36.86,0:01:41.78,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k32}When {\k32}peo{\k27}ple {\k30}say {\k28}I {\k32}live {\k28}in {\k30}a {\k143}dream
+Dialogue: 0,0:01:39.54,0:01:44.78,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Com{\k14}pli{\k28}ca{\k20}ted {\k59}fee{\k27}lings {\k34}al{\k25}ways {\k31}ru{\k20}shing {\k42}through {\k82}me
+Dialogue: 0,0:01:41.30,0:01:43.62,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k30}oh {\k21}oh {\k71}oh
+Dialogue: 0,0:01:44.02,0:01:50.25,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k28}It {\k61}keeps {\k31}on {\k62}go{\k54}ing {\k15}like {\k14}a {\rSample KM Duo [Voice 1&2]\k30}mer{\k30}ry{\k29}-go{\kf159}-round
+Dialogue: 0,0:01:49.65,0:01:54.17,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k24}had {\k69}been {\rSample KM Duo [Voice 1]\k29}feel{\k32}ing {\k33}lone{\k26}ly {\k31}till {\k73}when
+Dialogue: 0,0:01:53.52,0:01:57.76,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k28}You {\k60}came {\k32}a{\k59}long {\k58}that {\k77}day
+Dialogue: 0,0:01:55.89,0:02:00.34,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k29}You {\k60}came {\k34}a{\k54}long {\k61}that {\k97}day
+Dialogue: 0,0:01:58.47,0:02:03.76,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k10}We {\k42}kept {\k47}on {\k48}run{\k32}ning {\k39}till {\k13}we {\k10}were {\k31}all {\k17}a{\k50}lone {\k18}a{\k62}gain
+Dialogue: 0,0:02:00.34,0:02:02.94,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k52}oh {\k98}oh
+Dialogue: 0,0:02:03.00,0:02:06.79,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k29}But {\k48}this {\k45}time {\k57}we {\k33}can {\k29}sing {\k28}the
+Dialogue: 0,0:02:05.69,0:02:08.97,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Boom, {\k43}boom, {\k45}boom, {\k41}boom, {\k42}yeah
+Dialogue: 0,0:02:08.09,0:02:13.36,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k91}Round {\k58}and {\k60}round, {\k30}the {\k58}dan{\k33}cing {\k51}laun{\k36}dry
+Dialogue: 0,0:02:12.54,0:02:16.04,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Let's {\k32}lose {\k29}our {\k31}minds, {\k28}for{\k30}get {\k30}the {\k32}time
+Dialogue: 0,0:02:14.94,0:02:18.70,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k13}And {\k45}e{\k30}very{\k28}thing {\k18}will {\k42}be {\k32}just {\k58}fine
+Dialogue: 0,0:02:17.60,0:02:22.85,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k88}Round {\k61}and {\k60}round {\k29}like {\k59}dan{\k31}cing {\k53}laun{\k34}dry
+Dialogue: 0,0:02:22.06,0:02:25.55,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k27}It's {\k32}you {\k29}and {\k30}me, {\k34}that's {\k28}all {\k27}we {\k32}need
+Dialogue: 0,0:02:24.45,0:02:27.60,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k29}You {\k26}were {\k33}the {\k29}mis{\k29}sing {\k27}puz{\k32}zle
+Dialogue: 0,0:02:27.10,0:02:32.37,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k91}Round {\k58}and {\k60}round, {\k30}the {\k58}dan{\k33}cing {\k51}laun{\k36}dry
+Dialogue: 0,0:02:31.55,0:02:35.05,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Let's {\k32}lose {\k29}our {\k31}minds, {\k28}for{\k30}get {\k30}the {\k32}time
+Dialogue: 0,0:02:33.95,0:02:37.71,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k13}And {\k45}e{\k30}very{\k28}thing {\k18}will {\k42}be {\k32}just {\k58}fine
+Dialogue: 0,0:02:36.61,0:02:41.86,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k88}Round {\k61}and {\k60}round {\k29}like {\k59}dan{\k31}cing {\k53}laun{\k34}dry
+Dialogue: 0,0:02:41.07,0:02:44.56,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k27}It's {\k32}you {\k29}and {\k30}me, {\k34}that's {\k28}all {\k27}we {\k32}need
+Dialogue: 0,0:02:43.46,0:02:47.83,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k29}You {\k26}were {\k33}the {\k29}mis{\k29}sing {\k60}puz{\k58}zle {\k63}piece
