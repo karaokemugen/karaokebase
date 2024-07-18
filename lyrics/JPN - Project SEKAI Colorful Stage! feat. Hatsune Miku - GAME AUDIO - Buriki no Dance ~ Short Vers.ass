@@ -8,402 +8,88 @@ PlayResX: 0
 PlayResY: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
-Original Script: Karaoke Mugen, red5h4d0w
+Original Script: Karaoke Mugen
 Original Timing: puyo
 Synch Point: puyo
 
 [Aegisub Project Garbage]
-Audio File: C:\Users\cindy\AppData\Roaming\karaokemugen-app\app\repos\kara.moe\medias\JPN - Project SEKAI Colorful Stage! feat. Hatsune Miku - GAME AUDIO - Buriki no Dance ~ Short Vers.mp3
-Video File: ?dummy:24.000000:7000:1920:1080:47:163:254:
+Last Style Storage: VIRTUAL SINGER
+Audio File: Buriki no Dance Short.mp3
+Video File: ?dummy:24000/1001:4700:1920:1080:47:163:254:c
+Video AR Value: 1.777778
+Video Zoom Percent: 0.375000
+Active Line: 9
+Video Position: 671
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Miku - Choir-furigana,Arial,12,&H00BACC33,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,0.75,0,8,15,15,80,1
-Style: Miku-furigana,Arial,12,&H00BACC33,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,8,15,15,20,1
-Style: Miku,Arial,24,&H00BACC33,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
-Style: Miku - Choir,Arial,24,&H00BACC33,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: Miku,Arial,24,&H00A7B82E,&H00FFFFFF,&H00000000,&H00A7B82E,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Miku - Choir,Arial,24,&H00A7B82E,&H00FFFFFF,&H00000000,&H00A7B82E,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Miku - Choir,,0,0,0,template syl furi all,!retime("line",$lstart < 900 and -$lstart or -900,200)!{\fade(!$lstart < 900 and $lstart or 300!,200)\an5\pos(!line.left+syl.center!,!$middle+offset()!)\k!$start/10+($lstart < 900 and $lstart or 900)/10!\!$skdur>kfThreshold and "kf" or "k"!!$skdur+20!}
-Comment: 0,0:00:00.00,0:00:00.00,Miku - Choir,,0,0,0,code once,kfThreshold=110 -- minimum duration for applying kf instead of k
-Comment: 0,0:00:00.00,0:00:00.00,Miku - Choir,,0,0,0,code once,lineOffset=60 -- vertical offset between lines with different vertical margins value
-Comment: 0,0:00:00.00,0:00:00.00,Miku - Choir,,0,0,0,code once,function offset() return _G.tonumber(line.margin_t)*lineOffset end
-Comment: 0,0:00:06.36,0:00:07.08,Miku - Choir,,0,0,0,karaoke,{\k13}bu{\k11}ri{\k8}ki {\k8}no {\k32}DANCE|dans'
+Comment: 0,0:00:00.00,0:00:00.00,Miku - Choir,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:06.36,0:00:07.08,Miku - Choir,,0,0,0,karaoke,{\k13}bu{\k11}ri{\k8}ki {\k8}no {\k32}DANCE
 Comment: 0,0:00:18.19,0:00:19.63,Miku,,0,0,0,karaoke,{\k20}saa, {\k7}a{\k9}wa{\k16}ren{\k20}de, {\k16}ket{\k36}tou{\k20}sho
-Comment: 0,0:00:19.73,0:00:20.90,Miku,,0,0,1,karaoke,{\k16}mo{\k6}chi{\k15}yot{\k19}te {\k16}han{\k19}kyou{\k26}ten
+Comment: 0,0:00:19.73,0:00:20.90,Miku,,0,0,0,karaoke,{\k16}mo{\k6}chi{\k15}yot{\k19}te {\k16}han{\k19}kyou{\k26}ten
 Comment: 0,0:00:20.99,0:00:22.38,Miku,,0,0,0,karaoke,{\k12}shi{\k13}zun{\k10}da {\k16}shou{\k18}dou {\k8}ha{\k9}ra{\k19}bai {\k19}gen{\k15}chou
-Comment: 0,0:00:22.37,0:00:23.68,Miku,,0,0,1,karaoke,{\k19}ek{\k17}ken {\k18}sek{\k17}ken {\k18}mou{\k20}shin {\k22}shou
+Comment: 0,0:00:22.37,0:00:23.68,Miku,,0,0,0,karaoke,{\k19}ek{\k17}ken {\k18}sek{\k17}ken {\k18}mou{\k20}shin {\k22}shou
 Comment: 0,0:00:23.73,0:00:25.19,Miku,,0,0,0,karaoke,{\k9}o{\k15}do{\k16}re {\k19}yo{\k16}e {\k17}ha{\k37}ra{\k17}me
-Comment: 0,0:00:25.35,0:00:26.47,Miku,,0,0,1,karaoke,{\k8}A|a{\k10}VA|va{\k20}TA|taa{\k15}R|ra {\k17}shin{\k18}tai{\k24}kei
+Comment: 0,0:00:25.35,0:00:26.47,Miku,,0,0,0,karaoke,{\k8}A{\k10}VA{\k20}TA{\k15}R {\k17}shin{\k18}tai{\k24}kei
 Comment: 0,0:00:26.57,0:00:27.97,Miku,,0,0,0,karaoke,{\k9}na{\k9}na{\k7}me {\k10}no {\k19}gen{\k11}chou {\k7}bu{\k10}ri{\k8}ki {\k10}to {\k16}shuu{\k19}kyou
-Comment: 0,0:00:27.97,0:00:29.75,Miku,,0,0,1,karaoke,{\k19}ra{\k16}ru ・ {\k19}ra{\k15}ri ・ {\k20}to{\k16}na{\k16}e{\k19}ro {\k38}sei
+Comment: 0,0:00:27.97,0:00:29.75,Miku,,0,0,0,karaoke,{\k19}ra{\k16}ru・{\k19}ra{\k15}ri・{\k20}to{\k16}na{\k16}e{\k19}ro {\k38}sei
 Comment: 0,0:00:40.53,0:00:42.02,Miku,,0,0,0,karaoke,{\k19}maa, {\k7}sa{\k10}ka{\k16}rat{\k19}te {\k16}shin'{\k37}ou{\k25}to
-Comment: 0,0:00:42.07,0:00:43.27,Miku,,0,0,1,karaoke,{\k13}ku{\k8}gu{\k18}mot{\k17}ta {\k17}nou{\k19}ket{\k28}tou
+Comment: 0,0:00:42.07,0:00:43.27,Miku,,0,0,0,karaoke,{\k13}ku{\k8}gu{\k18}mot{\k17}ta {\k17}nou{\k19}ket{\k28}tou
 Comment: 0,0:00:43.28,0:00:44.72,Miku,,0,0,0,karaoke,{\k15}ha{\k11}ka{\k5}bo{\k9}re {\k18}sep{\k15}pou {\k8}sha{\k12}ka {\k8}sha{\k7}ka {\k19}zen{\k15}kou
-Comment: 0,0:00:44.73,0:00:46.04,Miku,,0,0,1,karaoke,{\k16}rok{\k19}kan ・ {\k16}tok{\k19}kan ・ {\k17}rin{\k19}dou ・ {\k25}jou
+Comment: 0,0:00:44.73,0:00:46.04,Miku,,0,0,0,karaoke,{\k16}rok{\k19}kan・{\k16}tok{\k19}kan・{\k17}rin{\k19}dou・{\k25}jou
 Comment: 0,0:00:46.12,0:00:47.53,Miku,,0,0,0,karaoke,{\k18}do{\k18}re{\k19}do{\k14}re, {\k19}fu{\k36}ru{\k17}e
-Comment: 0,0:00:47.71,0:00:48.76,Miku,,0,0,1,karaoke,{\k8}sa{\k9}ge{\k18}sun{\k16}de {\k18}shin{\k17}tai{\k19}kei
+Comment: 0,0:00:47.71,0:00:48.76,Miku,,0,0,0,karaoke,{\k8}sa{\k9}ge{\k18}sun{\k16}de {\k18}shin{\k17}tai{\k19}kei
 Comment: 0,0:00:48.91,0:00:50.31,Miku,,0,0,0,karaoke,{\k11}gi{\k15}man {\k9}no {\k19}en{\k16}chou {\k9}ki{\k16}ben {\k10}no {\k16}ret{\k18}tou
-Comment: 0,0:00:50.31,0:00:51.68,Miku,,0,0,1,karaoke,{\k18}do{\k17}gu ・ {\k16}ra{\k18}gu ・ {\k21}ka{\k15}na{\k20}e{\k12}ro
+Comment: 0,0:00:50.31,0:00:51.68,Miku,,0,0,0,karaoke,{\k18}do{\k17}gu・{\k16}ra{\k18}gu・{\k21}ka{\k15}na{\k20}e{\k12}ro
 Comment: 0,0:00:51.70,0:00:55.54,Miku,,0,0,0,karaoke,{\k36}bu-{\k35}bu-{\k35}bu-{\k15}bu{\k20}ki{\k34}mi {\k18}na {\k17}te, {\k17}ko{\k20}ko {\k16}ni {\k18}a{\k33}ri-{\k36}ri-{\k34}ri
-Comment: 0,0:00:55.54,0:00:58.35,Miku,,0,0,1,karaoke,{\k19}ri{\k18}se{\k34}i {\k18}no {\k14}me, {\k20}mu{\k19}se{\k18}bi {\k13}na{\k37}ki-{\k36}ki-{\k35}ki
+Comment: 0,0:00:55.54,0:00:58.35,Miku,,0,0,0,karaoke,{\k19}ri{\k18}se{\k34}i {\k18}no {\k14}me, {\k20}mu{\k19}se{\k18}bi {\k13}na{\k37}ki-{\k36}ki-{\k35}ki
 Comment: 0,0:00:58.35,0:01:00.31,Miku,,0,0,0,karaoke,{\k15}ki{\k20}bi{\k32}su {\k19}ka{\k18}e{\k17}se {\k18}to{\k17}o{\k19}ku {\k21}ni
-Comment: 0,0:01:00.43,0:01:02.74,Miku,,0,0,1,karaoke,{\k20}shi{\k16}no{\k32}bu {\k19}ki{\k18}mi {\k18}no {\k15}hi{\k20}to{\k16}mi {\k57}wo
+Comment: 0,0:01:00.43,0:01:02.74,Miku,,0,0,0,karaoke,{\k20}shi{\k16}no{\k32}bu {\k19}ki{\k18}mi {\k18}no {\k15}hi{\k20}to{\k16}mi {\k57}wo
 Comment: 0,0:01:02.88,0:01:04.24,Miku,,0,0,0,karaoke,{\k22}saa, {\k7}mi{\k8}na {\k14}mai {\k18}na, {\k20}kuu{\k17}dou {\k30}de
-Comment: 0,0:01:04.27,0:01:05.68,Miku,,0,0,1,karaoke,{\k18}SAN|san{\k9}S|su{\k9}K|ku{\k17}RI|rit{\k15}T|to {\k20}kyuu{\k17}dou{\k36}kei
+Comment: 0,0:01:04.27,0:01:05.68,Miku,,0,0,0,karaoke,{\k18}SAN{\k9}S{\k9}K{\k17}RI{\k15}T {\k20}kyuu{\k17}dou{\k36}kei
 Comment: 0,0:01:05.68,0:01:08.31,Miku,,0,0,0,karaoke,{\k17}e{\k9}gu{\k8}ri {\k17}nui{\k18}ta {\k17}ko{\k19}do{\k18}u {\k15}sa{\k16}ka{\k21}se {\k17}sa{\k17}ka{\k54}se
-Comment: 0,0:01:08.47,0:01:09.81,Miku,,0,0,1,karaoke,{\k19}saa, {\k16}hyou{\k16}kan {\k19}na {\k18}sou{\k17}bo {\k29}wo
-Comment: 0,0:01:09.86,0:01:11.22,Miku,,0,0,0,karaoke,{\k19}E|ee{\k9}KA|ka{\k8}M|mu{\k16}, sou{\k19}sa, {\k18}sen{\k17}tou {\k30}ni
-Comment: 0,0:01:11.28,0:01:13.74,Miku,,0,0,1,karaoke,{\k17}mak{\k10}ka {\k7}ni {\k16}nu{\k18}re{\k19}ta {\k17}so{\k17}ra, {\k15}ka{\k19}ka{\k17}to {\k19}na{\k18}ra{\k37}se
+Comment: 0,0:01:08.47,0:01:09.81,Miku,,0,0,0,karaoke,{\k19}saa, {\k16}hyou{\k16}kan {\k19}na {\k18}sou{\k17}bo {\k29}wo
+Comment: 0,0:01:09.86,0:01:11.22,Miku,,0,0,0,karaoke,{\k19}E{\k9}KA{\k24}M, sou{\k19}sa, {\k18}sen{\k17}tou {\k30}ni
+Comment: 0,0:01:11.28,0:01:13.74,Miku,,0,0,0,karaoke,{\k17}mak{\k10}ka {\k7}ni {\k16}nu{\k18}re{\k19}ta {\k17}so{\k17}ra, {\k15}ka{\k19}ka{\k17}to {\k19}na{\k18}ra{\k37}se
 Comment: 0,0:01:14.07,0:01:15.44,Miku,,0,0,0,karaoke,{\k18}aa, {\k7}ba{\k8}ku{\k18}zen {\k19}to {\k17}un{\k17}mei{\k33}sei
-Comment: 0,0:01:15.46,0:01:16.82,Miku,,0,0,1,karaoke,{\k18}juu{\k6}do {\k10}ni {\k18}ot{\k17}ta {\k18}zen{\k17}mei {\k32}ni
+Comment: 0,0:01:15.46,0:01:16.82,Miku,,0,0,0,karaoke,{\k18}juu{\k6}do {\k10}ni {\k18}ot{\k17}ta {\k18}zen{\k17}mei {\k32}ni
 Comment: 0,0:01:16.85,0:01:19.41,Miku,,0,0,0,karaoke,{\k15}yuu{\k10}re{\k11}tsu {\k18}na{\k12}do {\k22}na{\k17}i {\k17}sa {\k19}ma{\k18}wa{\k16}re {\k18}o{\k16}do{\k47}re
-Comment: 0,0:01:19.65,0:01:22.21,Miku,,0,0,1,karaoke,{\k16}mou, {\k10}ba{\k9}ku{\k16}zen {\k17}to {\k17}kyuu{\k19}ban{\k16}me {\k20}ga {\k37}ryuu {\k15}wo {\k17}na{\k47}gu
-Comment: 0,0:01:22.41,0:01:25.38,Miku,,0,0,0,karaoke,{\k38}pap{\k18}pa{\k17}ra ・ {\k18}ra{\k16}ru ・ {\k20}ra{\k13}ri, {\k19}bu{\k22}ri{\k15}ki {\k18}no {\k83}DANCE|dans'
-Dialogue: 0,0:00:05.46,0:00:07.28,Miku - Choir,,0,0,0,fx,{\fade(300,200)\an5\pos(127.095703125,92)\k90\k20}
-Dialogue: 0,0:00:05.46,0:00:07.28,Miku - Choir,,0,0,0,fx,{\fade(300,200)\an5\pos(136.939453125,92)\k90\k33}bu
-Dialogue: 0,0:00:05.46,0:00:07.28,Miku - Choir,,0,0,0,fx,{\fade(300,200)\an5\pos(152.15625,92)\k103\k31}ri
-Dialogue: 0,0:00:05.46,0:00:07.28,Miku - Choir,,0,0,0,fx,{\fade(300,200)\an5\pos(164.25,92)\k114\k28}ki
-Dialogue: 0,0:00:05.46,0:00:07.28,Miku - Choir,,0,0,0,fx,{\fade(300,200)\an5\pos(185.291015625,92)\k122\k28}no
-Dialogue: 0,0:00:05.46,0:00:07.28,Miku - Choir,,0,0,0,fx,{\fade(300,200)\an5\pos(228.2578125,92)\k130\k52}DANCE
-Dialogue: 0,0:00:05.46,0:00:07.28,Miku - Choir-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(228.2578125,74)\k130\k52}dans'
-Dialogue: 0,0:00:17.29,0:00:19.83,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(93.919921875,32)\k90\k20}
-Dialogue: 0,0:00:17.29,0:00:19.83,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(109.60546875,32)\k90\k40}saa,
-Dialogue: 0,0:00:17.29,0:00:19.83,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(134.25,32)\k110\k27}a
-Dialogue: 0,0:00:17.29,0:00:19.83,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(149.484375,32)\k117\k29}wa
-Dialogue: 0,0:00:17.29,0:00:19.83,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(172.775390625,32)\k126\k36}ren
-Dialogue: 0,0:00:17.29,0:00:19.83,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(196.95703125,32)\k142\k40}de,
-Dialogue: 0,0:00:17.29,0:00:19.83,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(224.724609375,32)\k162\k36}ket
-Dialogue: 0,0:00:17.29,0:00:19.83,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(248.900390625,32)\k178\k56}tou
-Dialogue: 0,0:00:17.29,0:00:19.83,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(275.75390625,32)\k214\k40}sho
-Dialogue: 0,0:00:18.83,0:00:21.10,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(101.5546875,73)\k90\k20}
-Dialogue: 0,0:00:18.83,0:00:21.10,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(113.642578125,73)\k90\k36}mo
-Dialogue: 0,0:00:18.83,0:00:21.10,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(137.373046875,73)\k106\k26}chi
-Dialogue: 0,0:00:18.83,0:00:21.10,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(161.103515625,73)\k112\k35}yot
-Dialogue: 0,0:00:18.83,0:00:21.10,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(180.357421875,73)\k127\k39}te
-Dialogue: 0,0:00:18.83,0:00:21.10,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(206.326171875,73)\k146\k36}han
-Dialogue: 0,0:00:18.83,0:00:21.10,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(239.4609375,73)\k162\k39}kyou
-Dialogue: 0,0:00:18.83,0:00:21.10,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(270.357421875,73)\k181\k46}ten
-Dialogue: 0,0:00:20.09,0:00:22.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(54.111328125,32)\k90\k20}
-Dialogue: 0,0:00:20.09,0:00:22.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(65.75390625,32)\k90\k32}shi
-Dialogue: 0,0:00:20.09,0:00:22.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(91.271484375,32)\k102\k33}zun
-Dialogue: 0,0:00:20.09,0:00:22.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(114.55078125,32)\k115\k30}da
-Dialogue: 0,0:00:20.09,0:00:22.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(147.6796875,32)\k125\k36}shou
-Dialogue: 0,0:00:20.09,0:00:22.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(181.693359375,32)\k141\k38}dou
-Dialogue: 0,0:00:20.09,0:00:22.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(210.33984375,32)\k159\k28}ha
-Dialogue: 0,0:00:20.09,0:00:22.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(227.361328125,32)\k167\k29}ra
-Dialogue: 0,0:00:20.09,0:00:22.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(246.62109375,32)\k176\k39}bai
-Dialogue: 0,0:00:20.09,0:00:22.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(277.06640625,32)\k195\k39}gen
-Dialogue: 0,0:00:20.09,0:00:22.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(310.640625,32)\k214\k35}chou
-Dialogue: 0,0:00:21.47,0:00:23.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(82.27734375,73)\k90\k20}
-Dialogue: 0,0:00:21.47,0:00:23.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(91.2421875,73)\k90\k39}ek
-Dialogue: 0,0:00:21.47,0:00:23.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(114.09375,73)\k109\k37}ken
-Dialogue: 0,0:00:21.47,0:00:23.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(145.904296875,73)\k126\k38}sek
-Dialogue: 0,0:00:21.47,0:00:23.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(173.23828125,73)\k144\k37}ken
-Dialogue: 0,0:00:21.47,0:00:23.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(208.611328125,73)\k161\k38}mou
-Dialogue: 0,0:00:21.47,0:00:23.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(242.185546875,73)\k179\k40}shin
-Dialogue: 0,0:00:21.47,0:00:23.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(282.474609375,73)\k199\k42}shou
-Dialogue: 0,0:00:22.83,0:00:25.39,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(122.583984375,32)\k90\k20}
-Dialogue: 0,0:00:22.83,0:00:25.39,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(127.505859375,32)\k90\k29}o
-Dialogue: 0,0:00:22.83,0:00:25.39,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(142.271484375,32)\k99\k35}do
-Dialogue: 0,0:00:22.83,0:00:25.39,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(159.732421875,32)\k114\k36}re
-Dialogue: 0,0:00:22.83,0:00:25.39,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(181.23046875,32)\k130\k39}yo
-Dialogue: 0,0:00:22.83,0:00:25.39,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(195.1171875,32)\k149\k36}e
-Dialogue: 0,0:00:22.83,0:00:25.39,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(213.48046875,32)\k165\k37}ha
-Dialogue: 0,0:00:22.83,0:00:25.39,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(230.501953125,32)\k182\k57}ra
-Dialogue: 0,0:00:22.83,0:00:25.39,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(249.767578125,32)\k219\k37}me
-Dialogue: 0,0:00:24.45,0:00:26.67,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(119.021484375,73)\k90\k20}
-Dialogue: 0,0:00:24.45,0:00:26.67,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(124.83984375,73)\k90\k28}A
-Dialogue: 0,0:00:24.45,0:00:26.67,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(141.849609375,73)\k98\k30}VA
-Dialogue: 0,0:00:24.45,0:00:26.67,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(163.78125,73)\k108\k40}TA
-Dialogue: 0,0:00:24.45,0:00:26.67,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(180.33984375,73)\k128\k35}R
-Dialogue: 0,0:00:24.45,0:00:26.67,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(207.19921875,73)\k143\k37}shin
-Dialogue: 0,0:00:24.45,0:00:26.67,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(233.16796875,73)\k160\k38}tai
-Dialogue: 0,0:00:24.45,0:00:26.67,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(253.775390625,73)\k178\k44}kei
-Dialogue: 0,0:00:24.45,0:00:26.67,Miku-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(140.73046875,55)\k90\k28}a
-Dialogue: 0,0:00:24.45,0:00:26.67,Miku-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(147.4453125,55)\k98\k30}va
-Dialogue: 0,0:00:24.45,0:00:26.67,Miku-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(157.740234375,55)\k108\k40}taa
-Dialogue: 0,0:00:24.45,0:00:26.67,Miku-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(167.361328125,55)\k128\k35}ra
-Dialogue: 0,0:00:25.67,0:00:28.17,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(39.333984375,32)\k90\k20}
-Dialogue: 0,0:00:25.67,0:00:28.17,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(48.73828125,32)\k90\k29}na
-Dialogue: 0,0:00:25.67,0:00:28.17,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(67.546875,32)\k99\k29}na
-Dialogue: 0,0:00:25.67,0:00:28.17,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(88.599609375,32)\k108\k27}me
-Dialogue: 0,0:00:25.67,0:00:28.17,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(114.568359375,32)\k115\k30}no
-Dialogue: 0,0:00:25.67,0:00:28.17,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(143.21484375,32)\k125\k39}gen
-Dialogue: 0,0:00:25.67,0:00:28.17,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(176.7890625,32)\k144\k31}chou
-Dialogue: 0,0:00:25.67,0:00:28.17,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(210.357421875,32)\k155\k27}bu
-Dialogue: 0,0:00:25.67,0:00:28.17,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(225.57421875,32)\k162\k30}ri
-Dialogue: 0,0:00:25.67,0:00:28.17,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(237.66796875,32)\k172\k28}ki
-Dialogue: 0,0:00:25.67,0:00:28.17,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(256.470703125,32)\k180\k30}to
-Dialogue: 0,0:00:25.67,0:00:28.17,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(287.80078125,32)\k190\k36}shuu
-Dialogue: 0,0:00:25.67,0:00:28.17,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(325.857421875,32)\k206\k39}kyou
-Dialogue: 0,0:00:27.07,0:00:29.95,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(103.423828125,73)\k90\k20}
-Dialogue: 0,0:00:27.07,0:00:29.95,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(111.041015625,73)\k90\k39}ra
-Dialogue: 0,0:00:27.07,0:00:29.95,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(132.9375,73)\k109\k36}ru ・
-Dialogue: 0,0:00:27.07,0:00:29.95,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(159.310546875,73)\k125\k39}ra
-Dialogue: 0,0:00:27.07,0:00:29.95,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(178.5234375,73)\k144\k35}ri ・
-Dialogue: 0,0:00:27.07,0:00:29.95,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(202.201171875,73)\k159\k40}to
-Dialogue: 0,0:00:27.07,0:00:29.95,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(219.2109375,73)\k179\k36}na
-Dialogue: 0,0:00:27.07,0:00:29.95,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(233.09765625,73)\k195\k36}e
-Dialogue: 0,0:00:27.07,0:00:29.95,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(245.63671875,73)\k211\k39}ro
-Dialogue: 0,0:00:27.07,0:00:29.95,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(269.373046875,73)\k230\k58}sei
-Dialogue: 0,0:00:39.63,0:00:42.22,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(97.828125,32)\k90\k20}
-Dialogue: 0,0:00:39.63,0:00:42.22,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(116.197265625,32)\k90\k39}maa,
-Dialogue: 0,0:00:39.63,0:00:42.22,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(148.0078125,32)\k109\k27}sa
-Dialogue: 0,0:00:39.63,0:00:42.22,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(165.9375,32)\k116\k30}ka
-Dialogue: 0,0:00:39.63,0:00:42.22,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(185.203125,32)\k126\k36}rat
-Dialogue: 0,0:00:39.63,0:00:42.22,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(202.669921875,32)\k142\k39}te
-Dialogue: 0,0:00:39.63,0:00:42.22,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(232.79296875,32)\k161\k36}shin'
-Dialogue: 0,0:00:39.63,0:00:42.22,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(261.1171875,32)\k177\k57}ou
-Dialogue: 0,0:00:39.63,0:00:42.22,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(278.56640625,32)\k214\k45}to
-Dialogue: 0,0:00:41.17,0:00:43.47,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(109.634765625,73)\k90\k20}
-Dialogue: 0,0:00:41.17,0:00:43.47,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(119.0390625,73)\k90\k33}ku
-Dialogue: 0,0:00:41.17,0:00:43.47,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(138.287109375,73)\k103\k28}gu
-Dialogue: 0,0:00:41.17,0:00:43.47,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(162.90234375,73)\k111\k38}mot
-Dialogue: 0,0:00:41.17,0:00:43.47,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(184.83984375,73)\k129\k37}ta
-Dialogue: 0,0:00:41.17,0:00:43.47,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(211.248046875,73)\k146\k37}nou
-Dialogue: 0,0:00:41.17,0:00:43.47,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(237.662109375,73)\k163\k39}ket
-Dialogue: 0,0:00:41.17,0:00:43.47,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(261.837890625,73)\k182\k48}tou
-Dialogue: 0,0:00:42.38,0:00:44.92,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(45.099609375,32)\k90\k20}
-Dialogue: 0,0:00:42.38,0:00:44.92,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(54.50390625,32)\k90\k35}ha
-Dialogue: 0,0:00:42.38,0:00:44.92,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(72.873046875,32)\k105\k31}ka
-Dialogue: 0,0:00:42.38,0:00:44.92,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(91.681640625,32)\k116\k25}bo
-Dialogue: 0,0:00:42.38,0:00:44.92,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(109.142578125,32)\k121\k29}re
-Dialogue: 0,0:00:42.38,0:00:44.92,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(135.123046875,32)\k130\k38}sep
-Dialogue: 0,0:00:42.38,0:00:44.92,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(163.775390625,32)\k148\k35}pou
-Dialogue: 0,0:00:42.38,0:00:44.92,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(196.904296875,32)\k163\k28}sha
-Dialogue: 0,0:00:42.38,0:00:44.92,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(219.755859375,32)\k171\k32}ka
-Dialogue: 0,0:00:42.38,0:00:44.92,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(247.083984375,32)\k183\k28}sha
-Dialogue: 0,0:00:42.38,0:00:44.92,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(269.935546875,32)\k191\k27}ka
-Dialogue: 0,0:00:42.38,0:00:44.92,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(296.8125,32)\k198\k39}zen
-Dialogue: 0,0:00:42.38,0:00:44.92,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(324.57421875,32)\k217\k35}kou
-Dialogue: 0,0:00:43.83,0:00:46.24,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(77.07421875,73)\k90\k20}
-Dialogue: 0,0:00:43.83,0:00:46.24,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(89.61328125,73)\k90\k36}rok
-Dialogue: 0,0:00:43.83,0:00:46.24,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(122.26171875,73)\k106\k39}kan ・
-Dialogue: 0,0:00:43.83,0:00:46.24,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(158.935546875,73)\k125\k36}tok
-Dialogue: 0,0:00:43.83,0:00:46.24,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(191.1328125,73)\k141\k39}kan ・
-Dialogue: 0,0:00:43.83,0:00:46.24,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(226.013671875,73)\k160\k37}rin
-Dialogue: 0,0:00:43.83,0:00:46.24,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(257.296875,73)\k177\k39}dou ・
-Dialogue: 0,0:00:43.83,0:00:46.24,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(294.84375,73)\k196\k45}jou
-Dialogue: 0,0:00:45.22,0:00:47.73,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(132.45703125,32)\k90\k20}
-Dialogue: 0,0:00:45.22,0:00:47.73,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(142.30078125,32)\k90\k38}do
-Dialogue: 0,0:00:45.22,0:00:47.73,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(159.76171875,32)\k108\k38}re
-Dialogue: 0,0:00:45.22,0:00:47.73,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(177.22265625,32)\k126\k39}do
-Dialogue: 0,0:00:45.22,0:00:47.73,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(196.921875,32)\k145\k34}re,
-Dialogue: 0,0:00:45.22,0:00:47.73,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(218.859375,32)\k159\k39}fu
-Dialogue: 0,0:00:45.22,0:00:47.73,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(234.521484375,32)\k178\k56}ru
-Dialogue: 0,0:00:45.22,0:00:47.73,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(247.060546875,32)\k214\k37}e
-Dialogue: 0,0:00:46.81,0:00:48.96,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(110.490234375,73)\k90\k20}
-Dialogue: 0,0:00:46.81,0:00:48.96,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(119.455078125,73)\k90\k28}sa
-Dialogue: 0,0:00:46.81,0:00:48.96,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(137.82421875,73)\k98\k29}ge
-Dialogue: 0,0:00:46.81,0:00:48.96,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(161.5546875,73)\k107\k38}sun
-Dialogue: 0,0:00:46.81,0:00:48.96,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(185.28515625,73)\k125\k36}de
-Dialogue: 0,0:00:46.81,0:00:48.96,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(215.73046875,73)\k141\k38}shin
-Dialogue: 0,0:00:46.81,0:00:48.96,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(241.69921875,73)\k159\k37}tai
-Dialogue: 0,0:00:46.81,0:00:48.96,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(262.306640625,73)\k176\k39}kei
-Dialogue: 0,0:00:48.01,0:00:50.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(64.86328125,32)\k90\k20}
-Dialogue: 0,0:00:48.01,0:00:50.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(72.0234375,32)\k90\k31}gi
-Dialogue: 0,0:00:48.01,0:00:50.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(95.75390625,32)\k101\k35}man
-Dialogue: 0,0:00:48.01,0:00:50.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(126.64453125,32)\k116\k29}no
-Dialogue: 0,0:00:48.01,0:00:50.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(150.369140625,32)\k125\k39}en
-Dialogue: 0,0:00:48.01,0:00:50.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(179.021484375,32)\k144\k36}chou
-Dialogue: 0,0:00:48.01,0:00:50.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(209.466796875,32)\k160\k29}ki
-Dialogue: 0,0:00:48.01,0:00:50.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(230.513671875,32)\k169\k36}ben
-Dialogue: 0,0:00:48.01,0:00:50.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(259.16015625,32)\k185\k30}no
-Dialogue: 0,0:00:48.01,0:00:50.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(283.78125,32)\k195\k36}ret
-Dialogue: 0,0:00:48.01,0:00:50.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(306.609375,32)\k211\k38}tou
-Dialogue: 0,0:00:49.41,0:00:51.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(107.021484375,73)\k90\k20}
-Dialogue: 0,0:00:49.41,0:00:51.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(116.865234375,73)\k90\k38}do
-Dialogue: 0,0:00:49.41,0:00:51.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(142.775390625,73)\k108\k37}gu ・
-Dialogue: 0,0:00:49.41,0:00:51.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(170.935546875,73)\k125\k36}ra
-Dialogue: 0,0:00:49.41,0:00:51.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(194.619140625,73)\k141\k38}gu ・
-Dialogue: 0,0:00:49.41,0:00:51.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(224.126953125,73)\k159\k41}ka
-Dialogue: 0,0:00:49.41,0:00:51.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(242.49609375,73)\k180\k35}na
-Dialogue: 0,0:00:49.41,0:00:51.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(256.3828125,73)\k195\k40}e
-Dialogue: 0,0:00:49.41,0:00:51.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(268.921875,73)\k215\k32}ro
-Dialogue: 0,0:00:50.80,0:00:55.74,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(46.51171875,32)\k90\k20}
-Dialogue: 0,0:00:50.80,0:00:55.74,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(59.0390625,32)\k90\k56}bu-
-Dialogue: 0,0:00:50.80,0:00:55.74,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(84.09375,32)\k126\k55}bu-
-Dialogue: 0,0:00:50.80,0:00:55.74,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(109.1484375,32)\k161\k55}bu-
-Dialogue: 0,0:00:50.80,0:00:55.74,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(131.51953125,32)\k196\k35}bu
-Dialogue: 0,0:00:50.80,0:00:55.74,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(148.083984375,32)\k211\k40}ki
-Dialogue: 0,0:00:50.80,0:00:55.74,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(164.208984375,32)\k231\k54}mi
-Dialogue: 0,0:00:50.80,0:00:55.74,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(187.494140625,32)\k265\k38}na
-Dialogue: 0,0:00:50.80,0:00:55.74,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(210.779296875,32)\k283\k37}te,
-Dialogue: 0,0:00:50.80,0:00:55.74,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(234.064453125,32)\k300\k37}ko
-Dialogue: 0,0:00:50.80,0:00:55.74,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(252.873046875,32)\k317\k40}ko
-Dialogue: 0,0:00:50.80,0:00:55.74,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(273.9140625,32)\k337\k36}ni
-Dialogue: 0,0:00:50.80,0:00:55.74,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(290.033203125,32)\k353\k38}a
-Dialogue: 0,0:00:50.80,0:00:55.74,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(302.572265625,32)\k371\k53}ri-
-Dialogue: 0,0:00:50.80,0:00:55.74,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(318.685546875,32)\k404\k56}ri-
-Dialogue: 0,0:00:50.80,0:00:55.74,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(332.115234375,32)\k440\k54}ri
-Dialogue: 0,0:00:54.64,0:00:58.55,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(79.59375,73)\k90\k20}
-Dialogue: 0,0:00:54.64,0:00:58.55,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(84.966796875,73)\k90\k39}ri
-Dialogue: 0,0:00:54.64,0:00:58.55,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(99.3046875,73)\k109\k38}se
-Dialogue: 0,0:00:54.64,0:00:58.55,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(110.5078125,73)\k127\k54}i
-Dialogue: 0,0:00:54.64,0:00:58.55,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(127.06640625,73)\k161\k38}no
-Dialogue: 0,0:00:54.64,0:00:58.55,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(155.2734375,73)\k179\k34}me,
-Dialogue: 0,0:00:54.64,0:00:58.55,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(185.724609375,73)\k193\k40}mu
-Dialogue: 0,0:00:54.64,0:00:58.55,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(206.77734375,73)\k213\k39}se
-Dialogue: 0,0:00:54.64,0:00:58.55,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(222.90234375,73)\k232\k38}bi
-Dialogue: 0,0:00:54.64,0:00:58.55,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(243.943359375,73)\k250\k33}na
-Dialogue: 0,0:00:54.64,0:00:58.55,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(262.751953125,73)\k263\k57}ki-
-Dialogue: 0,0:00:54.64,0:00:58.55,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(281.560546875,73)\k300\k56}ki-
-Dialogue: 0,0:00:54.64,0:00:58.55,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(297.685546875,73)\k336\k55}ki
-Dialogue: 0,0:00:57.45,0:01:00.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(110.49609375,32)\k90\k20}
-Dialogue: 0,0:00:57.45,0:01:00.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(117.216796875,32)\k90\k35}ki
-Dialogue: 0,0:00:57.45,0:01:00.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(131.09765625,32)\k105\k40}bi
-Dialogue: 0,0:00:57.45,0:01:00.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(147.662109375,32)\k125\k52}su
-Dialogue: 0,0:00:57.45,0:01:00.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(170.5078125,32)\k157\k39}ka
-Dialogue: 0,0:00:57.45,0:01:00.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(183.955078125,32)\k176\k38}e
-Dialogue: 0,0:00:57.45,0:01:00.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(197.40234375,32)\k194\k37}se
-Dialogue: 0,0:00:57.45,0:01:00.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(218.44921875,32)\k211\k38}to
-Dialogue: 0,0:00:57.45,0:01:00.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(230.9765625,32)\k229\k37}o
-Dialogue: 0,0:00:57.45,0:01:00.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(245.302734375,32)\k246\k39}ku
-Dialogue: 0,0:00:57.45,0:01:00.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(266.34375,32)\k265\k41}ni
-Dialogue: 0,0:00:59.53,0:01:02.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(90.38671875,73)\k90\k20}
-Dialogue: 0,0:00:59.53,0:01:02.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(102.029296875,73)\k90\k40}shi
-Dialogue: 0,0:00:59.53,0:01:02.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(123.515625,73)\k110\k36}no
-Dialogue: 0,0:00:59.53,0:01:02.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(143.203125,73)\k126\k52}bu
-Dialogue: 0,0:00:59.53,0:01:02.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(164.244140625,73)\k158\k39}ki
-Dialogue: 0,0:00:59.53,0:01:02.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(180.369140625,73)\k177\k38}mi
-Dialogue: 0,0:00:59.53,0:01:02.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(204.09375,73)\k195\k38}no
-Dialogue: 0,0:00:59.53,0:01:02.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(225.57421875,73)\k213\k35}hi
-Dialogue: 0,0:00:59.53,0:01:02.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(240.33984375,73)\k228\k40}to
-Dialogue: 0,0:00:59.53,0:01:02.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(257.349609375,73)\k248\k36}mi
-Dialogue: 0,0:00:59.53,0:01:02.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(282.421875,73)\k264\k77}wo
-Dialogue: 0,0:01:01.98,0:01:04.44,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(82.2890625,32)\k90\k20}
-Dialogue: 0,0:01:01.98,0:01:04.44,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(97.974609375,32)\k90\k42}saa,
-Dialogue: 0,0:01:01.98,0:01:04.44,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(127.541015625,32)\k112\k27}mi
-Dialogue: 0,0:01:01.98,0:01:04.44,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(146.349609375,32)\k119\k28}na
-Dialogue: 0,0:01:01.98,0:01:04.44,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(174.1171875,32)\k127\k34}mai
-Dialogue: 0,0:01:01.98,0:01:04.44,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(204.123046875,32)\k141\k38}na,
-Dialogue: 0,0:01:01.98,0:01:04.44,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(234.568359375,32)\k159\k40}kuu
-Dialogue: 0,0:01:01.98,0:01:04.44,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(263.66015625,32)\k179\k37}dou
-Dialogue: 0,0:01:01.98,0:01:04.44,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(292.306640625,32)\k196\k50}de
-Dialogue: 0,0:01:03.37,0:01:05.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(103.8046875,73)\k90\k20}
-Dialogue: 0,0:01:03.37,0:01:05.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(120.814453125,73)\k90\k38}SAN
-Dialogue: 0,0:01:03.37,0:01:05.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(143.197265625,73)\k108\k29}S
-Dialogue: 0,0:01:03.37,0:01:05.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(154.388671875,73)\k117\k29}K
-Dialogue: 0,0:01:03.37,0:01:05.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(168.263671875,73)\k126\k37}RI
-Dialogue: 0,0:01:03.37,0:01:05.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(181.2421875,73)\k143\k35}T
-Dialogue: 0,0:01:03.37,0:01:05.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(209.44921875,73)\k158\k40}kyuu
-Dialogue: 0,0:01:03.37,0:01:05.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(243.0234375,73)\k178\k37}dou
-Dialogue: 0,0:01:03.37,0:01:05.88,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(268.9921875,73)\k195\k56}kei
-Dialogue: 0,0:01:03.37,0:01:05.88,Miku-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(129.99609375,55)\k90\k38}san
-Dialogue: 0,0:01:03.37,0:01:05.88,Miku-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(141.6328125,55)\k108\k29}su
-Dialogue: 0,0:01:03.37,0:01:05.88,Miku-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(151.03125,55)\k117\k29}ku
-Dialogue: 0,0:01:03.37,0:01:05.88,Miku-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(159.755859375,55)\k126\k37}rit
-Dialogue: 0,0:01:03.37,0:01:05.88,Miku-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(167.583984375,55)\k143\k35}to
-Dialogue: 0,0:01:04.78,0:01:08.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(66.140625,32)\k90\k20}
-Dialogue: 0,0:01:04.78,0:01:08.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(70.623046875,32)\k90\k37}e
-Dialogue: 0,0:01:04.78,0:01:08.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(84.94921875,32)\k107\k29}gu
-Dialogue: 0,0:01:04.78,0:01:08.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(100.166015625,32)\k116\k28}ri
-Dialogue: 0,0:01:04.78,0:01:08.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(122.09765625,32)\k124\k37}nui
-Dialogue: 0,0:01:04.78,0:01:08.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(141.345703125,32)\k141\k38}ta
-Dialogue: 0,0:01:04.78,0:01:08.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(162.392578125,32)\k159\k37}ko
-Dialogue: 0,0:01:04.78,0:01:08.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(181.640625,32)\k176\k39}do
-Dialogue: 0,0:01:04.78,0:01:08.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(196.40625,32)\k195\k38}u
-Dialogue: 0,0:01:04.78,0:01:08.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(214.76953125,32)\k213\k35}sa
-Dialogue: 0,0:01:04.78,0:01:08.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(232.69921875,32)\k228\k36}ka
-Dialogue: 0,0:01:04.78,0:01:08.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(250.62890625,32)\k244\k41}se
-Dialogue: 0,0:01:04.78,0:01:08.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(273.03515625,32)\k265\k37}sa
-Dialogue: 0,0:01:04.78,0:01:08.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(290.96484375,32)\k282\k37}ka
-Dialogue: 0,0:01:04.78,0:01:08.51,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(308.89453125,32)\k299\k74}se
-Dialogue: 0,0:01:07.57,0:01:10.01,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(89.4609375,73)\k90\k20}
-Dialogue: 0,0:01:07.57,0:01:10.01,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(105.146484375,73)\k90\k39}saa,
-Dialogue: 0,0:01:07.57,0:01:10.01,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(144.556640625,73)\k109\k36}hyou
-Dialogue: 0,0:01:07.57,0:01:10.01,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(177.69140625,73)\k125\k36}kan
-Dialogue: 0,0:01:07.57,0:01:10.01,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(205.458984375,73)\k141\k39}na
-Dialogue: 0,0:01:07.57,0:01:10.01,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(233.666015625,73)\k160\k38}sou
-Dialogue: 0,0:01:07.57,0:01:10.01,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(257.8359375,73)\k178\k37}bo
-Dialogue: 0,0:01:07.57,0:01:10.01,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(283.34765625,73)\k195\k49}wo
-Dialogue: 0,0:01:08.96,0:01:11.42,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(100.224609375,32)\k90\k20}
-Dialogue: 0,0:01:08.96,0:01:11.42,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(105.59765625,32)\k90\k39}E
-Dialogue: 0,0:01:08.96,0:01:11.42,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(122.607421875,32)\k109\k29}KA
-Dialogue: 0,0:01:08.96,0:01:11.42,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(140.953125,32)\k118\k28}M
-Dialogue: 0,0:01:08.96,0:01:11.42,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(166.46484375,32)\k126\k36}, sou
-Dialogue: 0,0:01:08.96,0:01:11.42,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(196.470703125,32)\k142\k39}sa,
-Dialogue: 0,0:01:08.96,0:01:11.42,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(226.037109375,32)\k161\k38}sen
-Dialogue: 0,0:01:08.96,0:01:11.42,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(252.451171875,32)\k179\k37}tou
-Dialogue: 0,0:01:08.96,0:01:11.42,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(276.615234375,32)\k196\k50}ni
-Dialogue: 0,0:01:08.96,0:01:11.42,Miku-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(113.42578125,14)\k90\k39}ee
-Dialogue: 0,0:01:08.96,0:01:11.42,Miku-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(122.37890625,14)\k109\k29}ka
-Dialogue: 0,0:01:08.96,0:01:11.42,Miku-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(132.896484375,14)\k118\k28}mu
-Dialogue: 0,0:01:10.38,0:01:13.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(53.14453125,73)\k90\k20}
-Dialogue: 0,0:01:10.38,0:01:13.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(69.275390625,73)\k90\k37}mak
-Dialogue: 0,0:01:10.38,0:01:13.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(94.37109375,73)\k107\k30}ka
-Dialogue: 0,0:01:10.38,0:01:13.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(114.97265625,73)\k117\k27}ni
-Dialogue: 0,0:01:10.38,0:01:13.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(136.453125,73)\k124\k36}nu
-Dialogue: 0,0:01:10.38,0:01:13.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(153.9140625,73)\k140\k38}re
-Dialogue: 0,0:01:10.38,0:01:13.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(168.697265625,73)\k158\k39}ta
-Dialogue: 0,0:01:10.38,0:01:13.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(189.744140625,73)\k177\k37}so
-Dialogue: 0,0:01:10.38,0:01:13.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(209.00390625,73)\k194\k37}ra,
-Dialogue: 0,0:01:10.38,0:01:13.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(232.30078125,73)\k211\k35}ka
-Dialogue: 0,0:01:10.38,0:01:13.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(250.23046875,73)\k226\k39}ka
-Dialogue: 0,0:01:10.38,0:01:13.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(266.80078125,73)\k245\k37}to
-Dialogue: 0,0:01:10.38,0:01:13.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(288.287109375,73)\k262\k39}na
-Dialogue: 0,0:01:10.38,0:01:13.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(305.30859375,73)\k281\k38}ra
-Dialogue: 0,0:01:10.38,0:01:13.94,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(321.890625,73)\k299\k57}se
-Dialogue: 0,0:01:13.17,0:01:15.64,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(99.298828125,32)\k90\k20}
-Dialogue: 0,0:01:13.17,0:01:15.64,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(110.501953125,32)\k90\k38}aa,
-Dialogue: 0,0:01:13.17,0:01:15.64,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(135.5859375,32)\k108\k27}ba
-Dialogue: 0,0:01:13.17,0:01:15.64,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(154.39453125,32)\k115\k28}ku
-Dialogue: 0,0:01:13.17,0:01:15.64,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(177.234375,32)\k123\k38}zen
-Dialogue: 0,0:01:13.17,0:01:15.64,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(202.751953125,32)\k141\k39}to
-Dialogue: 0,0:01:13.17,0:01:15.64,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(224.677734375,32)\k160\k37}un
-Dialogue: 0,0:01:13.17,0:01:15.64,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(248.408203125,32)\k177\k37}mei
-Dialogue: 0,0:01:13.17,0:01:15.64,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(273.498046875,32)\k194\k53}sei
-Dialogue: 0,0:01:14.56,0:01:17.02,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(104.70703125,73)\k90\k20}
-Dialogue: 0,0:01:14.56,0:01:17.02,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(116.7890625,73)\k90\k38}juu
-Dialogue: 0,0:01:14.56,0:01:17.02,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(138.71484375,73)\k108\k26}do
-Dialogue: 0,0:01:14.56,0:01:17.02,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(160.1953125,73)\k114\k30}ni
-Dialogue: 0,0:01:14.56,0:01:17.02,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(179.4375,73)\k124\k38}ot
-Dialogue: 0,0:01:14.56,0:01:17.02,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(194.208984375,73)\k142\k37}ta
-Dialogue: 0,0:01:14.56,0:01:17.02,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(219.287109375,73)\k159\k38}zen
-Dialogue: 0,0:01:14.56,0:01:17.02,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(246.609375,73)\k177\k37}mei
-Dialogue: 0,0:01:14.56,0:01:17.02,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(272.1328125,73)\k194\k52}ni
-Dialogue: 0,0:01:15.95,0:01:19.61,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(54.521484375,32)\k90\k20}
-Dialogue: 0,0:01:15.95,0:01:19.61,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(68.84765625,32)\k90\k35}yuu
-Dialogue: 0,0:01:15.95,0:01:19.61,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(90.791015625,32)\k105\k30}re
-Dialogue: 0,0:01:15.95,0:01:19.61,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(110.49609375,32)\k115\k31}tsu
-Dialogue: 0,0:01:15.95,0:01:19.61,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(136.46484375,32)\k126\k38}na
-Dialogue: 0,0:01:15.95,0:01:19.61,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(155.712890625,32)\k144\k32}do
-Dialogue: 0,0:01:15.95,0:01:19.61,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(179.4375,32)\k156\k42}na
-Dialogue: 0,0:01:15.95,0:01:19.61,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(191.080078125,32)\k178\k37}i
-Dialogue: 0,0:01:15.95,0:01:19.61,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(206.759765625,32)\k195\k37}sa
-Dialogue: 0,0:01:15.95,0:01:19.61,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(231.849609375,32)\k212\k39}ma
-Dialogue: 0,0:01:15.95,0:01:19.61,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(254.25,32)\k231\k38}wa
-Dialogue: 0,0:01:15.95,0:01:19.61,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(272.619140625,32)\k249\k36}re
-Dialogue: 0,0:01:15.95,0:01:19.61,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(289.634765625,32)\k265\k38}o
-Dialogue: 0,0:01:15.95,0:01:19.61,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(304.400390625,32)\k283\k36}do
-Dialogue: 0,0:01:15.95,0:01:19.61,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(321.861328125,32)\k299\k67}re
-Dialogue: 0,0:01:18.75,0:01:22.41,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(15.146484375,73)\k90\k20}
-Dialogue: 0,0:01:18.75,0:01:22.41,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(34.39453125,73)\k90\k36}mou,
-Dialogue: 0,0:01:18.75,0:01:22.41,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(67.5234375,73)\k106\k30}ba
-Dialogue: 0,0:01:18.75,0:01:22.41,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(86.33203125,73)\k116\k29}ku
-Dialogue: 0,0:01:18.75,0:01:22.41,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(109.171875,73)\k125\k36}zen
-Dialogue: 0,0:01:18.75,0:01:22.41,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(134.689453125,73)\k141\k37}to
-Dialogue: 0,0:01:18.75,0:01:22.41,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(165.580078125,73)\k158\k37}kyuu
-Dialogue: 0,0:01:18.75,0:01:22.41,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(198.71484375,73)\k175\k39}ban
-Dialogue: 0,0:01:18.75,0:01:22.41,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(224.689453125,73)\k194\k36}me
-Dialogue: 0,0:01:18.75,0:01:22.41,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(250.21875,73)\k210\k40}ga
-Dialogue: 0,0:01:18.75,0:01:22.41,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(281.560546875,73)\k230\k57}ryuu
-Dialogue: 0,0:01:18.75,0:01:22.41,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(314.689453125,73)\k267\k35}wo
-Dialogue: 0,0:01:18.75,0:01:22.41,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(339.76171875,73)\k282\k37}na
-Dialogue: 0,0:01:18.75,0:01:22.41,Miku,,0,0,1,fx,{\fade(300,200)\an5\pos(359.009765625,73)\k299\k67}gu
-Dialogue: 0,0:01:21.51,0:01:25.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(45.685546875,32)\k90\k20}
-Dialogue: 0,0:01:21.51,0:01:25.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(60.01171875,32)\k90\k58}pap
-Dialogue: 0,0:01:21.51,0:01:25.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(83.7421875,32)\k128\k38}pa
-Dialogue: 0,0:01:21.51,0:01:25.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(106.986328125,32)\k146\k37}ra ・
-Dialogue: 0,0:01:21.51,0:01:25.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(132.919921875,32)\k163\k38}ra
-Dialogue: 0,0:01:21.51,0:01:25.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(154.81640625,32)\k181\k36}ru ・
-Dialogue: 0,0:01:21.51,0:01:25.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(181.189453125,32)\k197\k40}ra
-Dialogue: 0,0:01:21.51,0:01:25.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(196.41796875,32)\k217\k33}ri,
-Dialogue: 0,0:01:21.51,0:01:25.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(218.349609375,32)\k230\k39}bu
-Dialogue: 0,0:01:21.51,0:01:25.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(233.56640625,32)\k249\k42}ri
-Dialogue: 0,0:01:21.51,0:01:25.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(245.66015625,32)\k271\k35}ki
-Dialogue: 0,0:01:21.51,0:01:25.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(266.701171875,32)\k286\k38}no
-Dialogue: 0,0:01:21.51,0:01:25.58,Miku,,0,0,0,fx,{\fade(300,200)\an5\pos(309.66796875,32)\k304\k103}DANCE
-Dialogue: 0,0:01:21.51,0:01:25.58,Miku-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(309.66796875,14)\k304\k103}dans'
+Comment: 0,0:01:19.65,0:01:22.21,Miku,,0,0,0,karaoke,{\k16}mou, {\k10}ba{\k9}ku{\k16}zen {\k17}to {\k17}kyuu{\k19}ban{\k16}me {\k20}ga {\k37}ryuu {\k15}wo {\k17}na{\k47}gu
+Comment: 0,0:01:22.41,0:01:25.38,Miku,,0,0,0,karaoke,{\k38}pap{\k18}pa{\k17}ra・{\k18}ra{\k16}ru・{\k20}ra{\k13}ri, {\k19}bu{\k22}ri{\k15}ki {\k18}no {\k83}DANCE
+Dialogue: 0,0:00:05.46,0:00:07.28,Miku - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k13}bu{\k11}ri{\k8}ki {\k8}no {\k32}DANCE
+Dialogue: 0,0:00:17.29,0:00:19.83,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k20}saa, {\k7}a{\k9}wa{\k16}ren{\k20}de, {\k16}ket{\k36}tou{\k20}sho
+Dialogue: 0,0:00:18.83,0:00:21.10,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k16}mo{\k6}chi{\k15}yot{\k19}te {\k16}han{\k19}kyou{\k26}ten
+Dialogue: 0,0:00:20.09,0:00:22.58,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k12}shi{\k13}zun{\k10}da {\k16}shou{\k18}dou {\k8}ha{\k9}ra{\k19}bai {\k19}gen{\k15}chou
+Dialogue: 0,0:00:21.47,0:00:23.88,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ek{\k17}ken {\k18}sek{\k17}ken {\k18}mou{\k20}shin {\k22}shou
+Dialogue: 0,0:00:22.83,0:00:25.39,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k9}o{\k15}do{\k16}re {\k19}yo{\k16}e {\k17}ha{\k37}ra{\k17}me
+Dialogue: 0,0:00:24.45,0:00:26.67,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k8}A{\k10}VA{\k20}TA{\k15}R {\k17}shin{\k18}tai{\k24}kei
+Dialogue: 0,0:00:25.67,0:00:28.17,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k9}na{\k9}na{\k7}me {\k10}no {\k19}gen{\k11}chou {\k7}bu{\k10}ri{\k8}ki {\k10}to {\k16}shuu{\k19}kyou
+Dialogue: 0,0:00:27.07,0:00:29.95,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ra{\k16}ru・{\k19}ra{\k15}ri・{\k20}to{\k16}na{\k16}e{\k19}ro {\k38}sei
+Dialogue: 0,0:00:39.63,0:00:42.22,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k19}maa, {\k7}sa{\k10}ka{\k16}rat{\k19}te {\k16}shin'{\k37}ou{\k25}to
+Dialogue: 0,0:00:41.17,0:00:43.47,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ku{\k8}gu{\k18}mot{\k17}ta {\k17}nou{\k19}ket{\k28}tou
+Dialogue: 0,0:00:42.38,0:00:44.92,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ha{\k11}ka{\k5}bo{\k9}re {\k18}sep{\k15}pou {\k8}sha{\k12}ka {\k8}sha{\k7}ka {\k19}zen{\k15}kou
+Dialogue: 0,0:00:43.83,0:00:46.24,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k16}rok{\k19}kan・{\k16}tok{\k19}kan・{\k17}rin{\k19}dou・{\k25}jou
+Dialogue: 0,0:00:45.22,0:00:47.73,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k18}do{\k18}re{\k19}do{\k14}re, {\k19}fu{\k36}ru{\k17}e
+Dialogue: 0,0:00:46.81,0:00:48.96,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k8}sa{\k9}ge{\k18}sun{\k16}de {\k18}shin{\k17}tai{\k19}kei
+Dialogue: 0,0:00:48.01,0:00:50.51,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k11}gi{\k15}man {\k9}no {\k19}en{\k16}chou {\k9}ki{\k16}ben {\k10}no {\k16}ret{\k18}tou
+Dialogue: 0,0:00:49.41,0:00:51.88,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k18}do{\k17}gu・{\k16}ra{\k18}gu・{\k21}ka{\k15}na{\k20}e{\k12}ro
+Dialogue: 0,0:00:50.80,0:00:55.74,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k36}bu-{\k35}bu-{\k35}bu-{\k15}bu{\k20}ki{\k34}mi {\k18}na {\k17}te, {\k17}ko{\k20}ko {\k16}ni {\k18}a{\k33}ri-{\k36}ri-{\k34}ri
+Dialogue: 0,0:00:54.64,0:00:58.55,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ri{\k18}se{\k34}i {\k18}no {\k14}me, {\k20}mu{\k19}se{\k18}bi {\k13}na{\k37}ki-{\k36}ki-{\k35}ki
+Dialogue: 0,0:00:57.45,0:01:00.51,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ki{\k20}bi{\k32}su {\k19}ka{\k18}e{\k17}se {\k18}to{\k17}o{\k19}ku {\k21}ni
+Dialogue: 0,0:00:59.53,0:01:02.94,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k20}shi{\k16}no{\k32}bu {\k19}ki{\k18}mi {\k18}no {\k15}hi{\k20}to{\k16}mi {\k57}wo
+Dialogue: 0,0:01:01.98,0:01:04.44,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k22}saa, {\k7}mi{\k8}na {\k14}mai {\k18}na, {\k20}kuu{\k17}dou {\k30}de
+Dialogue: 0,0:01:03.37,0:01:05.88,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k18}SAN{\k9}S{\k9}K{\k17}RI{\k15}T {\k20}kyuu{\k17}dou{\k36}kei
+Dialogue: 0,0:01:04.78,0:01:08.51,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k17}e{\k9}gu{\k8}ri {\k17}nui{\k18}ta {\k17}ko{\k19}do{\k18}u {\k15}sa{\k16}ka{\k21}se {\k17}sa{\k17}ka{\k54}se
+Dialogue: 0,0:01:07.57,0:01:10.01,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k19}saa, {\k16}hyou{\k16}kan {\k19}na {\k18}sou{\k17}bo {\k29}wo
+Dialogue: 0,0:01:08.96,0:01:11.42,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k19}E{\k9}KA{\k24}M, sou{\k19}sa, {\k18}sen{\k17}tou {\k30}ni
+Dialogue: 0,0:01:10.38,0:01:13.94,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k17}mak{\k10}ka {\k7}ni {\k16}nu{\k18}re{\k19}ta {\k17}so{\k17}ra, {\k15}ka{\k19}ka{\k17}to {\k19}na{\k18}ra{\k37}se
+Dialogue: 0,0:01:13.17,0:01:15.64,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k18}aa, {\k7}ba{\k8}ku{\k18}zen {\k19}to {\k17}un{\k17}mei{\k33}sei
+Dialogue: 0,0:01:14.56,0:01:17.02,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k18}juu{\k6}do {\k10}ni {\k18}ot{\k17}ta {\k18}zen{\k17}mei {\k32}ni
+Dialogue: 0,0:01:15.95,0:01:19.61,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k15}yuu{\k10}re{\k11}tsu {\k18}na{\k12}do {\k22}na{\k17}i {\k17}sa {\k19}ma{\k18}wa{\k16}re {\k18}o{\k16}do{\k47}re
+Dialogue: 0,0:01:18.75,0:01:22.41,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k16}mou, {\k10}ba{\k9}ku{\k16}zen {\k17}to {\k17}kyuu{\k19}ban{\k16}me {\k20}ga {\k37}ryuu {\k15}wo {\k17}na{\k47}gu
+Dialogue: 0,0:01:21.51,0:01:25.58,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k38}pap{\k18}pa{\k17}ra・{\k18}ra{\k16}ru・{\k20}ra{\k13}ri, {\k19}bu{\k22}ri{\k15}ki {\k18}no {\k83}DANCE
