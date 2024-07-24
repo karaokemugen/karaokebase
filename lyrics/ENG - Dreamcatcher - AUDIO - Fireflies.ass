@@ -1,0 +1,168 @@
+﻿[Script Info]
+Title: Fireflies
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: GahyeonEnjoyer
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Up [JiU],Arial,24,&H00FFFFFF,&H004027D8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Up [SuA],Arial,24,&H00FFFFFF,&H00F97FB5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Center [SuA],Arial,24,&H00FFFFFF,&H00F97FB5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+Style: Sample KM Down [SuA],Arial,24,&H00FFFFFF,&H00F97FB5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+Style: Sample KM Up [Siyeon],Arial,24,&H00FFFFFF,&H00007FFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Center [Siyeon],Arial,24,&H00FFFFFF,&H00007FFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+Style: Sample KM Down [Siyeon],Arial,24,&H00FFFFFF,&H00007FFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+Style: Sample KM Up [Handong],Arial,24,&H00FFFFFF,&H0030E5A9,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Down[Handong],Arial,24,&H00FFFFFF,&H0030E5A9,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+Style: Sample KM Up [Yoohyeon],Arial,24,&H00FFFFFF,&H0078C850,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Down [Yoohyeon],Arial,24,&H00FFFFFF,&H0078C850,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+Style: Sample KM Up [Dami],Arial,24,&H00FFFFFF,&H00D4BF2E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Down [Dami],Arial,24,&H00FFFFFF,&H00D4BF2E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+Style: Sample KM Up [Gahyeon],Arial,24,&H00FFFFFF,&H00E955FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Down [Gahyeon],Arial,24,&H00FFFFFF,&H00E955FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+Style: Sample KM [ALL],Arial,24,&H00B7B7C2,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:22.85,Sample KM [Down],,0,0,0,karaoke,{\c&H4027D8&}JiU {\c&HFFFFFF&}- {\c&HF97FB5&}SuA {\c&HFFFFFF&}- {\c&H007FFF&}Siyeon {\c&HFFFFFF&}- {\c&H30E5A9&} Handong {\c&HFFFFFF&}- {\c&H78C850&}Yoohyeon {\c&HFFFFFF&}- {\c&HD4BF2E&}Dami {\c&HFFFFFF&}- {\c&HE955FF&}Gahyeon
+Comment: 0,0:00:23.25,0:00:29.25,Sample KM Up [JiU],,0,0,0,karaoke,{\k13}{\k27}tta{\k27}seu{\k58}han {\k28}jeo {\k24}bi{\k30}cheu{\k113}ro {\k22}na {\k25}ho{\k26}llin{\k20}deu{\k52}shi {\k25}da{\k29}ga {\k81}ga
+Comment: 0,0:00:30.85,0:00:33.65,Sample KM Up [JiU],,0,0,0,karaoke,{\k27}heut{\k25}ppu{\k45}ryeo{\k19}jin {\k27}saek {\k24}bi{\k25}neu{\k88}llo
+Comment: 0,0:00:33.85,0:00:36.85,Sample KM Up [JiU],,0,0,0,karaoke,{\k44}ne {\k12}i{\k22}reu{\k26}meul {\k52}sae{\k24}gi{\k31}reo {\k89}hae
+Comment: 0,0:00:37.35,0:00:42.85,Sample KM Up [Yoohyeon],,0,0,0,karaoke,{\k37}pum {\k23}an {\k65}ga{\k49}deu{\k40}ki {\k77}neol {\k29}an{\k33}kko {\k53}shi{\k144}peo
+Comment: 0,0:00:44.95,0:00:50.15,Sample KM Up [Yoohyeon],,0,0,0,karaoke,{\k25}nae {\k23}mam {\k65}a{\k49}deu{\k44}ki {\k71}neol {\k37}bo{\k51}go {\k33}shi{\k122}peo
+Comment: 0,0:00:51.75,0:00:58.35,Sample KM Up [SuA],,0,0,0,karaoke,{\k42}ma{\k35}chim{\k35}nae {\k94}gin {\k92}gin {\k51}hae{\k51}ssa{\k37}ri {\k53}jeo{\k96}mul{\k74}go
+Comment: 0,0:00:51.75,0:00:58.35,Sample KM Down [Siyeon],,0,0,0,karaoke,{\k42}ma{\k35}chim{\k35}nae {\k94}gin {\k92}gin {\k51}hae{\k51}ssa{\k37}ri {\k53}jeo{\k96}mul{\k74}go
+Comment: 0,0:00:58.35,0:01:03.95,Sample KM Up [SuA],,0,0,0,karaoke,{\k16}{\k49}neo{\k39}reul {\k44}cha{\k54}nneun {\k51}ba{\k23}bo{\k40}ga{\k32}teun {\k25}nal {\k20}wi{\k87}hae {\k80}kkok
+Comment: 0,0:00:58.35,0:01:03.95,Sample KM Down [Siyeon],,0,0,0,karaoke,{\k16}{\k49}neo{\k39}reul {\k44}cha{\k54}nneun {\k51}ba{\k23}bo{\k40}ga{\k32}teun {\k25}nal {\k20}wi{\k87}hae {\k80}kkok
+Comment: 0,0:01:03.95,0:01:06.95,Sample KM Up [SuA],,0,0,0,karaoke,{\k20}{\k49}bu{\k25}reul {\k40}bal{\k48}kyeo {\k118}jweo
+Comment: 0,0:01:03.95,0:01:06.95,Sample KM Down [Siyeon],,0,0,0,karaoke,{\k20}{\k49}bu{\k25}reul {\k40}bal{\k48}kyeo {\k118}jweo
+Comment: 0,0:01:06.95,0:01:11.15,Sample KM Up [Handong],,0,0,0,karaoke,{\k26}ha{\k22}ru{\k44}ga {\k90}gin {\k97}gin {\k46}geu {\k51}na{\k44}re
+Comment: 0,0:01:06.95,0:01:11.15,Sample KM Down [Gahyeon],,0,0,0,karaoke,{\k26}ha{\k22}ru{\k44}ga {\k90}gin {\k97}gin {\k46}geu {\k51}na{\k44}re
+Comment: 0,0:01:11.15,0:01:17.75,Sample KM Up [Handong],,0,0,0,karaoke,{\k51}neol {\k90}an{\k82}go {\k103}shi{\k98}peo{\k236}tteon
+Comment: 0,0:01:11.15,0:01:20.95,Sample KM Down [Gahyeon],,0,0,0,karaoke,{\k51}neol {\k90}an{\k82}go {\k103}shi{\k98}peo{\k280}tteon{\kf77} iy{\k31}a{\k168}gi
+Comment: 0,0:01:22.75,0:01:26.75,Sample KM [ALL],,0,0,0,karaoke,{\k35}{\k23}I {\k26}WA{\k18}NNA {\k49}FLY {\k45}TO {\k68}YOU, {\k28}LIKE {\k24}FI{\k28}RE{\k56}FLY
+Comment: 0,0:01:26.75,0:01:30.35,Sample KM [ALL],,0,0,0,karaoke,{\k8}{\k26}on{\k28}gi{\k24}reul {\k40}na{\k51}nu{\k83}llae {\k31}FI{\k28}RE{\k41}FLY
+Comment: 0,0:01:30.45,0:01:34.35,Sample KM [ALL],,0,0,0,karaoke,{\k42}YOU'RE {\k26}LIKE {\k23}A {\k39}MOON{\k51}LIGHT {\k62}AND {\k21}I'M {\k37}FI{\k24}RE{\k65}FLY
+Comment: 0,0:01:34.35,0:01:38.05,Sample KM [ALL],,0,0,0,karaoke,{\k28}nal{\k24}gae{\k21}reul {\k38}pyeol{\k55}cheo {\k91}nan {\k26}FI{\k24}RE{\k63}FLY
+Comment: 0,0:01:38.35,0:01:44.25,Sample KM Up [Dami],,0,0,0,karaoke,{\k57}on{\k44}gi{\k27}reul {\k69}meo{\k23}geu{\k64}meun {\k32}ne {\k62}eo{\k26}kkae{\k72}ye {\k21}gi{\k93}dae
+Comment: 0,0:01:44.25,0:01:51.75,Sample KM Up [Dami],,0,0,0,karaoke,{\k14}{\k23}mae {\k35}sun{\k27}gan {\k66}u{\k27}ri{\k59}ga {\k33}deo {\k68}hwan{\k27}ha{\k67}ge {\k20}bi{\kf162}chweo{\k36}ji{\k86}gil
+Comment: 0,0:01:51.75,0:01:55.55,Sample KM Up [Siyeon],,0,0,0,karaoke,{\k18}{\k28}eon{\k25}je{\k25}na {\k71}seo{\k22}ro{\k41}ye {\k31}meo{\k20}mu{\k99}lleo
+Comment: 0,0:01:55.55,0:01:59.15,Sample KM Up [Siyeon],,0,0,0,karaoke,{\k38}eo{\k22}je{\k28}ye {\k64}u{\k36}rin {\k64}o{\k36}neul{\k72}do
+Comment: 0,0:01:59.85,0:02:02.95,Sample KM Up [SuA],,0,0,0,karaoke,{\k36}ha{\k21}neu{\k25}ri {\k14}bi{\k27}cheul {\k52}sum{\k25}gin{\k26}dae{\k84}do
+Comment: 0,0:02:02.95,0:02:06.75,Sample KM Up [SuA],,0,0,0,karaoke,{\k25}neo{\k48}wa {\k25}nan {\kf113}jeom{\kf96}jeom {\k73}deo
+Comment: 0,0:02:06.75,0:02:13.45,Sample KM Up [JiU],,0,0,0,karaoke,{\k41}ma{\k32}chim{\k39}nae {\k89}gin {\k94}gin {\k47}hae{\k50}ssa{\k51}ri {\k44}jeo{\k98}mul{\k85}go
+Comment: 0,0:02:06.75,0:02:13.45,Sample KM Down[Handong],,0,0,0,karaoke,{\k41}ma{\k32}chim{\k39}nae {\k89}gin {\k94}gin {\k47}hae{\k50}ssa{\k51}ri {\k44}jeo{\k98}mul{\k85}go
+Comment: 0,0:02:06.75,0:02:11.25,Sample KM Center [SuA],,0,0,0,karaoke,{\kf450}CLOSER
+Comment: 0,0:02:13.35,0:02:18.95,Sample KM Up [JiU],,0,0,0,karaoke,{\k8}{\k60}neo{\k36}reul {\k42}cha{\k60}nneun {\k48}ba{\k26}bo{\k39}ga{\k26}teun {\k26}nal {\k24}wih{\kf91}ae {\k74}kkok
+Comment: 0,0:02:13.35,0:02:18.95,Sample KM Down[Handong],,0,0,0,karaoke,{\k8}{\k60}neo{\k36}reul {\k42}cha{\k60}nneun {\k48}ba{\k26}bo{\k39}ga{\k26}teun {\k26}nal {\k24}wih{\kf91}ae {\k74}kkok
+Comment: 0,0:02:19.15,0:02:21.75,Sample KM Up [JiU],,0,0,0,karaoke,{\k46}bu{\k28}reul {\k37}bal{\k49}kyeo{\k100}jweo
+Comment: 0,0:02:19.15,0:02:25.05,Sample KM Down[Handong],,0,0,0,karaoke,{\k46}bu{\k28}reul {\k37}bal{\k49}kyeo{\k28}jweo{\k35} bu{\k35}reul{\k49} bal{\k44}kyeo{\k239}jweo
+Comment: 0,0:02:21.95,0:02:26.15,Sample KM Up [Gahyeon],,0,0,0,karaoke,{\k25}ha{\k27}ru{\k44}ga {\k89}gin {\k94}gin {\k50}geu {\k49}na{\k42}re
+Comment: 0,0:02:21.95,0:02:26.15,Sample KM Down [Dami],,0,0,0,karaoke,{\k25}ha{\k27}ru{\k44}ga {\k89}gin {\k94}gin {\k50}geu {\k49}na{\k42}re
+Comment: 0,0:02:26.15,0:02:32.65,Sample KM Up [Dami],,0,0,0,karaoke,{\k50}neol {\k94}an{\k79}kko {\k108}shi{\k93}peo{\kf226}tteon
+Comment: 0,0:02:26.15,0:02:35.75,Sample KM Down [Gahyeon],,0,0,0,karaoke,{\k50}neol {\k94}an{\k79}kko {\k108}shi{\k93}peo{\kf277}tteon {\kf79}i{\kf30}ya{\kf150}gi
+Comment: 0,0:02:36.85,0:02:40.45,Sample KM Up [Gahyeon],,0,0,0,karaoke,{\k34}ma{\k25}nya{\k22}ge {\k26}u{\k53}ri {\k41}sa{\k39}gye{\k35}jeo{\k85}reul
+Comment: 0,0:02:40.45,0:02:44.25,Sample KM Up [Gahyeon],,0,0,0,karaoke,{\k24}{\k51}da {\k18}mot {\k71}i{\k28}gyeo{\k68}nae{\k33}eo{\k87}do
+Comment: 0,0:02:44.25,0:02:47.85,Sample KM Up [Yoohyeon],,0,0,0,karaoke,{\k10}{\k35}da{\k25}shi {\k28}ne{\k24}ge{\k66}ro {\k24}I {\k47}PRO{\k34}MISE {\k67}YOU
+Comment: 0,0:02:47.85,0:02:51.75,Sample KM Up [Yoohyeon],,0,0,0,karaoke,{\k27}{\k61}on{\k26}gi{\k66}reul {\k26}a{\kf184}ra
+Comment: 0,0:02:51.75,0:02:56.35,Sample KM Up [Dami],,0,0,0,karaoke,{\k26}bit {\k42}sa{\k32}i{\kf200}ro {\k53}sae{\k27}gyeo{\k80}noeun
+Comment: 0,0:02:56.35,0:02:59.35,Sample KM Up [Dami],,0,0,0,karaoke,{\k30}ne {\k51}i{\k46}reu{\k47}meul {\k38}tta{\k88}ra
+Comment: 0,0:02:56.35,0:03:00.45,Sample KM Down [Yoohyeon],,0,0,0,karaoke,{\k30}ne {\k51}i{\k46}reu{\k47}meul {\k38}tta{\k100}ra {\kf98}OH
+Comment: 0,0:03:00.45,0:03:06.95,Sample KM Center [Siyeon],,0,0,0,karaoke,{\k138}OH {\k36}I'LL {\k149}BE {\k23}WITH {\kf304}YOU
+Comment: 0,0:03:06.95,0:03:13.35,Sample KM Up [Handong],,0,0,0,karaoke,{\k20}ma{\k35}chim{\k39}nae {\k92}gin {\k93}gin {\k47}hae{\k50}ssa{\k44}ri {\k51}jeo{\k95}mul{\k74}go
+Comment: 0,0:03:06.95,0:03:13.35,Sample KM Down [Yoohyeon],,0,0,0,karaoke,{\k20}ma{\k35}chim{\k39}nae {\k92}gin {\k93}gin {\k47}hae{\k50}ssa{\k44}ri {\k51}jeo{\k95}mul{\k74}go
+Comment: 0,0:03:06.95,0:03:11.05,Sample KM Center [Siyeon],,0,0,0,karaoke,{\kf410}WAH
+Comment: 0,0:03:11.05,0:03:13.45,Sample KM Center [Siyeon],,0,0,0,karaoke,{\k51}jeo{\k95}mul{\k74}go
+Comment: 0,0:03:13.45,0:03:19.15,Sample KM Up [Handong],,0,0,0,karaoke,{\k54}neo{\k38}reul {\k54}chan{\k48}neun {\k50}ba{\k24}bo{\k40}ga{\k32}teun {\k21}nal {\k23}wi{\k94}hae {\k92}kkok
+Comment: 0,0:03:13.45,0:03:19.15,Sample KM Down [Yoohyeon],,0,0,0,karaoke,{\k54}neo{\k38}reul {\k54}chan{\k48}neun {\k50}ba{\k24}bo{\k40}ga{\k32}teun {\k21}nal {\k23}wi{\k94}hae {\k92}kkok
+Comment: 0,0:03:19.15,0:03:21.45,Sample KM Up [Handong],,0,0,0,karaoke,{\k47}bu{\k27}reul {\k41}bal{\k47}kyeo{\k68}jweo
+Comment: 0,0:03:19.15,0:03:21.45,Sample KM Down [Yoohyeon],,0,0,0,karaoke,{\k47}bu{\k27}reul {\k41}bal{\k47}kyeo{\k68}jweo
+Comment: 0,0:03:21.05,0:03:26.15,Sample KM Center [Siyeon],,0,0,0,karaoke,{\k38}bu{\k36}reul {\k51}bal{\k35}kyeo{\kf163}jweo {\k27}O{\kf160}OH
+Comment: 0,0:03:21.95,0:03:26.15,Sample KM Up [JiU],,0,0,0,karaoke,{\k28}ha{\k22}ru{\k42}ga {\k89}gin {\k101}gin {\k49}geu {\k44}na{\k45}re
+Comment: 0,0:03:21.95,0:03:26.15,Sample KM Down [SuA],,0,0,0,karaoke,{\k28}ha{\k22}ru{\k42}ga {\k89}gin {\k101}gin {\k49}geu {\k44}na{\k45}re
+Comment: 0,0:03:26.15,0:03:33.05,Sample KM Up [JiU],,0,0,0,karaoke,{\k51}neol {\k90}an{\k85}kko {\k107}shi{\k92}peo{\kf265}tteon
+Comment: 0,0:03:26.15,0:03:36.65,Sample KM Down [SuA],,0,0,0,karaoke,{\k51}neol {\k90}an{\k85}kko {\k107}shi{\k92}peo{\kf278}tteon {\kf69}i{\kf30}ya{\kf248}gi
+Comment: 0,0:03:35.15,0:03:37.85,Sample KM Center [Siyeon],,0,0,0,karaoke,{\k43}i{\k23}ya{\k108}gi {\k96}OH
+Comment: 0,0:03:38.05,0:03:41.75,Sample KM [ALL],,0,0,0,karaoke,{\k24}I {\k25}WA{\k29}NNA {\k36}FLY {\k35}TO {\k83}YOU, {\k28}LIKE {\k24}FI{\k28}RE{\k58}FLY
+Comment: 0,0:03:41.75,0:03:45.45,Sample KM [ALL],,0,0,0,karaoke,{\k30}on{\k29}gi{\k26}reul {\k40}na{\k40}nu{\k85}llae {\k34}FI{\k29}RE{\k57}FLY
+Comment: 0,0:03:45.45,0:03:49.25,Sample KM [ALL],,0,0,0,karaoke,{\k29}YOU'RE {\k32}LIKE {\k29}A {\k38}MOON{\k48}LIGHT {\k74}AND {\k23}I'M {\k23}FI{\k26}RE{\k58}FLY
+Comment: 0,0:03:49.25,0:03:53.05,Sample KM [ALL],,0,0,0,karaoke,{\k38}nal{\k24}gae{\k22}reul {\k38}pyeol{\k52}cheo {\k74}nan {\k44}FI{\k28}RE{\k60}FLY
+Comment: 0,0:03:53.05,0:03:56.75,Sample KM [ALL],,0,0,0,karaoke,{\k28}I {\k27}WA{\k25}NNA {\k38}FLY {\k54}TO {\k66}YOU, {\k30}LIKE {\k20}FI{\k26}RE{\k56}FLY
+Comment: 0,0:03:56.75,0:04:00.55,Sample KM [ALL],,0,0,0,karaoke,{\k30}on{\k29}gi{\k25}reul {\k42}na{\k53}nu{\k79}llae {\k28}FI{\k34}RE{\k60}FLY
+Comment: 0,0:04:00.55,0:04:04.35,Sample KM [ALL],,0,0,0,karaoke,{\k28}YOU'RE {\k24}LIKE {\k28}A {\k42}MOON{\k50}LIGHT {\k68}AND {\k26}I'M {\k23}FI{\k26}RE{\k65}FLY
+Comment: 0,0:04:04.35,0:04:08.45,Sample KM [ALL],,0,0,0,karaoke,{\k30}nal{\k23}gae{\k17}reul {\k41}pyeol{\k57}cheo {\k83}nan {\k32}FI{\k25}RE{\k102}FLY
+Dialogue: 0,0:00:00.00,0:00:23.05,Sample KM [Down],,0,0,0,fx,{\k0\fad(0,200)}{\c&H4027D8&}JiU {\c&HFFFFFF&}- {\c&HF97FB5&}SuA {\c&HFFFFFF&}- {\c&H007FFF&}Siyeon {\c&HFFFFFF&}- {\c&H30E5A9&} Handong {\c&HFFFFFF&}- {\c&H78C850&}Yoohyeon {\c&HFFFFFF&}- {\c&HD4BF2E&}Dami {\c&HFFFFFF&}- {\c&HE955FF&}Gahyeon
+Dialogue: 0,0:00:22.35,0:00:29.45,Sample KM Up [JiU],,0,0,0,fx,{\k90\fad(300,200)}{\k13}{\k27}tta{\k27}seu{\k58}han {\k28}jeo {\k24}bi{\k30}cheu{\k113}ro {\k22}na {\k25}ho{\k26}llin{\k20}deu{\k52}shi {\k25}da{\k29}ga {\k81}ga
+Dialogue: 0,0:00:29.95,0:00:33.85,Sample KM Up [JiU],,0,0,0,fx,{\k90\fad(300,200)}{\k27}heut{\k25}ppu{\k45}ryeo{\k19}jin {\k27}saek {\k24}bi{\k25}neu{\k88}llo
+Dialogue: 0,0:00:32.95,0:00:37.05,Sample KM Up [JiU],,0,0,0,fx,{\k90\fad(300,200)}{\k44}ne {\k12}i{\k22}reu{\k26}meul {\k52}sae{\k24}gi{\k31}reo {\k89}hae
+Dialogue: 0,0:00:36.45,0:00:43.05,Sample KM Up [Yoohyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k37}pum {\k23}an {\k65}ga{\k49}deu{\k40}ki {\k77}neol {\k29}an{\k33}kko {\k53}shi{\k144}peo
+Dialogue: 0,0:00:44.05,0:00:50.35,Sample KM Up [Yoohyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k25}nae {\k23}mam {\k65}a{\k49}deu{\k44}ki {\k71}neol {\k37}bo{\k51}go {\k33}shi{\k122}peo
+Dialogue: 0,0:00:50.85,0:00:58.55,Sample KM Up [SuA],,0,0,0,fx,{\k90\fad(300,200)}{\k42}ma{\k35}chim{\k35}nae {\k94}gin {\k92}gin {\k51}hae{\k51}ssa{\k37}ri {\k53}jeo{\k96}mul{\k74}go
+Dialogue: 0,0:00:50.85,0:00:58.55,Sample KM Down [Siyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k42}ma{\k35}chim{\k35}nae {\k94}gin {\k92}gin {\k51}hae{\k51}ssa{\k37}ri {\k53}jeo{\k96}mul{\k74}go
+Dialogue: 0,0:00:57.45,0:01:04.15,Sample KM Up [SuA],,0,0,0,fx,{\k90\fad(300,200)}{\k16}{\k49}neo{\k39}reul {\k44}cha{\k54}nneun {\k51}ba{\k23}bo{\k40}ga{\k32}teun {\k25}nal {\k20}wi{\k87}hae {\k80}kkok
+Dialogue: 0,0:00:57.45,0:01:04.15,Sample KM Down [Siyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k16}{\k49}neo{\k39}reul {\k44}cha{\k54}nneun {\k51}ba{\k23}bo{\k40}ga{\k32}teun {\k25}nal {\k20}wi{\k87}hae {\k80}kkok
+Dialogue: 0,0:01:03.05,0:01:07.15,Sample KM Up [SuA],,0,0,0,fx,{\k90\fad(300,200)}{\k20}{\k49}bu{\k25}reul {\k40}bal{\k48}kyeo {\k118}jweo
+Dialogue: 0,0:01:03.05,0:01:07.15,Sample KM Down [Siyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k20}{\k49}bu{\k25}reul {\k40}bal{\k48}kyeo {\k118}jweo
+Dialogue: 0,0:01:06.05,0:01:11.35,Sample KM Up [Handong],,0,0,0,fx,{\k90\fad(300,200)}{\k26}ha{\k22}ru{\k44}ga {\k90}gin {\k97}gin {\k46}geu {\k51}na{\k44}re
+Dialogue: 0,0:01:06.05,0:01:11.35,Sample KM Down [Gahyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k26}ha{\k22}ru{\k44}ga {\k90}gin {\k97}gin {\k46}geu {\k51}na{\k44}re
+Dialogue: 0,0:01:10.25,0:01:17.95,Sample KM Up [Handong],,0,0,0,fx,{\k90\fad(300,200)}{\k51}neol {\k90}an{\k82}go {\k103}shi{\k98}peo{\k236}tteon
+Dialogue: 0,0:01:10.25,0:01:21.15,Sample KM Down [Gahyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k51}neol {\k90}an{\k82}go {\k103}shi{\k98}peo{\k280}tteon{\kf77} iy{\k31}a{\k168}gi
+Dialogue: 0,0:01:21.85,0:01:26.95,Sample KM [ALL],,0,0,0,fx,{\k90\fad(300,200)}{\k35}{\k23}I {\k26}WA{\k18}NNA {\k49}FLY {\k45}TO {\k68}YOU, {\k28}LIKE {\k24}FI{\k28}RE{\k56}FLY
+Dialogue: 0,0:01:25.85,0:01:30.55,Sample KM [ALL],,0,0,0,fx,{\k90\fad(300,200)}{\k8}{\k26}on{\k28}gi{\k24}reul {\k40}na{\k51}nu{\k83}llae {\k31}FI{\k28}RE{\k41}FLY
+Dialogue: 0,0:01:29.55,0:01:34.55,Sample KM [ALL],,0,0,0,fx,{\k90\fad(300,200)}{\k42}YOU'RE {\k26}LIKE {\k23}A {\k39}MOON{\k51}LIGHT {\k62}AND {\k21}I'M {\k37}FI{\k24}RE{\k65}FLY
+Dialogue: 0,0:01:33.45,0:01:38.25,Sample KM [ALL],,0,0,0,fx,{\k90\fad(300,200)}{\k28}nal{\k24}gae{\k21}reul {\k38}pyeol{\k55}cheo {\k91}nan {\k26}FI{\k24}RE{\k63}FLY
+Dialogue: 0,0:01:37.45,0:01:44.45,Sample KM Up [Dami],,0,0,0,fx,{\k90\fad(300,200)}{\k57}on{\k44}gi{\k27}reul {\k69}meo{\k23}geu{\k64}meun {\k32}ne {\k62}eo{\k26}kkae{\k72}ye {\k21}gi{\k93}dae
+Dialogue: 0,0:01:43.35,0:01:51.95,Sample KM Up [Dami],,0,0,0,fx,{\k90\fad(300,200)}{\k14}{\k23}mae {\k35}sun{\k27}gan {\k66}u{\k27}ri{\k59}ga {\k33}deo {\k68}hwan{\k27}ha{\k67}ge {\k20}bi{\kf162}chweo{\k36}ji{\k86}gil
+Dialogue: 0,0:01:50.85,0:01:55.75,Sample KM Up [Siyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k18}{\k28}eon{\k25}je{\k25}na {\k71}seo{\k22}ro{\k41}ye {\k31}meo{\k20}mu{\k99}lleo
+Dialogue: 0,0:01:54.65,0:01:59.35,Sample KM Up [Siyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k38}eo{\k22}je{\k28}ye {\k64}u{\k36}rin {\k64}o{\k36}neul{\k72}do
+Dialogue: 0,0:01:58.95,0:02:03.15,Sample KM Up [SuA],,0,0,0,fx,{\k90\fad(300,200)}{\k36}ha{\k21}neu{\k25}ri {\k14}bi{\k27}cheul {\k52}sum{\k25}gin{\k26}dae{\k84}do
+Dialogue: 0,0:02:02.05,0:02:06.95,Sample KM Up [SuA],,0,0,0,fx,{\k90\fad(300,200)}{\k25}neo{\k48}wa {\k25}nan {\kf113}jeom{\kf96}jeom {\k73}deo
+Dialogue: 0,0:02:05.85,0:02:13.65,Sample KM Up [JiU],,0,0,0,fx,{\k90\fad(300,200)}{\k41}ma{\k32}chim{\k39}nae {\k89}gin {\k94}gin {\k47}hae{\k50}ssa{\k51}ri {\k44}jeo{\k98}mul{\k85}go
+Dialogue: 0,0:02:05.85,0:02:13.65,Sample KM Down[Handong],,0,0,0,fx,{\k90\fad(300,200)}{\k41}ma{\k32}chim{\k39}nae {\k89}gin {\k94}gin {\k47}hae{\k50}ssa{\k51}ri {\k44}jeo{\k98}mul{\k85}go
+Dialogue: 0,0:02:05.85,0:02:11.45,Sample KM Center [SuA],,0,0,0,fx,{\k90\fad(300,200)}{\kf450}CLOSER
+Dialogue: 0,0:02:12.45,0:02:19.15,Sample KM Up [JiU],,0,0,0,fx,{\k90\fad(300,200)}{\k8}{\k60}neo{\k36}reul {\k42}cha{\k60}nneun {\k48}ba{\k26}bo{\k39}ga{\k26}teun {\k26}nal {\k24}wih{\kf91}ae {\k74}kkok
+Dialogue: 0,0:02:12.45,0:02:19.15,Sample KM Down[Handong],,0,0,0,fx,{\k90\fad(300,200)}{\k8}{\k60}neo{\k36}reul {\k42}cha{\k60}nneun {\k48}ba{\k26}bo{\k39}ga{\k26}teun {\k26}nal {\k24}wih{\kf91}ae {\k74}kkok
+Dialogue: 0,0:02:18.25,0:02:21.95,Sample KM Up [JiU],,0,0,0,fx,{\k90\fad(300,200)}{\k46}bu{\k28}reul {\k37}bal{\k49}kyeo{\k100}jweo
+Dialogue: 0,0:02:18.25,0:02:25.25,Sample KM Down[Handong],,0,0,0,fx,{\k90\fad(300,200)}{\k46}bu{\k28}reul {\k37}bal{\k49}kyeo{\k28}jweo{\k35} bu{\k35}reul{\k49} bal{\k44}kyeo{\k239}jweo
+Dialogue: 0,0:02:21.05,0:02:26.35,Sample KM Up [Gahyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ha{\k27}ru{\k44}ga {\k89}gin {\k94}gin {\k50}geu {\k49}na{\k42}re
+Dialogue: 0,0:02:21.05,0:02:26.35,Sample KM Down [Dami],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ha{\k27}ru{\k44}ga {\k89}gin {\k94}gin {\k50}geu {\k49}na{\k42}re
+Dialogue: 0,0:02:25.25,0:02:32.85,Sample KM Up [Dami],,0,0,0,fx,{\k90\fad(300,200)}{\k50}neol {\k94}an{\k79}kko {\k108}shi{\k93}peo{\kf226}tteon
+Dialogue: 0,0:02:25.25,0:02:35.95,Sample KM Down [Gahyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k50}neol {\k94}an{\k79}kko {\k108}shi{\k93}peo{\kf277}tteon {\kf79}i{\kf30}ya{\kf150}gi
+Dialogue: 0,0:02:35.95,0:02:40.65,Sample KM Up [Gahyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k34}ma{\k25}nya{\k22}ge {\k26}u{\k53}ri {\k41}sa{\k39}gye{\k35}jeo{\k85}reul
+Dialogue: 0,0:02:39.55,0:02:44.45,Sample KM Up [Gahyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k24}{\k51}da {\k18}mot {\k71}i{\k28}gyeo{\k68}nae{\k33}eo{\k87}do
+Dialogue: 0,0:02:43.35,0:02:48.05,Sample KM Up [Yoohyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k10}{\k35}da{\k25}shi {\k28}ne{\k24}ge{\k66}ro {\k24}I {\k47}PRO{\k34}MISE {\k67}YOU
+Dialogue: 0,0:02:46.95,0:02:51.95,Sample KM Up [Yoohyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k27}{\k61}on{\k26}gi{\k66}reul {\k26}a{\kf184}ra
+Dialogue: 0,0:02:50.85,0:02:56.55,Sample KM Up [Dami],,0,0,0,fx,{\k90\fad(300,200)}{\k26}bit {\k42}sa{\k32}i{\kf200}ro {\k53}sae{\k27}gyeo{\k80}noeun
+Dialogue: 0,0:02:55.45,0:02:59.55,Sample KM Up [Dami],,0,0,0,fx,{\k90\fad(300,200)}{\k30}ne {\k51}i{\k46}reu{\k47}meul {\k38}tta{\k88}ra
+Dialogue: 0,0:02:55.45,0:03:00.65,Sample KM Down [Yoohyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k30}ne {\k51}i{\k46}reu{\k47}meul {\k38}tta{\k100}ra {\kf98}OH
+Dialogue: 0,0:02:59.55,0:03:07.15,Sample KM Center [Siyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k138}OH {\k36}I'LL {\k149}BE {\k23}WITH {\kf304}YOU
+Dialogue: 0,0:03:06.05,0:03:13.55,Sample KM Up [Handong],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ma{\k35}chim{\k39}nae {\k92}gin {\k93}gin {\k47}hae{\k50}ssa{\k44}ri {\k51}jeo{\k95}mul{\k74}go
+Dialogue: 0,0:03:06.05,0:03:13.55,Sample KM Down [Yoohyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ma{\k35}chim{\k39}nae {\k92}gin {\k93}gin {\k47}hae{\k50}ssa{\k44}ri {\k51}jeo{\k95}mul{\k74}go
+Dialogue: 0,0:03:06.05,0:03:11.25,Sample KM Center [Siyeon],,0,0,0,fx,{\k90\fad(300,200)}{\kf410}WAH
+Dialogue: 0,0:03:10.15,0:03:13.65,Sample KM Center [Siyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k51}jeo{\k95}mul{\k74}go
+Dialogue: 0,0:03:12.55,0:03:19.35,Sample KM Up [Handong],,0,0,0,fx,{\k90\fad(300,200)}{\k54}neo{\k38}reul {\k54}chan{\k48}neun {\k50}ba{\k24}bo{\k40}ga{\k32}teun {\k21}nal {\k23}wi{\k94}hae {\k92}kkok
+Dialogue: 0,0:03:12.55,0:03:19.35,Sample KM Down [Yoohyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k54}neo{\k38}reul {\k54}chan{\k48}neun {\k50}ba{\k24}bo{\k40}ga{\k32}teun {\k21}nal {\k23}wi{\k94}hae {\k92}kkok
+Dialogue: 0,0:03:18.25,0:03:21.65,Sample KM Up [Handong],,0,0,0,fx,{\k90\fad(300,200)}{\k47}bu{\k27}reul {\k41}bal{\k47}kyeo{\k68}jweo
+Dialogue: 0,0:03:18.25,0:03:21.65,Sample KM Down [Yoohyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k47}bu{\k27}reul {\k41}bal{\k47}kyeo{\k68}jweo
+Dialogue: 0,0:03:20.15,0:03:26.35,Sample KM Center [Siyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k38}bu{\k36}reul {\k51}bal{\k35}kyeo{\kf163}jweo {\k27}O{\kf160}OH
+Dialogue: 0,0:03:21.05,0:03:26.35,Sample KM Up [JiU],,0,0,0,fx,{\k90\fad(300,200)}{\k28}ha{\k22}ru{\k42}ga {\k89}gin {\k101}gin {\k49}geu {\k44}na{\k45}re
+Dialogue: 0,0:03:21.05,0:03:26.35,Sample KM Down [SuA],,0,0,0,fx,{\k90\fad(300,200)}{\k28}ha{\k22}ru{\k42}ga {\k89}gin {\k101}gin {\k49}geu {\k44}na{\k45}re
+Dialogue: 0,0:03:25.25,0:03:33.25,Sample KM Up [JiU],,0,0,0,fx,{\k90\fad(300,200)}{\k51}neol {\k90}an{\k85}kko {\k107}shi{\k92}peo{\kf265}tteon
+Dialogue: 0,0:03:25.25,0:03:36.85,Sample KM Down [SuA],,0,0,0,fx,{\k90\fad(300,200)}{\k51}neol {\k90}an{\k85}kko {\k107}shi{\k92}peo{\kf278}tteon {\kf69}i{\kf30}ya{\kf248}gi
+Dialogue: 0,0:03:34.25,0:03:38.05,Sample KM Center [Siyeon],,0,0,0,fx,{\k90\fad(300,200)}{\k43}i{\k23}ya{\k108}gi {\k96}OH
+Dialogue: 0,0:03:37.15,0:03:41.95,Sample KM [ALL],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k25}WA{\k29}NNA {\k36}FLY {\k35}TO {\k83}YOU, {\k28}LIKE {\k24}FI{\k28}RE{\k58}FLY
+Dialogue: 0,0:03:40.85,0:03:45.65,Sample KM [ALL],,0,0,0,fx,{\k90\fad(300,200)}{\k30}on{\k29}gi{\k26}reul {\k40}na{\k40}nu{\k85}llae {\k34}FI{\k29}RE{\k57}FLY
+Dialogue: 0,0:03:44.55,0:03:49.45,Sample KM [ALL],,0,0,0,fx,{\k90\fad(300,200)}{\k29}YOU'RE {\k32}LIKE {\k29}A {\k38}MOON{\k48}LIGHT {\k74}AND {\k23}I'M {\k23}FI{\k26}RE{\k58}FLY
+Dialogue: 0,0:03:48.35,0:03:53.25,Sample KM [ALL],,0,0,0,fx,{\k90\fad(300,200)}{\k38}nal{\k24}gae{\k22}reul {\k38}pyeol{\k52}cheo {\k74}nan {\k44}FI{\k28}RE{\k60}FLY
+Dialogue: 0,0:03:52.15,0:03:56.95,Sample KM [ALL],,0,0,0,fx,{\k90\fad(300,200)}{\k28}I {\k27}WA{\k25}NNA {\k38}FLY {\k54}TO {\k66}YOU, {\k30}LIKE {\k20}FI{\k26}RE{\k56}FLY
+Dialogue: 0,0:03:55.85,0:04:00.75,Sample KM [ALL],,0,0,0,fx,{\k90\fad(300,200)}{\k30}on{\k29}gi{\k25}reul {\k42}na{\k53}nu{\k79}llae {\k28}FI{\k34}RE{\k60}FLY
+Dialogue: 0,0:03:59.65,0:04:04.55,Sample KM [ALL],,0,0,0,fx,{\k90\fad(300,200)}{\k28}YOU'RE {\k24}LIKE {\k28}A {\k42}MOON{\k50}LIGHT {\k68}AND {\k26}I'M {\k23}FI{\k26}RE{\k65}FLY
+Dialogue: 0,0:04:03.45,0:04:08.65,Sample KM [ALL],,0,0,0,fx,{\k90\fad(300,200)}{\k30}nal{\k23}gae{\k17}reul {\k41}pyeol{\k57}cheo {\k83}nan {\k32}FI{\k25}RE{\k102}FLY
