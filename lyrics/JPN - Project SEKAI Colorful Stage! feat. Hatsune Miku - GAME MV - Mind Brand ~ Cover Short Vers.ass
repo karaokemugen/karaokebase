@@ -1,0 +1,83 @@
+﻿[Script Info]
+Title: Mind Brand
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Script: Karaoke Mugen
+Original Timing: puyo
+Synch Point: puyo
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+Style: 25-ji Nightcord de.,Arial,24,&H00FFFFFF,&H00994488,&H00000000,&H00994488,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Miku,Arial,24,&H00FFFFFF,&H00A7B82E,&H00000000,&H00A7B82E,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Kanade,Arial,24,&H00FFFFFF,&H008865BB,&H00000000,&H008865BB,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Mafuyu,Arial,24,&H00FFFFFF,&H00CC8988,&H00000000,&H00CC8988,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Ena,Arial,24,&H00FFFFFF,&H0087AACC,&H00000000,&H0087AACC,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Mizuki,Arial,24,&H00FFFFFF,&H00CAA8E4,&H00000000,&H00CAA8E4,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Miku - Choir,Arial,24,&H00FFFFFF,&H00A7B82E,&H00000000,&H00A7B82E,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: 25-ji Nightcord de. - Choir,Arial,24,&H00FFFFFF,&H00994488,&H00000000,&H00994488,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H994488&}25-ji{\c} - {\c&HA7B82E&}Miku{\c} - {\c&H8865BB&}Kanade{\c} - {\c&HCC8988&}Mafuyu{\c} - {\c&H87AACC&}Ena{\c} - {\c&HCAA8E4&}Mizuki
+Comment: 0,0:00:06.31,0:00:07.76,25-ji Nightcord de. - Choir,,0,0,0,karaoke,{\k28}WEL{\k17}COME {\k13}TO {\k16}THE {\k47}MIND {\k24}FUCK
+Comment: 0,0:00:07.76,0:00:09.65,Miku - Choir,,0,0,0,karaoke,{\kf189}Yeah
+Comment: 0,0:00:19.65,0:00:23.03,Miku,,0,0,0,karaoke,{\k13}ma{\k25}te {\k13}yo {\k27}so{\k11}ko {\k24}yu{\k14}ku {\k20}jo{\k19}u-{\k39}san {\k24}sa{\k14}ka{\k26}go {\k13}ya{\k26}do{\k12}ra{\k18}se
+Comment: 0,0:00:23.24,0:00:26.13,Mizuki,,0,0,0,karaoke,{\k27}a{\k12}do{\k24}ke {\k13}no {\k28}ta{\k11}ra{\k39}nai {\k26}so{\k12}n{\k26}na {\k14}ka{\k24}ra{\k11}da {\k22}ni
+Comment: 0,0:00:26.31,0:00:29.17,Miku,,0,0,0,karaoke,{\k27}ta{\k12}da{\k23}shi{\k15}ku {\k27}ma{\k11}wa{\k27}ra{\k12}n {\k26}gu{\k12}zu {\k25}no {\k14}a{\k26}ta{\k12}ma {\k17}de
+Comment: 0,0:00:29.39,0:00:32.68,Mafuyu,,0,0,0,karaoke,{\k42}ten{\k36}shin{\k38}ran{\k35}man!? {\k29}ho{\k10}za{\k25}ku {\k14}na {\k27}ba{\k14}ka{\kf59}me
+Comment: 0,0:00:33.24,0:00:36.12,Miku,,0,0,0,karaoke,{\k26}"i{\k12}tsu {\k27}i{\k12}tsu {\k27}de{\k11}ya{\k26}ru {\k12}no? {\k26}ka{\k12}go{\k27}me {\k12}yo {\k25}ka{\k14}go{\k19}me"
+Comment: 0,0:00:36.32,0:00:39.26,Ena,,0,0,0,karaoke,{\k22}i{\k16}ya{\k21}mi {\k15}wo {\k27}ka{\k14}ra{\k25}ge{\k13}te {\k26}wa{\k13}ra{\k25}u {\k13}a{\k26}na{\k13}ta {\k25}he
+Comment: 0,0:00:39.38,0:00:42.33,Miku,,0,0,0,karaoke,{\k26}pi{\k13}ta{\k25}ri {\k14}to {\k25}ka{\k13}sa{\k26}ne{\k12}te {\k27}ha{\k12}ki{\k26}da{\k12}su {\k26}na{\k13}sa{\k25}ke
+Comment: 0,0:00:42.45,0:00:46.74,Kanade,,0,0,0,karaoke,{\k27}da{\k13}re{\k25}mo {\k14}ga {\k27}ya{\k12}ga{\k21}te {\k17}wa {\k24}ji{\k14}go{\k26}ku {\k12}no {\k24}o{\k15}ku{\k26}so{\k12}ko {\kf120}he
+Comment: 0,0:00:46.95,0:00:47.99,Kanade,,0,0,0,karaoke,{\k12}tsu{\k25}re{\k13}te i{\k26}ka{\k13}re{\k15}ru
+Comment: 0,0:00:48.55,0:00:52.39,25-ji Nightcord de.,,0,0,0,karaoke,{\kf80}aa, {\k27}fu{\k16}re{\k38}at{\kf77}te {\k25}u{\k13}me{\k37}at{\kf71}te
+Comment: 0,0:00:52.45,0:00:56.70,25-ji Nightcord de.,,0,0,0,karaoke,{\k27}ka{\k11}chi{\k40}tot{\k60}ta {\k16}shi{\k39}a{\k38}wa{\k60}se {\kf134}wo
+Comment: 0,0:00:57.04,0:01:01.36,Mizuki,,0,0,0,karaoke,{\k28}to{\k15}ra{\k24}re{\k14}ta {\k39}sei{\k26}gi {\k12}no {\k39}HE{\k39}RO {\k38}ga {\k38}na{\k26}i{\k12}te {\k39}i{\k43}ru
+Comment: 0,0:01:01.69,0:01:04.51,25-ji Nightcord de.,,0,0,0,karaoke,{\k24}da{\k15}ki{\k37}at{\k65}te {\k14}ta{\k23}ta{\k16}ki{\k38}at{\k50}te
+Comment: 0,0:01:04.65,0:01:09.01,25-ji Nightcord de.,,0,0,0,karaoke,{\k12}wa{\k28}ka{\k9}chi{\k40}at{\k65}ta {\k13}a{\k38}no {\k38}ko{\k55}ro {\kf138}wo
+Comment: 0,0:01:09.39,0:01:14.18,Mafuyu,,0,0,0,karaoke,{\k18}wa{\k21}su{\k23}re{\k5}te {\k10}shi{\k17}ma{\k21}e{\k28}ta{\k11}ra {\k25}do{\k13}re {\k26}ho{\k13}do {\k38}ra{\k38}ku {\k39}da{\k37}rou {\kf96}ka
+Comment: 0,0:01:16.26,0:01:17.85,Miku - Choir,,0,0,0,karaoke,{\kf159}Yeah
+Comment: 0,0:01:29.37,0:01:32.24,25-ji Nightcord de.,,0,0,0,karaoke,{\k26}ka{\k15}ke{\k38}yot{\k75}te {\k26}yo{\k14}ri{\k38}sot{\k55}te
+Comment: 0,0:01:32.33,0:01:36.70,25-ji Nightcord de.,,0,0,0,karaoke,{\k14}wa{\k38}rai{\k37}at{\k61}ta {\k17}a{\k39}no {\k38}to{\k59}ki {\kf134}wo
+Comment: 0,0:01:37.04,0:01:39.00,25-ji Nightcord de.,,0,0,0,karaoke,{\k41}is{\k25}so {\k16}ki{\k37}rei {\kf77}ni
+Comment: 0,0:01:40.08,0:01:45.54,25-ji Nightcord de.,,0,0,0,karaoke,{\k34}wa{\k12}su{\k23}re{\k13}te {\k7}shi{\kf148}mai{\kf156}tain {\kf153}da!
+Comment: 0,0:01:46.29,0:01:49.12,25-ji Nightcord de. - Choir,,0,0,0,karaoke,{\kf85}a{\kf198}a
+Comment: 0,0:01:52.45,0:01:56.31,Miku - Choir,,0,0,0,karaoke,{\kf78}a{\kf308}a
+Comment: 0,0:01:56.31,0:01:57.76,25-ji Nightcord de. - Choir,,0,0,0,karaoke,{\k28}WEL{\k17}COME {\k13}TO {\k16}THE {\k47}MIND {\k24}FUCK
+Comment: 0,0:01:59.39,0:02:00.84,25-ji Nightcord de. - Choir,,0,0,0,karaoke,{\k28}WEL{\k17}COME {\k13}TO {\k16}THE {\k47}MIND {\k24}FUCK
+Comment: 0,0:02:01.50,0:02:02.40,25-ji Nightcord de. - Choir,,0,0,0,karaoke,{\k15}THE {\k43}MIND {\k32}FUCK
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H994488&}25-ji{\c} - {\c&HA7B82E&}Miku{\c} - {\c&H8865BB&}Kanade{\c} - {\c&HCC8988&}Mafuyu{\c} - {\c&H87AACC&}Ena{\c} - {\c&HCAA8E4&}Mizuki
+Dialogue: 0,0:00:05.41,0:00:07.96,25-ji Nightcord de. - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k28}WEL{\k17}COME {\k13}TO {\k16}THE {\k47}MIND {\k24}FUCK
+Dialogue: 0,0:00:06.86,0:00:09.85,Miku - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\kf189}Yeah
+Dialogue: 0,0:00:18.75,0:00:23.23,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ma{\k25}te {\k13}yo {\k27}so{\k11}ko {\k24}yu{\k14}ku {\k20}jo{\k19}u-{\k39}san {\k24}sa{\k14}ka{\k26}go {\k13}ya{\k26}do{\k12}ra{\k18}se
+Dialogue: 0,0:00:22.34,0:00:26.33,Mizuki,,0,0,0,fx,{\k90\fad(300,200)}{\k27}a{\k12}do{\k24}ke {\k13}no {\k28}ta{\k11}ra{\k39}nai {\k26}so{\k12}n{\k26}na {\k14}ka{\k24}ra{\k11}da {\k22}ni
+Dialogue: 0,0:00:25.41,0:00:29.37,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ta{\k12}da{\k23}shi{\k15}ku {\k27}ma{\k11}wa{\k27}ra{\k12}n {\k26}gu{\k12}zu {\k25}no {\k14}a{\k26}ta{\k12}ma {\k17}de
+Dialogue: 0,0:00:28.49,0:00:32.88,Mafuyu,,0,0,0,fx,{\k90\fad(300,200)}{\k42}ten{\k36}shin{\k38}ran{\k35}man!? {\k29}ho{\k10}za{\k25}ku {\k14}na {\k27}ba{\k14}ka{\kf59}me
+Dialogue: 0,0:00:32.34,0:00:36.32,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k26}"i{\k12}tsu {\k27}i{\k12}tsu {\k27}de{\k11}ya{\k26}ru {\k12}no? {\k26}ka{\k12}go{\k27}me {\k12}yo {\k25}ka{\k14}go{\k19}me"
+Dialogue: 0,0:00:35.42,0:00:39.46,Ena,,0,0,0,fx,{\k90\fad(300,200)}{\k22}i{\k16}ya{\k21}mi {\k15}wo {\k27}ka{\k14}ra{\k25}ge{\k13}te {\k26}wa{\k13}ra{\k25}u {\k13}a{\k26}na{\k13}ta {\k25}he
+Dialogue: 0,0:00:38.48,0:00:42.53,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k26}pi{\k13}ta{\k25}ri {\k14}to {\k25}ka{\k13}sa{\k26}ne{\k12}te {\k27}ha{\k12}ki{\k26}da{\k12}su {\k26}na{\k13}sa{\k25}ke
+Dialogue: 0,0:00:41.55,0:00:46.94,Kanade,,0,0,0,fx,{\k90\fad(300,200)}{\k27}da{\k13}re{\k25}mo {\k14}ga {\k27}ya{\k12}ga{\k21}te {\k17}wa {\k24}ji{\k14}go{\k26}ku {\k12}no {\k24}o{\k15}ku{\k26}so{\k12}ko {\kf120}he
+Dialogue: 0,0:00:46.05,0:00:48.19,Kanade,,0,0,0,fx,{\k90\fad(300,200)}{\k12}tsu{\k25}re{\k13}te i{\k26}ka{\k13}re{\k15}ru
+Dialogue: 0,0:00:47.65,0:00:52.59,25-ji Nightcord de.,,0,0,0,fx,{\k90\fad(300,200)}{\kf80}aa, {\k27}fu{\k16}re{\k38}at{\kf77}te {\k25}u{\k13}me{\k37}at{\kf71}te
+Dialogue: 0,0:00:51.55,0:00:56.90,25-ji Nightcord de.,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ka{\k11}chi{\k40}tot{\k60}ta {\k16}shi{\k39}a{\k38}wa{\k60}se {\kf134}wo
+Dialogue: 0,0:00:56.14,0:01:01.56,Mizuki,,0,0,0,fx,{\k90\fad(300,200)}{\k28}to{\k15}ra{\k24}re{\k14}ta {\k39}sei{\k26}gi {\k12}no {\k39}HE{\k39}RO {\k38}ga {\k38}na{\k26}i{\k12}te {\k39}i{\k43}ru
+Dialogue: 0,0:01:00.79,0:01:04.71,25-ji Nightcord de.,,0,0,0,fx,{\k90\fad(300,200)}{\k24}da{\k15}ki{\k37}at{\k65}te {\k14}ta{\k23}ta{\k16}ki{\k38}at{\k50}te
+Dialogue: 0,0:01:03.75,0:01:09.21,25-ji Nightcord de.,,0,0,0,fx,{\k90\fad(300,200)}{\k12}wa{\k28}ka{\k9}chi{\k40}at{\k65}ta {\k13}a{\k38}no {\k38}ko{\k55}ro {\kf138}wo
+Dialogue: 0,0:01:08.49,0:01:14.38,Mafuyu,,0,0,0,fx,{\k90\fad(300,200)}{\k18}wa{\k21}su{\k23}re{\k5}te {\k10}shi{\k17}ma{\k21}e{\k28}ta{\k11}ra {\k25}do{\k13}re {\k26}ho{\k13}do {\k38}ra{\k38}ku {\k39}da{\k37}rou {\kf96}ka
+Dialogue: 0,0:01:15.36,0:01:18.05,Miku - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\kf159}Yeah
+Dialogue: 0,0:01:28.47,0:01:32.44,25-ji Nightcord de.,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ka{\k15}ke{\k38}yot{\k75}te {\k26}yo{\k14}ri{\k38}sot{\k55}te
+Dialogue: 0,0:01:31.43,0:01:36.90,25-ji Nightcord de.,,0,0,0,fx,{\k90\fad(300,200)}{\k14}wa{\k38}rai{\k37}at{\k61}ta {\k17}a{\k39}no {\k38}to{\k59}ki {\kf134}wo
+Dialogue: 0,0:01:36.14,0:01:39.20,25-ji Nightcord de.,,0,0,0,fx,{\k90\fad(300,200)}{\k41}is{\k25}so {\k16}ki{\k37}rei {\kf77}ni
+Dialogue: 0,0:01:39.18,0:01:45.74,25-ji Nightcord de.,,0,0,0,fx,{\k90\fad(300,200)}{\k34}wa{\k12}su{\k23}re{\k13}te {\k7}shi{\kf148}mai{\kf156}tain {\kf153}da!
+Dialogue: 0,0:01:45.39,0:01:49.32,25-ji Nightcord de. - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\kf85}a{\kf198}a
+Dialogue: 0,0:01:51.55,0:01:56.51,Miku - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\kf78}a{\kf308}a
+Dialogue: 0,0:01:55.41,0:01:57.96,25-ji Nightcord de. - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k28}WEL{\k17}COME {\k13}TO {\k16}THE {\k47}MIND {\k24}FUCK
+Dialogue: 0,0:01:58.49,0:02:01.04,25-ji Nightcord de. - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k28}WEL{\k17}COME {\k13}TO {\k16}THE {\k47}MIND {\k24}FUCK
+Dialogue: 0,0:02:00.60,0:02:02.60,25-ji Nightcord de. - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}THE {\k43}MIND {\k32}FUCK
