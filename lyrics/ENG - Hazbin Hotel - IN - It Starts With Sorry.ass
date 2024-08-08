@@ -1,0 +1,72 @@
+﻿[Script Info]
+Title: It Starts With Sorry
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00FFFFFF,&H00FD5ACE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H003839FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FFA266,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H0031A1FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,5,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:02.50,Sample KM [Down],,0,0,0,karaoke,{\2c&H31A1FF&\c&H31A1FF&}Charlie {\c&HFFFFFF&\2c&HFFFFFF&}- {\2c&HFFA266&\c&HFFA266&}Sir Pentious {\c&HFFFFFF&\2c&HFFFFFF&}- {\2c&H3839FF&\c&H3839FF&}Both {\c&HFFFFFF&\2c&HFFFFFF&}- {\2c&HFD5ACE&\c&HFD5ACE&}Vaggie & Angel Dust
+Comment: 0,0:00:02.95,0:00:05.12,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k36}It {\k44}starts {\k37}with {\k36}sor{\k64}ry
+Comment: 0,0:00:07.31,0:00:09.18,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k35}That's {\k30}your {\k34}foot {\k12}in {\k23}the {\k53}door
+Comment: 0,0:00:09.31,0:00:11.38,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k48}One {\k35}sim{\k38}ple {\k45}sor{\k41}ry
+Comment: 0,0:00:13.64,0:00:15.89,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k31}Spo{\k26}ken {\k46}straight {\k18}from {\k20}your {\k84}core
+Comment: 0,0:00:16.53,0:00:19.66,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k35}The {\k43}path {\k37}to {\k37}for{\k37}give{\kf124}ness
+Comment: 0,0:00:19.66,0:00:22.16,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k20}Is {\k23}a {\k42}twis{\k32}ting {\k49}trail {\k25}of {\k59}hearts
+Comment: 0,0:00:22.88,0:00:28.34,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k39}But {\k43}sor{\k38}ry {\k38}is {\k45}where {\k39}it {\kf304}starts
+Comment: 0,0:00:29.54,0:00:34.81,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k46}Who {\k44}could {\k33}for{\kf113}give {\k27}a {\k75}dirt{\k39}bag {\k48}like {\kf102}me?
+Comment: 0,0:00:35.43,0:00:40.67,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k37}I {\k32}don't {\k41}de{\k75}serve {\k83}your {\kf97}am{\k36}nes{\kf123}ty
+Comment: 0,0:00:41.15,0:00:43.91,Sample KM [Choir],,0,0,0,karaoke,{\k48}Can't {\k32}we {\k37}just {\k77}kill {\k82}him?
+Comment: 0,0:00:44.12,0:00:47.78,Sample KM [Choir],,0,0,0,karaoke,{\k41}Shoot {\k32}him {\k39}and {\k73}spill {\k70}his {\kf111}blood?
+Comment: 0,0:00:47.86,0:00:50.69,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k41}That's {\k45}an {\k32}op{\k40}tion {\k32}you {\k34}could {\k59}choose
+Comment: 0,0:00:50.69,0:00:51.95,Sample KM [Choir],,0,0,0,karaoke,{\k35}Works {\k18}for {\k73}us!
+Comment: 0,0:00:52.48,0:00:56.57,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k32}But, {\k48}who {\k32}has{\k34}n't {\k42}been {\k36}in {\k35}his {\kf150}shoes?
+Comment: 0,0:00:56.57,0:00:59.83,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k55}It {\k78}starts {\k66}with {\k49}sor{\k78}ry!
+Comment: 0,0:00:59.99,0:01:01.20,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k49}Sor{\k72}ry
+Comment: 0,0:01:01.61,0:01:05.64,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k19}Dig {\k38}down {\k37}dee{\k19}per {\k21}and {\k57}say {\k34}one {\k33}sin{\k44}cere {\k39}sor{\k62}ry
+Comment: 0,0:01:05.30,0:01:07.62,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k39}I'm {\k39}so {\k47}sor{\kf107}ry!
+Comment: 0,0:01:07.21,0:01:09.79,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k21}And {\k21}your {\k25}jour{\k35}ney's {\k52}un{\k26}der{\k78}way!
+Comment: 0,0:01:10.23,0:01:12.82,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}It'{\k19}ll {\k37}take {\k41}time {\k36}to {\k41}co{\k69}ver
+Comment: 0,0:01:12.82,0:01:15.90,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k43}Your {\k36}vast {\k33}mul{\k19}ti{\k64}tude {\k17}of {\kf96}sins
+Comment: 0,0:01:12.82,0:01:15.90,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k43}My {\k36}vast {\k33}mul{\k19}ti{\k64}tude {\k17}of {\kf96}sins
+Comment: 0,0:01:16.27,0:01:21.14,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k31}But {\k45}sor{\k35}ry {\k38}is {\k44}where {\k29}it {\k38}be{\kf227}gins
+Comment: 0,0:01:21.50,0:01:23.65,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k32}It {\k44}starts {\k34}with {\k43}sor{\k62}ry
+Dialogue: 0,0:00:00.00,0:00:02.70,Sample KM [Down],,0,0,0,fx,{\k0\fad(0,200)}{\2c&H31A1FF&\c&H31A1FF&}Charlie {\c&HFFFFFF&\2c&HFFFFFF&}- {\2c&HFFA266&\c&HFFA266&}Sir Pentious {\c&HFFFFFF&\2c&HFFFFFF&}- {\2c&H3839FF&\c&H3839FF&}Both {\c&HFFFFFF&\2c&HFFFFFF&}- {\2c&HFD5ACE&\c&HFD5ACE&}Vaggie & Angel Dust
+Dialogue: 0,0:00:02.05,0:00:05.32,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k36}It {\k44}starts {\k37}with {\k36}sor{\k64}ry
+Dialogue: 0,0:00:06.41,0:00:09.38,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k35}That's {\k30}your {\k34}foot {\k12}in {\k23}the {\k53}door
+Dialogue: 0,0:00:08.41,0:00:11.58,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k48}One {\k35}sim{\k38}ple {\k45}sor{\k41}ry
+Dialogue: 0,0:00:12.74,0:00:16.09,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Spo{\k26}ken {\k46}straight {\k18}from {\k20}your {\k84}core
+Dialogue: 0,0:00:15.63,0:00:19.86,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k35}The {\k43}path {\k37}to {\k37}for{\k37}give{\kf124}ness
+Dialogue: 0,0:00:18.76,0:00:22.36,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Is {\k23}a {\k42}twis{\k32}ting {\k49}trail {\k25}of {\k59}hearts
+Dialogue: 0,0:00:21.98,0:00:28.54,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k39}But {\k43}sor{\k38}ry {\k38}is {\k45}where {\k39}it {\kf304}starts
+Dialogue: 0,0:00:28.64,0:00:35.01,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Who {\k44}could {\k33}for{\kf113}give {\k27}a {\k75}dirt{\k39}bag {\k48}like {\kf102}me?
+Dialogue: 0,0:00:34.53,0:00:40.87,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k37}I {\k32}don't {\k41}de{\k75}serve {\k83}your {\kf97}am{\k36}nes{\kf123}ty
+Dialogue: 0,0:00:40.25,0:00:44.11,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Can't {\k32}we {\k37}just {\k77}kill {\k82}him?
+Dialogue: 0,0:00:43.22,0:00:47.98,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Shoot {\k32}him {\k39}and {\k73}spill {\k70}his {\kf111}blood?
+Dialogue: 0,0:00:46.96,0:00:50.89,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k41}That's {\k45}an {\k32}op{\k40}tion {\k32}you {\k34}could {\k59}choose
+Dialogue: 0,0:00:49.79,0:00:52.15,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Works {\k18}for {\k73}us!
+Dialogue: 0,0:00:51.58,0:00:56.77,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k32}But, {\k48}who {\k32}has{\k34}n't {\k42}been {\k36}in {\k35}his {\kf150}shoes?
+Dialogue: 0,0:00:55.67,0:01:00.03,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k55}It {\k78}starts {\k66}with {\k49}sor{\k78}ry!
+Dialogue: 0,0:00:59.09,0:01:01.40,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Sor{\k72}ry
+Dialogue: 0,0:01:00.71,0:01:05.84,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Dig {\k38}down {\k37}dee{\k19}per {\k21}and {\k57}say {\k34}one {\k33}sin{\k44}cere {\k39}sor{\k62}ry
+Dialogue: 0,0:01:04.40,0:01:07.82,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k39}I'm {\k39}so {\k47}sor{\kf107}ry!
+Dialogue: 0,0:01:06.31,0:01:09.99,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k21}And {\k21}your {\k25}jour{\k35}ney's {\k52}un{\k26}der{\k78}way!
+Dialogue: 0,0:01:09.33,0:01:13.02,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k16}It'{\k19}ll {\k37}take {\k41}time {\k36}to {\k41}co{\k69}ver
+Dialogue: 0,0:01:11.92,0:01:16.10,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Your {\k36}vast {\k33}mul{\k19}ti{\k64}tude {\k17}of {\kf96}sins
+Dialogue: 0,0:01:11.92,0:01:16.10,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k43}My {\k36}vast {\k33}mul{\k19}ti{\k64}tude {\k17}of {\kf96}sins
+Dialogue: 0,0:01:15.37,0:01:21.34,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k31}But {\k45}sor{\k35}ry {\k38}is {\k44}where {\k29}it {\k38}be{\kf227}gins
+Dialogue: 0,0:01:20.60,0:01:23.85,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k32}It {\k44}starts {\k34}with {\k43}sor{\k62}ry
