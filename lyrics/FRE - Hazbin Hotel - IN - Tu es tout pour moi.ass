@@ -1,0 +1,37 @@
+﻿[Script Info]
+Title: Tu es tout pour moi
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.19,0:00:08.00,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k193}Tu {\k21}as {\k24}dé{\k53}jà {\k55}fait {\k63}tell'{\k72}ment
+Comment: 0,0:00:09.35,0:00:12.77,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k31}Tu {\k27}nous {\k44}as {\k87}trans{\k32}for{\kf121}més
+Comment: 0,0:00:13.62,0:00:17.84,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k29}Le {\k57}monde {\k21}est {\k48}bien {\k57}plus {\kf210}grand
+Comment: 0,0:00:19.28,0:00:26.97,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\kf108}Tu {\kf146}m'as {\k35}sau{\kf105}vée{\k83}, {\k22}et {\k25}si {\k49}tout {\k34}se {\k59}ter{\k52}mi{\k51}nait
+Comment: 0,0:00:28.47,0:00:35.66,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k31}Je {\k36}meurs {\k50}d'en{\k50}vie {\k47}de {\k56}te {\k46}dire {\k58}sim{\k51}ple{\kf294}ment
+Comment: 0,0:00:36.36,0:00:44.36,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k25}Tu {\k25}es {\k29}tout {\k27}pour {\kf222}moi{\k82}, {\k35}tu {\k17}es {\k32}tout {\k27}pour {\kf279}moi
+Comment: 0,0:00:44.87,0:00:47.78,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k26}Je {\k51}t'aime {\k51}par-{\k52}des{\k56}sus {\k55}tout
+Comment: 0,0:00:47.78,0:00:52.09,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k47}et {\k51}je {\k54}ne {\k28}veux {\k25}que {\kf226}toi
+Comment: 0,0:00:52.65,0:00:55.98,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k50}Tu {\k23}es {\k32}tout {\k27}pour {\kf201}moi
+Dialogue: 0,0:00:02.29,0:00:08.20,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k193}Tu {\k21}as {\k24}dé{\k53}jà {\k55}fait {\k63}tell'{\k72}ment
+Dialogue: 0,0:00:08.45,0:00:12.97,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Tu {\k27}nous {\k44}as {\k87}trans{\k32}for{\kf121}més
+Dialogue: 0,0:00:12.72,0:00:18.04,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Le {\k57}monde {\k21}est {\k48}bien {\k57}plus {\kf210}grand
+Dialogue: 0,0:00:18.38,0:00:27.17,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\kf108}Tu {\kf146}m'as {\k35}sau{\kf105}vée{\k83}, {\k22}et {\k25}si {\k49}tout {\k34}se {\k59}ter{\k52}mi{\k51}nait
+Dialogue: 0,0:00:27.57,0:00:35.86,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Je {\k36}meurs {\k50}d'en{\k50}vie {\k47}de {\k56}te {\k46}dire {\k58}sim{\k51}ple{\kf294}ment
+Dialogue: 0,0:00:35.46,0:00:44.56,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Tu {\k25}es {\k29}tout {\k27}pour {\kf222}moi{\k82}, {\k35}tu {\k17}es {\k32}tout {\k27}pour {\kf279}moi
+Dialogue: 0,0:00:43.97,0:00:47.98,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Je {\k51}t'aime {\k51}par-{\k52}des{\k56}sus {\k55}tout
+Dialogue: 0,0:00:46.88,0:00:52.29,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k47}et {\k51}je {\k54}ne {\k28}veux {\k25}que {\kf226}toi
+Dialogue: 0,0:00:51.75,0:00:56.18,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Tu {\k23}es {\k32}tout {\k27}pour {\kf201}moi
