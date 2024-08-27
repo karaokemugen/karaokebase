@@ -35,6 +35,8 @@ i18nUpdate:
   rules:
     - if: $CI_COMMIT_BRANCH != 'master'
       when: never
+    - if: '$CI_COMMIT_MESSAGE =~ /^Update tags translations/'
+      when: never
     - changes:
       - tags/*.tag.json
     - when: never
