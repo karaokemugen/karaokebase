@@ -1,0 +1,895 @@
+﻿[Script Info]
+Title: Two Witches
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Lasagna
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: anatani-furigana,kosugi maru,13,&H00FF843C,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,0.75,0,9,0,115,35,1
+Style: yoakeni-furigana,kosugi maru,13,&H00FF843C,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,0.75,0,7,115,0,35,1
+Style: UpKana-furigana,kosugi maru,15,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,8,15,15,35,1
+Style: UpKana,kosugi maru,30,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,35,1
+Style: UpRMJ,kosugi maru,26,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,35,1
+Style: Choir down,kosugi maru,26,&H00FF843C,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,35,1
+Style: yoakeni,kosugi maru,26,&H00FF843C,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,7,115,0,35,1
+Style: anatani,kosugi maru,26,&H00FF843C,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,9,0,115,35,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.20,UpKana,,0,0,0,template syl furi all,!retime("line",$lstart < 900 and -$lstart or -900,200)!{\fade(!$lstart < 900 and $lstart or 300!,200)\an5\pos(!line.left+syl.center!,!$middle+offset()!)\k!$start/10+($lstart < 900 and $lstart or 900)/10!\!syl.tag!$skdur}
+Comment: 0,0:00:00.00,0:00:00.20,UpKana,,0,0,0,code once,lineOffset=83 -- vertical offset between lines with different vertical margins value
+Comment: 0,0:00:00.00,0:00:00.20,UpKana,,0,0,0,code once,function offset() return _G.tonumber(line.margin_t/2)*lineOffset end
+Comment: 0,0:00:08.25,0:00:10.96,UpKana,,0,0,0,karaoke,{\k28}頬|<ほ{\k21}＃|お{\k13}を{\k25}掠|<か{\k20}＃|す{\k16}め{\k25}る{\k19}夜|<よ{\k14}風|<か{\k90}＃|ぜ
+Comment: 0,0:00:13.06,0:00:15.69,UpKana,,0,0,0,karaoke,{\k25}二|<ふ{\k22}＃|た{\k15}人|<り{\k21}の{\k22}魔|<ま{\k15}女|<じょ{\k26}飛|<と{\k20}び{\k15}立|<た{\k82}つ
+Comment: 0,0:00:17.87,0:00:20.28,UpKana,,0,0,0,karaoke,{\k27}光|<ひ{\k19}＃|か{\k16}＃|り{\k23}翔|<か{\k17}け{\k17}て{\k1} {\k21}魔|<ま{\k23}法|<ほ{\k17}＃|う{\k24}か{\k20}け{\k16}て
+Comment: 0,0:00:20.28,0:00:22.64,UpKana,line 2 value 2,0,0,2,karaoke,{\k22}夜|<よ{\k18}＃|る{\k17}を{\k25}走|<は{\k22}＃|し{\k15}る {\k47}Two {\k26}wit{\k44}ches
+Comment: 0,0:00:22.64,0:00:24.76,UpRMJ,,0,0,0,karaoke,{\k34}Through {\k16}the {\k68}night {\k35}Through {\k15}the {\k44}night
+Comment: 0,0:00:25.06,0:00:27.21,UpRMJ,line 2 value 2,0,0,2,karaoke,{\k46}All {\k45}night {\k32}long {\k43}Witch{\k49}craft
+Comment: 0,0:00:27.48,0:00:31.64,UpKana,,0,0,0,karaoke,{\k21}夜|<よ{\k22}更|<ふ{\k15}け{\k73}に {\k106} {\k31}彼|<か{\k17}方|<な{\k13}#|た{\k118}に
+Comment: 0,0:00:32.21,0:00:34.69,UpKana,line 2 value 2,0,0,2,karaoke,{\k25}星|<ほ{\k25}＃|し{\k17}を{\k21}掴|<つ{\k22}＃|か{\k14}め{\k1} {\k22}月|<つ{\k22}＃|き{\k17}を{\k23}目|<め{\k21}指|<ざ{\k13}せ
+Comment: 0,0:00:34.69,0:00:36.62,UpKana,,0,0,0,karaoke,{\k22}朝|<あ{\k20}＃|さ{\k17}目|<め{\k23}覚|<ざ{\k11}め{\k11}ぬ{\k17}間|<ま{\k72}に
+Comment: 0,0:00:37.06,0:00:39.49,UpKana,line 2 value 2,0,0,2,karaoke,{\k0}「{\k31}永|<え{\k14}＃|い{\k27}遠|<え{\k19}＃|ん{\k30}の{\k30}意|<い{\k19}味|<み{\k25}な{\k16}ん{\k32}て
+Comment: 0,0:00:39.49,0:00:42.62,UpKana,,0,0,0,karaoke,{\k28}ど{\k14}う{\k30}と{\k16}で{\k32}も{\k28}つ{\k15}け{\k30}て{\k17}や{\k29}れ {\k74}Yeah!
+Comment: 0,0:00:46.67,0:00:48.76,UpKana,,0,0,0,karaoke,{\k45}長|<な{\k26}＃|が{\k16}く{\k33}引|<ひ{\k31}き{\k15}伸|<の{\k15}ば{\k16}し{\k12}て
+Comment: 0,0:00:48.76,0:00:51.82,UpKana,line 2 value 2,0,0,2,karaoke,{\k17}薄|<う{\k16}＃|す{\k45}ま{\k44}ら{\k30}な{\k26}い{\k18}よ{\k29}う{\k17}に{\k64}な」
+Comment: 0,0:00:56.26,0:00:57.66,UpKana,,0,0,0,karaoke,{\k15}星|<ほ{\k17}＃|し{\k16}の{\k13}行|<い{\k15}き{\k15}交|<か{\k16}い{\k33}に
+Comment: 0,0:00:58.66,0:01:00.16,UpKana,line 2 value 2,0,0,2,karaoke,{\k16}約|<や{\k15}＃|く{\k15}束|<そ{\k15}＃|く{\k15}通|<ど{\k15}＃|お{\k15}り{\k44}に
+Comment: 0,0:01:01.06,0:01:02.56,UpKana,,0,0,0,karaoke,{\k15}筋|<す{\k16}＃|じ{\k15}書|<が{\k15}き{\k15}違|<た{\k15}＃|が{\k15}わ{\k44}ず
+Comment: 0,0:01:03.46,0:01:04.96,UpKana,line 2 value 2,0,0,2,karaoke,{\k16}日|<ひ{\k16}々|<び{\k14}の{\k15}夜|<よ{\k15}通|<か{\k15}＃|よ{\k15}わ{\k44}す
+Comment: 0,0:01:05.86,0:01:08.24,UpKana,,0,0,0,karaoke,{\k17}魔|<ま{\k13}法|<ほ{\k16}＃|う{\k15}の{\k15}数|<か{\k15}＃|ず{\k15}だ{\k13}け{\k1} {\k16}呪|<ま{\k15}＃|じ{\k13}＃|な{\k17}う{\k16}数|<か{\k14}＃|ず{\k16}だ{\k11}け
+Comment: 0,0:01:08.24,0:01:10.66,UpKana,line 2 value 2,0,0,2,karaoke,{\k17}カ{\k16}ラ{\k15}ク{\k15}リ{\k14}歪|<ゆ{\k16}＃|が{\k15}ん{\k12}で{\k3} {\k14}月|<つ{\k16}＃|き{\k15}の{\k15}道|<み{\k15}＃|ち{\k15}筋|<す{\k14}＃|じ{\k15}に
+Comment: 0,0:01:10.66,0:01:13.07,UpKana,,0,0,0,karaoke,{\k16}霧|<き{\k15}＃|り{\k14}が{\k16}か{\k14}か{\k15}る{\k16}だ{\k12}け{\k3} {\k14}遠|<と{\k16}＃|お{\k15}く{\k16}な{\k14}る{\k15}夜|<よ{\k16}明|<あ{\k14}け
+Comment: 0,0:01:13.07,0:01:15.47,UpKana,line 2 value 2,0,0,2,karaoke,{\k14}そ{\k16}の{\k15}報|<む{\k14}＃|く{\k16}い{\k15}さ{\k15}え{\k13}も{\k2} {\k13}闇|<や{\k17}＃|み{\k15}の{\k15}中|<な{\k14}＃|か{\k16}に{\k15}消|<き{\k15}え
+Comment: 0,0:01:15.47,0:01:16.96,UpKana,,0,0,0,karaoke,{\k14}仮|<か{\k15}＃|り{\k16}初|<そ{\k15}＃|め{\k15}の{\k14}魔|<ま{\k18}術|<じゅ{\k42}＃|つ
+Comment: 0,0:01:17.86,0:01:19.20,UpKana,line 2 value 2,0,0,2,karaoke,{\k17}満|<ま{\k14}＃|ん{\k14}月|<げ{\k16}＃|つ{\k12}に{\k18}い{\k15}ず{\k28}る
+Comment: 0,0:01:20.25,0:01:21.76,UpKana,,0,0,0,karaoke,{\k16}黄|<た{\k16}＃|そ{\k16}昏|<が{\k14}＃|れ{\k15}と{\k15}不|<ふ{\k15}滅|<め{\k44}＃|つ
+Comment: 0,0:01:22.66,0:01:24.16,UpKana,line 2 value 2,0,0,2,karaoke,{\k15}眠|<ね{\k16}＃|む{\k15}れ{\k14}な{\k16}い{\k15}ま{\k16}ま{\k43}で
+Comment: 0,0:01:24.16,0:01:25.40,UpRMJ,,0,0,0,karaoke,{\k30}All {\k31}through {\k16}the {\k47}night
+Comment: 0,0:01:29.26,0:01:36.81,UpKana,,0,0,0,karaoke,{\k18}た{\k14}と{\k57}え{\k31}あ{\k61}や{\k44}ま{\k45}ち{\k61}を{\k28}選|<え{\k32}＃|ら{\k28}ぶ{\k31}と{\k18}し{\k46}て{\k241}も
+Comment: 0,0:01:38.85,0:01:46.40,UpKana,,0,0,0,karaoke,{\k14}そ{\k20}れ{\k59}も{\k31}ま{\k52}た{\k53}ひ{\k44}と{\k59}つ{\k29}お{\k32}楽|<た{\k28}＃|の{\k48}し{\k40}み{\k246}さ
+Comment: 0,0:01:53.87,0:01:56.27,UpKana,,0,0,0,karaoke,{\k26}光|<ひ{\k23}＃|か{\k13}＃|り{\k25}翔|<か{\k18}け{\k13}て{\k1} {\k23}魔|<ま{\k22}法|<ほ{\k16}＃|う{\k24}か{\k21}け{\k15}て
+Comment: 0,0:01:56.27,0:01:58.63,UpKana,line 2 value 2,0,0,2,karaoke,{\k22}夜|<よ{\k21}＃|る{\k17}を{\k22}走|<は{\k23}＃|し{\k14}る {\k49}Two {\k29}wit{\k39}ches
+Comment: 0,0:01:58.63,0:02:00.81,UpRMJ,,0,0,0,karaoke,{\k37}Through {\k13}the {\k70}night {\k34}Through {\k16}the {\k48}night
+Comment: 0,0:02:01.06,0:02:03.21,UpRMJ,line 2 value 2,0,0,2,karaoke,{\k46}All {\k45}night {\k29}long {\k47}Witch{\k48}craft
+Comment: 0,0:02:03.47,0:02:07.89,UpKana,,0,0,0,karaoke,{\k25}夜|<よ{\k19}更|<ふ{\k16}け{\k64}に{\k114}  {\k30}彼|<か{\k18}方|<な{\k14}#|た{\k142}に
+Comment: 0,0:02:08.25,0:02:09.45,UpKana,line 2 value 2,0,0,2,karaoke,{\k22}星|<ほ{\k21}＃|し{\k19}を{\k22}掴|<つ{\k22}＃|か{\k14}め
+Comment: 0,0:02:09.45,0:02:10.66,UpKana,,0,0,0,karaoke,{\k24}月|<つ{\k20}＃|き{\k19}を{\k21}目|<め{\k22}指|<ざ{\k15}せ
+Comment: 0,0:02:10.66,0:02:12.60,UpKana,line 2 value 2,0,0,2,karaoke,{\k26}朝|<あ{\k19}＃|さ{\k17}目|<め{\k23}覚|<ざ{\k13}め{\k9}ぬ{\k16}間|<ま{\k71}に
+Comment: 0,0:02:13.07,0:02:16.35,UpKana,,0,0,0,karaoke,{\k45}い{\k44}つ{\k31}の{\k30}間|<ま{\k12}に{\k34}か{\k12}暗|<く{\k17}＃|ら{\k16}闇|<や{\k44}＃|み{\k43}も
+Comment: 0,0:02:16.35,0:02:20.06,UpKana,line 2 value 2,0,0,2,karaoke,{\k32}怖|<こ{\k29}＃|わ{\k15}く{\k30}な{\k16}く{\k31}なっ{\k218}て、
+Comment: 0,0:02:22.66,0:02:28.94,UpKana,,0,0,0,karaoke,{\k47}私|<わ{\k43}＃|た{\k30}＃|し{\k29}た{\k16}ち{\k33}は {\k13}何|<な{\k15}＃|に{\k14}を{\k44}失|<う{\k48}＃|し{\k29}＃|な{\k31}っ{\k13}た{\k32}の{\k15}だ{\k29}ろ{\k147}う？
+Comment: 0,0:02:51.43,0:02:54.20,UpKana,,0,0,0,karaoke,{\k0}「{\k50}こ{\k46}の{\k29}夜|<よ{\k32}＃|る{\k9}が{\k33}ずっ{\k16}と{\k15}続|<つ{\k14}＃|づ{\k33}く
+Comment: 0,0:02:54.32,0:02:57.03,UpKana,line 2 value 2,0,0,2,karaoke,{\k30}の{\k14}も{\k31}い{\k26}い{\k18}か{\k31}な、{\k13}な{\k30}ん{\k78}て
+Comment: 0,0:03:01.04,0:03:03.70,UpKana,,0,0,0,karaoke,{\k46}思|<お{\k46}＃|も{\k30}わ{\k16}な{\k14}い{\k14}わ{\k29}け{\k15}じゃ{\k18}な{\k14}い{\k24}よ
+Comment: 0,0:03:03.89,0:03:06.86,UpKana,line 2 value 2,0,0,2,karaoke,{\k31}理|<こ{\k12}＃|と{\k21}＃|わ{\k14}＃|り{\k29}の {\k14}向|<む{\k32}こう{\k14}側|<が{\k27}＃|わ{\k103}さ」
+Comment: 0,0:03:07.03,0:03:10.71,UpRMJ,,0,0,0,karaoke,{\k120}Hey {\k128}Ouh {\k120}Ouh!
+Comment: 0,0:03:10.71,0:03:12.97,UpKana,line 2 value 2,0,0,2,karaoke,{\k0}「{\k40}二|<ふ{\k47}＃|た{\k30}人|<り{\k26}で{\k15}翔|<か{\k17}け{\k17}る{\k12}今|<い{\k14}＃|ま{\k8}が
+Comment: 0,0:03:12.97,0:03:17.78,UpKana,line 2 value 2,0,0,0,karaoke,{\k9}時|<じ{\k44}間|<かん{\k43}法|<ほう {\k21}則|<そ{\k13}＃|く{\k28}の{\k16}外|<そ{\k29}＃|と{\k17}な{\k30}ら{\k231}ば
+Comment: 0,0:03:20.26,0:03:22.26,UpKana,,0,0,0,karaoke,{\k44}ま{\k46}る{\k29}で{\k31}そ{\k16}れ{\k34}は
+Comment: 0,0:03:22.26,0:03:25.06,UpKana,line 2 value 2,0,0,2,karaoke,{\k11}二|<ふ{\k15}＃|た{\k14}人|<り{\k46}で{\k45}ひ{\k17}と{\k12}つ{\k28}み{\k16}た{\k30}い{\k17}じゃ{\k29}ない？」
+Comment: 0,0:03:25.06,0:03:30.39,UpRMJ,,0,0,0,karaoke,{\k120}Hey {\k119}Hey {\k125}Ouh {\k59}Ouh {\k58}Ouh {\k52}Ouh
+Comment: 0,0:00:00.20,0:00:00.20,Choir down,,0,0,0,karaoke,
+Comment: 0,0:00:28.68,0:00:29.84,yoakeni,line 3  value 4,0,0,4,karaoke,{\k20}夜|<よ{\k24}明|<あ{\k13}け{\k59}に
+Comment: 0,0:00:31.04,0:00:32.11,anatani,line 3  value 4,0,0,4,karaoke,{\k25}貴|<あ{\k22}＃|な{\k17}女|<た{\k43}に
+Comment: 0,0:00:41.84,0:00:44.02,Choir down,line 3  value 4,0,0,4,karaoke,{\k34}Through {\k16}the {\k68}night {\k35}Through {\k15}the {\k44}night
+Comment: 0,0:00:44.26,0:00:46.41,Choir down,line 4 value 5,0,0,5,karaoke,{\k46}All {\k45}night {\k32}long {\k43}Witch{\k49}craft
+Comment: 0,0:00:51.45,0:00:53.63,Choir down,line 3  value 4,0,0,4,karaoke,{\k34}Through {\k16}the {\k68}night {\k35}Through {\k15}the {\k44}night
+Comment: 0,0:00:53.86,0:00:56.01,Choir down,line 4 value 5,0,0,5,karaoke,{\k46}All {\k45}night {\k32}long {\k43}Witch{\k49}craft
+Comment: 0,0:01:25.08,0:01:29.26,Choir down,line 3  value 4,0,0,4,karaoke,{\k119}All {\k59}night {\k64}long, {\k89}All {\k28}night {\k59}long
+Comment: 0,0:01:34.66,0:01:38.80,Choir down,line 3  value 4,0,0,4,karaoke,{\k121}Be {\k51}with {\k71}you, {\k88}be {\k27}with {\k56}you
+Comment: 0,0:02:04.63,0:02:05.86,yoakeni,line 3  value 4,0,0,4,karaoke,{\k25}夜|<よ{\k24}明|<あ{\k15}け{\k59}に
+Comment: 0,0:02:07.03,0:02:08.12,anatani,line 3  value 4,0,0,4,karaoke,{\k27}貴|<あ{\k21}＃|な{\k16}女|<た{\k45}に
+Comment: 0,0:02:17.87,0:02:20.05,Choir down,line 3  value 4,0,0,4,karaoke,{\k34}Through {\k16}the {\k68}night {\k35}Through {\k15}the {\k44}night
+Comment: 0,0:02:20.26,0:02:22.41,Choir down,line 4 value 5,0,0,5,karaoke,{\k46}All {\k45}night {\k32}long {\k43}Witch{\k49}craft
+Comment: 0,0:02:27.43,0:02:29.61,Choir down,line 3  value 4,0,0,4,karaoke,{\k34}Through {\k16}the {\k68}night {\k35}Through {\k15}the {\k50}night
+Comment: 0,0:02:29.86,0:02:32.01,Choir down,line 4 value 5,0,0,5,karaoke,{\k46}All {\k45}night {\k32}long {\k43}Witch{\k49}craft
+Comment: 0,0:02:56.25,0:02:58.43,Choir down,line 3  value 4,0,0,4,karaoke,{\k34}Through {\k16}the {\k68}night {\k35}Through {\k15}the {\k44}night
+Comment: 0,0:02:58.67,0:03:00.82,Choir down,line 4 value 5,0,0,5,karaoke,{\k46}All {\k45}night {\k32}long {\k43}Witch{\k49}craft
+Comment: 0,0:03:05.86,0:03:08.04,Choir down,line 3  value 4,0,0,4,karaoke,{\k34}Through {\k16}the {\k68}night {\k35}Through {\k15}the {\k50}night
+Comment: 0,0:03:08.23,0:03:10.38,Choir down,line 4 value 5,0,0,5,karaoke,{\k46}All {\k45}night {\k32}long {\k43}Witch{\k49}craft
+Comment: 0,0:03:15.48,0:03:17.66,Choir down,line 3  value 4,0,0,4,karaoke,{\k34}Through {\k16}the {\k68}night {\k35}Through {\k15}the {\k50}night
+Comment: 0,0:03:17.87,0:03:20.02,Choir down,line 4 value 5,0,0,5,karaoke,{\k46}All {\k45}night {\k32}long {\k43}Witch{\k49}craft
+Comment: 0,0:03:25.06,0:03:27.24,Choir down,line 3  value 4,0,0,4,karaoke,{\k34}Through {\k16}the {\k68}night {\k35}Through {\k15}the {\k50}night
+Comment: 0,0:03:27.45,0:03:29.60,Choir down,line 4 value 5,0,0,5,karaoke,{\k46}All {\k45}night {\k32}long {\k43}Witch{\k49}craft
+Dialogue: 0,0:00:07.35,0:00:11.16,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(113.203125,50)\k90\0}
+Dialogue: 0,0:00:07.35,0:00:11.16,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(124.458984375,50)\k90\\k49}頬
+Dialogue: 0,0:00:07.35,0:00:11.16,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(146.970703125,50)\k139\\k13}を
+Dialogue: 0,0:00:07.35,0:00:11.16,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.48828125,50)\k152\\k45}掠
+Dialogue: 0,0:00:07.35,0:00:11.16,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(192,50)\k197\\k16}め
+Dialogue: 0,0:00:07.35,0:00:11.16,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.51171875,50)\k213\\k25}る
+Dialogue: 0,0:00:07.35,0:00:11.16,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(237.0234375,50)\k238\\k19}夜
+Dialogue: 0,0:00:07.35,0:00:11.16,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(259.541015625,50)\k257\\k104}風
+Dialogue: 0,0:00:07.35,0:00:11.16,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(118.828125,28)\k90\\k28}ほ
+Dialogue: 0,0:00:07.35,0:00:11.16,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(130.08984375,28)\k118\\k21}お
+Dialogue: 0,0:00:07.35,0:00:11.16,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(163.857421875,28)\k152\\k25}か
+Dialogue: 0,0:00:07.35,0:00:11.16,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(175.119140625,28)\k177\\k20}す
+Dialogue: 0,0:00:07.35,0:00:11.16,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(237.0234375,28)\k238\\k19}よ
+Dialogue: 0,0:00:07.35,0:00:11.16,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(253.91015625,28)\k257\\k14}か
+Dialogue: 0,0:00:07.35,0:00:11.16,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(265.171875,28)\k271\\k90}ぜ
+Dialogue: 0,0:00:12.16,0:00:15.89,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(90.6884765625,50)\k90\0}
+Dialogue: 0,0:00:12.16,0:00:15.89,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(101.9443359375,50)\k90\\k47}二
+Dialogue: 0,0:00:12.16,0:00:15.89,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(124.4619140625,50)\k137\\k15}人
+Dialogue: 0,0:00:12.16,0:00:15.89,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(146.9736328125,50)\k152\\k21}の
+Dialogue: 0,0:00:12.16,0:00:15.89,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.4853515625,50)\k173\\k22}魔
+Dialogue: 0,0:00:12.16,0:00:15.89,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(192.0029296875,50)\k195\\k15}女
+Dialogue: 0,0:00:12.16,0:00:15.89,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.5205078125,50)\k210\\k26}飛
+Dialogue: 0,0:00:12.16,0:00:15.89,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(237.0322265625,50)\k236\\k20}び
+Dialogue: 0,0:00:12.16,0:00:15.89,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(259.5439453125,50)\k256\\k15}立
+Dialogue: 0,0:00:12.16,0:00:15.89,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(282.0556640625,50)\k271\\k82}つ
+Dialogue: 0,0:00:12.16,0:00:15.89,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(96.3134765625,28)\k90\\k25}ふ
+Dialogue: 0,0:00:12.16,0:00:15.89,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(107.5751953125,28)\k115\\k22}た
+Dialogue: 0,0:00:12.16,0:00:15.89,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(124.4619140625,28)\k137\\k15}り
+Dialogue: 0,0:00:12.16,0:00:15.89,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.4853515625,28)\k173\\k22}ま
+Dialogue: 0,0:00:12.16,0:00:15.89,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(192.0029296875,28)\k195\\k15}じょ
+Dialogue: 0,0:00:12.16,0:00:15.89,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.5205078125,28)\k210\\k26}と
+Dialogue: 0,0:00:12.16,0:00:15.89,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(259.5439453125,28)\k256\\k15}た
+Dialogue: 0,0:00:16.97,0:00:20.48,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(82.2451171875,50)\k90\0}
+Dialogue: 0,0:00:16.97,0:00:20.48,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(93.5009765625,50)\k90\\k62}光
+Dialogue: 0,0:00:16.97,0:00:20.48,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(121.6494140625,50)\k152\\k23}翔
+Dialogue: 0,0:00:16.97,0:00:20.48,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(144.1611328125,50)\k175\\k17}け
+Dialogue: 0,0:00:16.97,0:00:20.48,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(166.6728515625,50)\k192\\k17}て
+Dialogue: 0,0:00:16.97,0:00:20.48,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(189.1904296875,50)\k209\\k1}
+Dialogue: 0,0:00:16.97,0:00:20.48,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(200.4462890625,50)\k210\\k21}魔
+Dialogue: 0,0:00:16.97,0:00:20.48,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(222.9638671875,50)\k231\\k40}法
+Dialogue: 0,0:00:16.97,0:00:20.48,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(245.4755859375,50)\k271\\k24}か
+Dialogue: 0,0:00:16.97,0:00:20.48,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(267.9873046875,50)\k295\\k20}け
+Dialogue: 0,0:00:16.97,0:00:20.48,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(290.4990234375,50)\k315\\k16}て
+Dialogue: 0,0:00:16.97,0:00:20.48,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(82.2392578125,28)\k90\\k27}ひ
+Dialogue: 0,0:00:16.97,0:00:20.48,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(93.5009765625,28)\k117\\k19}か
+Dialogue: 0,0:00:16.97,0:00:20.48,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(104.7626953125,28)\k136\\k16}り
+Dialogue: 0,0:00:16.97,0:00:20.48,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(121.6494140625,28)\k152\\k23}か
+Dialogue: 0,0:00:16.97,0:00:20.48,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(200.4462890625,28)\k210\\k21}ま
+Dialogue: 0,0:00:16.97,0:00:20.48,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(217.3330078125,28)\k231\\k23}ほ
+Dialogue: 0,0:00:16.97,0:00:20.48,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(228.5947265625,28)\k254\\k17}う
+Dialogue: 0,0:00:19.38,0:00:22.84,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(79.4033203125,100)\k90\0}
+Dialogue: 0,0:00:19.38,0:00:22.84,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(90.6591796875,100)\k90\\k40}夜
+Dialogue: 0,0:00:19.38,0:00:22.84,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(113.1708984375,100)\k130\\k17}を
+Dialogue: 0,0:00:19.38,0:00:22.84,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(135.6884765625,100)\k147\\k47}走
+Dialogue: 0,0:00:19.38,0:00:22.84,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(158.2001953125,100)\k194\\k15}る
+Dialogue: 0,0:00:19.38,0:00:22.84,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(197.6103515625,100)\k209\\k47}Two
+Dialogue: 0,0:00:19.38,0:00:22.84,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(242.6572265625,100)\k256\\k26}wit
+Dialogue: 0,0:00:19.38,0:00:22.84,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(282.0732421875,100)\k282\\k44}ches
+Dialogue: 0,0:00:19.38,0:00:22.84,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(85.0283203125,78)\k90\\k22}よ
+Dialogue: 0,0:00:19.38,0:00:22.84,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(96.2900390625,78)\k112\\k18}る
+Dialogue: 0,0:00:19.38,0:00:22.84,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(130.0576171875,78)\k147\\k25}は
+Dialogue: 0,0:00:19.38,0:00:22.84,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(141.3193359375,78)\k172\\k22}し
+Dialogue: 0,0:00:21.74,0:00:24.96,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(21.169921875,48)\k90\0}
+Dialogue: 0,0:00:21.74,0:00:24.96,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(55.3359375,48)\k90\\k34}Through
+Dialogue: 0,0:00:21.74,0:00:24.96,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(113.90625,48)\k124\\k16}the
+Dialogue: 0,0:00:21.74,0:00:24.96,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(162.71484375,48)\k140\\k68}night
+Dialogue: 0,0:00:21.74,0:00:24.96,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(231.046875,48)\k208\\k35}Through
+Dialogue: 0,0:00:21.74,0:00:24.96,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(289.6171875,48)\k243\\k15}the
+Dialogue: 0,0:00:21.74,0:00:24.96,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(338.42578125,48)\k258\\k44}night
+Dialogue: 0,0:00:24.16,0:00:27.41,UpRMJ,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(69.978515625,98)\k90\0}
+Dialogue: 0,0:00:24.16,0:00:27.41,UpRMJ,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(84.62109375,98)\k90\\k46}All
+Dialogue: 0,0:00:24.16,0:00:27.41,UpRMJ,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(133.4296875,98)\k136\\k45}night
+Dialogue: 0,0:00:24.16,0:00:27.41,UpRMJ,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(187.119140625,98)\k181\\k32}long
+Dialogue: 0,0:00:24.16,0:00:27.41,UpRMJ,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(240.80859375,98)\k213\\k43}Witch
+Dialogue: 0,0:00:24.16,0:00:27.41,UpRMJ,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(289.6171875,98)\k256\\k49}craft
+Dialogue: 0,0:00:26.58,0:00:31.84,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(101.9443359375,50)\k90\0}
+Dialogue: 0,0:00:26.58,0:00:31.84,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(113.2001953125,50)\k90\\k21}夜
+Dialogue: 0,0:00:26.58,0:00:31.84,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(135.7119140625,50)\k111\\k22}更
+Dialogue: 0,0:00:26.58,0:00:31.84,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(158.2236328125,50)\k133\\k15}け
+Dialogue: 0,0:00:26.58,0:00:31.84,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(180.7353515625,50)\k148\\k73}に
+Dialogue: 0,0:00:26.58,0:00:31.84,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.5146484375,50)\k221\\k106}
+Dialogue: 0,0:00:26.58,0:00:31.84,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(225.7705078125,50)\k327\\k31}彼
+Dialogue: 0,0:00:26.58,0:00:31.84,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(248.2880859375,50)\k358\\k30}方
+Dialogue: 0,0:00:26.58,0:00:31.84,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(270.7998046875,50)\k388\\k118}に
+Dialogue: 0,0:00:26.58,0:00:31.84,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(113.2001953125,28)\k90\\k21}よ
+Dialogue: 0,0:00:26.58,0:00:31.84,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(135.7119140625,28)\k111\\k22}ふ
+Dialogue: 0,0:00:26.58,0:00:31.84,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(225.7705078125,28)\k327\\k31}か
+Dialogue: 0,0:00:26.58,0:00:31.84,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(242.6572265625,28)\k358\\k17}な
+Dialogue: 0,0:00:26.58,0:00:31.84,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(253.9189453125,28)\k375\\k13}た
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(85.0634765625,100)\k90\0}
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(96.3193359375,100)\k90\\k50}星
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(118.8310546875,100)\k140\\k17}を
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(141.3486328125,100)\k157\\k43}掴
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(163.8603515625,100)\k200\\k14}め
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(186.3779296875,100)\k214\\k1}
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(197.6337890625,100)\k215\\k44}月
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(220.1455078125,100)\k259\\k17}を
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(242.6572265625,100)\k276\\k23}目
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(265.1689453125,100)\k299\\k21}指
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(287.6806640625,100)\k320\\k13}せ
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(90.6884765625,78)\k90\\k25}ほ
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(101.9501953125,78)\k115\\k25}し
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(135.7177734375,78)\k157\\k21}つ
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(146.9794921875,78)\k178\\k22}か
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(192.0029296875,78)\k215\\k22}つ
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(203.2646484375,78)\k237\\k22}き
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(242.6572265625,78)\k276\\k23}め
+Dialogue: 0,0:00:31.31,0:00:34.89,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(265.1689453125,78)\k299\\k21}ざ
+Dialogue: 0,0:00:33.79,0:00:36.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(113.2060546875,50)\k90\0}
+Dialogue: 0,0:00:33.79,0:00:36.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(124.4619140625,50)\k90\\k42}朝
+Dialogue: 0,0:00:33.79,0:00:36.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(146.9794921875,50)\k132\\k17}目
+Dialogue: 0,0:00:33.79,0:00:36.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.4912109375,50)\k149\\k23}覚
+Dialogue: 0,0:00:33.79,0:00:36.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(192.0029296875,50)\k172\\k11}め
+Dialogue: 0,0:00:33.79,0:00:36.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.5146484375,50)\k183\\k11}ぬ
+Dialogue: 0,0:00:33.79,0:00:36.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(237.0263671875,50)\k194\\k17}間
+Dialogue: 0,0:00:33.79,0:00:36.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(259.5380859375,50)\k211\\k72}に
+Dialogue: 0,0:00:33.79,0:00:36.82,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(118.8310546875,28)\k90\\k22}あ
+Dialogue: 0,0:00:33.79,0:00:36.82,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(130.0927734375,28)\k112\\k20}さ
+Dialogue: 0,0:00:33.79,0:00:36.82,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(146.9794921875,28)\k132\\k17}め
+Dialogue: 0,0:00:33.79,0:00:36.82,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.4912109375,28)\k149\\k23}ざ
+Dialogue: 0,0:00:33.79,0:00:36.82,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(237.0263671875,28)\k194\\k17}ま
+Dialogue: 0,0:00:36.16,0:00:39.69,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(90.69140625,100)\k90\0}
+Dialogue: 0,0:00:36.16,0:00:39.69,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(101.947265625,100)\k90\\k0}「
+Dialogue: 0,0:00:36.16,0:00:39.69,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(124.458984375,100)\k90\\k45}永
+Dialogue: 0,0:00:36.16,0:00:39.69,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(146.982421875,100)\k135\\k46}遠
+Dialogue: 0,0:00:36.16,0:00:39.69,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(169.494140625,100)\k181\\k30}の
+Dialogue: 0,0:00:36.16,0:00:39.69,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(192.005859375,100)\k211\\k30}意
+Dialogue: 0,0:00:36.16,0:00:39.69,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(214.517578125,100)\k241\\k19}味
+Dialogue: 0,0:00:36.16,0:00:39.69,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(237.029296875,100)\k260\\k25}な
+Dialogue: 0,0:00:36.16,0:00:39.69,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(259.541015625,100)\k285\\k16}ん
+Dialogue: 0,0:00:36.16,0:00:39.69,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(282.052734375,100)\k301\\k32}て
+Dialogue: 0,0:00:36.16,0:00:39.69,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(118.828125,78)\k90\\k31}え
+Dialogue: 0,0:00:36.16,0:00:39.69,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(130.08984375,78)\k121\\k14}い
+Dialogue: 0,0:00:36.16,0:00:39.69,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(141.3515625,78)\k135\\k27}え
+Dialogue: 0,0:00:36.16,0:00:39.69,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(152.61328125,78)\k162\\k19}ん
+Dialogue: 0,0:00:36.16,0:00:39.69,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(192.005859375,78)\k211\\k30}い
+Dialogue: 0,0:00:36.16,0:00:39.69,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(214.517578125,78)\k241\\k19}み
+Dialogue: 0,0:00:38.59,0:00:42.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(45.65625,50)\k90\0}
+Dialogue: 0,0:00:38.59,0:00:42.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(56.912109375,50)\k90\\k28}ど
+Dialogue: 0,0:00:38.59,0:00:42.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(79.423828125,50)\k118\\k14}う
+Dialogue: 0,0:00:38.59,0:00:42.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(101.935546875,50)\k132\\k30}と
+Dialogue: 0,0:00:38.59,0:00:42.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(124.447265625,50)\k162\\k16}で
+Dialogue: 0,0:00:38.59,0:00:42.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(146.958984375,50)\k178\\k32}も
+Dialogue: 0,0:00:38.59,0:00:42.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.470703125,50)\k210\\k28}つ
+Dialogue: 0,0:00:38.59,0:00:42.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(191.982421875,50)\k238\\k15}け
+Dialogue: 0,0:00:38.59,0:00:42.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.494140625,50)\k253\\k30}て
+Dialogue: 0,0:00:38.59,0:00:42.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(237.005859375,50)\k283\\k17}や
+Dialogue: 0,0:00:38.59,0:00:42.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(259.517578125,50)\k300\\k29}れ
+Dialogue: 0,0:00:38.59,0:00:42.82,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(310.189453125,50)\k329\\k74}Yeah!
+Dialogue: 0,0:00:45.77,0:00:48.96,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(101.953125,50)\k90\0}
+Dialogue: 0,0:00:45.77,0:00:48.96,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(113.208984375,50)\k90\\k71}長
+Dialogue: 0,0:00:45.77,0:00:48.96,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(135.720703125,50)\k161\\k16}く
+Dialogue: 0,0:00:45.77,0:00:48.96,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(158.232421875,50)\k177\\k33}引
+Dialogue: 0,0:00:45.77,0:00:48.96,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(180.744140625,50)\k210\\k31}き
+Dialogue: 0,0:00:45.77,0:00:48.96,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(203.255859375,50)\k241\\k15}伸
+Dialogue: 0,0:00:45.77,0:00:48.96,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(225.767578125,50)\k256\\k15}ば
+Dialogue: 0,0:00:45.77,0:00:48.96,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(248.279296875,50)\k271\\k16}し
+Dialogue: 0,0:00:45.77,0:00:48.96,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(270.791015625,50)\k287\\k12}て
+Dialogue: 0,0:00:45.77,0:00:48.96,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(107.578125,28)\k90\\k45}な
+Dialogue: 0,0:00:45.77,0:00:48.96,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(118.83984375,28)\k135\\k26}が
+Dialogue: 0,0:00:45.77,0:00:48.96,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(158.232421875,28)\k177\\k33}ひ
+Dialogue: 0,0:00:45.77,0:00:48.96,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(203.255859375,28)\k241\\k15}の
+Dialogue: 0,0:00:47.86,0:00:52.02,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(79.44140625,100)\k90\0}
+Dialogue: 0,0:00:47.86,0:00:52.02,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(90.697265625,100)\k90\\k33}薄
+Dialogue: 0,0:00:47.86,0:00:52.02,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(113.208984375,100)\k123\\k45}ま
+Dialogue: 0,0:00:47.86,0:00:52.02,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(135.720703125,100)\k168\\k44}ら
+Dialogue: 0,0:00:47.86,0:00:52.02,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(158.232421875,100)\k212\\k30}な
+Dialogue: 0,0:00:47.86,0:00:52.02,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(180.744140625,100)\k242\\k26}い
+Dialogue: 0,0:00:47.86,0:00:52.02,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(203.255859375,100)\k268\\k18}よ
+Dialogue: 0,0:00:47.86,0:00:52.02,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(225.767578125,100)\k286\\k29}う
+Dialogue: 0,0:00:47.86,0:00:52.02,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(248.279296875,100)\k315\\k17}に
+Dialogue: 0,0:00:47.86,0:00:52.02,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(282.046875,100)\k332\\k64}な」
+Dialogue: 0,0:00:47.86,0:00:52.02,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(85.06640625,78)\k90\\k17}う
+Dialogue: 0,0:00:47.86,0:00:52.02,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(96.328125,78)\k107\\k16}す
+Dialogue: 0,0:00:55.36,0:00:57.86,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(113.208984375,50)\k90\0}
+Dialogue: 0,0:00:55.36,0:00:57.86,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(124.46484375,50)\k90\\k32}星
+Dialogue: 0,0:00:55.36,0:00:57.86,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(146.9765625,50)\k122\\k16}の
+Dialogue: 0,0:00:55.36,0:00:57.86,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.48828125,50)\k138\\k13}行
+Dialogue: 0,0:00:55.36,0:00:57.86,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(192,50)\k151\\k15}き
+Dialogue: 0,0:00:55.36,0:00:57.86,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.51171875,50)\k166\\k15}交
+Dialogue: 0,0:00:55.36,0:00:57.86,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(237.0234375,50)\k181\\k16}い
+Dialogue: 0,0:00:55.36,0:00:57.86,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(259.53515625,50)\k197\\k33}に
+Dialogue: 0,0:00:55.36,0:00:57.86,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(118.833984375,28)\k90\\k15}ほ
+Dialogue: 0,0:00:55.36,0:00:57.86,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(130.095703125,28)\k105\\k17}し
+Dialogue: 0,0:00:55.36,0:00:57.86,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.48828125,28)\k138\\k13}い
+Dialogue: 0,0:00:55.36,0:00:57.86,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.51171875,28)\k166\\k15}か
+Dialogue: 0,0:00:57.76,0:01:00.36,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(135.708984375,100)\k90\0}
+Dialogue: 0,0:00:57.76,0:01:00.36,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(146.96484375,100)\k90\\k31}約
+Dialogue: 0,0:00:57.76,0:01:00.36,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(169.48828125,100)\k121\\k30}束
+Dialogue: 0,0:00:57.76,0:01:00.36,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(192.01171875,100)\k151\\k30}通
+Dialogue: 0,0:00:57.76,0:01:00.36,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(214.5234375,100)\k181\\k15}り
+Dialogue: 0,0:00:57.76,0:01:00.36,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(237.03515625,100)\k196\\k44}に
+Dialogue: 0,0:00:57.76,0:01:00.36,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(141.333984375,78)\k90\\k16}や
+Dialogue: 0,0:00:57.76,0:01:00.36,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(152.595703125,78)\k106\\k15}く
+Dialogue: 0,0:00:57.76,0:01:00.36,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(163.857421875,78)\k121\\k15}そ
+Dialogue: 0,0:00:57.76,0:01:00.36,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(175.119140625,78)\k136\\k15}く
+Dialogue: 0,0:00:57.76,0:01:00.36,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(186.380859375,78)\k151\\k15}ど
+Dialogue: 0,0:00:57.76,0:01:00.36,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(197.642578125,78)\k166\\k15}お
+Dialogue: 0,0:01:00.16,0:01:02.76,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(124.4619140625,50)\k90\0}
+Dialogue: 0,0:01:00.16,0:01:02.76,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(135.7177734375,50)\k90\\k31}筋
+Dialogue: 0,0:01:00.16,0:01:02.76,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(158.2353515625,50)\k121\\k15}書
+Dialogue: 0,0:01:00.16,0:01:02.76,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(180.7470703125,50)\k136\\k15}き
+Dialogue: 0,0:01:00.16,0:01:02.76,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(203.2587890625,50)\k151\\k30}違
+Dialogue: 0,0:01:00.16,0:01:02.76,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(225.7705078125,50)\k181\\k15}わ
+Dialogue: 0,0:01:00.16,0:01:02.76,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(248.2822265625,50)\k196\\k44}ず
+Dialogue: 0,0:01:00.16,0:01:02.76,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(130.0869140625,28)\k90\\k15}す
+Dialogue: 0,0:01:00.16,0:01:02.76,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(141.3486328125,28)\k105\\k16}じ
+Dialogue: 0,0:01:00.16,0:01:02.76,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(158.2353515625,28)\k121\\k15}が
+Dialogue: 0,0:01:00.16,0:01:02.76,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(197.6279296875,28)\k151\\k15}た
+Dialogue: 0,0:01:00.16,0:01:02.76,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(208.8896484375,28)\k166\\k15}が
+Dialogue: 0,0:01:02.56,0:01:05.16,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(113.2060546875,100)\k90\0}
+Dialogue: 0,0:01:02.56,0:01:05.16,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(124.4619140625,100)\k90\\k16}日
+Dialogue: 0,0:01:02.56,0:01:05.16,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(146.9736328125,100)\k106\\k16}々
+Dialogue: 0,0:01:02.56,0:01:05.16,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(169.4853515625,100)\k122\\k14}の
+Dialogue: 0,0:01:02.56,0:01:05.16,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(191.9970703125,100)\k136\\k15}夜
+Dialogue: 0,0:01:02.56,0:01:05.16,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(214.5146484375,100)\k151\\k30}通
+Dialogue: 0,0:01:02.56,0:01:05.16,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(237.0263671875,100)\k181\\k15}わ
+Dialogue: 0,0:01:02.56,0:01:05.16,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(259.5380859375,100)\k196\\k44}す
+Dialogue: 0,0:01:02.56,0:01:05.16,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(124.4619140625,78)\k90\\k16}ひ
+Dialogue: 0,0:01:02.56,0:01:05.16,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(146.9736328125,78)\k106\\k16}び
+Dialogue: 0,0:01:02.56,0:01:05.16,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(191.9970703125,78)\k136\\k15}よ
+Dialogue: 0,0:01:02.56,0:01:05.16,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(208.8837890625,78)\k151\\k15}か
+Dialogue: 0,0:01:02.56,0:01:05.16,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(220.1455078125,78)\k166\\k15}よ
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(62.5458984375,50)\k90\0}
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(73.8017578125,50)\k90\\k17}魔
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(96.3193359375,50)\k107\\k29}法
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(118.8310546875,50)\k136\\k15}の
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(141.3486328125,50)\k151\\k30}数
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(163.8603515625,50)\k181\\k15}だ
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(186.3720703125,50)\k196\\k13}け
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(208.8896484375,50)\k209\\k1}
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(220.1455078125,50)\k210\\k44}呪
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(242.6572265625,50)\k254\\k17}う
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(265.1748046875,50)\k271\\k30}数
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(287.6865234375,50)\k301\\k16}だ
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(310.1982421875,50)\k317\\k11}け
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(73.8017578125,28)\k90\\k17}ま
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(90.6884765625,28)\k107\\k13}ほ
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(101.9501953125,28)\k120\\k16}う
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(135.7177734375,28)\k151\\k15}か
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(146.9794921875,28)\k166\\k15}ず
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(208.8837890625,28)\k210\\k16}ま
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(220.1455078125,28)\k226\\k15}じ
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(231.4072265625,28)\k241\\k13}な
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(259.5439453125,28)\k271\\k16}か
+Dialogue: 0,0:01:04.96,0:01:08.44,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(270.8056640625,28)\k287\\k14}ず
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(51.2900390625,100)\k90\0}
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(62.5458984375,100)\k90\\k17}カ
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(85.0576171875,100)\k107\\k16}ラ
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(107.5693359375,100)\k123\\k15}ク
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(130.0810546875,100)\k138\\k15}リ
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(152.5927734375,100)\k153\\k30}歪
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(175.1044921875,100)\k183\\k15}ん
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(197.6162109375,100)\k198\\k12}で
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(220.1337890625,100)\k210\\k3}
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(231.3896484375,100)\k213\\k30}月
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(253.9013671875,100)\k243\\k15}の
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(276.4189453125,100)\k258\\k30}道
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(298.9423828125,100)\k288\\k29}筋
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(321.4541015625,100)\k317\\k15}に
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(146.9619140625,78)\k153\\k14}ゆ
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(158.2236328125,78)\k167\\k16}が
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(225.7587890625,78)\k213\\k14}つ
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(237.0205078125,78)\k227\\k16}き
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(270.7880859375,78)\k258\\k15}み
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(282.0498046875,78)\k273\\k15}ち
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(293.3115234375,78)\k288\\k15}す
+Dialogue: 0,0:01:07.34,0:01:10.86,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(304.5732421875,78)\k303\\k14}じ
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(28.787109375,50)\k90\0}
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(40.04296875,50)\k90\\k31}霧
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(62.5546875,50)\k121\\k14}が
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(85.06640625,50)\k135\\k16}か
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(107.578125,50)\k151\\k14}か
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(130.08984375,50)\k165\\k15}る
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(152.6015625,50)\k180\\k16}だ
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(175.11328125,50)\k196\\k12}け
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(197.630859375,50)\k208\\k3}
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(208.88671875,50)\k211\\k30}遠
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(231.3984375,50)\k241\\k15}く
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(253.91015625,50)\k256\\k16}な
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(276.421875,50)\k272\\k14}る
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(298.93359375,50)\k286\\k15}夜
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(321.4453125,50)\k301\\k16}明
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(343.95703125,50)\k317\\k14}け
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(34.412109375,28)\k90\\k16}き
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(45.673828125,28)\k106\\k15}り
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(203.255859375,28)\k211\\k14}と
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.517578125,28)\k225\\k16}お
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(298.93359375,28)\k286\\k15}よ
+Dialogue: 0,0:01:09.76,0:01:13.27,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(321.4453125,28)\k301\\k16}あ
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(40.0400390625,100)\k90\0}
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(51.2958984375,100)\k90\\k14}そ
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(73.8076171875,100)\k104\\k16}の
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(96.3193359375,100)\k120\\k29}報
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(118.8310546875,100)\k149\\k16}い
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(141.3427734375,100)\k165\\k15}さ
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(163.8544921875,100)\k180\\k15}え
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(186.3662109375,100)\k195\\k13}も
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(208.8837890625,100)\k208\\k2}
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(220.1396484375,100)\k210\\k30}闇
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(242.6513671875,100)\k240\\k15}の
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(265.1689453125,100)\k255\\k29}中
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(287.6806640625,100)\k284\\k16}に
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(310.1923828125,100)\k300\\k15}消
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(332.7041015625,100)\k315\\k15}え
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(90.6884765625,78)\k120\\k15}む
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(101.9501953125,78)\k135\\k14}く
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(214.5087890625,78)\k210\\k13}や
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(225.7705078125,78)\k223\\k17}み
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(259.5380859375,78)\k255\\k15}な
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(270.7998046875,78)\k270\\k14}か
+Dialogue: 0,0:01:12.17,0:01:15.67,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(310.1923828125,78)\k300\\k15}き
+Dialogue: 0,0:01:14.57,0:01:17.16,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(132.896484375,50)\k90\0}
+Dialogue: 0,0:01:14.57,0:01:17.16,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(144.15234375,50)\k90\\k29}仮
+Dialogue: 0,0:01:14.57,0:01:17.16,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(166.67578125,50)\k119\\k31}初
+Dialogue: 0,0:01:14.57,0:01:17.16,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(189.1875,50)\k150\\k15}の
+Dialogue: 0,0:01:14.57,0:01:17.16,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(211.69921875,50)\k165\\k14}魔
+Dialogue: 0,0:01:14.57,0:01:17.16,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(239.84765625,50)\k179\\k60}術
+Dialogue: 0,0:01:14.57,0:01:17.16,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(138.521484375,28)\k90\\k14}か
+Dialogue: 0,0:01:14.57,0:01:17.16,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(149.783203125,28)\k104\\k15}り
+Dialogue: 0,0:01:14.57,0:01:17.16,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(161.044921875,28)\k119\\k16}そ
+Dialogue: 0,0:01:14.57,0:01:17.16,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(172.306640625,28)\k135\\k15}め
+Dialogue: 0,0:01:14.57,0:01:17.16,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(211.69921875,28)\k165\\k14}ま
+Dialogue: 0,0:01:14.57,0:01:17.16,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(234.216796875,28)\k179\\k18}じゅ
+Dialogue: 0,0:01:14.57,0:01:17.16,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(251.109375,28)\k197\\k42}つ
+Dialogue: 0,0:01:16.96,0:01:19.40,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(124.458984375,100)\k90\0}
+Dialogue: 0,0:01:16.96,0:01:19.40,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(135.71484375,100)\k90\\k31}満
+Dialogue: 0,0:01:16.96,0:01:19.40,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(158.23828125,100)\k121\\k30}月
+Dialogue: 0,0:01:16.96,0:01:19.40,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(180.75,100)\k151\\k12}に
+Dialogue: 0,0:01:16.96,0:01:19.40,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(203.26171875,100)\k163\\k18}い
+Dialogue: 0,0:01:16.96,0:01:19.40,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(225.7734375,100)\k181\\k15}ず
+Dialogue: 0,0:01:16.96,0:01:19.40,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(248.28515625,100)\k196\\k28}る
+Dialogue: 0,0:01:16.96,0:01:19.40,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(130.083984375,78)\k90\\k17}ま
+Dialogue: 0,0:01:16.96,0:01:19.40,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(141.345703125,78)\k107\\k14}ん
+Dialogue: 0,0:01:16.96,0:01:19.40,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(152.607421875,78)\k121\\k14}げ
+Dialogue: 0,0:01:16.96,0:01:19.40,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(163.869140625,78)\k135\\k16}つ
+Dialogue: 0,0:01:19.35,0:01:21.96,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(135.7119140625,50)\k90\0}
+Dialogue: 0,0:01:19.35,0:01:21.96,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(146.9677734375,50)\k90\\k32}黄
+Dialogue: 0,0:01:19.35,0:01:21.96,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.4912109375,50)\k122\\k30}昏
+Dialogue: 0,0:01:19.35,0:01:21.96,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(192.0029296875,50)\k152\\k15}と
+Dialogue: 0,0:01:19.35,0:01:21.96,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.5146484375,50)\k167\\k15}不
+Dialogue: 0,0:01:19.35,0:01:21.96,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(237.0322265625,50)\k182\\k59}滅
+Dialogue: 0,0:01:19.35,0:01:21.96,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(141.3369140625,28)\k90\\k16}た
+Dialogue: 0,0:01:19.35,0:01:21.96,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(152.5986328125,28)\k106\\k16}そ
+Dialogue: 0,0:01:19.35,0:01:21.96,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(163.8603515625,28)\k122\\k16}が
+Dialogue: 0,0:01:19.35,0:01:21.96,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(175.1220703125,28)\k138\\k14}れ
+Dialogue: 0,0:01:19.35,0:01:21.96,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.5146484375,28)\k167\\k15}ふ
+Dialogue: 0,0:01:19.35,0:01:21.96,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(231.4013671875,28)\k182\\k15}め
+Dialogue: 0,0:01:19.35,0:01:21.96,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(242.6630859375,28)\k197\\k44}つ
+Dialogue: 0,0:01:21.76,0:01:24.36,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(113.208984375,100)\k90\0}
+Dialogue: 0,0:01:21.76,0:01:24.36,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(124.46484375,100)\k90\\k31}眠
+Dialogue: 0,0:01:21.76,0:01:24.36,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(146.9765625,100)\k121\\k15}れ
+Dialogue: 0,0:01:21.76,0:01:24.36,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(169.48828125,100)\k136\\k14}な
+Dialogue: 0,0:01:21.76,0:01:24.36,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(192,100)\k150\\k16}い
+Dialogue: 0,0:01:21.76,0:01:24.36,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(214.51171875,100)\k166\\k15}ま
+Dialogue: 0,0:01:21.76,0:01:24.36,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(237.0234375,100)\k181\\k16}ま
+Dialogue: 0,0:01:21.76,0:01:24.36,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(259.53515625,100)\k197\\k43}で
+Dialogue: 0,0:01:21.76,0:01:24.36,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(118.833984375,78)\k90\\k15}ね
+Dialogue: 0,0:01:21.76,0:01:24.36,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(130.095703125,78)\k105\\k16}む
+Dialogue: 0,0:01:23.26,0:01:25.60,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(89.501953125,48)\k90\0}
+Dialogue: 0,0:01:23.26,0:01:25.60,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(104.14453125,48)\k90\\k30}All
+Dialogue: 0,0:01:23.26,0:01:25.60,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(162.71484375,48)\k120\\k31}through
+Dialogue: 0,0:01:23.26,0:01:25.60,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(221.28515625,48)\k151\\k16}the
+Dialogue: 0,0:01:23.26,0:01:25.60,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(270.09375,48)\k167\\k47}night
+Dialogue: 0,0:01:28.36,0:01:37.01,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(34.41796875,50)\k90\0}
+Dialogue: 0,0:01:28.36,0:01:37.01,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(45.673828125,50)\k90\\k18}た
+Dialogue: 0,0:01:28.36,0:01:37.01,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(68.185546875,50)\k108\\k14}と
+Dialogue: 0,0:01:28.36,0:01:37.01,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(90.697265625,50)\k122\\k57}え
+Dialogue: 0,0:01:28.36,0:01:37.01,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(113.208984375,50)\k179\\k31}あ
+Dialogue: 0,0:01:28.36,0:01:37.01,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(135.720703125,50)\k210\\k61}や
+Dialogue: 0,0:01:28.36,0:01:37.01,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(158.232421875,50)\k271\\k44}ま
+Dialogue: 0,0:01:28.36,0:01:37.01,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(180.744140625,50)\k315\\k45}ち
+Dialogue: 0,0:01:28.36,0:01:37.01,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(203.255859375,50)\k360\\k61}を
+Dialogue: 0,0:01:28.36,0:01:37.01,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(225.767578125,50)\k421\\k60}選
+Dialogue: 0,0:01:28.36,0:01:37.01,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(248.279296875,50)\k481\\k28}ぶ
+Dialogue: 0,0:01:28.36,0:01:37.01,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(270.791015625,50)\k509\\k31}と
+Dialogue: 0,0:01:28.36,0:01:37.01,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(293.302734375,50)\k540\\k18}し
+Dialogue: 0,0:01:28.36,0:01:37.01,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(315.814453125,50)\k558\\k46}て
+Dialogue: 0,0:01:28.36,0:01:37.01,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(338.326171875,50)\k604\\k241}も
+Dialogue: 0,0:01:28.36,0:01:37.01,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(220.13671875,28)\k421\\k28}え
+Dialogue: 0,0:01:28.36,0:01:37.01,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(231.3984375,28)\k449\\k32}ら
+Dialogue: 0,0:01:37.95,0:01:46.60,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(45.673828125,50)\k90\0}
+Dialogue: 0,0:01:37.95,0:01:46.60,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(56.9296875,50)\k90\\k14}そ
+Dialogue: 0,0:01:37.95,0:01:46.60,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(79.44140625,50)\k104\\k20}れ
+Dialogue: 0,0:01:37.95,0:01:46.60,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(101.953125,50)\k124\\k59}も
+Dialogue: 0,0:01:37.95,0:01:46.60,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(124.46484375,50)\k183\\k31}ま
+Dialogue: 0,0:01:37.95,0:01:46.60,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(146.9765625,50)\k214\\k52}た
+Dialogue: 0,0:01:37.95,0:01:46.60,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.48828125,50)\k266\\k53}ひ
+Dialogue: 0,0:01:37.95,0:01:46.60,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(192,50)\k319\\k44}と
+Dialogue: 0,0:01:37.95,0:01:46.60,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.51171875,50)\k363\\k59}つ
+Dialogue: 0,0:01:37.95,0:01:46.60,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(237.0234375,50)\k422\\k29}お
+Dialogue: 0,0:01:37.95,0:01:46.60,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(259.53515625,50)\k451\\k60}楽
+Dialogue: 0,0:01:37.95,0:01:46.60,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(282.046875,50)\k511\\k48}し
+Dialogue: 0,0:01:37.95,0:01:46.60,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(304.55859375,50)\k559\\k40}み
+Dialogue: 0,0:01:37.95,0:01:46.60,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(327.0703125,50)\k599\\k246}さ
+Dialogue: 0,0:01:37.95,0:01:46.60,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(253.904296875,28)\k451\\k32}た
+Dialogue: 0,0:01:37.95,0:01:46.60,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(265.166015625,28)\k483\\k28}の
+Dialogue: 0,0:01:52.97,0:01:56.47,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(82.2451171875,50)\k90\0}
+Dialogue: 0,0:01:52.97,0:01:56.47,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(93.5009765625,50)\k90\\k62}光
+Dialogue: 0,0:01:52.97,0:01:56.47,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(121.6494140625,50)\k152\\k25}翔
+Dialogue: 0,0:01:52.97,0:01:56.47,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(144.1611328125,50)\k177\\k18}け
+Dialogue: 0,0:01:52.97,0:01:56.47,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(166.6728515625,50)\k195\\k13}て
+Dialogue: 0,0:01:52.97,0:01:56.47,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(189.1904296875,50)\k208\\k1}
+Dialogue: 0,0:01:52.97,0:01:56.47,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(200.4462890625,50)\k209\\k23}魔
+Dialogue: 0,0:01:52.97,0:01:56.47,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(222.9638671875,50)\k232\\k38}法
+Dialogue: 0,0:01:52.97,0:01:56.47,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(245.4755859375,50)\k270\\k24}か
+Dialogue: 0,0:01:52.97,0:01:56.47,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(267.9873046875,50)\k294\\k21}け
+Dialogue: 0,0:01:52.97,0:01:56.47,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(290.4990234375,50)\k315\\k15}て
+Dialogue: 0,0:01:52.97,0:01:56.47,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(82.2392578125,28)\k90\\k26}ひ
+Dialogue: 0,0:01:52.97,0:01:56.47,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(93.5009765625,28)\k116\\k23}か
+Dialogue: 0,0:01:52.97,0:01:56.47,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(104.7626953125,28)\k139\\k13}り
+Dialogue: 0,0:01:52.97,0:01:56.47,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(121.6494140625,28)\k152\\k25}か
+Dialogue: 0,0:01:52.97,0:01:56.47,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(200.4462890625,28)\k209\\k23}ま
+Dialogue: 0,0:01:52.97,0:01:56.47,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(217.3330078125,28)\k232\\k22}ほ
+Dialogue: 0,0:01:52.97,0:01:56.47,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(228.5947265625,28)\k254\\k16}う
+Dialogue: 0,0:01:55.37,0:01:58.83,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(79.4033203125,100)\k90\0}
+Dialogue: 0,0:01:55.37,0:01:58.83,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(90.6591796875,100)\k90\\k43}夜
+Dialogue: 0,0:01:55.37,0:01:58.83,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(113.1708984375,100)\k133\\k17}を
+Dialogue: 0,0:01:55.37,0:01:58.83,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(135.6884765625,100)\k150\\k45}走
+Dialogue: 0,0:01:55.37,0:01:58.83,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(158.2001953125,100)\k195\\k14}る
+Dialogue: 0,0:01:55.37,0:01:58.83,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(197.6103515625,100)\k209\\k49}Two
+Dialogue: 0,0:01:55.37,0:01:58.83,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(242.6572265625,100)\k258\\k29}wit
+Dialogue: 0,0:01:55.37,0:01:58.83,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(282.0732421875,100)\k287\\k39}ches
+Dialogue: 0,0:01:55.37,0:01:58.83,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(85.0283203125,78)\k90\\k22}よ
+Dialogue: 0,0:01:55.37,0:01:58.83,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(96.2900390625,78)\k112\\k21}る
+Dialogue: 0,0:01:55.37,0:01:58.83,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(130.0576171875,78)\k150\\k22}は
+Dialogue: 0,0:01:55.37,0:01:58.83,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(141.3193359375,78)\k172\\k23}し
+Dialogue: 0,0:01:57.73,0:02:01.01,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(21.169921875,48)\k90\0}
+Dialogue: 0,0:01:57.73,0:02:01.01,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(55.3359375,48)\k90\\k37}Through
+Dialogue: 0,0:01:57.73,0:02:01.01,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(113.90625,48)\k127\\k13}the
+Dialogue: 0,0:01:57.73,0:02:01.01,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(162.71484375,48)\k140\\k70}night
+Dialogue: 0,0:01:57.73,0:02:01.01,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(231.046875,48)\k210\\k34}Through
+Dialogue: 0,0:01:57.73,0:02:01.01,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(289.6171875,48)\k244\\k16}the
+Dialogue: 0,0:01:57.73,0:02:01.01,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(338.42578125,48)\k260\\k48}night
+Dialogue: 0,0:02:00.16,0:02:03.41,UpRMJ,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(69.978515625,98)\k90\0}
+Dialogue: 0,0:02:00.16,0:02:03.41,UpRMJ,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(84.62109375,98)\k90\\k46}All
+Dialogue: 0,0:02:00.16,0:02:03.41,UpRMJ,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(133.4296875,98)\k136\\k45}night
+Dialogue: 0,0:02:00.16,0:02:03.41,UpRMJ,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(187.119140625,98)\k181\\k29}long
+Dialogue: 0,0:02:00.16,0:02:03.41,UpRMJ,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(240.80859375,98)\k210\\k47}Witch
+Dialogue: 0,0:02:00.16,0:02:03.41,UpRMJ,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(289.6171875,98)\k257\\k48}craft
+Dialogue: 0,0:02:02.57,0:02:08.09,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(101.9443359375,50)\k90\0}
+Dialogue: 0,0:02:02.57,0:02:08.09,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(113.2001953125,50)\k90\\k25}夜
+Dialogue: 0,0:02:02.57,0:02:08.09,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(135.7119140625,50)\k115\\k19}更
+Dialogue: 0,0:02:02.57,0:02:08.09,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(158.2236328125,50)\k134\\k16}け
+Dialogue: 0,0:02:02.57,0:02:08.09,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(180.7353515625,50)\k150\\k64}に
+Dialogue: 0,0:02:02.57,0:02:08.09,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.5146484375,50)\k214\\k114}
+Dialogue: 0,0:02:02.57,0:02:08.09,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(225.7705078125,50)\k328\\k30}彼
+Dialogue: 0,0:02:02.57,0:02:08.09,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(248.2880859375,50)\k358\\k32}方
+Dialogue: 0,0:02:02.57,0:02:08.09,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(270.7998046875,50)\k390\\k142}に
+Dialogue: 0,0:02:02.57,0:02:08.09,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(113.2001953125,28)\k90\\k25}よ
+Dialogue: 0,0:02:02.57,0:02:08.09,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(135.7119140625,28)\k115\\k19}ふ
+Dialogue: 0,0:02:02.57,0:02:08.09,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(225.7705078125,28)\k328\\k30}か
+Dialogue: 0,0:02:02.57,0:02:08.09,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(242.6572265625,28)\k358\\k18}な
+Dialogue: 0,0:02:02.57,0:02:08.09,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(253.9189453125,28)\k376\\k14}た
+Dialogue: 0,0:02:07.35,0:02:09.65,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(146.9736328125,100)\k90\0}
+Dialogue: 0,0:02:07.35,0:02:09.65,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(158.2294921875,100)\k90\\k43}星
+Dialogue: 0,0:02:07.35,0:02:09.65,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(180.7412109375,100)\k133\\k19}を
+Dialogue: 0,0:02:07.35,0:02:09.65,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(203.2587890625,100)\k152\\k44}掴
+Dialogue: 0,0:02:07.35,0:02:09.65,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(225.7705078125,100)\k196\\k14}め
+Dialogue: 0,0:02:07.35,0:02:09.65,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(152.5986328125,78)\k90\\k22}ほ
+Dialogue: 0,0:02:07.35,0:02:09.65,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(163.8603515625,78)\k112\\k21}し
+Dialogue: 0,0:02:07.35,0:02:09.65,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(197.6279296875,78)\k152\\k22}つ
+Dialogue: 0,0:02:07.35,0:02:09.65,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(208.8896484375,78)\k174\\k22}か
+Dialogue: 0,0:02:08.55,0:02:10.86,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(135.720703125,50)\k90\0}
+Dialogue: 0,0:02:08.55,0:02:10.86,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(146.9765625,50)\k90\\k44}月
+Dialogue: 0,0:02:08.55,0:02:10.86,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.48828125,50)\k134\\k19}を
+Dialogue: 0,0:02:08.55,0:02:10.86,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(192,50)\k153\\k21}目
+Dialogue: 0,0:02:08.55,0:02:10.86,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.51171875,50)\k174\\k22}指
+Dialogue: 0,0:02:08.55,0:02:10.86,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(237.0234375,50)\k196\\k15}せ
+Dialogue: 0,0:02:08.55,0:02:10.86,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(141.345703125,28)\k90\\k24}つ
+Dialogue: 0,0:02:08.55,0:02:10.86,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(152.607421875,28)\k114\\k20}き
+Dialogue: 0,0:02:08.55,0:02:10.86,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(192,28)\k153\\k21}め
+Dialogue: 0,0:02:08.55,0:02:10.86,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.51171875,28)\k174\\k22}ざ
+Dialogue: 0,0:02:09.76,0:02:12.80,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(113.2060546875,100)\k90\0}
+Dialogue: 0,0:02:09.76,0:02:12.80,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(124.4619140625,100)\k90\\k45}朝
+Dialogue: 0,0:02:09.76,0:02:12.80,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(146.9794921875,100)\k135\\k17}目
+Dialogue: 0,0:02:09.76,0:02:12.80,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(169.4912109375,100)\k152\\k23}覚
+Dialogue: 0,0:02:09.76,0:02:12.80,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(192.0029296875,100)\k175\\k13}め
+Dialogue: 0,0:02:09.76,0:02:12.80,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(214.5146484375,100)\k188\\k9}ぬ
+Dialogue: 0,0:02:09.76,0:02:12.80,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(237.0263671875,100)\k197\\k16}間
+Dialogue: 0,0:02:09.76,0:02:12.80,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(259.5380859375,100)\k213\\k71}に
+Dialogue: 0,0:02:09.76,0:02:12.80,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(118.8310546875,78)\k90\\k26}あ
+Dialogue: 0,0:02:09.76,0:02:12.80,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(130.0927734375,78)\k116\\k19}さ
+Dialogue: 0,0:02:09.76,0:02:12.80,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(146.9794921875,78)\k135\\k17}め
+Dialogue: 0,0:02:09.76,0:02:12.80,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(169.4912109375,78)\k152\\k23}ざ
+Dialogue: 0,0:02:09.76,0:02:12.80,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(237.0263671875,78)\k197\\k16}ま
+Dialogue: 0,0:02:12.17,0:02:16.55,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(90.69140625,50)\k90\0}
+Dialogue: 0,0:02:12.17,0:02:16.55,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(101.947265625,50)\k90\\k45}い
+Dialogue: 0,0:02:12.17,0:02:16.55,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(124.458984375,50)\k135\\k44}つ
+Dialogue: 0,0:02:12.17,0:02:16.55,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(146.970703125,50)\k179\\k31}の
+Dialogue: 0,0:02:12.17,0:02:16.55,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.482421875,50)\k210\\k30}間
+Dialogue: 0,0:02:12.17,0:02:16.55,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(191.994140625,50)\k240\\k12}に
+Dialogue: 0,0:02:12.17,0:02:16.55,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.505859375,50)\k252\\k34}か
+Dialogue: 0,0:02:12.17,0:02:16.55,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(237.017578125,50)\k286\\k29}暗
+Dialogue: 0,0:02:12.17,0:02:16.55,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(259.541015625,50)\k315\\k60}闇
+Dialogue: 0,0:02:12.17,0:02:16.55,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(282.052734375,50)\k375\\k43}も
+Dialogue: 0,0:02:12.17,0:02:16.55,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.482421875,28)\k210\\k30}ま
+Dialogue: 0,0:02:12.17,0:02:16.55,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(231.38671875,28)\k286\\k12}く
+Dialogue: 0,0:02:12.17,0:02:16.55,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(242.6484375,28)\k298\\k17}ら
+Dialogue: 0,0:02:12.17,0:02:16.55,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(253.91015625,28)\k315\\k16}や
+Dialogue: 0,0:02:12.17,0:02:16.55,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(265.171875,28)\k331\\k44}み
+Dialogue: 0,0:02:15.45,0:02:20.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(101.953125,100)\k90\0}
+Dialogue: 0,0:02:15.45,0:02:20.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(113.208984375,100)\k90\\k61}怖
+Dialogue: 0,0:02:15.45,0:02:20.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(135.720703125,100)\k151\\k15}く
+Dialogue: 0,0:02:15.45,0:02:20.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(158.232421875,100)\k166\\k30}な
+Dialogue: 0,0:02:15.45,0:02:20.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(180.744140625,100)\k196\\k16}く
+Dialogue: 0,0:02:15.45,0:02:20.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(214.51171875,100)\k212\\k31}なっ
+Dialogue: 0,0:02:15.45,0:02:20.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(259.53515625,100)\k243\\k218}て、
+Dialogue: 0,0:02:15.45,0:02:20.26,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(107.578125,78)\k90\\k32}こ
+Dialogue: 0,0:02:15.45,0:02:20.26,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(118.83984375,78)\k122\\k29}わ
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(25.96875,50)\k90\0}
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(37.224609375,50)\k90\\k120}私
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(59.736328125,50)\k210\\k29}た
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(82.248046875,50)\k239\\k16}ち
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(104.759765625,50)\k255\\k33}は
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(138.533203125,50)\k288\\k28}何
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(161.044921875,50)\k316\\k14}を
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(189.193359375,50)\k330\\k121}失
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(211.705078125,50)\k451\\k31}っ
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(234.216796875,50)\k482\\k13}た
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(256.728515625,50)\k495\\k32}の
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(279.240234375,50)\k527\\k15}だ
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(301.751953125,50)\k542\\k29}ろ
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(335.51953125,50)\k571\\k147}う？
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(25.962890625,28)\k90\\k47}わ
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(37.224609375,28)\k137\\k43}た
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(48.486328125,28)\k180\\k30}し
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(132.90234375,28)\k288\\k13}な
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(144.1640625,28)\k301\\k15}に
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(177.931640625,28)\k330\\k44}う
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(189.193359375,28)\k374\\k48}し
+Dialogue: 0,0:02:21.76,0:02:29.14,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(200.455078125,28)\k422\\k29}な
+Dialogue: 0,0:02:50.53,0:02:54.40,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(79.44140625,50)\k90\0}
+Dialogue: 0,0:02:50.53,0:02:54.40,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(90.697265625,50)\k90\\k0}「
+Dialogue: 0,0:02:50.53,0:02:54.40,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(113.208984375,50)\k90\\k50}こ
+Dialogue: 0,0:02:50.53,0:02:54.40,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(135.720703125,50)\k140\\k46}の
+Dialogue: 0,0:02:50.53,0:02:54.40,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(158.232421875,50)\k186\\k61}夜
+Dialogue: 0,0:02:50.53,0:02:54.40,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(180.744140625,50)\k247\\k9}が
+Dialogue: 0,0:02:50.53,0:02:54.40,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.51171875,50)\k256\\k33}ずっ
+Dialogue: 0,0:02:50.53,0:02:54.40,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(248.279296875,50)\k289\\k16}と
+Dialogue: 0,0:02:50.53,0:02:54.40,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(270.791015625,50)\k305\\k29}続
+Dialogue: 0,0:02:50.53,0:02:54.40,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(293.302734375,50)\k334\\k33}く
+Dialogue: 0,0:02:50.53,0:02:54.40,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(152.6015625,28)\k186\\k29}よ
+Dialogue: 0,0:02:50.53,0:02:54.40,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(163.86328125,28)\k215\\k32}る
+Dialogue: 0,0:02:50.53,0:02:54.40,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(265.16015625,28)\k305\\k15}つ
+Dialogue: 0,0:02:50.53,0:02:54.40,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(276.421875,28)\k320\\k14}づ
+Dialogue: 0,0:02:53.42,0:02:57.23,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(79.44140625,100)\k90\0}
+Dialogue: 0,0:02:53.42,0:02:57.23,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(90.697265625,100)\k90\\k30}の
+Dialogue: 0,0:02:53.42,0:02:57.23,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(113.208984375,100)\k120\\k14}も
+Dialogue: 0,0:02:53.42,0:02:57.23,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(135.720703125,100)\k134\\k31}い
+Dialogue: 0,0:02:53.42,0:02:57.23,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(158.232421875,100)\k165\\k26}い
+Dialogue: 0,0:02:53.42,0:02:57.23,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(180.744140625,100)\k191\\k18}か
+Dialogue: 0,0:02:53.42,0:02:57.23,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(214.51171875,100)\k209\\k31}な、
+Dialogue: 0,0:02:53.42,0:02:57.23,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(248.279296875,100)\k240\\k13}な
+Dialogue: 0,0:02:53.42,0:02:57.23,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(270.791015625,100)\k253\\k30}ん
+Dialogue: 0,0:02:53.42,0:02:57.23,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(293.302734375,100)\k283\\k78}て
+Dialogue: 0,0:03:00.14,0:03:03.90,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(68.185546875,50)\k90\0}
+Dialogue: 0,0:03:00.14,0:03:03.90,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(79.44140625,50)\k90\\k92}思
+Dialogue: 0,0:03:00.14,0:03:03.90,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(101.953125,50)\k182\\k30}わ
+Dialogue: 0,0:03:00.14,0:03:03.90,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(124.46484375,50)\k212\\k16}な
+Dialogue: 0,0:03:00.14,0:03:03.90,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(146.9765625,50)\k228\\k14}い
+Dialogue: 0,0:03:00.14,0:03:03.90,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.48828125,50)\k242\\k14}わ
+Dialogue: 0,0:03:00.14,0:03:03.90,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(192,50)\k256\\k29}け
+Dialogue: 0,0:03:00.14,0:03:03.90,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(225.767578125,50)\k285\\k15}じゃ
+Dialogue: 0,0:03:00.14,0:03:03.90,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(259.53515625,50)\k300\\k18}な
+Dialogue: 0,0:03:00.14,0:03:03.90,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(282.046875,50)\k318\\k14}い
+Dialogue: 0,0:03:00.14,0:03:03.90,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(304.55859375,50)\k332\\k24}よ
+Dialogue: 0,0:03:00.14,0:03:03.90,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(73.810546875,28)\k90\\k46}お
+Dialogue: 0,0:03:00.14,0:03:03.90,UpKana-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(85.072265625,28)\k136\\k46}も
+Dialogue: 0,0:03:02.99,0:03:07.06,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(96.322265625,100)\k90\0}
+Dialogue: 0,0:03:02.99,0:03:07.06,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(107.578125,100)\k90\\k78}理
+Dialogue: 0,0:03:02.99,0:03:07.06,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(130.08984375,100)\k168\\k29}の
+Dialogue: 0,0:03:02.99,0:03:07.06,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(163.86328125,100)\k197\\k14}向
+Dialogue: 0,0:03:02.99,0:03:07.06,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(197.630859375,100)\k211\\k32}こう
+Dialogue: 0,0:03:02.99,0:03:07.06,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(231.3984375,100)\k243\\k41}側
+Dialogue: 0,0:03:02.99,0:03:07.06,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(265.166015625,100)\k284\\k103}さ」
+Dialogue: 0,0:03:02.99,0:03:07.06,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(90.685546875,78)\k90\\k31}こ
+Dialogue: 0,0:03:02.99,0:03:07.06,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(101.947265625,78)\k121\\k12}と
+Dialogue: 0,0:03:02.99,0:03:07.06,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(113.208984375,78)\k133\\k21}わ
+Dialogue: 0,0:03:02.99,0:03:07.06,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(124.470703125,78)\k154\\k14}り
+Dialogue: 0,0:03:02.99,0:03:07.06,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(163.86328125,78)\k197\\k14}む
+Dialogue: 0,0:03:02.99,0:03:07.06,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(225.767578125,78)\k243\\k14}が
+Dialogue: 0,0:03:02.99,0:03:07.06,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(237.029296875,78)\k257\\k27}わ
+Dialogue: 0,0:03:06.13,0:03:10.91,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(133.4296875,48)\k90\0}
+Dialogue: 0,0:03:06.13,0:03:10.91,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(148.072265625,48)\k90\\k120}Hey
+Dialogue: 0,0:03:06.13,0:03:10.91,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(187.119140625,48)\k210\\k128}Ouh
+Dialogue: 0,0:03:06.13,0:03:10.91,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(231.046875,48)\k338\\k120}Ouh!
+Dialogue: 0,0:03:09.81,0:03:13.17,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(90.6943359375,100)\k90\0}
+Dialogue: 0,0:03:09.81,0:03:13.17,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(101.9501953125,100)\k90\\k0}「
+Dialogue: 0,0:03:09.81,0:03:13.17,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(124.4619140625,100)\k90\\k87}二
+Dialogue: 0,0:03:09.81,0:03:13.17,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(146.9794921875,100)\k177\\k30}人
+Dialogue: 0,0:03:09.81,0:03:13.17,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(169.4912109375,100)\k207\\k26}で
+Dialogue: 0,0:03:09.81,0:03:13.17,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(192.0029296875,100)\k233\\k15}翔
+Dialogue: 0,0:03:09.81,0:03:13.17,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(214.5146484375,100)\k248\\k17}け
+Dialogue: 0,0:03:09.81,0:03:13.17,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(237.0263671875,100)\k265\\k17}る
+Dialogue: 0,0:03:09.81,0:03:13.17,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(259.5380859375,100)\k282\\k26}今
+Dialogue: 0,0:03:09.81,0:03:13.17,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(282.0498046875,100)\k308\\k8}が
+Dialogue: 0,0:03:09.81,0:03:13.17,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(118.8310546875,78)\k90\\k40}ふ
+Dialogue: 0,0:03:09.81,0:03:13.17,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(130.0927734375,78)\k130\\k47}た
+Dialogue: 0,0:03:09.81,0:03:13.17,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(146.9794921875,78)\k177\\k30}り
+Dialogue: 0,0:03:09.81,0:03:13.17,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(192.0029296875,78)\k233\\k15}か
+Dialogue: 0,0:03:09.81,0:03:13.17,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(253.9072265625,78)\k282\\k12}い
+Dialogue: 0,0:03:09.81,0:03:13.17,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(265.1689453125,78)\k294\\k14}ま
+Dialogue: 0,0:03:12.07,0:03:17.98,UpKana,line 2 value 2,0,0,0,fx,{\fade(300,200)\an5\pos(85.0546875,50)\k90\0}
+Dialogue: 0,0:03:12.07,0:03:17.98,UpKana,line 2 value 2,0,0,0,fx,{\fade(300,200)\an5\pos(96.310546875,50)\k90\\k9}時
+Dialogue: 0,0:03:12.07,0:03:17.98,UpKana,line 2 value 2,0,0,0,fx,{\fade(300,200)\an5\pos(118.828125,50)\k99\\k44}間
+Dialogue: 0,0:03:12.07,0:03:17.98,UpKana,line 2 value 2,0,0,0,fx,{\fade(300,200)\an5\pos(141.345703125,50)\k143\\k43}法
+Dialogue: 0,0:03:12.07,0:03:17.98,UpKana,line 2 value 2,0,0,0,fx,{\fade(300,200)\an5\pos(175.125,50)\k186\\k34}則
+Dialogue: 0,0:03:12.07,0:03:17.98,UpKana,line 2 value 2,0,0,0,fx,{\fade(300,200)\an5\pos(197.63671875,50)\k220\\k28}の
+Dialogue: 0,0:03:12.07,0:03:17.98,UpKana,line 2 value 2,0,0,0,fx,{\fade(300,200)\an5\pos(220.154296875,50)\k248\\k45}外
+Dialogue: 0,0:03:12.07,0:03:17.98,UpKana,line 2 value 2,0,0,0,fx,{\fade(300,200)\an5\pos(242.666015625,50)\k293\\k17}な
+Dialogue: 0,0:03:12.07,0:03:17.98,UpKana,line 2 value 2,0,0,0,fx,{\fade(300,200)\an5\pos(265.177734375,50)\k310\\k30}ら
+Dialogue: 0,0:03:12.07,0:03:17.98,UpKana,line 2 value 2,0,0,0,fx,{\fade(300,200)\an5\pos(287.689453125,50)\k340\\k231}ば
+Dialogue: 0,0:03:12.07,0:03:17.98,UpKana-furigana,line 2 value 2,0,0,0,fx,{\fade(300,200)\an5\pos(96.310546875,28)\k90\\k9}じ
+Dialogue: 0,0:03:12.07,0:03:17.98,UpKana-furigana,line 2 value 2,0,0,0,fx,{\fade(300,200)\an5\pos(118.828125,28)\k99\\k44}かん
+Dialogue: 0,0:03:12.07,0:03:17.98,UpKana-furigana,line 2 value 2,0,0,0,fx,{\fade(300,200)\an5\pos(146.9765625,28)\k143\\k43}ほう
+Dialogue: 0,0:03:12.07,0:03:17.98,UpKana-furigana,line 2 value 2,0,0,0,fx,{\fade(300,200)\an5\pos(169.494140625,28)\k186\\k21}そ
+Dialogue: 0,0:03:12.07,0:03:17.98,UpKana-furigana,line 2 value 2,0,0,0,fx,{\fade(300,200)\an5\pos(180.755859375,28)\k207\\k13}く
+Dialogue: 0,0:03:12.07,0:03:17.98,UpKana-furigana,line 2 value 2,0,0,0,fx,{\fade(300,200)\an5\pos(214.5234375,28)\k248\\k16}そ
+Dialogue: 0,0:03:12.07,0:03:17.98,UpKana-furigana,line 2 value 2,0,0,0,fx,{\fade(300,200)\an5\pos(225.78515625,28)\k264\\k29}と
+Dialogue: 0,0:03:19.36,0:03:22.46,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(124.46484375,50)\k90\0}
+Dialogue: 0,0:03:19.36,0:03:22.46,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(135.720703125,50)\k90\\k44}ま
+Dialogue: 0,0:03:19.36,0:03:22.46,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(158.232421875,50)\k134\\k46}る
+Dialogue: 0,0:03:19.36,0:03:22.46,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(180.744140625,50)\k180\\k29}で
+Dialogue: 0,0:03:19.36,0:03:22.46,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(203.255859375,50)\k209\\k31}そ
+Dialogue: 0,0:03:19.36,0:03:22.46,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(225.767578125,50)\k240\\k16}れ
+Dialogue: 0,0:03:19.36,0:03:22.46,UpKana,,0,0,0,fx,{\fade(300,200)\an5\pos(248.279296875,50)\k256\\k34}は
+Dialogue: 0,0:03:21.36,0:03:25.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(23.1591796875,100)\k90\0}
+Dialogue: 0,0:03:21.36,0:03:25.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(34.4150390625,100)\k90\\k26}二
+Dialogue: 0,0:03:21.36,0:03:25.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(56.9326171875,100)\k116\\k14}人
+Dialogue: 0,0:03:21.36,0:03:25.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(79.4443359375,100)\k130\\k46}で
+Dialogue: 0,0:03:21.36,0:03:25.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(101.9560546875,100)\k176\\k45}ひ
+Dialogue: 0,0:03:21.36,0:03:25.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(124.4677734375,100)\k221\\k17}と
+Dialogue: 0,0:03:21.36,0:03:25.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(146.9794921875,100)\k238\\k12}つ
+Dialogue: 0,0:03:21.36,0:03:25.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(169.4912109375,100)\k250\\k28}み
+Dialogue: 0,0:03:21.36,0:03:25.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(192.0029296875,100)\k278\\k16}た
+Dialogue: 0,0:03:21.36,0:03:25.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(214.5146484375,100)\k294\\k30}い
+Dialogue: 0,0:03:21.36,0:03:25.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(248.2822265625,100)\k324\\k17}じゃ
+Dialogue: 0,0:03:21.36,0:03:25.26,UpKana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(315.8173828125,100)\k341\\k29}ない？」
+Dialogue: 0,0:03:21.36,0:03:25.26,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(28.7841796875,78)\k90\\k11}ふ
+Dialogue: 0,0:03:21.36,0:03:25.26,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(40.0458984375,78)\k101\\k15}た
+Dialogue: 0,0:03:21.36,0:03:25.26,UpKana-furigana,line 2 value 2,0,0,2,fx,{\fade(300,200)\an5\pos(56.9326171875,78)\k116\\k14}り
+Dialogue: 0,0:03:24.16,0:03:30.59,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(79.740234375,48)\k90\0}
+Dialogue: 0,0:03:24.16,0:03:30.59,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(94.3828125,48)\k90\\k120}Hey
+Dialogue: 0,0:03:24.16,0:03:30.59,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(133.4296875,48)\k210\\k119}Hey
+Dialogue: 0,0:03:24.16,0:03:30.59,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(172.4765625,48)\k329\\k125}Ouh
+Dialogue: 0,0:03:24.16,0:03:30.59,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(211.5234375,48)\k454\\k59}Ouh
+Dialogue: 0,0:03:24.16,0:03:30.59,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(250.5703125,48)\k513\\k58}Ouh
+Dialogue: 0,0:03:24.16,0:03:30.59,UpRMJ,,0,0,0,fx,{\fade(300,200)\an5\pos(289.6171875,48)\k571\\k52}Ouh
+Dialogue: 0,0:00:00.00,0:00:00.40,Choir down,,0,0,0,fx,{\fade(200,200)\an5\pos(192,35)\k20\0}
+Dialogue: 0,0:00:00.00,0:00:00.40,Choir down,,0,0,0,fx,{\fade(200,200)\an5\pos(192,35)\k20\\k0}
+Dialogue: 0,0:00:27.78,0:00:30.04,yoakeni,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(115,183)\k90\0}
+Dialogue: 0,0:00:27.78,0:00:30.04,yoakeni,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(124.755859375,183)\k90\\k20}夜
+Dialogue: 0,0:00:27.78,0:00:30.04,yoakeni,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(144.267578125,183)\k110\\k24}明
+Dialogue: 0,0:00:27.78,0:00:30.04,yoakeni,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(163.779296875,183)\k134\\k13}け
+Dialogue: 0,0:00:27.78,0:00:30.04,yoakeni,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(183.291015625,183)\k147\\k59}に
+Dialogue: 0,0:00:27.78,0:00:30.04,yoakeni-furigana,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(124.755859375,164)\k90\\k20}よ
+Dialogue: 0,0:00:27.78,0:00:30.04,yoakeni-furigana,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(144.267578125,164)\k110\\k24}あ
+Dialogue: 0,0:00:30.14,0:00:32.31,anatani,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(210.458984375,183)\k90\0}
+Dialogue: 0,0:00:30.14,0:00:32.31,anatani,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(220.21484375,183)\k90\\k47}貴
+Dialogue: 0,0:00:30.14,0:00:32.31,anatani,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(239.732421875,183)\k137\\k17}女
+Dialogue: 0,0:00:30.14,0:00:32.31,anatani,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(259.244140625,183)\k154\\k43}に
+Dialogue: 0,0:00:30.14,0:00:32.31,anatani-furigana,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(215.333984375,164)\k90\\k25}あ
+Dialogue: 0,0:00:30.14,0:00:32.31,anatani-furigana,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(225.095703125,164)\k115\\k22}な
+Dialogue: 0,0:00:30.14,0:00:32.31,anatani-furigana,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(239.732421875,164)\k137\\k17}た
+Dialogue: 0,0:00:40.94,0:00:44.22,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(21.169921875,183)\k90\0}
+Dialogue: 0,0:00:40.94,0:00:44.22,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(55.3359375,183)\k90\\k34}Through
+Dialogue: 0,0:00:40.94,0:00:44.22,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(113.90625,183)\k124\\k16}the
+Dialogue: 0,0:00:40.94,0:00:44.22,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(162.71484375,183)\k140\\k68}night
+Dialogue: 0,0:00:40.94,0:00:44.22,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(231.046875,183)\k208\\k35}Through
+Dialogue: 0,0:00:40.94,0:00:44.22,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(289.6171875,183)\k243\\k15}the
+Dialogue: 0,0:00:40.94,0:00:44.22,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(338.42578125,183)\k258\\k44}night
+Dialogue: 0,0:00:43.36,0:00:46.61,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(69.978515625,225.5)\k90\0}
+Dialogue: 0,0:00:43.36,0:00:46.61,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(84.62109375,225.5)\k90\\k46}All
+Dialogue: 0,0:00:43.36,0:00:46.61,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(133.4296875,225.5)\k136\\k45}night
+Dialogue: 0,0:00:43.36,0:00:46.61,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(187.119140625,225.5)\k181\\k32}long
+Dialogue: 0,0:00:43.36,0:00:46.61,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(240.80859375,225.5)\k213\\k43}Witch
+Dialogue: 0,0:00:43.36,0:00:46.61,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(289.6171875,225.5)\k256\\k49}craft
+Dialogue: 0,0:00:50.55,0:00:53.83,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(21.169921875,183)\k90\0}
+Dialogue: 0,0:00:50.55,0:00:53.83,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(55.3359375,183)\k90\\k34}Through
+Dialogue: 0,0:00:50.55,0:00:53.83,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(113.90625,183)\k124\\k16}the
+Dialogue: 0,0:00:50.55,0:00:53.83,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(162.71484375,183)\k140\\k68}night
+Dialogue: 0,0:00:50.55,0:00:53.83,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(231.046875,183)\k208\\k35}Through
+Dialogue: 0,0:00:50.55,0:00:53.83,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(289.6171875,183)\k243\\k15}the
+Dialogue: 0,0:00:50.55,0:00:53.83,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(338.42578125,183)\k258\\k44}night
+Dialogue: 0,0:00:52.96,0:00:56.21,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(69.978515625,225.5)\k90\0}
+Dialogue: 0,0:00:52.96,0:00:56.21,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(84.62109375,225.5)\k90\\k46}All
+Dialogue: 0,0:00:52.96,0:00:56.21,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(133.4296875,225.5)\k136\\k45}night
+Dialogue: 0,0:00:52.96,0:00:56.21,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(187.119140625,225.5)\k181\\k32}long
+Dialogue: 0,0:00:52.96,0:00:56.21,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(240.80859375,225.5)\k213\\k43}Witch
+Dialogue: 0,0:00:52.96,0:00:56.21,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(289.6171875,225.5)\k256\\k49}craft
+Dialogue: 0,0:01:24.18,0:01:29.46,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(45.57421875,183)\k90\0}
+Dialogue: 0,0:01:24.18,0:01:29.46,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(60.216796875,183)\k90\\k119}All
+Dialogue: 0,0:01:24.18,0:01:29.46,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(109.025390625,183)\k209\\k59}night
+Dialogue: 0,0:01:24.18,0:01:29.46,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(167.595703125,183)\k268\\k64}long,
+Dialogue: 0,0:01:24.18,0:01:29.46,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(216.404296875,183)\k332\\k89}All
+Dialogue: 0,0:01:24.18,0:01:29.46,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(265.212890625,183)\k421\\k28}night
+Dialogue: 0,0:01:24.18,0:01:29.46,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(318.90234375,183)\k449\\k59}long
+Dialogue: 0,0:01:33.76,0:01:39.00,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(74.859375,183)\k90\0}
+Dialogue: 0,0:01:33.76,0:01:39.00,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(84.62109375,183)\k90\\k121}Be
+Dialogue: 0,0:01:33.76,0:01:39.00,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(123.66796875,183)\k211\\k51}with
+Dialogue: 0,0:01:33.76,0:01:39.00,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(172.4765625,183)\k262\\k71}you,
+Dialogue: 0,0:01:33.76,0:01:39.00,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(211.5234375,183)\k333\\k88}be
+Dialogue: 0,0:01:33.76,0:01:39.00,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(250.5703125,183)\k421\\k27}with
+Dialogue: 0,0:01:33.76,0:01:39.00,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(294.498046875,183)\k448\\k56}you
+Dialogue: 0,0:02:03.73,0:02:06.06,yoakeni,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(115,183)\k90\0}
+Dialogue: 0,0:02:03.73,0:02:06.06,yoakeni,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(124.755859375,183)\k90\\k25}夜
+Dialogue: 0,0:02:03.73,0:02:06.06,yoakeni,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(144.267578125,183)\k115\\k24}明
+Dialogue: 0,0:02:03.73,0:02:06.06,yoakeni,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(163.779296875,183)\k139\\k15}け
+Dialogue: 0,0:02:03.73,0:02:06.06,yoakeni,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(183.291015625,183)\k154\\k59}に
+Dialogue: 0,0:02:03.73,0:02:06.06,yoakeni-furigana,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(124.755859375,164)\k90\\k25}よ
+Dialogue: 0,0:02:03.73,0:02:06.06,yoakeni-furigana,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(144.267578125,164)\k115\\k24}あ
+Dialogue: 0,0:02:06.13,0:02:08.32,anatani,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(210.458984375,183)\k90\0}
+Dialogue: 0,0:02:06.13,0:02:08.32,anatani,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(220.21484375,183)\k90\\k48}貴
+Dialogue: 0,0:02:06.13,0:02:08.32,anatani,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(239.732421875,183)\k138\\k16}女
+Dialogue: 0,0:02:06.13,0:02:08.32,anatani,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(259.244140625,183)\k154\\k45}に
+Dialogue: 0,0:02:06.13,0:02:08.32,anatani-furigana,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(215.333984375,164)\k90\\k27}あ
+Dialogue: 0,0:02:06.13,0:02:08.32,anatani-furigana,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(225.095703125,164)\k117\\k21}な
+Dialogue: 0,0:02:06.13,0:02:08.32,anatani-furigana,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(239.732421875,164)\k138\\k16}た
+Dialogue: 0,0:02:16.97,0:02:20.25,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(21.169921875,183)\k90\0}
+Dialogue: 0,0:02:16.97,0:02:20.25,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(55.3359375,183)\k90\\k34}Through
+Dialogue: 0,0:02:16.97,0:02:20.25,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(113.90625,183)\k124\\k16}the
+Dialogue: 0,0:02:16.97,0:02:20.25,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(162.71484375,183)\k140\\k68}night
+Dialogue: 0,0:02:16.97,0:02:20.25,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(231.046875,183)\k208\\k35}Through
+Dialogue: 0,0:02:16.97,0:02:20.25,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(289.6171875,183)\k243\\k15}the
+Dialogue: 0,0:02:16.97,0:02:20.25,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(338.42578125,183)\k258\\k44}night
+Dialogue: 0,0:02:19.36,0:02:22.61,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(69.978515625,225.5)\k90\0}
+Dialogue: 0,0:02:19.36,0:02:22.61,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(84.62109375,225.5)\k90\\k46}All
+Dialogue: 0,0:02:19.36,0:02:22.61,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(133.4296875,225.5)\k136\\k45}night
+Dialogue: 0,0:02:19.36,0:02:22.61,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(187.119140625,225.5)\k181\\k32}long
+Dialogue: 0,0:02:19.36,0:02:22.61,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(240.80859375,225.5)\k213\\k43}Witch
+Dialogue: 0,0:02:19.36,0:02:22.61,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(289.6171875,225.5)\k256\\k49}craft
+Dialogue: 0,0:02:26.53,0:02:29.81,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(21.169921875,183)\k90\0}
+Dialogue: 0,0:02:26.53,0:02:29.81,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(55.3359375,183)\k90\\k34}Through
+Dialogue: 0,0:02:26.53,0:02:29.81,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(113.90625,183)\k124\\k16}the
+Dialogue: 0,0:02:26.53,0:02:29.81,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(162.71484375,183)\k140\\k68}night
+Dialogue: 0,0:02:26.53,0:02:29.81,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(231.046875,183)\k208\\k35}Through
+Dialogue: 0,0:02:26.53,0:02:29.81,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(289.6171875,183)\k243\\k15}the
+Dialogue: 0,0:02:26.53,0:02:29.81,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(338.42578125,183)\k258\\k50}night
+Dialogue: 0,0:02:28.96,0:02:32.21,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(69.978515625,225.5)\k90\0}
+Dialogue: 0,0:02:28.96,0:02:32.21,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(84.62109375,225.5)\k90\\k46}All
+Dialogue: 0,0:02:28.96,0:02:32.21,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(133.4296875,225.5)\k136\\k45}night
+Dialogue: 0,0:02:28.96,0:02:32.21,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(187.119140625,225.5)\k181\\k32}long
+Dialogue: 0,0:02:28.96,0:02:32.21,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(240.80859375,225.5)\k213\\k43}Witch
+Dialogue: 0,0:02:28.96,0:02:32.21,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(289.6171875,225.5)\k256\\k49}craft
+Dialogue: 0,0:02:55.35,0:02:58.63,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(21.169921875,183)\k90\0}
+Dialogue: 0,0:02:55.35,0:02:58.63,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(55.3359375,183)\k90\\k34}Through
+Dialogue: 0,0:02:55.35,0:02:58.63,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(113.90625,183)\k124\\k16}the
+Dialogue: 0,0:02:55.35,0:02:58.63,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(162.71484375,183)\k140\\k68}night
+Dialogue: 0,0:02:55.35,0:02:58.63,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(231.046875,183)\k208\\k35}Through
+Dialogue: 0,0:02:55.35,0:02:58.63,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(289.6171875,183)\k243\\k15}the
+Dialogue: 0,0:02:55.35,0:02:58.63,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(338.42578125,183)\k258\\k44}night
+Dialogue: 0,0:02:57.77,0:03:01.02,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(69.978515625,225.5)\k90\0}
+Dialogue: 0,0:02:57.77,0:03:01.02,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(84.62109375,225.5)\k90\\k46}All
+Dialogue: 0,0:02:57.77,0:03:01.02,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(133.4296875,225.5)\k136\\k45}night
+Dialogue: 0,0:02:57.77,0:03:01.02,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(187.119140625,225.5)\k181\\k32}long
+Dialogue: 0,0:02:57.77,0:03:01.02,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(240.80859375,225.5)\k213\\k43}Witch
+Dialogue: 0,0:02:57.77,0:03:01.02,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(289.6171875,225.5)\k256\\k49}craft
+Dialogue: 0,0:03:04.96,0:03:08.24,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(21.169921875,183)\k90\0}
+Dialogue: 0,0:03:04.96,0:03:08.24,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(55.3359375,183)\k90\\k34}Through
+Dialogue: 0,0:03:04.96,0:03:08.24,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(113.90625,183)\k124\\k16}the
+Dialogue: 0,0:03:04.96,0:03:08.24,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(162.71484375,183)\k140\\k68}night
+Dialogue: 0,0:03:04.96,0:03:08.24,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(231.046875,183)\k208\\k35}Through
+Dialogue: 0,0:03:04.96,0:03:08.24,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(289.6171875,183)\k243\\k15}the
+Dialogue: 0,0:03:04.96,0:03:08.24,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(338.42578125,183)\k258\\k50}night
+Dialogue: 0,0:03:07.33,0:03:10.58,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(69.978515625,225.5)\k90\0}
+Dialogue: 0,0:03:07.33,0:03:10.58,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(84.62109375,225.5)\k90\\k46}All
+Dialogue: 0,0:03:07.33,0:03:10.58,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(133.4296875,225.5)\k136\\k45}night
+Dialogue: 0,0:03:07.33,0:03:10.58,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(187.119140625,225.5)\k181\\k32}long
+Dialogue: 0,0:03:07.33,0:03:10.58,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(240.80859375,225.5)\k213\\k43}Witch
+Dialogue: 0,0:03:07.33,0:03:10.58,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(289.6171875,225.5)\k256\\k49}craft
+Dialogue: 0,0:03:14.58,0:03:17.86,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(21.169921875,183)\k90\0}
+Dialogue: 0,0:03:14.58,0:03:17.86,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(55.3359375,183)\k90\\k34}Through
+Dialogue: 0,0:03:14.58,0:03:17.86,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(113.90625,183)\k124\\k16}the
+Dialogue: 0,0:03:14.58,0:03:17.86,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(162.71484375,183)\k140\\k68}night
+Dialogue: 0,0:03:14.58,0:03:17.86,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(231.046875,183)\k208\\k35}Through
+Dialogue: 0,0:03:14.58,0:03:17.86,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(289.6171875,183)\k243\\k15}the
+Dialogue: 0,0:03:14.58,0:03:17.86,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(338.42578125,183)\k258\\k50}night
+Dialogue: 0,0:03:16.97,0:03:20.22,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(69.978515625,225.5)\k90\0}
+Dialogue: 0,0:03:16.97,0:03:20.22,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(84.62109375,225.5)\k90\\k46}All
+Dialogue: 0,0:03:16.97,0:03:20.22,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(133.4296875,225.5)\k136\\k45}night
+Dialogue: 0,0:03:16.97,0:03:20.22,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(187.119140625,225.5)\k181\\k32}long
+Dialogue: 0,0:03:16.97,0:03:20.22,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(240.80859375,225.5)\k213\\k43}Witch
+Dialogue: 0,0:03:16.97,0:03:20.22,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(289.6171875,225.5)\k256\\k49}craft
+Dialogue: 0,0:03:24.16,0:03:27.44,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(21.169921875,183)\k90\0}
+Dialogue: 0,0:03:24.16,0:03:27.44,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(55.3359375,183)\k90\\k34}Through
+Dialogue: 0,0:03:24.16,0:03:27.44,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(113.90625,183)\k124\\k16}the
+Dialogue: 0,0:03:24.16,0:03:27.44,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(162.71484375,183)\k140\\k68}night
+Dialogue: 0,0:03:24.16,0:03:27.44,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(231.046875,183)\k208\\k35}Through
+Dialogue: 0,0:03:24.16,0:03:27.44,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(289.6171875,183)\k243\\k15}the
+Dialogue: 0,0:03:24.16,0:03:27.44,Choir down,line 3  value 4,0,0,4,fx,{\fade(300,200)\an5\pos(338.42578125,183)\k258\\k50}night
+Dialogue: 0,0:03:26.55,0:03:29.80,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(69.978515625,225.5)\k90\0}
+Dialogue: 0,0:03:26.55,0:03:29.80,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(84.62109375,225.5)\k90\\k46}All
+Dialogue: 0,0:03:26.55,0:03:29.80,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(133.4296875,225.5)\k136\\k45}night
+Dialogue: 0,0:03:26.55,0:03:29.80,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(187.119140625,225.5)\k181\\k32}long
+Dialogue: 0,0:03:26.55,0:03:29.80,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(240.80859375,225.5)\k213\\k43}Witch
+Dialogue: 0,0:03:26.55,0:03:29.80,Choir down,line 4 value 5,0,0,5,fx,{\fade(300,200)\an5\pos(289.6171875,225.5)\k256\\k49}craft
