@@ -7,3 +7,4 @@ So we can avoid doing the same work multiple times.
 Thanks in advance :3
 
 /label ~"Work in progress"
+/assign me
