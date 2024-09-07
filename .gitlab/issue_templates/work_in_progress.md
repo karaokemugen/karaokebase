@@ -6,4 +6,4 @@ So we can avoid doing the same work multiple times.
 
 Thanks in advance :3
 
-/label ~Doing
+/label ~"Work in progress"
