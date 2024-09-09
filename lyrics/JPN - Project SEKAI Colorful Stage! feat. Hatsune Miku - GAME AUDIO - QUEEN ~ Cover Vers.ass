@@ -1,0 +1,114 @@
+﻿[Script Info]
+Title: QUEEN
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 0
+PlayResY: 0
+YCbCr Matrix: TV.709
+Original Script: Karaoke Mugen
+Original Editing: puyo
+Original Timing: BeVox, puyo
+Synch Point: BeVox, puyo
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+Style: Wonderlands×Showtime,Arial,24,&H00FFFFFF,&H000099FF,&H00000000,&H000099FF,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: MEIKO,Arial,24,&H00FFFFFF,&H006969E5,&H00000000,&H006969E5,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Emu,Arial,24,&H00FFFFFF,&H00BC66FF,&H00000000,&H00BC66FF,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Nene,Arial,24,&H00FFFFFF,&H007DBB1F,&H00000000,&H007DBB1F,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H0099FF&}W×S{\c} - {\c&H6969E5&}MEIKO{\c} - {\c&HBC66FF&}Emu{\c} - {\c&H7DBB1F&}Nene
+Comment: 0,0:00:00.78,0:00:02.12,Nene,,0,0,0,karaoke,{\k33}LIE {\k34}BYE {\k36}BA{\k31}BY
+Comment: 0,0:00:02.14,0:00:03.55,Nene,,0,0,0,karaoke,{\k37}MY {\k36}MY {\k35}MY {\k33}LIFE
+Comment: 0,0:00:03.72,0:00:06.37,MEIKO,,0,0,0,karaoke,{\k21}so{\k18}re {\k17}na{\k19}ra {\k16}bo{\k18}ku {\k18}to {\k19}o{\k16}do{\k19}ri{\k16}ma{\k35}sen {\k33}ka
+Comment: 0,0:00:06.38,0:00:07.78,Emu,,0,0,0,karaoke,{\k37}LIE {\k36}BYE {\k36}BA{\k31}BY
+Comment: 0,0:00:07.79,0:00:09.20,Emu,,0,0,0,karaoke,{\k37}MY {\k35}MY {\k36}MY {\k33}LIFE
+Comment: 0,0:00:09.42,0:00:12.27,MEIKO,,0,0,0,karaoke,{\k32}dat{\k19}te {\k18}so{\k17}re {\k18}wa {\k35}tai{\k17}ku{\k19}tsu {\k18}no {\k34}a{\k35}i{\k23}zu
+Comment: 0,0:00:23.54,0:00:25.64,Emu,,0,0,0,karaoke,{\k23}a{\k11}i {\k16}de {\k21}to{\k13}bi{\k21}ko{\k17}mu {\k15}mu{\k20}ku {\k18}na {\k35}ai
+Comment: 0,0:00:25.64,0:00:26.97,Emu,,0,0,0,karaoke,{\k17}yu{\k18}me {\k17}no {\k20}SHO{\k16}W {\k18}wa {\k27}nai
+Comment: 0,0:00:27.04,0:00:28.76,Emu,,0,0,0,karaoke,{\k18}ha{\k19}te {\k17}no {\k35}RUN{\k18}A{\k65}WAY
+Comment: 0,0:00:29.15,0:00:31.29,Nene,,0,0,0,karaoke,{\k35}mit{\k18}tsu {\k18}hi{\k17}to{\k19}tsu {\k17}ni {\k18}tsu{\k18}mi {\k18}wa {\k36}nai
+Comment: 0,0:00:31.29,0:00:32.67,Nene,,0,0,0,karaoke,{\k16}su{\k18}te{\k18}ta {\k18}mo{\k17}no {\k18}ja {\k33}nai
+Comment: 0,0:00:32.71,0:00:34.26,Nene,,0,0,0,karaoke,{\k33}dat{\k18}te {\k18}so{\k17}u {\k19}ja {\k50}nai?
+Comment: 0,0:00:34.80,0:00:37.45,MEIKO,,0,0,0,karaoke,{\k37}an{\k15}na {\k21}ni {\k35}mo {\k33}an{\k18}na {\k18}ni {\k36}mo {\k16}ma{\k19}sa {\k17}ni
+Comment: 0,0:00:37.46,0:00:39.89,MEIKO,,0,0,0,karaoke,{\k35}tek{\k34}kai {\k18}ma{\k18}sa{\k19}ka {\k15}no {\k17}ke{\k20}tsu{\k17}ma{\k18}tsu {\k32}ni
+Comment: 0,0:00:40.45,0:00:43.03,Nene,,0,0,0,karaoke,{\k19}a{\k16}na{\k18}ta {\k18}ni {\k35}mo {\k18}a{\k17}na{\k18}ta {\k18}ni {\k34}mo {\k19}ka{\k17}ke{\k11}ru
+Comment: 0,0:00:43.09,0:00:45.69,Nene,,0,0,0,karaoke,{\k67}CRY {\k70\rWonderlands×Showtime}CRY {\kf123}CRY
+Comment: 0,0:00:45.91,0:00:47.24,Wonderlands×Showtime,,0,0,0,karaoke,{\k37}LIE {\k35}BYE {\k35}BA{\k26}BY
+Comment: 0,0:00:47.32,0:00:48.81,Wonderlands×Showtime,,0,0,0,karaoke,{\k36}MY {\k36}MY {\k36}MY {\k41}LIFE
+Comment: 0,0:00:48.90,0:00:51.56,Emu,,0,0,0,karaoke,{\k20}so{\k19}re {\k17}na{\k17}ra {\k18}bo{\k18}ku {\k17}to {\k18}o{\k18}do{\k18}ri{\k17}ma{\k37}sen {\k32}ka
+Comment: 0,0:00:51.57,0:00:52.94,Wonderlands×Showtime,,0,0,0,karaoke,{\k36}LIE {\k34}BYE {\k36}BA{\k31}BY
+Comment: 0,0:00:52.97,0:00:54.47,Wonderlands×Showtime,,0,0,0,karaoke,{\k37}MY {\k35}MY {\k35}MY {\k43}LIFE
+Comment: 0,0:00:54.58,0:00:57.09,Nene,,0,0,0,karaoke,{\k34}kit{\k18}to {\k18}so{\k16}re {\k19}wa {\k36}tai{\k16}se{\k19}tsu {\k19}na {\k34}ko{\k22}to
+Comment: 0,0:00:57.39,0:00:59.96,Wonderlands×Showtime,,0,0,0,karaoke,{\k37}pa{\k35}pa{\k36}pa{\k32}pa {\k38\rEmu}L'EM{\k18}BEL{\k34}LI{\k27}QUE
+Comment: 0,0:01:00.21,0:01:02.85,Wonderlands×Showtime,,0,0,0,karaoke,{\k37}pa{\k36}pa{\k35}pa{\k32}pa {\k38\rNene}L'EM{\k19}BEL{\k35}LI {\k32}YOU
+Comment: 0,0:01:03.05,0:01:05.61,Wonderlands×Showtime,,0,0,0,karaoke,{\k35}pa{\k36}pa{\k34}pa{\k33}pa {\k39\rMEIKO}L'EM{\k17}BEL{\k35}LI{\k27}QUE
+Comment: 0,0:01:05.87,0:01:08.81,Emu,,0,0,0,karaoke,{\k35}dat{\k15}te {\k21}so{\k17}re {\k18}wa {\k35}hai{\k18}bo{\k19}ku {\k17}no {\k35}a{\k34}i{\k30}zu
+Comment: 0,0:01:19.79,0:01:22.63,Nene,,0,0,0,karaoke,{\k37}ai{\k35}mai {\k36}shit{\k18}to {\k36}kon{\k35}nan {\k36}wo {\k15}bu{\k19}ki {\k17}ni
+Comment: 0,0:01:22.81,0:01:25.12,Nene,,0,0,0,karaoke,{\k17}mo{\k19}u {\k16}da{\k20}re {\k16}no {\k19}mo{\k17}no {\k17}de{\k17}mo {\k36}nai {\k37}wa
+Comment: 0,0:01:25.64,0:01:28.30,MEIKO,,0,0,0,karaoke,{\k16}ka{\k19}su{\k18}mu {\k17}shi{\k18}ka{\k17}i {\k36}to {\k36}ai {\k17}no {\k17}ko{\k18}to{\k17}ba {\k20}de
+Comment: 0,0:01:28.42,0:01:31.01,MEIKO,,0,0,0,karaoke,{\k22}sa{\k17}ke{\k18}bu {\k19}so{\k15}re {\k20}wa {\k34}BI{\k17}A{\k18}S {\k18}to {\k35}rin{\k26}ne
+Comment: 0,0:01:31.11,0:01:33.91,Emu,,0,0,0,karaoke,{\k35}tai{\k34}gai {\k37}son{\k20}na {\k32}un{\k35}mei {\k35}wa {\k17}su{\k19}de {\k16}ni
+Comment: 0,0:01:34.10,0:01:36.44,Emu,,0,0,0,karaoke,{\k17}mo{\k20}u {\k16}da{\k18}re {\k18}no {\k17}mo{\k18}no {\k18}de{\k17}mo {\k35}nai {\k40}wa
+Comment: 0,0:01:36.91,0:01:39.64,MEIKO,,0,0,0,karaoke,{\k19}yu{\k18}re{\k17}ru {\k18}shi{\k18}ka{\k20}i {\k32}to {\k36}hai {\k19}no {\k17}ko{\k17}ko{\k18}ro {\k24}de
+Comment: 0,0:01:39.73,0:01:44.94,MEIKO,,0,0,0,karaoke,{\k19}sa{\k18}ke{\k18}bu {\k18}so{\k17}re {\k18}wa {\k35}hai{\k18}bo{\k18}ku {\k18}no {\k35}a{\k35}i{\kf254}zu
+Comment: 0,0:01:45.20,0:01:46.58,Wonderlands×Showtime,,0,0,0,karaoke,{\k38}LIE {\k35}BYE {\k35}BA{\k30}BY
+Comment: 0,0:01:46.61,0:01:48.11,Wonderlands×Showtime,,0,0,0,karaoke,{\k37}MY {\k35}MY {\k36}MY {\k42}LIFE
+Comment: 0,0:01:48.19,0:01:50.83,MEIKO,,0,0,0,karaoke,{\k21}so{\k19}re {\k16}na{\k18}ra {\k17}bo{\k19}ku {\k18}to {\k17}o{\k18}do{\k18}ri{\k17}ma{\k36}sen {\k30}ka
+Comment: 0,0:01:50.84,0:01:52.22,Wonderlands×Showtime,,0,0,0,karaoke,{\k39}LIE {\k36}BYE {\k35}BA{\k28}BY
+Comment: 0,0:01:52.26,0:01:53.82,Wonderlands×Showtime,,0,0,0,karaoke,{\k37}MY {\k35}MY {\k36}MY {\k48}LIFE
+Comment: 0,0:01:53.89,0:01:56.44,Emu,,0,0,0,karaoke,{\k33}kit{\k17}to {\k18}so{\k17}re {\k19}wa {\k34}tai{\k18}se{\k19}tsu {\k16}na {\k35}ko{\k29}to
+Comment: 0,0:01:56.69,0:01:59.25,Wonderlands×Showtime,,0,0,0,karaoke,{\k37}pa{\k35}pa{\k36}pa{\k32}pa {\k37\rNene}L'EM{\k18}BEL{\k34}LI{\k27}QUE
+Comment: 0,0:01:59.52,0:02:02.13,Wonderlands×Showtime,,0,0,0,karaoke,{\k36}pa{\k35}pa{\k36}pa{\k30}pa {\k39\rEmu}L'EM{\k17}BEL{\k36}LI {\k32}YOU
+Comment: 0,0:02:02.34,0:02:04.91,Wonderlands×Showtime,,0,0,0,karaoke,{\k36}pa{\k36}pa{\k35}pa{\k31}pa {\k38\rMEIKO}L'EM{\k18}BEL{\k35}LI{\k28}QUE
+Comment: 0,0:02:05.17,0:02:08.12,Nene,,0,0,0,karaoke,{\k33}dat{\k18}te {\k19}so{\k17}re {\k18}wa {\k35}hai{\k19}bo{\k17}ku {\k18}no {\k36}a{\k34}i{\k31}zu
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H0099FF&}W×S{\c} - {\c&H6969E5&}MEIKO{\c} - {\c&HBC66FF&}Emu{\c} - {\c&H7DBB1F&}Nene
+Dialogue: 0,0:00:00.00,0:00:02.32,Nene,,0,0,0,fx,{\k78\fad(780,200)}{\k33}LIE {\k34}BYE {\k36}BA{\k31}BY
+Dialogue: 0,0:00:01.24,0:00:03.75,Nene,,0,0,0,fx,{\k90\fad(300,200)}{\k37}MY {\k36}MY {\k35}MY {\k33}LIFE
+Dialogue: 0,0:00:02.82,0:00:06.57,MEIKO,,0,0,0,fx,{\k90\fad(300,200)}{\k21}so{\k18}re {\k17}na{\k19}ra {\k16}bo{\k18}ku {\k18}to {\k19}o{\k16}do{\k19}ri{\k16}ma{\k35}sen {\k33}ka
+Dialogue: 0,0:00:05.48,0:00:07.98,Emu,,0,0,0,fx,{\k90\fad(300,200)}{\k37}LIE {\k36}BYE {\k36}BA{\k31}BY
+Dialogue: 0,0:00:06.89,0:00:09.40,Emu,,0,0,0,fx,{\k90\fad(300,200)}{\k37}MY {\k35}MY {\k36}MY {\k33}LIFE
+Dialogue: 0,0:00:08.52,0:00:12.47,MEIKO,,0,0,0,fx,{\k90\fad(300,200)}{\k32}dat{\k19}te {\k18}so{\k17}re {\k18}wa {\k35}tai{\k17}ku{\k19}tsu {\k18}no {\k34}a{\k35}i{\k23}zu
+Dialogue: 0,0:00:22.64,0:00:25.84,Emu,,0,0,0,fx,{\k90\fad(300,200)}{\k23}a{\k11}i {\k16}de {\k21}to{\k13}bi{\k21}ko{\k17}mu {\k15}mu{\k20}ku {\k18}na {\k35}ai
+Dialogue: 0,0:00:24.74,0:00:27.17,Emu,,0,0,0,fx,{\k90\fad(300,200)}{\k17}yu{\k18}me {\k17}no {\k20}SHO{\k16}W {\k18}wa {\k27}nai
+Dialogue: 0,0:00:26.14,0:00:28.96,Emu,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ha{\k19}te {\k17}no {\k35}RUN{\k18}A{\k65}WAY
+Dialogue: 0,0:00:28.25,0:00:31.49,Nene,,0,0,0,fx,{\k90\fad(300,200)}{\k35}mit{\k18}tsu {\k18}hi{\k17}to{\k19}tsu {\k17}ni {\k18}tsu{\k18}mi {\k18}wa {\k36}nai
+Dialogue: 0,0:00:30.39,0:00:32.87,Nene,,0,0,0,fx,{\k90\fad(300,200)}{\k16}su{\k18}te{\k18}ta {\k18}mo{\k17}no {\k18}ja {\k33}nai
+Dialogue: 0,0:00:31.81,0:00:34.46,Nene,,0,0,0,fx,{\k90\fad(300,200)}{\k33}dat{\k18}te {\k18}so{\k17}u {\k19}ja {\k50}nai?
+Dialogue: 0,0:00:33.90,0:00:37.65,MEIKO,,0,0,0,fx,{\k90\fad(300,200)}{\k37}an{\k15}na {\k21}ni {\k35}mo {\k33}an{\k18}na {\k18}ni {\k36}mo {\k16}ma{\k19}sa {\k17}ni
+Dialogue: 0,0:00:36.56,0:00:40.09,MEIKO,,0,0,0,fx,{\k90\fad(300,200)}{\k35}tek{\k34}kai {\k18}ma{\k18}sa{\k19}ka {\k15}no {\k17}ke{\k20}tsu{\k17}ma{\k18}tsu {\k32}ni
+Dialogue: 0,0:00:39.55,0:00:43.23,Nene,,0,0,0,fx,{\k90\fad(300,200)}{\k19}a{\k16}na{\k18}ta {\k18}ni {\k35}mo {\k18}a{\k17}na{\k18}ta {\k18}ni {\k34}mo {\k19}ka{\k17}ke{\k11}ru
+Dialogue: 0,0:00:42.19,0:00:45.89,Nene,,0,0,0,fx,{\k90\fad(300,200)}{\k67}CRY {\k70\rWonderlands×Showtime}CRY {\kf123}CRY
+Dialogue: 0,0:00:45.01,0:00:47.44,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k37}LIE {\k35}BYE {\k35}BA{\k26}BY
+Dialogue: 0,0:00:46.42,0:00:49.01,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k36}MY {\k36}MY {\k36}MY {\k41}LIFE
+Dialogue: 0,0:00:48.00,0:00:51.76,Emu,,0,0,0,fx,{\k90\fad(300,200)}{\k20}so{\k19}re {\k17}na{\k17}ra {\k18}bo{\k18}ku {\k17}to {\k18}o{\k18}do{\k18}ri{\k17}ma{\k37}sen {\k32}ka
+Dialogue: 0,0:00:50.67,0:00:53.14,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k36}LIE {\k34}BYE {\k36}BA{\k31}BY
+Dialogue: 0,0:00:52.07,0:00:54.67,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k37}MY {\k35}MY {\k35}MY {\k43}LIFE
+Dialogue: 0,0:00:53.68,0:00:57.29,Nene,,0,0,0,fx,{\k90\fad(300,200)}{\k34}kit{\k18}to {\k18}so{\k16}re {\k19}wa {\k36}tai{\k16}se{\k19}tsu {\k19}na {\k34}ko{\k22}to
+Dialogue: 0,0:00:56.49,0:01:00.16,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k37}pa{\k35}pa{\k36}pa{\k32}pa {\k38\rEmu}L'EM{\k18}BEL{\k34}LI{\k27}QUE
+Dialogue: 0,0:00:59.31,0:01:03.05,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k37}pa{\k36}pa{\k35}pa{\k32}pa {\k38\rNene}L'EM{\k19}BEL{\k35}LI {\k32}YOU
+Dialogue: 0,0:01:02.15,0:01:05.81,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k35}pa{\k36}pa{\k34}pa{\k33}pa {\k39\rMEIKO}L'EM{\k17}BEL{\k35}LI{\k27}QUE
+Dialogue: 0,0:01:04.97,0:01:09.01,Emu,,0,0,0,fx,{\k90\fad(300,200)}{\k35}dat{\k15}te {\k21}so{\k17}re {\k18}wa {\k35}hai{\k18}bo{\k19}ku {\k17}no {\k35}a{\k34}i{\k30}zu
+Dialogue: 0,0:01:18.89,0:01:22.83,Nene,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ai{\k35}mai {\k36}shit{\k18}to {\k36}kon{\k35}nan {\k36}wo {\k15}bu{\k19}ki {\k17}ni
+Dialogue: 0,0:01:21.91,0:01:25.32,Nene,,0,0,0,fx,{\k90\fad(300,200)}{\k17}mo{\k19}u {\k16}da{\k20}re {\k16}no {\k19}mo{\k17}no {\k17}de{\k17}mo {\k36}nai {\k37}wa
+Dialogue: 0,0:01:24.74,0:01:28.50,MEIKO,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ka{\k19}su{\k18}mu {\k17}shi{\k18}ka{\k17}i {\k36}to {\k36}ai {\k17}no {\k17}ko{\k18}to{\k17}ba {\k20}de
+Dialogue: 0,0:01:27.52,0:01:31.21,MEIKO,,0,0,0,fx,{\k90\fad(300,200)}{\k22}sa{\k17}ke{\k18}bu {\k19}so{\k15}re {\k20}wa {\k34}BI{\k17}A{\k18}S {\k18}to {\k35}rin{\k26}ne
+Dialogue: 0,0:01:30.21,0:01:34.11,Emu,,0,0,0,fx,{\k90\fad(300,200)}{\k35}tai{\k34}gai {\k37}son{\k20}na {\k32}un{\k35}mei {\k35}wa {\k17}su{\k19}de {\k16}ni
+Dialogue: 0,0:01:33.20,0:01:36.64,Emu,,0,0,0,fx,{\k90\fad(300,200)}{\k17}mo{\k20}u {\k16}da{\k18}re {\k18}no {\k17}mo{\k18}no {\k18}de{\k17}mo {\k35}nai {\k40}wa
+Dialogue: 0,0:01:36.01,0:01:39.84,MEIKO,,0,0,0,fx,{\k90\fad(300,200)}{\k19}yu{\k18}re{\k17}ru {\k18}shi{\k18}ka{\k20}i {\k32}to {\k36}hai {\k19}no {\k17}ko{\k17}ko{\k18}ro {\k24}de
+Dialogue: 0,0:01:38.83,0:01:45.14,MEIKO,,0,0,0,fx,{\k90\fad(300,200)}{\k19}sa{\k18}ke{\k18}bu {\k18}so{\k17}re {\k18}wa {\k35}hai{\k18}bo{\k18}ku {\k18}no {\k35}a{\k35}i{\kf254}zu
+Dialogue: 0,0:01:44.30,0:01:46.78,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k38}LIE {\k35}BYE {\k35}BA{\k30}BY
+Dialogue: 0,0:01:45.71,0:01:48.31,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k37}MY {\k35}MY {\k36}MY {\k42}LIFE
+Dialogue: 0,0:01:47.29,0:01:51.03,MEIKO,,0,0,0,fx,{\k90\fad(300,200)}{\k21}so{\k19}re {\k16}na{\k18}ra {\k17}bo{\k19}ku {\k18}to {\k17}o{\k18}do{\k18}ri{\k17}ma{\k36}sen {\k30}ka
+Dialogue: 0,0:01:49.94,0:01:52.42,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k39}LIE {\k36}BYE {\k35}BA{\k28}BY
+Dialogue: 0,0:01:51.36,0:01:54.02,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k37}MY {\k35}MY {\k36}MY {\k48}LIFE
+Dialogue: 0,0:01:52.99,0:01:56.64,Emu,,0,0,0,fx,{\k90\fad(300,200)}{\k33}kit{\k17}to {\k18}so{\k17}re {\k19}wa {\k34}tai{\k18}se{\k19}tsu {\k16}na {\k35}ko{\k29}to
+Dialogue: 0,0:01:55.79,0:01:59.45,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k37}pa{\k35}pa{\k36}pa{\k32}pa {\k37\rNene}L'EM{\k18}BEL{\k34}LI{\k27}QUE
+Dialogue: 0,0:01:58.62,0:02:02.33,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k36}pa{\k35}pa{\k36}pa{\k30}pa {\k39\rEmu}L'EM{\k17}BEL{\k36}LI {\k32}YOU
+Dialogue: 0,0:02:01.44,0:02:05.11,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k36}pa{\k36}pa{\k35}pa{\k31}pa {\k38\rMEIKO}L'EM{\k18}BEL{\k35}LI{\k28}QUE
+Dialogue: 0,0:02:04.27,0:02:08.32,Nene,,0,0,0,fx,{\k90\fad(300,200)}{\k33}dat{\k18}te {\k19}so{\k17}re {\k18}wa {\k35}hai{\k19}bo{\k17}ku {\k18}no {\k36}a{\k34}i{\k31}zu
