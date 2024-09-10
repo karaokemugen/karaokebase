@@ -1,0 +1,138 @@
+﻿[Script Info]
+Title: Taiyoukei Disco
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Original Script: Karaoke Mugen
+Original Editing: puyo
+Original Timing: Dysp, puyo
+Synch Point: Dysp, puyo
+PlayResX: 0
+PlayResY: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+Style: Wonderlands×Showtime,Arial,24,&H00FFFFFF,&H000099FF,&H00000000,&H000099FF,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Miku,Arial,24,&H00FFFFFF,&H00A7B82E,&H00000000,&H00A7B82E,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Tsukasa,Arial,24,&H00FFFFFF,&H0000BBFF,&H00000000,&H0000BBFF,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Emu,Arial,24,&H00FFFFFF,&H00BC66FF,&H00000000,&H00BC66FF,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Nene,Arial,24,&H00FFFFFF,&H007DBB1F,&H00000000,&H007DBB1F,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Rui,Arial,24,&H00FFFFFF,&H00ED88BB,&H00000000,&H00ED88BB,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Wonderlands×Showtime - Choir,Arial,24,&H00FFFFFF,&H000099FF,&H00000000,&H000099FF,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H0099FF&}W×S{\c} - {\c&HA7B82E&}Miku{\c} - {\c&H00BBFF&}Tsukasa{\c} - {\c&HBC66FF&}Emu{\c} - {\c&H7DBB1F&}Nene{\c} - {\c&HED88BB&}Rui
+Comment: 0,0:00:01.17,0:00:05.66,Emu,,0,0,0,karaoke,{\k23}a{\k24}no {\k37}it{\k45}tou{\k36}sei {\k24}no {\k40}san{\k23}za{\k18}me{\k22}ku {\k17}hi{\k18}ka{\k22}ri {\k100}de
+Comment: 0,0:00:05.04,0:00:08.27,Nene,,0,0,0,karaoke,{\k10}a{\k9}na{\k18}ta {\k25}to {\k17}DA{\k24}N{\k17}CE {\k15}wo {\k22}o{\k25}do{\k41}rou {\k100}ka
+Comment: 0,0:00:07.62,0:00:12.06,Tsukasa,,0,0,0,karaoke,{\k25}wa{\k17}ga {\k40}tai{\k40}you{\k41}kei {\k17}no {\k39}ko{\k26}do{\k18}u {\k17}ni {\k20}a{\k17}wa{\k27}se{\k100}te
+Comment: 0,0:00:11.41,0:00:15.03,Rui,,0,0,0,karaoke,{\k7}ka{\k15}ra{\k19}mat{\k15}ta {\k9}S{\k32}TE{\k26}P {\k17}de {\k25}ki{\k14}ra{\k27}me{\k16}i{\k40}te, {\k100\rWonderlands×Showtime}sei'!
+Comment: 0,0:00:14.43,0:00:16.25,Wonderlands×Showtime - Choir,,0,0,0,karaoke,{\k64}oo {\k18}o {\k100}oo!
+Comment: 0,0:00:17.66,0:00:19.42,Wonderlands×Showtime - Choir,,0,0,0,karaoke,{\k58}oo {\k18}o {\k100}oo!
+Comment: 0,0:00:20.83,0:00:22.64,Miku,,0,0,0,karaoke,{\k27}LAM{\k18}B{\k9}DA {\k6}run{\k45}ba {\k19}fu{\k23}ta{\k34}ri
+Comment: 0,0:00:22.64,0:00:24.88,Miku,,0,0,0,karaoke,{\k23}so{\k14}ra {\k28}de {\k16}REN{\k22}DEZ-{\k21}VOUS {\k100}na
+Comment: 0,0:00:24.09,0:00:27.41,Miku,,0,0,0,karaoke,{\k19}mou, {\k6}wa{\k9}zu{\k22}rat{\k39}te {\k24}re{\k18}n{\k40}ya {\k13}ne{\k25}mu{\k17}re{\k100}nai
+Comment: 0,0:00:27.29,0:00:31.29,Nene,,0,0,0,karaoke,{\k20}sei{\k12}za {\k11}ni {\k15}nat{\k38}te {\k20}ma{\k23}za{\k39}ru {\k37}don{\k25}na {\k22}it{\k17}tou{\k21}sei {\k100}mo
+Comment: 0,0:00:30.43,0:00:34.28,Emu,,0,0,0,karaoke,{\k21}a{\k25}na{\k17}ta {\k44}ni {\k17}ka{\k18}wa{\k25}ru {\k40}kou{\k14}do {\k22}wa {\k42}nai {\k100}wa
+Comment: 0,0:00:33.65,0:00:36.86,Miku,,0,0,0,karaoke,{\k22}kou{\k10}sha {\k11}no {\k19}u{\k39}ra {\k19}a{\k21}no {\k40}hi {\k19}a{\k21}na{\k19}ta {\k22}mi{\k17}tsu{\k23}ke{\k19}ta
+Comment: 0,0:00:36.86,0:00:39.65,Miku,,0,0,0,karaoke,{\k20}ki{\k18}se{\k23}ki {\k9}sa{\k31}e {\k18}i{\k22}ma {\k39}mo {\k19}ha{\k21}na{\k19}re{\k40}nai
+Comment: 0,0:00:40.05,0:00:43.27,Wonderlands×Showtime,,0,0,0,karaoke,{\k21}to{\k22}na{\k18}ri {\k40}ni {\k19}shi{\k20}ge{\k43}ku {\k17}mi{\k21}e{\k19}ru {\k22}mei{\k18}ou{\k20}sei {\k22}mo
+Comment: 0,0:00:43.27,0:00:46.30,Wonderlands×Showtime,,0,0,0,karaoke,{\k22}a{\k17}i{\k20}ni{\k40}ku, {\k19}i{\k21}ma {\k20}wa {\k42}kyou{\k26}mi {\k11}ga {\k40}nai {\k25}wa
+Comment: 0,0:00:46.28,0:00:48.22,Emu,,0,0,0,karaoke,{\k15}ho{\k32}shi {\k9}ga {\k20}ma{\k18}tchat{\k100}te
+Comment: 0,0:00:47.45,0:00:47.84,Wonderlands×Showtime - Choir,,0,0,0,karaoke,{\k20}👏 {\k41}👏
+Comment: 0,0:00:48.00,0:00:49.05,Nene,,0,0,0,karaoke,{\k10}mu{\k29}ne {\k9}ga {\k18}nat{\k19}chat{\k20}te
+Comment: 0,0:00:49.05,0:00:49.44,Wonderlands×Showtime - Choir,,0,0,0,karaoke,{\k20}👏 {\k18}👏
+Comment: 0,0:00:49.27,0:00:52.36,Miku,,0,0,0,karaoke,{\k24}ki{\k18}zu{\k40}ke{\k37}ba {\k47}ka{\k43}na{\kf100}ta―――
+Comment: 0,0:00:52.45,0:00:56.89,Wonderlands×Showtime,,0,0,0,karaoke,{\k24}a{\k19}no {\k41}it{\k41}tou{\k37}sei {\k18}no {\k41}san{\k18}za{\k27}me{\k17}ku {\k18}hi{\k16}ka{\k27}ri {\k100}de
+Comment: 0,0:00:56.27,0:00:59.45,Wonderlands×Showtime,,0,0,0,karaoke,{\k8}a{\k10}na{\k20}ta {\k19}to {\k27}DA{\k15}N{\k26}CE {\k15}wo {\k16}o{\k16}do{\k46}rou {\k100}ka
+Comment: 0,0:00:58.86,0:01:03.29,Wonderlands×Showtime,,0,0,0,karaoke,{\k16}wa{\k27}ga {\k41}tai{\k41}you{\k37}kei {\k18}no {\k41}hou{\k23}so{\k18}ku {\k17}ni {\k18}sa{\k26}so{\k20}wa{\k100}re
+Comment: 0,0:01:02.65,0:01:06.28,Wonderlands×Showtime,,0,0,0,karaoke,{\k11}ma{\k7}ji{\k25}wat{\k14}ta {\k42}kan{\k25}do {\k15}de {\k24}ki{\k17}ra{\k10}me{\k32}i{\k41}te, {\k100}sei'!
+Comment: 0,0:01:05.68,0:01:07.46,Wonderlands×Showtime - Choir,,0,0,0,karaoke,{\k61}oo {\k17}o {\k100}oo!
+Comment: 0,0:01:07.30,0:01:09.68,Tsukasa,,0,0,0,karaoke,{\k19}sei{\k19}kan{\k26}sen {\k19}wo {\k11}tsu{\k24}na{\k20}i{\k100}de
+Comment: 0,0:01:08.86,0:01:10.67,Wonderlands×Showtime - Choir,,0,0,0,karaoke,{\k65}oo {\k16}o {\k100}oo!
+Comment: 0,0:01:10.49,0:01:12.71,Nene,,0,0,0,karaoke,{\k18}a{\k17}na{\k17}ta {\k28}ni {\k14}to{\k28}do{\k100}ke
+Comment: 0,0:01:12.05,0:01:13.90,Wonderlands×Showtime - Choir,,0,0,0,karaoke,{\k59}oo {\k26}o {\k100}oo!
+Comment: 0,0:01:13.67,0:01:16.04,Rui,,0,0,0,karaoke,{\k19}u{\k28}chu{\k14}u {\k17}no {\k19}ha{\k25}te {\k15}ka{\k100}ra
+Comment: 0,0:01:15.27,0:01:17.11,Wonderlands×Showtime - Choir,,0,0,0,karaoke,{\k58}oo {\k26}o {\k100}oo!
+Comment: 0,0:01:16.67,0:01:18.75,Emu,,0,0,0,karaoke,{\k17}a{\k40}na{\k40}ta {\k40}shin {\k41}kou {\k30}kei!
+Comment: 0,0:01:18.04,0:01:22.46,Nene,,0,0,0,karaoke,{\k20}a{\k21}no {\k50}it{\k40}tou{\k40}sei {\k25}no {\k33}to{\k17}do{\k26}ka{\k18}nu {\k17}hi{\k18}ka{\k17}ri {\k100}wa
+Comment: 0,0:01:21.87,0:01:25.09,Emu,,0,0,0,karaoke,{\k10}ha{\k17}ru{\k13}ka {\k26}na {\k18}ka{\k18}na{\k17}ta {\k25}de {\k18}ki{\k18}ra{\k17}me{\k25}i{\k100}ta
+Comment: 0,0:01:24.51,0:01:28.91,Rui,,0,0,0,karaoke,{\k17}wa{\k17}ga {\k49}tai{\k31}you{\k50}kei {\k22}no {\k32}hou{\k18}so{\k25}ku {\k18}mo {\k17}ha{\k18}zu{\k26}re{\k100}te
+Comment: 0,0:01:28.30,0:01:31.43,Tsukasa,,0,0,0,karaoke,{\k10}so{\k9}re {\k17}de{\k27}mo {\k34}ii {\k25}sa {\k18\rWonderlands×Showtime}te {\k18}wo {\k18}no{\k28}ba{\k9}shi{\k100}te!
+Comment: 0,0:01:30.88,0:01:35.24,Wonderlands×Showtime,,0,0,0,karaoke,{\k42}saa, {\k22}i{\k9}ku{\k48}sei{\k39}sou {\k18}to {\k40}ya{\k14}do{\k26}shi{\k16}ta {\k26}o{\k18}mo{\k18}i {\k100}de
+Comment: 0,0:01:34.61,0:01:37.87,Wonderlands×Showtime,,0,0,0,karaoke,{\k18}a{\k9}na{\k17}ta {\k25}no {\k18}su{\k18}be{\k17}te {\k26}mo{\k18}to{\k18}me{\k42}you {\k100}ka
+Comment: 0,0:01:37.26,0:01:41.70,Wonderlands×Showtime,,0,0,0,karaoke,{\k34}nee, {\k47}nan {\k42}kou{\k39}nen {\k20}no {\k43}kou{\k33}dai {\k19}na {\k25}ta{\k18}bi{\k24}ji {\k100}de
+Comment: 0,0:01:41.03,0:01:44.24,Wonderlands×Showtime,,0,0,0,karaoke,{\k8}hi{\k18}yo{\k17}ku {\k18}no {\k42}ren{\k25}ri {\k18}wo {\k17}sa{\k19}ga{\k39}sou {\k100}ka
+Comment: 0,0:01:43.64,0:01:48.07,Wonderlands×Showtime,,0,0,0,karaoke,{\k26}a{\k15}no {\k42}it{\k40}tou{\k43}sei {\k18}no {\k39}san{\k18}za{\k25}me{\k18}ku {\k16}hi{\k26}ka{\k17}ri {\k100}de
+Comment: 0,0:01:47.42,0:01:50.62,Wonderlands×Showtime,,0,0,0,karaoke,{\k10}a{\k8}na{\k25}ta {\k23}to {\k20}DA{\k21}N{\k19}CE {\k18}wo {\k16}o{\k18}do{\k42}rou {\k100}ka
+Comment: 0,0:01:50.07,0:01:54.48,Wonderlands×Showtime,,0,0,0,karaoke,{\k17}ho{\k27}ra {\k38}sui{\k35}kin {\k43}dat{\k15}te {\k42}chi {\k21}ka {\k20}mo{\k19}ku {\k18}do {\k25}ten {\k21}kai {\k100}mo
+Comment: 0,0:01:53.86,0:01:57.42,Wonderlands×Showtime,,0,0,0,karaoke,{\k8}fu{\k9}ta{\k20}ri {\k26}no {\k42}gin{\k18}ga {\k19}de {\k20\rMiku}ki{\k18}ra{\k18}me{\k25}i{\k33}ta, {\k100\rWonderlands×Showtime}sei'!
+Comment: 0,0:01:56.82,0:01:58.66,Wonderlands×Showtime - Choir,,0,0,0,karaoke,{\k67}oo {\k17}o {\k100}oo!
+Comment: 0,0:01:58.49,0:02:00.86,Wonderlands×Showtime,,0,0,0,karaoke,{\k23}sei{\k19}kan{\k20}sen {\k24}wo {\k18}tsu{\k19}na{\k14}i{\k100}de
+Comment: 0,0:02:00.06,0:02:01.84,Wonderlands×Showtime - Choir,,0,0,0,karaoke,{\k57}oo {\k21}o {\k100}oo!
+Comment: 0,0:02:01.65,0:02:03.87,Wonderlands×Showtime,,0,0,0,karaoke,{\k19}a{\k25}na{\k25}ta {\k16}ni {\k19}to{\k18}do{\k100}ke
+Comment: 0,0:02:03.27,0:02:05.05,Wonderlands×Showtime - Choir,,0,0,0,karaoke,{\k61}oo {\k17}o {\k100}oo!
+Comment: 0,0:02:04.85,0:02:07.31,Wonderlands×Showtime,,0,0,0,karaoke,{\k21}u{\k26}chu{\k15}u {\k26}no {\k16}ha{\k16}te {\k26}ka{\k100}ra
+Comment: 0,0:02:06.47,0:02:08.23,Wonderlands×Showtime - Choir,,0,0,0,karaoke,{\k58}oo {\k18}o {\k100}oo!
+Comment: 0,0:02:07.84,0:02:10.90,Wonderlands×Showtime,,0,0,0,karaoke,{\k26}a{\k39}na{\k39}ta {\k42}shin {\k42}kou {\kf118}kei!
+Comment: 0,0:02:11.28,0:02:15.08,Wonderlands×Showtime - Choir,,0,0,0,karaoke,{\k42}na {\k23}na{\k17}na{\k41}naa {\k17}na{\k23}na{\k39}naa {\k21}na{\k20}na{\k37}naa {\k100}na
+Comment: 0,0:02:14.55,0:02:18.36,Wonderlands×Showtime - Choir,,0,0,0,karaoke,{\k39}nya {\k18}nya{\k24}nya{\k39}nyaa {\k25}nya{\k16}nya{\k42}nyaa {\k15}nya{\k17}nya{\k46}nyaa {\k100}nya
+Comment: 0,0:02:17.67,0:02:20.91,Wonderlands×Showtime - Choir,,0,0,0,karaoke,{\kf324}fu~
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H0099FF&}W×S{\c} - {\c&HA7B82E&}Miku{\c} - {\c&H00BBFF&}Tsukasa{\c} - {\c&HBC66FF&}Emu{\c} - {\c&H7DBB1F&}Nene{\c} - {\c&HED88BB&}Rui
+Dialogue: 0,0:00:00.27,0:00:05.86,Emu,,0,0,0,fx,{\k90\fad(300,200)}{\k23}a{\k24}no {\k37}it{\k45}tou{\k36}sei {\k24}no {\k40}san{\k23}za{\k18}me{\k22}ku {\k17}hi{\k18}ka{\k22}ri {\k100}de
+Dialogue: 0,0:00:04.14,0:00:08.47,Nene,,0,0,0,fx,{\k90\fad(300,200)}{\k10}a{\k9}na{\k18}ta {\k25}to {\k17}DA{\k24}N{\k17}CE {\k15}wo {\k22}o{\k25}do{\k41}rou {\k100}ka
+Dialogue: 0,0:00:06.72,0:00:12.26,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k25}wa{\k17}ga {\k40}tai{\k40}you{\k41}kei {\k17}no {\k39}ko{\k26}do{\k18}u {\k17}ni {\k20}a{\k17}wa{\k27}se{\k100}te
+Dialogue: 0,0:00:10.51,0:00:15.23,Rui,,0,0,0,fx,{\k90\fad(300,200)}{\k7}ka{\k15}ra{\k19}mat{\k15}ta {\k9}S{\k32}TE{\k26}P {\k17}de {\k25}ki{\k14}ra{\k27}me{\k16}i{\k40}te, {\k100\rWonderlands×Showtime}sei'!
+Dialogue: 0,0:00:13.53,0:00:16.45,Wonderlands×Showtime - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k64}oo {\k18}o {\k100}oo!
+Dialogue: 0,0:00:16.76,0:00:19.62,Wonderlands×Showtime - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k58}oo {\k18}o {\k100}oo!
+Dialogue: 0,0:00:19.93,0:00:22.84,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k27}LAM{\k18}B{\k9}DA {\k6}run{\k45}ba {\k19}fu{\k23}ta{\k34}ri
+Dialogue: 0,0:00:21.74,0:00:25.08,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k23}so{\k14}ra {\k28}de {\k16}REN{\k22}DEZ-{\k21}VOUS {\k100}na
+Dialogue: 0,0:00:23.19,0:00:27.61,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k19}mou, {\k6}wa{\k9}zu{\k22}rat{\k39}te {\k24}re{\k18}n{\k40}ya {\k13}ne{\k25}mu{\k17}re{\k100}nai
+Dialogue: 0,0:00:26.39,0:00:31.49,Nene,,0,0,0,fx,{\k90\fad(300,200)}{\k20}sei{\k12}za {\k11}ni {\k15}nat{\k38}te {\k20}ma{\k23}za{\k39}ru {\k37}don{\k25}na {\k22}it{\k17}tou{\k21}sei {\k100}mo
+Dialogue: 0,0:00:29.53,0:00:34.48,Emu,,0,0,0,fx,{\k90\fad(300,200)}{\k21}a{\k25}na{\k17}ta {\k44}ni {\k17}ka{\k18}wa{\k25}ru {\k40}kou{\k14}do {\k22}wa {\k42}nai {\k100}wa
+Dialogue: 0,0:00:32.75,0:00:37.06,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k22}kou{\k10}sha {\k11}no {\k19}u{\k39}ra {\k19}a{\k21}no {\k40}hi {\k19}a{\k21}na{\k19}ta {\k22}mi{\k17}tsu{\k23}ke{\k19}ta
+Dialogue: 0,0:00:35.96,0:00:39.85,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ki{\k18}se{\k23}ki {\k9}sa{\k31}e {\k18}i{\k22}ma {\k39}mo {\k19}ha{\k21}na{\k19}re{\k40}nai
+Dialogue: 0,0:00:39.15,0:00:43.47,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k21}to{\k22}na{\k18}ri {\k40}ni {\k19}shi{\k20}ge{\k43}ku {\k17}mi{\k21}e{\k19}ru {\k22}mei{\k18}ou{\k20}sei {\k22}mo
+Dialogue: 0,0:00:42.37,0:00:46.50,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k22}a{\k17}i{\k20}ni{\k40}ku, {\k19}i{\k21}ma {\k20}wa {\k42}kyou{\k26}mi {\k11}ga {\k40}nai {\k25}wa
+Dialogue: 0,0:00:45.38,0:00:48.42,Emu,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ho{\k32}shi {\k9}ga {\k20}ma{\k18}tchat{\k100}te
+Dialogue: 0,0:00:46.55,0:00:48.04,Wonderlands×Showtime - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}👏 {\k41}👏
+Dialogue: 0,0:00:47.10,0:00:49.25,Nene,,0,0,0,fx,{\k90\fad(300,200)}{\k10}mu{\k29}ne {\k9}ga {\k18}nat{\k19}chat{\k20}te
+Dialogue: 0,0:00:48.15,0:00:49.64,Wonderlands×Showtime - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}👏 {\k18}👏
+Dialogue: 0,0:00:48.37,0:00:52.56,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ki{\k18}zu{\k40}ke{\k37}ba {\k47}ka{\k43}na{\kf100}ta―――
+Dialogue: 0,0:00:51.55,0:00:57.09,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k24}a{\k19}no {\k41}it{\k41}tou{\k37}sei {\k18}no {\k41}san{\k18}za{\k27}me{\k17}ku {\k18}hi{\k16}ka{\k27}ri {\k100}de
+Dialogue: 0,0:00:55.37,0:00:59.65,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k8}a{\k10}na{\k20}ta {\k19}to {\k27}DA{\k15}N{\k26}CE {\k15}wo {\k16}o{\k16}do{\k46}rou {\k100}ka
+Dialogue: 0,0:00:57.96,0:01:03.49,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k16}wa{\k27}ga {\k41}tai{\k41}you{\k37}kei {\k18}no {\k41}hou{\k23}so{\k18}ku {\k17}ni {\k18}sa{\k26}so{\k20}wa{\k100}re
+Dialogue: 0,0:01:01.75,0:01:06.48,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ma{\k7}ji{\k25}wat{\k14}ta {\k42}kan{\k25}do {\k15}de {\k24}ki{\k17}ra{\k10}me{\k32}i{\k41}te, {\k100}sei'!
+Dialogue: 0,0:01:04.78,0:01:07.66,Wonderlands×Showtime - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k61}oo {\k17}o {\k100}oo!
+Dialogue: 0,0:01:06.40,0:01:09.88,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k19}sei{\k19}kan{\k26}sen {\k19}wo {\k11}tsu{\k24}na{\k20}i{\k100}de
+Dialogue: 0,0:01:07.96,0:01:10.87,Wonderlands×Showtime - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k65}oo {\k16}o {\k100}oo!
+Dialogue: 0,0:01:09.59,0:01:12.91,Nene,,0,0,0,fx,{\k90\fad(300,200)}{\k18}a{\k17}na{\k17}ta {\k28}ni {\k14}to{\k28}do{\k100}ke
+Dialogue: 0,0:01:11.15,0:01:14.10,Wonderlands×Showtime - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k59}oo {\k26}o {\k100}oo!
+Dialogue: 0,0:01:12.77,0:01:16.24,Rui,,0,0,0,fx,{\k90\fad(300,200)}{\k19}u{\k28}chu{\k14}u {\k17}no {\k19}ha{\k25}te {\k15}ka{\k100}ra
+Dialogue: 0,0:01:14.37,0:01:17.31,Wonderlands×Showtime - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k58}oo {\k26}o {\k100}oo!
+Dialogue: 0,0:01:15.77,0:01:18.95,Emu,,0,0,0,fx,{\k90\fad(300,200)}{\k17}a{\k40}na{\k40}ta {\k40}shin {\k41}kou {\k30}kei!
+Dialogue: 0,0:01:17.14,0:01:22.66,Nene,,0,0,0,fx,{\k90\fad(300,200)}{\k20}a{\k21}no {\k50}it{\k40}tou{\k40}sei {\k25}no {\k33}to{\k17}do{\k26}ka{\k18}nu {\k17}hi{\k18}ka{\k17}ri {\k100}wa
+Dialogue: 0,0:01:20.97,0:01:25.29,Emu,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ha{\k17}ru{\k13}ka {\k26}na {\k18}ka{\k18}na{\k17}ta {\k25}de {\k18}ki{\k18}ra{\k17}me{\k25}i{\k100}ta
+Dialogue: 0,0:01:23.61,0:01:29.11,Rui,,0,0,0,fx,{\k90\fad(300,200)}{\k17}wa{\k17}ga {\k49}tai{\k31}you{\k50}kei {\k22}no {\k32}hou{\k18}so{\k25}ku {\k18}mo {\k17}ha{\k18}zu{\k26}re{\k100}te
+Dialogue: 0,0:01:27.40,0:01:31.63,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k10}so{\k9}re {\k17}de{\k27}mo {\k34}ii {\k25}sa {\k18\rWonderlands×Showtime}te {\k18}wo {\k18}no{\k28}ba{\k9}shi{\k100}te!
+Dialogue: 0,0:01:29.98,0:01:35.44,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k42}saa, {\k22}i{\k9}ku{\k48}sei{\k39}sou {\k18}to {\k40}ya{\k14}do{\k26}shi{\k16}ta {\k26}o{\k18}mo{\k18}i {\k100}de
+Dialogue: 0,0:01:33.71,0:01:38.07,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k18}a{\k9}na{\k17}ta {\k25}no {\k18}su{\k18}be{\k17}te {\k26}mo{\k18}to{\k18}me{\k42}you {\k100}ka
+Dialogue: 0,0:01:36.36,0:01:41.90,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k34}nee, {\k47}nan {\k42}kou{\k39}nen {\k20}no {\k43}kou{\k33}dai {\k19}na {\k25}ta{\k18}bi{\k24}ji {\k100}de
+Dialogue: 0,0:01:40.13,0:01:44.44,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k8}hi{\k18}yo{\k17}ku {\k18}no {\k42}ren{\k25}ri {\k18}wo {\k17}sa{\k19}ga{\k39}sou {\k100}ka
+Dialogue: 0,0:01:42.74,0:01:48.27,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k26}a{\k15}no {\k42}it{\k40}tou{\k43}sei {\k18}no {\k39}san{\k18}za{\k25}me{\k18}ku {\k16}hi{\k26}ka{\k17}ri {\k100}de
+Dialogue: 0,0:01:46.52,0:01:50.82,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k10}a{\k8}na{\k25}ta {\k23}to {\k20}DA{\k21}N{\k19}CE {\k18}wo {\k16}o{\k18}do{\k42}rou {\k100}ka
+Dialogue: 0,0:01:49.17,0:01:54.68,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ho{\k27}ra {\k38}sui{\k35}kin {\k43}dat{\k15}te {\k42}chi {\k21}ka {\k20}mo{\k19}ku {\k18}do {\k25}ten {\k21}kai {\k100}mo
+Dialogue: 0,0:01:52.96,0:01:57.62,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k8}fu{\k9}ta{\k20}ri {\k26}no {\k42}gin{\k18}ga {\k19}de {\k20\rMiku}ki{\k18}ra{\k18}me{\k25}i{\k33}ta, {\k100\rWonderlands×Showtime}sei'!
+Dialogue: 0,0:01:55.92,0:01:58.86,Wonderlands×Showtime - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k67}oo {\k17}o {\k100}oo!
+Dialogue: 0,0:01:57.59,0:02:01.06,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k23}sei{\k19}kan{\k20}sen {\k24}wo {\k18}tsu{\k19}na{\k14}i{\k100}de
+Dialogue: 0,0:01:59.16,0:02:02.04,Wonderlands×Showtime - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k57}oo {\k21}o {\k100}oo!
+Dialogue: 0,0:02:00.75,0:02:04.07,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k19}a{\k25}na{\k25}ta {\k16}ni {\k19}to{\k18}do{\k100}ke
+Dialogue: 0,0:02:02.37,0:02:05.25,Wonderlands×Showtime - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k61}oo {\k17}o {\k100}oo!
+Dialogue: 0,0:02:03.95,0:02:07.51,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k21}u{\k26}chu{\k15}u {\k26}no {\k16}ha{\k16}te {\k26}ka{\k100}ra
+Dialogue: 0,0:02:05.57,0:02:08.43,Wonderlands×Showtime - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k58}oo {\k18}o {\k100}oo!
+Dialogue: 0,0:02:06.94,0:02:11.10,Wonderlands×Showtime,,0,0,0,fx,{\k90\fad(300,200)}{\k26}a{\k39}na{\k39}ta {\k42}shin {\k42}kou {\kf118}kei!
+Dialogue: 0,0:02:10.38,0:02:15.28,Wonderlands×Showtime - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k42}na {\k23}na{\k17}na{\k41}naa {\k17}na{\k23}na{\k39}naa {\k21}na{\k20}na{\k37}naa {\k100}na
+Dialogue: 0,0:02:13.65,0:02:18.56,Wonderlands×Showtime - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k39}nya {\k18}nya{\k24}nya{\k39}nyaa {\k25}nya{\k16}nya{\k42}nyaa {\k15}nya{\k17}nya{\k46}nyaa {\k100}nya
+Dialogue: 0,0:02:16.77,0:02:21.11,Wonderlands×Showtime - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\kf324}fu~
