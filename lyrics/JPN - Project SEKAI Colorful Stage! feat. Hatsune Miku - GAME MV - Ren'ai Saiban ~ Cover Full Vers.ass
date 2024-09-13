@@ -1,0 +1,126 @@
+﻿[Script Info]
+Title: Ren'ai Saiban
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Script: Karaoke Mugen
+Original Editing: puyo
+Original Timing: Atsuyas
+Synch Point: Atsuyas
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+Style: MMJ!,Arial,24,&H00FFFFFF,&H0020CB6C,&H00000000,&H0020CB6C,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Miku,Arial,24,&H00FFFFFF,&H00A7B82E,&H00000000,&H00A7B82E,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Minori,Arial,24,&H00FFFFFF,&H00579AFF,&H00000000,&H00579AFF,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Airi,Arial,24,&H00FFFFFF,&H00CCA9FF,&H00000000,&H00CCA9FF,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H20CB6C&}MMJ!{\c} - {\c&HA7B82E&}Miku{\c} - {\c&H579AFF&}Minori{\c} - {\c&HCCA9FF&}Airi
+Comment: 0,0:00:22.58,0:00:24.04,Airi,,0,0,0,karaoke,{\k68}OH! {\k22}NO! {\k32}NO! {\k24}NO!
+Comment: 0,0:00:24.14,0:00:26.13,Airi,,0,0,0,karaoke,{\k47}chot{\k21}to {\k22}ma {\k21}ga {\k25}sa{\k12}shi{\k33}tan {\k18}da
+Comment: 0,0:00:26.13,0:00:29.71,Airi,,0,0,0,karaoke,{\k25}so{\k47}u, {\k21}bo{\k33}ku {\k33}wa {\k25}ki{\k21}mi {\k22}da{\k22}ke {\k11}ga {\k34}su{\k23}be{\k18}te {\k23}sa
+Comment: 0,0:00:29.71,0:00:33.31,Miku,,0,0,0,karaoke,{\k89}nee, {\k36}jou{\k32}jou {\k24}sha{\k21}ku{\k25}ryou {\k22}wo {\k24}ku{\k31}da{\k36}sa{\k20}i
+Comment: 0,0:00:33.54,0:00:36.28,Miku,,0,0,0,karaoke,{\k24}bo{\k18}ku {\k15}hi{\k35}to{\k21}ri {\k22}ja {\k23}i{\k21}ki{\k23}te{\k20}ke{\k17}na{\k35}i
+Comment: 0,0:00:36.88,0:00:38.39,Minori,,0,0,0,karaoke,{\k92}OH! {\k32}JE{\k27}SUS!
+Comment: 0,0:00:38.45,0:00:40.47,Minori,,0,0,0,karaoke,{\k46}son{\k23}na {\k22}me {\k23}de {\k34}mi{\k34}nai {\k20}de
+Comment: 0,0:00:40.47,0:00:44.07,Minori,,0,0,0,karaoke,{\k69}mou, {\k23}kon{\k31}rin{\k35}zai {\k24}ko{\k22}ko{\k22}ro {\k19}i{\k13}re{\k35}ka{\k22}e{\k22}ru {\k23}yo
+Comment: 0,0:00:44.07,0:00:47.65,Miku,,0,0,0,karaoke,{\k68}nee, {\k21}da{\k34}ka{\k30}ra {\k28}shi{\k21}k{\k21}ko{\k23}u {\k23}yu{\k31}u{\k37}yo {\k21}de
+Comment: 0,0:00:47.87,0:00:50.34,Miku,,0,0,0,karaoke,{\k22}i{\k22}chi{\k12}do {\k36}da{\k21}ke {\k24}mi{\k21}no{\k24}ga{\k11}shi{\k54}te
+Comment: 0,0:00:51.01,0:00:54.17,Airi,,0,0,0,karaoke,{\k22}ke{\k37}i{\k32}ka{\k44}ku{\k37}te{\k8}ki {\k20}na {\k36}han{\k33}kou {\k47}no
+Comment: 0,0:00:54.59,0:00:57.94,Miku,,0,0,0,karaoke,{\k22}ko{\k33}no {\k37}A{\k41}LI{\k25}B{\k23}I {\k21}ko{\k23}u{\k23}sa{\k21}ku {\k66}mo
+Comment: 0,0:00:58.19,0:01:01.31,Airi,,0,0,0,karaoke,{\k21}ki{\k34}mi {\k34}da{\k41}ke {\k49}wa {\k19}da{\k21}ma{\k25}se{\k24}na{\k44}i
+Comment: 0,0:01:01.76,0:01:04.88,Miku,,0,0,0,karaoke,{\k22}ko{\k19}te{\k15}sa{\k22}ki {\k14}no {\k41}te{\k24}ji{\k22}na {\k24}ja {\k34\rMMJ!}NO! {\k32}NO! {\k43}NO!
+Comment: 0,0:01:04.88,0:01:06.96,MMJ!,,0,0,0,karaoke,{\k22}ma{\k23}sa {\k23}ni {\k34}ren'{\k32}ai {\k46}sai{\k28}ban
+Comment: 0,0:01:07.13,0:01:08.68,MMJ!,,0,0,0,karaoke,{\k22}ki{\k36}mi {\k33}wa {\k37}bo{\k6}ku {\k21}ni
+Comment: 0,0:01:08.94,0:01:12.15,MMJ!,,0,0,0,karaoke,{\k22}do{\k32}re {\k34}ku{\k23}ra{\k33}i {\k32}no {\k23}tsu{\k34}mi {\k34}wo {\k22}to{\k32}u?
+Comment: 0,0:01:12.72,0:01:15.90,MMJ!,,0,0,0,karaoke,{\k34}sai{\k35}shuu {\k39}ben{\k46}ron {\k26}na{\k34}mi{\k34}da {\k22}no {\k22}a{\k13}to {\k13}ni
+Comment: 0,0:01:16.10,0:01:18.77,MMJ!,,0,0,0,karaoke,{\k21}ki{\k33}mi {\k33}ka{\k43}ra {\k25}tsu{\k20}ge{\k24}ra{\k35}re{\k33}ta
+Comment: 0,0:01:18.77,0:01:21.42,MMJ!,,0,0,0,karaoke,{\k23}bo{\k22}ku {\k25}wa {\k13}GUI{\k19}L{\kf163}TY
+Comment: 0,0:01:34.21,0:01:35.73,Minori,,0,0,0,karaoke,{\k68}OH! {\k23}NO! {\k34}NO! {\k27}NO!
+Comment: 0,0:01:35.79,0:01:37.74,Minori,,0,0,0,karaoke,{\k46}sai{\k21}a{\k22}ku {\k22}no {\k35}ji{\k33}tai {\k16}da
+Comment: 0,0:01:37.78,0:01:41.34,Minori,,0,0,0,karaoke,{\k71}sou, {\k21}ki{\k34}mi {\k32}ni {\k24}fu{\k22}ra{\k22}re{\k23}ru {\k10}ku{\k34}ra{\k22}i {\k23}na{\k18}ra
+Comment: 0,0:01:41.34,0:01:44.98,Miku,,0,0,0,karaoke,{\k70}nee, {\k23}i{\k30}s{\k37}so {\k20}ki{\k24}mi {\k24}no {\k22}te {\k22}de {\k34}bo{\k33}ku {\k25}wo
+Comment: 0,0:01:45.19,0:01:48.00,Miku,,0,0,0,karaoke,{\k21}ku{\k19}ra{\k17}ya{\k33}mi {\k20}ni {\k27}tsu{\k21}ki{\k22}o{\k20}to{\k23}shi{\k12}te {\k46}yo
+Comment: 0,0:01:48.54,0:01:50.06,Airi,,0,0,0,karaoke,{\k89}OH! {\k33}JE{\k30}SUS!
+Comment: 0,0:01:50.11,0:01:52.13,Airi,,0,0,0,karaoke,{\k45}ron {\k18}yo{\k28}ri {\k23}sho{\k33}u{\k34}ko {\k21}da
+Comment: 0,0:01:52.13,0:01:55.69,Airi,,0,0,0,karaoke,{\k68}mou, {\k21}bo{\k34}ku {\k35}wa {\k23}to{\k21}ri{\k23}tsu{\k20}ku{\k14}ro{\k33}wa{\k21}na{\k21}i {\k22}yo
+Comment: 0,0:01:55.69,0:01:59.28,Miku,,0,0,0,karaoke,{\k69}nee, {\k24}zu{\k31}t{\k33}to {\k25}ki{\k21}mi {\k22}no {\k27}ka{\k19}n{\k33}go{\k33}ku {\k22}ni
+Comment: 0,0:01:59.53,0:02:02.02,Miku,,0,0,0,karaoke,{\k20}to{\k23}ji{\k13}ko{\k33}me{\k21}te {\k25}mo {\k22}i{\k20}i {\k12}ka{\k60}ra
+Comment: 0,0:02:02.66,0:02:05.83,Minori,,0,0,0,karaoke,{\k21}se{\k33}i{\k36}ka{\k44}ku{\k30}te{\k17}ki {\k20}na {\k33}mon{\k35}dai {\k48}to
+Comment: 0,0:02:06.25,0:02:09.58,Miku,,0,0,0,karaoke,{\k21}i{\k35}chi{\k34}do {\k44}da{\k20}ke {\k25}no {\k17}a{\k27}ya{\k22}ma{\k22}chi {\k66}de
+Comment: 0,0:02:09.83,0:02:12.97,Airi,,0,0,0,karaoke,{\k21}ki{\k32}mi {\k34}wa {\k46}mo{\k38}u {\k29}mo{\k23}do{\k23}ra{\k21}na{\k47}i
+Comment: 0,0:02:13.41,0:02:17.68,Miku,,0,0,0,karaoke,{\k23}ku{\k20}chi{\k12}sa{\k20}ki {\k14}no {\k46}be{\k20}n{\k22}go {\k22}ja {\k69}mou {\k23\rMMJ!}yu{\k19}ru{\k23}sa{\k14}re{\k21}na{\k59}i
+Comment: 0,0:02:46.98,0:02:49.14,Miku,,0,0,0,karaoke,{\k24}do{\k22}ko {\k20}ga {\k36}kan{\k34}zen {\k41}han{\k39}zai?
+Comment: 0,0:02:49.21,0:02:51.02,Minori,,0,0,0,karaoke,{\k24}ki{\k34}mi {\k33}mo {\k44}boku {\k46}mo
+Comment: 0,0:02:51.02,0:02:54.35,Minori,,0,0,0,karaoke,{\k22}o{\k32}na{\k35}ji {\k23}da{\k34}ke {\k30}no {\k23}ka{\k31}na{\k38}shi{\k23}mi {\k42}wo
+Comment: 0,0:02:54.59,0:02:57.99,Airi,,0,0,0,karaoke,{\k23}a{\k33}i{\k35}shi{\k33}ta {\k13}hi{\k41}to {\k24}a{\k35}i{\k33}sa{\k23}re{\k19}ta {\k13}hi{\k15}to
+Comment: 0,0:02:58.19,0:03:02.77,Airi,,0,0,0,karaoke,{\k21}ta{\k34}ga{\k34}i {\k44}wo {\k22}sa{\k22}ba{\k23}ki{\k34}a{\k32}u {\k25\rMMJ!}sa{\k31}da{\k33}me {\k14}da{\k12}ka{\k77}ra
+Comment: 0,0:03:03.77,0:03:05.33,MMJ!,,0,0,0,karaoke,{\k35}yuu{\k34}zai {\k44}han{\k43}kets'
+Comment: 0,0:03:05.33,0:03:06.92,MMJ!,,0,0,0,karaoke,{\k23}ki{\k35}mi {\k33}wa {\k32}bo{\k13}ku {\k23}ni
+Comment: 0,0:03:07.14,0:03:10.38,MMJ!,,0,0,0,karaoke,{\k22}do{\k36}re {\k30}ku{\k22}ra{\k31}i {\k33}no {\k28}tsu{\k30}mi {\k36}wo {\k22}to{\k34}u?
+Comment: 0,0:03:10.86,0:03:14.17,MMJ!,,0,0,0,karaoke,{\k40}shuu{\k34}shin{\k45}kei {\k42}de {\k26}tsu{\k33}gu{\k35}na{\k20}u {\k24}ka{\k12}ku{\k20}go
+Comment: 0,0:03:14.25,0:03:18.09,MMJ!,,0,0,0,karaoke,{\k28}shi{\k32}nu {\k35}ma{\k41}de {\k24}ki{\k24}mi {\k23}da{\k33}ke {\k33}wo {\k20}ma{\k36}mo{\k32}ru {\k23}yo
+Comment: 0,0:03:18.09,0:03:19.47,MMJ!,,0,0,0,karaoke,{\k33}ren'{\k33}ai {\k46}sai{\k26}ban
+Comment: 0,0:03:19.66,0:03:21.23,MMJ!,,0,0,0,karaoke,{\k22}ki{\k35}mi {\k34}ga {\k31}bo{\k14}ku {\k21}ni
+Comment: 0,0:03:21.43,0:03:24.67,MMJ!,,0,0,0,karaoke,{\k19}o{\k38}shi{\k33}e{\k24}te {\k36}ku{\k33}re{\k15}ta {\k42}shi{\k30}n{\k23}ji{\k31}tsu
+Comment: 0,0:03:25.06,0:03:28.49,MMJ!,,0,0,0,karaoke,{\k20}i{\k32}tsu{\k40}wa{\k39}ri {\k45}no {\k24}na{\k34}mi{\k33}da {\k23}no {\k22}a{\k11}to {\k20}de
+Comment: 0,0:03:28.64,0:03:32.40,MMJ!,,0,0,0,karaoke,{\k18}hi{\k36}so{\k35}ka {\k45}ni {\k20}ho{\k24}ho{\k22}e{\k34}n{\k35}da {\k20}ko{\k33}a{\k37}ku{\k17}ma
+Comment: 0,0:03:32.40,0:03:35.44,MMJ!,,0,0,0,karaoke,{\k72}sou, {\k19}ki{\k24}mi {\k21}mo {\k15}GUI{\k20}L{\k133}TY
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H20CB6C&}MMJ!{\c} - {\c&HA7B82E&}Miku{\c} - {\c&H579AFF&}Minori{\c} - {\c&HCCA9FF&}Airi
+Dialogue: 0,0:00:21.68,0:00:24.24,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k68}OH! {\k22}NO! {\k32}NO! {\k24}NO!
+Dialogue: 0,0:00:23.24,0:00:26.33,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k47}chot{\k21}to {\k22}ma {\k21}ga {\k25}sa{\k12}shi{\k33}tan {\k18}da
+Dialogue: 0,0:00:25.23,0:00:29.91,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k25}so{\k47}u, {\k21}bo{\k33}ku {\k33}wa {\k25}ki{\k21}mi {\k22}da{\k22}ke {\k11}ga {\k34}su{\k23}be{\k18}te {\k23}sa
+Dialogue: 0,0:00:28.81,0:00:33.51,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k89}nee, {\k36}jou{\k32}jou {\k24}sha{\k21}ku{\k25}ryou {\k22}wo {\k24}ku{\k31}da{\k36}sa{\k20}i
+Dialogue: 0,0:00:32.64,0:00:36.48,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k24}bo{\k18}ku {\k15}hi{\k35}to{\k21}ri {\k22}ja {\k23}i{\k21}ki{\k23}te{\k20}ke{\k17}na{\k35}i
+Dialogue: 0,0:00:35.98,0:00:38.59,Minori,,0,0,0,fx,{\k90\fad(300,200)}{\k92}OH! {\k32}JE{\k27}SUS!
+Dialogue: 0,0:00:37.55,0:00:40.67,Minori,,0,0,0,fx,{\k90\fad(300,200)}{\k46}son{\k23}na {\k22}me {\k23}de {\k34}mi{\k34}nai {\k20}de
+Dialogue: 0,0:00:39.57,0:00:44.27,Minori,,0,0,0,fx,{\k90\fad(300,200)}{\k69}mou, {\k23}kon{\k31}rin{\k35}zai {\k24}ko{\k22}ko{\k22}ro {\k19}i{\k13}re{\k35}ka{\k22}e{\k22}ru {\k23}yo
+Dialogue: 0,0:00:43.17,0:00:47.85,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k68}nee, {\k21}da{\k34}ka{\k30}ra {\k28}shi{\k21}k{\k21}ko{\k23}u {\k23}yu{\k31}u{\k37}yo {\k21}de
+Dialogue: 0,0:00:46.97,0:00:50.54,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k22}i{\k22}chi{\k12}do {\k36}da{\k21}ke {\k24}mi{\k21}no{\k24}ga{\k11}shi{\k54}te
+Dialogue: 0,0:00:50.11,0:00:54.37,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ke{\k37}i{\k32}ka{\k44}ku{\k37}te{\k8}ki {\k20}na {\k36}han{\k33}kou {\k47}no
+Dialogue: 0,0:00:53.69,0:00:58.14,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ko{\k33}no {\k37}A{\k41}LI{\k25}B{\k23}I {\k21}ko{\k23}u{\k23}sa{\k21}ku {\k66}mo
+Dialogue: 0,0:00:57.29,0:01:01.51,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ki{\k34}mi {\k34}da{\k41}ke {\k49}wa {\k19}da{\k21}ma{\k25}se{\k24}na{\k44}i
+Dialogue: 0,0:01:00.86,0:01:05.08,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ko{\k19}te{\k15}sa{\k22}ki {\k14}no {\k41}te{\k24}ji{\k22}na {\k24}ja {\k34\rMMJ!}NO! {\k32}NO! {\k43}NO!
+Dialogue: 0,0:01:03.98,0:01:07.16,MMJ!,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ma{\k23}sa {\k23}ni {\k34}ren'{\k32}ai {\k46}sai{\k28}ban
+Dialogue: 0,0:01:06.23,0:01:08.88,MMJ!,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ki{\k36}mi {\k33}wa {\k37}bo{\k6}ku {\k21}ni
+Dialogue: 0,0:01:08.04,0:01:12.35,MMJ!,,0,0,0,fx,{\k90\fad(300,200)}{\k22}do{\k32}re {\k34}ku{\k23}ra{\k33}i {\k32}no {\k23}tsu{\k34}mi {\k34}wo {\k22}to{\k32}u?
+Dialogue: 0,0:01:11.82,0:01:16.10,MMJ!,,0,0,0,fx,{\k90\fad(300,200)}{\k34}sai{\k35}shuu {\k39}ben{\k46}ron {\k26}na{\k34}mi{\k34}da {\k22}no {\k22}a{\k13}to {\k13}ni
+Dialogue: 0,0:01:15.20,0:01:18.97,MMJ!,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ki{\k33}mi {\k33}ka{\k43}ra {\k25}tsu{\k20}ge{\k24}ra{\k35}re{\k33}ta
+Dialogue: 0,0:01:17.87,0:01:21.42,MMJ!,,0,0,0,fx,{\k90}{\fad(300,200)}{\k23}bo{\k22}ku {\k25}wa {\k13}GUI{\k19}L{\kf163}TY
+Dialogue: 0,0:01:33.31,0:01:35.93,Minori,,0,0,0,fx,{\k90\fad(300,200)}{\k68}OH! {\k23}NO! {\k34}NO! {\k27}NO!
+Dialogue: 0,0:01:34.89,0:01:37.94,Minori,,0,0,0,fx,{\k90\fad(300,200)}{\k46}sai{\k21}a{\k22}ku {\k22}no {\k35}ji{\k33}tai {\k16}da
+Dialogue: 0,0:01:36.88,0:01:41.54,Minori,,0,0,0,fx,{\k90\fad(300,200)}{\k71}sou, {\k21}ki{\k34}mi {\k32}ni {\k24}fu{\k22}ra{\k22}re{\k23}ru {\k10}ku{\k34}ra{\k22}i {\k23}na{\k18}ra
+Dialogue: 0,0:01:40.44,0:01:45.18,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k70}nee, {\k23}i{\k30}s{\k37}so {\k20}ki{\k24}mi {\k24}no {\k22}te {\k22}de {\k34}bo{\k33}ku {\k25}wo
+Dialogue: 0,0:01:44.29,0:01:48.20,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ku{\k19}ra{\k17}ya{\k33}mi {\k20}ni {\k27}tsu{\k21}ki{\k22}o{\k20}to{\k23}shi{\k12}te {\k46}yo
+Dialogue: 0,0:01:47.64,0:01:50.26,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k89}OH! {\k33}JE{\k30}SUS!
+Dialogue: 0,0:01:49.21,0:01:52.33,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k45}ron {\k18}yo{\k28}ri {\k23}sho{\k33}u{\k34}ko {\k21}da
+Dialogue: 0,0:01:51.23,0:01:55.89,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k68}mou, {\k21}bo{\k34}ku {\k35}wa {\k23}to{\k21}ri{\k23}tsu{\k20}ku{\k14}ro{\k33}wa{\k21}na{\k21}i {\k22}yo
+Dialogue: 0,0:01:54.79,0:01:59.48,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k69}nee, {\k24}zu{\k31}t{\k33}to {\k25}ki{\k21}mi {\k22}no {\k27}ka{\k19}n{\k33}go{\k33}ku {\k22}ni
+Dialogue: 0,0:01:58.63,0:02:02.22,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k20}to{\k23}ji{\k13}ko{\k33}me{\k21}te {\k25}mo {\k22}i{\k20}i {\k12}ka{\k60}ra
+Dialogue: 0,0:02:01.76,0:02:06.03,Minori,,0,0,0,fx,{\k90\fad(300,200)}{\k21}se{\k33}i{\k36}ka{\k44}ku{\k30}te{\k17}ki {\k20}na {\k33}mon{\k35}dai {\k48}to
+Dialogue: 0,0:02:05.35,0:02:09.78,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k21}i{\k35}chi{\k34}do {\k44}da{\k20}ke {\k25}no {\k17}a{\k27}ya{\k22}ma{\k22}chi {\k66}de
+Dialogue: 0,0:02:08.93,0:02:13.17,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ki{\k32}mi {\k34}wa {\k46}mo{\k38}u {\k29}mo{\k23}do{\k23}ra{\k21}na{\k47}i
+Dialogue: 0,0:02:12.51,0:02:17.88,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ku{\k20}chi{\k12}sa{\k20}ki {\k14}no {\k46}be{\k20}n{\k22}go {\k22}ja {\k69}mou {\k23\rMMJ!}yu{\k19}ru{\k23}sa{\k14}re{\k21}na{\k59}i
+Dialogue: 0,0:02:46.08,0:02:49.34,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k24}do{\k22}ko {\k20}ga {\k36}kan{\k34}zen {\k41}han{\k39}zai?
+Dialogue: 0,0:02:48.31,0:02:51.22,Minori,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ki{\k34}mi {\k33}mo {\k44}boku {\k46}mo
+Dialogue: 0,0:02:50.12,0:02:54.55,Minori,,0,0,0,fx,{\k90\fad(300,200)}{\k22}o{\k32}na{\k35}ji {\k23}da{\k34}ke {\k30}no {\k23}ka{\k31}na{\k38}shi{\k23}mi {\k42}wo
+Dialogue: 0,0:02:53.69,0:02:58.19,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}a{\k33}i{\k35}shi{\k33}ta {\k13}hi{\k41}to {\k24}a{\k35}i{\k33}sa{\k23}re{\k19}ta {\k13}hi{\k15}to
+Dialogue: 0,0:02:57.29,0:03:02.97,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ta{\k34}ga{\k34}i {\k44}wo {\k22}sa{\k22}ba{\k23}ki{\k34}a{\k32}u {\k25\rMMJ!}sa{\k31}da{\k33}me {\k14}da{\k12}ka{\k77}ra
+Dialogue: 0,0:03:02.87,0:03:05.53,MMJ!,,0,0,0,fx,{\k90\fad(300,200)}{\k35}yuu{\k34}zai {\k44}han{\k43}kets'
+Dialogue: 0,0:03:04.43,0:03:07.12,MMJ!,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ki{\k35}mi {\k33}wa {\k32}bo{\k13}ku {\k23}ni
+Dialogue: 0,0:03:06.24,0:03:10.58,MMJ!,,0,0,0,fx,{\k90\fad(300,200)}{\k22}do{\k36}re {\k30}ku{\k22}ra{\k31}i {\k33}no {\k28}tsu{\k30}mi {\k36}wo {\k22}to{\k34}u?
+Dialogue: 0,0:03:09.96,0:03:14.37,MMJ!,,0,0,0,fx,{\k90\fad(300,200)}{\k40}shuu{\k34}shin{\k45}kei {\k42}de {\k26}tsu{\k33}gu{\k35}na{\k20}u {\k24}ka{\k12}ku{\k20}go
+Dialogue: 0,0:03:13.35,0:03:18.29,MMJ!,,0,0,0,fx,{\k90\fad(300,200)}{\k28}shi{\k32}nu {\k35}ma{\k41}de {\k24}ki{\k24}mi {\k23}da{\k33}ke {\k33}wo {\k20}ma{\k36}mo{\k32}ru {\k23}yo
+Dialogue: 0,0:03:17.19,0:03:19.67,MMJ!,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ren'{\k33}ai {\k46}sai{\k26}ban
+Dialogue: 0,0:03:18.76,0:03:21.43,MMJ!,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ki{\k35}mi {\k34}ga {\k31}bo{\k14}ku {\k21}ni
+Dialogue: 0,0:03:20.53,0:03:24.87,MMJ!,,0,0,0,fx,{\k90\fad(300,200)}{\k19}o{\k38}shi{\k33}e{\k24}te {\k36}ku{\k33}re{\k15}ta {\k42}shi{\k30}n{\k23}ji{\k31}tsu
+Dialogue: 0,0:03:24.16,0:03:28.69,MMJ!,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k32}tsu{\k40}wa{\k39}ri {\k45}no {\k24}na{\k34}mi{\k33}da {\k23}no {\k22}a{\k11}to {\k20}de
+Dialogue: 0,0:03:27.74,0:03:32.60,MMJ!,,0,0,0,fx,{\k90\fad(300,200)}{\k18}hi{\k36}so{\k35}ka {\k45}ni {\k20}ho{\k24}ho{\k22}e{\k34}n{\k35}da {\k20}ko{\k33}a{\k37}ku{\k17}ma
+Dialogue: 0,0:03:31.50,0:03:35.64,MMJ!,,0,0,0,fx,{\k90\fad(300,200)}{\k72}sou, {\k19}ki{\k24}mi {\k21}mo {\k15}GUI{\k20}L{\k133}TY
