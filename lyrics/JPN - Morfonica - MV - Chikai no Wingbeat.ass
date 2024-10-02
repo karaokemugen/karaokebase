@@ -1,0 +1,161 @@
+﻿[Script Info]
+Title: Chikai no Wingbeat
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Kuro_Yuki_
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: [Morfo]unit,Arial,24,&H00FFFFFF,&H00FFAA33,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: [Morfo]Mashiro,Arial,24,&H00FFFFFF,&H00CC7766,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: [Morfo][Choir]unit,Arial,24,&H00FFFFFF,&H00FFAA33,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: [Morfo][Down]unit,Arial,24,&H00FFFFFF,&H00FFAA33,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:33.05,0:00:35.67,[Morfo]unit,,0,0,0,karaoke,{\k18}la {\k20}la {\k37}la {\k21}la {\k19}la {\kf147}la
+Comment: 0,0:00:36.04,0:00:38.69,[Morfo]unit,,0,0,0,karaoke,{\k20}la {\k19}la {\k38}la {\k19}la {\k18}la {\kf151}la
+Comment: 0,0:00:39.06,0:00:47.17,[Morfo]unit,,0,0,0,karaoke,{\k19}la {\k21}la {\k42}la {\k19}la {\k20}la {\kf95}la {\kf102}la {\kf493}la
+Comment: 0,0:00:51.86,0:00:54.50,[Morfo][Down]unit,,0,0,0,karaoke,{\k119}af{\k14}ter {\k9}a {\k49}storm {\k30}comes {\k15}a {\k28}calm
+Comment: 0,0:01:08.40,0:01:10.63,[Morfo]Mashiro,,0,0,0,karaoke,{\k14}na{\k16}mi{\k14}da {\k13}de {\k17}ji{\k28}kan {\k29}ga {\k16}to{\k28}ke{\k30}te{\k18}ku
+Comment: 0,0:01:10.69,0:01:12.99,[Morfo]Mashiro,,0,0,0,karaoke,{\k21}tsu{\k14}bo{\k15}mi {\k15}wa {\k14}mu{\k13}ne {\k16}no {\k28}na{\k15}ka {\k29}de {\k29}chi{\k21}ru
+Comment: 0,0:01:13.22,0:01:17.22,[Morfo]Mashiro,,0,0,0,karaoke,{\k17}to{\k28}bi{\k16}ra {\k13}no {\k16}mu{\k28}kou {\k14}wa {\k30}hi{\k30}jou {\k15}ga {\k28}fu{\k12}ri{\k36}shi{\k26}ki{\kf91}ru
+Comment: 0,0:01:17.71,0:01:20.00,[Morfo]Mashiro,,0,0,0,karaoke,{\k21}so{\k15}re {\k12}de{\k16}mo {\k15}wa{\k10}ta{\k20}shi{\k28}ta{\k16}chi {\k29}wa {\k29}yu{\k18}ku
+Comment: 0,0:01:20.10,0:01:26.98,[Morfo]Mashiro,,0,0,0,karaoke,{\k15}na{\k14}ni{\k16}yo{\k16}ri {\k13}mo {\k28}dai{\k31}ji{\k15}na {\k29}mo{\k28}no {\kf103}ga {\k15}mi{\k46}ra{\k28}i {\k29}ni {\k29}a{\k44}ru {\k14}ka{\kf175}ra
+Comment: 0,0:01:30.79,0:01:34.15,[Morfo]Mashiro,,0,0,0,karaoke,{\k15}ka{\k9}na{\k35}shi{\k15}mi {\k16}da{\k28}ke {\k10}de {\k19}o{\k29}wa{\k12}ra{\k18}se{\k29}te {\k15}wa {\k15}i{\k15}ke{\k39}na{\k17}i
+Comment: 0,0:01:35.46,0:01:38.43,[Morfo]Mashiro,,0,0,0,karaoke,{\k31}don{\k30}na {\k11}ni {\k18}ki{\k25}bi{\k35}shii {\k15}ha{\k27}ji{\k15}ma{\k15}ri {\k14}de{\k61}mo
+Comment: 0,0:01:38.67,0:01:41.08,[Morfo][Choir]unit,,0,0,0,karaoke,{\k31}ku{\k19}ya{\k19}shi{\k35}sa {\k27}to {\k31}iu {\k15}chi{\k16}ka{\k14}ra {\k15}ko{\k19}me
+Comment: 0,0:01:41.33,0:01:43.30,[Morfo]Mashiro,,0,0,0,karaoke,{\k13}o{\k17}ri{\k9}na{\k35}sa{\k29}re{\k14}te{\k14}ku {\k14}tsu{\k29}ba{\k23}sa
+Comment: 0,0:01:43.36,0:01:45.71,[Morfo][Choir]unit,,0,0,0,karaoke,{\k32}QUIN{\k29}TE{\k14}T {\k30}yu{\k18}me {\k25}wo {\k14}hi{\k16}bi{\k8}ka{\k22}se{\k13}te {\k30}wa
+Comment: 0,0:01:46.00,0:01:49.25,[Morfo]Mashiro,,0,0,0,karaoke,{\k16}to{\k15}bi{\k19}ta{\k24}tsu{\k15}n{\kf236}da
+Comment: 0,0:01:50.87,0:01:53.18,[Morfo]Mashiro,,0,0,0,karaoke,{\k13}ka{\k15}ke{\k15}a{\k12}ga{\k15}re {\k15}F{\k28}LY, {\k16}F{\k28}LY {\k74}HIGH!
+Comment: 0,0:01:52.73,0:01:53.90,[Morfo][Choir]unit,,0,0,0,karaoke,{\k17}F{\k29}LY, {\k16}F{\k28}LY {\k155}HIGH!
+Comment: 0,0:01:53.48,0:01:55.53,[Morfo]Mashiro,,0,0,0,karaoke,{\k14}ta{\k17}ka{\k13}ku {\k15}F{\k28}LY, {\k16}F{\k31}LY {\k71}HIGH!
+Comment: 0,0:01:55.09,0:01:56.35,[Morfo][Choir]unit,,0,0,0,karaoke,{\k13}F{\k31}LY, {\k15}F{\k27}LY {\k40}HIGH!
+Comment: 0,0:01:55.93,0:02:00.70,[Morfo]Mashiro,,0,0,0,karaoke,{\k18}chi{\k14}gi{\k12}re{\k18}sou {\k27}na {\k32}ku{\k56}ra{\k33}i {\k19}o{\k20}mo{\k19}i {\k74}no {\k13}ka{\k15}gi{\kf107}ri
+Comment: 0,0:02:01.07,0:02:03.22,[Morfo]unit,,0,0,0,karaoke,{\k16}tsu{\k15}yo{\k26}ku {\k15}tsu{\k19}yo{\k30}ku {\k12}ha{\k14}ta{\k16}me{\k18}ka{\k11}se{\k23}te
+Comment: 0,0:02:03.44,0:02:05.57,[Morfo]unit,,0,0,0,karaoke,{\k12}ya{\k16}me{\k29}nai {\k16}ya{\k13}me{\k22}nai {\k22}sa{\k15}i{\k15}go {\k31}ma{\k22}de
+Comment: 0,0:02:05.77,0:02:09.45,[Morfo]unit,,0,0,0,karaoke,{\k14}wa{\k7}ta{\k37}shi{\k12}ta{\k18}chi {\k30}wa {\k12}a{\k16}ki{\k15}ra{\k21}me{\k18}ta{\k21}ri {\k61}wa {\k25}shi{\k16}na{\k45}i
+Comment: 0,0:02:09.56,0:02:10.75,[Morfo]unit,,0,0,0,karaoke,{\k15}s{\k21}pread {\k22}o{\k16}ur {\k45}wings
+Comment: 0,0:02:10.88,0:02:11.90,[Morfo][Down]unit,,0,0,0,karaoke,{\k59}don't {\k29}look {\k14}back
+Comment: 0,0:02:11.92,0:02:13.05,[Morfo]unit,,0,0,0,karaoke,{\k14}s{\k20}pread {\k20}o{\k19}ur {\k40}wings
+Comment: 0,0:02:13.22,0:02:14.27,[Morfo][Down]unit,,0,0,0,karaoke,{\k59}don't {\k31}look {\k15}back
+Comment: 0,0:02:14.27,0:02:15.45,[Morfo]unit,,0,0,0,karaoke,{\k12}s{\k21}pread {\k21}o{\k16}ur {\k48}wings
+Comment: 0,0:02:15.54,0:02:16.72,[Morfo][Down]unit,,0,0,0,karaoke,{\k62}don't {\k27}look {\k29}back
+Comment: 0,0:02:16.73,0:02:18.95,[Morfo]Mashiro,,0,0,0,karaoke,{\k22}ha{\k19}ba{\k19}ta{\k28}ki {\k14}tsu{\k30}zu{\k30}ke{\k60}ru
+Comment: 0,0:02:32.69,0:02:34.97,[Morfo]Mashiro,,0,0,0,karaoke,{\k17}o{\k13}wa{\k14}ri {\k16}no {\k14}mi{\k14}e{\k15}na{\k28}i {\k16}ku{\k31}ra{\k29}ya{\k21}mi
+Comment: 0,0:02:35.03,0:02:37.29,[Morfo]Mashiro,,0,0,0,karaoke,{\k16}a{\k16}se{\k12}ri {\k17}fu{\k12}ri{\k16}tsu{\k15}mo{\k29}ru {\k14}fu{\k29}a{\k28}n {\k22}ni
+Comment: 0,0:02:37.53,0:02:41.60,[Morfo]Mashiro,,0,0,0,karaoke,{\k15}mo{\k19}ga{\k9}i{\k17}te {\k14}mo {\k14}ho{\k30}do{\k14}ke{\k28}na{\k31}i {\k15}ku{\k16}ru{\k27}shi{\k30}mi{\k27}ta{\kf101}chi
+Comment: 0,0:02:41.93,0:02:44.28,[Morfo]Mashiro,,0,0,0,karaoke,{\k28}so{\k16}re {\k13}de{\k16}mo {\k13}wa{\k7}ta{\k22}shi{\k29}ta{\k15}chi {\k29}wa {\k30}yu{\k17}ku
+Comment: 0,0:02:44.40,0:02:47.08,[Morfo]Mashiro,,0,0,0,karaoke,{\k6}u{\k23}shi{\k15}na{\k15}t{\k12}ta {\k17}mo{\k14}no {\k29}wo {\k15}ka{\k30}na{\k27}ra{\k65}zu
+Comment: 0,0:02:47.45,0:02:51.23,[Morfo]Mashiro,,0,0,0,karaoke,{\k18}to{\k43}ri{\k29}mo{\k20}do{\k37}su {\k46}ta{\k17}me {\kf168}ni
+Comment: 0,0:02:55.08,0:02:58.34,[Morfo]Mashiro,,0,0,0,karaoke,{\k16}ge{\k14}n{\k29}ji{\k13}tsu {\k15}ni {\k31}do{\k15}re {\k13}da{\k29}ke {\k14}ki{\k16}zu{\k29}tsu{\k15}i{\k15}ta{\k15}t{\k47}te
+Comment: 0,0:02:59.69,0:03:02.71,[Morfo]Mashiro,,0,0,0,karaoke,{\k23}sho{\k14}u{\k27}mei {\k17}shi{\k16}ta{\k28}kat{\k28}ta {\k18}ko{\k28}no {\k25}ke{\k18}tsu{\k60}i
+Comment: 0,0:03:02.99,0:03:05.41,[Morfo][Choir]unit,,0,0,0,karaoke,{\k28}a{\k20}ra{\k24}shi {\k31}no {\k29}na{\k16}ka {\k12}de {\k17}tsu{\k15}mu{\k13}ga{\k15}re{\k22}ta
+Comment: 0,0:03:05.62,0:03:07.63,[Morfo]Mashiro,,0,0,0,karaoke,{\k16}ka{\k14}ke{\k16}ga{\k28}e {\k29}no {\k15}na{\k16}i {\k13}ki{\k27}zu{\k27}na
+Comment: 0,0:03:07.68,0:03:10.05,[Morfo][Choir]unit,,0,0,0,karaoke,{\k29}VI{\k43}VA{\k29}CE {\k29}go{\k15}e {\k14}no {\k15}ka{\k16}gi{\k13}ri {\k15}i{\k19}ma
+Comment: 0,0:03:10.25,0:03:13.52,[Morfo]Mashiro,,0,0,0,karaoke,{\k21}tsu{\k15}ta{\k19}e{\k20}ru {\k19}ta{\kf233}me
+Comment: 0,0:03:15.16,0:03:17.50,[Morfo]Mashiro,,0,0,0,karaoke,{\k16}ko{\k11}ko{\k16}ro {\k13}ka{\k14}ra {\k16}F{\k30}LY, {\k14}F{\k28}LY {\k76}HIGH!
+Comment: 0,0:03:17.01,0:03:18.43,[Morfo][Choir]unit,,0,0,0,karaoke,{\k16}F{\k34}LY, {\k11}F{\k27}LY {\k54}HIGH!
+Comment: 0,0:03:17.71,0:03:19.90,[Morfo]Mashiro,,0,0,0,karaoke,{\k36}shin{\k13}ji {\k15}F{\k31}LY, {\k14}F{\k27}LY {\k83}HIGH!
+Comment: 0,0:03:19.36,0:03:20.48,[Morfo][Choir]unit,,0,0,0,karaoke,{\k19}F{\k32}LY, {\k9}F{\k27}LY {\k25}HIGH!
+Comment: 0,0:03:20.23,0:03:24.85,[Morfo]Mashiro,,0,0,0,karaoke,{\k14}ko{\k15}wa{\k17}sa {\k29}mo {\k16}i{\k13}ta{\k16}mi {\k88}mo {\k19}yu{\k22}u{\k17}ki {\k73}no {\k13}mi{\k17}na{\k93}mo'
+Comment: 0,0:03:25.38,0:03:27.57,[Morfo]unit,,0,0,0,karaoke,{\k11}a{\k19}tsu{\k27}ku {\k15}a{\k16}tsu{\k23}ku {\k21}sa{\k14}ra{\k16}ke{\k16}da{\k14}shi{\k27}te
+Comment: 0,0:03:27.73,0:03:29.87,[Morfo]unit,,0,0,0,karaoke,{\k14}u{\k17}ta{\k27}e {\k14}u{\k18}ta{\k20}e {\k21}se{\k12}ka{\k15}i{\k31}juu {\k25}he
+Comment: 0,0:03:30.06,0:03:33.70,[Morfo]unit,,0,0,0,karaoke,{\k13}ne{\k17}i{\k29}ro {\k14}wa {\k15}ka{\k29}ze {\k14}wo {\k30}kit{\k20}te {\k20}do{\k19}ko {\k73}ma{\k13}de {\k17}de{\k41}mo
+Comment: 0,0:03:33.99,0:03:34.99,[Morfo]unit,,0,0,0,karaoke,{\k22}ha{\k20}ba{\k15}ta{\k43}ku
+Comment: 0,0:03:48.64,0:03:51.02,[Morfo][Choir]unit,,0,0,0,karaoke,{\k29}ni{\k31}ge{\k15}na{\k32}i {\k27}yo {\k13}na{\k15}ni {\k15}ga {\k15}a{\k14}t{\k15}te {\k17}mo
+Comment: 0,0:03:51.28,0:03:53.33,[Morfo]Mashiro,,0,0,0,karaoke,{\k15}a{\k14}ra{\k16}ta {\k24}na {\k34}tsu{\k14}bo{\k16}mi {\k13}wo {\k17}da{\k12}i{\k30}te
+Comment: 0,0:03:53.33,0:03:55.71,[Morfo][Choir]unit,,0,0,0,karaoke,{\k29}to{\k31}do{\k13}ke{\k30}ta{\k27}i {\k16}a{\k16}na{\k14}ta {\k15}no {\k14}mo{\k15}to {\k18}he
+Comment: 0,0:03:55.96,0:03:59.23,[Morfo]Mashiro,,0,0,0,karaoke,{\k19}ko{\k11}i{\k19}ne{\k20}ga{\k17}u {\kf241}yo
+Comment: 0,0:04:00.76,0:04:03.20,[Morfo]Mashiro,,0,0,0,karaoke,{\k20}ka{\k15}ke{\k15}a{\k12}ga{\k15}re {\k14}F{\k28}LY, {\k18}F{\k29}LY {\k78}HIGH!
+Comment: 0,0:04:02.73,0:04:03.90,[Morfo][Choir]unit,,0,0,0,karaoke,{\k11}F{\k31}LY, {\k15}F{\k28}LY {\k162}HIGH!
+Comment: 0,0:04:03.43,0:04:05.54,[Morfo]Mashiro,,0,0,0,karaoke,{\k14}ta{\k15}ka{\k16}ku {\k13}F{\k30}LY, {\k15}F{\k28}LY {\k80}HIGH!
+Comment: 0,0:04:05.05,0:04:06.17,[Morfo][Choir]unit,,0,0,0,karaoke,{\k15}F{\k29}LY, {\k13}F{\k28}LY {\k27}HIGH!
+Comment: 0,0:04:05.90,0:04:10.57,[Morfo]Mashiro,,0,0,0,karaoke,{\k17}chi{\k14}gi{\k8}re{\k36}sou {\k16}na {\k29}ku{\k57}ra{\k30}i {\k19}o{\k19}mo{\k20}i {\k71}no {\k18}ka{\k13}gi{\kf100}ri
+Comment: 0,0:04:11.00,0:04:13.20,[Morfo]unit,,0,0,0,karaoke,{\k16}tsu{\k18}yo{\k28}ku {\k14}tsu{\k17}yo{\k30}ku {\k13}ha{\k13}ta{\k16}me{\k19}ka{\k10}se{\k26}te
+Comment: 0,0:04:13.36,0:04:15.52,[Morfo]unit,,0,0,0,karaoke,{\k16}ya{\k16}me{\k27}nai {\k15}ya{\k15}me{\k23}nai {\k23}sa{\k11}i{\k16}go {\k28}ma{\k26}de
+Comment: 0,0:04:15.72,0:04:19.38,[Morfo]unit,,0,0,0,karaoke,{\k14}wa{\k10}ta{\k35}shi{\k12}ta{\k16}chi {\k30}wa {\k13}a{\k17}ki{\k14}ra{\k20}me{\k19}ta{\k19}ri {\k66}wa {\k23}shi{\k18}na{\k40}i
+Comment: 0,0:04:19.59,0:04:20.71,[Morfo]unit,,0,0,0,karaoke,{\k7}s{\k21}pread {\k20}o{\k16}ur {\k48}wings
+Comment: 0,0:04:20.83,0:04:21.88,[Morfo][Down]unit,,0,0,0,karaoke,{\k60}don't {\k29}look {\k16}back
+Comment: 0,0:04:21.93,0:04:23.00,[Morfo]unit,,0,0,0,karaoke,{\k9}s{\k20}pread {\k17}o{\k20}ur {\k41}wings
+Comment: 0,0:04:23.17,0:04:24.22,[Morfo][Down]unit,,0,0,0,karaoke,{\k59}don't {\k28}look {\k18}back
+Comment: 0,0:04:24.27,0:04:25.34,[Morfo]unit,,0,0,0,karaoke,{\k7}s{\k22}pread {\k20}o{\k17}ur {\k41}wings
+Comment: 0,0:04:25.49,0:04:26.53,[Morfo][Down]unit,,0,0,0,karaoke,{\k60}don't {\k28}look {\k16}back
+Comment: 0,0:04:26.67,0:04:28.85,[Morfo]unit,,0,0,0,karaoke,{\k23}ha{\k20}ba{\k17}ta{\k27}ki {\k16}tsu{\k31}zu{\k29}ke{\k55}ru
+Dialogue: 0,0:00:32.15,0:00:35.87,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k18}la {\k20}la {\k37}la {\k21}la {\k19}la {\kf147}la
+Dialogue: 0,0:00:35.14,0:00:38.89,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k20}la {\k19}la {\k38}la {\k19}la {\k18}la {\kf151}la
+Dialogue: 0,0:00:38.16,0:00:47.37,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k19}la {\k21}la {\k42}la {\k19}la {\k20}la {\kf95}la {\kf102}la {\kf493}la
+Dialogue: 0,0:00:50.96,0:00:54.70,[Morfo][Down]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k119}af{\k14}ter {\k9}a {\k49}storm {\k30}comes {\k15}a {\k28}calm
+Dialogue: 0,0:01:07.50,0:01:10.83,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k14}na{\k16}mi{\k14}da {\k13}de {\k17}ji{\k28}kan {\k29}ga {\k16}to{\k28}ke{\k30}te{\k18}ku
+Dialogue: 0,0:01:09.79,0:01:13.19,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k21}tsu{\k14}bo{\k15}mi {\k15}wa {\k14}mu{\k13}ne {\k16}no {\k28}na{\k15}ka {\k29}de {\k29}chi{\k21}ru
+Dialogue: 0,0:01:12.32,0:01:17.42,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k17}to{\k28}bi{\k16}ra {\k13}no {\k16}mu{\k28}kou {\k14}wa {\k30}hi{\k30}jou {\k15}ga {\k28}fu{\k12}ri{\k36}shi{\k26}ki{\kf91}ru
+Dialogue: 0,0:01:16.81,0:01:20.20,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k21}so{\k15}re {\k12}de{\k16}mo {\k15}wa{\k10}ta{\k20}shi{\k28}ta{\k16}chi {\k29}wa {\k29}yu{\k18}ku
+Dialogue: 0,0:01:19.20,0:01:27.18,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k15}na{\k14}ni{\k16}yo{\k16}ri {\k13}mo {\k28}dai{\k31}ji{\k15}na {\k29}mo{\k28}no {\kf103}ga {\k15}mi{\k46}ra{\k28}i {\k29}ni {\k29}a{\k44}ru {\k14}ka{\kf175}ra
+Dialogue: 0,0:01:29.89,0:01:34.35,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ka{\k9}na{\k35}shi{\k15}mi {\k16}da{\k28}ke {\k10}de {\k19}o{\k29}wa{\k12}ra{\k18}se{\k29}te {\k15}wa {\k15}i{\k15}ke{\k39}na{\k17}i
+Dialogue: 0,0:01:34.56,0:01:38.63,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k31}don{\k30}na {\k11}ni {\k18}ki{\k25}bi{\k35}shii {\k15}ha{\k27}ji{\k15}ma{\k15}ri {\k14}de{\k61}mo
+Dialogue: 0,0:01:37.77,0:01:41.28,[Morfo][Choir]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ku{\k19}ya{\k19}shi{\k35}sa {\k27}to {\k31}iu {\k15}chi{\k16}ka{\k14}ra {\k15}ko{\k19}me
+Dialogue: 0,0:01:40.43,0:01:43.50,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k13}o{\k17}ri{\k9}na{\k35}sa{\k29}re{\k14}te{\k14}ku {\k14}tsu{\k29}ba{\k23}sa
+Dialogue: 0,0:01:42.46,0:01:45.91,[Morfo][Choir]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k32}QUIN{\k29}TE{\k14}T {\k30}yu{\k18}me {\k25}wo {\k14}hi{\k16}bi{\k8}ka{\k22}se{\k13}te {\k30}wa
+Dialogue: 0,0:01:45.10,0:01:49.45,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k16}to{\k15}bi{\k19}ta{\k24}tsu{\k15}n{\kf236}da
+Dialogue: 0,0:01:49.97,0:01:53.38,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ka{\k15}ke{\k15}a{\k12}ga{\k15}re {\k15}F{\k28}LY, {\k16}F{\k28}LY {\k74}HIGH!
+Dialogue: 0,0:01:51.83,0:01:54.10,[Morfo][Choir]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k17}F{\k29}LY, {\k16}F{\k28}LY {\k155}HIGH!
+Dialogue: 0,0:01:52.58,0:01:55.73,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ta{\k17}ka{\k13}ku {\k15}F{\k28}LY, {\k16}F{\k31}LY {\k71}HIGH!
+Dialogue: 0,0:01:54.19,0:01:56.55,[Morfo][Choir]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k13}F{\k31}LY, {\k15}F{\k27}LY {\k40}HIGH!
+Dialogue: 0,0:01:55.03,0:02:00.90,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k18}chi{\k14}gi{\k12}re{\k18}sou {\k27}na {\k32}ku{\k56}ra{\k33}i {\k19}o{\k20}mo{\k19}i {\k74}no {\k13}ka{\k15}gi{\kf107}ri
+Dialogue: 0,0:02:00.17,0:02:03.42,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k16}tsu{\k15}yo{\k26}ku {\k15}tsu{\k19}yo{\k30}ku {\k12}ha{\k14}ta{\k16}me{\k18}ka{\k11}se{\k23}te
+Dialogue: 0,0:02:02.54,0:02:05.77,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ya{\k16}me{\k29}nai {\k16}ya{\k13}me{\k22}nai {\k22}sa{\k15}i{\k15}go {\k31}ma{\k22}de
+Dialogue: 0,0:02:04.87,0:02:09.65,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k14}wa{\k7}ta{\k37}shi{\k12}ta{\k18}chi {\k30}wa {\k12}a{\k16}ki{\k15}ra{\k21}me{\k18}ta{\k21}ri {\k61}wa {\k25}shi{\k16}na{\k45}i
+Dialogue: 0,0:02:08.66,0:02:10.95,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k15}s{\k21}pread {\k22}o{\k16}ur {\k45}wings
+Dialogue: 0,0:02:09.98,0:02:12.10,[Morfo][Down]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k59}don't {\k29}look {\k14}back
+Dialogue: 0,0:02:11.02,0:02:13.25,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k14}s{\k20}pread {\k20}o{\k19}ur {\k40}wings
+Dialogue: 0,0:02:12.32,0:02:14.47,[Morfo][Down]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k59}don't {\k31}look {\k15}back
+Dialogue: 0,0:02:13.37,0:02:15.65,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k12}s{\k21}pread {\k21}o{\k16}ur {\k48}wings
+Dialogue: 0,0:02:14.64,0:02:16.92,[Morfo][Down]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k62}don't {\k27}look {\k29}back
+Dialogue: 0,0:02:15.83,0:02:19.15,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ha{\k19}ba{\k19}ta{\k28}ki {\k14}tsu{\k30}zu{\k30}ke{\k60}ru
+Dialogue: 0,0:02:31.79,0:02:35.17,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k17}o{\k13}wa{\k14}ri {\k16}no {\k14}mi{\k14}e{\k15}na{\k28}i {\k16}ku{\k31}ra{\k29}ya{\k21}mi
+Dialogue: 0,0:02:34.13,0:02:37.49,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k16}a{\k16}se{\k12}ri {\k17}fu{\k12}ri{\k16}tsu{\k15}mo{\k29}ru {\k14}fu{\k29}a{\k28}n {\k22}ni
+Dialogue: 0,0:02:36.63,0:02:41.80,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k15}mo{\k19}ga{\k9}i{\k17}te {\k14}mo {\k14}ho{\k30}do{\k14}ke{\k28}na{\k31}i {\k15}ku{\k16}ru{\k27}shi{\k30}mi{\k27}ta{\kf101}chi
+Dialogue: 0,0:02:41.03,0:02:44.48,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k28}so{\k16}re {\k13}de{\k16}mo {\k13}wa{\k7}ta{\k22}shi{\k29}ta{\k15}chi {\k29}wa {\k30}yu{\k17}ku
+Dialogue: 0,0:02:43.50,0:02:47.28,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k6}u{\k23}shi{\k15}na{\k15}t{\k12}ta {\k17}mo{\k14}no {\k29}wo {\k15}ka{\k30}na{\k27}ra{\k65}zu
+Dialogue: 0,0:02:46.55,0:02:51.43,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k18}to{\k43}ri{\k29}mo{\k20}do{\k37}su {\k46}ta{\k17}me {\kf168}ni
+Dialogue: 0,0:02:54.18,0:02:58.54,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ge{\k14}n{\k29}ji{\k13}tsu {\k15}ni {\k31}do{\k15}re {\k13}da{\k29}ke {\k14}ki{\k16}zu{\k29}tsu{\k15}i{\k15}ta{\k15}t{\k47}te
+Dialogue: 0,0:02:58.79,0:03:02.91,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k23}sho{\k14}u{\k27}mei {\k17}shi{\k16}ta{\k28}kat{\k28}ta {\k18}ko{\k28}no {\k25}ke{\k18}tsu{\k60}i
+Dialogue: 0,0:03:02.09,0:03:05.61,[Morfo][Choir]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k28}a{\k20}ra{\k24}shi {\k31}no {\k29}na{\k16}ka {\k12}de {\k17}tsu{\k15}mu{\k13}ga{\k15}re{\k22}ta
+Dialogue: 0,0:03:04.72,0:03:07.83,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ka{\k14}ke{\k16}ga{\k28}e {\k29}no {\k15}na{\k16}i {\k13}ki{\k27}zu{\k27}na
+Dialogue: 0,0:03:06.78,0:03:10.25,[Morfo][Choir]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k29}VI{\k43}VA{\k29}CE {\k29}go{\k15}e {\k14}no {\k15}ka{\k16}gi{\k13}ri {\k15}i{\k19}ma
+Dialogue: 0,0:03:09.35,0:03:13.72,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k21}tsu{\k15}ta{\k19}e{\k20}ru {\k19}ta{\kf233}me
+Dialogue: 0,0:03:14.26,0:03:17.70,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ko{\k11}ko{\k16}ro {\k13}ka{\k14}ra {\k16}F{\k30}LY, {\k14}F{\k28}LY {\k76}HIGH!
+Dialogue: 0,0:03:16.11,0:03:18.63,[Morfo][Choir]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k16}F{\k34}LY, {\k11}F{\k27}LY {\k54}HIGH!
+Dialogue: 0,0:03:16.81,0:03:20.10,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k36}shin{\k13}ji {\k15}F{\k31}LY, {\k14}F{\k27}LY {\k83}HIGH!
+Dialogue: 0,0:03:18.46,0:03:20.68,[Morfo][Choir]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k19}F{\k32}LY, {\k9}F{\k27}LY {\k25}HIGH!
+Dialogue: 0,0:03:19.33,0:03:25.05,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ko{\k15}wa{\k17}sa {\k29}mo {\k16}i{\k13}ta{\k16}mi {\k88}mo {\k19}yu{\k22}u{\k17}ki {\k73}no {\k13}mi{\k17}na{\k93}mo'
+Dialogue: 0,0:03:24.48,0:03:27.77,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k11}a{\k19}tsu{\k27}ku {\k15}a{\k16}tsu{\k23}ku {\k21}sa{\k14}ra{\k16}ke{\k16}da{\k14}shi{\k27}te
+Dialogue: 0,0:03:26.83,0:03:30.07,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k14}u{\k17}ta{\k27}e {\k14}u{\k18}ta{\k20}e {\k21}se{\k12}ka{\k15}i{\k31}juu {\k25}he
+Dialogue: 0,0:03:29.16,0:03:33.90,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ne{\k17}i{\k29}ro {\k14}wa {\k15}ka{\k29}ze {\k14}wo {\k30}kit{\k20}te {\k20}do{\k19}ko {\k73}ma{\k13}de {\k17}de{\k41}mo
+Dialogue: 0,0:03:33.09,0:03:35.19,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ha{\k20}ba{\k15}ta{\k43}ku
+Dialogue: 0,0:03:47.74,0:03:51.22,[Morfo][Choir]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ni{\k31}ge{\k15}na{\k32}i {\k27}yo {\k13}na{\k15}ni {\k15}ga {\k15}a{\k14}t{\k15}te {\k17}mo
+Dialogue: 0,0:03:50.38,0:03:53.53,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k15}a{\k14}ra{\k16}ta {\k24}na {\k34}tsu{\k14}bo{\k16}mi {\k13}wo {\k17}da{\k12}i{\k30}te
+Dialogue: 0,0:03:52.43,0:03:55.91,[Morfo][Choir]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k29}to{\k31}do{\k13}ke{\k30}ta{\k27}i {\k16}a{\k16}na{\k14}ta {\k15}no {\k14}mo{\k15}to {\k18}he
+Dialogue: 0,0:03:55.06,0:03:59.43,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ko{\k11}i{\k19}ne{\k20}ga{\k17}u {\kf241}yo
+Dialogue: 0,0:03:59.86,0:04:03.40,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ka{\k15}ke{\k15}a{\k12}ga{\k15}re {\k14}F{\k28}LY, {\k18}F{\k29}LY {\k78}HIGH!
+Dialogue: 0,0:04:01.83,0:04:04.10,[Morfo][Choir]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k11}F{\k31}LY, {\k15}F{\k28}LY {\k162}HIGH!
+Dialogue: 0,0:04:02.53,0:04:05.74,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ta{\k15}ka{\k16}ku {\k13}F{\k30}LY, {\k15}F{\k28}LY {\k80}HIGH!
+Dialogue: 0,0:04:04.15,0:04:06.37,[Morfo][Choir]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k15}F{\k29}LY, {\k13}F{\k28}LY {\k27}HIGH!
+Dialogue: 0,0:04:05.00,0:04:10.77,[Morfo]Mashiro,,0,0,0,fx,{\k90\fad(300,200)}{\k17}chi{\k14}gi{\k8}re{\k36}sou {\k16}na {\k29}ku{\k57}ra{\k30}i {\k19}o{\k19}mo{\k20}i {\k71}no {\k18}ka{\k13}gi{\kf100}ri
+Dialogue: 0,0:04:10.10,0:04:13.40,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k16}tsu{\k18}yo{\k28}ku {\k14}tsu{\k17}yo{\k30}ku {\k13}ha{\k13}ta{\k16}me{\k19}ka{\k10}se{\k26}te
+Dialogue: 0,0:04:12.46,0:04:15.72,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ya{\k16}me{\k27}nai {\k15}ya{\k15}me{\k23}nai {\k23}sa{\k11}i{\k16}go {\k28}ma{\k26}de
+Dialogue: 0,0:04:14.82,0:04:19.58,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k14}wa{\k10}ta{\k35}shi{\k12}ta{\k16}chi {\k30}wa {\k13}a{\k17}ki{\k14}ra{\k20}me{\k19}ta{\k19}ri {\k66}wa {\k23}shi{\k18}na{\k40}i
+Dialogue: 0,0:04:18.69,0:04:20.91,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k7}s{\k21}pread {\k20}o{\k16}ur {\k48}wings
+Dialogue: 0,0:04:19.93,0:04:22.08,[Morfo][Down]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k60}don't {\k29}look {\k16}back
+Dialogue: 0,0:04:21.03,0:04:23.20,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k9}s{\k20}pread {\k17}o{\k20}ur {\k41}wings
+Dialogue: 0,0:04:22.27,0:04:24.42,[Morfo][Down]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k59}don't {\k28}look {\k18}back
+Dialogue: 0,0:04:23.37,0:04:25.54,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k7}s{\k22}pread {\k20}o{\k17}ur {\k41}wings
+Dialogue: 0,0:04:24.59,0:04:26.73,[Morfo][Down]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k60}don't {\k28}look {\k16}back
+Dialogue: 0,0:04:25.77,0:04:29.05,[Morfo]unit,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ha{\k20}ba{\k17}ta{\k27}ki {\k16}tsu{\k31}zu{\k29}ke{\k55}ru
