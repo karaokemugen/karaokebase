@@ -1,0 +1,72 @@
+﻿[Script Info]
+Title: Neppuu
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Script: Karaoke Mugen
+Original Timing: puyo
+Synch Point: puyo
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: COLOR CODE,Arial,18,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+Style: SEKAI,Arial,24,&H00FFFFFF,&H00BACD00,&H00000000,&H00BACD00,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Miku,Arial,24,&H00FFFFFF,&H00A7B82E,&H00000000,&H00A7B82E,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Ichika,Arial,24,&H00FFFFFF,&H00EEAA33,&H00000000,&H00EEAA33,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Minori,Arial,24,&H00FFFFFF,&H00579AFF,&H00000000,&H00579AFF,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Kohane,Arial,24,&H00FFFFFF,&H009A67FF,&H00000000,&H009A67FF,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Tsukasa,Arial,24,&H00FFFFFF,&H0000BBFF,&H00000000,&H0000BBFF,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Kanade,Arial,24,&H00FFFFFF,&H008865BB,&H00000000,&H008865BB,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: SEKAI - Choir,Arial,24,&H00FFFFFF,&H00BACD00,&H00000000,&H00BACD00,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HBACD00&}SEKAI{\c} - {\c&HA7B82E&}Miku{\c} - {\c&HEEAA33&}Ichika{\c} - {\c&H579AFF&}Minori{\c} - {\c&H9A67FF&}Kohane{\c} - {\c&H00BBFF&}Tsukasa{\c} - {\c&H8865BB&}Kanade
+Comment: 0,0:00:01.10,0:00:05.11,Kohane,,0,0,0,karaoke,{\k63}mas{\k44}sa{\k17}ra {\k65}na {\k30}ha{\k29}ku{\k30}shi {\k17}wo {\k16}yu{\k31}ra{\k30}shi{\k29}ta
+Comment: 0,0:00:05.45,0:00:10.17,Minori,,0,0,0,karaoke,{\k30}ta{\k33}yo{\k63}ri{\k47}nai {\k15}ka{\k62}ze {\k31}wo {\k31}o{\k31}bo{\k34}e{\k29}te i{\k31}ru {\k35}kai
+Comment: 0,0:00:10.45,0:00:15.11,Kanade,,0,0,0,karaoke,{\k32}a{\k30}re {\k62}wa {\k32}ki{\k31}t{\k63}to {\k32}ha{\k31}ji{\k45}ma{\k17}ri {\k31}da{\k31}t{\k29}ta
+Comment: 0,0:00:15.45,0:00:20.39,Tsukasa,,0,0,0,karaoke,{\k31}ki{\k32}t{\k64}to {\k29}bo{\k32}ku{\k31}ra {\k15}ga {\k17}i{\k31}ma {\k31}fu{\k31}ka{\k31}se{\k31}ta{\k32}n {\k56}da
+Comment: 0,0:00:20.76,0:00:25.45,SEKAI,,0,0,0,karaoke,{\k16}ho{\k16}ra {\k31}nan{\k32}zen{\k31}kai {\k32}nan{\k29}man{\k32}kai {\k32}me {\k63}no {\k32}se{\k30}n{\k47}ta{\k15}ku {\k31}da
+Comment: 0,0:00:25.78,0:00:30.51,SEKAI,,0,0,0,karaoke,{\k15}i{\k15}ra{\k31}da{\k31}tsu {\k32}un{\k31}mei {\k31}no {\k32}te{\k30}ma{\k51}ne{\k12}ki {\k31}ni {\k32}ko{\k30}ta{\k15}e{\k17}ru {\k37}yo
+Comment: 0,0:00:31.08,0:00:35.49,Ichika,,0,0,0,karaoke,{\k31}ta{\k31}da{\k32}shi{\k30}ku {\k32}a{\k30}ki{\k31}ra{\kf62}me{\k32}ru {\k32}ko{\k47}to {\k16}wa {\k35}mou
+Comment: 0,0:00:35.76,0:00:39.42,Ichika,,0,0,0,karaoke,{\k36}a{\k28}ki{\k29}ra{\k32}me{\k31}yo{\k32}u {\k31}to {\k31}o{\k63}mo{\k53}u
+Comment: 0,0:00:40.14,0:00:44.61,SEKAI,,0,0,0,karaoke,{\k32}bo{\k47}ku{\k15}ra {\kf109}wa{\kf40} {\k38}yu{\k26}me {\k19}wo {\k18}mi{\kf103}ta
+Comment: 0,0:00:45.12,0:00:48.72,Kanade,,0,0,0,karaoke,{\k33}o{\k32}i{\k62}ka{\k15}ke{\k47}te {\k18}mi{\k46}u{\k13}shi{\k23}na{\k26}t{\k45}te
+Comment: 0,0:00:49.17,0:00:53.48,Kohane,,0,0,0,karaoke,{\k35}o{\k29}mo{\k32}i {\k31}da{\k31}ke {\k14}ga {\k19}no{\k35}ko{\k27}t{\k48}ta {\k15}ku{\k30}ya{\k17}shi{\k15}ka{\k32}t{\k21}ta
+Comment: 0,0:00:53.57,0:00:56.10,Minori,,0,0,0,karaoke,{\k34}ta{\k13}shi{\k18}ka {\k48}ni {\k16}ka{\k27}ze {\k19}ga {\k23}fu{\k21}i{\k34}ta
+Comment: 0,0:00:56.39,0:00:59.83,Miku,,0,0,0,karaoke,{\k32}i{\k30}ma {\k32}mo {\k30}so{\k33}ko {\k31}ni {\k30}i{\k48}run {\k15}da{\k63}rou?
+Comment: 0,0:01:00.15,0:01:04.68,SEKAI,,0,0,0,karaoke,{\k30}wa{\k47}ka{\k16}ru {\kf154}yo {\k34}ki{\k20}ko{\k24}e{\k18}ru {\kf110}yo
+Comment: 0,0:01:05.12,0:01:08.70,Tsukasa,,0,0,0,karaoke,{\k32}na{\k36}ki{\k58}ku{\k16}re{\k48}ta {\k18}so{\k44}no {\k17}sa{\k32}ki {\k18}he {\k39}to
+Comment: 0,0:01:09.21,0:01:14.02,Ichika,,0,0,0,karaoke,{\k30}do{\k31}u{\k32}shi{\k31}te {\k31}mo {\k34}i{\kf92}ki{\k19}ta{\kf103}in {\k19}da{\kf59}rou
+Comment: 0,0:01:14.21,0:01:19.52,Ichika,,0,0,0,karaoke,{\k29}do{\k34}u{\k31}shi{\k31}te {\k32}mo {\k30}i{\kf94}ki{\k20}ta{\k71}kat{\k48}ta{\k22}n {\kf89}da
+Comment: 0,0:01:20.14,0:01:23.82,SEKAI,,0,0,0,karaoke,{\k32}i{\k46}kun {\k16}da {\kf274}yo
+Comment: 0,0:01:21.08,0:01:26.07,SEKAI - Choir,,0,0,0,karaoke,{\k62}mas{\k41}sa{\k19}ra {\k66}na {\k32}ha{\k31}ku{\k30}shi {\k32}ga {\k31}yu{\k31}re{\kf124}ru
+Comment: 0,0:01:25.47,0:01:31.05,Ichika,,0,0,0,karaoke,{\k30}ki{\k32}mi {\k61}no {\k63}se{\k36}ka{\k26}i {\k31}wa {\k33}do{\kf246}ko?
+Comment: 0,0:01:28.59,0:01:33.55,SEKAI - Choir,,0,0,0,karaoke,{\k59}nep{\k41}pu{\k22}u {\k65}ni {\k32}yo{\k31}bi{\k32}sa{\k29}ma{\k34}sa{\k30}re{\kf121}ru
+Comment: 0,0:01:32.98,0:01:37.52,Miku,,0,0,0,karaoke,{\k31}ki{\k29}mi {\k32}ga {\k32}i{\k33}ma {\k31}fu{\k31}ka{\k29}se{\k38}ta{\k25}n {\kf143}da
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HBACD00&}SEKAI{\c} - {\c&HA7B82E&}Miku{\c} - {\c&HEEAA33&}Ichika{\c} - {\c&H579AFF&}Minori{\c} - {\c&H9A67FF&}Kohane{\c} - {\c&H00BBFF&}Tsukasa{\c} - {\c&H8865BB&}Kanade
+Dialogue: 0,0:00:00.20,0:00:05.31,Kohane,,0,0,0,fx,{\k90\fad(300,200)}{\k63}mas{\k44}sa{\k17}ra {\k65}na {\k30}ha{\k29}ku{\k30}shi {\k17}wo {\k16}yu{\k31}ra{\k30}shi{\k29}ta
+Dialogue: 0,0:00:04.55,0:00:10.37,Minori,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ta{\k33}yo{\k63}ri{\k47}nai {\k15}ka{\k62}ze {\k31}wo {\k31}o{\k31}bo{\k34}e{\k29}te i{\k31}ru {\k35}kai
+Dialogue: 0,0:00:09.55,0:00:15.31,Kanade,,0,0,0,fx,{\k90\fad(300,200)}{\k32}a{\k30}re {\k62}wa {\k32}ki{\k31}t{\k63}to {\k32}ha{\k31}ji{\k45}ma{\k17}ri {\k31}da{\k31}t{\k29}ta
+Dialogue: 0,0:00:14.55,0:00:20.59,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ki{\k32}t{\k64}to {\k29}bo{\k32}ku{\k31}ra {\k15}ga {\k17}i{\k31}ma {\k31}fu{\k31}ka{\k31}se{\k31}ta{\k32}n {\k56}da
+Dialogue: 0,0:00:19.86,0:00:25.65,SEKAI,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ho{\k16}ra {\k31}nan{\k32}zen{\k31}kai {\k32}nan{\k29}man{\k32}kai {\k32}me {\k63}no {\k32}se{\k30}n{\k47}ta{\k15}ku {\k31}da
+Dialogue: 0,0:00:24.88,0:00:30.71,SEKAI,,0,0,0,fx,{\k90\fad(300,200)}{\k15}i{\k15}ra{\k31}da{\k31}tsu {\k32}un{\k31}mei {\k31}no {\k32}te{\k30}ma{\k51}ne{\k12}ki {\k31}ni {\k32}ko{\k30}ta{\k15}e{\k17}ru {\k37}yo
+Dialogue: 0,0:00:30.18,0:00:35.69,Ichika,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ta{\k31}da{\k32}shi{\k30}ku {\k32}a{\k30}ki{\k31}ra{\kf62}me{\k32}ru {\k32}ko{\k47}to {\k16}wa {\k35}mou
+Dialogue: 0,0:00:34.86,0:00:39.62,Ichika,,0,0,0,fx,{\k90\fad(300,200)}{\k36}a{\k28}ki{\k29}ra{\k32}me{\k31}yo{\k32}u {\k31}to {\k31}o{\k63}mo{\k53}u
+Dialogue: 0,0:00:39.24,0:00:44.81,SEKAI,,0,0,0,fx,{\k90\fad(300,200)}{\k32}bo{\k47}ku{\k15}ra {\kf109}wa{\kf40} {\k38}yu{\k26}me {\k19}wo {\k18}mi{\kf103}ta
+Dialogue: 0,0:00:44.22,0:00:48.92,Kanade,,0,0,0,fx,{\k90\fad(300,200)}{\k33}o{\k32}i{\k62}ka{\k15}ke{\k47}te {\k18}mi{\k46}u{\k13}shi{\k23}na{\k26}t{\k45}te
+Dialogue: 0,0:00:48.27,0:00:53.68,Kohane,,0,0,0,fx,{\k90\fad(300,200)}{\k35}o{\k29}mo{\k32}i {\k31}da{\k31}ke {\k14}ga {\k19}no{\k35}ko{\k27}t{\k48}ta {\k15}ku{\k30}ya{\k17}shi{\k15}ka{\k32}t{\k21}ta
+Dialogue: 0,0:00:52.67,0:00:56.30,Minori,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ta{\k13}shi{\k18}ka {\k48}ni {\k16}ka{\k27}ze {\k19}ga {\k23}fu{\k21}i{\k34}ta
+Dialogue: 0,0:00:55.49,0:01:00.03,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k32}i{\k30}ma {\k32}mo {\k30}so{\k33}ko {\k31}ni {\k30}i{\k48}run {\k15}da{\k63}rou?
+Dialogue: 0,0:00:59.25,0:01:04.88,SEKAI,,0,0,0,fx,{\k90\fad(300,200)}{\k30}wa{\k47}ka{\k16}ru {\kf154}yo {\k34}ki{\k20}ko{\k24}e{\k18}ru {\kf110}yo
+Dialogue: 0,0:01:04.22,0:01:08.90,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k32}na{\k36}ki{\k58}ku{\k16}re{\k48}ta {\k18}so{\k44}no {\k17}sa{\k32}ki {\k18}he {\k39}to
+Dialogue: 0,0:01:08.31,0:01:14.22,Ichika,,0,0,0,fx,{\k90\fad(300,200)}{\k30}do{\k31}u{\k32}shi{\k31}te {\k31}mo {\k34}i{\kf92}ki{\k19}ta{\kf103}in {\k19}da{\kf59}rou
+Dialogue: 0,0:01:13.31,0:01:19.72,Ichika,,0,0,0,fx,{\k90\fad(300,200)}{\k29}do{\k34}u{\k31}shi{\k31}te {\k32}mo {\k30}i{\kf94}ki{\k20}ta{\k71}kat{\k48}ta{\k22}n {\kf89}da
+Dialogue: 0,0:01:19.24,0:01:24.02,SEKAI,,0,0,0,fx,{\k90\fad(300,200)}{\k32}i{\k46}kun {\k16}da {\kf274}yo
+Dialogue: 0,0:01:20.18,0:01:26.27,SEKAI - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k62}mas{\k41}sa{\k19}ra {\k66}na {\k32}ha{\k31}ku{\k30}shi {\k32}ga {\k31}yu{\k31}re{\kf124}ru
+Dialogue: 0,0:01:24.57,0:01:31.25,Ichika,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ki{\k32}mi {\k61}no {\k63}se{\k36}ka{\k26}i {\k31}wa {\k33}do{\kf246}ko?
+Dialogue: 0,0:01:27.69,0:01:33.75,SEKAI - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k59}nep{\k41}pu{\k22}u {\k65}ni {\k32}yo{\k31}bi{\k32}sa{\k29}ma{\k34}sa{\k30}re{\kf121}ru
+Dialogue: 0,0:01:32.08,0:01:37.72,Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ki{\k29}mi {\k32}ga {\k32}i{\k33}ma {\k31}fu{\k31}ka{\k29}se{\k38}ta{\k25}n {\kf143}da
