@@ -1,0 +1,94 @@
+﻿[Script Info]
+Title: Special Color
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Sodachi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Liella,Arial,24,&H00FFFFFF,&H00D36BBF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sumire,Arial,24,&H00FFFFFF,&H0066F474,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Keke,Arial,24,&H00FFFFFF,&H00C3CF23,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Chisato,Arial,24,&H00FFFFFF,&H00906EFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Ren,Arial,24,&H00FFFFFF,&H00FF7C4B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Mei,Arial,24,&H00FFFFFF,&H005945EE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Natsumi,Arial,24,&H00FFFFFF,&H00DB45EE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Shiki,Arial,24,&H00FFFFFF,&H00BEEF02,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kinako,Arial,24,&H00FFFFFF,&H0000D0D0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: LiellaDown,Arial,24,&H00FFFFFF,&H00D36BBF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:03.65,0:00:04.75,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.93,0:00:04.24,LiellaDown,,0,0,0,karaoke,{\k48}LA-{\k46}LA-{\k44}LA
+Comment: 0,0:00:04.32,0:00:06.68,LiellaDown,,0,0,0,karaoke,{\k24}LA{\k23}-LA{\k47}-LA {\k24}LA{\k21}-LA{\k47}-LA{\k50}-LA
+Comment: 0,0:00:10.33,0:00:11.61,LiellaDown,,0,0,0,karaoke,{\k48}LA{\k46}-LA{\k44}-LA
+Comment: 0,0:00:11.71,0:00:14.02,LiellaDown,,0,0,0,karaoke,{\k23}LA{\k24}-LA{\k46}-LA {\k24}LA{\k22}-LA{\k46}-LA{\k46}-LA
+Comment: 0,0:00:15.39,0:00:17.75,LiellaDown,,0,0,0,karaoke,{\k37}HEL{\kf199}LO
+Comment: 0,0:00:19.31,0:00:21.98,Natsumi,,0,0,0,karaoke,{\k25}CA{\k35}PA{\k33}CI{\k45}TY {\k25}i{\k24}tsu{\k80}mo
+Comment: 0,0:00:21.62,0:00:23.39,Ren,,0,0,0,karaoke,{\k39}gi{\k9}ri{\k23} gi{\k23}ri {\k23}no {\k23}to{\k37}ko
+Comment: 0,0:00:23.47,0:00:24.76,Kinako,,0,0,0,karaoke,{\k15}ka{\k9}ra {\k36}wo {\k10}ya{\k12}bu{\k14}ri{\k33}tai
+Comment: 0,0:00:24.76,0:00:26.86,Liella,,0,0,0,karaoke,{\k12}ya{\k11}bu{\k11}ri{\k23}nai {\k22}no {\k25}ya{\k43}ru{\k24}se{\k39}nai
+Comment: 0,0:00:26.70,0:00:29.33,Keke,,0,0,0,karaoke,{\k23}de{\k36}ki{\k34}nai {\k46}no {\k24}F{\k24}RA{\k76}G
+Comment: 0,0:00:29.03,0:00:30.75,Sumire,,0,0,0,karaoke,{\k31}ji{\k14}bu{\k23}n {\k23}de {\k24}ta{\k22}te{\k35}te
+Comment: 0,0:00:30.87,0:00:31.79,Chisato,,0,0,0,karaoke,{\k23}yap{\k12}pa {\k10}mu{\k12}ri {\k35}de
+Comment: 0,0:00:31.79,0:00:34.29,Liella,,0,0,0,karaoke,{\k23}do{\k22}ko {\k23}ka {\k47}hot{\k39}to {\k54}sh'tet{\k42}ta
+Comment: 0,0:00:34.33,0:00:38.46,Ren,,0,0,0,karaoke,{\k23}i{\k22}ro{\k25}i{\k23}ro {\k45}de {\rChisato}{\k24}to{\k22}ri{\k24}do{\k21}ri {\k48}de {\k22}i{\k24}i {\k24}no {\k22}ni {\k44}ne
+Comment: 0,0:00:34.33,0:00:36.88,LiellaDown,,0,0,0,karaoke,{\k46}aa, {\k46}i{\k45}ya {\k48}mou {\k43}i{\k27}ya!
+Comment: 0,0:00:38.48,0:00:41.68,Mei,,0,0,0,karaoke,{\k23}ku{\k23}ra{\k22}be{\k25}cha{\k23}u {\k23}yo {\k46}NO {\k47}NO {\k43}NON{\k45}SENSE
+Comment: 0,0:00:41.93,0:00:47.30,Liella,,0,0,0,karaoke,{\k24}ji{\k45}shin {\k35}nai {\k36}ke{\k21}do {\k71}sa, {\k23}yat{\k69}te{\k24}mi{\kf189}tai!
+Comment: 0,0:00:47.93,0:00:49.01,Liella,,0,0,0,karaoke,{\k25}ka{\k45}wa{\k38}re!
+Comment: 0,0:00:49.09,0:00:52.20,Liella,,0,0,0,karaoke,{\k30}ONE {\k40}STE{\k20}P {\k29}TWO {\k42}STE{\k20}P {\k35}su{\k38}su{\k23}mu {\k34}no
+Comment: 0,0:00:52.32,0:00:54.34,Shiki,,0,0,0,karaoke,{\k23}wa{\k22}ta{\k25}shi, {\k12}sa{\k20}i{\k15}kyo{\k9}u {\k12}ta{\k26}da{\k21}i{\k17}ma
+Comment: 0,0:00:54.40,0:00:56.08,Shiki,,0,0,0,karaoke,{\k24}ii{\k32}ki{\k35}ka{\k24}se{\k53}chuu
+Comment: 0,0:00:56.47,0:00:59.67,Liella,,0,0,0,karaoke,{\k35}ONE {\k35}LO{\k21}VE {\k38}TWO {\k33}LO{\k20}VE {\k37}sa{\k37}ke{\k22}bu {\k42}no
+Comment: 0,0:00:59.71,0:01:02.00,Chisato,,0,0,0,karaoke,{\k25}ai {\k22}no {\k23}ha{\k12}ne {\k25}ni {\k32}sh'te {\k23}to{\k23}be{\k22}ru{\k22}~
+Comment: 0,0:01:02.01,0:01:03.96,Chisato,,0,0,0,karaoke,{\k35}dai{\k35}jou{\kf125}bu!
+Comment: 0,0:01:04.09,0:01:05.89,LiellaDown,,0,0,0,karaoke,{\k48}Fly {\k22}la! {\k35}ride {\k35}on {\k40}now
+Comment: 0,0:01:05.93,0:01:07.74,LiellaDown,,0,0,0,karaoke,{\k48}Try {\k21}la! {\k38}ride {\k33}on {\k41}time
+Comment: 0,0:01:07.79,0:01:14.67,Ren,,0,0,0,karaoke,{\k23}ko{\k24}n{\k21}na {\k25}CO{\k22}LOR{\k24}FU{\k23}L {\k44}na {\k47}se{\k35}ka{\k35}i {\k23}na{\kf161}ra{\kf181}~
+Comment: 0,0:01:11.48,0:01:13.21,LiellaDown,,0,0,0,karaoke,{\k46}Fly {\k23}la! {\k37}ride {\k33}on {\k34}now
+Comment: 0,0:01:13.32,0:01:15.09,LiellaDown,,0,0,0,karaoke,{\k48}Try {\k22}la! {\k35}ride {\k34}on {\k38}time
+Comment: 0,0:01:15.17,0:01:17.54,Liella,,0,0,0,karaoke,{\k23}i{\k23}ro {\k24}ga {\k66}nai {\k26}so{\k23}re {\k23}mo {\k29}ne
+Comment: 0,0:01:17.69,0:01:22.39,Liella,,0,0,0,karaoke,{\k46}Spe{\k48}cial {\k70}co{\kf306}lor
+Comment: 0,0:01:18.63,0:01:19.91,LiellaDown,,0,0,0,karaoke,{\k47}LA{\k46}-LA{\k35}-LA
+Comment: 0,0:01:20.01,0:01:22.33,LiellaDown,,0,0,0,karaoke,{\k24}LA{\k23}-LA{\k47}-LA {\k23}LA{\k23}-LA{\k46}-LA{\k46}-LA
+Comment: 0,0:01:25.28,0:01:29.80,Shiki,,0,0,0,karaoke,{\k28}ko{\k23}re {\k23}ga {\k21}wa{\k23}ta{\k25}shi {\k45}no {\k24}CO{\kf240}LOR
+Dialogue: 0,0:00:02.03,0:00:04.44,LiellaDown,,0,0,0,fx,{\k90\fad(300,200)}{\k48}LA-{\k46}LA-{\k44}LA
+Dialogue: 0,0:00:03.42,0:00:06.88,LiellaDown,,0,0,0,fx,{\k90\fad(300,200)}{\k24}LA{\k23}-LA{\k47}-LA {\k24}LA{\k21}-LA{\k47}-LA{\k50}-LA
+Dialogue: 0,0:00:09.43,0:00:11.81,LiellaDown,,0,0,0,fx,{\k90\fad(300,200)}{\k48}LA{\k46}-LA{\k44}-LA
+Dialogue: 0,0:00:10.81,0:00:14.22,LiellaDown,,0,0,0,fx,{\k90\fad(300,200)}{\k23}LA{\k24}-LA{\k46}-LA {\k24}LA{\k22}-LA{\k46}-LA{\k46}-LA
+Dialogue: 0,0:00:14.49,0:00:17.95,LiellaDown,,0,0,0,fx,{\k90\fad(300,200)}{\k37}HEL{\kf199}LO
+Dialogue: 0,0:00:18.41,0:00:22.18,Natsumi,,0,0,0,fx,{\k90\fad(300,200)}{\k25}CA{\k35}PA{\k33}CI{\k45}TY {\k25}i{\k24}tsu{\k80}mo
+Dialogue: 0,0:00:20.72,0:00:23.59,Ren,,0,0,0,fx,{\k90\fad(300,200)}{\k39}gi{\k9}ri{\k23} gi{\k23}ri {\k23}no {\k23}to{\k37}ko
+Dialogue: 0,0:00:22.57,0:00:24.96,Kinako,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ka{\k9}ra {\k36}wo {\k10}ya{\k12}bu{\k14}ri{\k33}tai
+Dialogue: 0,0:00:23.86,0:00:27.06,Liella,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ya{\k11}bu{\k11}ri{\k23}nai {\k22}no {\k25}ya{\k43}ru{\k24}se{\k39}nai
+Dialogue: 0,0:00:25.80,0:00:29.53,Keke,,0,0,0,fx,{\k90\fad(300,200)}{\k23}de{\k36}ki{\k34}nai {\k46}no {\k24}F{\k24}RA{\k76}G
+Dialogue: 0,0:00:28.13,0:00:30.95,Sumire,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ji{\k14}bu{\k23}n {\k23}de {\k24}ta{\k22}te{\k35}te
+Dialogue: 0,0:00:29.97,0:00:31.99,Chisato,,0,0,0,fx,{\k90\fad(300,200)}{\k23}yap{\k12}pa {\k10}mu{\k12}ri {\k35}de
+Dialogue: 0,0:00:30.89,0:00:34.49,Liella,,0,0,0,fx,{\k90\fad(300,200)}{\k23}do{\k22}ko {\k23}ka {\k47}hot{\k39}to {\k54}sh'tet{\k42}ta
+Dialogue: 0,0:00:33.43,0:00:38.66,Ren,,0,0,0,fx,{\k90\fad(300,200)}{\k23}i{\k22}ro{\k25}i{\k23}ro {\k45}de {\rChisato}{\k24}to{\k22}ri{\k24}do{\k21}ri {\k48}de {\k22}i{\k24}i {\k24}no {\k22}ni {\k44}ne
+Dialogue: 0,0:00:33.43,0:00:37.08,LiellaDown,,0,0,0,fx,{\k90\fad(300,200)}{\k46}aa, {\k46}i{\k45}ya {\k48}mou {\k43}i{\k27}ya!
+Dialogue: 0,0:00:37.58,0:00:41.88,Mei,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ku{\k23}ra{\k22}be{\k25}cha{\k23}u {\k23}yo {\k46}NO {\k47}NO {\k43}NON{\k45}SENSE
+Dialogue: 0,0:00:41.03,0:00:47.50,Liella,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ji{\k45}shin {\k35}nai {\k36}ke{\k21}do {\k71}sa, {\k23}yat{\k69}te{\k24}mi{\kf189}tai!
+Dialogue: 0,0:00:47.03,0:00:49.21,Liella,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ka{\k45}wa{\k38}re!
+Dialogue: 0,0:00:48.19,0:00:52.40,Liella,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ONE {\k40}STE{\k20}P {\k29}TWO {\k42}STE{\k20}P {\k35}su{\k38}su{\k23}mu {\k34}no
+Dialogue: 0,0:00:51.42,0:00:54.54,Shiki,,0,0,0,fx,{\k90\fad(300,200)}{\k23}wa{\k22}ta{\k25}shi, {\k12}sa{\k20}i{\k15}kyo{\k9}u {\k12}ta{\k26}da{\k21}i{\k17}ma
+Dialogue: 0,0:00:53.50,0:00:56.28,Shiki,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ii{\k32}ki{\k35}ka{\k24}se{\k53}chuu
+Dialogue: 0,0:00:55.57,0:00:59.87,Liella,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ONE {\k35}LO{\k21}VE {\k38}TWO {\k33}LO{\k20}VE {\k37}sa{\k37}ke{\k22}bu {\k42}no
+Dialogue: 0,0:00:58.81,0:01:02.20,Chisato,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ai {\k22}no {\k23}ha{\k12}ne {\k25}ni {\k32}sh'te {\k23}to{\k23}be{\k22}ru{\k22}~
+Dialogue: 0,0:01:01.11,0:01:04.16,Chisato,,0,0,0,fx,{\k90\fad(300,200)}{\k35}dai{\k35}jou{\kf125}bu!
+Dialogue: 0,0:01:03.19,0:01:06.09,LiellaDown,,0,0,0,fx,{\k90\fad(300,200)}{\k48}Fly {\k22}la! {\k35}ride {\k35}on {\k40}now
+Dialogue: 0,0:01:05.03,0:01:07.94,LiellaDown,,0,0,0,fx,{\k90\fad(300,200)}{\k48}Try {\k21}la! {\k38}ride {\k33}on {\k41}time
+Dialogue: 0,0:01:06.89,0:01:14.87,Ren,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ko{\k24}n{\k21}na {\k25}CO{\k22}LOR{\k24}FU{\k23}L {\k44}na {\k47}se{\k35}ka{\k35}i {\k23}na{\kf161}ra{\kf181}~
+Dialogue: 0,0:01:10.58,0:01:13.41,LiellaDown,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Fly {\k23}la! {\k37}ride {\k33}on {\k34}now
+Dialogue: 0,0:01:12.42,0:01:15.29,LiellaDown,,0,0,0,fx,{\k90\fad(300,200)}{\k48}Try {\k22}la! {\k35}ride {\k34}on {\k38}time
+Dialogue: 0,0:01:14.27,0:01:17.74,Liella,,0,0,0,fx,{\k90\fad(300,200)}{\k23}i{\k23}ro {\k24}ga {\k66}nai {\k26}so{\k23}re {\k23}mo {\k29}ne
+Dialogue: 0,0:01:16.79,0:01:22.59,Liella,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Spe{\k48}cial {\k70}co{\kf306}lor
+Dialogue: 0,0:01:17.73,0:01:20.11,LiellaDown,,0,0,0,fx,{\k90\fad(300,200)}{\k47}LA{\k46}-LA{\k35}-LA
+Dialogue: 0,0:01:19.11,0:01:22.53,LiellaDown,,0,0,0,fx,{\k90\fad(300,200)}{\k24}LA{\k23}-LA{\k47}-LA {\k23}LA{\k23}-LA{\k46}-LA{\k46}-LA
+Dialogue: 0,0:01:24.38,0:01:30.00,Shiki,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ko{\k23}re {\k23}ga {\k21}wa{\k23}ta{\k25}shi {\k45}no {\k24}CO{\kf240}LOR
