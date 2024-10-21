@@ -1,0 +1,128 @@
+﻿[Script Info]
+Title: Burning Desire
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: pockydany
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+Style: Sample KM [Down] - Burnice,Arial,24,&H000000FF,&H00858590,&H0000C6FF,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+Style: Sample KM [Center],Arial,36,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+Style: Sample KM [Up-left],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,7,2,2,20,1
+Style: Sample KM [Up-right],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,9,2,2,20,1
+Style: Sample KM [Down-left],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,1,2,2,40,1
+Style: Sample KM [Down-right],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,3,2,2,40,1
+Style: Sample KM [Down] - Lucy,Arial,24,&H00C1FBFF,&H008DB1BE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,40,1
+Style: Sample KM [Down] - Caesar,Arial,24,&H00C2FFE7,&H0080A481,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,karaoke,
+Comment: 0,0:00:04.00,0:00:06.00,Sample KM [Down],,0,0,0,karaoke,{\kf17}{\i0}Give {\kf16}me {\kf14}a {\kf19}mug {\kf9}of {\kf20}your {\kf32}fi{\kf73}nest...{\i1}
+Comment: 0,0:00:06.00,0:00:07.00,Sample KM [Down] - Burnice,,0,0,0,karaoke,{\kf37}You {\kf27}got {\kf36}it!
+Comment: 0,0:00:09.00,0:00:09.58,Sample KM [Down] - Burnice,,0,0,0,karaoke,{\kf15}You {\kf43}know...
+Comment: 0,0:00:10.30,0:00:14.00,Sample KM [Down] - Burnice,,0,0,0,karaoke,{\kf34}Sigh{\kf16}ing {\kf26}like {\kf27}that {\kf14}will {\kf18}make {\kf10}e{\kf9}ven {\kf28}the {\kf32}best {\kf19}Ni{\kf16}tro {\kf20}fuel {\kf28}taste {\kf17}like {\kf14}re{\kf42}gret
+Comment: 0,0:00:14.35,0:00:15.85,Sample KM [Down] - Burnice,,0,0,0,karaoke,{\kf41}So, {\kf19}be{\kf23}fore {\kf15}you {\kf52}drink...
+Comment: 0,0:00:15.85,0:00:18.65,Sample KM [Down] - Burnice,,0,0,0,karaoke,{\kf18}We {\kf15}got{\kf13}ta {\kf24}take {\kf18}care {\kf11}of {\kf21}what{\kf20}e{\kf20}ver's {\kf35}trou{\kf29}bling {\kf56}you
+Comment: 0,0:00:17.80,0:00:19.30,Sample KM [Up],,0,0,0,karaoke,{\k16}What {\k13}can {\k13}I {\k16}get {\k21}for {\k71}you?
+Comment: 0,0:00:20.00,0:00:21.00,Sample KM [Up],,0,0,0,karaoke,{\k18}A {\k82}drink?
+Comment: 0,0:00:21.30,0:00:22.30,Sample KM [Up],,0,0,0,karaoke,{\k27}Some {\k73}snacks?
+Comment: 0,0:00:23.30,0:00:24.85,Sample KM [Up],,0,0,0,karaoke,{\k37}Or {\k8}a {\k10}lit{\k38}tle {\k62}flames?
+Comment: 0,0:00:25.15,0:00:26.85,Sample KM [Up],,0,0,0,karaoke,{\k21}Mock{\k28}tails, {\k14}mi{\k33}xers, {\k74}ice
+Comment: 0,0:00:26.85,0:00:28.75,Sample KM [Up],,0,0,0,karaoke,{\k15}The {\k42}snacks {\k11}are {\k21}re{\k21}al {\k80}nice
+Comment: 0,0:00:28.84,0:00:30.34,Sample KM [Up],,0,0,0,karaoke,{\k28}So{\k23}da, {\k22}sour-{\k24}mix, {\k53}dry
+Comment: 0,0:00:30.60,0:00:32.25,Sample KM [Up],,0,0,0,karaoke,{\k19}I'm {\k34}lit, {\k12}you {\k26}can't {\k17}de{\k57}ny
+Comment: 0,0:00:32.60,0:00:34.40,Sample KM [Up],,0,0,0,karaoke,{\k20}What{\k9}e{\k10}ver {\k13}you {\k51}want, {\k10}what{\k7}e{\k15}ver {\k11}you {\k34}need
+Comment: 0,0:00:34.50,0:00:36.40,Sample KM [Up],,0,0,0,karaoke,{\k15}So {\k11}good {\k14}you'll {\k14}ne{\k46}ver {\k8}e{\k9}ver {\k16}want {\k14}to {\k43}leave
+Comment: 0,0:00:36.40,0:00:38.20,Sample KM [Up],,0,0,0,karaoke,{\k12}A{\k10}ny{\k15}thing {\k10}that {\k21}you {\k15}de{\k39}si{\k58}re
+Comment: 0,0:00:38.20,0:00:39.90,Sample KM [Up],,0,0,0,karaoke,{\k21}Set {\k35}it {\k48}on {\k66}fire!
+Comment: 0,0:00:48.10,0:00:52.85,Sample KM [Up],,0,0,0,karaoke,{\k44}I'll {\k48}make {\k30}you {\k46}spend {\k24}your {\k23}Den{\k23}nies {\k45}all {\k15}a{\kf177}way
+Comment: 0,0:00:53.00,0:00:55.00,Sample KM [Up],,0,0,0,karaoke,{\k22}That's {\k54}my {\k41}de{\kf83}sire
+Comment: 0,0:00:55.60,0:01:00.35,Sample KM [Up],,0,0,0,karaoke,{\k47}You {\k53}know {\k21}I'm {\k43}the {\k27}real {\k23}deal, {\k19}what's {\k47}left {\k15}to {\kf180}say?
+Comment: 0,0:01:00.75,0:01:02.15,Sample KM [Up],,0,0,0,karaoke,{\k42}Three, {\k47}two, {\k51}one
+Comment: 0,0:01:02.15,0:01:03.05,Sample KM [Center],,0,0,0,karaoke,{\kf90}Fire!
+Comment: 0,0:01:06.42,0:01:06.82,Sample KM [Up-left],,0,0,0,karaoke,{\k12}Bur{\k28}nice
+Comment: 0,0:01:06.88,0:01:07.28,Sample KM [Up],,0,0,0,karaoke,{\k12}Bur{\k28}nice
+Comment: 0,0:01:07.38,0:01:07.78,Sample KM [Up-right],,0,0,0,karaoke,{\k13}Bur{\k27}nice
+Comment: 0,0:01:07.83,0:01:08.28,Sample KM [Down-right],,0,0,0,karaoke,{\k12}Bur{\k33}nice
+Comment: 0,0:01:08.33,0:01:08.73,Sample KM [Down],,0,0,0,karaoke,{\k12}Bur{\k28}nice
+Comment: 0,0:01:08.78,0:01:09.21,Sample KM [Down-left],,0,0,0,karaoke,{\k12}Bur{\k31}nice
+Comment: 0,0:01:09.21,0:01:10.41,Sample KM [Center],,0,0,0,karaoke,{\k51}Go {\k69}go!
+Comment: 0,0:01:13.95,0:01:14.80,Sample KM [Up],,0,0,0,karaoke,{\k12}Burn {\k33}it, {\k12}Bur{\k28}nice
+Comment: 0,0:01:14.88,0:01:15.73,Sample KM [Up],,0,0,0,karaoke,{\k12}Burn {\k33}it, {\k12}Bur{\k28}nice
+Comment: 0,0:01:15.80,0:01:17.35,Sample KM [Up],,0,0,0,karaoke,{\k37}Or {\k8}a {\k10}lit{\k38}tle {\k62}flames?
+Comment: 0,0:01:21.45,0:01:21.85,Sample KM [Up-left],,0,0,0,karaoke,{\k12}Bur{\k28}nice
+Comment: 0,0:01:21.90,0:01:22.30,Sample KM [Up],,0,0,0,karaoke,{\k12}Bur{\k28}nice
+Comment: 0,0:01:22.38,0:01:22.78,Sample KM [Up-right],,0,0,0,karaoke,{\k12}Bur{\k28}nice
+Comment: 0,0:01:22.83,0:01:23.28,Sample KM [Down-right],,0,0,0,karaoke,{\k12}Bur{\k33}nice
+Comment: 0,0:01:23.33,0:01:23.73,Sample KM [Down],,0,0,0,karaoke,{\k12}Bur{\k28}nice
+Comment: 0,0:01:23.78,0:01:24.21,Sample KM [Down-left],,0,0,0,karaoke,{\k12}Bur{\k31}nice
+Comment: 0,0:01:24.21,0:01:25.41,Sample KM [Center],,0,0,0,karaoke,{\k51}Go {\k69}go!
+Comment: 0,0:01:28.90,0:01:29.75,Sample KM [Up],,0,0,0,karaoke,{\k12}Burn {\k33}it, {\k12}Bur{\k28}nice
+Comment: 0,0:01:29.83,0:01:30.68,Sample KM [Up],,0,0,0,karaoke,{\k12}Burn {\k33}it, {\k12}Bur{\k28}nice
+Comment: 0,0:01:30.80,0:01:32.25,Sample KM [Up],,0,0,0,karaoke,{\k13}Gon{\k31}na {\k19}watch {\k27}it {\k55}burn!
+Comment: 0,0:01:41.10,0:01:44.65,Sample KM [Down] - Burnice,,0,0,0,karaoke,{\kf35}O{\kf71}kay...{\kf28} {\kf33}Now...{\kf56} {\kf34}You {\kf24}can {\kf74}drink...
+Comment: 0,0:01:58.85,0:02:00.95,Sample KM [Down] - Lucy,,0,0,0,karaoke,{\kf20}Bur{\kf25}nice {\kf29}passed {\kf16}out {\kf8}on {\kf15}the {\kf21}coun{\kf12}ter {\kf19}a{\kf45}gain?
+Comment: 0,0:02:00.80,0:02:03.00,Sample KM [Down] - Caesar,,0,0,0,karaoke,{\kf15}Bet {\kf17}she {\kf10}was {\kf14}up {\kf16}all {\kf21}night {\kf17}chat{\kf11}ting {\kf11}with {\kf21}her {\kf25}friends {\kf10}a{\kf32}gain...
+Comment: 0,0:02:03.70,0:02:06.05,Sample KM [Down] - Lucy,,0,0,0,karaoke,{\kf29}Se{\kf23}rious{\kf28}ly...{\kf31} {\kf13}Al{\kf32}right, {\kf11}lend {\kf14}me {\kf11}a {\kf43}hand!
+Comment: 0,0:02:06.05,0:02:07.25,Sample KM [Down] - Lucy,,0,0,0,karaoke,{\kf23}We'll {\kf20}take {\kf15}her {\kf62}home...
+Comment: 0,0:02:07.45,0:02:09.15,Sample KM [Down] - Lucy,,0,0,0,karaoke,{\kf22}Watch {\kf44}it, {\kf19}care{\kf14}ful {\kf9}of {\kf9}the {\kf53}drool!
+Comment: 0,0:02:09.15,0:02:11.15,Sample KM [Down] - Lucy,,0,0,0,karaoke,{\kf41}Ew, {\kf23}the {\kf38}dro{\kf14}o{\kf84}l!
+Dialogue: 0,0:00:00.00,0:00:00.20,Sample KM [Up],,0,0,0,fx,{\k0\fad(0,200)}
+Dialogue: 0,0:00:03.10,0:00:06.20,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\kf17}{\i0}Give {\kf16}me {\kf14}a {\kf19}mug {\kf9}of {\kf20}your {\kf32}fi{\kf73}nest...{\i1}
+Dialogue: 0,0:00:05.10,0:00:07.20,Sample KM [Down] - Burnice,,0,0,0,fx,{\k90\fad(300,200)}{\kf37}You {\kf27}got {\kf36}it!
+Dialogue: 0,0:00:08.10,0:00:09.78,Sample KM [Down] - Burnice,,0,0,0,fx,{\k90\fad(300,200)}{\kf15}You {\kf43}know...
+Dialogue: 0,0:00:09.40,0:00:14.20,Sample KM [Down] - Burnice,,0,0,0,fx,{\k90\fad(300,200)}{\kf34}Sigh{\kf16}ing {\kf26}like {\kf27}that {\kf14}will {\kf18}make {\kf10}e{\kf9}ven {\kf28}the {\kf32}best {\kf19}Ni{\kf16}tro {\kf20}fuel {\kf28}taste {\kf17}like {\kf14}re{\kf42}gret
+Dialogue: 0,0:00:13.45,0:00:16.05,Sample KM [Down] - Burnice,,0,0,0,fx,{\k90\fad(300,200)}{\kf41}So, {\kf19}be{\kf23}fore {\kf15}you {\kf52}drink...
+Dialogue: 0,0:00:14.95,0:00:18.85,Sample KM [Down] - Burnice,,0,0,0,fx,{\k90\fad(300,200)}{\kf18}We {\kf15}got{\kf13}ta {\kf24}take {\kf18}care {\kf11}of {\kf21}what{\kf20}e{\kf20}ver's {\kf35}trou{\kf29}bling {\kf56}you
+Dialogue: 0,0:00:16.90,0:00:19.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}What {\k13}can {\k13}I {\k16}get {\k21}for {\k71}you?
+Dialogue: 0,0:00:19.10,0:00:21.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}A {\k82}drink?
+Dialogue: 0,0:00:20.40,0:00:22.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Some {\k73}snacks?
+Dialogue: 0,0:00:22.40,0:00:25.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Or {\k8}a {\k10}lit{\k38}tle {\k62}flames?
+Dialogue: 0,0:00:24.25,0:00:27.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Mock{\k28}tails, {\k14}mi{\k33}xers, {\k74}ice
+Dialogue: 0,0:00:25.95,0:00:28.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k42}snacks {\k11}are {\k21}re{\k21}al {\k80}nice
+Dialogue: 0,0:00:27.94,0:00:30.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}So{\k23}da, {\k22}sour-{\k24}mix, {\k53}dry
+Dialogue: 0,0:00:29.70,0:00:32.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I'm {\k34}lit, {\k12}you {\k26}can't {\k17}de{\k57}ny
+Dialogue: 0,0:00:31.70,0:00:34.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}What{\k9}e{\k10}ver {\k13}you {\k51}want, {\k10}what{\k7}e{\k15}ver {\k11}you {\k34}need
+Dialogue: 0,0:00:33.60,0:00:36.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}So {\k11}good {\k14}you'll {\k14}ne{\k46}ver {\k8}e{\k9}ver {\k16}want {\k14}to {\k43}leave
+Dialogue: 0,0:00:35.50,0:00:38.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}A{\k10}ny{\k15}thing {\k10}that {\k21}you {\k15}de{\k39}si{\k58}re
+Dialogue: 0,0:00:37.30,0:00:40.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Set {\k35}it {\k48}on {\k66}fire!
+Dialogue: 0,0:00:47.20,0:00:53.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}I'll {\k48}make {\k30}you {\k46}spend {\k24}your {\k23}Den{\k23}nies {\k45}all {\k15}a{\kf177}way
+Dialogue: 0,0:00:52.10,0:00:55.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}That's {\k54}my {\k41}de{\kf83}sire
+Dialogue: 0,0:00:54.70,0:01:00.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}You {\k53}know {\k21}I'm {\k43}the {\k27}real {\k23}deal, {\k19}what's {\k47}left {\k15}to {\kf180}say?
+Dialogue: 0,0:00:59.85,0:01:02.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Three, {\k47}two, {\k51}one
+Dialogue: 0,0:01:01.25,0:01:03.25,Sample KM [Center],,0,0,0,fx,{\k90\fad(300,200)}{\kf90}Fire!
+Dialogue: 0,0:01:05.52,0:01:07.02,Sample KM [Up-left],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Bur{\k28}nice
+Dialogue: 0,0:01:05.98,0:01:07.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Bur{\k28}nice
+Dialogue: 0,0:01:06.48,0:01:07.98,Sample KM [Up-right],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Bur{\k27}nice
+Dialogue: 0,0:01:06.93,0:01:08.48,Sample KM [Down-right],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Bur{\k33}nice
+Dialogue: 0,0:01:07.43,0:01:08.93,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Bur{\k28}nice
+Dialogue: 0,0:01:07.88,0:01:09.41,Sample KM [Down-left],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Bur{\k31}nice
+Dialogue: 0,0:01:08.31,0:01:10.61,Sample KM [Center],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Go {\k69}go!
+Dialogue: 0,0:01:13.05,0:01:15.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Burn {\k33}it, {\k12}Bur{\k28}nice
+Dialogue: 0,0:01:13.98,0:01:15.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Burn {\k33}it, {\k12}Bur{\k28}nice
+Dialogue: 0,0:01:14.90,0:01:17.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Or {\k8}a {\k10}lit{\k38}tle {\k62}flames?
+Dialogue: 0,0:01:20.55,0:01:22.05,Sample KM [Up-left],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Bur{\k28}nice
+Dialogue: 0,0:01:21.00,0:01:22.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Bur{\k28}nice
+Dialogue: 0,0:01:21.48,0:01:22.98,Sample KM [Up-right],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Bur{\k28}nice
+Dialogue: 0,0:01:21.93,0:01:23.48,Sample KM [Down-right],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Bur{\k33}nice
+Dialogue: 0,0:01:22.43,0:01:23.93,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Bur{\k28}nice
+Dialogue: 0,0:01:22.88,0:01:24.41,Sample KM [Down-left],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Bur{\k31}nice
+Dialogue: 0,0:01:23.31,0:01:25.61,Sample KM [Center],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Go {\k69}go!
+Dialogue: 0,0:01:28.00,0:01:29.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Burn {\k33}it, {\k12}Bur{\k28}nice
+Dialogue: 0,0:01:28.93,0:01:30.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Burn {\k33}it, {\k12}Bur{\k28}nice
+Dialogue: 0,0:01:29.90,0:01:32.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Gon{\k31}na {\k19}watch {\k27}it {\k55}burn!
+Dialogue: 0,0:01:40.20,0:01:44.85,Sample KM [Down] - Burnice,,0,0,0,fx,{\k90\fad(300,200)}{\kf35}O{\kf71}kay...{\kf28} {\kf33}Now...{\kf56} {\kf34}You {\kf24}can {\kf74}drink...
+Dialogue: 0,0:01:57.95,0:02:01.15,Sample KM [Down] - Lucy,,0,0,0,fx,{\k90\fad(300,200)}{\kf20}Bur{\kf25}nice {\kf29}passed {\kf16}out {\kf8}on {\kf15}the {\kf21}coun{\kf12}ter {\kf19}a{\kf45}gain?
+Dialogue: 0,0:01:59.90,0:02:03.20,Sample KM [Down] - Caesar,,0,0,0,fx,{\k90\fad(300,200)}{\kf15}Bet {\kf17}she {\kf10}was {\kf14}up {\kf16}all {\kf21}night {\kf17}chat{\kf11}ting {\kf11}with {\kf21}her {\kf25}friends {\kf10}a{\kf32}gain...
+Dialogue: 0,0:02:02.80,0:02:06.25,Sample KM [Down] - Lucy,,0,0,0,fx,{\k90\fad(300,200)}{\kf29}Se{\kf23}rious{\kf28}ly...{\kf31} {\kf13}Al{\kf32}right, {\kf11}lend {\kf14}me {\kf11}a {\kf43}hand!
+Dialogue: 0,0:02:05.15,0:02:07.45,Sample KM [Down] - Lucy,,0,0,0,fx,{\k90\fad(300,200)}{\kf23}We'll {\kf20}take {\kf15}her {\kf62}home...
+Dialogue: 0,0:02:06.55,0:02:09.35,Sample KM [Down] - Lucy,,0,0,0,fx,{\k90\fad(300,200)}{\kf22}Watch {\kf44}it, {\kf19}care{\kf14}ful {\kf9}of {\kf9}the {\kf53}drool!
+Dialogue: 0,0:02:08.25,0:02:11.35,Sample KM [Down] - Lucy,,0,0,0,fx,{\k90\fad(300,200)}{\kf41}Ew, {\kf23}the {\kf38}dro{\kf14}o{\kf84}l!
