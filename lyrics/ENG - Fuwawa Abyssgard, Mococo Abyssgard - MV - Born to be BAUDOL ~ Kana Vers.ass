@@ -1,0 +1,1304 @@
+﻿[Script Info]
+Title: Born to be "BAU"DOL☆★
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: highwolf_x, Sorio Alvarna
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Fuwamoco-furigana,Arial,12,&H00FF45C5,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,8,2,2,20,1
+Style: Mococo-furigana,Arial,12,&H00C37DFA,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,8,2,2,20,1
+Style: Fuwawa-furigana,Arial,12,&H00FFC900,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,8,2,2,20,1
+Style: Sample KM [Choir]-furigana,Arial,12,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,0.75,0,8,2,2,80,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,80,1
+Style: Fuwawa,Arial,24,&H00FFC900,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mococo,Arial,24,&H00C37DFA,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Fuwamoco,Arial,24,&H00FF45C5,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template syl furi all,!retime("line",$lstart < 900 and -$lstart or -900,200)!{\fade(!$lstart < 900 and $lstart or 300!,200)\an5\pos(!line.left+syl.center!,!$middle+offset()!)\k!$start/10+($lstart < 900 and $lstart or 900)/10!\!syl.tag!$skdur}
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,code once,lineOffset=60 -- vertical offset between lines with different vertical margins value
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,code once,function offset() return _G.tonumber(line.margin_t)*lineOffset end
+Comment: 0,0:00:03.25,0:00:05.65,Sample KM [Up],,0,0,0,karaoke,{\k17}{\rFuwawa}ふ{\k16}わ{\k20}ふ{\k77}わ{\k0}　{\rMococo}{\k15}も{\k15}こ{\k13}も{\k67}こ
+Comment: 0,0:00:05.65,0:00:08.19,Fuwamoco,,0,0,1,karaoke,{\k26}魔|ま{\k14}界|かい{\k20}乃|!の{\k27}番|!ばん{\k30}犬|けん{\k16}シ{\k19}ス{\k17}タ{\k71}ー{\k14}ズ☆★
+Comment: 0,0:00:08.19,0:00:12.66,Fuwamoco,,0,0,0,karaoke,{\k16}こ{\k14}の{\k16}世|せ{\k30}界|かい{\k37}に{\k18}爆|ば{\k15}#|く{\k29}誕|たん{\k19}“BA|!｢バ{\k28}U”|ウ｣{\k33}DO|!ド{\k33}L|ル{\kf159}です
+Comment: 0,0:00:12.71,0:00:13.64,Fuwamoco,,0,0,1,karaoke,{\k33}BAU|バウ{\k0} {\k60}BAU!!|!バウ！！
+Comment: 0,0:00:13.64,0:00:14.28,Fuwawa,,0,0,0,karaoke,{\k21}フ{\k13}ワ{\k30}ワ
+Comment: 0,0:00:14.28,0:00:14.88,Sample KM [Choir],,0,0,1,karaoke,{\k16}フ{\k14}ワ{\k30}ワ！！
+Comment: 0,0:00:14.88,0:00:16.11,Mococo,,0,0,1,karaoke,{\k16}モ{\k17}コ{\k90}コ
+Comment: 0,0:00:15.54,0:00:16.11,Sample KM [Choir],,0,0,2,karaoke,{\k14}モ{\k13}コ{\k30}コ！！
+Comment: 0,0:00:16.11,0:00:18.58,Sample KM [Up],,0,0,0,karaoke,{\rFuwawa}{\k17}フ{\k17}ワ{\k0} {\k26}＋|プラス{\rMococo}{\k0} {\k17}モ{\k17}コ{\k0} {\k33}＝|は{\rFuwamoco}{\k0} {\k13}フ{\k17}ワ{\k17}モ{\k73}コ
+Comment: 0,0:00:17.95,0:00:18.58,Sample KM [Choir],,0,0,1,karaoke,{\k13}フ{\k13}ワ{\k17}モ{\k20}コ！！
+Comment: 0,0:00:18.63,0:00:19.25,Fuwawa,,0,0,1,karaoke,{\k12}フ{\k19}ワ{\k31}ワ
+Comment: 0,0:00:19.20,0:00:19.82,Sample KM [Choir],,0,0,2,karaoke,{\k13}フ{\k21}ワ{\k28}ワ！！
+Comment: 0,0:00:19.82,0:00:20.75,Mococo,,0,0,0,karaoke,{\k13}モ{\k21}コ{\k59}コ
+Comment: 0,0:00:20.48,0:00:21.05,Sample KM [Choir],,0,0,1,karaoke,{\k16}モ{\k17}コ{\k90}コ！！
+Comment: 0,0:00:21.05,0:00:23.82,Fuwamoco,,0,0,1,karaoke,{\rFuwawa}{\k17}フ{\k17}ワ{\k0} {\k26}＋|プラス{\rMococo}{\k0} {\k17}モ{\k17}コ{\k0} {\k33}＝|は{\rFuwamoco}{\k0} {\k13}フ{\k17}ワ{\k17}モ{\k73}コ
+Comment: 0,0:00:22.92,0:00:23.82,Sample KM [Choir],,0,0,2,karaoke,{\k9}フ{\k11}ワ{\k28}モ{\k42}コ！！
+Comment: 0,0:00:23.82,0:00:24.92,Fuwamoco,,0,0,0,karaoke,{\k27}BAU|バウ{\k0} {\k83}BAU~!!|!バウ～！！
+Comment: 0,0:00:24.92,0:00:27.09,Mococo,,0,0,1,karaoke,{\k17}WA|ウェイ{\k13}KE|ク{\k0} {\k20}U|アッ{\k17}P|プ{\k0} {\k13}し{\k17}た{\k13}ら{\k14}君|き{\k16}#|み{\k17}に{\k0} {\k30}MORN|モー{\k30}ING|ニング
+Comment: 0,0:00:27.09,0:00:30.03,Fuwawa,,0,0,0,karaoke,{\k33}NEW|ニュー{\k0} {\k14}な{\k16}出|で{\k17}会|あ{\k17}い{\k16}鼻|は{\k14}#|な{\k13}利|!き{\k20}か{\k30}せ{\k0} {\k30}SEAR|サー{\k30}CH|チ{\k0} {\k17}し{\k27}て
+Comment: 0,0:00:30.03,0:00:32.06,Sample KM [Up],,0,0,1,karaoke,{\rFuwawa}{\k30}ド{\k33}キ{\k0} {\rMococo}{\k30}ド{\k30}キ{\k0} {\rFuwamoco}{\k27}DOG|ドッ{\k53}GY|ギ
+Comment: 0,0:00:32.06,0:00:34.83,Sample KM [Up],,0,0,0,karaoke,{\rMococo}{\k17}右|み{\k16}#|ぎ{\k27}に{\rFuwawa}{\k17}左|ひ{\k17}#|だ{\k46}#|り{\k0} {\rFuwamoco}{\k23}バウ {\k31}バウ {\k83}バウ
+Comment: 0,0:00:34.83,0:00:37.00,Mococo,,0,0,1,karaoke,{\k17}悩|な{\k16}#|や{\k14}ん{\k16}で{\k17}い{\k13}て{\k17}も{\k17}来|き{\k13}ちゃ{\k17}う {\k30}FU|フュー{\k30}TURE|チャー
+Comment: 0,0:00:37.00,0:00:39.90,Fuwawa,,0,0,0,karaoke,{\k33}ま{\k14}ず{\k13}は{\k17}目|め{\k16}の{\k17}前|ま{\k17}#|え{\k13}の{\k17}道|み{\k30}#|ち{\k30}STE|!ステッ{\k33}P|プ{\k14}し{\k26}て
+Comment: 0,0:00:39.90,0:00:41.94,Sample KM [Up],,0,0,1,karaoke,{\rMococo}{\k34}HAP|ハッ{\k30}PY|ピー{\k0} {\rFuwawa}{\k33}LUCK|ラッ{\k27}Y|キー{\k0} {\rFuwamoco}{\k33}PUP|パ{\k47}PY|ピー
+Comment: 0,0:00:41.94,0:00:43.85,Fuwamoco,,0,0,0,karaoke,{\k16}一|いっ{\k17}緒|しょ{\k30}に{\k13}歩|あ{\k17}#|る{\k14}こ{\k16}う{\k68}よ
+Comment: 0,0:00:44.24,0:00:49.08,Fuwawa,,0,0,1,karaoke,{\k19}ﾄﾞ{\k18}ー{\k60}ナ{\k60}ツ{\k30}の{\k33}穴|あ{\k30}#|な{\k30}の{\k64}中|な{\k13}#|か{\k34}に{\k93}は
+Comment: 0,0:00:49.85,0:00:52.25,Sample KM [Up],,0,0,0,karaoke,{\k28}{\rMococo}きっ{\k62}と {\rFuwawa}{\k50}きっ{\k100}と
+Comment: 0,0:00:52.25,0:00:55.72,Fuwamoco,,0,0,1,karaoke,{\k36}夢|ゆ{\k31}#|め{\k30}が{\k33}詰|つ{\k27}まっ{\k19}て{\k14}る{\k17}か{\kf140}ら
+Comment: 0,0:00:56.49,0:00:57.25,Fuwamoco,,0,0,0,karaoke,{\k13}ふ{\k23}わ{\k20}ふ{\k20}わ
+Comment: 0,0:00:57.25,0:00:57.89,Sample KM [Choir],,0,0,1,karaoke,{\k16}ワ！{\k48}フー！
+Comment: 0,0:00:57.72,0:00:58.49,Fuwamoco,,0,0,1,karaoke,{\k17}も{\k13}か{\k17}も{\k73}こ
+Comment: 0,0:00:58.49,0:00:59.43,Sample KM [Choir],,0,0,2,karaoke,{\k24}Come |カム{\k70}on!!|!オン
+Comment: 0,0:00:58.92,0:01:01.69,Fuwamoco,,0,0,0,karaoke,{\k19}魔|ま{\k18}界|かい{\k13}乃|!の{\k31}番|!ばん{\k33}犬|けん{\k13}シ{\k17}ス{\k16}タ{\k60}ー{\k57}ズ☆★
+Comment: 0,0:01:01.69,0:01:06.40,Fuwamoco,,0,0,1,karaoke,{\k20}2|に{\k33}匹|!ひ{\k27}#|き{\k34}が{\k30}揃|そ{\k16}#|ろ{\k30}え{\k30}ば {\k34}も{\k46}う {\k30}大|お{\k30}#|お{\k34}騒|さ{\k30}#|わ{\k47}ぎ
+Comment: 0,0:01:06.40,0:01:07.16,Fuwamoco,,0,0,0,karaoke,{\k21}も{\k9}あ{\k17}も{\k29}あ
+Comment: 0,0:01:07.16,0:01:07.63,Sample KM [Choir],,0,0,1,karaoke,{\k17}もっ{\k30}と！！
+Comment: 0,0:01:07.63,0:01:08.40,Fuwamoco,,0,0,1,karaoke,{\k13}ハ{\k17}ロ{\k17}ハ{\k73}ロ
+Comment: 0,0:01:08.40,0:01:08.83,Sample KM [Choir],,0,0,2,karaoke,{\k16}バウ {\k27}バウ！！
+Comment: 0,0:01:08.83,0:01:11.33,Fuwamoco,,0,0,0,karaoke,{\k17}迷|ま{\k13}#|よ{\k34}わ{\k16}ず{\k30}に {\k30}GO|ゴ{\k0} {\k17}MY|マイ{\k0} {\k93}WAY|ウェイ
+Comment: 0,0:01:11.33,0:01:15.56,Fuwamoco,,0,0,1,karaoke,{\k17}君|き{\k13}#|み{\k17}の{\k31}絶|ぜっ{\k29}対|たい{\k13}味|!み{\k17}方|か{\k30}#|た{\k21}“BA|!「バ{\k26}U”|ウ」{\k34}DO|!ド{\k36}L|ル{\kf139}です
+Comment: 0,0:01:15.80,0:01:16.74,Fuwamoco,,0,0,0,karaoke,{\k31}BAU|バウ{\k0} {\k63}BAU!!|バウ！！
+Comment: 0,0:01:16.74,0:01:17.37,Fuwawa,,0,0,1,karaoke,{\k21}フ{\k21}ワ{\k21}ワ
+Comment: 0,0:01:17.37,0:01:17.94,Sample KM [Choir],,0,0,1,karaoke,{\k17}フ{\k13}ワ{\k27}ワ！
+Comment: 0,0:01:17.94,0:01:18.61,Mococo,,0,0,0,karaoke,{\k13}モ{\k17}コ{\k93}コ
+Comment: 0,0:01:18.61,0:01:19.17,Sample KM [Choir],,0,0,2,karaoke,{\k16}モ{\k14}コ{\k26}コ！！
+Comment: 0,0:01:19.17,0:01:21.04,Sample KM [Up],,0,0,1,karaoke,{\rFuwawa}{\k17}フ{\k17}ワ{\k0} {\k26}＋|プラス{\rMococo}{\k0} {\k17}モ{\k17}コ{\k0} {\k33}＝|は{\rFuwamoco}{\k0} {\k13}フ{\k17}ワ{\k17}モ{\k73}コ
+Comment: 0,0:01:21.04,0:01:21.68,Sample KM [Choir],,0,0,1,karaoke,{\k14}フ{\k13}ワ{\k17}モ{\k20}コ！！
+Comment: 0,0:01:21.68,0:01:22.31,Fuwawa,,0,0,0,karaoke,{\k21}フ{\k21}ワ{\k21}ワ
+Comment: 0,0:01:22.31,0:01:22.91,Sample KM [Choir],,0,0,2,karaoke,{\k13}フ{\k17}ワ{\k30}ワ！
+Comment: 0,0:01:22.91,0:01:23.58,Mococo,,0,0,1,karaoke,{\k14}モ{\k16}コ{\k90}コ
+Comment: 0,0:01:23.58,0:01:24.11,Sample KM [Choir],,0,0,1,karaoke,{\k13}モ{\k17}コ{\k23}コ！！
+Comment: 0,0:01:24.11,0:01:26.01,Sample KM [Up],,0,0,0,karaoke,{\rFuwawa}{\k17}フ{\k17}ワ{\k0} {\k26}＋|プラス{\rMococo}{\k0} {\k17}モ{\k17}コ{\k0} {\k33}＝|は{\rFuwamoco}{\k0} {\k13}フ{\k17}ワ{\k17}モ{\k73}コ
+Comment: 0,0:01:26.01,0:01:26.92,Sample KM [Choir],,0,0,2,karaoke,{\k17}フ{\k17}ワ{\k17}モ{\k40}コ！！
+Comment: 0,0:01:26.92,0:01:28.05,Fuwamoco,,0,0,1,karaoke,{\k26}BAU|バウ{\k0} {\k87}BAU~!!|バウ～！！
+Comment: 0,0:01:28.05,0:01:30.31,Fuwawa,,0,0,0,karaoke,{\k17}ひ{\k13}と{\k17}り{\k13}じゃ{\k17}な{\k16}い{\k14}よ {\k13}WE'|ウィ{\k20}RE|ア{\k0} {\k14}TO|!トゥ{\k33}GETH|ギャ{\k39}ER|ザー
+Comment: 0,0:01:30.12,0:01:33.12,Mococo,,0,0,1,karaoke,{\k37}HEAR|ハー{\k16}T|ト{\k0} {\k17}繋|つ{\k13}#|な{\k17}が{\k13}っ{\k17}て{\k17}る{\k16}君|き{\k14}#|み{\k16}と{\k0} {\k30}CHA|チャッ{\k30}T|ト{\k0} {\k17}し{\k30}て
+Comment: 0,0:01:33.12,0:01:35.16,Sample KM [Up],,0,0,0,karaoke,{\rMococo}{\k30}FLUF|フラッ{\k30}FY|フィー{\k0} {\rFuwawa}{\k34}FUZ|!ファ{\k30}ZY |ジー{\k0} {\rFuwamoco}{\k33}YAP|!ヤッ{\k47}PY|ピー
+Comment: 0,0:01:35.16,0:01:36.77,Fuwamoco,,0,0,1,karaoke,{\k16}一|いっ{\k14}緒|しょ{\k33}に {\k13}歌|う{\k17}#|た{\k14}お{\k17}う{\k37}よ
+Comment: 0,0:01:37.49,0:01:42.28,Mococo,,0,0,0,karaoke,{\k10}ド{\k20}ー{\k60}ナ{\k60}ツ{\k34}の{\k30}穴|あ{\k30}#|な{\k33}の{\k60}向|む{\k17}こ{\k29}う{\k96}へ
+Comment: 0,0:01:43.03,0:01:45.09,Sample KM [Up],,0,0,1,karaoke,{\k32}{\rMococo}きっ{\k62}と {\rFuwawa}{\k46}きっ{\k66}と
+Comment: 0,0:01:45.47,0:01:48.90,Fuwamoco,,0,0,0,karaoke,{\k33}君|き{\k34}#|み{\k30}が{\k31}待っ|ま{\k29}て{\k16}い{\k14}る{\k16}か{\kf140}ら
+Comment: 0,0:01:49.67,0:01:50.47,Fuwamoco,,0,0,1,karaoke,{\k23}ふ{\k17}わ{\k13}ふ{\k27}わ
+Comment: 0,0:01:50.47,0:01:51.11,Sample KM [Choir],,0,0,1,karaoke,{\k24}わ！！{\k40}ふ！！
+Comment: 0,0:01:50.91,0:01:51.71,Fuwamoco,,0,0,0,karaoke,{\k16}も{\k14}こ{\k16}も{\k74}こ
+Comment: 0,0:01:51.71,0:01:52.29,Sample KM [Choir],,0,0,2,karaoke,{\k18}Come|カム{\k0} {\k40}on!!|オン！！
+Comment: 0,0:01:52.11,0:01:54.88,Fuwamoco,,0,0,1,karaoke,{\k20}魔|ま{\k16}界|かい{\k14}乃|!の{\k33}番|!ばん{\k30}犬|けん{\k14}シ{\k16}ス{\k17}タ{\k63}ー{\k54}ズ☆★
+Comment: 0,0:01:54.88,0:01:59.58,Fuwamoco,,0,0,0,karaoke,{\k20}2|に{\k33}匹|!ひ{\k27}#|き{\k33}が{\k34}揃|そ{\k13}#|ろ{\k30}え{\k30}ば {\k33}も{\k44}う {\k33}止|と{\k30}ま{\k33}ら{\k30}な{\k47}い
+Comment: 0,0:01:59.58,0:02:00.67,Fuwamoco,,0,0,1,karaoke,{\k16}お{\k13}耳|み{\k20}#|み{\k60}も
+Comment: 0,0:02:00.35,0:02:00.95,Sample KM [Choir],,0,0,1,karaoke,{\k20}Ea|イ{\k40}r!!|ヤ！！
+Comment: 0,0:02:00.82,0:02:01.92,Fuwamoco,,0,0,0,karaoke,{\k16}尻|し{\k14}#|っ{\k15}尾|ぽ{\k65}も
+Comment: 0,0:02:01.58,0:02:02.05,Sample KM [Choir],,0,0,2,karaoke,{\k19}ぶん{\k28}ぶん！！
+Comment: 0,0:02:02.05,0:02:04.52,Fuwamoco,,0,0,1,karaoke,{\k13}お{\k17}触|さ{\k30}#|わ{\k17}り{\k30}は{\k17}厳|げ{\k16}#|ん{\k20}禁|き{\k0}#|ん{\k87}××
+Comment: 0,0:02:04.52,0:02:08.81,Fuwamoco,,0,0,0,karaoke,{\k17}ス{\k13}リ{\k17}ル{\k32}満|まん{\k28}点|てん{\k16}爆|!ば{\k17}#|く{\k27}弾|だん{\k23}“BA|!｢バ{\k27}U”|ウ｣{\k34}DO|!ド{\k26}L|ル{\kf152}です
+Comment: 0,0:02:08.96,0:02:09.96,Fuwamoco,,0,0,1,karaoke,{\k36}BAU|バウ{\k0} {\k64}BAU!!|!バウ！！
+Comment: 0,0:02:10.53,0:02:12.49,Mococo,,0,0,0,karaoke,{\k60}Hey!! |ヘイ！！{\k33}RUF|!ラ{\k16}FI|フィ{\k52}AN|アン{\k35}S!!|ス！！
+Comment: 0,0:02:12.49,0:02:14.73,Mococo,,0,0,1,karaoke,{\k30}Kept|ケプタ{\k0} {\k21}you|!ユー{\k0} {\k30}wait|!ウエイ{\k23}ing,|ティング{\k0} {\k120}huh?|!ハー？
+Comment: 0,0:02:14.73,0:02:17.23,Mococo,,0,0,0,karaoke,{\k27}Can|カン{\k0} {\k16}I|!アイ{\k0} {\k20}get|!ゲット{\k0} {\k30}a|!ア{\k0} {\k34}heck|!ヘック{\k0} {\k123}yeah!?|!ヤー！？
+Comment: 0,0:02:17.23,0:02:20.14,Mococo,,0,0,1,karaoke,{\k70}Letʼs|レッツ{\k0} {\k60}shout|!シャウト{\k0} {\k161}“BAU”!!|!｢バウ｣！！
+Comment: 0,0:02:20.14,0:02:22.60,Sample KM [Choir],,0,0,1,karaoke,{\k63}BAU!!|バウ！！{\k0} {\k60}BAU!!|!バウ！！{\k0} {\k63}BAU!!|!バウ！！{\k0} {\k60}BAU!!|!バウ！！
+Comment: 0,0:02:22.60,0:02:25.04,Sample KM [Choir],,0,0,2,karaoke,{\k64}BAU!!|バウ！！{\k0} {\k60}BAU!!|!バウ！！{\k0} {\k63}BAU!!|!バウ！！{\k0} {\k57}BAU!!|!バウ！！
+Comment: 0,0:02:25.04,0:02:27.48,Sample KM [Choir],,0,0,1,karaoke,{\k64}BAU!!|バウ！！{\k0} {\k60}BAU!!|!バウ！！{\k0} {\k63}BAU!!|!バウ！！{\k0} {\k57}BAU!!|!バウ！！
+Comment: 0,0:02:27.48,0:02:29.75,Sample KM [Choir],,0,0,2,karaoke,{\k64}BAU!!|バウ！！{\k0} {\k60}BAU!!|!バウ！！{\k0} {\k63}BAU!!|!バウ！！{\k0} {\k57}BAU!!|!バウ！！
+Comment: 0,0:02:25.04,0:02:27.71,Mococo,,0,0,0,karaoke,{\k53}Now,|ナウ{\k0} {\k30}hear|!ヒア{\k0} {\k17}the|!ザ{\k0} {\k17}howl|!ハウ{\k20}ing|リング{\k0} {\k13}of|オブ{\k0} {\k27}my|!マイ{\k0} {\k90}soul!!|!ソウル！！
+Comment: 0,0:02:27.71,0:02:29.75,Mococo,,0,0,1,karaoke,{\k37}Are|アー{\k0} {\k20}you|!ユー{\k0} {\k21}rea|!レ{\kf126}dy!?|ディ！？
+Comment: 0,0:02:32.18,0:02:33.32,Fuwawa,,0,0,0,karaoke,{\k23}Mo|モ{\k24}co|コ{\k67}-chan!!|!ちゃん！！
+Comment: 0,0:02:33.32,0:02:34.35,Fuwawa,,0,0,1,karaoke,{\k13}こ{\k13}の{\k10}曲|きょ{\k14}#|く{\k20}は{\k6}可|か{\k10}愛|わ{\k10}#|い{\k7}く
+Comment: 0,0:02:34.35,0:02:35.92,Fuwawa,,0,0,0,karaoke,{\k13}歌|う{\k14}#|た{\k19}おう{\k27}ね{\k7}って{\k18}言っ|い{\k9}た{\k20}で{\k30}しょ！！
+Comment: 0,0:02:35.92,0:02:37.05,Mococo,,0,0,1,karaoke,{\k41}bau|バウ{\k0} {\k72}bau|!バウ
+Comment: 0,0:02:37.05,0:02:39.32,Fuwawa,,0,0,0,karaoke,{\k47}じゃあ{\k23}B{\k10}メ{\k14}ロ{\k14}か{\k46}ら...{\k40}せー{\k33}の！
+Comment: 0,0:02:39.32,0:02:44.27,Fuwawa,,0,0,1,karaoke,{\k17}ド{\k17}ー{\k63}ナ{\k60}ツ{\k30}リ{\k30}ン{\k33}グ{\k30}に{\k57}誓|ち{\k17}#|か{\k35}っ{\k106}て
+Comment: 0,0:02:44.89,0:02:47.36,Sample KM [Up],,0,0,0,karaoke,{\k30}{\rMococo}ずっ{\k64}と {\rFuwawa}{\k47}ずっ{\k106}と
+Comment: 0,0:02:47.36,0:02:50.77,Fuwamoco,,0,0,1,karaoke,{\k30}笑|え{\k34}顔|が{\k30}#|お{\k30}を{\k30}守|ま{\k16}#|も{\k14}る{\k20}か{\kf137}ら
+Comment: 0,0:02:51.50,0:02:52.43,Fuwawa,,0,0,0,karaoke,{\k16}ふ{\k18}わ{\k19}ふ{\k40}わ
+Comment: 0,0:02:52.23,0:02:52.96,Sample KM [Choir],,0,0,1,karaoke,{\k26}わ！！{\k47}ふう！！
+Comment: 0,0:02:52.73,0:02:53.76,Mococo,,0,0,1,karaoke,{\k17}も{\k14}こ{\k19}も{\k53}こ
+Comment: 0,0:02:53.54,0:02:54.21,Sample KM [Choir],,0,0,2,karaoke,{\k23}Come|カム{\k0} {\k44}on!!|オン！！
+Comment: 0,0:02:53.97,0:02:56.74,Fuwamoco,,0,0,0,karaoke,{\k17}魔|ま{\k20}界|かい{\k13}乃|!の{\k33}番|!ばん{\k30}犬|けん{\k17}シ{\k13}ス{\k17}タ{\k64}ー{\k53}ズ☆★
+Comment: 0,0:02:56.74,0:03:01.41,Fuwamoco,,0,0,1,karaoke,{\k20}2|に{\k33}匹|!ひ{\k27}#|き{\k33}が{\k30}揃|そ{\k17}#|ろ{\k33}え{\k27}ば {\k33}も{\k47}う{\k30}大|お{\k30}#|お{\k34}騒|!さ{\k30}#|わ{\k43}ぎ
+Comment: 0,0:03:01.41,0:03:02.53,Fuwamoco,,0,0,0,karaoke,{\k21}も{\k15}あ{\k17}も{\k27}あ
+Comment: 0,0:03:02.21,0:03:02.87,Sample KM [Choir],,0,0,1,karaoke,{\k21}もっ{\k45}と！！
+Comment: 0,0:03:02.68,0:03:03.73,Fuwamoco,,0,0,1,karaoke,{\k13}ハ{\k17}ロ{\k17}ハ{\k58}ロ
+Comment: 0,0:03:03.45,0:03:04.07,Sample KM [Choir],,0,0,2,karaoke,{\k20}BAU|バウ{\k0} {\k42}BAU!!|!バウ！！
+Comment: 0,0:03:03.91,0:03:06.38,Fuwamoco,,0,0,0,karaoke,{\k17}迷|ま{\k13}#|よ{\k34}わ{\k16}ず{\k30}に{\k0} {\k30}GO|ゴー{\k0} {\k14}MY|マイ{\k0} {\k93}WAY|ウェイ
+Comment: 0,0:03:06.38,0:03:10.55,Fuwamoco,,0,0,1,karaoke,{\k17}君|き{\k13}#|み{\k17}の{\k30}絶|ぜっ{\k30}対|たい{\k17}味|!み{\k13}方|か{\k33}#|た{\k14}“BA|!｢ナ{\k30}U”|ウ｣{\k39}DO|!ド{\k29}L|ル{\kf135}です
+Comment: 0,0:03:11.32,0:03:15.62,Fuwamoco,,0,0,0,karaoke,{\k17}こ{\k16}の{\k17}世|せ{\k30}界|かい{\k27}に{\k18}爆|ば{\k15}#|く{\k30}誕|たん{\k17}“BA|!｢バ{\k30}U”|ウ｣{\k34}DO|!ド{\k28}L|ル{\kf151}です
+Comment: 0,0:03:15.82,0:03:16.76,Fuwamoco,,0,0,1,karaoke,{\k30}BAU|バウ{\k0} {\k64}BAU!!|!バウ！！
+Comment: 0,0:03:16.76,0:03:17.36,Fuwawa,,0,0,0,karaoke,{\k20}フ{\k15}ワ{\k25}ワ
+Comment: 0,0:03:17.36,0:03:17.96,Sample KM [Choir],,0,0,1,karaoke,{\k17}フ{\k13}ワ{\k30}ワ！
+Comment: 0,0:03:17.96,0:03:18.59,Mococo,,0,0,1,karaoke,{\k13}モ{\k17}コ{\k90}コ
+Comment: 0,0:03:18.59,0:03:19.16,Sample KM [Choir],,0,0,2,karaoke,{\k17}モ{\k13}コ{\k27}コ！！
+Comment: 0,0:03:19.16,0:03:21.03,Sample KM [Up],,0,0,0,karaoke,{\rFuwawa}{\k17}フ{\k17}ワ{\k0} {\k26}＋|プラス{\rMococo}{\k0} {\k17}モ{\k17}コ{\k0} {\k33}＝|は{\rFuwamoco}{\k0} {\k13}フ{\k17}ワ{\k17}モ{\k73}コ
+Comment: 0,0:03:21.03,0:03:21.70,Sample KM [Choir],,0,0,1,karaoke,{\k13}フ{\k14}ワ{\k16}モ{\k24}コ！！
+Comment: 0,0:03:21.70,0:03:22.33,Fuwawa,,0,0,1,karaoke,{\k21}フ{\k21}ワ{\k21}ワ
+Comment: 0,0:03:22.33,0:03:22.93,Sample KM [Choir],,0,0,2,karaoke,{\k13}フ{\k17}ワ{\k30}ワ！
+Comment: 0,0:03:22.93,0:03:23.53,Mococo,,0,0,0,karaoke,{\k14}モ{\k20}コ{\k86}コ
+Comment: 0,0:03:23.53,0:03:24.13,Sample KM [Choir],,0,0,1,karaoke,{\k17}モ{\k17}コ{\k26}コ！！
+Comment: 0,0:03:24.13,0:03:26.03,Sample KM [Up],,0,0,1,karaoke,{\rFuwawa}{\k17}フ{\k17}ワ{\k0} {\k26}＋|プラス{\rMococo}{\k0} {\k17}モ{\k17}コ{\k0} {\k33}＝|は{\rFuwamoco}{\k0} {\k13}フ{\k17}ワ{\k17}モ{\k73}コ
+Comment: 0,0:03:26.03,0:03:26.90,Sample KM [Choir],,0,0,2,karaoke,{\k17}フ{\k17}ワ{\k17}モ{\k36}コ！！
+Comment: 0,0:03:26.90,0:03:27.90,Fuwamoco,,0,0,0,karaoke,{\k27}BAU|バウ{\k0} {\k73}BAU~!!|!バウ～！！
+Dialogue: 0,0:00:02.35,0:00:05.85,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(137.09765625,32)\k90\0}
+Dialogue: 0,0:00:02.35,0:00:05.85,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(143.595703125,32)\k90\\k17}ふ
+Dialogue: 0,0:00:02.35,0:00:05.85,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(156.837890625,32)\k107\\k16}わ
+Dialogue: 0,0:00:02.35,0:00:05.85,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(170.080078125,32)\k123\\k20}ふ
+Dialogue: 0,0:00:02.35,0:00:05.85,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(183.322265625,32)\k143\\k77}わ
+Dialogue: 0,0:00:02.35,0:00:05.85,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(195.3515625,32)\k220\\k0}
+Dialogue: 0,0:00:02.35,0:00:05.85,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(206.701171875,32)\k220\\k15}も
+Dialogue: 0,0:00:02.35,0:00:05.85,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(218.267578125,32)\k235\\k15}こ
+Dialogue: 0,0:00:02.35,0:00:05.85,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(229.833984375,32)\k250\\k13}も
+Dialogue: 0,0:00:02.35,0:00:05.85,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(241.400390625,32)\k263\\k67}こ
+Dialogue: 0,0:00:04.75,0:00:08.39,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(109.83984375,73)\k90\0}
+Dialogue: 0,0:00:04.75,0:00:08.39,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(117.796875,73)\k90\\k26}魔
+Dialogue: 0,0:00:04.75,0:00:08.39,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(133.7109375,73)\k116\\k14}界
+Dialogue: 0,0:00:04.75,0:00:08.39,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(149.625,73)\k130\\k20}乃
+Dialogue: 0,0:00:04.75,0:00:08.39,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(165.5390625,73)\k150\\k27}番
+Dialogue: 0,0:00:04.75,0:00:08.39,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(181.453125,73)\k177\\k30}犬
+Dialogue: 0,0:00:04.75,0:00:08.39,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(195.908203125,73)\k207\\k16}シ
+Dialogue: 0,0:00:04.75,0:00:08.39,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(208.5,73)\k223\\k19}ス
+Dialogue: 0,0:00:04.75,0:00:08.39,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(220.095703125,73)\k242\\k17}タ
+Dialogue: 0,0:00:04.75,0:00:08.39,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(232.095703125,73)\k259\\k71}ー
+Dialogue: 0,0:00:04.75,0:00:08.39,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(256.376953125,73)\k330\\k14}ズ☆★
+Dialogue: 0,0:00:04.75,0:00:08.39,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(119.25,55)\k90\\k26}ま
+Dialogue: 0,0:00:04.75,0:00:08.39,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(128.75390625,55)\k116\\k14}かい
+Dialogue: 0,0:00:04.75,0:00:08.39,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(149.625,55)\k130\\k20}の
+Dialogue: 0,0:00:04.75,0:00:08.39,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(166.9921875,55)\k150\\k27}ばん
+Dialogue: 0,0:00:04.75,0:00:08.39,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(180.15234375,55)\k177\\k30}けん
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(86.15625,32)\k90\0}
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(91.658203125,32)\k90\\k16}こ
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(103.658203125,32)\k106\\k14}の
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(118.11328125,32)\k120\\k16}世
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(134.02734375,32)\k136\\k30}界
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(148.23046875,32)\k166\\k37}に
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(162.43359375,32)\k203\\k33}爆
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(178.34765625,32)\k236\\k29}誕
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(201.97265625,32)\k265\\k19}“BA
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(227.490234375,32)\k284\\k28}U”
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(249.427734375,32)\k312\\k33}DO
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(266.4375,32)\k345\\k33}L
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(284.6015625,32)\k378\\kf159}です
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(119.56640625,14)\k120\\k16}せ
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(129.4453125,14)\k136\\k30}かい
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(162.005859375,14)\k203\\k18}ば
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(167.419921875,14)\k221\\k15}く
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(175.8046875,14)\k236\\k29}たん
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(207.111328125,14)\k265\\k19}｢バ
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(216.955078125,14)\k284\\k28}ウ｣
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(251.09765625,14)\k312\\k33}ド
+Dialogue: 0,0:00:07.29,0:00:12.86,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(257.2265625,14)\k345\\k33}ル
+Dialogue: 0,0:00:11.81,0:00:13.84,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(151.72265625,73)\k90\0}
+Dialogue: 0,0:00:11.81,0:00:13.84,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(166.939453125,73)\k90\\k33}BAU
+Dialogue: 0,0:00:11.81,0:00:13.84,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(211.693359375,73)\k123\\k60}BAU!!
+Dialogue: 0,0:00:11.81,0:00:13.84,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(166.939453125,55)\k90\\k33}バウ
+Dialogue: 0,0:00:11.81,0:00:13.84,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(211.693359375,55)\k123\\k60}バウ！！
+Dialogue: 0,0:00:12.74,0:00:14.48,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(174.62109375,32)\k90\0}
+Dialogue: 0,0:00:12.74,0:00:14.48,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(180,32)\k90\\k21}フ
+Dialogue: 0,0:00:12.74,0:00:14.48,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(191.37890625,32)\k111\\k13}ワ
+Dialogue: 0,0:00:12.74,0:00:14.48,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(203.37890625,32)\k124\\k30}ワ
+Dialogue: 0,0:00:13.38,0:00:15.08,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(158.70703125,204)\k90\0}
+Dialogue: 0,0:00:13.38,0:00:15.08,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(164.0859375,204)\k90\\k16}フ
+Dialogue: 0,0:00:13.38,0:00:15.08,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(175.46484375,204)\k106\\k14}ワ
+Dialogue: 0,0:00:13.38,0:00:15.08,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(203.37890625,204)\k120\\k30}ワ！！
+Dialogue: 0,0:00:13.98,0:00:16.31,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(174.99609375,73)\k90\0}
+Dialogue: 0,0:00:13.98,0:00:16.31,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(180.99609375,73)\k90\\k16}モ
+Dialogue: 0,0:00:13.98,0:00:16.31,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(192.498046875,73)\k106\\k17}コ
+Dialogue: 0,0:00:13.98,0:00:16.31,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(203.501953125,73)\k123\\k90}コ
+Dialogue: 0,0:00:14.64,0:00:16.31,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(159.08203125,264)\k90\0}
+Dialogue: 0,0:00:14.64,0:00:16.31,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(165.08203125,264)\k90\\k14}モ
+Dialogue: 0,0:00:14.64,0:00:16.31,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(176.583984375,264)\k104\\k13}コ
+Dialogue: 0,0:00:14.64,0:00:16.31,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(203.501953125,264)\k117\\k30}コ！！
+Dialogue: 0,0:00:15.21,0:00:18.78,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(121.37109375,32)\k90\0}
+Dialogue: 0,0:00:15.21,0:00:18.78,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(126.75,32)\k90\\k17}フ
+Dialogue: 0,0:00:15.21,0:00:18.78,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(138.12890625,32)\k107\\k17}ワ
+Dialogue: 0,0:00:15.21,0:00:18.78,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(148.60546875,32)\k124\\k0}
+Dialogue: 0,0:00:15.21,0:00:18.78,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(156.5625,32)\k124\\k26}＋
+Dialogue: 0,0:00:15.21,0:00:18.78,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(168.99609375,32)\k150\\k0}
+Dialogue: 0,0:00:15.21,0:00:18.78,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(174.99609375,32)\k150\\k17}モ
+Dialogue: 0,0:00:15.21,0:00:18.78,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(186.498046875,32)\k167\\k17}コ
+Dialogue: 0,0:00:15.21,0:00:18.78,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(196.4765625,32)\k184\\k0}
+Dialogue: 0,0:00:15.21,0:00:18.78,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(204.43359375,32)\k184\\k33}＝
+Dialogue: 0,0:00:15.21,0:00:18.78,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(216.8671875,32)\k217\\k0}
+Dialogue: 0,0:00:15.21,0:00:18.78,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(222.24609375,32)\k217\\k13}フ
+Dialogue: 0,0:00:15.21,0:00:18.78,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(233.625,32)\k230\\k17}ワ
+Dialogue: 0,0:00:15.21,0:00:18.78,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(245.625,32)\k247\\k17}モ
+Dialogue: 0,0:00:15.21,0:00:18.78,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(257.126953125,32)\k264\\k73}コ
+Dialogue: 0,0:00:15.21,0:00:18.78,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(157.40625,14)\k124\\k26}プラス
+Dialogue: 0,0:00:15.21,0:00:18.78,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(204.43359375,14)\k184\\k33}は
+Dialogue: 0,0:00:17.05,0:00:18.78,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(153.205078125,204)\k90\0}
+Dialogue: 0,0:00:17.05,0:00:18.78,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(158.583984375,204)\k90\\k13}フ
+Dialogue: 0,0:00:17.05,0:00:18.78,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(169.962890625,204)\k103\\k13}ワ
+Dialogue: 0,0:00:17.05,0:00:18.78,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(181.962890625,204)\k116\\k17}モ
+Dialogue: 0,0:00:17.05,0:00:18.78,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(209.37890625,204)\k133\\k20}コ！！
+Dialogue: 0,0:00:17.73,0:00:19.45,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(174.62109375,73)\k90\0}
+Dialogue: 0,0:00:17.73,0:00:19.45,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(180,73)\k90\\k12}フ
+Dialogue: 0,0:00:17.73,0:00:19.45,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(191.37890625,73)\k102\\k19}ワ
+Dialogue: 0,0:00:17.73,0:00:19.45,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(203.37890625,73)\k121\\k31}ワ
+Dialogue: 0,0:00:18.30,0:00:20.02,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(158.70703125,264)\k90\0}
+Dialogue: 0,0:00:18.30,0:00:20.02,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(164.0859375,264)\k90\\k13}フ
+Dialogue: 0,0:00:18.30,0:00:20.02,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(175.46484375,264)\k103\\k21}ワ
+Dialogue: 0,0:00:18.30,0:00:20.02,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(203.37890625,264)\k124\\k28}ワ！！
+Dialogue: 0,0:00:18.92,0:00:20.95,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(174.99609375,32)\k90\0}
+Dialogue: 0,0:00:18.92,0:00:20.95,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(180.99609375,32)\k90\\k13}モ
+Dialogue: 0,0:00:18.92,0:00:20.95,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(192.498046875,32)\k103\\k21}コ
+Dialogue: 0,0:00:18.92,0:00:20.95,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(203.501953125,32)\k124\\k59}コ
+Dialogue: 0,0:00:19.58,0:00:21.25,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(159.08203125,204)\k90\0}
+Dialogue: 0,0:00:19.58,0:00:21.25,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(165.08203125,204)\k90\\k16}モ
+Dialogue: 0,0:00:19.58,0:00:21.25,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(176.583984375,204)\k106\\k17}コ
+Dialogue: 0,0:00:19.58,0:00:21.25,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(203.501953125,204)\k123\\k90}コ！！
+Dialogue: 0,0:00:20.15,0:00:24.02,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(121.37109375,73)\k90\0}
+Dialogue: 0,0:00:20.15,0:00:24.02,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(126.75,73)\k90\\k17}フ
+Dialogue: 0,0:00:20.15,0:00:24.02,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(138.12890625,73)\k107\\k17}ワ
+Dialogue: 0,0:00:20.15,0:00:24.02,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(148.60546875,73)\k124\\k0}
+Dialogue: 0,0:00:20.15,0:00:24.02,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(156.5625,73)\k124\\k26}＋
+Dialogue: 0,0:00:20.15,0:00:24.02,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(168.99609375,73)\k150\\k0}
+Dialogue: 0,0:00:20.15,0:00:24.02,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(174.99609375,73)\k150\\k17}モ
+Dialogue: 0,0:00:20.15,0:00:24.02,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(186.498046875,73)\k167\\k17}コ
+Dialogue: 0,0:00:20.15,0:00:24.02,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(196.4765625,73)\k184\\k0}
+Dialogue: 0,0:00:20.15,0:00:24.02,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(204.43359375,73)\k184\\k33}＝
+Dialogue: 0,0:00:20.15,0:00:24.02,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(216.8671875,73)\k217\\k0}
+Dialogue: 0,0:00:20.15,0:00:24.02,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(222.24609375,73)\k217\\k13}フ
+Dialogue: 0,0:00:20.15,0:00:24.02,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(233.625,73)\k230\\k17}ワ
+Dialogue: 0,0:00:20.15,0:00:24.02,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(245.625,73)\k247\\k17}モ
+Dialogue: 0,0:00:20.15,0:00:24.02,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(257.126953125,73)\k264\\k73}コ
+Dialogue: 0,0:00:20.15,0:00:24.02,Fuwawa-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(157.40625,55)\k124\\k26}プラス
+Dialogue: 0,0:00:20.15,0:00:24.02,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(204.43359375,55)\k184\\k33}は
+Dialogue: 0,0:00:22.02,0:00:24.02,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(153.205078125,264)\k90\0}
+Dialogue: 0,0:00:22.02,0:00:24.02,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(158.583984375,264)\k90\\k9}フ
+Dialogue: 0,0:00:22.02,0:00:24.02,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(169.962890625,264)\k99\\k11}ワ
+Dialogue: 0,0:00:22.02,0:00:24.02,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(181.962890625,264)\k110\\k28}モ
+Dialogue: 0,0:00:22.02,0:00:24.02,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(209.37890625,264)\k138\\k42}コ！！
+Dialogue: 0,0:00:22.92,0:00:25.12,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(144.779296875,32)\k90\0}
+Dialogue: 0,0:00:22.92,0:00:25.12,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(162.234375,32)\k90\\k27}BAU
+Dialogue: 0,0:00:22.92,0:00:25.12,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(184.166015625,32)\k117\\k0}
+Dialogue: 0,0:00:22.92,0:00:25.12,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(211.693359375,32)\k117\\k83}BAU~!!
+Dialogue: 0,0:00:22.92,0:00:25.12,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(162.234375,14)\k90\\k27}バウ
+Dialogue: 0,0:00:22.92,0:00:25.12,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(211.693359375,14)\k117\\k83}バウ～！！
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(78.83203125,73)\k90\0}
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(92.255859375,73)\k90\\k17}WA
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(116.87109375,73)\k107\\k13}KE
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(132.5390625,73)\k120\\k0}
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(138.357421875,73)\k120\\k20}U
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(149.548828125,73)\k140\\k17}P
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(159.3984375,73)\k157\\k0}
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(165.15234375,73)\k157\\k13}し
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(177.15234375,73)\k170\\k17}た
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(188.900390625,73)\k187\\k13}ら
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(202.359375,73)\k200\\k30}君
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(216.5625,73)\k230\\k17}に
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(227.28515625,73)\k247\\k0}
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(251.900390625,73)\k247\\k30}MORN
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(290.841796875,73)\k277\\k30}ING
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(100.693359375,55)\k90\\k17}ウェイ
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(111.65625,55)\k107\\k13}ク
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(140.73046875,55)\k120\\k20}アッ
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(149.033203125,55)\k140\\k17}プ
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(198.83203125,55)\k200\\k14}き
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(205.359375,55)\k214\\k16}み
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(257.220703125,55)\k247\\k30}モー
+Dialogue: 0,0:00:24.02,0:00:27.29,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(272.478515625,55)\k277\\k30}ニング
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(62.091796875,32)\k90\0}
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(80.888671875,32)\k90\\k33}NEW
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(104.162109375,32)\k123\\k0}
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(110.970703125,32)\k123\\k14}な
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(125.736328125,32)\k137\\k16}出
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(141.650390625,32)\k153\\k17}会
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(156.10546875,32)\k170\\k17}い
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(170.560546875,32)\k187\\k30}鼻
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(186.474609375,32)\k217\\k13}利
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(200.9296875,32)\k230\\k20}か
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(214.171875,32)\k250\\k30}せ
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(225.392578125,32)\k280\\k0}
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(247.775390625,32)\k280\\k30}SEAR
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(281.794921875,32)\k310\\k30}CH
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(297.908203125,32)\k340\\k0}
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(303.662109375,32)\k340\\k17}し
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(315.662109375,32)\k357\\k27}て
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(80.888671875,14)\k90\\k33}ニュー
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(130.44140625,14)\k137\\k16}で
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(136.9453125,14)\k153\\k17}あ
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(167.15625,14)\k187\\k16}は
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(173.96484375,14)\k203\\k14}な
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(186.474609375,14)\k217\\k13}き
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(256.2890625,14)\k280\\k30}サー
+Dialogue: 0,0:00:26.19,0:00:30.23,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(265.916015625,14)\k310\\k30}チ
+Dialogue: 0,0:00:29.13,0:00:32.26,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(133.01953125,73)\k90\0}
+Dialogue: 0,0:00:29.13,0:00:32.26,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(138.7734375,73)\k90\\k30}ド
+Dialogue: 0,0:00:29.13,0:00:32.26,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(151.025390625,73)\k120\\k33}キ
+Dialogue: 0,0:00:29.13,0:00:32.26,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(162,73)\k153\\k0}
+Dialogue: 0,0:00:29.13,0:00:32.26,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(167.75390625,73)\k153\\k30}ド
+Dialogue: 0,0:00:29.13,0:00:32.26,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(180.005859375,73)\k183\\k30}キ
+Dialogue: 0,0:00:29.13,0:00:32.26,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(190.98046875,73)\k213\\k0}
+Dialogue: 0,0:00:29.13,0:00:32.26,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(209.337890625,73)\k213\\k27}DOG
+Dialogue: 0,0:00:29.13,0:00:32.26,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(239.337890625,73)\k240\\k53}GY
+Dialogue: 0,0:00:29.13,0:00:32.26,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(217.669921875,55)\k213\\k27}ドッ
+Dialogue: 0,0:00:29.13,0:00:32.26,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(226.16015625,55)\k240\\k53}ギ
+Dialogue: 0,0:00:31.16,0:00:35.03,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(125.173828125,32)\k90\0}
+Dialogue: 0,0:00:31.16,0:00:35.03,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(133.130859375,32)\k90\\k33}右
+Dialogue: 0,0:00:31.16,0:00:35.03,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(147.333984375,32)\k123\\k27}に
+Dialogue: 0,0:00:31.16,0:00:35.03,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(161.537109375,32)\k150\\k80}左
+Dialogue: 0,0:00:31.16,0:00:35.03,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(173.970703125,32)\k230\\k0}
+Dialogue: 0,0:00:31.16,0:00:35.03,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(186.62109375,32)\k230\\k23}バウ
+Dialogue: 0,0:00:31.16,0:00:35.03,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(216.3984375,32)\k253\\k31}バウ
+Dialogue: 0,0:00:31.16,0:00:35.03,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(246.17578125,32)\k284\\k83}バウ
+Dialogue: 0,0:00:31.16,0:00:35.03,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(129.943359375,14)\k90\\k17}み
+Dialogue: 0,0:00:31.16,0:00:35.03,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(136.658203125,14)\k107\\k16}ぎ
+Dialogue: 0,0:00:31.16,0:00:35.03,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(156.83203125,14)\k150\\k17}ひ
+Dialogue: 0,0:00:31.16,0:00:35.03,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(163.20703125,14)\k167\\k17}だ
+Dialogue: 0,0:00:31.16,0:00:35.03,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(168.83203125,14)\k184\\k46}り
+Dialogue: 0,0:00:33.93,0:00:37.20,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(93.046875,73)\k90\0}
+Dialogue: 0,0:00:33.93,0:00:37.20,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(101.00390625,73)\k90\\k33}悩
+Dialogue: 0,0:00:33.93,0:00:37.20,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(115.458984375,73)\k123\\k14}ん
+Dialogue: 0,0:00:33.93,0:00:37.20,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(128.455078125,73)\k137\\k16}で
+Dialogue: 0,0:00:33.93,0:00:37.20,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(141.451171875,73)\k153\\k17}い
+Dialogue: 0,0:00:33.93,0:00:37.20,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(154.1953125,73)\k170\\k13}て
+Dialogue: 0,0:00:33.93,0:00:37.20,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(166.505859375,73)\k183\\k17}も
+Dialogue: 0,0:00:33.93,0:00:37.20,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(180.52734375,73)\k200\\k17}来
+Dialogue: 0,0:00:33.93,0:00:37.20,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(200.05078125,73)\k217\\k13}ちゃ
+Dialogue: 0,0:00:33.93,0:00:37.20,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(216.375,73)\k230\\k17}う
+Dialogue: 0,0:00:33.93,0:00:37.20,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(236.349609375,73)\k247\\k30}FU
+Dialogue: 0,0:00:33.93,0:00:37.20,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(269.021484375,73)\k277\\k30}TURE
+Dialogue: 0,0:00:33.93,0:00:37.20,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(97.62890625,55)\k90\\k17}な
+Dialogue: 0,0:00:33.93,0:00:37.20,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(104.408203125,55)\k107\\k16}や
+Dialogue: 0,0:00:33.93,0:00:37.20,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(180.52734375,55)\k200\\k17}き
+Dialogue: 0,0:00:33.93,0:00:37.20,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(249.275390625,55)\k247\\k30}フュー
+Dialogue: 0,0:00:33.93,0:00:37.20,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(266.853515625,55)\k277\\k30}チャー
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(102.5390625,32)\k90\0}
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(108.5390625,32)\k90\\k33}ま
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(121.283203125,32)\k123\\k14}ず
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(134.8359375,32)\k137\\k13}は
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(149.6015625,32)\k150\\k17}目
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(164.056640625,32)\k167\\k16}の
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(178.51171875,32)\k183\\k34}前
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(192.966796875,32)\k217\\k13}の
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(207.421875,32)\k230\\k47}道
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(231.046875,32)\k277\\k30}STE
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(252.087890625,32)\k307\\k33}P
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(263.21484375,32)\k340\\k14}し
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(275.21484375,32)\k354\\k26}て
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(149.6015625,14)\k150\\k17}め
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(175.388671875,14)\k183\\k17}ま
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(181.51171875,14)\k200\\k17}え
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(204.392578125,14)\k230\\k17}み
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(210.94921875,14)\k247\\k30}ち
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(233.419921875,14)\k277\\k30}ステッ
+Dialogue: 0,0:00:36.10,0:00:40.10,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(244.81640625,14)\k307\\k33}プ
+Dialogue: 0,0:00:39.00,0:00:42.14,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(104.70703125,73)\k90\0}
+Dialogue: 0,0:00:39.00,0:00:42.14,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(121.716796875,73)\k90\\k34}HAP
+Dialogue: 0,0:00:39.00,0:00:42.14,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(149.47265625,73)\k124\\k30}PY
+Dialogue: 0,0:00:39.00,0:00:42.14,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(164.6953125,73)\k154\\k0}
+Dialogue: 0,0:00:39.00,0:00:42.14,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(187.072265625,73)\k154\\k33}LUCK
+Dialogue: 0,0:00:39.00,0:00:42.14,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(214.822265625,73)\k187\\k27}Y
+Dialogue: 0,0:00:39.00,0:00:42.14,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(224.671875,73)\k214\\k0}
+Dialogue: 0,0:00:39.00,0:00:42.14,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(241.236328125,73)\k214\\k33}PUP
+Dialogue: 0,0:00:39.00,0:00:42.14,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(268.546875,73)\k247\\k47}PY
+Dialogue: 0,0:00:39.00,0:00:42.14,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(126.26953125,55)\k90\\k34}ハッ
+Dialogue: 0,0:00:39.00,0:00:42.14,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(138.140625,55)\k124\\k30}ピー
+Dialogue: 0,0:00:39.00,0:00:42.14,Fuwawa-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(185.94140625,55)\k154\\k33}ラッ
+Dialogue: 0,0:00:39.00,0:00:42.14,Fuwawa-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(197.501953125,55)\k187\\k27}キー
+Dialogue: 0,0:00:39.00,0:00:42.14,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(245.7890625,55)\k214\\k33}パ
+Dialogue: 0,0:00:39.00,0:00:42.14,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(255.29296875,55)\k247\\k47}ピー
+Dialogue: 0,0:00:41.04,0:00:44.05,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(145.623046875,32)\k90\0}
+Dialogue: 0,0:00:41.04,0:00:44.05,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(153.580078125,32)\k90\\k16}一
+Dialogue: 0,0:00:41.04,0:00:44.05,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(169.494140625,32)\k106\\k17}緒
+Dialogue: 0,0:00:41.04,0:00:44.05,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(183.697265625,32)\k123\\k30}に
+Dialogue: 0,0:00:41.04,0:00:44.05,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(197.900390625,32)\k153\\k30}歩
+Dialogue: 0,0:00:41.04,0:00:44.05,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(211.359375,32)\k183\\k14}こ
+Dialogue: 0,0:00:41.04,0:00:44.05,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(221.619140625,32)\k197\\k16}う
+Dialogue: 0,0:00:41.04,0:00:44.05,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(232.376953125,32)\k213\\k68}よ
+Dialogue: 0,0:00:41.04,0:00:44.05,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(156.28125,14)\k90\\k16}いっ
+Dialogue: 0,0:00:41.04,0:00:44.05,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(167.291015625,14)\k106\\k17}しょ
+Dialogue: 0,0:00:41.04,0:00:44.05,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(194.87109375,14)\k153\\k13}あ
+Dialogue: 0,0:00:41.04,0:00:44.05,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(201.15234375,14)\k166\\k17}る
+Dialogue: 0,0:00:43.34,0:00:49.28,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(125.654296875,73)\k90\0}
+Dialogue: 0,0:00:43.34,0:00:49.28,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(131.314453125,73)\k90\\k19}ﾄﾞ
+Dialogue: 0,0:00:43.34,0:00:49.28,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(143.47265625,73)\k109\\k18}ー
+Dialogue: 0,0:00:43.34,0:00:49.28,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(156.345703125,73)\k127\\k60}ナ
+Dialogue: 0,0:00:43.34,0:00:49.28,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(168.568359375,73)\k187\\k60}ツ
+Dialogue: 0,0:00:43.34,0:00:49.28,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(180.9140625,73)\k247\\k30}の
+Dialogue: 0,0:00:43.34,0:00:49.28,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(195.369140625,73)\k277\\k63}穴
+Dialogue: 0,0:00:43.34,0:00:49.28,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(209.82421875,73)\k340\\k30}の
+Dialogue: 0,0:00:43.34,0:00:49.28,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(224.279296875,73)\k370\\k77}中
+Dialogue: 0,0:00:43.34,0:00:49.28,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(238.482421875,73)\k447\\k34}に
+Dialogue: 0,0:00:43.34,0:00:49.28,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(251.537109375,73)\k481\\k93}は
+Dialogue: 0,0:00:43.34,0:00:49.28,Fuwawa-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(191.96484375,55)\k277\\k33}あ
+Dialogue: 0,0:00:43.34,0:00:49.28,Fuwawa-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(198.62109375,55)\k310\\k30}な
+Dialogue: 0,0:00:43.34,0:00:49.28,Fuwawa-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(221.02734375,55)\k370\\k64}な
+Dialogue: 0,0:00:43.34,0:00:49.28,Fuwawa-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(227.68359375,55)\k434\\k13}か
+Dialogue: 0,0:00:48.95,0:00:52.45,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(157.74609375,32)\k90\0}
+Dialogue: 0,0:00:48.95,0:00:52.45,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(168.75,32)\k90\\k28}きっ
+Dialogue: 0,0:00:48.95,0:00:52.45,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(184.7578125,32)\k118\\k62}と
+Dialogue: 0,0:00:48.95,0:00:52.45,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(205.2421875,32)\k180\\k50}きっ
+Dialogue: 0,0:00:48.95,0:00:52.45,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(221.25,32)\k230\\k100}と
+Dialogue: 0,0:00:51.35,0:00:55.92,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(134.150390625,73)\k90\0}
+Dialogue: 0,0:00:51.35,0:00:55.92,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(142.107421875,73)\k90\\k67}夢
+Dialogue: 0,0:00:51.35,0:00:55.92,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(156.685546875,73)\k157\\k30}が
+Dialogue: 0,0:00:51.35,0:00:55.92,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(171.263671875,73)\k187\\k33}詰
+Dialogue: 0,0:00:51.35,0:00:55.92,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(190.224609375,73)\k220\\k27}まっ
+Dialogue: 0,0:00:51.35,0:00:55.92,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(207.474609375,73)\k247\\k19}て
+Dialogue: 0,0:00:51.35,0:00:55.92,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(219.78515625,73)\k266\\k14}る
+Dialogue: 0,0:00:51.35,0:00:55.92,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(232.34765625,73)\k280\\k17}か
+Dialogue: 0,0:00:51.35,0:00:55.92,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(244.34765625,73)\k297\\kf140}ら
+Dialogue: 0,0:00:51.35,0:00:55.92,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(138.85546875,55)\k90\\k36}ゆ
+Dialogue: 0,0:00:51.35,0:00:55.92,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(145.51171875,55)\k126\\k31}め
+Dialogue: 0,0:00:51.35,0:00:55.92,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(171.263671875,55)\k187\\k33}つ
+Dialogue: 0,0:00:55.59,0:00:57.45,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(165.515625,32)\k90\0}
+Dialogue: 0,0:00:55.59,0:00:57.45,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(172.013671875,32)\k90\\k13}ふ
+Dialogue: 0,0:00:55.59,0:00:57.45,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(185.255859375,32)\k103\\k23}わ
+Dialogue: 0,0:00:55.59,0:00:57.45,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(198.498046875,32)\k126\\k20}ふ
+Dialogue: 0,0:00:55.59,0:00:57.45,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(211.740234375,32)\k146\\k20}わ
+Dialogue: 0,0:00:56.35,0:00:58.09,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(158.208984375,204)\k90\0}
+Dialogue: 0,0:00:56.35,0:00:58.09,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(172.166015625,204)\k90\\k16}ワ！
+Dialogue: 0,0:00:56.35,0:00:58.09,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(205.95703125,204)\k106\\k48}フー！
+Dialogue: 0,0:00:56.82,0:00:58.69,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(167.87109375,73)\k90\0}
+Dialogue: 0,0:00:56.82,0:00:58.69,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(173.935546875,73)\k90\\k17}も
+Dialogue: 0,0:00:56.82,0:00:58.69,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(186.498046875,73)\k107\\k13}か
+Dialogue: 0,0:00:56.82,0:00:58.69,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(199.060546875,73)\k120\\k17}も
+Dialogue: 0,0:00:56.82,0:00:58.69,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(210.626953125,73)\k137\\k73}こ
+Dialogue: 0,0:00:57.59,0:00:59.63,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(152.162109375,264)\k90\0}
+Dialogue: 0,0:00:57.59,0:00:59.63,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(176.7890625,264)\k90\\k24}Come
+Dialogue: 0,0:00:57.59,0:00:59.63,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(216.626953125,264)\k114\\k70}on!!
+Dialogue: 0,0:00:57.59,0:00:59.63,Sample KM [Choir]-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(176.7890625,246)\k90\\k24}カム
+Dialogue: 0,0:00:57.59,0:00:59.63,Sample KM [Choir]-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(216.626953125,246)\k114\\k70}オン
+Dialogue: 0,0:00:58.02,0:01:01.89,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(109.83984375,32)\k90\0}
+Dialogue: 0,0:00:58.02,0:01:01.89,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(117.796875,32)\k90\\k19}魔
+Dialogue: 0,0:00:58.02,0:01:01.89,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(133.7109375,32)\k109\\k18}界
+Dialogue: 0,0:00:58.02,0:01:01.89,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(149.625,32)\k127\\k13}乃
+Dialogue: 0,0:00:58.02,0:01:01.89,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(165.5390625,32)\k140\\k31}番
+Dialogue: 0,0:00:58.02,0:01:01.89,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(181.453125,32)\k171\\k33}犬
+Dialogue: 0,0:00:58.02,0:01:01.89,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(195.908203125,32)\k204\\k13}シ
+Dialogue: 0,0:00:58.02,0:01:01.89,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(208.5,32)\k217\\k17}ス
+Dialogue: 0,0:00:58.02,0:01:01.89,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(220.095703125,32)\k234\\k16}タ
+Dialogue: 0,0:00:58.02,0:01:01.89,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(232.095703125,32)\k250\\k60}ー
+Dialogue: 0,0:00:58.02,0:01:01.89,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(256.376953125,32)\k310\\k57}ズ☆★
+Dialogue: 0,0:00:58.02,0:01:01.89,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(119.25,14)\k90\\k19}ま
+Dialogue: 0,0:00:58.02,0:01:01.89,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(128.75390625,14)\k109\\k18}かい
+Dialogue: 0,0:00:58.02,0:01:01.89,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(149.625,14)\k127\\k13}の
+Dialogue: 0,0:00:58.02,0:01:01.89,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(166.9921875,14)\k140\\k31}ばん
+Dialogue: 0,0:00:58.02,0:01:01.89,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(180.15234375,14)\k171\\k33}けん
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(114.33984375,73)\k90\0}
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(118.822265625,73)\k90\\k20}2
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(131.26171875,73)\k110\\k60}匹
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(145.83984375,73)\k170\\k34}が
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(160.41796875,73)\k204\\k46}揃
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(174.62109375,73)\k250\\k30}え
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(187.67578125,73)\k280\\k30}ば
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(205.025390625,73)\k310\\k34}も
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(215.84765625,73)\k344\\k46}う
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(233.0390625,73)\k390\\k60}大
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(248.953125,73)\k450\\k64}騒
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(263.28515625,73)\k514\\k47}ぎ
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(118.822265625,55)\k90\\k20}に
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(128.26171875,55)\k110\\k33}ひ
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(134.513671875,55)\k143\\k27}き
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(157.388671875,55)\k204\\k30}そ
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(163.388671875,55)\k234\\k16}ろ
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(231.615234375,55)\k390\\k30}お
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(238.119140625,55)\k420\\k30}お
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(244.125,55)\k450\\k34}さ
+Dialogue: 0,0:01:00.79,0:01:06.60,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(250.25390625,55)\k484\\k30}わ
+Dialogue: 0,0:01:05.50,0:01:07.36,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(166.875,32)\k90\0}
+Dialogue: 0,0:01:05.50,0:01:07.36,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(172.939453125,32)\k90\\k21}も
+Dialogue: 0,0:01:05.50,0:01:07.36,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(185.501953125,32)\k111\\k9}あ
+Dialogue: 0,0:01:05.50,0:01:07.36,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(198.064453125,32)\k120\\k17}も
+Dialogue: 0,0:01:05.50,0:01:07.36,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(210.626953125,32)\k137\\k29}あ
+Dialogue: 0,0:01:06.26,0:01:07.83,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(160.013671875,204)\k90\0}
+Dialogue: 0,0:01:06.26,0:01:07.83,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(171.08203125,204)\k90\\k17}もっ
+Dialogue: 0,0:01:06.26,0:01:07.83,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(203.068359375,204)\k107\\k30}と！！
+Dialogue: 0,0:01:06.73,0:01:08.60,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(167.00390625,73)\k90\0}
+Dialogue: 0,0:01:06.73,0:01:08.60,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(173.748046875,73)\k90\\k13}ハ
+Dialogue: 0,0:01:06.73,0:01:08.60,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(186.24609375,73)\k103\\k17}ロ
+Dialogue: 0,0:01:06.73,0:01:08.60,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(198.744140625,73)\k120\\k17}ハ
+Dialogue: 0,0:01:06.73,0:01:08.60,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(211.2421875,73)\k137\\k73}ロ
+Dialogue: 0,0:01:07.50,0:01:09.03,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(148.546875,264)\k90\0}
+Dialogue: 0,0:01:07.50,0:01:09.03,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(161.197265625,264)\k90\\k16}バウ
+Dialogue: 0,0:01:07.50,0:01:09.03,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(206.888671875,264)\k106\\k27}バウ！！
+Dialogue: 0,0:01:07.93,0:01:11.53,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(114.17578125,32)\k90\0}
+Dialogue: 0,0:01:07.93,0:01:11.53,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(122.1328125,32)\k90\\k30}迷
+Dialogue: 0,0:01:07.93,0:01:11.53,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(136.833984375,32)\k120\\k34}わ
+Dialogue: 0,0:01:07.93,0:01:11.53,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(150.322265625,32)\k154\\k16}ず
+Dialogue: 0,0:01:07.93,0:01:11.53,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(163.3125,32)\k170\\k30}に
+Dialogue: 0,0:01:07.93,0:01:11.53,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(186.57421875,32)\k200\\k30}GO
+Dialogue: 0,0:01:07.93,0:01:11.53,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(203.58984375,32)\k230\\k0}
+Dialogue: 0,0:01:07.93,0:01:11.53,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(215.671875,32)\k230\\k17}MY
+Dialogue: 0,0:01:07.93,0:01:11.53,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(232.23046875,32)\k247\\k0}
+Dialogue: 0,0:01:07.93,0:01:11.53,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(251.02734375,32)\k247\\k93}WAY
+Dialogue: 0,0:01:07.93,0:01:11.53,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(119.1328125,14)\k90\\k17}ま
+Dialogue: 0,0:01:07.93,0:01:11.53,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(125.1328125,14)\k107\\k13}よ
+Dialogue: 0,0:01:07.93,0:01:11.53,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(186.57421875,14)\k200\\k30}ゴ
+Dialogue: 0,0:01:07.93,0:01:11.53,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(215.671875,14)\k230\\k17}マイ
+Dialogue: 0,0:01:07.93,0:01:11.53,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(251.02734375,14)\k247\\k93}ウェイ
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(89.947265625,73)\k90\0}
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(97.904296875,73)\k90\\k30}君
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(112.359375,73)\k120\\k17}の
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(126.814453125,73)\k137\\k31}絶
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(142.728515625,73)\k168\\k29}対
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(158.642578125,73)\k197\\k13}味
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(174.556640625,73)\k210\\k47}方
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(198.181640625,73)\k257\\k21}“BA
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(223.69921875,73)\k278\\k26}U”
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(245.63671875,73)\k304\\k34}DO
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(262.646484375,73)\k338\\k36}L
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(280.810546875,73)\k374\\kf139}です
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(94.376953125,55)\k90\\k17}き
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(100.904296875,55)\k107\\k13}み
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(128.396484375,55)\k137\\k31}ぜっ
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(140.6484375,55)\k168\\k29}たい
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(160.224609375,55)\k197\\k13}み
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(167.00390625,55)\k210\\k17}か
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(173.37890625,55)\k227\\k30}た
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(203.0859375,55)\k257\\k21}「バ
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(213.3984375,55)\k278\\k26}ウ」
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(247.306640625,55)\k304\\k34}ド
+Dialogue: 0,0:01:10.43,0:01:15.76,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(253.435546875,55)\k338\\k36}ル
+Dialogue: 0,0:01:14.90,0:01:16.94,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(149.484375,32)\k90\0}
+Dialogue: 0,0:01:14.90,0:01:16.94,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(166.939453125,32)\k90\\k31}BAU
+Dialogue: 0,0:01:14.90,0:01:16.94,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(188.87109375,32)\k121\\k0}
+Dialogue: 0,0:01:14.90,0:01:16.94,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(211.693359375,32)\k121\\k63}BAU!!
+Dialogue: 0,0:01:14.90,0:01:16.94,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(166.939453125,14)\k90\\k31}バウ
+Dialogue: 0,0:01:14.90,0:01:16.94,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(211.693359375,14)\k121\\k63}バウ！！
+Dialogue: 0,0:01:15.84,0:01:17.57,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(174.62109375,73)\k90\0}
+Dialogue: 0,0:01:15.84,0:01:17.57,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(180,73)\k90\\k21}フ
+Dialogue: 0,0:01:15.84,0:01:17.57,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(191.37890625,73)\k111\\k21}ワ
+Dialogue: 0,0:01:15.84,0:01:17.57,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(203.37890625,73)\k132\\k21}ワ
+Dialogue: 0,0:01:16.47,0:01:18.14,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(166.6640625,204)\k90\0}
+Dialogue: 0,0:01:16.47,0:01:18.14,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(172.04296875,204)\k90\\k17}フ
+Dialogue: 0,0:01:16.47,0:01:18.14,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(183.421875,204)\k107\\k13}ワ
+Dialogue: 0,0:01:16.47,0:01:18.14,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(203.37890625,204)\k120\\k27}ワ！
+Dialogue: 0,0:01:17.04,0:01:18.81,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(174.99609375,32)\k90\0}
+Dialogue: 0,0:01:17.04,0:01:18.81,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(180.99609375,32)\k90\\k13}モ
+Dialogue: 0,0:01:17.04,0:01:18.81,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(192.498046875,32)\k103\\k17}コ
+Dialogue: 0,0:01:17.04,0:01:18.81,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(203.501953125,32)\k120\\k93}コ
+Dialogue: 0,0:01:17.71,0:01:19.37,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(159.08203125,264)\k90\0}
+Dialogue: 0,0:01:17.71,0:01:19.37,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(165.08203125,264)\k90\\k16}モ
+Dialogue: 0,0:01:17.71,0:01:19.37,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(176.583984375,264)\k106\\k14}コ
+Dialogue: 0,0:01:17.71,0:01:19.37,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(203.501953125,264)\k120\\k26}コ！！
+Dialogue: 0,0:01:18.27,0:01:21.24,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(121.37109375,73)\k90\0}
+Dialogue: 0,0:01:18.27,0:01:21.24,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(126.75,73)\k90\\k17}フ
+Dialogue: 0,0:01:18.27,0:01:21.24,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(138.12890625,73)\k107\\k17}ワ
+Dialogue: 0,0:01:18.27,0:01:21.24,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(148.60546875,73)\k124\\k0}
+Dialogue: 0,0:01:18.27,0:01:21.24,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(156.5625,73)\k124\\k26}＋
+Dialogue: 0,0:01:18.27,0:01:21.24,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(168.99609375,73)\k150\\k0}
+Dialogue: 0,0:01:18.27,0:01:21.24,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(174.99609375,73)\k150\\k17}モ
+Dialogue: 0,0:01:18.27,0:01:21.24,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(186.498046875,73)\k167\\k17}コ
+Dialogue: 0,0:01:18.27,0:01:21.24,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(196.4765625,73)\k184\\k0}
+Dialogue: 0,0:01:18.27,0:01:21.24,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(204.43359375,73)\k184\\k33}＝
+Dialogue: 0,0:01:18.27,0:01:21.24,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(216.8671875,73)\k217\\k0}
+Dialogue: 0,0:01:18.27,0:01:21.24,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(222.24609375,73)\k217\\k13}フ
+Dialogue: 0,0:01:18.27,0:01:21.24,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(233.625,73)\k230\\k17}ワ
+Dialogue: 0,0:01:18.27,0:01:21.24,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(245.625,73)\k247\\k17}モ
+Dialogue: 0,0:01:18.27,0:01:21.24,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(257.126953125,73)\k264\\k73}コ
+Dialogue: 0,0:01:18.27,0:01:21.24,Fuwawa-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(157.40625,55)\k124\\k26}プラス
+Dialogue: 0,0:01:18.27,0:01:21.24,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(204.43359375,55)\k184\\k33}は
+Dialogue: 0,0:01:20.14,0:01:21.88,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(153.205078125,204)\k90\0}
+Dialogue: 0,0:01:20.14,0:01:21.88,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(158.583984375,204)\k90\\k14}フ
+Dialogue: 0,0:01:20.14,0:01:21.88,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(169.962890625,204)\k104\\k13}ワ
+Dialogue: 0,0:01:20.14,0:01:21.88,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(181.962890625,204)\k117\\k17}モ
+Dialogue: 0,0:01:20.14,0:01:21.88,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(209.37890625,204)\k134\\k20}コ！！
+Dialogue: 0,0:01:20.78,0:01:22.51,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(174.62109375,32)\k90\0}
+Dialogue: 0,0:01:20.78,0:01:22.51,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(180,32)\k90\\k21}フ
+Dialogue: 0,0:01:20.78,0:01:22.51,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(191.37890625,32)\k111\\k21}ワ
+Dialogue: 0,0:01:20.78,0:01:22.51,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(203.37890625,32)\k132\\k21}ワ
+Dialogue: 0,0:01:21.41,0:01:23.11,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(166.6640625,264)\k90\0}
+Dialogue: 0,0:01:21.41,0:01:23.11,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(172.04296875,264)\k90\\k13}フ
+Dialogue: 0,0:01:21.41,0:01:23.11,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(183.421875,264)\k103\\k17}ワ
+Dialogue: 0,0:01:21.41,0:01:23.11,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(203.37890625,264)\k120\\k30}ワ！
+Dialogue: 0,0:01:22.01,0:01:23.78,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(174.99609375,73)\k90\0}
+Dialogue: 0,0:01:22.01,0:01:23.78,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(180.99609375,73)\k90\\k14}モ
+Dialogue: 0,0:01:22.01,0:01:23.78,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(192.498046875,73)\k104\\k16}コ
+Dialogue: 0,0:01:22.01,0:01:23.78,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(203.501953125,73)\k120\\k90}コ
+Dialogue: 0,0:01:22.68,0:01:24.31,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(159.08203125,204)\k90\0}
+Dialogue: 0,0:01:22.68,0:01:24.31,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(165.08203125,204)\k90\\k13}モ
+Dialogue: 0,0:01:22.68,0:01:24.31,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(176.583984375,204)\k103\\k17}コ
+Dialogue: 0,0:01:22.68,0:01:24.31,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(203.501953125,204)\k120\\k23}コ！！
+Dialogue: 0,0:01:23.21,0:01:26.21,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(121.37109375,32)\k90\0}
+Dialogue: 0,0:01:23.21,0:01:26.21,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(126.75,32)\k90\\k17}フ
+Dialogue: 0,0:01:23.21,0:01:26.21,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(138.12890625,32)\k107\\k17}ワ
+Dialogue: 0,0:01:23.21,0:01:26.21,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(148.60546875,32)\k124\\k0}
+Dialogue: 0,0:01:23.21,0:01:26.21,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(156.5625,32)\k124\\k26}＋
+Dialogue: 0,0:01:23.21,0:01:26.21,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(168.99609375,32)\k150\\k0}
+Dialogue: 0,0:01:23.21,0:01:26.21,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(174.99609375,32)\k150\\k17}モ
+Dialogue: 0,0:01:23.21,0:01:26.21,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(186.498046875,32)\k167\\k17}コ
+Dialogue: 0,0:01:23.21,0:01:26.21,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(196.4765625,32)\k184\\k0}
+Dialogue: 0,0:01:23.21,0:01:26.21,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(204.43359375,32)\k184\\k33}＝
+Dialogue: 0,0:01:23.21,0:01:26.21,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(216.8671875,32)\k217\\k0}
+Dialogue: 0,0:01:23.21,0:01:26.21,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(222.24609375,32)\k217\\k13}フ
+Dialogue: 0,0:01:23.21,0:01:26.21,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(233.625,32)\k230\\k17}ワ
+Dialogue: 0,0:01:23.21,0:01:26.21,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(245.625,32)\k247\\k17}モ
+Dialogue: 0,0:01:23.21,0:01:26.21,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(257.126953125,32)\k264\\k73}コ
+Dialogue: 0,0:01:23.21,0:01:26.21,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(157.40625,14)\k124\\k26}プラス
+Dialogue: 0,0:01:23.21,0:01:26.21,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(204.43359375,14)\k184\\k33}は
+Dialogue: 0,0:01:25.11,0:01:27.12,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(153.205078125,264)\k90\0}
+Dialogue: 0,0:01:25.11,0:01:27.12,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(158.583984375,264)\k90\\k17}フ
+Dialogue: 0,0:01:25.11,0:01:27.12,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(169.962890625,264)\k107\\k17}ワ
+Dialogue: 0,0:01:25.11,0:01:27.12,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(181.962890625,264)\k124\\k17}モ
+Dialogue: 0,0:01:25.11,0:01:27.12,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(209.37890625,264)\k141\\k40}コ！！
+Dialogue: 0,0:01:26.02,0:01:28.25,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(144.779296875,73)\k90\0}
+Dialogue: 0,0:01:26.02,0:01:28.25,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(162.234375,73)\k90\\k26}BAU
+Dialogue: 0,0:01:26.02,0:01:28.25,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(184.166015625,73)\k116\\k0}
+Dialogue: 0,0:01:26.02,0:01:28.25,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(211.693359375,73)\k116\\k87}BAU~!!
+Dialogue: 0,0:01:26.02,0:01:28.25,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(162.234375,55)\k90\\k26}バウ
+Dialogue: 0,0:01:26.02,0:01:28.25,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(211.693359375,55)\k116\\k87}バウ～！！
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(69.603515625,32)\k90\0}
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(76.1015625,32)\k90\\k17}ひ
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(87.603515625,32)\k107\\k13}と
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(97.611328125,32)\k120\\k17}り
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(113.87109375,32)\k137\\k13}じゃ
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(131.935546875,32)\k150\\k17}な
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(145.2421875,32)\k167\\k16}い
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(157.740234375,32)\k183\\k14}よ
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(183.111328125,32)\k197\\k13}WE'
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(209.197265625,32)\k210\\k20}RE
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(224.865234375,32)\k230\\k0}
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(236.056640625,32)\k230\\k14}TO
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(269.630859375,32)\k244\\k33}GETH
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(303.205078125,32)\k277\\k39}ER
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(191.302734375,14)\k197\\k13}ウィ
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(199.51171875,14)\k210\\k20}ア
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(257.126953125,14)\k230\\k14}トゥ
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(268.212890625,14)\k244\\k33}ギャ
+Dialogue: 0,0:01:27.15,0:01:30.51,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(280.716796875,14)\k277\\k39}ザー
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(78.3046875,73)\k90\0}
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(101.1328125,73)\k90\\k37}HEAR
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(128.8828125,73)\k127\\k16}T
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(138.28125,73)\k143\\k0}
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(146.23828125,73)\k143\\k30}繋
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(160.81640625,73)\k173\\k17}が
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(172.44140625,73)\k190\\k13}っ
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(183.69140625,73)\k203\\k17}て
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(196.001953125,73)\k220\\k17}る
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(210.0234375,73)\k237\\k30}君
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(222.984375,73)\k267\\k16}と
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(232.46484375,73)\k283\\k0}
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(249.919921875,73)\k283\\k30}CHA
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(272.296875,73)\k313\\k30}T
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(281.6953125,73)\k343\\k0}
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(287.44921875,73)\k343\\k17}し
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(299.44921875,73)\k360\\k30}て
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(103.2421875,55)\k90\\k37}ハー
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(112.681640625,55)\k127\\k16}ト
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(142.833984375,55)\k143\\k17}つ
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(149.361328125,55)\k160\\k13}な
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(206.49609375,55)\k237\\k16}き
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(213.0234375,55)\k253\\k14}み
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(252.029296875,55)\k283\\k30}チャッ
+Dialogue: 0,0:01:29.22,0:01:33.32,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(262.8984375,55)\k313\\k30}ト
+Dialogue: 0,0:01:32.22,0:01:35.36,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(101.138671875,32)\k90\0}
+Dialogue: 0,0:01:32.22,0:01:35.36,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(121.72265625,32)\k90\\k30}FLUF
+Dialogue: 0,0:01:32.22,0:01:35.36,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(152.6015625,32)\k120\\k30}FY
+Dialogue: 0,0:01:32.22,0:01:35.36,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(167.373046875,32)\k150\\k0}
+Dialogue: 0,0:01:32.22,0:01:35.36,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(183.03515625,32)\k150\\k34}FUZ
+Dialogue: 0,0:01:32.22,0:01:35.36,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(211.23046875,32)\k184\\k30}ZY
+Dialogue: 0,0:01:32.22,0:01:35.36,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(228.240234375,32)\k214\\k0}
+Dialogue: 0,0:01:32.22,0:01:35.36,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(244.8046875,32)\k214\\k33}YAP
+Dialogue: 0,0:01:32.22,0:01:35.36,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(272.115234375,32)\k247\\k47}PY
+Dialogue: 0,0:01:32.22,0:01:35.36,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(123.8203125,14)\k90\\k30}フラッ
+Dialogue: 0,0:01:32.22,0:01:35.36,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(139.763671875,14)\k120\\k30}フィー
+Dialogue: 0,0:01:32.22,0:01:35.36,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(189.005859375,14)\k150\\k34}ファ
+Dialogue: 0,0:01:32.22,0:01:35.36,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(200.58984375,14)\k184\\k30}ジー
+Dialogue: 0,0:01:32.22,0:01:35.36,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(249.357421875,14)\k214\\k33}ヤッ
+Dialogue: 0,0:01:32.22,0:01:35.36,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(261.10546875,14)\k247\\k47}ピー
+Dialogue: 0,0:01:34.26,0:01:36.97,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(142.388671875,73)\k90\0}
+Dialogue: 0,0:01:34.26,0:01:36.97,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(150.345703125,73)\k90\\k16}一
+Dialogue: 0,0:01:34.26,0:01:36.97,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(166.259765625,73)\k106\\k14}緒
+Dialogue: 0,0:01:34.26,0:01:36.97,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(180.462890625,73)\k120\\k33}に
+Dialogue: 0,0:01:34.26,0:01:36.97,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(199.142578125,73)\k153\\k30}歌
+Dialogue: 0,0:01:34.26,0:01:36.97,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(213.59765625,73)\k183\\k14}お
+Dialogue: 0,0:01:34.26,0:01:36.97,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(224.853515625,73)\k197\\k17}う
+Dialogue: 0,0:01:34.26,0:01:36.97,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(235.611328125,73)\k214\\k37}よ
+Dialogue: 0,0:01:34.26,0:01:36.97,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(153.046875,55)\k90\\k16}いっ
+Dialogue: 0,0:01:34.26,0:01:36.97,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(164.056640625,55)\k106\\k14}しょ
+Dialogue: 0,0:01:34.26,0:01:36.97,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(196.01953125,55)\k153\\k13}う
+Dialogue: 0,0:01:34.26,0:01:36.97,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(201.521484375,55)\k166\\k17}た
+Dialogue: 0,0:01:36.59,0:01:42.48,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(121.857421875,32)\k90\0}
+Dialogue: 0,0:01:36.59,0:01:42.48,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(127.611328125,32)\k90\\k10}ド
+Dialogue: 0,0:01:36.59,0:01:42.48,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(139.86328125,32)\k100\\k20}ー
+Dialogue: 0,0:01:36.59,0:01:42.48,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(152.736328125,32)\k120\\k60}ナ
+Dialogue: 0,0:01:36.59,0:01:42.48,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(164.958984375,32)\k180\\k60}ツ
+Dialogue: 0,0:01:36.59,0:01:42.48,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(177.3046875,32)\k240\\k34}の
+Dialogue: 0,0:01:36.59,0:01:42.48,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(191.759765625,32)\k274\\k60}穴
+Dialogue: 0,0:01:36.59,0:01:42.48,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(206.21484375,32)\k334\\k33}の
+Dialogue: 0,0:01:36.59,0:01:42.48,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(220.669921875,32)\k367\\k60}向
+Dialogue: 0,0:01:36.59,0:01:42.48,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(234.12890625,32)\k427\\k17}こ
+Dialogue: 0,0:01:36.59,0:01:42.48,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(244.388671875,32)\k444\\k29}う
+Dialogue: 0,0:01:36.59,0:01:42.48,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(255.64453125,32)\k473\\k96}へ
+Dialogue: 0,0:01:36.59,0:01:42.48,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(188.35546875,14)\k274\\k30}あ
+Dialogue: 0,0:01:36.59,0:01:42.48,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(195.01171875,14)\k304\\k30}な
+Dialogue: 0,0:01:36.59,0:01:42.48,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(220.669921875,14)\k367\\k60}む
+Dialogue: 0,0:01:42.13,0:01:45.29,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(157.74609375,73)\k90\0}
+Dialogue: 0,0:01:42.13,0:01:45.29,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(168.75,73)\k90\\k32}きっ
+Dialogue: 0,0:01:42.13,0:01:45.29,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(184.7578125,73)\k122\\k62}と
+Dialogue: 0,0:01:42.13,0:01:45.29,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(205.2421875,73)\k184\\k46}きっ
+Dialogue: 0,0:01:42.13,0:01:45.29,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(221.25,73)\k230\\k66}と
+Dialogue: 0,0:01:44.57,0:01:49.10,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(133.65234375,32)\k90\0}
+Dialogue: 0,0:01:44.57,0:01:49.10,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(141.609375,32)\k90\\k67}君
+Dialogue: 0,0:01:44.57,0:01:49.10,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(156.1875,32)\k157\\k30}が
+Dialogue: 0,0:01:44.57,0:01:49.10,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(175.76953125,32)\k187\\k31}待っ
+Dialogue: 0,0:01:44.57,0:01:49.10,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(194.9765625,32)\k218\\k29}て
+Dialogue: 0,0:01:44.57,0:01:49.10,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(207.720703125,32)\k247\\k16}い
+Dialogue: 0,0:01:44.57,0:01:49.10,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(220.283203125,32)\k263\\k14}る
+Dialogue: 0,0:01:44.57,0:01:49.10,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(232.845703125,32)\k277\\k16}か
+Dialogue: 0,0:01:44.57,0:01:49.10,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(244.845703125,32)\k293\\kf140}ら
+Dialogue: 0,0:01:44.57,0:01:49.10,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(138.08203125,14)\k90\\k33}き
+Dialogue: 0,0:01:44.57,0:01:49.10,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(144.609375,14)\k123\\k34}み
+Dialogue: 0,0:01:44.57,0:01:49.10,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(175.76953125,14)\k187\\k31}ま
+Dialogue: 0,0:01:48.77,0:01:50.67,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(165.515625,73)\k90\0}
+Dialogue: 0,0:01:48.77,0:01:50.67,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(172.013671875,73)\k90\\k23}ふ
+Dialogue: 0,0:01:48.77,0:01:50.67,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(185.255859375,73)\k113\\k17}わ
+Dialogue: 0,0:01:48.77,0:01:50.67,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(198.498046875,73)\k130\\k13}ふ
+Dialogue: 0,0:01:48.77,0:01:50.67,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(211.740234375,73)\k143\\k27}わ
+Dialogue: 0,0:01:49.57,0:01:51.31,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(146.9296875,204)\k90\0}
+Dialogue: 0,0:01:49.57,0:01:51.31,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(169.587890625,204)\k90\\k24}わ！！
+Dialogue: 0,0:01:49.57,0:01:51.31,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(214.658203125,204)\k114\\k40}ふ！！
+Dialogue: 0,0:01:50.01,0:01:51.91,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(168.8671875,32)\k90\0}
+Dialogue: 0,0:01:50.01,0:01:51.91,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(174.931640625,32)\k90\\k16}も
+Dialogue: 0,0:01:50.01,0:01:51.91,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(186.498046875,32)\k106\\k14}こ
+Dialogue: 0,0:01:50.01,0:01:51.91,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(198.064453125,32)\k120\\k16}も
+Dialogue: 0,0:01:50.01,0:01:51.91,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(209.630859375,32)\k136\\k74}こ
+Dialogue: 0,0:01:50.81,0:01:52.49,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(152.162109375,264)\k90\0}
+Dialogue: 0,0:01:50.81,0:01:52.49,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(174.55078125,264)\k90\\k18}Come
+Dialogue: 0,0:01:50.81,0:01:52.49,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(201.416015625,264)\k108\\k0}
+Dialogue: 0,0:01:50.81,0:01:52.49,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(216.626953125,264)\k108\\k40}on!!
+Dialogue: 0,0:01:50.81,0:01:52.49,Sample KM [Choir]-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(174.55078125,246)\k90\\k18}カム
+Dialogue: 0,0:01:50.81,0:01:52.49,Sample KM [Choir]-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(216.626953125,246)\k108\\k40}オン！！
+Dialogue: 0,0:01:51.21,0:01:55.08,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(109.83984375,73)\k90\0}
+Dialogue: 0,0:01:51.21,0:01:55.08,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(117.796875,73)\k90\\k20}魔
+Dialogue: 0,0:01:51.21,0:01:55.08,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(133.7109375,73)\k110\\k16}界
+Dialogue: 0,0:01:51.21,0:01:55.08,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(149.625,73)\k126\\k14}乃
+Dialogue: 0,0:01:51.21,0:01:55.08,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(165.5390625,73)\k140\\k33}番
+Dialogue: 0,0:01:51.21,0:01:55.08,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(181.453125,73)\k173\\k30}犬
+Dialogue: 0,0:01:51.21,0:01:55.08,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(195.908203125,73)\k203\\k14}シ
+Dialogue: 0,0:01:51.21,0:01:55.08,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(208.5,73)\k217\\k16}ス
+Dialogue: 0,0:01:51.21,0:01:55.08,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(220.095703125,73)\k233\\k17}タ
+Dialogue: 0,0:01:51.21,0:01:55.08,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(232.095703125,73)\k250\\k63}ー
+Dialogue: 0,0:01:51.21,0:01:55.08,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(256.376953125,73)\k313\\k54}ズ☆★
+Dialogue: 0,0:01:51.21,0:01:55.08,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(119.25,55)\k90\\k20}ま
+Dialogue: 0,0:01:51.21,0:01:55.08,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(128.75390625,55)\k110\\k16}かい
+Dialogue: 0,0:01:51.21,0:01:55.08,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(149.625,55)\k126\\k14}の
+Dialogue: 0,0:01:51.21,0:01:55.08,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(166.9921875,55)\k140\\k33}ばん
+Dialogue: 0,0:01:51.21,0:01:55.08,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(180.15234375,55)\k173\\k30}けん
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(103.86328125,32)\k90\0}
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(108.345703125,32)\k90\\k20}2
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(120.78515625,32)\k110\\k60}匹
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(135.36328125,32)\k170\\k33}が
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(149.94140625,32)\k203\\k47}揃
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(164.14453125,32)\k250\\k30}え
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(177.19921875,32)\k280\\k30}ば
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(194.548828125,32)\k310\\k33}も
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(205.37109375,32)\k343\\k44}う
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(222.5625,32)\k387\\k33}止
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(236.51953125,32)\k420\\k30}ま
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(248.021484375,32)\k450\\k33}ら
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(260.33203125,32)\k483\\k30}な
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(273.638671875,32)\k513\\k47}い
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(108.345703125,14)\k90\\k20}に
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(117.78515625,14)\k110\\k33}ひ
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(124.037109375,14)\k143\\k27}き
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(146.912109375,14)\k203\\k34}そ
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(152.912109375,14)\k237\\k13}ろ
+Dialogue: 0,0:01:53.98,0:01:59.78,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(222.5625,14)\k387\\k33}と
+Dialogue: 0,0:01:58.68,0:02:00.87,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(171.48046875,73)\k90\0}
+Dialogue: 0,0:01:58.68,0:02:00.87,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(177.978515625,73)\k90\\k16}お
+Dialogue: 0,0:01:58.68,0:02:00.87,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(192.43359375,73)\k106\\k33}耳
+Dialogue: 0,0:01:58.68,0:02:00.87,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(206.455078125,73)\k139\\k60}も
+Dialogue: 0,0:01:58.68,0:02:00.87,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(188.90625,55)\k106\\k13}み
+Dialogue: 0,0:01:58.68,0:02:00.87,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(195.9609375,55)\k119\\k20}み
+Dialogue: 0,0:01:59.45,0:02:01.15,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(173.642578125,204)\k90\0}
+Dialogue: 0,0:01:59.45,0:02:01.15,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(183.498046875,204)\k90\\k20}Ea
+Dialogue: 0,0:01:59.45,0:02:01.15,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(201.85546875,204)\k110\\k40}r!!
+Dialogue: 0,0:01:59.45,0:02:01.15,Sample KM [Choir]-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(180.791015625,186)\k90\\k20}イ
+Dialogue: 0,0:01:59.45,0:02:01.15,Sample KM [Choir]-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(194.876953125,186)\k110\\k40}ヤ！！
+Dialogue: 0,0:01:59.92,0:02:02.12,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(170.021484375,32)\k90\0}
+Dialogue: 0,0:01:59.92,0:02:02.12,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(177.978515625,32)\k90\\k30}尻
+Dialogue: 0,0:01:59.92,0:02:02.12,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(193.892578125,32)\k120\\k15}尾
+Dialogue: 0,0:01:59.92,0:02:02.12,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(207.9140625,32)\k135\\k65}も
+Dialogue: 0,0:01:59.92,0:02:02.12,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(180.029296875,14)\k90\\k16}し
+Dialogue: 0,0:01:59.92,0:02:02.12,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(185.408203125,14)\k106\\k14}っ
+Dialogue: 0,0:01:59.92,0:02:02.12,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(191.314453125,14)\k120\\k15}ぽ
+Dialogue: 0,0:02:00.68,0:02:02.25,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(150.09375,264)\k90\0}
+Dialogue: 0,0:02:00.68,0:02:02.25,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(163.08984375,264)\k90\\k19}ぶん
+Dialogue: 0,0:02:00.68,0:02:02.25,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(204.99609375,264)\k109\\k28}ぶん！！
+Dialogue: 0,0:02:01.15,0:02:04.72,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(140.408203125,73)\k90\0}
+Dialogue: 0,0:02:01.15,0:02:04.72,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(146.90625,73)\k90\\k13}お
+Dialogue: 0,0:02:01.15,0:02:04.72,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(161.361328125,73)\k103\\k47}触
+Dialogue: 0,0:02:01.15,0:02:04.72,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(174.322265625,73)\k150\\k17}り
+Dialogue: 0,0:02:01.15,0:02:04.72,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(186.134765625,73)\k167\\k30}は
+Dialogue: 0,0:02:01.15,0:02:04.72,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(200.900390625,73)\k197\\k33}厳
+Dialogue: 0,0:02:01.15,0:02:04.72,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(216.814453125,73)\k230\\k20}禁
+Dialogue: 0,0:02:01.15,0:02:04.72,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(234.181640625,73)\k250\\k87}××
+Dialogue: 0,0:02:01.15,0:02:04.72,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(157.986328125,55)\k103\\k17}さ
+Dialogue: 0,0:02:01.15,0:02:04.72,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(164.115234375,55)\k120\\k30}わ
+Dialogue: 0,0:02:01.15,0:02:04.72,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(199.353515625,55)\k197\\k17}げ
+Dialogue: 0,0:02:01.15,0:02:04.72,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(205.916015625,55)\k214\\k16}ん
+Dialogue: 0,0:02:01.15,0:02:04.72,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(212.16796875,55)\k230\\k20}き
+Dialogue: 0,0:02:01.15,0:02:04.72,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(218.419921875,55)\k250\\k0}ん
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(87.146484375,32)\k90\0}
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(93.240234375,32)\k90\\k17}ス
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(103.998046875,32)\k107\\k13}リ
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(115.16015625,32)\k120\\k17}ル
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(129.615234375,32)\k137\\k32}満
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(145.529296875,32)\k169\\k28}点
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(161.443359375,32)\k197\\k33}爆
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(177.357421875,32)\k230\\k27}弾
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(200.982421875,32)\k257\\k23}“BA
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(226.5,32)\k280\\k27}U”
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(248.4375,32)\k307\\k34}DO
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(265.447265625,32)\k341\\k26}L
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(283.611328125,32)\k367\\kf152}です
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(131.197265625,14)\k137\\k32}まん
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(143.82421875,14)\k169\\k28}てん
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(161.015625,14)\k197\\k16}ば
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(166.4296875,14)\k213\\k17}く
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(174.814453125,14)\k230\\k27}だん
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(206.12109375,14)\k257\\k23}｢バ
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(215.96484375,14)\k280\\k27}ウ｣
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(250.107421875,14)\k307\\k34}ド
+Dialogue: 0,0:02:03.62,0:02:09.01,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(256.236328125,14)\k341\\k26}ル
+Dialogue: 0,0:02:08.06,0:02:10.16,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(149.484375,73)\k90\0}
+Dialogue: 0,0:02:08.06,0:02:10.16,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(166.939453125,73)\k90\\k36}BAU
+Dialogue: 0,0:02:08.06,0:02:10.16,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(188.87109375,73)\k126\\k0}
+Dialogue: 0,0:02:08.06,0:02:10.16,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(211.693359375,73)\k126\\k64}BAU!!
+Dialogue: 0,0:02:08.06,0:02:10.16,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(166.939453125,55)\k90\\k36}バウ
+Dialogue: 0,0:02:08.06,0:02:10.16,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(211.693359375,55)\k126\\k64}バウ！！
+Dialogue: 0,0:02:09.63,0:02:12.69,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(123.515625,32)\k90\0}
+Dialogue: 0,0:02:09.63,0:02:12.69,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(145.904296875,32)\k90\\k60}Hey!!
+Dialogue: 0,0:02:09.63,0:02:12.69,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(184.8515625,32)\k150\\k33}RUF
+Dialogue: 0,0:02:09.63,0:02:12.69,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(208.5703125,32)\k183\\k16}FI
+Dialogue: 0,0:02:09.63,0:02:12.69,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(227.3671875,32)\k199\\k52}AN
+Dialogue: 0,0:02:09.63,0:02:12.69,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(249.744140625,32)\k251\\k35}S!!
+Dialogue: 0,0:02:09.63,0:02:12.69,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(145.904296875,14)\k90\\k60}ヘイ！！
+Dialogue: 0,0:02:09.63,0:02:12.69,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(192.46875,14)\k150\\k33}ラ
+Dialogue: 0,0:02:09.63,0:02:12.69,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(200.16796875,14)\k183\\k16}フィ
+Dialogue: 0,0:02:09.63,0:02:12.69,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(211.083984375,14)\k199\\k52}アン
+Dialogue: 0,0:02:09.63,0:02:12.69,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(228.05859375,14)\k251\\k35}ス！！
+Dialogue: 0,0:02:11.59,0:02:14.93,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(103.37109375,73)\k90\0}
+Dialogue: 0,0:02:11.59,0:02:14.93,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(121.27734375,73)\k90\\k30}Kept
+Dialogue: 0,0:02:11.59,0:02:14.93,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(143.66015625,73)\k120\\k0}
+Dialogue: 0,0:02:11.59,0:02:14.93,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(157.986328125,73)\k120\\k21}you
+Dialogue: 0,0:02:11.59,0:02:14.93,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(176.7890625,73)\k141\\k0}
+Dialogue: 0,0:02:11.59,0:02:14.93,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(192.462890625,73)\k141\\k30}wait
+Dialogue: 0,0:02:11.59,0:02:14.93,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(222.45703125,73)\k171\\k23}ing,
+Dialogue: 0,0:02:11.59,0:02:14.93,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(241.25390625,73)\k194\\k0}
+Dialogue: 0,0:02:11.59,0:02:14.93,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(260.94140625,73)\k194\\k120}huh?
+Dialogue: 0,0:02:11.59,0:02:14.93,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(121.27734375,55)\k90\\k30}ケプタ
+Dialogue: 0,0:02:11.59,0:02:14.93,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(157.986328125,55)\k120\\k21}ユー
+Dialogue: 0,0:02:11.59,0:02:14.93,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(195.4453125,55)\k141\\k30}ウエイ
+Dialogue: 0,0:02:11.59,0:02:14.93,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(215.61328125,55)\k171\\k23}ティング
+Dialogue: 0,0:02:11.59,0:02:14.93,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(260.94140625,55)\k194\\k120}ハー？
+Dialogue: 0,0:02:13.83,0:02:17.43,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(101.033203125,32)\k90\0}
+Dialogue: 0,0:02:13.83,0:02:17.43,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(116.255859375,32)\k90\\k27}Can
+Dialogue: 0,0:02:13.83,0:02:17.43,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(135.955078125,32)\k117\\k0}
+Dialogue: 0,0:02:13.83,0:02:17.43,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(138.193359375,32)\k117\\k16}I
+Dialogue: 0,0:02:13.83,0:02:17.43,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(144.908203125,32)\k133\\k0}
+Dialogue: 0,0:02:13.83,0:02:17.43,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(159.796875,32)\k133\\k20}get
+Dialogue: 0,0:02:13.83,0:02:17.43,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(176.361328125,32)\k153\\k0}
+Dialogue: 0,0:02:13.83,0:02:17.43,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(180.84375,32)\k153\\k30}a
+Dialogue: 0,0:02:13.83,0:02:17.43,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(189.802734375,32)\k183\\k0}
+Dialogue: 0,0:02:13.83,0:02:17.43,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(208.171875,32)\k183\\k34}heck
+Dialogue: 0,0:02:13.83,0:02:17.43,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(231.017578125,32)\k217\\k0}
+Dialogue: 0,0:02:13.83,0:02:17.43,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(256.9921875,32)\k217\\k123}yeah!?
+Dialogue: 0,0:02:13.83,0:02:17.43,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(116.255859375,14)\k90\\k27}カン
+Dialogue: 0,0:02:13.83,0:02:17.43,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(141.83203125,14)\k117\\k16}アイ
+Dialogue: 0,0:02:13.83,0:02:17.43,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(159.796875,14)\k133\\k20}ゲット
+Dialogue: 0,0:02:13.83,0:02:17.43,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(180.84375,14)\k153\\k30}ア
+Dialogue: 0,0:02:13.83,0:02:17.43,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(208.171875,14)\k183\\k34}ヘック
+Dialogue: 0,0:02:13.83,0:02:17.43,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(256.9921875,14)\k217\\k123}ヤー！？
+Dialogue: 0,0:02:16.33,0:02:20.34,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(115.8984375,73)\k90\0}
+Dialogue: 0,0:02:16.33,0:02:20.34,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(134.70703125,73)\k90\\k70}Letʼs
+Dialogue: 0,0:02:16.33,0:02:20.34,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(157.9921875,73)\k160\\k0}
+Dialogue: 0,0:02:16.33,0:02:20.34,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(179.923828125,73)\k160\\k60}shout
+Dialogue: 0,0:02:16.33,0:02:20.34,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(206.33203125,73)\k220\\k0}
+Dialogue: 0,0:02:16.33,0:02:20.34,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(237.216796875,73)\k220\\k161}“BAU”!!
+Dialogue: 0,0:02:16.33,0:02:20.34,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(134.70703125,55)\k90\\k70}レッツ
+Dialogue: 0,0:02:16.33,0:02:20.34,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(179.923828125,55)\k160\\k60}シャウト
+Dialogue: 0,0:02:16.33,0:02:20.34,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(237.216796875,55)\k220\\k161}｢バウ｣！！
+Dialogue: 0,0:02:19.24,0:02:22.80,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(93.99609375,204)\k90\0}
+Dialogue: 0,0:02:19.24,0:02:22.80,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(116.818359375,204)\k90\\k63}BAU!!
+Dialogue: 0,0:02:19.24,0:02:22.80,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(144.1171875,204)\k153\\k0}
+Dialogue: 0,0:02:19.24,0:02:22.80,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(166.939453125,204)\k153\\k60}BAU!!
+Dialogue: 0,0:02:19.24,0:02:22.80,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(194.23828125,204)\k213\\k0}
+Dialogue: 0,0:02:19.24,0:02:22.80,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(217.060546875,204)\k213\\k63}BAU!!
+Dialogue: 0,0:02:19.24,0:02:22.80,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(244.359375,204)\k276\\k0}
+Dialogue: 0,0:02:19.24,0:02:22.80,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(267.181640625,204)\k276\\k60}BAU!!
+Dialogue: 0,0:02:19.24,0:02:22.80,Sample KM [Choir]-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(116.818359375,186)\k90\\k63}バウ！！
+Dialogue: 0,0:02:19.24,0:02:22.80,Sample KM [Choir]-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(166.939453125,186)\k153\\k60}バウ！！
+Dialogue: 0,0:02:19.24,0:02:22.80,Sample KM [Choir]-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(217.060546875,186)\k213\\k63}バウ！！
+Dialogue: 0,0:02:19.24,0:02:22.80,Sample KM [Choir]-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(267.181640625,186)\k276\\k60}バウ！！
+Dialogue: 0,0:02:21.70,0:02:25.24,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(93.99609375,264)\k90\0}
+Dialogue: 0,0:02:21.70,0:02:25.24,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(116.818359375,264)\k90\\k64}BAU!!
+Dialogue: 0,0:02:21.70,0:02:25.24,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(144.1171875,264)\k154\\k0}
+Dialogue: 0,0:02:21.70,0:02:25.24,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(166.939453125,264)\k154\\k60}BAU!!
+Dialogue: 0,0:02:21.70,0:02:25.24,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(194.23828125,264)\k214\\k0}
+Dialogue: 0,0:02:21.70,0:02:25.24,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(217.060546875,264)\k214\\k63}BAU!!
+Dialogue: 0,0:02:21.70,0:02:25.24,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(244.359375,264)\k277\\k0}
+Dialogue: 0,0:02:21.70,0:02:25.24,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(267.181640625,264)\k277\\k57}BAU!!
+Dialogue: 0,0:02:21.70,0:02:25.24,Sample KM [Choir]-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(116.818359375,246)\k90\\k64}バウ！！
+Dialogue: 0,0:02:21.70,0:02:25.24,Sample KM [Choir]-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(166.939453125,246)\k154\\k60}バウ！！
+Dialogue: 0,0:02:21.70,0:02:25.24,Sample KM [Choir]-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(217.060546875,246)\k214\\k63}バウ！！
+Dialogue: 0,0:02:21.70,0:02:25.24,Sample KM [Choir]-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(267.181640625,246)\k277\\k57}バウ！！
+Dialogue: 0,0:02:24.14,0:02:27.68,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(93.99609375,204)\k90\0}
+Dialogue: 0,0:02:24.14,0:02:27.68,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(116.818359375,204)\k90\\k64}BAU!!
+Dialogue: 0,0:02:24.14,0:02:27.68,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(144.1171875,204)\k154\\k0}
+Dialogue: 0,0:02:24.14,0:02:27.68,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(166.939453125,204)\k154\\k60}BAU!!
+Dialogue: 0,0:02:24.14,0:02:27.68,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(194.23828125,204)\k214\\k0}
+Dialogue: 0,0:02:24.14,0:02:27.68,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(217.060546875,204)\k214\\k63}BAU!!
+Dialogue: 0,0:02:24.14,0:02:27.68,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(244.359375,204)\k277\\k0}
+Dialogue: 0,0:02:24.14,0:02:27.68,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(267.181640625,204)\k277\\k57}BAU!!
+Dialogue: 0,0:02:24.14,0:02:27.68,Sample KM [Choir]-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(116.818359375,186)\k90\\k64}バウ！！
+Dialogue: 0,0:02:24.14,0:02:27.68,Sample KM [Choir]-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(166.939453125,186)\k154\\k60}バウ！！
+Dialogue: 0,0:02:24.14,0:02:27.68,Sample KM [Choir]-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(217.060546875,186)\k214\\k63}バウ！！
+Dialogue: 0,0:02:24.14,0:02:27.68,Sample KM [Choir]-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(267.181640625,186)\k277\\k57}バウ！！
+Dialogue: 0,0:02:26.58,0:02:29.95,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(93.99609375,264)\k90\0}
+Dialogue: 0,0:02:26.58,0:02:29.95,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(116.818359375,264)\k90\\k64}BAU!!
+Dialogue: 0,0:02:26.58,0:02:29.95,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(144.1171875,264)\k154\\k0}
+Dialogue: 0,0:02:26.58,0:02:29.95,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(166.939453125,264)\k154\\k60}BAU!!
+Dialogue: 0,0:02:26.58,0:02:29.95,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(194.23828125,264)\k214\\k0}
+Dialogue: 0,0:02:26.58,0:02:29.95,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(217.060546875,264)\k214\\k63}BAU!!
+Dialogue: 0,0:02:26.58,0:02:29.95,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(244.359375,264)\k277\\k0}
+Dialogue: 0,0:02:26.58,0:02:29.95,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(267.181640625,264)\k277\\k57}BAU!!
+Dialogue: 0,0:02:26.58,0:02:29.95,Sample KM [Choir]-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(116.818359375,246)\k90\\k64}バウ！！
+Dialogue: 0,0:02:26.58,0:02:29.95,Sample KM [Choir]-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(166.939453125,246)\k154\\k60}バウ！！
+Dialogue: 0,0:02:26.58,0:02:29.95,Sample KM [Choir]-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(217.060546875,246)\k214\\k63}バウ！！
+Dialogue: 0,0:02:26.58,0:02:29.95,Sample KM [Choir]-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(267.181640625,246)\k277\\k57}バウ！！
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(58.59375,32)\k90\0}
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(77.841796875,32)\k90\\k53}Now,
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(101.56640625,32)\k143\\k0}
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(118.587890625,32)\k143\\k30}hear
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(140.0859375,32)\k173\\k0}
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(152.173828125,32)\k173\\k17}the
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(168.73828125,32)\k190\\k0}
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(187.08984375,32)\k190\\k17}howl
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(217.5234375,32)\k207\\k20}ing
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(234.08203125,32)\k227\\k0}
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(241.6875,32)\k227\\k13}of
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(253.76953125,32)\k240\\k0}
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(265.41796875,32)\k240\\k27}my
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(281.54296875,32)\k267\\k0}
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(303.474609375,32)\k267\\k90}soul!!
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(77.841796875,14)\k90\\k53}ナウ
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(118.587890625,14)\k143\\k30}ヒア
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(152.173828125,14)\k173\\k17}ザ
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(190.8046875,14)\k190\\k17}ハウ
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(205.5,14)\k207\\k20}リング
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(241.6875,14)\k227\\k13}オブ
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(265.41796875,14)\k240\\k27}マイ
+Dialogue: 0,0:02:24.14,0:02:27.91,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(303.474609375,14)\k267\\k90}ソウル！！
+Dialogue: 0,0:02:26.81,0:02:29.95,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(130.65234375,73)\k90\0}
+Dialogue: 0,0:02:26.81,0:02:29.95,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(144.087890625,73)\k90\\k37}Are
+Dialogue: 0,0:02:26.81,0:02:29.95,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(162,73)\k127\\k0}
+Dialogue: 0,0:02:26.81,0:02:29.95,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(176.326171875,73)\k127\\k20}you
+Dialogue: 0,0:02:26.81,0:02:29.95,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(195.12890625,73)\k147\\k0}
+Dialogue: 0,0:02:26.81,0:02:29.95,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(207.228515625,73)\k147\\k21}rea
+Dialogue: 0,0:02:26.81,0:02:29.95,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(236.337890625,73)\k168\\kf126}dy!?
+Dialogue: 0,0:02:26.81,0:02:29.95,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(144.087890625,55)\k90\\k37}アー
+Dialogue: 0,0:02:26.81,0:02:29.95,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(176.326171875,55)\k127\\k20}ユー
+Dialogue: 0,0:02:26.81,0:02:29.95,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(210.7734375,55)\k147\\k21}レ
+Dialogue: 0,0:02:26.81,0:02:29.95,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(227.23828125,55)\k168\\kf126}ディ！？
+Dialogue: 0,0:02:31.28,0:02:33.52,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(144.10546875,32)\k90\0}
+Dialogue: 0,0:02:31.28,0:02:33.52,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(155.736328125,32)\k90\\k23}Mo
+Dialogue: 0,0:02:31.28,0:02:33.52,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(176.771484375,32)\k113\\k24}co
+Dialogue: 0,0:02:31.28,0:02:33.52,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(213.03515625,32)\k137\\k67}-chan!!
+Dialogue: 0,0:02:31.28,0:02:33.52,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(162.38671875,14)\k90\\k23}モ
+Dialogue: 0,0:02:31.28,0:02:33.52,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(168.140625,14)\k113\\k24}コ
+Dialogue: 0,0:02:31.28,0:02:33.52,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(213.03515625,14)\k137\\k67}ちゃん！！
+Dialogue: 0,0:02:32.42,0:02:34.55,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(145.306640625,73)\k90\0}
+Dialogue: 0,0:02:32.42,0:02:34.55,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(150.80859375,73)\k90\\k13}こ
+Dialogue: 0,0:02:32.42,0:02:34.55,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(162.80859375,73)\k103\\k13}の
+Dialogue: 0,0:02:32.42,0:02:34.55,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(177.263671875,73)\k116\\k24}曲
+Dialogue: 0,0:02:32.42,0:02:34.55,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(192.029296875,73)\k140\\k20}は
+Dialogue: 0,0:02:32.42,0:02:34.55,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(206.794921875,73)\k160\\k6}可
+Dialogue: 0,0:02:32.42,0:02:34.55,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(222.708984375,73)\k166\\k20}愛
+Dialogue: 0,0:02:32.42,0:02:34.55,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(234.6796875,73)\k186\\k7}く
+Dialogue: 0,0:02:32.42,0:02:34.55,Fuwawa-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(175.25390625,55)\k116\\k10}きょ
+Dialogue: 0,0:02:32.42,0:02:34.55,Fuwawa-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(182.642578125,55)\k126\\k14}く
+Dialogue: 0,0:02:32.42,0:02:34.55,Fuwawa-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(208.125,55)\k160\\k6}か
+Dialogue: 0,0:02:32.42,0:02:34.55,Fuwawa-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(214.751953125,55)\k166\\k10}わ
+Dialogue: 0,0:02:32.42,0:02:34.55,Fuwawa-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(221.37890625,55)\k176\\k10}い
+Dialogue: 0,0:02:33.45,0:02:36.12,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(102.3515625,32)\k90\0}
+Dialogue: 0,0:02:33.45,0:02:36.12,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(110.30859375,32)\k90\\k27}歌
+Dialogue: 0,0:02:33.45,0:02:36.12,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(129.521484375,32)\k117\\k19}おう
+Dialogue: 0,0:02:33.45,0:02:36.12,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(147.83203125,32)\k136\\k27}ね
+Dialogue: 0,0:02:33.45,0:02:36.12,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(166.13671875,32)\k163\\k7}って
+Dialogue: 0,0:02:33.45,0:02:36.12,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(190.34765625,32)\k170\\k18}言っ
+Dialogue: 0,0:02:33.45,0:02:36.12,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(209.5546875,32)\k188\\k9}た
+Dialogue: 0,0:02:33.45,0:02:36.12,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(222.298828125,32)\k197\\k20}で
+Dialogue: 0,0:02:33.45,0:02:36.12,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(255.22265625,32)\k217\\k30}しょ！！
+Dialogue: 0,0:02:33.45,0:02:36.12,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(107.185546875,14)\k90\\k13}う
+Dialogue: 0,0:02:33.45,0:02:36.12,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(112.6875,14)\k103\\k14}た
+Dialogue: 0,0:02:33.45,0:02:36.12,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(190.34765625,14)\k170\\k18}い
+Dialogue: 0,0:02:35.02,0:02:37.25,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(161.109375,73)\k90\0}
+Dialogue: 0,0:02:35.02,0:02:37.25,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(175.435546875,73)\k90\\k41}bau
+Dialogue: 0,0:02:35.02,0:02:37.25,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(194.23828125,73)\k131\\k0}
+Dialogue: 0,0:02:35.02,0:02:37.25,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(208.564453125,73)\k131\\k72}bau
+Dialogue: 0,0:02:35.02,0:02:37.25,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(175.435546875,55)\k90\\k41}バウ
+Dialogue: 0,0:02:35.02,0:02:37.25,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(208.564453125,55)\k131\\k72}バウ
+Dialogue: 0,0:02:36.15,0:02:39.52,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(110.759765625,32)\k90\0}
+Dialogue: 0,0:02:36.15,0:02:39.52,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(128.513671875,32)\k90\\k47}じゃあ
+Dialogue: 0,0:02:36.15,0:02:39.52,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(152.0859375,32)\k137\\k23}B
+Dialogue: 0,0:02:36.15,0:02:39.52,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(163.40625,32)\k160\\k10}メ
+Dialogue: 0,0:02:36.15,0:02:39.52,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(174.662109375,32)\k170\\k14}ロ
+Dialogue: 0,0:02:36.15,0:02:39.52,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(186.9140625,32)\k184\\k14}か
+Dialogue: 0,0:02:36.15,0:02:39.52,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(205.62890625,32)\k198\\k46}ら...
+Dialogue: 0,0:02:36.15,0:02:39.52,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(231.087890625,32)\k244\\k40}せー
+Dialogue: 0,0:02:36.15,0:02:39.52,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(258.78515625,32)\k284\\k33}の！
+Dialogue: 0,0:02:38.42,0:02:44.47,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(125.349609375,73)\k90\0}
+Dialogue: 0,0:02:38.42,0:02:44.47,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(131.103515625,73)\k90\\k17}ド
+Dialogue: 0,0:02:38.42,0:02:44.47,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(143.35546875,73)\k107\\k17}ー
+Dialogue: 0,0:02:38.42,0:02:44.47,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(156.228515625,73)\k124\\k63}ナ
+Dialogue: 0,0:02:38.42,0:02:44.47,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(168.451171875,73)\k187\\k60}ツ
+Dialogue: 0,0:02:38.42,0:02:44.47,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(178.962890625,73)\k247\\k30}リ
+Dialogue: 0,0:02:38.42,0:02:44.47,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(189.5625,73)\k277\\k30}ン
+Dialogue: 0,0:02:38.42,0:02:44.47,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(201.62109375,73)\k307\\k33}グ
+Dialogue: 0,0:02:38.42,0:02:44.47,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(213.990234375,73)\k340\\k30}に
+Dialogue: 0,0:02:38.42,0:02:44.47,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(228.193359375,73)\k370\\k74}誓
+Dialogue: 0,0:02:38.42,0:02:44.47,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(241.154296875,73)\k444\\k35}っ
+Dialogue: 0,0:02:38.42,0:02:44.47,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(252.404296875,73)\k479\\k106}て
+Dialogue: 0,0:02:38.42,0:02:44.47,Fuwawa-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(224.94140625,55)\k370\\k57}ち
+Dialogue: 0,0:02:38.42,0:02:44.47,Fuwawa-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(231.22265625,55)\k427\\k17}か
+Dialogue: 0,0:02:43.99,0:02:47.56,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(156.2578125,32)\k90\0}
+Dialogue: 0,0:02:43.99,0:02:47.56,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(168.005859375,32)\k90\\k30}ずっ
+Dialogue: 0,0:02:43.99,0:02:47.56,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(184.7578125,32)\k120\\k64}と
+Dialogue: 0,0:02:43.99,0:02:47.56,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(205.986328125,32)\k184\\k47}ずっ
+Dialogue: 0,0:02:43.99,0:02:47.56,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(222.73828125,32)\k231\\k106}と
+Dialogue: 0,0:02:46.46,0:02:50.97,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(144.064453125,73)\k90\0}
+Dialogue: 0,0:02:46.46,0:02:50.97,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(152.021484375,73)\k90\\k30}笑
+Dialogue: 0,0:02:46.46,0:02:50.97,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(167.935546875,73)\k120\\k64}顔
+Dialogue: 0,0:02:46.46,0:02:50.97,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(181.892578125,73)\k184\\k30}を
+Dialogue: 0,0:02:46.46,0:02:50.97,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(195.849609375,73)\k214\\k46}守
+Dialogue: 0,0:02:46.46,0:02:50.97,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(209.87109375,73)\k260\\k14}る
+Dialogue: 0,0:02:46.46,0:02:50.97,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(222.43359375,73)\k274\\k20}か
+Dialogue: 0,0:02:46.46,0:02:50.97,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(234.43359375,73)\k294\\kf137}ら
+Dialogue: 0,0:02:46.46,0:02:50.97,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(153.416015625,55)\k90\\k30}え
+Dialogue: 0,0:02:46.46,0:02:50.97,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(159.849609375,55)\k120\\k34}が
+Dialogue: 0,0:02:46.46,0:02:50.97,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(166.412109375,55)\k154\\k30}お
+Dialogue: 0,0:02:46.46,0:02:50.97,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(192.8203125,55)\k214\\k30}ま
+Dialogue: 0,0:02:46.46,0:02:50.97,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(198.849609375,55)\k244\\k16}も
+Dialogue: 0,0:02:50.60,0:02:52.63,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(165.515625,32)\k90\0}
+Dialogue: 0,0:02:50.60,0:02:52.63,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(172.013671875,32)\k90\\k16}ふ
+Dialogue: 0,0:02:50.60,0:02:52.63,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(185.255859375,32)\k106\\k18}わ
+Dialogue: 0,0:02:50.60,0:02:52.63,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(198.498046875,32)\k124\\k19}ふ
+Dialogue: 0,0:02:50.60,0:02:52.63,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(211.740234375,32)\k143\\k40}わ
+Dialogue: 0,0:02:51.33,0:02:53.16,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(142.171875,204)\k90\0}
+Dialogue: 0,0:02:51.33,0:02:53.16,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(164.830078125,204)\k90\\k26}わ！！
+Dialogue: 0,0:02:51.33,0:02:53.16,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(214.658203125,204)\k116\\k47}ふう！！
+Dialogue: 0,0:02:51.83,0:02:53.96,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(168.8671875,73)\k90\0}
+Dialogue: 0,0:02:51.83,0:02:53.96,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(174.931640625,73)\k90\\k17}も
+Dialogue: 0,0:02:51.83,0:02:53.96,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(186.498046875,73)\k107\\k14}こ
+Dialogue: 0,0:02:51.83,0:02:53.96,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(198.064453125,73)\k121\\k19}も
+Dialogue: 0,0:02:51.83,0:02:53.96,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(209.630859375,73)\k140\\k53}こ
+Dialogue: 0,0:02:52.64,0:02:54.41,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(152.162109375,264)\k90\0}
+Dialogue: 0,0:02:52.64,0:02:54.41,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(174.55078125,264)\k90\\k23}Come
+Dialogue: 0,0:02:52.64,0:02:54.41,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(201.416015625,264)\k113\\k0}
+Dialogue: 0,0:02:52.64,0:02:54.41,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(216.626953125,264)\k113\\k44}on!!
+Dialogue: 0,0:02:52.64,0:02:54.41,Sample KM [Choir]-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(174.55078125,246)\k90\\k23}カム
+Dialogue: 0,0:02:52.64,0:02:54.41,Sample KM [Choir]-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(216.626953125,246)\k113\\k44}オン！！
+Dialogue: 0,0:02:53.07,0:02:56.94,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(109.83984375,32)\k90\0}
+Dialogue: 0,0:02:53.07,0:02:56.94,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(117.796875,32)\k90\\k17}魔
+Dialogue: 0,0:02:53.07,0:02:56.94,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(133.7109375,32)\k107\\k20}界
+Dialogue: 0,0:02:53.07,0:02:56.94,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(149.625,32)\k127\\k13}乃
+Dialogue: 0,0:02:53.07,0:02:56.94,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(165.5390625,32)\k140\\k33}番
+Dialogue: 0,0:02:53.07,0:02:56.94,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(181.453125,32)\k173\\k30}犬
+Dialogue: 0,0:02:53.07,0:02:56.94,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(195.908203125,32)\k203\\k17}シ
+Dialogue: 0,0:02:53.07,0:02:56.94,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(208.5,32)\k220\\k13}ス
+Dialogue: 0,0:02:53.07,0:02:56.94,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(220.095703125,32)\k233\\k17}タ
+Dialogue: 0,0:02:53.07,0:02:56.94,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(232.095703125,32)\k250\\k64}ー
+Dialogue: 0,0:02:53.07,0:02:56.94,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(256.376953125,32)\k314\\k53}ズ☆★
+Dialogue: 0,0:02:53.07,0:02:56.94,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(119.25,14)\k90\\k17}ま
+Dialogue: 0,0:02:53.07,0:02:56.94,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(128.75390625,14)\k107\\k20}かい
+Dialogue: 0,0:02:53.07,0:02:56.94,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(149.625,14)\k127\\k13}の
+Dialogue: 0,0:02:53.07,0:02:56.94,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(166.9921875,14)\k140\\k33}ばん
+Dialogue: 0,0:02:53.07,0:02:56.94,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(180.15234375,14)\k173\\k30}けん
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(116.578125,73)\k90\0}
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(121.060546875,73)\k90\\k20}2
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(133.5,73)\k110\\k60}匹
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(148.078125,73)\k170\\k33}が
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(162.65625,73)\k203\\k47}揃
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(176.859375,73)\k250\\k33}え
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(189.9140625,73)\k283\\k27}ば
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(207.263671875,73)\k310\\k33}も
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(218.0859375,73)\k343\\k47}う
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(230.80078125,73)\k390\\k60}大
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(246.71484375,73)\k450\\k64}騒
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(261.046875,73)\k514\\k43}ぎ
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(121.060546875,55)\k90\\k20}に
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(130.5,55)\k110\\k33}ひ
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(136.751953125,55)\k143\\k27}き
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(159.626953125,55)\k203\\k30}そ
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(165.626953125,55)\k233\\k17}ろ
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(227.548828125,55)\k390\\k30}お
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(234.052734375,55)\k420\\k30}お
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(243.33984375,55)\k450\\k34}さ
+Dialogue: 0,0:02:55.84,0:03:01.61,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(249.46875,55)\k484\\k30}わ
+Dialogue: 0,0:03:00.51,0:03:02.73,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(166.875,32)\k90\0}
+Dialogue: 0,0:03:00.51,0:03:02.73,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(172.939453125,32)\k90\\k21}も
+Dialogue: 0,0:03:00.51,0:03:02.73,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(185.501953125,32)\k111\\k15}あ
+Dialogue: 0,0:03:00.51,0:03:02.73,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(198.064453125,32)\k126\\k17}も
+Dialogue: 0,0:03:00.51,0:03:02.73,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(210.626953125,32)\k143\\k27}あ
+Dialogue: 0,0:03:01.31,0:03:03.07,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(160.013671875,204)\k90\0}
+Dialogue: 0,0:03:01.31,0:03:03.07,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(171.08203125,204)\k90\\k21}もっ
+Dialogue: 0,0:03:01.31,0:03:03.07,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(203.068359375,204)\k111\\k45}と！！
+Dialogue: 0,0:03:01.78,0:03:03.93,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(167.00390625,73)\k90\0}
+Dialogue: 0,0:03:01.78,0:03:03.93,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(173.748046875,73)\k90\\k13}ハ
+Dialogue: 0,0:03:01.78,0:03:03.93,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(186.24609375,73)\k103\\k17}ロ
+Dialogue: 0,0:03:01.78,0:03:03.93,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(198.744140625,73)\k120\\k17}ハ
+Dialogue: 0,0:03:01.78,0:03:03.93,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(211.2421875,73)\k137\\k58}ロ
+Dialogue: 0,0:03:02.55,0:03:04.27,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(149.484375,264)\k90\0}
+Dialogue: 0,0:03:02.55,0:03:04.27,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(166.939453125,264)\k90\\k20}BAU
+Dialogue: 0,0:03:02.55,0:03:04.27,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(188.87109375,264)\k110\\k0}
+Dialogue: 0,0:03:02.55,0:03:04.27,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(211.693359375,264)\k110\\k42}BAU!!
+Dialogue: 0,0:03:02.55,0:03:04.27,Sample KM [Choir]-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(166.939453125,246)\k90\\k20}バウ
+Dialogue: 0,0:03:02.55,0:03:04.27,Sample KM [Choir]-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(211.693359375,246)\k110\\k42}バウ！！
+Dialogue: 0,0:03:03.01,0:03:06.58,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(114.17578125,32)\k90\0}
+Dialogue: 0,0:03:03.01,0:03:06.58,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(122.1328125,32)\k90\\k30}迷
+Dialogue: 0,0:03:03.01,0:03:06.58,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(136.833984375,32)\k120\\k34}わ
+Dialogue: 0,0:03:03.01,0:03:06.58,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(150.322265625,32)\k154\\k16}ず
+Dialogue: 0,0:03:03.01,0:03:06.58,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(163.3125,32)\k170\\k30}に
+Dialogue: 0,0:03:03.01,0:03:06.58,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(174.03515625,32)\k200\\k0}
+Dialogue: 0,0:03:03.01,0:03:06.58,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(186.57421875,32)\k200\\k30}GO
+Dialogue: 0,0:03:03.01,0:03:06.58,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(203.58984375,32)\k230\\k0}
+Dialogue: 0,0:03:03.01,0:03:06.58,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(215.671875,32)\k230\\k14}MY
+Dialogue: 0,0:03:03.01,0:03:06.58,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(232.23046875,32)\k244\\k0}
+Dialogue: 0,0:03:03.01,0:03:06.58,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(251.02734375,32)\k244\\k93}WAY
+Dialogue: 0,0:03:03.01,0:03:06.58,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(119.1328125,14)\k90\\k17}ま
+Dialogue: 0,0:03:03.01,0:03:06.58,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(125.1328125,14)\k107\\k13}よ
+Dialogue: 0,0:03:03.01,0:03:06.58,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(186.57421875,14)\k200\\k30}ゴー
+Dialogue: 0,0:03:03.01,0:03:06.58,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(215.671875,14)\k230\\k14}マイ
+Dialogue: 0,0:03:03.01,0:03:06.58,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(251.02734375,14)\k244\\k93}ウェイ
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(89.947265625,73)\k90\0}
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(97.904296875,73)\k90\\k30}君
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(112.359375,73)\k120\\k17}の
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(126.814453125,73)\k137\\k30}絶
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(142.728515625,73)\k167\\k30}対
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(158.642578125,73)\k197\\k17}味
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(174.556640625,73)\k214\\k46}方
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(198.181640625,73)\k260\\k14}“BA
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(223.69921875,73)\k274\\k30}U”
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(245.63671875,73)\k304\\k39}DO
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(262.646484375,73)\k343\\k29}L
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(280.810546875,73)\k372\\kf135}です
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(94.376953125,55)\k90\\k17}き
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(100.904296875,55)\k107\\k13}み
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(128.396484375,55)\k137\\k30}ぜっ
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(140.6484375,55)\k167\\k30}たい
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(160.224609375,55)\k197\\k17}み
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(167.00390625,55)\k214\\k13}か
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(173.37890625,55)\k227\\k33}た
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(203.3203125,55)\k260\\k14}｢ナ
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(212.9765625,55)\k274\\k30}ウ｣
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(247.306640625,55)\k304\\k39}ド
+Dialogue: 0,0:03:05.48,0:03:10.75,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(253.435546875,55)\k343\\k29}ル
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(86.15625,32)\k90\0}
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(91.658203125,32)\k90\\k17}こ
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(103.658203125,32)\k107\\k16}の
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(118.11328125,32)\k123\\k17}世
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(134.02734375,32)\k140\\k30}界
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(148.23046875,32)\k170\\k27}に
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(162.43359375,32)\k197\\k33}爆
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(178.34765625,32)\k230\\k30}誕
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(201.97265625,32)\k260\\k17}“BA
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(227.490234375,32)\k277\\k30}U”
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(249.427734375,32)\k307\\k34}DO
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(266.4375,32)\k341\\k28}L
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(284.6015625,32)\k369\\kf151}です
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(119.56640625,14)\k123\\k17}せ
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(129.4453125,14)\k140\\k30}かい
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(162.005859375,14)\k197\\k18}ば
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(167.419921875,14)\k215\\k15}く
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(175.8046875,14)\k230\\k30}たん
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(207.111328125,14)\k260\\k17}｢バ
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(216.955078125,14)\k277\\k30}ウ｣
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(251.09765625,14)\k307\\k34}ド
+Dialogue: 0,0:03:10.42,0:03:15.82,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(257.2265625,14)\k341\\k28}ル
+Dialogue: 0,0:03:14.92,0:03:16.96,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(149.484375,73)\k90\0}
+Dialogue: 0,0:03:14.92,0:03:16.96,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(166.939453125,73)\k90\\k30}BAU
+Dialogue: 0,0:03:14.92,0:03:16.96,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(188.87109375,73)\k120\\k0}
+Dialogue: 0,0:03:14.92,0:03:16.96,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(211.693359375,73)\k120\\k64}BAU!!
+Dialogue: 0,0:03:14.92,0:03:16.96,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(166.939453125,55)\k90\\k30}バウ
+Dialogue: 0,0:03:14.92,0:03:16.96,Fuwamoco-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(211.693359375,55)\k120\\k64}バウ！！
+Dialogue: 0,0:03:15.86,0:03:17.56,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(174.62109375,32)\k90\0}
+Dialogue: 0,0:03:15.86,0:03:17.56,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(180,32)\k90\\k20}フ
+Dialogue: 0,0:03:15.86,0:03:17.56,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(191.37890625,32)\k110\\k15}ワ
+Dialogue: 0,0:03:15.86,0:03:17.56,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(203.37890625,32)\k125\\k25}ワ
+Dialogue: 0,0:03:16.46,0:03:18.16,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(166.6640625,204)\k90\0}
+Dialogue: 0,0:03:16.46,0:03:18.16,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(172.04296875,204)\k90\\k17}フ
+Dialogue: 0,0:03:16.46,0:03:18.16,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(183.421875,204)\k107\\k13}ワ
+Dialogue: 0,0:03:16.46,0:03:18.16,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(203.37890625,204)\k120\\k30}ワ！
+Dialogue: 0,0:03:17.06,0:03:18.79,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(174.99609375,73)\k90\0}
+Dialogue: 0,0:03:17.06,0:03:18.79,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(180.99609375,73)\k90\\k13}モ
+Dialogue: 0,0:03:17.06,0:03:18.79,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(192.498046875,73)\k103\\k17}コ
+Dialogue: 0,0:03:17.06,0:03:18.79,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(203.501953125,73)\k120\\k90}コ
+Dialogue: 0,0:03:17.69,0:03:19.36,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(159.08203125,264)\k90\0}
+Dialogue: 0,0:03:17.69,0:03:19.36,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(165.08203125,264)\k90\\k17}モ
+Dialogue: 0,0:03:17.69,0:03:19.36,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(176.583984375,264)\k107\\k13}コ
+Dialogue: 0,0:03:17.69,0:03:19.36,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(203.501953125,264)\k120\\k27}コ！！
+Dialogue: 0,0:03:18.26,0:03:21.23,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(121.37109375,32)\k90\0}
+Dialogue: 0,0:03:18.26,0:03:21.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(126.75,32)\k90\\k17}フ
+Dialogue: 0,0:03:18.26,0:03:21.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(138.12890625,32)\k107\\k17}ワ
+Dialogue: 0,0:03:18.26,0:03:21.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(148.60546875,32)\k124\\k0}
+Dialogue: 0,0:03:18.26,0:03:21.23,Fuwawa,,0,0,0,fx,{\fade(300,200)\an5\pos(156.5625,32)\k124\\k26}＋
+Dialogue: 0,0:03:18.26,0:03:21.23,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(168.99609375,32)\k150\\k0}
+Dialogue: 0,0:03:18.26,0:03:21.23,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(174.99609375,32)\k150\\k17}モ
+Dialogue: 0,0:03:18.26,0:03:21.23,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(186.498046875,32)\k167\\k17}コ
+Dialogue: 0,0:03:18.26,0:03:21.23,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(196.4765625,32)\k184\\k0}
+Dialogue: 0,0:03:18.26,0:03:21.23,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(204.43359375,32)\k184\\k33}＝
+Dialogue: 0,0:03:18.26,0:03:21.23,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(216.8671875,32)\k217\\k0}
+Dialogue: 0,0:03:18.26,0:03:21.23,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(222.24609375,32)\k217\\k13}フ
+Dialogue: 0,0:03:18.26,0:03:21.23,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(233.625,32)\k230\\k17}ワ
+Dialogue: 0,0:03:18.26,0:03:21.23,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(245.625,32)\k247\\k17}モ
+Dialogue: 0,0:03:18.26,0:03:21.23,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(257.126953125,32)\k264\\k73}コ
+Dialogue: 0,0:03:18.26,0:03:21.23,Fuwawa-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(157.40625,14)\k124\\k26}プラス
+Dialogue: 0,0:03:18.26,0:03:21.23,Mococo-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(204.43359375,14)\k184\\k33}は
+Dialogue: 0,0:03:20.13,0:03:21.90,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(153.205078125,204)\k90\0}
+Dialogue: 0,0:03:20.13,0:03:21.90,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(158.583984375,204)\k90\\k13}フ
+Dialogue: 0,0:03:20.13,0:03:21.90,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(169.962890625,204)\k103\\k14}ワ
+Dialogue: 0,0:03:20.13,0:03:21.90,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(181.962890625,204)\k117\\k16}モ
+Dialogue: 0,0:03:20.13,0:03:21.90,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(209.37890625,204)\k133\\k24}コ！！
+Dialogue: 0,0:03:20.80,0:03:22.53,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(174.62109375,73)\k90\0}
+Dialogue: 0,0:03:20.80,0:03:22.53,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(180,73)\k90\\k21}フ
+Dialogue: 0,0:03:20.80,0:03:22.53,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(191.37890625,73)\k111\\k21}ワ
+Dialogue: 0,0:03:20.80,0:03:22.53,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(203.37890625,73)\k132\\k21}ワ
+Dialogue: 0,0:03:21.43,0:03:23.13,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(166.6640625,264)\k90\0}
+Dialogue: 0,0:03:21.43,0:03:23.13,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(172.04296875,264)\k90\\k13}フ
+Dialogue: 0,0:03:21.43,0:03:23.13,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(183.421875,264)\k103\\k17}ワ
+Dialogue: 0,0:03:21.43,0:03:23.13,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(203.37890625,264)\k120\\k30}ワ！
+Dialogue: 0,0:03:22.03,0:03:23.73,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(174.99609375,32)\k90\0}
+Dialogue: 0,0:03:22.03,0:03:23.73,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(180.99609375,32)\k90\\k14}モ
+Dialogue: 0,0:03:22.03,0:03:23.73,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(192.498046875,32)\k104\\k20}コ
+Dialogue: 0,0:03:22.03,0:03:23.73,Mococo,,0,0,0,fx,{\fade(300,200)\an5\pos(203.501953125,32)\k124\\k86}コ
+Dialogue: 0,0:03:22.63,0:03:24.33,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(159.08203125,204)\k90\0}
+Dialogue: 0,0:03:22.63,0:03:24.33,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(165.08203125,204)\k90\\k17}モ
+Dialogue: 0,0:03:22.63,0:03:24.33,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(176.583984375,204)\k107\\k17}コ
+Dialogue: 0,0:03:22.63,0:03:24.33,Sample KM [Choir],,0,0,1,fx,{\fade(300,200)\an5\pos(203.501953125,204)\k124\\k26}コ！！
+Dialogue: 0,0:03:23.23,0:03:26.23,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(121.37109375,73)\k90\0}
+Dialogue: 0,0:03:23.23,0:03:26.23,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(126.75,73)\k90\\k17}フ
+Dialogue: 0,0:03:23.23,0:03:26.23,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(138.12890625,73)\k107\\k17}ワ
+Dialogue: 0,0:03:23.23,0:03:26.23,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(148.60546875,73)\k124\\k0}
+Dialogue: 0,0:03:23.23,0:03:26.23,Fuwawa,,0,0,1,fx,{\fade(300,200)\an5\pos(156.5625,73)\k124\\k26}＋
+Dialogue: 0,0:03:23.23,0:03:26.23,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(168.99609375,73)\k150\\k0}
+Dialogue: 0,0:03:23.23,0:03:26.23,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(174.99609375,73)\k150\\k17}モ
+Dialogue: 0,0:03:23.23,0:03:26.23,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(186.498046875,73)\k167\\k17}コ
+Dialogue: 0,0:03:23.23,0:03:26.23,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(196.4765625,73)\k184\\k0}
+Dialogue: 0,0:03:23.23,0:03:26.23,Mococo,,0,0,1,fx,{\fade(300,200)\an5\pos(204.43359375,73)\k184\\k33}＝
+Dialogue: 0,0:03:23.23,0:03:26.23,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(216.8671875,73)\k217\\k0}
+Dialogue: 0,0:03:23.23,0:03:26.23,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(222.24609375,73)\k217\\k13}フ
+Dialogue: 0,0:03:23.23,0:03:26.23,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(233.625,73)\k230\\k17}ワ
+Dialogue: 0,0:03:23.23,0:03:26.23,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(245.625,73)\k247\\k17}モ
+Dialogue: 0,0:03:23.23,0:03:26.23,Fuwamoco,,0,0,1,fx,{\fade(300,200)\an5\pos(257.126953125,73)\k264\\k73}コ
+Dialogue: 0,0:03:23.23,0:03:26.23,Fuwawa-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(157.40625,55)\k124\\k26}プラス
+Dialogue: 0,0:03:23.23,0:03:26.23,Mococo-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(204.43359375,55)\k184\\k33}は
+Dialogue: 0,0:03:25.13,0:03:27.10,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(153.205078125,264)\k90\0}
+Dialogue: 0,0:03:25.13,0:03:27.10,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(158.583984375,264)\k90\\k17}フ
+Dialogue: 0,0:03:25.13,0:03:27.10,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(169.962890625,264)\k107\\k17}ワ
+Dialogue: 0,0:03:25.13,0:03:27.10,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(181.962890625,264)\k124\\k17}モ
+Dialogue: 0,0:03:25.13,0:03:27.10,Sample KM [Choir],,0,0,2,fx,{\fade(300,200)\an5\pos(209.37890625,264)\k141\\k36}コ！！
+Dialogue: 0,0:03:26.00,0:03:28.10,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(144.779296875,32)\k90\0}
+Dialogue: 0,0:03:26.00,0:03:28.10,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(162.234375,32)\k90\\k27}BAU
+Dialogue: 0,0:03:26.00,0:03:28.10,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(184.166015625,32)\k117\\k0}
+Dialogue: 0,0:03:26.00,0:03:28.10,Fuwamoco,,0,0,0,fx,{\fade(300,200)\an5\pos(211.693359375,32)\k117\\k73}BAU~!!
+Dialogue: 0,0:03:26.00,0:03:28.10,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(162.234375,14)\k90\\k27}バウ
+Dialogue: 0,0:03:26.00,0:03:28.10,Fuwamoco-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(211.693359375,14)\k117\\k73}バウ～！！
