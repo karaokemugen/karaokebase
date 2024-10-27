@@ -1,0 +1,172 @@
+﻿[Script Info]
+Title: Bubble Rise
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Liella,Arial,24,&H00FFFFFF,&H00D36BBF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kanon,Arial,24,&H00FFFFFF,&H00277FFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Margarete,Arial,24,&H00FFFFFF,&H00FD9DE4,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Tomari,Arial,24,&H00FFFFFF,&H00E2D24C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: KanonChoir,Arial,24,&H00FFFFFF,&H00277FFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: TomariChoir,Arial,24,&H00FFFFFF,&H00E2D24C,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: MargareteChoir,Arial,24,&H00FFFFFF,&H00FD9DE4,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: LiellaChoir,Arial,24,&H00FFFFFF,&H00D36BBF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:05.45,0:00:07.68,Liella,,0,0,0,karaoke,{\k25}Li{\k33}sten {\k32}to {\k30}the {\k20}voi{\k83}ces
+Comment: 0,0:00:09.92,0:00:14.55,Margarete,,0,0,0,karaoke,{\k33}ki{\k25}bo{\k25}u {\k26}wa {\k14}a{\k29}bu{\k80}ku {\k37}so{\k30}ra {\k16}wo {\k28}me{\k11}za{\k34}shi{\k75}te
+Comment: 0,0:00:14.68,0:00:19.13,Margarete,,0,0,0,karaoke,{\k32}no{\k31}bo{\k13}t{\k43}te{\k28}ku {\k63}no {\k27}i{\k58}tsu{\k31}de{\kf119}mo
+Comment: 0,0:00:19.46,0:00:24.18,Kanon,,0,0,0,karaoke,{\k27}ma{\k31}e {\k17}ga {\k27}mi{\k16}e{\k29}na{\k84}i {\k36}ku{\k27}ra{\k17}ya{\k40}mi {\k33}na{\k88}ra
+Comment: 0,0:00:24.15,0:00:29.35,Kanon,,0,0,0,karaoke,{\k36}u{\k30}e {\kf143}wo{\k29} {\k32}mi{\k94}te {\k25}mi{\k32}re{\k27}ba {\k36}i{\k36}i
+Comment: 0,0:00:29.23,0:00:31.03,MargareteChoir,,0,0,0,karaoke,{\k32}u{\k15}chi{\k29}ku{\k16}da{\k44}ka{\k44}re
+Comment: 0,0:00:31.03,0:00:32.12,Tomari,,0,0,0,karaoke,{\k34}CRY{\k75}ING
+Comment: 0,0:00:31.38,0:00:33.62,KanonChoir,,0,0,0,karaoke,{\k22}so{\k32}re{\k16}de{\k31}mo {\k18}ki{\k38}e{\k67}nai
+Comment: 0,0:00:33.35,0:00:34.42,Tomari,,0,0,0,karaoke,{\k33}WI{\k74}SHING
+Comment: 0,0:00:33.88,0:00:35.95,MargareteChoir,,0,0,0,karaoke,{\k39}su{\k17}ki {\k31}no {\k16}ki{\k30}mo{\k74}chi
+Comment: 0,0:00:35.62,0:00:36.28,Tomari,,0,0,0,karaoke,{\k63}sou
+Comment: 0,0:00:36.25,0:00:38.65,Liella,,0,0,0,karaoke,{\k31}so{\k23}re {\k17}ga {\k21}tsu{\k16}yo{\k22}sa {\k58}nan{\k59}da
+Comment: 0,0:00:38.72,0:00:40.58,MargareteChoir,,0,0,0,karaoke,{\k31}a{\k17}ki{\k28}ra{\k15}me{\k42}nai {\k53}yo
+Comment: 0,0:00:40.55,0:00:41.38,Tomari,,0,0,0,karaoke,{\k83}DREAM
+Comment: 0,0:00:40.92,0:00:42.98,KanonChoir,,0,0,0,karaoke,{\k22}do{\k29}n{\k15}na {\k15}ba{\k29}sho {\k43}de{\k53}mo
+Comment: 0,0:00:43.15,0:00:47.05,Margarete,,0,0,0,karaoke,{\k38}yu{\k45}me {\k40}wa {\k27}a{\k34}fu{\k28}re{\k25}da{\k33}su {\kf120}no
+Comment: 0,0:00:48.25,0:00:53.72,Liella,,0,0,0,karaoke,{\k32}BUB{\k30}BLE {\k59}RISE {\k27}hi{\k20}ka{\k38}ri {\k35}ni {\k27}ryo{\k30}u{\k58}te {\k30}no{\k28}ba{\k32}so{\k29}u {\k72}yo
+Comment: 0,0:00:53.85,0:00:57.55,Tomari,,0,0,0,karaoke,{\k24}ka{\k11}na{\k31}e{\k28}ta{\k45}i {\k16}tte {\k31}da{\k16}da {\k26}wo {\k15}ko{\k28}ne{\k15}te{\k44}tai {\k40}yo
+Comment: 0,0:00:57.95,0:01:03.45,Margarete,,0,0,0,karaoke,{\k54}mo{\k33}shi {\k70}zut{\k91}to {\k47}to{\k45}do{\k57}ka{\k28}na{\k31}ku{\k27}te {\k67}mo
+Comment: 0,0:01:03.42,0:01:07.32,Margarete,,0,0,0,karaoke,{\k29}a{\k14}ga{\k15}ku {\k57}no {\rKanon}{\k12}ka{\k8}na{\k10}ra{\k20}zu {\k17}ka{\k21}shi{\k22}ku {\k24}na{\k15}n{\k53}te {\k73}nai
+Comment: 0,0:01:07.28,0:01:09.18,LiellaChoir,,0,0,0,karaoke,{\k29}yu{\k26}ra{\k33}yu{\k31}ra {\k30}ma{\k41}da
+Comment: 0,0:01:08.98,0:01:09.78,Kanon,,0,0,0,karaoke,{\k39}ho{\k41}ra
+Comment: 0,0:01:09.68,0:01:11.45,LiellaChoir,,0,0,0,karaoke,{\k25}ki{\k30}ra{\k30}ki{\k26}ra {\k33}ta{\k33}da
+Comment: 0,0:01:11.28,0:01:12.28,Kanon,,0,0,0,karaoke,{\k11}so{\k34}ra {\k55}ni
+Comment: 0,0:01:12.25,0:01:13.62,LiellaChoir,,0,0,0,karaoke,{\k18}ta{\k16}e{\k32}zu {\k14}no{\k15}bo{\k57}ru
+Comment: 0,0:01:13.78,0:01:16.88,Margarete,,0,0,0,karaoke,{\k29}bo{\k29}ku{\k50}ta{\k40}chi {\k47}no {\k46}ki{\k46}bo{\k24}u
+Comment: 0,0:01:17.05,0:01:21.58,Tomari,,0,0,0,karaoke,{\k30}tsu{\k31}ma{\k27}zu{\k45}ki {\k49}ga {\k28}a{\k16}ko{\k17}ga{\k25}re {\k47}wo {\k13}yo{\k20}bi{\k24}sa{\k12}ma{\k69}su
+Comment: 0,0:01:21.51,0:01:23.35,KanonChoir,,0,0,0,karaoke,{\k15}da{\k28}ka{\k16}ra {\k31}ko{\k16}wa{\k13}ku{\k65}nai
+Comment: 0,0:01:23.27,0:01:26.18,Liella,,0,0,0,karaoke,{\k58}hi{\k37}ka{\k13}ri {\k38}ni {\k32}te {\k32}wo {\k14}no{\k12}ba{\k55}sou
+Comment: 0,0:01:30.78,0:01:35.33,Tomari,,0,0,0,karaoke,{\k20}mu{\k33}ja{\k16}ki {\k32}ni {\k11}o{\k31}mo{\k87}i {\k29}ko{\k32}to{\k14}ba {\k32}ni {\k15}de{\k30}ki{\k73}ta
+Comment: 0,0:01:35.41,0:01:40.04,Tomari,,0,0,0,karaoke,{\k27}o{\k36}sa{\k19}na{\k34}i {\k38}hi {\k58}wa {\k32}to{\k58}o{\k29}i {\kf132}ne
+Comment: 0,0:01:40.16,0:01:44.71,Margarete,,0,0,0,karaoke,{\k37}de{\k32}ki{\k13}ru {\k31}ka {\k15}do{\k29}u{\k81}ka {\k33}na{\k32}ze {\k17}ya{\k42}ru {\k29}no {\k64}ka
+Comment: 0,0:01:44.96,0:01:50.09,Margarete,,0,0,0,karaoke,{\k33}da{\k29}re {\kf140}mo{\k36} {\k31}ki {\k78}ni {\k40}shi{\k28}na{\k31}ka{\k29}t{\k38}ta
+Comment: 0,0:01:50.05,0:01:51.80,KanonChoir,,0,0,0,karaoke,{\k22}ya{\k16}t{\k37}te {\k15}mi{\k27}yo{\k14}u {\k44}yo
+Comment: 0,0:01:51.76,0:01:52.80,Tomari,,0,0,0,karaoke,{\k41}TRY{\k63}ING
+Comment: 0,0:01:52.26,0:01:54.18,MargareteChoir,,0,0,0,karaoke,{\k15}a{\k24}no{\k21}go{\k28}ro {\k17}mi{\k42}tai {\k45}ni
+Comment: 0,0:01:54.14,0:01:55.01,Tomari,,0,0,0,karaoke,{\k37}PRO{\k50}MISE
+Comment: 0,0:01:54.80,0:01:56.60,KanonChoir,,0,0,0,karaoke,{\k28}u{\k15}na{\k30}zu{\k16}ki {\k45}at{\k46}ta
+Comment: 0,0:01:56.55,0:01:57.26,Tomari,,0,0,0,karaoke,{\k71}mou
+Comment: 0,0:01:57.01,0:01:59.39,Liella,,0,0,0,karaoke,{\k32}su{\k23}go{\k18}ku {\k21}u{\k15}re{\k23}shi{\k57}ku{\k49}te
+Comment: 0,0:01:59.47,0:02:01.27,MargareteChoir,,0,0,0,karaoke,{\k35}ma{\k17}ta {\k26}u{\k19}ma{\k45}re{\k38}ru
+Comment: 0,0:02:01.23,0:02:02.06,Tomari,,0,0,0,karaoke,{\k83}Lights
+Comment: 0,0:02:01.77,0:02:03.73,KanonChoir,,0,0,0,karaoke,{\k12}shi{\k49}zun{\k33}de {\k12}i{\k46}nai {\k44}de
+Comment: 0,0:02:03.91,0:02:08.19,Margarete,,0,0,0,karaoke,{\k32}ha{\k50}ya{\k43}ku {\k32}to{\k27}bi{\k33}da{\k31}sa{\k31}na{\kf149}kya
+Comment: 0,0:02:09.03,0:02:14.49,Liella,,0,0,0,karaoke,{\k32}BUB{\k24}BLE {\k60}RISE {\k33}hi{\k18}ka{\k38}ri {\k32}ga {\k30}bo{\k33}ku {\k44}wo {\k37}sa{\k36}so{\k31}u{\k26}n {\k72}da
+Comment: 0,0:02:14.61,0:02:18.45,Kanon,,0,0,0,karaoke,{\k19}u{\k17}tsu{\k27}mu{\k29}ka{\k49}zu {\k15}u{\k29}e {\k17}da{\k27}ke {\k17}mi{\k25}te {\k18}o{\k33}i{\k9}de {\k53}to
+Comment: 0,0:02:18.83,0:02:24.17,Tomari,,0,0,0,karaoke,{\k46}fu{\k44}a{\k60}n {\k84}to {\k47}na{\k49}ka{\k55}yo{\k23}ku {\k40}su{\k26}ru {\k60}no
+Comment: 0,0:02:24.12,0:02:27.96,Tomari,,0,0,0,karaoke,{\k38}ko{\k12}wa{\k14}sa {\k60}wa {\rLiella}{\k31}jo{\k16}u{\k23}sho{\k15}u {\k26}su{\k19}ru {\k19}chi{\k53}ka{\k58}ra
+Comment: 0,0:02:28.25,0:02:31.26,Kanon,,0,0,0,karaoke,{\k37}ko{\k35}ko{\k10}ro {\k46}ka{\k26}ra {\k36}ki{\k13}bo{\k45}u {\k53}ga
+Comment: 0,0:02:31.34,0:02:36.64,Kanon,,0,0,0,karaoke,{\k56}ki{\k64}e{\k22}ru {\k34}hi {\k15}wa{\k102}~ {\k32}ko{\k28}na{\k16}i {\kf161}yo
+Comment: 0,0:02:37.51,0:02:43.18,Margarete,,0,0,0,karaoke,{\k34}mi{\k14}zu {\k26}no {\k20}so{\k56}ko {\k24}o{\k34}chi{\k62}te {\k52}mo {\k38}shi{\k31}n{\k27}ji{\k32}te {\k26}i{\k91}ta
+Comment: 0,0:02:43.14,0:02:49.69,Margarete,,0,0,0,karaoke,{\k35}o{\k32}wa{\k26}ri {\k34}ja{\k16}na{\k38}i {\k61}tte {\rLiella}{\k29}ko{\k31}ko {\k29}ka{\k29}ra {\k62}dat{\kf233}te
+Comment: 0,0:02:47.02,0:02:51.48,LiellaChoir,,0,0,0,karaoke,{\k33}yu{\k28}ra{\k31}yu{\k31}ra{\k30}yu{\k82}ra {\k35}ki{\k31}ra{\k27}ki{\k31}ra{\k33}ki{\k54}ra
+Comment: 0,0:02:52.07,0:02:56.86,Tomari,,0,0,0,karaoke,{\k48}no{\k44}bo{\k44}t{\k40}te{\k63}ku {\k48}e{\k44}i{\k31}e{\k26}n {\k28}ni {\k63}ne
+Comment: 0,0:02:56.53,0:03:00.87,LiellaChoir,,0,0,0,karaoke,{\k34}yu{\k24}ra{\k32}yu{\k30}ra{\k29}yu{\k87}ra {\k36}ki{\k28}ra{\k30}ki{\k27}ra{\k33}ki{\k44}ra
+Comment: 0,0:03:00.99,0:03:06.17,Margarete,,0,0,0,karaoke,{\k29}a{\k47}shi{\k44}ta {\k90}wo {\k30}mi{\k53}te{\kf225}ru
+Comment: 0,0:03:08.42,0:03:13.72,Kanon,,0,0,0,karaoke,{\k33}mo{\k24}t{\k57}to {\k33}hi{\k21}ka{\k41}ri {\k33}ni {\k30}ryo{\k27}u{\k62}te {\k29}no{\k29}ba{\k29}so{\k29}u {\k53}yo
+Comment: 0,0:03:14.09,0:03:17.76,Kanon,,0,0,0,karaoke,{\k16}ka{\k16}na{\k28}e{\k28}ta{\k43}i {\k17}tte {\k32}da{\k12}da {\k32}wo {\k16}ko{\k28}ne{\k14}te {\k25}i{\k20}i {\k40}yo
+Comment: 0,0:03:18.22,0:03:23.52,Tomari,,0,0,0,karaoke,{\k49}ji{\k43}bu{\k54}n {\k92}wo {\k49}ho{\k36}me{\k62}ra{\k36}re{\k25}ru {\k33}ma{\k51}de
+Comment: 0,0:03:23.52,0:03:27.02,Margarete,,0,0,0,karaoke,{\k35}zen{\k20}ryo{\k14}ku {\k52}de {\k38}mo{\k15}ga{\k19}ki {\k20}tsu{\k22}zu{\k20}ke{\k24}ta{\k71}i
+Comment: 0,0:03:27.48,0:03:32.98,Liella,,0,0,0,karaoke,{\k27}BUB{\k30}BLE {\k60}RISE {\k28}hi{\k16}ka{\k42}ri {\k32}ni {\k29}ryo{\k31}u{\k59}te {\k31}no{\k20}ba{\k38}su{\k31}n{\k76}da
+Comment: 0,0:03:33.11,0:03:37.03,Kanon,,0,0,0,karaoke,{\k15}ka{\k15}na{\k26}e{\k31}ta{\k45}i {\k11}tte {\k30}chii{\k23}sa{\k26}na {\k17}ko{\k27}do{\k15}mo {\k31}no {\k13}you {\k67}ni
+Comment: 0,0:03:37.23,0:03:42.49,Margarete,,0,0,0,karaoke,{\k45}mo{\k42}shi {\k63}zut{\k92}to {\k44}to{\k37}do{\k67}kan{\k26}a{\k32}ku{\k30}te {\k48}mo
+Comment: 0,0:03:42.59,0:03:46.46,Margarete,,0,0,0,karaoke,{\k30}a{\k16}ga{\k17}ku {\k56}no {\rTomari}{\k26}ha{\k22}zu{\k20}ka{\k19}shi{\k21}ku {\k41}nan{\k58}te {\k61}nai
+Comment: 0,0:03:46.41,0:03:48.21,LiellaChoir,,0,0,0,karaoke,{\k34}yu{\k30}ra{\k32}yu{\k26}ra {\k31}ma{\k27}da
+Comment: 0,0:03:48.17,0:03:48.88,Tomari,,0,0,0,karaoke,{\k39}ho{\k32}ra
+Comment: 0,0:03:48.83,0:03:50.59,LiellaChoir,,0,0,0,karaoke,{\k30}ki{\k28}ra{\k34}ki{\k28}ra {\k29}ta{\k27}da
+Comment: 0,0:03:50.38,0:03:51.46,Tomari,,0,0,0,karaoke,{\k25}so{\k31}ra {\k52}ni
+Comment: 0,0:03:51.50,0:03:52.80,TomariChoir,,0,0,0,karaoke,{\k29}ta{\k15}e{\k15}zu {\k16}no{\k16}bo{\k39}ru
+Comment: 0,0:03:52.99,0:03:56.30,Kanon,,0,0,0,karaoke,{\k26}ha{\k27}te{\k49}shi{\k44}na{\k48}i {\k40}ki{\k49}bo{\k48}u
+Comment: 0,0:03:56.13,0:04:00.68,Margarete,,0,0,0,karaoke,{\k41}tsu{\k29}ma{\k32}zu{\k47}ki {\k42}wa {\k31}mo{\k12}no{\k19}ga{\k27}ta{\k44}ri {\k16}no {\k22}i{\k21}ri{\k15}gu{\k57}chi
+Comment: 0,0:04:00.68,0:04:02.51,LiellaChoir,,0,0,0,karaoke,{\k15}da{\k34}ka{\k14}ra {\k29}ko{\k15}wa{\k16}ku{\k60}nai
+Comment: 0,0:04:02.47,0:04:05.43,Liella,,0,0,0,karaoke,{\k62}hi{\k30}ka{\k22}ri {\k37}ni {\k29}te {\k32}wo {\k13}no{\k17}ba{\k54}sou
+Comment: 0,0:04:10.15,0:04:12.40,Liella,,0,0,0,karaoke,{\k25}Li{\k40}sten {\k31}to {\k29}the {\k23}voi{\k77}ces
+Dialogue: 0,0:00:04.55,0:00:07.88,Liella,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Li{\k33}sten {\k32}to {\k30}the {\k20}voi{\k83}ces
+Dialogue: 0,0:00:09.02,0:00:14.75,Margarete,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ki{\k25}bo{\k25}u {\k26}wa {\k14}a{\k29}bu{\k80}ku {\k37}so{\k30}ra {\k16}wo {\k28}me{\k11}za{\k34}shi{\k75}te
+Dialogue: 0,0:00:13.78,0:00:19.33,Margarete,,0,0,0,fx,{\k90\fad(300,200)}{\k32}no{\k31}bo{\k13}t{\k43}te{\k28}ku {\k63}no {\k27}i{\k58}tsu{\k31}de{\kf119}mo
+Dialogue: 0,0:00:18.56,0:00:24.38,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ma{\k31}e {\k17}ga {\k27}mi{\k16}e{\k29}na{\k84}i {\k36}ku{\k27}ra{\k17}ya{\k40}mi {\k33}na{\k88}ra
+Dialogue: 0,0:00:23.25,0:00:29.55,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k36}u{\k30}e {\kf143}wo{\k29} {\k32}mi{\k94}te {\k25}mi{\k32}re{\k27}ba {\k36}i{\k36}i
+Dialogue: 0,0:00:28.33,0:00:31.23,MargareteChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k32}u{\k15}chi{\k29}ku{\k16}da{\k44}ka{\k44}re
+Dialogue: 0,0:00:30.13,0:00:32.32,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\k34}CRY{\k75}ING
+Dialogue: 0,0:00:30.48,0:00:33.82,KanonChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k22}so{\k32}re{\k16}de{\k31}mo {\k18}ki{\k38}e{\k67}nai
+Dialogue: 0,0:00:32.45,0:00:34.62,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\k33}WI{\k74}SHING
+Dialogue: 0,0:00:32.98,0:00:36.15,MargareteChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k39}su{\k17}ki {\k31}no {\k16}ki{\k30}mo{\k74}chi
+Dialogue: 0,0:00:34.72,0:00:36.48,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\k63}sou
+Dialogue: 0,0:00:35.35,0:00:38.85,Liella,,0,0,0,fx,{\k90\fad(300,200)}{\k31}so{\k23}re {\k17}ga {\k21}tsu{\k16}yo{\k22}sa {\k58}nan{\k59}da
+Dialogue: 0,0:00:37.82,0:00:40.78,MargareteChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k31}a{\k17}ki{\k28}ra{\k15}me{\k42}nai {\k53}yo
+Dialogue: 0,0:00:39.65,0:00:41.58,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\k83}DREAM
+Dialogue: 0,0:00:40.02,0:00:43.18,KanonChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k22}do{\k29}n{\k15}na {\k15}ba{\k29}sho {\k43}de{\k53}mo
+Dialogue: 0,0:00:42.25,0:00:47.25,Margarete,,0,0,0,fx,{\k90\fad(300,200)}{\k38}yu{\k45}me {\k40}wa {\k27}a{\k34}fu{\k28}re{\k25}da{\k33}su {\kf120}no
+Dialogue: 0,0:00:47.35,0:00:53.92,Liella,,0,0,0,fx,{\k90\fad(300,200)}{\k32}BUB{\k30}BLE {\k59}RISE {\k27}hi{\k20}ka{\k38}ri {\k35}ni {\k27}ryo{\k30}u{\k58}te {\k30}no{\k28}ba{\k32}so{\k29}u {\k72}yo
+Dialogue: 0,0:00:52.95,0:00:57.75,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ka{\k11}na{\k31}e{\k28}ta{\k45}i {\k16}tte {\k31}da{\k16}da {\k26}wo {\k15}ko{\k28}ne{\k15}te{\k44}tai {\k40}yo
+Dialogue: 0,0:00:57.05,0:01:03.65,Margarete,,0,0,0,fx,{\k90\fad(300,200)}{\k54}mo{\k33}shi {\k70}zut{\k91}to {\k47}to{\k45}do{\k57}ka{\k28}na{\k31}ku{\k27}te {\k67}mo
+Dialogue: 0,0:01:02.52,0:01:07.52,Margarete,,0,0,0,fx,{\k90\fad(300,200)}{\k29}a{\k14}ga{\k15}ku {\k57}no {\rKanon}{\k12}ka{\k8}na{\k10}ra{\k20}zu {\k17}ka{\k21}shi{\k22}ku {\k24}na{\k15}n{\k53}te {\k73}nai
+Dialogue: 0,0:01:06.38,0:01:09.38,LiellaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k29}yu{\k26}ra{\k33}yu{\k31}ra {\k30}ma{\k41}da
+Dialogue: 0,0:01:08.08,0:01:09.98,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k39}ho{\k41}ra
+Dialogue: 0,0:01:08.78,0:01:11.65,LiellaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ki{\k30}ra{\k30}ki{\k26}ra {\k33}ta{\k33}da
+Dialogue: 0,0:01:10.38,0:01:12.48,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k11}so{\k34}ra {\k55}ni
+Dialogue: 0,0:01:11.35,0:01:13.82,LiellaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ta{\k16}e{\k32}zu {\k14}no{\k15}bo{\k57}ru
+Dialogue: 0,0:01:12.88,0:01:17.08,Margarete,,0,0,0,fx,{\k90\fad(300,200)}{\k29}bo{\k29}ku{\k50}ta{\k40}chi {\k47}no {\k46}ki{\k46}bo{\k24}u
+Dialogue: 0,0:01:16.15,0:01:21.78,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\k30}tsu{\k31}ma{\k27}zu{\k45}ki {\k49}ga {\k28}a{\k16}ko{\k17}ga{\k25}re {\k47}wo {\k13}yo{\k20}bi{\k24}sa{\k12}ma{\k69}su
+Dialogue: 0,0:01:20.61,0:01:23.55,KanonChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}da{\k28}ka{\k16}ra {\k31}ko{\k16}wa{\k13}ku{\k65}nai
+Dialogue: 0,0:01:22.37,0:01:26.38,Liella,,0,0,0,fx,{\k90\fad(300,200)}{\k58}hi{\k37}ka{\k13}ri {\k38}ni {\k32}te {\k32}wo {\k14}no{\k12}ba{\k55}sou
+Dialogue: 0,0:01:29.88,0:01:35.53,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\k20}mu{\k33}ja{\k16}ki {\k32}ni {\k11}o{\k31}mo{\k87}i {\k29}ko{\k32}to{\k14}ba {\k32}ni {\k15}de{\k30}ki{\k73}ta
+Dialogue: 0,0:01:34.51,0:01:40.24,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\k27}o{\k36}sa{\k19}na{\k34}i {\k38}hi {\k58}wa {\k32}to{\k58}o{\k29}i {\kf132}ne
+Dialogue: 0,0:01:39.26,0:01:44.91,Margarete,,0,0,0,fx,{\k90\fad(300,200)}{\k37}de{\k32}ki{\k13}ru {\k31}ka {\k15}do{\k29}u{\k81}ka {\k33}na{\k32}ze {\k17}ya{\k42}ru {\k29}no {\k64}ka
+Dialogue: 0,0:01:44.06,0:01:50.29,Margarete,,0,0,0,fx,{\k90\fad(300,200)}{\k33}da{\k29}re {\kf140}mo{\k36} {\k31}ki {\k78}ni {\k40}shi{\k28}na{\k31}ka{\k29}t{\k38}ta
+Dialogue: 0,0:01:49.15,0:01:52.00,KanonChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ya{\k16}t{\k37}te {\k15}mi{\k27}yo{\k14}u {\k44}yo
+Dialogue: 0,0:01:50.86,0:01:53.00,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\k41}TRY{\k63}ING
+Dialogue: 0,0:01:51.36,0:01:54.38,MargareteChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}a{\k24}no{\k21}go{\k28}ro {\k17}mi{\k42}tai {\k45}ni
+Dialogue: 0,0:01:53.24,0:01:55.21,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\k37}PRO{\k50}MISE
+Dialogue: 0,0:01:53.90,0:01:56.80,KanonChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k28}u{\k15}na{\k30}zu{\k16}ki {\k45}at{\k46}ta
+Dialogue: 0,0:01:55.65,0:01:57.46,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\k71}mou
+Dialogue: 0,0:01:56.11,0:01:59.59,Liella,,0,0,0,fx,{\k90\fad(300,200)}{\k32}su{\k23}go{\k18}ku {\k21}u{\k15}re{\k23}shi{\k57}ku{\k49}te
+Dialogue: 0,0:01:58.57,0:02:01.47,MargareteChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ma{\k17}ta {\k26}u{\k19}ma{\k45}re{\k38}ru
+Dialogue: 0,0:02:00.33,0:02:02.26,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\k83}Lights
+Dialogue: 0,0:02:00.87,0:02:03.93,KanonChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k12}shi{\k49}zun{\k33}de {\k12}i{\k46}nai {\k44}de
+Dialogue: 0,0:02:03.01,0:02:08.39,Margarete,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ha{\k50}ya{\k43}ku {\k32}to{\k27}bi{\k33}da{\k31}sa{\k31}na{\kf149}kya
+Dialogue: 0,0:02:08.13,0:02:14.69,Liella,,0,0,0,fx,{\k90\fad(300,200)}{\k32}BUB{\k24}BLE {\k60}RISE {\k33}hi{\k18}ka{\k38}ri {\k32}ga {\k30}bo{\k33}ku {\k44}wo {\k37}sa{\k36}so{\k31}u{\k26}n {\k72}da
+Dialogue: 0,0:02:13.71,0:02:18.65,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k19}u{\k17}tsu{\k27}mu{\k29}ka{\k49}zu {\k15}u{\k29}e {\k17}da{\k27}ke {\k17}mi{\k25}te {\k18}o{\k33}i{\k9}de {\k53}to
+Dialogue: 0,0:02:17.93,0:02:24.37,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\k46}fu{\k44}a{\k60}n {\k84}to {\k47}na{\k49}ka{\k55}yo{\k23}ku {\k40}su{\k26}ru {\k60}no
+Dialogue: 0,0:02:23.22,0:02:28.16,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ko{\k12}wa{\k14}sa {\k60}wa {\rLiella}{\k31}jo{\k16}u{\k23}sho{\k15}u {\k26}su{\k19}ru {\k19}chi{\k53}ka{\k58}ra
+Dialogue: 0,0:02:27.35,0:02:31.46,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ko{\k35}ko{\k10}ro {\k46}ka{\k26}ra {\k36}ki{\k13}bo{\k45}u {\k53}ga
+Dialogue: 0,0:02:30.44,0:02:36.84,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k56}ki{\k64}e{\k22}ru {\k34}hi {\k15}wa{\k102}~ {\k32}ko{\k28}na{\k16}i {\kf161}yo
+Dialogue: 0,0:02:36.61,0:02:43.38,Margarete,,0,0,0,fx,{\k90\fad(300,200)}{\k34}mi{\k14}zu {\k26}no {\k20}so{\k56}ko {\k24}o{\k34}chi{\k62}te {\k52}mo {\k38}shi{\k31}n{\k27}ji{\k32}te {\k26}i{\k91}ta
+Dialogue: 0,0:02:42.24,0:02:49.89,Margarete,,0,0,0,fx,{\k90\fad(300,200)}{\k35}o{\k32}wa{\k26}ri {\k34}ja{\k16}na{\k38}i {\k61}tte {\rLiella}{\k29}ko{\k31}ko {\k29}ka{\k29}ra {\k62}dat{\kf233}te
+Dialogue: 0,0:02:46.12,0:02:51.68,LiellaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k33}yu{\k28}ra{\k31}yu{\k31}ra{\k30}yu{\k82}ra {\k35}ki{\k31}ra{\k27}ki{\k31}ra{\k33}ki{\k54}ra
+Dialogue: 0,0:02:51.17,0:02:57.06,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\k48}no{\k44}bo{\k44}t{\k40}te{\k63}ku {\k48}e{\k44}i{\k31}e{\k26}n {\k28}ni {\k63}ne
+Dialogue: 0,0:02:55.63,0:03:01.07,LiellaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k34}yu{\k24}ra{\k32}yu{\k30}ra{\k29}yu{\k87}ra {\k36}ki{\k28}ra{\k30}ki{\k27}ra{\k33}ki{\k44}ra
+Dialogue: 0,0:03:00.09,0:03:06.37,Margarete,,0,0,0,fx,{\k90\fad(300,200)}{\k29}a{\k47}shi{\k44}ta {\k90}wo {\k30}mi{\k53}te{\kf225}ru
+Dialogue: 0,0:03:07.52,0:03:13.92,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k33}mo{\k24}t{\k57}to {\k33}hi{\k21}ka{\k41}ri {\k33}ni {\k30}ryo{\k27}u{\k62}te {\k29}no{\k29}ba{\k29}so{\k29}u {\k53}yo
+Dialogue: 0,0:03:13.19,0:03:17.96,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ka{\k16}na{\k28}e{\k28}ta{\k43}i {\k17}tte {\k32}da{\k12}da {\k32}wo {\k16}ko{\k28}ne{\k14}te {\k25}i{\k20}i {\k40}yo
+Dialogue: 0,0:03:17.32,0:03:23.72,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\k49}ji{\k43}bu{\k54}n {\k92}wo {\k49}ho{\k36}me{\k62}ra{\k36}re{\k25}ru {\k33}ma{\k51}de
+Dialogue: 0,0:03:22.62,0:03:27.22,Margarete,,0,0,0,fx,{\k90\fad(300,200)}{\k35}zen{\k20}ryo{\k14}ku {\k52}de {\k38}mo{\k15}ga{\k19}ki {\k20}tsu{\k22}zu{\k20}ke{\k24}ta{\k71}i
+Dialogue: 0,0:03:26.58,0:03:33.18,Liella,,0,0,0,fx,{\k90\fad(300,200)}{\k27}BUB{\k30}BLE {\k60}RISE {\k28}hi{\k16}ka{\k42}ri {\k32}ni {\k29}ryo{\k31}u{\k59}te {\k31}no{\k20}ba{\k38}su{\k31}n{\k76}da
+Dialogue: 0,0:03:32.21,0:03:37.23,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ka{\k15}na{\k26}e{\k31}ta{\k45}i {\k11}tte {\k30}chii{\k23}sa{\k26}na {\k17}ko{\k27}do{\k15}mo {\k31}no {\k13}you {\k67}ni
+Dialogue: 0,0:03:36.33,0:03:42.69,Margarete,,0,0,0,fx,{\k90\fad(300,200)}{\k45}mo{\k42}shi {\k63}zut{\k92}to {\k44}to{\k37}do{\k67}kan{\k26}a{\k32}ku{\k30}te {\k48}mo
+Dialogue: 0,0:03:41.69,0:03:46.66,Margarete,,0,0,0,fx,{\k90\fad(300,200)}{\k30}a{\k16}ga{\k17}ku {\k56}no {\rTomari}{\k26}ha{\k22}zu{\k20}ka{\k19}shi{\k21}ku {\k41}nan{\k58}te {\k61}nai
+Dialogue: 0,0:03:45.51,0:03:48.41,LiellaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k34}yu{\k30}ra{\k32}yu{\k26}ra {\k31}ma{\k27}da
+Dialogue: 0,0:03:47.27,0:03:49.08,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\k39}ho{\k32}ra
+Dialogue: 0,0:03:47.93,0:03:50.79,LiellaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ki{\k28}ra{\k34}ki{\k28}ra {\k29}ta{\k27}da
+Dialogue: 0,0:03:49.48,0:03:51.66,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\k25}so{\k31}ra {\k52}ni
+Dialogue: 0,0:03:50.60,0:03:53.00,TomariChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ta{\k15}e{\k15}zu {\k16}no{\k16}bo{\k39}ru
+Dialogue: 0,0:03:52.09,0:03:56.50,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ha{\k27}te{\k49}shi{\k44}na{\k48}i {\k40}ki{\k49}bo{\k48}u
+Dialogue: 0,0:03:55.23,0:04:00.88,Margarete,,0,0,0,fx,{\k90\fad(300,200)}{\k41}tsu{\k29}ma{\k32}zu{\k47}ki {\k42}wa {\k31}mo{\k12}no{\k19}ga{\k27}ta{\k44}ri {\k16}no {\k22}i{\k21}ri{\k15}gu{\k57}chi
+Dialogue: 0,0:03:59.78,0:04:02.71,LiellaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}da{\k34}ka{\k14}ra {\k29}ko{\k15}wa{\k16}ku{\k60}nai
+Dialogue: 0,0:04:01.57,0:04:05.63,Liella,,0,0,0,fx,{\k90\fad(300,200)}{\k62}hi{\k30}ka{\k22}ri {\k37}ni {\k29}te {\k32}wo {\k13}no{\k17}ba{\k54}sou
+Dialogue: 0,0:04:09.25,0:04:12.60,Liella,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Li{\k40}sten {\k31}to {\k29}the {\k23}voi{\k77}ces
