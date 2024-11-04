@@ -1,0 +1,43 @@
+﻿[Script Info]
+Title: Mô Ichido Luminous
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Original Timing: blast
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:31.59,0:00:35.82,Default,,0,0,0,karaoke,{\k71}su{\k17}re{\k53}chi{\k35}ga{\k35}u {\k35}o{\k53}n{\k110}do
+Comment: 1,0:00:35.81,0:00:41.81,Default,,0,0,0,karaoke,{\k35}ko{\k35}ko{\k35}ro {\k106}ga {\k35}su{\k35}ri{\k35}ki{\k35}re{\k35}ta {\k53}i{\k146}tai
+Comment: 1,0:00:41.89,0:00:49.98,Default,,0,0,0,karaoke,{\k35}a{\k35}ki{\k106}ra{\k17}me{\k88}te {\k35}ra{\k35}ku {\k106}ni {\k17}na{\k53}re{\k35}ru {\k35}no {\k35}ka{\k159}na
+Comment: 1,0:00:50.05,0:00:53.93,Default,,0,0,0,karaoke,{\k35}ki{\k35}mo{\k35}chi {\k106}LA{\k17}BY{\k146}RINTH
+Comment: 1,0:00:54.23,0:00:59.96,Default,,0,0,0,karaoke,{\k221}LIE {\k35}ho{\k71}n{\k71}to {\k71}wa {\k93}ne
+Comment: 1,0:00:59.95,0:01:05.64,Default,,0,0,0,karaoke,{\k35}shi{\k35}te{\k35}i{\k71}ru {\k71}ha{\k71}zu{\k71}na{\k71}n{\k97}da
+Comment: 1,0:01:05.68,0:01:11.32,Default,,0,0,0,karaoke,{\k17}i{\k17}ma {\k35}wa {\k17}ma{\k124}da {\k35}yo{\k35}wa{\k35}i {\k35}ma{\k35}ma {\k53}de{\k110}mo
+Comment: 1,0:01:11.31,0:01:16.96,Default,,0,0,0,karaoke,{\k35}hi{\k35}ka{\k17}ri {\k124}wa {\k17}so{\k17}ko {\k35}ni {\k17}to{\k35}mo{\k35}tte{\k17}i{\k35}ru {\k17}ka{\k110}na
+Comment: 1,0:01:16.99,0:01:22.68,Default,,0,0,0,karaoke,{\k17}to{\k17}o{\k35}ku {\k17}ma{\k124}de {\k35}hi{\k35}bi{\k35}ku {\k35}a{\k35}tsu{\k35}i {\k35}o{\k35}mo{\k62}i
+Comment: 1,0:01:22.67,0:01:24.08,Default,,0,0,0,karaoke,{\k35}tsu{\k35}na{\k71}gu
+Comment: 1,0:01:24.08,0:01:25.49,Sample KM [Choir],,0,0,0,karaoke,{\k35}ki{\k35}mi {\k71}to
+Comment: 1,0:01:25.49,0:01:26.90,Default,,0,0,0,karaoke,{\k35}ra{\k35}shi{\k71}ku
+Comment: 1,0:01:26.90,0:01:28.45,Sample KM [Choir],,0,0,0,karaoke,{\k35}ka{\k35}ke{\k71}te
+Comment: 1,0:01:28.40,0:01:32.36,Default,,0,0,0,karaoke,{\k17}mou {\k17}i{\k35}chi{\k213}dou {\k35}LU{\k35}MI{\k31}NOUS
+Dialogue: 1,0:00:30.69,0:00:36.02,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k71}su{\k17}re{\k53}chi{\k35}ga{\k35}u {\k35}o{\k53}n{\k110}do
+Dialogue: 1,0:00:34.91,0:00:42.01,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ko{\k35}ko{\k35}ro {\k106}ga {\k35}su{\k35}ri{\k35}ki{\k35}re{\k35}ta {\k53}i{\k146}tai
+Dialogue: 1,0:00:40.99,0:00:50.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}a{\k35}ki{\k106}ra{\k17}me{\k88}te {\k35}ra{\k35}ku {\k106}ni {\k17}na{\k53}re{\k35}ru {\k35}no {\k35}ka{\k159}na
+Dialogue: 1,0:00:49.15,0:00:54.13,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ki{\k35}mo{\k35}chi {\k106}LA{\k17}BY{\k146}RINTH
+Dialogue: 1,0:00:53.33,0:01:00.16,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k221}LIE {\k35}ho{\k71}n{\k71}to {\k71}wa {\k93}ne
+Dialogue: 1,0:00:59.05,0:01:05.84,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}shi{\k35}te{\k35}i{\k71}ru {\k71}ha{\k71}zu{\k71}na{\k71}n{\k97}da
+Dialogue: 1,0:01:04.78,0:01:11.52,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}i{\k17}ma {\k35}wa {\k17}ma{\k124}da {\k35}yo{\k35}wa{\k35}i {\k35}ma{\k35}ma {\k53}de{\k110}mo
+Dialogue: 1,0:01:10.41,0:01:17.16,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}hi{\k35}ka{\k17}ri {\k124}wa {\k17}so{\k17}ko {\k35}ni {\k17}to{\k35}mo{\k35}tte{\k17}i{\k35}ru {\k17}ka{\k110}na
+Dialogue: 1,0:01:16.09,0:01:22.88,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}to{\k17}o{\k35}ku {\k17}ma{\k124}de {\k35}hi{\k35}bi{\k35}ku {\k35}a{\k35}tsu{\k35}i {\k35}o{\k35}mo{\k62}i
+Dialogue: 1,0:01:21.77,0:01:24.28,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}tsu{\k35}na{\k71}gu
+Dialogue: 1,0:01:23.18,0:01:25.69,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}ki{\k35}mi {\k71}to
+Dialogue: 1,0:01:24.59,0:01:27.10,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ra{\k35}shi{\k71}ku
+Dialogue: 1,0:01:26.00,0:01:28.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}ka{\k35}ke{\k71}te
+Dialogue: 1,0:01:27.50,0:01:32.56,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}mou {\k17}i{\k35}chi{\k213}dou {\k35}LU{\k35}MI{\k31}NOUS
