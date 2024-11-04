@@ -1,0 +1,69 @@
+﻿[Script Info]
+Title: Gekkou Symphonia
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: TenmaWorks
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: AIKI,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: AIKI [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: AKINO,Arial,24,&H00FFFFFF,&H00FFD500,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: AKINO [Choir],Arial,24,&H00FFD500,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.68,0:00:06.07,AKINO,,0,0,0,karaoke,{\k24}ma{\k22}sa{\k28}tsu {\k40}wo {\k59}shi{\k19}ra{\k24}na{\k37}i{\k37} {\k26}ya{\k88}sa{\k65}shi{\k30}sa {\k40}de
+Comment: 0,0:00:06.29,0:00:08.99,AKINO,,0,0,0,karaoke,{\k23}ki{\k17}ri {\k18}fu{\k41}kai {\k27}mo{\k17}ri {\k21}ni {\k47}ma{\k38}yo{\k21}i
+Comment: 0,0:00:09.20,0:00:16.27,Sample KM [Up],,0,0,0,karaoke,{\k17}fu{\k20}ta{\k97}ri{\k19} {\k47}sen{\k54}ne{\k48}n {\k38}to{\k41}o{\k39}za{\k27}ka{\kf260}ru
+Comment: 0,0:00:16.87,0:00:18.74,AKINO,,0,0,0,karaoke,{\k20}hai{\k41}i{\k16}ro {\k17}no {\k33}HAR{\k17}MO{\k43}NY
+Comment: 0,0:00:19.09,0:00:21.11,AKINO,,0,0,0,karaoke,{\k43}ai {\k26}to {\k24}ji{\k17}yu{\k16}u {\k76}wa
+Comment: 0,0:00:21.50,0:00:24.25,AKINO,,0,0,0,karaoke,{\k19}na{\k29}ze {\k30}de{\k16}a{\k14}u {\k25}ko{\k36}to {\k24}de{\k40}ki{\k42}nai
+Comment: 0,0:00:24.25,0:00:30.97,AKINO,,0,0,0,karaoke,{\k19}i{\k19}tsu{\k49}ka{\k47} {\k29}a{\k40}re{\k19}no {\k43}no{\k35} {\k20}tsu{\k19}yu {\k47}ni {\k24}na{\k36}ru {\k23}ma{\kf203}de
+Comment: 0,0:00:25.01,0:00:25.88,AIKI [Choir],,0,0,0,karaoke,{\k23}i{\k21}tsu{\k43}ka
+Comment: 0,0:00:26.67,0:00:27.63,AIKI [Choir],,0,0,0,karaoke,{\k22}a{\k19}re{\k19}no {\k36}no
+Comment: 0,0:00:30.01,0:00:34.10,AIKI,,0,0,0,karaoke,{\k14}ko{\k14}ko{\k25}ro {\k23}no {\k16}o{\k29}mo{\k97}sa {\k31}a{\k34}i {\k17}no {\k18}o{\k21}mo{\kf70}sa
+Comment: 0,0:00:31.47,0:00:32.59,AKINO [Choir],,0,0,0,karaoke,{\k21}o{\k50}mo{\k41}sa
+Comment: 0,0:00:33.22,0:00:35.43,AKINO [Choir],,0,0,0,karaoke,{\k38}ai {\k19}no {\k25}o{\k24}mo{\kf115}sa
+Comment: 0,0:00:34.43,0:00:37.31,AIKI,,0,0,0,karaoke,{\k52}ze{\k29}n{\k41}shin {\k20}de {\k39}ki{\k22}i{\k54}te{\k13}i{\k18}ta
+Comment: 0,0:00:37.31,0:00:43.23,AIKI,,0,0,0,karaoke,{\k17}u{\k27}re{\k37}i{\k56} {\k27}ke{\k40}da{\k20}ka{\k54}i{\k27} {\k21}u{\k59}shi{\k16}ro {\k47}su{\k23}ga{\kf121}ta
+Comment: 0,0:00:44.01,0:00:51.51,Sample KM [Up],,0,0,0,karaoke,{\k46}a{\k31}na{\k43}ta {\k42}no {\k48}yu{\k33}me {\k45}wo{\k39} {\k41}ma{\k43}mo{\k37}ri{\k21}nu{\k25}ke{\k41}ta {\k41}na{\kf174}ra
+Comment: 0,0:00:51.74,0:00:57.50,Sample KM [Up],,0,0,0,karaoke,{\k26}tsu{\k20}ki {\k23}ni {\k18}a{\k18}ra{\k68}ga{\k17}u {\k19}na{\k29}ga{\k30}i {\k23}F{\k23}LA{\kf278}RE
+Comment: 1,0:00:55.37,0:00:59.04,AIKI [Choir],,0,0,0,karaoke,{\kf32}You {\kf22}know {\kf41}I'm {\kf78}always {\kf24}by {\kf32}your {\kf138}side
+Comment: 0,0:00:58.28,0:01:04.04,Sample KM [Up],,0,0,0,karaoke,{\k26}ha{\k21}ji{\k24}ma{\k19}ru {\k11}mo {\k69}se{\k23}zu {\k24}o{\k22}wa{\k16}ru {\k33}{\k46}mo{\k34}no{\k42}ga{\k50}ta{\kf160}ri
+Comment: 0,0:01:04.73,0:01:08.50,Sample KM [Up],,0,0,0,karaoke,{\k42}sot{\k29}to {\k23}so{\k21}ra {\k58}ni {\k20}o{\k18}ku {\k24}na{\k24}mi{\k18}da {\kf100}wa
+Comment: 0,0:01:08.93,0:01:10.93,AIKI,,0,0,0,karaoke,{\k28}mi{\k19}ka{\k12}n {\k16}no {\k28}SYM{\k45}PHO{\k52}NIA
+Comment: 0,0:01:10.74,0:01:11.98,AKINO,,0,0,0,karaoke,{\k8}a{\k13}na{\k26}ta {\k18}da{\k17}ke {\k42}ni
+Comment: 0,0:01:11.98,0:01:13.33,AIKI,,0,0,0,karaoke,{\k21}ki{\k24}mi {\k40}da{\k20}ke {\k30}ni
+Comment: 0,0:01:13.80,0:01:18.83,Sample KM [Up],,0,0,0,karaoke,{\k45}hoshi {\k40}no {\k38}yu{\k42}i{\k49}go{\kf289}n
+Comment: 0,0:01:20.18,0:01:26.39,Sample KM [Up],,0,0,0,karaoke,{\k55}a{\k25}na{\k39}ta {\k30}ni {\k37}a{\k41}i{\kf394}tai
+Dialogue: 0,0:00:00.00,0:00:06.27,AKINO,,0,0,0,fx,{\k68\fad(680,200)}{\k24}ma{\k22}sa{\k28}tsu {\k40}wo {\k59}shi{\k19}ra{\k24}na{\k37}i{\k37} {\k26}ya{\k88}sa{\k65}shi{\k30}sa {\k40}de
+Dialogue: 0,0:00:05.39,0:00:09.19,AKINO,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ki{\k17}ri {\k18}fu{\k41}kai {\k27}mo{\k17}ri {\k21}ni {\k47}ma{\k38}yo{\k21}i
+Dialogue: 0,0:00:08.30,0:00:16.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}fu{\k20}ta{\k97}ri{\k19} {\k47}sen{\k54}ne{\k48}n {\k38}to{\k41}o{\k39}za{\k27}ka{\kf260}ru
+Dialogue: 0,0:00:15.97,0:00:18.94,AKINO,,0,0,0,fx,{\k90\fad(300,200)}{\k20}hai{\k41}i{\k16}ro {\k17}no {\k33}HAR{\k17}MO{\k43}NY
+Dialogue: 0,0:00:18.19,0:00:21.31,AKINO,,0,0,0,fx,{\k90\fad(300,200)}{\k43}ai {\k26}to {\k24}ji{\k17}yu{\k16}u {\k76}wa
+Dialogue: 0,0:00:20.60,0:00:24.45,AKINO,,0,0,0,fx,{\k90\fad(300,200)}{\k19}na{\k29}ze {\k30}de{\k16}a{\k14}u {\k25}ko{\k36}to {\k24}de{\k40}ki{\k42}nai
+Dialogue: 0,0:00:23.35,0:00:31.17,AKINO,,0,0,0,fx,{\k90\fad(300,200)}{\k19}i{\k19}tsu{\k49}ka{\k47} {\k29}a{\k40}re{\k19}no {\k43}no{\k35} {\k20}tsu{\k19}yu {\k47}ni {\k24}na{\k36}ru {\k23}ma{\kf203}de
+Dialogue: 0,0:00:24.11,0:00:26.08,AIKI [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}i{\k21}tsu{\k43}ka
+Dialogue: 0,0:00:25.77,0:00:27.83,AIKI [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}a{\k19}re{\k19}no {\k36}no
+Dialogue: 0,0:00:29.11,0:00:34.30,AIKI,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ko{\k14}ko{\k25}ro {\k23}no {\k16}o{\k29}mo{\k97}sa {\k31}a{\k34}i {\k17}no {\k18}o{\k21}mo{\kf70}sa
+Dialogue: 0,0:00:30.57,0:00:32.79,AKINO [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}o{\k50}mo{\k41}sa
+Dialogue: 0,0:00:32.32,0:00:35.63,AKINO [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}ai {\k19}no {\k25}o{\k24}mo{\kf115}sa
+Dialogue: 0,0:00:33.53,0:00:37.51,AIKI,,0,0,0,fx,{\k90\fad(300,200)}{\k52}ze{\k29}n{\k41}shin {\k20}de {\k39}ki{\k22}i{\k54}te{\k13}i{\k18}ta
+Dialogue: 0,0:00:36.41,0:00:43.43,AIKI,,0,0,0,fx,{\k90\fad(300,200)}{\k17}u{\k27}re{\k37}i{\k56} {\k27}ke{\k40}da{\k20}ka{\k54}i{\k27} {\k21}u{\k59}shi{\k16}ro {\k47}su{\k23}ga{\kf121}ta
+Dialogue: 0,0:00:43.11,0:00:51.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}a{\k31}na{\k43}ta {\k42}no {\k48}yu{\k33}me {\k45}wo{\k39} {\k41}ma{\k43}mo{\k37}ri{\k21}nu{\k25}ke{\k41}ta {\k41}na{\kf174}ra
+Dialogue: 0,0:00:50.84,0:00:57.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}tsu{\k20}ki {\k23}ni {\k18}a{\k18}ra{\k68}ga{\k17}u {\k19}na{\k29}ga{\k30}i {\k23}F{\k23}LA{\kf278}RE
+Dialogue: 0,0:00:54.47,0:00:59.24,AIKI [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf32}You {\kf22}know {\kf41}I'm {\kf78}always {\kf24}by {\kf32}your {\kf138}side
+Dialogue: 0,0:00:57.38,0:01:04.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}ha{\k21}ji{\k24}ma{\k19}ru {\k11}mo {\k69}se{\k23}zu {\k24}o{\k22}wa{\k16}ru {\k33}{\k46}mo{\k34}no{\k42}ga{\k50}ta{\kf160}ri
+Dialogue: 0,0:01:03.83,0:01:08.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}sot{\k29}to {\k23}so{\k21}ra {\k58}ni {\k20}o{\k18}ku {\k24}na{\k24}mi{\k18}da {\kf100}wa
+Dialogue: 0,0:01:08.03,0:01:11.13,AIKI,,0,0,0,fx,{\k90\fad(300,200)}{\k28}mi{\k19}ka{\k12}n {\k16}no {\k28}SYM{\k45}PHO{\k52}NIA
+Dialogue: 0,0:01:09.84,0:01:12.18,AKINO,,0,0,0,fx,{\k90\fad(300,200)}{\k8}a{\k13}na{\k26}ta {\k18}da{\k17}ke {\k42}ni
+Dialogue: 0,0:01:11.08,0:01:13.53,AIKI,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ki{\k24}mi {\k40}da{\k20}ke {\k30}ni
+Dialogue: 0,0:01:12.90,0:01:19.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}hoshi {\k40}no {\k38}yu{\k42}i{\k49}go{\kf289}n
+Dialogue: 0,0:01:19.28,0:01:26.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}a{\k25}na{\k39}ta {\k30}ni {\k37}a{\k41}i{\kf394}tai
