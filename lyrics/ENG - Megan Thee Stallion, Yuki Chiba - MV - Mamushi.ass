@@ -1,0 +1,176 @@
+﻿[Script Info]
+Title: Mamushi
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: pockydany
+Original Script: Karaoke Mugen
+Synch Point: pockydany
+Script Updated By: puyo
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: All,Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Megan,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Yuki Chiba,Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Megan,,0,0,0,template pre-line all keeptags,!retime("line",$start < 700 and -$start or -700,200)!{!$start < 700 and "\\k" .. ($start/10) or "\\k70"!\fad(!$start < 700 and $start or 300!,200)}
+Comment: 0,0:00:25.95,0:00:26.87,Sample KM [Down],,0,0,0,karaoke,{\kf8}dai{\kf8}jou{\kf9}bu {\kf22}desu {\kf45}ka?
+Comment: 0,0:00:41.18,0:00:41.75,Sample KM [Down],,0,0,0,karaoke,{\kf14}dou{\kf43}zo
+Comment: 0,0:00:44.37,0:00:46.11,Sample KM [Choir],,0,0,0,karaoke,{\k25}KO{\k21}SHY {\k39}a{\k89}tsuu
+Comment: 0,0:00:47.11,0:00:48.45,Megan,,0,0,0,karaoke,{\k18}wa{\k18}ta{\k19}shi {\k29}wa {\k50}STAR
+Comment: 0,0:00:49.37,0:00:49.90,Yuki Chiba,,0,0,0,karaoke,{\k18}S{\k35}TAR
+Comment: 0,0:00:51.25,0:00:51.77,Yuki Chiba,,0,0,0,karaoke,{\k15}Me{\k37}gan
+Comment: 0,0:00:52.51,0:00:52.90,Megan,,0,0,80,karaoke,{\k39}{\i1}Ah
+Comment: 0,0:00:53.41,0:00:53.82,Yuki Chiba,,0,0,0,karaoke,{\k20}Yu{\k21}ki
+Comment: 0,0:00:54.50,0:00:55.11,Yuki Chiba,,0,0,0,karaoke,{\k24}Chi{\k37}ba
+Comment: 0,0:00:55.82,0:00:58.82,Megan,,0,0,0,karaoke,{\k17}I {\k21}get {\k16}mo{\k22}ney, {\k15}I'm {\k15}a {\k72}star, {\k67}star, {\k55}star
+Comment: 0,0:00:59.03,0:01:01.89,Megan,,0,0,0,karaoke,{\k78}Star, {\k73}star, {\k73}star, {\k62}star
+Comment: 0,0:01:03.10,0:01:06.10,Megan,,0,0,0,karaoke,{\k17}I {\k21}get {\k16}mo{\k22}ney, {\k15}I'm {\k15}a {\k72}star, {\k67}star, {\k55}star
+Comment: 0,0:01:06.32,0:01:09.02,Megan,,0,0,0,karaoke,{\k71}Star, {\k79}star, {\k74}star, {\k46}star
+Comment: 0,0:01:09.06,0:01:12.06,Yuki Chiba,,0,0,0,karaoke,{\k14}o{\k17}ka{\k38}ne {\k15}ka{\k25}se{\k58}gu {\k18}o{\k16}re{\k18}ra {\k29}wa {\k52}STAR
+Comment: 0,0:01:12.06,0:01:15.06,Megan,,0,0,0,karaoke,{\k10}o{\k22}ka{\k35}ne {\k17}ka{\k23}se{\k53}gu {\k19}wa{\k13}ta{\k22}shi {\k35}wa {\k51}STAR
+Comment: 0,0:01:15.17,0:01:19.40,Yuki Chiba,,0,0,0,karaoke,{\k67}STAR, {\k80}STAR, {\k69}STAR, {\k77}STAR, {\k21}ki{\k52}ra{\k17}ki{\k40}ra
+Comment: 0,0:01:19.61,0:01:20.96,Megan,,0,0,0,karaoke,{\k16}wa{\k17}ta{\k21}shi {\k26}wa {\k55\rAll}STAR
+Comment: 0,0:01:21.23,0:01:22.47,Megan,,0,0,0,karaoke,{\k18}He {\k17}know {\k21}who {\k16}I {\k52}am
+Comment: 0,0:01:22.55,0:01:24.11,Megan,,0,0,0,karaoke,{\k21}Ain't {\k13}had {\k14}to {\k26}say {\k20}my {\k62}name
+Comment: 0,0:01:24.11,0:01:25.30,Megan,,0,0,0,karaoke,{\k27}Stack {\k11}it {\k22}up {\k25}like {\k16}Te{\k18}tris
+Comment: 0,0:01:25.30,0:01:26.90,Megan,,0,0,0,karaoke,{\k19}But {\k23}this {\k14}mo{\k21}ney {\k18}ain't {\k20}a {\k45}game
+Comment: 0,0:01:27.00,0:01:29.90,Megan,,0,0,0,karaoke,{\k18}wa{\k16}ta{\k18}shi, {\k18}ka{\k27}wa{\k71}ii {\k31}ii {\k18}ka{\k25}ra{\k48}da
+Comment: 0,0:01:30.10,0:01:31.25,Megan,,0,0,0,karaoke,{\k22}Drin{\k21}kin' {\k19}out {\k19}the {\k15}bot{\k19}tle
+Comment: 0,0:01:31.25,0:01:32.84,Megan,,0,0,0,karaoke,{\k14}Get{\k19}tin' {\k22}twis{\k13}ted, {\k21}Ma{\k17}ru{\k53}chan
+Comment: 0,0:01:33.15,0:01:34.98,Megan,,0,0,0,karaoke,{\k37}Big {\k26}e{\k25}xo{\k22}tic, {\k27}Her{\k46}mès
+Comment: 0,0:01:34.98,0:01:36.06,Megan,,0,0,0,karaoke,{\k17}This {\k17}a {\k35}croc', {\k39}hmm
+Comment: 0,0:01:36.06,0:01:37.18,Megan,,0,0,0,karaoke,{\k38}Watch {\k23}too {\k19}ex{\k11}pen{\k21}sive
+Comment: 0,0:01:37.18,0:01:39.04,Megan,,0,0,0,karaoke,{\k18}Ain't {\k22}no {\k13}way {\k22}I'm {\k14}get{\k19}ting {\k35}clocked, {\k43}hmm
+Comment: 0,0:01:39.04,0:01:40.16,Megan,,0,0,0,karaoke,{\k18}I {\k16}think {\k15}I'm {\k21}so {\k18}se{\k24}xy
+Comment: 0,0:01:40.16,0:01:41.89,Megan,,0,0,0,karaoke,{\k16}E{\k13}very {\k22}shirt {\k22}I {\k15}own {\k16}is {\k36}cropped, {\k33}hmm
+Comment: 0,0:01:41.90,0:01:43.10,Megan,,0,0,0,karaoke,{\k40}So {\k18}ma{\k24}ny {\k16}ca{\k22}rats
+Comment: 0,0:01:43.10,0:01:44.59,Megan,,0,0,0,karaoke,{\k17}Dia{\k22}monds {\k18}do {\k21}the {\k15}bun{\k15}ny {\k41}hop
+Comment: 0,0:01:44.59,0:01:44.79,Megan,,0,0,80,karaoke,{\k20}{\i1}Ah
+Comment: 0,0:01:44.60,0:01:46.10,Megan,,0,0,0,karaoke,{\k16}In {\k16}the {\k20}U{\k20}S {\k16}or {\k22}Ja{\k40}pan
+Comment: 0,0:01:46.10,0:01:47.57,Megan,,0,0,0,karaoke,{\k15}If {\k17}he {\k18}meet {\k17}me, {\k20}he {\k24}gon' {\k36}bow
+Comment: 0,0:01:47.57,0:01:49.06,Megan,,0,0,0,karaoke,{\k12}I {\k21}got {\k43}yen {\k14}for {\k19}your {\k40}friends
+Comment: 0,0:01:49.06,0:01:50.54,Megan,,0,0,0,karaoke,{\k15}If {\k20}they {\k17}pret{\k21}ty, {\k16}bring {\k22}'em {\k37}out
+Comment: 0,0:01:50.54,0:01:51.98,Megan,,0,0,0,karaoke,{\k15}Go{\k21}in' {\k20}dumb {\k18}in {\k13}Ma{\k21}dam {\k36}Woo
+Comment: 0,0:01:51.98,0:01:53.44,Megan,,0,0,0,karaoke,{\k21}pou{\k21}rin' {\k14}sa{\k23}ke {\k15}in {\k12}they {\k40}mouth
+Comment: 0,0:01:53.44,0:01:55.00,Megan,,0,0,0,karaoke,{\k16}Told {\k25}him {\k13}put {\k21}me {\k19}on {\k17}his {\k45}plate
+Comment: 0,0:01:55.00,0:01:56.48,Megan,,0,0,0,karaoke,{\k14}Bring {\k17}them {\k16}chop{\k25}sticks {\k12}to {\k20}the {\k44}south
+Comment: 0,0:01:56.48,0:01:57.21,Megan,,0,0,80,karaoke,{\kf73}{\i1}Ah
+Comment: 0,0:01:56.49,0:01:59.49,Megan,,0,0,0,karaoke,{\k17}I {\k21}get {\k16}mo{\k22}ney, {\k15}I'm {\k15}a {\k72}star, {\k67}star, {\k55}star
+Comment: 0,0:01:59.70,0:02:02.40,Megan,,0,0,0,karaoke,{\k71}Star, {\k79}star, {\k74}star, {\k46}star
+Comment: 0,0:02:02.40,0:02:05.40,Megan,,0,0,0,karaoke,{\k17}I {\k21}get {\k16}mo{\k22}ney, {\k15}I'm {\k15}a {\k72}star, {\k67}star, {\k55}star
+Comment: 0,0:02:05.61,0:02:08.31,Megan,,0,0,0,karaoke,{\k71}Star, {\k79}star, {\k74}star, {\k46}star
+Comment: 0,0:02:08.31,0:02:11.31,Yuki Chiba,,0,0,0,karaoke,{\k14}o{\k17}ka{\k38}ne {\k15}ka{\k25}se{\k58}gu {\k18}o{\k16}re{\k18}ra {\k29}wa {\k52}STAR
+Comment: 0,0:02:11.31,0:02:14.31,Yuki Chiba,,0,0,0,karaoke,{\k10}o{\k22}ka{\k35}ne {\k17}ka{\k23}se{\k53}gu {\k19}wa{\k13}ta{\k22}shi {\k35}wa {\k51}STAR
+Comment: 0,0:02:14.42,0:02:18.65,Yuki Chiba,,0,0,0,karaoke,{\k67}STAR, {\k80}STAR, {\k69}STAR, {\k77}STAR, {\k21}ki{\k52}ra{\k17}ki{\k40}ra
+Comment: 0,0:02:18.86,0:02:20.21,Yuki Chiba,,0,0,0,karaoke,{\k16}wa{\k17}ta{\k21}shi {\k26}wa {\k55\rAll}Star
+Comment: 0,0:02:20.52,0:02:23.12,Yuki Chiba,,0,0,0,karaoke,{\k15}na{\k17}ga{\k23}re{\k17}ru {\k17}ho{\k25}shi{\k14}ta{\k20}chi {\k17}do{\k19}ko {\k18}ni {\k21}mu{\k37}kau?
+Comment: 0,0:02:23.50,0:02:26.06,Yuki Chiba,,0,0,0,karaoke,{\k17}ma{\k18}ta {\k17}ne{\k19}ga{\k18}i {\k21}ka{\k18}na{\k17}e {\k17}na{\k25}ga{\k13}ra {\k24}ku{\k32}rasu
+Comment: 0,0:02:26.45,0:02:29.05,Yuki Chiba,,0,0,0,karaoke,{\k17}JE{\k21}WEL{\k39}RY {\k11}mi {\k19}ni {\k19}tsu{\k24}ke{\k13}ta {\k21}ma{\k22}ma {\k17}u{\k37}tau
+Comment: 0,0:02:29.41,0:02:32.25,Yuki Chiba,,0,0,0,karaoke,{\k20}S{\k35}TAR-{\k16}ta{\k22}chi {\k21}ga {\k15}a{\k18}tsu{\k41}mat{\k11}ta {\k26}S{\k13}TU{\k24}DI{\k22}O
+Comment: 0,0:02:32.38,0:02:35.12,Yuki Chiba,,0,0,0,karaoke,{\k16}yo{\k16}na{\k21}yo{\k15}na {\k16}sa{\k17}ke {\k16}ta{\k11}ku{\k31}san {\k21}na{\k16}ra{\k23}bu {\k15}a{\k24}ji{\k16}to
+Comment: 0,0:02:35.26,0:02:36.57,Yuki Chiba,,0,0,0,karaoke,{\k24}sak{\k18}ki {\k13}ma{\k12}de {\k28}Rop{\k24}pon{\k12}gi
+Comment: 0,0:02:36.57,0:02:38.20,Yuki Chiba,,0,0,0,karaoke,{\k17}de {\k41}shuu{\k22}ro{\k19}ku {\k15}RA{\k18}DI{\k31}O
+Comment: 0,0:02:38.20,0:02:41.09,Yuki Chiba,,0,0,0,karaoke,{\k37}sok{\k11}ka{\k18}ra {\k12}te{\k9}re{\k27}bi {\k20}sa{\k21}tsu{\k34}ei {\k17}su{\k23}ru {\k13}ha{\k22}shi{\k25}go
+Comment: 0,0:02:41.25,0:02:43.04,Yuki Chiba,,0,0,0,karaoke,{\k14}CA{\k12}ME{\k15}RA-{\k13}ta{\k14}chi {\k10}o{\k16}i{\k17}ka{\k19}ke{\k18}te{\k31}ru
+Comment: 0,0:02:43.13,0:02:44.23,Yuki Chiba,,0,0,0,karaoke,{\k14}o{\k20}re{\k16}ta{\k19}chi {\k41}wo
+Comment: 0,0:02:44.23,0:02:46.64,Yuki Chiba,,0,0,0,karaoke,{\k29}dai{\k25}su{\k23}ki {\k15}pi{\k36}ka{\k16}pi{\k17}ka {\k22}no {\k20}da{\k15}i{\k23}ya
+Comment: 0,0:02:47.00,0:02:49.82,Yuki Chiba,,0,0,0,karaoke,{\k19}ku{\k16}ra{\k23}i {\k14}to{\k17}ko {\k20}ka{\k18}ga{\k20}ya{\k22}i{\k15}te{\k18}ru {\k19}ma{\k20}i{\k41}ban
+Comment: 0,0:02:50.14,0:02:52.78,Yuki Chiba,,0,0,0,karaoke,{\k37}NICE {\k36}TO {\k30}MEET {\k38}YOU {\k19}su{\k26}ru {\k25}ai{\k30}sa{\k23}tsu
+Comment: 0,0:02:53.10,0:02:55.52,Yuki Chiba,,0,0,0,karaoke,{\k28}I'M {\k42}SO {\k33}HAP{\k20}PY {\k24}a{\k14}ri{\k25}ga{\k36}tai {\k20}na
+Comment: 0,0:02:55.70,0:02:58.70,Megan,,0,0,0,karaoke,{\k17}I {\k21}get {\k16}mo{\k22}ney, {\k15}I'm {\k15}a {\k72}star, {\k67}star, {\k55}star
+Comment: 0,0:02:58.91,0:03:01.61,Megan,,0,0,0,karaoke,{\k71}Star, {\k79}star, {\k74}star, {\k46}star
+Comment: 0,0:03:01.61,0:03:04.61,Megan,,0,0,0,karaoke,{\k17}I {\k21}get {\k16}mo{\k22}ney, {\k15}I'm {\k15}a {\k72}star, {\k67}star, {\k55}star
+Comment: 0,0:03:04.86,0:03:07.56,Megan,,0,0,0,karaoke,{\k71}Star, {\k79}star, {\k74}star, {\k46}star
+Comment: 0,0:03:07.56,0:03:10.56,Yuki Chiba,,0,0,0,karaoke,{\k14}o{\k17}ka{\k38}ne {\k15}ka{\k25}se{\k58}gu {\k18}o{\k16}re{\k18}ra {\k29}wa {\k52}STAR
+Comment: 0,0:03:10.56,0:03:13.56,Megan,,0,0,0,karaoke,{\k10}o{\k22}ka{\k35}ne {\k17}ka{\k23}se{\k53}gu {\k19}wa{\k13}ta{\k22}shi {\k35}wa {\k51}STAR
+Comment: 0,0:03:13.67,0:03:17.90,Yuki Chiba,,0,0,0,karaoke,{\k18}S{\k49}TAR, {\k23}S{\k57}TAR, {\k20}S{\k49}TAR, {\k24}S{\k53}TAR, {\k21}ki{\k52}ra{\k17}ki{\k40}ra
+Comment: 0,0:03:18.11,0:03:19.46,Megan,,0,0,0,karaoke,{\k16}wa{\k17}ta{\k21}shi {\k26}wa {\k55\rAll}Star
+Comment: 0,0:03:24.30,0:03:25.65,Megan,,0,0,0,karaoke,{\k16}wa{\k17}ta{\k21}shi {\k26}wa {\k55\rAll}Star
+Comment: 0,0:03:31.00,0:03:31.44,Sample KM [Down],,0,0,0,karaoke,{\kf21}suima{\kf23}sen
+Comment: 0,0:03:33.47,0:03:34.18,Sample KM [Down],,0,0,0,karaoke,{\kf11}ji{\kf18}kan {\kf42}desu
+Comment: 0,0:03:45.23,0:03:45.92,Sample KM [Down],,0,0,0,karaoke,{\kf17}Me{\kf52}gan
+Dialogue: 0,0:00:25.25,0:00:27.07,Sample KM [Down],,0,0,0,fx,{\k70\fad(300,200)}{\kf8}dai{\kf8}jou{\kf9}bu {\kf22}desu {\kf45}ka?
+Dialogue: 0,0:00:40.48,0:00:41.95,Sample KM [Down],,0,0,0,fx,{\k70\fad(300,200)}{\kf14}dou{\kf43}zo
+Dialogue: 0,0:00:43.67,0:00:46.31,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k25}KO{\k21}SHY {\k39}a{\k89}tsuu
+Dialogue: 0,0:00:46.41,0:00:48.65,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k18}wa{\k18}ta{\k19}shi {\k29}wa {\k50}STAR
+Dialogue: 0,0:00:48.67,0:00:50.10,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k18}S{\k35}TAR
+Dialogue: 0,0:00:50.55,0:00:51.97,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k15}Me{\k37}gan
+Dialogue: 0,0:00:51.81,0:00:53.10,Megan,,0,0,80,fx,{\k70\fad(300,200)}{\k39}{\i1}Ah
+Dialogue: 0,0:00:52.71,0:00:54.02,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k20}Yu{\k21}ki
+Dialogue: 0,0:00:53.80,0:00:55.31,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k24}Chi{\k37}ba
+Dialogue: 0,0:00:55.12,0:00:59.02,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k17}I {\k21}get {\k16}mo{\k22}ney, {\k15}I'm {\k15}a {\k72}star, {\k67}star, {\k55}star
+Dialogue: 0,0:00:58.33,0:01:02.09,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k78}Star, {\k73}star, {\k73}star, {\k62}star
+Dialogue: 0,0:01:02.40,0:01:06.30,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k17}I {\k21}get {\k16}mo{\k22}ney, {\k15}I'm {\k15}a {\k72}star, {\k67}star, {\k55}star
+Dialogue: 0,0:01:05.62,0:01:09.22,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k71}Star, {\k79}star, {\k74}star, {\k46}star
+Dialogue: 0,0:01:08.36,0:01:12.26,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k14}o{\k17}ka{\k38}ne {\k15}ka{\k25}se{\k58}gu {\k18}o{\k16}re{\k18}ra {\k29}wa {\k52}STAR
+Dialogue: 0,0:01:11.36,0:01:15.26,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k10}o{\k22}ka{\k35}ne {\k17}ka{\k23}se{\k53}gu {\k19}wa{\k13}ta{\k22}shi {\k35}wa {\k51}STAR
+Dialogue: 0,0:01:14.47,0:01:19.60,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k67}STAR, {\k80}STAR, {\k69}STAR, {\k77}STAR, {\k21}ki{\k52}ra{\k17}ki{\k40}ra
+Dialogue: 0,0:01:18.91,0:01:21.16,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k16}wa{\k17}ta{\k21}shi {\k26}wa {\k55\rAll}STAR
+Dialogue: 0,0:01:20.53,0:01:22.67,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k18}He {\k17}know {\k21}who {\k16}I {\k52}am
+Dialogue: 0,0:01:21.85,0:01:24.31,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k21}Ain't {\k13}had {\k14}to {\k26}say {\k20}my {\k62}name
+Dialogue: 0,0:01:23.41,0:01:25.50,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k27}Stack {\k11}it {\k22}up {\k25}like {\k16}Te{\k18}tris
+Dialogue: 0,0:01:24.60,0:01:27.10,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k19}But {\k23}this {\k14}mo{\k21}ney {\k18}ain't {\k20}a {\k45}game
+Dialogue: 0,0:01:26.30,0:01:30.10,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k18}wa{\k16}ta{\k18}shi, {\k18}ka{\k27}wa{\k71}ii {\k31}ii {\k18}ka{\k25}ra{\k48}da
+Dialogue: 0,0:01:29.40,0:01:31.45,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k22}Drin{\k21}kin' {\k19}out {\k19}the {\k15}bot{\k19}tle
+Dialogue: 0,0:01:30.55,0:01:33.04,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k14}Get{\k19}tin' {\k22}twis{\k13}ted, {\k21}Ma{\k17}ru{\k53}chan
+Dialogue: 0,0:01:32.45,0:01:35.18,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k37}Big {\k26}e{\k25}xo{\k22}tic, {\k27}Her{\k46}mès
+Dialogue: 0,0:01:34.28,0:01:36.26,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k17}This {\k17}a {\k35}croc', {\k39}hmm
+Dialogue: 0,0:01:35.36,0:01:37.38,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k38}Watch {\k23}too {\k19}ex{\k11}pen{\k21}sive
+Dialogue: 0,0:01:36.48,0:01:39.24,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k18}Ain't {\k22}no {\k13}way {\k22}I'm {\k14}get{\k19}ting {\k35}clocked, {\k43}hmm
+Dialogue: 0,0:01:38.34,0:01:40.36,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k18}I {\k16}think {\k15}I'm {\k21}so {\k18}se{\k24}xy
+Dialogue: 0,0:01:39.46,0:01:42.09,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k16}E{\k13}very {\k22}shirt {\k22}I {\k15}own {\k16}is {\k36}cropped, {\k33}hmm
+Dialogue: 0,0:01:41.20,0:01:43.30,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k40}So {\k18}ma{\k24}ny {\k16}ca{\k22}rats
+Dialogue: 0,0:01:42.40,0:01:44.79,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k17}Dia{\k22}monds {\k18}do {\k21}the {\k15}bun{\k15}ny {\k41}hop
+Dialogue: 0,0:01:43.89,0:01:44.99,Megan,,0,0,80,fx,{\k70\fad(300,200)}{\k20}{\i1}Ah
+Dialogue: 0,0:01:43.90,0:01:46.30,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k16}In {\k16}the {\k20}U{\k20}S {\k16}or {\k22}Ja{\k40}pan
+Dialogue: 0,0:01:45.40,0:01:47.77,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k15}If {\k17}he {\k18}meet {\k17}me, {\k20}he {\k24}gon' {\k36}bow
+Dialogue: 0,0:01:46.87,0:01:49.26,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k12}I {\k21}got {\k43}yen {\k14}for {\k19}your {\k40}friends
+Dialogue: 0,0:01:48.36,0:01:50.74,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k15}If {\k20}they {\k17}pret{\k21}ty, {\k16}bring {\k22}'em {\k37}out
+Dialogue: 0,0:01:49.84,0:01:52.18,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k15}Go{\k21}in' {\k20}dumb {\k18}in {\k13}Ma{\k21}dam {\k36}Woo
+Dialogue: 0,0:01:51.28,0:01:53.64,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k21}pou{\k21}rin' {\k14}sa{\k23}ke {\k15}in {\k12}they {\k40}mouth
+Dialogue: 0,0:01:52.74,0:01:55.20,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k16}Told {\k25}him {\k13}put {\k21}me {\k19}on {\k17}his {\k45}plate
+Dialogue: 0,0:01:54.30,0:01:56.68,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k14}Bring {\k17}them {\k16}chop{\k25}sticks {\k12}to {\k20}the {\k44}south
+Dialogue: 0,0:01:55.78,0:01:57.41,Megan,,0,0,80,fx,{\k70\fad(300,200)}{\kf73}{\i1}Ah
+Dialogue: 0,0:01:55.79,0:01:59.69,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k17}I {\k21}get {\k16}mo{\k22}ney, {\k15}I'm {\k15}a {\k72}star, {\k67}star, {\k55}star
+Dialogue: 0,0:01:59.00,0:02:02.60,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k71}Star, {\k79}star, {\k74}star, {\k46}star
+Dialogue: 0,0:02:01.70,0:02:05.60,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k17}I {\k21}get {\k16}mo{\k22}ney, {\k15}I'm {\k15}a {\k72}star, {\k67}star, {\k55}star
+Dialogue: 0,0:02:04.91,0:02:08.51,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k71}Star, {\k79}star, {\k74}star, {\k46}star
+Dialogue: 0,0:02:07.61,0:02:11.51,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k14}o{\k17}ka{\k38}ne {\k15}ka{\k25}se{\k58}gu {\k18}o{\k16}re{\k18}ra {\k29}wa {\k52}STAR
+Dialogue: 0,0:02:10.61,0:02:14.51,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k10}o{\k22}ka{\k35}ne {\k17}ka{\k23}se{\k53}gu {\k19}wa{\k13}ta{\k22}shi {\k35}wa {\k51}STAR
+Dialogue: 0,0:02:13.72,0:02:18.85,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k67}STAR, {\k80}STAR, {\k69}STAR, {\k77}STAR, {\k21}ki{\k52}ra{\k17}ki{\k40}ra
+Dialogue: 0,0:02:18.16,0:02:20.41,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k16}wa{\k17}ta{\k21}shi {\k26}wa {\k55\rAll}Star
+Dialogue: 0,0:02:19.82,0:02:23.32,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k15}na{\k17}ga{\k23}re{\k17}ru {\k17}ho{\k25}shi{\k14}ta{\k20}chi {\k17}do{\k19}ko {\k18}ni {\k21}mu{\k37}kau?
+Dialogue: 0,0:02:22.80,0:02:26.26,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k17}ma{\k18}ta {\k17}ne{\k19}ga{\k18}i {\k21}ka{\k18}na{\k17}e {\k17}na{\k25}ga{\k13}ra {\k24}ku{\k32}rasu
+Dialogue: 0,0:02:25.75,0:02:29.25,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k17}JE{\k21}WEL{\k39}RY {\k11}mi {\k19}ni {\k19}tsu{\k24}ke{\k13}ta {\k21}ma{\k22}ma {\k17}u{\k37}tau
+Dialogue: 0,0:02:28.71,0:02:32.45,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k20}S{\k35}TAR-{\k16}ta{\k22}chi {\k21}ga {\k15}a{\k18}tsu{\k41}mat{\k11}ta {\k26}S{\k13}TU{\k24}DI{\k22}O
+Dialogue: 0,0:02:31.68,0:02:35.32,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k16}yo{\k16}na{\k21}yo{\k15}na {\k16}sa{\k17}ke {\k16}ta{\k11}ku{\k31}san {\k21}na{\k16}ra{\k23}bu {\k15}a{\k24}ji{\k16}to
+Dialogue: 0,0:02:34.56,0:02:36.77,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k24}sak{\k18}ki {\k13}ma{\k12}de {\k28}Rop{\k24}pon{\k12}gi
+Dialogue: 0,0:02:35.87,0:02:38.40,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k17}de {\k41}shuu{\k22}ro{\k19}ku {\k15}RA{\k18}DI{\k31}O
+Dialogue: 0,0:02:37.50,0:02:41.29,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k37}sok{\k11}ka{\k18}ra {\k12}te{\k9}re{\k27}bi {\k20}sa{\k21}tsu{\k34}ei {\k17}su{\k23}ru {\k13}ha{\k22}shi{\k25}go
+Dialogue: 0,0:02:40.55,0:02:43.24,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k14}CA{\k12}ME{\k15}RA-{\k13}ta{\k14}chi {\k10}o{\k16}i{\k17}ka{\k19}ke{\k18}te{\k31}ru
+Dialogue: 0,0:02:42.43,0:02:44.43,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k14}o{\k20}re{\k16}ta{\k19}chi {\k41}wo
+Dialogue: 0,0:02:43.53,0:02:46.84,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k29}dai{\k25}su{\k23}ki {\k15}pi{\k36}ka{\k16}pi{\k17}ka {\k22}no {\k20}da{\k15}i{\k23}ya
+Dialogue: 0,0:02:46.30,0:02:50.02,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k19}ku{\k16}ra{\k23}i {\k14}to{\k17}ko {\k20}ka{\k18}ga{\k20}ya{\k22}i{\k15}te{\k18}ru {\k19}ma{\k20}i{\k41}ban
+Dialogue: 0,0:02:49.44,0:02:52.98,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k37}NICE {\k36}TO {\k30}MEET {\k38}YOU {\k19}su{\k26}ru {\k25}ai{\k30}sa{\k23}tsu
+Dialogue: 0,0:02:52.40,0:02:55.72,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k28}I'M {\k42}SO {\k33}HAP{\k20}PY {\k24}a{\k14}ri{\k25}ga{\k36}tai {\k20}na
+Dialogue: 0,0:02:55.00,0:02:58.90,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k17}I {\k21}get {\k16}mo{\k22}ney, {\k15}I'm {\k15}a {\k72}star, {\k67}star, {\k55}star
+Dialogue: 0,0:02:58.21,0:03:01.81,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k71}Star, {\k79}star, {\k74}star, {\k46}star
+Dialogue: 0,0:03:00.91,0:03:04.81,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k17}I {\k21}get {\k16}mo{\k22}ney, {\k15}I'm {\k15}a {\k72}star, {\k67}star, {\k55}star
+Dialogue: 0,0:03:04.16,0:03:07.76,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k71}Star, {\k79}star, {\k74}star, {\k46}star
+Dialogue: 0,0:03:06.86,0:03:10.76,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k14}o{\k17}ka{\k38}ne {\k15}ka{\k25}se{\k58}gu {\k18}o{\k16}re{\k18}ra {\k29}wa {\k52}STAR
+Dialogue: 0,0:03:09.86,0:03:13.76,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k10}o{\k22}ka{\k35}ne {\k17}ka{\k23}se{\k53}gu {\k19}wa{\k13}ta{\k22}shi {\k35}wa {\k51}STAR
+Dialogue: 0,0:03:12.97,0:03:18.10,Yuki Chiba,,0,0,0,fx,{\k70\fad(300,200)}{\k18}S{\k49}TAR, {\k23}S{\k57}TAR, {\k20}S{\k49}TAR, {\k24}S{\k53}TAR, {\k21}ki{\k52}ra{\k17}ki{\k40}ra
+Dialogue: 0,0:03:17.41,0:03:19.66,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k16}wa{\k17}ta{\k21}shi {\k26}wa {\k55\rAll}Star
+Dialogue: 0,0:03:23.60,0:03:25.85,Megan,,0,0,0,fx,{\k70\fad(300,200)}{\k16}wa{\k17}ta{\k21}shi {\k26}wa {\k55\rAll}Star
+Dialogue: 0,0:03:30.30,0:03:31.64,Sample KM [Down],,0,0,0,fx,{\k70\fad(300,200)}{\kf21}suima{\kf23}sen
+Dialogue: 0,0:03:32.77,0:03:34.38,Sample KM [Down],,0,0,0,fx,{\k70\fad(300,200)}{\kf11}ji{\kf18}kan {\kf42}desu
+Dialogue: 0,0:03:44.53,0:03:46.12,Sample KM [Down],,0,0,0,fx,{\k70\fad(300,200)}{\kf17}Me{\kf52}gan
