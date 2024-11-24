@@ -1,0 +1,57 @@
+﻿[Script Info]
+Title: Mummy Nanny
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:04.43,0:00:04.95,Sample KM [Up],,0,0,0,karaoke,{\k52}Nil{\k0}
+Comment: 0,0:00:05.25,0:00:06.12,Sample KM [Up],,0,0,0,karaoke,{\k27}Oh, {\k60}nein
+Comment: 0,0:00:24.10,0:00:26.26,Sample KM [Up],,0,0,0,karaoke,{\kf216}Ah{\k0}
+Comment: 0,0:00:26.47,0:00:27.27,Sample KM [Up],,0,0,0,karaoke,{\k22}Mum{\k15}my {\k21}Nan{\k22}ny
+Comment: 0,0:00:27.98,0:00:29.72,Sample KM [Up],,0,0,0,karaoke,{\k39}Wer {\k38}hätt's {\k23}ge{\k74}dacht?
+Comment: 0,0:00:29.52,0:00:30.22,Sample KM [Choir],,0,0,0,karaoke,{\k20}Ja, {\k50}ja
+Comment: 0,0:00:30.31,0:00:32.64,Sample KM [Up],,0,0,0,karaoke,{\k18}Uns'{\k20}re {\k37}Mu{\k23}mie {\k34}ist {\k21}auf{\k18}ge{\k62}wacht
+Comment: 0,0:00:32.64,0:00:33.93,Sample KM [Choir],,0,0,0,karaoke,{\k22}Ja, {\k18}sie {\k15}ist {\k18}auf{\k22}ge{\k34}wacht
+Comment: 0,0:00:34.12,0:00:35.70,Sample KM [Up],,0,0,0,karaoke,{\k39}An {\k41}je{\k21}nem {\k57}Tag
+Comment: 0,0:00:35.87,0:00:39.13,Sample KM [Up],,0,0,0,karaoke,{\k17}Ver{\k18}ließ {\k16}sie {\k20}Schlag {\k23}auf {\k39}Schlag {\k38}den {\k26}Sar{\k31}ko{\k96}phag
+Comment: 0,0:00:38.78,0:00:40.28,Sample KM [Choir],,0,0,0,karaoke,{\k17}Schlag {\k19}auf {\k22}Schlag {\k19}den {\k16}Sar{\k22}ko{\k35}phag
+Comment: 0,0:00:40.28,0:00:42.29,Sample KM [Up],,0,0,0,karaoke,{\k60}Und{\k20} {\k40}top{\k81}fit
+Comment: 0,0:00:42.97,0:00:45.31,Sample KM [Up],,0,0,0,karaoke,{\k45}Kam {\k49}sie {\k17}mit {\k41}uns {\k82}mit
+Comment: 0,0:00:50.67,0:00:52.21,Sample KM [Up],,0,0,0,karaoke,{\k36}Mum{\k41}my {\k22}Nan{\k55}ny
+Comment: 0,0:00:50.67,0:00:51.60,Sample KM [Choir],,0,0,0,karaoke,{\k93}Ah{\k0}
+Comment: 0,0:00:54.13,0:00:55.30,Sample KM [Up],,0,0,0,karaoke,{\k20}Uns'{\k16}re {\k28}Mu{\k53}mie
+Comment: 0,0:00:56.79,0:00:58.32,Sample KM [Up],,0,0,0,karaoke,{\k42}Kennt {\k39}je{\k23}de {\k49}List
+Comment: 0,0:00:58.76,0:00:59.88,Sample KM [Up],,0,0,0,karaoke,{\k20}Mum{\k19}my {\k22}Nan{\k51}ny
+Comment: 0,0:01:00.30,0:01:01.85,Sample KM [Up],,0,0,0,karaoke,{\k25}Ja, {\k18}sie {\k20}ist {\k34}die{\k18} {\k40}best
+Comment: 0,0:00:00.00,0:00:02.00,Sample KM [Up],,0,0,0,karaoke,
+Dialogue: 0,0:00:03.53,0:00:05.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Nil{\k0}
+Dialogue: 0,0:00:04.35,0:00:06.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Oh, {\k60}nein
+Dialogue: 0,0:00:23.20,0:00:26.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf216}Ah{\k0}
+Dialogue: 0,0:00:25.57,0:00:27.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Mum{\k15}my {\k21}Nan{\k22}ny
+Dialogue: 0,0:00:27.08,0:00:29.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Wer {\k38}hätt's {\k23}ge{\k74}dacht?
+Dialogue: 0,0:00:28.62,0:00:30.42,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ja, {\k50}ja
+Dialogue: 0,0:00:29.41,0:00:32.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Uns'{\k20}re {\k37}Mu{\k23}mie {\k34}ist {\k21}auf{\k18}ge{\k62}wacht
+Dialogue: 0,0:00:31.74,0:00:34.13,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ja, {\k18}sie {\k15}ist {\k18}auf{\k22}ge{\k34}wacht
+Dialogue: 0,0:00:33.22,0:00:35.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}An {\k41}je{\k21}nem {\k57}Tag
+Dialogue: 0,0:00:34.97,0:00:39.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ver{\k18}ließ {\k16}sie {\k20}Schlag {\k23}auf {\k39}Schlag {\k38}den {\k26}Sar{\k31}ko{\k96}phag
+Dialogue: 0,0:00:37.88,0:00:40.48,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Schlag {\k19}auf {\k22}Schlag {\k19}den {\k16}Sar{\k22}ko{\k35}phag
+Dialogue: 0,0:00:39.38,0:00:42.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Und{\k20} {\k40}top{\k81}fit
+Dialogue: 0,0:00:42.07,0:00:45.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Kam {\k49}sie {\k17}mit {\k41}uns {\k82}mit
+Dialogue: 0,0:00:49.77,0:00:52.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Mum{\k41}my {\k22}Nan{\k55}ny
+Dialogue: 0,0:00:49.77,0:00:51.80,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k93}Ah{\k0}
+Dialogue: 0,0:00:53.23,0:00:55.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Uns'{\k16}re {\k28}Mu{\k53}mie
+Dialogue: 0,0:00:55.89,0:00:58.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Kennt {\k39}je{\k23}de {\k49}List
+Dialogue: 0,0:00:57.86,0:01:00.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Mum{\k19}my {\k22}Nan{\k51}ny
+Dialogue: 0,0:00:59.40,0:01:02.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ja, {\k18}sie {\k20}ist {\k34}die{\k18} {\k40}best
+Dialogue: 0,0:00:00.00,0:00:02.20,Sample KM [Up],,0,0,0,fx,{\k0\fad(0,200)}
