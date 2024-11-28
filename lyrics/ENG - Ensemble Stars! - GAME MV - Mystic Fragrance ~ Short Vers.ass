@@ -10,111 +10,131 @@ Original Timing: Variabels
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sample KM [Up],Arial,24,&H000AD811,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Sample KM [Down],Arial,24,&H000AD811,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
-Style: Tsukasa,Arial,24,&H00FFFFFF,&H004F47F7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Izumi,Arial,24,&H00FFFFFF,&H00F9D98A,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Ritsu,Arial,24,&H00FFFFFF,&H00FF5F70,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up],Arial,24,&H00FE914C,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H000AD811,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,60,1
+Style: Tsukasa,Arial,24,&H00FFFFFF,&H006060D1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Izumi,Arial,24,&H00FFFFFF,&H00FDC50E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Ritsu,Arial,24,&H00FFFFFF,&H00FF87B8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Arashi,Arial,24,&H00FFFFFF,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Leo,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Arashi Ritsu [Down],Arial,24,&H00FFFFFF,&H0041B5E6,&H00A00011,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
-Style: Leo Tsukasa,Arial,24,&H00FFFFFF,&H003AA5FF,&H0006007D,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Arashi Ritsu Izumi [Down],Arial,24,&H0041B5E6,&H00F9D98A,&H00A00011,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
-Style: Izumi Ritsu,Arial,24,&H00FFFFFF,&H00F9D98A,&H00A00011,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Arashi Ritsu,Arial,24,&H00FFFFFF,&H0041B5E6,&H00A00011,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Izumi Tsukasa,Arial,24,&H00FFFFFF,&H00F9D98A,&H0006007D,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Izumi Leo,Arial,24,&H00FFFFFF,&H00F9D98A,&H000060B1,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Tsukasa Ritsu,Arial,24,&H00FFFFFF,&H00786EFF,&H00A00011,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Arashi Izumi,Arial,24,&H00FFFFFF,&H0041B5E6,&H00D59900,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Arashi backing,Arial,24,&H00FFFFFF,&H0041B5E6,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,2,2,60,1
+Style: Ritsu Backing,Arial,24,&H00FFFFFF,&H00FF87B8,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,2,2,60,1
+Style: Izumi Backing,Arial,24,&H00FFFFFF,&H00FDC50E,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,2,2,60,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:02.09,0:00:03.77,Sample KM [Down],,0,0,0,karaoke,{\k52}(HO {\k46}HO {\k70}HO)
-Comment: 0,0:00:05.86,0:00:07.39,Sample KM [Down],,0,0,0,karaoke,{\k50}(HO {\k48}HO {\k55}HO)
-Comment: 0,0:00:09.63,0:00:11.41,Sample KM [Down],,0,0,0,karaoke,{\k52}(HO {\k46}HO {\k80}HO)
+Comment: 0,0:00:02.09,0:00:03.77,Sample KM [Down],,0,0,0,karaoke,{\k52}HO {\k46}HO {\k70}HO
+Comment: 0,0:00:05.86,0:00:07.39,Sample KM [Down],,0,0,0,karaoke,{\k50}HO {\k48}HO {\k55}HO
+Comment: 0,0:00:09.63,0:00:11.41,Sample KM [Down],,0,0,0,karaoke,{\k52}HO {\k46}HO {\k80}HO
 Comment: 0,0:00:10.47,0:00:15.17,Arashi,,0,0,0,karaoke,{\k37}mu{\k21}ne {\k40}ni {\k31}no{\k18}ko{\k47}su {\k25}F{\k28}RA{\k64}G{\kf133}RAN{\k26}CE
-Comment: 0,0:00:13.32,0:00:15.02,Sample KM [Down],,0,0,0,karaoke,{\k52}(HO {\k46}HO {\k72}HO)
+Comment: 0,0:00:13.32,0:00:15.02,Sample KM [Down],,0,0,0,karaoke,{\k52}HO {\k46}HO {\k72}HO
 Comment: 0,0:00:16.37,0:00:20.05,Izumi,,0,0,0,karaoke,{\k33}su{\k20}re {\k26}chi{\k20}ga{\k28}u {\k23}to{\k45}ki, {\k21}ki{\k26}dzu{\k25}i{\k23}te{\k21}ru {\k17}de{\k40}shou?
 Comment: 0,0:00:20.17,0:00:23.92,Izumi,,0,0,0,karaoke,{\k27}fu{\k23}re{\k21}zu {\k70}ni {\k25}sa{\k74}sou {\k64}IN{\k21}TEN{\k50}TION
-Comment: 0,0:00:21.11,0:00:22.86,Arashi Ritsu [Down],,0,0,0,karaoke,{\k25}(feel {\k73}me, {\k20}p{\k57}lease)
-Comment: 0,0:00:23.92,0:00:27.57,Leo Tsukasa,,0,0,0,karaoke,{\k25}ka{\k23}ga{\k24}mi {\k23}ni {\k23}u{\k26}tsu{\k46}ru {\k47}hon{\k24}ne {\k20}ni {\k22}so{\k29}t{\k33}to
-Comment: 0,0:00:27.57,0:00:31.55,Leo Tsukasa,,0,0,0,karaoke,{\k36}ta{\k24}da {\k24}yo{\k68}u {\k22}yo{\k74}kan {\k64}kan{\k25}ji{\k61}te
-Comment: 0,0:00:28.45,0:00:30.14,Arashi Ritsu Izumi [Down],,0,0,0,karaoke,{\k41}(Se{\k68}cret {\k60}veil)
+Comment: 0,0:00:21.11,0:00:22.86,Ritsu Backing,,0,0,0,karaoke,{\k25}FEEL {\k73}ME, {\k20}P{\k57}LEASE
+Comment: 0,0:00:21.11,0:00:22.86,Arashi backing,,0,0,0,karaoke,{\k25}FEEL {\k73}ME, {\k20}P{\k57}LEASE
+Comment: 0,0:00:23.92,0:00:27.57,Tsukasa,,0,0,0,karaoke,{\k25}ka{\k23}ga{\k24}mi {\k23}ni {\k23}u{\k26}tsu{\k46}ru {\k47}hon{\k24}ne {\k20}ni {\k22}so{\k29}t{\k33}to
+Comment: 0,0:00:23.92,0:00:27.57,Leo,,0,0,0,karaoke,{\k25}ka{\k23}ga{\k24}mi {\k23}ni {\k23}u{\k26}tsu{\k46}ru {\k47}hon{\k24}ne {\k20}ni {\k22}so{\k29}t{\k33}to
+Comment: 0,0:00:27.70,0:00:31.55,Tsukasa,,0,0,0,karaoke,{\k25}ta{\k22}da {\k15}yo{\k78}u {\k23}yo{\k72}kan {\k64}kan{\k30}ji{\k56}te
+Comment: 0,0:00:27.70,0:00:31.55,Leo,,0,0,0,karaoke,{\k25}ta{\k22}da {\k15}yo{\k78}u {\k23}yo{\k72}kan {\k64}kan{\k30}ji{\k56}te
+Comment: 0,0:00:28.45,0:00:30.14,Izumi Backing,,0,0,0,karaoke,{\k41}SE{\k68}CRET {\k60}VEIL
+Comment: 0,0:00:28.45,0:00:30.14,Ritsu Backing,,0,0,0,karaoke,{\k41}SE{\k68}CRET {\k60}VEIL
+Comment: 0,0:00:28.45,0:00:30.14,Arashi backing,,0,0,0,karaoke,{\k41}SE{\k68}CRET {\k60}VEIL
 Comment: 0,0:00:32.09,0:00:35.63,Ritsu,,0,0,0,karaoke,{\k42}jun{\k36}su{\k21}i {\k22}na {\k25}ki{\k14}mo{\k32}chi {\k26}no {\k15}u{\k23}ra {\kf98}no
 Comment: 0,0:00:35.89,0:00:39.39,Tsukasa,,0,0,0,karaoke,{\k14}o{\k28}sa{\k29}e {\k24}ra{\k24}re{\k23}na{\k24}i {\k45}yo{\k25}ku{\k24}bo{\k25}u {\k65}ga
 Comment: 0,0:00:39.56,0:00:43.15,Leo,,0,0,0,karaoke,{\k29}tsu{\k29}ki {\k21}no {\k25}ka{\k20}ga{\k26}ya{\k43}ku {\k27}ki{\k24}re{\k23}i {\kf92}na
-Comment: 0,0:00:43.36,0:00:46.59,Arashi Izumi,,0,0,0,karaoke,{\k30}yo{\k21}ru {\k18}ni {\k28}tsu{\k15}ba{\k31}sa {\k22}wo {\k51}hi{\k18}ra{\k28}ku {\k61}no
-Comment: 0,0:00:46.41,0:00:48.47,Sample KM [Up],,0,0,0,karaoke,{\k29}Let {\k22}me, {\k47}un, {\k46}deux, {\k62}trois
-Comment: 0,0:00:48.53,0:00:50.34,Leo Tsukasa,,0,0,0,karaoke,{\k25}TO{\k26}~{\k19}P {\k25}NO{\k25}TES {\k61}wa
-Comment: 0,0:00:50.62,0:00:52.21,Sample KM [Up],,0,0,0,karaoke,{\k50}Im{\k40}pres{\k69}sion
-Comment: 0,0:00:52.27,0:00:54.17,Arashi Ritsu,,0,0,0,karaoke,{\k23}ma{\k23}s{\k23}shi{\k26}ro{\k27}i {\k68}DRESS
-Comment: 0,0:00:53.92,0:00:55.94,Sample KM [Up],,0,0,0,karaoke,{\k28}Wan{\k23}na {\k45}be {\k40}O{\k66}dette
+Comment: 0,0:00:43.36,0:00:46.59,Izumi,,0,0,0,karaoke,{\k30}yo{\k21}ru {\k18}ni {\k28}tsu{\k15}ba{\k31}sa {\k22}wo {\k51}hi{\k18}ra{\k28}ku {\k61}no
+Comment: 0,0:00:43.36,0:00:46.59,Arashi,,0,0,0,karaoke,{\k30}yo{\k21}ru {\k18}ni {\k28}tsu{\k15}ba{\k31}sa {\k22}wo {\k51}hi{\k18}ra{\k28}ku {\k61}no
+Comment: 0,0:00:46.41,0:00:48.47,Sample KM [Up],,0,0,0,karaoke,{\k29}LET {\k22}ME, {\k47}UN, {\k46}DEUX, {\k62}TROIS
+Comment: 0,0:00:48.53,0:00:50.34,Tsukasa,,0,0,0,karaoke,{\k25}TO{\k26}~{\k19}P {\k25}NO{\k25}TES {\k61}wa
+Comment: 0,0:00:48.53,0:00:50.34,Leo,,0,0,0,karaoke,{\k25}TO{\k26}~{\k19}P {\k25}NO{\k25}TES {\k61}wa
+Comment: 0,0:00:50.62,0:00:52.21,Sample KM [Up],,0,0,0,karaoke,{\k50}IM{\k40}PRES{\k69}SION
+Comment: 0,0:00:52.27,0:00:54.17,Ritsu,,0,0,0,karaoke,{\k23}ma{\k23}s{\k23}shi{\k26}ro{\k27}i {\k68}DRESS
+Comment: 0,0:00:52.27,0:00:54.17,Arashi,,0,0,0,karaoke,{\k23}ma{\k23}s{\k23}shi{\k26}ro{\k27}i {\k68}DRESS
+Comment: 0,0:00:53.92,0:00:55.94,Sample KM [Up],,0,0,0,karaoke,{\k28}WAN{\k23}NA {\k45}BE {\k40}O{\k66}DETTE
 Comment: 0,0:00:56.02,0:01:01.83,Izumi,,0,0,0,karaoke,{\k51}mat{\k24}te {\k44}iru {\k72}no, {\k48}tat{\k38}ta {\k57}hi{\k39}to{\k53}ri {\k48}da{\k35}ke {\k72}no
-Comment: 0,0:01:01.83,0:01:05.65,Sample KM [Up],,0,0,0,karaoke,{\k65}My{\k40}s{\k90}tic {\k71}fra{\k25}g{\k91}rance
-Comment: 0,0:01:05.68,0:01:09.38,Arashi,,0,0,0,karaoke,{\k45}ai {\k23}to {\k26}iu{\k43}~ {\k26}PER{\k46}FU{\k95}ME {\k23}ma{\k43}toi
-Comment: 0,0:01:07.76,0:01:09.18,Sample KM [Down],,0,0,0,karaoke,{\k50}(HO {\k46}HO {\k46}HO)
-Comment: 0,0:01:09.38,0:01:13.15,Sample KM [Up],,0,0,0,karaoke,{\k60}My{\k39}s{\k92}tic {\k73}fra{\k22}g{\k91}rance
+Comment: 0,0:01:01.83,0:01:05.65,Sample KM [Up],,0,0,0,karaoke,{\k65}MY{\k40}S{\k90}TIC {\k71}FRA{\k25}G{\k91}RANCE
+Comment: 0,0:01:05.68,0:01:09.38,Arashi,,0,0,0,karaoke,{\k45}ai {\k23}to {\k26}iu{\k43}~ {\k26}PER{\k46}FU{\k95}ME {\k23}ma{\k24}to{\k19}i
+Comment: 0,0:01:07.76,0:01:09.18,Sample KM [Down],,0,0,0,karaoke,{\k50}HO {\k46}HO {\k46}HO
+Comment: 0,0:01:09.38,0:01:13.15,Sample KM [Up],,0,0,0,karaoke,{\k60}MY{\k39}S{\k92}TIC {\k73}FRA{\k22}G{\k91}RANCE
 Comment: 0,0:01:13.18,0:01:17.49,Ritsu,,0,0,0,karaoke,{\k46}BAL{\k48}LET {\k46}wo {\k24}o{\k46}dot{\kf221}te
-Comment: 0,0:01:15.28,0:01:16.89,Sample KM [Down],,0,0,0,karaoke,{\k47}(HO {\k47}HO {\k67}HO)
-Comment: 0,0:01:20.48,0:01:24.43,Arashi Ritsu,,0,0,0,karaoke,{\k54}sut{\k41}to, {\k55}sot{\k53}to, {\k39}kit{\k60}to, {\k23}ki{\k16}o{\k32}ku {\k22}ni
-Comment: 0,0:01:24.43,0:01:28.00,Izumi Tsukasa,,0,0,0,karaoke,{\k34}mot{\k54}to, {\k42}zut{\k43}to... {\k48}shi{\k36}mi {\k28}ko{\k19}n{\k53}de
+Comment: 0,0:01:15.28,0:01:16.89,Sample KM [Down],,0,0,0,karaoke,{\k47}HO {\k47}HO {\k67}HO
+Comment: 0,0:01:20.48,0:01:24.43,Ritsu,,0,0,0,karaoke,{\k54}sut{\k41}to, {\k55}sot{\k53}to, {\k39}kit{\k60}to, {\k23}ki{\k16}o{\k32}ku {\k22}ni
+Comment: 0,0:01:20.48,0:01:24.43,Arashi,,0,0,0,karaoke,{\k54}sut{\k41}to, {\k55}sot{\k53}to, {\k39}kit{\k60}to, {\k23}ki{\k16}o{\k32}ku {\k22}ni
+Comment: 0,0:01:24.43,0:01:28.00,Tsukasa,,0,0,0,karaoke,{\k34}mot{\k54}to, {\k42}zut{\k43}to... {\k48}shi{\k36}mi {\k28}ko{\k19}n{\k53}de
+Comment: 0,0:01:24.43,0:01:28.00,Izumi,,0,0,0,karaoke,{\k34}mot{\k54}to, {\k42}zut{\k43}to... {\k48}shi{\k36}mi {\k28}ko{\k19}n{\k53}de
 Comment: 0,0:01:28.12,0:01:31.88,Leo,,0,0,0,karaoke,{\k34}is{\k64}shun {\k36}dat{\k56}te {\k29}e{\k36}ien {\k33}ni {\k27}na{\k18}ru {\k23}you {\k20}na
 Comment: 0,0:01:31.88,0:01:35.43,Sample KM [Up],,0,0,0,karaoke,{\k50}ka{\k44}o{\k40}ri {\k34}de {\k23}da{\k25}ki{\k46}shi{\k23}me{\k70}ru
-Comment: 0,0:01:35.09,0:01:37.20,Sample KM [Up],,0,0,0,karaoke,{\k36}Let {\k22}me, {\k47}un, {\k39}deux, {\k67}trois
-Comment: 0,0:01:37.25,0:01:39.16,Izumi Leo,,0,0,0,karaoke,{\k27}LA{\k26}S{\k25}T {\k21}NO{\k24}TES {\k68}wa
-Comment: 0,0:01:39.42,0:01:40.95,Sample KM [Up],,0,0,0,karaoke,{\k43}De{\k50}si{\k60}re
-Comment: 0,0:01:40.95,0:01:43.11,Tsukasa Ritsu,,0,0,0,karaoke,{\k56}shik{\k25}ko{\k23}ku {\k25}no {\k87}DRESS
-Comment: 0,0:01:42.67,0:01:44.79,Sample KM [Up],,0,0,0,karaoke,{\k26}Wan{\k25}na {\k46}be {\k48}O{\k67}dile
+Comment: 0,0:01:35.09,0:01:37.20,Sample KM [Up],,0,0,0,karaoke,{\k36}LET {\k22}ME, {\k47}UN, {\k39}DEUX, {\k67}TROIS
+Comment: 0,0:01:37.25,0:01:39.16,Tsukasa,,0,0,0,karaoke,{\k27}LA{\k26}S{\k25}T {\k21}NO{\k24}TES {\k68}wa
+Comment: 0,0:01:37.25,0:01:39.16,Izumi,,0,0,0,karaoke,{\k27}LA{\k26}S{\k25}T {\k21}NO{\k24}TES {\k68}wa
+Comment: 0,0:01:39.42,0:01:40.95,Sample KM [Up],,0,0,0,karaoke,{\k43}DE{\k50}SI{\k60}RE
+Comment: 0,0:01:40.95,0:01:43.11,Leo,,0,0,0,karaoke,{\k56}shik{\k25}ko{\k23}ku {\k25}no {\k87}DRESS
+Comment: 0,0:01:40.95,0:01:43.11,Ritsu,,0,0,0,karaoke,{\k56}shik{\k25}ko{\k23}ku {\k25}no {\k87}DRESS
+Comment: 0,0:01:42.67,0:01:44.79,Sample KM [Up],,0,0,0,karaoke,{\k26}WAN{\k25}NA {\k46}BE {\k48}O{\k67}DILE
 Comment: 0,0:01:44.80,0:01:46.56,Arashi,,0,0,0,karaoke,{\k25}fu{\k24}ri{\k23}mu{\k18}ka{\k28}se{\k58}tai
 Comment: 0,0:01:46.65,0:01:50.61,Sample KM [Up],,0,0,0,karaoke,{\k50}tat{\k38}ta {\k57}hi{\k45}to{\k48}ri {\k46}da{\k46}ke {\k66}wo
-Comment: 0,0:01:50.61,0:01:54.18,Sample KM [Up],,0,0,0,karaoke,{\k60}My{\k41}s{\k89}tic {\k73}fra{\k26}g{\k68}rance
-Comment: 0,0:01:53.47,0:02:00.38,Izumi Ritsu,,0,0,0,karaoke,{\k27}i{\k22}ro{\k16}a{\k30}se{\kf136}nai {\k29}o{\k23}moi {\kf117}no {\k19}hi{\k25}to {\k16}hi{\k33}ra {\kf198}wo
-Comment: 0,0:01:56.51,0:01:58.06,Sample KM [Down],,0,0,0,karaoke,{\k52}(HO {\k46}HO {\k57}HO)
-Comment: 0,0:01:58.06,0:02:01.68,Sample KM [Up],,0,0,0,karaoke,{\k65}My{\k40}s{\k90}tic {\k74}fra{\k22}g{\k71}rance
+Comment: 0,0:01:50.61,0:01:54.18,Sample KM [Up],,0,0,0,karaoke,{\k60}MY{\k41}S{\k89}TIC {\k73}FRA{\k26}G{\k68}RANCE
+Comment: 0,0:01:53.47,0:02:00.38,Izumi,,0,0,0,karaoke,{\k27}i{\k22}ro{\k16}a{\k30}se{\kf136}nai {\k29}o{\k23}moi {\kf117}no {\k19}hi{\k25}to {\k16}hi{\k33}ra {\kf198}wo
+Comment: 0,0:01:53.47,0:02:00.38,Ritsu,,0,0,0,karaoke,{\k27}i{\k22}ro{\k16}a{\k30}se{\kf136}nai {\k29}o{\k23}moi {\kf117}no {\k19}hi{\k25}to {\k16}hi{\k33}ra {\kf198}wo
+Comment: 0,0:01:56.51,0:01:58.06,Sample KM [Down],,0,0,0,karaoke,{\k52}HO {\k46}HO {\k57}HO
+Comment: 0,0:01:58.06,0:02:01.68,Sample KM [Up],,0,0,0,karaoke,{\k65}MY{\k40}S{\k90}TIC {\k74}FRA{\k22}G{\k71}RANCE
 Comment: 0,0:02:01.18,0:02:05.56,Arashi,,0,0,0,karaoke,{\k25}mu{\k25}ne {\k48}ni {\k24}no{\k16}ko{\k54}su {\k23}F{\k23}RA{\k64}G{\kf89}RAN{\kf47}CE
 Comment: 0,0:02:05.68,0:02:09.42,Sample KM [Up],,0,0,0,karaoke,{\k66}a{\k29}na{\k65}ta {\k27}no {\k70}mu{\k27}ne {\kf90}ni
-Dialogue: 0,0:00:01.19,0:00:03.97,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k52}(HO {\k46}HO {\k70}HO)
-Dialogue: 0,0:00:04.96,0:00:07.59,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k50}(HO {\k48}HO {\k55}HO)
-Dialogue: 0,0:00:08.73,0:00:11.61,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k52}(HO {\k46}HO {\k80}HO)
+Dialogue: 0,0:00:01.19,0:00:03.97,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k52}HO {\k46}HO {\k70}HO
+Dialogue: 0,0:00:04.96,0:00:07.59,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k50}HO {\k48}HO {\k55}HO
+Dialogue: 0,0:00:08.73,0:00:11.61,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k52}HO {\k46}HO {\k80}HO
 Dialogue: 0,0:00:09.57,0:00:15.37,Arashi,,0,0,0,fx,{\k90\fad(300,200)}{\k37}mu{\k21}ne {\k40}ni {\k31}no{\k18}ko{\k47}su {\k25}F{\k28}RA{\k64}G{\kf133}RAN{\k26}CE
-Dialogue: 0,0:00:12.42,0:00:15.22,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k52}(HO {\k46}HO {\k72}HO)
+Dialogue: 0,0:00:12.42,0:00:15.22,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k52}HO {\k46}HO {\k72}HO
 Dialogue: 0,0:00:15.47,0:00:20.25,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k33}su{\k20}re {\k26}chi{\k20}ga{\k28}u {\k23}to{\k45}ki, {\k21}ki{\k26}dzu{\k25}i{\k23}te{\k21}ru {\k17}de{\k40}shou?
 Dialogue: 0,0:00:19.27,0:00:24.12,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k27}fu{\k23}re{\k21}zu {\k70}ni {\k25}sa{\k74}sou {\k64}IN{\k21}TEN{\k50}TION
-Dialogue: 0,0:00:20.21,0:00:23.06,Arashi Ritsu [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k25}(feel {\k73}me, {\k20}p{\k57}lease)
-Dialogue: 0,0:00:23.02,0:00:27.77,Leo Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ka{\k23}ga{\k24}mi {\k23}ni {\k23}u{\k26}tsu{\k46}ru {\k47}hon{\k24}ne {\k20}ni {\k22}so{\k29}t{\k33}to
-Dialogue: 0,0:00:26.67,0:00:31.75,Leo Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ta{\k24}da {\k24}yo{\k68}u {\k22}yo{\k74}kan {\k64}kan{\k25}ji{\k61}te
-Dialogue: 0,0:00:27.55,0:00:30.34,Arashi Ritsu Izumi [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k41}(Se{\k68}cret {\k60}veil)
+Dialogue: 0,0:00:20.21,0:00:23.06,Ritsu Backing,,0,0,0,fx,{\k90\fad(300,200)}{\k25}FEEL {\k73}ME, {\k20}P{\k57}LEASE
+Dialogue: 0,0:00:20.21,0:00:23.06,Arashi backing,,0,0,0,fx,{\k90\fad(300,200)}{\k25}FEEL {\k73}ME, {\k20}P{\k57}LEASE
+Dialogue: 0,0:00:23.02,0:00:27.77,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ka{\k23}ga{\k24}mi {\k23}ni {\k23}u{\k26}tsu{\k46}ru {\k47}hon{\k24}ne {\k20}ni {\k22}so{\k29}t{\k33}to
+Dialogue: 0,0:00:23.02,0:00:27.77,Leo,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ka{\k23}ga{\k24}mi {\k23}ni {\k23}u{\k26}tsu{\k46}ru {\k47}hon{\k24}ne {\k20}ni {\k22}so{\k29}t{\k33}to
+Dialogue: 0,0:00:26.80,0:00:31.75,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ta{\k22}da {\k15}yo{\k78}u {\k23}yo{\k72}kan {\k64}kan{\k30}ji{\k56}te
+Dialogue: 0,0:00:26.80,0:00:31.75,Leo,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ta{\k22}da {\k15}yo{\k78}u {\k23}yo{\k72}kan {\k64}kan{\k30}ji{\k56}te
+Dialogue: 0,0:00:27.55,0:00:30.34,Izumi Backing,,0,0,0,fx,{\k90\fad(300,200)}{\k41}SE{\k68}CRET {\k60}VEIL
+Dialogue: 0,0:00:27.55,0:00:30.34,Ritsu Backing,,0,0,0,fx,{\k90\fad(300,200)}{\k41}SE{\k68}CRET {\k60}VEIL
+Dialogue: 0,0:00:27.55,0:00:30.34,Arashi backing,,0,0,0,fx,{\k90\fad(300,200)}{\k41}SE{\k68}CRET {\k60}VEIL
 Dialogue: 0,0:00:31.19,0:00:35.83,Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k42}jun{\k36}su{\k21}i {\k22}na {\k25}ki{\k14}mo{\k32}chi {\k26}no {\k15}u{\k23}ra {\kf98}no
 Dialogue: 0,0:00:34.99,0:00:39.59,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k14}o{\k28}sa{\k29}e {\k24}ra{\k24}re{\k23}na{\k24}i {\k45}yo{\k25}ku{\k24}bo{\k25}u {\k65}ga
 Dialogue: 0,0:00:38.66,0:00:43.35,Leo,,0,0,0,fx,{\k90\fad(300,200)}{\k29}tsu{\k29}ki {\k21}no {\k25}ka{\k20}ga{\k26}ya{\k43}ku {\k27}ki{\k24}re{\k23}i {\kf92}na
-Dialogue: 0,0:00:42.46,0:00:46.79,Arashi Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k30}yo{\k21}ru {\k18}ni {\k28}tsu{\k15}ba{\k31}sa {\k22}wo {\k51}hi{\k18}ra{\k28}ku {\k61}no
-Dialogue: 0,0:00:45.51,0:00:48.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Let {\k22}me, {\k47}un, {\k46}deux, {\k62}trois
-Dialogue: 0,0:00:47.63,0:00:50.54,Leo Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k25}TO{\k26}~{\k19}P {\k25}NO{\k25}TES {\k61}wa
-Dialogue: 0,0:00:49.72,0:00:52.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Im{\k40}pres{\k69}sion
-Dialogue: 0,0:00:51.37,0:00:54.37,Arashi Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ma{\k23}s{\k23}shi{\k26}ro{\k27}i {\k68}DRESS
-Dialogue: 0,0:00:53.02,0:00:56.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Wan{\k23}na {\k45}be {\k40}O{\k66}dette
+Dialogue: 0,0:00:42.46,0:00:46.79,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k30}yo{\k21}ru {\k18}ni {\k28}tsu{\k15}ba{\k31}sa {\k22}wo {\k51}hi{\k18}ra{\k28}ku {\k61}no
+Dialogue: 0,0:00:42.46,0:00:46.79,Arashi,,0,0,0,fx,{\k90\fad(300,200)}{\k30}yo{\k21}ru {\k18}ni {\k28}tsu{\k15}ba{\k31}sa {\k22}wo {\k51}hi{\k18}ra{\k28}ku {\k61}no
+Dialogue: 0,0:00:45.51,0:00:48.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}LET {\k22}ME, {\k47}UN, {\k46}DEUX, {\k62}TROIS
+Dialogue: 0,0:00:47.63,0:00:50.54,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k25}TO{\k26}~{\k19}P {\k25}NO{\k25}TES {\k61}wa
+Dialogue: 0,0:00:47.63,0:00:50.54,Leo,,0,0,0,fx,{\k90\fad(300,200)}{\k25}TO{\k26}~{\k19}P {\k25}NO{\k25}TES {\k61}wa
+Dialogue: 0,0:00:49.72,0:00:52.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}IM{\k40}PRES{\k69}SION
+Dialogue: 0,0:00:51.37,0:00:54.37,Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ma{\k23}s{\k23}shi{\k26}ro{\k27}i {\k68}DRESS
+Dialogue: 0,0:00:51.37,0:00:54.37,Arashi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ma{\k23}s{\k23}shi{\k26}ro{\k27}i {\k68}DRESS
+Dialogue: 0,0:00:53.02,0:00:56.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}WAN{\k23}NA {\k45}BE {\k40}O{\k66}DETTE
 Dialogue: 0,0:00:55.12,0:01:02.03,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k51}mat{\k24}te {\k44}iru {\k72}no, {\k48}tat{\k38}ta {\k57}hi{\k39}to{\k53}ri {\k48}da{\k35}ke {\k72}no
-Dialogue: 0,0:01:00.93,0:01:05.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}My{\k40}s{\k90}tic {\k71}fra{\k25}g{\k91}rance
-Dialogue: 0,0:01:04.78,0:01:09.58,Arashi,,0,0,0,fx,{\k90\fad(300,200)}{\k45}ai {\k23}to {\k26}iu{\k43}~ {\k26}PER{\k46}FU{\k95}ME {\k23}ma{\k43}toi
-Dialogue: 0,0:01:06.86,0:01:09.38,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k50}(HO {\k46}HO {\k46}HO)
-Dialogue: 0,0:01:08.48,0:01:13.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k60}My{\k39}s{\k92}tic {\k73}fra{\k22}g{\k91}rance
+Dialogue: 0,0:01:00.93,0:01:05.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}MY{\k40}S{\k90}TIC {\k71}FRA{\k25}G{\k91}RANCE
+Dialogue: 0,0:01:04.78,0:01:09.58,Arashi,,0,0,0,fx,{\k90\fad(300,200)}{\k45}ai {\k23}to {\k26}iu{\k43}~ {\k26}PER{\k46}FU{\k95}ME {\k23}ma{\k24}to{\k19}i
+Dialogue: 0,0:01:06.86,0:01:09.38,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k50}HO {\k46}HO {\k46}HO
+Dialogue: 0,0:01:08.48,0:01:13.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k60}MY{\k39}S{\k92}TIC {\k73}FRA{\k22}G{\k91}RANCE
 Dialogue: 0,0:01:12.28,0:01:17.69,Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k46}BAL{\k48}LET {\k46}wo {\k24}o{\k46}dot{\kf221}te
-Dialogue: 0,0:01:14.38,0:01:17.09,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k47}(HO {\k47}HO {\k67}HO)
-Dialogue: 0,0:01:19.58,0:01:24.63,Arashi Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k54}sut{\k41}to, {\k55}sot{\k53}to, {\k39}kit{\k60}to, {\k23}ki{\k16}o{\k32}ku {\k22}ni
-Dialogue: 0,0:01:23.53,0:01:28.20,Izumi Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k34}mot{\k54}to, {\k42}zut{\k43}to... {\k48}shi{\k36}mi {\k28}ko{\k19}n{\k53}de
+Dialogue: 0,0:01:14.38,0:01:17.09,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k47}HO {\k47}HO {\k67}HO
+Dialogue: 0,0:01:19.58,0:01:24.63,Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k54}sut{\k41}to, {\k55}sot{\k53}to, {\k39}kit{\k60}to, {\k23}ki{\k16}o{\k32}ku {\k22}ni
+Dialogue: 0,0:01:19.58,0:01:24.63,Arashi,,0,0,0,fx,{\k90\fad(300,200)}{\k54}sut{\k41}to, {\k55}sot{\k53}to, {\k39}kit{\k60}to, {\k23}ki{\k16}o{\k32}ku {\k22}ni
+Dialogue: 0,0:01:23.53,0:01:28.20,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k34}mot{\k54}to, {\k42}zut{\k43}to... {\k48}shi{\k36}mi {\k28}ko{\k19}n{\k53}de
+Dialogue: 0,0:01:23.53,0:01:28.20,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k34}mot{\k54}to, {\k42}zut{\k43}to... {\k48}shi{\k36}mi {\k28}ko{\k19}n{\k53}de
 Dialogue: 0,0:01:27.22,0:01:32.08,Leo,,0,0,0,fx,{\k90\fad(300,200)}{\k34}is{\k64}shun {\k36}dat{\k56}te {\k29}e{\k36}ien {\k33}ni {\k27}na{\k18}ru {\k23}you {\k20}na
 Dialogue: 0,0:01:30.98,0:01:35.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}ka{\k44}o{\k40}ri {\k34}de {\k23}da{\k25}ki{\k46}shi{\k23}me{\k70}ru
-Dialogue: 0,0:01:34.19,0:01:37.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Let {\k22}me, {\k47}un, {\k39}deux, {\k67}trois
-Dialogue: 0,0:01:36.35,0:01:39.36,Izumi Leo,,0,0,0,fx,{\k90\fad(300,200)}{\k27}LA{\k26}S{\k25}T {\k21}NO{\k24}TES {\k68}wa
-Dialogue: 0,0:01:38.52,0:01:41.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}De{\k50}si{\k60}re
-Dialogue: 0,0:01:40.05,0:01:43.31,Tsukasa Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k56}shik{\k25}ko{\k23}ku {\k25}no {\k87}DRESS
-Dialogue: 0,0:01:41.77,0:01:44.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Wan{\k25}na {\k46}be {\k48}O{\k67}dile
+Dialogue: 0,0:01:34.19,0:01:37.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}LET {\k22}ME, {\k47}UN, {\k39}DEUX, {\k67}TROIS
+Dialogue: 0,0:01:36.35,0:01:39.36,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k27}LA{\k26}S{\k25}T {\k21}NO{\k24}TES {\k68}wa
+Dialogue: 0,0:01:36.35,0:01:39.36,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k27}LA{\k26}S{\k25}T {\k21}NO{\k24}TES {\k68}wa
+Dialogue: 0,0:01:38.52,0:01:41.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}DE{\k50}SI{\k60}RE
+Dialogue: 0,0:01:40.05,0:01:43.31,Leo,,0,0,0,fx,{\k90\fad(300,200)}{\k56}shik{\k25}ko{\k23}ku {\k25}no {\k87}DRESS
+Dialogue: 0,0:01:40.05,0:01:43.31,Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k56}shik{\k25}ko{\k23}ku {\k25}no {\k87}DRESS
+Dialogue: 0,0:01:41.77,0:01:44.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}WAN{\k25}NA {\k46}BE {\k48}O{\k67}DILE
 Dialogue: 0,0:01:43.90,0:01:46.76,Arashi,,0,0,0,fx,{\k90\fad(300,200)}{\k25}fu{\k24}ri{\k23}mu{\k18}ka{\k28}se{\k58}tai
 Dialogue: 0,0:01:45.75,0:01:50.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}tat{\k38}ta {\k57}hi{\k45}to{\k48}ri {\k46}da{\k46}ke {\k66}wo
-Dialogue: 0,0:01:49.71,0:01:54.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k60}My{\k41}s{\k89}tic {\k73}fra{\k26}g{\k68}rance
-Dialogue: 0,0:01:52.57,0:02:00.58,Izumi Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k27}i{\k22}ro{\k16}a{\k30}se{\kf136}nai {\k29}o{\k23}moi {\kf117}no {\k19}hi{\k25}to {\k16}hi{\k33}ra {\kf198}wo
-Dialogue: 0,0:01:55.61,0:01:58.26,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k52}(HO {\k46}HO {\k57}HO)
-Dialogue: 0,0:01:57.16,0:02:01.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}My{\k40}s{\k90}tic {\k74}fra{\k22}g{\k71}rance
+Dialogue: 0,0:01:49.71,0:01:54.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k60}MY{\k41}S{\k89}TIC {\k73}FRA{\k26}G{\k68}RANCE
+Dialogue: 0,0:01:52.57,0:02:00.58,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k27}i{\k22}ro{\k16}a{\k30}se{\kf136}nai {\k29}o{\k23}moi {\kf117}no {\k19}hi{\k25}to {\k16}hi{\k33}ra {\kf198}wo
+Dialogue: 0,0:01:52.57,0:02:00.58,Ritsu,,0,0,0,fx,{\k90\fad(300,200)}{\k27}i{\k22}ro{\k16}a{\k30}se{\kf136}nai {\k29}o{\k23}moi {\kf117}no {\k19}hi{\k25}to {\k16}hi{\k33}ra {\kf198}wo
+Dialogue: 0,0:01:55.61,0:01:58.26,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k52}HO {\k46}HO {\k57}HO
+Dialogue: 0,0:01:57.16,0:02:01.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}MY{\k40}S{\k90}TIC {\k74}FRA{\k22}G{\k71}RANCE
 Dialogue: 0,0:02:00.28,0:02:05.76,Arashi,,0,0,0,fx,{\k90\fad(300,200)}{\k25}mu{\k25}ne {\k48}ni {\k24}no{\k16}ko{\k54}su {\k23}F{\k23}RA{\k64}G{\kf89}RAN{\kf47}CE
 Dialogue: 0,0:02:04.78,0:02:09.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k66}a{\k29}na{\k65}ta {\k27}no {\k70}mu{\k27}ne {\kf90}ni
