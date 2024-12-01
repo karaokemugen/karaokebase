@@ -1,0 +1,80 @@
+﻿[Script Info]
+Title: Kuzcos Königsklasse
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.52,0:00:05.15,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}Nicht {\k17}mehr {\k23}weit {\k22}bis {\k18}zum {\k60}Thron
+Comment: 0,0:00:05.15,0:00:06.49,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}Bis {\k20}zum {\k22}gro{\k19}ßen {\k20}Er{\k33}folg
+Comment: 0,0:00:06.80,0:00:08.45,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}Doch {\k21}er {\k22}muss {\k20}noch{\k22}mal {\k19}zur {\k22}Schu{\k21}le
+Comment: 0,0:00:08.45,0:00:09.95,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}Wo {\k22}er {\k18}spit{\k22}ze {\k38}sein {\k31}soll
+Comment: 0,0:00:10.10,0:00:13.27,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}Kö{\k18}nig{\k22}li{\k21}che {\k19}E{\k20}le{\k39}ganz {\k23}hat {\k22}er{\k18} {\k23}voll {\k18}und {\k51}ganz
+Comment: 0,0:00:13.27,0:00:15.28,Sample KM [Down],,0,0,0,karaoke,Na ja, es geht nur um mich
+Comment: 0,0:00:13.83,0:00:15.52,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\kf169}Ah{\k0}
+Comment: 0,0:00:15.65,0:00:16.46,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}Voll {\k22}und {\k40}ganz
+Comment: 0,0:00:16.46,0:00:17.09,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k22}Ge{\k41}nau
+Comment: 0,0:00:17.33,0:00:19.75,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}Er {\k18}macht {\k24}die {\k38}Kuz{\k20}co-{\k24}A{\k40}ka{\k22}de{\k38}mie
+Comment: 0,0:00:18.89,0:00:20.79,Sample KM [Choir],,0,0,0,karaoke,{\k26}Kuz{\k20}co-{\k22}A{\k40}ka{\k21}de{\k61}mie
+Comment: 0,0:00:20.57,0:00:23.55,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k24}Deutsch, {\k16}Eng{\k23}lisch, {\k40}Sport, {\k22}Ma{\k20}the {\k22}und {\k37}Che{\k94}mie
+Comment: 0,0:00:23.03,0:00:24.92,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k17}Sie {\k26}wollen {\k18}ihn {\k21}stop{\k19}pen,{\k23} {\k19}ihn {\k25}top{\k21}pen
+Comment: 0,0:00:24.78,0:00:26.08,Sample KM [Down],,0,0,0,karaoke,Ihn vernichten, richtig?
+Comment: 0,0:00:26.14,0:00:26.55,Sample KM [Down],,0,0,0,karaoke,Eh
+Comment: 0,0:00:26.94,0:00:30.13,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k42}K-{\k38}U-{\k24}Z-{\k21}C-{\k22}O,{\k17} {\k22}Kuz{\k20}co, {\k20}Kuz{\k19}co,{\k22} {\k20}Kuz{\k32}co
+Comment: 0,0:00:30.26,0:00:32.80,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}Er {\k20}ist {\k21}so {\k39}cool, {\k22}to{\k18}tal {\k21}char{\k21}mant {\k19}je{\k19}der{\k35}zeit
+Comment: 0,0:00:33.12,0:00:34.73,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}Und {\k22}ein {\k19}su{\k17}per{\k25}hei{\k19}ßes {\k22}Teil{\k18}chen
+Comment: 0,0:00:34.73,0:00:36.39,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}Bringt {\k21}ihm {\k39}Le{\k39}sen {\k45}bei
+Comment: 0,0:00:36.21,0:00:36.83,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k20}Ge{\k42}nau
+Comment: 0,0:00:37.03,0:00:39.50,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}Er {\k20}macht {\k20}die {\k42}Kuz{\k15}co-{\k24}A{\k44}ka{\k18}de{\k42}mie
+Comment: 0,0:00:39.31,0:00:40.87,Sample KM [Choir],,0,0,0,karaoke,{\k21}Oh {\k38}ja, {\k42}Kuz{\k55}co
+Comment: 0,0:00:40.31,0:00:43.21,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}Ei{\k18}ne {\k22}Sta{\k41}tion {\k20}auf {\k21}dem {\k23}Weg {\k37}ins {\k86}Ziel
+Comment: 0,0:00:42.78,0:00:44.64,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}Und {\k23}wird’s {\k19}ge{\k23}fähr{\k18}lich,{\k19} {\k20}mal {\k22}ehr{\k22}lich
+Comment: 0,0:00:44.64,0:00:46.37,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}Oh{\k20}ne {\k27}Freun{\k16}de {\k23}wär's {\k20}be{\k20}schwer{\k29}lich
+Comment: 0,0:00:46.53,0:00:47.12,Sample KM [Down],,0,0,0,karaoke,Freunde?
+Comment: 0,0:00:47.38,0:00:48.84,Sample KM [Down],,0,0,0,karaoke,Ich dachte, hier ging's nur um mich
+Comment: 0,0:00:49.16,0:00:50.80,Sample KM [Down],,0,0,0,karaoke,Hehe, buchstabiert meinen Namen nochmal
+Comment: 0,0:00:51.06,0:00:54.41,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k41}K-{\k39}U-{\k23}Z-{\k18}C-{\k31}O,{\k16} {\k20}Kuz{\k20}co, {\k22}Kuz{\k22}co,{\k17} {\k20}Kuz{\k46}co
+Comment: 0,0:00:00.00,0:00:02.00,Sample KM [Up],,0,0,0,karaoke,
+Dialogue: 0,0:00:02.62,0:00:05.35,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Nicht {\k17}mehr {\k23}weit {\k22}bis {\k18}zum {\k60}Thron
+Dialogue: 0,0:00:04.25,0:00:06.69,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Bis {\k20}zum {\k22}gro{\k19}ßen {\k20}Er{\k33}folg
+Dialogue: 0,0:00:05.90,0:00:08.65,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Doch {\k21}er {\k22}muss {\k20}noch{\k22}mal {\k19}zur {\k22}Schu{\k21}le
+Dialogue: 0,0:00:07.55,0:00:10.15,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wo {\k22}er {\k18}spit{\k22}ze {\k38}sein {\k31}soll
+Dialogue: 0,0:00:09.20,0:00:13.47,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Kö{\k18}nig{\k22}li{\k21}che {\k19}E{\k20}le{\k39}ganz {\k23}hat {\k22}er{\k18} {\k23}voll {\k18}und {\k51}ganz
+Dialogue: 0,0:00:12.37,0:00:15.48,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Na ja, es geht nur um mich
+Dialogue: 0,0:00:12.93,0:00:15.72,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\kf169}Ah{\k0}
+Dialogue: 0,0:00:14.75,0:00:16.66,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Voll {\k22}und {\k40}ganz
+Dialogue: 0,0:00:15.56,0:00:17.29,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ge{\k41}nau
+Dialogue: 0,0:00:16.43,0:00:19.95,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Er {\k18}macht {\k24}die {\k38}Kuz{\k20}co-{\k24}A{\k40}ka{\k22}de{\k38}mie
+Dialogue: 0,0:00:17.99,0:00:20.99,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Kuz{\k20}co-{\k22}A{\k40}ka{\k21}de{\k61}mie
+Dialogue: 0,0:00:19.67,0:00:23.75,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Deutsch, {\k16}Eng{\k23}lisch, {\k40}Sport, {\k22}Ma{\k20}the {\k22}und {\k37}Che{\k94}mie
+Dialogue: 0,0:00:22.13,0:00:25.12,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Sie {\k26}wollen {\k18}ihn {\k21}stop{\k19}pen,{\k23} {\k19}ihn {\k25}top{\k21}pen
+Dialogue: 0,0:00:23.88,0:00:26.28,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Ihn vernichten, richtig?
+Dialogue: 0,0:00:25.24,0:00:26.75,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Eh
+Dialogue: 0,0:00:26.04,0:00:30.33,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k42}K-{\k38}U-{\k24}Z-{\k21}C-{\k22}O,{\k17} {\k22}Kuz{\k20}co, {\k20}Kuz{\k19}co,{\k22} {\k20}Kuz{\k32}co
+Dialogue: 0,0:00:29.36,0:00:33.00,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Er {\k20}ist {\k21}so {\k39}cool, {\k22}to{\k18}tal {\k21}char{\k21}mant {\k19}je{\k19}der{\k35}zeit
+Dialogue: 0,0:00:32.22,0:00:34.93,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Und {\k22}ein {\k19}su{\k17}per{\k25}hei{\k19}ßes {\k22}Teil{\k18}chen
+Dialogue: 0,0:00:33.83,0:00:36.59,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Bringt {\k21}ihm {\k39}Le{\k39}sen {\k45}bei
+Dialogue: 0,0:00:35.31,0:00:37.03,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ge{\k42}nau
+Dialogue: 0,0:00:36.13,0:00:39.70,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Er {\k20}macht {\k20}die {\k42}Kuz{\k15}co-{\k24}A{\k44}ka{\k18}de{\k42}mie
+Dialogue: 0,0:00:38.41,0:00:41.07,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Oh {\k38}ja, {\k42}Kuz{\k55}co
+Dialogue: 0,0:00:39.41,0:00:43.41,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ei{\k18}ne {\k22}Sta{\k41}tion {\k20}auf {\k21}dem {\k23}Weg {\k37}ins {\k86}Ziel
+Dialogue: 0,0:00:41.88,0:00:44.84,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Und {\k23}wird’s {\k19}ge{\k23}fähr{\k18}lich,{\k19} {\k20}mal {\k22}ehr{\k22}lich
+Dialogue: 0,0:00:43.74,0:00:46.57,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Oh{\k20}ne {\k27}Freun{\k16}de {\k23}wär's {\k20}be{\k20}schwer{\k29}lich
+Dialogue: 0,0:00:45.63,0:00:47.32,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Freunde?
+Dialogue: 0,0:00:46.48,0:00:49.04,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Ich dachte, hier ging's nur um mich
+Dialogue: 0,0:00:48.26,0:00:51.00,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Hehe, buchstabiert meinen Namen nochmal
+Dialogue: 0,0:00:50.16,0:00:54.61,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k41}K-{\k39}U-{\k23}Z-{\k18}C-{\k31}O,{\k16} {\k20}Kuz{\k20}co, {\k22}Kuz{\k22}co,{\k17} {\k20}Kuz{\k46}co
+Dialogue: 0,0:00:00.00,0:00:02.20,Sample KM [Up],,0,0,0,fx,{\k0\fad(0,200)}
