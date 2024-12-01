@@ -1,0 +1,115 @@
+﻿[Script Info]
+Title: Awakening Myth
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H005050EC,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Nagisa,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hiyori,Arial,24,&H00FFFFFF,&H004EDEA6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Eve,Arial,24,&H00FFFFFF,&H00BFE757,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Adam,Arial,24,&H00FFFFFF,&H008D73FB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Ibara,Arial,24,&H00FFFFFF,&H00C564EE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Jun,Arial,24,&H00FFFFFF,&H00FB9560,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Ibara Backing,Arial,24,&H00FFFFFF,&H00C564EE,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+Style: Jun Backing,Arial,24,&H00FFFFFF,&H00FB9560,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+Style: Hiyori Backing,Arial,24,&H00FFFFFF,&H004EDEA6,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+Style: Nagisa Backing,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:06.33,0:00:08.90,Nagisa,,0,0,0,karaoke,{\k22}The {\k21}be{\k22}gin{\k38}ning {\k38}of {\kf116}myth!
+Comment: 0,0:00:06.33,0:00:08.90,Hiyori,,0,0,0,karaoke,{\k22}The {\k21}be{\k22}gin{\k38}ning {\k38}of {\kf116}myth!
+Comment: 0,0:00:07.91,0:00:09.49,Ibara,,0,0,0,karaoke,{\k24}You've {\k18}ne{\k11}ver {\k24}seen {\k23}the {\k58}light
+Comment: 0,0:00:08.93,0:00:10.52,Hiyori Backing,,0,0,0,karaoke,{\k39}New {\kf120}faith
+Comment: 0,0:00:09.34,0:00:10.96,Jun,,0,0,0,karaoke,{\k27}So, {\k16}we {\k20}take {\k15}you {\k18}to {\k23}the {\k43}right
+Comment: 0,0:00:10.52,0:00:11.93,Nagisa Backing,,0,0,0,karaoke,{\k44}New {\kf97}peace
+Comment: 0,0:00:10.96,0:00:12.56,Jun,,0,0,0,karaoke,{\k25}Now's {\k19}the {\k14}time, {\k12}the {\k11}end {\k17}of {\k16}the {\k46}night
+Comment: 0,0:00:10.96,0:00:12.56,Ibara,,0,0,0,karaoke,{\k25}Now's {\k19}the {\k14}time, {\k12}the {\k11}end {\k17}of {\k16}the {\k46}night
+Comment: 0,0:00:12.12,0:00:13.73,Nagisa Backing,,0,0,0,karaoke,{\k40}New {\kf121}truth
+Comment: 0,0:00:12.12,0:00:13.73,Hiyori Backing,,0,0,0,karaoke,{\k40}New {\kf121}truth
+Comment: 0,0:00:14.30,0:00:17.36,Nagisa,,0,0,0,karaoke,{\k46}kan{\k19}ji{\k29}te {\k12}i{\k16}ru {\k46}ka {\k22}ta{\k18}gi{\k13}ru {\k37}YOUR {\k48}BLOOD
+Comment: 0,0:00:17.54,0:00:20.69,Hiyori,,0,0,0,karaoke,{\k22}na{\k17}ra{\k23}shi{\k28}te {\k16}i{\k20}ru {\k16}ka {\k17}ta{\k24}ka{\k20}bu{\k15}ru {\k41}YOUR {\k56}BEAT
+Comment: 0,0:00:20.69,0:00:23.75,Jun,,0,0,0,karaoke,{\k24}ka{\k20}wa{\k21}ku {\k22}ta{\k12}ma{\k44}shii {\k18}wa {\k25}mo{\k23}to{\k13}me{\k25}ru {\k18}da{\k41}rou
+Comment: 0,0:00:23.75,0:00:26.77,Sample KM [Up],,0,0,0,karaoke,{\k41}Our {\k38}mu{\k41}sic, {\k21}on{\k22}ly {\k38}our {\k34}mu{\k67}sic!
+Comment: 0,0:00:27.12,0:00:30.18,Hiyori,,0,0,0,karaoke,{\k24}ka{\k19}ko {\k13}wo {\k24}hi{\k18}mo{\k22}to{\k25}ku {\k19}i{\k19}mi {\k21}na{\k12}do {\k41}nai {\k49}sa
+Comment: 0,0:00:30.33,0:00:33.49,Nagisa,,0,0,0,karaoke,{\k21}mi{\k24}rai {\k13}ni {\k13}se{\k10}tsu{\k13}bou {\k26}su{\k20}ru {\k20}ka{\k25}chi {\k19}na{\k15}do {\k40}nai {\k57}yo
+Comment: 0,0:00:33.49,0:00:36.58,Ibara,,0,0,0,karaoke,{\k27}ki{\k21}mi {\k20}wa {\k38}mou {\k26}ko{\k17}ko {\k18}ni {\k19}i{\k21}ru {\k14}ja{\k45}nai {\k43}ka
+Comment: 0,0:00:36.58,0:00:39.59,Sample KM [Up],,0,0,0,karaoke,{\k39}Our {\k41}ta{\k39}les, {\k15}it's {\k21}a{\k20}wa{\k18}ke{\k45}ning {\k63}myth!
+Comment: 0,0:00:38.95,0:00:42.32,Nagisa,,0,0,0,karaoke,{\k59}aa, {\k56}guu{\k46}zou {\k40}to {\k39}iu {\k28}gen{\k69}sou
+Comment: 0,0:00:38.95,0:00:42.32,Jun,,0,0,0,karaoke,{\k59}aa, {\k56}guu{\k46}zou {\k40}to {\k39}iu {\k28}gen{\k69}sou
+Comment: 0,0:00:42.32,0:00:45.78,Hiyori,,0,0,0,karaoke,{\k14}ho{\k29}shi {\k59}gat{\k43}te {\k13}i{\k26}ta {\k22}ri{\k56}yuu {\kf84}wa
+Comment: 0,0:00:42.32,0:00:45.78,Ibara,,0,0,0,karaoke,{\k14}ho{\k29}shi {\k59}gat{\k43}te {\k13}i{\k26}ta {\k22}ri{\k56}yuu {\kf84}wa
+Comment: 0,0:00:45.92,0:00:49.21,Jun,,0,0,0,karaoke,{\k21}de{\k28}a{\k35}u {\k16}ko{\k35}to {\k26}ga {\k21}na{\k31}kat{\k32}ta {\k20}ka{\k19}ra {\k45}sa
+Comment: 0,0:00:45.92,0:00:49.21,Ibara,,0,0,0,karaoke,{\k21}de{\k28}a{\k35}u {\k16}ko{\k35}to {\k26}ga {\k21}na{\k31}kat{\k32}ta {\k20}ka{\k19}ra {\k45}sa
+Comment: 0,0:00:49.36,0:00:52.63,Nagisa,,0,0,0,karaoke,{\k20}ta{\k19}da {\k19}hi{\k16}to{\k23}tsu {\k17}no {\k46}shin{\kf167}ri
+Comment: 0,0:00:52.83,0:00:55.89,Sample KM [Up],,0,0,0,karaoke,{\k58}shi{\k36}n{\k21}wa {\k35}wo {\k21}ha{\k20}ji{\k23}me{\k37}yo{\k21}u {\k34}ka
+Comment: 0,0:00:55.89,0:00:59.53,Sample KM [Up],,0,0,0,karaoke,{\k27}ra{\k18}ku{\k20}e{\k43}n {\k21}to {\k35}iu {\k21}ko{\k22}no {\k21}bu{\k39}ta{\k19}i {\kf78}de
+Comment: 0,0:00:59.76,0:01:02.97,Adam,,0,0,0,karaoke,{\k22}A{\k19}DA{\k19}M {\kf140}to {\k21\2c&HBFE757&}E{\k35}VE {\k65}wa
+Comment: 0,0:01:03.15,0:01:06.15,Sample KM [Up],,0,0,0,karaoke,{\k44}un{\k19}me{\k19}i {\k18}no {\k20}i{\k21}to {\k18}wo {\k12}mu{\k30}su{\kf99}bu
+Comment: 0,0:01:06.30,0:01:09.17,Nagisa,,0,0,0,karaoke,{\k28}to{\k20}ki {\k33}wo {\k25}ko{\k39}e{\kf142}ru
+Comment: 0,0:01:08.16,0:01:10.29,Ibara Backing,,0,0,0,karaoke,{\k38}Me{\k63}lo{\kf112}dy
+Comment: 0,0:01:09.48,0:01:12.26,Hiyori,,0,0,0,karaoke,{\k22}ke{\k21}shi{\k47}te {\k17}to{\k37}ke{\kf134}nai
+Comment: 0,0:01:11.33,0:01:13.13,Jun Backing,,0,0,0,karaoke,{\k42}Mys{\k56}te{\kf82}ry
+Comment: 0,0:01:12.72,0:01:14.78,Nagisa,,0,0,0,karaoke,{\k23}yo{\k21}ro{\k40}ko{\k20}bi {\k20}yo {\k21}a{\k61}re
+Comment: 0,0:01:12.72,0:01:14.78,Hiyori,,0,0,0,karaoke,{\k23}yo{\k21}ro{\k40}ko{\k20}bi {\k20}yo {\k21}a{\k61}re
+Comment: 0,0:01:14.54,0:01:17.84,Jun,,0,0,0,karaoke,{\k24}e{\k38}i{\k35}kou {\k22}wa {\k41}hi{\k17}ra{\kf153}ku
+Comment: 0,0:01:14.54,0:01:17.84,Ibara,,0,0,0,karaoke,{\k24}e{\k38}i{\k35}kou {\k22}wa {\k41}hi{\k17}ra{\kf153}ku
+Comment: 0,0:01:18.13,0:01:20.32,Sample KM [Up],,0,0,0,karaoke,{\k42}Truth {\k41}makes {\k32}brand-{\k46}new {\k58}myth!
+Comment: 0,0:01:20.95,0:01:22.33,Adam,,0,0,0,karaoke,{\k40}New {\kf98}faith
+Comment: 0,0:01:22.54,0:01:23.93,Eve,,0,0,0,karaoke,{\k39}New {\kf100}peace
+Comment: 0,0:01:24.32,0:01:26.85,Sample KM [Up],,0,0,0,karaoke,{\k23}The {\k39}be{\k39}gin{\k40}ning {\k38}of {\k74}myth!
+Comment: 0,0:01:27.34,0:01:28.71,Sample KM [Up],,0,0,0,karaoke,{\k37}New {\kf100}truth
+Comment: 0,0:01:28.96,0:01:30.36,Sample KM [Up],,0,0,0,karaoke,{\k43}It's {\kf97}us!
+Comment: 0,0:01:30.91,0:01:33.18,Sample KM [Up],,0,0,0,karaoke,{\k44}Truth {\k39}makes {\k41}brand-{\k38}new {\k65}myth!
+Dialogue: 0,0:00:05.43,0:00:09.10,Nagisa,,0,0,0,fx,{\k90\fad(300,200)}{\k22}The {\k21}be{\k22}gin{\k38}ning {\k38}of {\kf116}myth!
+Dialogue: 0,0:00:05.43,0:00:09.10,Hiyori,,0,0,0,fx,{\k90\fad(300,200)}{\k22}The {\k21}be{\k22}gin{\k38}ning {\k38}of {\kf116}myth!
+Dialogue: 0,0:00:07.01,0:00:09.69,Ibara,,0,0,0,fx,{\k90\fad(300,200)}{\k24}You've {\k18}ne{\k11}ver {\k24}seen {\k23}the {\k58}light
+Dialogue: 0,0:00:08.03,0:00:10.72,Hiyori Backing,,0,0,0,fx,{\k90\fad(300,200)}{\k39}New {\kf120}faith
+Dialogue: 0,0:00:08.44,0:00:11.16,Jun,,0,0,0,fx,{\k90\fad(300,200)}{\k27}So, {\k16}we {\k20}take {\k15}you {\k18}to {\k23}the {\k43}right
+Dialogue: 0,0:00:09.62,0:00:12.13,Nagisa Backing,,0,0,0,fx,{\k90\fad(300,200)}{\k44}New {\kf97}peace
+Dialogue: 0,0:00:10.06,0:00:12.76,Jun,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Now's {\k19}the {\k14}time, {\k12}the {\k11}end {\k17}of {\k16}the {\k46}night
+Dialogue: 0,0:00:10.06,0:00:12.76,Ibara,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Now's {\k19}the {\k14}time, {\k12}the {\k11}end {\k17}of {\k16}the {\k46}night
+Dialogue: 0,0:00:11.22,0:00:13.93,Nagisa Backing,,0,0,0,fx,{\k90\fad(300,200)}{\k40}New {\kf121}truth
+Dialogue: 0,0:00:11.22,0:00:13.93,Hiyori Backing,,0,0,0,fx,{\k90\fad(300,200)}{\k40}New {\kf121}truth
+Dialogue: 0,0:00:13.40,0:00:17.56,Nagisa,,0,0,0,fx,{\k90\fad(300,200)}{\k46}kan{\k19}ji{\k29}te {\k12}i{\k16}ru {\k46}ka {\k22}ta{\k18}gi{\k13}ru {\k37}YOUR {\k48}BLOOD
+Dialogue: 0,0:00:16.64,0:00:20.89,Hiyori,,0,0,0,fx,{\k90\fad(300,200)}{\k22}na{\k17}ra{\k23}shi{\k28}te {\k16}i{\k20}ru {\k16}ka {\k17}ta{\k24}ka{\k20}bu{\k15}ru {\k41}YOUR {\k56}BEAT
+Dialogue: 0,0:00:19.79,0:00:23.95,Jun,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ka{\k20}wa{\k21}ku {\k22}ta{\k12}ma{\k44}shii {\k18}wa {\k25}mo{\k23}to{\k13}me{\k25}ru {\k18}da{\k41}rou
+Dialogue: 0,0:00:22.85,0:00:26.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Our {\k38}mu{\k41}sic, {\k21}on{\k22}ly {\k38}our {\k34}mu{\k67}sic!
+Dialogue: 0,0:00:26.22,0:00:30.38,Hiyori,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ka{\k19}ko {\k13}wo {\k24}hi{\k18}mo{\k22}to{\k25}ku {\k19}i{\k19}mi {\k21}na{\k12}do {\k41}nai {\k49}sa
+Dialogue: 0,0:00:29.43,0:00:33.69,Nagisa,,0,0,0,fx,{\k90\fad(300,200)}{\k21}mi{\k24}rai {\k13}ni {\k13}se{\k10}tsu{\k13}bou {\k26}su{\k20}ru {\k20}ka{\k25}chi {\k19}na{\k15}do {\k40}nai {\k57}yo
+Dialogue: 0,0:00:32.59,0:00:36.78,Ibara,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ki{\k21}mi {\k20}wa {\k38}mou {\k26}ko{\k17}ko {\k18}ni {\k19}i{\k21}ru {\k14}ja{\k45}nai {\k43}ka
+Dialogue: 0,0:00:35.68,0:00:39.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Our {\k41}ta{\k39}les, {\k15}it's {\k21}a{\k20}wa{\k18}ke{\k45}ning {\k63}myth!
+Dialogue: 0,0:00:38.05,0:00:42.52,Nagisa,,0,0,0,fx,{\k90\fad(300,200)}{\k59}aa, {\k56}guu{\k46}zou {\k40}to {\k39}iu {\k28}gen{\k69}sou
+Dialogue: 0,0:00:38.05,0:00:42.52,Jun,,0,0,0,fx,{\k90\fad(300,200)}{\k59}aa, {\k56}guu{\k46}zou {\k40}to {\k39}iu {\k28}gen{\k69}sou
+Dialogue: 0,0:00:41.42,0:00:45.98,Hiyori,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ho{\k29}shi {\k59}gat{\k43}te {\k13}i{\k26}ta {\k22}ri{\k56}yuu {\kf84}wa
+Dialogue: 0,0:00:41.42,0:00:45.98,Ibara,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ho{\k29}shi {\k59}gat{\k43}te {\k13}i{\k26}ta {\k22}ri{\k56}yuu {\kf84}wa
+Dialogue: 0,0:00:45.02,0:00:49.41,Jun,,0,0,0,fx,{\k90\fad(300,200)}{\k21}de{\k28}a{\k35}u {\k16}ko{\k35}to {\k26}ga {\k21}na{\k31}kat{\k32}ta {\k20}ka{\k19}ra {\k45}sa
+Dialogue: 0,0:00:45.02,0:00:49.41,Ibara,,0,0,0,fx,{\k90\fad(300,200)}{\k21}de{\k28}a{\k35}u {\k16}ko{\k35}to {\k26}ga {\k21}na{\k31}kat{\k32}ta {\k20}ka{\k19}ra {\k45}sa
+Dialogue: 0,0:00:48.46,0:00:52.83,Nagisa,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ta{\k19}da {\k19}hi{\k16}to{\k23}tsu {\k17}no {\k46}shin{\kf167}ri
+Dialogue: 0,0:00:51.93,0:00:56.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}shi{\k36}n{\k21}wa {\k35}wo {\k21}ha{\k20}ji{\k23}me{\k37}yo{\k21}u {\k34}ka
+Dialogue: 0,0:00:54.99,0:00:59.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}ra{\k18}ku{\k20}e{\k43}n {\k21}to {\k35}iu {\k21}ko{\k22}no {\k21}bu{\k39}ta{\k19}i {\kf78}de
+Dialogue: 0,0:00:58.86,0:01:03.17,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k22}A{\k19}DA{\k19}M {\kf140}to {\k21\2c&HBFE757&}E{\k35}VE {\k65}wa
+Dialogue: 0,0:01:02.25,0:01:06.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}un{\k19}me{\k19}i {\k18}no {\k20}i{\k21}to {\k18}wo {\k12}mu{\k30}su{\kf99}bu
+Dialogue: 0,0:01:05.40,0:01:09.37,Nagisa,,0,0,0,fx,{\k90\fad(300,200)}{\k28}to{\k20}ki {\k33}wo {\k25}ko{\k39}e{\kf142}ru
+Dialogue: 0,0:01:07.26,0:01:10.49,Ibara Backing,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Me{\k63}lo{\kf112}dy
+Dialogue: 0,0:01:08.58,0:01:12.46,Hiyori,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ke{\k21}shi{\k47}te {\k17}to{\k37}ke{\kf134}nai
+Dialogue: 0,0:01:10.43,0:01:13.33,Jun Backing,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Mys{\k56}te{\kf82}ry
+Dialogue: 0,0:01:11.82,0:01:14.98,Nagisa,,0,0,0,fx,{\k90\fad(300,200)}{\k23}yo{\k21}ro{\k40}ko{\k20}bi {\k20}yo {\k21}a{\k61}re
+Dialogue: 0,0:01:11.82,0:01:14.98,Hiyori,,0,0,0,fx,{\k90\fad(300,200)}{\k23}yo{\k21}ro{\k40}ko{\k20}bi {\k20}yo {\k21}a{\k61}re
+Dialogue: 0,0:01:13.64,0:01:18.04,Jun,,0,0,0,fx,{\k90\fad(300,200)}{\k24}e{\k38}i{\k35}kou {\k22}wa {\k41}hi{\k17}ra{\kf153}ku
+Dialogue: 0,0:01:13.64,0:01:18.04,Ibara,,0,0,0,fx,{\k90\fad(300,200)}{\k24}e{\k38}i{\k35}kou {\k22}wa {\k41}hi{\k17}ra{\kf153}ku
+Dialogue: 0,0:01:17.23,0:01:20.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Truth {\k41}makes {\k32}brand-{\k46}new {\k58}myth!
+Dialogue: 0,0:01:20.05,0:01:22.53,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k40}New {\kf98}faith
+Dialogue: 0,0:01:21.64,0:01:24.13,Eve,,0,0,0,fx,{\k90\fad(300,200)}{\k39}New {\kf100}peace
+Dialogue: 0,0:01:23.42,0:01:27.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}The {\k39}be{\k39}gin{\k40}ning {\k38}of {\k74}myth!
+Dialogue: 0,0:01:26.44,0:01:28.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}New {\kf100}truth
+Dialogue: 0,0:01:28.06,0:01:30.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}It's {\kf97}us!
+Dialogue: 0,0:01:30.01,0:01:33.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Truth {\k39}makes {\k41}brand-{\k38}new {\k65}myth!
