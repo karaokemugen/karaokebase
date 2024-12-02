@@ -1,0 +1,103 @@
+﻿[Script Info]
+Title: Verlassen im Wald
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:12.66,0:00:19.04,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}Nun {\k39}bist {\k21}du {\k66}fort,{\kf214} {\k44}gehst {\k18}ei{\k28}nen {\k30}völ{\k37}lig {\k30}and'{\k28}ren {\k64}Weg
+Comment: 0,0:00:19.48,0:00:20.88,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}Lässt {\k37}mich {\k31}zu{\k46}rück
+Comment: 0,0:00:21.39,0:00:25.70,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}Soll {\k20}ich {\k33}dir {\k51}trotz{\k42}dem {\k35}jetzt {\k51}fol{\kf173}gen?
+Comment: 0,0:00:26.40,0:00:27.82,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k17}Du {\k39}muss{\k33}test {\k53}geh'n
+Comment: 0,0:00:30.44,0:00:33.20,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k17}Und {\k30}das {\k35}kann {\k29}ich {\k35}gut {\k39}ver{\k91}steh'n
+Comment: 0,0:00:34.10,0:00:36.43,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k24}Wir {\k39}seh'n {\k37}uns {\k38}si{\k52}cher {\k43}bald
+Comment: 0,0:00:36.43,0:00:39.61,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k39}Viel{\k43}leicht {\k27}schon {\k49}mor{\kf160}gen
+Comment: 0,0:00:40.78,0:00:43.23,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}O{\k19}der {\k45}lag {\k36}ich {\k36}wohl {\k89}falsch?
+Comment: 0,0:00:43.23,0:00:46.52,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k40}War'n {\k41}wir {\k43}uns {\k45}gar {\k36}nicht {\k41}mehr {\k83}nah?
+Comment: 0,0:00:47.36,0:00:49.81,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}Ich {\k25}schenk {\k43}dir {\k39}mein {\k35}gan{\k29}zes {\k58}Herz
+Comment: 0,0:00:49.81,0:00:53.38,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k38}Und {\k47}du {\k39}bist {\k48}längst {\k40}nicht {\k42}mehr {\kf103}da
+Comment: 0,0:00:53.99,0:00:56.42,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k20}Und {\k21}nun {\k41}bin {\k25}ich {\k56}ganz {\k25}al{\k55}lein
+Comment: 0,0:00:56.77,0:00:59.82,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k48}Steh {\k37}ver{\k38}las{\k46}sen {\k40}im {\k96}Wald
+Comment: 0,0:01:00.07,0:01:06.50,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k36}Nord {\k29}ist {\k50}Süd,{\k45} {\k41}rechts {\k22}ist {\k59}links{\k41} {\k40}oh{\k84}ne {\kf196}dich
+Comment: 0,0:01:06.50,0:01:09.11,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k43}Im{\k20}mer {\k60}war {\k36}ich {\k43}nah {\k25}bei {\k34}dir
+Comment: 0,0:01:09.18,0:01:12.94,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k50}Steh {\k45}nun {\k40}ver{\k39}las{\k40}sen {\k41}im {\kf121}Wald
+Comment: 0,0:01:13.37,0:01:18.77,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k39}Du {\k42}gehst {\k40}in {\k37}die {\k42}Welt {\k39}ganz {\k42}oh{\k39}ne {\kf220}mich
+Comment: 0,0:01:19.27,0:01:20.83,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k14}Und {\k25}ich {\k37}steh {\k21}im {\k59}Wald
+Comment: 0,0:01:25.73,0:01:27.10,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k40}Ja, {\k29}mir {\k68}war
+Comment: 0,0:01:27.92,0:01:31.42,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}Bis{\k34}her {\k38}mein {\k37}nächs{\k28}ter {\k46}Schritt {\k45}im{\k34}mer {\k61}klar
+Comment: 0,0:01:32.27,0:01:33.28,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}Mit {\k19}ei{\k20}nem {\k42}Mal
+Comment: 0,0:01:33.28,0:01:37.60,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k37}Geht {\k35}die{\k38}ser {\k44}Pfad {\k41}nicht {\k37}mehr {\k36}wei{\kf164}ter
+Comment: 0,0:01:38.39,0:01:39.94,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k38}Nur {\k30}durch {\k87}dich
+Comment: 0,0:01:42.18,0:01:44.69,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}Bin {\k38}ich {\k33}wirk{\k44}lich {\kf120}ich
+Comment: 0,0:01:45.08,0:01:53.44,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}Ganz {\k16}al{\k77}lein{\k37} {\k38}wird {\k37}al{\k37}les {\k32}nur {\k45}schlim{\kf188}mer,{\k38} {\k38}für {\k76}im{\kf152}mer
+Comment: 0,0:01:53.81,0:01:56.34,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k41}Oh{\k37}ne {\k47}dich {\k30}hab {\k35}ich {\k27}kein {\k36}Ziel
+Comment: 0,0:01:56.49,0:01:59.85,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k46}Steh {\k40}ganz {\k41}ver{\k36}lo{\k47}ren {\k37}im {\k89}Wald
+Comment: 0,0:02:00.15,0:02:02.77,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k33}Auf {\k27}ist {\k38}ab,{\k60} {\k37}Tag {\k30}ist {\k37}Nacht
+Comment: 0,0:02:02.99,0:02:06.41,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k39}Wenn {\k40}du {\k79}fort {\kf184}bist
+Comment: 0,0:02:06.59,0:02:09.62,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k80}Oh, {\k41}wenn {\k20}du {\k59}mir {\k22}nicht {\k41}raus{\k40}hilfst
+Comment: 0,0:02:09.79,0:02:13.10,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k42}Find {\k39}ich {\k41}nie {\k38}aus {\k42}dem {\kf129}Wald
+Comment: 0,0:02:13.79,0:02:18.20,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k42}Bin {\k39}ich {\k41}dir {\k31}wirk{\k40}lich {\k43}e{\kf205}gal?
+Comment: 0,0:02:19.00,0:02:24.95,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k38}Doch {\k42}ich {\kf158}geb{\kf124} {\k40}dir {\k23}noch {\kf170}Zeit {\k0}
+Comment: 0,0:02:24.56,0:02:26.55,Sample KM [Choir],,0,0,0,karaoke,{\k23}Dir {\k20}noch {\kf156}Zeit
+Comment: 0,0:02:25.39,0:02:31.82,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k28}Du {\k55}bist {\k80}mein {\kf120}Weg,{\k38} {\k20}wir {\k50}geh'n {\k73}zu {\kf179}zweit
+Comment: 0,0:02:30.99,0:02:32.99,Sample KM [Choir],,0,0,0,karaoke,{\k17}Ja, {\k20}zu {\kf163}zweit
+Comment: 0,0:02:32.21,0:02:40.60,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k43}Noch {\k35}bin {\k84}ich{\k33} {\k45}ver{\k38}las{\k45}sen {\k39}im {\kf477}Wald
+Comment: 0,0:02:36.01,0:02:41.61,Sample KM [Choir],,0,0,0,karaoke,{\k23}Ver{\k27}las{\k53}sen {\k40}im {\kf120}Wald,{\k40} {\kf160}al{\k97}lein
+Comment: 0,0:02:40.63,0:02:46.40,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k36}Ver{\k40}las{\k45}sen {\k38}im {\kf418}Wald
+Comment: 0,0:02:42.41,0:02:46.48,Sample KM [Choir],,0,0,0,karaoke,{\k22}Ver{\k26}las{\k55}sen {\k34}im {\k92}Wald,{\k35} {\k78}al{\k65}lein
+Comment: 0,0:02:47.04,0:02:52.34,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k41}Ver{\k53}las{\k88}sen {\k94}im {\kf254}Wald
+Comment: 0,0:00:00.00,0:00:02.00,Sample KM [Up],,0,0,0,karaoke,
+Dialogue: 0,0:00:11.76,0:00:19.24,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Nun {\k39}bist {\k21}du {\k66}fort,{\kf214} {\k44}gehst {\k18}ei{\k28}nen {\k30}völ{\k37}lig {\k30}and'{\k28}ren {\k64}Weg
+Dialogue: 0,0:00:18.58,0:00:21.08,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Lässt {\k37}mich {\k31}zu{\k46}rück
+Dialogue: 0,0:00:20.49,0:00:25.90,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Soll {\k20}ich {\k33}dir {\k51}trotz{\k42}dem {\k35}jetzt {\k51}fol{\kf173}gen?
+Dialogue: 0,0:00:25.50,0:00:28.02,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Du {\k39}muss{\k33}test {\k53}geh'n
+Dialogue: 0,0:00:29.54,0:00:33.40,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Und {\k30}das {\k35}kann {\k29}ich {\k35}gut {\k39}ver{\k91}steh'n
+Dialogue: 0,0:00:33.20,0:00:36.63,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Wir {\k39}seh'n {\k37}uns {\k38}si{\k52}cher {\k43}bald
+Dialogue: 0,0:00:35.53,0:00:39.81,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Viel{\k43}leicht {\k27}schon {\k49}mor{\kf160}gen
+Dialogue: 0,0:00:39.88,0:00:43.43,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}O{\k19}der {\k45}lag {\k36}ich {\k36}wohl {\k89}falsch?
+Dialogue: 0,0:00:42.33,0:00:46.72,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k40}War'n {\k41}wir {\k43}uns {\k45}gar {\k36}nicht {\k41}mehr {\k83}nah?
+Dialogue: 0,0:00:46.46,0:00:50.01,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ich {\k25}schenk {\k43}dir {\k39}mein {\k35}gan{\k29}zes {\k58}Herz
+Dialogue: 0,0:00:48.91,0:00:53.58,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Und {\k47}du {\k39}bist {\k48}längst {\k40}nicht {\k42}mehr {\kf103}da
+Dialogue: 0,0:00:53.09,0:00:56.62,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Und {\k21}nun {\k41}bin {\k25}ich {\k56}ganz {\k25}al{\k55}lein
+Dialogue: 0,0:00:55.87,0:01:00.02,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Steh {\k37}ver{\k38}las{\k46}sen {\k40}im {\k96}Wald
+Dialogue: 0,0:00:59.17,0:01:06.70,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Nord {\k29}ist {\k50}Süd,{\k45} {\k41}rechts {\k22}ist {\k59}links{\k41} {\k40}oh{\k84}ne {\kf196}dich
+Dialogue: 0,0:01:05.60,0:01:09.31,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Im{\k20}mer {\k60}war {\k36}ich {\k43}nah {\k25}bei {\k34}dir
+Dialogue: 0,0:01:08.28,0:01:13.14,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Steh {\k45}nun {\k40}ver{\k39}las{\k40}sen {\k41}im {\kf121}Wald
+Dialogue: 0,0:01:12.47,0:01:18.97,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Du {\k42}gehst {\k40}in {\k37}die {\k42}Welt {\k39}ganz {\k42}oh{\k39}ne {\kf220}mich
+Dialogue: 0,0:01:18.37,0:01:21.03,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Und {\k25}ich {\k37}steh {\k21}im {\k59}Wald
+Dialogue: 0,0:01:24.83,0:01:27.30,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Ja, {\k29}mir {\k68}war
+Dialogue: 0,0:01:27.02,0:01:31.62,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Bis{\k34}her {\k38}mein {\k37}nächs{\k28}ter {\k46}Schritt {\k45}im{\k34}mer {\k61}klar
+Dialogue: 0,0:01:31.37,0:01:33.48,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Mit {\k19}ei{\k20}nem {\k42}Mal
+Dialogue: 0,0:01:32.38,0:01:37.80,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Geht {\k35}die{\k38}ser {\k44}Pfad {\k41}nicht {\k37}mehr {\k36}wei{\kf164}ter
+Dialogue: 0,0:01:37.49,0:01:40.14,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Nur {\k30}durch {\k87}dich
+Dialogue: 0,0:01:41.28,0:01:44.89,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Bin {\k38}ich {\k33}wirk{\k44}lich {\kf120}ich
+Dialogue: 0,0:01:44.18,0:01:53.64,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ganz {\k16}al{\k77}lein{\k37} {\k38}wird {\k37}al{\k37}les {\k32}nur {\k45}schlim{\kf188}mer,{\k38} {\k38}für {\k76}im{\kf152}mer
+Dialogue: 0,0:01:52.91,0:01:56.54,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Oh{\k37}ne {\k47}dich {\k30}hab {\k35}ich {\k27}kein {\k36}Ziel
+Dialogue: 0,0:01:55.59,0:02:00.05,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Steh {\k40}ganz {\k41}ver{\k36}lo{\k47}ren {\k37}im {\k89}Wald
+Dialogue: 0,0:01:59.25,0:02:02.97,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Auf {\k27}ist {\k38}ab,{\k60} {\k37}Tag {\k30}ist {\k37}Nacht
+Dialogue: 0,0:02:02.09,0:02:06.61,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Wenn {\k40}du {\k79}fort {\kf184}bist
+Dialogue: 0,0:02:05.69,0:02:09.82,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k80}Oh, {\k41}wenn {\k20}du {\k59}mir {\k22}nicht {\k41}raus{\k40}hilfst
+Dialogue: 0,0:02:08.89,0:02:13.30,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Find {\k39}ich {\k41}nie {\k38}aus {\k42}dem {\kf129}Wald
+Dialogue: 0,0:02:12.89,0:02:18.40,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Bin {\k39}ich {\k41}dir {\k31}wirk{\k40}lich {\k43}e{\kf205}gal?
+Dialogue: 0,0:02:18.10,0:02:25.15,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Doch {\k42}ich {\kf158}geb{\kf124} {\k40}dir {\k23}noch {\kf170}Zeit {\k0}
+Dialogue: 0,0:02:23.66,0:02:26.75,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Dir {\k20}noch {\kf156}Zeit
+Dialogue: 0,0:02:24.49,0:02:32.02,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Du {\k55}bist {\k80}mein {\kf120}Weg,{\k38} {\k20}wir {\k50}geh'n {\k73}zu {\kf179}zweit
+Dialogue: 0,0:02:30.09,0:02:33.19,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ja, {\k20}zu {\kf163}zweit
+Dialogue: 0,0:02:31.31,0:02:40.80,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Noch {\k35}bin {\k84}ich{\k33} {\k45}ver{\k38}las{\k45}sen {\k39}im {\kf477}Wald
+Dialogue: 0,0:02:35.11,0:02:41.81,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ver{\k27}las{\k53}sen {\k40}im {\kf120}Wald,{\k40} {\kf160}al{\k97}lein
+Dialogue: 0,0:02:39.73,0:02:46.60,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Ver{\k40}las{\k45}sen {\k38}im {\kf418}Wald
+Dialogue: 0,0:02:41.51,0:02:46.68,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ver{\k26}las{\k55}sen {\k34}im {\k92}Wald,{\k35} {\k78}al{\k65}lein
+Dialogue: 0,0:02:46.14,0:02:52.54,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Ver{\k53}las{\k88}sen {\k94}im {\kf254}Wald
+Dialogue: 0,0:00:00.00,0:00:02.20,Sample KM [Up],,0,0,0,fx,{\k0\fad(0,200)}
