@@ -1,0 +1,93 @@
+﻿[Script Info]
+Title: Mein Freund Stanley
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.40,0:00:03.24,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k84}Yeah{\k0}
+Comment: 0,0:00:03.34,0:00:04.06,Sample KM [Down],,0,0,0,karaoke,{\k36}Hey, {\k18}he {\k18}he
+Comment: 0,0:00:05.27,0:00:06.77,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k43}Oh {\kf107}yeah
+Comment: 0,0:00:05.74,0:00:07.76,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\kf139}Oh, {\k31}Stan{\k32}ley
+Comment: 0,0:00:07.85,0:00:11.10,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}Hast {\k13}du {\k23}je {\k16}ge{\k26}fragt, {\k20}wa{\k23}rum {\k23}hüpft {\k13}ein {\k25}Kän{\k18}gu{\kf109}ru?
+Comment: 0,0:00:10.20,0:00:11.02,Sample KM [Down],,0,0,0,karaoke,{\k16}Wie {\k38}geht's? {\k14}He {\k14}he
+Comment: 0,0:00:11.71,0:00:14.82,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}Und {\k27}lernst {\k22}du {\k15}ger{\k9}ne {\k16}wie {\k21}Stan{\k19}ley {\k16}hier {\k27}was {\k17}da{\kf100}zu?
+Comment: 0,0:00:14.20,0:00:14.71,Sample KM [Down],,0,0,0,karaoke,{\k51}Wow{\k0}
+Comment: 0,0:00:15.03,0:00:16.02,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}Was {\k26}er {\k21}nicht {\k27}kennt
+Comment: 0,0:00:16.02,0:00:18.77,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}Sagt {\k25}ihm {\k14}sein {\k21}Lieb{\k17}lings{\k17}buch {\k33}ganz {\k21}ge{\kf106}wiss
+Comment: 0,0:00:19.34,0:00:21.58,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}Und {\k25}Den{\k21}nis {\k22}ist {\k15}sein {\k22}Freund {\k26}und {\k22}ist {\k20}ein {\k25}Fisch
+Comment: 0,0:00:21.68,0:00:24.64,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k27}So {\k30}ist {\k27}er, {\k40}mein {\k41}Freund {\k51}Stan{\k80}ley
+Comment: 0,0:00:23.62,0:00:26.32,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}Oh {\k31}ja, {\k20}so {\k37}ist {\k37}er, {\k45}Stan{\k75}ley
+Comment: 0,0:00:25.50,0:00:28.58,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k29}Komm' {\k25}mit {\k27}in {\k34}Stan{\k39}leys {\kf154}Welt
+Comment: 0,0:00:28.44,0:00:29.37,Sample KM [Down],,0,0,0,karaoke,{\k16}Wie {\k38}geht's? {\k15}He {\k24}he
+Comment: 0,0:00:27.47,0:00:28.45,Sample KM [Choir],,0,0,0,karaoke,{\k22}Mit {\k28}Stan{\k48}ley
+Comment: 0,0:00:29.35,0:00:31.13,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k26}Dort {\k29}kannst {\k24}du {\k37}vie{\k30}les {\k32}seh'n
+Comment: 0,0:00:31.31,0:00:33.00,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k22}Die {\k25}gan{\k25}ze {\k34}Welt {\k29}ver{\k34}steh'n
+Comment: 0,0:00:32.55,0:00:33.15,Sample KM [Down],,0,0,0,karaoke,{\k34}Los, {\k26}komm
+Comment: 0,0:00:33.15,0:00:35.97,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k33}Und {\k24}mit {\k21}Del{\k34}phi{\k37}nen {\k45}schwim{\k88}men
+Comment: 0,0:00:35.10,0:00:36.16,Sample KM [Choir],,0,0,0,karaoke,{\k24}Mit {\k31}Stan{\k51}ley
+Comment: 0,0:00:35.93,0:00:36.99,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k37}Oh, {\k69}ja
+Comment: 0,0:00:36.99,0:00:40.21,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k26}Und {\k29}Lö{\k23}wen {\k33}la{\k35}chen {\kf176}seh'n
+Comment: 0,0:00:38.94,0:00:40.12,Sample KM [Choir],,0,0,0,karaoke,{\k24}Mit {\k33}Stan{\k61}ley
+Comment: 0,0:00:40.12,0:00:40.62,Sample KM [Down],,0,0,0,karaoke,{\k50}Cool{\k0}
+Comment: 0,0:00:40.80,0:00:42.58,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k26}Zu {\k26}lö{\k27}sen {\k36}gibt {\k34}es {\k29}viel
+Comment: 0,0:00:42.74,0:00:44.54,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k23}Es {\k26}wird {\k27}zum {\k32}Kin{\k36}der{\k36}spiel
+Comment: 0,0:00:44.67,0:00:47.88,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k21}Mit {\k27}ei{\k24}nem {\k40}Freund {\k37}wie {\kf172}dir
+Comment: 0,0:00:48.46,0:00:51.13,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k24}Mit {\k27}ei{\k23}nem {\k42}Freund {\k32}wie {\kf119}dir
+Comment: 0,0:00:50.39,0:00:52.21,Sample KM [Choir],,0,0,0,karaoke,{\k22}Mit {\k27}Stan{\k25}ley,{\k17} {\k25}mit {\k25}Stan{\k41}ley
+Comment: 0,0:00:52.02,0:00:55.30,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k51}Ei{\k49}nem {\k47}Freund {\k53}wie {\kf128}dir
+Comment: 0,0:00:54.19,0:00:55.03,Sample KM [Choir],,0,0,0,karaoke,{\k24}Mit {\k26}Stan{\k34}ley
+Comment: 0,0:00:54.67,0:00:55.88,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k38}Ja, {\k34}Stan{\k49}ley
+Comment: 0,0:00:56.10,0:00:56.95,Sample KM [Choir],,0,0,0,karaoke,{\k24}Mit {\k25}Stan{\k36}ley
+Comment: 0,0:00:56.95,0:00:57.72,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k77}Uh{\k0}
+Comment: 0,0:00:00.00,0:00:02.00,Sample KM [Up],,0,0,0,karaoke,
+Dialogue: 0,0:00:01.50,0:00:03.44,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k84}Yeah{\k0}
+Dialogue: 0,0:00:02.44,0:00:04.26,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Hey, {\k18}he {\k18}he
+Dialogue: 0,0:00:04.37,0:00:06.97,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Oh {\kf107}yeah
+Dialogue: 0,0:00:04.84,0:00:07.96,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\kf139}Oh, {\k31}Stan{\k32}ley
+Dialogue: 0,0:00:06.95,0:00:11.30,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Hast {\k13}du {\k23}je {\k16}ge{\k26}fragt, {\k20}wa{\k23}rum {\k23}hüpft {\k13}ein {\k25}Kän{\k18}gu{\kf109}ru?
+Dialogue: 0,0:00:09.30,0:00:11.22,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Wie {\k38}geht's? {\k14}He {\k14}he
+Dialogue: 0,0:00:10.81,0:00:15.02,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Und {\k27}lernst {\k22}du {\k15}ger{\k9}ne {\k16}wie {\k21}Stan{\k19}ley {\k16}hier {\k27}was {\k17}da{\kf100}zu?
+Dialogue: 0,0:00:13.30,0:00:14.91,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Wow{\k0}
+Dialogue: 0,0:00:14.13,0:00:16.22,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Was {\k26}er {\k21}nicht {\k27}kennt
+Dialogue: 0,0:00:15.12,0:00:18.97,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Sagt {\k25}ihm {\k14}sein {\k21}Lieb{\k17}lings{\k17}buch {\k33}ganz {\k21}ge{\kf106}wiss
+Dialogue: 0,0:00:18.44,0:00:21.78,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Und {\k25}Den{\k21}nis {\k22}ist {\k15}sein {\k22}Freund {\k26}und {\k22}ist {\k20}ein {\k25}Fisch
+Dialogue: 0,0:00:20.78,0:00:24.84,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k27}So {\k30}ist {\k27}er, {\k40}mein {\k41}Freund {\k51}Stan{\k80}ley
+Dialogue: 0,0:00:22.72,0:00:26.52,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Oh {\k31}ja, {\k20}so {\k37}ist {\k37}er, {\k45}Stan{\k75}ley
+Dialogue: 0,0:00:24.60,0:00:28.78,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Komm' {\k25}mit {\k27}in {\k34}Stan{\k39}leys {\kf154}Welt
+Dialogue: 0,0:00:27.54,0:00:29.57,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Wie {\k38}geht's? {\k15}He {\k24}he
+Dialogue: 0,0:00:26.57,0:00:28.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Mit {\k28}Stan{\k48}ley
+Dialogue: 0,0:00:28.45,0:00:31.33,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Dort {\k29}kannst {\k24}du {\k37}vie{\k30}les {\k32}seh'n
+Dialogue: 0,0:00:30.41,0:00:33.20,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Die {\k25}gan{\k25}ze {\k34}Welt {\k29}ver{\k34}steh'n
+Dialogue: 0,0:00:31.65,0:00:33.35,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Los, {\k26}komm
+Dialogue: 0,0:00:32.25,0:00:36.17,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Und {\k24}mit {\k21}Del{\k34}phi{\k37}nen {\k45}schwim{\k88}men
+Dialogue: 0,0:00:34.20,0:00:36.36,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Mit {\k31}Stan{\k51}ley
+Dialogue: 0,0:00:35.03,0:00:37.19,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Oh, {\k69}ja
+Dialogue: 0,0:00:36.09,0:00:40.41,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Und {\k29}Lö{\k23}wen {\k33}la{\k35}chen {\kf176}seh'n
+Dialogue: 0,0:00:38.04,0:00:40.32,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Mit {\k33}Stan{\k61}ley
+Dialogue: 0,0:00:39.22,0:00:40.82,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Cool{\k0}
+Dialogue: 0,0:00:39.90,0:00:42.78,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Zu {\k26}lö{\k27}sen {\k36}gibt {\k34}es {\k29}viel
+Dialogue: 0,0:00:41.84,0:00:44.74,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Es {\k26}wird {\k27}zum {\k32}Kin{\k36}der{\k36}spiel
+Dialogue: 0,0:00:43.77,0:00:48.08,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Mit {\k27}ei{\k24}nem {\k40}Freund {\k37}wie {\kf172}dir
+Dialogue: 0,0:00:47.56,0:00:51.33,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Mit {\k27}ei{\k23}nem {\k42}Freund {\k32}wie {\kf119}dir
+Dialogue: 0,0:00:49.49,0:00:52.41,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Mit {\k27}Stan{\k25}ley,{\k17} {\k25}mit {\k25}Stan{\k41}ley
+Dialogue: 0,0:00:51.12,0:00:55.50,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Ei{\k49}nem {\k47}Freund {\k53}wie {\kf128}dir
+Dialogue: 0,0:00:53.29,0:00:55.23,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Mit {\k26}Stan{\k34}ley
+Dialogue: 0,0:00:53.77,0:00:56.08,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Ja, {\k34}Stan{\k49}ley
+Dialogue: 0,0:00:55.20,0:00:57.15,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Mit {\k25}Stan{\k36}ley
+Dialogue: 0,0:00:56.05,0:00:57.92,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k77}Uh{\k0}
+Dialogue: 0,0:00:00.00,0:00:02.20,Sample KM [Up],,0,0,0,fx,{\k0\fad(0,200)}
