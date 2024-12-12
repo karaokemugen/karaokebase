@@ -1,0 +1,42 @@
+﻿[Script Info]
+Title: UEFA Champions League anthem
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Français],Arial,24,&H00FFFFFF,&H00F6AA43,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Allemand],Arial,24,&H00FFFFFF,&H0031AFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Anglais],Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.51,0:00:05.86,Sample KM Duo [Français],,0,0,0,karaoke,{\k37}Ils {\k54}sont {\k46}les {\kf98}meil{\kf100}leurs
+Comment: 0,0:00:10.17,0:00:13.55,Sample KM Duo [Allemand],,0,0,0,karaoke,{\k48}Sie {\k47}sind {\k48}die {\kf97}Bes{\kf98}ten
+Comment: 0,0:00:17.94,0:00:21.45,Sample KM Duo [Anglais],,0,0,0,karaoke,{\k44}These {\k54}are {\k45}the {\kf95}cham{\kf113}pions
+Comment: 0,0:00:26.66,0:00:29.09,Sample KM Duo [Allemand],,0,0,0,karaoke,{\k46}Die {\kf101}Meis{\kf96}ter
+Comment: 0,0:00:30.49,0:00:32.93,Sample KM Duo [Allemand],,0,0,0,karaoke,{\k51}Die {\kf94}Bes{\kf99}ten
+Comment: 0,0:00:34.36,0:00:38.10,Sample KM Duo [Français],,0,0,0,karaoke,{\k53}Les {\kf101}gran{\k45}des {\k46}é{\kf129}quipes
+Comment: 0,0:00:38.55,0:00:41.91,Sample KM Duo [Anglais],,0,0,0,karaoke,{\k20}The {\kf97}cham{\kf219}pions
+Comment: 0,0:00:42.19,0:00:44.71,Sample KM Duo [Allemand],,0,0,0,karaoke,{\k45}Die {\kf101}Meis{\kf106}ter
+Comment: 0,0:00:45.96,0:00:48.44,Sample KM Duo [Allemand],,0,0,0,karaoke,{\k48}Die {\kf104}Bes{\kf96}ten
+Comment: 0,0:00:49.86,0:00:53.50,Sample KM Duo [Français],,0,0,0,karaoke,{\k52}Les {\kf107}gran{\k40}des {\k43}é{\kf122}quipes
+Comment: 0,0:00:54.06,0:01:02.30,Sample KM Duo [Anglais],,0,0,0,karaoke,{\k20}The {\kf98}cham{\kf706}pions
+Dialogue: 0,0:00:01.61,0:00:06.06,Sample KM Duo [Français],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Ils {\k54}sont {\k46}les {\kf98}meil{\kf100}leurs
+Dialogue: 0,0:00:09.27,0:00:13.75,Sample KM Duo [Allemand],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Sie {\k47}sind {\k48}die {\kf97}Bes{\kf98}ten
+Dialogue: 0,0:00:17.04,0:00:21.65,Sample KM Duo [Anglais],,0,0,0,fx,{\k90\fad(300,200)}{\k44}These {\k54}are {\k45}the {\kf95}cham{\kf113}pions
+Dialogue: 0,0:00:25.76,0:00:29.29,Sample KM Duo [Allemand],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Die {\kf101}Meis{\kf96}ter
+Dialogue: 0,0:00:29.59,0:00:33.13,Sample KM Duo [Allemand],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Die {\kf94}Bes{\kf99}ten
+Dialogue: 0,0:00:33.46,0:00:38.30,Sample KM Duo [Français],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Les {\kf101}gran{\k45}des {\k46}é{\kf129}quipes
+Dialogue: 0,0:00:37.65,0:00:42.11,Sample KM Duo [Anglais],,0,0,0,fx,{\k90\fad(300,200)}{\k20}The {\kf97}cham{\kf219}pions
+Dialogue: 0,0:00:41.29,0:00:44.91,Sample KM Duo [Allemand],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Die {\kf101}Meis{\kf106}ter
+Dialogue: 0,0:00:45.06,0:00:48.64,Sample KM Duo [Allemand],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Die {\kf104}Bes{\kf96}ten
+Dialogue: 0,0:00:48.96,0:00:53.70,Sample KM Duo [Français],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Les {\kf107}gran{\k40}des {\k43}é{\kf122}quipes
+Dialogue: 0,0:00:53.16,0:01:02.50,Sample KM Duo [Anglais],,0,0,0,fx,{\k90\fad(300,200)}{\k20}The {\kf98}cham{\kf706}pions
