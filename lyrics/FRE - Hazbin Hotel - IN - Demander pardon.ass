@@ -1,0 +1,72 @@
+﻿[Script Info]
+Title: Demander pardon
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00FFFFFF,&H00FD5ACE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H003839FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FFA266,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H0031A1FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,5,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:02.50,Sample KM [Down],,0,0,0,karaoke,{\2c&H31A1FF&\c&H31A1FF&}Charlie {\c&HFFFFFF&\2c&HFFFFFF&}- {\2c&HFFA266&\c&HFFA266&}Sir Pentious {\c&HFFFFFF&\2c&HFFFFFF&}- {\2c&H3839FF&\c&H3839FF&}Duo {\c&HFFFFFF&\2c&HFFFFFF&}- {\2c&HFD5ACE&\c&HFD5ACE&}Vaggie & Angel Dust
+Comment: 0,0:00:00.56,0:00:02.73,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k36}De{\k46}man{\k37}der {\k41}par{\k57}don
+Comment: 0,0:00:04.89,0:00:06.83,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k37}Rien {\k28}qu'un {\k48}tout {\k14}pe{\k31}tit {\k36}mot
+Comment: 0,0:00:07.05,0:00:08.99,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k33}un {\k38}sim{\k38}ple {\k41}par{\k44}don
+Comment: 0,0:00:11.35,0:00:13.50,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k25}Et {\k36}le {\k42}monde {\k18}est {\k38}plus {\k56}beau
+Comment: 0,0:00:14.04,0:00:17.15,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k45}Bien {\k48}sûr {\k41}la {\k41}ré{\k36}demp{\kf100}tion
+Comment: 0,0:00:17.39,0:00:19.96,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k20}est {\k21}un {\k37}long {\k22}che{\k60}min {\k23}de {\k74}croix
+Comment: 0,0:00:20.57,0:00:25.52,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k22}mais {\k17}le {\k44}par{\k38}don {\k40}ou{\k38}vre {\k40}la {\kf256}voie
+Comment: 0,0:00:27.31,0:00:32.26,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k39}Je {\k36}suis {\k32}une {\k85}grosse {\k65}merde, {\k68}je {\k43}suis {\k29}à {\kf98}chier
+Comment: 0,0:00:33.10,0:00:38.11,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k37}Je {\k32}n'mé{\k35}rite {\k74}pas {\k74}vo{\kf113}tre {\k36}pi{\kf100}tié
+Comment: 0,0:00:38.86,0:00:41.56,Sample KM [Choir],,0,0,0,karaoke,{\k36}On {\k36}pour{\k41}rait {\k72}l'bu{\k85}ter
+Comment: 0,0:00:41.80,0:00:45.39,Sample KM [Choir],,0,0,0,karaoke,{\k39}L'ou{\k38}vrir, {\k34}le {\k74}tor{\k70}tu{\kf104}rer
+Comment: 0,0:00:45.43,0:00:48.21,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k33}C'est {\k43}une {\k35}op{\k47}tion {\k29}qui {\k34}fait {\k57}peur
+Comment: 0,0:00:48.35,0:00:49.56,Sample KM [Choir],,0,0,0,karaoke,{\k32}On {\k25}s'en {\k64}tape !
+Comment: 0,0:00:50.09,0:00:54.01,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k40}Mais {\k41}on {\k31}a {\k39}tous {\k40}fait {\k33}des {\k38}er{\kf130}reurs
+Comment: 0,0:00:54.13,0:00:57.73,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k73}De{\k70}man{\k74}der {\k46}par{\kf97}don
+Comment: 0,0:00:57.73,0:00:59.13,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k49}Par{\k72}don
+Comment: 0,0:00:59.22,0:01:01.16,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k32}Cherche {\k36}au {\k38}fond {\k14}de {\k23}ton {\k51}coeur
+Comment: 0,0:01:01.16,0:01:03.34,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k37}com{\k41}ment {\k35}le {\k39}par{\k66}don
+Comment: 0,0:01:02.98,0:01:05.23,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k39}J'vous {\k41}d'mande {\k40}par{\kf105}don !
+Comment: 0,0:01:04.90,0:01:07.30,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k36}pour{\k29}ra {\k31}t'em{\k38}me{\k16}ner {\k24}ail{\k66}leurs
+Comment: 0,0:01:07.84,0:01:10.47,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k29}J'ai {\k17}des {\k34}mil{\k41}liers {\k36}de {\k36}pé{\k70}chés
+Comment: 0,0:01:10.53,0:01:13.51,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k40}à {\k36}me {\k38}fai{\k24}re {\k51}par{\k20}don{\k89}ner
+Comment: 0,0:01:13.88,0:01:18.07,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k39}mais {\k37}le {\k35}temps {\k44}se{\k38}ra {\k31}mon {\k38}al{\kf157}lié
+Comment: 0,0:01:19.18,0:01:21.63,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k34}De{\k42}man{\k34}dons {\k48}par{\k87}don
+Dialogue: 0,0:00:00.00,0:00:02.70,Sample KM [Down],,0,0,0,fx,{\k0\fad(0,200)}{\2c&H31A1FF&\c&H31A1FF&}Charlie {\c&HFFFFFF&\2c&HFFFFFF&}- {\2c&HFFA266&\c&HFFA266&}Sir Pentious {\c&HFFFFFF&\2c&HFFFFFF&}- {\2c&H3839FF&\c&H3839FF&}Duo {\c&HFFFFFF&\2c&HFFFFFF&}- {\2c&HFD5ACE&\c&HFD5ACE&}Vaggie & Angel Dust
+Dialogue: 0,0:00:00.00,0:00:02.93,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k56\fad(560,200)}{\k36}De{\k46}man{\k37}der {\k41}par{\k57}don
+Dialogue: 0,0:00:03.99,0:00:07.03,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Rien {\k28}qu'un {\k48}tout {\k14}pe{\k31}tit {\k36}mot
+Dialogue: 0,0:00:06.15,0:00:09.19,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k33}un {\k38}sim{\k38}ple {\k41}par{\k44}don
+Dialogue: 0,0:00:10.45,0:00:13.70,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Et {\k36}le {\k42}monde {\k18}est {\k38}plus {\k56}beau
+Dialogue: 0,0:00:13.14,0:00:17.35,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Bien {\k48}sûr {\k41}la {\k41}ré{\k36}demp{\kf100}tion
+Dialogue: 0,0:00:16.49,0:00:20.16,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}est {\k21}un {\k37}long {\k22}che{\k60}min {\k23}de {\k74}croix
+Dialogue: 0,0:00:19.67,0:00:25.72,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}mais {\k17}le {\k44}par{\k38}don {\k40}ou{\k38}vre {\k40}la {\kf256}voie
+Dialogue: 0,0:00:26.41,0:00:32.46,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Je {\k36}suis {\k32}une {\k85}grosse {\k65}merde, {\k68}je {\k43}suis {\k29}à {\kf98}chier
+Dialogue: 0,0:00:32.20,0:00:38.31,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Je {\k32}n'mé{\k35}rite {\k74}pas {\k74}vo{\kf113}tre {\k36}pi{\kf100}tié
+Dialogue: 0,0:00:37.96,0:00:41.76,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}On {\k36}pour{\k41}rait {\k72}l'bu{\k85}ter
+Dialogue: 0,0:00:40.90,0:00:45.59,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}L'ou{\k38}vrir, {\k34}le {\k74}tor{\k70}tu{\kf104}rer
+Dialogue: 0,0:00:44.53,0:00:48.41,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k33}C'est {\k43}une {\k35}op{\k47}tion {\k29}qui {\k34}fait {\k57}peur
+Dialogue: 0,0:00:47.45,0:00:49.76,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}On {\k25}s'en {\k64}tape !
+Dialogue: 0,0:00:49.19,0:00:54.21,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Mais {\k41}on {\k31}a {\k39}tous {\k40}fait {\k33}des {\k38}er{\kf130}reurs
+Dialogue: 0,0:00:53.23,0:00:57.93,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k73}De{\k70}man{\k74}der {\k46}par{\kf97}don
+Dialogue: 0,0:00:56.83,0:00:59.33,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Par{\k72}don
+Dialogue: 0,0:00:58.32,0:01:01.36,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Cherche {\k36}au {\k38}fond {\k14}de {\k23}ton {\k51}coeur
+Dialogue: 0,0:01:00.26,0:01:03.54,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k37}com{\k41}ment {\k35}le {\k39}par{\k66}don
+Dialogue: 0,0:01:02.08,0:01:05.43,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k39}J'vous {\k41}d'mande {\k40}par{\kf105}don !
+Dialogue: 0,0:01:04.00,0:01:07.50,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k36}pour{\k29}ra {\k31}t'em{\k38}me{\k16}ner {\k24}ail{\k66}leurs
+Dialogue: 0,0:01:06.94,0:01:10.67,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k29}J'ai {\k17}des {\k34}mil{\k41}liers {\k36}de {\k36}pé{\k70}chés
+Dialogue: 0,0:01:09.63,0:01:13.71,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k40}à {\k36}me {\k38}fai{\k24}re {\k51}par{\k20}don{\k89}ner
+Dialogue: 0,0:01:12.98,0:01:18.27,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k39}mais {\k37}le {\k35}temps {\k44}se{\k38}ra {\k31}mon {\k38}al{\kf157}lié
+Dialogue: 0,0:01:18.28,0:01:21.83,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k34}De{\k42}man{\k34}dons {\k48}par{\k87}don
