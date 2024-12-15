@@ -1,0 +1,251 @@
+﻿[Script Info]
+Title: No One Mourns the Wicked
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 0
+PlayResY: 0
+Original Timing: Hanaku
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Galinda,Arial,24,&H00FFFFFF,&H00D270EF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Galinda Dialogue,Arial,24,&H00FFFFFF,&H00D270EF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,80,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+Style: Père,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mère,Arial,24,&H00FFFFFF,&H00FF00B0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Père Dialogue,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,80,1
+Style: Mère Dialogue,Arial,24,&H00FFFFFF,&H00FF00B0,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Galinda,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:01:13.82,0:01:14.73,Sample KM [Choir],,0,0,0,karaoke,{\k23}Good {\k68}news!
+Comment: 0,0:01:14.73,0:01:16.11,Sample KM [Choir],,0,0,0,karaoke,{\k10}The {\k45}Witch, {\k31}she's {\k52}dead !
+Comment: 0,0:01:16.90,0:01:19.46,Sample KM [Choir],,0,0,0,karaoke,{\k18}Come {\k31}out ! {\k18}Come {\k46}out ! {\k38}She's {\k105}gone !
+Comment: 0,0:01:19.94,0:01:24.40,Sample KM [Choir],,0,0,0,karaoke,{\k57}Good {\kf389}news !
+Comment: 0,0:01:24.40,0:01:27.23,Sample KM [Choir],,0,0,0,karaoke,{\k77}She's {\kf206}dead !
+Comment: 0,0:01:27.34,0:01:29.09,Sample KM [Choir],,0,0,0,karaoke,{\k18}The {\k27}Witch {\k13}of {\k8}the {\k24}West {\k42}is {\k43}dead !
+Comment: 0,0:01:29.66,0:01:31.95,Sample KM [Choir],,0,0,0,karaoke,{\k26}The {\k13}wi{\k14}cke{\k28}dest {\k28}witch {\k30}there {\k17}e{\k27}ver {\k46}was
+Comment: 0,0:01:32.06,0:01:34.24,Sample KM [Choir],,0,0,0,karaoke,{\k22}The {\k16}e{\k15}ne{\k13}my {\k13}of {\k11}all {\k19}of {\k28}us {\k18}here {\k26}in {\k37}Oz
+Comment: 0,0:01:34.24,0:01:38.45,Sample KM [Choir],,0,0,0,karaoke,{\k37}Is {\kf384}Dead !
+Comment: 0,0:01:38.63,0:01:43.05,Sample KM [Choir],,0,0,0,karaoke,{\k66}Good {\kf376}news !
+Comment: 0,0:01:43.27,0:01:49.27,Sample KM [Choir],,0,0,0,karaoke,{\k77}Good {\kf523}news !
+Comment: 0,0:01:49.27,0:01:51.10,Sample KM [Choir],,0,0,0,karaoke,{\k84}Look ! {\k26}It's {\k36}Glin{\k37}da !
+Comment: 0,0:01:51.80,0:01:55.34,Galinda,,0,0,0,karaoke,{\k32}Let {\k47}us {\k62}be {\kf213}glad
+Comment: 0,0:01:55.42,0:01:58.35,Galinda,,0,0,0,karaoke,{\k25}Let {\k37}us {\k29}be {\k83}grate{\kf119}ful
+Comment: 0,0:01:58.57,0:02:03.97,Galinda,,0,0,0,karaoke,{\k24}Let {\k37}us {\k38}re{\k23}joi{\k30}ci{\k50}fy {\k31}that {\k31}good{\k51}ness {\k25}could {\k29}sub{\kf171}due
+Comment: 0,0:02:04.33,0:02:13.25,Galinda,,0,0,0,karaoke,{\k68}The {\k58}Wi{\k40}cked {\k36}wor{\k27}kings {\k75}of {\k106}you-{\k56}know-{\kf426}who
+Comment: 0,0:02:13.79,0:02:18.84,Galinda,,0,0,0,karaoke,{\k22}Is{\k27}n't {\k29}it {\k94}nice {\k42}to {\kf291}know
+Comment: 0,0:02:18.84,0:02:24.13,Galinda,,0,0,0,karaoke,{\k37}That {\k31}good {\k23}will {\k77}con{\k59}quer {\k65}e{\kf237}vil ?
+Comment: 0,0:02:24.35,0:02:33.22,Galinda,,0,0,0,karaoke,{\k31}The {\k33}truth {\k16}we {\k66}all {\k50}be{\k62}lie{\kf113}ve'll {\k77}by {\kf96}and {\kf343}by
+Comment: 0,0:02:33.31,0:02:38.42,Galinda,,0,0,0,karaoke,{\k51}Ou{\k17}t{\k58}live {\k90}a {\kf295}lie
+Comment: 0,0:02:38.58,0:02:41.92,Galinda,,0,0,0,karaoke,{\k75}For {\kf97}you {\kf162}and -
+Comment: 0,0:02:41.67,0:02:44.83,Sample KM [Choir],,0,0,0,karaoke,{\k26}No {\k24}one {\k61}mourns {\k19}the {\k27}Wi{\kf159}cked !
+Comment: 0,0:02:44.98,0:02:48.07,Sample KM [Choir],,0,0,0,karaoke,{\k22}No {\k30}one {\k55}cries {\k20}"They {\k35}won't {\k35}re{\kf112}turn!"
+Comment: 0,0:02:48.23,0:02:53.02,Sample KM [Choir],,0,0,0,karaoke,{\k20}No {\k22}one {\k58}lays {\k22}a {\k16}Li{\k61}ly {\k42}on {\k40}their {\kf198}grave
+Comment: 0,0:02:52.85,0:02:56.32,Sample KM [Choir],,0,0,0,karaoke,{\k23}The {\k23}good {\k23}man {\k53}scorns {\k25}the {\k24}Wi{\kf176}cked !
+Comment: 0,0:02:56.32,0:02:59.21,Sample KM [Choir],,0,0,0,karaoke,{\k23}Through {\k18}their {\k39}lives, {\k23}our {\k41}chil{\k42}dren {\kf103}learn
+Comment: 0,0:02:59.51,0:03:04.51,Sample KM [Choir],,0,0,0,karaoke,{\k25}What {\k22}we {\k60}miss, {\k59}when {\k25}we {\k57}mis{\k45}be{\kf207}have:
+Comment: 0,0:03:04.61,0:03:07.99,Galinda,,0,0,0,karaoke,{\k57}And {\k63}Good{\k66}ness {\kf152}knows
+Comment: 0,0:03:07.99,0:03:12.41,Galinda,,0,0,0,karaoke,{\k17}The {\k25}Wi{\k46}cked's {\k79}lives {\k18}are {\k63}lone{\kf194}ly
+Comment: 0,0:03:12.41,0:03:14.75,Galinda,,0,0,0,karaoke,{\k41}Good{\k43}ness {\kf150}knows
+Comment: 0,0:03:14.75,0:03:19.17,Galinda,,0,0,0,karaoke,{\k17}The {\k23}Wi{\k45}cked {\kf162}die {\k18}a{\kf177}lone
+Comment: 0,0:03:19.17,0:03:22.65,Galinda,,0,0,0,karaoke,{\k28}It {\k57}just {\k88}shows {\k49}when {\k33}you're {\k23}Wi{\k70}cked
+Comment: 0,0:03:22.45,0:03:25.33,Galinda,,0,0,0,karaoke,{\k76}You're {\k51}left {\k43}on{\kf118}ly
+Comment: 0,0:03:25.92,0:03:30.56,Galinda,,0,0,0,karaoke,{\k47}On {\k54}your {\kf363}own
+Comment: 0,0:03:27.56,0:03:32.30,Sample KM [Choir],,0,0,0,karaoke,{\k95}Yes, {\k106}Good{\kf124}ness {\kf149}knows
+Comment: 0,0:03:32.22,0:03:36.28,Sample KM [Choir],,0,0,0,karaoke,{\k26}The {\k17}Wi{\k42}cked's {\k62}lives {\k25}are {\k54}lone{\kf180}ly
+Comment: 0,0:03:36.44,0:03:38.87,Sample KM [Choir],,0,0,0,karaoke,{\k56}Good{\k44}ness {\kf143}knows
+Comment: 0,0:03:38.87,0:03:42.99,Sample KM [Choir],,0,0,0,karaoke,{\k16}The {\k25}Wi{\k37}cked {\k59}cry {\k28}a{\kf247}lone
+Comment: 0,0:03:43.11,0:03:46.51,Sample KM [Choir],,0,0,0,karaoke,{\k45}No{\k46}thing {\k84}grows {\k39}for {\k23}the {\k42}Wi{\k61}cked
+Comment: 0,0:03:46.51,0:03:48.61,Sample KM [Choir],,0,0,0,karaoke,{\k42}They {\k39}reap {\k43}on{\kf86}ly
+Comment: 0,0:03:49.77,0:03:53.40,Sample KM [Choir],,0,0,0,karaoke,{\k45}What {\k48}they {\kf270}sow
+Comment: 0,0:03:53.40,0:03:54.26,Sample KM [Choir],,0,0,0,karaoke,{\k27}Miss {\k22}Glin{\k37}da !
+Comment: 0,0:03:54.93,0:03:56.98,Sample KM [Choir],,0,0,0,karaoke,{\k45}Why {\k26}does {\k17}wi{\k15}cked{\k24}ness {\k29}hap{\k49}pen ?
+Comment: 0,0:03:57.61,0:03:58.92,Galinda Dialogue,,0,0,0,karaoke,{\k15}That's {\k16}a {\k26}good {\k34}ques{\k40}tion
+Comment: 0,0:03:59.79,0:04:02.32,Galinda Dialogue,,0,0,0,karaoke,{\k26}Are {\k22}peo{\k21}ple {\k34}born {\k23}Wi{\k63}cked? {\k8}Or {\k9}do {\k21}they {\k26}have
+Comment: 0,0:04:02.32,0:04:05.57,Galinda Dialogue,,0,0,0,karaoke,{\k14}Wi{\k10}cked{\k28}ness {\k35}thrust {\k14}u{\k25}pon {\k79}them? {\k24}Af{\k7}ter {\k89}all,
+Comment: 0,0:04:05.57,0:04:07.33,Galinda Dialogue,,0,0,0,karaoke,{\k13}The {\k17}Wi{\k12}cked {\k28}Witch {\k21}had {\k9}a {\k40}child{\k36}hood
+Comment: 0,0:04:08.27,0:04:10.63,Galinda Dialogue,,0,0,0,karaoke,{\k16}She {\k7}had {\k13}a {\k16}fa{\k68}ther, {\k14}who {\k17}by {\k13}the {\k72}way,
+Comment: 0,0:04:10.63,0:04:12.44,Galinda Dialogue,,0,0,0,karaoke,{\k20}had {\k9}been {\k15}ap{\k14}poin{\k18}ted {\k12}go{\k16}vernor {\k6}of {\k30}Mun{\k14}chkin {\k27}land
+Comment: 0,0:04:12.44,0:04:13.88,Père Dialogue,,0,0,0,karaoke,{\k15}"I'm {\k14}off {\k16}to {\k18}the {\k12}as{\k18}sem{\k19}bly, {\k32}dear"
+Comment: 0,0:04:14.01,0:04:16.16,Galinda Dialogue,,0,0,0,karaoke,{\k14}And {\k10}she {\k18}had {\k13}a {\k13}mo{\k37}ther, {\k28}as {\k19}so {\k12}ma{\k20}ny {\k31}do
+Comment: 0,0:04:17.70,0:04:21.87,Père,,0,0,0,karaoke,{\k22}How {\k22}I {\k15}hate {\k15}to {\k65}go {\k27}and {\k69}leave {\k26}you {\k87}lone{\k69}ly
+Comment: 0,0:04:21.87,0:04:25.53,Mère,,0,0,0,karaoke,{\k21}That's {\k14}al{\k19}right, {\k22}it's {\k66}on{\k61}ly {\k38}just {\k41}one {\k84}night
+Comment: 0,0:04:26.40,0:04:29.51,Père,,0,0,0,karaoke,{\k40}But {\k41}know {\k19}that {\k46}you're {\k43}here {\k29}in {\k40}my {\k53}heart
+Comment: 0,0:04:29.69,0:04:37.11,Père,,0,0,0,karaoke,{\k24}While {\k27}I'm {\k49}out {\k44}of {\k96}your {\kf502}sight
+Comment: 0,0:04:37.38,0:04:40.23,Galinda Dialogue,,0,0,0,karaoke,{\k53}And {\k23}like {\k17}e{\k19}very {\k17}fa{\k5}mi{\k57}ly,{\k94}
+Comment: 0,0:04:40.23,0:04:41.54,Galinda Dialogue,,0,0,0,karaoke,{\k18}They {\k20}had {\k31}their {\k15}se{\k47}crets
+Comment: 0,0:04:43.71,0:04:46.85,Père,,0,0,0,karaoke,{\k26}Have {\k13}a{\k25}no{\k15}ther {\k63}drink, {\k22}my {\k33}dark-{\k35}eyed {\k31}beau{\k51}ty
+Comment: 0,0:04:46.85,0:04:49.63,Père,,0,0,0,karaoke,{\k26}I've {\k14}got {\k24}one {\k16}more {\k27}night {\k52}left, {\k25}here {\k33}in {\k61}town
+Comment: 0,0:04:49.74,0:04:52.97,Père,,0,0,0,karaoke,{\k21}So {\k26}have {\k15}a{\k19}no{\k14}ther {\k67}drink {\k17}of {\k39}green {\k28}e{\k37}li{\k40}xir
+Comment: 0,0:04:53.07,0:04:56.21,Père,,0,0,0,karaoke,{\k28}And {\k14}we'll {\k21}have {\k26}our{\k63}selves {\k21}a {\k18}lit{\k36}tle {\k34}mi{\k53}xer
+Comment: 0,0:04:56.42,0:04:59.15,Père,,0,0,0,karaoke,{\k38}Have {\k18}a{\k22}no{\k17}ther {\k21}lit{\k21}tle {\k25}swal{\k16}low, {\k20}lit{\k16}tle {\k22}la{\k37}dy,
+Comment: 0,0:04:59.15,0:05:02.87,Père,,0,0,0,karaoke,{\k25}And {\k27}fol{\k24}low {\k58}me {\kf238}down.
+Comment: 0,0:05:03.60,0:05:06.18,Galinda Dialogue,,0,0,0,karaoke,{\k16}And {\k32}one {\k32}thing {\k19}led {\k10}to {\k12}a{\k13}no{\k27}ther,{\k97}
+Comment: 0,0:05:06.18,0:05:07.40,Galinda Dialogue,,0,0,0,karaoke,{\k9}As {\k21}it {\k8}so {\k23}of{\k12}ten {\k49}does
+Comment: 0,0:05:07.40,0:05:09.87,Mère Dialogue,,0,0,0,karaoke,{\kf247}No !
+Comment: 0,0:05:09.35,0:05:11.19,Galinda Dialogue,,0,0,0,karaoke,{\k30}But {\k15}from {\k12}the {\k25}mo{\k18}ment {\k8}the {\k12}witch {\k30}was {\k34}born,
+Comment: 0,0:05:11.19,0:05:14.02,Galinda Dialogue,,0,0,0,karaoke,{\k21}She {\k103}was, {\k96}well, {\k24}dif{\k39}ferent
+Comment: 0,0:05:16.63,0:05:17.51,Sample KM [Choir],,0,0,0,karaoke,{\k24}It's {\k23}co{\k41}ming
+Comment: 0,0:05:17.70,0:05:18.46,Père Dialogue,,0,0,0,karaoke,{\k76}Now?
+Comment: 0,0:05:18.58,0:05:19.93,Sample KM [Choir],,0,0,0,karaoke,{\k19}The {\k23}ba{\k29}by's {\k20}co{\k44}ming
+Comment: 0,0:05:19.66,0:05:21.40,Père Dialogue,,0,0,0,karaoke,{\k27}Oh {\k15}oh {\k39}oh ! {\k38}And {\k55}how!
+Comment: 0,0:05:20.97,0:05:22.63,Sample KM [Choir],,0,0,0,karaoke,{\k26}I {\k18}see {\k19}a {\k103}nose
+Comment: 0,0:05:22.63,0:05:24.04,Père,,0,0,0,karaoke,{\k32}I {\k10}see {\k16}a {\k83}curl
+Comment: 0,0:05:24.04,0:05:28.60,Père,,0,0,0,karaoke,{\k24}It's {\k55}a {\k43}heal{\k39}thy, {\k38}per{\k45}fect, {\k34}Love{\k52}ly, {\k46}lit{\k80}tle -
+Comment: 0,0:05:24.04,0:05:28.60,Sample KM [Choir],,0,0,0,karaoke,{\k24}It's {\k55}a {\k43}heal{\k39}thy, {\k38}per{\k45}fect, {\k34}Love{\k52}ly, {\k46}lit{\k80}tle -
+Comment: 0,0:05:29.21,0:05:31.55,Père,,0,0,0,karaoke,{\k79}Oh...{\k27}Sweet {\k56}Oz! {\k72}Oh !
+Comment: 0,0:05:32.35,0:05:34.15,Sample KM [Choir],,0,0,0,karaoke,{\k31}How {\k26}can {\k24}it {\kf99}be ?
+Comment: 0,0:05:33.24,0:05:36.20,Père,,0,0,0,karaoke,{\k39}What {\k21}does {\k32}it {\kf204}mean ?
+Comment: 0,0:05:36.33,0:05:37.90,Sample KM [Choir],,0,0,0,karaoke,{\k37}It's {\k29}un{\k29}can{\k62}ny
+Comment: 0,0:05:37.49,0:05:41.10,Père,,0,0,0,karaoke,{\k24}It's {\k29}o{\kf308}bscene !
+Comment: 0,0:05:41.30,0:05:43.28,Père,,0,0,0,karaoke,{\k22}Like {\k27}a {\k26}frog{\k23}gy, {\k19}fer{\k30}ny {\k18}cab{\k33}bage
+Comment: 0,0:05:41.30,0:05:43.28,Sample KM [Choir],,0,0,0,karaoke,{\k22}Like {\k27}a {\k26}frog{\k23}gy, {\k19}fer{\k30}ny {\k18}cab{\k33}bage
+Comment: 0,0:05:43.40,0:05:46.58,Père,,0,0,0,karaoke,{\k36}The {\k28}ba{\k30}by {\k26}is {\k27}un{\k33}na{\k36}tu{\k34}ral{\k68}ly
+Comment: 0,0:05:43.40,0:05:46.58,Sample KM [Choir],,0,0,0,karaoke,{\k36}The {\k28}ba{\k30}by {\k26}is {\k27}un{\k33}na{\k36}tu{\k34}ral{\k68}ly
+Comment: 0,0:05:47.09,0:05:47.95,Père,,0,0,0,karaoke,{\k86}Green...
+Comment: 0,0:05:53.73,0:05:54.67,Père,,0,0,0,karaoke,{\k29}Take {\k8}it {\k11}a{\k46}way
+Comment: 0,0:05:56.75,0:05:57.95,Père,,0,0,0,karaoke,{\k29}Take {\k14}it {\k18}a{\k59}way !
+Comment: 0,0:05:58.96,0:06:00.88,Galinda Dialogue,,0,0,0,karaoke,{\k32}And {\k37}so,{\k123}
+Comment: 0,0:06:00.88,0:06:02.18,Galinda Dialogue,,0,0,0,karaoke,{\k14}It {\k14}could{\k11}n't {\k20}have {\k13}been {\k18}ea{\k40}sy
+Comment: 0,0:06:03.41,0:06:08.76,Sample KM [Choir],,0,0,0,karaoke,{\k36}No {\k33}one {\kf111}mourns {\k24}the {\k75}Wi{\kf256}cked !
+Comment: 0,0:06:08.87,0:06:13.95,Sample KM [Choir],,0,0,0,karaoke,{\k47}Now {\k31}at {\k98}last, {\k36}she's {\k73}dead {\k60}and {\kf163}gone!
+Comment: 0,0:06:13.95,0:06:19.29,Sample KM [Choir],,0,0,0,karaoke,{\k38}Now {\k17}at {\k67}last, {\k27}there's {\k72}joy {\k23}through{\k48}out {\k46}the {\kf196}land
+Comment: 0,0:06:19.54,0:06:26.51,Sample KM [Choir],,0,0,0,karaoke,{\kf161}And {\kf125}Good{\kf155}ness {\kf256}knows
+Comment: 0,0:06:23.95,0:06:28.97,Galinda,,0,0,0,karaoke,{\k98}Good{\k82}ness {\kf322}knows
+Comment: 0,0:06:26.50,0:06:29.85,Sample KM [Choir],,0,0,0,karaoke,{\k51}We {\k75}know {\k39}what {\k24}Good{\k21}ness {\kf125}is
+Comment: 0,0:06:28.97,0:06:34.31,Galinda,,0,0,0,karaoke,{\kf129}Uh~{\kf405}Oh~!
+Comment: 0,0:06:29.81,0:06:32.12,Sample KM [Choir],,0,0,0,karaoke,{\k45}Good{\k44}ness {\kf142}knows
+Comment: 0,0:06:32.12,0:06:36.17,Sample KM [Choir],,0,0,0,karaoke,{\k26}The {\k14}Wi{\k41}cked {\k65}die {\k17}a{\kf242}lone
+Comment: 0,0:06:34.31,0:06:40.11,Galinda,,0,0,0,karaoke,{\k64}She {\k41}died {\kf81}a{\kf394}lone
+Comment: 0,0:06:35.93,0:06:40.24,Sample KM [Choir],,0,0,0,karaoke,{\k52}Woe {\k43}to {\kf336}those
+Comment: 0,0:06:37.70,0:06:40.24,Sample KM [Choir],,0,0,0,karaoke,{\k47}Woe {\k36}to {\kf171}those
+Comment: 0,0:06:40.24,0:06:42.92,Sample KM [Choir],,0,0,0,karaoke,{\k38}Who {\k38}spurn {\k21}what {\k26}Good{\k31}ness{\kf114}es
+Comment: 0,0:06:43.06,0:06:49.03,Sample KM [Choir],,0,0,0,karaoke,{\k54}They {\k44}are {\kf499}shown
+Comment: 0,0:06:49.03,0:06:51.55,Sample KM [Choir],,0,0,0,karaoke,{\k44}No {\k38}one {\k65}mourns {\k20}the {\k20}Wi{\k65}cked
+Comment: 0,0:06:51.55,0:06:54.97,Galinda,,0,0,0,karaoke,{\k41}Good {\kf301}news !
+Comment: 0,0:06:55.70,0:06:58.18,Sample KM [Choir],,0,0,0,karaoke,{\k40}No {\k42}one {\k65}mourns {\k14}the {\k25}Wi{\k62}cked
+Comment: 0,0:06:58.18,0:07:01.33,Galinda,,0,0,0,karaoke,{\k57}Good {\kf258}news !
+Comment: 0,0:07:02.47,0:07:09.23,Sample KM [Choir],,0,0,0,karaoke,{\k66}No {\k63}one {\kf102}mourns{\kf57} {\kf109}the {\k59}Wi{\kf220}cked
+Comment: 0,0:07:06.44,0:07:09.23,Galinda,,0,0,0,karaoke,{\k59}Wi{\kf220}cked !
+Comment: 0,0:07:10.77,0:07:13.32,Galinda,,0,0,0,karaoke,{\k68}Wi{\kf187}cked !
+Comment: 0,0:07:10.77,0:07:13.32,Sample KM [Choir],,0,0,0,karaoke,{\k68}Wi{\kf187}cked !
+Comment: 0,0:07:15.58,0:07:23.15,Galinda,,0,0,0,karaoke,{\k105}Wi{\kf135}cked-{\kf517}ED~!
+Comment: 0,0:07:15.58,0:07:23.15,Sample KM [Choir],,0,0,0,karaoke,{\k105}Wi{\kf652}cked !
+Dialogue: 0,0:01:12.92,0:01:14.93,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Good {\k68}news!
+Dialogue: 0,0:01:13.83,0:01:16.31,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k10}The {\k45}Witch, {\k31}she's {\k52}dead !
+Dialogue: 0,0:01:16.00,0:01:19.66,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Come {\k31}out ! {\k18}Come {\k46}out ! {\k38}She's {\k105}gone !
+Dialogue: 0,0:01:19.04,0:01:24.60,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k57}Good {\kf389}news !
+Dialogue: 0,0:01:23.50,0:01:27.43,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k77}She's {\kf206}dead !
+Dialogue: 0,0:01:26.44,0:01:29.29,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}The {\k27}Witch {\k13}of {\k8}the {\k24}West {\k42}is {\k43}dead !
+Dialogue: 0,0:01:28.76,0:01:32.15,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}The {\k13}wi{\k14}cke{\k28}dest {\k28}witch {\k30}there {\k17}e{\k27}ver {\k46}was
+Dialogue: 0,0:01:31.16,0:01:34.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}The {\k16}e{\k15}ne{\k13}my {\k13}of {\k11}all {\k19}of {\k28}us {\k18}here {\k26}in {\k37}Oz
+Dialogue: 0,0:01:33.34,0:01:38.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Is {\kf384}Dead !
+Dialogue: 0,0:01:37.73,0:01:43.25,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k66}Good {\kf376}news !
+Dialogue: 0,0:01:42.37,0:01:49.47,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k77}Good {\kf523}news !
+Dialogue: 0,0:01:48.37,0:01:51.30,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k84}Look ! {\k26}It's {\k36}Glin{\k37}da !
+Dialogue: 0,0:01:50.90,0:01:55.54,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Let {\k47}us {\k62}be {\kf213}glad
+Dialogue: 0,0:01:54.52,0:01:58.55,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Let {\k37}us {\k29}be {\k83}grate{\kf119}ful
+Dialogue: 0,0:01:57.67,0:02:04.17,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Let {\k37}us {\k38}re{\k23}joi{\k30}ci{\k50}fy {\k31}that {\k31}good{\k51}ness {\k25}could {\k29}sub{\kf171}due
+Dialogue: 0,0:02:03.43,0:02:13.45,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k68}The {\k58}Wi{\k40}cked {\k36}wor{\k27}kings {\k75}of {\k106}you-{\k56}know-{\kf426}who
+Dialogue: 0,0:02:12.89,0:02:19.04,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Is{\k27}n't {\k29}it {\k94}nice {\k42}to {\kf291}know
+Dialogue: 0,0:02:17.94,0:02:24.33,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k37}That {\k31}good {\k23}will {\k77}con{\k59}quer {\k65}e{\kf237}vil ?
+Dialogue: 0,0:02:23.45,0:02:33.42,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k31}The {\k33}truth {\k16}we {\k66}all {\k50}be{\k62}lie{\kf113}ve'll {\k77}by {\kf96}and {\kf343}by
+Dialogue: 0,0:02:32.41,0:02:38.62,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k51}Ou{\k17}t{\k58}live {\k90}a {\kf295}lie
+Dialogue: 0,0:02:37.68,0:02:42.12,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k75}For {\kf97}you {\kf162}and -
+Dialogue: 0,0:02:40.77,0:02:45.03,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}No {\k24}one {\k61}mourns {\k19}the {\k27}Wi{\kf159}cked !
+Dialogue: 0,0:02:44.08,0:02:48.27,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}No {\k30}one {\k55}cries {\k20}"They {\k35}won't {\k35}re{\kf112}turn!"
+Dialogue: 0,0:02:47.33,0:02:53.22,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}No {\k22}one {\k58}lays {\k22}a {\k16}Li{\k61}ly {\k42}on {\k40}their {\kf198}grave
+Dialogue: 0,0:02:51.95,0:02:56.52,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}The {\k23}good {\k23}man {\k53}scorns {\k25}the {\k24}Wi{\kf176}cked !
+Dialogue: 0,0:02:55.42,0:02:59.41,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Through {\k18}their {\k39}lives, {\k23}our {\k41}chil{\k42}dren {\kf103}learn
+Dialogue: 0,0:02:58.61,0:03:04.71,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}What {\k22}we {\k60}miss, {\k59}when {\k25}we {\k57}mis{\k45}be{\kf207}have:
+Dialogue: 0,0:03:03.71,0:03:08.19,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k57}And {\k63}Good{\k66}ness {\kf152}knows
+Dialogue: 0,0:03:07.09,0:03:12.61,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k17}The {\k25}Wi{\k46}cked's {\k79}lives {\k18}are {\k63}lone{\kf194}ly
+Dialogue: 0,0:03:11.51,0:03:14.95,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Good{\k43}ness {\kf150}knows
+Dialogue: 0,0:03:13.85,0:03:19.37,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k17}The {\k23}Wi{\k45}cked {\kf162}die {\k18}a{\kf177}lone
+Dialogue: 0,0:03:18.27,0:03:22.85,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k28}It {\k57}just {\k88}shows {\k49}when {\k33}you're {\k23}Wi{\k70}cked
+Dialogue: 0,0:03:21.55,0:03:25.53,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k76}You're {\k51}left {\k43}on{\kf118}ly
+Dialogue: 0,0:03:25.02,0:03:30.76,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k47}On {\k54}your {\kf363}own
+Dialogue: 0,0:03:26.66,0:03:32.50,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k95}Yes, {\k106}Good{\kf124}ness {\kf149}knows
+Dialogue: 0,0:03:31.32,0:03:36.48,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}The {\k17}Wi{\k42}cked's {\k62}lives {\k25}are {\k54}lone{\kf180}ly
+Dialogue: 0,0:03:35.54,0:03:39.07,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k56}Good{\k44}ness {\kf143}knows
+Dialogue: 0,0:03:37.97,0:03:43.19,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}The {\k25}Wi{\k37}cked {\k59}cry {\k28}a{\kf247}lone
+Dialogue: 0,0:03:42.21,0:03:46.71,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}No{\k46}thing {\k84}grows {\k39}for {\k23}the {\k42}Wi{\k61}cked
+Dialogue: 0,0:03:45.61,0:03:48.81,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k42}They {\k39}reap {\k43}on{\kf86}ly
+Dialogue: 0,0:03:48.87,0:03:53.60,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}What {\k48}they {\kf270}sow
+Dialogue: 0,0:03:52.50,0:03:54.46,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Miss {\k22}Glin{\k37}da !
+Dialogue: 0,0:03:54.03,0:03:57.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Why {\k26}does {\k17}wi{\k15}cked{\k24}ness {\k29}hap{\k49}pen ?
+Dialogue: 0,0:03:56.71,0:03:59.12,Galinda Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k15}That's {\k16}a {\k26}good {\k34}ques{\k40}tion
+Dialogue: 0,0:03:58.89,0:04:02.52,Galinda Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Are {\k22}peo{\k21}ple {\k34}born {\k23}Wi{\k63}cked? {\k8}Or {\k9}do {\k21}they {\k26}have
+Dialogue: 0,0:04:01.42,0:04:05.77,Galinda Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Wi{\k10}cked{\k28}ness {\k35}thrust {\k14}u{\k25}pon {\k79}them? {\k24}Af{\k7}ter {\k89}all,
+Dialogue: 0,0:04:04.67,0:04:07.53,Galinda Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k13}The {\k17}Wi{\k12}cked {\k28}Witch {\k21}had {\k9}a {\k40}child{\k36}hood
+Dialogue: 0,0:04:07.37,0:04:10.83,Galinda Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k16}She {\k7}had {\k13}a {\k16}fa{\k68}ther, {\k14}who {\k17}by {\k13}the {\k72}way,
+Dialogue: 0,0:04:09.73,0:04:12.64,Galinda Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k20}had {\k9}been {\k15}ap{\k14}poin{\k18}ted {\k12}go{\k16}vernor {\k6}of {\k30}Mun{\k14}chkin {\k27}land
+Dialogue: 0,0:04:11.54,0:04:14.08,Père Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k15}"I'm {\k14}off {\k16}to {\k18}the {\k12}as{\k18}sem{\k19}bly, {\k32}dear"
+Dialogue: 0,0:04:13.11,0:04:16.36,Galinda Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k14}And {\k10}she {\k18}had {\k13}a {\k13}mo{\k37}ther, {\k28}as {\k19}so {\k12}ma{\k20}ny {\k31}do
+Dialogue: 0,0:04:16.80,0:04:22.07,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k22}How {\k22}I {\k15}hate {\k15}to {\k65}go {\k27}and {\k69}leave {\k26}you {\k87}lone{\k69}ly
+Dialogue: 0,0:04:20.97,0:04:25.73,Mère,,0,0,0,fx,{\k90\fad(300,200)}{\k21}That's {\k14}al{\k19}right, {\k22}it's {\k66}on{\k61}ly {\k38}just {\k41}one {\k84}night
+Dialogue: 0,0:04:25.50,0:04:29.71,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k40}But {\k41}know {\k19}that {\k46}you're {\k43}here {\k29}in {\k40}my {\k53}heart
+Dialogue: 0,0:04:28.79,0:04:37.31,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k24}While {\k27}I'm {\k49}out {\k44}of {\k96}your {\kf502}sight
+Dialogue: 0,0:04:36.48,0:04:40.43,Galinda Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k53}And {\k23}like {\k17}e{\k19}very {\k17}fa{\k5}mi{\k57}ly,{\k94}
+Dialogue: 0,0:04:39.33,0:04:41.74,Galinda Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k18}They {\k20}had {\k31}their {\k15}se{\k47}crets
+Dialogue: 0,0:04:42.81,0:04:47.05,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Have {\k13}a{\k25}no{\k15}ther {\k63}drink, {\k22}my {\k33}dark-{\k35}eyed {\k31}beau{\k51}ty
+Dialogue: 0,0:04:45.95,0:04:49.83,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k26}I've {\k14}got {\k24}one {\k16}more {\k27}night {\k52}left, {\k25}here {\k33}in {\k61}town
+Dialogue: 0,0:04:48.84,0:04:53.17,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k21}So {\k26}have {\k15}a{\k19}no{\k14}ther {\k67}drink {\k17}of {\k39}green {\k28}e{\k37}li{\k40}xir
+Dialogue: 0,0:04:52.17,0:04:56.41,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k28}And {\k14}we'll {\k21}have {\k26}our{\k63}selves {\k21}a {\k18}lit{\k36}tle {\k34}mi{\k53}xer
+Dialogue: 0,0:04:55.52,0:04:59.35,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Have {\k18}a{\k22}no{\k17}ther {\k21}lit{\k21}tle {\k25}swal{\k16}low, {\k20}lit{\k16}tle {\k22}la{\k37}dy,
+Dialogue: 0,0:04:58.25,0:05:03.07,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k25}And {\k27}fol{\k24}low {\k58}me {\kf238}down.
+Dialogue: 0,0:05:02.70,0:05:06.38,Galinda Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k16}And {\k32}one {\k32}thing {\k19}led {\k10}to {\k12}a{\k13}no{\k27}ther,{\k97}
+Dialogue: 0,0:05:05.28,0:05:07.60,Galinda Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k9}As {\k21}it {\k8}so {\k23}of{\k12}ten {\k49}does
+Dialogue: 0,0:05:06.50,0:05:10.07,Mère Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\kf247}No !
+Dialogue: 0,0:05:08.45,0:05:11.39,Galinda Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k30}But {\k15}from {\k12}the {\k25}mo{\k18}ment {\k8}the {\k12}witch {\k30}was {\k34}born,
+Dialogue: 0,0:05:10.29,0:05:14.22,Galinda Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k21}She {\k103}was, {\k96}well, {\k24}dif{\k39}ferent
+Dialogue: 0,0:05:15.73,0:05:17.71,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}It's {\k23}co{\k41}ming
+Dialogue: 0,0:05:16.80,0:05:18.66,Père Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k76}Now?
+Dialogue: 0,0:05:17.68,0:05:20.13,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}The {\k23}ba{\k29}by's {\k20}co{\k44}ming
+Dialogue: 0,0:05:18.76,0:05:21.60,Père Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Oh {\k15}oh {\k39}oh ! {\k38}And {\k55}how!
+Dialogue: 0,0:05:20.07,0:05:22.83,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k18}see {\k19}a {\k103}nose
+Dialogue: 0,0:05:21.73,0:05:24.24,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k32}I {\k10}see {\k16}a {\k83}curl
+Dialogue: 0,0:05:23.14,0:05:28.80,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k24}It's {\k55}a {\k43}heal{\k39}thy, {\k38}per{\k45}fect, {\k34}Love{\k52}ly, {\k46}lit{\k80}tle -
+Dialogue: 0,0:05:23.14,0:05:28.80,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}It's {\k55}a {\k43}heal{\k39}thy, {\k38}per{\k45}fect, {\k34}Love{\k52}ly, {\k46}lit{\k80}tle -
+Dialogue: 0,0:05:28.31,0:05:31.75,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k79}Oh...{\k27}Sweet {\k56}Oz! {\k72}Oh !
+Dialogue: 0,0:05:31.45,0:05:34.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k31}How {\k26}can {\k24}it {\kf99}be ?
+Dialogue: 0,0:05:32.34,0:05:36.40,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k39}What {\k21}does {\k32}it {\kf204}mean ?
+Dialogue: 0,0:05:35.43,0:05:38.10,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k37}It's {\k29}un{\k29}can{\k62}ny
+Dialogue: 0,0:05:36.59,0:05:41.30,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k24}It's {\k29}o{\kf308}bscene !
+Dialogue: 0,0:05:40.40,0:05:43.48,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Like {\k27}a {\k26}frog{\k23}gy, {\k19}fer{\k30}ny {\k18}cab{\k33}bage
+Dialogue: 0,0:05:40.40,0:05:43.48,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Like {\k27}a {\k26}frog{\k23}gy, {\k19}fer{\k30}ny {\k18}cab{\k33}bage
+Dialogue: 0,0:05:42.50,0:05:46.78,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k36}The {\k28}ba{\k30}by {\k26}is {\k27}un{\k33}na{\k36}tu{\k34}ral{\k68}ly
+Dialogue: 0,0:05:42.50,0:05:46.78,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}The {\k28}ba{\k30}by {\k26}is {\k27}un{\k33}na{\k36}tu{\k34}ral{\k68}ly
+Dialogue: 0,0:05:46.19,0:05:48.15,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k86}Green...
+Dialogue: 0,0:05:52.83,0:05:54.87,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Take {\k8}it {\k11}a{\k46}way
+Dialogue: 0,0:05:55.85,0:05:58.15,Père,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Take {\k14}it {\k18}a{\k59}way !
+Dialogue: 0,0:05:58.06,0:06:01.08,Galinda Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k32}And {\k37}so,{\k123}
+Dialogue: 0,0:05:59.98,0:06:02.38,Galinda Dialogue,,0,0,0,fx,{\k90\fad(300,200)}{\k14}It {\k14}could{\k11}n't {\k20}have {\k13}been {\k18}ea{\k40}sy
+Dialogue: 0,0:06:02.51,0:06:08.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}No {\k33}one {\kf111}mourns {\k24}the {\k75}Wi{\kf256}cked !
+Dialogue: 0,0:06:07.97,0:06:14.15,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Now {\k31}at {\k98}last, {\k36}she's {\k73}dead {\k60}and {\kf163}gone!
+Dialogue: 0,0:06:13.05,0:06:19.49,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Now {\k17}at {\k67}last, {\k27}there's {\k72}joy {\k23}through{\k48}out {\k46}the {\kf196}land
+Dialogue: 0,0:06:18.64,0:06:26.71,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf161}And {\kf125}Good{\kf155}ness {\kf256}knows
+Dialogue: 0,0:06:23.05,0:06:29.17,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k98}Good{\k82}ness {\kf322}knows
+Dialogue: 0,0:06:25.60,0:06:30.05,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k51}We {\k75}know {\k39}what {\k24}Good{\k21}ness {\kf125}is
+Dialogue: 0,0:06:28.07,0:06:34.51,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\kf129}Uh~{\kf405}Oh~!
+Dialogue: 0,0:06:28.91,0:06:32.32,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Good{\k44}ness {\kf142}knows
+Dialogue: 0,0:06:31.22,0:06:36.37,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}The {\k14}Wi{\k41}cked {\k65}die {\k17}a{\kf242}lone
+Dialogue: 0,0:06:33.41,0:06:40.31,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k64}She {\k41}died {\kf81}a{\kf394}lone
+Dialogue: 0,0:06:35.03,0:06:40.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Woe {\k43}to {\kf336}those
+Dialogue: 0,0:06:36.80,0:06:40.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Woe {\k36}to {\kf171}those
+Dialogue: 0,0:06:39.34,0:06:43.12,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Who {\k38}spurn {\k21}what {\k26}Good{\k31}ness{\kf114}es
+Dialogue: 0,0:06:42.16,0:06:49.23,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k54}They {\k44}are {\kf499}shown
+Dialogue: 0,0:06:48.13,0:06:51.75,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}No {\k38}one {\k65}mourns {\k20}the {\k20}Wi{\k65}cked
+Dialogue: 0,0:06:50.65,0:06:55.17,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Good {\kf301}news !
+Dialogue: 0,0:06:54.80,0:06:58.38,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k40}No {\k42}one {\k65}mourns {\k14}the {\k25}Wi{\k62}cked
+Dialogue: 0,0:06:57.28,0:07:01.53,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k57}Good {\kf258}news !
+Dialogue: 0,0:07:01.57,0:07:09.43,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k66}No {\k63}one {\kf102}mourns{\kf57} {\kf109}the {\k59}Wi{\kf220}cked
+Dialogue: 0,0:07:05.54,0:07:09.43,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k59}Wi{\kf220}cked !
+Dialogue: 0,0:07:09.87,0:07:13.52,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k68}Wi{\kf187}cked !
+Dialogue: 0,0:07:09.87,0:07:13.52,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k68}Wi{\kf187}cked !
+Dialogue: 0,0:07:14.68,0:07:23.35,Galinda,,0,0,0,fx,{\k90\fad(300,200)}{\k105}Wi{\kf135}cked-{\kf517}ED~!
+Dialogue: 0,0:07:14.68,0:07:23.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k105}Wi{\kf652}cked !
