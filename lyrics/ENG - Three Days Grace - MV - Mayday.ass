@@ -1,0 +1,111 @@
+﻿[Script Info]
+Title: Mayday
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Adam,Arial,24,&H00FFFFFF,&H006060D1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Matt,Arial,24,&H00FFFFFF,&H0030BFD9,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:04.62,0:00:08.46,Matt,,0,0,0,karaoke,{\k30}We'll {\k21}ne{\k23}ver {\k77}say, {\k27}we'll {\k22}ne{\k14}ver {\k59}say {\k48}may{\k63}day
+Comment: 0,0:00:23.92,0:00:27.99,Adam,,0,0,0,karaoke,{\k29}Wel{\k20}come {\k27}to {\k21}the {\k74}end, {\k49}just {\k48}take {\k20}a {\k56}num{\k63}ber
+Comment: 0,0:00:31.71,0:00:35.80,Matt,,0,0,0,karaoke,{\k51}Just {\k23}get {\k48}used {\k30}to {\k23}the {\k46}in{\k26}flu{\k27}ence {\k24}you're {\k48}un{\k63}der
+Comment: 0,0:00:39.05,0:00:41.97,Adam,,0,0,0,karaoke,{\k26}It's {\k21}the {\k52}same {\k38}old {\k37}sto{\k45}ry {\k73}of
+Comment: 0,0:00:42.72,0:00:45.90,Adam,,0,0,0,karaoke,{\k26}Wan{\k22}ting {\k27}it {\k48}all {\k26}but {\k23}it's {\k26}ne{\k22}ver {\k23}e{\k75}nough
+Comment: 0,0:00:47.11,0:00:50.04,Sample KM [Up],,0,0,0,karaoke,{\k22}The {\k50}more {\k26}you {\k40}know, {\k28}you {\k50}know, {\k20}you {\k57}know
+Comment: 0,0:00:50.07,0:00:51.32,Sample KM [Up],,0,0,0,karaoke,{\k54}No{\k71}thing
+Comment: 0,0:00:53.92,0:00:57.73,Adam,,0,0,0,karaoke,{\k27}We {\k38}walk {\k57}like {\k50}dead {\k29}peo{\k19}ple {\k25}who {\k27}ha{\k19}ven't {\k43}died {\k47}yet
+Comment: 0,0:00:57.74,0:01:01.55,Adam,,0,0,0,karaoke,{\k27}We {\k51}ride {\k49}like {\k53}pas{\k22}sen{\k22}gers {\k29}with{\k28}out {\k24}a {\k47}pi{\k29}lot
+Comment: 0,0:01:01.55,0:01:05.66,Adam,,0,0,0,karaoke,{\k21}We {\k23}be {\k27}lo{\k25}sing {\k45}our {\k49}minds, {\k28}but {\k27}we {\k17}all {\k33}try {\k21}to {\k48}hide {\k47}it
+Comment: 0,0:01:05.66,0:01:07.91,Adam,,0,0,0,karaoke,{\k28}It's {\k28}hard {\k15}to {\k46}keep {\k54}figh{\k54}ting
+Comment: 0,0:01:08.09,0:01:10.88,Adam,,0,0,0,karaoke,{\k24}when {\k25}you're {\k49}bare{\k36}ly {\k32}sur{\k50}vi{\k63}ving
+Comment: 0,0:01:11.03,0:01:14.59,Matt,,0,0,0,karaoke,{\k23}We'll {\k20}ne{\k30}ver {\k72}say, {\k26}we'll {\k22}ne{\k25}ver {\k47}say {\k51}may{\k40}day
+Comment: 0,0:01:14.59,0:01:18.69,Matt,,0,0,0,karaoke,{\k36}Just {\k22}wait {\k23}in {\k49}line {\k24}for {\k24}your {\k49}rights {\k49}and {\k22}your {\k49}privi{\k63}lege
+Comment: 0,0:01:22.24,0:01:26.48,Adam,,0,0,0,karaoke,{\k26}Then {\k24}fol{\k24}low {\k26}the {\k46}lea{\k53}der {\k44}right {\k43}off {\k18}the {\k60}cliff's {\k60}edge
+Comment: 0,0:01:30.27,0:01:32.66,Adam,,0,0,0,karaoke,{\k23}All {\k27}your {\k28}dreams {\k20}are {\k48}down {\k26}be{\k67}low
+Comment: 0,0:01:34.18,0:01:36.96,Adam,,0,0,0,karaoke,{\k23}Bu{\k27}ried {\k25}un{\k21}der {\k26}bro{\k48}ken {\kf108}bones
+Comment: 0,0:01:37.84,0:01:40.80,Sample KM [Up],,0,0,0,karaoke,{\k22}The {\k50}more {\k26}you {\k40}know, {\k28}you {\k50}know, {\k20}you {\k60}know
+Comment: 0,0:01:40.87,0:01:42.11,Sample KM [Up],,0,0,0,karaoke,{\k54}No{\k70}thing
+Comment: 0,0:01:44.64,0:01:48.45,Matt,,0,0,0,karaoke,{\k27}We {\k38}walk {\k57}like {\k50}dead {\k29}peo{\k19}ple {\k25}who {\k27}ha{\k19}ven't {\k43}died {\k47}yet
+Comment: 0,0:01:48.55,0:01:52.27,Matt,,0,0,0,karaoke,{\k27}We {\k49}ride {\k48}like {\k48}pas{\k23}sen{\k29}gers {\k21}with{\k28}out {\k18}a {\k47}pi{\k34}lot
+Comment: 0,0:01:52.27,0:01:56.38,Matt,,0,0,0,karaoke,{\k21}We {\k23}be {\k27}lo{\k25}sing {\k45}our {\k49}minds, {\k28}but {\k27}we {\k17}all {\k33}try {\k21}to {\k48}hide {\k47}it
+Comment: 0,0:01:56.38,0:01:58.63,Matt,,0,0,0,karaoke,{\k28}It's {\k28}hard {\k15}to {\k46}keep {\k54}figh{\k54}ting
+Comment: 0,0:01:58.81,0:02:01.60,Matt,,0,0,0,karaoke,{\k24}when {\k25}you're {\k49}bare{\k36}ly {\k32}sur{\k50}vi{\k63}ving
+Comment: 0,0:02:10.18,0:02:11.65,Matt,,0,0,0,karaoke,{\k54}Calm {\k93}down
+Comment: 0,0:02:11.92,0:02:13.31,Matt,,0,0,0,karaoke,{\k30}We'll {\k21}be {\k28}o{\k60}kay
+Comment: 0,0:02:13.60,0:02:15.40,Matt,,0,0,0,karaoke,{\k28}Just {\k27}some {\k30}tur{\k22}bu{\k73}lence
+Comment: 0,0:02:15.80,0:02:17.21,Matt,,0,0,0,karaoke,{\k33}We're {\k24}on {\k23}our {\k61}way
+Comment: 0,0:02:17.83,0:02:19.32,Matt,,0,0,0,karaoke,{\k23}We're {\k30}go{\k19}ing {\k77}down
+Comment: 0,0:02:19.67,0:02:21.11,Matt,,0,0,0,karaoke,{\k27}But {\k33}not {\k27}to{\k57}day
+Comment: 0,0:02:21.68,0:02:23.28,Matt,,0,0,0,karaoke,{\k28}We'll {\k28}ne{\k22}ver {\k82}say
+Comment: 0,0:02:23.82,0:02:27.70,Matt,,0,0,0,karaoke,{\k57}May{\kf331}day
+Comment: 0,0:02:27.60,0:02:31.41,Adam,,0,0,0,karaoke,{\k27}We {\k38}walk {\k57}like {\k50}dead {\k29}peo{\k19}ple {\k25}who {\k27}ha{\k19}ven't {\k43}died {\k47}yet
+Comment: 0,0:02:31.51,0:02:35.23,Adam,,0,0,0,karaoke,{\k27}We {\k49}ride {\k48}like {\k48}pas{\k23}sen{\k29}gers {\k21}with{\k28}out {\k18}a {\k47}pi{\k34}lot
+Comment: 0,0:02:35.23,0:02:39.34,Adam,,0,0,0,karaoke,{\k21}We {\k23}be {\k27}lo{\k25}sing {\k45}our {\k49}minds, {\k28}but {\k27}we {\k17}all {\k33}try {\k21}to {\k48}hide {\k47}it
+Comment: 0,0:02:39.34,0:02:41.59,Adam,,0,0,0,karaoke,{\k28}It's {\k28}hard {\k15}to {\k46}keep {\k54}figh{\k54}ting
+Comment: 0,0:02:41.77,0:02:44.56,Adam,,0,0,0,karaoke,{\k24}when {\k25}you're {\k49}bare{\k36}ly {\k32}sur{\k50}vi{\k63}ving
+Comment: 0,0:02:43.16,0:02:46.97,Matt,,0,0,0,karaoke,{\k27}We {\k38}walk {\k57}like {\k50}dead {\k29}peo{\k19}ple {\k25}who {\k27}ha{\k19}ven't {\k43}died {\k47}yet
+Comment: 0,0:02:47.07,0:02:50.79,Matt,,0,0,0,karaoke,{\k27}We {\k49}ride {\k48}like {\k48}pas{\k23}sen{\k29}gers {\k21}with{\k28}out {\k18}a {\k47}pi{\k34}lot
+Comment: 0,0:02:50.79,0:02:54.90,Matt,,0,0,0,karaoke,{\k21}We {\k23}be {\k27}lo{\k25}sing {\k45}our {\k49}minds, {\k28}but {\k27}we {\k17}all {\k33}try {\k21}to {\k48}hide {\k47}it
+Comment: 0,0:02:54.90,0:02:57.15,Matt,,0,0,0,karaoke,{\k28}It's {\k28}hard {\k15}to {\k46}keep {\k54}figh{\k54}ting
+Comment: 0,0:02:57.33,0:03:00.12,Matt,,0,0,0,karaoke,{\k24}when {\k25}you're {\k49}bare{\k36}ly {\k32}sur{\k50}vi{\k63}ving
+Comment: 0,0:03:02.63,0:03:05.97,Adam,,0,0,0,karaoke,{\k46}We’re {\k43}still {\kf20}a{\kf225}live
+Comment: 0,0:03:06.38,0:03:08.90,Adam,,0,0,0,karaoke,{\k47}We’re {\k24}lo{\k23}sing {\k25}our {\kf133}minds
+Comment: 0,0:03:08.08,0:03:11.83,Matt,,0,0,0,karaoke,{\k26}We'll {\k18}ne{\k22}ver {\k79}say, {\k20}we'll {\k28}ne{\k21}ver {\k59}say {\k41}may{\k61}day
+Comment: 0,0:03:11.98,0:03:15.78,Matt,,0,0,0,karaoke,{\k26}We'll {\k18}ne{\k22}ver {\k79}say, {\k20}we'll {\k28}ne{\k21}ver {\k59}say {\k41}may{\k66}day
+Dialogue: 0,0:00:03.72,0:00:08.66,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k30}We'll {\k21}ne{\k23}ver {\k77}say, {\k27}we'll {\k22}ne{\k14}ver {\k59}say {\k48}may{\k63}day
+Dialogue: 0,0:00:23.02,0:00:28.19,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Wel{\k20}come {\k27}to {\k21}the {\k74}end, {\k49}just {\k48}take {\k20}a {\k56}num{\k63}ber
+Dialogue: 0,0:00:30.81,0:00:36.00,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k51}Just {\k23}get {\k48}used {\k30}to {\k23}the {\k46}in{\k26}flu{\k27}ence {\k24}you're {\k48}un{\k63}der
+Dialogue: 0,0:00:38.15,0:00:42.17,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k26}It's {\k21}the {\k52}same {\k38}old {\k37}sto{\k45}ry {\k73}of
+Dialogue: 0,0:00:41.82,0:00:46.10,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Wan{\k22}ting {\k27}it {\k48}all {\k26}but {\k23}it's {\k26}ne{\k22}ver {\k23}e{\k75}nough
+Dialogue: 0,0:00:46.21,0:00:50.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}The {\k50}more {\k26}you {\k40}know, {\k28}you {\k50}know, {\k20}you {\k57}know
+Dialogue: 0,0:00:49.17,0:00:51.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}No{\k71}thing
+Dialogue: 0,0:00:53.02,0:00:57.93,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k27}We {\k38}walk {\k57}like {\k50}dead {\k29}peo{\k19}ple {\k25}who {\k27}ha{\k19}ven't {\k43}died {\k47}yet
+Dialogue: 0,0:00:56.84,0:01:01.75,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k27}We {\k51}ride {\k49}like {\k53}pas{\k22}sen{\k22}gers {\k29}with{\k28}out {\k24}a {\k47}pi{\k29}lot
+Dialogue: 0,0:01:00.65,0:01:05.86,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k21}We {\k23}be {\k27}lo{\k25}sing {\k45}our {\k49}minds, {\k28}but {\k27}we {\k17}all {\k33}try {\k21}to {\k48}hide {\k47}it
+Dialogue: 0,0:01:04.76,0:01:08.11,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k28}It's {\k28}hard {\k15}to {\k46}keep {\k54}figh{\k54}ting
+Dialogue: 0,0:01:07.19,0:01:11.08,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k24}when {\k25}you're {\k49}bare{\k36}ly {\k32}sur{\k50}vi{\k63}ving
+Dialogue: 0,0:01:10.13,0:01:14.79,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k23}We'll {\k20}ne{\k30}ver {\k72}say, {\k26}we'll {\k22}ne{\k25}ver {\k47}say {\k51}may{\k40}day
+Dialogue: 0,0:01:13.69,0:01:18.89,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Just {\k22}wait {\k23}in {\k49}line {\k24}for {\k24}your {\k49}rights {\k49}and {\k22}your {\k49}privi{\k63}lege
+Dialogue: 0,0:01:21.34,0:01:26.68,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Then {\k24}fol{\k24}low {\k26}the {\k46}lea{\k53}der {\k44}right {\k43}off {\k18}the {\k60}cliff's {\k60}edge
+Dialogue: 0,0:01:29.37,0:01:32.86,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k23}All {\k27}your {\k28}dreams {\k20}are {\k48}down {\k26}be{\k67}low
+Dialogue: 0,0:01:33.28,0:01:37.16,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Bu{\k27}ried {\k25}un{\k21}der {\k26}bro{\k48}ken {\kf108}bones
+Dialogue: 0,0:01:36.94,0:01:41.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}The {\k50}more {\k26}you {\k40}know, {\k28}you {\k50}know, {\k20}you {\k60}know
+Dialogue: 0,0:01:39.97,0:01:42.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}No{\k70}thing
+Dialogue: 0,0:01:43.74,0:01:48.65,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k27}We {\k38}walk {\k57}like {\k50}dead {\k29}peo{\k19}ple {\k25}who {\k27}ha{\k19}ven't {\k43}died {\k47}yet
+Dialogue: 0,0:01:47.65,0:01:52.47,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k27}We {\k49}ride {\k48}like {\k48}pas{\k23}sen{\k29}gers {\k21}with{\k28}out {\k18}a {\k47}pi{\k34}lot
+Dialogue: 0,0:01:51.37,0:01:56.58,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k21}We {\k23}be {\k27}lo{\k25}sing {\k45}our {\k49}minds, {\k28}but {\k27}we {\k17}all {\k33}try {\k21}to {\k48}hide {\k47}it
+Dialogue: 0,0:01:55.48,0:01:58.83,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k28}It's {\k28}hard {\k15}to {\k46}keep {\k54}figh{\k54}ting
+Dialogue: 0,0:01:57.91,0:02:01.80,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k24}when {\k25}you're {\k49}bare{\k36}ly {\k32}sur{\k50}vi{\k63}ving
+Dialogue: 0,0:02:09.28,0:02:11.85,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k54}Calm {\k93}down
+Dialogue: 0,0:02:11.02,0:02:13.51,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k30}We'll {\k21}be {\k28}o{\k60}kay
+Dialogue: 0,0:02:12.70,0:02:15.60,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Just {\k27}some {\k30}tur{\k22}bu{\k73}lence
+Dialogue: 0,0:02:14.90,0:02:17.41,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k33}We're {\k24}on {\k23}our {\k61}way
+Dialogue: 0,0:02:16.93,0:02:19.52,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k23}We're {\k30}go{\k19}ing {\k77}down
+Dialogue: 0,0:02:18.77,0:02:21.31,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k27}But {\k33}not {\k27}to{\k57}day
+Dialogue: 0,0:02:20.78,0:02:23.48,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k28}We'll {\k28}ne{\k22}ver {\k82}say
+Dialogue: 0,0:02:22.92,0:02:27.90,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k57}May{\kf331}day
+Dialogue: 0,0:02:26.70,0:02:31.61,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k27}We {\k38}walk {\k57}like {\k50}dead {\k29}peo{\k19}ple {\k25}who {\k27}ha{\k19}ven't {\k43}died {\k47}yet
+Dialogue: 0,0:02:30.61,0:02:35.43,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k27}We {\k49}ride {\k48}like {\k48}pas{\k23}sen{\k29}gers {\k21}with{\k28}out {\k18}a {\k47}pi{\k34}lot
+Dialogue: 0,0:02:34.33,0:02:39.54,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k21}We {\k23}be {\k27}lo{\k25}sing {\k45}our {\k49}minds, {\k28}but {\k27}we {\k17}all {\k33}try {\k21}to {\k48}hide {\k47}it
+Dialogue: 0,0:02:38.44,0:02:41.79,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k28}It's {\k28}hard {\k15}to {\k46}keep {\k54}figh{\k54}ting
+Dialogue: 0,0:02:40.87,0:02:44.76,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k24}when {\k25}you're {\k49}bare{\k36}ly {\k32}sur{\k50}vi{\k63}ving
+Dialogue: 0,0:02:42.26,0:02:47.17,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k27}We {\k38}walk {\k57}like {\k50}dead {\k29}peo{\k19}ple {\k25}who {\k27}ha{\k19}ven't {\k43}died {\k47}yet
+Dialogue: 0,0:02:46.17,0:02:50.99,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k27}We {\k49}ride {\k48}like {\k48}pas{\k23}sen{\k29}gers {\k21}with{\k28}out {\k18}a {\k47}pi{\k34}lot
+Dialogue: 0,0:02:49.89,0:02:55.10,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k21}We {\k23}be {\k27}lo{\k25}sing {\k45}our {\k49}minds, {\k28}but {\k27}we {\k17}all {\k33}try {\k21}to {\k48}hide {\k47}it
+Dialogue: 0,0:02:54.00,0:02:57.35,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k28}It's {\k28}hard {\k15}to {\k46}keep {\k54}figh{\k54}ting
+Dialogue: 0,0:02:56.43,0:03:00.32,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k24}when {\k25}you're {\k49}bare{\k36}ly {\k32}sur{\k50}vi{\k63}ving
+Dialogue: 0,0:03:01.73,0:03:06.17,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k46}We’re {\k43}still {\kf20}a{\kf225}live
+Dialogue: 0,0:03:05.48,0:03:09.10,Adam,,0,0,0,fx,{\k90\fad(300,200)}{\k47}We’re {\k24}lo{\k23}sing {\k25}our {\kf133}minds
+Dialogue: 0,0:03:07.18,0:03:12.03,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k26}We'll {\k18}ne{\k22}ver {\k79}say, {\k20}we'll {\k28}ne{\k21}ver {\k59}say {\k41}may{\k61}day
+Dialogue: 0,0:03:11.08,0:03:15.98,Matt,,0,0,0,fx,{\k90\fad(300,200)}{\k26}We'll {\k18}ne{\k22}ver {\k79}say, {\k20}we'll {\k28}ne{\k21}ver {\k59}say {\k41}may{\k66}day
