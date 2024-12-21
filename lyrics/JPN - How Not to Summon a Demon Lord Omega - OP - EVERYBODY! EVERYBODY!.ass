@@ -1,0 +1,93 @@
+﻿[Script Info]
+Title: EVERYBODY! EVERYBODY!
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Naruse, Alis Airy
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00FFBD00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00AD57FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4E7C,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:05.78,0:00:06.44,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k66}YEAH
+Comment: 0,0:00:06.44,0:00:07.95,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k8}E{\k13}VERY{\k20}BO{\k19}DY {\k12}E{\k21}VERY{\k26}BO{\k32}DY
+Comment: 0,0:00:12.28,0:00:12.95,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k67}YEAH
+Comment: 0,0:00:12.95,0:00:14.54,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k8}E{\k13}VERY{\k20}BO{\k19}DY {\k12}E{\k21}VERY{\k26}BO{\k40}DY
+Comment: 0,0:00:14.60,0:00:16.58,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k22}ha{\k13}da{\k26}shi {\k19}no {\k14}ma{\k28}ma {\k76}de
+Comment: 0,0:00:16.58,0:00:18.70,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k38}mot{\k25}to {\k41}DANCE {\k40}DANCE {\k22}shi{\k46}you
+Comment: 0,0:00:18.70,0:00:20.94,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k20}ko{\k19}ko{\k21}ro {\k31}BOOM {\k31}BOOM {\k25}BOOM {\k37}sa{\k40}a
+Comment: 0,0:00:21.14,0:00:23.13,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k20}ma{\k21}do {\k21}na{\k19}ga{\k21}me{\k42}te{\k55}ru
+Comment: 0,0:00:23.13,0:00:25.38,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k33}da{\k27}ke {\k41}ja {\k35}"BANG" {\k26}shi{\k28}cha{\k18}u {\k17}yo
+Comment: 0,0:00:25.39,0:00:28.69,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k24}ho{\k21}ra {\k31}PA-{\k31}PA-{\k41}PAR{\k33}TY {\kf149}TIME
+Comment: 0,0:00:27.20,0:00:29.07,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}yat{\k16}te{\k11}ru {\k10}ko{\k11}to {\k16}nan{\k8}da{\k11}ka {\k12}bu{\k9}re{\k10}bu{\k10}re {\k12}gi{\k8}mi{\k12} na{\k6}ra
+Comment: 0,0:00:29.07,0:00:30.21,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}so{\k17}u{\k17}dan {\k27}shi{\k35}na
+Comment: 0,0:00:30.21,0:00:32.31,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k31}sen{\k12}ryo{\k10}ku {\k12}gi{\k8}ri{\k10}gi{\k12}ri {\k28}REAL {\k11}mo {\k24}R{\k16}P{\k18}G {\k18}mo
+Comment: 0,0:00:32.31,0:00:33.48,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k36}LET'S {\k33}PUMP {\k17}IT {\k31}UP
+Comment: 0,0:00:33.60,0:00:35.14,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k12}to{\k8}ni{\k12}ka{\k9}ku {\k16}BA{\k24}BY {\k21}ALL {\k20}DAY {\k32}LONG
+Comment: 0,0:00:35.10,0:00:35.60,Sample KM [Choir],,0,0,0,karaoke,{\k51}YES!
+Comment: 0,0:00:35.59,0:00:36.66,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k15}ko{\k10}ko {\k12}de {\k29}o{\k17}do{\k24}rou
+Comment: 0,0:00:36.68,0:00:37.14,Sample KM [Choir],,0,0,0,karaoke,NO!
+Comment: 0,0:00:37.22,0:00:39.73,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k17}hi{\k14}ge{\k14}ki {\k21}dat{\k18}te {\k12}ki{\k20}ge{\k10}ki {\k22}dat{\k8}te {\k9}o{\k15}ma{\k10}e{\k12}ga {\k21}HE{\k28}RO
+Comment: 0,0:00:39.52,0:00:45.17,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k19}da{\k40}re {\k22}mo {\k79}ga {\k20}da{\k43}re{\k20}ka {\k63}to{\k19} {\k20}tsu{\k21}na{\k39}gat{\kf160}te
+Comment: 0,0:00:43.98,0:00:45.91,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k12}ko{\k11}ko {\k17}de {\k12}tsu{\k11}na{\k17}ga{\k18}ru {\k22}te {\k23}to {\k50}te
+Comment: 0,0:00:45.99,0:00:47.61,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k26}tsu{\k21}ta{\k16}e {\k31}a{\k55}u
+Comment: 0,0:00:47.57,0:00:49.32,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k22}mi{\k21}to{\k23}me {\k21}a{\k88}u
+Comment: 0,0:00:48.88,0:00:49.49,Sample KM Duo [Voice 1],CORO,0,0,0,karaoke,{\k29}Come {\k32}on
+Comment: 0,0:00:49.32,0:00:53.03,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k15}a{\k14}i{\k33}shi {\k25}a{\kf133}u {\k23}i{\kf128}ma
+Comment: 0,0:00:53.12,0:00:54.78,Sample KM Duo [Voice 1],CORO,0,0,0,karaoke,{\k26}Let {\k14}me {\k25}see {\k23}your {\k16}bo{\k23}dy {\k39}move
+Comment: 0,0:00:55.20,0:00:58.25,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k36}E{\k37}VERY{\k30}BO{\k34}DY {\k39}E{\k29}VERY{\k23}BO{\k77}DY
+Comment: 0,0:00:57.89,0:01:01.75,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k16}to{\k21}te{\k20}mo {\k43}ko{\k38}to{\k25}ba {\k37}ni {\k43}de{\k21}ki{\k20}na{\k18}i {\k44}ho{\k40}do
+Comment: 0,0:01:01.75,0:01:04.79,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k36}E{\k37}VERY{\k30}BO{\k34}DY {\k39}E{\k29}VERY{\k23}BO{\k76}DY
+Comment: 0,0:01:04.39,0:01:08.53,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k37}a{\k21}tsu{\k43}ku {\k47}mo{\k19}e{\k20}ru {\k16}fu{\k42}ru{\k19}e{\k24}ru {\k31}PAS{\kf95}SION
+Comment: 0,0:01:08.21,0:01:11.22,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k36}E{\k37}VERY{\k30}BO{\k34}DY {\k39}E{\k29}VERY{\k23}BO{\k73}DY
+Comment: 0,0:01:10.92,0:01:16.68,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k21}la {\k16}la {\k22}la {\k36}la {\k28}ta{\k38}ka{\k41}ma{\k46}ri {\k11}a{\k22}fu{\k15}re {\k51}so{\k36}u {\kf193}na
+Comment: 0,0:01:14.76,0:01:17.77,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k36}E{\k39}VERY{\k31}BO{\k31}DY {\k39}E{\k29}VERY{\k23}BO{\k73}DY
+Comment: 0,0:01:17.42,0:01:22.67,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k43}ko{\k21}no {\k21}o{\k41}moi {\k40}wo {\k41}min{\k24}na{\k13} {\k27}so{\k20}ra {\k19}ni {\k21}ni{\k12}ga{\k43}so{\kf139}u
+Comment: 0,0:01:21.46,0:01:22.98,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}Let {\k13}me {\k14}see {\k25}how {\k19}you {\k22}can {\k41}dance
+Comment: 0,0:01:26.21,0:01:27.28,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k31}COME {\k30}WITH {\k46}ME
+Dialogue: 0,0:00:04.88,0:00:06.64,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k66}YEAH
+Dialogue: 0,0:00:05.54,0:00:08.15,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k8}E{\k13}VERY{\k20}BO{\k19}DY {\k12}E{\k21}VERY{\k26}BO{\k32}DY
+Dialogue: 0,0:00:11.38,0:00:13.15,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k67}YEAH
+Dialogue: 0,0:00:12.05,0:00:14.74,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k8}E{\k13}VERY{\k20}BO{\k19}DY {\k12}E{\k21}VERY{\k26}BO{\k40}DY
+Dialogue: 0,0:00:13.70,0:00:16.78,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}ha{\k13}da{\k26}shi {\k19}no {\k14}ma{\k28}ma {\k76}de
+Dialogue: 0,0:00:15.68,0:00:18.90,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k38}mot{\k25}to {\k41}DANCE {\k40}DANCE {\k22}shi{\k46}you
+Dialogue: 0,0:00:17.80,0:00:21.14,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ko{\k19}ko{\k21}ro {\k31}BOOM {\k31}BOOM {\k25}BOOM {\k37}sa{\k40}a
+Dialogue: 0,0:00:20.24,0:00:23.33,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ma{\k21}do {\k21}na{\k19}ga{\k21}me{\k42}te{\k55}ru
+Dialogue: 0,0:00:22.23,0:00:25.58,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k33}da{\k27}ke {\k41}ja {\k35}"BANG" {\k26}shi{\k28}cha{\k18}u {\k17}yo
+Dialogue: 0,0:00:24.49,0:00:28.89,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k24}ho{\k21}ra {\k31}PA-{\k31}PA-{\k41}PAR{\k33}TY {\kf149}TIME
+Dialogue: 0,0:00:26.30,0:00:29.27,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k25}yat{\k16}te{\k11}ru {\k10}ko{\k11}to {\k16}nan{\k8}da{\k11}ka {\k12}bu{\k9}re{\k10}bu{\k10}re {\k12}gi{\k8}mi{\k12} na{\k6}ra
+Dialogue: 0,0:00:28.17,0:00:30.41,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k18}so{\k17}u{\k17}dan {\k27}shi{\k35}na
+Dialogue: 0,0:00:29.31,0:00:32.51,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k31}sen{\k12}ryo{\k10}ku {\k12}gi{\k8}ri{\k10}gi{\k12}ri {\k28}REAL {\k11}mo {\k24}R{\k16}P{\k18}G {\k18}mo
+Dialogue: 0,0:00:31.41,0:00:33.68,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k36}LET'S {\k33}PUMP {\k17}IT {\k31}UP
+Dialogue: 0,0:00:32.70,0:00:35.34,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k12}to{\k8}ni{\k12}ka{\k9}ku {\k16}BA{\k24}BY {\k21}ALL {\k20}DAY {\k32}LONG
+Dialogue: 0,0:00:34.20,0:00:35.80,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k51}YES!
+Dialogue: 0,0:00:34.69,0:00:36.86,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k15}ko{\k10}ko {\k12}de {\k29}o{\k17}do{\k24}rou
+Dialogue: 0,0:00:35.78,0:00:37.34,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}NO!
+Dialogue: 0,0:00:36.32,0:00:39.93,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k17}hi{\k14}ge{\k14}ki {\k21}dat{\k18}te {\k12}ki{\k20}ge{\k10}ki {\k22}dat{\k8}te {\k9}o{\k15}ma{\k10}e{\k12}ga {\k21}HE{\k28}RO
+Dialogue: 0,0:00:38.62,0:00:45.37,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k19}da{\k40}re {\k22}mo {\k79}ga {\k20}da{\k43}re{\k20}ka {\k63}to{\k19} {\k20}tsu{\k21}na{\k39}gat{\kf160}te
+Dialogue: 0,0:00:43.08,0:00:46.11,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k12}ko{\k11}ko {\k17}de {\k12}tsu{\k11}na{\k17}ga{\k18}ru {\k22}te {\k23}to {\k50}te
+Dialogue: 0,0:00:45.09,0:00:47.81,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k26}tsu{\k21}ta{\k16}e {\k31}a{\k55}u
+Dialogue: 0,0:00:46.67,0:00:49.52,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}mi{\k21}to{\k23}me {\k21}a{\k88}u
+Dialogue: 0,0:00:47.98,0:00:49.69,Sample KM Duo [Voice 1],CORO,0,0,0,fx,{\k90\fad(300,200)}{\k29}Come {\k32}on
+Dialogue: 0,0:00:48.42,0:00:53.23,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k15}a{\k14}i{\k33}shi {\k25}a{\kf133}u {\k23}i{\kf128}ma
+Dialogue: 0,0:00:52.22,0:00:54.98,Sample KM Duo [Voice 1],CORO,0,0,0,fx,{\k90\fad(300,200)}{\k26}Let {\k14}me {\k25}see {\k23}your {\k16}bo{\k23}dy {\k39}move
+Dialogue: 0,0:00:54.30,0:00:58.45,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k36}E{\k37}VERY{\k30}BO{\k34}DY {\k39}E{\k29}VERY{\k23}BO{\k77}DY
+Dialogue: 0,0:00:56.99,0:01:01.95,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k16}to{\k21}te{\k20}mo {\k43}ko{\k38}to{\k25}ba {\k37}ni {\k43}de{\k21}ki{\k20}na{\k18}i {\k44}ho{\k40}do
+Dialogue: 0,0:01:00.85,0:01:04.99,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k36}E{\k37}VERY{\k30}BO{\k34}DY {\k39}E{\k29}VERY{\k23}BO{\k76}DY
+Dialogue: 0,0:01:03.49,0:01:08.73,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k37}a{\k21}tsu{\k43}ku {\k47}mo{\k19}e{\k20}ru {\k16}fu{\k42}ru{\k19}e{\k24}ru {\k31}PAS{\kf95}SION
+Dialogue: 0,0:01:07.31,0:01:11.42,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k36}E{\k37}VERY{\k30}BO{\k34}DY {\k39}E{\k29}VERY{\k23}BO{\k73}DY
+Dialogue: 0,0:01:10.02,0:01:16.88,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k21}la {\k16}la {\k22}la {\k36}la {\k28}ta{\k38}ka{\k41}ma{\k46}ri {\k11}a{\k22}fu{\k15}re {\k51}so{\k36}u {\kf193}na
+Dialogue: 0,0:01:13.86,0:01:17.97,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k36}E{\k39}VERY{\k31}BO{\k31}DY {\k39}E{\k29}VERY{\k23}BO{\k73}DY
+Dialogue: 0,0:01:16.52,0:01:22.87,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k43}ko{\k21}no {\k21}o{\k41}moi {\k40}wo {\k41}min{\k24}na{\k13} {\k27}so{\k20}ra {\k19}ni {\k21}ni{\k12}ga{\k43}so{\kf139}u
+Dialogue: 0,0:01:20.56,0:01:23.18,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Let {\k13}me {\k14}see {\k25}how {\k19}you {\k22}can {\k41}dance
+Dialogue: 0,0:01:25.31,0:01:27.48,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k31}COME {\k30}WITH {\k46}ME
