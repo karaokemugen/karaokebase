@@ -1,0 +1,29 @@
+﻿[Script Info]
+Title: Tsunomaki Janken ~ 3 Vers.
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 0
+PlayResY: 0
+YCbCr Matrix: TV.601
+Original Timing: Cagouille
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: watame,Arial,24,&H0064FFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,watame,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.36,0:00:03.23,watame,,0,0,0,karaoke,{\k17}Tsu{\k12}no{\k15}ma{\k10}ki {\k27}jan{\k57}ken:{\k75} {\k42}STAR{\k32}T
+Comment: 0,0:00:04.50,0:00:06.10,watame,,0,0,0,karaoke,{\k17\-left}Tsu{\k24}no{\k19}ma{\k21}ki {\k19}Tsu{\k17}no{\k24}ma{\k22}ki
+Comment: 0,0:00:06.10,0:00:07.77,watame,,0,0,0,karaoke,{\k24}Tsu{\k19}no{\k21}ma{\k17}ki {\k25}Tsu{\k21}no{\k19}ma{\k22}ki
+Comment: 0,0:00:07.78,0:00:09.40,watame,,0,0,0,karaoke,{\k20}Tsu{\k22}no{\k21}ma{\k17}ki {\k21}Tsu{\k20}no{\k21}ma{\k20}ki
+Comment: 0,0:00:09.37,0:00:11.05,watame,,0,0,0,karaoke,{\k26}Tsu{\k16}no{\k23}ma{\k19}ki {\k24}Tsu{\k22}no{\k17}ma{\k21}ki
+Comment: 0,0:00:11.07,0:00:13.87,watame,,0,0,0,karaoke,{\k37}Tsu{\k47}no{\k41}ma{\k44}ki {\k39}jan {\k34}ken {\k38}pon!
+Dialogue: 0,0:00:00.00,0:00:03.43,watame,,0,0,0,fx,{\k36\fad(360,200)}{\k17}Tsu{\k12}no{\k15}ma{\k10}ki {\k27}jan{\k57}ken:{\k75} {\k42}STAR{\k32}T
+Dialogue: 0,0:00:03.60,0:00:06.30,watame,,0,0,0,fx,{\k90\fad(300,200)}{\k17\-left}Tsu{\k24}no{\k19}ma{\k21}ki {\k19}Tsu{\k17}no{\k24}ma{\k22}ki
+Dialogue: 0,0:00:05.20,0:00:07.97,watame,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Tsu{\k19}no{\k21}ma{\k17}ki {\k25}Tsu{\k21}no{\k19}ma{\k22}ki
+Dialogue: 0,0:00:06.88,0:00:09.60,watame,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Tsu{\k22}no{\k21}ma{\k17}ki {\k21}Tsu{\k20}no{\k21}ma{\k20}ki
+Dialogue: 0,0:00:08.47,0:00:11.25,watame,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Tsu{\k16}no{\k23}ma{\k19}ki {\k24}Tsu{\k22}no{\k17}ma{\k21}ki
+Dialogue: 0,0:00:10.17,0:00:14.07,watame,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Tsu{\k47}no{\k41}ma{\k44}ki {\k39}jan {\k34}ken {\k38}pon!
