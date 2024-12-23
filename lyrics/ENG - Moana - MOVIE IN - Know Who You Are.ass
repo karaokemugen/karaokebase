@@ -1,0 +1,41 @@
+﻿[Script Info]
+Title: Know Who You Are
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:23.66,0:00:29.35,Sample KM [Choir],,0,0,0,karaoke,{\k38}Ou {\k48}ma{\k41}ta {\k18}e {\k19}ma{\k39}ta{\kf366}gi
+Comment: 0,0:00:27.01,0:00:31.08,Sample KM [Up],,0,0,0,karaoke,{\k15}I {\k21}have {\k52}crossed {\k17}the {\k24}ho{\k40}ri{\k18}zon {\k27}to {\k63}find {\kf130}you
+Comment: 0,0:00:31.67,0:00:37.56,Sample KM [Choir],,0,0,0,karaoke,{\k40}Ou {\k39}lo{\k26}to {\k18}ma{\k45}ma{\k38}i{\kf124}na {\k43}to{\kf216}a
+Comment: 0,0:00:37.58,0:00:40.46,Sample KM [Up],,0,0,0,karaoke,{\k39}I {\k36}know {\k69}your {\kf144}name
+Comment: 0,0:00:40.83,0:00:46.55,Sample KM [Choir],,0,0,0,karaoke,{\k36}Ma{\k57}na{\k36}tu {\k67}a{\kf376}tu
+Comment: 0,0:00:44.19,0:00:48.44,Sample KM [Up],,0,0,0,karaoke,{\k18}They {\k30}have {\k40}sto{\k20}len {\k26}the {\k43}heart {\k22}from {\k35}in{\k60}side {\kf131}you
+Comment: 0,0:00:48.54,0:00:52.90,Sample KM [Choir],,0,0,0,karaoke,{\k15}Ta{\k16}ku {\k51}pe{\k66}le{\k86}pe{\kf202}le
+Comment: 0,0:00:52.48,0:00:55.64,Sample KM [Up],,0,0,0,karaoke,{\k25}But {\k43}this {\k26}does {\k32}not {\k36}de{\k71}fine {\k83}you
+Comment: 0,0:00:55.64,0:01:01.22,Sample KM [Choir],,0,0,0,karaoke,{\k45}Ma{\k53}na{\k51}tu{\k60}na{\kf349}tu
+Comment: 0,0:00:59.05,0:01:03.28,Sample KM [Up],,0,0,0,karaoke,{\k18}This {\k33}is {\k62}not {\k51}who {\k53}you {\kf206}are
+Comment: 0,0:01:04.89,0:01:10.26,Sample KM [Up],,0,0,0,karaoke,{\k95}You {\kf101}know{\k59} {\k49}who {\k35}you {\kf198}are
+Comment: 0,0:00:00.00,0:00:02.00,Sample KM [Up],,0,0,0,karaoke,
+Dialogue: 0,0:00:26.11,0:00:31.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k21}have {\k52}crossed {\k17}the {\k24}ho{\k40}ri{\k18}zon {\k27}to {\k63}find {\kf130}you
+Dialogue: 0,0:00:36.68,0:00:40.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}I {\k36}know {\k69}your {\kf144}name
+Dialogue: 0,0:00:43.29,0:00:48.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}They {\k30}have {\k40}sto{\k20}len {\k26}the {\k43}heart {\k22}from {\k35}in{\k60}side {\kf131}you
+Dialogue: 0,0:00:51.58,0:00:55.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}But {\k43}this {\k26}does {\k32}not {\k36}de{\k71}fine {\k83}you
+Dialogue: 0,0:00:58.15,0:01:03.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}This {\k33}is {\k62}not {\k51}who {\k53}you {\kf206}are
+Dialogue: 0,0:01:03.99,0:01:10.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k95}You {\kf101}know{\k59} {\k49}who {\k35}you {\kf198}are
+Dialogue: 0,0:00:22.76,0:00:29.55,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Ou {\k48}ma{\k41}ta {\k18}e {\k19}ma{\k39}ta{\kf366}gi
+Dialogue: 0,0:00:30.77,0:00:37.76,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Ou {\k39}lo{\k26}to {\k18}ma{\k45}ma{\k38}i{\kf124}na {\k43}to{\kf216}a
+Dialogue: 0,0:00:39.93,0:00:46.75,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Ma{\k57}na{\k36}tu {\k67}a{\kf376}tu
+Dialogue: 0,0:00:47.64,0:00:53.10,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Ta{\k16}ku {\k51}pe{\k66}le{\k86}pe{\kf202}le
+Dialogue: 0,0:00:54.74,0:01:01.42,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Ma{\k53}na{\k51}tu{\k60}na{\kf349}tu
+Dialogue: 0,0:00:00.00,0:00:02.20,Sample KM [Up],,0,0,0,fx,{\k0\fad(0,200)}
