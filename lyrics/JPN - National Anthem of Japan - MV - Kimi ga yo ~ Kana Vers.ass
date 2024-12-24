@@ -1,0 +1,74 @@
+﻿[Script Info]
+Title: Kimi ga yo
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 0
+PlayResY: 0
+Original Timing: Gopa-san
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up]-furigana,Arial,12,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,8,0,0,20,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template syl furi all,!retime("line",$lstart < 900 and -$lstart or -900,200)!{\fade(!$lstart < 900 and $lstart or 300!,200)\an5\pos(!line.left+syl.center!,!$middle+offset()!)\k!$start/10+($lstart < 900 and $lstart or 900)/10!\!syl.tag!$skdur}
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,code once,lineOffset=60 -- vertical offset between lines with different vertical margins value
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,code once,function offset() return _G.tonumber(line.margin_t)*lineOffset end
+Comment: 0,0:00:11.26,0:00:20.22,Sample KM [Up],,0,0,0,karaoke,{\k107}君|き{\k118}#|み{\k207}が{\k240}代|よ{\k224}は
+Comment: 0,0:00:20.76,0:00:29.91,Sample KM [Up],,0,0,1,karaoke,{\k107}千|ち{\k122}代|よ{\k238}に{\k116}八|や{\k118}千|ち{\k119}代|よ{\k95}に
+Comment: 0,0:00:30.22,0:00:39.72,Sample KM [Up],,0,0,0,karaoke,{\k130}さ{\k122}ざ{\k252}れ{\k123}石|い{\k131}#|し{\k192}の
+Comment: 0,0:00:40.51,0:00:49.29,Sample KM [Up],,0,0,1,karaoke,{\k102}巖|<い{\k112}#|は{\k122}#|ほ{\k125}と{\k193}な{\k60}り{\k164}て
+Comment: 0,0:00:49.93,0:01:05.20,Sample KM [Up],,0,0,0,karaoke,{\k143}苔|こ{\k111}#|け{\k276}の{\k244}生|む{\k251}す{\k320}迄|ま{\k182}#|で
+Dialogue: 0,0:00:10.36,0:00:20.42,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(157.18980169972,32)\k90\0}
+Dialogue: 0,0:00:10.36,0:00:20.42,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(165.89235127479,32)\k90\\k225}君
+Dialogue: 0,0:00:10.36,0:00:20.42,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(183.29745042493,32)\k315\\k207}が
+Dialogue: 0,0:00:10.36,0:00:20.42,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(200.70254957507,32)\k522\\k240}代
+Dialogue: 0,0:00:10.36,0:00:20.42,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(218.10764872521,32)\k762\\k224}は
+Dialogue: 0,0:00:10.36,0:00:20.42,Sample KM [Up]-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(161.54107648725,14)\k90\\k107}き
+Dialogue: 0,0:00:10.36,0:00:20.42,Sample KM [Up]-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(170.24362606232,14)\k197\\k118}み
+Dialogue: 0,0:00:10.36,0:00:20.42,Sample KM [Up]-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(200.70254957507,14)\k522\\k240}よ
+Dialogue: 0,0:00:19.86,0:00:30.11,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(131.0821529745,73)\k90\0}
+Dialogue: 0,0:00:19.86,0:00:30.11,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(139.78470254958,73)\k90\\k107}千
+Dialogue: 0,0:00:19.86,0:00:30.11,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(157.18980169972,73)\k197\\k122}代
+Dialogue: 0,0:00:19.86,0:00:30.11,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(174.59490084986,73)\k319\\k238}に
+Dialogue: 0,0:00:19.86,0:00:30.11,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(192,73)\k557\\k116}八
+Dialogue: 0,0:00:19.86,0:00:30.11,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(209.40509915014,73)\k673\\k118}千
+Dialogue: 0,0:00:19.86,0:00:30.11,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(226.81019830028,73)\k791\\k119}代
+Dialogue: 0,0:00:19.86,0:00:30.11,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(244.21529745042,73)\k910\\k95}に
+Dialogue: 0,0:00:19.86,0:00:30.11,Sample KM [Up]-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(144.13597733711,55)\k90\\k107}ち
+Dialogue: 0,0:00:19.86,0:00:30.11,Sample KM [Up]-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(152.83852691218,55)\k197\\k122}よ
+Dialogue: 0,0:00:19.86,0:00:30.11,Sample KM [Up]-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(200.70254957507,55)\k557\\k116}や
+Dialogue: 0,0:00:19.86,0:00:30.11,Sample KM [Up]-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(209.40509915014,55)\k673\\k118}ち
+Dialogue: 0,0:00:19.86,0:00:30.11,Sample KM [Up]-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(218.10764872521,55)\k791\\k119}よ
+Dialogue: 0,0:00:29.32,0:00:39.92,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(148.48725212465,32)\k90\0}
+Dialogue: 0,0:00:29.32,0:00:39.92,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(157.18980169972,32)\k90\\k130}さ
+Dialogue: 0,0:00:29.32,0:00:39.92,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(174.59490084986,32)\k220\\k122}ざ
+Dialogue: 0,0:00:29.32,0:00:39.92,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(192,32)\k342\\k252}れ
+Dialogue: 0,0:00:29.32,0:00:39.92,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(209.40509915014,32)\k594\\k254}石
+Dialogue: 0,0:00:29.32,0:00:39.92,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(226.81019830028,32)\k848\\k192}の
+Dialogue: 0,0:00:29.32,0:00:39.92,Sample KM [Up]-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(205.05382436261,14)\k594\\k123}い
+Dialogue: 0,0:00:29.32,0:00:39.92,Sample KM [Up]-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(213.75637393768,14)\k717\\k131}し
+Dialogue: 0,0:00:39.61,0:00:49.49,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(148.48725212465,73)\k90\0}
+Dialogue: 0,0:00:39.61,0:00:49.49,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(157.18980169972,73)\k90\\k336}巖
+Dialogue: 0,0:00:39.61,0:00:49.49,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(174.59490084986,73)\k426\\k125}と
+Dialogue: 0,0:00:39.61,0:00:49.49,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(192,73)\k551\\k193}な
+Dialogue: 0,0:00:39.61,0:00:49.49,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(209.40509915014,73)\k744\\k60}り
+Dialogue: 0,0:00:39.61,0:00:49.49,Sample KM [Up],,0,0,1,fx,{\fade(300,200)\an5\pos(226.81019830028,73)\k804\\k164}て
+Dialogue: 0,0:00:39.61,0:00:49.49,Sample KM [Up]-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(148.48725212465,55)\k90\\k102}い
+Dialogue: 0,0:00:39.61,0:00:49.49,Sample KM [Up]-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(157.18980169972,55)\k192\\k112}は
+Dialogue: 0,0:00:39.61,0:00:49.49,Sample KM [Up]-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(165.89235127479,55)\k304\\k122}ほ
+Dialogue: 0,0:00:49.03,0:01:05.40,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(148.48725212465,32)\k90\0}
+Dialogue: 0,0:00:49.03,0:01:05.40,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(157.18980169972,32)\k90\\k254}苔
+Dialogue: 0,0:00:49.03,0:01:05.40,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(174.59490084986,32)\k344\\k276}の
+Dialogue: 0,0:00:49.03,0:01:05.40,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(192,32)\k620\\k244}生
+Dialogue: 0,0:00:49.03,0:01:05.40,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(209.40509915014,32)\k864\\k251}す
+Dialogue: 0,0:00:49.03,0:01:05.40,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(226.81019830028,32)\k1115\\k502}迄
+Dialogue: 0,0:00:49.03,0:01:05.40,Sample KM [Up]-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(152.83852691218,14)\k90\\k143}こ
+Dialogue: 0,0:00:49.03,0:01:05.40,Sample KM [Up]-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(161.54107648725,14)\k233\\k111}け
+Dialogue: 0,0:00:49.03,0:01:05.40,Sample KM [Up]-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(192,14)\k620\\k244}む
+Dialogue: 0,0:00:49.03,0:01:05.40,Sample KM [Up]-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(222.45892351275,14)\k1115\\k320}ま
+Dialogue: 0,0:00:49.03,0:01:05.40,Sample KM [Up]-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(231.16147308782,14)\k1435\\k182}で
