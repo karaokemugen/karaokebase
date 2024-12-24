@@ -1,0 +1,143 @@
+﻿[Script Info]
+Title: 4eVR
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: MetaSonicX
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Choir] - Voices X,Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Trio [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Trio [Voice 2],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Trio [Voice 3],Arial,24,&H00FFFFFF,&H0066EF22,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir] - Voice 1,Arial,24,&H000088EF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Choir] - Voice 2,Arial,24,&H00FF843C,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Choir] - Voice 3,Arial,24,&H0066EF22,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Trio [Voice 1&3],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Trio [Voice 1],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:05.00,0:00:08.11,Sample KM Trio [Voice 1],mpi,0,0,0,karaoke,{\k21}It {\k46}gets {\k22}dar{\k37}ker {\k36}the {\k19}dee{\k24}per {\k24}you {\k82}go
+Comment: 0,0:00:08.68,0:00:11.40,Sample KM Trio [Voice 1],mpi,0,0,0,karaoke,{\k18}The {\k20}pres{\k29}sure {\k47}builds, {\k27}it’s {\k17}in{\k23}cre{\k23}di{\k68}ble
+Comment: 0,0:00:12.33,0:00:15.37,Sample KM Trio [Voice 1],mpi,0,0,0,karaoke,{\k18}Now {\k33}or {\k25}ne{\k21}ver {\k61}so {\k20}un{\k20}lock {\k17}the {\k23}po{\k66}wer
+Comment: 0,0:00:15.70,0:00:17.09,Sample KM Trio [Voice 1],mpi,0,0,0,karaoke,{\k26}Tel{\k24}ling {\k24}you {\k18}to {\k47}quit
+Comment: 0,0:00:17.09,0:00:18.83,Sample KM Trio [Voice 1],mpi,0,0,0,karaoke,{\k31}But {\k20}you’re {\k44}not {\k24}rea{\k55}dy
+Comment: 0,0:00:19.18,0:00:22.46,Sample KM Trio [Voice 2],Laco,0,0,0,karaoke,{\k23}There’s {\k46}not {\k25}gon{\k23}na {\k71}be {\k21}a {\k67}next {\k52}time
+Comment: 0,0:00:22.71,0:00:26.08,Sample KM Trio [Voice 2],Laco,0,0,0,karaoke,{\k29}You {\k50}don’t {\k28}get {\k17}to {\k75}press {\k13}the {\k68}re{\k57}wind
+Comment: 0,0:00:26.08,0:00:29.63,Sample KM Trio [Voice 2],Laco,0,0,0,karaoke,{\k11}The {\k51}fight{\k12}a{\k15}ho{\k23}lic {\k20}got{\k26}ta {\k24}find {\k25}a{\k21}no{\k20}ther {\k24}point {\k16}of {\k67}view
+Comment: 0,0:00:29.63,0:00:30.92,Sample KM Trio [Voice 2],Laco,0,0,0,karaoke,{\k17}Not {\k40}hy{\k22}per{\k22}bo{\k28}lic
+Comment: 0,0:00:30.92,0:00:33.17,Sample KM Trio [Voice 2],Laco,0,0,0,karaoke,{\k18}They {\k25}just {\k15}wan{\k20}na {\k54}call {\k26}out {\k15}to {\k52}you
+Comment: 0,0:00:33.55,0:00:37.39,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\k28}Don’t {\k23}for{\k28}get {\k17}you {\k19}got{\k16}ta {\k79}save {\k19}hu{\k76}ma{\k22}ni{\k57}ty
+Comment: 0,0:00:37.39,0:00:39.18,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\k27}Your {\k75}fa{\k23}mi{\k54}ly
+Comment: 0,0:00:39.51,0:00:42.31,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\k50}For{\k23}ward {\k19}un{\k74}til {\k21}you {\kf93}die
+Comment: 0,0:00:42.75,0:00:45.90,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\k41}My {\k75}dra{\k17}gon{\kf182}fly
+Comment: 0,0:00:47.10,0:00:52.69,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\k19}To {\k19}the {\kf521}top
+Comment: 0,0:00:48.80,0:00:52.69,Sample KM [Choir] - Voice 1,mpi,0,0,0,karaoke,{\k84}(Get {\k101}to {\k75}the {\kf129}top)
+Comment: 0,0:00:52.82,0:00:56.60,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\k21}Of {\k25}this {\k28}moun{\k19}tain {\k25}gon{\k15}na {\k56}see {\k17}fo{\k23}re{\kf149}ver
+Comment: 0,0:00:55.60,0:00:59.99,Sample KM [Choir] - Voice 2,Laco,0,0,0,karaoke,{\k86}(To {\kf181}the {\kf172}top)
+Comment: 0,0:00:56.46,0:00:59.99,Sample KM [Choir] - Voice 3,Benjamin,0,0,0,karaoke,{\kf181}(The {\kf172}top)
+Comment: 0,0:00:59.99,0:01:04.40,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\k39}True {\k21}po{\k23}ten{\k28}tial {\k16}it {\k24}can {\k22}ne{\k26}ver {\k22}be {\k21}te{\kf199}thered
+Comment: 0,0:01:02.73,0:01:06.83,Sample KM Trio [Voice 2],Laco,0,0,0,karaoke,{\k43}But {\k20}you {\k28}gon{\k23}na {\k63}burn, {\k45}but {\k22}you {\k29}gon{\k19}na {\kf118}burn
+Comment: 0,0:01:07.54,0:01:09.30,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\k17}But {\k20}you {\k21}gon{\k28}na {\k17}burn{\k22} so{\k51} bright
+Comment: 0,0:01:09.30,0:01:11.11,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\k27}You’ll {\kf154}burn
+Comment: 0,0:01:10.01,0:01:14.00,Sample KM [Choir] - Voice 2,Laco,0,0,0,karaoke,{\k50}(Ta{\k20}bles {\k25}gon{\k14}na {\k78}turn, {\k36}ta{\k28}bles {\k19}gon{\k29}na {\k100}turn)
+Comment: 0,0:01:11.21,0:01:13.50,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\kf229}Turn
+Comment: 0,0:01:14.80,0:01:18.18,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\k31}Now {\k17}let’s {\k27}see {\k21}how {\k28}bright {\k17}you’re {\k43}gon{\k16}na {\kf138}burn
+Comment: 0,0:01:19.60,0:01:22.85,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\k28}You’re {\k42}not {\k28}gon{\k22}na {\k70}meet {\k22}the {\k65}dead{\k48}line
+Comment: 0,0:01:23.30,0:01:26.48,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\k24}Keep {\k48}join{\k23}ing {\k20}the {\k74}dots {\k19}so {\k62}we {\k48}find
+Comment: 0,0:01:26.48,0:01:29.98,Sample KM Trio [Voice 1],mpi,0,0,0,karaoke,{\k20}The {\k32}fight{\k33}a{\k16}ho{\k16}lic {\k21}got{\k17}ta {\k32}find {\k20}a{\k26}no{\k20}ther {\k28}point {\k21}of {\k48}view
+Comment: 0,0:01:30.17,0:01:31.32,Sample KM Trio [Voice 1],mpi,0,0,0,karaoke,{\k19}Not {\k19}hy{\k17}per{\k31}bo{\k29}lic
+Comment: 0,0:01:31.32,0:01:33.78,Sample KM Trio [Voice 1],mpi,0,0,0,karaoke,{\k24}They {\k20}just {\k20}wan{\k23}na {\k52}call {\k24}out {\k16}to {\k67}you
+Comment: 0,0:01:34.19,0:01:37.82,Sample KM Trio [Voice 2],Laco,0,0,0,karaoke,{\k12}Don’t {\k20}for{\k29}get {\k19}you {\k20}got{\k15}ta {\k66}save {\k20}hu{\k69}ma{\k29}ni{\k64}ty
+Comment: 0,0:01:38.03,0:01:39.57,Sample KM Trio [Voice 2],Laco,0,0,0,karaoke,{\k17}Your {\k68}fa{\k22}mi{\k47}ly
+Comment: 0,0:01:39.95,0:01:42.83,Sample KM Trio [Voice 2],Laco,0,0,0,karaoke,{\k41}For{\k35}ward {\k19}un{\k72}til {\k19}you {\kf102}die
+Comment: 0,0:01:43.12,0:01:46.71,Sample KM Trio [Voice 2],Laco,0,0,0,karaoke,{\k44}My {\k67}dra{\k34}gon{\kf214}fly
+Comment: 0,0:01:47.62,0:01:53.25,Sample KM Trio [Voice 2],Laco,0,0,0,karaoke,{\k19}To {\k16}the {\kf528}top
+Comment: 0,0:01:49.22,0:01:53.25,Sample KM [Choir] - Voice 3,Benjamin,0,0,0,karaoke,{\k83}(Get {\k96}to {\k89}the {\kf135}top)
+Comment: 0,0:01:53.21,0:01:57.00,Sample KM Trio [Voice 2],Laco,0,0,0,karaoke,{\k29}Of {\k26}this {\k25}moun{\k19}tain {\k25}gon{\k10}na {\k57}see {\k25}fo{\k25}re{\kf138}ver
+Comment: 0,0:01:56.88,0:02:00.43,Sample KM [Choir] - Voice 3,Benjamin,0,0,0,karaoke,{\k52}(To {\kf141}the {\kf162}top)
+Comment: 0,0:01:57.01,0:02:00.43,Sample KM [Choir] - Voice 1,mpi,0,0,0,karaoke,{\kf190}(The {\kf152}top)
+Comment: 0,0:02:00.55,0:02:04.47,Sample KM Trio [Voice 2],Laco,0,0,0,karaoke,{\k35}True {\k14}po{\k21}ten{\k30}tial {\k15}it {\k31}can {\k23}ne{\k26}ver {\k20}be {\k18}te{\kf159}thered
+Comment: 0,0:02:03.20,0:02:04.81,Sample KM [Choir] - Voices X,Benjamin & mpi,0,0,0,karaoke,{\k44}(But {\k22}you {\k16}gon{\k28}na {\k51}burn)
+Comment: 0,0:02:05.06,0:02:07.14,Sample KM Trio [Voice 1&3],Benjamin & mpi,0,0,0,karaoke,{\k34}But {\k30}you {\k20}gon{\k24}na {\k100}burn
+Comment: 0,0:02:07.98,0:02:09.78,Sample KM Trio [Voice 2],Laco,0,0,0,karaoke,{\k20}But {\k22}you {\k20}gon{\k19}na {\k26}burn {\k28}so {\k45}bright
+Comment: 0,0:02:09.78,0:02:10.50,Sample KM Trio [Voice 2],Laco,0,0,0,karaoke,{\k22}You’ll {\k50}burn
+Comment: 0,0:02:10.61,0:02:14.65,Sample KM [Choir] - Voices X,Benjamin & mpi,0,0,0,karaoke,{\k28}(Ta{\k31}bles {\k22}gon{\k16}na {\k72}turn, {\k37}ta{\k33}bles {\k21}gon{\k26}na {\k118}turn)
+Comment: 0,0:02:11.57,0:02:14.65,Sample KM Trio [Voice 2],Laco,0,0,0,karaoke,{\kf308}Turn
+Comment: 0,0:02:16.99,0:02:22.35,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\k12}To {\k19}the {\kf505}top
+Comment: 0,0:02:18.52,0:02:22.35,Sample KM [Choir] - Voice 1,mpi,0,0,0,karaoke,{\k89}(Get {\k98}to {\k85}the {\kf111}top)
+Comment: 0,0:02:22.62,0:02:26.10,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\k31}Of {\k17}this {\k19}moun{\k22}tain {\k19}gon{\k14}na {\k56}see {\k21}fo{\k30}re{\kf119}ver
+Comment: 0,0:02:25.36,0:02:29.75,Sample KM [Choir] - Voice 2,Laco,0,0,0,karaoke,{\k87}(To {\kf185}the {\kf167}top)
+Comment: 0,0:02:26.20,0:02:29.75,Sample KM [Choir] - Voice 1,mpi,0,0,0,karaoke,{\kf188}(The {\kf167}top)
+Comment: 0,0:02:29.88,0:02:34.09,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\k32}True {\k15}po{\k29}ten{\k26}tial {\k16}it {\k24}can {\k21}ne{\k27}ver {\k19}be {\k25}te{\kf187}thered
+Comment: 0,0:02:32.52,0:02:34.09,Sample KM [Choir] - Voice 2,Laco,0,0,0,karaoke,{\k32}(But {\k32}you’re {\k19}gon{\k26}na {\k48}burn)
+Comment: 0,0:02:34.22,0:02:36.44,Sample KM Trio [Voice 2],Laco,0,0,0,karaoke,{\k47}But {\k31}you’re {\k18}gon{\k27}na {\k99}burn
+Comment: 0,0:02:37.34,0:02:39.11,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\k17}But {\k23}you {\k15}gon{\k21}na {\k27}burn {\k30}so {\k53}bright
+Comment: 0,0:02:39.11,0:02:40.60,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\k22}You’ll {\k127}burn
+Comment: 0,0:02:39.77,0:02:43.75,Sample KM Trio [Voice 2],Laco,0,0,0,karaoke,{\k49}(Ta{\k21}bles {\k21}gon{\k22}na {\k70}turn, {\k51}ta{\k23}bles {\k16}gon{\k24}na {\k101}turn)
+Comment: 0,0:02:40.89,0:02:43.75,Sample KM [Choir] - Voice 3,Benjamin,0,0,0,karaoke,{\kf286}Turn
+Comment: 0,0:02:44.56,0:02:47.81,Sample KM Trio [Voice 3],Benjamin,0,0,0,karaoke,{\k28}Now {\k21}let’s {\k24}see {\k22}how {\k26}bright {\k21}you’re {\k42}gon{\k19}na {\k122}burn
+Dialogue: 0,0:00:04.10,0:00:08.31,Sample KM Trio [Voice 1],mpi,0,0,0,fx,{\k90\fad(300,200)}{\k21}It {\k46}gets {\k22}dar{\k37}ker {\k36}the {\k19}dee{\k24}per {\k24}you {\k82}go
+Dialogue: 0,0:00:07.78,0:00:11.60,Sample KM Trio [Voice 1],mpi,0,0,0,fx,{\k90\fad(300,200)}{\k18}The {\k20}pres{\k29}sure {\k47}builds, {\k27}it’s {\k17}in{\k23}cre{\k23}di{\k68}ble
+Dialogue: 0,0:00:11.43,0:00:15.57,Sample KM Trio [Voice 1],mpi,0,0,0,fx,{\k90\fad(300,200)}{\k18}Now {\k33}or {\k25}ne{\k21}ver {\k61}so {\k20}un{\k20}lock {\k17}the {\k23}po{\k66}wer
+Dialogue: 0,0:00:14.80,0:00:17.29,Sample KM Trio [Voice 1],mpi,0,0,0,fx,{\k90\fad(300,200)}{\k26}Tel{\k24}ling {\k24}you {\k18}to {\k47}quit
+Dialogue: 0,0:00:16.19,0:00:19.03,Sample KM Trio [Voice 1],mpi,0,0,0,fx,{\k90\fad(300,200)}{\k31}But {\k20}you’re {\k44}not {\k24}rea{\k55}dy
+Dialogue: 0,0:00:18.28,0:00:22.66,Sample KM Trio [Voice 2],Laco,0,0,0,fx,{\k90\fad(300,200)}{\k23}There’s {\k46}not {\k25}gon{\k23}na {\k71}be {\k21}a {\k67}next {\k52}time
+Dialogue: 0,0:00:21.81,0:00:26.28,Sample KM Trio [Voice 2],Laco,0,0,0,fx,{\k90\fad(300,200)}{\k29}You {\k50}don’t {\k28}get {\k17}to {\k75}press {\k13}the {\k68}re{\k57}wind
+Dialogue: 0,0:00:25.18,0:00:29.83,Sample KM Trio [Voice 2],Laco,0,0,0,fx,{\k90\fad(300,200)}{\k11}The {\k51}fight{\k12}a{\k15}ho{\k23}lic {\k20}got{\k26}ta {\k24}find {\k25}a{\k21}no{\k20}ther {\k24}point {\k16}of {\k67}view
+Dialogue: 0,0:00:28.73,0:00:31.12,Sample KM Trio [Voice 2],Laco,0,0,0,fx,{\k90\fad(300,200)}{\k17}Not {\k40}hy{\k22}per{\k22}bo{\k28}lic
+Dialogue: 0,0:00:30.02,0:00:33.37,Sample KM Trio [Voice 2],Laco,0,0,0,fx,{\k90\fad(300,200)}{\k18}They {\k25}just {\k15}wan{\k20}na {\k54}call {\k26}out {\k15}to {\k52}you
+Dialogue: 0,0:00:32.65,0:00:37.59,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k28}Don’t {\k23}for{\k28}get {\k17}you {\k19}got{\k16}ta {\k79}save {\k19}hu{\k76}ma{\k22}ni{\k57}ty
+Dialogue: 0,0:00:36.49,0:00:39.38,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k27}Your {\k75}fa{\k23}mi{\k54}ly
+Dialogue: 0,0:00:38.61,0:00:42.51,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k50}For{\k23}ward {\k19}un{\k74}til {\k21}you {\kf93}die
+Dialogue: 0,0:00:41.85,0:00:46.10,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k41}My {\k75}dra{\k17}gon{\kf182}fly
+Dialogue: 0,0:00:46.20,0:00:52.89,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k19}To {\k19}the {\kf521}top
+Dialogue: 0,0:00:47.90,0:00:52.89,Sample KM [Choir] - Voice 1,mpi,0,0,0,fx,{\k90\fad(300,200)}{\k84}(Get {\k101}to {\k75}the {\kf129}top)
+Dialogue: 0,0:00:51.92,0:00:56.80,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k21}Of {\k25}this {\k28}moun{\k19}tain {\k25}gon{\k15}na {\k56}see {\k17}fo{\k23}re{\kf149}ver
+Dialogue: 0,0:00:54.70,0:01:00.19,Sample KM [Choir] - Voice 2,Laco,0,0,0,fx,{\k90\fad(300,200)}{\k86}(To {\kf181}the {\kf172}top)
+Dialogue: 0,0:00:55.56,0:01:00.19,Sample KM [Choir] - Voice 3,Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\kf181}(The {\kf172}top)
+Dialogue: 0,0:00:59.09,0:01:04.60,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k39}True {\k21}po{\k23}ten{\k28}tial {\k16}it {\k24}can {\k22}ne{\k26}ver {\k22}be {\k21}te{\kf199}thered
+Dialogue: 0,0:01:01.83,0:01:07.03,Sample KM Trio [Voice 2],Laco,0,0,0,fx,{\k90\fad(300,200)}{\k43}But {\k20}you {\k28}gon{\k23}na {\k63}burn, {\k45}but {\k22}you {\k29}gon{\k19}na {\kf118}burn
+Dialogue: 0,0:01:06.64,0:01:09.50,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k17}But {\k20}you {\k21}gon{\k28}na {\k17}burn{\k22} so{\k51} bright
+Dialogue: 0,0:01:08.40,0:01:11.31,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k27}You’ll {\kf154}burn
+Dialogue: 0,0:01:09.11,0:01:14.20,Sample KM [Choir] - Voice 2,Laco,0,0,0,fx,{\k90\fad(300,200)}{\k50}(Ta{\k20}bles {\k25}gon{\k14}na {\k78}turn, {\k36}ta{\k28}bles {\k19}gon{\k29}na {\k100}turn)
+Dialogue: 0,0:01:10.31,0:01:13.70,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\kf229}Turn
+Dialogue: 0,0:01:13.90,0:01:18.38,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k31}Now {\k17}let’s {\k27}see {\k21}how {\k28}bright {\k17}you’re {\k43}gon{\k16}na {\kf138}burn
+Dialogue: 0,0:01:18.70,0:01:23.05,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k28}You’re {\k42}not {\k28}gon{\k22}na {\k70}meet {\k22}the {\k65}dead{\k48}line
+Dialogue: 0,0:01:22.40,0:01:26.68,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k24}Keep {\k48}join{\k23}ing {\k20}the {\k74}dots {\k19}so {\k62}we {\k48}find
+Dialogue: 0,0:01:25.58,0:01:30.18,Sample KM Trio [Voice 1],mpi,0,0,0,fx,{\k90\fad(300,200)}{\k20}The {\k32}fight{\k33}a{\k16}ho{\k16}lic {\k21}got{\k17}ta {\k32}find {\k20}a{\k26}no{\k20}ther {\k28}point {\k21}of {\k48}view
+Dialogue: 0,0:01:29.27,0:01:31.52,Sample KM Trio [Voice 1],mpi,0,0,0,fx,{\k90\fad(300,200)}{\k19}Not {\k19}hy{\k17}per{\k31}bo{\k29}lic
+Dialogue: 0,0:01:30.42,0:01:33.98,Sample KM Trio [Voice 1],mpi,0,0,0,fx,{\k90\fad(300,200)}{\k24}They {\k20}just {\k20}wan{\k23}na {\k52}call {\k24}out {\k16}to {\k67}you
+Dialogue: 0,0:01:33.29,0:01:38.02,Sample KM Trio [Voice 2],Laco,0,0,0,fx,{\k90\fad(300,200)}{\k12}Don’t {\k20}for{\k29}get {\k19}you {\k20}got{\k15}ta {\k66}save {\k20}hu{\k69}ma{\k29}ni{\k64}ty
+Dialogue: 0,0:01:37.13,0:01:39.77,Sample KM Trio [Voice 2],Laco,0,0,0,fx,{\k90\fad(300,200)}{\k17}Your {\k68}fa{\k22}mi{\k47}ly
+Dialogue: 0,0:01:39.05,0:01:43.03,Sample KM Trio [Voice 2],Laco,0,0,0,fx,{\k90\fad(300,200)}{\k41}For{\k35}ward {\k19}un{\k72}til {\k19}you {\kf102}die
+Dialogue: 0,0:01:42.22,0:01:46.91,Sample KM Trio [Voice 2],Laco,0,0,0,fx,{\k90\fad(300,200)}{\k44}My {\k67}dra{\k34}gon{\kf214}fly
+Dialogue: 0,0:01:46.72,0:01:53.45,Sample KM Trio [Voice 2],Laco,0,0,0,fx,{\k90\fad(300,200)}{\k19}To {\k16}the {\kf528}top
+Dialogue: 0,0:01:48.32,0:01:53.45,Sample KM [Choir] - Voice 3,Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k83}(Get {\k96}to {\k89}the {\kf135}top)
+Dialogue: 0,0:01:52.31,0:01:57.20,Sample KM Trio [Voice 2],Laco,0,0,0,fx,{\k90\fad(300,200)}{\k29}Of {\k26}this {\k25}moun{\k19}tain {\k25}gon{\k10}na {\k57}see {\k25}fo{\k25}re{\kf138}ver
+Dialogue: 0,0:01:55.98,0:02:00.63,Sample KM [Choir] - Voice 3,Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k52}(To {\kf141}the {\kf162}top)
+Dialogue: 0,0:01:56.11,0:02:00.63,Sample KM [Choir] - Voice 1,mpi,0,0,0,fx,{\k90\fad(300,200)}{\kf190}(The {\kf152}top)
+Dialogue: 0,0:01:59.65,0:02:04.67,Sample KM Trio [Voice 2],Laco,0,0,0,fx,{\k90\fad(300,200)}{\k35}True {\k14}po{\k21}ten{\k30}tial {\k15}it {\k31}can {\k23}ne{\k26}ver {\k20}be {\k18}te{\kf159}thered
+Dialogue: 0,0:02:02.30,0:02:05.01,Sample KM [Choir] - Voices X,Benjamin & mpi,0,0,0,fx,{\k90\fad(300,200)}{\k44}(But {\k22}you {\k16}gon{\k28}na {\k51}burn)
+Dialogue: 0,0:02:04.16,0:02:07.34,Sample KM Trio [Voice 1&3],Benjamin & mpi,0,0,0,fx,{\k90\fad(300,200)}{\k34}But {\k30}you {\k20}gon{\k24}na {\k100}burn
+Dialogue: 0,0:02:07.08,0:02:09.98,Sample KM Trio [Voice 2],Laco,0,0,0,fx,{\k90\fad(300,200)}{\k20}But {\k22}you {\k20}gon{\k19}na {\k26}burn {\k28}so {\k45}bright
+Dialogue: 0,0:02:08.88,0:02:10.70,Sample KM Trio [Voice 2],Laco,0,0,0,fx,{\k90\fad(300,200)}{\k22}You’ll {\k50}burn
+Dialogue: 0,0:02:09.71,0:02:14.85,Sample KM [Choir] - Voices X,Benjamin & mpi,0,0,0,fx,{\k90\fad(300,200)}{\k28}(Ta{\k31}bles {\k22}gon{\k16}na {\k72}turn, {\k37}ta{\k33}bles {\k21}gon{\k26}na {\k118}turn)
+Dialogue: 0,0:02:10.67,0:02:14.85,Sample KM Trio [Voice 2],Laco,0,0,0,fx,{\k90\fad(300,200)}{\kf308}Turn
+Dialogue: 0,0:02:16.09,0:02:22.55,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k12}To {\k19}the {\kf505}top
+Dialogue: 0,0:02:17.62,0:02:22.55,Sample KM [Choir] - Voice 1,mpi,0,0,0,fx,{\k90\fad(300,200)}{\k89}(Get {\k98}to {\k85}the {\kf111}top)
+Dialogue: 0,0:02:21.72,0:02:26.30,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k31}Of {\k17}this {\k19}moun{\k22}tain {\k19}gon{\k14}na {\k56}see {\k21}fo{\k30}re{\kf119}ver
+Dialogue: 0,0:02:24.46,0:02:29.95,Sample KM [Choir] - Voice 2,Laco,0,0,0,fx,{\k90\fad(300,200)}{\k87}(To {\kf185}the {\kf167}top)
+Dialogue: 0,0:02:25.30,0:02:29.95,Sample KM [Choir] - Voice 1,mpi,0,0,0,fx,{\k90\fad(300,200)}{\kf188}(The {\kf167}top)
+Dialogue: 0,0:02:28.98,0:02:34.29,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k32}True {\k15}po{\k29}ten{\k26}tial {\k16}it {\k24}can {\k21}ne{\k27}ver {\k19}be {\k25}te{\kf187}thered
+Dialogue: 0,0:02:31.62,0:02:34.29,Sample KM [Choir] - Voice 2,Laco,0,0,0,fx,{\k90\fad(300,200)}{\k32}(But {\k32}you’re {\k19}gon{\k26}na {\k48}burn)
+Dialogue: 0,0:02:33.32,0:02:36.64,Sample KM Trio [Voice 2],Laco,0,0,0,fx,{\k90\fad(300,200)}{\k47}But {\k31}you’re {\k18}gon{\k27}na {\k99}burn
+Dialogue: 0,0:02:36.44,0:02:39.31,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k17}But {\k23}you {\k15}gon{\k21}na {\k27}burn {\k30}so {\k53}bright
+Dialogue: 0,0:02:38.21,0:02:40.80,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k22}You’ll {\k127}burn
+Dialogue: 0,0:02:38.87,0:02:43.95,Sample KM Trio [Voice 2],Laco,0,0,0,fx,{\k90\fad(300,200)}{\k49}(Ta{\k21}bles {\k21}gon{\k22}na {\k70}turn, {\k51}ta{\k23}bles {\k16}gon{\k24}na {\k101}turn)
+Dialogue: 0,0:02:39.99,0:02:43.95,Sample KM [Choir] - Voice 3,Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\kf286}Turn
+Dialogue: 0,0:02:43.66,0:02:48.01,Sample KM Trio [Voice 3],Benjamin,0,0,0,fx,{\k90\fad(300,200)}{\k28}Now {\k21}let’s {\k24}see {\k22}how {\k26}bright {\k21}you’re {\k42}gon{\k19}na {\k122}burn
