@@ -1,0 +1,22 @@
+﻿[Script Info]
+Title: Centimeter
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,25,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.43,0:00:03.28,Sample KM [Up],,0,0,0,karaoke,{\k44}san{\k40}juu {\k25}se{\k20}n{\k20}chi {\k19}no {\k22}ka{\k20}ta {\k21}o{\k20}mo{\k34}i
+Comment: 0,0:00:03.55,0:00:06.91,Sample KM [Up],,0,0,0,karaoke,{\k24}to{\k18}do{\k39}ki{\k46}so{\k21}u {\k20}de {\k42}to{\k19}do{\k19}ka{\k42}na{\k22}ku{\k24}te
+Comment: 0,0:00:07.08,0:00:12.99,Sample KM [Up],,0,0,0,karaoke,{\k27}ko{\k15}n{\k21}na {\k20}ni {\k20}chi{\k22}ka{\k21}ku {\k20}ni {\k21}i{\k23}re{\k18}ru {\k22}no {\k58}ni {\k24}tsu{\k21}ka{\k40}me{\k41}na{\k43}ku{\kf114}te
+Dialogue: 0,0:00:00.00,0:00:03.48,Sample KM [Up],,0,0,0,fx,{\k43\fad(430,200)}{\k44}san{\k40}juu {\k25}se{\k20}n{\k20}chi {\k19}no {\k22}ka{\k20}ta {\k21}o{\k20}mo{\k34}i
+Dialogue: 0,0:00:02.65,0:00:07.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}to{\k18}do{\k39}ki{\k46}so{\k21}u {\k20}de {\k42}to{\k19}do{\k19}ka{\k42}na{\k22}ku{\k24}te
+Dialogue: 0,0:00:06.18,0:00:13.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}ko{\k15}n{\k21}na {\k20}ni {\k20}chi{\k22}ka{\k21}ku {\k20}ni {\k21}i{\k23}re{\k18}ru {\k22}no {\k58}ni {\k24}tsu{\k21}ka{\k40}me{\k41}na{\k43}ku{\kf114}te
