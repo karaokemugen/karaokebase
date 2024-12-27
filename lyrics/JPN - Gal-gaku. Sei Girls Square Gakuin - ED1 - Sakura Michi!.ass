@@ -1,0 +1,36 @@
+﻿[Script Info]
+Title: Sakura Michi!
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: duo,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Yuzuha,Arial,24,&H00FFFFFF,&H00B2F663,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Ran,Arial,24,&H00FFFFFF,&H002AF8DE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,duo,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.39,0:00:06.59,duo,,0,0,0,karaoke,{\k39}sa{\k39}ku{\k36}ra {\k34}sa{\kf81}ku{\k28} {\k38}ta{\k38}bi{\k35}da{\k37}tsu {\k38}mi{\kf77}chi
+Comment: 0,0:00:06.90,0:00:12.54,Yuzuha,,0,0,0,karaoke,{\k20}na{\k17}mi{\k57}da {\k18}yo{\k35}ri {\k36}e{\k55}ga{\k20}o {\k54}de {\k18}fu{\k35}mi{\k37}shi{\k38}me{\k36}te{\kf88}kou
+Comment: 0,0:00:13.12,0:00:18.32,duo,,0,0,0,karaoke,{\k40}o{\k33}o{\k38}zo{\k35}ra {\kf82}he{\k28} {\k38}ha{\k35}ba{\k38}ta{\k36}ku {\k36}hi {\kf81}ni
+Comment: 0,0:00:18.60,0:00:24.38,Ran,,0,0,0,karaoke,{\k21}ka{\k16}na{\k72}shii {\k55}sa{\k19}yo{\k38}na{\k19}ra {\k73}wa {\k19}i{\k54}wa{\k16}na{\k55}i {\k20}ka{\kf101}ra
+Comment: 0,0:00:24.82,0:00:27.66,Yuzuha,,0,0,0,karaoke,{\k19}so{\k19}re{\k17}zo{\k38}re {\k37}no {\k36}mi{\k18}chi {\k19}ni {\k18}mu{\k37}kat{\k34}te
+Comment: 0,0:00:27.74,0:00:30.36,Ran,,0,0,0,karaoke,{\k21}ka{\k18}ke{\k18}nu{\k37}ke{\k34}ru {\k40}S{\k19}TO{\k16}~{\k59}RY
+Comment: 0,0:00:30.65,0:00:36.23,Yuzuha,,0,0,0,karaoke,{\k22}ka{\k18}ze {\k17}ga {\k37}sot{\k37}to {\k38}u{\k17}go{\k19}ki{\k17}da{\k36}shi{\k37}ta {\rduo}{\k38}yo{\k22}ka{\k32}n {\k18}ga {\k20}su{\kf133}ru
+Comment: 0,0:00:48.07,0:00:53.73,Yuzuha,,0,0,0,karaoke,{\k17}a{\k19}shi{\k18}ta {\k19}wa {\k37}kit{\k39}to {\k17}ha{\k18}ji{\k19}me{\k18}te {\k34}shit{\k36}ta {\k20}ku{\k73}u{\k21}ra{\k14}n {\k17}no {\k20}ko{\k57}ta{\k21}e {\k32}ni
+Comment: 0,0:00:53.93,0:00:57.21,Ran,,0,0,0,karaoke,{\k17}ma{\k28}yo{\k10}i {\k18}na{\k36}ga{\k34}ra {\k22}so{\k18}re{\k16}de{\k19}mo {\k37}hi{\k36}to{\k19}ri {\k18}de...
+Dialogue: 0,0:00:00.49,0:00:06.79,duo,,0,0,0,fx,{\k90\fad(300,200)}{\k39}sa{\k39}ku{\k36}ra {\k34}sa{\kf81}ku{\k28} {\k38}ta{\k38}bi{\k35}da{\k37}tsu {\k38}mi{\kf77}chi
+Dialogue: 0,0:00:06.00,0:00:12.74,Yuzuha,,0,0,0,fx,{\k90\fad(300,200)}{\k20}na{\k17}mi{\k57}da {\k18}yo{\k35}ri {\k36}e{\k55}ga{\k20}o {\k54}de {\k18}fu{\k35}mi{\k37}shi{\k38}me{\k36}te{\kf88}kou
+Dialogue: 0,0:00:12.22,0:00:18.52,duo,,0,0,0,fx,{\k90\fad(300,200)}{\k40}o{\k33}o{\k38}zo{\k35}ra {\kf82}he{\k28} {\k38}ha{\k35}ba{\k38}ta{\k36}ku {\k36}hi {\kf81}ni
+Dialogue: 0,0:00:17.70,0:00:24.58,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ka{\k16}na{\k72}shii {\k55}sa{\k19}yo{\k38}na{\k19}ra {\k73}wa {\k19}i{\k54}wa{\k16}na{\k55}i {\k20}ka{\kf101}ra
+Dialogue: 0,0:00:23.92,0:00:27.86,Yuzuha,,0,0,0,fx,{\k90\fad(300,200)}{\k19}so{\k19}re{\k17}zo{\k38}re {\k37}no {\k36}mi{\k18}chi {\k19}ni {\k18}mu{\k37}kat{\k34}te
+Dialogue: 0,0:00:26.84,0:00:30.56,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ka{\k18}ke{\k18}nu{\k37}ke{\k34}ru {\k40}S{\k19}TO{\k16}~{\k59}RY
+Dialogue: 0,0:00:29.75,0:00:36.43,Yuzuha,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ka{\k18}ze {\k17}ga {\k37}sot{\k37}to {\k38}u{\k17}go{\k19}ki{\k17}da{\k36}shi{\k37}ta {\rduo}{\k38}yo{\k22}ka{\k32}n {\k18}ga {\k20}su{\kf133}ru
+Dialogue: 0,0:00:47.17,0:00:53.93,Yuzuha,,0,0,0,fx,{\k90\fad(300,200)}{\k17}a{\k19}shi{\k18}ta {\k19}wa {\k37}kit{\k39}to {\k17}ha{\k18}ji{\k19}me{\k18}te {\k34}shit{\k36}ta {\k20}ku{\k73}u{\k21}ra{\k14}n {\k17}no {\k20}ko{\k57}ta{\k21}e {\k32}ni
+Dialogue: 0,0:00:53.03,0:00:57.41,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ma{\k28}yo{\k10}i {\k18}na{\k36}ga{\k34}ra {\k22}so{\k18}re{\k16}de{\k19}mo {\k37}hi{\k36}to{\k19}ri {\k18}de...
