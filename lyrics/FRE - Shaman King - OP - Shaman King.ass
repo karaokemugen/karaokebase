@@ -2,30 +2,59 @@
 Title: Shaman King
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 640
-PlayResY: 480
+PlayResX: 0
+PlayResY: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
-Original Timing: Karaoke Mugen
+Original Timing: NikoNikoD
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,32,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,3.3,0,8,8,8,11,1
+Style: Sample KM [Up],Arial,23,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:02.93,0:00:06.21,Default,,10,10,10,karaoke,{\fad(233,100)\k90}{\k7}Ou{\k15}vre {\k35}les {\k39}yeux, {\k27}re{\k19}gar{\k31}de {\k47}bien
-Dialogue: 0,0:00:09.01,0:00:12.69,Default,,10,10,10,karaoke,{\fad(841,100)\k90}{\k7}Le {\k27}monde {\k23}que {\k31}tu {\k35}vois {\k23}n'est {\k19}rien {\k19}qu'une {\k35}i{\k39}mage
-Dialogue: 0,0:00:15.69,0:00:19.05,Default,,10,10,10,karaoke,{\fad(850,100)\k90}{\k3}Tant {\k19}de {\k15}mys{\k35}tères {\k23}ja{\k35}mais {\k23}dé{\k31}voi{\k43}lés
-Dialogue: 0,0:00:21.41,0:00:24.41,Default,,10,10,10,karaoke,{\fad(850,100)\k90}{\k11}Est-{\k19}ce {\k31}donc {\k27}ta {\k35}des{\k19}ti{\k51}née ?
-Dialogue: 0,0:00:27.09,0:00:31.05,Default,,10,10,10,karaoke,{\fad(850,100)\k90}{\k11}D'ê{\k11}tre {\k35}Sha{\k35}man ... {\k67}Sha{\k51}man {\k79}King
-Dialogue: 0,0:00:33.41,0:00:36.45,Default,,10,10,10,karaoke,{\fad(850,100)\k90}{\k11}Oui {\k15}ce {\k35}se{\k35}ra {\k103}toi
-Dialogue: 0,0:00:40.57,0:00:44.73,Default,,10,10,10,karaoke,{\fad(850,100)\k90}{\k11}Tu é{\k19}clai{\k23}re{\k15}ras {\k19}la {\k35}Terre {\k27}d'une {\k23}toute {\k31}au{\k27}tre {\k35}lu{\k39}mière
-Dialogue: 0,0:00:47.01,0:00:49.89,Default,,10,10,10,karaoke,{\fad(850,100)\k90}{\k7}Par {\k15}le {\k35}feu {\k27}et {\k35}par {\k23}le {\k39}fer
-Dialogue: 0,0:00:05.89,0:00:09.53,Default,,10,10,60,karaoke,{\fad(529,100)\k90}{\k7}Tu {\k35}peux {\k39}bon{\k35}dir {\k27}plus {\k19}haut {\k15}et {\k31}plus {\k47}loin
-Dialogue: 0,0:00:12.13,0:00:16.61,Default,,10,10,60,karaoke,{\fad(850,100)\k90}{\k3}E{\k31}coute {\k27}plu{\k43}tot {\k23}{\k19}tes {\k39}rêves {\k23}{\k7}les {\k43}plus {\k43}sau{\k35}vages
-Dialogue: 0,0:00:18.57,0:00:22.17,Default,,10,10,60,karaoke,{\fad(850,100)\k90}{\k27}Tant {\k27}de {\k19}che{\k31}mins {\k27}qu'il {\k31}faut {\k23}e{\k27}xplo{\k39}rer
-Dialogue: 0,0:00:23.81,0:00:27.81,Default,,10,10,60,karaoke,{\fad(850,100)\k90}{\k7}D'ê{\k15}tre {\k35}Sha{\k39}man ... {\k63}Sha{\k59}man {\k75}King
-Dialogue: 0,0:00:30.21,0:00:33.89,Default,,10,10,60,karaoke,{\fad(850,100)\k90}{\k7}Si {\k19}la {\k31}force {\k27}est {\k23}en {\k155}toi
-Dialogue: 0,0:00:44.01,0:00:47.45,Default,,10,10,60,karaoke,{\fad(850,100)\k90}{\k11}Et {\k27}tu {\k27}te {\k35}batt{\k23}ras {\k23}jus{\k31}qu'en {\k23}en{\k35}fer
-Dialogue: 0,0:00:49.33,0:00:55.09,Default,,10,10,60,karaoke,{\fad(850,100)\k90}{\k7}Pour {\k15}ê{\k15}tre {\k35}Sha{\k35}man ... {\k59}Sha{\k55}man {\k247}King
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.62,0:00:06.42,Sample KM [Up],,0,0,0,karaoke,{\k25}Ou{\k33}vre {\k42}les {\k44}yeux, {\k17}re{\k27}gar{\k34}de {\k58}bien
+Comment: 0,0:00:06.84,0:00:09.65,Sample KM [Up],,0,0,0,karaoke,{\k23}Tu {\k38}peux {\k38}bon{\k38}dir {\k21}plus {\k25}haut {\k15}et {\k34}plus {\k49}loin
+Comment: 0,0:00:09.87,0:00:11.42,Sample KM [Up],,0,0,0,karaoke,{\k17}Le {\k43}monde {\k17}que {\k41}tu {\k37}vois
+Comment: 0,0:00:11.42,0:00:12.93,Sample KM [Up],,0,0,0,karaoke,{\k17}n'est {\k26}rien {\k18}qu'une {\k41}i{\k49}mage
+Comment: 0,0:00:13.09,0:00:14.39,Sample KM [Up],,0,0,0,karaoke,{\k15}E{\k32}coute {\k27}plu{\k56}tôt
+Comment: 0,0:00:14.44,0:00:17.76,Sample KM [Up],,0,0,0,karaoke,{\k26}tes {\k49}rêves {\k40}les {\k34}plus {\k48}sau{\kf135}vages
+Comment: 0,0:00:16.41,0:00:19.14,Sample KM [Up],,0,0,0,karaoke,{\k39}Tant {\k19}de {\k22}mys{\k35}tères {\k25}ja{\k39}mais {\k19}dé{\k38}voi{\k37}lés
+Comment: 0,0:00:19.63,0:00:22.30,Sample KM [Up],,0,0,0,karaoke,{\k38}Tant {\k15}de {\k25}che{\k39}mins {\k21}qu'il {\k38}faut {\k22}ex{\k35}plo{\k34}rer
+Comment: 0,0:00:22.41,0:00:24.46,Sample KM [Up],,0,0,0,karaoke,{\k20}Est-{\k20}ce {\k40}donc {\k20}ta {\k40}des{\k18}ti{\k47}née ?
+Comment: 0,0:00:24.77,0:00:26.82,Sample KM [Up],,0,0,0,karaoke,{\k19}D'ê{\k23}tre {\k39}Sha{\k34}man {\k90}King
+Comment: 0,0:00:25.92,0:00:28.00,Sample KM [Choir],,0,0,0,karaoke,{\k74}Sha{\k56}man {\k78}King
+Comment: 0,0:00:28.00,0:00:30.14,Sample KM [Up],,0,0,0,karaoke,{\k20}D'ê{\k18}tre {\k43}Sha{\k38}man {\kf95}King
+Comment: 0,0:00:29.18,0:00:31.36,Sample KM [Choir],,0,0,0,karaoke,{\k72}Sha{\k52}man {\kf94}King
+Comment: 0,0:00:31.04,0:00:33.94,Sample KM [Up],,0,0,0,karaoke,{\k32}Si {\k24}la {\k34}force {\k25}est {\k21}en {\kf154}toi
+Comment: 0,0:00:34.37,0:00:36.31,Sample KM [Up],,0,0,0,karaoke,{\k21}Oui {\k18}ce {\k44}se{\k39}ra {\k72}toi
+Comment: 0,0:00:41.51,0:00:43.00,Sample KM [Up],,0,0,0,karaoke,{\k12}Tu {\k14}é{\k23}clai{\k22}re{\k19}ras {\k21}la {\k38}Terre
+Comment: 0,0:00:43.01,0:00:44.69,Sample KM [Up],,0,0,0,karaoke,{\k20}d'une {\k21}toute {\k39}au{\k19}tre {\k34}lu{\k35}mière
+Comment: 0,0:00:45.01,0:00:47.70,Sample KM [Up],,0,0,0,karaoke,{\k19}Et {\k39}tu {\k20}te {\k20}bat{\k37}tras {\k24}jus{\k36}qu'en {\k21}en{\k53}fer
+Comment: 0,0:00:47.96,0:00:49.95,Sample KM [Up],,0,0,0,karaoke,{\k20}Par {\k19}le {\k43}feu {\k19}et {\k40}par {\k17}le {\k41}fer
+Comment: 0,0:00:50.24,0:00:54.97,Sample KM [Up],,0,0,0,karaoke,{\k16}Pour {\k20}ê{\k19}tre {\k42}Sha{\k32}man {\kf344}King
+Comment: 0,0:00:51.57,0:00:54.97,Sample KM [Choir],,0,0,0,karaoke,{\k68}Sha{\k56}man {\kf216}King
+Dialogue: 0,0:00:02.72,0:00:06.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ou{\k33}vre {\k42}les {\k44}yeux, {\k17}re{\k27}gar{\k34}de {\k58}bien
+Dialogue: 0,0:00:05.94,0:00:09.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Tu {\k38}peux {\k38}bon{\k38}dir {\k21}plus {\k25}haut {\k15}et {\k34}plus {\k49}loin
+Dialogue: 0,0:00:08.97,0:00:11.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Le {\k43}monde {\k17}que {\k41}tu {\k37}vois
+Dialogue: 0,0:00:10.52,0:00:13.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}n'est {\k26}rien {\k18}qu'une {\k41}i{\k49}mage
+Dialogue: 0,0:00:12.19,0:00:14.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}E{\k32}coute {\k27}plu{\k56}tôt
+Dialogue: 0,0:00:13.54,0:00:17.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}tes {\k49}rêves {\k40}les {\k34}plus {\k48}sau{\kf135}vages
+Dialogue: 0,0:00:15.51,0:00:19.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Tant {\k19}de {\k22}mys{\k35}tères {\k25}ja{\k39}mais {\k19}dé{\k38}voi{\k37}lés
+Dialogue: 0,0:00:18.73,0:00:22.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Tant {\k15}de {\k25}che{\k39}mins {\k21}qu'il {\k38}faut {\k22}ex{\k35}plo{\k34}rer
+Dialogue: 0,0:00:21.51,0:00:24.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Est-{\k20}ce {\k40}donc {\k20}ta {\k40}des{\k18}ti{\k47}née ?
+Dialogue: 0,0:00:23.87,0:00:27.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}D'ê{\k23}tre {\k39}Sha{\k34}man {\k90}King
+Dialogue: 0,0:00:25.02,0:00:28.20,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k74}Sha{\k56}man {\k78}King
+Dialogue: 0,0:00:27.10,0:00:30.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}D'ê{\k18}tre {\k43}Sha{\k38}man {\kf95}King
+Dialogue: 0,0:00:28.28,0:00:31.56,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k72}Sha{\k52}man {\kf94}King
+Dialogue: 0,0:00:30.14,0:00:34.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Si {\k24}la {\k34}force {\k25}est {\k21}en {\kf154}toi
+Dialogue: 0,0:00:33.47,0:00:36.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Oui {\k18}ce {\k44}se{\k39}ra {\k72}toi
+Dialogue: 0,0:00:40.61,0:00:43.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Tu {\k14}é{\k23}clai{\k22}re{\k19}ras {\k21}la {\k38}Terre
+Dialogue: 0,0:00:42.11,0:00:44.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}d'une {\k21}toute {\k39}au{\k19}tre {\k34}lu{\k35}mière
+Dialogue: 0,0:00:44.11,0:00:47.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Et {\k39}tu {\k20}te {\k20}bat{\k37}tras {\k24}jus{\k36}qu'en {\k21}en{\k53}fer
+Dialogue: 0,0:00:47.06,0:00:50.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Par {\k19}le {\k43}feu {\k19}et {\k40}par {\k17}le {\k41}fer
+Dialogue: 0,0:00:49.34,0:00:55.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Pour {\k20}ê{\k19}tre {\k42}Sha{\k32}man {\kf344}King
+Dialogue: 0,0:00:50.67,0:00:55.17,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k68}Sha{\k56}man {\kf216}King
