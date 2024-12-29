@@ -1,0 +1,31 @@
+﻿[Script Info]
+Title: Shining You, Shining Me ～夢のチカラで～
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: misaki+kira,Arial,24,&H00FFFFFF,&H00FFE700,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.08,0:00:03.02,Sample KM [Up],,0,0,0,karaoke,{\k25}sa{\k25}re{\k22}te {\k12}mo {\k36}sa{\k23}re{\k22}te {\k22}mo {\k24}ku{\k23}ji{\k22}ke{\k38}nai!
+Comment: 0,0:00:03.32,0:00:06.77,Sample KM [Up],,0,0,0,karaoke,{\k25}SHI{\k22}NING {\k44}YOU! {\k28}SHI{\k22}NING {\k45}ME! {\k23}ta{\k24}shi{\k23}ka{\k24}na {\k20}yu{\k13}me {\k32}ga
+Comment: 0,0:00:07.02,0:00:10.58,Sample KM [Up],,0,0,0,karaoke,{\k26}SHI{\k22}NING {\k43}YOU! {\k27}SHI{\k22}NING {\k48}ME! {\k23}ma{\k20}bu{\k24}shi{\k24}ku {\k22}hi{\k13}ka{\k42}ru
+Comment: 0,0:00:10.94,0:00:12.40,misaki+kira,,0,0,0,karaoke,{\k24}ta{\k24}to{\k22}e {\k22}mi{\k24}ra{\k30}i
+Comment: 0,0:00:12.56,0:00:14.15,misaki+kira,,0,0,0,karaoke,{\k25}ma{\k23}da {\k24}to{\k22}o{\k23}ku{\k10}te {\k32}mo
+Comment: 0,0:00:14.40,0:00:17.64,Sample KM [Up],,0,0,0,karaoke,{\k24}ko{\k24}no {\k22}shu{\k25}n{\k26}ka{\k20}n {\k23}te{\k21}ra{\k47}shi{\kf92}te
+Comment: 0,0:00:18.08,0:00:21.87,Sample KM [Up],,0,0,0,karaoke,{\k27}ki{\k23}ra{\k22}me{\k25}ki {\k23}ga {\k23}o{\k24}do{\k23}ri{\k42}da{\kf147}su
+Dialogue: 0,0:00:00.00,0:00:03.22,Sample KM [Up],,0,0,0,fx,{\k8\fad(80,200)}{\k25}sa{\k25}re{\k22}te {\k12}mo {\k36}sa{\k23}re{\k22}te {\k22}mo {\k24}ku{\k23}ji{\k22}ke{\k38}nai!
+Dialogue: 0,0:00:02.42,0:00:06.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}SHI{\k22}NING {\k44}YOU! {\k28}SHI{\k22}NING {\k45}ME! {\k23}ta{\k24}shi{\k23}ka{\k24}na {\k20}yu{\k13}me {\k32}ga
+Dialogue: 0,0:00:06.12,0:00:10.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}SHI{\k22}NING {\k43}YOU! {\k27}SHI{\k22}NING {\k48}ME! {\k23}ma{\k20}bu{\k24}shi{\k24}ku {\k22}hi{\k13}ka{\k42}ru
+Dialogue: 0,0:00:10.04,0:00:12.60,misaki+kira,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ta{\k24}to{\k22}e {\k22}mi{\k24}ra{\k30}i
+Dialogue: 0,0:00:11.66,0:00:14.35,misaki+kira,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ma{\k23}da {\k24}to{\k22}o{\k23}ku{\k10}te {\k32}mo
+Dialogue: 0,0:00:13.50,0:00:17.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}ko{\k24}no {\k22}shu{\k25}n{\k26}ka{\k20}n {\k23}te{\k21}ra{\k47}shi{\kf92}te
+Dialogue: 0,0:00:17.18,0:00:22.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}ki{\k23}ra{\k22}me{\k25}ki {\k23}ga {\k23}o{\k24}do{\k23}ri{\k42}da{\kf147}su
