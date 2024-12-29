@@ -1,0 +1,27 @@
+﻿[Script Info]
+Title: Holy Magic ~Otona ni Natte mo Tokenai Mahou~
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: group,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Misaki,Arial,24,&H00FFFFFF,&H00A95DFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kira,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Youka,Arial,24,&H00FFFFFF,&H0079FF21,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,group,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.57,0:00:03.84,group,,0,0,0,karaoke,{\k50}HAP{\k47}PY {\k47}MER{\k47}RY {\k69}CHRI{\k27}ST{\k40}MAS
+Comment: 0,0:00:04.14,0:00:07.59,group,,0,0,0,karaoke,{\k23}yu{\k24}ki {\k25}ga {\k23}fu{\k23}ru {\k48}ko{\k47}no {\k72}to{\k23}ki {\k37}ni
+Comment: 0,0:00:07.90,0:00:11.60,Kira,,0,0,0,karaoke,{\k27}o{\k23}to{\k23}na {\k25}ni {\k22}nat{\k22}te {\k50}mo {\rMisaki}{\k23}to{\k25}ke{\k22}na{\k24}i {\k22}ma{\k24}ho{\k38}u
+Comment: 0,0:00:11.70,0:00:16.17,Youka,,0,0,0,karaoke,{\k23}o{\k47}wa{\k25}ra{\k49}na{\k46}i {\k69}yo {\rgroup}{\k50}HO{\k45}LY {\k47}MA{\k46}GIC
+Dialogue: 0,0:00:00.00,0:00:04.04,group,,0,0,0,fx,{\k57\fad(570,200)}{\k50}HAP{\k47}PY {\k47}MER{\k47}RY {\k69}CHRI{\k27}ST{\k40}MAS
+Dialogue: 0,0:00:03.24,0:00:07.79,group,,0,0,0,fx,{\k90\fad(300,200)}{\k23}yu{\k24}ki {\k25}ga {\k23}fu{\k23}ru {\k48}ko{\k47}no {\k72}to{\k23}ki {\k37}ni
+Dialogue: 0,0:00:07.00,0:00:11.80,Kira,,0,0,0,fx,{\k90\fad(300,200)}{\k27}o{\k23}to{\k23}na {\k25}ni {\k22}nat{\k22}te {\k50}mo {\rMisaki}{\k23}to{\k25}ke{\k22}na{\k24}i {\k22}ma{\k24}ho{\k38}u
+Dialogue: 0,0:00:10.80,0:00:16.37,Youka,,0,0,0,fx,{\k90\fad(300,200)}{\k23}o{\k47}wa{\k25}ra{\k49}na{\k46}i {\k69}yo {\rgroup}{\k50}HO{\k45}LY {\k47}MA{\k46}GIC
