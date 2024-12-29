@@ -1,0 +1,28 @@
+﻿[Script Info]
+Title: Arigatou ~Hitokoto Anata ni~
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: duo,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Misaki,Arial,24,&H00FFFFFF,&H00A95DFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kira,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kurea,Arial,24,&H00FFFFFF,&H00FF9221,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Youka,Arial,24,&H00FFFFFF,&H0079FF21,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,duo,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.20,0:00:06.67,duo,,0,0,0,karaoke,{\k51}“a{\k47}ri{\k34}ga{\k61}tou” {\k65}hi{\k46}to{\k48}ko{\k32}to {\k48}a{\k32}na{\k49}ta {\k34}ni
+Comment: 0,0:00:06.95,0:00:11.84,duo,,0,0,0,karaoke,{\k66}tsu{\k31}ta{\k16}e{\k32}ta{\k48}ku{\k64}te {\k32}mo{\k31}u {\k34}a{\k31}fu{\k32}re{\k32}te{\k40}ru
+Comment: 0,0:00:12.07,0:00:16.99,Kurea,,0,0,0,karaoke,{\k47}o{\k16}mo{\k64}i {\rMisaki}{\k63}to{\k50}do{\k46}ke {\rKira}{\k34}ko{\k46}no {\k33}so{\k48}ra {\k45}ni
+Comment: 0,0:00:17.17,0:00:22.98,Youka,,0,0,0,karaoke,{\k66}te {\k63}wo {\k64}to{\k31}ri{\k33}a{\k31}i {\rduo}{\k32}a{\k26}ru{\k38}i{\k33}te {\k30}yu{\k134}kou
+Dialogue: 0,0:00:00.30,0:00:06.87,duo,,0,0,0,fx,{\k90\fad(300,200)}{\k51}“a{\k47}ri{\k34}ga{\k61}tou” {\k65}hi{\k46}to{\k48}ko{\k32}to {\k48}a{\k32}na{\k49}ta {\k34}ni
+Dialogue: 0,0:00:06.05,0:00:12.04,duo,,0,0,0,fx,{\k90\fad(300,200)}{\k66}tsu{\k31}ta{\k16}e{\k32}ta{\k48}ku{\k64}te {\k32}mo{\k31}u {\k34}a{\k31}fu{\k32}re{\k32}te{\k40}ru
+Dialogue: 0,0:00:11.17,0:00:17.19,Kurea,,0,0,0,fx,{\k90\fad(300,200)}{\k47}o{\k16}mo{\k64}i {\rMisaki}{\k63}to{\k50}do{\k46}ke {\rKira}{\k34}ko{\k46}no {\k33}so{\k48}ra {\k45}ni
+Dialogue: 0,0:00:16.27,0:00:23.18,Youka,,0,0,0,fx,{\k90\fad(300,200)}{\k66}te {\k63}wo {\k64}to{\k31}ri{\k33}a{\k31}i {\rduo}{\k32}a{\k26}ru{\k38}i{\k33}te {\k30}yu{\k134}kou
