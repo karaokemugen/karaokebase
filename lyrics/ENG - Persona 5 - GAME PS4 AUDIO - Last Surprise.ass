@@ -1,0 +1,147 @@
+﻿[Script Info]
+Title: Last Surprise
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 0
+PlayResY: 0
+Original Script: Karaoke Mugen
+Original Timing: Pierre CAMILLI
+Synch Point: Pierre CAMILLI
+Script Updated By: puyo
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:14.30,0:00:16.30,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}
+Comment: 0,0:00:16.30,0:00:17.77,Sample KM [Up],,0,0,0,karaoke,{\k24}You {\k20}try {\k19}to {\k23}run {\k25}me {\k36}through
+Comment: 0,0:00:18.01,0:00:18.64,Sample KM [Up],,0,0,0,karaoke,{\k34}Hold {\k29}on
+Comment: 0,0:00:19.45,0:00:20.20,Sample KM [Up],,0,0,0,karaoke,{\k27}Think {\k11}a{\k37}gain
+Comment: 0,0:00:20.44,0:00:21.08,Sample KM [Up],,0,0,0,karaoke,{\k23}Don't {\k14}you {\k27}know
+Comment: 0,0:00:21.42,0:00:22.41,Sample KM [Up],,0,0,0,karaoke,{\k21}What {\k15}you're {\k26}star{\k37}ting
+Comment: 0,0:00:23.37,0:00:25.57,Sample KM [Up],,0,0,0,karaoke,{\kf50}But...{\k36} {\k9}you {\k15}sure {\k26}ain't {\k24}got {\k26}a {\k34}clue
+Comment: 0,0:00:25.80,0:00:26.54,Sample KM [Up],,0,0,0,karaoke,{\k41}How {\k33}bad
+Comment: 0,0:00:27.26,0:00:28.01,Sample KM [Up],,0,0,0,karaoke,{\k26}This {\k14}will {\k35}go
+Comment: 0,0:00:28.25,0:00:28.88,Sample KM [Up],,0,0,0,karaoke,{\k27}Don't {\k10}you {\k26}know
+Comment: 0,0:00:29.23,0:00:30.20,Sample KM [Up],,0,0,0,karaoke,{\k24}Know {\k11}my {\k62}art
+Comment: 0,0:00:30.20,0:00:30.94,Sample KM [Choir],,0,0,0,karaoke,{\k25}Art {\k13}of {\k36}war
+Comment: 0,0:00:30.94,0:00:33.13,Sample KM [Up],,0,0,0,karaoke,{\k25}And {\k24}as {\k23}you {\k27}look {\k24}to {\k24}the {\k24}ho{\k21}ri{\k27}zon
+Comment: 0,0:00:33.37,0:00:34.84,Sample KM [Up],,0,0,0,karaoke,{\k50}Not {\k48}a {\k49}cloud
+Comment: 0,0:00:34.84,0:00:37.66,Sample KM [Up],,0,0,0,karaoke,{\k24}But {\k13}then {\kf61}stor{\k24}my {\k25}wea{\k20}ther's {\k26}caught {\k28}you {\k24}a {\k37}cold
+Comment: 0,0:00:38.62,0:00:40.93,Sample KM [Up],,0,0,0,karaoke,{\k36}Seems {\k24}like {\k25}it {\k26}crept {\k23}up {\k24}out {\k26}of {\k23}no{\k24}where
+Comment: 0,0:00:41.17,0:00:42.53,Sample KM [Up],,0,0,0,karaoke,{\k50}All {\k36}a{\k50}round
+Comment: 0,0:00:42.64,0:00:45.46,Sample KM [Up],,0,0,0,karaoke,{\k25}You {\k25}it's {\k49}not {\k49}quite {\k44}what {\k28}you {\k22}fore{\k40}told
+Comment: 0,0:00:46.04,0:00:50.21,Sample KM [Up],,0,0,0,karaoke,{\k9}You{\k6}'ll {\k35}ne{\k13}ver {\k36}see {\k22}it {\k52}co{\kf244}ming
+Comment: 0,0:00:50.42,0:00:54.59,Sample KM [Up],,0,0,0,karaoke,{\k38}You'll {\k55}see{\k34} {\k19}that {\k25}my {\k28}mind {\k44}is {\k27}too {\k38}fast {\k33}for {\k76}eyes
+Comment: 0,0:00:54.84,0:00:58.01,Sample KM [Up],,0,0,0,karaoke,{\k24}You're {\k49}done {\kf244}in
+Comment: 0,0:00:58.24,0:01:02.65,Sample KM [Up],,0,0,0,karaoke,{\k48}By {\k47}the{\k26} {\k26}time {\k28}it's {\k20}hit {\k47}you, {\k27}your {\k35}last {\k37}sur{\k100}prise
+Comment: 0,0:01:18.72,0:01:20.19,Sample KM [Up],,0,0,0,karaoke,{\k26}You {\k14}think {\k24}you {\k23}got {\k24}your {\k36}game
+Comment: 0,0:01:20.43,0:01:21.06,Sample KM [Up],,0,0,0,karaoke,{\k27}Plan{\k11}ned {\k25}out
+Comment: 0,0:01:21.87,0:01:22.62,Sample KM [Up],,0,0,0,karaoke,{\k28}To {\k13}a {\k34}T
+Comment: 0,0:01:22.86,0:01:23.50,Sample KM [Up],,0,0,0,karaoke,{\k16}Yet {\k23}I'm {\k25}two
+Comment: 0,0:01:23.84,0:01:24.83,Sample KM [Up],,0,0,0,karaoke,{\k29}Steps {\k9}a{\k27}head {\k34}yeah
+Comment: 0,0:01:25.79,0:01:27.99,Sample KM [Up],,0,0,0,karaoke,{\kf51}So...{\k26} {\k15}you {\k21}step {\k22}in{\k15}to {\k37}my {\k33}way
+Comment: 0,0:01:28.22,0:01:28.96,Sample KM [Up],,0,0,0,karaoke,{\k41}Stand {\k33}down
+Comment: 0,0:01:29.68,0:01:30.43,Sample KM [Up],,0,0,0,karaoke,{\k24}It's {\k14}a {\k37}trap
+Comment: 0,0:01:30.67,0:01:31.30,Sample KM [Up],,0,0,0,karaoke,{\k15}One {\k11}more {\k37}step
+Comment: 0,0:01:31.65,0:01:32.62,Sample KM [Up],,0,0,0,karaoke,{\k28}And {\k11}you're {\k58}dead
+Comment: 0,0:01:32.62,0:01:33.36,Sample KM [Choir],,0,0,0,karaoke,{\k28}Yeah {\k12}you're {\k34}dead
+Comment: 0,0:01:33.36,0:01:35.55,Sample KM [Up],,0,0,0,karaoke,{\k24}Why {\k25}just {\k26}a {\k25}pi{\k11}co{\k38}se{\k24}cond {\k24}a{\k22}go
+Comment: 0,0:01:35.79,0:01:37.26,Sample KM [Up],,0,0,0,karaoke,{\k51}Clear {\k43}blue {\k53}skies
+Comment: 0,0:01:37.26,0:01:40.08,Sample KM [Up],,0,0,0,karaoke,{\k19}But {\k33}now {\k48}light{\k16}ning's {\k33}struck {\k25}your {\k25}last {\k42}re{\k41}solve
+Comment: 0,0:01:41.04,0:01:43.35,Sample KM [Up],,0,0,0,karaoke,{\k39}It's {\k25}not {\k24}an {\k15}a{\k33}cci{\k25}dent {\k24}that {\k25}no {\k21}one
+Comment: 0,0:01:43.59,0:01:44.95,Sample KM [Up],,0,0,0,karaoke,{\k52}Hears {\k48}your {\k36}cries
+Comment: 0,0:01:45.06,0:01:47.88,Sample KM [Up],,0,0,0,karaoke,{\k28}As {\k23}your {\k47}last {\k46}strength {\k54}seems {\k22}to {\k23}dis{\k39}solve
+Comment: 0,0:01:48.46,0:01:52.63,Sample KM [Up],,0,0,0,karaoke,{\k9}You{\k6}'ll {\k35}ne{\k13}ver {\k36}see {\k22}it {\k52}co{\kf244}ming
+Comment: 0,0:01:52.84,0:01:57.01,Sample KM [Up],,0,0,0,karaoke,{\k38}You'll {\k55}see{\k34} {\k19}that {\k25}my {\k28}mind {\k44}is {\k27}too {\k38}fast {\k33}for {\k76}eyes
+Comment: 0,0:01:57.26,0:02:00.43,Sample KM [Up],,0,0,0,karaoke,{\k24}You're {\k49}done {\kf244}in
+Comment: 0,0:02:00.66,0:02:05.07,Sample KM [Up],,0,0,0,karaoke,{\k48}By {\k47}the{\k26} {\k26}time {\k28}it's {\k20}hit {\k47}you, {\k27}your {\k35}last {\k37}sur{\k100}prise
+Comment: 0,0:02:05.07,0:02:08.25,Sample KM [Up],,0,0,0,karaoke,{\k26}I'm {\k50}co{\kf242}ming
+Comment: 0,0:02:08.49,0:02:09.40,Sample KM [Up],,0,0,0,karaoke,{\k47}For {\k44}you
+Comment: 0,0:02:09.68,0:02:12.65,Sample KM [Up],,0,0,0,karaoke,{\k27}My {\k28}game's {\k23}al{\k33}ways{\k7} {\k24}so {\k44}fast, {\k38}so {\k73}fine
+Comment: 0,0:02:12.84,0:02:16.07,Sample KM [Up],,0,0,0,karaoke,{\k13}You're {\k65}spun {\kf245}in
+Comment: 0,0:02:16.29,0:02:20.47,Sample KM [Up],,0,0,0,karaoke,{\k48}By {\k53}the {\k47}net {\k25}you {\k22}di{\k70}dn't {\k25}catch {\k17}it {\k32}in {\k79}time
+Comment: 0,0:02:37.28,0:02:38.37,Sample KM [Up],,0,0,0,karaoke,{\k26}Bet{\k21}ter {\k62}think
+Comment: 0,0:02:39.22,0:02:40.83,Sample KM [Up],,0,0,0,karaoke,{\k24}A{\k42}bout {\k30}your {\k65}game
+Comment: 0,0:02:41.19,0:02:42.10,Sample KM [Up],,0,0,0,karaoke,{\k24}Are {\k17}you {\k50}sure
+Comment: 0,0:02:42.14,0:02:44.52,Sample KM [Up],,0,0,0,karaoke,{\k24}Your {\k40}next {\k36}move's {\k22}the {\k28}right {\k22}one {\k28}for {\k38}you?
+Comment: 0,0:02:45.09,0:02:45.82,Sample KM [Up],,0,0,0,karaoke,{\k24}Are {\k17}you {\k32}sure
+Comment: 0,0:02:46.03,0:02:48.72,Sample KM [Up],,0,0,0,karaoke,{\k21}You {\k42}won't {\k38}get {\k38}out{\k59}ma{\k42}neu{\k21}ve{\k8}red
+Comment: 0,0:02:48.98,0:02:52.58,Sample KM [Up],,0,0,0,karaoke,{\k23}A{\k41}gain {\k31}and {\k27}a{\k35}gain {\k31}my {\kf172}friend?
+Comment: 0,0:02:52.86,0:02:57.03,Sample KM [Up],,0,0,0,karaoke,{\k9}You{\k6}'ll {\k35}ne{\k13}ver {\k36}see {\k22}it {\k52}co{\kf244}ming
+Comment: 0,0:02:57.24,0:03:01.41,Sample KM [Up],,0,0,0,karaoke,{\k38}You'll {\k55}see{\k34} {\k19}that {\k25}my {\k28}mind {\k44}is {\k27}too {\k38}fast {\k33}for {\k76}eyes
+Comment: 0,0:03:01.66,0:03:04.83,Sample KM [Up],,0,0,0,karaoke,{\k24}You're {\k49}done {\kf244}in
+Comment: 0,0:03:05.06,0:03:09.47,Sample KM [Up],,0,0,0,karaoke,{\k48}By {\k47}the{\k26} {\k26}time {\k28}it's {\k20}hit {\k47}you, {\k27}your {\k35}last {\k37}sur{\k100}prise
+Comment: 0,0:03:09.47,0:03:12.65,Sample KM [Up],,0,0,0,karaoke,{\k26}I'm {\k50}co{\kf242}ming
+Comment: 0,0:03:12.89,0:03:13.80,Sample KM [Up],,0,0,0,karaoke,{\k47}For {\k44}you
+Comment: 0,0:03:14.08,0:03:17.05,Sample KM [Up],,0,0,0,karaoke,{\k27}My {\k28}game's {\k23}al{\k33}ways{\k7} {\k24}so {\k44}fast, {\k38}so {\k73}fine
+Comment: 0,0:03:17.24,0:03:20.47,Sample KM [Up],,0,0,0,karaoke,{\k13}You're {\k65}spun {\kf245}in
+Comment: 0,0:03:20.69,0:03:24.87,Sample KM [Up],,0,0,0,karaoke,{\k48}By {\k53}the {\k47}net {\k25}you {\k22}di{\k70}dn't {\k25}catch {\k17}it {\k32}in {\k79}time
+Dialogue: 0,0:00:15.30,0:00:17.87,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,2470,2570)\k90}{\k24}You {\k20}try {\k19}to {\k23}run {\k25}me {\k36}through
+Dialogue: 0,0:00:17.01,0:00:18.74,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1630,1730)\k90}{\k34}Hold {\k29}on
+Dialogue: 0,0:00:18.45,0:00:20.30,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1750,1850)\k90}{\k27}Think {\k11}a{\k37}gain
+Dialogue: 0,0:00:19.44,0:00:21.18,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1640,1740)\k90}{\k23}Don't {\k14}you {\k27}know
+Dialogue: 0,0:00:20.42,0:00:22.51,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1990,2090)\k90}{\k21}What {\k15}you're {\k26}star{\k37}ting
+Dialogue: 0,0:00:22.37,0:00:25.67,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,3200,3300)\k90}{\kf50}But...{\k36} {\k9}you {\k15}sure {\k26}ain't {\k24}got {\k26}a {\k34}clue
+Dialogue: 0,0:00:24.80,0:00:26.64,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1740,1840)\k90}{\k41}How {\k33}bad
+Dialogue: 0,0:00:26.26,0:00:28.11,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1750,1850)\k90}{\k26}This {\k14}will {\k35}go
+Dialogue: 0,0:00:27.25,0:00:28.98,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1630,1730)\k90}{\k27}Don't {\k10}you {\k26}know
+Dialogue: 0,0:00:28.23,0:00:30.30,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1970,2070)\k90}{\k24}Know {\k11}my {\k62}art
+Dialogue: 0,0:00:29.20,0:00:31.04,Sample KM [Choir],,0,0,0,fx,{\fade(255,0,255,0,850,1740,1840)\k90}{\k25}Art {\k13}of {\k36}war
+Dialogue: 0,0:00:29.94,0:00:33.23,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,3190,3290)\k90}{\k25}And {\k24}as {\k23}you {\k27}look {\k24}to {\k24}the {\k24}ho{\k21}ri{\k27}zon
+Dialogue: 0,0:00:32.37,0:00:34.94,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,2470,2570)\k90}{\k50}Not {\k48}a {\k49}cloud
+Dialogue: 0,0:00:33.84,0:00:37.76,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,3820,3920)\k90}{\k24}But {\k13}then {\kf61}stor{\k24}my {\k25}wea{\k20}ther's {\k26}caught {\k28}you {\k24}a {\k37}cold
+Dialogue: 0,0:00:37.62,0:00:41.03,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,3310,3410)\k90}{\k36}Seems {\k24}like {\k25}it {\k26}crept {\k23}up {\k24}out {\k26}of {\k23}no{\k24}where
+Dialogue: 0,0:00:40.17,0:00:42.63,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,2360,2460)\k90}{\k50}All {\k36}a{\k50}round
+Dialogue: 0,0:00:41.64,0:00:45.56,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,3820,3920)\k90}{\k25}You {\k25}it's {\k49}not {\k49}quite {\k44}what {\k28}you {\k22}fore{\k40}told
+Dialogue: 0,0:00:45.04,0:00:50.31,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,5170,5270)\k90}{\k9}You{\k6}'ll {\k35}ne{\k13}ver {\k36}see {\k22}it {\k52}co{\kf244}ming
+Dialogue: 0,0:00:49.42,0:00:54.69,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,5170,5270)\k90}{\k38}You'll {\k55}see{\k34} {\k19}that {\k25}my {\k28}mind {\k44}is {\k27}too {\k38}fast {\k33}for {\k76}eyes
+Dialogue: 0,0:00:53.84,0:00:58.11,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,4170,4270)\k90}{\k24}You're {\k49}done {\kf244}in
+Dialogue: 0,0:00:57.24,0:01:02.75,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,5410,5510)\k90}{\k48}By {\k47}the{\k26} {\k26}time {\k28}it's {\k20}hit {\k47}you, {\k27}your {\k35}last {\k37}sur{\k100}prise
+Dialogue: 0,0:01:17.72,0:01:20.29,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,2470,2570)\k90}{\k26}You {\k14}think {\k24}you {\k23}got {\k24}your {\k36}game
+Dialogue: 0,0:01:19.43,0:01:21.16,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1630,1730)\k90}{\k27}Plan{\k11}ned {\k25}out
+Dialogue: 0,0:01:20.87,0:01:22.72,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1750,1850)\k90}{\k28}To {\k13}a {\k34}T
+Dialogue: 0,0:01:21.86,0:01:23.60,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1640,1740)\k90}{\k16}Yet {\k23}I'm {\k25}two
+Dialogue: 0,0:01:22.84,0:01:24.93,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1990,2090)\k90}{\k29}Steps {\k9}a{\k27}head {\k34}yeah
+Dialogue: 0,0:01:24.79,0:01:28.09,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,3200,3300)\k90}{\kf51}So...{\k26} {\k15}you {\k21}step {\k22}in{\k15}to {\k37}my {\k33}way
+Dialogue: 0,0:01:27.22,0:01:29.06,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1740,1840)\k90}{\k41}Stand {\k33}down
+Dialogue: 0,0:01:28.68,0:01:30.53,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1750,1850)\k90}{\k24}It's {\k14}a {\k37}trap
+Dialogue: 0,0:01:29.67,0:01:31.40,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1630,1730)\k90}{\k15}One {\k11}more {\k37}step
+Dialogue: 0,0:01:30.65,0:01:32.72,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1970,2070)\k90}{\k28}And {\k11}you're {\k58}dead
+Dialogue: 0,0:01:31.62,0:01:33.46,Sample KM [Choir],,0,0,0,fx,{\fade(255,0,255,0,850,1740,1840)\k90}{\k28}Yeah {\k12}you're {\k34}dead
+Dialogue: 0,0:01:32.36,0:01:35.65,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,3190,3290)\k90}{\k24}Why {\k25}just {\k26}a {\k25}pi{\k11}co{\k38}se{\k24}cond {\k24}a{\k22}go
+Dialogue: 0,0:01:34.79,0:01:37.36,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,2470,2570)\k90}{\k51}Clear {\k43}blue {\k53}skies
+Dialogue: 0,0:01:36.26,0:01:40.18,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,3820,3920)\k90}{\k19}But {\k33}now {\k48}light{\k16}ning's {\k33}struck {\k25}your {\k25}last {\k42}re{\k41}solve
+Dialogue: 0,0:01:40.04,0:01:43.45,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,3310,3410)\k90}{\k39}It's {\k25}not {\k24}an {\k15}a{\k33}cci{\k25}dent {\k24}that {\k25}no {\k21}one
+Dialogue: 0,0:01:42.59,0:01:45.05,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,2360,2460)\k90}{\k52}Hears {\k48}your {\k36}cries
+Dialogue: 0,0:01:44.06,0:01:47.98,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,3820,3920)\k90}{\k28}As {\k23}your {\k47}last {\k46}strength {\k54}seems {\k22}to {\k23}dis{\k39}solve
+Dialogue: 0,0:01:47.46,0:01:52.73,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,5170,5270)\k90}{\k9}You{\k6}'ll {\k35}ne{\k13}ver {\k36}see {\k22}it {\k52}co{\kf244}ming
+Dialogue: 0,0:01:51.84,0:01:57.11,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,5170,5270)\k90}{\k38}You'll {\k55}see{\k34} {\k19}that {\k25}my {\k28}mind {\k44}is {\k27}too {\k38}fast {\k33}for {\k76}eyes
+Dialogue: 0,0:01:56.26,0:02:00.53,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,4170,4270)\k90}{\k24}You're {\k49}done {\kf244}in
+Dialogue: 0,0:01:59.66,0:02:05.17,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,5410,5510)\k90}{\k48}By {\k47}the{\k26} {\k26}time {\k28}it's {\k20}hit {\k47}you, {\k27}your {\k35}last {\k37}sur{\k100}prise
+Dialogue: 0,0:02:04.07,0:02:08.35,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,4180,4280)\k90}{\k26}I'm {\k50}co{\kf242}ming
+Dialogue: 0,0:02:07.49,0:02:09.50,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1910,2010)\k90}{\k47}For {\k44}you
+Dialogue: 0,0:02:08.68,0:02:12.75,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,3970,4070)\k90}{\k27}My {\k28}game's {\k23}al{\k33}ways{\k7} {\k24}so {\k44}fast, {\k38}so {\k73}fine
+Dialogue: 0,0:02:11.84,0:02:16.17,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,4230,4330)\k90}{\k13}You're {\k65}spun {\kf245}in
+Dialogue: 0,0:02:15.29,0:02:20.57,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,5180,5280)\k90}{\k48}By {\k53}the {\k47}net {\k25}you {\k22}di{\k70}dn't {\k25}catch {\k17}it {\k32}in {\k79}time
+Dialogue: 0,0:02:36.28,0:02:38.47,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,2090,2190)\k90}{\k26}Bet{\k21}ter {\k62}think
+Dialogue: 0,0:02:38.22,0:02:40.93,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,2610,2710)\k90}{\k24}A{\k42}bout {\k30}your {\k65}game
+Dialogue: 0,0:02:40.19,0:02:42.20,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1910,2010)\k90}{\k24}Are {\k17}you {\k50}sure
+Dialogue: 0,0:02:41.14,0:02:44.62,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,3380,3480)\k90}{\k24}Your {\k40}next {\k36}move's {\k22}the {\k28}right {\k22}one {\k28}for {\k38}you?
+Dialogue: 0,0:02:44.09,0:02:45.92,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1730,1830)\k90}{\k24}Are {\k17}you {\k32}sure
+Dialogue: 0,0:02:45.03,0:02:48.82,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,3690,3790)\k90}{\k21}You {\k42}won't {\k38}get {\k38}out{\k59}ma{\k42}neu{\k21}ve{\k8}red
+Dialogue: 0,0:02:47.98,0:02:52.68,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,4600,4700)\k90}{\k23}A{\k41}gain {\k31}and {\k27}a{\k35}gain {\k31}my {\kf172}friend?
+Dialogue: 0,0:02:51.86,0:02:57.13,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,5170,5270)\k90}{\k9}You{\k6}'ll {\k35}ne{\k13}ver {\k36}see {\k22}it {\k52}co{\kf244}ming
+Dialogue: 0,0:02:56.24,0:03:01.51,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,5170,5270)\k90}{\k38}You'll {\k55}see{\k34} {\k19}that {\k25}my {\k28}mind {\k44}is {\k27}too {\k38}fast {\k33}for {\k76}eyes
+Dialogue: 0,0:03:00.66,0:03:04.93,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,4170,4270)\k90}{\k24}You're {\k49}done {\kf244}in
+Dialogue: 0,0:03:04.06,0:03:09.57,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,5410,5510)\k90}{\k48}By {\k47}the{\k26} {\k26}time {\k28}it's {\k20}hit {\k47}you, {\k27}your {\k35}last {\k37}sur{\k100}prise
+Dialogue: 0,0:03:08.47,0:03:12.75,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,4180,4280)\k90}{\k26}I'm {\k50}co{\kf242}ming
+Dialogue: 0,0:03:11.89,0:03:13.90,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,1910,2010)\k90}{\k47}For {\k44}you
+Dialogue: 0,0:03:13.08,0:03:17.15,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,3970,4070)\k90}{\k27}My {\k28}game's {\k23}al{\k33}ways{\k7} {\k24}so {\k44}fast, {\k38}so {\k73}fine
+Dialogue: 0,0:03:16.24,0:03:20.57,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,4230,4330)\k90}{\k13}You're {\k65}spun {\kf245}in
+Dialogue: 0,0:03:19.69,0:03:24.97,Sample KM [Up],,0,0,0,fx,{\fade(255,0,255,0,850,5180,5280)\k90}{\k48}By {\k53}the {\k47}net {\k25}you {\k22}di{\k70}dn't {\k25}catch {\k17}it {\k32}in {\k79}time
