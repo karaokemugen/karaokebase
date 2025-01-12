@@ -1,0 +1,49 @@
+﻿[Script Info]
+Title: Mawaru Chikyuu Rondo
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Talk],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.98,0:00:03.58,Sample KM [Talk],,0,0,0,karaoke,ore, omae to tomadachi ni narini kitanda
+Comment: 0,0:00:03.96,0:00:05.16,Sample KM [Talk],,0,0,0,karaoke,doumei kumouyo
+Comment: 0,0:00:06.56,0:00:08.22,Sample KM [Up],,0,0,0,karaoke,{\k17}ma{\k14}wa{\k11}ru {\k16}ma{\k13}wa{\k12}ru {\k28}te {\k14}wo {\k26}tot{\k15}te
+Comment: 0,0:00:08.22,0:00:09.62,Sample KM [Up],,0,0,0,karaoke,{\k14}ma{\k12}wa{\k13}ru {\k15}chi{\k13}kyu{\k13}u {\k41}RON{\k19}DO
+Comment: 0,0:00:09.87,0:00:12.88,Sample KM [Up],,0,0,0,karaoke,{\k16}a{\k11}shi {\k13}wo {\k30}fu{\k13}mi{\k27}na{\k13}ra{\k29}shi{\k14}te {\k27}CA{\k14}RO{\k42}LA{\k52}RE
+Comment: 0,0:00:13.17,0:00:16.34,Sample KM [Up],,0,0,0,karaoke,{\k27}PAS{\k15}TA {\k27}mai{\k13}te {\k10}ku{\k18}ru {\k14}ku{\k30}ru {\k14}na{\k26}ga{\k13}gu{\k27}tsu {\k14}de {\k42}kan{\k27}pai
+Comment: 0,0:00:16.48,0:00:19.64,Sample KM [Up],,0,0,0,karaoke,{\k13}ma{\k15}wa{\k14}ru {\k16}ma{\k11}wa{\k13}ru {\k14}chi{\k17}kyu{\k9}u{\k26}de {\k44}CIAO, {\k15}HE{\k28}TA{\k11}LI{\k70}A
+Comment: 0,0:00:19.79,0:00:22.80,Sample KM [Up],,0,0,0,karaoke,{\k82}aa{\k58}a{\k26} {\k28}ta{\k12}be{\k29}ta{\k16}i{\k50}na
+Comment: 0,0:00:23.10,0:00:26.12,Sample KM [Up],,0,0,0,karaoke,{\k40}TO{\k29}MA{\k15}TO-{\k27}MA{\k13}TO-{\k28}MA{\k12}TO, {\k14}BUON {\k14}AP{\k14}PE{\k41}TI{\k55}TO
+Comment: 0,0:00:26.41,0:00:32.86,Sample KM [Up],,0,0,0,karaoke,{\k81}aa{\k56}a{\k28} {\k25}ma{\k17}ke{\k28}na{\k15}i {\k50}zo{\k31} {\k18}bu{\k11}ta{\k13}re{\k27}ta{\k16}ra {\k29}nai{\k13}cha{\k25}u {\k17}ke{\k145}do
+Comment: 0,0:00:31.79,0:00:33.32,Sample KM [Talk],,0,0,0,karaoke,aa onnanoko daa
+Comment: 0,0:00:33.05,0:00:36.09,Sample KM [Up],,0,0,0,karaoke,{\k15}ma{\k9}wa{\k15}ru {\k15}ma{\k14}wa{\k12}ru {\k22}te {\k22}wo {\k25}tot{\k17}te {\k28}wa{\k12}ni {\k29}nat{\k11}te {\k41}RON{\k17}DO
+Comment: 0,0:00:36.36,0:00:39.46,Sample KM [Up],,0,0,0,karaoke,{\k25}PAS{\k14}TA {\k14}ta{\k15}be{\k14}te {\k40}WINE {\k30}non{\k13}de {\k41}CAN{\k43}TA{\k61}RE
+Comment: 0,0:00:39.66,0:00:42.28,Sample KM [Up],,0,0,0,karaoke,{\k15}ma{\k18}wa{\k10}ru{\k27}yo {\k14}chi{\k41}kyuu {\k16}o{\k11}re{\k13}ta{\k43}chi {\k54}no
+Comment: 0,0:00:42.42,0:00:44.12,Sample KM [Up],,0,0,0,karaoke,{\k15}HE{\k28}TA{\k18}LI{\k109}A
+Comment: 0,0:00:00.00,0:00:02.00,Sample KM [Up],,0,0,0,karaoke,
+Dialogue: 0,0:00:00.08,0:00:03.78,Sample KM [Talk],,0,0,0,fx,{\k90\fad(300,200)}ore, omae to tomadachi ni narini kitanda
+Dialogue: 0,0:00:03.06,0:00:05.36,Sample KM [Talk],,0,0,0,fx,{\k90\fad(300,200)}doumei kumouyo
+Dialogue: 0,0:00:05.66,0:00:08.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}ma{\k14}wa{\k11}ru {\k16}ma{\k13}wa{\k12}ru {\k28}te {\k14}wo {\k26}tot{\k15}te
+Dialogue: 0,0:00:07.32,0:00:09.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}ma{\k12}wa{\k13}ru {\k15}chi{\k13}kyu{\k13}u {\k41}RON{\k19}DO
+Dialogue: 0,0:00:08.97,0:00:13.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}a{\k11}shi {\k13}wo {\k30}fu{\k13}mi{\k27}na{\k13}ra{\k29}shi{\k14}te {\k27}CA{\k14}RO{\k42}LA{\k52}RE
+Dialogue: 0,0:00:12.27,0:00:16.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}PAS{\k15}TA {\k27}mai{\k13}te {\k10}ku{\k18}ru {\k14}ku{\k30}ru {\k14}na{\k26}ga{\k13}gu{\k27}tsu {\k14}de {\k42}kan{\k27}pai
+Dialogue: 0,0:00:15.58,0:00:19.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}ma{\k15}wa{\k14}ru {\k16}ma{\k11}wa{\k13}ru {\k14}chi{\k17}kyu{\k9}u{\k26}de {\k44}CIAO, {\k15}HE{\k28}TA{\k11}LI{\k70}A
+Dialogue: 0,0:00:18.89,0:00:23.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k82}aa{\k58}a{\k26} {\k28}ta{\k12}be{\k29}ta{\k16}i{\k50}na
+Dialogue: 0,0:00:22.20,0:00:26.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}TO{\k29}MA{\k15}TO-{\k27}MA{\k13}TO-{\k28}MA{\k12}TO, {\k14}BUON {\k14}AP{\k14}PE{\k41}TI{\k55}TO
+Dialogue: 0,0:00:25.51,0:00:33.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k81}aa{\k56}a{\k28} {\k25}ma{\k17}ke{\k28}na{\k15}i {\k50}zo{\k31} {\k18}bu{\k11}ta{\k13}re{\k27}ta{\k16}ra {\k29}nai{\k13}cha{\k25}u {\k17}ke{\k145}do
+Dialogue: 0,0:00:30.89,0:00:33.52,Sample KM [Talk],,0,0,0,fx,{\k90\fad(300,200)}aa onnanoko daa
+Dialogue: 0,0:00:32.15,0:00:36.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}ma{\k9}wa{\k15}ru {\k15}ma{\k14}wa{\k12}ru {\k22}te {\k22}wo {\k25}tot{\k17}te {\k28}wa{\k12}ni {\k29}nat{\k11}te {\k41}RON{\k17}DO
+Dialogue: 0,0:00:35.46,0:00:39.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}PAS{\k14}TA {\k14}ta{\k15}be{\k14}te {\k40}WINE {\k30}non{\k13}de {\k41}CAN{\k43}TA{\k61}RE
+Dialogue: 0,0:00:38.76,0:00:42.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}ma{\k18}wa{\k10}ru{\k27}yo {\k14}chi{\k41}kyuu {\k16}o{\k11}re{\k13}ta{\k43}chi {\k54}no
+Dialogue: 0,0:00:41.52,0:00:44.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}HE{\k28}TA{\k18}LI{\k109}A
+Dialogue: 0,0:00:00.00,0:00:02.20,Sample KM [Up],,0,0,0,fx,{\k0\fad(0,200)}
