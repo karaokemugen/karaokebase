@@ -1,0 +1,51 @@
+﻿[Script Info]
+Title: Chain Reaction
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:11.85,0:00:16.20,Sample KM [Up],,0,0,0,karaoke,{\k35}The {\k36}past {\k34}is {\k39}fa{\k35}ding {\k33}like {\k36}a {\k73}pho{\k27}to{\k87}graph
+Comment: 0,0:00:16.49,0:00:19.37,Sample KM [Up],,0,0,0,karaoke,{\k38}Be{\k67}hind {\kf183}you
+Comment: 0,0:00:20.43,0:00:22.92,Sample KM [Up],,0,0,0,karaoke,{\k35}But {\k38}still {\k28}it {\k40}takes {\k37}you {\k24}o{\k47}ver
+Comment: 0,0:00:23.27,0:00:27.56,Sample KM [Up],,0,0,0,karaoke,{\k36}Your {\k36}ac{\k34}tions {\k35}tum{\k39}ble {\k34}like {\k37}an {\k70}a{\k39}va{\k69}lanche
+Comment: 0,0:00:27.92,0:00:30.78,Sample KM [Up],,0,0,0,karaoke,{\k34}A{\k72}round {\kf180}you
+Comment: 0,0:00:31.82,0:00:33.41,Sample KM [Up],,0,0,0,karaoke,{\k40}Though {\k28}you {\k41}must {\k50}fight
+Comment: 0,0:00:33.62,0:00:39.64,Sample KM [Up],,0,0,0,karaoke,{\k73}Cause {\k71}life {\k47}is{\k23} {\k35}just {\k39}a {\k34}re{\k56}flec{\kf224}tion
+Comment: 0,0:00:39.71,0:00:43.65,Sample KM [Up],,0,0,0,karaoke,{\k28}The {\k79}chain {\k69}re{\k69}ac{\k37}tion {\kf112}is
+Comment: 0,0:00:44.35,0:00:49.45,Sample KM [Choir],,0,0,0,karaoke,{\k58}All {\k66}there {\kf386}is
+Comment: 0,0:00:46.49,0:00:51.13,Sample KM [Up],,0,0,0,karaoke,{\k71}All {\k71}that {\k71}we {\kf251}are
+Comment: 0,0:00:50.06,0:00:54.98,Sample KM [Choir],,0,0,0,karaoke,{\k52}All {\k57}there {\kf383}is
+Comment: 0,0:00:52.21,0:00:56.86,Sample KM [Up],,0,0,0,karaoke,{\k65}All {\k76}chain {\k71}re{\k38}ac{\kf215}tion
+Comment: 0,0:00:55.77,0:01:00.77,Sample KM [Choir],,0,0,0,karaoke,{\k55}All {\k52}there {\kf393}is
+Comment: 0,0:00:57.91,0:01:02.55,Sample KM [Up],,0,0,0,karaoke,{\k71}All {\k73}that {\k70}we {\kf250}are
+Comment: 0,0:01:01.49,0:01:06.18,Sample KM [Choir],,0,0,0,karaoke,{\k56}All {\k51}there {\kf362}is
+Comment: 0,0:01:03.63,0:01:07.20,Sample KM [Up],,0,0,0,karaoke,{\k67}All {\k76}chain {\k69}re{\k34}ac{\kf111}tion
+Comment: 0,0:01:07.20,0:01:09.65,Sample KM [Up],,0,0,0,karaoke,{\k55}All {\k61}there {\kf129}is
+Dialogue: 0,0:00:10.95,0:00:16.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}The {\k36}past {\k34}is {\k39}fa{\k35}ding {\k33}like {\k36}a {\k73}pho{\k27}to{\k87}graph
+Dialogue: 0,0:00:15.59,0:00:19.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Be{\k67}hind {\kf183}you
+Dialogue: 0,0:00:19.53,0:00:23.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}But {\k38}still {\k28}it {\k40}takes {\k37}you {\k24}o{\k47}ver
+Dialogue: 0,0:00:22.37,0:00:27.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Your {\k36}ac{\k34}tions {\k35}tum{\k39}ble {\k34}like {\k37}an {\k70}a{\k39}va{\k69}lanche
+Dialogue: 0,0:00:27.02,0:00:30.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}A{\k72}round {\kf180}you
+Dialogue: 0,0:00:30.92,0:00:33.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Though {\k28}you {\k41}must {\k50}fight
+Dialogue: 0,0:00:32.72,0:00:39.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k73}Cause {\k71}life {\k47}is{\k23} {\k35}just {\k39}a {\k34}re{\k56}flec{\kf224}tion
+Dialogue: 0,0:00:38.81,0:00:43.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}The {\k79}chain {\k69}re{\k69}ac{\k37}tion {\kf112}is
+Dialogue: 0,0:00:43.45,0:00:49.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k58}All {\k66}there {\kf386}is
+Dialogue: 0,0:00:45.59,0:00:51.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k71}All {\k71}that {\k71}we {\kf251}are
+Dialogue: 0,0:00:49.16,0:00:55.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k52}All {\k57}there {\kf383}is
+Dialogue: 0,0:00:51.31,0:00:57.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}All {\k76}chain {\k71}re{\k38}ac{\kf215}tion
+Dialogue: 0,0:00:54.87,0:01:00.97,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k55}All {\k52}there {\kf393}is
+Dialogue: 0,0:00:57.01,0:01:02.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k71}All {\k73}that {\k70}we {\kf250}are
+Dialogue: 0,0:01:00.59,0:01:06.38,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k56}All {\k51}there {\kf362}is
+Dialogue: 0,0:01:02.73,0:01:07.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k67}All {\k76}chain {\k69}re{\k34}ac{\kf111}tion
+Dialogue: 0,0:01:06.30,0:01:09.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}All {\k61}there {\kf129}is
