@@ -1,0 +1,139 @@
+﻿[Script Info]
+Title: Ringing Bloom
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Kuro_Yuki_
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: [Roselia]Yukina,Arial,24,&H00FFFFFF,&H00881188,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: [Roselia]Rinko,Arial,24,&H00FFFFFF,&H00999999,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: [Roselia][Choir]Unit,Arial,24,&H00FFFFFF,&H00AA4433,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,40,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:29.59,0:00:34.77,[Roselia]Yukina,,0,0,0,karaoke,{\k22}wa{\k14}ta{\k17}shi {\k29}wo {\k33}u{\k32}go{\k23}ka{\k12}su {\k13}no {\k74}wa{\k45} {\k18}ko{\k13}no {\k15}i{\k24}ba{\kf134}sho
+Comment: 0,0:00:35.11,0:00:38.60,[Roselia]Yukina,,0,0,0,karaoke,{\k21}su{\k14}ko{\k20}shi{\k32}zu{\k78}tsu{\k27} {\k30}a{\k17}ke{\k23}ru {\k39}so{\k16}ra {\k32}ni
+Comment: 0,0:00:39.45,0:00:41.92,[Roselia]Yukina,,0,0,0,karaoke,{\k18}ni{\k18}ge{\k18}te{\k28}i{\k31}ta {\k30}ko{\k31}to {\k16}ni {\k57}mo
+Comment: 0,0:00:42.58,0:00:48.15,[Roselia]Yukina,,0,0,0,karaoke,{\k15}i{\k16}ma {\k15}na{\k30}ra{\k107}ba {\k15}mu{\k17}ki{\k31}a{\k16}e{\k26}ru {\k34}ki{\k64}ga {\k73}shi{\k64}ta {\k34}no
+Comment: 0,0:00:48.43,0:00:53.25,[Roselia]Yukina,,0,0,0,karaoke,{\k33}ru{\k13}i{\k46}sen {\k82}no{\k69} {\k31}fu{\k16}ru{\k31}e{\k13}ta {\k59}ki{\k32}mo{\k33}chi {\k24}ga
+Comment: 0,0:00:49.66,0:00:51.31,[Roselia][Choir]Unit,,0,0,0,karaoke,{\k27}ru{\k16}i{\k49}sen {\k73}no
+Comment: 0,0:00:53.33,0:00:57.87,[Roselia]Yukina,,0,0,0,karaoke,{\k34}ka{\k14}na{\k28}de {\k18}yu{\k30}ku {\k33}cho{\k14}ku{\k31}jo{\k16}u {\k23}no {\k39}SE{\k15}RE{\k30}NA{\k31}~{\kf98}DE
+Comment: 0,0:00:57.97,0:01:07.00,[Roselia]Rinko,,0,0,0,karaoke,{\k12}no{\k18}zo{\k93}mu {\k29}ke{\k31}tsu{\k15}ma{\k33}tsu {\k28}he {\k111}to {\k30}no{\k53}ba{\k53}shi{\kf124}ta{\k46} {\k31}ryo{\k47}u{\kf149}te
+Comment: 0,0:01:07.16,0:01:07.88,[Roselia]Yukina,,0,0,0,karaoke,{\k33}Heart {\k16}to {\k23}heart
+Comment: 0,0:01:07.96,0:01:12.10,[Roselia]Yukina,,0,0,0,karaoke,{\k29}ta{\k18}chi {\k30}no{\k19}bo{\k10}ru {\k17}jo{\k46}u{\k29}ne{\k19}tsu {\k27}ni {\k46}f'ran {\k32}no {\k28}ta{\k15}ma{\k49}shii
+Comment: 0,0:01:12.42,0:01:16.99,[Roselia]Yukina,,0,0,0,karaoke,{\k16}min{\k29}na {\k30}no {\k16}ko{\k33}e {\k27}ga {\k19}wa{\k24}ta{\k21}shi {\k29}no {\k20}ko{\k28}e {\k45}to {\k33}na{\k29}ru {\k18}to{\k40}ki
+Comment: 0,0:01:17.28,0:01:25.24,[Roselia]Yukina,,0,0,0,karaoke,{\k23}se{\k18}ka{\k12}i {\k75}de {\k47}tat{\k44}ta {\k32}hi{\k29}to{\k19}tsu {\k77}no {\k62}o{\k49}mo{\k13}i {\k26}wo {\k31}dak'{\k47}shi{\k47}me{\kf145}you
+Comment: 0,0:01:25.05,0:01:27.11,[Roselia][Choir]Unit,,0,0,0,karaoke,{\k29}Fo{\k47}re{\k46}ver {\k52}one
+Comment: 0,0:01:26.87,0:01:27.56,[Roselia]Yukina,,0,0,0,karaoke,{\k31}Heart {\k17}to {\k21}heart
+Comment: 0,0:01:27.63,0:01:31.79,[Roselia]Yukina,,0,0,0,karaoke,{\k24}is{\k24}shi {\k29}ma{\k33}to{\k16}wa{\k42}nu {\k35}hon{\k15}ne {\k31}ga {\k43}mi{\k34}chi{\k27}bi{\k18}i{\k45}ta
+Comment: 0,0:01:32.08,0:01:36.77,[Roselia]Yukina,,0,0,0,karaoke,{\k17}me{\k33}za{\k30}me{\k15}ru {\k32}yo{\k28}u {\k15}na {\k40}sen{\k39}shi{\k17}ba{\k29}n{\k47}kou {\k31}no {\k31}u{\k19}ta {\k46}yo
+Comment: 0,0:01:37.00,0:01:41.61,[Roselia]Yukina,,0,0,0,karaoke,{\k20}se{\k15}tsu{\k16}na {\k75}ni {\k29}mi{\k19}chi{\k61}ru {\k15}i{\k16}to{\k12}shi{\k19}sa {\k60}to {\k44}to{\k19}mo {\k41}ni
+Comment: 0,0:01:41.81,0:01:44.00,[Roselia]Yukina,,0,0,0,karaoke,{\k18}no{\k14}ri{\k14}ko{\k16}e{\k72}ta {\k20}sa{\k15}da{\k13}me {\k37}wa
+Comment: 0,0:01:42.89,0:01:44.60,[Roselia][Choir]Unit,,0,0,0,karaoke,{\k123}oh {\k18}oh
+Comment: 0,0:01:44.42,0:01:50.10,[Roselia]Yukina,,0,0,0,karaoke,{\k16}mi{\k16}ra{\k15}i {\k46}he {\kf103}no{\k38} {\k13}mi{\k31}chi {\k17}wo {\k32}te{\k12}ra{\kf229}su
+Comment: 0,0:01:58.27,0:02:03.56,[Roselia]Yukina,,0,0,0,karaoke,{\k15}wa{\k9}ta{\k27}shi {\k27}wo {\k31}ka{\k31}e{\k34}ta {\k15}no {\k117}wa {\k17}ko{\k15}no {\k18}i{\k23}ba{\kf150}sho
+Comment: 0,0:02:03.81,0:02:07.04,[Roselia]Yukina,,0,0,0,karaoke,{\k12}u{\k19}tsu{\k16}ri{\k31}yu{\k102}ku {\k26}ki{\k22}se{\k33}tsu{\k30}go{\k16}to {\k16}ni
+Comment: 0,0:02:08.12,0:02:12.78,[Roselia]Yukina,,0,0,0,karaoke,{\k11}mi{\k19}ju{\k17}ku {\k22}na {\k37}su{\k32}ga{\k30}ta {\k16}de{\k121}mo {\k19}ta{\k15}e{\k15}ma{\k30}na{\k82}ku
+Comment: 0,0:02:13.00,0:02:16.78,[Roselia]Yukina,,0,0,0,karaoke,{\k14}su{\k21}su{\k20}mu {\k27}su{\k30}be {\k30}wo {\k77}te {\k55}ni {\k67}shi{\k37}te
+Comment: 0,0:02:17.01,0:02:17.42,[Roselia][Choir]Unit,,0,0,0,karaoke,{\k41}FAITH
+Comment: 0,0:02:17.50,0:02:21.62,[Roselia]Yukina,,0,0,0,karaoke,{\k16}to{\k31}ri {\k16}ni {\k30}ka{\k16}e{\k45}rou {\k15}a{\k12}no {\k19}hi {\k46}no {\k16}wa{\k31}su{\k16}re{\k30}mo{\k15}no {\k58}wo
+Comment: 0,0:02:21.93,0:02:22.34,[Roselia]Yukina,,0,0,0,karaoke,{\k41}FAITH
+Comment: 0,0:02:22.43,0:02:26.80,[Roselia]Yukina,,0,0,0,karaoke,{\k11}i{\k31}chi{\k19}zu{\k31}na {\k16}ne{\k43}gai {\k33}ken{\k6}ba{\k35}n {\k16}ni {\k35}so{\k30}e{\k94}te {\k15}FEEL {\k22}IT
+Comment: 0,0:02:26.88,0:02:29.33,[Roselia][Choir]Unit,,0,0,0,karaoke,{\k45}I {\k48}will {\k43}be {\k48}just {\k25}my{\k36}self
+Comment: 0,0:02:29.30,0:02:30.76,[Roselia]Yukina,,0,0,0,karaoke,{\k34}ya{\k10}ku{\k38}so{\k31}ku {\k33}wo
+Comment: 0,0:02:30.86,0:02:31.55,[Roselia]Yukina,,0,0,0,karaoke,{\k32}Eye {\k16}to {\k21}eye
+Comment: 0,0:02:31.63,0:02:35.73,[Roselia]Yukina,,0,0,0,karaoke,{\k32}ha{\k17}ka{\k28}na{\k19}ge {\k11}ni {\k18}sa{\k46}i{\k32}tei{\k16}te {\k29}mo {\k44}ko{\k33}ko{\k32}ro {\k15}ni {\k38}wa
+Comment: 0,0:02:36.11,0:02:40.75,[Roselia]Yukina,,0,0,0,karaoke,{\k17}na{\k29}ni{\k32}mo{\k15}no {\k31}ni {\k19}mo {\k26}ma{\k45}ke{\k30}nai {\k19}tsu{\k23}yo{\k53}sa {\k31}ga {\k31}ya{\k16}do{\k47}ru
+Comment: 0,0:02:41.00,0:02:48.92,[Roselia]Yukina,,0,0,0,karaoke,{\k20}se{\k15}ka{\k16}i {\k73}de {\k49}tat{\k43}ta {\k34}hi{\k30}to{\k17}tsu {\k74}no {\k64}yu{\k62}me {\k31}wa {\k18}ha{\k12}na{\k47}sa{\k45}nai {\kf142}yo
+Comment: 0,0:02:48.73,0:02:50.45,[Roselia][Choir]Unit,,0,0,0,karaoke,{\k31}Fo{\k46}re{\k46}ver {\k49}one
+Comment: 0,0:02:50.58,0:02:51.28,[Roselia]Yukina,,0,0,0,karaoke,{\k30}Eye {\k15}to {\k25}eye
+Comment: 0,0:02:51.32,0:02:55.44,[Roselia]Yukina,,0,0,0,karaoke,{\k32}ha{\k18}re{\k29}ya{\k21}ka {\k11}ni {\k15}ma{\k39}bu{\k36}shi{\k18}ku {\k29}mu{\k46}ne {\k30}no {\k32}na{\k16}ka {\k40}de
+Comment: 0,0:02:55.80,0:03:00.40,[Roselia]Yukina,,0,0,0,karaoke,{\k17}u{\k29}ma{\k45}re{\k34}ka{\k30}wa{\k12}ru {\k39}sen{\k39}shi{\k21}ba{\k26}n{\k47}kou {\k32}no {\k30}u{\k16}ta {\k43}yo
+Comment: 0,0:03:00.69,0:03:05.30,[Roselia]Yukina,,0,0,0,karaoke,{\k19}se{\k17}tsu{\k15}na {\k75}ni {\k29}mi{\k19}chi{\k63}ru {\k13}da{\k16}i{\k13}ji{\k18}sa {\k60}to {\k44}to{\k19}mo {\k41}ni
+Comment: 0,0:03:05.50,0:03:10.02,[Roselia]Yukina,,0,0,0,karaoke,{\k16}no{\k15}ri{\k15}ko{\k16}e{\k76}you {\k16}wa{\k11}ta{\k20}shi {\k77}ga {\k14}wa{\k13}ta{\k19}shi {\k45}he {\kf99}to
+Comment: 0,0:03:06.57,0:03:08.22,[Roselia][Choir]Unit,,0,0,0,karaoke,{\k124}oh {\k41}oh
+Comment: 0,0:03:10.43,0:03:15.04,[Roselia]Yukina,,0,0,0,karaoke,{\k19}de{\k29}a{\k16}u {\k35}ta{\k13}me {\kf349}ni
+Comment: 0,0:03:55.44,0:04:00.33,[Roselia]Yukina,,0,0,0,karaoke,{\k36}se{\k19}n{\k25}ri{\k19}tsu {\kf108}ga{\k45} {\k32}ta{\k14}shi{\k32}ka {\k15}na {\k62}ko{\k30}to{\k31}ba {\k21}de
+Comment: 0,0:03:56.73,0:03:58.38,[Roselia][Choir]Unit,,0,0,0,karaoke,{\k32}se{\k14}n{\k32}ri{\k15}tsu {\k72}ga
+Comment: 0,0:04:00.42,0:04:05.00,[Roselia]Yukina,,0,0,0,karaoke,{\k31}hi{\k14}to{\k32}tsu {\k16}he {\k27}to {\k30}nar' {\k19}shu{\k32}n{\k44}kan {\k33}ka{\k12}ga{\k30}ya{\k33}i{\k105}ta
+Comment: 0,0:04:05.04,0:04:14.22,[Roselia]Rinko,,0,0,0,karaoke,{\k16}fu{\k15}re{\k91}ru {\k33}yu{\k24}bi{\k21}sa{\k32}ki {\k30}ni {\k109}wa {\k25}ya{\k57}sa{\k70}shi{\kf133}i{\k52} {\k46}ko{\kf164}e
+Comment: 0,0:04:14.25,0:04:16.13,[Roselia]Yukina,,0,0,0,karaoke,{\k33}Heart {\k17}to {\kf138}heart
+Comment: 0,0:04:16.27,0:04:20.44,[Roselia]Yukina,,0,0,0,karaoke,{\k29}ta{\k17}chi {\k32}no{\k21}bo{\k10}ru {\k17}jo{\k43}u{\k31}ne{\k16}tsu {\k29}ni {\k47}f'ran {\k30}no {\k27}ta{\k16}ma{\k52}shii
+Comment: 0,0:04:20.75,0:04:25.25,[Roselia]Yukina,,0,0,0,karaoke,{\k14}min{\k29}na {\k33}no {\k16}ko{\k30}e {\k30}ga {\k16}wa{\k23}ta{\k22}shi {\k30}no {\k19}ko{\k30}e {\k44}to {\k33}na{\k28}ru {\k16}to{\k37}ki
+Comment: 0,0:04:25.61,0:04:33.53,[Roselia]Yukina,,0,0,0,karaoke,{\k21}se{\k15}ka{\k18}i {\k71}de {\k45}tat{\k43}ta {\k38}hi{\k30}to{\k17}tsu {\k74}no {\k64}o{\k49}mo{\k13}i {\k29}wo {\k26}dak'{\k51}shi{\k46}me{\kf142}you
+Comment: 0,0:04:33.35,0:04:35.41,[Roselia][Choir]Unit,,0,0,0,karaoke,{\k31}Fo{\k46}re{\k47}ver {\k57}one
+Comment: 0,0:04:35.16,0:04:35.88,[Roselia]Yukina,,0,0,0,karaoke,{\k31}Heart {\k18}to {\k23}heart
+Comment: 0,0:04:35.96,0:04:40.04,[Roselia]Yukina,,0,0,0,karaoke,{\k30}is{\k17}shi {\k30}ma{\k27}to{\k20}wa{\k43}nu {\k32}hon{\k19}ne {\k29}ga {\k43}mi{\k34}chi{\k26}bi{\k20}i{\k38}ta
+Comment: 0,0:04:40.40,0:04:44.92,[Roselia]Yukina,,0,0,0,karaoke,{\k16}me{\k31}za{\k32}me{\k14}ru {\k33}yo{\k27}u {\k16}na {\k40}sen{\k40}shi{\k22}ba{\k23}n{\k47}kou {\k30}no {\k30}u{\k18}ta {\k33}yo
+Comment: 0,0:04:45.29,0:04:49.85,[Roselia]Yukina,,0,0,0,karaoke,{\k20}se{\k16}tsu{\k16}na {\k76}ni {\k28}mi{\k20}chi{\k59}ru {\k16}i{\k21}to{\k6}shi{\k20}sa {\k62}to {\k45}to{\k17}mo {\k34}ni
+Comment: 0,0:04:50.12,0:04:54.92,[Roselia]Yukina,,0,0,0,karaoke,{\k16}ka{\k14}gi{\k16}ri{\k15}na{\k75}ku {\k32}nan{\k16}do{\k77}mo {\k14}ta{\k17}da {\k17}tsu{\k43}yo{\kf128}ku
+Comment: 0,0:04:51.19,0:04:52.86,[Roselia][Choir]Unit,,0,0,0,karaoke,{\k124}oh {\k43}oh
+Comment: 0,0:04:55.05,0:04:57.22,[Roselia]Yukina,,0,0,0,karaoke,{\k15}no{\k15}ri{\k15}ko{\k15}e{\k72}ta {\k20}sa{\k17}da{\k15}me {\k33}wa
+Comment: 0,0:04:56.12,0:04:57.67,[Roselia][Choir]Unit,,0,0,0,karaoke,{\k123}oh {\k32}oh
+Comment: 0,0:04:57.65,0:05:05.53,[Roselia]Yukina,,0,0,0,karaoke,{\k16}mi{\k23}ra{\k8}i {\k45}he {\kf99}no{\k41} {\k13}mi{\k35}chi {\k13}wo {\k31}te{\k15}ra{\kf449}su
+Dialogue: 0,0:00:28.69,0:00:34.97,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k22}wa{\k14}ta{\k17}shi {\k29}wo {\k33}u{\k32}go{\k23}ka{\k12}su {\k13}no {\k74}wa{\k45} {\k18}ko{\k13}no {\k15}i{\k24}ba{\kf134}sho
+Dialogue: 0,0:00:34.21,0:00:38.80,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k21}su{\k14}ko{\k20}shi{\k32}zu{\k78}tsu{\k27} {\k30}a{\k17}ke{\k23}ru {\k39}so{\k16}ra {\k32}ni
+Dialogue: 0,0:00:38.55,0:00:42.12,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ni{\k18}ge{\k18}te{\k28}i{\k31}ta {\k30}ko{\k31}to {\k16}ni {\k57}mo
+Dialogue: 0,0:00:41.68,0:00:48.35,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k15}i{\k16}ma {\k15}na{\k30}ra{\k107}ba {\k15}mu{\k17}ki{\k31}a{\k16}e{\k26}ru {\k34}ki{\k64}ga {\k73}shi{\k64}ta {\k34}no
+Dialogue: 0,0:00:47.53,0:00:53.45,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ru{\k13}i{\k46}sen {\k82}no{\k69} {\k31}fu{\k16}ru{\k31}e{\k13}ta {\k59}ki{\k32}mo{\k33}chi {\k24}ga
+Dialogue: 0,0:00:48.76,0:00:51.51,[Roselia][Choir]Unit,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ru{\k16}i{\k49}sen {\k73}no
+Dialogue: 0,0:00:52.43,0:00:58.07,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ka{\k14}na{\k28}de {\k18}yu{\k30}ku {\k33}cho{\k14}ku{\k31}jo{\k16}u {\k23}no {\k39}SE{\k15}RE{\k30}NA{\k31}~{\kf98}DE
+Dialogue: 0,0:00:57.07,0:01:07.20,[Roselia]Rinko,,0,0,0,fx,{\k90\fad(300,200)}{\k12}no{\k18}zo{\k93}mu {\k29}ke{\k31}tsu{\k15}ma{\k33}tsu {\k28}he {\k111}to {\k30}no{\k53}ba{\k53}shi{\kf124}ta{\k46} {\k31}ryo{\k47}u{\kf149}te
+Dialogue: 0,0:01:06.26,0:01:08.08,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Heart {\k16}to {\k23}heart
+Dialogue: 0,0:01:07.06,0:01:12.30,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ta{\k18}chi {\k30}no{\k19}bo{\k10}ru {\k17}jo{\k46}u{\k29}ne{\k19}tsu {\k27}ni {\k46}f'ran {\k32}no {\k28}ta{\k15}ma{\k49}shii
+Dialogue: 0,0:01:11.52,0:01:17.19,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k16}min{\k29}na {\k30}no {\k16}ko{\k33}e {\k27}ga {\k19}wa{\k24}ta{\k21}shi {\k29}no {\k20}ko{\k28}e {\k45}to {\k33}na{\k29}ru {\k18}to{\k40}ki
+Dialogue: 0,0:01:16.38,0:01:25.44,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k23}se{\k18}ka{\k12}i {\k75}de {\k47}tat{\k44}ta {\k32}hi{\k29}to{\k19}tsu {\k77}no {\k62}o{\k49}mo{\k13}i {\k26}wo {\k31}dak'{\k47}shi{\k47}me{\kf145}you
+Dialogue: 0,0:01:24.15,0:01:27.31,[Roselia][Choir]Unit,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Fo{\k47}re{\k46}ver {\k52}one
+Dialogue: 0,0:01:25.97,0:01:27.76,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Heart {\k17}to {\k21}heart
+Dialogue: 0,0:01:26.73,0:01:31.99,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k24}is{\k24}shi {\k29}ma{\k33}to{\k16}wa{\k42}nu {\k35}hon{\k15}ne {\k31}ga {\k43}mi{\k34}chi{\k27}bi{\k18}i{\k45}ta
+Dialogue: 0,0:01:31.18,0:01:36.97,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k17}me{\k33}za{\k30}me{\k15}ru {\k32}yo{\k28}u {\k15}na {\k40}sen{\k39}shi{\k17}ba{\k29}n{\k47}kou {\k31}no {\k31}u{\k19}ta {\k46}yo
+Dialogue: 0,0:01:36.10,0:01:41.81,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k20}se{\k15}tsu{\k16}na {\k75}ni {\k29}mi{\k19}chi{\k61}ru {\k15}i{\k16}to{\k12}shi{\k19}sa {\k60}to {\k44}to{\k19}mo {\k41}ni
+Dialogue: 0,0:01:40.91,0:01:44.20,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k18}no{\k14}ri{\k14}ko{\k16}e{\k72}ta {\k20}sa{\k15}da{\k13}me {\k37}wa
+Dialogue: 0,0:01:41.99,0:01:44.80,[Roselia][Choir]Unit,,0,0,0,fx,{\k90\fad(300,200)}{\k123}oh {\k18}oh
+Dialogue: 0,0:01:43.52,0:01:50.30,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k16}mi{\k16}ra{\k15}i {\k46}he {\kf103}no{\k38} {\k13}mi{\k31}chi {\k17}wo {\k32}te{\k12}ra{\kf229}su
+Dialogue: 0,0:01:57.37,0:02:03.76,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k15}wa{\k9}ta{\k27}shi {\k27}wo {\k31}ka{\k31}e{\k34}ta {\k15}no {\k117}wa {\k17}ko{\k15}no {\k18}i{\k23}ba{\kf150}sho
+Dialogue: 0,0:02:02.91,0:02:07.24,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k12}u{\k19}tsu{\k16}ri{\k31}yu{\k102}ku {\k26}ki{\k22}se{\k33}tsu{\k30}go{\k16}to {\k16}ni
+Dialogue: 0,0:02:07.22,0:02:12.98,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k11}mi{\k19}ju{\k17}ku {\k22}na {\k37}su{\k32}ga{\k30}ta {\k16}de{\k121}mo {\k19}ta{\k15}e{\k15}ma{\k30}na{\k82}ku
+Dialogue: 0,0:02:12.10,0:02:16.98,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k14}su{\k21}su{\k20}mu {\k27}su{\k30}be {\k30}wo {\k77}te {\k55}ni {\k67}shi{\k37}te
+Dialogue: 0,0:02:16.11,0:02:17.62,[Roselia][Choir]Unit,,0,0,0,fx,{\k90\fad(300,200)}{\k41}FAITH
+Dialogue: 0,0:02:16.60,0:02:21.82,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k16}to{\k31}ri {\k16}ni {\k30}ka{\k16}e{\k45}rou {\k15}a{\k12}no {\k19}hi {\k46}no {\k16}wa{\k31}su{\k16}re{\k30}mo{\k15}no {\k58}wo
+Dialogue: 0,0:02:21.03,0:02:22.54,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k41}FAITH
+Dialogue: 0,0:02:21.53,0:02:27.00,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k11}i{\k31}chi{\k19}zu{\k31}na {\k16}ne{\k43}gai {\k33}ken{\k6}ba{\k35}n {\k16}ni {\k35}so{\k30}e{\k94}te {\k15}FEEL {\k22}IT
+Dialogue: 0,0:02:25.98,0:02:29.53,[Roselia][Choir]Unit,,0,0,0,fx,{\k90\fad(300,200)}{\k45}I {\k48}will {\k43}be {\k48}just {\k25}my{\k36}self
+Dialogue: 0,0:02:28.40,0:02:30.96,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ya{\k10}ku{\k38}so{\k31}ku {\k33}wo
+Dialogue: 0,0:02:29.96,0:02:31.75,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Eye {\k16}to {\k21}eye
+Dialogue: 0,0:02:30.73,0:02:35.93,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ha{\k17}ka{\k28}na{\k19}ge {\k11}ni {\k18}sa{\k46}i{\k32}tei{\k16}te {\k29}mo {\k44}ko{\k33}ko{\k32}ro {\k15}ni {\k38}wa
+Dialogue: 0,0:02:35.21,0:02:40.95,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k17}na{\k29}ni{\k32}mo{\k15}no {\k31}ni {\k19}mo {\k26}ma{\k45}ke{\k30}nai {\k19}tsu{\k23}yo{\k53}sa {\k31}ga {\k31}ya{\k16}do{\k47}ru
+Dialogue: 0,0:02:40.10,0:02:49.12,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k20}se{\k15}ka{\k16}i {\k73}de {\k49}tat{\k43}ta {\k34}hi{\k30}to{\k17}tsu {\k74}no {\k64}yu{\k62}me {\k31}wa {\k18}ha{\k12}na{\k47}sa{\k45}nai {\kf142}yo
+Dialogue: 0,0:02:47.83,0:02:50.65,[Roselia][Choir]Unit,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Fo{\k46}re{\k46}ver {\k49}one
+Dialogue: 0,0:02:49.68,0:02:51.48,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Eye {\k15}to {\k25}eye
+Dialogue: 0,0:02:50.42,0:02:55.64,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ha{\k18}re{\k29}ya{\k21}ka {\k11}ni {\k15}ma{\k39}bu{\k36}shi{\k18}ku {\k29}mu{\k46}ne {\k30}no {\k32}na{\k16}ka {\k40}de
+Dialogue: 0,0:02:54.90,0:03:00.60,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k17}u{\k29}ma{\k45}re{\k34}ka{\k30}wa{\k12}ru {\k39}sen{\k39}shi{\k21}ba{\k26}n{\k47}kou {\k32}no {\k30}u{\k16}ta {\k43}yo
+Dialogue: 0,0:02:59.79,0:03:05.50,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k19}se{\k17}tsu{\k15}na {\k75}ni {\k29}mi{\k19}chi{\k63}ru {\k13}da{\k16}i{\k13}ji{\k18}sa {\k60}to {\k44}to{\k19}mo {\k41}ni
+Dialogue: 0,0:03:04.60,0:03:10.22,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k16}no{\k15}ri{\k15}ko{\k16}e{\k76}you {\k16}wa{\k11}ta{\k20}shi {\k77}ga {\k14}wa{\k13}ta{\k19}shi {\k45}he {\kf99}to
+Dialogue: 0,0:03:05.67,0:03:08.42,[Roselia][Choir]Unit,,0,0,0,fx,{\k90\fad(300,200)}{\k124}oh {\k41}oh
+Dialogue: 0,0:03:09.53,0:03:15.24,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k19}de{\k29}a{\k16}u {\k35}ta{\k13}me {\kf349}ni
+Dialogue: 0,0:03:54.54,0:04:00.53,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k36}se{\k19}n{\k25}ri{\k19}tsu {\kf108}ga{\k45} {\k32}ta{\k14}shi{\k32}ka {\k15}na {\k62}ko{\k30}to{\k31}ba {\k21}de
+Dialogue: 0,0:03:55.83,0:03:58.58,[Roselia][Choir]Unit,,0,0,0,fx,{\k90\fad(300,200)}{\k32}se{\k14}n{\k32}ri{\k15}tsu {\k72}ga
+Dialogue: 0,0:03:59.52,0:04:05.20,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k31}hi{\k14}to{\k32}tsu {\k16}he {\k27}to {\k30}nar' {\k19}shu{\k32}n{\k44}kan {\k33}ka{\k12}ga{\k30}ya{\k33}i{\k105}ta
+Dialogue: 0,0:04:04.14,0:04:14.42,[Roselia]Rinko,,0,0,0,fx,{\k90\fad(300,200)}{\k16}fu{\k15}re{\k91}ru {\k33}yu{\k24}bi{\k21}sa{\k32}ki {\k30}ni {\k109}wa {\k25}ya{\k57}sa{\k70}shi{\kf133}i{\k52} {\k46}ko{\kf164}e
+Dialogue: 0,0:04:13.35,0:04:16.33,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Heart {\k17}to {\kf138}heart
+Dialogue: 0,0:04:15.37,0:04:20.64,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ta{\k17}chi {\k32}no{\k21}bo{\k10}ru {\k17}jo{\k43}u{\k31}ne{\k16}tsu {\k29}ni {\k47}f'ran {\k30}no {\k27}ta{\k16}ma{\k52}shii
+Dialogue: 0,0:04:19.85,0:04:25.45,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k14}min{\k29}na {\k33}no {\k16}ko{\k30}e {\k30}ga {\k16}wa{\k23}ta{\k22}shi {\k30}no {\k19}ko{\k30}e {\k44}to {\k33}na{\k28}ru {\k16}to{\k37}ki
+Dialogue: 0,0:04:24.71,0:04:33.73,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k21}se{\k15}ka{\k18}i {\k71}de {\k45}tat{\k43}ta {\k38}hi{\k30}to{\k17}tsu {\k74}no {\k64}o{\k49}mo{\k13}i {\k29}wo {\k26}dak'{\k51}shi{\k46}me{\kf142}you
+Dialogue: 0,0:04:32.45,0:04:35.61,[Roselia][Choir]Unit,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Fo{\k46}re{\k47}ver {\k57}one
+Dialogue: 0,0:04:34.26,0:04:36.08,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Heart {\k18}to {\k23}heart
+Dialogue: 0,0:04:35.06,0:04:40.24,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k30}is{\k17}shi {\k30}ma{\k27}to{\k20}wa{\k43}nu {\k32}hon{\k19}ne {\k29}ga {\k43}mi{\k34}chi{\k26}bi{\k20}i{\k38}ta
+Dialogue: 0,0:04:39.50,0:04:45.12,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k16}me{\k31}za{\k32}me{\k14}ru {\k33}yo{\k27}u {\k16}na {\k40}sen{\k40}shi{\k22}ba{\k23}n{\k47}kou {\k30}no {\k30}u{\k18}ta {\k33}yo
+Dialogue: 0,0:04:44.39,0:04:50.05,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k20}se{\k16}tsu{\k16}na {\k76}ni {\k28}mi{\k20}chi{\k59}ru {\k16}i{\k21}to{\k6}shi{\k20}sa {\k62}to {\k45}to{\k17}mo {\k34}ni
+Dialogue: 0,0:04:49.22,0:04:55.12,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ka{\k14}gi{\k16}ri{\k15}na{\k75}ku {\k32}nan{\k16}do{\k77}mo {\k14}ta{\k17}da {\k17}tsu{\k43}yo{\kf128}ku
+Dialogue: 0,0:04:50.29,0:04:53.06,[Roselia][Choir]Unit,,0,0,0,fx,{\k90\fad(300,200)}{\k124}oh {\k43}oh
+Dialogue: 0,0:04:54.15,0:04:57.42,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k15}no{\k15}ri{\k15}ko{\k15}e{\k72}ta {\k20}sa{\k17}da{\k15}me {\k33}wa
+Dialogue: 0,0:04:55.22,0:04:57.87,[Roselia][Choir]Unit,,0,0,0,fx,{\k90\fad(300,200)}{\k123}oh {\k32}oh
+Dialogue: 0,0:04:56.75,0:05:05.73,[Roselia]Yukina,,0,0,0,fx,{\k90\fad(300,200)}{\k16}mi{\k23}ra{\k8}i {\k45}he {\kf99}no{\k41} {\k13}mi{\k35}chi {\k13}wo {\k31}te{\k15}ra{\kf449}su
