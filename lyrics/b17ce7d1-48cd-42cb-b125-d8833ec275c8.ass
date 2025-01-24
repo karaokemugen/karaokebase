@@ -1,0 +1,56 @@
+﻿[Script Info]
+Title: Regenbogen
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:16.79,0:00:19.16,Sample KM [Up],,0,0,0,karaoke,{\k17}Bringt {\k14}der {\k35}Him{\k18}mel {\k41}heut' {\k40}nur {\k47}Trä{\k25}nen
+Comment: 0,0:00:19.22,0:00:21.61,Sample KM [Up],,0,0,0,karaoke,{\k34}O{\k36}der {\k34}hel{\k23}les {\k27}Son{\k21}nen{\k64}licht?
+Comment: 0,0:00:22.32,0:00:24.83,Sample KM [Up],,0,0,0,karaoke,{\k17}Wa{\k22}rum {\k36}muss {\k37}ich {\k24}im{\k41}mer {\k41}kämp{\k33}fen?
+Comment: 0,0:00:24.83,0:00:27.56,Sample KM [Up],,0,0,0,karaoke,{\k25}Kann {\k36}ich {\k46}frei {\k23}sein {\k28}o{\k43}der {\k72}nicht?
+Comment: 0,0:00:27.99,0:00:28.92,Sample KM [Up],,0,0,0,karaoke,{\k18}Werd' {\k18}ich {\k28}la{\k29}chen
+Comment: 0,0:00:28.92,0:00:32.63,Sample KM [Up],,0,0,0,karaoke,{\k30}O{\k40}der {\k40}hat {\k31}das {\k44}Träu{\k32}men {\k35}heu{\k14}te {\k31}kei{\k18}nen {\k56}Zweck?
+Comment: 0,0:00:33.51,0:00:34.75,Sample KM [Up],,0,0,0,karaoke,{\k23}Bist {\k13}du {\k88}hier
+Comment: 0,0:00:34.96,0:00:38.36,Sample KM [Up],,0,0,0,karaoke,{\k17}O{\k25}der {\k95}weit, {\k79}weit {\kf124}weg?
+Comment: 0,0:00:39.14,0:00:41.88,Sample KM [Up],,0,0,0,karaoke,{\k20}Durch {\k16}den {\k35}Re{\k28}gen {\k41}dringt {\k32}ein {\k25}Son{\k24}nen{\k53}strahl
+Comment: 0,0:00:41.88,0:00:44.19,Sample KM [Up],,0,0,0,karaoke,{\k20}Es {\k15}be{\k37}ginnt {\k35}ein {\k27}Far{\k34}ben{\k63}spiel
+Comment: 0,0:00:44.70,0:00:46.84,Sample KM [Up],,0,0,0,karaoke,{\k17}Und {\k20}es {\kf177}bringt
+Comment: 0,0:00:45.73,0:00:49.82,Sample KM [Choir],,0,0,0,karaoke,{\k79}Zeig' {\k64}mir {\k69}das {\kf197}Licht
+Comment: 0,0:00:47.17,0:00:49.62,Sample KM [Up],,0,0,0,karaoke,{\k35}Uns {\k40}ans {\kf170}Ziel
+Comment: 0,0:00:53.25,0:00:55.59,Sample KM [Up],,0,0,0,karaoke,{\k21}Der {\k32}Re{\k22}gen{\k34}bo{\k47}gen {\k78}zeigt
+Comment: 0,0:00:55.86,0:00:59.64,Sample KM [Up],,0,0,0,karaoke,{\k18}Ei{\k21}nen {\k34}Weg, {\k21}der {\k44}uns {\k34}in {\k41}frem{\k17}de {\k37}Wel{\k48}ten {\k63}führt
+Comment: 0,0:01:00.07,0:01:02.94,Sample KM [Up],,0,0,0,karaoke,{\k14}Und {\k20}du {\k33}gehst {\k20}Hand {\k18}in {\k37}Hand {\k20}mit {\kf125}mir
+Comment: 0,0:01:04.24,0:01:06.69,Sample KM [Up],,0,0,0,karaoke,{\k16}Denn {\k22}nur {\k26}Son{\k28}nen{\k44}schein {\k40}und {\k32}Re{\k37}gen
+Comment: 0,0:01:06.69,0:01:08.43,Sample KM [Up],,0,0,0,karaoke,{\k33}Bau'n {\k37}die {\k23}Brüc{\k81}ke
+Comment: 0,0:01:09.49,0:01:12.57,Sample KM [Up],,0,0,0,karaoke,{\k69}Zu {\kf239}dir
+Dialogue: 0,0:00:15.89,0:00:19.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Bringt {\k14}der {\k35}Him{\k18}mel {\k41}heut' {\k40}nur {\k47}Trä{\k25}nen
+Dialogue: 0,0:00:18.32,0:00:21.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}O{\k36}der {\k34}hel{\k23}les {\k27}Son{\k21}nen{\k64}licht?
+Dialogue: 0,0:00:21.42,0:00:25.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Wa{\k22}rum {\k36}muss {\k37}ich {\k24}im{\k41}mer {\k41}kämp{\k33}fen?
+Dialogue: 0,0:00:23.93,0:00:27.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Kann {\k36}ich {\k46}frei {\k23}sein {\k28}o{\k43}der {\k72}nicht?
+Dialogue: 0,0:00:27.09,0:00:29.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Werd' {\k18}ich {\k28}la{\k29}chen
+Dialogue: 0,0:00:28.02,0:00:32.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}O{\k40}der {\k40}hat {\k31}das {\k44}Träu{\k32}men {\k35}heu{\k14}te {\k31}kei{\k18}nen {\k56}Zweck?
+Dialogue: 0,0:00:32.61,0:00:34.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Bist {\k13}du {\k88}hier
+Dialogue: 0,0:00:34.06,0:00:38.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}O{\k25}der {\k95}weit, {\k79}weit {\kf124}weg?
+Dialogue: 0,0:00:38.24,0:00:42.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Durch {\k16}den {\k35}Re{\k28}gen {\k41}dringt {\k32}ein {\k25}Son{\k24}nen{\k53}strahl
+Dialogue: 0,0:00:40.98,0:00:44.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Es {\k15}be{\k37}ginnt {\k35}ein {\k27}Far{\k34}ben{\k63}spiel
+Dialogue: 0,0:00:43.80,0:00:47.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Und {\k20}es {\kf177}bringt
+Dialogue: 0,0:00:44.83,0:00:50.02,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k79}Zeig' {\k64}mir {\k69}das {\kf197}Licht
+Dialogue: 0,0:00:46.27,0:00:49.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Uns {\k40}ans {\kf170}Ziel
+Dialogue: 0,0:00:52.35,0:00:55.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Der {\k32}Re{\k22}gen{\k34}bo{\k47}gen {\k78}zeigt
+Dialogue: 0,0:00:54.96,0:00:59.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Ei{\k21}nen {\k34}Weg, {\k21}der {\k44}uns {\k34}in {\k41}frem{\k17}de {\k37}Wel{\k48}ten {\k63}führt
+Dialogue: 0,0:00:59.17,0:01:03.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Und {\k20}du {\k33}gehst {\k20}Hand {\k18}in {\k37}Hand {\k20}mit {\kf125}mir
+Dialogue: 0,0:01:03.34,0:01:06.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Denn {\k22}nur {\k26}Son{\k28}nen{\k44}schein {\k40}und {\k32}Re{\k37}gen
+Dialogue: 0,0:01:05.79,0:01:08.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Bau'n {\k37}die {\k23}Brüc{\k81}ke
+Dialogue: 0,0:01:08.59,0:01:12.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k69}Zu {\kf239}dir
