@@ -1,0 +1,114 @@
+﻿[Script Info]
+Title: Get in the Water
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2] - BIG,Arial,50,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:11.25,0:00:13.85,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k37}{\i1}There {\k20}you {\k143}are, {\k23}co{\k37}ward
+Comment: 0,0:00:23.63,0:00:27.29,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k55}I've {\k42}been {\k51}wai{\k66}ting {\k42}for {\k26}this {\k31}mo{\k53}ment
+Comment: 0,0:00:27.79,0:00:30.68,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k22}For {\k22}the {\k62}per{\k29}fect {\k67}time {\k24}to {\k63}strike
+Comment: 0,0:00:31.57,0:00:33.45,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k16}When {\k30}your {\k46}home's {\k42}so {\k54}close
+Comment: 0,0:00:33.45,0:00:35.46,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k19}And {\k25}you've {\k46}reached {\k44}your {\k67}coast
+Comment: 0,0:00:35.95,0:00:38.20,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k36}That's {\k32}when {\k28}our {\k49}paths {\k27}col{\k53}lide
+Comment: 0,0:00:38.82,0:00:41.57,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k65}I've {\k18}got {\k12}a {\k46}re{\k40}pu{\k60}ta{\k34}tion
+Comment: 0,0:00:42.62,0:00:45.04,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k59}I've {\k18}got {\k14}a {\k62}name {\k20}to {\k21}up{\k48}hold
+Comment: 0,0:00:45.09,0:00:47.82,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k21}So {\k17}I {\k41}can't {\k53}go {\k29}let{\k19}ting {\k29}you {\k64}walk
+Comment: 0,0:00:47.82,0:00:51.53,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k31}Or {\k65}else {\k27}the {\k66}world {\k31}for{\k41}gets {\k50}I'm {\k60}cold
+Comment: 0,0:00:51.83,0:00:53.17,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k24}Now {\k18}get {\k13}in {\k21}the {\k27}wa{\k31}ter
+Comment: 0,0:00:55.85,0:00:56.83,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k17}{\i1}Get {\k14}in {\k18}the {\k26}wa{\k23}ter
+Comment: 0,0:00:59.67,0:01:03.21,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k45}Or {\k49}I'll {\k48}raise {\k42}the {\k53}tide {\k51}so {\k66}high
+Comment: 0,0:01:03.50,0:01:06.99,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k42}All {\k49}of {\k42}I{\k50}tha{\k46}ca {\k54}will {\k66}die
+Comment: 0,0:01:07.27,0:01:08.20,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k18}Get {\k11}in {\k18}the {\k26}wa{\k20}ter
+Comment: 0,0:01:09.13,0:01:09.56,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k43}{\i1}Wait
+Comment: 0,0:01:11.03,0:01:11.99,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k20}Get {\k10}in {\k20}the {\k28}wa{\k18}ter
+Comment: 0,0:01:12.81,0:01:14.85,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k35}{\i1}Stop {\k60}this,{\i0} {\kf109}please
+Comment: 0,0:01:14.89,0:01:18.27,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k41}I'll {\k41}make {\k39}ti{\k19}dal {\k41}waves {\k51}so {\k30}pro{\k76}found
+Comment: 0,0:01:18.62,0:01:21.78,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k46}Both {\k49}your {\k34}wife {\k16}and {\k40}your {\k42}son {\k34}will {\k55}drown
+Comment: 0,0:01:21.69,0:01:22.28,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k59}{\i1}NO!
+Comment: 0,0:01:22.37,0:01:23.37,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k22}GET {\k10}IN {\k16}THE {\k26}WA{\k26}TER!
+Comment: 0,0:01:26.16,0:01:27.26,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k23}GET {\k10}IN {\k18}THE {\k27}WA{\k32}TER!
+Comment: 0,0:01:29.93,0:01:33.00,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k54}Don't {\k45}mis{\k46}take {\k43}my {\k54}threats {\k25}for {\k40}bluff
+Comment: 0,0:01:33.73,0:01:36.91,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k49}You {\k42}have {\k51}lived {\k48}more {\k35}than {\k44}e{\k49}nough
+Comment: 0,0:01:37.52,0:01:38.58,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k23}GET {\k11}IN {\k18}THE {\k25}WA{\k29}TER!
+Comment: 0,0:01:41.32,0:01:42.46,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k20}GET {\k11}IN {\k16}THE {\k31}WA{\k36}TER!
+Comment: 0,0:01:44.89,0:01:48.47,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k22}I'll {\k36}take {\k57}your {\k51}son {\k46}and {\k33}gouge {\k50}his {\k63}eyes
+Comment: 0,0:01:48.72,0:01:52.18,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k23}That {\k41}is {\k48}un{\k50}less {\k43}you {\k55}choose {\k29}to {\k57}die
+Comment: 0,0:01:52.68,0:01:53.71,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k21}GET {\k12}IN {\k16}THE {\k25}WA{\k29}TER!
+Comment: 0,0:01:53.71,0:01:57.11,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k89}Aren't {\k90}you {\k39}ti{\k29}red {\k26}Po{\k39}sei{\k28}don?
+Comment: 0,0:01:57.11,0:02:00.78,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k35}It's {\k40}been {\k48}ten {\k52}years {\k47}how {\k32}long {\k34}will {\k29}this {\k50}go?
+Comment: 0,0:02:01.26,0:02:04.72,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k93}We're {\k91}both {\k40}hur{\k31}ting {\k27}from {\k32}los{\k32}ses
+Comment: 0,0:02:04.72,0:02:09.53,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k32}So {\k48}why {\k41}not {\k56}leave {\k44}this {\k67}here {\k24}and {\k52}just {\k49}go {\k68}home?
+Comment: 0,0:02:12.37,0:02:13.22,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k22}{\i1}I {\k63}can't
+Comment: 0,0:02:16.39,0:02:21.95,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\kf100}May{\k88}be {\k34}you {\k37}could {\k34}learn {\k41}to {\k47}for{\kf175}give?
+Comment: 0,0:02:22.95,0:02:23.72,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k77}{\i1}No
+Comment: 0,0:02:25.83,0:02:28.04,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k46}Ruth{\k51}less{\k51}ness {\k73}is
+Comment: 0,0:02:29.59,0:02:31.59,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k37}mer{\k35}cy {\k30}u{\kf98}pon
+Comment: 0,0:02:33.77,0:02:35.35,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k39}OUR{\kf119}SELVES!
+Comment: 0,0:02:38.18,0:02:39.58,Sample KM Duo [Voice 2] - BIG,,0,0,0,karaoke,{\kf140}DIE!
+Comment: 0,0:03:03.26,0:03:04.74,Sample KM [Choir],,0,0,0,karaoke,{\k17}You {\k16}can {\k19}re{\k30}lax {\k27}my {\k39}friend
+Comment: 0,0:03:07.22,0:03:09.44,Sample KM [Choir],,0,0,0,karaoke,{\k13}I {\k22}can {\k29}tell {\k24}you're {\k19}get{\k23}ting {\k48}ner{\k44}vous
+Comment: 0,0:03:09.44,0:03:11.96,Sample KM [Choir],,0,0,0,karaoke,{\k21}Look {\k13}at {\k21}all {\k24}we've {\k35}lost {\k18}and {\k23}all {\k31}we've {\k66}learned
+Comment: 0,0:03:11.33,0:03:15.33,Sample KM [Choir],,0,0,0,karaoke,{\k80}I'll {\k64}stay {\k67}in {\k74}your {\kf115}heart
+Comment: 0,0:03:15.17,0:03:18.83,Sample KM [Choir],,0,0,0,karaoke,{\k92}Oh, {\kf165}woah, {\k25}O{\k21}dys{\k21}se{\k42}us
+Comment: 0,0:03:18.92,0:03:34.05,Sample KM [Choir],,0,0,0,karaoke,{\kf195}Wai{\kf153}ting{\k25}, {\kf198}wai{\kf159}ting{\k22}, {\kf199}wai{\kf185}ting, {\kf377}ooooh
+Dialogue: 0,0:00:10.35,0:00:14.05,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k37}{\i1}There {\k20}you {\k143}are, {\k23}co{\k37}ward
+Dialogue: 0,0:00:22.73,0:00:27.49,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k55}I've {\k42}been {\k51}wai{\k66}ting {\k42}for {\k26}this {\k31}mo{\k53}ment
+Dialogue: 0,0:00:26.89,0:00:30.88,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}For {\k22}the {\k62}per{\k29}fect {\k67}time {\k24}to {\k63}strike
+Dialogue: 0,0:00:30.67,0:00:33.65,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k16}When {\k30}your {\k46}home's {\k42}so {\k54}close
+Dialogue: 0,0:00:32.55,0:00:35.66,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k19}And {\k25}you've {\k46}reached {\k44}your {\k67}coast
+Dialogue: 0,0:00:35.05,0:00:38.40,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k36}That's {\k32}when {\k28}our {\k49}paths {\k27}col{\k53}lide
+Dialogue: 0,0:00:37.92,0:00:41.77,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k65}I've {\k18}got {\k12}a {\k46}re{\k40}pu{\k60}ta{\k34}tion
+Dialogue: 0,0:00:41.72,0:00:45.24,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k59}I've {\k18}got {\k14}a {\k62}name {\k20}to {\k21}up{\k48}hold
+Dialogue: 0,0:00:44.19,0:00:48.02,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k21}So {\k17}I {\k41}can't {\k53}go {\k29}let{\k19}ting {\k29}you {\k64}walk
+Dialogue: 0,0:00:46.92,0:00:51.73,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Or {\k65}else {\k27}the {\k66}world {\k31}for{\k41}gets {\k50}I'm {\k60}cold
+Dialogue: 0,0:00:50.93,0:00:53.37,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Now {\k18}get {\k13}in {\k21}the {\k27}wa{\k31}ter
+Dialogue: 0,0:00:54.95,0:00:57.03,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k17}{\i1}Get {\k14}in {\k18}the {\k26}wa{\k23}ter
+Dialogue: 0,0:00:58.77,0:01:03.41,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Or {\k49}I'll {\k48}raise {\k42}the {\k53}tide {\k51}so {\k66}high
+Dialogue: 0,0:01:02.60,0:01:07.19,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k42}All {\k49}of {\k42}I{\k50}tha{\k46}ca {\k54}will {\k66}die
+Dialogue: 0,0:01:06.37,0:01:08.40,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Get {\k11}in {\k18}the {\k26}wa{\k20}ter
+Dialogue: 0,0:01:08.23,0:01:09.76,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k43}{\i1}Wait
+Dialogue: 0,0:01:10.13,0:01:12.19,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Get {\k10}in {\k20}the {\k28}wa{\k18}ter
+Dialogue: 0,0:01:11.91,0:01:15.05,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k35}{\i1}Stop {\k60}this,{\i0} {\kf109}please
+Dialogue: 0,0:01:13.99,0:01:18.47,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k41}I'll {\k41}make {\k39}ti{\k19}dal {\k41}waves {\k51}so {\k30}pro{\k76}found
+Dialogue: 0,0:01:17.72,0:01:21.98,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Both {\k49}your {\k34}wife {\k16}and {\k40}your {\k42}son {\k34}will {\k55}drown
+Dialogue: 0,0:01:20.79,0:01:22.48,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k59}{\i1}NO!
+Dialogue: 0,0:01:21.47,0:01:23.57,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}GET {\k10}IN {\k16}THE {\k26}WA{\k26}TER!
+Dialogue: 0,0:01:25.26,0:01:27.46,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k23}GET {\k10}IN {\k18}THE {\k27}WA{\k32}TER!
+Dialogue: 0,0:01:29.03,0:01:33.20,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Don't {\k45}mis{\k46}take {\k43}my {\k54}threats {\k25}for {\k40}bluff
+Dialogue: 0,0:01:32.83,0:01:37.11,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k49}You {\k42}have {\k51}lived {\k48}more {\k35}than {\k44}e{\k49}nough
+Dialogue: 0,0:01:36.62,0:01:38.78,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k23}GET {\k11}IN {\k18}THE {\k25}WA{\k29}TER!
+Dialogue: 0,0:01:40.42,0:01:42.66,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}GET {\k11}IN {\k16}THE {\k31}WA{\k36}TER!
+Dialogue: 0,0:01:43.99,0:01:48.67,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I'll {\k36}take {\k57}your {\k51}son {\k46}and {\k33}gouge {\k50}his {\k63}eyes
+Dialogue: 0,0:01:47.82,0:01:52.38,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k23}That {\k41}is {\k48}un{\k50}less {\k43}you {\k55}choose {\k29}to {\k57}die
+Dialogue: 0,0:01:51.78,0:01:53.91,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k21}GET {\k12}IN {\k16}THE {\k25}WA{\k29}TER!
+Dialogue: 0,0:01:52.81,0:01:57.31,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k89}Aren't {\k90}you {\k39}ti{\k29}red {\k26}Po{\k39}sei{\k28}don?
+Dialogue: 0,0:01:56.21,0:02:00.98,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k35}It's {\k40}been {\k48}ten {\k52}years {\k47}how {\k32}long {\k34}will {\k29}this {\k50}go?
+Dialogue: 0,0:02:00.36,0:02:04.92,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k93}We're {\k91}both {\k40}hur{\k31}ting {\k27}from {\k32}los{\k32}ses
+Dialogue: 0,0:02:03.82,0:02:09.73,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k32}So {\k48}why {\k41}not {\k56}leave {\k44}this {\k67}here {\k24}and {\k52}just {\k49}go {\k68}home?
+Dialogue: 0,0:02:11.47,0:02:13.42,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}{\i1}I {\k63}can't
+Dialogue: 0,0:02:15.49,0:02:22.15,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\kf100}May{\k88}be {\k34}you {\k37}could {\k34}learn {\k41}to {\k47}for{\kf175}give?
+Dialogue: 0,0:02:22.05,0:02:23.92,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k77}{\i1}No
+Dialogue: 0,0:02:24.93,0:02:28.24,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Ruth{\k51}less{\k51}ness {\k73}is
+Dialogue: 0,0:02:28.69,0:02:31.79,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k37}mer{\k35}cy {\k30}u{\kf98}pon
+Dialogue: 0,0:02:32.87,0:02:35.55,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k39}OUR{\kf119}SELVES!
+Dialogue: 0,0:02:37.28,0:02:39.78,Sample KM Duo [Voice 2] - BIG,,0,0,0,fx,{\k90\fad(300,200)}{\kf140}DIE!
+Dialogue: 0,0:03:02.36,0:03:04.94,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}You {\k16}can {\k19}re{\k30}lax {\k27}my {\k39}friend
+Dialogue: 0,0:03:06.32,0:03:09.64,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k13}I {\k22}can {\k29}tell {\k24}you're {\k19}get{\k23}ting {\k48}ner{\k44}vous
+Dialogue: 0,0:03:08.54,0:03:12.16,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Look {\k13}at {\k21}all {\k24}we've {\k35}lost {\k18}and {\k23}all {\k31}we've {\k66}learned
+Dialogue: 0,0:03:10.43,0:03:15.53,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k80}I'll {\k64}stay {\k67}in {\k74}your {\kf115}heart
+Dialogue: 0,0:03:14.27,0:03:19.03,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k92}Oh, {\kf165}woah, {\k25}O{\k21}dys{\k21}se{\k42}us
+Dialogue: 0,0:03:18.02,0:03:34.25,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf195}Wai{\kf153}ting{\k25}, {\kf198}wai{\kf159}ting{\k22}, {\kf199}wai{\kf185}ting, {\kf377}ooooh
