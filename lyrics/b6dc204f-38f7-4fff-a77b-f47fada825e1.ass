@@ -1,0 +1,28 @@
+﻿[Script Info]
+Title: Aa Jinsei ni Namida Ari ~ Shiki & Makoto Misumi Vers.
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H004742FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:28.91,0:00:35.68,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k70}ji{\k21}n{\k44}se{\k45}i {\k44}ra{\k45}ku{\k44}a{\k47}rya {\k71\rSample KM Duo [Voice 2]}ku{\k19}mo {\k46}a{\k44}ru {\kf137}sa
+Comment: 0,0:00:36.13,0:00:43.05,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k43}na{\k46}mi{\k46}da {\k44}no {\k43}a{\k50}to {\k42\rSample KM Duo [Voice 2]}ni {\k31}wa{\k17} {\k66}ni{\k23}ji {\k44}mo {\k46}de{\kf151}ru
+Comment: 0,0:00:43.34,0:00:56.88,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\kf134}a{\k47}ru{\k89}i{\k91}te{\k87}yu{\k93}ku{\k91}n{\k55}da{\k33} {\kf137}shi{\k43}k{\k92}ka{\k87}ri {\kf275}to
+Comment: 0,0:00:57.77,0:01:08.88,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k49}ji{\k37}bu{\k52}n {\k44}no {\k87}mi{\k48}chi {\k44}wo{\k45} {\k91}fu{\k46}mi{\k89}shi{\k88}me{\kf391}te
+Dialogue: 0,0:00:28.01,0:00:35.88,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k70}ji{\k21}n{\k44}se{\k45}i {\k44}ra{\k45}ku{\k44}a{\k47}rya {\k71\rSample KM Duo [Voice 2]}ku{\k19}mo {\k46}a{\k44}ru {\kf137}sa
+Dialogue: 0,0:00:35.23,0:00:43.25,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k43}na{\k46}mi{\k46}da {\k44}no {\k43}a{\k50}to {\k42\rSample KM Duo [Voice 2]}ni {\k31}wa{\k17} {\k66}ni{\k23}ji {\k44}mo {\k46}de{\kf151}ru
+Dialogue: 0,0:00:42.44,0:00:57.08,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\kf134}a{\k47}ru{\k89}i{\k91}te{\k87}yu{\k93}ku{\k91}n{\k55}da{\k33} {\kf137}shi{\k43}k{\k92}ka{\k87}ri {\kf275}to
+Dialogue: 0,0:00:56.87,0:01:09.08,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k49}ji{\k37}bu{\k52}n {\k44}no {\k87}mi{\k48}chi {\k44}wo{\k45} {\k91}fu{\k46}mi{\k89}shi{\k88}me{\kf391}te
