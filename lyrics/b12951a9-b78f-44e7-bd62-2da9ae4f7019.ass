@@ -1,0 +1,85 @@
+﻿[Script Info]
+Title: Où ça mène quand on s'aime
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:15.02,0:00:19.75,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k28}On {\k21}peut {\k24}ve{\k22}nir {\k22}au {\k113}monde {\k25}les {\k44}yeux {\k44}fer{\kf130}més
+Comment: 0,0:00:21.39,0:00:28.41,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k58}Sans {\k68}rien {\k58}voir {\k32}ve{\kf114}nir{\k36} {\k58}ni {\k66}lais{\k78}ser {\k36}en{\kf98}trer
+Comment: 0,0:00:29.78,0:00:35.04,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k24}Il {\k24}suf{\k33}fit {\k33}d'ou{\k52}vrir {\k45}sa {\k92}porte {\k22}au {\k24}ha{\kf177}sard
+Comment: 0,0:00:36.24,0:00:42.83,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k41}Pour {\k84}se {\k60}ré{\k26}veil{\kf117}ler{\k39} {\k48}pour {\k66}chan{\k72}ger {\k42}l'his{\k64}toire
+Comment: 0,0:00:44.57,0:00:51.90,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k39}Ap{\k27}prends-{\k40}moi {\k52}ce {\k46}qu'il {\k50}faut {\k42}at{\kf166}tendre {\k46}d'une {\kf225}vie
+Comment: 0,0:00:51.90,0:00:57.46,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k44}Le {\k31}che{\k42}min {\k48}d'un {\k127}homme {\k16}à {\k19}une {\kf229}femme
+Comment: 0,0:00:57.96,0:01:04.99,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k21}Où {\k68}ça {\kf252}mène{\k24} {\k22}quand {\k61}on {\kf255}s'aime
+Comment: 0,0:01:05.21,0:01:07.90,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k58}Ces {\k44}dis{\k46}tances {\k28}nous {\k40}é{\k53}loignent
+Comment: 0,0:01:07.90,0:01:12.38,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k43}et {\k46}nous {\k47}ra{\k47}mènent {\k45}à {\k47}nos {\k42}dif{\k44}fé{\k87}rences
+Comment: 0,0:01:12.72,0:01:19.79,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k17}Où {\k74}ça {\kf250}mène{\k26} {\k22}quand {\k69}on {\kf249}aime
+Comment: 0,0:01:20.09,0:01:26.34,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k44}Est-ce {\k41}que {\k50}seule {\k25}la {\k43}mort {\k41}nous {\k52}sé{\k51}pare {\k39}à {\k51}ja{\kf188}mais
+Comment: 0,0:01:28.77,0:01:33.43,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k28}Je {\k29}se{\k27}rai {\k41}l'ar{\k93}mure {\k24}pour {\k30}te {\k36}pro{\k45}té{\kf113}ger
+Comment: 0,0:01:35.31,0:01:42.21,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k48}Qu'en{\k70}fin {\k50}tu {\k43}res{\kf170}pires{\k37}, {\k43}li{\k32}bre {\k41}de {\k42}res{\kf114}ter
+Comment: 0,0:01:43.64,0:01:48.01,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k41}Ap{\k28}prends-{\k39}moi {\k51}ce {\k46}qu'il {\k51}faut {\k43}com{\kf138}prendre
+Comment: 0,0:01:48.27,0:01:56.56,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k41}Ou {\kf233}fuir {\k42}de {\k34}l'en{\k36}vie {\k42}d'un {\k102}homme {\k36}pour {\k30}une {\kf233}femme
+Comment: 0,0:01:57.02,0:02:04.06,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k20}Où {\k72}ça {\kf251}mène{\k22} {\k22}quand {\k70}on {\kf247}s'aime
+Comment: 0,0:02:04.25,0:02:06.95,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k60}Ces {\k45}dis{\k47}tances {\k25}nous {\k44}é{\k49}loignent
+Comment: 0,0:02:06.95,0:02:11.46,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k45}et {\k47}nous {\k46}ra{\k45}mènent {\k46}à {\k49}nos {\k42}dif{\k48}fé{\k83}rences
+Comment: 0,0:02:11.79,0:02:18.86,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k20}Où {\k72}ça {\kf249}mène{\k26} {\k25}quand {\k64}on {\kf251}aime
+Comment: 0,0:02:19.14,0:02:25.50,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k45}Est-ce {\k42}que {\k54}seule {\k26}la {\k42}mort {\k42}nous {\k49}sé{\k49}pare {\k38}à {\k46}ja{\kf203}mais
+Comment: 0,0:02:27.02,0:02:34.14,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k24}D'un {\k69}monde {\k26}à {\k62}l'autre {\k30}il {\k110}est {\k25}tout {\k33}un {\k29}o{\k55}cé{\kf249}an~
+Comment: 0,0:02:34.35,0:02:36.10,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}Le {\k67}mien, {\k18}le {\k69}tien,
+Comment: 0,0:02:36.10,0:02:40.85,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k28}si {\k45}loin {\k20}de {\k120}l'autre {\k26}et {\k25}pour{\kf211}tant
+Comment: 0,0:02:41.80,0:02:45.21,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k20}Que {\k74}quel{\k50}qu'un {\k27}me {\k36}par{\kf134}donne
+Comment: 0,0:02:45.52,0:02:48.73,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k32}d'en{\k57}core {\k46}vou{\k40}loir {\k34}y {\kf112}croire
+Comment: 0,0:02:48.45,0:02:52.77,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}Ap{\k30}prends-{\k53}moi {\k39}ce {\k40}qu'un {\kf251}homme
+Comment: 0,0:02:53.22,0:03:02.02,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k31}doit {\k46}sa{\kf803}voir~
+Comment: 0,0:03:03.40,0:03:06.03,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k55}Ces {\k40}dis{\k48}tances {\k26}nous {\k44}é{\k50}loignent
+Comment: 0,0:03:06.03,0:03:10.53,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k46}et {\k44}nous {\k45}ra{\k48}mènent {\k44}à {\k48}nos {\k43}dif{\k48}fé{\k84}rences
+Comment: 0,0:03:10.84,0:03:17.89,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k22}Où {\k71}ça {\kf247}mène{\k31} {\k23}quand {\k61}on {\kf250}s'aime
+Comment: 0,0:03:18.20,0:03:20.81,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k45}Nos {\k52}er{\k40}rances {\k29}se {\k31}re{\k64}joignent
+Comment: 0,0:03:20.81,0:03:25.56,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k38}et {\k50}nous {\k46}ap{\k48}prennent {\k44}sur {\k46}nos {\k42}res{\k50}sem{\kf111}blances
+Comment: 0,0:03:25.61,0:03:29.59,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}Nos {\k27}res{\k40}sem{\kf304}blances
+Dialogue: 0,0:00:14.12,0:00:19.95,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k28}On {\k21}peut {\k24}ve{\k22}nir {\k22}au {\k113}monde {\k25}les {\k44}yeux {\k44}fer{\kf130}més
+Dialogue: 0,0:00:20.49,0:00:28.61,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Sans {\k68}rien {\k58}voir {\k32}ve{\kf114}nir{\k36} {\k58}ni {\k66}lais{\k78}ser {\k36}en{\kf98}trer
+Dialogue: 0,0:00:28.88,0:00:35.24,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Il {\k24}suf{\k33}fit {\k33}d'ou{\k52}vrir {\k45}sa {\k92}porte {\k22}au {\k24}ha{\kf177}sard
+Dialogue: 0,0:00:35.34,0:00:43.03,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Pour {\k84}se {\k60}ré{\k26}veil{\kf117}ler{\k39} {\k48}pour {\k66}chan{\k72}ger {\k42}l'his{\k64}toire
+Dialogue: 0,0:00:43.67,0:00:52.10,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Ap{\k27}prends-{\k40}moi {\k52}ce {\k46}qu'il {\k50}faut {\k42}at{\kf166}tendre {\k46}d'une {\kf225}vie
+Dialogue: 0,0:00:51.00,0:00:57.66,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Le {\k31}che{\k42}min {\k48}d'un {\k127}homme {\k16}à {\k19}une {\kf229}femme
+Dialogue: 0,0:00:57.06,0:01:05.19,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Où {\k68}ça {\kf252}mène{\k24} {\k22}quand {\k61}on {\kf255}s'aime
+Dialogue: 0,0:01:04.31,0:01:08.10,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Ces {\k44}dis{\k46}tances {\k28}nous {\k40}é{\k53}loignent
+Dialogue: 0,0:01:07.00,0:01:12.58,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k43}et {\k46}nous {\k47}ra{\k47}mènent {\k45}à {\k47}nos {\k42}dif{\k44}fé{\k87}rences
+Dialogue: 0,0:01:11.82,0:01:19.99,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Où {\k74}ça {\kf250}mène{\k26} {\k22}quand {\k69}on {\kf249}aime
+Dialogue: 0,0:01:19.19,0:01:26.54,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Est-ce {\k41}que {\k50}seule {\k25}la {\k43}mort {\k41}nous {\k52}sé{\k51}pare {\k39}à {\k51}ja{\kf188}mais
+Dialogue: 0,0:01:27.87,0:01:33.63,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Je {\k29}se{\k27}rai {\k41}l'ar{\k93}mure {\k24}pour {\k30}te {\k36}pro{\k45}té{\kf113}ger
+Dialogue: 0,0:01:34.41,0:01:42.41,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Qu'en{\k70}fin {\k50}tu {\k43}res{\kf170}pires{\k37}, {\k43}li{\k32}bre {\k41}de {\k42}res{\kf114}ter
+Dialogue: 0,0:01:42.74,0:01:48.21,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Ap{\k28}prends-{\k39}moi {\k51}ce {\k46}qu'il {\k51}faut {\k43}com{\kf138}prendre
+Dialogue: 0,0:01:47.37,0:01:56.76,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Ou {\kf233}fuir {\k42}de {\k34}l'en{\k36}vie {\k42}d'un {\k102}homme {\k36}pour {\k30}une {\kf233}femme
+Dialogue: 0,0:01:56.12,0:02:04.26,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Où {\k72}ça {\kf251}mène{\k22} {\k22}quand {\k70}on {\kf247}s'aime
+Dialogue: 0,0:02:03.35,0:02:07.15,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Ces {\k45}dis{\k47}tances {\k25}nous {\k44}é{\k49}loignent
+Dialogue: 0,0:02:06.05,0:02:11.66,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k45}et {\k47}nous {\k46}ra{\k45}mènent {\k46}à {\k49}nos {\k42}dif{\k48}fé{\k83}rences
+Dialogue: 0,0:02:10.89,0:02:19.06,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Où {\k72}ça {\kf249}mène{\k26} {\k25}quand {\k64}on {\kf251}aime
+Dialogue: 0,0:02:18.24,0:02:25.70,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Est-ce {\k42}que {\k54}seule {\k26}la {\k42}mort {\k42}nous {\k49}sé{\k49}pare {\k38}à {\k46}ja{\kf203}mais
+Dialogue: 0,0:02:26.12,0:02:34.34,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k24}D'un {\k69}monde {\k26}à {\k62}l'autre {\k30}il {\k110}est {\k25}tout {\k33}un {\k29}o{\k55}cé{\kf249}an~
+Dialogue: 0,0:02:33.45,0:02:36.30,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Le {\k67}mien, {\k18}le {\k69}tien,
+Dialogue: 0,0:02:35.20,0:02:41.05,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k28}si {\k45}loin {\k20}de {\k120}l'autre {\k26}et {\k25}pour{\kf211}tant
+Dialogue: 0,0:02:40.90,0:02:45.41,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Que {\k74}quel{\k50}qu'un {\k27}me {\k36}par{\kf134}donne
+Dialogue: 0,0:02:44.62,0:02:48.93,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k32}d'en{\k57}core {\k46}vou{\k40}loir {\k34}y {\kf112}croire
+Dialogue: 0,0:02:47.55,0:02:52.97,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Ap{\k30}prends-{\k53}moi {\k39}ce {\k40}qu'un {\kf251}homme
+Dialogue: 0,0:02:52.32,0:03:02.22,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k31}doit {\k46}sa{\kf803}voir~
+Dialogue: 0,0:03:02.50,0:03:06.23,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k55}Ces {\k40}dis{\k48}tances {\k26}nous {\k44}é{\k50}loignent
+Dialogue: 0,0:03:05.13,0:03:10.73,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k46}et {\k44}nous {\k45}ra{\k48}mènent {\k44}à {\k48}nos {\k43}dif{\k48}fé{\k84}rences
+Dialogue: 0,0:03:09.94,0:03:18.09,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Où {\k71}ça {\kf247}mène{\k31} {\k23}quand {\k61}on {\kf250}s'aime
+Dialogue: 0,0:03:17.30,0:03:21.01,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Nos {\k52}er{\k40}rances {\k29}se {\k31}re{\k64}joignent
+Dialogue: 0,0:03:19.91,0:03:25.76,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k38}et {\k50}nous {\k46}ap{\k48}prennent {\k44}sur {\k46}nos {\k42}res{\k50}sem{\kf111}blances
+Dialogue: 0,0:03:24.71,0:03:29.79,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Nos {\k27}res{\k40}sem{\kf304}blances
