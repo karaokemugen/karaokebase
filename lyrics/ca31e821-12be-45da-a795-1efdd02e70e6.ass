@@ -1,0 +1,83 @@
+﻿[Script Info]
+Title: Gib Her!
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 3],Arial,24,&H00FFFFFF,&H002E2FFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.27,0:00:03.45,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k28}Was {\k13}ist {\k36}das {\k41}da?
+Comment: 0,0:00:03.80,0:00:04.99,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k23}Aya{\k20}hu{\k31}as{\k45}ca
+Comment: 0,0:00:05.24,0:00:06.43,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}Was {\k14}ist {\k34}das {\k44}da?
+Comment: 0,0:00:06.74,0:00:07.84,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k21}Hut {\k18}von {\k36}Pra{\k35}da
+Comment: 0,0:00:07.84,0:00:10.34,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}Gib {\k13}mir {\k22}Ket{\k18}ten, {\k23}ich {\k14}will {\k19}sein {\k16}wie {\kf100}du
+Comment: 0,0:00:10.46,0:00:13.46,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}Gib {\k20}mir {\k19}dei{\k16}ne {\k22}Schu{\k13}he {\k20}und {\k18}dei{\k20}ne {\k20}Tat{\kf111}toos
+Comment: 0,0:00:14.16,0:00:15.44,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}Was {\k19}ist {\k32}das {\k51}da?
+Comment: 0,0:00:15.63,0:00:16.78,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k24}Heiß {\k16}wie {\k36}Mag{\k39}ma
+Comment: 0,0:00:17.11,0:00:18.35,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}Ich {\k23}will {\k28}das {\k21}ha{\k27}ben
+Comment: 0,0:00:18.62,0:00:19.74,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k20}Un{\k17}an{\k36}tast{\k39}bar
+Comment: 0,0:00:19.71,0:00:22.17,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}So{\k17}was {\k22}hab' {\k17}ich {\k23}echt {\k13}noch {\k18}nie {\k19}ge{\k97}seh'n
+Comment: 0,0:00:22.32,0:00:25.25,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}Ich {\k16}will {\k21}die{\k16}ses {\k21}Ho{\k16}mo-{\k26}Sa{\k12}pi{\k23}en-{\k18}Ge{\kf105}rät
+Comment: 0,0:00:25.28,0:00:26.39,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k36}Gib {\k75}her
+Comment: 0,0:00:26.20,0:00:28.02,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k19}Wir {\k20}brau{\k16}chen {\k21}die{\k18}se {\k24}Tech{\k12}no{\k20}lo{\k32}gie
+Comment: 0,0:00:28.24,0:00:29.37,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k36}Gib {\k77}her
+Comment: 0,0:00:29.28,0:00:31.13,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k13}Wir {\k17}hab'n {\k15}uns {\k19}in {\k18}das {\k22}Feu{\k16}er {\k21}ver{\k44}liebt
+Comment: 0,0:00:31.20,0:00:32.55,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k38}Gib {\k97}her
+Comment: 0,0:00:32.21,0:00:33.98,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k8}So{\k27}dass {\k13}man {\k20}nachts {\k18}beim {\k24}Schei{\k12}ßen {\k25}was {\k30}sieht
+Comment: 0,0:00:34.17,0:00:36.40,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k37}Gib {\kf186}her
+Comment: 0,0:00:36.29,0:00:38.23,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k10}Wir {\k22}woll'n {\k15}so {\k24}sein {\k13}wie {\kf110}du
+Comment: 0,0:00:37.33,0:00:40.08,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k15}Ich {\k25}komm' {\k13}mit {\k21}ei{\k15}nem {\k27}lau{\k16}ten {\k18}zеr{\k38}rauch{\k15}ten {\k15}Mi{\k57}au
+Comment: 0,0:00:39.93,0:00:41.96,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k15}Und {\k21}al{\k14}le {\k19}klei{\k20}nеn {\k20}Pis{\k14}ser {\k18}im {\k25}Dschun{\k18}gel {\k19}nur
+Comment: 0,0:00:41.96,0:00:43.04,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k35}Wow, {\k17}ist {\k22}der {\k34}schlau
+Comment: 0,0:00:43.04,0:00:46.04,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k24}Gut {\k15}ge{\k62}baut,{\k32} {\k17}ist {\k21}das {\k16}denn {\k22}ü{\k13}ber{\k22}haupt {\k16}er{\k40}laubt?
+Comment: 0,0:00:46.22,0:00:49.22,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k16}Wenn {\k31}ich {\k23}et{\k20}was {\k21}sa{\k16}ge, {\k22}sa{\k16}gen {\k21}an{\k11}de{\k20}re: {\k23}Ge{\k60}nau
+Comment: 0,0:00:49.57,0:00:50.85,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k13}Re{\k25}mem{\k14}ber {\k21}my {\k55}Name
+Comment: 0,0:00:50.85,0:00:52.53,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k34}Scurr-{\k38}Khan, {\k26}der {\k13}dich {\k19}zer{\k38}kaut
+Comment: 0,0:00:52.53,0:00:53.98,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k13}Der {\k22}Typ, {\k16}dem {\k25}dei{\k14}ne {\k19}Ma{\k36}ma
+Comment: 0,0:00:53.98,0:00:55.49,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k16}Und {\k23}ih{\k17}re {\k20}Ma{\k15}ma {\k16}ver{\k44}traut
+Comment: 0,0:00:55.66,0:00:58.40,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k35}Bin {\k31}Cris{\k28}py {\k17}wie {\k36}Chips {\k25}und {\k37}süß {\k14}wie {\k14}Ka{\k37}kao
+Comment: 0,0:00:58.56,0:00:59.72,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k26}Co{\k15}la {\k24}küsst {\k14}O{\k20}ran{\k17}ge
+Comment: 0,0:00:59.72,0:01:01.94,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k22}Mein {\k37}Fell {\k37}glänzt {\k17}wie {\k19}Mor{\k14}gen{\k76}tau
+Dialogue: 0,0:00:01.37,0:00:03.65,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Was {\k13}ist {\k36}das {\k41}da?
+Dialogue: 0,0:00:02.90,0:00:05.19,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Aya{\k20}hu{\k31}as{\k45}ca
+Dialogue: 0,0:00:04.34,0:00:06.63,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Was {\k14}ist {\k34}das {\k44}da?
+Dialogue: 0,0:00:05.84,0:00:08.04,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Hut {\k18}von {\k36}Pra{\k35}da
+Dialogue: 0,0:00:06.94,0:00:10.54,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Gib {\k13}mir {\k22}Ket{\k18}ten, {\k23}ich {\k14}will {\k19}sein {\k16}wie {\kf100}du
+Dialogue: 0,0:00:09.56,0:00:13.66,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Gib {\k20}mir {\k19}dei{\k16}ne {\k22}Schu{\k13}he {\k20}und {\k18}dei{\k20}ne {\k20}Tat{\kf111}toos
+Dialogue: 0,0:00:13.26,0:00:15.64,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Was {\k19}ist {\k32}das {\k51}da?
+Dialogue: 0,0:00:14.73,0:00:16.98,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Heiß {\k16}wie {\k36}Mag{\k39}ma
+Dialogue: 0,0:00:16.21,0:00:18.55,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ich {\k23}will {\k28}das {\k21}ha{\k27}ben
+Dialogue: 0,0:00:17.72,0:00:19.94,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Un{\k17}an{\k36}tast{\k39}bar
+Dialogue: 0,0:00:18.81,0:00:22.37,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}So{\k17}was {\k22}hab' {\k17}ich {\k23}echt {\k13}noch {\k18}nie {\k19}ge{\k97}seh'n
+Dialogue: 0,0:00:21.42,0:00:25.45,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Ich {\k16}will {\k21}die{\k16}ses {\k21}Ho{\k16}mo-{\k26}Sa{\k12}pi{\k23}en-{\k18}Ge{\kf105}rät
+Dialogue: 0,0:00:24.38,0:00:26.59,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Gib {\k75}her
+Dialogue: 0,0:00:25.30,0:00:28.22,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wir {\k20}brau{\k16}chen {\k21}die{\k18}se {\k24}Tech{\k12}no{\k20}lo{\k32}gie
+Dialogue: 0,0:00:27.34,0:00:29.57,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Gib {\k77}her
+Dialogue: 0,0:00:28.38,0:00:31.33,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Wir {\k17}hab'n {\k15}uns {\k19}in {\k18}das {\k22}Feu{\k16}er {\k21}ver{\k44}liebt
+Dialogue: 0,0:00:30.30,0:00:32.75,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Gib {\k97}her
+Dialogue: 0,0:00:31.31,0:00:34.18,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k8}So{\k27}dass {\k13}man {\k20}nachts {\k18}beim {\k24}Schei{\k12}ßen {\k25}was {\k30}sieht
+Dialogue: 0,0:00:33.27,0:00:36.60,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Gib {\kf186}her
+Dialogue: 0,0:00:35.39,0:00:38.43,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Wir {\k22}woll'n {\k15}so {\k24}sein {\k13}wie {\kf110}du
+Dialogue: 0,0:00:36.43,0:00:40.28,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Ich {\k25}komm' {\k13}mit {\k21}ei{\k15}nem {\k27}lau{\k16}ten {\k18}zеr{\k38}rauch{\k15}ten {\k15}Mi{\k57}au
+Dialogue: 0,0:00:39.03,0:00:42.16,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Und {\k21}al{\k14}le {\k19}klei{\k20}nеn {\k20}Pis{\k14}ser {\k18}im {\k25}Dschun{\k18}gel {\k19}nur
+Dialogue: 0,0:00:41.06,0:00:43.24,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Wow, {\k17}ist {\k22}der {\k34}schlau
+Dialogue: 0,0:00:42.14,0:00:46.24,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Gut {\k15}ge{\k62}baut,{\k32} {\k17}ist {\k21}das {\k16}denn {\k22}ü{\k13}ber{\k22}haupt {\k16}er{\k40}laubt?
+Dialogue: 0,0:00:45.32,0:00:49.42,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Wenn {\k31}ich {\k23}et{\k20}was {\k21}sa{\k16}ge, {\k22}sa{\k16}gen {\k21}an{\k11}de{\k20}re: {\k23}Ge{\k60}nau
+Dialogue: 0,0:00:48.67,0:00:51.05,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Re{\k25}mem{\k14}ber {\k21}my {\k55}Name
+Dialogue: 0,0:00:49.95,0:00:52.73,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Scurr-{\k38}Khan, {\k26}der {\k13}dich {\k19}zer{\k38}kaut
+Dialogue: 0,0:00:51.63,0:00:54.18,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Der {\k22}Typ, {\k16}dem {\k25}dei{\k14}ne {\k19}Ma{\k36}ma
+Dialogue: 0,0:00:53.08,0:00:55.69,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Und {\k23}ih{\k17}re {\k20}Ma{\k15}ma {\k16}ver{\k44}traut
+Dialogue: 0,0:00:54.76,0:00:58.60,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Bin {\k31}Cris{\k28}py {\k17}wie {\k36}Chips {\k25}und {\k37}süß {\k14}wie {\k14}Ka{\k37}kao
+Dialogue: 0,0:00:57.66,0:00:59.92,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Co{\k15}la {\k24}küsst {\k14}O{\k20}ran{\k17}ge
+Dialogue: 0,0:00:58.82,0:01:02.14,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Mein {\k37}Fell {\k37}glänzt {\k17}wie {\k19}Mor{\k14}gen{\k76}tau
