@@ -1,0 +1,64 @@
+﻿[Script Info]
+Title: Uten Kekkou
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Jel,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Colon,Arial,24,&H00FFFFFF,&H00FFDB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sutopuri,Arial,24,&H00FFFFFF,&H00C4FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Nanamori,Arial,24,&H00FFFFFF,&H00FF8FBF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Riinu,Arial,24,&H00FFFFFF,&H003132FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Satomi,Arial,24,&H00FFFFFF,&H00FC7EFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Riinu+Root+Colon,Arial,24,&H00FFFFFF,&H0079FF7D,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Jel+Satomi+Nanamori,Arial,24,&H00FFFFFF,&H007E00FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Down],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,0,0,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.78,0:00:08.86,Sutopuri,,0,0,0,karaoke,{\k41}ka{\k22}mi{\k41}sa{\k39}ma {\k39}no {\k40}i{\k60}u {\k23}to{\k20}o{\k36}ri {\k23}ja {\k40}tsu{\k41}ma{\k41}ra{\k18}na{\k84}i
+Comment: 0,0:00:09.20,0:00:15.67,Sutopuri,,0,0,0,karaoke,{\k41}ma{\k22}bu{\k36}shii {\k42}S{\k40}TA{\k41}~{\k41}GE {\k57}wa {\k40}u{\k24}te{\k36}n {\k20}ke{\k20}k{\kf187}kou
+Comment: 0,0:00:30.40,0:00:33.33,Colon,,0,0,0,karaoke,{\k30}ko{\k13}n{\k19}na {\k38}ten{\k39}ki {\k42}ja {\k41}na{\k21}n{\k16}te {\k34}sa
+Comment: 0,0:00:33.61,0:00:36.48,Colon,,0,0,0,karaoke,{\k31}u{\k10}go{\k18}ku {\k38}a{\k43}shi {\k39}wa {\k41}a{\k20}ru {\k21}no {\k26}ni
+Comment: 0,0:00:36.81,0:00:41.14,Satomi,,0,0,0,karaoke,{\k31}in {\k10}za {\k21}o{\k40}he{\k36}ya {\k43}ja {\k39}mot{\k22}ta{\k19}i {\kf160}na{\k12}i
+Comment: 0,0:00:43.17,0:00:46.14,Jel,,0,0,0,karaoke,{\k37}i{\k11}ma {\k17}no {\k37}bo{\k43}ku {\k39}ja {\k40}na{\k20}n{\k18}te {\k35}sa
+Comment: 0,0:00:46.42,0:00:49.36,Riinu,,0,0,0,karaoke,{\k29}da{\k11}i{\k21}ji {\k36}na {\k42}ko{\k40}to {\k39}wa{\k22}su{\k18}re{\k36}te
+Comment: 0,0:00:49.60,0:00:53.46,Nanamori,,0,0,0,karaoke,{\k29}so{\k12}re {\k24}ja {\k36}ra{\k39}shi{\k41}ku{\k25}na{\k17}i {\k41}na {\kf122}nee?
+Comment: 0,0:00:56.20,0:01:01.56,Riinu+Root+Colon,,0,0,0,karaoke,{\k22}a{\k42}me {\k18}wa {\k40}ka{\k40}na{\k36}ra{\k23}zu {\k22}ya{\k18}mu {\k38}to {\k22}i{\k59}u {\k22}ke{\kf134}do
+Comment: 0,0:01:02.60,0:01:07.44,Jel+Satomi+Nanamori,,0,0,0,karaoke,{\k23}i{\k37}ma {\k22}to{\k40}ma{\k39}ru {\k19}ri{\k18}yu{\k25}u {\k21}ni {\k18}wa {\k22}na{\k18}ra{\kf176}na{\k6}i
+Comment: 0,0:01:05.98,0:01:09.14,Riinu+Root+Colon,,0,0,0,karaoke,{\k24}u{\k18}te{\k21}n {\k38}kek{\k41}kou {\k41}jo{\k19}u{\kf114}tou
+Comment: 0,0:01:07.82,0:01:11.20,Jel+Satomi+Nanamori,,0,0,0,karaoke,{\k19}ma{\k20}te{\k22}na{\kf277}i
+Comment: 0,0:01:08.79,0:01:11.62,Riinu+Root+Colon,,0,0,0,karaoke,{\k20}a{\k22}shi{\k20}mo{\k41}to {\k39}ten{\k41}tou {\k40}chuu{\k19}i {\k41}de!
+Comment: 0,0:01:11.60,0:01:14.90,Sutopuri,,0,0,0,karaoke,{\k32}sou{\k31}zou {\k19}i{\k31}jou {\k27}no {\k21}kyo{\k41}u {\k22}wo {\k37}u{\k20}ta{\k49}ou
+Comment: 0,0:01:21.18,0:01:27.14,Sutopuri,,0,0,0,karaoke,{\k44}ka{\k19}mi{\k41}sa{\k39}ma {\k39}no {\k40}i{\k60}u {\k23}to{\k20}o{\k36}ri {\k22}ja {\k40}tsu{\k42}ma{\k40}ra{\k19}na{\k72}i!
+Comment: 0,0:01:27.60,0:01:33.26,Sutopuri,,0,0,0,karaoke,{\k40}da{\k22}i{\k39}hon {\k41}ja {\k36}e{\k42}ga{\k41}ke{\k60}nai {\k41}i{\k22}ma {\k37}ni {\k22}na{\k17}ru {\kf106}yo
+Comment: 0,0:01:34.01,0:01:39.98,Sutopuri,,0,0,0,karaoke,{\k39}mo{\k19}shi {\k42}kit{\k40}to {\k40}un{\k26}me{\k16}i {\k55}de {\k23}ki{\k20}ma{\k40}t{\k20}te{\k37}ta {\k43}so{\k41}ra {\k19}de{\k77}mo
+Comment: 0,0:01:40.41,0:01:46.16,Sutopuri,,0,0,0,karaoke,{\k39}to{\k21}do{\k39}ke{\k41}tai {\k42}ki{\k39}mo{\k39}chi {\k61}wa {\k38}u{\k26}te{\k34}n {\k25}ke{\k14}k{\k117}kou
+Comment: 0,0:01:46.79,0:01:53.28,Sutopuri,,0,0,0,karaoke,{\k81}yo{\k79}hou {\k61}ha{\k12}zu{\k11}re {\k73}no {\k44}mi{\k20}ra{\k39}i {\k20}tsu{\k23}ku{\k186}rou
+Dialogue: 0,0:00:00.00,0:00:02.78,Sample KM [Down],,0,0,0,fx,{\c&H3132FF&}Riinu - {\c&HFFDB00&}Colon - {\c&H00FFF7&}Root = {\c&H79FF7D&}Trio \N {\c&H008AFF&}Jel - {\c&HFF8FBF&}Nanamori - {\c&HFC7EFF&}Satomi = {\c&H7E00FF&}Trio \N {\c&HC4FF00&}Sutopuri
+Dialogue: 0,0:00:01.88,0:00:09.06,Sutopuri,,0,0,0,fx,{\k90\fad(300,200)}{\k41}ka{\k22}mi{\k41}sa{\k39}ma {\k39}no {\k40}i{\k60}u {\k23}to{\k20}o{\k36}ri {\k23}ja {\k40}tsu{\k41}ma{\k41}ra{\k18}na{\k84}i
+Dialogue: 0,0:00:08.30,0:00:15.87,Sutopuri,,0,0,0,fx,{\k90\fad(300,200)}{\k41}ma{\k22}bu{\k36}shii {\k42}S{\k40}TA{\k41}~{\k41}GE {\k57}wa {\k40}u{\k24}te{\k36}n {\k20}ke{\k20}k{\kf187}kou
+Dialogue: 0,0:00:29.50,0:00:33.53,Colon,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ko{\k13}n{\k19}na {\k38}ten{\k39}ki {\k42}ja {\k41}na{\k21}n{\k16}te {\k34}sa
+Dialogue: 0,0:00:32.71,0:00:36.68,Colon,,0,0,0,fx,{\k90\fad(300,200)}{\k31}u{\k10}go{\k18}ku {\k38}a{\k43}shi {\k39}wa {\k41}a{\k20}ru {\k21}no {\k26}ni
+Dialogue: 0,0:00:35.91,0:00:41.34,Satomi,,0,0,0,fx,{\k90\fad(300,200)}{\k31}in {\k10}za {\k21}o{\k40}he{\k36}ya {\k43}ja {\k39}mot{\k22}ta{\k19}i {\kf160}na{\k12}i
+Dialogue: 0,0:00:42.27,0:00:46.34,Jel,,0,0,0,fx,{\k90\fad(300,200)}{\k37}i{\k11}ma {\k17}no {\k37}bo{\k43}ku {\k39}ja {\k40}na{\k20}n{\k18}te {\k35}sa
+Dialogue: 0,0:00:45.52,0:00:49.56,Riinu,,0,0,0,fx,{\k90\fad(300,200)}{\k29}da{\k11}i{\k21}ji {\k36}na {\k42}ko{\k40}to {\k39}wa{\k22}su{\k18}re{\k36}te
+Dialogue: 0,0:00:48.70,0:00:53.66,Nanamori,,0,0,0,fx,{\k90\fad(300,200)}{\k29}so{\k12}re {\k24}ja {\k36}ra{\k39}shi{\k41}ku{\k25}na{\k17}i {\k41}na {\kf122}nee?
+Dialogue: 0,0:00:55.30,0:01:01.76,Riinu+Root+Colon,,0,0,0,fx,{\k90\fad(300,200)}{\k22}a{\k42}me {\k18}wa {\k40}ka{\k40}na{\k36}ra{\k23}zu {\k22}ya{\k18}mu {\k38}to {\k22}i{\k59}u {\k22}ke{\kf134}do
+Dialogue: 0,0:01:01.70,0:01:07.64,Jel+Satomi+Nanamori,,0,0,0,fx,{\k90\fad(300,200)}{\k23}i{\k37}ma {\k22}to{\k40}ma{\k39}ru {\k19}ri{\k18}yu{\k25}u {\k21}ni {\k18}wa {\k22}na{\k18}ra{\kf176}na{\k6}i
+Dialogue: 0,0:01:05.08,0:01:09.34,Riinu+Root+Colon,,0,0,0,fx,{\k90\fad(300,200)}{\k24}u{\k18}te{\k21}n {\k38}kek{\k41}kou {\k41}jo{\k19}u{\kf114}tou
+Dialogue: 0,0:01:06.92,0:01:11.40,Jel+Satomi+Nanamori,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ma{\k20}te{\k22}na{\kf277}i
+Dialogue: 0,0:01:07.89,0:01:11.82,Riinu+Root+Colon,,0,0,0,fx,{\k90\fad(300,200)}{\k20}a{\k22}shi{\k20}mo{\k41}to {\k39}ten{\k41}tou {\k40}chuu{\k19}i {\k41}de!
+Dialogue: 0,0:01:10.70,0:01:15.10,Sutopuri,,0,0,0,fx,{\k90\fad(300,200)}{\k32}sou{\k31}zou {\k19}i{\k31}jou {\k27}no {\k21}kyo{\k41}u {\k22}wo {\k37}u{\k20}ta{\k49}ou
+Dialogue: 0,0:01:20.28,0:01:27.34,Sutopuri,,0,0,0,fx,{\k90\fad(300,200)}{\k44}ka{\k19}mi{\k41}sa{\k39}ma {\k39}no {\k40}i{\k60}u {\k23}to{\k20}o{\k36}ri {\k22}ja {\k40}tsu{\k42}ma{\k40}ra{\k19}na{\k72}i!
+Dialogue: 0,0:01:26.70,0:01:33.46,Sutopuri,,0,0,0,fx,{\k90\fad(300,200)}{\k40}da{\k22}i{\k39}hon {\k41}ja {\k36}e{\k42}ga{\k41}ke{\k60}nai {\k41}i{\k22}ma {\k37}ni {\k22}na{\k17}ru {\kf106}yo
+Dialogue: 0,0:01:33.11,0:01:40.18,Sutopuri,,0,0,0,fx,{\k90\fad(300,200)}{\k39}mo{\k19}shi {\k42}kit{\k40}to {\k40}un{\k26}me{\k16}i {\k55}de {\k23}ki{\k20}ma{\k40}t{\k20}te{\k37}ta {\k43}so{\k41}ra {\k19}de{\k77}mo
+Dialogue: 0,0:01:39.51,0:01:46.36,Sutopuri,,0,0,0,fx,{\k90\fad(300,200)}{\k39}to{\k21}do{\k39}ke{\k41}tai {\k42}ki{\k39}mo{\k39}chi {\k61}wa {\k38}u{\k26}te{\k34}n {\k25}ke{\k14}k{\k117}kou
+Dialogue: 0,0:01:45.89,0:01:53.48,Sutopuri,,0,0,0,fx,{\k90\fad(300,200)}{\k81}yo{\k79}hou {\k61}ha{\k12}zu{\k11}re {\k73}no {\k44}mi{\k20}ra{\k39}i {\k20}tsu{\k23}ku{\k186}rou
