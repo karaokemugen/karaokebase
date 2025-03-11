@@ -1,0 +1,98 @@
+﻿[Script Info]
+Title: Tousou Meisou Mobius Loop
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 0
+PlayResY: 0
+Original Timing: Azurys
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Mari,Arial,24,&H00FFFFFF,&H00C652C2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kanan,Arial,24,&H00FFFFFF,&H00B7C127,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Dia,Arial,24,&H00FFFFFF,&H003908DB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Dia Left,Arial,24,&H00FFFFFF,&H003908DB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,7,15,15,20,1
+Style: Kanan Right,Arial,24,&H00FFFFFF,&H00B7C127,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,9,15,15,20,1
+Style: KananDia Duet,Arial,24,&H00FFFFFF,&H00CE1758,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Aqours UP,Arial,24,&H00FFFFFF,&H00E89F00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: COLOR CODE,Arial,20,&H0000B4FF,&H0000B4FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+Style: Aqours Choir,Arial,24,&H00FFFFFF,&H00CF991F,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: KananDia Duet Choir,Arial,24,&H00FFFFFF,&H00CE1758,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.04,0:00:00.04,Aqours UP,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:03.00,COLOR CODE,,0,0,0,karaoke,{\c&HCE1758&}KananDia Duet {\c&HFFFFFF&}- {\c&HE89F00&}KananMariDia Trio
+Comment: 0,0:00:00.00,0:00:03.00,COLOR CODE,,0,0,0,karaoke,{\c&HAEE813&}Kanan {\c&HFFFFFF&}- {\c&HEB58AE&}Mari {\c&HFFFFFF&}- {\c&H4C3BF2&}Dia
+Comment: 0,0:00:02.52,0:00:04.96,Dia Left,,0,0,0,karaoke,{\k33}ac{\k33}chi{\k25} {\k26}i{\k25}kou {\k36}ka? {\k34}OH {\k32}NO!
+Comment: 0,0:00:04.96,0:00:07.37,Kanan Right,,0,0,0,karaoke,{\k26}koc{\k64}chi {\k20}i{\k26}kou {\k43}ka? {\k29}OH {\k33}NO!
+Comment: 0,0:00:07.37,0:00:11.72,Mari,,0,0,0,karaoke,{\k24}doc{\k63}chi {\k23}i{\k26}kou {\k43}ka? {\rAqours UP}{\k27}wa{\k35}kan{\k29}nai {\k20}nai {\k25}nai {\kf120}naai!
+Comment: 0,0:00:11.87,0:00:14.15,Aqours Choir,,0,0,0,karaoke,{\kf228}GO!
+Comment: 0,0:00:12.10,0:00:16.54,Aqours UP,,0,0,0,karaoke,{\k31}zut{\k31}to {\k28}ji{\k56}yuu {\k59}ni{\k42} {\k29}i{\k25}ki{\k35}te{\k48}tai {\k60}tte
+Comment: 0,0:00:16.97,0:00:21.35,Aqours UP,,0,0,0,karaoke,{\k29}OH {\k31}YEAH{\k29} {\k31}ki {\k27}ga {\k33}tsu{\k30}i{\k60}tan {\k59}da {\k18}i{\k31}soi{\k60}de
+Comment: 0,0:00:21.78,0:00:26.19,Aqours UP,,0,0,0,karaoke,{\k29}ni{\k28}ge{\k32}cha{\k49}ou {\k58}ka?{\k35} {\k38}sou {\k30}ni{\k30}ge{\k48}cha{\k64}e!
+Comment: 0,0:00:26.56,0:00:30.73,Aqours UP,,0,0,0,karaoke,{\k31}ja{\k26}ma {\k33}shi{\k60}nai{\k61}de {\kf97}yo{\k41} {\k41}BYE-{\k27}BYE
+Comment: 0,0:00:31.03,0:00:35.66,Dia,,0,0,0,karaoke,{\k30}ha{\k34}shi{\k59}ri {\k22}na{\k29}ga{\k40}ra{\k31} {\k30}ka{\k28}n{\k30}ga{\k31}e{\k19}ta{\k30}t{\k50}te
+Comment: 0,0:00:36.17,0:00:40.44,Dia,,0,0,0,karaoke,{\k27}a{\k31}se {\k32}to {\k23}a{\k35}se{\k30}ri {\k32}de {\k19}a{\k37}a {\k61}mou {\k23}a{\k19}tsu{\k10}i {\k48}yo
+Comment: 0,0:00:40.65,0:00:45.22,Kanan,,0,0,0,karaoke,{\k30}ko{\k30}e {\k33}wo{\k30} {\k17}da{\k32}shi{\k40}cha{\k29} {\k28}mi{\k33}tsu{\k29}ka{\k23}ri {\k26}so{\k32}u {\k45}to
+Comment: 0,0:00:45.76,0:00:49.48,Kanan,,0,0,0,karaoke,{\k29}ku{\k31}chi {\k29}no {\k32}ka{\k29}ta{\k28}chi {\k28}de {\k35}tsu{\k29}ta{\k21}e{\k28}ru {\k53}yo
+Comment: 0,0:00:49.63,0:00:53.86,Mari,,0,0,0,karaoke,{\k33}no{\k27}bo{\k65}re{\k30} {\k30}o{\k29}ri{\k29}te {\k31}no{\k30}bo{\kf119}re
+Comment: 0,0:00:52.97,0:00:54.72,KananDia Duet Choir,,0,0,0,karaoke,{\k28}mei{\k60}ro {\k23}mi{\k28}tai {\k36}na
+Comment: 0,0:00:54.46,0:00:59.21,Mari,,0,0,0,karaoke,{\k31}wa{\k30}ta{\k60}re{\k30} {\k30}ma{\k30}ga{\k30}re {\k28}wa{\k28}ta{\kf178}re
+Comment: 0,0:00:57.78,0:00:59.66,KananDia Duet Choir,,0,0,0,karaoke,{\k27}dou{\k61}ro {\k17}ki{\k33}ken {\k50}da
+Comment: 0,0:01:00.15,0:01:04.00,Mari,,0,0,0,karaoke,{\k28}ha{\k33}shi{\k24}ri {\k36}su{\k30}gi{\k29}te {\k31}ku{\k25}ru{\k33}shi{\k23}i {\k27}no {\k66}ni
+Comment: 0,0:01:04.24,0:01:04.86,Mari,,0,0,0,karaoke,{\k12}na{\k20}ze{\k30}ka
+Comment: 0,0:01:04.86,0:01:05.44,KananDia Duet Choir,,0,0,0,karaoke,{\k16}mi{\k14}n{\k28}na
+Comment: 0,0:01:05.44,0:01:06.04,Mari,,0,0,0,karaoke,{\k14}wa{\k20}ra{\k26}i
+Comment: 0,0:01:06.04,0:01:06.77,KananDia Duet Choir,,0,0,0,karaoke,{\k13}da{\k21}shi{\k39}te
+Comment: 0,0:01:06.77,0:01:11.76,Aqours UP,,0,0,0,karaoke,{\k29}to{\k60}ma{\k61}ra{\k61}na{\k58}i {\kf230}no
+Comment: 0,0:01:12.47,0:01:16.28,Dia,,0,0,0,karaoke,{\k59}da{\k60}{\rKanan}ka{\k49}{\rMari}ra {\k24}{\rAqours UP}o{\k16}i{\k21}ka{\k11}ke{\k19}ra{\k12}re{\k18}te{\k11}ru {\k29}ha{\k20}zu {\k32}ga
+Comment: 0,0:01:16.56,0:01:18.72,Aqours UP,,0,0,0,karaoke,{\k17}o{\k12}i{\k12}ka{\k20}ke{\k11}te{\k19}ru {\k10}no {\k17}ka{\k11}mo {\k33}hon{\k14}tou {\k40}wa
+Comment: 0,0:01:19.04,0:01:23.52,Aqours UP,,0,0,0,karaoke,{\k23}ku{\k13}ru{\k17}ku{\k28}ru {\k41}tto {\k21}ku{\k10}ru{\k21}ku{\k26}ru {\k46}tto{\k17} {\k39}CIR{\k59}CLE {\k21}e{\k17}ga{\k14}i{\k35}te
+Comment: 0,0:01:23.73,0:01:25.88,Aqours UP,,0,0,0,karaoke,{\k27}tsu{\k17}ka{\k20}ma{\k10}ri {\k19}ta{\k10}ku{\k29}nai {\k31}ke{\k20}re{\k32}do
+Comment: 0,0:01:26.14,0:01:28.37,Aqours UP,,0,0,0,karaoke,{\k31}tsu{\k12}ka{\k15}ma{\k15}e{\k18}te {\k12}mi{\k15}ta{\k14}i {\k51}ne {\k40}tte
+Comment: 0,0:01:28.67,0:01:30.59,KananDia Duet,,0,0,0,karaoke,{\k29}o{\k15}mo{\k34}shi{\k12}ro{\kf102}ku
+Comment: 0,0:01:29.85,0:01:31.10,Mari,,0,0,0,karaoke,{\k32}nat{\k16}te {\k34}ki{\k10}ta {\k33}yo
+Comment: 0,0:01:31.30,0:01:37.12,Aqours UP,,0,0,0,karaoke,{\k37}RUN{\k27}A{\k31}WAY {\k59}FO{\k62}RE{\kf366}VER!?
+Comment: 0,0:01:38.58,0:01:42.92,Aqours UP,,0,0,0,karaoke,{\k28}mot{\k28}to {\k32}ji{\k50}yuu {\k61}ni{\k40} {\k28}i{\k31}ki{\k31}te{\k51}tai {\k54}tte
+Comment: 0,0:01:43.34,0:01:47.64,Aqours UP,,0,0,0,karaoke,{\k31}OH {\k34}YEAH{\k27} {\k30}ki {\k29}ga {\k30}tsu{\k31}i{\k61}tan {\k58}da {\k16}i{\k19}so{\k15}i{\k49}de
+Comment: 0,0:01:48.16,0:01:52.55,Aqours UP,,0,0,0,karaoke,{\k31}ni{\k29}ge{\k30}cha{\k51}ou {\k59}ka?{\k35} {\k34}sou {\k31}ni{\k29}ge{\k52}cha{\k58}e!
+Comment: 0,0:01:52.97,0:01:57.11,Aqours UP,,0,0,0,karaoke,{\k28}ja{\k29}ma {\k33}shi{\k59}nai{\k59}de {\kf99}yo{\k42} {\k40}BYE-{\k25}BYE
+Dialogue: 0,0:00:00.00,0:00:03.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HCE1758&}KananDia Duet {\c&HFFFFFF&}- {\c&HE89F00&}KananMariDia Trio
+Dialogue: 0,0:00:00.00,0:00:03.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HAEE813&}Kanan {\c&HFFFFFF&}- {\c&HEB58AE&}Mari {\c&HFFFFFF&}- {\c&H4C3BF2&}Dia
+Dialogue: 0,0:00:01.62,0:00:05.16,Dia Left,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ac{\k33}chi{\k25} {\k26}i{\k25}kou {\k36}ka? {\k34}OH {\k32}NO!
+Dialogue: 0,0:00:04.06,0:00:07.57,Kanan Right,,0,0,0,fx,{\k90\fad(300,200)}{\k26}koc{\k64}chi {\k20}i{\k26}kou {\k43}ka? {\k29}OH {\k33}NO!
+Dialogue: 0,0:00:06.47,0:00:11.92,Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k24}doc{\k63}chi {\k23}i{\k26}kou {\k43}ka? {\rAqours UP}{\k27}wa{\k35}kan{\k29}nai {\k20}nai {\k25}nai {\kf120}naai!
+Dialogue: 0,0:00:10.97,0:00:14.35,Aqours Choir,,0,0,0,fx,{\k90\fad(300,200)}{\kf228}GO!
+Dialogue: 0,0:00:11.20,0:00:16.74,Aqours UP,,0,0,0,fx,{\k90\fad(300,200)}{\k31}zut{\k31}to {\k28}ji{\k56}yuu {\k59}ni{\k42} {\k29}i{\k25}ki{\k35}te{\k48}tai {\k60}tte
+Dialogue: 0,0:00:16.07,0:00:21.55,Aqours UP,,0,0,0,fx,{\k90\fad(300,200)}{\k29}OH {\k31}YEAH{\k29} {\k31}ki {\k27}ga {\k33}tsu{\k30}i{\k60}tan {\k59}da {\k18}i{\k31}soi{\k60}de
+Dialogue: 0,0:00:20.88,0:00:26.39,Aqours UP,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ni{\k28}ge{\k32}cha{\k49}ou {\k58}ka?{\k35} {\k38}sou {\k30}ni{\k30}ge{\k48}cha{\k64}e!
+Dialogue: 0,0:00:25.66,0:00:30.93,Aqours UP,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ja{\k26}ma {\k33}shi{\k60}nai{\k61}de {\kf97}yo{\k41} {\k41}BYE-{\k27}BYE
+Dialogue: 0,0:00:30.13,0:00:35.86,Dia,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ha{\k34}shi{\k59}ri {\k22}na{\k29}ga{\k40}ra{\k31} {\k30}ka{\k28}n{\k30}ga{\k31}e{\k19}ta{\k30}t{\k50}te
+Dialogue: 0,0:00:35.27,0:00:40.64,Dia,,0,0,0,fx,{\k90\fad(300,200)}{\k27}a{\k31}se {\k32}to {\k23}a{\k35}se{\k30}ri {\k32}de {\k19}a{\k37}a {\k61}mou {\k23}a{\k19}tsu{\k10}i {\k48}yo
+Dialogue: 0,0:00:39.75,0:00:45.42,Kanan,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ko{\k30}e {\k33}wo{\k30} {\k17}da{\k32}shi{\k40}cha{\k29} {\k28}mi{\k33}tsu{\k29}ka{\k23}ri {\k26}so{\k32}u {\k45}to
+Dialogue: 0,0:00:44.86,0:00:49.68,Kanan,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ku{\k31}chi {\k29}no {\k32}ka{\k29}ta{\k28}chi {\k28}de {\k35}tsu{\k29}ta{\k21}e{\k28}ru {\k53}yo
+Dialogue: 0,0:00:48.73,0:00:54.06,Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k33}no{\k27}bo{\k65}re{\k30} {\k30}o{\k29}ri{\k29}te {\k31}no{\k30}bo{\kf119}re
+Dialogue: 0,0:00:52.07,0:00:54.92,KananDia Duet Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k28}mei{\k60}ro {\k23}mi{\k28}tai {\k36}na
+Dialogue: 0,0:00:53.56,0:00:59.41,Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k31}wa{\k30}ta{\k60}re{\k30} {\k30}ma{\k30}ga{\k30}re {\k28}wa{\k28}ta{\kf178}re
+Dialogue: 0,0:00:56.88,0:00:59.86,KananDia Duet Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k27}dou{\k61}ro {\k17}ki{\k33}ken {\k50}da
+Dialogue: 0,0:00:59.25,0:01:04.20,Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ha{\k33}shi{\k24}ri {\k36}su{\k30}gi{\k29}te {\k31}ku{\k25}ru{\k33}shi{\k23}i {\k27}no {\k66}ni
+Dialogue: 0,0:01:03.34,0:01:05.06,Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k12}na{\k20}ze{\k30}ka
+Dialogue: 0,0:01:03.96,0:01:05.64,KananDia Duet Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k16}mi{\k14}n{\k28}na
+Dialogue: 0,0:01:04.54,0:01:06.24,Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k14}wa{\k20}ra{\k26}i
+Dialogue: 0,0:01:05.14,0:01:06.97,KananDia Duet Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k13}da{\k21}shi{\k39}te
+Dialogue: 0,0:01:05.87,0:01:11.96,Aqours UP,,0,0,0,fx,{\k90\fad(300,200)}{\k29}to{\k60}ma{\k61}ra{\k61}na{\k58}i {\kf230}no
+Dialogue: 0,0:01:11.57,0:01:16.48,Dia,,0,0,0,fx,{\k90\fad(300,200)}{\k59}da{\k60}{\rKanan}ka{\k49}{\rMari}ra {\k24}{\rAqours UP}o{\k16}i{\k21}ka{\k11}ke{\k19}ra{\k12}re{\k18}te{\k11}ru {\k29}ha{\k20}zu {\k32}ga
+Dialogue: 0,0:01:15.66,0:01:18.92,Aqours UP,,0,0,0,fx,{\k90\fad(300,200)}{\k17}o{\k12}i{\k12}ka{\k20}ke{\k11}te{\k19}ru {\k10}no {\k17}ka{\k11}mo {\k33}hon{\k14}tou {\k40}wa
+Dialogue: 0,0:01:18.14,0:01:23.72,Aqours UP,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ku{\k13}ru{\k17}ku{\k28}ru {\k41}tto {\k21}ku{\k10}ru{\k21}ku{\k26}ru {\k46}tto{\k17} {\k39}CIR{\k59}CLE {\k21}e{\k17}ga{\k14}i{\k35}te
+Dialogue: 0,0:01:22.83,0:01:26.08,Aqours UP,,0,0,0,fx,{\k90\fad(300,200)}{\k27}tsu{\k17}ka{\k20}ma{\k10}ri {\k19}ta{\k10}ku{\k29}nai {\k31}ke{\k20}re{\k32}do
+Dialogue: 0,0:01:25.24,0:01:28.57,Aqours UP,,0,0,0,fx,{\k90\fad(300,200)}{\k31}tsu{\k12}ka{\k15}ma{\k15}e{\k18}te {\k12}mi{\k15}ta{\k14}i {\k51}ne {\k40}tte
+Dialogue: 0,0:01:27.77,0:01:30.79,KananDia Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k29}o{\k15}mo{\k34}shi{\k12}ro{\kf102}ku
+Dialogue: 0,0:01:28.95,0:01:31.30,Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k32}nat{\k16}te {\k34}ki{\k10}ta {\k33}yo
+Dialogue: 0,0:01:30.40,0:01:37.32,Aqours UP,,0,0,0,fx,{\k90\fad(300,200)}{\k37}RUN{\k27}A{\k31}WAY {\k59}FO{\k62}RE{\kf366}VER!?
+Dialogue: 0,0:01:37.68,0:01:43.12,Aqours UP,,0,0,0,fx,{\k90\fad(300,200)}{\k28}mot{\k28}to {\k32}ji{\k50}yuu {\k61}ni{\k40} {\k28}i{\k31}ki{\k31}te{\k51}tai {\k54}tte
+Dialogue: 0,0:01:42.44,0:01:47.84,Aqours UP,,0,0,0,fx,{\k90\fad(300,200)}{\k31}OH {\k34}YEAH{\k27} {\k30}ki {\k29}ga {\k30}tsu{\k31}i{\k61}tan {\k58}da {\k16}i{\k19}so{\k15}i{\k49}de
+Dialogue: 0,0:01:47.26,0:01:52.75,Aqours UP,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ni{\k29}ge{\k30}cha{\k51}ou {\k59}ka?{\k35} {\k34}sou {\k31}ni{\k29}ge{\k52}cha{\k58}e!
+Dialogue: 0,0:01:52.07,0:01:57.31,Aqours UP,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ja{\k29}ma {\k33}shi{\k59}nai{\k59}de {\kf99}yo{\k42} {\k40}BYE-{\k25}BYE
