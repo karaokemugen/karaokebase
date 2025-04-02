@@ -1,0 +1,128 @@
+﻿[Script Info]
+Title: Legend-Changer
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Naruse
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sirius,Arial,24,&H00FFFFFF,&H001BAD20,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Orfevre,Arial,24,&H00FFFFFF,&H001E1FDA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Gentildonna,Arial,24,&H00FFFFFF,&H00157BB0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:09.46,0:00:11.33,Sirius,,0,0,0,karaoke,{\k28}sa{\k17}ma{\k32}se {\k37}hon{\k34}nou {\k39}wo
+Comment: 0,0:00:11.33,0:00:13.01,Gentildonna,,0,0,0,karaoke,{\k17}o{\k19}ko{\k22}se {\k43}kan{\k30}dou {\k37}wo
+Comment: 0,0:00:13.01,0:00:14.74,Orfevre,,0,0,0,karaoke,{\k24}ki{\k25}sa{\k21}me {\k22}den{\k38}se{\k7}tsu {\k36}wo
+Comment: 0,0:00:14.74,0:00:16.56,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k26}sa{\k23}ke{\k16}be {\k46}BREAK {\k71}OUT!!
+Comment: 0,0:00:18.16,0:00:20.01,Sample KM [Choir],,0,0,0,karaoke,{\k22}wo{\k19}o{\k22}o {\k45}wo{\k77}o
+Comment: 0,0:00:21.34,0:00:23.29,Sample KM [Choir],,0,0,0,karaoke,{\k43}BREAK {\k40}BREAK {\k46}BREAK {\k66}OUT!!
+Comment: 0,0:00:24.93,0:00:26.71,Sample KM [Choir],,0,0,0,karaoke,{\k22}wo{\k19}o{\k22}o {\k45}wo{\k70}o
+Comment: 0,0:00:28.04,0:00:30.06,Sample KM [Choir],,0,0,0,karaoke,{\k43}BREAK {\k40}BREAK {\k46}BREAK {\k73}OUT!!
+Comment: 0,0:00:29.61,0:00:32.88,Sirius,,0,0,0,karaoke,{\k21}ha{\k15}na{\k13}re{\k30}te {\k16}iku {\k5}a{\k14}shi{\k22}o{\k28}to {\k18}ku{\k17}ya{\k9}shi{\k12}ku{\k19}nai {\k10}no {\k78}ka?
+Comment: 0,0:00:32.88,0:00:36.29,Sirius,,0,0,0,karaoke,{\k22}sa{\k17}bi{\k19}re{\k23}te {\k14}i{\k16}ku {\k4}bu{\k20}tai {\k10}wo {\k31}mae {\k17}ni {\k5}u{\k18}ro{\k18}ta{\k14}e{\k12}ru {\k10}no {\k71}ka?
+Comment: 0,0:00:36.29,0:00:39.61,Gentildonna,,0,0,0,karaoke,{\k18}a{\k14}ra{\k18}gat{\k31}te {\k23}ki{\k10}ri{\k20}hi{\k32}rai{\k13}te {\k7}mi{\k19}kae{\k10}su {\k35}ban {\k82}da
+Comment: 0,0:00:39.61,0:00:43.59,Orfevre,,0,0,0,karaoke,{\k17}me {\k20}wo {\k13}ha{\k20}na{\k16}su{\k14}na {\k22}re{\k16}ki{\k20}shi {\k19}wo {\k14}nu{\k20}ri{\k12}ka{\k26}e{\k21}te {\k25}ya{\k10}ru {\kf93}sa
+Comment: 0,0:00:43.59,0:00:46.64,Sirius,,0,0,0,karaoke,{\k39}dan{\k41}dan{\k40}dan{\k40}dan{\k35}dan {\k10}a{\k33}gat{\k67}tek'
+Comment: 0,0:00:43.59,0:00:46.64,Gentildonna,,0,0,0,karaoke,{\k39}dan{\k41}dan{\k40}dan{\k40}dan{\k35}dan {\k10}a{\k33}gat{\k67}tek'
+Comment: 0,0:00:46.93,0:00:50.14,Orfevre,,0,0,0,karaoke,{\k34}kan{\k45}sei {\k21}ma{\k22}ki{\k32}o{\k20}ko{\k26}su {\k42}DEAD {\k79}HEAT
+Comment: 0,0:00:50.19,0:00:53.38,Sirius,,0,0,0,karaoke,{\k39}dan{\k41}dan{\k40}dan{\k40}dan{\k35}dan{\k19} se{\k38}mat{\k67}tek'
+Comment: 0,0:00:50.19,0:00:53.38,Gentildonna,,0,0,0,karaoke,{\k39}dan{\k41}dan{\k40}dan{\k40}dan{\k35}dan{\k19} se{\k38}mat{\k67}tek'
+Comment: 0,0:00:53.38,0:00:56.94,Orfevre,,0,0,0,karaoke,{\k20}a{\k24}to{\k15}su{\k24}ko{\k30}shi {\k32}se{\k20}me{\k14}gi{\k22}au {\k40}SYM{\k24}PA{\kf91}THY
+Comment: 0,0:00:56.54,0:00:57.34,Sample KM [Choir],,0,0,0,karaoke,{\k39}FIGHT {\k41}ON!!
+Comment: 0,0:00:57.34,0:00:58.08,Sirius,,0,0,0,karaoke,{\k9}i{\k14}do{\k14}mi{\k37}tai
+Comment: 0,0:00:58.09,0:00:59.01,Sample KM [Choir],,0,0,0,karaoke,{\k46}FIGHT {\k46}ON!!
+Comment: 0,0:00:59.01,0:00:59.73,Orfevre,,0,0,0,karaoke,{\k13}tsu{\k18}ka{\k15}mi{\k26}tai
+Comment: 0,0:00:59.76,0:01:00.64,Sample KM [Choir],,0,0,0,karaoke,{\k48}FIGHT {\k40}ON!!
+Comment: 0,0:01:00.64,0:01:01.46,Gentildonna,,0,0,0,karaoke,{\k14}ki{\k15}za{\k16}mi{\k37}tai
+Comment: 0,0:01:01.46,0:01:02.24,Sample KM [Choir],,0,0,0,karaoke,{\k40}FIGHT {\k38}ON!!
+Comment: 0,0:01:02.26,0:01:03.43,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k18}tsu{\k17}ta{\k12}e{\k70}tai
+Comment: 0,0:01:03.78,0:01:06.09,Orfevre,,0,0,0,karaoke,{\k28}ka{\k14}ku{\k38}mei {\k7}no {\k18}hi{\k19}bu{\k10}ta {\k25}kit{\k72}te
+Comment: 0,0:01:06.09,0:01:09.29,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k31}den{\k28}se{\k13}tsu {\k15}no {\k13}ha{\k22}ta {\k12}ka{\k20}ka{\k10}ge{\k17}te {\k25}yu{\k65}ko{\k49}u
+Comment: 0,0:01:09.29,0:01:11.26,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k55}saa {\k40}LE{\k39}GEND-{\k30}CHAN{\k33}GER
+Comment: 0,0:01:11.26,0:01:12.94,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k41}ROCK {\k20}ni {\k24}to{\k11}bi{\k35}kon{\k37}de
+Comment: 0,0:01:12.94,0:01:16.48,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k35}nek{\k29}kyo{\k17}u {\k25}o{\k24}ko{\k12}su {\k24}to{\k32}u{\k12}ji{\k21}sha {\k16}ni {\k20}na{\k87}re
+Comment: 0,0:01:16.48,0:01:17.94,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k37}LE{\k43}GEND-{\k35}CHAN{\k31}GER
+Comment: 0,0:01:17.94,0:01:19.58,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k39}dai{\k25}tan {\k22}ni {\k7}i{\k31}kou {\k40}ze
+Comment: 0,0:01:19.58,0:01:21.28,Sirius,,0,0,0,karaoke,{\k39}hon{\k26}no{\k11}u {\k29}sa{\k25}ma{\k40}se
+Comment: 0,0:01:21.28,0:01:22.94,Gentildonna,,0,0,0,karaoke,{\k42}kan{\k19}do{\k27}u {\k15}o{\k26}ko{\k37}se
+Comment: 0,0:01:22.94,0:01:24.81,Orfevre,,0,0,0,karaoke,{\k35}den{\k27}se{\k19}tsu {\k18}ki{\k45}sa{\k43}me
+Comment: 0,0:01:24.81,0:01:26.73,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k19}dai{\k12}chi {\k6}TO {\k20}KICK {\k8}TO {\k22}KICK {\k8}TO {\k27}KICK {\k70}BREAK!!
+Comment: 0,0:01:40.04,0:01:43.38,Orfevre,,0,0,0,karaoke,{\k20}mu{\k20}su{\k21}u {\k28}no {\k6}a{\k27}shi{\k19}a{\k29}to {\k8}ni {\k23}mi{\k9}ru {\k36}ei{\k47}kan {\k41}wo
+Comment: 0,0:01:43.38,0:01:46.56,Orfevre,,0,0,0,karaoke,{\k16}a{\k23}ko{\k20}ga{\k21}re {\k13}ni {\k31}shi{\k13}te {\k9}o{\k21}wa{\k5}ra{\k27}se{\k9}ru {\kf110}na
+Comment: 0,0:01:46.64,0:01:49.38,Gentildonna,,0,0,0,karaoke,{\k17}ta{\k23}ku{\k20}sa{\k28}re{\k15}ta {\k21}yu{\k24}me {\k15}ga {\k17}se{\k21}ki {\k12}wo {\k18}kit{\k43}te
+Comment: 0,0:01:49.38,0:01:55.99,Sirius,,0,0,0,karaoke,{\k25}i{\k33}ma, {\k28}wa{\k15}ta{\k27}shi {\k43}no {\k29}tou{\k18}shi {\k15}he {\k40}to {\k24}ka{\k37}wa{\k42}t{\kf144}te {\k28}yu{\kf113}ku
+Comment: 0,0:01:49.38,0:01:55.99,Gentildonna,,0,0,0,karaoke,{\k25}i{\k33}ma, {\k28}wa{\k15}ta{\k27}shi {\k43}no {\k29}tou{\k18}shi {\k15}he {\k40}to {\k24}ka{\k37}wa{\k42}t{\kf144}te {\k28}yu{\kf113}ku
+Comment: 0,0:01:55.99,0:01:57.98,Orfevre,,0,0,0,karaoke,{\k52}saa {\k41}LE{\k41}GEND-{\k30}CHAN{\k35}GER
+Comment: 0,0:01:57.98,0:01:59.64,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k38}ROCK {\k23}ni {\k24}to{\k11}bi{\k28}kon{\k42}de
+Comment: 0,0:01:59.64,0:02:03.11,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k35}nek{\k29}kyo{\k17}u {\k25}o{\k24}ko{\k12}su {\k24}to{\k32}u{\k12}ji{\k21}sha {\k16}ni {\k20}na{\k80}re
+Comment: 0,0:02:03.11,0:02:04.64,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k37}LE{\k43}GEND-{\k35}CHAN{\k38}GER
+Comment: 0,0:02:04.64,0:02:06.29,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k39}dai{\k25}tan {\k22}ni {\k7}i{\k31}kou {\k41}ze
+Comment: 0,0:02:06.29,0:02:07.94,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k39}hon{\k26}no{\k11}u {\k29}sa{\k22}ma{\k38}se
+Comment: 0,0:02:07.94,0:02:09.66,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k42}kan{\k19}do{\k27}u {\k15}o{\k26}ko{\k43}se
+Comment: 0,0:02:09.66,0:02:11.48,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k35}den{\k22}se{\k24}tsu {\k18}ki{\k45}sa{\k38}me
+Comment: 0,0:02:11.48,0:02:13.28,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k19}dai{\k12}chi {\k6}TO {\k20}KICK {\k8}TO {\k22}KICK {\k8}TO {\k27}KICK {\k58}BREAK!!
+Comment: 0,0:02:15.08,0:02:16.84,Sample KM [Choir],,0,0,0,karaoke,{\k22}wo{\k19}o{\k22}o {\k45}wo{\k68}o
+Comment: 0,0:02:18.26,0:02:20.33,Sample KM [Choir],,0,0,0,karaoke,{\k43}BREAK {\k40}BREAK {\k46}BREAK {\k78}OUT!!
+Dialogue: 0,0:00:08.56,0:00:11.53,Sirius,,0,0,0,fx,{\k90\fad(300,200)}{\k28}sa{\k17}ma{\k32}se {\k37}hon{\k34}nou {\k39}wo
+Dialogue: 0,0:00:10.43,0:00:13.21,Gentildonna,,0,0,0,fx,{\k90\fad(300,200)}{\k17}o{\k19}ko{\k22}se {\k43}kan{\k30}dou {\k37}wo
+Dialogue: 0,0:00:12.11,0:00:14.94,Orfevre,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ki{\k25}sa{\k21}me {\k22}den{\k38}se{\k7}tsu {\k36}wo
+Dialogue: 0,0:00:13.84,0:00:16.76,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k26}sa{\k23}ke{\k16}be {\k46}BREAK {\k71}OUT!!
+Dialogue: 0,0:00:17.26,0:00:20.21,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}wo{\k19}o{\k22}o {\k45}wo{\k77}o
+Dialogue: 0,0:00:20.44,0:00:23.49,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k43}BREAK {\k40}BREAK {\k46}BREAK {\k66}OUT!!
+Dialogue: 0,0:00:24.03,0:00:26.91,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}wo{\k19}o{\k22}o {\k45}wo{\k70}o
+Dialogue: 0,0:00:27.14,0:00:30.26,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k43}BREAK {\k40}BREAK {\k46}BREAK {\k73}OUT!!
+Dialogue: 0,0:00:28.71,0:00:33.08,Sirius,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ha{\k15}na{\k13}re{\k30}te {\k16}iku {\k5}a{\k14}shi{\k22}o{\k28}to {\k18}ku{\k17}ya{\k9}shi{\k12}ku{\k19}nai {\k10}no {\k78}ka?
+Dialogue: 0,0:00:31.98,0:00:36.49,Sirius,,0,0,0,fx,{\k90\fad(300,200)}{\k22}sa{\k17}bi{\k19}re{\k23}te {\k14}i{\k16}ku {\k4}bu{\k20}tai {\k10}wo {\k31}mae {\k17}ni {\k5}u{\k18}ro{\k18}ta{\k14}e{\k12}ru {\k10}no {\k71}ka?
+Dialogue: 0,0:00:35.39,0:00:39.81,Gentildonna,,0,0,0,fx,{\k90\fad(300,200)}{\k18}a{\k14}ra{\k18}gat{\k31}te {\k23}ki{\k10}ri{\k20}hi{\k32}rai{\k13}te {\k7}mi{\k19}kae{\k10}su {\k35}ban {\k82}da
+Dialogue: 0,0:00:38.71,0:00:43.79,Orfevre,,0,0,0,fx,{\k90\fad(300,200)}{\k17}me {\k20}wo {\k13}ha{\k20}na{\k16}su{\k14}na {\k22}re{\k16}ki{\k20}shi {\k19}wo {\k14}nu{\k20}ri{\k12}ka{\k26}e{\k21}te {\k25}ya{\k10}ru {\kf93}sa
+Dialogue: 0,0:00:42.69,0:00:46.84,Sirius,,0,0,0,fx,{\k90\fad(300,200)}{\k39}dan{\k41}dan{\k40}dan{\k40}dan{\k35}dan {\k10}a{\k33}gat{\k67}tek'
+Dialogue: 0,0:00:42.69,0:00:46.84,Gentildonna,,0,0,0,fx,{\k90\fad(300,200)}{\k39}dan{\k41}dan{\k40}dan{\k40}dan{\k35}dan {\k10}a{\k33}gat{\k67}tek'
+Dialogue: 0,0:00:46.03,0:00:50.34,Orfevre,,0,0,0,fx,{\k90\fad(300,200)}{\k34}kan{\k45}sei {\k21}ma{\k22}ki{\k32}o{\k20}ko{\k26}su {\k42}DEAD {\k79}HEAT
+Dialogue: 0,0:00:49.29,0:00:53.58,Sirius,,0,0,0,fx,{\k90\fad(300,200)}{\k39}dan{\k41}dan{\k40}dan{\k40}dan{\k35}dan{\k19} se{\k38}mat{\k67}tek'
+Dialogue: 0,0:00:49.29,0:00:53.58,Gentildonna,,0,0,0,fx,{\k90\fad(300,200)}{\k39}dan{\k41}dan{\k40}dan{\k40}dan{\k35}dan{\k19} se{\k38}mat{\k67}tek'
+Dialogue: 0,0:00:52.48,0:00:57.14,Orfevre,,0,0,0,fx,{\k90\fad(300,200)}{\k20}a{\k24}to{\k15}su{\k24}ko{\k30}shi {\k32}se{\k20}me{\k14}gi{\k22}au {\k40}SYM{\k24}PA{\kf91}THY
+Dialogue: 0,0:00:55.64,0:00:57.54,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}FIGHT {\k41}ON!!
+Dialogue: 0,0:00:56.44,0:00:58.28,Sirius,,0,0,0,fx,{\k90\fad(300,200)}{\k9}i{\k14}do{\k14}mi{\k37}tai
+Dialogue: 0,0:00:57.19,0:00:59.21,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}FIGHT {\k46}ON!!
+Dialogue: 0,0:00:58.11,0:00:59.93,Orfevre,,0,0,0,fx,{\k90\fad(300,200)}{\k13}tsu{\k18}ka{\k15}mi{\k26}tai
+Dialogue: 0,0:00:58.86,0:01:00.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k48}FIGHT {\k40}ON!!
+Dialogue: 0,0:00:59.74,0:01:01.66,Gentildonna,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ki{\k15}za{\k16}mi{\k37}tai
+Dialogue: 0,0:01:00.56,0:01:02.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k40}FIGHT {\k38}ON!!
+Dialogue: 0,0:01:01.36,0:01:03.63,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k18}tsu{\k17}ta{\k12}e{\k70}tai
+Dialogue: 0,0:01:02.88,0:01:06.29,Orfevre,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ka{\k14}ku{\k38}mei {\k7}no {\k18}hi{\k19}bu{\k10}ta {\k25}kit{\k72}te
+Dialogue: 0,0:01:05.19,0:01:09.49,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k31}den{\k28}se{\k13}tsu {\k15}no {\k13}ha{\k22}ta {\k12}ka{\k20}ka{\k10}ge{\k17}te {\k25}yu{\k65}ko{\k49}u
+Dialogue: 0,0:01:08.39,0:01:11.46,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k55}saa {\k40}LE{\k39}GEND-{\k30}CHAN{\k33}GER
+Dialogue: 0,0:01:10.36,0:01:13.14,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k41}ROCK {\k20}ni {\k24}to{\k11}bi{\k35}kon{\k37}de
+Dialogue: 0,0:01:12.04,0:01:16.68,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k35}nek{\k29}kyo{\k17}u {\k25}o{\k24}ko{\k12}su {\k24}to{\k32}u{\k12}ji{\k21}sha {\k16}ni {\k20}na{\k87}re
+Dialogue: 0,0:01:15.58,0:01:18.14,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k37}LE{\k43}GEND-{\k35}CHAN{\k31}GER
+Dialogue: 0,0:01:17.04,0:01:19.78,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k39}dai{\k25}tan {\k22}ni {\k7}i{\k31}kou {\k40}ze
+Dialogue: 0,0:01:18.68,0:01:21.48,Sirius,,0,0,0,fx,{\k90\fad(300,200)}{\k39}hon{\k26}no{\k11}u {\k29}sa{\k25}ma{\k40}se
+Dialogue: 0,0:01:20.38,0:01:23.14,Gentildonna,,0,0,0,fx,{\k90\fad(300,200)}{\k42}kan{\k19}do{\k27}u {\k15}o{\k26}ko{\k37}se
+Dialogue: 0,0:01:22.04,0:01:25.01,Orfevre,,0,0,0,fx,{\k90\fad(300,200)}{\k35}den{\k27}se{\k19}tsu {\k18}ki{\k45}sa{\k43}me
+Dialogue: 0,0:01:23.91,0:01:26.93,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k19}dai{\k12}chi {\k6}TO {\k20}KICK {\k8}TO {\k22}KICK {\k8}TO {\k27}KICK {\k70}BREAK!!
+Dialogue: 0,0:01:39.14,0:01:43.58,Orfevre,,0,0,0,fx,{\k90\fad(300,200)}{\k20}mu{\k20}su{\k21}u {\k28}no {\k6}a{\k27}shi{\k19}a{\k29}to {\k8}ni {\k23}mi{\k9}ru {\k36}ei{\k47}kan {\k41}wo
+Dialogue: 0,0:01:42.48,0:01:46.76,Orfevre,,0,0,0,fx,{\k90\fad(300,200)}{\k16}a{\k23}ko{\k20}ga{\k21}re {\k13}ni {\k31}shi{\k13}te {\k9}o{\k21}wa{\k5}ra{\k27}se{\k9}ru {\kf110}na
+Dialogue: 0,0:01:45.74,0:01:49.58,Gentildonna,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ta{\k23}ku{\k20}sa{\k28}re{\k15}ta {\k21}yu{\k24}me {\k15}ga {\k17}se{\k21}ki {\k12}wo {\k18}kit{\k43}te
+Dialogue: 0,0:01:48.48,0:01:56.19,Sirius,,0,0,0,fx,{\k90\fad(300,200)}{\k25}i{\k33}ma, {\k28}wa{\k15}ta{\k27}shi {\k43}no {\k29}tou{\k18}shi {\k15}he {\k40}to {\k24}ka{\k37}wa{\k42}t{\kf144}te {\k28}yu{\kf113}ku
+Dialogue: 0,0:01:48.48,0:01:56.19,Gentildonna,,0,0,0,fx,{\k90\fad(300,200)}{\k25}i{\k33}ma, {\k28}wa{\k15}ta{\k27}shi {\k43}no {\k29}tou{\k18}shi {\k15}he {\k40}to {\k24}ka{\k37}wa{\k42}t{\kf144}te {\k28}yu{\kf113}ku
+Dialogue: 0,0:01:55.09,0:01:58.18,Orfevre,,0,0,0,fx,{\k90\fad(300,200)}{\k52}saa {\k41}LE{\k41}GEND-{\k30}CHAN{\k35}GER
+Dialogue: 0,0:01:57.08,0:01:59.84,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k38}ROCK {\k23}ni {\k24}to{\k11}bi{\k28}kon{\k42}de
+Dialogue: 0,0:01:58.74,0:02:03.31,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k35}nek{\k29}kyo{\k17}u {\k25}o{\k24}ko{\k12}su {\k24}to{\k32}u{\k12}ji{\k21}sha {\k16}ni {\k20}na{\k80}re
+Dialogue: 0,0:02:02.21,0:02:04.84,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k37}LE{\k43}GEND-{\k35}CHAN{\k38}GER
+Dialogue: 0,0:02:03.74,0:02:06.49,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k39}dai{\k25}tan {\k22}ni {\k7}i{\k31}kou {\k41}ze
+Dialogue: 0,0:02:05.39,0:02:08.14,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k39}hon{\k26}no{\k11}u {\k29}sa{\k22}ma{\k38}se
+Dialogue: 0,0:02:07.04,0:02:09.86,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k42}kan{\k19}do{\k27}u {\k15}o{\k26}ko{\k43}se
+Dialogue: 0,0:02:08.76,0:02:11.68,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k35}den{\k22}se{\k24}tsu {\k18}ki{\k45}sa{\k38}me
+Dialogue: 0,0:02:10.58,0:02:13.48,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k19}dai{\k12}chi {\k6}TO {\k20}KICK {\k8}TO {\k22}KICK {\k8}TO {\k27}KICK {\k58}BREAK!!
+Dialogue: 0,0:02:14.18,0:02:17.04,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}wo{\k19}o{\k22}o {\k45}wo{\k68}o
+Dialogue: 0,0:02:17.36,0:02:20.53,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k43}BREAK {\k40}BREAK {\k46}BREAK {\k78}OUT!!
