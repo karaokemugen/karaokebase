@@ -4,57 +4,73 @@ ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Original Timing: NoverMaC
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,24,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 1,0:00:17.34,0:00:19.38,Default,,0,0,0,karaoke,{\k25}zhe {\k37}chuang {\k40}wai {\k25}zhe {\k25}ye {\k40}se
-Comment: 1,0:00:19.28,0:00:20.60,Default,,0,0,0,karaoke,{\k34}liu {\k15}guang {\k18}yi {\k53}cai
-Comment: 1,0:00:21.31,0:00:23.47,Default,,0,0,0,karaoke,{\k28}bie {\k37}wang {\k37}le {\k21}bi {\k37}shang {\k43}yan
-Comment: 1,0:00:23.37,0:00:24.53,Default,,0,0,0,karaoke,{\k25}cai {\k21}suan {\k15}xing {\k43}lai
-Comment: 1,0:00:25.31,0:00:27.38,Default,,0,0,0,karaoke,{\k21}ni {\k34}can {\k46}yan {\k25}zhe {\k34}chang {\k34}xi
-Comment: 1,0:00:27.28,0:00:29.13,Default,,0,0,0,karaoke,{\k28}bian {\k37}huan {\k31}zi {\k78}tai
-Comment: 1,0:00:29.12,0:00:31.44,Default,,0,0,0,karaoke,{\k25}mi {\k43}di {\k25}jie {\k46}ju {\k25}wo {\k56}gai
-Comment: 1,0:00:31.46,0:00:32.63,Default,,0,0,0,karaoke,{\k43}zen {\k37}me {\k25}cai
-Comment: 1,0:00:33.96,0:00:36.00,Default,,0,0,0,karaoke,{\k53}ji {\k50}yi {\k50}shi {\k40}meng
-Comment: 1,0:00:36.03,0:00:39.91,Default,,0,0,0,karaoke,{\k43}de {\k46}kai {\k50}chang {\k43}bai {\k18}shang {\k25}ba {\k12}bei {\k137}yan
-Comment: 1,0:00:38.65,0:00:41.41,Default,,0,0,0,karaoke,{\k59}gai {\k25}zuo {\k25}ri {\k25}hai {\k131}zai
-Comment: 1,0:00:42.00,0:00:49.10,Default,,0,0,0,karaoke,{\k46}shi {\k50}jian {\k46}zai {\k56}jing {\k46}hou {\k53}ni {\k50}xing {\k350}lai
-Comment: 1,0:00:48.34,0:00:49.66,Default,,0,0,0,karaoke,{\k25}Take {\k25}me {\k71}away
-Comment: 1,0:00:49.62,0:00:53.53,Default,,0,0,0,karaoke,{\k34}bie {\k50}zai {\k50}po {\k50}sui {\k43}bie {\k37}zai {\k59}ku {\k56}wei
-Comment: 1,0:00:53.28,0:00:57.19,Default,,0,0,0,karaoke,{\k28}ji {\k50}xu {\k37}chen {\k46}zui {\k56}zi {\k40}wo {\k37}yu {\k84}hui
-Comment: 1,0:00:57.34,0:01:00.63,Default,,0,0,0,karaoke,{\k28}zui {\k40}hou {\k43}pin {\k40}wei {\k25}yong {\k21}heng {\k9}de {\k34}zi {\k75}wei
-Comment: 1,0:01:00.59,0:01:03.03,Default,,0,0,0,karaoke,{\k18}xia {\k21}yi {\k31}chang {\k25}na {\k43}ye {\k25}de {\k68}meng
-Comment: 1,0:01:03.00,0:01:04.81,Default,,0,0,0,karaoke,{\k28}zai {\k53}xiang {\k90}hui
-Comment: 1,0:01:05.56,0:01:09.31,Default,,0,0,0,karaoke,{\k46}yue {\k46}shi {\k46}xu {\k53}wei {\k37}yue {\k37}shi {\k56}wan {\k40}mei
-Comment: 1,0:01:09.25,0:01:13.28,Default,,0,0,0,karaoke,{\k28}mei {\k43}meng {\k46}ru {\k53}shui {\k50}jue {\k40}wang {\k34}lun {\k96}hui
-Comment: 1,0:01:13.25,0:01:16.88,Default,,0,0,0,karaoke,{\k31}yi {\k50}bi {\k31}yi {\k46}zheng {\k28}bian {\k18}kai {\k21}shi {\k21}dao {\k65}tui {\k37}xia
-Comment: 1,0:01:16.84,0:01:19.00,Default,,0,0,0,karaoke,{\k25}yi {\k28}chang {\k18}na {\k34}ye {\k37}de {\k62}meng
-Comment: 1,0:01:19.00,0:01:21.41,Default,,0,0,0,karaoke,{\k25}zai {\k46}xiang {\k159}hui
-Dialogue: 1,0:00:16.44,0:00:19.38,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k25}zhe {\k37}chuang {\k40}wai {\k25}zhe {\k25}ye {\k40}se
-Dialogue: 1,0:00:18.38,0:00:20.60,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k34}liu {\k15}guang {\k18}yi {\k53}cai
-Dialogue: 1,0:00:20.41,0:00:23.47,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k28}bie {\k37}wang {\k37}le {\k21}bi {\k37}shang {\k43}yan
-Dialogue: 1,0:00:22.47,0:00:24.53,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k25}cai {\k21}suan {\k15}xing {\k43}lai
-Dialogue: 1,0:00:24.41,0:00:27.38,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k21}ni {\k34}can {\k46}yan {\k25}zhe {\k34}chang {\k34}xi
-Dialogue: 1,0:00:26.38,0:00:29.13,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k28}bian {\k37}huan {\k31}zi {\k78}tai
-Dialogue: 1,0:00:28.22,0:00:31.44,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k25}mi {\k43}di {\k25}jie {\k46}ju {\k25}wo {\k56}gai
-Dialogue: 1,0:00:30.56,0:00:32.63,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k43}zen {\k37}me {\k25}cai
-Dialogue: 1,0:00:33.06,0:00:36.00,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k53}ji {\k50}yi {\k50}shi {\k40}meng
-Dialogue: 1,0:00:35.13,0:00:39.91,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k43}de {\k46}kai {\k50}chang {\k43}bai {\k18}shang {\k25}ba {\k12}bei {\k137}yan
-Dialogue: 1,0:00:37.75,0:00:41.41,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k59}gai {\k25}zuo {\k25}ri {\k25}hai {\k131}zai
-Dialogue: 1,0:00:41.10,0:00:49.10,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k46}shi {\k50}jian {\k46}zai {\k56}jing {\k46}hou {\k53}ni {\k50}xing {\k350}lai
-Dialogue: 1,0:00:47.44,0:00:49.66,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k25}Take {\k25}me {\k71}away
-Dialogue: 1,0:00:48.72,0:00:53.53,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k34}bie {\k50}zai {\k50}po {\k50}sui {\k43}bie {\k37}zai {\k59}ku {\k56}wei
-Dialogue: 1,0:00:52.38,0:00:57.19,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k28}ji {\k50}xu {\k37}chen {\k46}zui {\k56}zi {\k40}wo {\k37}yu {\k84}hui
-Dialogue: 1,0:00:56.44,0:01:00.63,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k28}zui {\k40}hou {\k43}pin {\k40}wei {\k25}yong {\k21}heng {\k9}de {\k34}zi {\k75}wei
-Dialogue: 1,0:00:59.69,0:01:03.03,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k18}xia {\k21}yi {\k31}chang {\k25}na {\k43}ye {\k25}de {\k68}meng
-Dialogue: 1,0:01:02.10,0:01:04.81,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k28}zai {\k53}xiang {\k90}hui
-Dialogue: 1,0:01:04.66,0:01:09.31,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k46}yue {\k46}shi {\k46}xu {\k53}wei {\k37}yue {\k37}shi {\k56}wan {\k40}mei
-Dialogue: 1,0:01:08.35,0:01:13.28,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k28}mei {\k43}meng {\k46}ru {\k53}shui {\k50}jue {\k40}wang {\k34}lun {\k96}hui
-Dialogue: 1,0:01:12.35,0:01:16.88,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k31}yi {\k50}bi {\k31}yi {\k46}zheng {\k28}bian {\k18}kai {\k21}shi {\k21}dao {\k65}tui {\k37}xia
-Dialogue: 1,0:01:15.94,0:01:19.00,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k25}yi {\k28}chang {\k18}na {\k34}ye {\k37}de {\k62}meng
-Dialogue: 1,0:01:18.10,0:01:21.41,Default,,0,0,0,fx,{\k100\fad(300,200)}{\k25}zai {\k46}xiang {\k159}hui
+Comment: 1,0:00:20.35,0:00:21.31,Sample KM [Choir],,0,0,0,karaoke,{\k26}liú {\k18}guāng {\k12}yì {\k40}cǎi
+Comment: 1,0:00:24.30,0:00:25.31,Sample KM [Choir],,0,0,0,karaoke,{\k18}cái {\k27}suàn {\k24}xǐng {\k32}lái
+Comment: 1,0:00:37.85,0:00:40.43,Sample KM [Choir],,0,0,0,karaoke,{\k27}shāng {\k24}bā {\k13}bèi {\k37}yǎn {\k42}gài {\k27}zuó {\k19}rì {\k17}hái {\k52}zài
+Comment: 1,0:00:48.34,0:00:49.49,Sample KM [Choir],,0,0,0,karaoke,{\k32}TAKE {\k18}ME {\k13}A{\k52}WAY
+Comment: 1,0:00:17.34,0:00:19.28,Sample KM [Up],,0,0,0,karaoke,{\k20}chē {\k42}chuāng {\k40}wài {\k25}zhè {\k25}yè {\k42}sè
+Comment: 1,0:00:19.28,0:00:20.35,Sample KM [Up],,0,0,0,karaoke,{\k29}liú {\k20}guāng {\k15}yì {\k43}cǎi
+Comment: 1,0:00:21.31,0:00:23.31,Sample KM [Up],,0,0,0,karaoke,{\k28}bié {\k37}wàng {\k37}le {\k13}bì {\k45}shàng {\k40}yǎn
+Comment: 1,0:00:23.31,0:00:24.48,Sample KM [Up],,0,0,0,karaoke,{\k19}cái {\k25}suàn {\k23}xǐng {\k50}lái
+Comment: 1,0:00:25.31,0:00:27.33,Sample KM [Up],,0,0,0,karaoke,{\k21}nǐ {\k48}cān {\k36}yǎn {\k16}zhè {\k39}chǎng {\k42}xì
+Comment: 1,0:00:27.36,0:00:29.01,Sample KM [Up],,0,0,0,karaoke,{\k21}biàn {\k39}huàn {\k37}zī {\k68}tài
+Comment: 1,0:00:29.12,0:00:31.44,Sample KM [Up],,0,0,0,karaoke,{\k25}mí {\k49}dǐ {\k23}jié {\k51}jú {\k23}wǒ {\k61}gāi
+Comment: 1,0:00:31.52,0:00:32.63,Sample KM [Up],,0,0,0,karaoke,{\k46}zěn {\k28}me {\k37}cāi
+Comment: 1,0:00:33.96,0:00:36.52,Sample KM [Up],,0,0,0,karaoke,{\k66}jì {\k42}yì {\k57}shì {\k42}mèng {\k49}de
+Comment: 1,0:00:36.52,0:00:39.36,Sample KM [Up],,0,0,0,karaoke,{\k43}kāi {\k42}chǎng {\kf199}bái
+Comment: 0,0:00:40.43,0:00:41.79,Sample KM [Up],,0,0,0,karaoke,{\k17}OH {\k13}OH {\k13}OH {\k22}OH {\k43}OH {\k28}OH
+Comment: 1,0:00:42.04,0:00:48.34,Sample KM [Up],,0,0,0,karaoke,{\k57}shí {\k47}jiān {\k48}zài {\k56}jìng {\k49}hòu {\k50}nǐ {\k24}xǐng {\kf299}lái
+Comment: 1,0:00:49.62,0:00:53.33,Sample KM [Up],,0,0,0,karaoke,{\k46}bié {\k50}zài {\k42}pò {\k60}suì {\k35}bié {\k39}zài {\k51}kū {\k48}wěi
+Comment: 1,0:00:53.33,0:00:57.19,Sample KM [Up],,0,0,0,karaoke,{\k28}jì {\k43}xù {\k48}chén {\k56}zuì {\k40}zì {\k47}wǒ {\k41}yū {\k83}huí
+Comment: 1,0:00:57.34,0:01:00.36,Sample KM [Up],,0,0,0,karaoke,{\k28}zuì {\k45}hòu {\k40}pǐn {\k38}wèi {\k25}yǒng {\k23}héng {\k11}de {\k36}zī {\k56}wèi
+Comment: 1,0:01:00.59,0:01:02.77,Sample KM [Up],,0,0,0,karaoke,{\k27}xià {\k15}yī {\k34}chǎng {\k26}nà {\k38}yè {\k32}de {\k46}mèng
+Comment: 1,0:01:03.05,0:01:04.85,Sample KM [Up],,0,0,0,karaoke,{\k22}zài {\k51}xiāng {\k107}huì
+Comment: 1,0:01:05.63,0:01:09.16,Sample KM [Up],,0,0,0,karaoke,{\k31}yuè {\k54}shì {\k58}xū {\k48}wèi {\k27}yuè {\k50}shì {\k55}wán {\k30}měi
+Comment: 1,0:01:09.34,0:01:13.28,Sample KM [Up],,0,0,0,karaoke,{\k26}měi {\k49}mèng {\k27}rù {\k71}shuì {\k38}jué {\k40}wàng {\k50}lún {\k93}huí
+Comment: 1,0:01:13.35,0:01:16.36,Sample KM [Up],,0,0,0,karaoke,{\k26}yī {\k45}bì {\k31}yī {\k49}zhēng {\k25}biàn {\k18}kāi {\k21}shǐ {\k35}dào {\k51}tuì
+Comment: 1,0:01:16.52,0:01:18.84,Sample KM [Up],,0,0,0,karaoke,{\k32}xià {\k17}yī {\k36}chǎng {\k21}nà {\k39}yè {\k38}de {\k49}mèng
+Comment: 1,0:01:19.00,0:01:20.91,Sample KM [Up],,0,0,0,karaoke,{\k26}zài {\k49}xiāng {\k116}huì
+Comment: 0,0:01:21.53,0:01:24.15,Sample KM [Up],,0,0,0,karaoke,{\k84}OH {\k26}OH {\k38}OH {\k35}OH {\k79}OH
+Comment: 0,0:01:24.37,0:01:26.13,Sample KM [Up],,0,0,0,karaoke,{\k25}OH {\k39}OH {\k35}OH {\k77}OH
+Comment: 0,0:01:26.38,0:01:28.83,Sample KM [Up],,0,0,0,karaoke,{\k26}OH {\k36}OH {\k37}OH {\kf146}OH
+Dialogue: 1,0:00:19.45,0:00:21.51,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}liú {\k18}guāng {\k12}yì {\k40}cǎi
+Dialogue: 1,0:00:23.40,0:00:25.51,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}cái {\k27}suàn {\k24}xǐng {\k32}lái
+Dialogue: 1,0:00:36.95,0:00:40.63,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}shāng {\k24}bā {\k13}bèi {\k37}yǎn {\k42}gài {\k27}zuó {\k19}rì {\k17}hái {\k52}zài
+Dialogue: 1,0:00:47.44,0:00:49.69,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}TAKE {\k18}ME {\k13}A{\k52}WAY
+Dialogue: 1,0:00:16.44,0:00:19.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}chē {\k42}chuāng {\k40}wài {\k25}zhè {\k25}yè {\k42}sè
+Dialogue: 1,0:00:18.38,0:00:20.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}liú {\k20}guāng {\k15}yì {\k43}cǎi
+Dialogue: 1,0:00:20.41,0:00:23.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}bié {\k37}wàng {\k37}le {\k13}bì {\k45}shàng {\k40}yǎn
+Dialogue: 1,0:00:22.41,0:00:24.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}cái {\k25}suàn {\k23}xǐng {\k50}lái
+Dialogue: 1,0:00:24.41,0:00:27.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}nǐ {\k48}cān {\k36}yǎn {\k16}zhè {\k39}chǎng {\k42}xì
+Dialogue: 1,0:00:26.46,0:00:29.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}biàn {\k39}huàn {\k37}zī {\k68}tài
+Dialogue: 1,0:00:28.22,0:00:31.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}mí {\k49}dǐ {\k23}jié {\k51}jú {\k23}wǒ {\k61}gāi
+Dialogue: 1,0:00:30.62,0:00:32.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}zěn {\k28}me {\k37}cāi
+Dialogue: 1,0:00:33.06,0:00:36.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k66}jì {\k42}yì {\k57}shì {\k42}mèng {\k49}de
+Dialogue: 1,0:00:35.62,0:00:39.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}kāi {\k42}chǎng {\kf199}bái
+Dialogue: 1,0:00:39.53,0:00:41.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}OH {\k13}OH {\k13}OH {\k22}OH {\k43}OH {\k28}OH
+Dialogue: 1,0:00:41.14,0:00:48.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k57}shí {\k47}jiān {\k48}zài {\k56}jìng {\k49}hòu {\k50}nǐ {\k24}xǐng {\kf299}lái
+Dialogue: 1,0:00:48.72,0:00:53.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}bié {\k50}zài {\k42}pò {\k60}suì {\k35}bié {\k39}zài {\k51}kū {\k48}wěi
+Dialogue: 1,0:00:52.43,0:00:57.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}jì {\k43}xù {\k48}chén {\k56}zuì {\k40}zì {\k47}wǒ {\k41}yū {\k83}huí
+Dialogue: 1,0:00:56.44,0:01:00.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}zuì {\k45}hòu {\k40}pǐn {\k38}wèi {\k25}yǒng {\k23}héng {\k11}de {\k36}zī {\k56}wèi
+Dialogue: 1,0:00:59.69,0:01:02.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}xià {\k15}yī {\k34}chǎng {\k26}nà {\k38}yè {\k32}de {\k46}mèng
+Dialogue: 1,0:01:02.15,0:01:05.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}zài {\k51}xiāng {\k107}huì
+Dialogue: 1,0:01:04.73,0:01:09.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}yuè {\k54}shì {\k58}xū {\k48}wèi {\k27}yuè {\k50}shì {\k55}wán {\k30}měi
+Dialogue: 1,0:01:08.44,0:01:13.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}měi {\k49}mèng {\k27}rù {\k71}shuì {\k38}jué {\k40}wàng {\k50}lún {\k93}huí
+Dialogue: 1,0:01:12.45,0:01:16.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}yī {\k45}bì {\k31}yī {\k49}zhēng {\k25}biàn {\k18}kāi {\k21}shǐ {\k35}dào {\k51}tuì
+Dialogue: 1,0:01:15.62,0:01:19.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}xià {\k17}yī {\k36}chǎng {\k21}nà {\k39}yè {\k38}de {\k49}mèng
+Dialogue: 1,0:01:18.10,0:01:21.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}zài {\k49}xiāng {\k116}huì
+Dialogue: 1,0:01:20.63,0:01:24.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k84}OH {\k26}OH {\k38}OH {\k35}OH {\k79}OH
+Dialogue: 1,0:01:23.47,0:01:26.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}OH {\k39}OH {\k35}OH {\k77}OH
+Dialogue: 1,0:01:25.48,0:01:29.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}OH {\k36}OH {\k37}OH {\kf146}OH
