@@ -9,13 +9,11 @@ Thanks in advance :3
 ---
 
 ## 📍 Source (⚠️ Obligatory)
-> > Indicate where the material you are working on comes from.
+> Indicate where the material you are working on comes from.
 
 **Source** :
 
 - [ ] I have correctly filled in the "Source" field
-
----
 
 /label ~"Work in progress"
 /assign me
