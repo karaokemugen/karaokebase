@@ -6,5 +6,9 @@ So we can avoid doing the same work multiple times.
 
 Thanks in advance :3
 
+Source :
+
+- [ ] I have correctly filled in the "Source" field
+
 /label ~"Work in progress"
 /assign me
