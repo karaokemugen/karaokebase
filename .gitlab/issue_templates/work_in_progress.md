@@ -6,9 +6,16 @@ So we can avoid doing the same work multiple times.
 
 Thanks in advance :3
 
-Source :
+---
+
+## 📍 Source (⚠️ Obligatory)
+> > Indicate where the material you are working on comes from.
+
+**Source** :
 
 - [ ] I have correctly filled in the "Source" field
+
+---
 
 /label ~"Work in progress"
 /assign me
