@@ -1,0 +1,213 @@
+﻿[Script Info]
+Title: Run BTS
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.86,0:00:04.25,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k10}O{\k29}kay
+Comment: 0,0:00:05.46,0:00:06.65,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k79}Run, {\k40}run
+Comment: 0,0:00:08.54,0:00:10.40,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k20}O{\k58}kay, {\k17}o{\k35}kay, {\k26}let’s {\k30}go!
+Comment: 0,0:00:10.89,0:00:13.68,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k39}non{\k39}hyeon {\k18}baeg {\k21}mi{\k40}teo {\k18}u{\k19}ri {\k44}ja{\k41}ri
+Comment: 0,0:00:14.00,0:00:17.12,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k38}hak{\k42}kyo {\k17}kkeut{\k21}nam{\k40}yeon {\k17}hwe{\k18}sa {\k45}CAL{\k74}LING
+Comment: 0,0:00:17.12,0:00:18.24,Sample KM [Choir],,0,0,0,karaoke,{\k40}Yeah, {\k72}yeah
+Comment: 0,0:00:17.75,0:00:20.05,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k13}a {\k23}ji{\k24}geum {\k35}ba{\k19}ro {\k19}ttak {\k43}gal{\k54}geyo
+Comment: 0,0:00:20.63,0:00:23.39,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}je{\k20}bal {\k19}ji{\k22}ben {\k37}bon{\k22}ae{\k14}ji {\k37}ma{\k42}se{\k42}yo
+Comment: 0,0:00:23.39,0:00:24.34,Sample KM [Choir],,0,0,0,karaoke,{\k95}Oh
+Comment: 0,0:00:23.96,0:00:26.09,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}gak{\k22}keum {\k22}geun{\k21}a{\k15}re {\k40}kkum {\k77}kkweo
+Comment: 0,0:00:25.72,0:00:27.44,Sample KM [Choir],,0,0,0,karaoke,{\k38}kkum {\k42}kkweo {\k92}OH
+Comment: 0,0:00:26.85,0:00:29.13,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k31}mom{\k26}seo{\k18}ri{\k24}chi{\k21}da {\k36}nun {\k72}tteo
+Comment: 0,0:00:28.80,0:00:30.13,Sample KM [Choir],,0,0,0,karaoke,{\k42}nun {\k91}tteo
+Comment: 0,0:00:29.94,0:00:32.74,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k27}I {\k15}don’t {\k21}wan{\k20}na {\k41}go {\k37}go {\k37}back {\k19}a{\k63}gain
+Comment: 0,0:00:32.52,0:00:34.82,Sample KM [Choir],,0,0,0,karaoke,{\k22}Let’s {\k55}go, {\k22}let’s {\k56}go, {\k22}let’s {\k53}go
+Comment: 0,0:00:34.82,0:00:36.33,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}ship{\k24}nyeo{\k15}neul {\k58}WAIT, {\k31}WAIT
+Comment: 0,0:00:36.41,0:00:37.98,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k22}We {\k20}from {\k19}the {\k63}bot{\k33}tom
+Comment: 0,0:00:37.98,0:00:39.49,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k22}I {\k17}caught {\k19}you {\k61}bae, {\k32}bae
+Comment: 0,0:00:39.55,0:00:41.09,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}u{\k18}rin {\k22}jom {\k56}ppa{\k38}reum
+Comment: 0,0:00:41.09,0:00:42.59,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k19}We {\k23}se{\k20}ven {\k55}mate, {\k33}mates
+Comment: 0,0:00:42.59,0:00:44.43,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k28}jal {\k19}bwa {\k20}WE {\k60}GOT {\k57}US
+Comment: 0,0:00:44.79,0:00:46.10,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k26}Tell {\k16}me {\k19}what {\k20}you {\k26}wan{\k24}na
+Comment: 0,0:00:46.19,0:00:48.10,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k42}Tell {\k17}me {\k17}what {\k18}you {\k22}wan{\k20}na {\k55}woah
+Comment: 0,0:00:47.94,0:00:51.03,Sample KM [Choir],,0,0,0,karaoke,{\k16}If {\k23}we {\k38}live {\k37}fast {\k42}let {\k37}us {\k38}die {\k78}young
+Comment: 0,0:00:50.66,0:00:51.84,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}ho{\k13}neul {\k25}ssok {\k19}ppae{\k18}no{\k20}chi
+Comment: 0,0:00:52.20,0:00:53.81,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k21}Make {\k20}it {\k39}move, {\k21}left {\k19}and {\k41}right
+Comment: 0,0:00:53.81,0:00:55.13,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}geu{\k17}ge {\k25}nu{\k16}gu{\k19}deun{\k37}ji
+Comment: 0,0:00:55.34,0:00:56.92,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k22}Make {\k19}it {\k38}move, {\k19}left {\k21}and {\k39}right
+Comment: 0,0:00:56.92,0:00:59.90,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}du {\k17}maen{\k27}ba{\k21}ri {\k14}u{\k17}ri {\k21}GA{\k24}SO{\k33}LINE {\k39}YEAH {\k65}YEAH
+Comment: 0,0:01:00.04,0:01:02.81,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}i{\k16}je {\k28}ga{\k11}ja {\k24}ARE {\k19}YOU {\k24}REA{\k18}DY {\k32}YEAH {\k42}YEAH {\k42}YEAH
+Comment: 0,0:01:02.19,0:01:03.40,Sample KM [Choir],,0,0,0,karaoke,{\k19}O{\k54}kay, {\k27}let’s {\k21}go!
+Comment: 0,0:01:03.90,0:01:06.53,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k40}Run {\k19}bul{\k19}let{\k41}proof, {\k37}run, {\k21}yeah {\k20}you {\k20}got{\k19}ta {\k27}run
+Comment: 0,0:01:07.03,0:01:09.66,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k39}Run {\k21}bul{\k18}let{\k40}proof, {\k38}run, {\k22}yeah {\k18}you {\k21}got{\k20}ta {\k26}run
+Comment: 0,0:01:10.16,0:01:12.77,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k39}Run {\k20}bul{\k20}let{\k40}proof, {\k36}run, {\k21}yeah {\k19}you {\k20}got{\k21}ta {\k25}run
+Comment: 0,0:01:13.26,0:01:14.68,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k41}Run {\k18}bul{\k19}let{\k40}proof, {\k24}run
+Comment: 0,0:01:14.86,0:01:15.98,Sample KM [Choir],,0,0,0,karaoke,{\k20}O{\k39}kay, {\k22}let's {\k31}go!
+Comment: 0,0:01:16.41,0:01:16.97,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k13}nae{\k7}ga {\k7}ma{\k10}ja{\k19}sseo
+Comment: 0,0:01:17.39,0:01:18.46,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k4}non{\k4}hyeon{\k5}don{\k8}ge {\k6}bi{\k9}ga {\k10}sae{\k10}deon {\k8}ja{\k11}geop{\k10}shi{\k10}le{\k12}seo
+Comment: 0,0:01:18.74,0:01:20.08,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}kkangs'{\k9}ju{\k9}reul {\k15}kkam' {\k14}shin{\k12}se{\k19}tar'{\k7}gi{\k10}na {\k10}ham{\k7}yeo
+Comment: 0,0:01:20.08,0:01:21.07,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k14}da{\k6}ji{\k12}mhae{\k10}tteon {\k10}geu {\k8}mal {\k10}seong{\k10}gong{\k12}ham{\k7}yeon
+Comment: 0,0:01:21.09,0:01:23.11,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k11}da{\k9}deul {\k7}dwi{\k12}jyeo{\k20}sseo {\k20}bang{\k20}ta{\k19}ne {\k33}seong{\k23}gong {\k10}i{\k18}yu
+Comment: 0,0:01:23.11,0:01:24.59,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}na{\k18}do {\k9}mol{\k15}la {\k9}geu{\k18}ttan {\k8}ge {\k20}eo{\k13}di{\k12}sseo
+Comment: 0,0:01:24.80,0:01:26.16,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k13}u{\k8}ri{\k14}deu{\k5}ri {\k9}mo{\k10}du {\k9}sae{\k11}ppa{\k8}ji{\k10}ge {\k6}dal{\k15}lin {\k11}geo{\k7}ji
+Comment: 0,0:01:26.16,0:01:28.05,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k13}mweo{\k10}ra {\k6}ha{\k7}deun {\k12}dal{\k9}lin {\k11}geo{\k11}ji {\k19}da{\k10}beun {\k14}yeo{\k10}gi {\k6}i{\k51}sseo
+Comment: 0,0:01:28.30,0:01:31.09,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}wi{\k55}ro, {\k23}GOT {\k55}THEM, {\k25}ji{\k52}jo, {\k25}GOT {\k21}THEM
+Comment: 0,0:01:31.47,0:01:34.16,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k16}Good {\k22}mu{\k34}sic, {\k22}got {\k57}them, {\k19}good {\k59}team, {\k21}god{\k19}damn
+Comment: 0,0:01:34.60,0:01:37.34,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k15}You {\k56}said, {\k25}you {\k56}hot, {\k26}oh {\k52}man, {\k19}you {\k25}not
+Comment: 0,0:01:37.49,0:01:39.40,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}ttwi{\k17}neun {\k38}nom {\k19}wi{\k19}e {\k21}na{\k18}neun {\k19}nom {\k9}wi{\k9}e
+Comment: 0,0:01:39.40,0:01:40.38,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}da{\k20}lli{\k15}neun {\k19}bang{\k21}tan
+Comment: 0,0:01:40.38,0:01:40.76,Sample KM [Choir],,0,0,0,karaoke,{\k19}Let's {\k19}go!
+Comment: 0,0:01:40.28,0:01:41.83,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}ship{\k23}nyeon{\k19}eul {\k59}WAIT, {\k27}WAIT
+Comment: 0,0:01:41.92,0:01:43.40,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k19}We {\k23}from {\k20}the {\k61}bot{\k25}tom
+Comment: 0,0:01:43.51,0:01:44.99,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k19}I {\k18}caught {\k22}you {\k58}bae, {\k31}bae
+Comment: 0,0:01:45.06,0:01:46.55,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}u{\k19}rin {\k23}jom {\k60}ppa{\k27}reum
+Comment: 0,0:01:46.64,0:01:48.09,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k14}We {\k25}se{\k17}ven {\k57}mate, {\k32}mates
+Comment: 0,0:01:48.15,0:01:49.64,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}jal {\k16}bwa {\k23}WE {\k61}GOT {\k24}US
+Comment: 0,0:01:50.29,0:01:51.60,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k24}Tell {\k15}me {\k20}what {\k19}you {\k25}wan{\k28}na
+Comment: 0,0:01:51.70,0:01:53.54,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k42}Tell {\k14}me {\k19}what {\k20}you {\k22}wan{\k17}na {\k50}woah
+Comment: 0,0:01:53.41,0:01:56.55,Sample KM [Choir],,0,0,0,karaoke,{\k20}If {\k22}we {\k37}live {\k39}fast {\k44}let {\k38}us {\k37}die {\k77}young
+Comment: 0,0:01:56.19,0:01:57.37,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}ho{\k13}neul {\k25}ssok {\k19}ppae{\k18}no{\k20}chi
+Comment: 0,0:01:57.73,0:01:59.34,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k21}Make {\k20}it {\k39}move, {\k21}left {\k19}and {\k41}right
+Comment: 0,0:01:59.34,0:02:00.66,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}geu{\k17}ge {\k25}nu{\k16}gu{\k19}deun{\k37}ji
+Comment: 0,0:02:00.87,0:02:02.45,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k22}Make {\k19}it {\k38}move, {\k19}left {\k21}and {\k39}right
+Comment: 0,0:02:02.45,0:02:05.43,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}du {\k17}maen{\k27}ba{\k21}ri {\k14}u{\k17}ri {\k21}GA{\k24}SO{\k33}LINE {\k39}YEAH {\k65}YEAH
+Comment: 0,0:02:05.57,0:02:09.05,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}i{\k16}je {\k28}ga{\k11}ja {\k24}ARE {\k19}YOU {\k24}REA{\k18}DY {\k32}YEAH {\k96}YEAH {\k59}YEAH
+Comment: 0,0:02:07.72,0:02:08.93,Sample KM [Choir],,0,0,0,karaoke,{\k19}O{\k54}kay, {\k27}let’s {\k21}go!
+Comment: 0,0:02:09.43,0:02:12.06,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k40}Run {\k19}bul{\k19}let{\k41}proof, {\k37}run, {\k21}yeah {\k20}you {\k20}got{\k19}ta {\k27}run
+Comment: 0,0:02:12.56,0:02:15.19,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k39}Run {\k21}bul{\k18}let{\k40}proof, {\k38}run, {\k22}yeah {\k18}you {\k21}got{\k20}ta {\k26}run
+Comment: 0,0:02:15.69,0:02:18.30,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k39}Run {\k20}bul{\k20}let{\k40}proof, {\k36}run, {\k21}yeah {\k19}you {\k20}got{\k21}ta {\k25}run
+Comment: 0,0:02:18.79,0:02:20.21,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k41}Run {\k18}bul{\k19}let{\k40}proof, {\k24}run
+Comment: 0,0:02:28.23,0:02:30.97,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k17}mu{\k8}shi{\k11}khan {\k17}mi{\k17}deu{\k61}meuro {\k17}gyang {\k21}da{\k11}llyeo {\k8}du {\k22}da{\k19}ri{\k45}ro
+Comment: 0,0:02:31.32,0:02:32.56,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k20}That’s {\k9}how {\k11}we {\k21}do {\k18}it {\k45}all
+Comment: 0,0:02:32.83,0:02:33.96,Sample KM [Choir],,0,0,0,karaoke,{\k80}Hey! {\k33}Hey!
+Comment: 0,0:02:34.39,0:02:35.67,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}geu{\k18}reoke {\k25}jeung{\k19}myeong{\k44}haess'
+Comment: 0,0:02:35.92,0:02:38.85,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}il{\k13}gop {\k31}choweon{\k18}i{\k79}deul {\k16}baeg{\k12}man {\k9}bul{\k25}jja{\k18}ri{\k49}ro
+Comment: 0,0:02:39.09,0:02:40.12,Sample KM [Choir],,0,0,0,karaoke,{\k77}Hey! {\k26}Hey!
+Comment: 0,0:02:40.66,0:02:42.11,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k9}Ji{\k8}mi{\k22}ni, {\k39}V, {\k37}go{\k30}saeng
+Comment: 0,0:02:42.18,0:02:43.64,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k15}Nam{\k12}joo{\k15}ni, {\k39}Hope, {\k36}go{\k29}saeng
+Comment: 0,0:02:43.77,0:02:45.25,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}Yoongi{\k22}hyung, {\k40}Jin, {\k38}go{\k32}saeng
+Comment: 0,0:02:45.32,0:02:46.86,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k12}Jung{\k9}koo{\k19}ki, {\k14}mo{\k25}du {\k38}SO {\k37}THANKS
+Comment: 0,0:02:46.92,0:02:48.06,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k14}Get {\k13}rea{\k11}dy, {\k14}get {\k12}rea{\k14}dy, {\k13}get {\k12}rea{\k11}dy,
+Comment: 0,0:02:48.06,0:02:49.57,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k14}GET {\k12}REA{\k11}DY {\k14}GET {\k15}REA{\k13}DY, {\k12}a{\k13}peu{\k14}ro {\k33}deo
+Comment: 0,0:02:50.03,0:02:51.14,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k12}Go {\k12}get {\k14}it, {\k14}go {\k11}get {\k13}it, {\k15}go {\k11}get {\k9}it,
+Comment: 0,0:02:51.19,0:02:52.73,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k14}GO {\k13}GET {\k11}IT, {\k17}GO {\k10}GET {\k11}IT, {\k18}dal{\k10}ji{\k12}ja {\k38}RUN
+Comment: 0,0:02:52.74,0:02:55.83,Sample KM [Choir],,0,0,0,karaoke,{\k18}If {\k21}we {\k36}live {\k38}fast {\k43}let {\k38}us {\k38}die {\k77}young
+Comment: 0,0:02:55.46,0:02:56.64,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}ho{\k13}neul {\k25}ssok {\k19}ppae{\k18}no{\k20}chi
+Comment: 0,0:02:57.00,0:02:58.61,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k21}Make {\k20}it {\k39}move, {\k21}left {\k19}and {\k41}right
+Comment: 0,0:02:58.61,0:02:59.93,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}geu{\k17}ge {\k25}nu{\k16}gu{\k19}deun{\k37}ji
+Comment: 0,0:03:00.14,0:03:01.72,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k22}Make {\k19}it {\k38}move, {\k19}left {\k21}and {\k39}right
+Comment: 0,0:03:01.72,0:03:04.70,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}du {\k17}maen{\k27}ba{\k21}ri {\k14}u{\k17}ri {\k21}GA{\k24}SO{\k33}LINE {\k39}YEAH {\k65}YEAH
+Comment: 0,0:03:04.83,0:03:06.33,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k24}i{\k13}je {\k31}ga{\k10}ja, {\k22}ARE {\k17}YOU {\k20}REA{\k13}DY
+Comment: 0,0:03:06.39,0:03:08.42,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k38}Yeah {\k40}yeah {\k39}yeah {\k86}yeah
+Comment: 0,0:03:07.79,0:03:08.42,Sample KM [Choir],,0,0,0,karaoke,{\k21}LET'S {\k42}GO!
+Comment: 0,0:03:08.72,0:03:11.35,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k40}Run {\k19}beau{\k19}ti{\k41}ful, {\k37}run, {\k21}yeah {\k20}you {\k20}got{\k19}ta {\k27}run
+Comment: 0,0:03:11.85,0:03:14.48,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k39}Run {\k21}beau{\k18}ti{\k40}ful, {\k38}run, {\k22}yeah {\k18}you {\k21}got{\k20}ta {\k26}run
+Comment: 0,0:03:14.98,0:03:17.59,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k39}Run {\k20}beau{\k20}ti{\k40}ful, {\k36}run, {\k21}yeah {\k19}you {\k20}got{\k21}ta {\k25}run
+Comment: 0,0:03:18.08,0:03:19.50,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k41}Run {\k18}beau{\k19}ti{\k40}ful, {\k24}run
+Dialogue: 0,0:00:02.96,0:00:04.45,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k10}O{\k29}kay
+Dialogue: 0,0:00:04.56,0:00:06.85,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k79}Run, {\k40}run
+Dialogue: 0,0:00:07.64,0:00:10.60,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}O{\k58}kay, {\k17}o{\k35}kay, {\k26}let’s {\k30}go!
+Dialogue: 0,0:00:09.99,0:00:13.88,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k39}non{\k39}hyeon {\k18}baeg {\k21}mi{\k40}teo {\k18}u{\k19}ri {\k44}ja{\k41}ri
+Dialogue: 0,0:00:13.10,0:00:17.32,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k38}hak{\k42}kyo {\k17}kkeut{\k21}nam{\k40}yeon {\k17}hwe{\k18}sa {\k45}CAL{\k74}LING
+Dialogue: 0,0:00:16.22,0:00:18.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Yeah, {\k72}yeah
+Dialogue: 0,0:00:16.85,0:00:20.25,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k13}a {\k23}ji{\k24}geum {\k35}ba{\k19}ro {\k19}ttak {\k43}gal{\k54}geyo
+Dialogue: 0,0:00:19.73,0:00:23.59,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k21}je{\k20}bal {\k19}ji{\k22}ben {\k37}bon{\k22}ae{\k14}ji {\k37}ma{\k42}se{\k42}yo
+Dialogue: 0,0:00:22.49,0:00:24.54,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k95}Oh
+Dialogue: 0,0:00:23.06,0:00:26.29,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k16}gak{\k22}keum {\k22}geun{\k21}a{\k15}re {\k40}kkum {\k77}kkweo
+Dialogue: 0,0:00:24.82,0:00:27.64,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}kkum {\k42}kkweo {\k92}OH
+Dialogue: 0,0:00:25.95,0:00:29.33,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k31}mom{\k26}seo{\k18}ri{\k24}chi{\k21}da {\k36}nun {\k72}tteo
+Dialogue: 0,0:00:27.90,0:00:30.33,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k42}nun {\k91}tteo
+Dialogue: 0,0:00:29.04,0:00:32.94,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k15}don’t {\k21}wan{\k20}na {\k41}go {\k37}go {\k37}back {\k19}a{\k63}gain
+Dialogue: 0,0:00:31.62,0:00:35.02,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Let’s {\k55}go, {\k22}let’s {\k56}go, {\k22}let’s {\k53}go
+Dialogue: 0,0:00:33.92,0:00:36.53,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}ship{\k24}nyeo{\k15}neul {\k58}WAIT, {\k31}WAIT
+Dialogue: 0,0:00:35.51,0:00:38.18,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}We {\k20}from {\k19}the {\k63}bot{\k33}tom
+Dialogue: 0,0:00:37.08,0:00:39.69,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k17}caught {\k19}you {\k61}bae, {\k32}bae
+Dialogue: 0,0:00:38.65,0:00:41.29,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}u{\k18}rin {\k22}jom {\k56}ppa{\k38}reum
+Dialogue: 0,0:00:40.19,0:00:42.79,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k19}We {\k23}se{\k20}ven {\k55}mate, {\k33}mates
+Dialogue: 0,0:00:41.69,0:00:44.63,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k28}jal {\k19}bwa {\k20}WE {\k60}GOT {\k57}US
+Dialogue: 0,0:00:43.89,0:00:46.30,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Tell {\k16}me {\k19}what {\k20}you {\k26}wan{\k24}na
+Dialogue: 0,0:00:45.29,0:00:48.30,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Tell {\k17}me {\k17}what {\k18}you {\k22}wan{\k20}na {\k55}woah
+Dialogue: 0,0:00:47.04,0:00:51.23,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}If {\k23}we {\k38}live {\k37}fast {\k42}let {\k37}us {\k38}die {\k78}young
+Dialogue: 0,0:00:49.76,0:00:52.04,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}ho{\k13}neul {\k25}ssok {\k19}ppae{\k18}no{\k20}chi
+Dialogue: 0,0:00:51.30,0:00:54.01,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Make {\k20}it {\k39}move, {\k21}left {\k19}and {\k41}right
+Dialogue: 0,0:00:52.91,0:00:55.33,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k18}geu{\k17}ge {\k25}nu{\k16}gu{\k19}deun{\k37}ji
+Dialogue: 0,0:00:54.44,0:00:57.12,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Make {\k19}it {\k38}move, {\k19}left {\k21}and {\k39}right
+Dialogue: 0,0:00:56.02,0:01:00.10,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}du {\k17}maen{\k27}ba{\k21}ri {\k14}u{\k17}ri {\k21}GA{\k24}SO{\k33}LINE {\k39}YEAH {\k65}YEAH
+Dialogue: 0,0:00:59.14,0:01:03.01,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k21}i{\k16}je {\k28}ga{\k11}ja {\k24}ARE {\k19}YOU {\k24}REA{\k18}DY {\k32}YEAH {\k42}YEAH {\k42}YEAH
+Dialogue: 0,0:01:01.29,0:01:03.60,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}O{\k54}kay, {\k27}let’s {\k21}go!
+Dialogue: 0,0:01:03.00,0:01:06.73,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Run {\k19}bul{\k19}let{\k41}proof, {\k37}run, {\k21}yeah {\k20}you {\k20}got{\k19}ta {\k27}run
+Dialogue: 0,0:01:06.13,0:01:09.86,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Run {\k21}bul{\k18}let{\k40}proof, {\k38}run, {\k22}yeah {\k18}you {\k21}got{\k20}ta {\k26}run
+Dialogue: 0,0:01:09.26,0:01:12.97,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Run {\k20}bul{\k20}let{\k40}proof, {\k36}run, {\k21}yeah {\k19}you {\k20}got{\k21}ta {\k25}run
+Dialogue: 0,0:01:12.36,0:01:14.88,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Run {\k18}bul{\k19}let{\k40}proof, {\k24}run
+Dialogue: 0,0:01:13.96,0:01:16.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}O{\k39}kay, {\k22}let's {\k31}go!
+Dialogue: 0,0:01:15.51,0:01:17.17,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k13}nae{\k7}ga {\k7}ma{\k10}ja{\k19}sseo
+Dialogue: 0,0:01:16.49,0:01:18.66,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k4}non{\k4}hyeon{\k5}don{\k8}ge {\k6}bi{\k9}ga {\k10}sae{\k10}deon {\k8}ja{\k11}geop{\k10}shi{\k10}le{\k12}seo
+Dialogue: 0,0:01:17.84,0:01:20.28,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k22}kkangs'{\k9}ju{\k9}reul {\k15}kkam' {\k14}shin{\k12}se{\k19}tar'{\k7}gi{\k10}na {\k10}ham{\k7}yeo
+Dialogue: 0,0:01:19.18,0:01:21.27,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k14}da{\k6}ji{\k12}mhae{\k10}tteon {\k10}geu {\k8}mal {\k10}seong{\k10}gong{\k12}ham{\k7}yeon
+Dialogue: 0,0:01:20.19,0:01:23.31,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k11}da{\k9}deul {\k7}dwi{\k12}jyeo{\k20}sseo {\k20}bang{\k20}ta{\k19}ne {\k33}seong{\k23}gong {\k10}i{\k18}yu
+Dialogue: 0,0:01:22.21,0:01:24.79,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k26}na{\k18}do {\k9}mol{\k15}la {\k9}geu{\k18}ttan {\k8}ge {\k20}eo{\k13}di{\k12}sseo
+Dialogue: 0,0:01:23.90,0:01:26.36,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k13}u{\k8}ri{\k14}deu{\k5}ri {\k9}mo{\k10}du {\k9}sae{\k11}ppa{\k8}ji{\k10}ge {\k6}dal{\k15}lin {\k11}geo{\k7}ji
+Dialogue: 0,0:01:25.26,0:01:28.25,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k13}mweo{\k10}ra {\k6}ha{\k7}deun {\k12}dal{\k9}lin {\k11}geo{\k11}ji {\k19}da{\k10}beun {\k14}yeo{\k10}gi {\k6}i{\k51}sseo
+Dialogue: 0,0:01:27.40,0:01:31.29,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}wi{\k55}ro, {\k23}GOT {\k55}THEM, {\k25}ji{\k52}jo, {\k25}GOT {\k21}THEM
+Dialogue: 0,0:01:30.57,0:01:34.36,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Good {\k22}mu{\k34}sic, {\k22}got {\k57}them, {\k19}good {\k59}team, {\k21}god{\k19}damn
+Dialogue: 0,0:01:33.70,0:01:37.54,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k15}You {\k56}said, {\k25}you {\k56}hot, {\k26}oh {\k52}man, {\k19}you {\k25}not
+Dialogue: 0,0:01:36.59,0:01:39.60,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k22}ttwi{\k17}neun {\k38}nom {\k19}wi{\k19}e {\k21}na{\k18}neun {\k19}nom {\k9}wi{\k9}e
+Dialogue: 0,0:01:38.50,0:01:40.58,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}da{\k20}lli{\k15}neun {\k19}bang{\k21}tan
+Dialogue: 0,0:01:39.48,0:01:40.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Let's {\k19}go!
+Dialogue: 0,0:01:39.38,0:01:42.03,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k27}ship{\k23}nyeon{\k19}eul {\k59}WAIT, {\k27}WAIT
+Dialogue: 0,0:01:41.02,0:01:43.60,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k19}We {\k23}from {\k20}the {\k61}bot{\k25}tom
+Dialogue: 0,0:01:42.61,0:01:45.19,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k18}caught {\k22}you {\k58}bae, {\k31}bae
+Dialogue: 0,0:01:44.16,0:01:46.75,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}u{\k19}rin {\k23}jom {\k60}ppa{\k27}reum
+Dialogue: 0,0:01:45.74,0:01:48.29,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k14}We {\k25}se{\k17}ven {\k57}mate, {\k32}mates
+Dialogue: 0,0:01:47.25,0:01:49.84,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k25}jal {\k16}bwa {\k23}WE {\k61}GOT {\k24}US
+Dialogue: 0,0:01:49.39,0:01:51.80,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Tell {\k15}me {\k20}what {\k19}you {\k25}wan{\k28}na
+Dialogue: 0,0:01:50.80,0:01:53.74,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Tell {\k14}me {\k19}what {\k20}you {\k22}wan{\k17}na {\k50}woah
+Dialogue: 0,0:01:52.51,0:01:56.75,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}If {\k22}we {\k37}live {\k39}fast {\k44}let {\k38}us {\k37}die {\k77}young
+Dialogue: 0,0:01:55.29,0:01:57.57,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}ho{\k13}neul {\k25}ssok {\k19}ppae{\k18}no{\k20}chi
+Dialogue: 0,0:01:56.83,0:01:59.54,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Make {\k20}it {\k39}move, {\k21}left {\k19}and {\k41}right
+Dialogue: 0,0:01:58.44,0:02:00.86,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k18}geu{\k17}ge {\k25}nu{\k16}gu{\k19}deun{\k37}ji
+Dialogue: 0,0:01:59.97,0:02:02.65,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Make {\k19}it {\k38}move, {\k19}left {\k21}and {\k39}right
+Dialogue: 0,0:02:01.55,0:02:05.63,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}du {\k17}maen{\k27}ba{\k21}ri {\k14}u{\k17}ri {\k21}GA{\k24}SO{\k33}LINE {\k39}YEAH {\k65}YEAH
+Dialogue: 0,0:02:04.67,0:02:09.25,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k21}i{\k16}je {\k28}ga{\k11}ja {\k24}ARE {\k19}YOU {\k24}REA{\k18}DY {\k32}YEAH {\k96}YEAH {\k59}YEAH
+Dialogue: 0,0:02:06.82,0:02:09.13,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}O{\k54}kay, {\k27}let’s {\k21}go!
+Dialogue: 0,0:02:08.53,0:02:12.26,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Run {\k19}bul{\k19}let{\k41}proof, {\k37}run, {\k21}yeah {\k20}you {\k20}got{\k19}ta {\k27}run
+Dialogue: 0,0:02:11.66,0:02:15.39,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Run {\k21}bul{\k18}let{\k40}proof, {\k38}run, {\k22}yeah {\k18}you {\k21}got{\k20}ta {\k26}run
+Dialogue: 0,0:02:14.79,0:02:18.50,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Run {\k20}bul{\k20}let{\k40}proof, {\k36}run, {\k21}yeah {\k19}you {\k20}got{\k21}ta {\k25}run
+Dialogue: 0,0:02:17.89,0:02:20.41,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Run {\k18}bul{\k19}let{\k40}proof, {\k24}run
+Dialogue: 0,0:02:27.33,0:02:31.17,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k17}mu{\k8}shi{\k11}khan {\k17}mi{\k17}deu{\k61}meuro {\k17}gyang {\k21}da{\k11}llyeo {\k8}du {\k22}da{\k19}ri{\k45}ro
+Dialogue: 0,0:02:30.42,0:02:32.76,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}That’s {\k9}how {\k11}we {\k21}do {\k18}it {\k45}all
+Dialogue: 0,0:02:31.93,0:02:34.16,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k80}Hey! {\k33}Hey!
+Dialogue: 0,0:02:33.49,0:02:35.87,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k22}geu{\k18}reoke {\k25}jeung{\k19}myeong{\k44}haess'
+Dialogue: 0,0:02:35.02,0:02:39.05,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}il{\k13}gop {\k31}choweon{\k18}i{\k79}deul {\k16}baeg{\k12}man {\k9}bul{\k25}jja{\k18}ri{\k49}ro
+Dialogue: 0,0:02:38.19,0:02:40.32,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k77}Hey! {\k26}Hey!
+Dialogue: 0,0:02:39.76,0:02:42.31,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k9}Ji{\k8}mi{\k22}ni, {\k39}V, {\k37}go{\k30}saeng
+Dialogue: 0,0:02:41.28,0:02:43.84,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Nam{\k12}joo{\k15}ni, {\k39}Hope, {\k36}go{\k29}saeng
+Dialogue: 0,0:02:42.87,0:02:45.45,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Yoongi{\k22}hyung, {\k40}Jin, {\k38}go{\k32}saeng
+Dialogue: 0,0:02:44.42,0:02:47.06,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Jung{\k9}koo{\k19}ki, {\k14}mo{\k25}du {\k38}SO {\k37}THANKS
+Dialogue: 0,0:02:46.02,0:02:48.26,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Get {\k13}rea{\k11}dy, {\k14}get {\k12}rea{\k14}dy, {\k13}get {\k12}rea{\k11}dy,
+Dialogue: 0,0:02:47.16,0:02:49.77,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k14}GET {\k12}REA{\k11}DY {\k14}GET {\k15}REA{\k13}DY, {\k12}a{\k13}peu{\k14}ro {\k33}deo
+Dialogue: 0,0:02:49.13,0:02:51.34,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Go {\k12}get {\k14}it, {\k14}go {\k11}get {\k13}it, {\k15}go {\k11}get {\k9}it,
+Dialogue: 0,0:02:50.29,0:02:52.93,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k14}GO {\k13}GET {\k11}IT, {\k17}GO {\k10}GET {\k11}IT, {\k18}dal{\k10}ji{\k12}ja {\k38}RUN
+Dialogue: 0,0:02:51.84,0:02:56.03,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}If {\k21}we {\k36}live {\k38}fast {\k43}let {\k38}us {\k38}die {\k77}young
+Dialogue: 0,0:02:54.56,0:02:56.84,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}ho{\k13}neul {\k25}ssok {\k19}ppae{\k18}no{\k20}chi
+Dialogue: 0,0:02:56.10,0:02:58.81,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Make {\k20}it {\k39}move, {\k21}left {\k19}and {\k41}right
+Dialogue: 0,0:02:57.71,0:03:00.13,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k18}geu{\k17}ge {\k25}nu{\k16}gu{\k19}deun{\k37}ji
+Dialogue: 0,0:02:59.24,0:03:01.92,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Make {\k19}it {\k38}move, {\k19}left {\k21}and {\k39}right
+Dialogue: 0,0:03:00.82,0:03:04.90,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}du {\k17}maen{\k27}ba{\k21}ri {\k14}u{\k17}ri {\k21}GA{\k24}SO{\k33}LINE {\k39}YEAH {\k65}YEAH
+Dialogue: 0,0:03:03.93,0:03:06.53,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k24}i{\k13}je {\k31}ga{\k10}ja, {\k22}ARE {\k17}YOU {\k20}REA{\k13}DY
+Dialogue: 0,0:03:05.49,0:03:08.62,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Yeah {\k40}yeah {\k39}yeah {\k86}yeah
+Dialogue: 0,0:03:06.89,0:03:08.62,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}LET'S {\k42}GO!
+Dialogue: 0,0:03:07.82,0:03:11.55,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Run {\k19}beau{\k19}ti{\k41}ful, {\k37}run, {\k21}yeah {\k20}you {\k20}got{\k19}ta {\k27}run
+Dialogue: 0,0:03:10.95,0:03:14.68,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Run {\k21}beau{\k18}ti{\k40}ful, {\k38}run, {\k22}yeah {\k18}you {\k21}got{\k20}ta {\k26}run
+Dialogue: 0,0:03:14.08,0:03:17.79,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Run {\k20}beau{\k20}ti{\k40}ful, {\k36}run, {\k21}yeah {\k19}you {\k20}got{\k21}ta {\k25}run
+Dialogue: 0,0:03:17.18,0:03:19.70,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Run {\k18}beau{\k19}ti{\k40}ful, {\k24}run
