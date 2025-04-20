@@ -1,0 +1,87 @@
+﻿[Script Info]
+Title: Trust・Last
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: TenmaWorks
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Koda,Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,10,1
+Style: Koda [CHOIR],Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Shonan,Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,10,1
+Style: Shonan [Choir],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Duo,Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:05.00,Koda,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:01.90,Koda,,0,0,0,karaoke,{\an2\c&H5050E2&}Koda Kumi,\N{\c&HFF843C&}Shonan no Kaze, {\c&HEB4DC1&\i1}Duo
+Comment: 0,0:00:03.10,0:00:04.38,Koda,,0,0,0,karaoke,{\k40}IN{\k17}VI{\k28}TA{\k68}TION
+Comment: 0,0:00:04.58,0:00:05.86,Koda,,0,0,0,karaoke,{\k21}to{\k22}do{\k14}i{\k21}ta {\k18}na{\k32}ra
+Comment: 0,0:00:05.86,0:00:07.30,Koda,,0,0,0,karaoke,{\k19}O{\k19}PEN {\k17}UP {\k18}THE {\k37}DUN{\k34}GEON
+Comment: 0,0:00:07.30,0:00:08.46,Koda,,0,0,0,karaoke,{\k27}no{\k20}zo{\k12}mi {\k18}wa {\k16}na{\k25}ni?
+Comment: 0,0:00:08.18,0:00:09.54,Koda,,0,0,0,karaoke,{\k25}san{\k17}ka {\k19}na{\k16}ra {\k21}no {\k36}CLAIM
+Comment: 0,0:00:09.54,0:00:11.30,Koda,,0,0,0,karaoke,{\k19}da{\k19}re {\k19}ga {\k16}na{\k16}ru {\k21}no? {\k16}A{\k49}CE
+Comment: 0,0:00:10.82,0:00:11.90,Koda [CHOIR],,0,0,0,karaoke,{\k54}GET {\k19}REA{\k34}DY
+Comment: 0,0:00:11.62,0:00:14.38,Koda,,0,0,0,karaoke,{\k30}SHUT {\k22}IT {\k55}DOWN{\k14} {\k15}hi{\k27}ki{\k17}ka{\k16}e{\k21}se{\k18}na{\k40}i
+Comment: 0,0:00:14.82,0:00:18.66,Shonan,,0,0,0,karaoke,{\k16}ha{\k9}te{\k24}shi{\k13}na{\k18}ku {\k37}tsu{\k33}zu{\k16}ku {\k28}i{\k13}no{\k21}chi {\k42}no {\k24}ra{\kf89}sen
+Comment: 0,0:00:18.66,0:00:21.14,Shonan,,0,0,0,karaoke,{\k37}ji{\k28}kuu {\k20}mo {\k32}tsu{\k32}ki{\k27}nu{\k19}ke{\k52}te
+Comment: 0,0:00:21.30,0:00:26.14,Shonan,,0,0,0,karaoke,{\k39}su{\k74}be{\k39}te {\k21}to{\k17}ki{\k35}ha{\k39}na{\k37}ta {\k33}re{\k58}ru {\k17}ma{\k32}de{\kf43}~
+Comment: 0,0:00:26.14,0:00:28.98,Koda,,0,0,0,karaoke,{\k36}shi{\k25}ha{\k10}i {\k24}yo{\k28}ku? {\k24}ma{\k20}ta {\k17}wa {\k33}DIA{\kf67}MONDS?
+Comment: 0,0:00:29.18,0:00:32.02,Koda,,0,0,0,karaoke,{\k26}LOVE {\k40}AND {\k35}PEA{\k21}CE {\k33}don{\k19}na {\k40}ya{\k34}bou {\k36}mo
+Comment: 0,0:00:32.02,0:00:34.58,Duo,,0,0,0,karaoke,{\k17}se{\k19}ka{\k14}i {\k21}wa {\k16}ki{\k25}mi {\k16}no {\k14}o{\k12}mo{\k9}i{\k19}do{\k40}o{\k33}ri
+Comment: 0,0:00:34.58,0:00:35.70,Duo,,0,0,0,karaoke,{\k20}COME {\k19}ON! {\k35}GOT {\k38}YOU!
+Comment: 0,0:00:35.70,0:00:36.74,Duo,,0,0,0,karaoke,{\k19}GO {\k17}THE {\k32}NEXT {\k36}ROUND
+Comment: 0,0:00:36.78,0:00:38.74,Koda,,0,0,0,karaoke,{\k24}ka{\k17}chi {\k25}ki{\k10}t{\k19}te {\k13}mi{\k39}se{\k49}te
+Comment: 0,0:00:38.98,0:00:41.54,Koda,,0,0,0,karaoke,{\k37}un{\k20}mei {\k12}no {\k39}shun{\k39}kan {\k34}wo {\k39}STAND-{\k34}BY
+Comment: 0,0:00:41.90,0:00:44.58,Koda,,0,0,0,karaoke,{\k17}so{\k12}re{\k23}zo{\k17}re {\k32}ga {\k17}i{\k18}da{\k9}ku {\k33}D{\k38}RA{\k51}MA
+Comment: 0,0:00:44.78,0:00:45.90,Duo,,0,0,0,karaoke,{\k19}T{\k36}RU{\k19}ST・{\k39}LAST
+Comment: 0,0:00:46.02,0:00:49.46,Koda,,0,0,0,karaoke,{\k12}fu{\k11}ri{\k16}o{\k18}to{\k38}sa{\k18}re{\k34}ta{\k26}ra {\k33}so{\k21}ko {\k38}de {\k14}D{\k38}ROP {\k27}OUT
+Comment: 0,0:00:49.46,0:00:50.26,Shonan [Choir],,0,0,0,karaoke,{\kf77}WOH
+Comment: 0,0:00:50.62,0:00:53.34,Duo,,0,0,0,karaoke,{\k18}da{\k19}re{\k18}ka {\k18}wo {\k19}ki{\k16}zu{\k19}tsu{\k19}ke{\k17}te {\k19}shi{\k31}mat{\k58}te
+Comment: 0,0:00:53.54,0:00:56.30,Duo,,0,0,0,karaoke,{\k18}ki{\k14}zu{\k21}tsu{\k18}i{\k17}te {\k19}o{\k19}ra{\k18}re{\k35}nai {\k58}GA{\k39}ME
+Comment: 0,0:00:56.46,0:00:57.54,Duo,,0,0,0,karaoke,{\k15}T{\k37}RU{\k19}ST・{\k38}LAST
+Comment: 0,0:00:57.66,0:01:01.10,Koda,,0,0,0,karaoke,{\k22}mu{\k16}ne {\k16}ni {\k36}wa{\k19}ki{\k35}ta{\k22}tsu {\k35}yo{\k20}ku{\k33}bou {\k17}hi {\k24}wo {\k19}tsu{\k28}ke
+Comment: 0,0:01:00.38,0:01:01.42,Shonan [Choir],,0,0,0,karaoke,{\k41}GO {\k18}FOR {\k16}THE {\k30}WIN!
+Comment: 0,0:01:01.50,0:01:05.98,Shonan,,0,0,0,karaoke,{\k40}a{\k33}za{\k20}mu{\k54}ki {\k36}ka{\k37}za{\k20}mu{\k48}ki {\k37}yo{\k39}mi{\k29}to{\k53}ri
+Comment: 0,0:01:06.22,0:01:09.30,Shonan,,0,0,0,karaoke,{\k33}ma{\k26}ta {\k18}te {\k35}wo {\k24}ku{\k47}mi {\k18}u{\k55}ra{\k25}gi{\k28}ri
+Comment: 0,0:01:09.50,0:01:12.90,Shonan,,0,0,0,karaoke,{\k18}ki{\k30}ta{\k26}i {\k36}to {\k19}ne{\k19}ga{\k19}i {\k19}a{\k32}ki{\k37}ra{\k19}me{\k29}na{\k35}i
+Comment: 0,0:01:13.42,0:01:16.66,Duo,,0,0,0,karaoke,{\k44}ka{\k20}chi{\k31}tot{\k59}ta {\k19}yu{\k19}me {\k17}no {\k37}na{\k36}ka {\k39}de
+Comment: 0,0:01:16.74,0:01:18.98,Koda,,0,0,0,karaoke,{\k26}TELL {\k16}ME? {\k27}na{\k11}ni {\k20}wo {\k15}mi{\k39}tsu{\k18}ke{\k53}ru
+Dialogue: 0,0:00:00.00,0:00:02.10,Koda,,0,0,0,fx,{\k0\fad(0,200)}{\an2\c&H5050E2&}Koda Kumi,\N{\c&HFF843C&}Shonan no Kaze, {\c&HEB4DC1&\i1}Duo
+Dialogue: 0,0:00:02.20,0:00:04.58,Koda,,0,0,0,fx,{\k90\fad(300,200)}{\k40}IN{\k17}VI{\k28}TA{\k68}TION
+Dialogue: 0,0:00:03.68,0:00:06.06,Koda,,0,0,0,fx,{\k90\fad(300,200)}{\k21}to{\k22}do{\k14}i{\k21}ta {\k18}na{\k32}ra
+Dialogue: 0,0:00:04.96,0:00:07.50,Koda,,0,0,0,fx,{\k90\fad(300,200)}{\k19}O{\k19}PEN {\k17}UP {\k18}THE {\k37}DUN{\k34}GEON
+Dialogue: 0,0:00:06.40,0:00:08.66,Koda,,0,0,0,fx,{\k90\fad(300,200)}{\k27}no{\k20}zo{\k12}mi {\k18}wa {\k16}na{\k25}ni?
+Dialogue: 0,0:00:07.28,0:00:09.74,Koda,,0,0,0,fx,{\k90\fad(300,200)}{\k25}san{\k17}ka {\k19}na{\k16}ra {\k21}no {\k36}CLAIM
+Dialogue: 0,0:00:08.64,0:00:11.50,Koda,,0,0,0,fx,{\k90\fad(300,200)}{\k19}da{\k19}re {\k19}ga {\k16}na{\k16}ru {\k21}no? {\k16}A{\k49}CE
+Dialogue: 0,0:00:09.92,0:00:12.10,Koda [CHOIR],,0,0,0,fx,{\k90\fad(300,200)}{\k54}GET {\k19}REA{\k34}DY
+Dialogue: 0,0:00:10.72,0:00:14.58,Koda,,0,0,0,fx,{\k90\fad(300,200)}{\k30}SHUT {\k22}IT {\k55}DOWN{\k14} {\k15}hi{\k27}ki{\k17}ka{\k16}e{\k21}se{\k18}na{\k40}i
+Dialogue: 0,0:00:13.92,0:00:18.86,Shonan,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ha{\k9}te{\k24}shi{\k13}na{\k18}ku {\k37}tsu{\k33}zu{\k16}ku {\k28}i{\k13}no{\k21}chi {\k42}no {\k24}ra{\kf89}sen
+Dialogue: 0,0:00:17.76,0:00:21.34,Shonan,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ji{\k28}kuu {\k20}mo {\k32}tsu{\k32}ki{\k27}nu{\k19}ke{\k52}te
+Dialogue: 0,0:00:20.40,0:00:26.34,Shonan,,0,0,0,fx,{\k90\fad(300,200)}{\k39}su{\k74}be{\k39}te {\k21}to{\k17}ki{\k35}ha{\k39}na{\k37}ta {\k33}re{\k58}ru {\k17}ma{\k32}de{\kf43}~
+Dialogue: 0,0:00:25.24,0:00:29.18,Koda,,0,0,0,fx,{\k90\fad(300,200)}{\k36}shi{\k25}ha{\k10}i {\k24}yo{\k28}ku? {\k24}ma{\k20}ta {\k17}wa {\k33}DIA{\kf67}MONDS?
+Dialogue: 0,0:00:28.28,0:00:32.22,Koda,,0,0,0,fx,{\k90\fad(300,200)}{\k26}LOVE {\k40}AND {\k35}PEA{\k21}CE {\k33}don{\k19}na {\k40}ya{\k34}bou {\k36}mo
+Dialogue: 0,0:00:31.12,0:00:34.78,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k17}se{\k19}ka{\k14}i {\k21}wa {\k16}ki{\k25}mi {\k16}no {\k14}o{\k12}mo{\k9}i{\k19}do{\k40}o{\k33}ri
+Dialogue: 0,0:00:33.68,0:00:35.90,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k20}COME {\k19}ON! {\k35}GOT {\k38}YOU!
+Dialogue: 0,0:00:34.80,0:00:36.94,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k19}GO {\k17}THE {\k32}NEXT {\k36}ROUND
+Dialogue: 0,0:00:35.88,0:00:38.94,Koda,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ka{\k17}chi {\k25}ki{\k10}t{\k19}te {\k13}mi{\k39}se{\k49}te
+Dialogue: 0,0:00:38.08,0:00:41.74,Koda,,0,0,0,fx,{\k90\fad(300,200)}{\k37}un{\k20}mei {\k12}no {\k39}shun{\k39}kan {\k34}wo {\k39}STAND-{\k34}BY
+Dialogue: 0,0:00:41.00,0:00:44.78,Koda,,0,0,0,fx,{\k90\fad(300,200)}{\k17}so{\k12}re{\k23}zo{\k17}re {\k32}ga {\k17}i{\k18}da{\k9}ku {\k33}D{\k38}RA{\k51}MA
+Dialogue: 0,0:00:43.88,0:00:46.10,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k19}T{\k36}RU{\k19}ST・{\k39}LAST
+Dialogue: 0,0:00:45.12,0:00:49.66,Koda,,0,0,0,fx,{\k90\fad(300,200)}{\k12}fu{\k11}ri{\k16}o{\k18}to{\k38}sa{\k18}re{\k34}ta{\k26}ra {\k33}so{\k21}ko {\k38}de {\k14}D{\k38}ROP {\k27}OUT
+Dialogue: 0,0:00:48.56,0:00:50.46,Shonan [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf77}WOH
+Dialogue: 0,0:00:49.72,0:00:53.54,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k18}da{\k19}re{\k18}ka {\k18}wo {\k19}ki{\k16}zu{\k19}tsu{\k19}ke{\k17}te {\k19}shi{\k31}mat{\k58}te
+Dialogue: 0,0:00:52.64,0:00:56.50,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ki{\k14}zu{\k21}tsu{\k18}i{\k17}te {\k19}o{\k19}ra{\k18}re{\k35}nai {\k58}GA{\k39}ME
+Dialogue: 0,0:00:55.56,0:00:57.74,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k15}T{\k37}RU{\k19}ST・{\k38}LAST
+Dialogue: 0,0:00:56.76,0:01:01.30,Koda,,0,0,0,fx,{\k90\fad(300,200)}{\k22}mu{\k16}ne {\k16}ni {\k36}wa{\k19}ki{\k35}ta{\k22}tsu {\k35}yo{\k20}ku{\k33}bou {\k17}hi {\k24}wo {\k19}tsu{\k28}ke
+Dialogue: 0,0:00:59.48,0:01:01.62,Shonan [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k41}GO {\k18}FOR {\k16}THE {\k30}WIN!
+Dialogue: 0,0:01:00.60,0:01:06.18,Shonan,,0,0,0,fx,{\k90\fad(300,200)}{\k40}a{\k33}za{\k20}mu{\k54}ki {\k36}ka{\k37}za{\k20}mu{\k48}ki {\k37}yo{\k39}mi{\k29}to{\k53}ri
+Dialogue: 0,0:01:05.32,0:01:09.50,Shonan,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ma{\k26}ta {\k18}te {\k35}wo {\k24}ku{\k47}mi {\k18}u{\k55}ra{\k25}gi{\k28}ri
+Dialogue: 0,0:01:08.60,0:01:13.10,Shonan,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ki{\k30}ta{\k26}i {\k36}to {\k19}ne{\k19}ga{\k19}i {\k19}a{\k32}ki{\k37}ra{\k19}me{\k29}na{\k35}i
+Dialogue: 0,0:01:12.52,0:01:16.86,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k44}ka{\k20}chi{\k31}tot{\k59}ta {\k19}yu{\k19}me {\k17}no {\k37}na{\k36}ka {\k39}de
+Dialogue: 0,0:01:15.84,0:01:19.18,Koda,,0,0,0,fx,{\k90\fad(300,200)}{\k26}TELL {\k16}ME? {\k27}na{\k11}ni {\k20}wo {\k15}mi{\k39}tsu{\k18}ke{\k53}ru
