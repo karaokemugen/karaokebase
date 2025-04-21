@@ -1,0 +1,188 @@
+﻿[Script Info]
+Title: Remember Them
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:10.30,0:00:10.88,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k22\i1}Cap{\k36}tain!{\i0}
+Comment: 0,0:00:13.03,0:00:13.83,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k37\i1}Cap{\k43}tain!{\i0}
+Comment: 0,0:00:15.68,0:00:16.54,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k36\i1}Cap{\k50}tain!{\i0}
+Comment: 0,0:00:17.31,0:00:18.10,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k37}CAP{\k42}TAIN!
+Comment: 0,0:00:18.31,0:00:20.14,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}We {\k31}must {\k27}move {\k25}quick{\k79}ly
+Comment: 0,0:00:21.03,0:00:23.03,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}We {\k16}don't {\k19}have {\k24}much {\kf123}time
+Comment: 0,0:00:24.00,0:00:28.13,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}He {\k18}di{\k19}dn't {\k35}no{\k32}tice {\k34}I {\k33}mixed {\k50}lo{\k24}tus {\k38}in {\k23}his {\k89}wine
+Comment: 0,0:00:29.33,0:00:33.74,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k33}Mark {\k25}my {\k33}words {\k143}now, {\k16}this {\k17}is {\k36}not {\k20}the {\kf118}end
+Comment: 0,0:00:34.98,0:00:36.87,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k22}But {\k34}cap{\k48}tain, {\k21}what{\k17}'ll {\k18}we {\k29}do
+Comment: 0,0:00:36.87,0:00:39.04,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k18}with {\k30}our {\k26}fal{\k24}len {\kf119}friends?
+Comment: 0,0:00:39.84,0:00:43.88,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}Re{\k33}mem{\k17}ber {\k95}them, {\k19}when {\k21}the {\k45}fire {\k19}be{\k48}gins {\k18}to {\k70}fade
+Comment: 0,0:00:44.16,0:00:46.60,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}For {\k17}the {\k43}fal{\k24}len {\k47}and {\k19}a{\k75}fraid
+Comment: 0,0:00:46.78,0:00:50.31,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}We {\k21}are {\k21}not {\k39}to {\k34}let {\k53}them {\k41}di-{\k16}i-{\k37}ie {\k26}in {\k46}vain
+Comment: 0,0:00:50.51,0:00:54.74,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}Re{\k31}mem{\k24}ber {\k93}them, {\k17}we're {\k18}the {\k23}ones {\k40}who {\k51}car{\k22}ry {\k86}on
+Comment: 0,0:00:50.51,0:00:51.76,Sample KM [Choir],,0,0,0,karaoke,{\k18}Re{\k31}mem{\k24}ber {\k52}them
+Comment: 0,0:00:55.02,0:00:57.31,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k15}The {\k43}flames {\k26}of {\k45}those {\k24}who've {\k76}gone
+Comment: 0,0:00:57.51,0:01:01.15,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}And {\k18}our {\k32}com{\k37}rades {\k33}will {\k41}not {\k43}di-{\k15}i-{\k44}ie {\k25}in {\k60}vain
+Comment: 0,0:00:59.28,0:01:01.15,Sample KM [Choir],,0,0,0,karaoke,{\k43}Di-{\k15}i-{\k44}ie {\k25}in {\k57}vain
+Comment: 0,0:01:01.34,0:01:03.18,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}I {\k14}need {\k19}all {\k15}our {\k32}hands {\k21}on {\k19}his {\k45}club
+Comment: 0,0:01:03.98,0:01:05.98,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}This {\k18}is {\k18}how {\k14}we're {\k18}get{\k13}tin' {\k23}out {\k16}of {\k62}here
+Comment: 0,0:01:06.18,0:01:08.59,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k28}Use {\k21}your {\k33}swords {\k18}to {\k32}shar{\k20}pen {\k33}the {\k56}stub
+Comment: 0,0:01:09.16,0:01:11.02,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k13}And {\k24}turn {\k11}it {\k20}to {\k14}a {\k29}gi{\k23}ant {\k52}spear
+Comment: 0,0:01:11.02,0:01:11.76,Sample KM [Choir],,0,0,0,karaoke,{\k28}{\i0}Let's {\k23}kill {\k23}him!{\i1}
+Comment: 0,0:01:11.77,0:01:13.94,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k24}His {\k36}bo{\k15}dy {\k14}is {\k34}blo{\k16}cking {\k22}the {\k56}path
+Comment: 0,0:01:14.34,0:01:16.80,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k17}If {\k14}we {\k17}kill {\k16}him {\k18}we'll {\k24}be {\k32}stuck {\k32}in{\k76}side
+Comment: 0,0:01:17.32,0:01:19.35,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k30}Cap{\k36}tain, {\k20}where {\k16}do {\k14}we {\k19}at{\k31}tack {\k37}him?
+Comment: 0,0:01:19.87,0:01:21.64,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k15}We {\k17}got{\k18}ta {\k19}stab {\k11}him {\k35}in {\k15}the {\k47}eye
+Comment: 0,0:01:21.64,0:01:22.33,Sample KM [Choir],,0,0,0,karaoke,{\k30}{\i0}Yes, {\k39}sir!{\i1}
+Comment: 0,0:01:22.44,0:01:26.50,Sample KM [Choir],,0,0,0,karaoke,{\k23}Re{\k33}mem{\k20}ber {\k95}them, {\k18}when {\k18}the {\k34}fi{\k19}re {\k16}be{\k41}gins {\k21}to {\k68}fade
+Comment: 0,0:01:26.82,0:01:29.33,Sample KM [Choir],,0,0,0,karaoke,{\k17}For {\k20}the {\k45}fal{\k23}len {\k42}and {\k22}a{\k82}fraid
+Comment: 0,0:01:29.50,0:01:32.98,Sample KM [Choir],,0,0,0,karaoke,{\k16}We {\k19}are {\k25}not {\k40}to {\k35}let {\k46}them {\k43}di-{\k17}i-{\k43}ie {\k25}in {\k39}vain
+Comment: 0,0:01:32.98,0:01:37.56,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k24}Re{\k45}mem{\k20}ber {\k98}them, {\k15}we're {\k19}the {\k28}ones {\k35}who {\k55}car{\k18}ry {\kf101}on
+Comment: 0,0:01:37.66,0:01:39.98,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}The {\k48}flames {\k19}of {\k45}those {\k23}who've {\k79}gone
+Comment: 0,0:01:40.17,0:01:43.80,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k17}And {\k19}our {\k32}com{\k35}rades {\k33}will {\k45}not {\k41}di-{\k14}i-{\k46}ie {\k23}in {\k58}vain
+Comment: 0,0:01:32.98,0:01:37.56,Sample KM [Choir],,0,0,0,karaoke,{\k24}Re{\k45}mem{\k20}ber {\k98}them, {\k15}we're {\k19}the {\k28}ones {\k35}who {\k55}car{\k18}ry {\kf101}on
+Comment: 0,0:01:37.66,0:01:39.98,Sample KM [Choir],,0,0,0,karaoke,{\k18}The {\k48}flames {\k19}of {\k45}those {\k23}who've {\k79}gone
+Comment: 0,0:01:40.17,0:01:43.80,Sample KM [Choir],,0,0,0,karaoke,{\k17}And {\k19}our {\k32}com{\k35}rades {\k33}will {\k45}not {\k41}di-{\k14}i-{\k46}ie {\k23}in {\k58}vain
+Comment: 0,0:01:43.99,0:01:44.78,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k79}{\i1}Now!{\i0}
+Comment: 0,0:01:49.24,0:01:50.01,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k38}{\i1}Scat{\k39}ter!{\i0}
+Comment: 0,0:01:55.33,0:01:57.46,Sample KM [Choir],,0,0,0,karaoke,{\kf132}Who {\k33}hurts {\k48}you?
+Comment: 0,0:01:59.00,0:01:59.99,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k16\i1}There {\k17}are {\k16}more {\k22}of {\k28}them?!{\i0}
+Comment: 0,0:02:00.66,0:02:02.78,Sample KM [Choir],,0,0,0,karaoke,{\kf124}Who {\k31}hurts {\k57}you?
+Comment: 0,0:02:04.67,0:02:05.35,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k68}{\i1}Hide!{\i0}
+Comment: 0,0:02:06.01,0:02:08.11,Sample KM [Choir],,0,0,0,karaoke,{\kf129}Who {\k30}hurts {\k51}you?
+Comment: 0,0:02:08.66,0:02:10.48,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k36}Cap{\k64}tain, {\k11}we {\k22}should {\k49}run!
+Comment: 0,0:02:10.65,0:02:11.30,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k65}{\i1}Wait!{\i0}
+Comment: 0,0:02:11.33,0:02:13.45,Sample KM [Choir],,0,0,0,karaoke,{\kf124}Who {\k34}hurts {\k54}you?
+Comment: 0,0:02:13.98,0:02:15.34,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k31}Cap{\k37}tain, {\k68}please!
+Comment: 0,0:02:15.35,0:02:15.92,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k57}{\i1}Wait!{\i0}
+Comment: 0,0:02:15.99,0:02:21.32,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k34}It {\k35}was {\k142}No{\k38}bo{\k92}dy, {\k124}No{\k37}bo{\k31}dy
+Comment: 0,0:02:21.66,0:02:25.34,Sample KM [Choir],,0,0,0,karaoke,{\k37}If {\k47}no{\k50}bo{\k34}dy {\k40}hurts {\k54}you, {\k32}be {\k37}si{\k37}lent
+Comment: 0,0:02:25.67,0:02:26.59,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k31\i1}Don't {\k61}go!{\i0}
+Comment: 0,0:02:29.70,0:02:32.51,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k29}Let's {\k33}grab {\k18}the {\k38}sheep {\k30}and {\k18}a{\k40}way {\k32}we {\k43}go
+Comment: 0,0:02:36.09,0:02:38.90,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k19}Have {\k18}you {\k19}for{\k28}got{\k25}ten {\k17}the {\k28}les{\k26}sons {\k16}I {\k36}taught {\k49}you?
+Comment: 0,0:02:39.54,0:02:42.38,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k45}He's {\k21}still {\k19}a {\k61}threat {\k22}un{\k27}til {\k32}he's {\k57}dead!
+Comment: 0,0:02:43.33,0:02:43.88,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k13\i1}Fi{\k17}nish {\k25}it!{\i0}
+Comment: 0,0:02:44.63,0:02:45.15,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k52}{\i1}No!{\i0}
+Comment: 0,0:02:47.27,0:02:47.93,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k66}{\i1}No?{\i0}
+Comment: 0,0:02:48.33,0:02:50.44,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k32}What {\k55}good {\k22}would {\k21}kil{\k23}ling {\k58}do
+Comment: 0,0:02:51.01,0:02:52.99,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}When {\k30}mer{\k37}cy {\k28}is {\k31}a {\k50}skill
+Comment: 0,0:02:52.99,0:02:55.64,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k34}more {\k26}of {\k29}this {\k47}world {\k24}could {\k42}learn {\k25}to {\k38}use
+Comment: 0,0:02:55.80,0:02:58.36,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}My {\k29}friend {\k23}is {\k63}dead, {\k23}our {\k27}foe {\k25}is {\k44}blind
+Comment: 0,0:02:58.47,0:03:01.00,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k15}The {\k38}blood {\k30}we {\k37}shed, {\k33}it {\k25}ne{\k17}ver {\k58}dries
+Comment: 0,0:03:01.18,0:03:03.11,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}Is {\k23}this {\k20}what {\k19}it {\k50}means {\k24}to {\k37}be
+Comment: 0,0:03:03.11,0:03:05.28,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}a {\k33}war{\k21}ri{\k18}or {\k30}of {\k18}the {\k77}mind?
+Comment: 0,0:03:05.39,0:03:06.01,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k62}{\i1}Don't!{\i0}
+Comment: 0,0:03:06.33,0:03:07.51,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k31\i1}Hey {\k28}Cy{\k59}clops!{\i0}
+Comment: 0,0:03:08.15,0:03:10.41,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}When {\k22}we {\k45}met {\k21}I {\k41}led {\k24}with {\k54}peace
+Comment: 0,0:03:10.83,0:03:13.14,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}While {\k19}you {\k60}fed {\k22}your {\k15}in{\k16}ner {\k80}beast
+Comment: 0,0:03:13.47,0:03:17.11,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}But {\k25}my {\k31}com{\k33}rades {\k26}will {\k44}not {\k41}di-{\k16}i-{\k41}ie {\k23}in {\k61}vain
+Comment: 0,0:03:17.11,0:03:18.36,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}Re{\k33}mem{\k22}ber {\k51}them
+Comment: 0,0:03:18.98,0:03:21.02,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}The {\k32}next {\k35}time {\k34}that {\k31}you {\k51}dare
+Comment: 0,0:03:21.02,0:03:23.70,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k34}choose {\k26}not {\k32}to {\k53}spare, {\k20}re{\k31}mem{\k21}ber {\k51}them
+Comment: 0,0:03:24.98,0:03:27.19,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}Re{\k33}mem{\k31}ber {\kf136}us
+Comment: 0,0:03:27.52,0:03:29.67,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k34}Re{\k34}mem{\k45}ber {\k102}me
+Comment: 0,0:03:28.63,0:03:30.64,Sample KM [Choir],,0,0,0,karaoke,{\k68}oh {\k36}woah-{\k20}oh-{\k31}oh-{\k46}oh
+Comment: 0,0:03:30.66,0:03:33.92,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k35}I'm {\k20}the {\k34}reig{\k28}ning {\k39}king {\k34}of {\k21}I{\k21}tha{\kf94}ca
+Comment: 0,0:03:33.99,0:03:35.99,Sample KM [Choir],,0,0,0,karaoke,{\k67}oh {\k34}woah-{\k21}oh-{\k78}oh
+Comment: 0,0:03:35.99,0:03:39.35,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k37}I {\k19}am {\k35}nei{\k27}ther {\k37}man {\k31}nor {\k33}my{\k31}thi{\k86}cal
+Comment: 0,0:03:39.35,0:03:44.47,Sample KM [Choir],,0,0,0,karaoke,{\k64}oh {\k32}woah-{\k19}oh-{\k18}oh-{\k65}oh {\k34}woah-{\k21}oh-{\k36}oh-{\k46}oh {\k32}woah-{\k18}oh-{\kf127}oh
+Comment: 0,0:03:39.35,0:03:44.47,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k83}I {\k29}am {\k20}your {\k73}dar{\k59}kest {\k49}mo{\kf199}ment
+Comment: 0,0:03:44.66,0:03:46.00,Sample KM [Choir],,0,0,0,karaoke,{\kf134}oooh
+Comment: 0,0:03:46.00,0:03:48.74,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k49}I {\k49}am {\k25}the {\k29}in{\k18}fa{\kf104}mous
+Comment: 0,0:03:49.50,0:03:50.97,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k34}O{\k29}DY{\k20}SSE{\k64}US!
+Dialogue: 0,0:00:09.40,0:00:11.08,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k22\i1}Cap{\k36}tain!{\i0}
+Dialogue: 0,0:00:12.13,0:00:14.03,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k37\i1}Cap{\k43}tain!{\i0}
+Dialogue: 0,0:00:14.78,0:00:16.74,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k36\i1}Cap{\k50}tain!{\i0}
+Dialogue: 0,0:00:16.41,0:00:18.30,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k37}CAP{\k42}TAIN!
+Dialogue: 0,0:00:17.41,0:00:20.34,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k21}We {\k31}must {\k27}move {\k25}quick{\k79}ly
+Dialogue: 0,0:00:20.13,0:00:23.23,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k18}We {\k16}don't {\k19}have {\k24}much {\kf123}time
+Dialogue: 0,0:00:23.10,0:00:28.33,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k18}He {\k18}di{\k19}dn't {\k35}no{\k32}tice {\k34}I {\k33}mixed {\k50}lo{\k24}tus {\k38}in {\k23}his {\k89}wine
+Dialogue: 0,0:00:28.43,0:00:33.94,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Mark {\k25}my {\k33}words {\k143}now, {\k16}this {\k17}is {\k36}not {\k20}the {\kf118}end
+Dialogue: 0,0:00:34.08,0:00:37.07,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}But {\k34}cap{\k48}tain, {\k21}what{\k17}'ll {\k18}we {\k29}do
+Dialogue: 0,0:00:35.97,0:00:39.24,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k18}with {\k30}our {\k26}fal{\k24}len {\kf119}friends?
+Dialogue: 0,0:00:38.94,0:00:44.08,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Re{\k33}mem{\k17}ber {\k95}them, {\k19}when {\k21}the {\k45}fire {\k19}be{\k48}gins {\k18}to {\k70}fade
+Dialogue: 0,0:00:43.26,0:00:46.80,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}For {\k17}the {\k43}fal{\k24}len {\k47}and {\k19}a{\k75}fraid
+Dialogue: 0,0:00:45.88,0:00:50.51,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}We {\k21}are {\k21}not {\k39}to {\k34}let {\k53}them {\k41}di-{\k16}i-{\k37}ie {\k26}in {\k46}vain
+Dialogue: 0,0:00:49.61,0:00:54.94,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Re{\k31}mem{\k24}ber {\k93}them, {\k17}we're {\k18}the {\k23}ones {\k40}who {\k51}car{\k22}ry {\k86}on
+Dialogue: 0,0:00:49.61,0:00:51.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Re{\k31}mem{\k24}ber {\k52}them
+Dialogue: 0,0:00:54.12,0:00:57.51,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k43}flames {\k26}of {\k45}those {\k24}who've {\k76}gone
+Dialogue: 0,0:00:56.61,0:01:01.35,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k16}And {\k18}our {\k32}com{\k37}rades {\k33}will {\k41}not {\k43}di-{\k15}i-{\k44}ie {\k25}in {\k60}vain
+Dialogue: 0,0:00:58.38,0:01:01.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Di-{\k15}i-{\k44}ie {\k25}in {\k57}vain
+Dialogue: 0,0:01:00.44,0:01:03.38,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k14}need {\k19}all {\k15}our {\k32}hands {\k21}on {\k19}his {\k45}club
+Dialogue: 0,0:01:03.08,0:01:06.18,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k18}This {\k18}is {\k18}how {\k14}we're {\k18}get{\k13}tin' {\k23}out {\k16}of {\k62}here
+Dialogue: 0,0:01:05.28,0:01:08.79,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Use {\k21}your {\k33}swords {\k18}to {\k32}shar{\k20}pen {\k33}the {\k56}stub
+Dialogue: 0,0:01:08.26,0:01:11.22,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k13}And {\k24}turn {\k11}it {\k20}to {\k14}a {\k29}gi{\k23}ant {\k52}spear
+Dialogue: 0,0:01:10.12,0:01:11.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}{\i0}Let's {\k23}kill {\k23}him!{\i1}
+Dialogue: 0,0:01:10.87,0:01:14.14,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k24}His {\k36}bo{\k15}dy {\k14}is {\k34}blo{\k16}cking {\k22}the {\k56}path
+Dialogue: 0,0:01:13.44,0:01:17.00,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k17}If {\k14}we {\k17}kill {\k16}him {\k18}we'll {\k24}be {\k32}stuck {\k32}in{\k76}side
+Dialogue: 0,0:01:16.42,0:01:19.55,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Cap{\k36}tain, {\k20}where {\k16}do {\k14}we {\k19}at{\k31}tack {\k37}him?
+Dialogue: 0,0:01:18.97,0:01:21.84,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k15}We {\k17}got{\k18}ta {\k19}stab {\k11}him {\k35}in {\k15}the {\k47}eye
+Dialogue: 0,0:01:20.74,0:01:22.53,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}{\i0}Yes, {\k39}sir!{\i1}
+Dialogue: 0,0:01:21.54,0:01:26.70,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Re{\k33}mem{\k20}ber {\k95}them, {\k18}when {\k18}the {\k34}fi{\k19}re {\k16}be{\k41}gins {\k21}to {\k68}fade
+Dialogue: 0,0:01:25.92,0:01:29.53,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}For {\k20}the {\k45}fal{\k23}len {\k42}and {\k22}a{\k82}fraid
+Dialogue: 0,0:01:28.60,0:01:33.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}We {\k19}are {\k25}not {\k40}to {\k35}let {\k46}them {\k43}di-{\k17}i-{\k43}ie {\k25}in {\k39}vain
+Dialogue: 0,0:01:32.08,0:01:37.76,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Re{\k45}mem{\k20}ber {\k98}them, {\k15}we're {\k19}the {\k28}ones {\k35}who {\k55}car{\k18}ry {\kf101}on
+Dialogue: 0,0:01:36.76,0:01:40.18,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k18}The {\k48}flames {\k19}of {\k45}those {\k23}who've {\k79}gone
+Dialogue: 0,0:01:39.27,0:01:44.00,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k17}And {\k19}our {\k32}com{\k35}rades {\k33}will {\k45}not {\k41}di-{\k14}i-{\k46}ie {\k23}in {\k58}vain
+Dialogue: 0,0:01:32.08,0:01:37.76,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Re{\k45}mem{\k20}ber {\k98}them, {\k15}we're {\k19}the {\k28}ones {\k35}who {\k55}car{\k18}ry {\kf101}on
+Dialogue: 0,0:01:36.76,0:01:40.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}The {\k48}flames {\k19}of {\k45}those {\k23}who've {\k79}gone
+Dialogue: 0,0:01:39.27,0:01:44.00,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}And {\k19}our {\k32}com{\k35}rades {\k33}will {\k45}not {\k41}di-{\k14}i-{\k46}ie {\k23}in {\k58}vain
+Dialogue: 0,0:01:43.09,0:01:44.98,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k79}{\i1}Now!{\i0}
+Dialogue: 0,0:01:48.34,0:01:50.21,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k38}{\i1}Scat{\k39}ter!{\i0}
+Dialogue: 0,0:01:54.43,0:01:57.66,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf132}Who {\k33}hurts {\k48}you?
+Dialogue: 0,0:01:58.10,0:02:00.19,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k16\i1}There {\k17}are {\k16}more {\k22}of {\k28}them?!{\i0}
+Dialogue: 0,0:01:59.76,0:02:02.98,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf124}Who {\k31}hurts {\k57}you?
+Dialogue: 0,0:02:03.77,0:02:05.55,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k68}{\i1}Hide!{\i0}
+Dialogue: 0,0:02:05.11,0:02:08.31,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf129}Who {\k30}hurts {\k51}you?
+Dialogue: 0,0:02:07.76,0:02:10.68,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Cap{\k64}tain, {\k11}we {\k22}should {\k49}run!
+Dialogue: 0,0:02:09.75,0:02:11.50,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k65}{\i1}Wait!{\i0}
+Dialogue: 0,0:02:10.43,0:02:13.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf124}Who {\k34}hurts {\k54}you?
+Dialogue: 0,0:02:13.08,0:02:15.54,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Cap{\k37}tain, {\k68}please!
+Dialogue: 0,0:02:14.45,0:02:16.12,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k57}{\i1}Wait!{\i0}
+Dialogue: 0,0:02:15.09,0:02:21.52,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k34}It {\k35}was {\k142}No{\k38}bo{\k92}dy, {\k124}No{\k37}bo{\k31}dy
+Dialogue: 0,0:02:20.76,0:02:25.54,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k37}If {\k47}no{\k50}bo{\k34}dy {\k40}hurts {\k54}you, {\k32}be {\k37}si{\k37}lent
+Dialogue: 0,0:02:24.77,0:02:26.79,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k31\i1}Don't {\k61}go!{\i0}
+Dialogue: 0,0:02:28.80,0:02:32.71,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Let's {\k33}grab {\k18}the {\k38}sheep {\k30}and {\k18}a{\k40}way {\k32}we {\k43}go
+Dialogue: 0,0:02:35.19,0:02:39.10,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Have {\k18}you {\k19}for{\k28}got{\k25}ten {\k17}the {\k28}les{\k26}sons {\k16}I {\k36}taught {\k49}you?
+Dialogue: 0,0:02:38.64,0:02:42.58,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k45}He's {\k21}still {\k19}a {\k61}threat {\k22}un{\k27}til {\k32}he's {\k57}dead!
+Dialogue: 0,0:02:42.43,0:02:44.08,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k13\i1}Fi{\k17}nish {\k25}it!{\i0}
+Dialogue: 0,0:02:43.73,0:02:45.35,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k52}{\i1}No!{\i0}
+Dialogue: 0,0:02:46.37,0:02:48.13,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k66}{\i1}No?{\i0}
+Dialogue: 0,0:02:47.43,0:02:50.64,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k32}What {\k55}good {\k22}would {\k21}kil{\k23}ling {\k58}do
+Dialogue: 0,0:02:50.11,0:02:53.19,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k22}When {\k30}mer{\k37}cy {\k28}is {\k31}a {\k50}skill
+Dialogue: 0,0:02:52.09,0:02:55.84,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k34}more {\k26}of {\k29}this {\k47}world {\k24}could {\k42}learn {\k25}to {\k38}use
+Dialogue: 0,0:02:54.90,0:02:58.56,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k22}My {\k29}friend {\k23}is {\k63}dead, {\k23}our {\k27}foe {\k25}is {\k44}blind
+Dialogue: 0,0:02:57.57,0:03:01.20,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k38}blood {\k30}we {\k37}shed, {\k33}it {\k25}ne{\k17}ver {\k58}dries
+Dialogue: 0,0:03:00.28,0:03:03.31,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Is {\k23}this {\k20}what {\k19}it {\k50}means {\k24}to {\k37}be
+Dialogue: 0,0:03:02.21,0:03:05.48,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}a {\k33}war{\k21}ri{\k18}or {\k30}of {\k18}the {\k77}mind?
+Dialogue: 0,0:03:04.49,0:03:06.21,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k62}{\i1}Don't!{\i0}
+Dialogue: 0,0:03:05.43,0:03:07.71,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k31\i1}Hey {\k28}Cy{\k59}clops!{\i0}
+Dialogue: 0,0:03:07.25,0:03:10.61,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}When {\k22}we {\k45}met {\k21}I {\k41}led {\k24}with {\k54}peace
+Dialogue: 0,0:03:09.93,0:03:13.34,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}While {\k19}you {\k60}fed {\k22}your {\k15}in{\k16}ner {\k80}beast
+Dialogue: 0,0:03:12.57,0:03:17.31,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}But {\k25}my {\k31}com{\k33}rades {\k26}will {\k44}not {\k41}di-{\k16}i-{\k41}ie {\k23}in {\k61}vain
+Dialogue: 0,0:03:16.21,0:03:18.56,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Re{\k33}mem{\k22}ber {\k51}them
+Dialogue: 0,0:03:18.08,0:03:21.22,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k21}The {\k32}next {\k35}time {\k34}that {\k31}you {\k51}dare
+Dialogue: 0,0:03:20.12,0:03:23.90,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k34}choose {\k26}not {\k32}to {\k53}spare, {\k20}re{\k31}mem{\k21}ber {\k51}them
+Dialogue: 0,0:03:24.08,0:03:27.39,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Re{\k33}mem{\k31}ber {\kf136}us
+Dialogue: 0,0:03:26.62,0:03:29.87,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Re{\k34}mem{\k45}ber {\k102}me
+Dialogue: 0,0:03:27.73,0:03:30.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k68}oh {\k36}woah-{\k20}oh-{\k31}oh-{\k46}oh
+Dialogue: 0,0:03:29.76,0:03:34.12,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k35}I'm {\k20}the {\k34}reig{\k28}ning {\k39}king {\k34}of {\k21}I{\k21}tha{\kf94}ca
+Dialogue: 0,0:03:33.09,0:03:36.19,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k67}oh {\k34}woah-{\k21}oh-{\k78}oh
+Dialogue: 0,0:03:35.09,0:03:39.55,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k37}I {\k19}am {\k35}nei{\k27}ther {\k37}man {\k31}nor {\k33}my{\k31}thi{\k86}cal
+Dialogue: 0,0:03:38.45,0:03:44.67,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k64}oh {\k32}woah-{\k19}oh-{\k18}oh-{\k65}oh {\k34}woah-{\k21}oh-{\k36}oh-{\k46}oh {\k32}woah-{\k18}oh-{\kf127}oh
+Dialogue: 0,0:03:38.45,0:03:44.67,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k83}I {\k29}am {\k20}your {\k73}dar{\k59}kest {\k49}mo{\kf199}ment
+Dialogue: 0,0:03:43.76,0:03:46.20,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf134}oooh
+Dialogue: 0,0:03:45.10,0:03:48.94,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k49}I {\k49}am {\k25}the {\k29}in{\k18}fa{\kf104}mous
+Dialogue: 0,0:03:48.60,0:03:51.17,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k34}O{\k29}DY{\k20}SSE{\k64}US!
