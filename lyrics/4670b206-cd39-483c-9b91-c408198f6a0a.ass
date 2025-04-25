@@ -18,7 +18,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template syl furi all,!retime("line",$lstart < 900 and -$lstart or -900,200)!{\fade(!$lstart < 900 and $lstart or 300!,200)\an5\pos(!line.left+syl.center!,!$middle+offset()!)\k!$start/10+($lstart < 900 and $lstart or 900)/10!\!syl.tag!$skdur}
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,code once,lineOffset=60 -- vertical offset between lines with different vertical margins value
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,code once,function offset() return _G.tonumber(line.margin_t)*lineOffset end
-Comment: 0,0:00:11.61,0:00:15.96,Sample KM [Up],,0,0,0,karaoke,{\k111}夜|よる{\k27}を{\k35}刺{\k17}す{\k33}無|む{\k32}数|す{\k46}#|う{\k19}の{\k39}遠|とお{\k11}吠|ぼ{\k22}え{\k43}が
+Comment: 0,0:00:11.61,0:00:15.96,Sample KM [Up],,0,0,0,karaoke,{\k111}夜|よる{\k27}を{\k35}刺|さ{\k17}す{\k33}無|む{\k32}数|す{\k46}#|う{\k19}の{\k39}遠|とお{\k11}吠|ぼ{\k22}え{\k43}が
 Comment: 0,0:00:16.95,0:00:19.85,Sample KM [Up],,0,0,1,karaoke,{\k116}天|てん{\k12}を{\k38}貫|つ{\k18}#|ら{\k31}#|ぬ{\k29}い{\k46}た
 Comment: 0,0:00:22.23,0:00:26.37,Sample KM [Up],,0,0,0,karaoke,{\k115}僕|ぼく{\k21}ら{\k27}みん{\k18}な{\k31}たっ{\k23}た{\k15}一|ひ{\k0}#|と{\k47}つ{\k19}の{\k30}満|まん{\k33}月|げつ{\k35}に
 Comment: 0,0:00:26.52,0:00:30.54,Sample KM [Up],,0,0,1,karaoke,{\k33}そう{\k33}やっ{\k67}て{\k81}{\k16}手|て{\k34}を{\k18}伸|の{\k30}ば{\k40}し{\k50}て
@@ -47,6 +47,7 @@ Dialogue: 0,0:00:10.71,0:00:16.16,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\p
 Dialogue: 0,0:00:10.71,0:00:16.16,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(264,32)\k460\\k22}え
 Dialogue: 0,0:00:10.71,0:00:16.16,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(282,32)\k482\\k43}が
 Dialogue: 0,0:00:10.71,0:00:16.16,Sample KM [Up]-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(102,14)\k90\\k111}よる
+Dialogue: 0,0:00:10.71,0:00:16.16,Sample KM [Up]-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(138,14)\k228\\k35}さ
 Dialogue: 0,0:00:10.71,0:00:16.16,Sample KM [Up]-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(174,14)\k280\\k33}む
 Dialogue: 0,0:00:10.71,0:00:16.16,Sample KM [Up]-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(183,14)\k313\\k32}す
 Dialogue: 0,0:00:10.71,0:00:16.16,Sample KM [Up]-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(192,14)\k345\\k46}う
