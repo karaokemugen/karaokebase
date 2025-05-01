@@ -48,7 +48,7 @@ Contributors:
 - Subkei
 - Sweb
 - TenmaWorks
-- Unknown
+- Yovador
 - Uwhipa
 - Vanvans04
 - Variabels
@@ -111,7 +111,7 @@ New songs : 419
 - ENG - EPIC: The Musical - The Ocean Saga - AMV - Luck Runs Out (NikoNikoD)
 - ENG - EPIC: The Musical - The Thunder Saga - AMV - Mutiny (NikoNikoD)
 - ENG - EPIC: The Musical - The Wisdom Saga - AMV - Love in Paradise (NikoNikoD)
-- ENG - Eagles - AUDIO - Hotel California (Unknown)
+- ENG - Eagles - AUDIO - Hotel California (Yovador)
 - ENG - Ensemble Stars! - GAME MV - LOCK YOUR GAZE (Variabels)
 - ENG - Evangelion Shin Gekijôban Ha - AMV - The Final Decision We All Must Take (Pralii~~)
 - ENG - Fairy Tail: 100 Years Quest - IN - Beyond the Quest (Nemesise)
