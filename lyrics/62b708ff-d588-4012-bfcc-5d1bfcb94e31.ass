@@ -10,38 +10,40 @@ Original Timing: KuroSensei
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: KM,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: KM,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:11.89,0:00:13.89,KM,,0,0,0,template pre-line all keeptags,!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}
-Comment: 0,0:00:13.89,0:00:20.87,KM,,0,0,0,karaoke,{\k62}LIKE {\k20}A {\k100}SCAR{\k19}LET {\k181}NIGHT {\k39}FELL {\k20}IN {\k34}THE {\k223}DARK
-Comment: 0,0:00:21.48,0:00:25.46,KM,,0,0,0,karaoke,{\k27}YOU {\k47}CAN {\k80}HIDE {\k21}YOUR {\k223}FEAR
-Comment: 0,0:00:25.46,0:00:28.15,KM,,0,0,0,karaoke,{\k45}CAN {\k62}LIE {\k29}MY {\k133}DEAR
-Comment: 0,0:00:28.42,0:00:34.91,KM,,0,0,0,karaoke,{\k18}ko{\k37}no {\k69}ma{\k219}ma {\k14}yu{\k25}me {\k22}wo {\k83}mi{\k162}te
-Comment: 0,0:00:36.23,0:00:47.77,KM,,0,0,0,karaoke,{\k38}chi{\k24}da{\k63}ra{\k33}ke {\k210}no {\k32}tsu{\k14}ba{\k169}sa {\k21}hi{\k84}ro{\k101}ge{\k365}te
-Comment: 0,0:00:47.25,0:00:48.24,KM,,0,0,0,karaoke,{\k23}WHAT'S {\k28}THE {\k48}LIE
-Comment: 0,0:00:50.79,0:00:51.88,KM,,0,0,0,karaoke,{\k20}WHAT'S {\k21}THE {\k68}TRUTH
+Comment: 0,0:00:00.00,0:00:00.00,KM,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:14.01,0:00:17.35,KM,,0,0,0,karaoke,{\k46}LIKE {\k36}THE {\k88}SCAR{\k23}LET {\kf141}NIGHT
+Comment: 0,0:00:17.77,0:00:20.98,KM,,0,0,0,karaoke,{\k41}VEIL{\k24}ING {\k24}THE {\kf232}DARK
+Comment: 0,0:00:21.48,0:00:24.81,KM,,0,0,0,karaoke,{\k27}YOU {\k47}CAN {\k80}HIDE {\k21}YOUR {\kf158}FEAR
+Comment: 0,0:00:25.46,0:00:27.99,KM,,0,0,0,karaoke,{\k45}CAN {\k62}LIE, {\k29}MY {\kf117}DEAR
+Comment: 0,0:00:28.42,0:00:34.91,KM,,0,0,0,karaoke,{\k24}ko{\k35}no {\k56}ma{\kf184}ma {\k44}{\k24}yu{\k19}me {\k18}wo {\k81}mi{\kf164}te
+Comment: 0,0:00:36.30,0:00:47.77,KM,,0,0,0,karaoke,{\k32}chi{\k24}da{\k65}ra{\k28}ke {\kf159}no {\k60}{\k27}tsu{\k25}ba{\kf127}sa {\k38}{\k14}hi{\k89}ro{\k96}ge{\kf363}te
+Comment: 0,0:00:47.25,0:00:48.24,KM,,0,0,0,karaoke,{\k23}WHAT’S {\k28}THE {\k48}LIE
+Comment: 0,0:00:50.79,0:00:51.88,KM,,0,0,0,karaoke,{\k20}WHAT’S {\k21}THE {\k68}TRUTH
 Comment: 0,0:00:54.49,0:00:55.65,KM,,0,0,0,karaoke,{\k24}WHAT {\k18}TO {\k12}BE{\k62}LIEVE
-Comment: 0,0:00:57.25,0:01:00.63,KM,,0,0,0,karaoke,{\k23}LIKE {\k23}A {\k35}FA{\k59}LLEN {\k64}AN{\k134}GEL
-Comment: 0,0:01:00.86,0:01:04.16,KM,,0,0,0,karaoke,{\k25}to{\k21}ki {\k24}no {\k34}ka{\k25}ze {\k201}ni
-Comment: 0,0:01:05.00,0:01:10.80,KM,,0,0,0,karaoke,{\k53}na{\k40}ga{\k66}sa{\k19}re{\k159}te {\k26}o{\k36}chi{\k34}te {\k22}yu{\k125}ku
-Comment: 0,0:01:11.12,0:01:14.96,KM,,0,0,0,karaoke,{\k28}IN{\k90}TO {\k87}THE {\k90}STARRY {\k89}NIGHT
-Comment: 0,0:01:15.19,0:01:18.64,KM,,0,0,0,karaoke,{\k25}me{\k29}ga{\k15}mi {\k25}no {\k43}yo{\k21}u {\k187}ni
-Comment: 0,0:01:20.00,0:01:26.33,KM,,0,0,0,karaoke,{\k25}da{\k21}ki{\k72}shi{\k23}me{\k214}te {\k28}e{\k25}i{\k67}e{\k25}n {\k133}wo
-Comment: 0,0:01:26.54,0:01:29.41,KM,,0,0,0,karaoke,{\k55}FLY {\k33}TO {\k66}HEA{\k133}VEN
-Dialogue: 0,0:00:12.89,0:00:20.97,KM,,0,0,0,fx,{\fade(255,0,255,0,850,7980,8080)\k90}{\k62}LIKE {\k20}A {\k100}SCAR{\k19}LET {\k181}NIGHT {\k39}FELL {\k20}IN {\k34}THE {\k223}DARK
-Dialogue: 0,0:00:20.48,0:00:25.56,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4980,5080)\k90}{\k27}YOU {\k47}CAN {\k80}HIDE {\k21}YOUR {\k223}FEAR
-Dialogue: 0,0:00:24.46,0:00:28.25,KM,,0,0,0,fx,{\fade(255,0,255,0,850,3690,3790)\k90}{\k45}CAN {\k62}LIE {\k29}MY {\k133}DEAR
-Dialogue: 0,0:00:27.42,0:00:35.01,KM,,0,0,0,fx,{\fade(255,0,255,0,850,7490,7590)\k90}{\k18}ko{\k37}no {\k69}ma{\k219}ma {\k14}yu{\k25}me {\k22}wo {\k83}mi{\k162}te
-Dialogue: 0,0:00:35.23,0:00:47.87,KM,,0,0,0,fx,{\fade(255,0,255,0,850,12540,12640)\k90}{\k38}chi{\k24}da{\k63}ra{\k33}ke {\k210}no {\k32}tsu{\k14}ba{\k169}sa {\k21}hi{\k84}ro{\k101}ge{\k365}te
-Dialogue: 0,0:00:46.25,0:00:48.34,KM,,0,0,0,fx,{\fade(255,0,255,0,850,1990,2090)\k90}{\k23}WHAT'S {\k28}THE {\k48}LIE
-Dialogue: 0,0:00:49.79,0:00:51.98,KM,,0,0,0,fx,{\fade(255,0,255,0,850,2090,2190)\k90}{\k20}WHAT'S {\k21}THE {\k68}TRUTH
-Dialogue: 0,0:00:53.49,0:00:55.75,KM,,0,0,0,fx,{\fade(255,0,255,0,850,2160,2260)\k90}{\k24}WHAT {\k18}TO {\k12}BE{\k62}LIEVE
-Dialogue: 0,0:00:56.25,0:01:00.73,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4380,4480)\k90}{\k23}LIKE {\k23}A {\k35}FA{\k59}LLEN {\k64}AN{\k134}GEL
-Dialogue: 0,0:00:59.86,0:01:04.26,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4300,4400)\k90}{\k25}to{\k21}ki {\k24}no {\k34}ka{\k25}ze {\k201}ni
-Dialogue: 0,0:01:04.00,0:01:10.90,KM,,0,0,0,fx,{\fade(255,0,255,0,850,6800,6900)\k90}{\k53}na{\k40}ga{\k66}sa{\k19}re{\k159}te {\k26}o{\k36}chi{\k34}te {\k22}yu{\k125}ku
-Dialogue: 0,0:01:10.12,0:01:15.06,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4840,4940)\k90}{\k28}IN{\k90}TO {\k87}THE {\k90}STARRY {\k89}NIGHT
-Dialogue: 0,0:01:14.19,0:01:18.74,KM,,0,0,0,fx,{\fade(255,0,255,0,850,4450,4550)\k90}{\k25}me{\k29}ga{\k15}mi {\k25}no {\k43}yo{\k21}u {\k187}ni
-Dialogue: 0,0:01:19.00,0:01:26.43,KM,,0,0,0,fx,{\fade(255,0,255,0,850,7330,7430)\k90}{\k25}da{\k21}ki{\k72}shi{\k23}me{\k214}te {\k28}e{\k25}i{\k67}e{\k25}n {\k133}wo
-Dialogue: 0,0:01:25.54,0:01:29.51,KM,,0,0,0,fx,{\fade(255,0,255,0,850,3870,3970)\k90}{\k55}FLY {\k33}TO {\k66}HEA{\k133}VEN
+Comment: 0,0:00:57.25,0:01:00.63,KM,,0,0,0,karaoke,{\k23}LIKE {\k23}A {\k35}FA{\k59}LLEN {\k64}AN{\kf134}GEL
+Comment: 0,0:01:00.90,0:01:04.16,KM,,0,0,0,karaoke,{\k25}to{\k21}ki {\k22}no {\k46}ka{\k25}ze {\k187}ni
+Comment: 0,0:01:05.00,0:01:10.80,KM,,0,0,0,karaoke,{\k50}na{\k43}ga{\k71}sa{\k18}re{\kf155}te {\k26}o{\k36}chi{\k34}te {\k22}yu{\kf125}ku
+Comment: 0,0:01:11.12,0:01:14.96,KM,,0,0,0,karaoke,{\k28}IN{\k90}TO {\k87}THE {\k68}STAR{\k22}RY {\k89}NIGHT
+Comment: 0,0:01:15.26,0:01:18.64,KM,,0,0,0,karaoke,{\k20}me{\k25}ga{\k20}mi {\k26}no {\k37}yo{\k30}u {\kf180}ni
+Comment: 0,0:01:20.00,0:01:26.33,KM,,0,0,0,karaoke,{\k25}da{\k21}ki{\k72}shi{\k23}me{\kf169}te {\k49}{\k24}e{\k25}i{\k70}e{\k22}n {\kf133}wo
+Comment: 0,0:01:26.60,0:01:29.41,KM,,0,0,0,karaoke,{\k33}FLY {\k19}IN{\k41}TO {\k56}HEA{\kf132}VEN
+Dialogue: 0,0:00:13.11,0:00:17.55,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k46}LIKE {\k36}THE {\k88}SCAR{\k23}LET {\kf141}NIGHT
+Dialogue: 0,0:00:16.87,0:00:21.18,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k41}VEIL{\k24}ING {\k24}THE {\kf232}DARK
+Dialogue: 0,0:00:20.58,0:00:25.01,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k27}YOU {\k47}CAN {\k80}HIDE {\k21}YOUR {\kf158}FEAR
+Dialogue: 0,0:00:24.56,0:00:28.19,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k45}CAN {\k62}LIE, {\k29}MY {\kf117}DEAR
+Dialogue: 0,0:00:27.52,0:00:35.11,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ko{\k35}no {\k56}ma{\kf184}ma {\k44}{\k24}yu{\k19}me {\k18}wo {\k81}mi{\kf164}te
+Dialogue: 0,0:00:35.40,0:00:47.97,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k32}chi{\k24}da{\k65}ra{\k28}ke {\kf159}no {\k60}{\k27}tsu{\k25}ba{\kf127}sa {\k38}{\k14}hi{\k89}ro{\k96}ge{\kf363}te
+Dialogue: 0,0:00:46.35,0:00:48.44,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k23}WHAT’S {\k28}THE {\k48}LIE
+Dialogue: 0,0:00:49.89,0:00:52.08,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k20}WHAT’S {\k21}THE {\k68}TRUTH
+Dialogue: 0,0:00:53.59,0:00:55.85,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k24}WHAT {\k18}TO {\k12}BE{\k62}LIEVE
+Dialogue: 0,0:00:56.35,0:01:00.83,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k23}LIKE {\k23}A {\k35}FA{\k59}LLEN {\k64}AN{\kf134}GEL
+Dialogue: 0,0:01:00.00,0:01:04.36,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k25}to{\k21}ki {\k22}no {\k46}ka{\k25}ze {\k187}ni
+Dialogue: 0,0:01:04.10,0:01:11.00,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k50}na{\k43}ga{\k71}sa{\k18}re{\kf155}te {\k26}o{\k36}chi{\k34}te {\k22}yu{\kf125}ku
+Dialogue: 0,0:01:10.22,0:01:15.16,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k28}IN{\k90}TO {\k87}THE {\k68}STAR{\k22}RY {\k89}NIGHT
+Dialogue: 0,0:01:14.36,0:01:18.84,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k20}me{\k25}ga{\k20}mi {\k26}no {\k37}yo{\k30}u {\kf180}ni
+Dialogue: 0,0:01:19.10,0:01:26.53,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k25}da{\k21}ki{\k72}shi{\k23}me{\kf169}te {\k49}{\k24}e{\k25}i{\k70}e{\k22}n {\kf133}wo
+Dialogue: 0,0:01:25.70,0:01:29.61,KM,,0,0,0,fx,{\k90\fad(300,200)}{\k33}FLY {\k19}IN{\k41}TO {\k56}HEA{\kf132}VEN
