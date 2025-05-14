@@ -1,28 +1,42 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: GET MY GOAL
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
-Collisions: Normal
+Original Timing: Eden
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
-Dialogue: 1,0:0:12.72,0:0:16.14,Default,,0000,0000,0000,,{\k100}{\kf17}te {\kf21}ni {\kf21}o{\kf25}e{\kf25}nai {\kf21}{\kf25}BUR{\kf42}NING {\kf46}HEART
-Dialogue: 1,0:0:15.43,0:0:18.81,Default,,0000,0000,0000,,{\k100}{\kf21}o{\kf21}i{\kf17}ka{\kf21}ke{\kf29}te {\kf50}ha{\kf25}shi{\kf54}re
-Dialogue: 1,0:0:18.39,0:0:22.98,Default,,0000,0000,0000,,{\k100}{\kf21}ka{\kf25}ga{\kf21}ya{\kf67}ki {\kf54}wo {\kf21}yu{\kf25}me {\kf29}mi{\kf50}te{\kf46}ru
-Dialogue: 1,0:0:22.39,0:0:25.94,Default,,0000,0000,0000,,{\k100}{\kf21}a{\kf21}shi{\kf21}ta {\kf25}e {\kf29}no {\kf63}KICK {\kf75}OFF
-Dialogue: 1,0:0:27.11,0:0:32.74,Default,,0000,0000,0000,,{\k100}{\kf21}mu{\kf21}gen{\kf25}da{\kf29}i {\kf21}no {\kf21}mi{\kf25}ra{\kf46}i {\kf71}wo {\kf25}{\kf21}tsu{\kf25}ka{\kf21}mo{\kf25}u{\kf67}ze
-Dialogue: 1,0:0:33.70,0:0:40.78,Default,,0000,0000,0000,,{\k100}{\kf38}ji{\kf25}bu{\kf21}n {\kf21}{\kf46}da{\kf21}ke {\kf42}ga {\kf42}{\kf21}e{\kf21}i{\kf25}en {\kf17}no {\kf25}{\kf29}R{\kf25}I{\kf4}VA{\kf188}L
-Dialogue: 1,0:0:39.78,0:0:43.79,Default,,0000,0000,0000,,{\k100}{\kf300}WOW!
-Dialogue: 1,0:0:42.79,0:0:44.75,Default,,0000,0000,0000,,{\k100}{\kf17}GET {\kf21}MY {\kf58}GOAL!
-Dialogue: 1,0:0:44.20,0:0:49.37,Default,,0000,0000,0000,,{\k100}{\kf17}ki{\kf21}no{\kf21}u {\kf17}yo{\kf33}ri {\kf71}a{\kf42}shi{\kf21}ta {\kf54}wo {\kf29}{\kf21}shi{\kf21}n{\kf21}ji{\kf29}te
-Dialogue: 1,0:0:48.37,0:0:51.67,Default,,0000,0000,0000,,{\k100}{\kf92}TRY {\kf21}TO {\kf17}GET {\kf42}A {\kf58}GOAL
-Dialogue: 1,0:0:50.92,0:0:56.05,Default,,0000,0000,0000,,{\k100}{\kf25}a{\kf25}ki{\kf25}ra{\kf42}me {\kf71}na{\kf58}n{\kf25}te {\kf79}shi{\kf21}ra{\kf17}na{\kf25}i
-Dialogue: 1,0:0:55.05,0:0:58.51,Default,,0000,0000,0000,,{\k100}{\kf21}yu{\kf21}me {\kf67}wa {\kf17}to{\kf21}ma{\kf21}ra{\kf17}na{\kf63}i
-Dialogue: 1,0:0:57.97,0:1:1.30,Default,,0000,0000,0000,,{\k100}{\kf25}It's {\kf13}time {\kf21}{\kf42}to {\kf67}kick {\kf67}off
-Dialogue: 1,0:1:1.34,0:1:4.85,Default,,0000,0000,0000,,{\k100}{\kf25}It's {\kf13}time {\kf25}{\kf38}to {\kf71}take {\kf79}off
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:13.72,0:00:16.14,Default,,0,0,0,karaoke,{\k17}te {\k21}ni {\k21}o{\k25}e{\k25}nai {\k21}{\k25}BUR{\k42}NING {\k46}HEART
+Comment: 1,0:00:16.43,0:00:18.81,Default,,0,0,0,karaoke,{\k21}o{\k21}i{\k17}ka{\k21}ke{\k29}te {\k50}ha{\k25}shi{\k54}re
+Comment: 1,0:00:19.39,0:00:22.98,Default,,0,0,0,karaoke,{\k21}ka{\k25}ga{\k21}ya{\k67}ki {\k54}wo {\k21}yu{\k25}me {\k29}mi{\k50}te{\k46}ru
+Comment: 1,0:00:23.39,0:00:25.94,Default,,0,0,0,karaoke,{\k21}a{\k21}shi{\k21}ta {\k25}e {\k29}no {\k63}KICK {\k75}OFF
+Comment: 1,0:00:28.11,0:00:32.74,Default,,0,0,0,karaoke,{\k21}mu{\k21}gen{\k25}da{\k29}i {\k21}no {\k21}mi{\k25}ra{\k46}i {\k71}wo {\k25}{\k21}tsu{\k25}ka{\k21}mo{\k25}u{\k67}ze
+Comment: 1,0:00:34.70,0:00:40.78,Default,,0,0,0,karaoke,{\k38}ji{\k25}bu{\k21}n {\k21}{\k46}da{\k21}ke {\k42}ga {\k42}{\k21}e{\k21}i{\k25}en {\k17}no {\k25}{\k29}R{\k25}I{\k4}VA{\k188}L
+Comment: 1,0:00:40.78,0:00:43.79,Default,,0,0,0,karaoke,{\k300}WOW!
+Comment: 1,0:00:43.79,0:00:44.75,Default,,0,0,0,karaoke,{\k17}GET {\k21}MY {\k58}GOAL!
+Comment: 1,0:00:45.20,0:00:49.37,Default,,0,0,0,karaoke,{\k17}ki{\k21}no{\k21}u {\k17}yo{\k33}ri {\k71}a{\k42}shi{\k21}ta {\k54}wo {\k29}{\k21}shi{\k21}n{\k21}ji{\k29}te
+Comment: 1,0:00:49.37,0:00:51.67,Default,,0,0,0,karaoke,{\k92}TRY {\k21}TO {\k17}GET {\k42}A {\k58}GOAL
+Comment: 1,0:00:51.92,0:00:56.05,Default,,0,0,0,karaoke,{\k25}a{\k25}ki{\k25}ra{\k42}me {\k71}na{\k58}n{\k25}te {\k79}shi{\k21}ra{\k17}na{\k25}i
+Comment: 1,0:00:56.05,0:00:58.51,Default,,0,0,0,karaoke,{\k21}yu{\k21}me {\k67}wa {\k17}to{\k21}ma{\k21}ra{\k17}na{\k63}i
+Comment: 1,0:00:58.97,0:01:01.30,Default,,0,0,0,karaoke,{\k25}It's {\k13}time {\k21}{\k42}to {\k67}kick {\k67}off
+Comment: 1,0:01:02.34,0:01:04.85,Default,,0,0,0,karaoke,{\k25}It's {\k13}time {\k25}{\k38}to {\k71}take {\k79}off
+Dialogue: 1,0:00:12.82,0:00:16.34,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}te {\k21}ni {\k21}o{\k25}e{\k25}nai {\k21}{\k25}BUR{\k42}NING {\k46}HEART
+Dialogue: 1,0:00:15.53,0:00:19.01,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}o{\k21}i{\k17}ka{\k21}ke{\k29}te {\k50}ha{\k25}shi{\k54}re
+Dialogue: 1,0:00:18.49,0:00:23.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ka{\k25}ga{\k21}ya{\k67}ki {\k54}wo {\k21}yu{\k25}me {\k29}mi{\k50}te{\k46}ru
+Dialogue: 1,0:00:22.49,0:00:26.14,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}a{\k21}shi{\k21}ta {\k25}e {\k29}no {\k63}KICK {\k75}OFF
+Dialogue: 1,0:00:27.21,0:00:32.94,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}mu{\k21}gen{\k25}da{\k29}i {\k21}no {\k21}mi{\k25}ra{\k46}i {\k71}wo {\k25}{\k21}tsu{\k25}ka{\k21}mo{\k25}u{\k67}ze
+Dialogue: 1,0:00:33.80,0:00:40.98,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ji{\k25}bu{\k21}n {\k21}{\k46}da{\k21}ke {\k42}ga {\k42}{\k21}e{\k21}i{\k25}en {\k17}no {\k25}{\k29}R{\k25}I{\k4}VA{\k188}L
+Dialogue: 1,0:00:39.88,0:00:43.99,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k300}WOW!
+Dialogue: 1,0:00:42.89,0:00:44.95,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}GET {\k21}MY {\k58}GOAL!
+Dialogue: 1,0:00:44.30,0:00:49.57,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ki{\k21}no{\k21}u {\k17}yo{\k33}ri {\k71}a{\k42}shi{\k21}ta {\k54}wo {\k29}{\k21}shi{\k21}n{\k21}ji{\k29}te
+Dialogue: 1,0:00:48.47,0:00:51.87,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k92}TRY {\k21}TO {\k17}GET {\k42}A {\k58}GOAL
+Dialogue: 1,0:00:51.02,0:00:56.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}a{\k25}ki{\k25}ra{\k42}me {\k71}na{\k58}n{\k25}te {\k79}shi{\k21}ra{\k17}na{\k25}i
+Dialogue: 1,0:00:55.15,0:00:58.71,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}yu{\k21}me {\k67}wa {\k17}to{\k21}ma{\k21}ra{\k17}na{\k63}i
+Dialogue: 1,0:00:58.07,0:01:01.50,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}It's {\k13}time {\k21}{\k42}to {\k67}kick {\k67}off
+Dialogue: 1,0:01:01.44,0:01:05.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}It's {\k13}time {\k25}{\k38}to {\k71}take {\k79}off
