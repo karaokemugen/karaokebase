@@ -1,0 +1,248 @@
+﻿[Script Info]
+Title: Goodbye
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: fabthehedgehog
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP-furigana,Kosugi Maru,12,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,8,0,0,20,1
+Style: JP,Kosugi Maru,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.88,0,8,0,0,100,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template syl furi all,!retime("line",$lstart < 900 and -$lstart or -900,200)!{\fade(!$lstart < 900 and $lstart or 300!,200)\an5\pos(!line.left+syl.center!,!$middle+offset()!)\k!$start/10+($lstart < 900 and $lstart or 900)/10!\!syl.tag!$skdur}
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,code once,lineOffset=60 -- vertical offset between lines with different vertical margins value
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,code once,function offset() return _G.tonumber(line.margin_t)*lineOffset end
+Comment: 0,0:00:31.79,0:00:40.40,Sample KM [Up],,0,39,0,karaoke,{\k32}There {\k37}is {\k42}no {\k49}one {\k14}can {\k15}un{\k24}der{\k56}stand {\k592}me
+Comment: 0,0:00:39.18,0:00:40.40,Sample KM [Up],,276,0,0,karaoke,{\k48}tru{\k74}ly
+Comment: 0,0:00:40.52,0:00:44.02,Sample KM [Up],,0,0,0,karaoke,{\k20}I {\k30}don't {\k15}go {\k41}out, {\k44}I {\k45}will {\k41}keep {\k22}si{\k92}lence
+Comment: 0,0:00:45.92,0:00:49.35,Sample KM [Up],,0,0,0,karaoke,{\k33}Eve{\k33}ry{\k55}one {\k67}is {\k22}ma{\k22}ni{\k20}a {\k26}in {\k21}ge{\k22}ne{\k22}ral
+Comment: 0,0:00:51.12,0:00:52.83,Sample KM [Up],,0,0,0,karaoke,{\k40}You {\k74}don't {\k57}have
+Comment: 0,0:00:55.55,0:00:57.34,Sample KM [Up],,0,0,0,karaoke,{\k23}To {\k33}know {\k17}o{\k106}thers
+Comment: 0,0:01:14.45,0:01:17.85,Sample KM [Up],,0,0,0,karaoke,{\k25}It's {\k45}more {\k31}com{\k55}plex {\k18}than {\k26}how {\k24}I {\k24}used {\k20}to {\k72}thought
+Comment: 0,0:01:21.36,0:01:23.64,Sample KM [Up],,0,0,0,karaoke,{\k21}But {\k24}al{\k24}rea{\k23}dy {\k42}I {\k94}know
+Comment: 0,0:01:23.93,0:01:26.36,Sample KM [Up],,0,0,0,karaoke,{\k30}The {\k39}start {\k47}in{\k40}to {\k23}the {\k64}end
+Comment: 0,0:01:28.61,0:01:32.15,Sample KM [Up],,0,0,0,karaoke,{\k33}Eve{\k33}ry{\k55}one {\k59}is {\k24}ma{\k19}ni{\k29}a {\k26}in {\k21}ge{\k22}ne{\k33}ral
+Comment: 0,0:01:33.94,0:01:35.53,Sample KM [Up],,0,0,0,karaoke,{\k26}You {\k66}don't {\k67}have
+Comment: 0,0:01:38.18,0:01:40.19,Sample KM [Up],,0,0,0,karaoke,{\k23}To {\k25}know {\k25}o{\k128}thers
+Comment: 0,0:01:47.59,0:01:50.30,JP,,0,0,0,karaoke,{\k24}う{\k18}ま{\k24}く{\k19}届|と{\k26}#|ど{\k26}か{\k21}な{\k44}いん{\k69}だ
+Comment: 0,0:01:51.77,0:01:54.46,Sample KM [Choir],,0,0,0,karaoke,{\kf99}Hmm {\kf170}hmmm
+Comment: 0,0:01:55.08,0:01:57.60,JP,,0,0,0,karaoke,{\k23}ま{\k22}た{\k24}次|つ{\k22}#|ぎ{\k16}の{\k12}不|ふ{\k69}安|あん{\k64}か?
+Comment: 0,0:01:58.84,0:02:02.04,Sample KM [Choir],,0,0,0,karaoke,{\kf99}Hmm {\kf221}hmmm
+Comment: 0,0:02:02.04,0:02:04.73,Sample KM [Up],,0,0,0,karaoke,{\k21}A {\k27}dis{\k32}rup{\k32}tion {\k22}and {\k49}blin{\k86}der
+Comment: 0,0:02:06.03,0:02:08.67,Sample KM [Choir],,0,0,0,karaoke,{\kf99}Hmm {\kf165}hmmm
+Comment: 0,0:02:09.27,0:02:11.38,JP,,0,0,0,karaoke,{\k27}そ{\k14}の{\k35}先|さ{\k19}|き{\k23}は{\k27}な{\k22}いん{\k44}だ
+Comment: 0,0:02:13.08,0:02:16.85,Sample KM [Choir],,0,0,0,karaoke,{\kf99}Hmm {\kf278}hmmm
+Comment: 0,0:03:07.17,0:03:10.03,JP,,0,0,0,karaoke,{\k24}う{\k18}ま{\k24}く{\k19}届|と{\k26}#|ど{\k26}か{\k21}な{\k44}いん{\k84}だ
+Comment: 0,0:03:11.78,0:03:14.90,Sample KM [Choir],,0,0,0,karaoke,{\kf99}Hmm {\kf213}hmmm
+Comment: 0,0:03:15.15,0:03:17.38,JP,,0,0,0,karaoke,{\k23}ま{\k22}た{\k21}次|つ{\k20}#|ぎ{\k17}の{\k11}不|ふ{\k46}安|あん{\k63}か?
+Comment: 0,0:03:18.92,0:03:21.50,Sample KM [Choir],,0,0,0,karaoke,{\kf99}Hmm {\kf159}hmmm
+Comment: 0,0:03:22.03,0:03:24.54,Sample KM [Up],,0,0,0,karaoke,{\k21}A {\k27}dis{\k32}rup{\k32}tion {\k22}and {\k49}blin{\k68}der
+Comment: 0,0:03:26.04,0:03:28.70,Sample KM [Choir],,0,0,0,karaoke,{\kf99}Hmm {\kf167}hmmm
+Comment: 0,0:03:29.34,0:03:31.43,JP,,0,0,0,karaoke,{\k27}そ{\k14}の{\k30}先|さ{\k20}|き{\k19}は{\k32}な{\k17}いん{\k50}だ
+Comment: 0,0:03:33.16,0:03:34.89,Sample KM [Choir],,0,0,0,karaoke,{\kf99}Hmm {\kf74}hmmm
+Dialogue: 0,0:00:30.89,0:00:40.60,Sample KM [Up],,0,39,0,fx,{\fade(300,200)\an5\pos(36.826171875,32)\k90\0}
+Dialogue: 0,0:00:30.89,0:00:40.60,Sample KM [Up],,0,39,0,fx,{\fade(300,200)\an5\pos(58.76953125,32)\k90\\k32}There
+Dialogue: 0,0:00:30.89,0:00:40.60,Sample KM [Up],,0,39,0,fx,{\fade(300,200)\an5\pos(91.91015625,32)\k122\\k37}is
+Dialogue: 0,0:00:30.89,0:00:40.60,Sample KM [Up],,0,39,0,fx,{\fade(300,200)\an5\pos(112.951171875,32)\k159\\k42}no
+Dialogue: 0,0:00:30.89,0:00:40.60,Sample KM [Up],,0,39,0,fx,{\fade(300,200)\an5\pos(141.59765625,32)\k201\\k49}one
+Dialogue: 0,0:00:30.89,0:00:40.60,Sample KM [Up],,0,39,0,fx,{\fade(300,200)\an5\pos(174.287109375,32)\k250\\k14}can
+Dialogue: 0,0:00:30.89,0:00:40.60,Sample KM [Up],,0,39,0,fx,{\fade(300,200)\an5\pos(202.494140625,32)\k264\\k15}un
+Dialogue: 0,0:00:30.89,0:00:40.60,Sample KM [Up],,0,39,0,fx,{\fade(300,200)\an5\pos(224.876953125,32)\k279\\k24}der
+Dialogue: 0,0:00:30.89,0:00:40.60,Sample KM [Up],,0,39,0,fx,{\fade(300,200)\an5\pos(258.908203125,32)\k303\\k56}stand
+Dialogue: 0,0:00:30.89,0:00:40.60,Sample KM [Up],,0,39,0,fx,{\fade(300,200)\an5\pos(296.525390625,32)\k359\\k592}me
+Dialogue: 0,0:00:38.28,0:00:40.60,Sample KM [Up],,276,0,0,fx,{\fade(300,200)\an5\pos(312.5390625,32)\k90\0}
+Dialogue: 0,0:00:38.28,0:00:40.60,Sample KM [Up],,276,0,0,fx,{\fade(300,200)\an5\pos(323.279296875,32)\k90\\k48}tru
+Dialogue: 0,0:00:38.28,0:00:40.60,Sample KM [Up],,276,0,0,fx,{\fade(300,200)\an5\pos(340.740234375,32)\k138\\k74}ly
+Dialogue: 0,0:00:39.62,0:00:44.22,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(69.19921875,59)\k90\0}
+Dialogue: 0,0:00:39.62,0:00:44.22,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(71.4375,59)\k90\\k20}I
+Dialogue: 0,0:00:39.62,0:00:44.22,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(97.517578125,59)\k110\\k30}don't
+Dialogue: 0,0:00:39.62,0:00:44.22,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(131.203125,59)\k140\\k15}go
+Dialogue: 0,0:00:39.62,0:00:44.22,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(160.2890625,59)\k155\\k41}out,
+Dialogue: 0,0:00:39.62,0:00:44.22,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(181.76953125,59)\k196\\k44}I
+Dialogue: 0,0:00:39.62,0:00:44.22,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(201.46875,59)\k240\\k45}will
+Dialogue: 0,0:00:39.62,0:00:44.22,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(237.298828125,59)\k285\\k41}keep
+Dialogue: 0,0:00:39.62,0:00:44.22,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(266.865234375,59)\k326\\k22}si
+Dialogue: 0,0:00:39.62,0:00:44.22,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(294.193359375,59)\k348\\k92}lence
+Dialogue: 0,0:00:45.02,0:00:49.55,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(80.9296875,32)\k90\0}
+Dialogue: 0,0:00:45.02,0:00:49.55,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(95.267578125,32)\k90\\k33}Eve
+Dialogue: 0,0:00:45.02,0:00:49.55,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(117.22265625,32)\k123\\k33}ry
+Dialogue: 0,0:00:45.02,0:00:49.55,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(139.166015625,32)\k156\\k55}one
+Dialogue: 0,0:00:45.02,0:00:49.55,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(164.689453125,32)\k211\\k67}is
+Dialogue: 0,0:00:45.02,0:00:49.55,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(187.53515625,32)\k278\\k22}ma
+Dialogue: 0,0:00:45.02,0:00:49.55,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(206.34375,32)\k300\\k22}ni
+Dialogue: 0,0:00:45.02,0:00:49.55,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(217.986328125,32)\k322\\k20}a
+Dialogue: 0,0:00:45.02,0:00:49.55,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(234.10546875,32)\k342\\k26}in
+Dialogue: 0,0:00:45.02,0:00:49.55,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(255.146484375,32)\k368\\k21}ge
+Dialogue: 0,0:00:45.02,0:00:49.55,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(273.955078125,32)\k389\\k22}ne
+Dialogue: 0,0:00:45.02,0:00:49.55,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(293.21484375,32)\k411\\k22}ral
+Dialogue: 0,0:00:50.22,0:00:53.03,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(134.572265625,32)\k90\0}
+Dialogue: 0,0:00:50.22,0:00:53.03,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(149.7890625,32)\k90\\k40}You
+Dialogue: 0,0:00:50.22,0:00:53.03,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(188.84765625,32)\k130\\k74}don't
+Dialogue: 0,0:00:50.22,0:00:53.03,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(231.05859375,32)\k204\\k57}have
+Dialogue: 0,0:00:54.65,0:00:57.54,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(132.45703125,32)\k90\0}
+Dialogue: 0,0:00:54.65,0:00:57.54,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(142.30078125,32)\k90\\k23}To
+Dialogue: 0,0:00:54.65,0:00:57.54,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(177.216796875,32)\k113\\k33}know
+Dialogue: 0,0:00:54.65,0:00:57.54,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(207.2109375,32)\k146\\k17}o
+Dialogue: 0,0:00:54.65,0:00:57.54,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(231.837890625,32)\k163\\k106}thers
+Dialogue: 0,0:01:13.55,0:01:18.05,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(18.62109375,32)\k90\0}
+Dialogue: 0,0:01:13.55,0:01:18.05,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(29.94140625,32)\k90\\k25}It's
+Dialogue: 0,0:01:13.55,0:01:18.05,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(65.443359375,32)\k115\\k45}more
+Dialogue: 0,0:01:13.55,0:01:18.05,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(106.1953125,32)\k160\\k31}com
+Dialogue: 0,0:01:13.55,0:01:18.05,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(138.890625,32)\k191\\k55}plex
+Dialogue: 0,0:01:13.55,0:01:18.05,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(176.501953125,32)\k246\\k18}than
+Dialogue: 0,0:01:13.55,0:01:18.05,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(214.1015625,32)\k264\\k26}how
+Dialogue: 0,0:01:13.55,0:01:18.05,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(236.9296875,32)\k290\\k24}I
+Dialogue: 0,0:01:13.55,0:01:18.05,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(262.453125,32)\k314\\k24}used
+Dialogue: 0,0:01:13.55,0:01:18.05,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(293.34375,32)\k338\\k20}to
+Dialogue: 0,0:01:13.55,0:01:18.05,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(335.40234375,32)\k358\\k72}thought
+Dialogue: 0,0:01:20.46,0:01:23.84,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(120.802734375,32)\k90\0}
+Dialogue: 0,0:01:20.46,0:01:23.84,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(134.2265625,32)\k90\\k21}But
+Dialogue: 0,0:01:20.46,0:01:23.84,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(158.84765625,32)\k111\\k24}al
+Dialogue: 0,0:01:20.46,0:01:23.84,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(177.66796875,32)\k135\\k24}rea
+Dialogue: 0,0:01:20.46,0:01:23.84,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(199.171875,32)\k159\\k23}dy
+Dialogue: 0,0:01:20.46,0:01:23.84,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(215.291015625,32)\k182\\k42}I
+Dialogue: 0,0:01:20.46,0:01:23.84,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(242.6015625,32)\k224\\k94}know
+Dialogue: 0,0:01:23.03,0:01:26.56,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(110.07421875,32)\k90\0}
+Dialogue: 0,0:01:23.03,0:01:26.56,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(124.400390625,32)\k90\\k30}The
+Dialogue: 0,0:01:23.03,0:01:26.56,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(160.669921875,32)\k120\\k39}start
+Dialogue: 0,0:01:23.03,0:01:26.56,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(189.7734375,32)\k159\\k47}in
+Dialogue: 0,0:01:23.03,0:01:26.56,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(204.5390625,32)\k206\\k40}to
+Dialogue: 0,0:01:23.03,0:01:26.56,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(228.708984375,32)\k246\\k23}the
+Dialogue: 0,0:01:23.03,0:01:26.56,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(259.599609375,32)\k269\\k64}end
+Dialogue: 0,0:01:27.71,0:01:32.35,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(80.9296875,32)\k90\0}
+Dialogue: 0,0:01:27.71,0:01:32.35,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(95.267578125,32)\k90\\k33}Eve
+Dialogue: 0,0:01:27.71,0:01:32.35,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(117.22265625,32)\k123\\k33}ry
+Dialogue: 0,0:01:27.71,0:01:32.35,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(139.166015625,32)\k156\\k55}one
+Dialogue: 0,0:01:27.71,0:01:32.35,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(164.689453125,32)\k211\\k59}is
+Dialogue: 0,0:01:27.71,0:01:32.35,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(187.53515625,32)\k270\\k24}ma
+Dialogue: 0,0:01:27.71,0:01:32.35,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(206.34375,32)\k294\\k19}ni
+Dialogue: 0,0:01:27.71,0:01:32.35,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(217.986328125,32)\k313\\k29}a
+Dialogue: 0,0:01:27.71,0:01:32.35,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(234.10546875,32)\k342\\k26}in
+Dialogue: 0,0:01:27.71,0:01:32.35,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(255.146484375,32)\k368\\k21}ge
+Dialogue: 0,0:01:27.71,0:01:32.35,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(273.955078125,32)\k389\\k22}ne
+Dialogue: 0,0:01:27.71,0:01:32.35,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(293.21484375,32)\k411\\k33}ral
+Dialogue: 0,0:01:33.04,0:01:35.73,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(134.572265625,32)\k90\0}
+Dialogue: 0,0:01:33.04,0:01:35.73,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(149.7890625,32)\k90\\k26}You
+Dialogue: 0,0:01:33.04,0:01:35.73,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(188.84765625,32)\k116\\k66}don't
+Dialogue: 0,0:01:33.04,0:01:35.73,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(231.05859375,32)\k182\\k67}have
+Dialogue: 0,0:01:37.28,0:01:40.39,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(132.45703125,32)\k90\0}
+Dialogue: 0,0:01:37.28,0:01:40.39,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(142.30078125,32)\k90\\k23}To
+Dialogue: 0,0:01:37.28,0:01:40.39,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(177.216796875,32)\k113\\k25}know
+Dialogue: 0,0:01:37.28,0:01:40.39,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(207.2109375,32)\k138\\k25}o
+Dialogue: 0,0:01:37.28,0:01:40.39,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(231.837890625,32)\k163\\k128}thers
+Dialogue: 0,0:01:46.69,0:01:50.50,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(110.947265625,32)\k90\0}
+Dialogue: 0,0:01:46.69,0:01:50.50,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(119.953125,32)\k90\\k24}う
+Dialogue: 0,0:01:46.69,0:01:50.50,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(137.96484375,32)\k114\\k18}ま
+Dialogue: 0,0:01:46.69,0:01:50.50,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(155.9765625,32)\k132\\k24}く
+Dialogue: 0,0:01:46.69,0:01:50.50,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(173.98828125,32)\k156\\k45}届
+Dialogue: 0,0:01:46.69,0:01:50.50,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(192,32)\k201\\k26}か
+Dialogue: 0,0:01:46.69,0:01:50.50,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(210.01171875,32)\k227\\k21}な
+Dialogue: 0,0:01:46.69,0:01:50.50,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(237.029296875,32)\k248\\k44}いん
+Dialogue: 0,0:01:46.69,0:01:50.50,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(264.046875,32)\k292\\k69}だ
+Dialogue: 0,0:01:46.69,0:01:50.50,JP-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.48828125,14)\k156\\k19}と
+Dialogue: 0,0:01:46.69,0:01:50.50,JP-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(178.5,14)\k175\\k26}ど
+Dialogue: 0,0:01:50.87,0:01:54.66,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(143.19140625,112)\k90\0}
+Dialogue: 0,0:01:50.87,0:01:54.66,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(163.341796875,112)\k90\\kf99}Hmm
+Dialogue: 0,0:01:50.87,0:01:54.66,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(214.388671875,112)\k189\\kf170}hmmm
+Dialogue: 0,0:01:54.18,0:01:57.80,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(124.453125,32)\k90\0}
+Dialogue: 0,0:01:54.18,0:01:57.80,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(133.458984375,32)\k90\\k23}ま
+Dialogue: 0,0:01:54.18,0:01:57.80,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(151.470703125,32)\k113\\k22}た
+Dialogue: 0,0:01:54.18,0:01:57.80,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(169.482421875,32)\k135\\k46}次
+Dialogue: 0,0:01:54.18,0:01:57.80,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(187.494140625,32)\k181\\k16}の
+Dialogue: 0,0:01:54.18,0:01:57.80,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(205.505859375,32)\k197\\k12}不
+Dialogue: 0,0:01:54.18,0:01:57.80,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(223.517578125,32)\k209\\k69}安
+Dialogue: 0,0:01:54.18,0:01:57.80,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(246.03515625,32)\k278\\k64}か?
+Dialogue: 0,0:01:54.18,0:01:57.80,JP-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(164.982421875,14)\k135\\k24}つ
+Dialogue: 0,0:01:54.18,0:01:57.80,JP-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(173.994140625,14)\k159\\k22}ぎ
+Dialogue: 0,0:01:54.18,0:01:57.80,JP-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(205.5,14)\k197\\k12}ふ
+Dialogue: 0,0:01:54.18,0:01:57.80,JP-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(219.017578125,14)\k209\\k69}あん
+Dialogue: 0,0:01:57.94,0:02:02.24,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(143.19140625,112)\k90\0}
+Dialogue: 0,0:01:57.94,0:02:02.24,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(163.341796875,112)\k90\\kf99}Hmm
+Dialogue: 0,0:01:57.94,0:02:02.24,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(214.388671875,112)\k189\\kf221}hmmm
+Dialogue: 0,0:02:01.14,0:02:04.93,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(98.89453125,32)\k90\0}
+Dialogue: 0,0:02:01.14,0:02:04.93,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(104.712890625,32)\k90\\k21}A
+Dialogue: 0,0:02:01.14,0:02:04.93,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(126.650390625,32)\k111\\k27}dis
+Dialogue: 0,0:02:01.14,0:02:04.93,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(151.271484375,32)\k138\\k32}rup
+Dialogue: 0,0:02:01.14,0:02:04.93,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(179.015625,32)\k170\\k32}tion
+Dialogue: 0,0:02:01.14,0:02:04.93,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(212.583984375,32)\k202\\k22}and
+Dialogue: 0,0:02:01.14,0:02:04.93,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(245.70703125,32)\k224\\k49}blin
+Dialogue: 0,0:02:01.14,0:02:04.93,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(272.56640625,32)\k273\\k86}der
+Dialogue: 0,0:02:05.13,0:02:08.87,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(143.19140625,112)\k90\0}
+Dialogue: 0,0:02:05.13,0:02:08.87,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(163.341796875,112)\k90\\kf99}Hmm
+Dialogue: 0,0:02:05.13,0:02:08.87,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(214.388671875,112)\k189\\kf165}hmmm
+Dialogue: 0,0:02:08.37,0:02:11.58,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(119.953125,32)\k90\0}
+Dialogue: 0,0:02:08.37,0:02:11.58,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(128.958984375,32)\k90\\k27}そ
+Dialogue: 0,0:02:08.37,0:02:11.58,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(146.970703125,32)\k117\\k14}の
+Dialogue: 0,0:02:08.37,0:02:11.58,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(164.982421875,32)\k131\\k35}先
+Dialogue: 0,0:02:08.37,0:02:11.58,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(173.98828125,32)\k166\\k19}
+Dialogue: 0,0:02:08.37,0:02:11.58,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(182.994140625,32)\k185\\k23}は
+Dialogue: 0,0:02:08.37,0:02:11.58,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(201.005859375,32)\k208\\k27}な
+Dialogue: 0,0:02:08.37,0:02:11.58,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(228.0234375,32)\k235\\k22}いん
+Dialogue: 0,0:02:08.37,0:02:11.58,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(255.041015625,32)\k257\\k44}だ
+Dialogue: 0,0:02:08.37,0:02:11.58,JP-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(160.482421875,14)\k131\\k35}さ
+Dialogue: 0,0:02:08.37,0:02:11.58,JP-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.494140625,14)\k166\\k19}き
+Dialogue: 0,0:02:12.18,0:02:17.05,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(143.19140625,112)\k90\0}
+Dialogue: 0,0:02:12.18,0:02:17.05,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(163.341796875,112)\k90\\kf99}Hmm
+Dialogue: 0,0:02:12.18,0:02:17.05,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(214.388671875,112)\k189\\kf278}hmmm
+Dialogue: 0,0:03:06.27,0:03:10.23,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(110.947265625,32)\k90\0}
+Dialogue: 0,0:03:06.27,0:03:10.23,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(119.953125,32)\k90\\k24}う
+Dialogue: 0,0:03:06.27,0:03:10.23,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(137.96484375,32)\k114\\k18}ま
+Dialogue: 0,0:03:06.27,0:03:10.23,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(155.9765625,32)\k132\\k24}く
+Dialogue: 0,0:03:06.27,0:03:10.23,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(173.98828125,32)\k156\\k45}届
+Dialogue: 0,0:03:06.27,0:03:10.23,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(192,32)\k201\\k26}か
+Dialogue: 0,0:03:06.27,0:03:10.23,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(210.01171875,32)\k227\\k21}な
+Dialogue: 0,0:03:06.27,0:03:10.23,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(237.029296875,32)\k248\\k44}いん
+Dialogue: 0,0:03:06.27,0:03:10.23,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(264.046875,32)\k292\\k84}だ
+Dialogue: 0,0:03:06.27,0:03:10.23,JP-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.48828125,14)\k156\\k19}と
+Dialogue: 0,0:03:06.27,0:03:10.23,JP-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(178.5,14)\k175\\k26}ど
+Dialogue: 0,0:03:10.88,0:03:15.10,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(143.19140625,112)\k90\0}
+Dialogue: 0,0:03:10.88,0:03:15.10,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(163.341796875,112)\k90\\kf99}Hmm
+Dialogue: 0,0:03:10.88,0:03:15.10,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(214.388671875,112)\k189\\kf213}hmmm
+Dialogue: 0,0:03:14.25,0:03:17.58,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(124.453125,32)\k90\0}
+Dialogue: 0,0:03:14.25,0:03:17.58,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(133.458984375,32)\k90\\k23}ま
+Dialogue: 0,0:03:14.25,0:03:17.58,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(151.470703125,32)\k113\\k22}た
+Dialogue: 0,0:03:14.25,0:03:17.58,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(169.482421875,32)\k135\\k41}次
+Dialogue: 0,0:03:14.25,0:03:17.58,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(187.494140625,32)\k176\\k17}の
+Dialogue: 0,0:03:14.25,0:03:17.58,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(205.505859375,32)\k193\\k11}不
+Dialogue: 0,0:03:14.25,0:03:17.58,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(223.517578125,32)\k204\\k46}安
+Dialogue: 0,0:03:14.25,0:03:17.58,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(246.03515625,32)\k250\\k63}か?
+Dialogue: 0,0:03:14.25,0:03:17.58,JP-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(164.982421875,14)\k135\\k21}つ
+Dialogue: 0,0:03:14.25,0:03:17.58,JP-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(173.994140625,14)\k156\\k20}ぎ
+Dialogue: 0,0:03:14.25,0:03:17.58,JP-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(205.5,14)\k193\\k11}ふ
+Dialogue: 0,0:03:14.25,0:03:17.58,JP-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(219.017578125,14)\k204\\k46}あん
+Dialogue: 0,0:03:18.02,0:03:21.70,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(143.19140625,112)\k90\0}
+Dialogue: 0,0:03:18.02,0:03:21.70,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(163.341796875,112)\k90\\kf99}Hmm
+Dialogue: 0,0:03:18.02,0:03:21.70,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(214.388671875,112)\k189\\kf159}hmmm
+Dialogue: 0,0:03:21.13,0:03:24.74,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(98.89453125,32)\k90\0}
+Dialogue: 0,0:03:21.13,0:03:24.74,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(104.712890625,32)\k90\\k21}A
+Dialogue: 0,0:03:21.13,0:03:24.74,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(126.650390625,32)\k111\\k27}dis
+Dialogue: 0,0:03:21.13,0:03:24.74,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(151.271484375,32)\k138\\k32}rup
+Dialogue: 0,0:03:21.13,0:03:24.74,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(179.015625,32)\k170\\k32}tion
+Dialogue: 0,0:03:21.13,0:03:24.74,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(212.583984375,32)\k202\\k22}and
+Dialogue: 0,0:03:21.13,0:03:24.74,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(245.70703125,32)\k224\\k49}blin
+Dialogue: 0,0:03:21.13,0:03:24.74,Sample KM [Up],,0,0,0,fx,{\fade(300,200)\an5\pos(272.56640625,32)\k273\\k68}der
+Dialogue: 0,0:03:25.14,0:03:28.90,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(143.19140625,112)\k90\0}
+Dialogue: 0,0:03:25.14,0:03:28.90,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(163.341796875,112)\k90\\kf99}Hmm
+Dialogue: 0,0:03:25.14,0:03:28.90,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(214.388671875,112)\k189\\kf167}hmmm
+Dialogue: 0,0:03:28.44,0:03:31.63,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(119.953125,32)\k90\0}
+Dialogue: 0,0:03:28.44,0:03:31.63,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(128.958984375,32)\k90\\k27}そ
+Dialogue: 0,0:03:28.44,0:03:31.63,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(146.970703125,32)\k117\\k14}の
+Dialogue: 0,0:03:28.44,0:03:31.63,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(164.982421875,32)\k131\\k30}先
+Dialogue: 0,0:03:28.44,0:03:31.63,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(173.98828125,32)\k161\\k20}
+Dialogue: 0,0:03:28.44,0:03:31.63,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(182.994140625,32)\k181\\k19}は
+Dialogue: 0,0:03:28.44,0:03:31.63,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(201.005859375,32)\k200\\k32}な
+Dialogue: 0,0:03:28.44,0:03:31.63,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(228.0234375,32)\k232\\k17}いん
+Dialogue: 0,0:03:28.44,0:03:31.63,JP,,0,0,0,fx,{\fade(300,200)\an5\pos(255.041015625,32)\k249\\k50}だ
+Dialogue: 0,0:03:28.44,0:03:31.63,JP-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(160.482421875,14)\k131\\k30}さ
+Dialogue: 0,0:03:28.44,0:03:31.63,JP-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.494140625,14)\k161\\k20}き
+Dialogue: 0,0:03:32.26,0:03:35.09,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(143.19140625,112)\k90\0}
+Dialogue: 0,0:03:32.26,0:03:35.09,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(163.341796875,112)\k90\\kf99}Hmm
+Dialogue: 0,0:03:32.26,0:03:35.09,Sample KM [Choir],,0,0,0,fx,{\fade(300,200)\an5\pos(214.388671875,112)\k189\\kf74}hmmm
