@@ -49,6 +49,5 @@ export:
     - $RUNNER_LINUX
   script:
     - "curl -f -X POST -H authorization:$KMSERVERAUTH https://kara.moe/api/update"
-    - "curl -f -X POST -H authorization:$KMSERVERDEVAUTH https://dev.kara.moe/api/update"
   only:
     - master
