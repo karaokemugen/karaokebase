@@ -1,0 +1,37 @@
+﻿[Script Info]
+Title: N'enculez pas les dauphins
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.05,0:00:00.97,Sample KM [Choir],,0,0,0,karaoke,{\k16}Dro{\k11}guez-{\k14}vous {\k10}si {\k9}vous {\k15}vou{\k17}lez
+Comment: 0,0:00:01.06,0:00:02.43,Sample KM [Choir],,0,0,0,karaoke,{\k30}Mais {\k21}n'en{\k17}cu{\k16}lez {\k13}pas {\k11}des {\k12}dau{\k17}phins
+Comment: 0,0:00:03.97,0:00:06.22,Sample KM [Up],,0,0,0,karaoke,{\k44}Les {\k38}dau{\kf143}phins
+Comment: 0,0:00:06.46,0:00:09.16,Sample KM [Up],,0,0,0,karaoke,{\k42}N'en{\k43}cu{\k44}lez {\k39}pas {\k42}les {\k20}dau{\k40}phins
+Comment: 0,0:00:09.80,0:00:12.60,Sample KM [Up],,0,0,0,karaoke,{\k42}Pe{\k39}tits {\k47}mam{\k34}mi{\k46}fères {\k22}ter{\k50}riens
+Comment: 0,0:00:13.11,0:00:15.43,Sample KM [Up],,0,0,0,karaoke,{\k41}C'est {\k23}pas {\kf168}bien
+Comment: 0,0:00:17.32,0:00:19.51,Sample KM [Up],,0,0,0,karaoke,{\k44}Les {\k38}dau{\kf137}phins
+Comment: 0,0:00:19.79,0:00:22.56,Sample KM [Up],,0,0,0,karaoke,{\k38}N'en{\k48}cu{\k41}lez {\k39}pas {\k41}les {\k21}dau{\k49}phins
+Comment: 0,0:00:23.14,0:00:25.90,Sample KM [Up],,0,0,0,karaoke,{\k45}Ils {\k34}n'y {\k47}sont {\k39}vrai{\k42}ment {\k23}pour {\k46}rien
+Comment: 0,0:00:26.43,0:00:28.69,Sample KM [Up],,0,0,0,karaoke,{\k37}C'est {\k27}cer{\kf162}tain
+Dialogue: 0,0:00:00.00,0:00:01.17,Sample KM [Choir],,0,0,0,fx,{\k5\fad(50,200)}{\k16}Dro{\k11}guez-{\k14}vous {\k10}si {\k9}vous {\k15}vou{\k17}lez
+Dialogue: 0,0:00:00.16,0:00:02.63,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Mais {\k21}n'en{\k17}cu{\k16}lez {\k13}pas {\k11}des {\k12}dau{\k17}phins
+Dialogue: 0,0:00:03.07,0:00:06.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Les {\k38}dau{\kf143}phins
+Dialogue: 0,0:00:05.56,0:00:09.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}N'en{\k43}cu{\k44}lez {\k39}pas {\k42}les {\k20}dau{\k40}phins
+Dialogue: 0,0:00:08.90,0:00:12.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Pe{\k39}tits {\k47}mam{\k34}mi{\k46}fères {\k22}ter{\k50}riens
+Dialogue: 0,0:00:12.21,0:00:15.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}C'est {\k23}pas {\kf168}bien
+Dialogue: 0,0:00:16.42,0:00:19.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Les {\k38}dau{\kf137}phins
+Dialogue: 0,0:00:18.89,0:00:22.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}N'en{\k48}cu{\k41}lez {\k39}pas {\k41}les {\k21}dau{\k49}phins
+Dialogue: 0,0:00:22.24,0:00:26.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Ils {\k34}n'y {\k47}sont {\k39}vrai{\k42}ment {\k23}pour {\k46}rien
+Dialogue: 0,0:00:25.53,0:00:28.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}C'est {\k27}cer{\kf162}tain
