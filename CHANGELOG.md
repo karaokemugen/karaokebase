@@ -1,3 +1,407 @@
+# May 2025
+
+Kara count: 25 080
+
+Contributors: 
+
+- Alerymin
+- Angor
+- Applejack
+- AragornFr
+- Azurys
+- BeVox
+- Canni
+- Currymalker
+- Dae_Kimeko
+- Dangermix
+- Daniel-Steinbock
+- Deformer-Lua
+- Dragon33
+- Eden
+- Elliu
+- Evolto
+- GaryCXJk
+- Gilrael
+- Gopa-san
+- Gromanu
+- Hanaku
+- HayatoKurokami
+- Ichinyaaan
+- Isken
+- JackyBaldhead
+- Kirihum
+- KuroSensei
+- Kuro_Yuki_
+- Leki
+- Louis Royer
+- Lunil
+- MiKao
+- Mircosoft93
+- Naruse
+- Nemesise
+- NikoNikoD
+- Pierre CAMILLI
+- PrZozor
+- Quetzaldo
+- RapaFSR
+- Reminiszenz
+- Sarutzk
+- Serecola
+- ShinRan
+- Sodachi
+- Soramimi
+- Soraya
+- Sting (bakaclub)
+- Subkei
+- TACHYON
+- TBK
+- TeLiXj
+- TenmaWorks
+- Ultorex
+- Uwhipa
+- Variabels
+- Volodia
+- Xashy
+- XxoT_Yue
+- YouzoTheMatsurisu
+- Yuri
+- asdFer
+- blackcat6
+- chagustin
+- fabthehedgehog
+- fepo
+- gollum
+- johfindo
+- kmeuh
+- lava
+- lop
+- meulahke
+- mustangfred
+- pockydany
+- potatochipse
+- puyo
+- red5h4d0w
+- sanicsip
+- suyo
+- tcyrus
+- torash
+- turus022
+- vicktoben
+- wolf359
+
+## Added
+
+New songs : 308
+
+- ARM - Ladaniva - MV - Jako (lava)
+- CHI - Cheung Hok-yau - MV - Měitiān ài nǐ duō yīxiē \~ Guǎngdōng huà Vers. (lop)
+- CHI - Cheung Hok-yau - MV - Wěn Bié (lop)
+- CHI - Cheung Hok-yau - MV - Zhī xiǎng yīshēng gēn nǐ zǒu (lop)
+- CHI - League of Legends - GAME PC MV - K/DA - MORE \~ Kana Vers (tcyrus)
+- CHI - Zenless Zone Zero - GAME PC MV - As the Sugar Cube Floats, Fleeting in Time (tcyrus)
+- ENG - A Minecraft Movie - AMV - Steve's Lava Chicken \~ Cover Vers (PrZozor)
+- ENG - A-One - REMIX MV - Septette for the Dead Princess (Alerymin)
+- ENG - A-One - REMIX MV - U.N. Owen Was Her? (Alerymin)
+- ENG - ALIEN STAGE - AUDIO - CURE \~ Cover Full Vers (XxoT_Yue)
+- ENG - ATEEZ - MV - Ice On My Teeth (NikoNikoD)
+- ENG - ATEEZ - MV - WORK (NikoNikoD)
+- ENG - Ashe - MV - Moral of the Story (Soraya)
+- ENG - Ashe - MV - Moral of the Story \~ Off Vocal Vers (Soraya)
+- ENG - BABYMETAL - MV - from me to u (Sarutzk)
+- ENG - BACKSTREET BOYS - MV - All I Have to Give (Leki)
+- ENG - BLACKPINK - AUDIO - Sour Candy (asdFer)
+- ENG - Black Stone Cherry - MV - Me and Mary Jane (Soraya)
+- ENG - Boyz II Men - MV - I'll Make Love to You (TeLiXj)
+- ENG - Bruno Mars - AUDIO - Marry You (gollum)
+- ENG - Calliope Mori, TOOBOE - MV - Sepia (ShinRan)
+- ENG - Creep-P - MV - Flatline (Sarutzk)
+- ENG - DOROTHY - AUDIO - Gun in My Hand (Soraya)
+- ENG - DOROTHY - AUDIO - Whiskey Fever (Soraya)
+- ENG - DOROTHY - MV - Raise Hell (Soraya)
+- ENG - DOROTHY - MV - Wicked Ones (Soraya)
+- ENG - Daft Punk - AUDIO - Technologic (Dangermix)
+- ENG - Dear Evan Hansen - MOVIE OP - Sincerely Me (Reminiszenz)
+- ENG - Doechii, Jennie - MV - ExtraL (pockydany)
+- ENG - EPIC: The Musical - The Wisdom Saga - AMV - Legendary (NikoNikoD)
+- ENG - EPIC: The Musical - The Wisdom Saga - AMV - Little Wolf (NikoNikoD)
+- ENG - EPIC: The Musical - The Wisdom Saga - AMV - We'll Be Fine (NikoNikoD)
+- ENG - Ed Sheeran - MV - Perfect (Volodia)
+- ENG - Editors - MV - Munich (Soraya)
+- ENG - Editors - MV - Smokers Outside the Hospital Doors (Soraya)
+- ENG - Final Fantasy VII Rebirth - GAME PC AMV - No Promises to Keep (Soraya)
+- ENG - Franz Ferdinand - MV - Do You Want To \~ Full Vers (Soramimi)
+- ENG - Franz Ferdinand - MV - Take Me Out (TeLiXj)
+- ENG - Gakuen iDOLM@STER - GAME MV - Cosmetic \~ Short Vers (Sodachi)
+- ENG - Garbage - AUDIO - #1 Crush (Soraya)
+- ENG - Garbage - MV - I Think I'm Paranoid (Soraya)
+- ENG - Gun x Sword - ED1 - A Rising Tide (Evolto)
+- ENG - Gura Gawr - LIVE - Ash Again (yt2ass, Variabels)
+- ENG - Halestorm - AUDIO - I Like It Heavy (Soraya)
+- ENG - Halestorm - AUDIO - Innocence (Soraya)
+- ENG - Halestorm - AUDIO - What Sober Couldn't Say (Soraya)
+- ENG - Halestorm - AUDIO - You Call Me a Bitch Like It's a Bad Thing (Soraya)
+- ENG - Halestorm - MV - Familiar Taste of Poison (Soraya)
+- ENG - Halestorm - MV - Love Bites (So Do I) (Soraya)
+- ENG - Halestorm - MV - Love Bites (So Do I) \~ Off Vocal Vers (Soraya)
+- ENG - Halestorm - MV - Mayhem (Soraya)
+- ENG - Halestorm - MV - Mz. Hyde (Soraya)
+- ENG - Hollywood Ending - AUDIO - Not Another Song About Love (Soraya)
+- ENG - Ina'nis Ninomae, Kronii Ouro - MV - MONSTER (Nemesise)
+- ENG - James Bond Jr. - OP - Theme Song (Soraya)
+- ENG - Jashin-chan Dropkick "Seikimatsu-hen" - OVA OP - Apocalypse Day (Azurys)
+- ENG - Kero Kero Bonito - AMV - I'd Rather Sleep (Sarutzk)
+- ENG - Kero Kero Bonito - MV - Lipslap (Sarutzk)
+- ENG - Kero Kero Bonito - MV - Pocket Crocodile (Sarutzk)
+- ENG - Kero Kero Bonito - MV - Small Town (Sarutzk)
+- ENG - Kero Kero Bonito - MV - The River (Sarutzk)
+- ENG - Kero Kero Bonito - MV - When The Fires Come (Sarutzk)
+- ENG - King & Prince - MV - Life goes on (Soraya)
+- ENG - Lady Gaga - MV - Paparazzi (Gilrael)
+- ENG - Laufey - MV - From The Start (Soraya)
+- ENG - League of Legends - GAME PC MV - Take Over (Currymalker)
+- ENG - Manowar - LIVE - Warriors of the World United (johfindo)
+- ENG - Manowar - MV - Warriors of the World United (Canni, fepo)
+- ENG - Minecraft - GAME MV - Wholesome Parrots Dancing (Soraya)
+- ENG - Moona Hoshinova - MV - Lasting Freedom (Dae_Kimeko)
+- ENG - Morning Musume. - AUDIO - HOW DO YOU LIKE JAPAN? \~Nihon wa Donna Kanji Dekka?\~ (Soraya)
+- ENG - My Little Pony Friendship is Magic - MV - Friendship is Magic \~ Full Vers (Applejack)
+- ENG - NJK Record - GAME AUDIO - WARNING ! \~ Full Vers (Lunil)
+- ENG - NewJeans - MV - Ditto (Soraya)
+- ENG - NieR Gestalt, NieR Replicant ver.1.22474487139... - AUDIO IN - Ashes of Dreams (fabthehedgehog)
+- ENG - Niek, VIK - MV - HARAJUKU LOVE (Soraya)
+- ENG - Nightwish - MV - Amaranth (NikoNikoD)
+- ENG - Nightwish - MV - Nemo (gollum)
+- ENG - Overwatch 2 - GAME SWITCH MV - Perfect Night \~ Dance Vers (NikoNikoD)
+- ENG - Plants vs. Zombies - GAME PC ED - Zombies on Your Lawn (Soramimi)
+- ENG - Poco - AUDIO - Keep On Tryin' (Soraya)
+- ENG - Police Academy: The Animated Series - OP - They Wear The Blue (Soraya)
+- ENG - Rage Against the Machine - MV - Killing in the Name (sanicsip)
+- ENG - Rob Cantor - MV - Shia LaBoeuf (Uwhipa)
+- ENG - Rob Swire - MV - Ghosts 'n' Stuff (Sarutzk)
+- ENG - Rob Swire - MV - Monophobia (Sarutzk)
+- ENG - Rocky III - MOVIE MV - Eye of the Tiger (TeLiXj)
+- ENG - Ryû ga Gotoku 8 - GAME XBOXONE IN - Honolulu City Lights (Soraya)
+- ENG - Santiano - AUDIO - Johnny Boy (mustangfred)
+- ENG - SilverHawks - OP - Silverhawks Theme (Soraya)
+- ENG - Studio Killers - MV - Jenny (I Wanna Ruin Our Friendship) (Soraya)
+- ENG - Studio Killers - MV - Jenny (I Wanna Ruin Our Friendship) \~ Off Vocal Vers (Soraya)
+- ENG - Sudden Lights - MV - Aijā (Dragon33)
+- ENG - TBK - OP - Wildfire (TBK)
+- ENG - Taylor Swift - MV - Love Story (vicktoben)
+- ENG - The Merkins - MV - More Than Monsters (Soraya)
+- ENG - Theory of a Deadman - MV - Bad Girlfriend (Soraya)
+- ENG - Theory of a Deadman - MV - Bitch Came Back (Soraya)
+- ENG - Theory of a Deadman - MV - Hate My Life (Soraya)
+- ENG - Tommy Cash - MV - Espresso Macchiato (NikoNikoD)
+- ENG - Trolls World Tour - MOVIE IN - Just Sing (Soraya)
+- ENG - Tu Bian Yingxiong X - ONA MV - INERTIA \~ Full Vers (wolf359)
+- ENG - Twenty One Pilots - MV - Chlorine (Soraya)
+- ENG - Twenty One Pilots - MV - Jumpsuit (Soraya)
+- ENG - Twenty One Pilots - MV - My Blood (Soraya)
+- ENG - Twenty One Pilots - MV - Ride (Soraya)
+- ENG - Twenty One Pilots - MV - The Hype (Soraya)
+- ENG - Uma Musume Cinderella Gray - AUDIO - BRIGHTEST HEART \~ Full Vers (Naruse)
+- ENG - Uma Musume Cinderella Gray - IN - BRIGHTEST HEART (Naruse)
+- ENG - W.I.T.C.H. - AUDIO OP - W.I.T.C.H. Theme Song \~ Full Vers (Soraya)
+- ENG - W.I.T.C.H. - OP - W.I.T.C.H. Theme Song (Soraya)
+- ENG - boygenius - MV - True Blue (Soraya)
+- ENG - toe - MV - Goodbye (fabthehedgehog)
+- ENG - toe - MV - Goodbye \~ Kana Vers (fabthehedgehog)
+- EST - 5MIINUST, Puuluup - MV - (Nendest) narkootikumidest ei tea me (küll) midagi (Ultorex)
+- FRE - Clair Obscur: Expedition 33 - GAME AUDIO - Une vie à t'aimer \~ Alternative Short Vers (NikoNikoD)
+- FRE - Clair Obscur: Expedition 33 - GAME AUDIO - Une vie à t'aimer \~ Short Vers (NikoNikoD)
+- FRE - Joueur du Grenier - IN - Le gâteau chocolat (NikoNikoD)
+- FRE - Joueur du Grenier - IN - N'enculez pas les dauphins (NikoNikoD)
+- FRE - Joueur du Grenier - IN - Recette des gnocchis (NikoNikoD)
+- FRE - Joueur du Grenier - IN - Sous l'océan (NikoNikoD)
+- FRE - Les Misérables - AUDIO - À la volonté du peuple \~ 2024 Vers. (Angor)
+- FRE - Marie Myriam - LIVE - L'Oiseau et l'Enfant (NikoNikoD)
+- FRE - Maître Gims - MV - CIEL (NikoNikoD)
+- FRE - Mermaid Melody Pichi Pichi Pitch - OP1 - Taiyô no Rakuen \~Promised Land\~ (NikoNikoD)
+- FRE - Michel Delpech - MV - Le chasseur (NikoNikoD)
+- FRE - Mozart l'Opéra Rock - AUDIO - Je danse avec les dieux (NikoNikoD)
+- FRE - Mozart l'Opéra Rock - AUDIO - Le Trublion (NikoNikoD)
+- FRE - Mozart l'Opéra Rock - AUDIO - Quand le rideau tombe (NikoNikoD)
+- FRE - Mozart l'Opéra Rock - LIVE - Ah ! Vous Dirais-Je Maman (NikoNikoD)
+- FRE - Mozart l'Opéra Rock - LIVE - Comédie Tragédie (NikoNikoD)
+- FRE - Mozart l'Opéra Rock - LIVE - La chanson de l'aubergiste (NikoNikoD)
+- FRE - Mozart l'Opéra Rock - LIVE - Penser l'impossible (NikoNikoD)
+- FRE - Mozart l'Opéra Rock - LIVE - Si Je Défaille (NikoNikoD)
+- FRE - Mozart l'Opéra Rock - LIVE - Six Pieds Sous Terre (NikoNikoD)
+- FRE - Palmashow - MV - Trop de nanana \~ Lartisto & Lady Djadja (PrZozor)
+- FRE - Power Rangers Dino Thunder - OP - Power Rangers : Dino Tonnerre (TenmaWorks)
+- FRE - Power Rangers Lost Galaxy - OP - Power Rangers : L'Autre Galaxie (TenmaWorks)
+- FRE - Project SEKAI: Colorful Stage! feat. Hatsune Miku - GAME MV - villain \~ Cover Short Vers (kmeuh)
+- FRE - Starmania - AUDIO - SOS d'un terrien en détresse (mustangfred)
+- GER - AYLIVA, MERO - MV - Sie weiß (Soraya)
+- GER - Anbu Monastir, Animetrix - MV - Lebe Wohl (Soraya)
+- GER - Apache 207 - MV - Nie mehr gehen (Soraya)
+- GER - Bakemonogatari - MV - Ren'ai Circulation \~ Selphius Vers. \~ Cover Short Vers (Soraya)
+- GER - Faun - MV - Walpurgisnacht (mustangfred)
+- GER - Oonagh, Santiano - LIVE - Vergiss Mein Nicht (Daniel-Steinbock)
+- GER - Princesse Shéhérazade - OP - Sheherazade (Soraya)
+- GLE - Love Live! School Idol Project 2nd Season, Metal Gear Solid - REMIX GAME AUDIO - Nuclear Winter (Gromanu)
+- GRE - Katy Garbi - MV - Nai, iparxo ego (Soraya)
+- ITA - Nek - AUDIO - Tira su il volume (NikoNikoD)
+- JPN - AKASAKI - MV - Haikai (meulahke)
+- JPN - Ai Kizuna - MV - White Balance (red5h4d0w)
+- JPN - Atelier Sophie: The Alchemist of the Mysterious Book - GAME OP - Phronesis (Evolto)
+- JPN - Ballpark de Tsukamaete! - ED - Ballpark de Shake! Don't Shake! (Elliu)
+- JPN - BanG Dream! - AUDIO IN - STAR BEAT! \~Hoshi no Kodô\~ \~ Full Vers (GaryCXJk)
+- JPN - BanG Dream! Ave Mujica - MV - Hachibôsei Dance \~ Full Vers (HayatoKurokami, red5h4d0w)
+- JPN - Black Bullet - AUDIO OP - black bullet \~ Full Vers (Currymalker)
+- JPN - Botan Shishiro - MV - Hikari (Isken)
+- JPN - CHU-OH-KU Kotonoha Party - MV - Verbal Justice (Variabels)
+- JPN - Cat's♥Eye - ONA PV - CAT'S EYE \~ Cover Kana Vers (Eden, Louis Royer)
+- JPN - Chloe Sakamata - MV - Dokuzu \~ Cover Vers (puyo, YouzoTheMatsurisu)
+- JPN - Chloe Sakamata - MV - P.E.T. (YouzoTheMatsurisu)
+- JPN - Chocofan - MV - Nômiso Rigid Girl \~Chocofan Vers. (Gopa-san)
+- JPN - Cross Game - AUDIO OP - Summer rain \~ Full Vers (TACHYON)
+- JPN - Dungeon ni Deai wo Motomeru no wa Machigatteiru Darôka: Familia Myth V - MV - Shônen \~ Full Vers (Sodachi)
+- JPN - Dynasty Warriors 8: Xtreme Legends - GAME PC AUDIO CS IS - WILL TO FIGHT (tcyrus)
+- JPN - Ensemble Stars! - GAME MV - Boku no weak point (Variabels)
+- JPN - Esprit D'Air - MV - Shadow of Time (NikoNikoD)
+- JPN - Fubuki Shirakami, Okayu Nekomata - MV - Bunny Girl \~ Cover Vers (Hanaku, YouzoTheMatsurisu)
+- JPN - Gakuen iDOLM@STER - MV - Luna say maybe \~ Kana Off Vocal Vers (Xashy, red5h4d0w)
+- JPN - Gakuen iDOLM@STER - MV - Luna say maybe \~ Kana Vers (Xashy, red5h4d0w)
+- JPN - Gakuen iDOLM@STER - MV - Luna say maybe \~ Off Vocal Vers (Xashy)
+- JPN - Gakuen iDOLM@STER - MV - Yukidoke ni \~ Full Vers (MiKao)
+- JPN - Gegege no Kitarô - Watashi no Aishita Rekidai Gegege (2025) - OP - Gegege no Kitarô (Deformer-Lua)
+- JPN - Gegege no Kitarô - Watashi no Aishita Rekidai Gegege (2025) - PV - Gegege no Kitarô (Deformer-Lua)
+- JPN - Gekijôban Bang Dream! Poppin' Dream! - MOVIE IN - Tokimeki Experience! \~ Full Vers (Kuro_Yuki_, KuroSensei)
+- JPN - Genshin Impact - GAME MV - Haruka (Sodachi)
+- JPN - Genshin Impact - GAME MV - Kuchi Yakusoku (Sodachi)
+- JPN - Girls Band Cry - AUDIO - Chô ni Yuita Akai Ito \~ Full Vers (Hanaku)
+- JPN - Girls Band Cry - MV - Tobenai Chô wa Yume wo Miru \~ Full Vers (Hanaku)
+- JPN - Gochûmon wa Usagi Desu ka? Bloom - AUDIO ED1 - Nakayoshi! Maru! Nakayoshi! \~ Full Off Vocal Vers (TACHYON)
+- JPN - Gochûmon wa Usagi Desu ka? Bloom - AUDIO ED1 - Nakayoshi! Maru! Nakayoshi! \~ Full Vers (TACHYON)
+- JPN - Gochûmon wa Usagi Desu ka? Bloom - AUDIO OP - Tenkû Cafeteria \~ Full Off Vocal Vers (TACHYON)
+- JPN - Gochûmon wa Usagi Desu ka? Bloom - AUDIO OP - Tenkû Cafeteria \~ Full Vers (TACHYON)
+- JPN - Hagane no Renkinjutsushi: Fullmetal Alchemist - AUDIO OP2 - Hologram \~ Full Vers (Gilrael)
+- JPN - Hagane no Renkinjutsushi: Fullmetal Alchemist - ED3 - Tsunaida Te \~ Kana Vers (Louis Royer)
+- JPN - Hanyô no Yashahime: Sengoku Otogizôshi - Ni no Shô - OP1 - ReBorn (TenmaWorks)
+- JPN - Heaven Burns Red - GAME MV - Alchemy (SiL Ver.) \~ Cover Vers (red5h4d0w)
+- JPN - Heaven Burns Red - GAME MV - Crow Song (SiL Ver.) \~ Cover Vers (red5h4d0w)
+- JPN - Hibi wa Sugiredo Meshi Umashi - AUDIO OP - Sonna Mon ne \~ Full Vers (TACHYON)
+- JPN - Hibi wa Sugiredo Meshi Umashi - ED - Miso Soup to Butter (TACHYON)
+- JPN - Hibi wa Sugiredo Meshi Umashi - MV - Miso Soup to Butter \~ Full Off Vocal Vers (TACHYON)
+- JPN - Hibi wa Sugiredo Meshi Umashi - MV - Miso Soup to Butter \~ Full Vers (TACHYON)
+- JPN - Hidenari Ugaki, Ryûji Akiyama - GAME IN - Tabidachi no Uta - Journey to the New World (Kirihum)
+- JPN - Himawari no Kyôkai to Nagai Natsuyasumi - GAME PC OP - Himawari no Kyôkai (Serecola)
+- JPN - Himitsu kessha holoX - MV - Gyôkô Chronicle (yt2ass)
+- JPN - Hunter X Hunter OVA - AMV - Carry On \~ Full Vers (Soraya)
+- JPN - Hunter X Hunter OVA - MV - PALE ALE \~ Full Vers (Soraya)
+- JPN - Hunter X Hunter: Greed Island - AUDIO ED - POPCORN \~ Full Vers (Soraya)
+- JPN - Hunter X Hunter: Greed Island - AUDIO OP - Pray \~ Full Vers (Soraya)
+- JPN - Hunter X Hunter: Greed Island - ED - POPCORN (Soraya)
+- JPN - Hunter X Hunter: Greed Island Final - OVA AUDIO ED - Moshimo Kono Sekai de Kimi to Boku ga Deaenakatta Nara \~ Full Vers (Soraya)
+- JPN - Hunter X Hunter: Greed Island Final - OVA AUDIO OP - Believe In Tomorrow \~ Full Vers (Soraya)
+- JPN - Hunter x Hunter (1999) - MV - Ohayô. \~ Full Vers (Soraya)
+- JPN - Hunter x Hunter (1999) - MV - Taiyô wa Yoru mo Kagayaku \~ Full Vers (Soraya)
+- JPN - Ikizu Live! LOVE LIVE! BLUEBIRD - MV - What is my LIFE? \~ Full Vers (Hanaku)
+- JPN - Ina'nis Ninomae - MV - TEMARI (yt2ass)
+- JPN - Isekai Ojisan - ED - Ichibanboshi Sonority (Currymalker)
+- JPN - Juice=Juice - AUDIO - Fiesta! Fiesta! (Soraya)
+- JPN - Juice=Juice - AUDIO - Fiesta! Fiesta! \~ Off Vocal Vers (Soraya)
+- JPN - Juice=Juice - MV - Bitansan (Soraya)
+- JPN - Juice=Juice - MV - Bitansan \~ Off Vocal Vers (Soraya)
+- JPN - Jun Kasama - AUDIO CS - Shisen Hold me tight \~ Off Vocal Vers (Variabels)
+- JPN - KAF - LIVE - Fukakai \~ Full Vers (Elliu)
+- JPN - Kanata Amane - MV - Kataha (Uwhipa)
+- JPN - Kidô Senkan Nadesico - AMV - Aestivalis no March \~ Full Vers (Gromanu)
+- JPN - Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo 2nd Season - AUDIO CS - Pentarô no dai! dai! daibôken (PrZozor)
+- JPN - Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo 2nd Season - AUDIO CS - Seisai Yohô (PrZozor)
+- JPN - Kimi no Na wa. - REMIX MV - Zen Zen Zense \~ Cover Vers (Sting (bakaclub), Sarutzk)
+- JPN - Kimi to Kanojo to Kanojo no Koi - GAME PC AUDIO ED2 - Kagayakashiki Nichijô \~ Full Vers (turus022)
+- JPN - Kinnikuman Perfect Origin Arc - OP - Love & Justice (Yuri)
+- JPN - Kusuriya no Hitorigoto Dai 2-ki - MV - Hitorigoto \~ Acoustic Full Vers (wolf359)
+- JPN - Love Live! School Idol Festival All Stars - GAME AUDIO - Strawberry Trapper \~ Full Vers (suyo)
+- JPN - Love Live! School Idol Project - LIVE - Trouble Busters \~ Full Vers (torash)
+- JPN - Love Live! Sunshine!! - LIVE - Phantom Rocket Adventure \~ Full Vers (torash)
+- JPN - Love Live! Superstar!! - AUDIO - Omoware Marionette (Sodachi)
+- JPN - Love Live! Superstar!! - LIVE - Mitero! (torash)
+- JPN - MASHLE: Kami Shinkakusha Kôho Senbatsu Shiken-hen - LIVE - Tokyo's Way! \~ Full Vers (Soraya)
+- JPN - MASHLE: Kami Shinkakusha Kôho Senbatsu Shiken-hen - OP - Bling-Bang-Bang-Born \~ Kana Off Vocal Vers (red5h4d0w, puyo)
+- JPN - Maebashi Witches - IN - You Are My World (Nemesise)
+- JPN - Magical Girl Lyrical Nanoha: The Movie 1st - MOVIE ED - PHANTOM MINDS (Evolto)
+- JPN - Mahoraba: Heartful Days - ED - Boku no Speed de (NikoNikoD)
+- JPN - Mahoraba: Heartful Days - OP - Daiji♥Da·I·Ji (NikoNikoD)
+- JPN - Mahô Shôjo Lyrical Nanoha: The Movie 2nd A's - MOVIE ED - BRIGHT STREAM (Evolto)
+- JPN - Mamoru Miyano - AUDIO - Moonlight (Soraya)
+- JPN - Marine Hôshô - MV - A Horny Money World \~legendary night\~ (PrZozor)
+- JPN - Matsuri Natsuiro - MV - Darling \~ Cover Vers (BeVox, YouzoTheMatsurisu)
+- JPN - Matsuri Natsuiro - MV - Kokoronashi \~ Cover Vers (YouzoTheMatsurisu)
+- JPN - Matsuri Natsuiro - MV - Watashi no Tenshi \~ Cover Vers (Dae_Kimeko, YouzoTheMatsurisu)
+- JPN - Miko Sakura - MV - 1135 (YouzoTheMatsurisu)
+- JPN - Miku Hatsune - MV - PoPiPo \~ Off Vocal Vers (kmeuh)
+- JPN - Miku Hatsune, Rin Kagamine - MV - Kimi ga Tobioriru no Nara (yt2ass)
+- JPN - Morning Musume. - MV - Gosenfu no Tasuki (Soraya)
+- JPN - Mugendai Mewtype - MV - TRASH LIFE \~ Off Vocal Vers (red5h4d0w)
+- JPN - My Happy Marriage - MOVIE MV - Tapestry (Soraya)
+- JPN - My Happy Marriage - MOVIE MV - Tapestry \~ Off Vocal Vers (Soraya)
+- JPN - Oishinbo - OP1 - YOU (RapaFSR)
+- JPN - One Piece - AUDIO OP1 - We Are! \~ Full Vers (Soramimi)
+- JPN - One Piece - AUDIO OP20 - Hope \~ Full Vers (Soraya)
+- JPN - One Piece - MV - The Peak \~ Full Off Vocal Vers (Soraya)
+- JPN - One Piece - MV - The Peak \~ Full Vers (Soraya)
+- JPN - One Piece - MV - Us! \~ Full Off Vocal Vers (Soraya)
+- JPN - One Piece - MV - Us! \~ Full Vers (Soraya)
+- JPN - One Piece: Taose! Kaizoku Ganzack - OVA ED - Grand Line (Soraya)
+- JPN - Onyanko Club - AUDIO - Valentine Kiss \~ Full Vers (Soraya)
+- JPN - Pmaru-sama - MV - Tokimeki Broker (potatochipse)
+- JPN - Princess-Session Orchestra - AUDIO - Innocent Call \~ Full Vers (Naruse)
+- JPN - Princess-Session Orchestra - MV - Innocent Call (Naruse)
+- JPN - RADWIMPS - AUDIO - Enren (Soraya)
+- JPN - RADWIMPS - MV - Kimi to Hitsuji to Ao (Soraya)
+- JPN - RADWIMPS - MV - Seikai (Soraya)
+- JPN - RADWIMPS - MV - Seikai \~ Off Vocal Vers (Soraya)
+- JPN - RADWIMPS - MV - Yuushinron (Soraya)
+- JPN - Riho Sayashi - MV - LAZER (Soraya)
+- JPN - Rikei ga Koi ni Ochita no de Shoumei Shite Mita. - MV - Turing Love \~ Cover Full Vers (Ichinyaaan)
+- JPN - Ryû Ga Gotoku 7 Gaiden – Na wo Keshita Otoko - GAME XBOXONE AUDIO IN - Sayonara, Silent Night \~ Full Vers (RapaFSR, Kirihum)
+- JPN - Ryû ga Gotoku 8 - GAME XBOXONE AUDIO IN - Honolulu City Lights \~ Full Vers (Soraya)
+- JPN - Ryû ga Gotoku 8 - GAME XBOXONE IN - JUDGEMENT -Shinpan- (Pierre CAMILLI)
+- JPN - SINSEIKI - MV - well \~ Full Vers (Elliu)
+- JPN - Saijaku Tamer wa Gomi Hiroi no Tabi wo Hajimemashita. - LIVE - Hate no Nai Tabi \~ Full Vers (Azurys)
+- JPN - ShinRa-Banshô - MV - Nômiso Rigid Girl \~ShinRa-Banshô Vers. (Gopa-san)
+- JPN - Shinseiki GPX Cyber Formula Double One - ONA ED2 - BORN TO BE CHAMP (Evolto, Louis Royer)
+- JPN - Shôjo Shûmatsu Ryokô - AMV - Ugoku, Ugoku \~ Full Off Vocal Vers (TACHYON)
+- JPN - Shôjo Shûmatsu Ryokô - AMV - Ugoku, Ugoku \~ Full Vers (TACHYON)
+- JPN - Shôjo Shûmatsu Ryokô - ED2 - Amadare no Uta \~ Kana Vers (Louis Royer, AragornFr)
+- JPN - Subaru Oozora - MV - Kimi ga Tobioriru no Nara \~ Cover Vers (yt2ass)
+- JPN - Super Cub - AUDIO OP - Mahô no Kaze \~ Full Off Vocal Vers (TACHYON)
+- JPN - Super Cub - AUDIO OP - Mahô no Kaze \~ Full Vers (TACHYON)
+- JPN - THE iDOLM@STER Shiny Colors - GAME MV - Kamisama wa Shinda, tte \~ Short Vers (tcyrus)
+- JPN - Teto Kasane - MV - Science (Dae_Kimeko)
+- JPN - Tokyo Magnitude 8.0 - MV - M/elody \~ Full Vers (TACHYON)
+- JPN - Towa Tokoyami - MV - Bunny Girl \~ Cover Vers (Hanaku, YouzoTheMatsurisu)
+- JPN - Uchû Senkan Yamato 2199 - OVA ED2 - Best of my love (NikoNikoD)
+- JPN - Uma Musume Cinderella Gray - OP - Koeru \~ Alternative Vers (meulahke, Naruse)
+- JPN - Uma Musume: Pretty Derby - GAME MV - Honnou Speed \~ Short Vers (ShinRan)
+- JPN - Umayuru: Pretty Gray - ONA ED - Hai no Memoire (HayatoKurokami)
+- JPN - Urusei Yatsura - ED4 - I, I, You & Ai (chagustin)
+- JPN - Versailles no Bara Movie - MOVIE IN - Kokoro no Arika (HayatoKurokami)
+- JPN - Versailles no Bara Movie - MOVIE IN - Never surrender (HayatoKurokami)
+- JPN - Versailles no Bara Movie - MOVIE OP - The Rose of Versailles (HayatoKurokami)
+- JPN - Yu-Gi-Oh! Duel Monsters GX - MV - Wake up your heart \~ Full Vers (Deformer-Lua, Kirihum)
+- JPN - Yôhei Azakami - AUDIO CS - Thrill Addict \~ Off Vocal Vers (Variabels)
+- JPN - hatsunetsumiko's - AUDIO - Twice (JackyBaldhead)
+- JPN - mono - OP - Many Merry Memories! (HayatoKurokami)
+- KOR - IVE - MV - Kitsch (Soraya)
+- KOR - IVE - MV - Kitsch \~ Off Vocal Vers (Soraya)
+- KOR - Joy - MV - Annyeong (Soraya)
+- KOR - Red Velvet - AUDIO - Day 1 (Soraya)
+- LAV - Tautumeitas - MV - Bur man laimi (Mircosoft93)
+- LIT - Silvester Belt - LIVE - Luktelk (blackcat6, lava)
+- RUM - Pasha Parfeni - MV - Soarele şi Luna (Currymalker)
+- SPA - One Piece - OP - ¡Juntos! (Subkei)
+- SPA - Álvaro Soler - MV - Sofia (Volodia)
+- SWE - KAJ - LIVE - Bara Bada Bastu (wolf359)
+- UND - Clair Obscur: Expedition 33 - GAME AUDIO - Déchirer la toile (NikoNikoD)
+- UND - Turn A Gundam - AUDIO IN - Moon (Currymalker)
+- ZUL - Nomcebo Zikode - MV - Jerusalema (Volodia)
+- ZXX - The Last of the Mohicans - MOVIE AUDIO - The Last Of The Mohicans \~ Cover Vers (Quetzaldo)
+
 # April 2025
 
 Kara count: 24 766
