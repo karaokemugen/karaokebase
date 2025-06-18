@@ -9,11 +9,10 @@ test:
     - KM-Medias
   image: axelterizaki/karaokemugen-ci:node-22
   script:
-    - git clone https://gitlab.com/karaokemugen/code/karaokemugen-app.git
+    - git clone --recurse-submodules https://gitlab.com/karaokemugen/code/karaokemugen-app.git
     - cd karaokemugen-app
-    - yarn pull
     - yarn install
-    - touch mpv    
+    - touch mpv
     - touch patch
     - mkdir app
     - cp -f ../config.CICD.yml app/config.yml
@@ -40,12 +39,12 @@ i18nUpdate:
     - changes:
       - tags/*.tag.json
     - when: never
-  
+
 export:
   stage: deploy
   image: curlimages/curl
   interruptible: true
-  tags: 
+  tags:
     - $RUNNER_LINUX
   script:
     - "curl -f -X POST -H authorization:$KMSERVERAUTH https://kara.moe/api/update"
