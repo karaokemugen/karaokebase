@@ -1,0 +1,55 @@
+﻿[Script Info]
+Title: Mach dich bereit
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.07,0:00:04.09,Sample KM [Up],,0,0,0,karaoke,{\k37}Mach {\k35}dich {\k25}zum {\k25}Kampf {\k24}be{\k56}reit
+Comment: 0,0:00:04.36,0:00:05.17,Sample KM [Choir],,0,0,0,karaoke,{\k37}Feu{\k44}er
+Comment: 0,0:00:05.20,0:00:06.27,Sample KM [Up],,0,0,0,karaoke,{\k10}Du{\k13}el {\k24}Mas{\k60}ters
+Comment: 0,0:00:06.36,0:00:07.11,Sample KM [Choir],,0,0,0,karaoke,{\k26}Was{\k49}ser
+Comment: 0,0:00:07.11,0:00:08.21,Sample KM [Up],,0,0,0,karaoke,{\k11}Du{\k12}el {\k27}Mas{\k60}ters
+Comment: 0,0:00:08.45,0:00:09.04,Sample KM [Choir],,0,0,0,karaoke,{\k59}Licht{\k0}
+Comment: 0,0:00:09.04,0:00:09.95,Sample KM [Up],,0,0,0,karaoke,{\k11}Du{\k13}el {\k23}Mas{\k44}ters
+Comment: 0,0:00:09.76,0:00:11.04,Sample KM [Choir],,0,0,0,karaoke,{\k20}Dun{\k27}kel{\k81}heit
+Comment: 0,0:00:11.67,0:00:14.10,Sample KM [Up],,0,0,0,karaoke,{\k13}Wer {\k11}ist {\k13}der {\k37}Typ, {\k28}was {\k20}hat {\k21}er {\kf100}drauf?
+Comment: 0,0:00:14.55,0:00:15.29,Sample KM [Choir],,0,0,0,karaoke,{\k24}Sho{\k50}bu
+Comment: 0,0:00:15.34,0:00:17.88,Sample KM [Up],,0,0,0,karaoke,{\k18}Er {\k22}spielt {\k12}mit {\k13}dem {\k14}Feu{\k12}er, {\k22}er {\k24}gibt {\k26}nie {\k91}auf
+Comment: 0,0:00:18.39,0:00:19.16,Sample KM [Choir],,0,0,0,karaoke,{\k27}Sho{\k50}bu
+Comment: 0,0:00:19.35,0:00:21.51,Sample KM [Up],,0,0,0,karaoke,{\k24}Kre{\k25}a{\k25}tu{\k23}ren {\k27}kämp{\k14}fen {\k78}hier
+Comment: 0,0:00:22.23,0:00:22.85,Sample KM [Choir],,0,0,0,karaoke,{\k25}Sho{\k37}bu
+Comment: 0,0:00:23.21,0:00:25.36,Sample KM [Up],,0,0,0,karaoke,{\k23}Hol {\k23}den {\k24}Sieg, {\k25}es {\k24}liegt {\k15}bei {\k81}dir
+Comment: 0,0:00:26.06,0:00:26.77,Sample KM [Choir],,0,0,0,karaoke,{\k25}Sho{\k46}bu
+Comment: 0,0:00:28.25,0:00:29.24,Sample KM [Up],,0,0,0,karaoke,{\k8}Du{\k13}el {\k25}Mas{\k53}ters
+Comment: 0,0:00:30.17,0:00:31.14,Sample KM [Up],,0,0,0,karaoke,{\k8}Du{\k12}el {\k27}Mas{\k50}ters
+Comment: 0,0:00:31.84,0:00:34.25,Sample KM [Up],,0,0,0,karaoke,{\k34}Mach {\k39}dich {\k28}be{\kf140}reit
+Dialogue: 0,0:00:01.17,0:00:04.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Mach {\k35}dich {\k25}zum {\k25}Kampf {\k24}be{\k56}reit
+Dialogue: 0,0:00:03.46,0:00:05.37,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Feu{\k44}er
+Dialogue: 0,0:00:04.30,0:00:06.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Du{\k13}el {\k24}Mas{\k60}ters
+Dialogue: 0,0:00:05.46,0:00:07.31,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Was{\k49}ser
+Dialogue: 0,0:00:06.21,0:00:08.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Du{\k12}el {\k27}Mas{\k60}ters
+Dialogue: 0,0:00:07.55,0:00:09.24,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Licht{\k0}
+Dialogue: 0,0:00:08.14,0:00:10.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Du{\k13}el {\k23}Mas{\k44}ters
+Dialogue: 0,0:00:08.86,0:00:11.24,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Dun{\k27}kel{\k81}heit
+Dialogue: 0,0:00:10.77,0:00:14.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Wer {\k11}ist {\k13}der {\k37}Typ, {\k28}was {\k20}hat {\k21}er {\kf100}drauf?
+Dialogue: 0,0:00:13.65,0:00:15.49,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Sho{\k50}bu
+Dialogue: 0,0:00:14.44,0:00:18.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Er {\k22}spielt {\k12}mit {\k13}dem {\k14}Feu{\k12}er, {\k22}er {\k24}gibt {\k26}nie {\k91}auf
+Dialogue: 0,0:00:17.49,0:00:19.36,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Sho{\k50}bu
+Dialogue: 0,0:00:18.45,0:00:21.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Kre{\k25}a{\k25}tu{\k23}ren {\k27}kämp{\k14}fen {\k78}hier
+Dialogue: 0,0:00:21.33,0:00:23.05,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Sho{\k37}bu
+Dialogue: 0,0:00:22.31,0:00:25.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Hol {\k23}den {\k24}Sieg, {\k25}es {\k24}liegt {\k15}bei {\k81}dir
+Dialogue: 0,0:00:25.16,0:00:26.97,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Sho{\k46}bu
+Dialogue: 0,0:00:27.35,0:00:29.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k8}Du{\k13}el {\k25}Mas{\k53}ters
+Dialogue: 0,0:00:29.27,0:00:31.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k8}Du{\k12}el {\k27}Mas{\k50}ters
+Dialogue: 0,0:00:30.94,0:00:34.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Mach {\k39}dich {\k28}be{\kf140}reit
