@@ -1,0 +1,58 @@
+﻿[Script Info]
+Title: Warte nicht zu lang
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:06.44,0:00:07.25,Sample KM [Up],,0,0,0,karaoke,{\k20}Me{\k22}ga{\k39}Man
+Comment: 0,0:00:08.86,0:00:11.23,Sample KM [Choir],,0,0,0,karaoke,{\k15}Me{\k16}ga{\k30}Man{\k18} {\k33}N{\k38}T {\k21}War{\k13}ri{\k53}or
+Comment: 0,0:00:12.05,0:00:13.24,Sample KM [Up],,0,0,0,karaoke,{\k23}War{\k16}te {\k23}nicht {\k17}zu {\k40}lang
+Comment: 0,0:00:13.24,0:00:16.11,Sample KM [Up],,0,0,0,karaoke,{\k23}Ir{\k20}gend{\k37}wann {\k39}kann {\k22}al{\k20}les {\k24}zu {\k36}spät {\k66}sein
+Comment: 0,0:00:18.04,0:00:19.48,Sample KM [Up],,0,0,0,karaoke,{\k21}Wenn {\k19}das {\k19}Cha{\k21}os {\k23}re{\k41}giert
+Comment: 0,0:00:19.84,0:00:22.04,Sample KM [Up],,0,0,0,karaoke,{\k41}Wirst {\k21}du {\k18}die {\k19}Kon{\k24}trol{\k18}le {\k24}ver{\k55}lier'n
+Comment: 0,0:00:24.05,0:00:24.85,Sample KM [Choir],,0,0,0,karaoke,{\k20}Me{\k23}ga{\k37}Man
+Comment: 0,0:00:24.85,0:00:29.83,Sample KM [Choir],,0,0,0,karaoke,{\kf160}Oh,{\kf160} {\k39}fly, {\k41}fly, {\k44}fly, {\k54}go
+Comment: 0,0:00:31.00,0:00:32.25,Sample KM [Down],,0,0,0,karaoke,Einklinken, MegaMan
+Comment: 0,0:00:33.36,0:00:34.02,Sample KM [Choir],,0,0,0,karaoke,{\k29}Down{\k37}load
+Comment: 0,0:00:35.86,0:00:36.83,Sample KM [Down],,0,0,0,karaoke,Power hoch
+Comment: 0,0:00:37.69,0:00:39.43,Sample KM [Choir],,0,0,0,karaoke,{\kf174}Oh{\k0}
+Comment: 0,0:00:40.86,0:00:41.75,Sample KM [Choir],,0,0,0,karaoke,{\k19}Me{\k18}ga{\k52}Man
+Comment: 0,0:00:44.04,0:00:45.15,Sample KM [Down],,0,0,0,karaoke,Battlechip rein
+Comment: 0,0:00:45.58,0:00:46.25,Sample KM [Down],,0,0,0,karaoke,Download
+Comment: 0,0:00:46.43,0:00:48.64,Sample KM [Choir],,0,0,0,karaoke,{\k15}Me{\k25}ga{\k30}Man{\k19} {\k30}N{\k31}T {\k22}War{\k18}ri{\k31}or
+Comment: 0,0:00:48.86,0:00:50.05,Sample KM [Up],,0,0,0,karaoke,{\k19}War{\k18}te {\k23}nicht {\k19}zu {\k40}lang
+Comment: 0,0:00:50.05,0:00:53.05,Sample KM [Up],,0,0,0,karaoke,{\k22}Ir{\k19}gend{\k37}wann {\k41}kann {\k20}al{\k21}les {\k26}zu {\k39}spät {\k75}sein
+Comment: 0,0:00:55.25,0:00:57.63,Sample KM [Choir],,0,0,0,karaoke,{\k13}Me{\k26}ga{\k22}Man{\k19} {\k31}N{\k40}T {\k19}War{\k21}ri{\k47}or
+Comment: 0,0:00:58.45,0:00:59.30,Sample KM [Up],,0,0,0,karaoke,{\k20}Me{\k20}ga{\k45}Man
+Dialogue: 0,0:00:05.54,0:00:07.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Me{\k22}ga{\k39}Man
+Dialogue: 0,0:00:07.96,0:00:11.43,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Me{\k16}ga{\k30}Man{\k18} {\k33}N{\k38}T {\k21}War{\k13}ri{\k53}or
+Dialogue: 0,0:00:11.15,0:00:13.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}War{\k16}te {\k23}nicht {\k17}zu {\k40}lang
+Dialogue: 0,0:00:12.34,0:00:16.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ir{\k20}gend{\k37}wann {\k39}kann {\k22}al{\k20}les {\k24}zu {\k36}spät {\k66}sein
+Dialogue: 0,0:00:17.14,0:00:19.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Wenn {\k19}das {\k19}Cha{\k21}os {\k23}re{\k41}giert
+Dialogue: 0,0:00:18.94,0:00:22.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Wirst {\k21}du {\k18}die {\k19}Kon{\k24}trol{\k18}le {\k24}ver{\k55}lier'n
+Dialogue: 0,0:00:23.15,0:00:25.05,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Me{\k23}ga{\k37}Man
+Dialogue: 0,0:00:23.95,0:00:30.03,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf160}Oh,{\kf160} {\k39}fly, {\k41}fly, {\k44}fly, {\k54}go
+Dialogue: 0,0:00:30.10,0:00:32.45,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Einklinken, MegaMan
+Dialogue: 0,0:00:32.46,0:00:34.22,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Down{\k37}load
+Dialogue: 0,0:00:34.96,0:00:37.03,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Power hoch
+Dialogue: 0,0:00:36.79,0:00:39.63,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf174}Oh{\k0}
+Dialogue: 0,0:00:39.96,0:00:41.95,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Me{\k18}ga{\k52}Man
+Dialogue: 0,0:00:43.14,0:00:45.35,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Battlechip rein
+Dialogue: 0,0:00:44.68,0:00:46.45,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Download
+Dialogue: 0,0:00:45.53,0:00:48.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Me{\k25}ga{\k30}Man{\k19} {\k30}N{\k31}T {\k22}War{\k18}ri{\k31}or
+Dialogue: 0,0:00:47.96,0:00:50.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}War{\k18}te {\k23}nicht {\k19}zu {\k40}lang
+Dialogue: 0,0:00:49.15,0:00:53.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ir{\k19}gend{\k37}wann {\k41}kann {\k20}al{\k21}les {\k26}zu {\k39}spät {\k75}sein
+Dialogue: 0,0:00:54.35,0:00:57.83,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Me{\k26}ga{\k22}Man{\k19} {\k31}N{\k40}T {\k19}War{\k21}ri{\k47}or
+Dialogue: 0,0:00:57.55,0:00:59.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Me{\k20}ga{\k45}Man
