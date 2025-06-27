@@ -22,7 +22,7 @@ Thanks in advance :3
 - [ ] I do not exceed the maximum number of "[Work in progress](https://gitlab.com/karaokemugen/bases/karaokebase/-/issues/?state=opened&label_name%5B%5D=Work%20in%20progress)" issues
 - [ ] I have verified this version of the song is not already being worked on by someone else
 - [ ] I have verified this version of the song is not already in the database
-- [ ] I have verified this version of the song is not been [submitted recently](https://gitlab.com/karaokemugen/bases/karaokebase/-/issues/?state=opened&label_name%5B%5D=To%20Add)
+- [ ] I have verified this version of the song has not already been [submitted recently](https://gitlab.com/karaokemugen/bases/karaokebase/-/issues/?state=opened&label_name%5B%5D=To%20Add)
 
 /label ~"Work in progress"
 /assign me
