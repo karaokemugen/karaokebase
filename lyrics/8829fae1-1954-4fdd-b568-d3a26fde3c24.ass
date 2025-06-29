@@ -1,0 +1,48 @@
+﻿[Script Info]
+Title: Fünf Freunde für alle Fälle
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.21,0:00:00.69,Sample KM [Up],,0,0,0,karaoke,{\k48}Hey{\k0}
+Comment: 0,0:00:01.39,0:00:02.61,Sample KM [Up],,0,0,0,karaoke,{\k19}Willst {\k10}du {\k13}mit {\k15}da{\k28}bei {\k37}sein?
+Comment: 0,0:00:03.25,0:00:05.38,Sample KM [Up],,0,0,0,karaoke,{\k32}Das {\k27}Le{\k31}ben {\k27}kann {\k62}toll {\k34}sein
+Comment: 0,0:00:05.54,0:00:07.41,Sample KM [Up],,0,0,0,karaoke,{\k29}Sag, {\k32}bist {\k28}du {\k29}be{\k69}reit?
+Comment: 0,0:00:07.80,0:00:11.86,Sample KM [Up],,0,0,0,karaoke,{\k31}Ich {\k30}hab {\k29}so {\k22}'ne {\k61}Ah{\k35}nung,{\k17} {\k35}jetzt {\k23}ist {\k31}es {\k26}so{\k66}weit
+Comment: 0,0:00:11.51,0:00:15.03,Sample KM [Up],,0,0,0,karaoke,{\k24}Sind {\k18}wir {\k28}Freun{\k10}de {\k40}für{\k16} {\k28}al{\k27}le {\k56}Zei{\kf105}ten?
+Comment: 0,0:00:16.03,0:00:19.61,Sample KM [Up],,0,0,0,karaoke,{\k24}Hal{\k17}ten {\k23}wir {\k16}für {\k57}im{\k25}mer {\k34}zu{\k54}sam{\kf108}men?
+Comment: 0,0:00:20.14,0:00:23.94,Sample KM [Up],,0,0,0,karaoke,{\k37}Fünf {\k28}Freun{\k14}de {\k22}sind {\k15}wir {\k36}für{\k24} {\k31}al{\k29}le {\k58}Fäl{\k86}le
+Comment: 0,0:00:25.05,0:00:27.24,Sample KM [Up],,0,0,0,karaoke,{\k14}Ist {\k26}doch {\k26}völ{\k14}lig {\k32}klar, {\k16}ist {\k29}doch {\k22}völ{\k14}lig {\k26}klar
+Comment: 0,0:00:28.18,0:00:29.77,Sample KM [Up],,0,0,0,karaoke,{\k29}Die {\k26}Ant{\k28}wort {\k27}ist {\k49}ja
+Comment: 0,0:00:00.75,0:00:01.39,Sample KM [Choir],,0,0,0,karaoke,{\k64}Was?{\k0}
+Comment: 0,0:00:14.56,0:00:16.28,Sample KM [Choir],,0,0,0,karaoke,{\k32}Die {\k25}Ant{\k22}wort {\k25}ist {\k68}ja
+Comment: 0,0:00:19.10,0:00:20.62,Sample KM [Choir],,0,0,0,karaoke,{\k32}Die {\k27}Ant{\k27}wort {\k19}ist {\k47}ja
+Comment: 0,0:00:23.63,0:00:25.19,Sample KM [Choir],,0,0,0,karaoke,{\k32}Die {\k27}Ant{\k27}wort {\k29}ist {\k41}ja
+Comment: 0,0:00:27.33,0:00:28.66,Sample KM [Choir],,0,0,0,karaoke,{\k14}Ist {\k29}doch {\k26}völ{\k15}lig {\k49}klar
+Dialogue: 0,0:00:00.00,0:00:00.89,Sample KM [Up],,0,0,0,fx,{\k21\fad(210,200)}{\k48}Hey{\k0}
+Dialogue: 0,0:00:00.49,0:00:02.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Willst {\k10}du {\k13}mit {\k15}da{\k28}bei {\k37}sein?
+Dialogue: 0,0:00:02.35,0:00:05.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Das {\k27}Le{\k31}ben {\k27}kann {\k62}toll {\k34}sein
+Dialogue: 0,0:00:04.64,0:00:07.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Sag, {\k32}bist {\k28}du {\k29}be{\k69}reit?
+Dialogue: 0,0:00:06.90,0:00:12.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Ich {\k30}hab {\k29}so {\k22}'ne {\k61}Ah{\k35}nung,{\k17} {\k35}jetzt {\k23}ist {\k31}es {\k26}so{\k66}weit
+Dialogue: 0,0:00:10.61,0:00:15.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Sind {\k18}wir {\k28}Freun{\k10}de {\k40}für{\k16} {\k28}al{\k27}le {\k56}Zei{\kf105}ten?
+Dialogue: 0,0:00:15.13,0:00:19.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hal{\k17}ten {\k23}wir {\k16}für {\k57}im{\k25}mer {\k34}zu{\k54}sam{\kf108}men?
+Dialogue: 0,0:00:19.24,0:00:24.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Fünf {\k28}Freun{\k14}de {\k22}sind {\k15}wir {\k36}für{\k24} {\k31}al{\k29}le {\k58}Fäl{\k86}le
+Dialogue: 0,0:00:24.15,0:00:27.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ist {\k26}doch {\k26}völ{\k14}lig {\k32}klar, {\k16}ist {\k29}doch {\k22}völ{\k14}lig {\k26}klar
+Dialogue: 0,0:00:27.28,0:00:29.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Die {\k26}Ant{\k28}wort {\k27}ist {\k49}ja
+Dialogue: 0,0:00:00.00,0:00:01.59,Sample KM [Choir],,0,0,0,fx,{\k75\fad(750,200)}{\k64}Was?{\k0}
+Dialogue: 0,0:00:13.66,0:00:16.48,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Die {\k25}Ant{\k22}wort {\k25}ist {\k68}ja
+Dialogue: 0,0:00:18.20,0:00:20.82,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Die {\k27}Ant{\k27}wort {\k19}ist {\k47}ja
+Dialogue: 0,0:00:22.73,0:00:25.39,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Die {\k27}Ant{\k27}wort {\k29}ist {\k41}ja
+Dialogue: 0,0:00:26.43,0:00:28.86,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ist {\k29}doch {\k26}völ{\k15}lig {\k49}klar
