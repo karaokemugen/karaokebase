@@ -1,0 +1,56 @@
+﻿[Script Info]
+Title: George, der aus dem Dschungel kam
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 0
+PlayResY: 0
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:05.07,0:00:05.96,Sample KM [Up],,0,0,0,karaoke,{\k34}George,{\k16} {\k39}George
+Comment: 0,0:00:05.96,0:00:07.02,Sample KM [Up],,0,0,0,karaoke,{\k24}George {\k24}aus {\k11}dem {\k25}Dschun{\k22}gel
+Comment: 0,0:00:07.05,0:00:08.66,Sample KM [Up],,0,0,0,karaoke,{\k25}Wil{\k24}der {\k17}geht {\k21}es {\k74}kaum
+Comment: 0,0:00:08.76,0:00:11.04,Sample KM [Choir],,0,0,0,karaoke,{\kf228}Aaaaaaah{\k0}
+Comment: 0,0:00:11.04,0:00:12.63,Sample KM [Up],,0,0,0,karaoke,{\k24}Ach{\k26}te {\k20}auf {\k18}den {\k71}Baum
+Comment: 0,0:00:12.65,0:00:13.80,Sample KM [Up],,0,0,0,karaoke,{\k9}Er{\k16}klingt {\k13}sein {\k22}mar{\k14}ki{\k14}ger {\k27}Schrei
+Comment: 0,0:00:13.80,0:00:14.74,Sample KM [Up],,0,0,0,karaoke,{\k11}Geht {\k22}oft {\k16}was {\k19}ent{\k26}zwei
+Comment: 0,0:00:14.74,0:00:15.25,Sample KM [Up],,0,0,0,karaoke,{\k13}Sein {\k16}Freund {\k22}Ape
+Comment: 0,0:00:15.25,0:00:16.63,Sample KM [Up],,0,0,0,karaoke,{\k13}Die{\k13}ser {\k17}Af{\k21}fe, {\k26}steht {\k23}ihm {\k25}bei
+Comment: 0,0:00:16.63,0:00:17.76,Sample KM [Up],,0,0,0,karaoke,{\k10}Und {\k28}Tschepp {\k12}der {\k12}E{\k14}le{\k37}fant
+Comment: 0,0:00:17.76,0:00:18.74,Sample KM [Up],,0,0,0,karaoke,{\k22}Der {\k22}dicks{\k8}te {\k22}im {\k24}Land
+Comment: 0,0:00:18.74,0:00:19.94,Sample KM [Up],,0,0,0,karaoke,{\k27}Bringt {\k18}Meg{\k13}gie {\k26}und {\k12}Ur{\k10}su{\k14}la
+Comment: 0,0:00:19.94,0:00:20.61,Sample KM [Up],,0,0,0,karaoke,{\k18}Um {\k19}den {\k16}Ver{\k14}stand
+Comment: 0,0:00:20.61,0:00:21.85,Sample KM [Up],,0,0,0,karaoke,{\k12}Ich {\k25}sag: {\k34}George,{\k15} {\k38}George
+Comment: 0,0:00:21.85,0:00:22.97,Sample KM [Up],,0,0,0,karaoke,{\k25}George {\k27}aus {\k12}dem {\k25}Dschun{\k23}gel
+Comment: 0,0:00:22.97,0:00:24.61,Sample KM [Up],,0,0,0,karaoke,{\k26}Wil{\k25}der {\k17}geht {\k20}es {\k76}kaum
+Comment: 0,0:00:24.96,0:00:26.97,Sample KM [Choir],,0,0,0,karaoke,{\kf201}Aaaaaaah{\k0}
+Comment: 0,0:00:26.97,0:00:28.39,Sample KM [Up],,0,0,0,karaoke,{\k25}Ach{\k24}te {\k21}auf {\k18}den {\k54}Baum
+Comment: 0,0:00:28.73,0:00:29.72,Sample KM [Choir],,0,0,0,karaoke,{\kf99}Uuuuuh{\k0}
+Dialogue: 0,0:00:04.17,0:00:06.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}George,{\k16} {\k39}George
+Dialogue: 0,0:00:05.06,0:00:07.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}George {\k24}aus {\k11}dem {\k25}Dschun{\k22}gel
+Dialogue: 0,0:00:06.15,0:00:08.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Wil{\k24}der {\k17}geht {\k21}es {\k74}kaum
+Dialogue: 0,0:00:07.86,0:00:11.24,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf228}Aaaaaaah{\k0}
+Dialogue: 0,0:00:10.14,0:00:12.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ach{\k26}te {\k20}auf {\k18}den {\k71}Baum
+Dialogue: 0,0:00:11.75,0:00:14.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}Er{\k16}klingt {\k13}sein {\k22}mar{\k14}ki{\k14}ger {\k27}Schrei
+Dialogue: 0,0:00:12.90,0:00:14.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Geht {\k22}oft {\k16}was {\k19}ent{\k26}zwei
+Dialogue: 0,0:00:13.84,0:00:15.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Sein {\k16}Freund {\k22}Ape
+Dialogue: 0,0:00:14.35,0:00:16.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Die{\k13}ser {\k17}Af{\k21}fe, {\k26}steht {\k23}ihm {\k25}bei
+Dialogue: 0,0:00:15.73,0:00:17.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Und {\k28}Tschepp {\k12}der {\k12}E{\k14}le{\k37}fant
+Dialogue: 0,0:00:16.86,0:00:18.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Der {\k22}dicks{\k8}te {\k22}im {\k24}Land
+Dialogue: 0,0:00:17.84,0:00:20.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Bringt {\k18}Meg{\k13}gie {\k26}und {\k12}Ur{\k10}su{\k14}la
+Dialogue: 0,0:00:19.04,0:00:20.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Um {\k19}den {\k16}Ver{\k14}stand
+Dialogue: 0,0:00:19.71,0:00:22.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Ich {\k25}sag: {\k34}George,{\k15} {\k38}George
+Dialogue: 0,0:00:20.95,0:00:23.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}George {\k27}aus {\k12}dem {\k25}Dschun{\k23}gel
+Dialogue: 0,0:00:22.07,0:00:24.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Wil{\k25}der {\k17}geht {\k20}es {\k76}kaum
+Dialogue: 0,0:00:24.06,0:00:27.17,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf201}Aaaaaaah{\k0}
+Dialogue: 0,0:00:26.07,0:00:28.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ach{\k24}te {\k21}auf {\k18}den {\k54}Baum
+Dialogue: 0,0:00:27.83,0:00:29.92,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf99}Uuuuuh{\k0}
