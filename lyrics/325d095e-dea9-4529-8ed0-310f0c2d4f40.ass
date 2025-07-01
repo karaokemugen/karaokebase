@@ -1,0 +1,44 @@
+﻿[Script Info]
+Title: Awakening Harmony
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Naruse
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Cure Zukyoon,Arial,24,&H00FFFFFF,&H0017FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Cure Kiss,Arial,24,&H00FFFFFF,&H00EF00FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: All,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:05.55,0:00:08.22,All,,0,0,0,karaoke,{\k40}to{\k30}ri{\k38}mo{\k15}do{\k34}shi{\k40}ta{\k70}i
+Comment: 0,0:00:08.35,0:00:11.05,All,,0,0,0,karaoke,{\k36}hi{\k37}ka{\k31}ri {\k27}no {\k29}se{\k39}ka{\k71}i
+Comment: 0,0:00:11.05,0:00:12.58,Cure Zukyoon,,0,0,0,karaoke,{\k44}so{\k40}no {\k32}e{\k22}ga{\k20}o
+Comment: 0,0:00:12.58,0:00:13.32,Cure Kiss,,0,0,0,karaoke,{\k28}yu{\k24}u{\k22}ki
+Comment: 0,0:00:13.32,0:00:14.02,Cure Zukyoon,,0,0,0,karaoke,{\k24}na{\k27}mi{\k20}da
+Comment: 0,0:00:14.02,0:00:14.55,Cure Kiss,,0,0,0,karaoke,{\k28}yu{\k22}me
+Comment: 0,0:00:14.55,0:00:16.78,All,,0,0,0,karaoke,{\k21}ki{\k28}bo{\k25}u {\k32}no {\k39}ki{\k36}za{\k42}shi
+Comment: 0,0:00:16.85,0:00:19.29,All,,0,0,0,karaoke,{\k35}ki{\k37}mi {\k36}to {\k23}a{\k28}shi{\k37}ta {\k48}wo
+Comment: 0,0:00:19.55,0:00:22.12,All,,0,0,0,karaoke,{\k40}ne{\k32}ga{\k32}u {\k25}chi{\k33}ka{\k41}ra {\k51}de
+Comment: 0,0:00:22.12,0:00:24.05,All,,0,0,0,karaoke,{\k26}u{\k41}ma{\k33}re{\k93}ru
+Comment: 0,0:00:24.08,0:00:27.98,All,,0,0,0,karaoke,{\k23}wa{\k18}ta{\k49}shi{\k31}ta{\k38}chi {\k36}no {\kf104}HAR{\k21}MO{\k70}NY
+Comment: 0,0:00:28.08,0:00:31.88,All,,0,0,0,karaoke,{\k37}hi{\k41}bi{\kf302}ke
+Dialogue: 0,0:00:04.65,0:00:08.42,All,,0,0,0,fx,{\k90\fad(300,200)}{\k40}to{\k30}ri{\k38}mo{\k15}do{\k34}shi{\k40}ta{\k70}i
+Dialogue: 0,0:00:07.45,0:00:11.25,All,,0,0,0,fx,{\k90\fad(300,200)}{\k36}hi{\k37}ka{\k31}ri {\k27}no {\k29}se{\k39}ka{\k71}i
+Dialogue: 0,0:00:10.15,0:00:12.78,Cure Zukyoon,,0,0,0,fx,{\k90\fad(300,200)}{\k44}so{\k40}no {\k32}e{\k22}ga{\k20}o
+Dialogue: 0,0:00:11.68,0:00:13.52,Cure Kiss,,0,0,0,fx,{\k90\fad(300,200)}{\k28}yu{\k24}u{\k22}ki
+Dialogue: 0,0:00:12.42,0:00:14.22,Cure Zukyoon,,0,0,0,fx,{\k90\fad(300,200)}{\k24}na{\k27}mi{\k20}da
+Dialogue: 0,0:00:13.12,0:00:14.75,Cure Kiss,,0,0,0,fx,{\k90\fad(300,200)}{\k28}yu{\k22}me
+Dialogue: 0,0:00:13.65,0:00:16.98,All,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ki{\k28}bo{\k25}u {\k32}no {\k39}ki{\k36}za{\k42}shi
+Dialogue: 0,0:00:15.95,0:00:19.49,All,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ki{\k37}mi {\k36}to {\k23}a{\k28}shi{\k37}ta {\k48}wo
+Dialogue: 0,0:00:18.65,0:00:22.32,All,,0,0,0,fx,{\k90\fad(300,200)}{\k40}ne{\k32}ga{\k32}u {\k25}chi{\k33}ka{\k41}ra {\k51}de
+Dialogue: 0,0:00:21.22,0:00:24.25,All,,0,0,0,fx,{\k90\fad(300,200)}{\k26}u{\k41}ma{\k33}re{\k93}ru
+Dialogue: 0,0:00:23.18,0:00:28.18,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}wa{\k18}ta{\k49}shi{\k31}ta{\k38}chi {\k36}no {\kf104}HAR{\k21}MO{\k70}NY
+Dialogue: 0,0:00:27.18,0:00:32.08,All,,0,0,0,fx,{\k90\fad(300,200)}{\k37}hi{\k41}bi{\kf302}ke
