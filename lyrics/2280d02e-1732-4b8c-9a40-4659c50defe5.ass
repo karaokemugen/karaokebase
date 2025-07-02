@@ -1,0 +1,70 @@
+﻿[Script Info]
+Title: Fällig
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:04.37,0:00:06.75,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k26}Du {\k35}tust {\k26}nur {\k29}das, {\k28}was {\k14}du {\k40}tun {\k40}willst
+Comment: 0,0:00:06.92,0:00:08.88,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k14}Und {\k12}du {\k33}hältst {\k16}mich {\k26}für {\k27}na{\k68}iv
+Comment: 0,0:00:09.16,0:00:11.02,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k30}Doch {\k29}bring {\k29}ich {\k27}ihr {\k17}Be{\k28}wei{\k26}se
+Comment: 0,0:00:11.02,0:00:13.22,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k29}Dann {\k28}er{\k31}kennt {\k25}sie {\k42}dein {\k18}Mo{\k47}tiv
+Comment: 0,0:00:13.70,0:00:15.78,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k29}Sie {\k28}sagt, {\k27}ich {\k29}ü{\k28}ber{\k31}trei{\k36}be
+Comment: 0,0:00:15.85,0:00:17.72,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k11}Und {\k16}je{\k14}de {\k20}Sei{\k23}fen{\k29}bla{\k23}se {\k51}platzt
+Comment: 0,0:00:18.02,0:00:20.28,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k13}Ich {\k16}wer{\k18}de {\k22}zei{\k26}gen, {\k29}was {\k27}ihr {\k29}an{\k46}stellt
+Comment: 0,0:00:20.47,0:00:23.55,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k27}Und {\k29}dann {\k28}müsst {\k27}ihr {\k28}das {\k28}las{\k30}sen, {\k27}was {\k31}ihr {\k53}macht
+Comment: 0,0:00:23.30,0:00:24.98,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k28}Nein, {\k16}dies{\k12}mal {\k14}kommt {\k13}ihr {\k15}nicht {\k26}da{\k44}von
+Comment: 0,0:00:24.98,0:00:25.97,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k15}Hört {\k12}ihr, {\k18}was {\k10}ich {\k16}jetzt {\k28}sag
+Comment: 0,0:00:25.97,0:00:27.80,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k12}Denn {\k15}mei{\k14}ne {\k19}Zeit, {\k23}sie {\k28}bricht {\k29}jetzt {\k43}an
+Comment: 0,0:00:27.80,0:00:28.94,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k29}Ich {\k27}krieg {\k25}euch! {\k33}Ja
+Comment: 0,0:00:28.94,0:00:30.00,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k27}Ich {\k30}krieg {\k49}euch
+Comment: 0,0:00:30.07,0:00:32.89,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k29}Und {\k20}wenn {\k22}ich's {\k41}tu, {\k29}dann {\k19}seid {\k9}ihr {\k26}echt {\k31}fäl{\k56}lig
+Comment: 0,0:00:32.60,0:00:33.32,Sample KM [Choir],,0,0,0,karaoke,{\k29}Fäl{\k43}lig
+Comment: 0,0:00:33.32,0:00:35.52,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}Dies{\k13}mal {\k18}kommt {\k10}ihr {\k15}wirk{\k16}lich {\k18}nicht {\k25}da{\k78}von
+Comment: 0,0:00:35.57,0:00:36.41,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}Und {\k14}ihr {\k16}soll{\k12}tet {\k15}mir
+Comment: 0,0:00:36.41,0:00:38.23,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k42}Glau{\k25}ben, {\k20}wenn {\k25}ich {\k43}sa{\k27}ge
+Comment: 0,0:00:38.23,0:00:40.79,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k19}Dass {\k29}ich {\k38}sie{\k29}ge, {\k28}dies{\k15}mal {\k27}muss {\k26}es {\k45}sein
+Comment: 0,0:00:40.79,0:00:41.89,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k24}Ich {\k31}krieg {\k55}euch
+Comment: 0,0:00:41.65,0:00:42.39,Sample KM [Choir],,0,0,0,karaoke,{\k25}Krieg {\k49}euch
+Comment: 0,0:00:42.39,0:00:44.53,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k25}Ja, {\k13}ich {\k17}fin{\k10}de, {\k15}es {\k16}ge{\k18}schieht {\k26}euch {\k74}Recht
+Comment: 0,0:00:45.01,0:00:46.98,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k27}Was {\k17}mit {\k39}euch {\k29}da{\k28}nach {\k19}ge{\k38}schieht
+Comment: 0,0:00:46.98,0:00:49.80,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k30}Wenn {\k19}sie {\k20}er{\k45}fährt, {\k24}ich {\k26}hat{\k21}te {\k26}im{\k29}mer {\k42}Recht
+Comment: 0,0:00:49.80,0:00:50.86,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k28}Ich {\k29}krieg {\k49}euch
+Dialogue: 0,0:00:03.47,0:00:06.95,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Du {\k35}tust {\k26}nur {\k29}das, {\k28}was {\k14}du {\k40}tun {\k40}willst
+Dialogue: 0,0:00:06.02,0:00:09.08,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Und {\k12}du {\k33}hältst {\k16}mich {\k26}für {\k27}na{\k68}iv
+Dialogue: 0,0:00:08.26,0:00:11.22,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Doch {\k29}bring {\k29}ich {\k27}ihr {\k17}Be{\k28}wei{\k26}se
+Dialogue: 0,0:00:10.12,0:00:13.42,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Dann {\k28}er{\k31}kennt {\k25}sie {\k42}dein {\k18}Mo{\k47}tiv
+Dialogue: 0,0:00:12.80,0:00:15.98,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Sie {\k28}sagt, {\k27}ich {\k29}ü{\k28}ber{\k31}trei{\k36}be
+Dialogue: 0,0:00:14.95,0:00:17.92,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Und {\k16}je{\k14}de {\k20}Sei{\k23}fen{\k29}bla{\k23}se {\k51}platzt
+Dialogue: 0,0:00:17.12,0:00:20.48,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Ich {\k16}wer{\k18}de {\k22}zei{\k26}gen, {\k29}was {\k27}ihr {\k29}an{\k46}stellt
+Dialogue: 0,0:00:19.57,0:00:23.75,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Und {\k29}dann {\k28}müsst {\k27}ihr {\k28}das {\k28}las{\k30}sen, {\k27}was {\k31}ihr {\k53}macht
+Dialogue: 0,0:00:22.40,0:00:25.18,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Nein, {\k16}dies{\k12}mal {\k14}kommt {\k13}ihr {\k15}nicht {\k26}da{\k44}von
+Dialogue: 0,0:00:24.08,0:00:26.17,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Hört {\k12}ihr, {\k18}was {\k10}ich {\k16}jetzt {\k28}sag
+Dialogue: 0,0:00:25.07,0:00:28.00,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Denn {\k15}mei{\k14}ne {\k19}Zeit, {\k23}sie {\k28}bricht {\k29}jetzt {\k43}an
+Dialogue: 0,0:00:26.90,0:00:29.14,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Ich {\k27}krieg {\k25}euch! {\k33}Ja
+Dialogue: 0,0:00:28.04,0:00:30.20,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Ich {\k30}krieg {\k49}euch
+Dialogue: 0,0:00:29.17,0:00:33.09,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Und {\k20}wenn {\k22}ich's {\k41}tu, {\k29}dann {\k19}seid {\k9}ihr {\k26}echt {\k31}fäl{\k56}lig
+Dialogue: 0,0:00:31.70,0:00:33.52,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Fäl{\k43}lig
+Dialogue: 0,0:00:32.42,0:00:35.72,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Dies{\k13}mal {\k18}kommt {\k10}ihr {\k15}wirk{\k16}lich {\k18}nicht {\k25}da{\k78}von
+Dialogue: 0,0:00:34.67,0:00:36.61,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Und {\k14}ihr {\k16}soll{\k12}tet {\k15}mir
+Dialogue: 0,0:00:35.51,0:00:38.43,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Glau{\k25}ben, {\k20}wenn {\k25}ich {\k43}sa{\k27}ge
+Dialogue: 0,0:00:37.33,0:00:40.99,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Dass {\k29}ich {\k38}sie{\k29}ge, {\k28}dies{\k15}mal {\k27}muss {\k26}es {\k45}sein
+Dialogue: 0,0:00:39.89,0:00:42.09,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ich {\k31}krieg {\k55}euch
+Dialogue: 0,0:00:40.75,0:00:42.59,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Krieg {\k49}euch
+Dialogue: 0,0:00:41.49,0:00:44.73,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ja, {\k13}ich {\k17}fin{\k10}de, {\k15}es {\k16}ge{\k18}schieht {\k26}euch {\k74}Recht
+Dialogue: 0,0:00:44.11,0:00:47.18,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Was {\k17}mit {\k39}euch {\k29}da{\k28}nach {\k19}ge{\k38}schieht
+Dialogue: 0,0:00:46.08,0:00:50.00,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Wenn {\k19}sie {\k20}er{\k45}fährt, {\k24}ich {\k26}hat{\k21}te {\k26}im{\k29}mer {\k42}Recht
+Dialogue: 0,0:00:48.90,0:00:51.06,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Ich {\k29}krieg {\k49}euch
