@@ -1,0 +1,188 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 0
+PlayResY: 0
+Title: The Show Goes On!
+Original Timing: PrZozor
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: All,Arial,24,&H0030AFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Gura,Arial,24,&H00FFFFFF,&H00EDB137,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Gura - Sub,Arial,24,&H00FFFFFF,&H00ED7E38,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: Ame,Arial,24,&H00FFFFFF,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Ame - Sub,Arial,24,&H00FFFFFF,&H00419CC7,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: Ina,Arial,24,&H00FFFFFF,&H00FF889D,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Ina - Sub,Arial,24,&H00FFFFFF,&H00E23E76,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: Calli,Arial,24,&H00FFFFFF,&H00A371E4,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Calli - Sub,Arial,24,&H00FFFFFF,&H006F30BF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: Kiara,Arial,24,&H00FFFFFF,&H004B61FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Kiara - Sub,Arial,24,&H00FFFFFF,&H002638BB,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: Sub,Arial,24,&H00007ECD,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: COLOR CODE,Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,250,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,All,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:04.77,COLOR CODE,,0,0,0,karaoke,{\c&H41B5E6&}Ame{\c} | {\c&H4B61FF&}Kiara{\c}| {\c&HEDB137&}Gura{\c} | {\c&HA371E4&}Mori{\c} | {\c&HFF889D&}Ina{\c}
+Comment: 0,0:00:00.44,0:00:01.88,Gura,,0,0,0,karaoke,{\k53}One, {\k58}two, {\k33}three!
+Comment: 0,0:00:06.99,0:00:08.86,Kiara,,0,0,0,karaoke,{\k31}Light {\k27}the {\k25}flood{\k28}lights, {\k29}let's {\k17}be{\k30}gin
+Comment: 0,0:00:08.86,0:00:12.46,Kiara,,0,0,0,karaoke,{\k26}We'll {\k36}start {\k28}stage {\k27}right {\k28}and {\k27}shuf{\k26}fle {\k29}on {\kf133}in
+Comment: 0,0:00:11.66,0:00:13.78,Gura - Sub,,0,0,0,karaoke,{\k19}It's {\k28}time {\k14}for {\k21}Myth, {\k20\rIna - Sub}rea{\k21}dy {\k15}to {\k24}steal {\k19}the {\k31}show
+Comment: 0,0:00:13.82,0:00:15.75,Gura - Sub,,0,0,0,karaoke,{\k15}We're {\k32}jum{\k11}ping {\k27\rIna - Sub}with {\k40}joy, {\k40}let's {\k28}go
+Comment: 0,0:00:15.75,0:00:17.58,Calli,,0,0,0,karaoke,{\k27}Cur{\k31}tain's {\k28}up, {\k20}so {\k34}cue {\k15}the {\k28}band
+Comment: 0,0:00:17.58,0:00:22.28,Calli,,0,0,0,karaoke,{\k23}We'll {\k39}keep {\k29}on {\k22}en{\k32}ter{\k21}tai{\k25}ning, {\k27}hand {\k36}in {\kf216}hand
+Comment: 0,0:00:24.49,0:00:26.40,Ame,,0,0,0,karaoke,{\k28}It's {\k26}our {\k28}grea{\k26}test {\k28}mo{\k13}ment {\k42}yet
+Comment: 0,0:00:26.40,0:00:29.89,Ame,,0,0,0,karaoke,{\k21}A {\k33}spec{\k25}ta{\k29}cle {\k28}they'll {\k28}ne{\k27}ver {\k27}for{\kf131}get
+Comment: 0,0:00:29.06,0:00:31.31,Kiara - Sub,,0,0,0,karaoke,{\k19}We're {\k28}all {\k11}ag{\k31}low, {\k16}par{\k17}ty {\k17\rCalli - Sub}from {\k30}dusk {\k17}to {\k39}dawn
+Comment: 0,0:00:31.31,0:00:33.24,Kiara - Sub,,0,0,0,karaoke,{\k15}The {\k24}show {\k15}will {\k28\rCalli - Sub}go {\k43}on {\k35}and {\k33}on
+Comment: 0,0:00:33.24,0:00:35.20,Gura,,0,0,0,karaoke,{\k24}Tell {\k29}them {\k26}that {\k27}we're {\k28}here {\k14}to {\k35}stay {\k13}and {\k0}
+Comment: 0,0:00:35.32,0:00:39.68,Gura,,0,0,0,karaoke,{\k36}Spread {\k25}the {\k28}news {\k28}from {\k27}To{\k49}kyo {\k27}to {\k66}Broad{\kf150}way
+Comment: 0,0:00:41.84,0:00:43.57,Ina,,0,0,0,karaoke,{\k38}Glea{\k68}ming, {\k41}spot{\k26}light
+Comment: 0,0:00:42.46,0:00:42.94,Sub,,0,0,0,karaoke,{\kf48}Ooh!
+Comment: 0,0:00:43.57,0:00:44.00,Sub,,0,0,0,karaoke,{\kf43}Aah!
+Comment: 0,0:00:44.00,0:00:44.99,Ina,,0,0,0,karaoke,{\k22}Gеt {\k17}the {\k14}gang {\k15}to{\k15}ge{\k16}ther,
+Comment: 0,0:00:44.99,0:00:46.21,Ina,,0,0,0,karaoke,{\k11}Wе're {\k31}boo{\k35}gieing {\k19}all {\k26}night
+Comment: 0,0:00:46.21,0:00:48.00,Kiara,,0,0,0,karaoke,{\k37}Bea{\k69}ming, {\k40}so {\k33}bright
+Comment: 0,0:00:46.93,0:00:47.29,Sub,,0,0,0,karaoke,{\kf36}Ooh!
+Comment: 0,0:00:48.00,0:00:48.39,Sub,,0,0,0,karaoke,{\kf39}Aah!
+Comment: 0,0:00:48.39,0:00:51.23,Kiara,,0,0,0,karaoke,{\k36}Now {\k29}we're {\k27}fee{\k26}ling {\k56}all {\kf110}right
+Comment: 0,0:00:51.20,0:00:52.45,Calli,,0,0,0,karaoke,{\k32}Since {\k23}the {\k24}day {\k21}we {\k25}met
+Comment: 0,0:00:52.45,0:00:54.46,Calli,,0,0,0,karaoke,{\k27}We've {\k45}all {\k22}been {\k16}go{\k26}ing {\k65}strong
+Comment: 0,0:00:54.22,0:00:57.23,Kiara - Sub,,0,0,0,karaoke,{\k24}It’s {\k19}been {\k34}so {\kf112\rIna - Sub}long, {\kf112}ooh
+Comment: 0,0:00:55.30,0:00:58.44,Ame,,0,0,0,karaoke,{\k30}And {\k24}we'll {\k25}keep {\k28}mo{\k31}ving {\k26}right {\k30}a{\kf120}long
+Comment: 0,0:00:58.85,0:01:01.15,Gura,,0,0,0,karaoke,{\k55}So {\k26}keep {\k28}on {\k26}dan{\k30}cing, {\k27}yeah, {\k18}you {\k20}bet
+Comment: 0,0:01:01.18,0:01:02.42,Gura,,0,0,0,karaoke,{\k29}Ain't {\k11}no{\k24}thing {\k15}gon{\k16}na {\k17}stop {\k12}us,
+Comment: 0,0:01:02.47,0:01:04.03,Gura,,0,0,0,karaoke,{\k12}We're {\k8}a {\k28}per{\k27}fect {\k26}quin{\k55}tet
+Comment: 0,0:01:04.03,0:01:06.08,Gura - Sub,,0,0,0,karaoke,{\k16}In {\k22}har{\k17}mo{\k24}ny, {\k18}no {\k27\rCalli - Sub}mat{\k13}ter {\k27}where {\k17}we {\k24}go
+Comment: 0,0:01:06.12,0:01:08.13,Gura - Sub,,0,0,0,karaoke,{\k17}It's {\k37}meant {\k10}to {\k27}be, {\k44\rCalli - Sub}don't {\k38}you {\k28}know
+Comment: 0,0:01:08.13,0:01:10.86,Kiara,,0,0,0,karaoke,{\k24}We're {\k21}going {\k9}to {\k31}feel {\k18}so {\k7}a{\k26}live {\k18}when {\k27}it's {\k28}us {\kf64}five
+Comment: 0,0:01:10.86,0:01:14.67,Kiara,,0,0,0,karaoke,{\k16}Rea{\k18}dy {\k19}to {\k17}put {\k20}on {\k16}a{\k19}no{\k35}ther {\kf221}show
+Comment: 0,0:01:34.30,0:01:36.09,Ame,,0,0,0,karaoke,{\k29}There's {\k28}a {\k28}ton {\k28}to {\k26}ce{\k14}le{\k26}brate
+Comment: 0,0:01:36.11,0:01:39.98,Ame,,0,0,0,karaoke,{\k26}The {\k39}mood {\k28}is {\k25}fun {\k22}and {\k34}we're {\k28}fee{\k26}ling {\kf159}great
+Comment: 0,0:01:43.01,0:01:44.82,Ina,,0,0,0,karaoke,{\k30}From {\k24}the {\k29}raf{\k29}ters {\k28}to {\k12}the {\k29}aisles
+Comment: 0,0:01:44.85,0:01:50.94,Ina,,0,0,0,karaoke,{\k26}Con{\k37}ta{\k25}gious {\k29}lau{\k29}ghter {\k18}and {\k28}our {\k26}big{\k28}gest {\kf363}smiles
+Comment: 0,0:01:56.98,0:01:58.65,Calli,,0,0,0,karaoke,{\k27}We'll {\k11}slay {\k15}'em {\k20}like {\k11}we {\k25}al{\k29}ways {\k29}do
+Comment: 0,0:01:58.78,0:02:00.49,Calli,,0,0,0,karaoke,{\k27}Make {\k35}no {\k28}bones {\k27}a{\k26}bout {\k28}it
+Comment: 0,0:02:01.31,0:02:04.76,Kiara,,0,0,0,karaoke,{\k26}When {\k30}I'm {\k27}with {\k26}you, {\k26}it's {\k28}di{\k21}vi{\k21}ne, {\k11}it's {\k29}ex{\k59}qui{\k41}site
+Comment: 0,0:02:05.80,0:02:07.86,Gura,,0,0,0,karaoke,{\k15}On {\k22}land {\k11}or {\k19}in {\k19}wa{\k14}ter, {\k17}we've {\k22}ne{\k16}ver {\k24}been {\k16}hot{\k22}ter
+Comment: 0,0:02:07.86,0:02:10.24,Gura,,0,0,0,karaoke,{\k22}It {\k42}feels {\k44}su{\kf130}blime
+Comment: 0,0:02:10.05,0:02:13.19,Ame,,0,0,0,karaoke,{\k25}We're {\k29}friends {\k26}for {\k50}all {\kf184}time
+Comment: 0,0:02:13.02,0:02:13.49,Kiara,,0,0,0,karaoke,{\k19}Come {\k28\rIna}on,
+Comment: 0,0:02:13.57,0:02:15.59,Kiara,,0,0,0,karaoke,{\k14}Li{\k14}sten {\k13}to {\k15}the {\k14}Ten{\k12}ta{\k12}cult {\k17\rIna}and {\k25}jive {\k19}with {\k47}me
+Comment: 0,0:02:15.66,0:02:17.66,Kiara,,0,0,0,karaoke,{\k19}Gon{\k14}na {\k17}shake {\k14}your {\k8\rIna}fea{\k17}thers {\k18}here {\k12}with {\k25}K{\k17}F{\k39}P
+Comment: 0,0:02:17.82,0:02:18.67,Ame,,0,0,0,karaoke,{\k24}Dead{\k14}beats {\k26\rGura}keeping {\k21\rCalli}rhythm
+Comment: 0,0:02:18.75,0:02:19.75,Ame,,0,0,0,karaoke,{\k18}While {\k11\rGura}the {\k13}Tea{\k8}ma{\k19}tes {\k31\rCalli}spin
+Comment: 0,0:02:19.84,0:02:23.37,Ame,,0,0,0,karaoke,{\k14}The {\k67\rGura}Chum{\k54}buds {\k57}join {\k55\rCalli}right {\k106}in
+Comment: 0,0:02:22.85,0:02:24.32,Ina,,0,0,0,karaoke,{\k20}We're {\k13}like {\k19}a {\k29}work {\k15}of {\k51}art
+Comment: 0,0:02:24.38,0:02:25.96,Ina,,0,0,0,karaoke,{\k19}And {\k19}I'm {\k13}gon{\k14}na {\k17}keep {\k18}you {\k11}in {\k11}my {\k36}heart
+Comment: 0,0:02:26.11,0:02:30.66,Ina,,0,0,0,karaoke,{\k52}We'll {\k114}stick {\k109}to{\k25}ge{\kf155}ther
+Comment: 0,0:02:31.02,0:02:35.29,All,,0,0,0,karaoke,{\k105}Myth {\k116}for{\k25}e{\kf181}ver
+Comment: 0,0:02:39.73,0:02:41.38,Kiara,,0,0,0,karaoke,{\k32}Sym{\k17}pho{\k23}ny {\k12}of {\k28\rGura}sight {\k24}and {\k29}sound
+Comment: 0,0:02:41.38,0:02:44.40,Kiara,,0,0,0,karaoke,{\k17}Tur{\k28}ning {\k25}like {\k14}a {\k31\rGura}mer{\k24}ry{\k28}-go{\kf135}-round
+Comment: 0,0:02:43.34,0:02:44.73,Ina - Sub,,0,0,0,karaoke,{\k10}We {\k9}can {\k19}get {\k14}'em {\k22\rAme - Sub}chee{\k16}ring {\k18}even {\k31}more
+Comment: 0,0:02:44.96,0:02:46.18,Ina - Sub,,0,0,0,karaoke,{\k14}On {\k12}and {\k16}on {\k11\rAme - Sub}and {\k26}en{\k43}core
+Comment: 0,0:02:46.29,0:02:47.88,Calli,,0,0,0,karaoke,{\k38}Dream {\k8}a{\k15}no{\k22}ther {\k28}dream {\k25}with {\k23}me
+Comment: 0,0:02:47.93,0:02:50.84,Calli,,0,0,0,karaoke,{\k22}Now {\k20}it's {\k27}time {\k12}to {\k57}change {\k26}the {\kf127}key
+Comment: 0,0:02:53.88,0:02:55.66,Gura,,0,0,0,karaoke,{\k33}Light {\k25}the {\k30}flood{\k28}lights, {\k23}keep {\k24}'em {\k15}lit
+Comment: 0,0:02:55.76,0:02:59.33,Gura,,0,0,0,karaoke,{\k24}To{\k41}night's {\k23}our {\k30}night {\k26}and {\k29}we've {\k28}got {\k26}a {\kf130}hit
+Comment: 0,0:03:02.67,0:03:04.51,Ina,,0,0,0,karaoke,{\k28}Get {\k24}in {\k26}line {\k57}beside {\k18}me {\k31}now
+Comment: 0,0:03:04.58,0:03:08.93,Ina,,0,0,0,karaoke,{\k28}It's {\k22}al{\k29}most {\k29}time {\k28}to {\k24}take {\k20}a{\k31}no{\k26}ther {\kf198}bow
+Comment: 0,0:03:08.93,0:03:10.14,Kiara,,0,0,0,karaoke,{\k28}We'll {\k26}stay {\k28\rCalli}on {\k39}track,
+Comment: 0,0:03:10.14,0:03:12.57,Kiara,,0,0,0,karaoke,{\k16}You {\k29}know {\k16}that {\k24\rCalli}I've {\k14}got {\k26}your {\kf118}back
+Comment: 0,0:03:11.66,0:03:13.02,Ina - Sub,,0,0,0,karaoke,{\k52}I {\k0\rGura - Sub}sa{\k84\rAme - Sub}y
+Comment: 0,0:03:12.57,0:03:13.68,Kiara,,0,0,0,karaoke,{\k19}Get {\k16}on {\k10}the {\k30\rCalli}dance {\k36}floor
+Comment: 0,0:03:13.55,0:03:15.20,Ina - Sub,,0,0,0,karaoke,{\k83}O{\k0\rGura - Sub}ka{\k82\rAme - Sub}y
+Comment: 0,0:03:14.75,0:03:15.84,Kiara,,0,0,0,karaoke,{\k17}Hear {\k20}the {\k10\rCalli}ap{\k27}plause {\k35}roar
+Comment: 0,0:03:15.73,0:03:17.26,Ina - Sub,,0,0,0,karaoke,{\k83}Each {\k70\rAme - Sub}day
+Comment: 0,0:03:16.57,0:03:17.65,Kiara,,0,0,0,karaoke,{\k28}The {\k22}mu{\k28\rCalli}sic {\k30}will
+Comment: 0,0:03:17.65,0:03:20.05,All,,0,0,0,karaoke,{\k23}Go {\k33}on {\k17}and {\k37}on {\k14}and {\k30}en{\k86}core
+Comment: 0,0:03:20.12,0:03:21.46,Kiara - Sub,,0,0,0,karaoke,{\k74}Old {\k60\rCalli - Sub}friends
+Comment: 0,0:03:21.38,0:03:22.32,Ina,,0,0,0,karaoke,{\k18}Wher{\k21\rGura}ever {\k26}you {\k29\rAme}go
+Comment: 0,0:03:22.32,0:03:23.67,Kiara - Sub,,0,0,0,karaoke,{\k78}New {\k57\rCalli - Sub}gens
+Comment: 0,0:03:23.56,0:03:24.53,Ina,,0,0,0,karaoke,{\k12}I'm {\k26\rGura}gonna {\k27\rAme}fol{\k32}low
+Comment: 0,0:03:24.41,0:03:25.79,Kiara - Sub,,0,0,0,karaoke,{\k94}No {\k44\rCalli - Sub}ends
+Comment: 0,0:03:25.27,0:03:26.39,Ina,,0,0,0,karaoke,{\k31}The {\k26\rGura}mu{\k28}sic {\k26\rAme}will
+Comment: 0,0:03:26.39,0:03:31.04,All,,0,0,0,karaoke,{\k24}Go {\k33}on {\k23}and {\k29}on, {\k25}an {\k53}end{\k60}less {\kf218}show
+Dialogue: 0,0:00:00.00,0:00:04.97,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H41B5E6&}Ame{\c} | {\c&H4B61FF&}Kiara{\c}| {\c&HEDB137&}Gura{\c} | {\c&HA371E4&}Mori{\c} | {\c&HFF889D&}Ina{\c}
+Dialogue: 0,0:00:00.00,0:00:02.08,Gura,,0,0,0,fx,{\k44\fad(440,200)}{\k53}One, {\k58}two, {\k33}three!
+Dialogue: 0,0:00:06.09,0:00:09.06,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Light {\k27}the {\k25}flood{\k28}lights, {\k29}let's {\k17}be{\k30}gin
+Dialogue: 0,0:00:07.96,0:00:12.66,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k26}We'll {\k36}start {\k28}stage {\k27}right {\k28}and {\k27}shuf{\k26}fle {\k29}on {\kf133}in
+Dialogue: 0,0:00:10.76,0:00:13.98,Gura - Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k19}It's {\k28}time {\k14}for {\k21}Myth, {\k20\rIna - Sub}rea{\k21}dy {\k15}to {\k24}steal {\k19}the {\k31}show
+Dialogue: 0,0:00:12.92,0:00:15.95,Gura - Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k15}We're {\k32}jum{\k11}ping {\k27\rIna - Sub}with {\k40}joy, {\k40}let's {\k28}go
+Dialogue: 0,0:00:14.85,0:00:17.78,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Cur{\k31}tain's {\k28}up, {\k20}so {\k34}cue {\k15}the {\k28}band
+Dialogue: 0,0:00:16.68,0:00:22.48,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k23}We'll {\k39}keep {\k29}on {\k22}en{\k32}ter{\k21}tai{\k25}ning, {\k27}hand {\k36}in {\kf216}hand
+Dialogue: 0,0:00:23.59,0:00:26.60,Ame,,0,0,0,fx,{\k90\fad(300,200)}{\k28}It's {\k26}our {\k28}grea{\k26}test {\k28}mo{\k13}ment {\k42}yet
+Dialogue: 0,0:00:25.50,0:00:30.09,Ame,,0,0,0,fx,{\k90\fad(300,200)}{\k21}A {\k33}spec{\k25}ta{\k29}cle {\k28}they'll {\k28}ne{\k27}ver {\k27}for{\kf131}get
+Dialogue: 0,0:00:28.16,0:00:31.51,Kiara - Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k19}We're {\k28}all {\k11}ag{\k31}low, {\k16}par{\k17}ty {\k17\rCalli - Sub}from {\k30}dusk {\k17}to {\k39}dawn
+Dialogue: 0,0:00:30.41,0:00:33.44,Kiara - Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k24}show {\k15}will {\k28\rCalli - Sub}go {\k43}on {\k35}and {\k33}on
+Dialogue: 0,0:00:32.34,0:00:35.40,Gura,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Tell {\k29}them {\k26}that {\k27}we're {\k28}here {\k14}to {\k35}stay {\k13}and {\k0}
+Dialogue: 0,0:00:34.42,0:00:39.88,Gura,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Spread {\k25}the {\k28}news {\k28}from {\k27}To{\k49}kyo {\k27}to {\k66}Broad{\kf150}way
+Dialogue: 0,0:00:40.94,0:00:43.77,Ina,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Glea{\k68}ming, {\k41}spot{\k26}light
+Dialogue: 0,0:00:41.56,0:00:43.14,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\kf48}Ooh!
+Dialogue: 0,0:00:42.67,0:00:44.20,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\kf43}Aah!
+Dialogue: 0,0:00:43.10,0:00:45.19,Ina,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Gеt {\k17}the {\k14}gang {\k15}to{\k15}ge{\k16}ther,
+Dialogue: 0,0:00:44.09,0:00:46.41,Ina,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Wе're {\k31}boo{\k35}gieing {\k19}all {\k26}night
+Dialogue: 0,0:00:45.31,0:00:48.20,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Bea{\k69}ming, {\k40}so {\k33}bright
+Dialogue: 0,0:00:46.03,0:00:47.49,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\kf36}Ooh!
+Dialogue: 0,0:00:47.10,0:00:48.59,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\kf39}Aah!
+Dialogue: 0,0:00:47.49,0:00:51.43,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Now {\k29}we're {\k27}fee{\k26}ling {\k56}all {\kf110}right
+Dialogue: 0,0:00:50.30,0:00:52.65,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Since {\k23}the {\k24}day {\k21}we {\k25}met
+Dialogue: 0,0:00:51.55,0:00:54.66,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k27}We've {\k45}all {\k22}been {\k16}go{\k26}ing {\k65}strong
+Dialogue: 0,0:00:53.32,0:00:57.43,Kiara - Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k24}It’s {\k19}been {\k34}so {\kf112\rIna - Sub}long, {\kf112}ooh
+Dialogue: 0,0:00:54.40,0:00:58.64,Ame,,0,0,0,fx,{\k90\fad(300,200)}{\k30}And {\k24}we'll {\k25}keep {\k28}mo{\k31}ving {\k26}right {\k30}a{\kf120}long
+Dialogue: 0,0:00:57.95,0:01:01.35,Gura,,0,0,0,fx,{\k90\fad(300,200)}{\k55}So {\k26}keep {\k28}on {\k26}dan{\k30}cing, {\k27}yeah, {\k18}you {\k20}bet
+Dialogue: 0,0:01:00.28,0:01:02.62,Gura,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Ain't {\k11}no{\k24}thing {\k15}gon{\k16}na {\k17}stop {\k12}us,
+Dialogue: 0,0:01:01.57,0:01:04.23,Gura,,0,0,0,fx,{\k90\fad(300,200)}{\k12}We're {\k8}a {\k28}per{\k27}fect {\k26}quin{\k55}tet
+Dialogue: 0,0:01:03.13,0:01:06.28,Gura - Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k16}In {\k22}har{\k17}mo{\k24}ny, {\k18}no {\k27\rCalli - Sub}mat{\k13}ter {\k27}where {\k17}we {\k24}go
+Dialogue: 0,0:01:05.22,0:01:08.33,Gura - Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k17}It's {\k37}meant {\k10}to {\k27}be, {\k44\rCalli - Sub}don't {\k38}you {\k28}know
+Dialogue: 0,0:01:07.23,0:01:11.06,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k24}We're {\k21}going {\k9}to {\k31}feel {\k18}so {\k7}a{\k26}live {\k18}when {\k27}it's {\k28}us {\kf64}five
+Dialogue: 0,0:01:09.96,0:01:14.87,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Rea{\k18}dy {\k19}to {\k17}put {\k20}on {\k16}a{\k19}no{\k35}ther {\kf221}show
+Dialogue: 0,0:01:33.40,0:01:36.29,Ame,,0,0,0,fx,{\k90\fad(300,200)}{\k29}There's {\k28}a {\k28}ton {\k28}to {\k26}ce{\k14}le{\k26}brate
+Dialogue: 0,0:01:35.21,0:01:40.18,Ame,,0,0,0,fx,{\k90\fad(300,200)}{\k26}The {\k39}mood {\k28}is {\k25}fun {\k22}and {\k34}we're {\k28}fee{\k26}ling {\kf159}great
+Dialogue: 0,0:01:42.11,0:01:45.02,Ina,,0,0,0,fx,{\k90\fad(300,200)}{\k30}From {\k24}the {\k29}raf{\k29}ters {\k28}to {\k12}the {\k29}aisles
+Dialogue: 0,0:01:43.95,0:01:51.14,Ina,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Con{\k37}ta{\k25}gious {\k29}lau{\k29}ghter {\k18}and {\k28}our {\k26}big{\k28}gest {\kf363}smiles
+Dialogue: 0,0:01:56.08,0:01:58.85,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k27}We'll {\k11}slay {\k15}'em {\k20}like {\k11}we {\k25}al{\k29}ways {\k29}do
+Dialogue: 0,0:01:57.88,0:02:00.69,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Make {\k35}no {\k28}bones {\k27}a{\k26}bout {\k28}it
+Dialogue: 0,0:02:00.41,0:02:04.96,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k26}When {\k30}I'm {\k27}with {\k26}you, {\k26}it's {\k28}di{\k21}vi{\k21}ne, {\k11}it's {\k29}ex{\k59}qui{\k41}site
+Dialogue: 0,0:02:04.90,0:02:08.06,Gura,,0,0,0,fx,{\k90\fad(300,200)}{\k15}On {\k22}land {\k11}or {\k19}in {\k19}wa{\k14}ter, {\k17}we've {\k22}ne{\k16}ver {\k24}been {\k16}hot{\k22}ter
+Dialogue: 0,0:02:06.96,0:02:10.44,Gura,,0,0,0,fx,{\k90\fad(300,200)}{\k22}It {\k42}feels {\k44}su{\kf130}blime
+Dialogue: 0,0:02:09.15,0:02:13.39,Ame,,0,0,0,fx,{\k90\fad(300,200)}{\k25}We're {\k29}friends {\k26}for {\k50}all {\kf184}time
+Dialogue: 0,0:02:12.12,0:02:13.69,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Come {\k28\rIna}on,
+Dialogue: 0,0:02:12.67,0:02:15.79,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Li{\k14}sten {\k13}to {\k15}the {\k14}Ten{\k12}ta{\k12}cult {\k17\rIna}and {\k25}jive {\k19}with {\k47}me
+Dialogue: 0,0:02:14.76,0:02:17.86,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Gon{\k14}na {\k17}shake {\k14}your {\k8\rIna}fea{\k17}thers {\k18}here {\k12}with {\k25}K{\k17}F{\k39}P
+Dialogue: 0,0:02:16.92,0:02:18.87,Ame,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Dead{\k14}beats {\k26\rGura}keeping {\k21\rCalli}rhythm
+Dialogue: 0,0:02:17.85,0:02:19.95,Ame,,0,0,0,fx,{\k90\fad(300,200)}{\k18}While {\k11\rGura}the {\k13}Tea{\k8}ma{\k19}tes {\k31\rCalli}spin
+Dialogue: 0,0:02:18.94,0:02:23.57,Ame,,0,0,0,fx,{\k90\fad(300,200)}{\k14}The {\k67\rGura}Chum{\k54}buds {\k57}join {\k55\rCalli}right {\k106}in
+Dialogue: 0,0:02:21.95,0:02:24.52,Ina,,0,0,0,fx,{\k90\fad(300,200)}{\k20}We're {\k13}like {\k19}a {\k29}work {\k15}of {\k51}art
+Dialogue: 0,0:02:23.48,0:02:26.16,Ina,,0,0,0,fx,{\k90\fad(300,200)}{\k19}And {\k19}I'm {\k13}gon{\k14}na {\k17}keep {\k18}you {\k11}in {\k11}my {\k36}heart
+Dialogue: 0,0:02:25.21,0:02:30.86,Ina,,0,0,0,fx,{\k90\fad(300,200)}{\k52}We'll {\k114}stick {\k109}to{\k25}ge{\kf155}ther
+Dialogue: 0,0:02:30.12,0:02:35.49,All,,0,0,0,fx,{\k90\fad(300,200)}{\k105}Myth {\k116}for{\k25}e{\kf181}ver
+Dialogue: 0,0:02:38.83,0:02:41.58,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Sym{\k17}pho{\k23}ny {\k12}of {\k28\rGura}sight {\k24}and {\k29}sound
+Dialogue: 0,0:02:40.48,0:02:44.60,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Tur{\k28}ning {\k25}like {\k14}a {\k31\rGura}mer{\k24}ry{\k28}-go{\kf135}-round
+Dialogue: 0,0:02:42.44,0:02:44.93,Ina - Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k10}We {\k9}can {\k19}get {\k14}'em {\k22\rAme - Sub}chee{\k16}ring {\k18}even {\k31}more
+Dialogue: 0,0:02:44.06,0:02:46.38,Ina - Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k14}On {\k12}and {\k16}on {\k11\rAme - Sub}and {\k26}en{\k43}core
+Dialogue: 0,0:02:45.39,0:02:48.08,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Dream {\k8}a{\k15}no{\k22}ther {\k28}dream {\k25}with {\k23}me
+Dialogue: 0,0:02:47.03,0:02:51.04,Calli,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Now {\k20}it's {\k27}time {\k12}to {\k57}change {\k26}the {\kf127}key
+Dialogue: 0,0:02:52.98,0:02:55.86,Gura,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Light {\k25}the {\k30}flood{\k28}lights, {\k23}keep {\k24}'em {\k15}lit
+Dialogue: 0,0:02:54.86,0:02:59.53,Gura,,0,0,0,fx,{\k90\fad(300,200)}{\k24}To{\k41}night's {\k23}our {\k30}night {\k26}and {\k29}we've {\k28}got {\k26}a {\kf130}hit
+Dialogue: 0,0:03:01.77,0:03:04.71,Ina,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Get {\k24}in {\k26}line {\k57}beside {\k18}me {\k31}now
+Dialogue: 0,0:03:03.68,0:03:09.13,Ina,,0,0,0,fx,{\k90\fad(300,200)}{\k28}It's {\k22}al{\k29}most {\k29}time {\k28}to {\k24}take {\k20}a{\k31}no{\k26}ther {\kf198}bow
+Dialogue: 0,0:03:08.03,0:03:10.34,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k28}We'll {\k26}stay {\k28\rCalli}on {\k39}track,
+Dialogue: 0,0:03:09.24,0:03:12.77,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k16}You {\k29}know {\k16}that {\k24\rCalli}I've {\k14}got {\k26}your {\kf118}back
+Dialogue: 0,0:03:10.76,0:03:13.22,Ina - Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k52}I {\k0\rGura - Sub}sa{\k84\rAme - Sub}y
+Dialogue: 0,0:03:11.67,0:03:13.88,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Get {\k16}on {\k10}the {\k30\rCalli}dance {\k36}floor
+Dialogue: 0,0:03:12.65,0:03:15.40,Ina - Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k83}O{\k0\rGura - Sub}ka{\k82\rAme - Sub}y
+Dialogue: 0,0:03:13.85,0:03:16.04,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Hear {\k20}the {\k10\rCalli}ap{\k27}plause {\k35}roar
+Dialogue: 0,0:03:14.83,0:03:17.46,Ina - Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k83}Each {\k70\rAme - Sub}day
+Dialogue: 0,0:03:15.67,0:03:17.85,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k28}The {\k22}mu{\k28\rCalli}sic {\k30}will
+Dialogue: 0,0:03:16.75,0:03:20.25,All,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Go {\k33}on {\k17}and {\k37}on {\k14}and {\k30}en{\k86}core
+Dialogue: 0,0:03:19.22,0:03:21.66,Kiara - Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k74}Old {\k60\rCalli - Sub}friends
+Dialogue: 0,0:03:20.48,0:03:22.52,Ina,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Wher{\k21\rGura}ever {\k26}you {\k29\rAme}go
+Dialogue: 0,0:03:21.42,0:03:23.87,Kiara - Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k78}New {\k57\rCalli - Sub}gens
+Dialogue: 0,0:03:22.66,0:03:24.73,Ina,,0,0,0,fx,{\k90\fad(300,200)}{\k12}I'm {\k26\rGura}gonna {\k27\rAme}fol{\k32}low
+Dialogue: 0,0:03:23.51,0:03:25.99,Kiara - Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k94}No {\k44\rCalli - Sub}ends
+Dialogue: 0,0:03:24.37,0:03:26.59,Ina,,0,0,0,fx,{\k90\fad(300,200)}{\k31}The {\k26\rGura}mu{\k28}sic {\k26\rAme}will
+Dialogue: 0,0:03:25.49,0:03:31.24,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Go {\k33}on {\k23}and {\k29}on, {\k25}an {\k53}end{\k60}less {\kf218}show
