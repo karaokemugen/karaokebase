@@ -1,0 +1,22 @@
+﻿[Script Info]
+Title: Nils Holgersson
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:21.44,0:00:25.29,Sample KM [Up],,0,0,0,karaoke,{\kf112}Nils {\k72}Hol{\k47}ger{\kf154}sson
+Comment: 0,0:00:30.73,0:00:34.30,Sample KM [Up],,0,0,0,karaoke,{\kf108}Nils {\k74}Hol{\k43}ger{\kf132}sson
+Comment: 0,0:00:35.30,0:00:38.50,Sample KM [Up],,0,0,0,karaoke,{\k53}Fliegt {\k29}mit {\k40}den {\k38}Gän{\k36}sen {\k44}da{\k80}von
+Dialogue: 0,0:00:20.54,0:00:25.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf112}Nils {\k72}Hol{\k47}ger{\kf154}sson
+Dialogue: 0,0:00:29.83,0:00:34.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf108}Nils {\k74}Hol{\k43}ger{\kf132}sson
+Dialogue: 0,0:00:34.40,0:00:38.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Fliegt {\k29}mit {\k40}den {\k38}Gän{\k36}sen {\k44}da{\k80}von
