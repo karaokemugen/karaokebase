@@ -1,0 +1,541 @@
+﻿[Script Info]
+Title: Mutekiteki Happiness!
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Editing: Louis Royer
+Synch Point: Louis Royer
+Original Timing: Louis Royer
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Choir-furigana,Kosugi Maru,12,&H00FFFFFF,&H0057C573,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0.75,0,8,2,2,20,1
+Style: Yuki Nagato-furigana,Kosugi Maru,12,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0.75,0,8,2,2,20,1
+Style: Mikuru Asahina-furigana,Kosugi Maru,12,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0.75,0,8,2,2,20,1
+Style: Itsuki Koizumi-furigana,Kosugi Maru,12,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0.75,0,8,2,2,20,1
+Style: Kyon-furigana,Kosugi Maru,12,&H00FFFFFF,&H000DC8D9,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0.75,0,8,2,2,20,1
+Style: Haruhi Suzumiya-furigana,Kosugi Maru,12,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0.75,0,8,2,2,20,1
+Style: Haruhi Suzumiya,Kosugi Maru,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kyon,Kosugi Maru,24,&H00FFFFFF,&H000DC8D9,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Itsuki Koizumi,Kosugi Maru,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mikuru Asahina,Kosugi Maru,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Yuki Nagato,Kosugi Maru,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Choir,Kosugi Maru,24,&H00FFFFFF,&H0057C573,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Haruhi Suzumiya,,0,0,0,template syl furi all,!retime("line",$lstart < 900 and -$lstart or -900,200)!{\fade(!$lstart < 900 and $lstart or 300!,200)\an5\pos(!line.left+syl.center!,!$middle+offset()!)\k!$start/10+($lstart < 900 and $lstart or 900)/10!\!syl.tag!$skdur}
+Comment: 0,0:00:00.00,0:00:00.00,Haruhi Suzumiya,,0,0,0,code once,lineOffset=60 -- vertical offset between lines with different vertical margins value
+Comment: 0,0:00:00.00,0:00:00.00,Haruhi Suzumiya,,0,0,0,code once,function offset() return _G.tonumber(line.margin_t)*lineOffset end
+Dialogue: 0,0:00:00.00,0:00:05.00,Haruhi Suzumiya,,0,0,0,style,{\an5\k500\\k0\pos(325,120)}涼宮 ハルヒ
+Dialogue: 0,0:00:00.00,0:00:05.00,Haruhi Suzumiya-furigana,,0,0,0,style,{\an5\k500\\k0\pos(295,100)}すずみや
+Dialogue: 0,0:00:00.00,0:00:05.00,Mikuru Asahina,,0,0,0,style,{\an5\k500\\k0\pos(318,170)}朝比奈 みくる
+Dialogue: 0,0:00:00.00,0:00:05.00,Mikuru Asahina-furigana,,0,0,0,style,{\an5\k500\\k0\pos(285,150)}あさひな
+Dialogue: 0,0:00:00.00,0:00:05.00,Yuki Nagato,,0,0,0,style,{\an5\k500\\k0\pos(335,220)}長門 有希
+Dialogue: 0,0:00:00.00,0:00:05.00,Yuki Nagato-furigana,,0,0,0,style,{\\an5\k500\\k0\pos(315,200)}ながと
+Dialogue: 0,0:00:00.00,0:00:05.00,Yuki Nagato-furigana,,0,0,0,style,{\an5\k500\\k0\pos(357,200)}ゆき
+Dialogue: 0,0:00:00.00,0:00:05.00,Choir,,0,0,0,style,{\an5\k500\\k0\pos(25,120)}合唱
+Dialogue: 0,0:00:00.00,0:00:05.00,Choir-furigana,,0,0,0,style,{\an5\k500\\k0\pos(31,100)}がっしょう
+Dialogue: 0,0:00:00.00,0:00:05.00,Kyon,,0,0,0,style,{\an5\k500\\k0\pos(35,170)}キョン
+Dialogue: 0,0:00:00.00,0:00:05.00,Itsuki Koizumi,,0,0,0,style,{\an5\k500\\k0\pos(48,220)}古泉 一樹
+Dialogue: 0,0:00:00.00,0:00:05.00,Itsuki Koizumi-furigana,,0,0,0,style,{\an5\k500\\k0\pos(70,200)}こいずみ
+Dialogue: 0,0:00:00.00,0:00:05.00,Itsuki Koizumi-furigana,,0,0,0,style,{\an5\k500\\k0\pos(25,200)}いつき
+Comment: 0,0:00:02.88,0:00:04.92,Haruhi Suzumiya,,0,0,0,karaoke,{\k20}待|ま{\k17}た{\k17}せ{\k32}ちゃっ{\k32}た？ {\k31}行|い{\k17}く{\k17}わ{\k21}よ！
+Comment: 0,0:00:05.83,0:00:08.09,Haruhi Suzumiya,,0,0,1,karaoke,{\k29}Pa-|パ{\k22}Pa-|!パ{\k31}La|!ラ{\k0} {\k33}天|あっ{\k16}晴|ぱ{\k17}れ{\k14}な {\k33}Dan|ダン{\k31}cing|シング
+Comment: 0,0:00:05.83,0:00:08.09,Kyon,,0,0,3,karaoke,{\k29}Pa-|パ{\k22}Pa-|!パ{\k31}La|!ラ{\k0} {\k33}天|あっ{\k16}晴|ぱ{\k17}れ{\k14}な {\k33}Dan|ダン{\k31}cing|シング
+Comment: 0,0:00:08.43,0:00:10.63,Haruhi Suzumiya,,0,0,0,karaoke,{\k31}Pa-|パ{\k14}Pa-|!パ{\k19}La|!ラ{\k0} {\k20}踊|お{\k14}#|ど{\k13}り{\k0}出|だ{\k19}し{\k17}た{\k17}ら {\k23}Star|スター{\k0}t|ト{\k24}!!
+Comment: 0,0:00:08.43,0:00:10.63,Kyon,,0,0,2,karaoke,{\k31}Pa-|パ{\k14}Pa-|!パ{\k19}La|!ラ{\k0} {\k20}踊|お{\k14}#|ど{\k13}り{\k0}出|だ{\k19}し{\k17}た{\k17}ら {\k23}Star|スター{\k0}t|ト{\k24}!!
+Comment: 0,0:00:10.70,0:00:12.72,Haruhi Suzumiya,,0,0,1,karaoke,{\k15}出|で{\k18}会|あ{\k17}い{\k31}なん{\k31}て{\k34}後|あ{\k16}#|と{\k17}か{\k23}ら
+Comment: 0,0:00:12.82,0:00:13.94,Haruhi Suzumiya,,0,120,0,karaoke,{\k17}そ{\k16}の{\k31}意|い{\k16}味|み{\k32}が
+Comment: 0,0:00:13.79,0:00:14.39,Yuki Nagato,,120,0,0,karaoke,{\k32}解と{\k15}け{\k13}て
+Comment: 0,0:00:14.40,0:00:15.41,Haruhi Suzumiya,,0,120,1,karaoke,{\k37}く{\k14}る{\k16}か{\k34}も
+Comment: 0,0:00:15.19,0:00:15.87,Mikuru Asahina,,120,0,1,karaoke,{\k23}く{\k15}る{\k15}か{\k15}ら
+Comment: 0,0:00:15.55,0:00:16.30,Kyon,,0,0,2,karaoke,{\k12}解|と{\k8}け{\k12}なく{\k12}て{\k8}いい{\k9}か{\k14}ら
+Comment: 0,0:00:15.87,0:00:17.91,Haruhi Suzumiya,,0,0,0,karaoke,{\k19}今|い{\k16}#|ま{\k17}は{\k32}もっ{\k32}と{\k32}大|お{\k15}#|お{\k18}き{\k23}な
+Comment: 0,0:00:18.00,0:00:18.76,Haruhi Suzumiya,,0,120,1,karaoke,{\k16}謎|な{\k18}#|ぞ{\k42}を
+Comment: 0,0:00:18.64,0:00:19.32,Yuki Nagato,,120,0,1,karaoke,{\k17}こ{\k18}こ{\k33}で
+Comment: 0,0:00:20.12,0:00:21.08,Itsuki Koizumi,,0,150,2,karaoke,{\k7}僕|ぼ{\k7}#|く{\k14}は{\k11}か{\k8}ま{\k6}い{\k9}ま{\k20}せん{\k14}よ
+Comment: 0,0:00:21.25,0:00:21.93,Kyon,,160,0,2,karaoke,{\k7}お{\k6}前|ま{\k9}#|え{\k11}は{\k9}だ{\k12}ま{\k14}れ！
+Comment: 0,0:00:19.32,0:00:20.29,Haruhi Suzumiya,,0,120,0,karaoke,{\k15}探|さ{\k17}#|が{\k65}そう
+Comment: 0,0:00:19.94,0:00:20.40,Mikuru Asahina,,120,0,0,karaoke,{\k13}君|き{\k20}#|み{\k13}と
+Comment: 0,0:00:20.43,0:00:21.70,Yuki Nagato,,0,0,1,karaoke,{\k15}突|と{\k17}#|つ{\k17}然|ぜ{\k17}#|ん{\k50}だっ{\k11}て？
+Comment: 0,0:00:21.73,0:00:24.66,Yuki Nagato,,0,0,0,karaoke,{\k49}そん{\k18}な{\k47}の{\k16}気|き{\k16}に{\k18}す{\k16}る{\k13}の{\k50}ヘン{\k18}じゃ{\k32}ない？
+Comment: 0,0:00:24.79,0:00:26.21,Mikuru Asahina,,0,0,1,karaoke,{\k17}心|こ{\k48}#|こ{\k20}#|ろ{\k15}の{\k15}ま{\k16}ま{\k11}に
+Comment: 0,0:00:26.27,0:00:28.30,Mikuru Asahina,,0,0,0,karaoke,{\k15}な{\k18}ん{\k14}で{\k33}も {\k16}やっ{\k17}ちゃ{\k32}おう{\k18}やっ{\k16}ちゃ{\k24}え
+Comment: 0,0:00:28.38,0:00:30.87,Haruhi Suzumiya,,0,0,1,karaoke,{\k17}そ{\k17}れ{\k32}が{\k16}永|えい{\k15}遠|えん{\k18}不|ふ{\k31}変|へん{\k17}の {\k30}My|マイ{\k0} {\k18}r|ル{\k38}ule|ール
+Comment: 0,0:00:31.12,0:00:32.42,Haruhi Suzumiya,,0,0,0,karaoke,{\k19}楽|た{\k31}#|の{\k15}し{\k17}く{\k17}な{\k31}れ
+Comment: 0,0:00:32.23,0:00:32.74,Choir,,0,120,2,karaoke,{\k21}ハッ{\k30}ピー
+Comment: 0,0:00:32.58,0:00:33.69,Haruhi Suzumiya,,0,0,1,karaoke,{\k34}世|せ{\k16}界|か{\k14}#|い{\k20}中|じゅ{\k27}#|う
+Comment: 0,0:00:33.53,0:00:34.00,Choir,,120,0,2,karaoke,{\k19}ハッ{\k28}ピー
+Comment: 0,0:00:33.87,0:00:35.97,Haruhi Suzumiya,,0,0,0,karaoke,{\k36}無|む{\k13}敵|て{\k19}#|き{\k16}の {\k33}Ha|ハ{\k15}ppi|ピ{\k78}ness|ネス
+Comment: 0,0:00:35.28,0:00:36.47,Choir,,0,0,2,karaoke,{\k23}ハ{\k17}ピ{\k33}ネス {\k46}ワオ！
+Comment: 0,0:00:36.16,0:00:38.73,Haruhi Suzumiya,,0,0,1,karaoke,{\k18}海|う{\k16}#|み{\k31}を{\k17}空|そ{\k17}#|ら{\k48}を{\k14}駆|か{\k34}け{\k18}巡|め{\k16}#|ぐ{\k28}り
+Comment: 0,0:00:38.90,0:00:41.28,Haruhi Suzumiya,,0,0,0,karaoke,{\k19}ユ{\k33}メ{\k15}の{\k16}か{\k33}け{\k17}ら{\k12}集|あ{\k36}#|つ{\k15}め{\k18}た{\k24}ら
+Comment: 0,0:00:41.51,0:00:42.78,Haruhi Suzumiya,,0,0,1,karaoke,{\k18}楽|た{\k31}#|の{\k15}し{\k18}い{\k14}で{\k31}しょ
+Comment: 0,0:00:42.64,0:00:43.06,Choir,,0,120,2,karaoke,{\k16}ハッ{\k26}ピー
+Comment: 0,0:00:42.97,0:00:44.07,Haruhi Suzumiya,,0,0,0,karaoke,{\k32}世|せ{\k16}界|か{\k14}#|い{\k18}中|じゅ{\k30}#|う
+Comment: 0,0:00:43.94,0:00:44.41,Choir,,120,0,2,karaoke,{\k18}ハッ{\k29}ピー
+Comment: 0,0:00:44.27,0:00:46.40,Haruhi Suzumiya,,0,0,1,karaoke,{\k33}無|む{\k9}敵|て{\k8}#|き{\k15}的|て{\k14}#|き{\k35}ハ{\k16}ピ{\k83}ネス！
+Comment: 0,0:00:45.69,0:00:46.85,Choir,,0,0,2,karaoke,{\k21}ハ{\k17}ピ{\k36}ネス {\k42}イエーイ！
+Comment: 0,0:00:46.53,0:00:50.86,Haruhi Suzumiya,,0,0,0,karaoke,{\k16}冒|ぼ{\k18}#|う{\k31}険|けん{\k17}こ{\k18}そ{\k32}が{\k14}生|い{\k18}き{\k32}るっ{\k16}て{\k16}こ{\k32}と{\k17}じゃ{\k15}な{\kf141}い？
+Comment: 0,0:00:49.95,0:00:50.91,Choir,,0,0,2,karaoke,{\k12}無|む{\k9}敵|て{\k11}#|き{\k16}的|!て{\k0}#|き{\k18}？{\k14}的|て{\k0}#|き{\k16}！
+Comment: 0,0:00:51.08,0:00:54.49,Haruhi Suzumiya,,0,0,1,karaoke,{\k17}なん{\k17}で{\k13}も{\k27}あ{\k23}り{\k17}で{\kf227}しょ
+Comment: 0,0:00:54.79,0:00:56.95,Haruhi Suzumiya,,0,0,0,karaoke,{\k19}考|かん{\k11}#|が{\k8}え{\k14}る{\k16}前|ま{\k15}#|え{\k32}に{\k30}行|い{\k21}く{\k14}わ{\k36}よ！
+Comment: 0,0:00:57.72,0:01:00.01,Haruhi Suzumiya,,0,0,1,karaoke,{\k34}Pa-|パ{\k16}Pa-|!パ{\k32}La|!ラ{\k0} {\k33}天|あっ{\k16}晴|ぱ{\k17}れ{\k15}な {\k32}Dan|ダン{\k34}cing|シング
+Comment: 0,0:01:00.33,0:01:02.82,Haruhi Suzumiya,,0,0,0,karaoke,{\k33}Pa-|パ{\k13}Pa-|!パ{\k18}La|!ラ{\k0} {\k17}踊|お{\k16}#|ど{\k16}り{\k0}出|だ{\k16}し{\k16}ちゃ{\k17}い{\k27}な {\k0}Hi|ハイ{\k60}!
+Dialogue: 0,0:00:01.98,0:00:05.12,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(70.5,32)\k90\0}
+Dialogue: 0,0:00:01.98,0:00:05.12,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(79.5,32)\k90\\k20}待
+Dialogue: 0,0:00:01.98,0:00:05.12,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(97.5,32)\k110\\k17}た
+Dialogue: 0,0:00:01.98,0:00:05.12,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(115.5,32)\k127\\k17}せ
+Dialogue: 0,0:00:01.98,0:00:05.12,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(151.5,32)\k144\\k32}ちゃっ
+Dialogue: 0,0:00:01.98,0:00:05.12,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(196.5,32)\k176\\k32}た？
+Dialogue: 0,0:00:01.98,0:00:05.12,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(232.5,32)\k208\\k31}行
+Dialogue: 0,0:00:01.98,0:00:05.12,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(250.5,32)\k239\\k17}く
+Dialogue: 0,0:00:01.98,0:00:05.12,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(268.5,32)\k256\\k17}わ
+Dialogue: 0,0:00:01.98,0:00:05.12,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(295.5,32)\k273\\k21}よ！
+Dialogue: 0,0:00:01.98,0:00:05.12,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(79.5,14)\k90\\k20}ま
+Dialogue: 0,0:00:01.98,0:00:05.12,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(232.5,14)\k208\\k31}い
+Dialogue: 0,0:00:04.93,0:00:08.29,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(79.5,73)\k90\0}
+Dialogue: 0,0:00:04.93,0:00:08.29,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(93,73)\k90\\k29}Pa-
+Dialogue: 0,0:00:04.93,0:00:08.29,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(120,73)\k119\\k22}Pa-
+Dialogue: 0,0:00:04.93,0:00:08.29,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(142.5,73)\k141\\k31}La
+Dialogue: 0,0:00:04.93,0:00:08.29,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(160.5,73)\k172\\k0}
+Dialogue: 0,0:00:04.93,0:00:08.29,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(169.5,73)\k172\\k33}天
+Dialogue: 0,0:00:04.93,0:00:08.29,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(187.5,73)\k205\\k16}晴
+Dialogue: 0,0:00:04.93,0:00:08.29,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(205.5,73)\k221\\k17}れ
+Dialogue: 0,0:00:04.93,0:00:08.29,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(223.5,73)\k238\\k14}な
+Dialogue: 0,0:00:04.93,0:00:08.29,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(255,73)\k252\\k33}Dan
+Dialogue: 0,0:00:04.93,0:00:08.29,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(286.5,73)\k285\\k31}cing
+Dialogue: 0,0:00:04.93,0:00:08.29,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(93,55)\k90\\k29}パ
+Dialogue: 0,0:00:04.93,0:00:08.29,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(120,55)\k119\\k22}パ
+Dialogue: 0,0:00:04.93,0:00:08.29,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(142.5,55)\k141\\k31}ラ
+Dialogue: 0,0:00:04.93,0:00:08.29,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(174,55)\k172\\k33}あっ
+Dialogue: 0,0:00:04.93,0:00:08.29,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(187.5,55)\k205\\k16}ぱ
+Dialogue: 0,0:00:04.93,0:00:08.29,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(259.5,55)\k252\\k33}ダン
+Dialogue: 0,0:00:04.93,0:00:08.29,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(282,55)\k285\\k31}シング
+Dialogue: 0,0:00:04.93,0:00:08.29,Kyon,,0,0,3,fx,{\fade(300,200)\an5\pos(79.5,195)\k90\0}
+Dialogue: 0,0:00:04.93,0:00:08.29,Kyon,,0,0,3,fx,{\fade(300,200)\an5\pos(93,195)\k90\\k29}Pa-
+Dialogue: 0,0:00:04.93,0:00:08.29,Kyon,,0,0,3,fx,{\fade(300,200)\an5\pos(120,195)\k119\\k22}Pa-
+Dialogue: 0,0:00:04.93,0:00:08.29,Kyon,,0,0,3,fx,{\fade(300,200)\an5\pos(142.5,195)\k141\\k31}La
+Dialogue: 0,0:00:04.93,0:00:08.29,Kyon,,0,0,3,fx,{\fade(300,200)\an5\pos(160.5,195)\k172\\k0}
+Dialogue: 0,0:00:04.93,0:00:08.29,Kyon,,0,0,3,fx,{\fade(300,200)\an5\pos(169.5,195)\k172\\k33}天
+Dialogue: 0,0:00:04.93,0:00:08.29,Kyon,,0,0,3,fx,{\fade(300,200)\an5\pos(187.5,195)\k205\\k16}晴
+Dialogue: 0,0:00:04.93,0:00:08.29,Kyon,,0,0,3,fx,{\fade(300,200)\an5\pos(205.5,195)\k221\\k17}れ
+Dialogue: 0,0:00:04.93,0:00:08.29,Kyon,,0,0,3,fx,{\fade(300,200)\an5\pos(223.5,195)\k238\\k14}な
+Dialogue: 0,0:00:04.93,0:00:08.29,Kyon,,0,0,3,fx,{\fade(300,200)\an5\pos(255,195)\k252\\k33}Dan
+Dialogue: 0,0:00:04.93,0:00:08.29,Kyon,,0,0,3,fx,{\fade(300,200)\an5\pos(286.5,195)\k285\\k31}cing
+Dialogue: 0,0:00:04.93,0:00:08.29,Kyon-furigana,,0,0,3,fx,{\fade(300,200)\an5\pos(93,177)\k90\\k29}パ
+Dialogue: 0,0:00:04.93,0:00:08.29,Kyon-furigana,,0,0,3,fx,{\fade(300,200)\an5\pos(120,177)\k119\\k22}パ
+Dialogue: 0,0:00:04.93,0:00:08.29,Kyon-furigana,,0,0,3,fx,{\fade(300,200)\an5\pos(142.5,177)\k141\\k31}ラ
+Dialogue: 0,0:00:04.93,0:00:08.29,Kyon-furigana,,0,0,3,fx,{\fade(300,200)\an5\pos(174,177)\k172\\k33}あっ
+Dialogue: 0,0:00:04.93,0:00:08.29,Kyon-furigana,,0,0,3,fx,{\fade(300,200)\an5\pos(187.5,177)\k205\\k16}ぱ
+Dialogue: 0,0:00:04.93,0:00:08.29,Kyon-furigana,,0,0,3,fx,{\fade(300,200)\an5\pos(259.5,177)\k252\\k33}ダン
+Dialogue: 0,0:00:04.93,0:00:08.29,Kyon-furigana,,0,0,3,fx,{\fade(300,200)\an5\pos(282,177)\k285\\k31}シング
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(61.5,32)\k90\0}
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(75,32)\k90\\k31}Pa-
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(102,32)\k121\\k14}Pa-
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(124.5,32)\k135\\k19}La
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(142.5,32)\k154\\k0}
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(151.5,32)\k154\\k34}踊
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(169.5,32)\k188\\k13}り
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(187.5,32)\k201\\k0}出
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(205.5,32)\k201\\k19}し
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(223.5,32)\k220\\k17}た
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(241.5,32)\k237\\k17}ら
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(277.5,32)\k254\\k23}Star
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(300,32)\k277\\k0}t
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(313.5,32)\k277\\k24}!!
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(75,14)\k90\\k31}パ
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(102,14)\k121\\k14}パ
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(124.5,14)\k135\\k19}ラ
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(147,14)\k154\\k20}お
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(156,14)\k174\\k14}ど
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(187.5,14)\k201\\k0}だ
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(277.5,14)\k254\\k23}スター
+Dialogue: 0,0:00:07.53,0:00:10.83,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(295.5,14)\k277\\k0}ト
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(61.5,134)\k90\0}
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(75,134)\k90\\k31}Pa-
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(102,134)\k121\\k14}Pa-
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(124.5,134)\k135\\k19}La
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(142.5,134)\k154\\k0}
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(151.5,134)\k154\\k34}踊
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(169.5,134)\k188\\k13}り
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(187.5,134)\k201\\k0}出
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(205.5,134)\k201\\k19}し
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(223.5,134)\k220\\k17}た
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(241.5,134)\k237\\k17}ら
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(277.5,134)\k254\\k23}Star
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(300,134)\k277\\k0}t
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(313.5,134)\k277\\k24}!!
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(75,116)\k90\\k31}パ
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(102,116)\k121\\k14}パ
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(124.5,116)\k135\\k19}ラ
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(147,116)\k154\\k20}お
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(156,116)\k174\\k14}ど
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(187.5,116)\k201\\k0}だ
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(277.5,116)\k254\\k23}スター
+Dialogue: 0,0:00:07.53,0:00:10.83,Kyon-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(295.5,116)\k277\\k0}ト
+Dialogue: 0,0:00:09.80,0:00:12.92,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(111,73)\k90\0}
+Dialogue: 0,0:00:09.80,0:00:12.92,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(120,73)\k90\\k15}出
+Dialogue: 0,0:00:09.80,0:00:12.92,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(138,73)\k105\\k18}会
+Dialogue: 0,0:00:09.80,0:00:12.92,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(156,73)\k123\\k17}い
+Dialogue: 0,0:00:09.80,0:00:12.92,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(183,73)\k140\\k31}なん
+Dialogue: 0,0:00:09.80,0:00:12.92,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(210,73)\k171\\k31}て
+Dialogue: 0,0:00:09.80,0:00:12.92,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(228,73)\k202\\k50}後
+Dialogue: 0,0:00:09.80,0:00:12.92,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(246,73)\k252\\k17}か
+Dialogue: 0,0:00:09.80,0:00:12.92,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(264,73)\k269\\k23}ら
+Dialogue: 0,0:00:09.80,0:00:12.92,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(124.5,55)\k90\\k15}で
+Dialogue: 0,0:00:09.80,0:00:12.92,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(133.5,55)\k105\\k18}あ
+Dialogue: 0,0:00:09.80,0:00:12.92,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(223.5,55)\k202\\k34}あ
+Dialogue: 0,0:00:09.80,0:00:12.92,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(232.5,55)\k236\\k16}と
+Dialogue: 0,0:00:11.92,0:00:14.14,Haruhi Suzumiya,,0,120,0,fx,{\fade(300,200)\an5\pos(88,32)\k90\0}
+Dialogue: 0,0:00:11.92,0:00:14.14,Haruhi Suzumiya,,0,120,0,fx,{\fade(300,200)\an5\pos(97,32)\k90\\k17}そ
+Dialogue: 0,0:00:11.92,0:00:14.14,Haruhi Suzumiya,,0,120,0,fx,{\fade(300,200)\an5\pos(115,32)\k107\\k16}の
+Dialogue: 0,0:00:11.92,0:00:14.14,Haruhi Suzumiya,,0,120,0,fx,{\fade(300,200)\an5\pos(133,32)\k123\\k31}意
+Dialogue: 0,0:00:11.92,0:00:14.14,Haruhi Suzumiya,,0,120,0,fx,{\fade(300,200)\an5\pos(151,32)\k154\\k16}味
+Dialogue: 0,0:00:11.92,0:00:14.14,Haruhi Suzumiya,,0,120,0,fx,{\fade(300,200)\an5\pos(169,32)\k170\\k32}が
+Dialogue: 0,0:00:11.92,0:00:14.14,Haruhi Suzumiya-furigana,,0,120,0,fx,{\fade(300,200)\an5\pos(137.5,14)\k123\\k31}い
+Dialogue: 0,0:00:11.92,0:00:14.14,Haruhi Suzumiya-furigana,,0,120,0,fx,{\fade(300,200)\an5\pos(146.5,14)\k154\\k16}み
+Dialogue: 0,0:00:12.89,0:00:14.59,Yuki Nagato,,120,0,0,fx,{\fade(300,200)\an5\pos(215,32)\k90\0}
+Dialogue: 0,0:00:12.89,0:00:14.59,Yuki Nagato,,120,0,0,fx,{\fade(300,200)\an5\pos(233,32)\k90\\k32}解と
+Dialogue: 0,0:00:12.89,0:00:14.59,Yuki Nagato,,120,0,0,fx,{\fade(300,200)\an5\pos(260,32)\k122\\k15}け
+Dialogue: 0,0:00:12.89,0:00:14.59,Yuki Nagato,,120,0,0,fx,{\fade(300,200)\an5\pos(278,32)\k137\\k13}て
+Dialogue: 0,0:00:13.50,0:00:15.61,Haruhi Suzumiya,,0,120,1,fx,{\fade(300,200)\an5\pos(97,73)\k90\0}
+Dialogue: 0,0:00:13.50,0:00:15.61,Haruhi Suzumiya,,0,120,1,fx,{\fade(300,200)\an5\pos(106,73)\k90\\k37}く
+Dialogue: 0,0:00:13.50,0:00:15.61,Haruhi Suzumiya,,0,120,1,fx,{\fade(300,200)\an5\pos(124,73)\k127\\k14}る
+Dialogue: 0,0:00:13.50,0:00:15.61,Haruhi Suzumiya,,0,120,1,fx,{\fade(300,200)\an5\pos(142,73)\k141\\k16}か
+Dialogue: 0,0:00:13.50,0:00:15.61,Haruhi Suzumiya,,0,120,1,fx,{\fade(300,200)\an5\pos(160,73)\k157\\k34}も
+Dialogue: 0,0:00:14.29,0:00:16.07,Mikuru Asahina,,120,0,1,fx,{\fade(300,200)\an5\pos(215,73)\k90\0}
+Dialogue: 0,0:00:14.29,0:00:16.07,Mikuru Asahina,,120,0,1,fx,{\fade(300,200)\an5\pos(224,73)\k90\\k23}く
+Dialogue: 0,0:00:14.29,0:00:16.07,Mikuru Asahina,,120,0,1,fx,{\fade(300,200)\an5\pos(242,73)\k113\\k15}る
+Dialogue: 0,0:00:14.29,0:00:16.07,Mikuru Asahina,,120,0,1,fx,{\fade(300,200)\an5\pos(260,73)\k128\\k15}か
+Dialogue: 0,0:00:14.29,0:00:16.07,Mikuru Asahina,,120,0,1,fx,{\fade(300,200)\an5\pos(278,73)\k143\\k15}ら
+Dialogue: 0,0:00:14.65,0:00:16.50,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(111,134)\k90\0}
+Dialogue: 0,0:00:14.65,0:00:16.50,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(120,134)\k90\\k12}解
+Dialogue: 0,0:00:14.65,0:00:16.50,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(138,134)\k102\\k8}け
+Dialogue: 0,0:00:14.65,0:00:16.50,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(165,134)\k110\\k12}なく
+Dialogue: 0,0:00:14.65,0:00:16.50,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(192,134)\k122\\k12}て
+Dialogue: 0,0:00:14.65,0:00:16.50,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(219,134)\k134\\k8}いい
+Dialogue: 0,0:00:14.65,0:00:16.50,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(246,134)\k142\\k9}か
+Dialogue: 0,0:00:14.65,0:00:16.50,Kyon,,0,0,2,fx,{\fade(300,200)\an5\pos(264,134)\k151\\k14}ら
+Dialogue: 0,0:00:14.65,0:00:16.50,Kyon-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(120,116)\k90\\k12}と
+Dialogue: 0,0:00:14.97,0:00:18.11,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(120,32)\k90\0}
+Dialogue: 0,0:00:14.97,0:00:18.11,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(129,32)\k90\\k35}今
+Dialogue: 0,0:00:14.97,0:00:18.11,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(147,32)\k125\\k17}は
+Dialogue: 0,0:00:14.97,0:00:18.11,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(174,32)\k142\\k32}もっ
+Dialogue: 0,0:00:14.97,0:00:18.11,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(201,32)\k174\\k32}と
+Dialogue: 0,0:00:14.97,0:00:18.11,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(219,32)\k206\\k47}大
+Dialogue: 0,0:00:14.97,0:00:18.11,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(237,32)\k253\\k18}き
+Dialogue: 0,0:00:14.97,0:00:18.11,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(255,32)\k271\\k23}な
+Dialogue: 0,0:00:14.97,0:00:18.11,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(124.5,14)\k90\\k19}い
+Dialogue: 0,0:00:14.97,0:00:18.11,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(133.5,14)\k109\\k16}ま
+Dialogue: 0,0:00:14.97,0:00:18.11,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.5,14)\k206\\k32}お
+Dialogue: 0,0:00:14.97,0:00:18.11,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(223.5,14)\k238\\k15}お
+Dialogue: 0,0:00:17.10,0:00:18.96,Haruhi Suzumiya,,0,120,1,fx,{\fade(300,200)\an5\pos(115,73)\k90\0}
+Dialogue: 0,0:00:17.10,0:00:18.96,Haruhi Suzumiya,,0,120,1,fx,{\fade(300,200)\an5\pos(124,73)\k90\\k34}謎
+Dialogue: 0,0:00:17.10,0:00:18.96,Haruhi Suzumiya,,0,120,1,fx,{\fade(300,200)\an5\pos(142,73)\k124\\k42}を
+Dialogue: 0,0:00:17.10,0:00:18.96,Haruhi Suzumiya-furigana,,0,120,1,fx,{\fade(300,200)\an5\pos(119.5,55)\k90\\k16}な
+Dialogue: 0,0:00:17.10,0:00:18.96,Haruhi Suzumiya-furigana,,0,120,1,fx,{\fade(300,200)\an5\pos(128.5,55)\k106\\k18}ぞ
+Dialogue: 0,0:00:17.74,0:00:19.52,Yuki Nagato,,120,0,1,fx,{\fade(300,200)\an5\pos(224,73)\k90\0}
+Dialogue: 0,0:00:17.74,0:00:19.52,Yuki Nagato,,120,0,1,fx,{\fade(300,200)\an5\pos(233,73)\k90\\k17}こ
+Dialogue: 0,0:00:17.74,0:00:19.52,Yuki Nagato,,120,0,1,fx,{\fade(300,200)\an5\pos(251,73)\k107\\k18}こ
+Dialogue: 0,0:00:17.74,0:00:19.52,Yuki Nagato,,120,0,1,fx,{\fade(300,200)\an5\pos(269,73)\k125\\k33}で
+Dialogue: 0,0:00:19.22,0:00:21.28,Itsuki Koizumi,,0,150,2,fx,{\fade(300,200)\an5\pos(37,134)\k90\0}
+Dialogue: 0,0:00:19.22,0:00:21.28,Itsuki Koizumi,,0,150,2,fx,{\fade(300,200)\an5\pos(46,134)\k90\\k14}僕
+Dialogue: 0,0:00:19.22,0:00:21.28,Itsuki Koizumi,,0,150,2,fx,{\fade(300,200)\an5\pos(64,134)\k104\\k14}は
+Dialogue: 0,0:00:19.22,0:00:21.28,Itsuki Koizumi,,0,150,2,fx,{\fade(300,200)\an5\pos(82,134)\k118\\k11}か
+Dialogue: 0,0:00:19.22,0:00:21.28,Itsuki Koizumi,,0,150,2,fx,{\fade(300,200)\an5\pos(100,134)\k129\\k8}ま
+Dialogue: 0,0:00:19.22,0:00:21.28,Itsuki Koizumi,,0,150,2,fx,{\fade(300,200)\an5\pos(118,134)\k137\\k6}い
+Dialogue: 0,0:00:19.22,0:00:21.28,Itsuki Koizumi,,0,150,2,fx,{\fade(300,200)\an5\pos(136,134)\k143\\k9}ま
+Dialogue: 0,0:00:19.22,0:00:21.28,Itsuki Koizumi,,0,150,2,fx,{\fade(300,200)\an5\pos(163,134)\k152\\k20}せん
+Dialogue: 0,0:00:19.22,0:00:21.28,Itsuki Koizumi,,0,150,2,fx,{\fade(300,200)\an5\pos(190,134)\k172\\k14}よ
+Dialogue: 0,0:00:19.22,0:00:21.28,Itsuki Koizumi-furigana,,0,150,2,fx,{\fade(300,200)\an5\pos(41.5,116)\k90\\k7}ぼ
+Dialogue: 0,0:00:19.22,0:00:21.28,Itsuki Koizumi-furigana,,0,150,2,fx,{\fade(300,200)\an5\pos(50.5,116)\k97\\k7}く
+Dialogue: 0,0:00:20.35,0:00:22.13,Kyon,,160,0,2,fx,{\fade(300,200)\an5\pos(208,134)\k90\0}
+Dialogue: 0,0:00:20.35,0:00:22.13,Kyon,,160,0,2,fx,{\fade(300,200)\an5\pos(217,134)\k90\\k7}お
+Dialogue: 0,0:00:20.35,0:00:22.13,Kyon,,160,0,2,fx,{\fade(300,200)\an5\pos(235,134)\k97\\k15}前
+Dialogue: 0,0:00:20.35,0:00:22.13,Kyon,,160,0,2,fx,{\fade(300,200)\an5\pos(253,134)\k112\\k11}は
+Dialogue: 0,0:00:20.35,0:00:22.13,Kyon,,160,0,2,fx,{\fade(300,200)\an5\pos(271,134)\k123\\k9}だ
+Dialogue: 0,0:00:20.35,0:00:22.13,Kyon,,160,0,2,fx,{\fade(300,200)\an5\pos(289,134)\k132\\k12}ま
+Dialogue: 0,0:00:20.35,0:00:22.13,Kyon,,160,0,2,fx,{\fade(300,200)\an5\pos(316,134)\k144\\k14}れ！
+Dialogue: 0,0:00:20.35,0:00:22.13,Kyon-furigana,,160,0,2,fx,{\fade(300,200)\an5\pos(230.5,116)\k97\\k6}ま
+Dialogue: 0,0:00:20.35,0:00:22.13,Kyon-furigana,,160,0,2,fx,{\fade(300,200)\an5\pos(239.5,116)\k103\\k9}え
+Dialogue: 0,0:00:18.42,0:00:20.49,Haruhi Suzumiya,,0,120,0,fx,{\fade(300,200)\an5\pos(106,32)\k90\0}
+Dialogue: 0,0:00:18.42,0:00:20.49,Haruhi Suzumiya,,0,120,0,fx,{\fade(300,200)\an5\pos(115,32)\k90\\k32}探
+Dialogue: 0,0:00:18.42,0:00:20.49,Haruhi Suzumiya,,0,120,0,fx,{\fade(300,200)\an5\pos(142,32)\k122\\k65}そう
+Dialogue: 0,0:00:18.42,0:00:20.49,Haruhi Suzumiya-furigana,,0,120,0,fx,{\fade(300,200)\an5\pos(110.5,14)\k90\\k15}さ
+Dialogue: 0,0:00:18.42,0:00:20.49,Haruhi Suzumiya-furigana,,0,120,0,fx,{\fade(300,200)\an5\pos(119.5,14)\k105\\k17}が
+Dialogue: 0,0:00:19.04,0:00:20.60,Mikuru Asahina,,120,0,0,fx,{\fade(300,200)\an5\pos(233,32)\k90\0}
+Dialogue: 0,0:00:19.04,0:00:20.60,Mikuru Asahina,,120,0,0,fx,{\fade(300,200)\an5\pos(242,32)\k90\\k33}君
+Dialogue: 0,0:00:19.04,0:00:20.60,Mikuru Asahina,,120,0,0,fx,{\fade(300,200)\an5\pos(260,32)\k123\\k13}と
+Dialogue: 0,0:00:19.04,0:00:20.60,Mikuru Asahina-furigana,,120,0,0,fx,{\fade(300,200)\an5\pos(237.5,14)\k90\\k13}き
+Dialogue: 0,0:00:19.04,0:00:20.60,Mikuru Asahina-furigana,,120,0,0,fx,{\fade(300,200)\an5\pos(246.5,14)\k103\\k20}み
+Dialogue: 0,0:00:19.53,0:00:21.90,Yuki Nagato,,0,0,1,fx,{\fade(300,200)\an5\pos(138,73)\k90\0}
+Dialogue: 0,0:00:19.53,0:00:21.90,Yuki Nagato,,0,0,1,fx,{\fade(300,200)\an5\pos(147,73)\k90\\k32}突
+Dialogue: 0,0:00:19.53,0:00:21.90,Yuki Nagato,,0,0,1,fx,{\fade(300,200)\an5\pos(165,73)\k122\\k34}然
+Dialogue: 0,0:00:19.53,0:00:21.90,Yuki Nagato,,0,0,1,fx,{\fade(300,200)\an5\pos(192,73)\k156\\k50}だっ
+Dialogue: 0,0:00:19.53,0:00:21.90,Yuki Nagato,,0,0,1,fx,{\fade(300,200)\an5\pos(228,73)\k206\\k11}て？
+Dialogue: 0,0:00:19.53,0:00:21.90,Yuki Nagato-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(142.5,55)\k90\\k15}と
+Dialogue: 0,0:00:19.53,0:00:21.90,Yuki Nagato-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(151.5,55)\k105\\k17}つ
+Dialogue: 0,0:00:19.53,0:00:21.90,Yuki Nagato-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(160.5,55)\k122\\k17}ぜ
+Dialogue: 0,0:00:19.53,0:00:21.90,Yuki Nagato-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(169.5,55)\k139\\k17}ん
+Dialogue: 0,0:00:20.83,0:00:24.86,Yuki Nagato,,0,0,0,fx,{\fade(300,200)\an5\pos(48,32)\k90\0}
+Dialogue: 0,0:00:20.83,0:00:24.86,Yuki Nagato,,0,0,0,fx,{\fade(300,200)\an5\pos(66,32)\k90\\k49}そん
+Dialogue: 0,0:00:20.83,0:00:24.86,Yuki Nagato,,0,0,0,fx,{\fade(300,200)\an5\pos(93,32)\k139\\k18}な
+Dialogue: 0,0:00:20.83,0:00:24.86,Yuki Nagato,,0,0,0,fx,{\fade(300,200)\an5\pos(111,32)\k157\\k47}の
+Dialogue: 0,0:00:20.83,0:00:24.86,Yuki Nagato,,0,0,0,fx,{\fade(300,200)\an5\pos(129,32)\k204\\k16}気
+Dialogue: 0,0:00:20.83,0:00:24.86,Yuki Nagato,,0,0,0,fx,{\fade(300,200)\an5\pos(147,32)\k220\\k16}に
+Dialogue: 0,0:00:20.83,0:00:24.86,Yuki Nagato,,0,0,0,fx,{\fade(300,200)\an5\pos(165,32)\k236\\k18}す
+Dialogue: 0,0:00:20.83,0:00:24.86,Yuki Nagato,,0,0,0,fx,{\fade(300,200)\an5\pos(183,32)\k254\\k16}る
+Dialogue: 0,0:00:20.83,0:00:24.86,Yuki Nagato,,0,0,0,fx,{\fade(300,200)\an5\pos(201,32)\k270\\k13}の
+Dialogue: 0,0:00:20.83,0:00:24.86,Yuki Nagato,,0,0,0,fx,{\fade(300,200)\an5\pos(228,32)\k283\\k50}ヘン
+Dialogue: 0,0:00:20.83,0:00:24.86,Yuki Nagato,,0,0,0,fx,{\fade(300,200)\an5\pos(264,32)\k333\\k18}じゃ
+Dialogue: 0,0:00:20.83,0:00:24.86,Yuki Nagato,,0,0,0,fx,{\fade(300,200)\an5\pos(309,32)\k351\\k32}ない？
+Dialogue: 0,0:00:20.83,0:00:24.86,Yuki Nagato-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(129,14)\k204\\k16}き
+Dialogue: 0,0:00:23.89,0:00:26.41,Mikuru Asahina,,0,0,1,fx,{\fade(300,200)\an5\pos(147,73)\k90\0}
+Dialogue: 0,0:00:23.89,0:00:26.41,Mikuru Asahina,,0,0,1,fx,{\fade(300,200)\an5\pos(156,73)\k90\\k85}心
+Dialogue: 0,0:00:23.89,0:00:26.41,Mikuru Asahina,,0,0,1,fx,{\fade(300,200)\an5\pos(174,73)\k175\\k15}の
+Dialogue: 0,0:00:23.89,0:00:26.41,Mikuru Asahina,,0,0,1,fx,{\fade(300,200)\an5\pos(192,73)\k190\\k15}ま
+Dialogue: 0,0:00:23.89,0:00:26.41,Mikuru Asahina,,0,0,1,fx,{\fade(300,200)\an5\pos(210,73)\k205\\k16}ま
+Dialogue: 0,0:00:23.89,0:00:26.41,Mikuru Asahina,,0,0,1,fx,{\fade(300,200)\an5\pos(228,73)\k221\\k11}に
+Dialogue: 0,0:00:23.89,0:00:26.41,Mikuru Asahina-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(151.5,55)\k90\\k17}こ
+Dialogue: 0,0:00:23.89,0:00:26.41,Mikuru Asahina-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(160.5,55)\k107\\k48}こ
+Dialogue: 0,0:00:23.89,0:00:26.41,Mikuru Asahina-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(169.5,55)\k155\\k20}ろ
+Dialogue: 0,0:00:25.37,0:00:28.50,Mikuru Asahina,,0,0,0,fx,{\fade(300,200)\an5\pos(52.5,32)\k90\0}
+Dialogue: 0,0:00:25.37,0:00:28.50,Mikuru Asahina,,0,0,0,fx,{\fade(300,200)\an5\pos(61.5,32)\k90\\k15}な
+Dialogue: 0,0:00:25.37,0:00:28.50,Mikuru Asahina,,0,0,0,fx,{\fade(300,200)\an5\pos(79.5,32)\k105\\k18}ん
+Dialogue: 0,0:00:25.37,0:00:28.50,Mikuru Asahina,,0,0,0,fx,{\fade(300,200)\an5\pos(97.5,32)\k123\\k14}で
+Dialogue: 0,0:00:25.37,0:00:28.50,Mikuru Asahina,,0,0,0,fx,{\fade(300,200)\an5\pos(115.5,32)\k137\\k33}も
+Dialogue: 0,0:00:25.37,0:00:28.50,Mikuru Asahina,,0,0,0,fx,{\fade(300,200)\an5\pos(151.5,32)\k170\\k16}やっ
+Dialogue: 0,0:00:25.37,0:00:28.50,Mikuru Asahina,,0,0,0,fx,{\fade(300,200)\an5\pos(187.5,32)\k186\\k17}ちゃ
+Dialogue: 0,0:00:25.37,0:00:28.50,Mikuru Asahina,,0,0,0,fx,{\fade(300,200)\an5\pos(223.5,32)\k203\\k32}おう
+Dialogue: 0,0:00:25.37,0:00:28.50,Mikuru Asahina,,0,0,0,fx,{\fade(300,200)\an5\pos(259.5,32)\k235\\k18}やっ
+Dialogue: 0,0:00:25.37,0:00:28.50,Mikuru Asahina,,0,0,0,fx,{\fade(300,200)\an5\pos(295.5,32)\k253\\k16}ちゃ
+Dialogue: 0,0:00:25.37,0:00:28.50,Mikuru Asahina,,0,0,0,fx,{\fade(300,200)\an5\pos(322.5,32)\k269\\k24}え
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(84,73)\k90\0}
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(93,73)\k90\\k17}そ
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(111,73)\k107\\k17}れ
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(129,73)\k124\\k32}が
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(147,73)\k156\\k16}永
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(165,73)\k172\\k15}遠
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(183,73)\k187\\k18}不
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(201,73)\k205\\k31}変
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(219,73)\k236\\k17}の
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(246,73)\k253\\k30}My
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(264,73)\k283\\k0}
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(268.5,73)\k283\\k18}r
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(286.5,73)\k301\\k38}ule
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(151.5,55)\k156\\k16}えい
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(169.5,55)\k172\\k15}えん
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(183,55)\k187\\k18}ふ
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(196.5,55)\k205\\k31}へん
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(246,55)\k253\\k30}マイ
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(273,55)\k283\\k18}ル
+Dialogue: 0,0:00:27.48,0:00:31.07,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(286.5,55)\k301\\k38}ール
+Dialogue: 0,0:00:30.22,0:00:32.62,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(147,32)\k90\0}
+Dialogue: 0,0:00:30.22,0:00:32.62,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(156,32)\k90\\k50}楽
+Dialogue: 0,0:00:30.22,0:00:32.62,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(174,32)\k140\\k15}し
+Dialogue: 0,0:00:30.22,0:00:32.62,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(192,32)\k155\\k17}く
+Dialogue: 0,0:00:30.22,0:00:32.62,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(210,32)\k172\\k17}な
+Dialogue: 0,0:00:30.22,0:00:32.62,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(228,32)\k189\\k31}れ
+Dialogue: 0,0:00:30.22,0:00:32.62,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(151.5,14)\k90\\k19}た
+Dialogue: 0,0:00:30.22,0:00:32.62,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(160.5,14)\k109\\k31}の
+Dialogue: 0,0:00:31.33,0:00:32.94,Choir,,0,120,2,fx,{\fade(300,200)\an5\pos(97,134)\k90\0}
+Dialogue: 0,0:00:31.33,0:00:32.94,Choir,,0,120,2,fx,{\fade(300,200)\an5\pos(115,134)\k90\\k21}ハッ
+Dialogue: 0,0:00:31.33,0:00:32.94,Choir,,0,120,2,fx,{\fade(300,200)\an5\pos(151,134)\k111\\k30}ピー
+Dialogue: 0,0:00:31.68,0:00:33.89,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(165,73)\k90\0}
+Dialogue: 0,0:00:31.68,0:00:33.89,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(174,73)\k90\\k34}世
+Dialogue: 0,0:00:31.68,0:00:33.89,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(192,73)\k124\\k30}界
+Dialogue: 0,0:00:31.68,0:00:33.89,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(210,73)\k154\\k47}中
+Dialogue: 0,0:00:31.68,0:00:33.89,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(169.5,55)\k90\\k34}せ
+Dialogue: 0,0:00:31.68,0:00:33.89,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(178.5,55)\k124\\k16}か
+Dialogue: 0,0:00:31.68,0:00:33.89,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(187.5,55)\k140\\k14}い
+Dialogue: 0,0:00:31.68,0:00:33.89,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(201,55)\k154\\k20}じゅ
+Dialogue: 0,0:00:31.68,0:00:33.89,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(214.5,55)\k174\\k27}う
+Dialogue: 0,0:00:32.63,0:00:34.20,Choir,,120,0,2,fx,{\fade(300,200)\an5\pos(215,134)\k90\0}
+Dialogue: 0,0:00:32.63,0:00:34.20,Choir,,120,0,2,fx,{\fade(300,200)\an5\pos(233,134)\k90\\k19}ハッ
+Dialogue: 0,0:00:32.63,0:00:34.20,Choir,,120,0,2,fx,{\fade(300,200)\an5\pos(269,134)\k109\\k28}ピー
+Dialogue: 0,0:00:32.97,0:00:36.17,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(120,32)\k90\0}
+Dialogue: 0,0:00:32.97,0:00:36.17,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(129,32)\k90\\k36}無
+Dialogue: 0,0:00:32.97,0:00:36.17,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(147,32)\k126\\k32}敵
+Dialogue: 0,0:00:32.97,0:00:36.17,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(165,32)\k158\\k16}の
+Dialogue: 0,0:00:32.97,0:00:36.17,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(192,32)\k174\\k33}Ha
+Dialogue: 0,0:00:32.97,0:00:36.17,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(214.5,32)\k207\\k15}ppi
+Dialogue: 0,0:00:32.97,0:00:36.17,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(246,32)\k222\\k78}ness
+Dialogue: 0,0:00:32.97,0:00:36.17,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(129,14)\k90\\k36}む
+Dialogue: 0,0:00:32.97,0:00:36.17,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(138,14)\k126\\k13}て
+Dialogue: 0,0:00:32.97,0:00:36.17,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(147,14)\k139\\k19}き
+Dialogue: 0,0:00:32.97,0:00:36.17,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(210,14)\k174\\k33}ハ
+Dialogue: 0,0:00:32.97,0:00:36.17,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(219,14)\k207\\k15}ピ
+Dialogue: 0,0:00:32.97,0:00:36.17,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(232.5,14)\k222\\k78}ネス
+Dialogue: 0,0:00:34.38,0:00:36.67,Choir,,0,0,2,fx,{\fade(300,200)\an5\pos(124.5,134)\k90\0}
+Dialogue: 0,0:00:34.38,0:00:36.67,Choir,,0,0,2,fx,{\fade(300,200)\an5\pos(133.5,134)\k90\\k23}ハ
+Dialogue: 0,0:00:34.38,0:00:36.67,Choir,,0,0,2,fx,{\fade(300,200)\an5\pos(151.5,134)\k113\\k17}ピ
+Dialogue: 0,0:00:34.38,0:00:36.67,Choir,,0,0,2,fx,{\fade(300,200)\an5\pos(178.5,134)\k130\\k33}ネス
+Dialogue: 0,0:00:34.38,0:00:36.67,Choir,,0,0,2,fx,{\fade(300,200)\an5\pos(232.5,134)\k163\\k46}ワオ！
+Dialogue: 0,0:00:35.26,0:00:38.93,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(120,73)\k90\0}
+Dialogue: 0,0:00:35.26,0:00:38.93,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(129,73)\k90\\k34}海
+Dialogue: 0,0:00:35.26,0:00:38.93,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(147,73)\k124\\k31}を
+Dialogue: 0,0:00:35.26,0:00:38.93,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(165,73)\k155\\k34}空
+Dialogue: 0,0:00:35.26,0:00:38.93,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(183,73)\k189\\k48}を
+Dialogue: 0,0:00:35.26,0:00:38.93,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(201,73)\k237\\k14}駆
+Dialogue: 0,0:00:35.26,0:00:38.93,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(219,73)\k251\\k34}け
+Dialogue: 0,0:00:35.26,0:00:38.93,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(237,73)\k285\\k34}巡
+Dialogue: 0,0:00:35.26,0:00:38.93,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(255,73)\k319\\k28}り
+Dialogue: 0,0:00:35.26,0:00:38.93,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(124.5,55)\k90\\k18}う
+Dialogue: 0,0:00:35.26,0:00:38.93,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(133.5,55)\k108\\k16}み
+Dialogue: 0,0:00:35.26,0:00:38.93,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(160.5,55)\k155\\k17}そ
+Dialogue: 0,0:00:35.26,0:00:38.93,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(169.5,55)\k172\\k17}ら
+Dialogue: 0,0:00:35.26,0:00:38.93,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(201,55)\k237\\k14}か
+Dialogue: 0,0:00:35.26,0:00:38.93,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(232.5,55)\k285\\k18}め
+Dialogue: 0,0:00:35.26,0:00:38.93,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(241.5,55)\k303\\k16}ぐ
+Dialogue: 0,0:00:38.00,0:00:41.48,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(102,32)\k90\0}
+Dialogue: 0,0:00:38.00,0:00:41.48,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(111,32)\k90\\k19}ユ
+Dialogue: 0,0:00:38.00,0:00:41.48,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(129,32)\k109\\k33}メ
+Dialogue: 0,0:00:38.00,0:00:41.48,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(147,32)\k142\\k15}の
+Dialogue: 0,0:00:38.00,0:00:41.48,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(165,32)\k157\\k16}か
+Dialogue: 0,0:00:38.00,0:00:41.48,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(183,32)\k173\\k33}け
+Dialogue: 0,0:00:38.00,0:00:41.48,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(201,32)\k206\\k17}ら
+Dialogue: 0,0:00:38.00,0:00:41.48,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(219,32)\k223\\k48}集
+Dialogue: 0,0:00:38.00,0:00:41.48,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(237,32)\k271\\k15}め
+Dialogue: 0,0:00:38.00,0:00:41.48,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(255,32)\k286\\k18}た
+Dialogue: 0,0:00:38.00,0:00:41.48,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(273,32)\k304\\k24}ら
+Dialogue: 0,0:00:38.00,0:00:41.48,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.5,14)\k223\\k12}あ
+Dialogue: 0,0:00:38.00,0:00:41.48,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(223.5,14)\k235\\k36}つ
+Dialogue: 0,0:00:40.61,0:00:42.98,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(138,73)\k90\0}
+Dialogue: 0,0:00:40.61,0:00:42.98,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(147,73)\k90\\k49}楽
+Dialogue: 0,0:00:40.61,0:00:42.98,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(165,73)\k139\\k15}し
+Dialogue: 0,0:00:40.61,0:00:42.98,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(183,73)\k154\\k18}い
+Dialogue: 0,0:00:40.61,0:00:42.98,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(201,73)\k172\\k14}で
+Dialogue: 0,0:00:40.61,0:00:42.98,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(228,73)\k186\\k31}しょ
+Dialogue: 0,0:00:40.61,0:00:42.98,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(142.5,55)\k90\\k18}た
+Dialogue: 0,0:00:40.61,0:00:42.98,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(151.5,55)\k108\\k31}の
+Dialogue: 0,0:00:41.74,0:00:43.26,Choir,,0,120,2,fx,{\fade(300,200)\an5\pos(97,134)\k90\0}
+Dialogue: 0,0:00:41.74,0:00:43.26,Choir,,0,120,2,fx,{\fade(300,200)\an5\pos(115,134)\k90\\k16}ハッ
+Dialogue: 0,0:00:41.74,0:00:43.26,Choir,,0,120,2,fx,{\fade(300,200)\an5\pos(151,134)\k106\\k26}ピー
+Dialogue: 0,0:00:42.07,0:00:44.27,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(165,32)\k90\0}
+Dialogue: 0,0:00:42.07,0:00:44.27,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(174,32)\k90\\k32}世
+Dialogue: 0,0:00:42.07,0:00:44.27,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(192,32)\k122\\k30}界
+Dialogue: 0,0:00:42.07,0:00:44.27,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(210,32)\k152\\k48}中
+Dialogue: 0,0:00:42.07,0:00:44.27,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.5,14)\k90\\k32}せ
+Dialogue: 0,0:00:42.07,0:00:44.27,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(178.5,14)\k122\\k16}か
+Dialogue: 0,0:00:42.07,0:00:44.27,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(187.5,14)\k138\\k14}い
+Dialogue: 0,0:00:42.07,0:00:44.27,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(201,14)\k152\\k18}じゅ
+Dialogue: 0,0:00:42.07,0:00:44.27,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(214.5,14)\k170\\k30}う
+Dialogue: 0,0:00:43.04,0:00:44.61,Choir,,120,0,2,fx,{\fade(300,200)\an5\pos(215,134)\k90\0}
+Dialogue: 0,0:00:43.04,0:00:44.61,Choir,,120,0,2,fx,{\fade(300,200)\an5\pos(233,134)\k90\\k18}ハッ
+Dialogue: 0,0:00:43.04,0:00:44.61,Choir,,120,0,2,fx,{\fade(300,200)\an5\pos(269,134)\k108\\k29}ピー
+Dialogue: 0,0:00:43.37,0:00:46.60,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(120,73)\k90\0}
+Dialogue: 0,0:00:43.37,0:00:46.60,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(129,73)\k90\\k33}無
+Dialogue: 0,0:00:43.37,0:00:46.60,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(147,73)\k123\\k17}敵
+Dialogue: 0,0:00:43.37,0:00:46.60,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(165,73)\k140\\k29}的
+Dialogue: 0,0:00:43.37,0:00:46.60,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(183,73)\k169\\k35}ハ
+Dialogue: 0,0:00:43.37,0:00:46.60,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(201,73)\k204\\k16}ピ
+Dialogue: 0,0:00:43.37,0:00:46.60,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(237,73)\k220\\k83}ネス！
+Dialogue: 0,0:00:43.37,0:00:46.60,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(129,55)\k90\\k33}む
+Dialogue: 0,0:00:43.37,0:00:46.60,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(138,55)\k123\\k9}て
+Dialogue: 0,0:00:43.37,0:00:46.60,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(147,55)\k132\\k8}き
+Dialogue: 0,0:00:43.37,0:00:46.60,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(156,55)\k140\\k15}て
+Dialogue: 0,0:00:43.37,0:00:46.60,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(165,55)\k155\\k14}き
+Dialogue: 0,0:00:44.79,0:00:47.05,Choir,,0,0,2,fx,{\fade(300,200)\an5\pos(106.5,134)\k90\0}
+Dialogue: 0,0:00:44.79,0:00:47.05,Choir,,0,0,2,fx,{\fade(300,200)\an5\pos(115.5,134)\k90\\k21}ハ
+Dialogue: 0,0:00:44.79,0:00:47.05,Choir,,0,0,2,fx,{\fade(300,200)\an5\pos(133.5,134)\k111\\k17}ピ
+Dialogue: 0,0:00:44.79,0:00:47.05,Choir,,0,0,2,fx,{\fade(300,200)\an5\pos(160.5,134)\k128\\k36}ネス
+Dialogue: 0,0:00:44.79,0:00:47.05,Choir,,0,0,2,fx,{\fade(300,200)\an5\pos(232.5,134)\k164\\k42}イエーイ！
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(39,32)\k90\0}
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(48,32)\k90\\k34}冒
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(66,32)\k124\\k31}険
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(84,32)\k155\\k17}こ
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(102,32)\k172\\k18}そ
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(120,32)\k190\\k32}が
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(138,32)\k222\\k14}生
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(156,32)\k236\\k18}き
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(183,32)\k254\\k32}るっ
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(210,32)\k286\\k16}て
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(228,32)\k302\\k16}こ
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(246,32)\k318\\k32}と
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(273,32)\k350\\k17}じゃ
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(300,32)\k367\\k15}な
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(327,32)\k382\\kf141}い？
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(43.5,14)\k90\\k16}ぼ
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(52.5,14)\k106\\k18}う
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(66,14)\k124\\k31}けん
+Dialogue: 0,0:00:45.63,0:00:51.06,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(138,14)\k222\\k14}い
+Dialogue: 0,0:00:49.05,0:00:51.11,Choir,,0,0,2,fx,{\fade(300,200)\an5\pos(138,134)\k90\0}
+Dialogue: 0,0:00:49.05,0:00:51.11,Choir,,0,0,2,fx,{\fade(300,200)\an5\pos(147,134)\k90\\k12}無
+Dialogue: 0,0:00:49.05,0:00:51.11,Choir,,0,0,2,fx,{\fade(300,200)\an5\pos(165,134)\k102\\k20}敵
+Dialogue: 0,0:00:49.05,0:00:51.11,Choir,,0,0,2,fx,{\fade(300,200)\an5\pos(183,134)\k122\\k16}的
+Dialogue: 0,0:00:49.05,0:00:51.11,Choir,,0,0,2,fx,{\fade(300,200)\an5\pos(201,134)\k138\\k18}？
+Dialogue: 0,0:00:49.05,0:00:51.11,Choir,,0,0,2,fx,{\fade(300,200)\an5\pos(219,134)\k156\\k14}的
+Dialogue: 0,0:00:49.05,0:00:51.11,Choir,,0,0,2,fx,{\fade(300,200)\an5\pos(237,134)\k170\\k16}！
+Dialogue: 0,0:00:49.05,0:00:51.11,Choir-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(147,116)\k90\\k12}む
+Dialogue: 0,0:00:49.05,0:00:51.11,Choir-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(156,116)\k102\\k9}て
+Dialogue: 0,0:00:49.05,0:00:51.11,Choir-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(165,116)\k111\\k11}き
+Dialogue: 0,0:00:49.05,0:00:51.11,Choir-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(178.5,116)\k122\\k16}て
+Dialogue: 0,0:00:49.05,0:00:51.11,Choir-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(187.5,116)\k138\\k0}き
+Dialogue: 0,0:00:49.05,0:00:51.11,Choir-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(214.5,116)\k156\\k14}て
+Dialogue: 0,0:00:49.05,0:00:51.11,Choir-furigana,,0,0,2,fx,{\fade(300,200)\an5\pos(223.5,116)\k170\\k0}き
+Dialogue: 0,0:00:50.18,0:00:54.69,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(111,73)\k90\0}
+Dialogue: 0,0:00:50.18,0:00:54.69,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(129,73)\k90\\k17}なん
+Dialogue: 0,0:00:50.18,0:00:54.69,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(156,73)\k107\\k17}で
+Dialogue: 0,0:00:50.18,0:00:54.69,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(174,73)\k124\\k13}も
+Dialogue: 0,0:00:50.18,0:00:54.69,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(192,73)\k137\\k27}あ
+Dialogue: 0,0:00:50.18,0:00:54.69,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(210,73)\k164\\k23}り
+Dialogue: 0,0:00:50.18,0:00:54.69,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(228,73)\k187\\k17}で
+Dialogue: 0,0:00:50.18,0:00:54.69,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(255,73)\k204\\kf227}しょ
+Dialogue: 0,0:00:53.89,0:00:57.15,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(102,32)\k90\0}
+Dialogue: 0,0:00:53.89,0:00:57.15,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(111,32)\k90\\k30}考
+Dialogue: 0,0:00:53.89,0:00:57.15,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(129,32)\k120\\k8}え
+Dialogue: 0,0:00:53.89,0:00:57.15,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(147,32)\k128\\k14}る
+Dialogue: 0,0:00:53.89,0:00:57.15,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(165,32)\k142\\k31}前
+Dialogue: 0,0:00:53.89,0:00:57.15,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(183,32)\k173\\k32}に
+Dialogue: 0,0:00:53.89,0:00:57.15,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(201,32)\k205\\k30}行
+Dialogue: 0,0:00:53.89,0:00:57.15,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(219,32)\k235\\k21}く
+Dialogue: 0,0:00:53.89,0:00:57.15,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(237,32)\k256\\k14}わ
+Dialogue: 0,0:00:53.89,0:00:57.15,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(264,32)\k270\\k36}よ！
+Dialogue: 0,0:00:53.89,0:00:57.15,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(111,14)\k90\\k19}かん
+Dialogue: 0,0:00:53.89,0:00:57.15,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(124.5,14)\k109\\k11}が
+Dialogue: 0,0:00:53.89,0:00:57.15,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(160.5,14)\k142\\k16}ま
+Dialogue: 0,0:00:53.89,0:00:57.15,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(169.5,14)\k158\\k15}え
+Dialogue: 0,0:00:53.89,0:00:57.15,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(201,14)\k205\\k30}い
+Dialogue: 0,0:00:56.82,0:01:00.21,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(79.5,73)\k90\0}
+Dialogue: 0,0:00:56.82,0:01:00.21,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(93,73)\k90\\k34}Pa-
+Dialogue: 0,0:00:56.82,0:01:00.21,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(120,73)\k124\\k16}Pa-
+Dialogue: 0,0:00:56.82,0:01:00.21,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(142.5,73)\k140\\k32}La
+Dialogue: 0,0:00:56.82,0:01:00.21,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(160.5,73)\k172\\k0}
+Dialogue: 0,0:00:56.82,0:01:00.21,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(169.5,73)\k172\\k33}天
+Dialogue: 0,0:00:56.82,0:01:00.21,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(187.5,73)\k205\\k16}晴
+Dialogue: 0,0:00:56.82,0:01:00.21,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(205.5,73)\k221\\k17}れ
+Dialogue: 0,0:00:56.82,0:01:00.21,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(223.5,73)\k238\\k15}な
+Dialogue: 0,0:00:56.82,0:01:00.21,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(255,73)\k253\\k32}Dan
+Dialogue: 0,0:00:56.82,0:01:00.21,Haruhi Suzumiya,,0,0,1,fx,{\fade(300,200)\an5\pos(286.5,73)\k285\\k34}cing
+Dialogue: 0,0:00:56.82,0:01:00.21,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(93,55)\k90\\k34}パ
+Dialogue: 0,0:00:56.82,0:01:00.21,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(120,55)\k124\\k16}パ
+Dialogue: 0,0:00:56.82,0:01:00.21,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(142.5,55)\k140\\k32}ラ
+Dialogue: 0,0:00:56.82,0:01:00.21,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(174,55)\k172\\k33}あっ
+Dialogue: 0,0:00:56.82,0:01:00.21,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(187.5,55)\k205\\k16}ぱ
+Dialogue: 0,0:00:56.82,0:01:00.21,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(259.5,55)\k253\\k32}ダン
+Dialogue: 0,0:00:56.82,0:01:00.21,Haruhi Suzumiya-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(282,55)\k285\\k34}シング
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(61.5,32)\k90\0}
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(75,32)\k90\\k33}Pa-
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(102,32)\k123\\k13}Pa-
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(124.5,32)\k136\\k18}La
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(142.5,32)\k154\\k0}
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(151.5,32)\k154\\k33}踊
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(169.5,32)\k187\\k16}り
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(187.5,32)\k203\\k0}出
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(205.5,32)\k203\\k16}し
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(232.5,32)\k219\\k16}ちゃ
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(259.5,32)\k235\\k17}い
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(277.5,32)\k252\\k27}な
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(304.5,32)\k279\\k0}Hi
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya,,0,0,0,fx,{\fade(300,200)\an5\pos(318,32)\k279\\k60}!
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(75,14)\k90\\k33}パ
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(102,14)\k123\\k13}パ
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(124.5,14)\k136\\k18}ラ
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(147,14)\k154\\k17}お
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(156,14)\k171\\k16}ど
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(187.5,14)\k203\\k0}だ
+Dialogue: 0,0:00:59.43,0:01:03.02,Haruhi Suzumiya-furigana,,0,0,0,fx,{\fade(300,200)\an5\pos(304.5,14)\k279\\k0}ハイ
