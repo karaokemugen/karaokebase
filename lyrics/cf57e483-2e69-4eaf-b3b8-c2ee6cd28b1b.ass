@@ -8,47 +8,71 @@ Original Timing: Karaoke Mugen
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 1,0:00:04.52,0:00:06.77,Default,,0,0,0,karaoke,{\k20}C'est {\k32}lui {\k32}{\k48}HEY {\k44}{\k24}Shin {\k20}Chan
-Comment: 1,0:00:07.00,0:00:08.89,Default,,0,0,0,karaoke,{\k16}ce {\k16}ga{\k16}min {\k12}vous {\k32}don{\k24}ne{\k16}ra {\k24}mal {\k20}au {\k8}crâne
-Comment: 1,0:00:09.20,0:00:11.45,Default,,0,0,0,karaoke,{\k24}c'est {\k16}lui {\k48}{\k36}HEY {\k56}{\k24}Shin {\k16}Chan
-Comment: 1,0:00:11.68,0:00:13.85,Default,,0,0,0,karaoke,{\k20}mé{\k20}fiez {\k16}vous {\k12}de {\k40}lui {\k20}quand {\k40}il {\k28}ri{\k16}cane
-Comment: 1,0:00:14.20,0:00:16.41,Default,,0,0,0,karaoke,{\k16}il {\k16}est {\k16}mal {\k16}é{\k16}le{\k8}vé {\k24}{\k12}et {\k20}plu{\k16}tôt {\k20}gros{\k36}sier
-Comment: 1,0:00:16.96,0:00:18.41,Default,,0,0,0,karaoke,{\k16}dif{\k16}fi{\k24}ci{\k28}le {\k12}à {\k16}sup{\k12}por{\k16}ter
-Comment: 1,0:00:18.76,0:00:19.29,Default,,0,0,0,karaoke,{\k24}Shin {\k24}Chan
-Comment: 1,0:00:21.44,0:00:23.25,Default,,0,0,0,karaoke,{\k28}il {\k24}fait {\k32}honte {\k16}à {\k20}ses {\k24}pa{\k32}rents
-Comment: 1,0:00:23.68,0:00:25.65,Default,,0,0,0,karaoke,{\k20}ses {\k24}profs {\k24}sont {\k32}sur {\k12}les {\k80}dents
-Comment: 1,0:00:26.16,0:00:27.65,Default,,0,0,0,karaoke,{\k28}l'{\k28}é{\k16}cole {\k20}c'est {\k16}pas {\k20}pour {\k16}lui
-Comment: 1,0:00:28.32,0:00:30.09,Default,,0,0,0,karaoke,{\k16}il {\k20}pré{\k12}fère {\k20}{\k24}res{\k20}ter {\k12}dans {\k32}son {\k16}lit
-Comment: 1,0:00:30.92,0:00:33.81,Default,,0,0,0,karaoke,{\k28}pour {\k24}sa {\k36}mère {\k16}c'est {\k32}un {\k24}petit {\k52}ange {\k12}a{\k44}do{\k16}ré
-Comment: 1,0:00:35.68,0:00:38.97,Default,,0,0,0,karaoke,{\k28}mais {\k24}en {\k36}fait {\k16}c'est {\k40}une {\k32}vraie {\k24}ca{\k20}la{\k36}mi{\k68}té
-Comment: 1,0:00:42.52,0:00:44.73,Default,,0,0,0,karaoke,{\k24}C'est {\k32}lui {\k24}{\k52}HEY {\k36}{\k24}Shin {\k24}Chan
-Comment: 1,0:00:45.04,0:00:47.33,Default,,0,0,0,karaoke,{\k16}ce {\k16}ga{\k16}min {\k12}vous {\k32}don{\k20}ne{\k20}ra {\k28}mal {\k16}au {\k48}crâne
-Comment: 1,0:00:47.28,0:00:49.53,Default,,0,0,0,karaoke,{\k20}c'est {\k60}lui {\k56}HEY {\k36}{\k20}Shin {\k28}Chan
-Comment: 1,0:00:49.76,0:00:51.97,Default,,0,0,0,karaoke,{\k20}mé{\k16}fiez {\k16}vous {\k20}de {\k24}lui {\k20}quand {\k44}il {\k24}ri{\k32}cane
-Comment: 1,0:00:52.24,0:00:54.17,Default,,0,0,0,karaoke,{\k20}il {\k12}est {\k20}mal {\k16}é{\k28}le{\k16}vé {\k16}et {\k16}plu{\k12}tôt {\k20}gros{\k12}sier
-Comment: 1,0:00:54.92,0:00:56.41,Default,,0,0,0,karaoke,{\k16}dif{\k12}fi{\k28}ci{\k20}le {\k16}à {\k24}sup{\k20}por{\k8}ter
-Comment: 1,0:00:56.72,0:00:57.49,Default,,0,0,0,karaoke,{\k24}Shin {\k48}Chan
-Dialogue: 1,0:00:03.62,0:00:06.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}C'est {\k32}lui {\k32}{\k48}HEY {\k44}{\k24}Shin {\k20}Chan
-Dialogue: 1,0:00:06.10,0:00:09.09,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ce {\k16}ga{\k16}min {\k12}vous {\k32}don{\k24}ne{\k16}ra {\k24}mal {\k20}au {\k8}crâne
-Dialogue: 1,0:00:08.30,0:00:11.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}c'est {\k16}lui {\k48}{\k36}HEY {\k56}{\k24}Shin {\k16}Chan
-Dialogue: 1,0:00:10.78,0:00:14.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}mé{\k20}fiez {\k16}vous {\k12}de {\k40}lui {\k20}quand {\k40}il {\k28}ri{\k16}cane
-Dialogue: 1,0:00:13.30,0:00:16.61,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}il {\k16}est {\k16}mal {\k16}é{\k16}le{\k8}vé {\k24}{\k12}et {\k20}plu{\k16}tôt {\k20}gros{\k36}sier
-Dialogue: 1,0:00:16.06,0:00:18.61,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}dif{\k16}fi{\k24}ci{\k28}le {\k12}à {\k16}sup{\k12}por{\k16}ter
-Dialogue: 1,0:00:17.86,0:00:19.49,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Shin {\k24}Chan
-Dialogue: 1,0:00:20.54,0:00:23.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}il {\k24}fait {\k32}honte {\k16}à {\k20}ses {\k24}pa{\k32}rents
-Dialogue: 1,0:00:22.78,0:00:25.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ses {\k24}profs {\k24}sont {\k32}sur {\k12}les {\k80}dents
-Dialogue: 1,0:00:25.26,0:00:27.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}l'{\k28}é{\k16}cole {\k20}c'est {\k16}pas {\k20}pour {\k16}lui
-Dialogue: 1,0:00:27.42,0:00:30.29,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}il {\k20}pré{\k12}fère {\k20}{\k24}res{\k20}ter {\k12}dans {\k32}son {\k16}lit
-Dialogue: 1,0:00:30.02,0:00:34.01,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}pour {\k24}sa {\k36}mère {\k16}c'est {\k32}un {\k24}petit {\k52}ange {\k12}a{\k44}do{\k16}ré
-Dialogue: 1,0:00:34.78,0:00:39.17,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}mais {\k24}en {\k36}fait {\k16}c'est {\k40}une {\k32}vraie {\k24}ca{\k20}la{\k36}mi{\k68}té
-Dialogue: 1,0:00:41.62,0:00:44.93,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}C'est {\k32}lui {\k24}{\k52}HEY {\k36}{\k24}Shin {\k24}Chan
-Dialogue: 1,0:00:44.14,0:00:47.53,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ce {\k16}ga{\k16}min {\k12}vous {\k32}don{\k20}ne{\k20}ra {\k28}mal {\k16}au {\k48}crâne
-Dialogue: 1,0:00:46.38,0:00:49.73,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}c'est {\k60}lui {\k56}HEY {\k36}{\k20}Shin {\k28}Chan
-Dialogue: 1,0:00:48.86,0:00:52.17,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}mé{\k16}fiez {\k16}vous {\k20}de {\k24}lui {\k20}quand {\k44}il {\k24}ri{\k32}cane
-Dialogue: 1,0:00:51.34,0:00:54.37,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}il {\k12}est {\k20}mal {\k16}é{\k28}le{\k16}vé {\k16}et {\k16}plu{\k12}tôt {\k20}gros{\k12}sier
-Dialogue: 1,0:00:54.02,0:00:56.61,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}dif{\k12}fi{\k28}ci{\k20}le {\k16}à {\k24}sup{\k20}por{\k8}ter
-Dialogue: 1,0:00:55.82,0:00:57.69,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Shin {\k48}Chan
+Comment: 1,0:00:04.30,0:00:05.05,Sample KM [Choir],,0,0,0,karaoke,{\k34}C'est {\k41}lui
+Comment: 1,0:00:05.22,0:00:05.70,Sample KM [Up],,0,0,0,karaoke,{\k85}Hey
+Comment: 1,0:00:06.09,0:00:06.97,Sample KM [Choir],,0,0,0,karaoke,{\k29}Shin {\k59}Chan
+Comment: 1,0:00:06.82,0:00:09.37,Sample KM [Up],,0,0,0,karaoke,{\k16}Ce {\k16}ga{\k13}min {\k15}vous {\k36}don{\k10}ne{\k30}ra {\k30}mal {\k12}au {\k77}crâne
+Comment: 1,0:00:09.06,0:00:09.86,Sample KM [Choir],,0,0,0,karaoke,{\k31}C'est {\k49}lui
+Comment: 1,0:00:09.97,0:00:10.82,Sample KM [Up],,0,0,0,karaoke,{\k85}Hey
+Comment: 1,0:00:10.82,0:00:11.86,Sample KM [Choir],,0,0,0,karaoke,{\k32}Shin {\k72}Chan
+Comment: 1,0:00:11.52,0:00:13.85,Sample KM [Up],,0,0,0,karaoke,{\k20}Mé{\k16}fiez {\k16}vous {\k19}de {\k27}lui {\k26}quand {\k39}il {\k34}ri{\k36}cane
+Comment: 1,0:00:13.99,0:00:16.36,Sample KM [Up],,0,0,0,karaoke,{\k13}Il {\k16}est {\k15}mal {\k18}é{\k11}le{\k36}vé {\k9}{\k14}et {\k13}plu{\k17}tôt {\k30}gros{\k45}sier
+Comment: 1,0:00:16.79,0:00:18.52,Sample KM [Up],,0,0,0,karaoke,{\k14}Dif{\k16}fi{\k24}ci{\k17}le {\k21}à {\k24}sup{\k20}por{\k37}ter
+Comment: 1,0:00:18.53,0:00:19.47,Sample KM [Choir],,0,0,0,karaoke,{\k33}Shin {\k61}Chan
+Comment: 1,0:00:21.26,0:00:23.18,Sample KM [Up],,0,0,0,karaoke,{\k28}Il {\k31}fait {\k29}honte {\k16}à {\k16}ses {\k28}pa{\k44}rents
+Comment: 1,0:00:23.50,0:00:25.11,Sample KM [Up],,0,0,0,karaoke,{\k13}Ses {\k28}profs {\k29}sont {\k28}sur {\k18}les {\k45}dents
+Comment: 1,0:00:26.01,0:00:27.91,Sample KM [Up],,0,0,0,karaoke,{\k28}L'é{\k31}cole {\k28}c'est {\k16}pas {\k31}pour {\k56}lui
+Comment: 1,0:00:28.23,0:00:30.66,Sample KM [Up],,0,0,0,karaoke,{\k16}Il {\k27}pré{\k32}fère {\k24}res{\k20}ter {\k26}dans {\k32}son {\k66}lit
+Comment: 1,0:00:30.76,0:00:31.64,Sample KM [Up],,0,0,0,karaoke,{\k28}Pour {\k31}sa {\k29}mère
+Comment: 1,0:00:31.64,0:00:33.87,Sample KM [Up],,0,0,0,karaoke,{\k16}C'est {\k28}un {\k28}petit {\k47}ange {\k17}a{\k44}do{\k43}ré
+Comment: 0,0:00:34.01,0:00:35.24,Sample KM [Choir],,0,0,0,karaoke,{\k17}A{\k44}do{\k62}ré
+Comment: 1,0:00:35.50,0:00:40.09,Sample KM [Up],,0,0,0,karaoke,{\k30}Mais {\k30}en {\k26}fait {\k18}c'est {\k44}une {\k29}vraie {\k31}ca{\k16}la{\k33}mi{\kf202}té
+Comment: 0,0:00:39.07,0:00:41.75,Sample KM [Choir],,0,0,0,karaoke,{\k30}Une {\k29}vraie {\k31}ca{\k16}la{\k39}mi{\kf123}té
+Comment: 1,0:00:42.31,0:00:43.00,Sample KM [Choir],,0,0,0,karaoke,{\k32}C'est {\k37}lui
+Comment: 1,0:00:43.21,0:00:43.82,Sample KM [Up],,0,0,0,karaoke,{\k58}Hey
+Comment: 1,0:00:44.09,0:00:44.97,Sample KM [Choir],,0,0,0,karaoke,{\k29}Shin {\k59}Chan
+Comment: 1,0:00:44.84,0:00:47.37,Sample KM [Up],,0,0,0,karaoke,{\k16}Ce {\k16}ga{\k14}min {\k14}vous {\k17}don{\k11}ne{\k31}ra {\k46}mal {\k28}au {\k60}crâne
+Comment: 1,0:00:47.06,0:00:47.97,Sample KM [Choir],,0,0,0,karaoke,{\k33}C'est {\k58}lui
+Comment: 1,0:00:47.97,0:00:48.55,Sample KM [Up],,0,0,0,karaoke,{\k58}Hey
+Comment: 1,0:00:48.78,0:00:49.72,Sample KM [Choir],,0,0,0,karaoke,{\k35}Shin {\k59}Chan
+Comment: 1,0:00:49.59,0:00:51.88,Sample KM [Up],,0,0,0,karaoke,{\k14}Mé{\k16}fiez {\k16}vous {\k17}de {\k27}lui {\k29}quand {\k35}il {\k36}ri{\k39}cane
+Comment: 1,0:00:52.00,0:00:54.37,Sample KM [Up],,0,0,0,karaoke,{\k12}Il {\k17}est {\k14}mal {\k15}é{\k14}le{\k43}vé {\k15}et {\k14}plu{\k12}tôt {\k33}gros{\k48}sier
+Comment: 1,0:00:54.79,0:00:56.48,Sample KM [Up],,0,0,0,karaoke,{\k14}Dif{\k12}fi{\k33}ci{\k11}le {\k20}à {\k27}sup{\k19}por{\k33}ter
+Comment: 1,0:00:56.56,0:00:57.49,Sample KM [Choir],,0,0,0,karaoke,{\k31}Shin {\k62}Chan
+Dialogue: 1,0:00:03.40,0:00:05.25,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}C'est {\k41}lui
+Dialogue: 1,0:00:04.32,0:00:05.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k85}Hey
+Dialogue: 1,0:00:05.19,0:00:07.17,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Shin {\k59}Chan
+Dialogue: 1,0:00:05.92,0:00:09.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ce {\k16}ga{\k13}min {\k15}vous {\k36}don{\k10}ne{\k30}ra {\k30}mal {\k12}au {\k77}crâne
+Dialogue: 1,0:00:08.16,0:00:10.06,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k31}C'est {\k49}lui
+Dialogue: 1,0:00:09.07,0:00:11.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k85}Hey
+Dialogue: 1,0:00:09.92,0:00:12.06,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Shin {\k72}Chan
+Dialogue: 1,0:00:10.62,0:00:14.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Mé{\k16}fiez {\k16}vous {\k19}de {\k27}lui {\k26}quand {\k39}il {\k34}ri{\k36}cane
+Dialogue: 1,0:00:13.09,0:00:16.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Il {\k16}est {\k15}mal {\k18}é{\k11}le{\k36}vé {\k9}{\k14}et {\k13}plu{\k17}tôt {\k30}gros{\k45}sier
+Dialogue: 1,0:00:15.89,0:00:18.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Dif{\k16}fi{\k24}ci{\k17}le {\k21}à {\k24}sup{\k20}por{\k37}ter
+Dialogue: 1,0:00:17.63,0:00:19.67,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Shin {\k61}Chan
+Dialogue: 1,0:00:20.36,0:00:23.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Il {\k31}fait {\k29}honte {\k16}à {\k16}ses {\k28}pa{\k44}rents
+Dialogue: 1,0:00:22.60,0:00:25.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Ses {\k28}profs {\k29}sont {\k28}sur {\k18}les {\k45}dents
+Dialogue: 1,0:00:25.11,0:00:28.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}L'é{\k31}cole {\k28}c'est {\k16}pas {\k31}pour {\k56}lui
+Dialogue: 1,0:00:27.33,0:00:30.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Il {\k27}pré{\k32}fère {\k24}res{\k20}ter {\k26}dans {\k32}son {\k66}lit
+Dialogue: 1,0:00:29.86,0:00:31.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Pour {\k31}sa {\k29}mère
+Dialogue: 1,0:00:30.74,0:00:34.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}C'est {\k28}un {\k28}petit {\k47}ange {\k17}a{\k44}do{\k43}ré
+Dialogue: 1,0:00:33.11,0:00:35.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}A{\k44}do{\k62}ré
+Dialogue: 1,0:00:34.60,0:00:40.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Mais {\k30}en {\k26}fait {\k18}c'est {\k44}une {\k29}vraie {\k31}ca{\k16}la{\k33}mi{\kf202}té
+Dialogue: 1,0:00:38.17,0:00:41.95,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Une {\k29}vraie {\k31}ca{\k16}la{\k39}mi{\kf123}té
+Dialogue: 1,0:00:41.41,0:00:43.20,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}C'est {\k37}lui
+Dialogue: 1,0:00:42.31,0:00:44.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Hey
+Dialogue: 1,0:00:43.19,0:00:45.17,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Shin {\k59}Chan
+Dialogue: 1,0:00:43.94,0:00:47.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ce {\k16}ga{\k14}min {\k14}vous {\k17}don{\k11}ne{\k31}ra {\k46}mal {\k28}au {\k60}crâne
+Dialogue: 1,0:00:46.16,0:00:48.17,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k33}C'est {\k58}lui
+Dialogue: 1,0:00:47.07,0:00:48.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Hey
+Dialogue: 1,0:00:47.88,0:00:49.92,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Shin {\k59}Chan
+Dialogue: 1,0:00:48.69,0:00:52.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Mé{\k16}fiez {\k16}vous {\k17}de {\k27}lui {\k29}quand {\k35}il {\k36}ri{\k39}cane
+Dialogue: 1,0:00:51.10,0:00:54.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Il {\k17}est {\k14}mal {\k15}é{\k14}le{\k43}vé {\k15}et {\k14}plu{\k12}tôt {\k33}gros{\k48}sier
+Dialogue: 1,0:00:53.89,0:00:56.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Dif{\k12}fi{\k33}ci{\k11}le {\k20}à {\k27}sup{\k19}por{\k33}ter
+Dialogue: 1,0:00:55.66,0:00:57.69,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Shin {\k62}Chan
