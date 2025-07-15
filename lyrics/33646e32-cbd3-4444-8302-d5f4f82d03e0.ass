@@ -1,0 +1,58 @@
+﻿[Script Info]
+Title: Secret Ceremony
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: TenmaWorks
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.95,0:00:04.38,Sample KM [Choir],,0,0,0,karaoke,{\k54}Guess {\k55}what’s {\k21}in {\k29}my {\kf84}head
+Comment: 0,0:00:08.01,0:00:10.38,Sample KM [Choir],,0,0,0,karaoke,{\k17}What {\k15}are {\k63}you {\k31}tal{\k9}king {\kf13}a{\k89}bout
+Comment: 0,0:00:14.64,0:00:16.92,Sample KM [Up],,0,0,0,karaoke,{\k35}Let {\k18}me {\k28}tell {\k28}you {\k19}what {\k32}to {\kf68}do
+Comment: 0,0:00:17.71,0:00:21.98,Sample KM [Up],,0,0,0,karaoke,{\k70}Stop {\k135}whis{\k23}per{\kf199}ing
+Comment: 0,0:00:22.95,0:00:26.20,Sample KM [Up],,0,0,0,karaoke,{\k70}Wait {\k81}till {\k65}mid{\k109}night
+Comment: 0,0:00:26.71,0:00:30.01,Sample KM [Up],,0,0,0,karaoke,{\k26}Come {\k29}on, {\k19}we {\k27}got{\k27}ta {\k23}go {\k74}dee{\kf105}per
+Comment: 0,0:00:30.01,0:00:34.43,Sample KM [Up],,0,0,0,karaoke,{\k24}In {\k20}the {\k77}dark {\k73}for{\kf248}est
+Comment: 0,0:00:34.96,0:00:37.97,Sample KM [Up],,0,0,0,karaoke,{\k79}No {\k74}one {\k71}hears {\k77}us
+Comment: 0,0:00:37.97,0:00:40.96,Sample KM [Up],,0,0,0,karaoke,{\k101}Keep {\k27}your {\k23}eyes {\k74}o{\k74}pen
+Comment: 0,0:00:40.99,0:00:49.77,Sample KM [Up],,0,0,0,karaoke,{\k88}Don’t {\k36}let {\k22}the {\k75}time {\k76}steal {\kf247}your{\k55} {\kf279}mind
+Comment: 0,0:00:50.01,0:00:52.98,Sample KM [Up],,0,0,0,karaoke,{\k93}I’ll {\k30}keep {\k18}my {\k81}lips {\k75}sealed
+Comment: 0,0:00:52.98,0:00:55.95,Sample KM [Up],,0,0,0,karaoke,{\k96}Take {\k21}me {\k30}in{\k75}side {\k75}of
+Comment: 0,0:00:55.95,0:01:05.65,Sample KM [Up],,0,0,0,karaoke,{\k151}You {\k146}through{\k152} the {\kf521}night
+Comment: 0,0:01:05.69,0:01:09.16,Sample KM [Up],,0,0,0,karaoke,{\k65}Stay {\k68}cons{\k93}cio{\kf121}us
+Comment: 0,0:01:08.77,0:01:10.87,Sample KM [Choir],,0,0,0,karaoke,{\k20}Let {\k24}me {\k27}tell {\k28}you {\k24}what {\k26}to {\k61}do
+Comment: 0,0:01:10.87,0:01:14.07,Sample KM [Up],,0,0,0,karaoke,{\k79}Just {\k68}love {\k85}me {\k88}now
+Comment: 0,0:01:14.70,0:01:17.97,Sample KM [Up],,0,0,0,karaoke,{\k28}'Cause {\k24}we're {\k25}gon{\k25}na {\k23}be {\k28}the {\k49}king {\k27}and {\kf98}queen
+Comment: 0,0:01:17.97,0:01:21.18,Sample KM [Up],,0,0,0,karaoke,{\k51}To {\k75}rule {\k73}this {\kf122}wreath
+Comment: 0,0:01:20.69,0:01:22.53,Sample KM [Choir],,0,0,0,karaoke,{\k20}Let {\k24}me {\k27}tell {\k28}you {\k24}what {\k26}to {\k35}do
+Comment: 0,0:01:22.59,0:01:26.12,Sample KM [Up],,0,0,0,karaoke,{\k38}Of {\k72}plea{\k76}sure {\k74}and {\kf93}death
+Dialogue: 0,0:00:01.05,0:00:04.58,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Guess {\k55}what’s {\k21}in {\k29}my {\kf84}head
+Dialogue: 0,0:00:07.11,0:00:10.58,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}What {\k15}are {\k63}you {\k31}tal{\k9}king {\kf13}a{\k89}bout
+Dialogue: 0,0:00:13.74,0:00:17.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Let {\k18}me {\k28}tell {\k28}you {\k19}what {\k32}to {\kf68}do
+Dialogue: 0,0:00:16.81,0:00:22.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k70}Stop {\k135}whis{\k23}per{\kf199}ing
+Dialogue: 0,0:00:22.05,0:00:26.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k70}Wait {\k81}till {\k65}mid{\k109}night
+Dialogue: 0,0:00:25.81,0:00:30.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Come {\k29}on, {\k19}we {\k27}got{\k27}ta {\k23}go {\k74}dee{\kf105}per
+Dialogue: 0,0:00:29.11,0:00:34.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}In {\k20}the {\k77}dark {\k73}for{\kf248}est
+Dialogue: 0,0:00:34.06,0:00:38.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k79}No {\k74}one {\k71}hears {\k77}us
+Dialogue: 0,0:00:37.07,0:00:41.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k101}Keep {\k27}your {\k23}eyes {\k74}o{\k74}pen
+Dialogue: 0,0:00:40.09,0:00:49.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k88}Don’t {\k36}let {\k22}the {\k75}time {\k76}steal {\kf247}your{\k55} {\kf279}mind
+Dialogue: 0,0:00:49.11,0:00:53.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k93}I’ll {\k30}keep {\k18}my {\k81}lips {\k75}sealed
+Dialogue: 0,0:00:52.08,0:00:56.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k96}Take {\k21}me {\k30}in{\k75}side {\k75}of
+Dialogue: 0,0:00:55.05,0:01:05.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k151}You {\k146}through{\k152} the {\kf521}night
+Dialogue: 0,0:01:04.79,0:01:09.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}Stay {\k68}cons{\k93}cio{\kf121}us
+Dialogue: 0,0:01:07.87,0:01:11.07,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Let {\k24}me {\k27}tell {\k28}you {\k24}what {\k26}to {\k61}do
+Dialogue: 0,0:01:09.97,0:01:14.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k79}Just {\k68}love {\k85}me {\k88}now
+Dialogue: 0,0:01:13.80,0:01:18.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}'Cause {\k24}we're {\k25}gon{\k25}na {\k23}be {\k28}the {\k49}king {\k27}and {\kf98}queen
+Dialogue: 0,0:01:17.07,0:01:21.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}To {\k75}rule {\k73}this {\kf122}wreath
+Dialogue: 0,0:01:19.79,0:01:22.73,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Let {\k24}me {\k27}tell {\k28}you {\k24}what {\k26}to {\k35}do
+Dialogue: 0,0:01:21.69,0:01:26.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Of {\k72}plea{\k76}sure {\k74}and {\kf93}death
