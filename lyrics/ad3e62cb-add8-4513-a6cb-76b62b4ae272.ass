@@ -1,0 +1,44 @@
+﻿[Script Info]
+Title: Typisch Andy
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:04.87,0:00:06.63,Sample KM [Up],,0,0,0,karaoke,{\k12}Jetzt {\k16}geht's {\k27}rich{\k11}tig {\k31}ab, {\k11}ihr {\k28}lacht {\k18}euch {\k22}schlapp
+Comment: 0,0:00:06.67,0:00:08.97,Sample KM [Up],,0,0,0,karaoke,{\k13}Denn {\k28}An{\k28}dy {\k28}lässt {\k28}es {\k28}wie{\k17}der {\k26}kra{\k34}chen
+Comment: 0,0:00:09.30,0:00:11.13,Sample KM [Up],,0,0,0,karaoke,{\k15}Er {\k14}hat {\k28}die {\k13}I{\k30}deen, {\k12}die {\k27}voll {\k20}ab{\k24}geh'n
+Comment: 0,0:00:11.13,0:00:13.47,Sample KM [Up],,0,0,0,karaoke,{\k12}Ja, {\k27}Leu{\k29}te, {\k29}gleich {\k26}gibt's {\k28}was {\k16}zu {\k26}la{\k41}chen
+Comment: 0,0:00:13.47,0:00:14.18,Sample KM [Up],,0,0,0,karaoke,{\k71}Yeah{\k0}
+Comment: 0,0:00:16.25,0:00:17.19,Sample KM [Up],,0,0,0,karaoke,{\k30}Meis{\k10}ter {\k16}der {\k27}Strei{\k11}che
+Comment: 0,0:00:17.19,0:00:18.62,Sample KM [Up],,0,0,0,karaoke,{\k18}Es {\k27}gibt {\k17}kein {\k10}Ver{\k29}glei{\k42}chen
+Comment: 0,0:00:20.58,0:00:23.46,Sample KM [Up],,0,0,0,karaoke,{\k14}Er {\k27}ist {\k25}der {\k28}gro{\k32}ße {\k27}Meis{\k12}ter {\k16}der {\k25}Strei{\k82}che
+Comment: 0,0:00:22.92,0:00:25.18,Sample KM [Up],,0,0,0,karaoke,{\k56}Naa {\k43}naa {\k27}na {\k13}na-{\k27}na {\k60}naa
+Comment: 0,0:00:27.36,0:00:29.60,Sample KM [Up],,0,0,0,karaoke,{\k55}Naa {\k45}naa {\k27}na {\k13}na-{\k26}na {\k58}naa
+Comment: 0,0:00:14.17,0:00:16.22,Sample KM [Choir],,0,0,0,karaoke,{\k14}Hey, {\k19}An{\k14}dy {\k25}heiß {\k15}ich {\k11}und {\k13}je{\k16}der {\k24}hier {\k30}kennt {\k24}mich
+Comment: 0,0:00:18.62,0:00:20.77,Sample KM [Choir],,0,0,0,karaoke,{\k13}Hey, {\k17}An{\k11}dy {\k27}heiß {\k17}ich {\k12}und {\k13}je{\k16}der {\k27}hier {\k33}kennt {\k29}mich
+Comment: 0,0:00:25.70,0:00:27.92,Sample KM [Choir],,0,0,0,karaoke,{\k28}Yea-{\k26}yea {\k68}yeah {\kf100}yeah
+Dialogue: 0,0:00:03.97,0:00:06.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Jetzt {\k16}geht's {\k27}rich{\k11}tig {\k31}ab, {\k11}ihr {\k28}lacht {\k18}euch {\k22}schlapp
+Dialogue: 0,0:00:05.77,0:00:09.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Denn {\k28}An{\k28}dy {\k28}lässt {\k28}es {\k28}wie{\k17}der {\k26}kra{\k34}chen
+Dialogue: 0,0:00:08.40,0:00:11.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Er {\k14}hat {\k28}die {\k13}I{\k30}deen, {\k12}die {\k27}voll {\k20}ab{\k24}geh'n
+Dialogue: 0,0:00:10.23,0:00:13.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Ja, {\k27}Leu{\k29}te, {\k29}gleich {\k26}gibt's {\k28}was {\k16}zu {\k26}la{\k41}chen
+Dialogue: 0,0:00:12.57,0:00:14.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k71}Yeah{\k0}
+Dialogue: 0,0:00:15.35,0:00:17.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Meis{\k10}ter {\k16}der {\k27}Strei{\k11}che
+Dialogue: 0,0:00:16.29,0:00:18.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Es {\k27}gibt {\k17}kein {\k10}Ver{\k29}glei{\k42}chen
+Dialogue: 0,0:00:19.68,0:00:23.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Er {\k27}ist {\k25}der {\k28}gro{\k32}ße {\k27}Meis{\k12}ter {\k16}der {\k25}Strei{\k82}che
+Dialogue: 0,0:00:22.02,0:00:25.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k56}Naa {\k43}naa {\k27}na {\k13}na-{\k27}na {\k60}naa
+Dialogue: 0,0:00:26.46,0:00:29.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}Naa {\k45}naa {\k27}na {\k13}na-{\k26}na {\k58}naa
+Dialogue: 0,0:00:13.27,0:00:16.42,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Hey, {\k19}An{\k14}dy {\k25}heiß {\k15}ich {\k11}und {\k13}je{\k16}der {\k24}hier {\k30}kennt {\k24}mich
+Dialogue: 0,0:00:17.72,0:00:20.97,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Hey, {\k17}An{\k11}dy {\k27}heiß {\k17}ich {\k12}und {\k13}je{\k16}der {\k27}hier {\k33}kennt {\k29}mich
+Dialogue: 0,0:00:24.80,0:00:28.12,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Yea-{\k26}yea {\k68}yeah {\kf100}yeah
