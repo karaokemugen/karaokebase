@@ -1,0 +1,53 @@
+﻿[Script Info]
+Title: Bob der Baumeister
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.25,0:00:03.96,Sample KM [Up],,0,0,0,karaoke,{\k62}Bau{\k26}ar{\k43}bei{\k40}ter
+Comment: 0,0:00:03.96,0:00:05.53,Sample KM [Choir],,0,0,0,karaoke,{\k24}Kön{\k22}nen {\k21}wir {\k24}das {\k30}schaf{\k36}fen?
+Comment: 0,0:00:05.80,0:00:07.55,Sample KM [Up],,0,0,0,karaoke,{\k63}Bob {\k27}der {\k43}Meis{\k42}ter
+Comment: 0,0:00:07.55,0:00:09.15,Sample KM [Choir],,0,0,0,karaoke,{\k45}Jo, {\k41}wir {\k20}schaf{\k12}fen {\k42}das
+Comment: 0,0:00:09.37,0:00:12.28,Sample KM [Up],,0,0,0,karaoke,{\k25}Bug{\k23}gy {\k40}und {\k27}Mi{\k26}xy,{\k38} {\k23}Bud{\k20}del {\k25}und {\k44}Bob
+Comment: 0,0:00:12.93,0:00:15.87,Sample KM [Up],,0,0,0,karaoke,{\k33}Hep{\k31}po {\k26}und {\k34}Wen{\k30}dy{\k24} {\k23}ma{\k25}chen {\k26}den {\k42}Job
+Comment: 0,0:00:16.51,0:00:19.51,Sample KM [Up],,0,0,0,karaoke,{\k45}Doch {\k22}auch {\k24}der {\k27}Rol{\k21}lo{\k25} {\k19}ge{\k31}hört {\k38}da{\k48}zu
+Comment: 0,0:00:20.10,0:00:23.23,Sample KM [Up],,0,0,0,karaoke,{\k36}So {\k29}wird {\k25}die {\k29}Ar{\k34}beit{\k12} {\k19}er{\k22}le{\k25}digt {\k41}im {\k41}Nu
+Comment: 0,0:00:23.72,0:00:25.42,Sample KM [Up],,0,0,0,karaoke,{\k61}Bau{\k26}ar{\k43}bei{\k40}ter
+Comment: 0,0:00:25.42,0:00:26.90,Sample KM [Choir],,0,0,0,karaoke,{\k24}Kön{\k19}nen {\k21}wir {\k24}das {\k30}schaf{\k30}fen?
+Comment: 0,0:00:27.28,0:00:28.96,Sample KM [Up],,0,0,0,karaoke,{\k63}Bob {\k27}der {\k43}Meis{\k35}ter
+Comment: 0,0:00:28.96,0:00:30.65,Sample KM [Choir],,0,0,0,karaoke,{\k45}Jo, {\k41}wir {\k20}schaf{\k12}fen {\k51}das
+Comment: 0,0:00:30.86,0:00:33.95,Sample KM [Up],,0,0,0,karaoke,{\k30}Ku{\k33}schel {\k25}und {\k26}Fe{\k25}der{\k19} {\k19}sind {\k32}stets {\k36}ver{\k64}gnügt
+Comment: 0,0:00:34.41,0:00:37.70,Sample KM [Up],,0,0,0,karaoke,{\k35}Was {\k32}nur {\k25}an {\k28}Rum{\k23}pel{\k16} {\k24}und {\k45}Knol{\k44}le {\k57}liegt
+Comment: 0,0:00:38.04,0:00:39.82,Sample KM [Up],,0,0,0,karaoke,{\k61}Bau{\k26}ar{\k43}bei{\k48}ter
+Comment: 0,0:00:39.82,0:00:41.35,Sample KM [Choir],,0,0,0,karaoke,{\k24}Kön{\k19}nen {\k25}wir {\k24}das {\k30}schaf{\k31}fen?
+Comment: 0,0:00:41.62,0:00:43.39,Sample KM [Up],,0,0,0,karaoke,{\k63}Bob {\k27}der {\k43}Meis{\k44}ter
+Comment: 0,0:00:43.39,0:00:45.00,Sample KM [Choir],,0,0,0,karaoke,{\k45}Jo, {\k41}wir {\k20}schaf{\k12}fen {\k43}das
+Dialogue: 0,0:00:01.35,0:00:04.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k62}Bau{\k26}ar{\k43}bei{\k40}ter
+Dialogue: 0,0:00:03.06,0:00:05.73,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Kön{\k22}nen {\k21}wir {\k24}das {\k30}schaf{\k36}fen?
+Dialogue: 0,0:00:04.90,0:00:07.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k63}Bob {\k27}der {\k43}Meis{\k42}ter
+Dialogue: 0,0:00:06.65,0:00:09.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Jo, {\k41}wir {\k20}schaf{\k12}fen {\k42}das
+Dialogue: 0,0:00:08.47,0:00:12.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Bug{\k23}gy {\k40}und {\k27}Mi{\k26}xy,{\k38} {\k23}Bud{\k20}del {\k25}und {\k44}Bob
+Dialogue: 0,0:00:12.03,0:00:16.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Hep{\k31}po {\k26}und {\k34}Wen{\k30}dy{\k24} {\k23}ma{\k25}chen {\k26}den {\k42}Job
+Dialogue: 0,0:00:15.61,0:00:19.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Doch {\k22}auch {\k24}der {\k27}Rol{\k21}lo{\k25} {\k19}ge{\k31}hört {\k38}da{\k48}zu
+Dialogue: 0,0:00:19.20,0:00:23.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}So {\k29}wird {\k25}die {\k29}Ar{\k34}beit{\k12} {\k19}er{\k22}le{\k25}digt {\k41}im {\k41}Nu
+Dialogue: 0,0:00:22.82,0:00:25.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k61}Bau{\k26}ar{\k43}bei{\k40}ter
+Dialogue: 0,0:00:24.52,0:00:27.10,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Kön{\k19}nen {\k21}wir {\k24}das {\k30}schaf{\k30}fen?
+Dialogue: 0,0:00:26.38,0:00:29.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k63}Bob {\k27}der {\k43}Meis{\k35}ter
+Dialogue: 0,0:00:28.06,0:00:30.85,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Jo, {\k41}wir {\k20}schaf{\k12}fen {\k51}das
+Dialogue: 0,0:00:29.96,0:00:34.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Ku{\k33}schel {\k25}und {\k26}Fe{\k25}der{\k19} {\k19}sind {\k32}stets {\k36}ver{\k64}gnügt
+Dialogue: 0,0:00:33.51,0:00:37.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Was {\k32}nur {\k25}an {\k28}Rum{\k23}pel{\k16} {\k24}und {\k45}Knol{\k44}le {\k57}liegt
+Dialogue: 0,0:00:37.14,0:00:40.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k61}Bau{\k26}ar{\k43}bei{\k48}ter
+Dialogue: 0,0:00:38.92,0:00:41.55,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Kön{\k19}nen {\k25}wir {\k24}das {\k30}schaf{\k31}fen?
+Dialogue: 0,0:00:40.72,0:00:43.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k63}Bob {\k27}der {\k43}Meis{\k44}ter
+Dialogue: 0,0:00:42.49,0:00:45.20,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Jo, {\k41}wir {\k20}schaf{\k12}fen {\k43}das
