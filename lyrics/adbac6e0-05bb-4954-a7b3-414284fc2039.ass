@@ -1,0 +1,64 @@
+﻿[Script Info]
+Title: SpongeBob Schwammkopf
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Pirate],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Kids],Arial,24,&H00FFFFFF,&H004AB819,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:01.00,Sample KM [Down],,0,0,0,karaoke,{\c&H008AFF&}● Pirat\N{\c&H4AB819&}✿ Kids
+Comment: 0,0:00:01.20,0:00:02.31,Sample KM Duo [Pirate],,0,0,0,karaoke,{\c&H008AFF&}● {\c&HFFFFFF&}{\k13}Al{\k26}les {\k35}klar, {\k18}Kin{\k19}der?
+Comment: 0,0:00:02.51,0:00:04.09,Sample KM Duo [Kids],,0,0,0,karaoke,{\c&H4AB819&}✿ {\c&HFFFFFF&}{\k31}Aye, {\k50}aye, {\k40}Cap{\k37}tain!
+Comment: 0,0:00:04.41,0:00:05.70,Sample KM Duo [Pirate],,0,0,0,karaoke,{\c&H008AFF&}● {\c&HFFFFFF&}{\k19}Geht {\k24}das {\k21}nicht {\k37}lau{\k28}ter?
+Comment: 0,0:00:05.80,0:00:07.63,Sample KM Duo [Kids],,0,0,0,karaoke,{\c&H4AB819&}✿ {\c&HFFFFFF&}{\k34}Aye, {\k54}aye, {\k35}Cap{\k60}tain!
+Comment: 0,0:00:07.88,0:00:10.67,Sample KM Duo [Pirate],,0,0,0,karaoke,{\c&H008AFF&}● {\c&HFFFFFF&}{\kf279}Oh{\k0}
+Comment: 0,0:00:10.79,0:00:12.94,Sample KM Duo [Pirate],,0,0,0,karaoke,{\c&H008AFF&}● {\c&HFFFFFF&}{\k19}Wer {\k18}wohnt {\k15}in {\k16}'ner {\k12}A{\k15}na{\k21}nas {\k25}ganz {\k17}tief {\k16}im {\k41}Meer?
+Comment: 0,0:00:12.97,0:00:14.79,Sample KM Duo [Kids],,0,0,0,karaoke,{\c&H4AB819&}✿ {\c&HFFFFFF&}{\k47}Sponge{\k53}Bob {\k44}Schwamm{\k38}kopf
+Comment: 0,0:00:14.79,0:00:16.95,Sample KM Duo [Pirate],,0,0,0,karaoke,{\c&H008AFF&}● {\c&HFFFFFF&}{\k27}Saug{\k16}stark {\k19}und {\k17}gelb {\k20}und {\k14}po{\k22}rös, {\k19}und {\k20}zwar {\k42}sehr?
+Comment: 0,0:00:16.95,0:00:18.59,Sample KM Duo [Kids],,0,0,0,karaoke,{\c&H4AB819&}✿ {\c&HFFFFFF&}{\k46}Sponge{\k50}Bob {\k45}Schwamm{\k23}kopf
+Comment: 0,0:00:18.59,0:00:19.06,Sample KM Duo [Pirate],,0,0,0,karaoke,{\c&H008AFF&}● {\c&HFFFFFF&}{\k14}Wenn {\k18}der {\k15}Sinn
+Comment: 0,0:00:19.06,0:00:20.92,Sample KM Duo [Pirate],,0,0,0,karaoke,{\c&H008AFF&}● {\c&HFFFFFF&}{\k20}Nach {\k18}pa{\k15}zi{\k13}fi{\k17}schem {\k23}Blöd{\k14}sinn {\k28}euch {\k38}steht?
+Comment: 0,0:00:20.92,0:00:22.65,Sample KM Duo [Kids],,0,0,0,karaoke,{\c&H4AB819&}✿ {\c&HFFFFFF&}{\k49}Sponge{\k51}Bob {\k45}Schwamm{\k28}kopf
+Comment: 0,0:00:22.69,0:00:23.62,Sample KM Duo [Pirate],,0,0,0,karaoke,{\c&H008AFF&}● {\c&HFFFFFF&}{\k22}Dann {\k21}schwingt {\k15}euch {\k17}an {\k18}Deck
+Comment: 0,0:00:23.62,0:00:24.91,Sample KM Duo [Pirate],,0,0,0,karaoke,{\c&H008AFF&}● {\c&HFFFFFF&}{\k15}Und {\k20}kommt {\k21}ja {\k21}nicht {\k23}zu {\k29}spät
+Comment: 0,0:00:24.91,0:00:26.68,Sample KM Duo [Kids],,0,0,0,karaoke,{\c&H4AB819&}✿ {\c&HFFFFFF&}{\k50}Sponge{\k55}Bob {\k36}Schwamm{\k36}kopf
+Comment: 0,0:00:25.95,0:00:26.65,Sample KM Duo [Pirate],,0,0,0,karaoke,{\c&H008AFF&}● {\c&HFFFFFF&}{\k15}Und {\k22}al{\k33}le
+Comment: 0,0:00:26.84,0:00:28.69,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\c&HEB4DC1&}●✿ {\c&HFFFFFF&}{\k53}Sponge{\k49}Bob {\k51}Schwamm{\k32}kopf
+Comment: 0,0:00:28.87,0:00:30.67,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\c&HEB4DC1&}●✿ {\c&HFFFFFF&}{\k52}Sponge{\k50}Bob {\k47}Schwamm{\k31}kopf
+Comment: 0,0:00:30.91,0:00:32.73,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\c&HEB4DC1&}●✿ {\c&HFFFFFF&}{\k50}Sponge{\k49}Bob {\k48}Schwamm{\k35}kopf
+Comment: 0,0:00:32.91,0:00:36.36,Sample KM Duo [Pirate],,0,0,0,karaoke,{\c&H008AFF&}● {\c&HFFFFFF&}{\k49}Sponge{\k67}Bob{\k36} {\k49}Schwamm{\kf144}kopf
+Comment: 0,0:00:36.88,0:00:41.04,Sample KM [Down],,0,0,0,karaoke,{\c&H008AFF&}● {\c&HFFFFFF&}Ahh, hahahaha, hahahaha
+Dialogue: 0,0:00:00.00,0:00:01.20,Sample KM [Down],,0,0,0,fx,{\k0\fad(0,200)}{\c&H008AFF&}● Pirat\N{\c&H4AB819&}✿ Kids
+Dialogue: 0,0:00:00.30,0:00:02.51,Sample KM Duo [Pirate],,0,0,0,fx,{\k90\fad(300,200)}{\c&H008AFF&}● {\c&HFFFFFF&}{\k13}Al{\k26}les {\k35}klar, {\k18}Kin{\k19}der?
+Dialogue: 0,0:00:01.61,0:00:04.29,Sample KM Duo [Kids],,0,0,0,fx,{\k90\fad(300,200)}{\c&H4AB819&}✿ {\c&HFFFFFF&}{\k31}Aye, {\k50}aye, {\k40}Cap{\k37}tain!
+Dialogue: 0,0:00:03.51,0:00:05.90,Sample KM Duo [Pirate],,0,0,0,fx,{\k90\fad(300,200)}{\c&H008AFF&}● {\c&HFFFFFF&}{\k19}Geht {\k24}das {\k21}nicht {\k37}lau{\k28}ter?
+Dialogue: 0,0:00:04.90,0:00:07.83,Sample KM Duo [Kids],,0,0,0,fx,{\k90\fad(300,200)}{\c&H4AB819&}✿ {\c&HFFFFFF&}{\k34}Aye, {\k54}aye, {\k35}Cap{\k60}tain!
+Dialogue: 0,0:00:06.98,0:00:10.87,Sample KM Duo [Pirate],,0,0,0,fx,{\k90\fad(300,200)}{\c&H008AFF&}● {\c&HFFFFFF&}{\kf279}Oh{\k0}
+Dialogue: 0,0:00:09.89,0:00:13.14,Sample KM Duo [Pirate],,0,0,0,fx,{\k90\fad(300,200)}{\c&H008AFF&}● {\c&HFFFFFF&}{\k19}Wer {\k18}wohnt {\k15}in {\k16}'ner {\k12}A{\k15}na{\k21}nas {\k25}ganz {\k17}tief {\k16}im {\k41}Meer?
+Dialogue: 0,0:00:12.07,0:00:14.99,Sample KM Duo [Kids],,0,0,0,fx,{\k90\fad(300,200)}{\c&H4AB819&}✿ {\c&HFFFFFF&}{\k47}Sponge{\k53}Bob {\k44}Schwamm{\k38}kopf
+Dialogue: 0,0:00:13.89,0:00:17.15,Sample KM Duo [Pirate],,0,0,0,fx,{\k90\fad(300,200)}{\c&H008AFF&}● {\c&HFFFFFF&}{\k27}Saug{\k16}stark {\k19}und {\k17}gelb {\k20}und {\k14}po{\k22}rös, {\k19}und {\k20}zwar {\k42}sehr?
+Dialogue: 0,0:00:16.05,0:00:18.79,Sample KM Duo [Kids],,0,0,0,fx,{\k90\fad(300,200)}{\c&H4AB819&}✿ {\c&HFFFFFF&}{\k46}Sponge{\k50}Bob {\k45}Schwamm{\k23}kopf
+Dialogue: 0,0:00:17.69,0:00:19.26,Sample KM Duo [Pirate],,0,0,0,fx,{\k90\fad(300,200)}{\c&H008AFF&}● {\c&HFFFFFF&}{\k14}Wenn {\k18}der {\k15}Sinn
+Dialogue: 0,0:00:18.16,0:00:21.12,Sample KM Duo [Pirate],,0,0,0,fx,{\k90\fad(300,200)}{\c&H008AFF&}● {\c&HFFFFFF&}{\k20}Nach {\k18}pa{\k15}zi{\k13}fi{\k17}schem {\k23}Blöd{\k14}sinn {\k28}euch {\k38}steht?
+Dialogue: 0,0:00:20.02,0:00:22.85,Sample KM Duo [Kids],,0,0,0,fx,{\k90\fad(300,200)}{\c&H4AB819&}✿ {\c&HFFFFFF&}{\k49}Sponge{\k51}Bob {\k45}Schwamm{\k28}kopf
+Dialogue: 0,0:00:21.79,0:00:23.82,Sample KM Duo [Pirate],,0,0,0,fx,{\k90\fad(300,200)}{\c&H008AFF&}● {\c&HFFFFFF&}{\k22}Dann {\k21}schwingt {\k15}euch {\k17}an {\k18}Deck
+Dialogue: 0,0:00:22.72,0:00:25.11,Sample KM Duo [Pirate],,0,0,0,fx,{\k90\fad(300,200)}{\c&H008AFF&}● {\c&HFFFFFF&}{\k15}Und {\k20}kommt {\k21}ja {\k21}nicht {\k23}zu {\k29}spät
+Dialogue: 0,0:00:24.01,0:00:26.88,Sample KM Duo [Kids],,0,0,0,fx,{\k90\fad(300,200)}{\c&H4AB819&}✿ {\c&HFFFFFF&}{\k50}Sponge{\k55}Bob {\k36}Schwamm{\k36}kopf
+Dialogue: 0,0:00:25.05,0:00:26.85,Sample KM Duo [Pirate],,0,0,0,fx,{\k90\fad(300,200)}{\c&H008AFF&}● {\c&HFFFFFF&}{\k15}Und {\k22}al{\k33}le
+Dialogue: 0,0:00:25.94,0:00:28.89,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\c&HEB4DC1&}●✿ {\c&HFFFFFF&}{\k53}Sponge{\k49}Bob {\k51}Schwamm{\k32}kopf
+Dialogue: 0,0:00:27.97,0:00:30.87,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\c&HEB4DC1&}●✿ {\c&HFFFFFF&}{\k52}Sponge{\k50}Bob {\k47}Schwamm{\k31}kopf
+Dialogue: 0,0:00:30.01,0:00:32.93,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\c&HEB4DC1&}●✿ {\c&HFFFFFF&}{\k50}Sponge{\k49}Bob {\k48}Schwamm{\k35}kopf
+Dialogue: 0,0:00:32.01,0:00:36.56,Sample KM Duo [Pirate],,0,0,0,fx,{\k90\fad(300,200)}{\c&H008AFF&}● {\c&HFFFFFF&}{\k49}Sponge{\k67}Bob{\k36} {\k49}Schwamm{\kf144}kopf
+Dialogue: 0,0:00:35.98,0:00:41.24,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}{\c&H008AFF&}● {\c&HFFFFFF&}Ahh, hahahaha, hahahaha
