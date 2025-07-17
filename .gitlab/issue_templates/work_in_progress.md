@@ -25,4 +25,5 @@ Thanks in advance :3
 - [ ] I have verified this version of the song has not already been [submitted recently](https://gitlab.com/karaokemugen/bases/karaokebase/-/issues/?state=opened&label_name%5B%5D=To%20Add)
 
 /label ~"Work in progress"
+/status in progress
 /assign me
