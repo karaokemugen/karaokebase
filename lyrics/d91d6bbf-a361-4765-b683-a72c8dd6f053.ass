@@ -1,0 +1,86 @@
+﻿[Script Info]
+Title: Aimer
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:20.17,0:00:24.51,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k65}Ai{\k89}mer {\k35}c'est {\k43}c'qu'y {\k33}a {\k63}d'plus {\k106}beau
+Comment: 0,0:00:25.37,0:00:29.99,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k81}Ai{\k89}mer {\k38}c'est {\k37}mon{\k30}ter {\k79}si {\kf108}haut
+Comment: 0,0:00:30.45,0:00:34.68,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k31}Et {\k66}tou{\k101}cher {\k33}les {\k42}ailes {\k25}des {\k65}oi{\k60}seaux
+Comment: 0,0:00:34.81,0:00:39.47,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k65}Ai{\k86}mer {\k45}c'est {\k38}c'qu'y {\k30}a {\kf133}d'plus {\k69}beau
+Comment: 0,0:00:40.13,0:00:44.66,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k72}Ai{\k89}mer {\k42}c'est {\k35}vo{\k29}ler {\k66}le {\kf120}temps
+Comment: 0,0:00:45.46,0:00:50.48,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k77}Ai{\k78}mer {\k46}c'est {\k32}res{\k33}ter {\k69}vi{\kf167}vant
+Comment: 0,0:00:50.48,0:00:54.78,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k23}Et {\k74}brû{\k94}ler {\k29}au {\k44}coeur {\k32}d'un {\k71}vol{\k63}can
+Comment: 0,0:00:54.89,0:00:59.67,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k66}Ai{\k79}mer {\k37}c'est {\k39}c'qu'y {\k31}a {\kf131}d'plus {\kf95}grand
+Comment: 0,0:01:00.09,0:01:05.07,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k68}Ai{\k94}mer {\k37}c'est {\k29}plus {\k38}fort {\kf132}que {\kf100}tout
+Comment: 0,0:01:05.39,0:01:10.25,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k72}Don{\k95}ner {\k30}le {\k37}meil{\k36}leur {\k67}de {\kf149}nous
+Comment: 0,0:01:10.73,0:01:15.79,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k67}Ai{\k98}mer {\k27}et {\k37}sen{\k36}tir {\kf137}son {\kf104}coeur
+Comment: 0,0:01:16.09,0:01:21.39,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k67}Ai{\k95}mer {\k34}pour {\k34}a{\k33}voir {\kf130}moins {\kf137}peur
+Comment: 0,0:01:21.39,0:01:26.40,Sample KM [Choir],,0,0,0,karaoke,{\k71}Ai{\k88}mer {\k39}c'est {\k33}c'qu'y {\k34}a {\k67}d'plus {\kf169}beau
+Comment: 0,0:01:26.71,0:01:31.69,Sample KM [Choir],,0,0,0,karaoke,{\k71}Ai{\k87}mer {\k36}c'est {\k35}mon{\k32}ter {\k70}si {\kf167}haut
+Comment: 0,0:01:31.69,0:01:35.99,Sample KM [Choir],,0,0,0,karaoke,{\k32}Et {\k64}tou{\k98}cher {\k28}les {\k45}ailes {\k26}des {\k71}oi{\k66}seaux
+Comment: 0,0:01:35.99,0:01:41.15,Sample KM [Choir],,0,0,0,karaoke,{\k69}Ai{\k90}mer {\k40}c'est {\k28}c'qu'y {\k39}a {\kf136}d'plus {\kf114}beau
+Comment: 0,0:01:41.36,0:01:46.15,Sample KM [Choir],,0,0,0,karaoke,{\k68}Ai{\k88}mer {\k42}c'est {\k35}vo{\k32}ler {\k67}le {\kf147}temps
+Comment: 0,0:01:46.64,0:01:51.63,Sample KM [Choir],,0,0,0,karaoke,{\k71}Ai{\k83}mer {\k45}c'est {\k36}res{\k30}ter {\k70}vi{\kf164}vant
+Comment: 0,0:01:51.63,0:01:55.97,Sample KM [Choir],,0,0,0,karaoke,{\k30}Et {\k71}brû{\k92}ler {\k32}au {\k43}coeur {\k32}d'un {\k68}vol{\k66}can
+Comment: 0,0:01:56.06,0:02:01.11,Sample KM [Choir],,0,0,0,karaoke,{\k61}Ai{\k91}mer {\k38}c'est {\k34}c'qu'y {\k30}a {\kf134}d'plus {\kf117}grand
+Comment: 0,0:02:01.32,0:02:06.48,Sample KM [Choir],,0,0,0,karaoke,{\k72}Ai{\k84}mer {\k40}c'est {\k34}brû{\k30}ler {\k74}ses {\kf182}nuits
+Comment: 0,0:02:05.33,0:02:08.33,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k55}Brû{\k36}ler {\k31}ses {\kf178}nuits
+Comment: 0,0:02:06.62,0:02:11.57,Sample KM [Choir],,0,0,0,karaoke,{\k72}Ai{\k87}mer {\k38}c'est {\k35}pa{\k31}yer {\k71}le {\kf161}prix
+Comment: 0,0:02:10.24,0:02:16.32,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k36}C'est {\k54}pa{\k42}yer {\k40}le {\kf436}prix
+Comment: 0,0:02:11.58,0:02:15.96,Sample KM [Choir],,0,0,0,karaoke,{\k38}Et {\k66}don{\k91}ner {\k35}un {\k39}sens {\k28}à {\k72}sa {\k69}vie
+Comment: 0,0:02:15.96,0:02:20.94,Sample KM [Choir],,0,0,0,karaoke,{\k66}Ai{\k88}mer {\k46}c'est {\k31}brû{\k36}ler {\kf139}ses {\kf92}nuits
+Comment: 0,0:02:21.31,0:02:26.50,Sample KM [Choir],,0,0,0,karaoke,{\k68}Ai{\k86}mer {\k39}c'est {\k32}c'qu'y {\k36}a {\k68}d'plus {\kf190}beau
+Comment: 0,0:02:24.80,0:02:28.53,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k44}C'est {\k48}c'qu'y {\k34}a {\k14}de {\k36}plus {\kf197}beau
+Comment: 0,0:02:26.57,0:02:31.64,Sample KM [Choir],,0,0,0,karaoke,{\k73}Ai{\k82}mer {\k42}c'est {\k37}mon{\k32}ter {\k65}si {\kf176}haut
+Comment: 0,0:02:30.15,0:02:35.98,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k36}C'est {\k50}mon{\k48}ter {\k45}si {\kf404}haut
+Comment: 0,0:02:31.65,0:02:35.98,Sample KM [Choir],,0,0,0,karaoke,{\k28}Et {\k59}tou{\k101}cher {\k32}les {\k43}ailes {\k27}des {\k69}oi{\k74}seaux
+Comment: 0,0:02:35.98,0:02:41.08,Sample KM [Choir],,0,0,0,karaoke,{\k64}Ai{\k96}mer {\k32}c'est {\k30}ce qu'y {\k36}a {\k135}d'plus {\k117}beau
+Comment: 0,0:02:41.28,0:02:46.86,Sample KM [Choir],,0,0,0,karaoke,{\k63}Ai{\kf495}mer
+Dialogue: 0,0:00:19.27,0:00:24.71,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k65}Ai{\k89}mer {\k35}c'est {\k43}c'qu'y {\k33}a {\k63}d'plus {\k106}beau
+Dialogue: 0,0:00:24.47,0:00:30.19,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k81}Ai{\k89}mer {\k38}c'est {\k37}mon{\k30}ter {\k79}si {\kf108}haut
+Dialogue: 0,0:00:29.55,0:00:34.88,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Et {\k66}tou{\k101}cher {\k33}les {\k42}ailes {\k25}des {\k65}oi{\k60}seaux
+Dialogue: 0,0:00:33.91,0:00:39.67,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k65}Ai{\k86}mer {\k45}c'est {\k38}c'qu'y {\k30}a {\kf133}d'plus {\k69}beau
+Dialogue: 0,0:00:39.23,0:00:44.86,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k72}Ai{\k89}mer {\k42}c'est {\k35}vo{\k29}ler {\k66}le {\kf120}temps
+Dialogue: 0,0:00:44.56,0:00:50.68,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k77}Ai{\k78}mer {\k46}c'est {\k32}res{\k33}ter {\k69}vi{\kf167}vant
+Dialogue: 0,0:00:49.58,0:00:54.98,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Et {\k74}brû{\k94}ler {\k29}au {\k44}coeur {\k32}d'un {\k71}vol{\k63}can
+Dialogue: 0,0:00:53.99,0:00:59.87,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k66}Ai{\k79}mer {\k37}c'est {\k39}c'qu'y {\k31}a {\kf131}d'plus {\kf95}grand
+Dialogue: 0,0:00:59.19,0:01:05.27,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k68}Ai{\k94}mer {\k37}c'est {\k29}plus {\k38}fort {\kf132}que {\kf100}tout
+Dialogue: 0,0:01:04.49,0:01:10.45,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k72}Don{\k95}ner {\k30}le {\k37}meil{\k36}leur {\k67}de {\kf149}nous
+Dialogue: 0,0:01:09.83,0:01:15.99,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k67}Ai{\k98}mer {\k27}et {\k37}sen{\k36}tir {\kf137}son {\kf104}coeur
+Dialogue: 0,0:01:15.19,0:01:21.59,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k67}Ai{\k95}mer {\k34}pour {\k34}a{\k33}voir {\kf130}moins {\kf137}peur
+Dialogue: 0,0:01:20.49,0:01:26.60,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k71}Ai{\k88}mer {\k39}c'est {\k33}c'qu'y {\k34}a {\k67}d'plus {\kf169}beau
+Dialogue: 0,0:01:25.81,0:01:31.89,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k71}Ai{\k87}mer {\k36}c'est {\k35}mon{\k32}ter {\k70}si {\kf167}haut
+Dialogue: 0,0:01:30.79,0:01:36.19,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Et {\k64}tou{\k98}cher {\k28}les {\k45}ailes {\k26}des {\k71}oi{\k66}seaux
+Dialogue: 0,0:01:35.09,0:01:41.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k69}Ai{\k90}mer {\k40}c'est {\k28}c'qu'y {\k39}a {\kf136}d'plus {\kf114}beau
+Dialogue: 0,0:01:40.46,0:01:46.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k68}Ai{\k88}mer {\k42}c'est {\k35}vo{\k32}ler {\k67}le {\kf147}temps
+Dialogue: 0,0:01:45.74,0:01:51.83,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k71}Ai{\k83}mer {\k45}c'est {\k36}res{\k30}ter {\k70}vi{\kf164}vant
+Dialogue: 0,0:01:50.73,0:01:56.17,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Et {\k71}brû{\k92}ler {\k32}au {\k43}coeur {\k32}d'un {\k68}vol{\k66}can
+Dialogue: 0,0:01:55.16,0:02:01.31,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k61}Ai{\k91}mer {\k38}c'est {\k34}c'qu'y {\k30}a {\kf134}d'plus {\kf117}grand
+Dialogue: 0,0:02:00.42,0:02:06.68,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k72}Ai{\k84}mer {\k40}c'est {\k34}brû{\k30}ler {\k74}ses {\kf182}nuits
+Dialogue: 0,0:02:04.43,0:02:08.53,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k55}Brû{\k36}ler {\k31}ses {\kf178}nuits
+Dialogue: 0,0:02:05.72,0:02:11.77,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k72}Ai{\k87}mer {\k38}c'est {\k35}pa{\k31}yer {\k71}le {\kf161}prix
+Dialogue: 0,0:02:09.34,0:02:16.52,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k36}C'est {\k54}pa{\k42}yer {\k40}le {\kf436}prix
+Dialogue: 0,0:02:10.68,0:02:16.16,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Et {\k66}don{\k91}ner {\k35}un {\k39}sens {\k28}à {\k72}sa {\k69}vie
+Dialogue: 0,0:02:15.06,0:02:21.14,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k66}Ai{\k88}mer {\k46}c'est {\k31}brû{\k36}ler {\kf139}ses {\kf92}nuits
+Dialogue: 0,0:02:20.41,0:02:26.70,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k68}Ai{\k86}mer {\k39}c'est {\k32}c'qu'y {\k36}a {\k68}d'plus {\kf190}beau
+Dialogue: 0,0:02:23.90,0:02:28.73,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k44}C'est {\k48}c'qu'y {\k34}a {\k14}de {\k36}plus {\kf197}beau
+Dialogue: 0,0:02:25.67,0:02:31.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k73}Ai{\k82}mer {\k42}c'est {\k37}mon{\k32}ter {\k65}si {\kf176}haut
+Dialogue: 0,0:02:29.25,0:02:36.18,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k36}C'est {\k50}mon{\k48}ter {\k45}si {\kf404}haut
+Dialogue: 0,0:02:30.75,0:02:36.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Et {\k59}tou{\k101}cher {\k32}les {\k43}ailes {\k27}des {\k69}oi{\k74}seaux
+Dialogue: 0,0:02:35.08,0:02:41.28,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k64}Ai{\k96}mer {\k32}c'est {\k30}ce qu'y {\k36}a {\k135}d'plus {\k117}beau
+Dialogue: 0,0:02:40.38,0:02:47.06,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k63}Ai{\kf495}mer
