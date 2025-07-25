@@ -13,17 +13,15 @@ Synch Point: Variabels
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,60,1
-Style: HUNTR/X,Arial,24,&H00FFFFFF,&H00C15975,&H00000000,&H00C15975,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: HUNTR/X,Arial,24,&H0041B5E6,&H00FFFFFF,&H00000000,&H00C15975,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
 Style: Rumi,Arial,24,&H00FFFFFF,&H00ED5EC1,&H00000000,&H00ED5EC1,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
 Style: Mira,Arial,24,&H00FFFFFF,&H008561D1,&H00000000,&H008561D1,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
 Style: Zoey,Arial,24,&H00FFFFFF,&H00A6D118,&H00000000,&H00A6D118,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
-Style: HUNTR/X - Choir,Arial,24,&H00FFFFFF,&H008A2F64,&H00000000,&H008A2F64,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HC15975&}HUNTR/X{\c} | {\c&HED5EC1&}Rumi{\c} | {\c&H8561D1&}Mira{\c} | {\c&HA6D118&}Zoey
+Comment: 0,0:00:00.00,0:00:00.00,HUNTR/X,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,HUNTR/X,,0,0,200,karaoke,{\kf286}{\pos(5)}HUNTR/X {\kf71}| {\kf179}{\rRumi}Rumi {\kf71}| {\kf179}{\rMira}Mira {\kf71}| {\kf143}{\rZoey}Zoey
 Comment: 0,0:00:07.96,0:00:10.56,Rumi,,0,0,0,karaoke,{\k86}Ugh, {\k12}you {\k23}came {\k9}at {\k21}a {\k45}bad {\k64}time
 Comment: 0,0:00:11.02,0:00:12.59,Rumi,,0,0,0,karaoke,{\k13}But {\k19}you {\k28}just {\k38}crossed {\k18}the {\k41}line
 Comment: 0,0:00:13.13,0:00:16.04,Rumi,,0,0,0,karaoke,{\k17}You {\k12}wan{\k13}na {\k24}get {\k83}wild? {\k20}O{\k15}kay, {\k20}I'll {\k25}show {\k17}you {\k45}wild!
@@ -32,7 +30,7 @@ Comment: 0,0:00:17.85,0:00:18.88,Rumi,,0,0,0,karaoke,{\k16}Get{\k15}tin' {\k23}t
 Comment: 0,0:00:19.29,0:00:20.82,Rumi,,0,0,0,karaoke,{\k17}'Cause {\k7}you {\k15}might {\k38}die, {\k13}ne{\k7}ver {\k14}the {\k42}time
 Comment: 0,0:00:20.82,0:00:21.94,Rumi,,0,0,0,karaoke,{\k14}Tryin' {\k13}to {\k29}start {\k20}a {\k15}bat{\k21}tle
 Comment: 0,0:00:22.32,0:00:23.76,Mira,,0,0,0,karaoke,{\k21}Blee{\k17}ding {\k11}i{\k26}sn't {\k11}in {\k26}my {\k32}blood!
-Comment: 0,0:00:23.81,0:00:25.28,Mira,,0,0,0,karaoke,{\k18}ppyeo{\k21}sok{\k18}bu{\k18}teo {\k16}da{\k22}la{\k34}seo!
+Comment: 0,0:00:23.81,0:00:25.28,Mira,,0,0,0,karaoke,{\k18\i1}ppyeo{\k21}sok{\k18}bu{\k18}teo {\k16}da{\k22}la{\k34}seo!
 Comment: 0,0:00:25.30,0:00:27.87,Mira,,0,0,0,karaoke,{\k20}Bea{\k15}ting {\k27}you {\k14}is {\k21}what {\k18}I {\k36}do {\k40}do {\k28}do, {\k38}yeah!
 Comment: 0,0:00:27.89,0:00:30.37,HUNTR/X,,0,0,0,karaoke,{\k27}Bo{\k14}dy {\k20}on {\k24}bo{\k14}dy {\k15}I'm {\k24}naugh{\k14}ty, {\k25}not {\k12}e{\k16}ven {\k27}sor{\k16}ry!
 Comment: 0,0:00:30.56,0:00:31.87,HUNTR/X,,0,0,0,karaoke,{\k15}When {\k22}you {\k18}pull {\k20}up, {\k18}I'll {\k19}pull {\k19}up
@@ -40,10 +38,11 @@ Comment: 0,0:00:31.87,0:00:33.30,HUNTR/X,,0,0,0,karaoke,{\k16}A {\k21}lit{\k18}t
 Comment: 0,0:00:33.33,0:00:34.18,HUNTR/X,,0,0,0,karaoke,{\k24}La {\k19}la {\k19}la {\k23}la
 Comment: 0,0:00:34.19,0:00:35.82,Zoey,,0,0,0,karaoke,{\k26}Locked {\k11}and {\k15}loa{\k12}ded, {\k12}I {\k13}was {\k30}born {\k12}for {\k32}this!
 Comment: 0,0:00:35.82,0:00:37.17,Zoey,,0,0,0,karaoke,{\k12}There {\k11}ain't {\k15}no {\k13}point {\k9}in {\k14}a{\k28}voi{\k14}ding {\k19}it!
-Comment: 0,0:00:37.20,0:00:38.48,Zoey,,0,0,0,karaoke,{\k12}AN{\k32}NOYED {\k9}A {\k15}BIT? {\k10}bu{\k10}reul {\k17}bi{\k23}chwo!
-Comment: 0,0:00:38.48,0:00:40.02,Zoey,,0,0,0,karaoke,{\k22}da {\k12}bi{\k17}kyeo {\k22}ni {\k18}ap {\k7}gi{\k11}reul {\k22}bbaet{\k23}gyeo!
+Comment: 0,0:00:37.20,0:00:38.48,Zoey,,0,0,0,karaoke,{\k12}AN{\k32}NOYED {\k9}A {\k15}BIT? {\k10\i1}bu{\k10}reul {\k17}bi{\k23}chwo!
+Comment: 0,0:00:38.48,0:00:40.02,Zoey,,0,0,0,karaoke,{\k22\i1}da {\k12}bi{\k17}kyeo {\k22}ni {\k18}ap {\k7}gi{\k11}reul {\k22}bbaet{\k23}gyeo!
 Comment: 0,0:00:40.66,0:00:43.36,Rumi,,0,0,0,karaoke,{\k24}Knoc{\k18}king {\k36}you {\k38}out {\k20}like {\k19}a {\k37}lul{\k37}la{\k41}by!
 Comment: 0,0:00:43.65,0:00:46.45,Rumi,,0,0,0,karaoke,{\k43}Hear {\k36}that {\k40}sound {\k16}rin{\k20}ging {\k37}in {\k36}your {\k52}mind!
+Comment: 0,0:00:43.65,0:00:46.45,Zoey,,0,0,0,karaoke,{\k43}Hear {\k36}that {\k40}sound {\k16}rin{\k20}ging {\k37}in {\k36}your {\k52}mind!
 Comment: 0,0:00:46.69,0:00:48.51,HUNTR/X,,0,0,0,karaoke,{\k19}Bet{\k18}ter {\k37}sit {\k39}down {\k18}for {\k17}the {\k34}show!
 Comment: 0,0:00:48.51,0:00:50.51,HUNTR/X,,0,0,0,karaoke,{\k44}'Cause {\k36}I'm {\k15}gon{\k23}na {\k35}show {\k47}you
 Comment: 0,0:00:50.77,0:00:52.29,HUNTR/X,,0,0,0,karaoke,{\k23}How {\k18}it's {\k37}done, {\k38}done, {\k36}done!
@@ -58,8 +57,8 @@ Comment: 0,0:01:13.23,0:01:14.76,HUNTR/X,,0,0,0,karaoke,{\k43}HUN{\k38}TRIX {\k3
 Comment: 0,0:01:14.76,0:01:16.23,HUNTR/X,,0,0,0,karaoke,{\k23}How {\k18}it's {\k39}done, {\k39}done, {\k28}done!
 Comment: 0,0:01:21.51,0:01:23.19,Rumi,,0,0,0,karaoke,{\k71}Yuh, {\k24}some{\k10}thing {\k12}a{\k14}bout {\k12}when {\k13}you {\k12}come
 Comment: 0,0:01:23.19,0:01:24.67,Rumi,,0,0,0,karaoke,{\k14}For {\k10}the {\k16}crown {\k11}that's {\k11}so {\k21}hum{\k9}b{\k16}ling, {\k40}ha?
-Comment: 0,0:01:24.90,0:01:26.32,Mira,,0,0,0,karaoke,{\k15}ga{\k14}pia{\k11}gi {\k16}wai {\k11}geu{\k13}rae? {\k12}meon{\k13}jeo {\k12}geon{\k12}deu{\k13}ryeo
-Comment: 0,0:01:26.32,0:01:27.54,Mira,,0,0,0,karaoke,{\k13}wae? {\k8}i{\k16}je{\k13}ya {\k12}po{\k12}gi {\k14}hae, {\k34}WHAT?
+Comment: 0,0:01:24.90,0:01:26.32,Mira,,0,0,0,karaoke,{\k15\i1}ga{\k14}pia{\k11}gi {\k16}wai {\k11}geu{\k13}rae? {\k12}meon{\k13}jeo {\k12}geon{\k12}deu{\k13}ryeo
+Comment: 0,0:01:26.32,0:01:27.54,Mira,,0,0,0,karaoke,{\k13\i1}wae? {\k8}i{\k16}je{\k13}ya {\k12}po{\k12}gi {\k14}hae, {\k34\r}WHAT?
 Comment: 0,0:01:27.54,0:01:28.91,Zoey,,0,0,0,karaoke,{\k17}No{\k10}thing {\k15}to {\k34}us {\k16}run {\k13}up, {\k11}you're {\k12}done {\k9}up!
 Comment: 0,0:01:28.91,0:01:30.08,Zoey,,0,0,0,karaoke,{\k16}We {\k10}come {\k13}up {\k12}from {\k15}sun {\k12}up {\k12}to {\k15}sun{\k12}down
 Comment: 0,0:01:30.08,0:01:30.90,Zoey,,0,0,0,karaoke,{\k13}So {\k11}come {\k14}out {\k12}to {\k32}play!
@@ -73,9 +72,11 @@ Comment: 0,0:01:42.91,0:01:44.42,Zoey,,0,0,0,karaoke,{\k25}Mir{\k16}ror, {\k20}m
 Comment: 0,0:01:44.42,0:01:46.47,Zoey,,0,0,0,karaoke,{\k27}Who's {\k14}the {\k26}bad{\k18}dest? {\k31}Us? {\k25}Hel{\k64}lo!
 Comment: 0,0:01:46.68,0:01:49.34,Rumi,,0,0,0,karaoke,{\k22}Knoc{\k20}king {\k36}you {\k37}out {\k19}like {\k20}a {\k32}lul{\k40}la{\k40}by!
 Comment: 0,0:01:49.64,0:01:52.30,Rumi,,0,0,0,karaoke,{\k43}Hear {\k35}that {\k41}sound {\k18}rin{\k18}ging {\k37}in {\k36}your {\k38}mind!
+Comment: 0,0:01:49.64,0:01:52.30,Zoey,,0,0,0,karaoke,{\k43}Hear {\k35}that {\k41}sound {\k18}rin{\k18}ging {\k37}in {\k36}your {\k38}mind!
 Comment: 0,0:01:52.69,0:01:54.49,HUNTR/X,,0,0,0,karaoke,{\k19}Bet{\k18}ter {\k37}sit {\k38}down {\k19}for {\k17}the {\k32}show!
-Comment: 0,0:01:54.53,0:01:59.62,HUNTR/X,,0,0,0,karaoke,{\k44}'Cause {\k34}I'm {\k17}gon{\k18}na {\k37}show {\kf359}you
-Comment: 0,0:01:56.39,0:01:59.62,HUNTR/X - Choir,,0,0,0,karaoke,{\k46}I'm {\k15}gon{\k16}na {\k40}show {\k36}you! {\k39}I'm {\k21}gon{\k17}na {\k38}show {\k55}you!
+Comment: 0,0:01:54.53,0:01:59.62,Mira,,0,0,0,karaoke,{\k44}'Cause {\k34}I'm {\k17}gon{\k18}na {\k37}show {\kf359}you
+Comment: 0,0:01:56.39,0:01:57.92,Zoey,,0,0,0,karaoke,{\k46}I'm {\k15}gon{\k16}na {\k40}show {\k36}you!
+Comment: 0,0:01:57.92,0:01:59.62,Rumi,,0,0,0,karaoke,{\k39}I'm {\k21}gon{\k17}na {\k38}show {\k55}you!
 Comment: 0,0:01:59.77,0:02:01.31,HUNTR/X,,0,0,0,karaoke,{\k23}How {\k18}it's {\k37}done, {\k38}done, {\k38}done!
 Comment: 0,0:02:01.31,0:02:03.87,Mira,,0,0,0,karaoke,{\k15}I {\k17}don't {\k43}talk, {\k21}but {\k18}I {\k38}bite! {\k13}Full {\k24}of {\k31}ve{\k36}nom!
 Comment: 0,0:02:04.07,0:02:05.77,Mira,,0,0,0,karaoke,{\k40}Spit{\k16}tin' {\k48}facts! {\k15}You {\k18}know {\k33}that's
@@ -99,7 +100,7 @@ Comment: 0,0:02:43.49,0:02:46.50,HUNTR/X,,0,0,0,karaoke,{\k21}We {\k30}got {\k43
 Comment: 0,0:02:46.50,0:02:49.27,HUNTR/X,,0,0,0,karaoke,{\k17}We {\k41}show {\k34}you {\k72}how, {\k75}how, {\k38}how!
 Comment: 0,0:02:49.27,0:02:50.79,HUNTR/X,,0,0,0,karaoke,{\k36}HUN{\k42}TRIX {\k36}don't {\k38}miss
 Comment: 0,0:02:50.79,0:02:52.31,HUNTR/X,,0,0,0,karaoke,{\k20}How {\k19}it's {\k38}done, {\k39}done, {\k36}done!
-Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HC15975&}HUNTR/X{\c} | {\c&HED5EC1&}Rumi{\c} | {\c&H8561D1&}Mira{\c} | {\c&HA6D118&}Zoey
+Dialogue: 0,0:00:00.00,0:00:10.20,HUNTR/X,,0,0,200,fx,{\k0\fad(0,200)}{\kf286}{\pos(5)}HUNTR/X {\kf71}| {\kf179}{\rRumi}Rumi {\kf71}| {\kf179}{\rMira}Mira {\kf71}| {\kf143}{\rZoey}Zoey
 Dialogue: 0,0:00:07.06,0:00:10.76,Rumi,,0,0,0,fx,{\k90\fad(300,200)}{\k86}Ugh, {\k12}you {\k23}came {\k9}at {\k21}a {\k45}bad {\k64}time
 Dialogue: 0,0:00:10.12,0:00:12.79,Rumi,,0,0,0,fx,{\k90\fad(300,200)}{\k13}But {\k19}you {\k28}just {\k38}crossed {\k18}the {\k41}line
 Dialogue: 0,0:00:12.23,0:00:16.24,Rumi,,0,0,0,fx,{\k90\fad(300,200)}{\k17}You {\k12}wan{\k13}na {\k24}get {\k83}wild? {\k20}O{\k15}kay, {\k20}I'll {\k25}show {\k17}you {\k45}wild!
@@ -108,7 +109,7 @@ Dialogue: 0,0:00:16.95,0:00:19.08,Rumi,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Get{\k
 Dialogue: 0,0:00:18.39,0:00:21.02,Rumi,,0,0,0,fx,{\k90\fad(300,200)}{\k17}'Cause {\k7}you {\k15}might {\k38}die, {\k13}ne{\k7}ver {\k14}the {\k42}time
 Dialogue: 0,0:00:19.92,0:00:22.14,Rumi,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Tryin' {\k13}to {\k29}start {\k20}a {\k15}bat{\k21}tle
 Dialogue: 0,0:00:21.42,0:00:23.96,Mira,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Blee{\k17}ding {\k11}i{\k26}sn't {\k11}in {\k26}my {\k32}blood!
-Dialogue: 0,0:00:22.91,0:00:25.48,Mira,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ppyeo{\k21}sok{\k18}bu{\k18}teo {\k16}da{\k22}la{\k34}seo!
+Dialogue: 0,0:00:22.91,0:00:25.48,Mira,,0,0,0,fx,{\k90\fad(300,200)}{\k18\i1}ppyeo{\k21}sok{\k18}bu{\k18}teo {\k16}da{\k22}la{\k34}seo!
 Dialogue: 0,0:00:24.40,0:00:28.07,Mira,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Bea{\k15}ting {\k27}you {\k14}is {\k21}what {\k18}I {\k36}do {\k40}do {\k28}do, {\k38}yeah!
 Dialogue: 0,0:00:26.99,0:00:30.57,HUNTR/X,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Bo{\k14}dy {\k20}on {\k24}bo{\k14}dy {\k15}I'm {\k24}naugh{\k14}ty, {\k25}not {\k12}e{\k16}ven {\k27}sor{\k16}ry!
 Dialogue: 0,0:00:29.66,0:00:32.07,HUNTR/X,,0,0,0,fx,{\k90\fad(300,200)}{\k15}When {\k22}you {\k18}pull {\k20}up, {\k18}I'll {\k19}pull {\k19}up
@@ -116,10 +117,11 @@ Dialogue: 0,0:00:30.97,0:00:33.50,HUNTR/X,,0,0,0,fx,{\k90\fad(300,200)}{\k16}A {
 Dialogue: 0,0:00:32.43,0:00:34.38,HUNTR/X,,0,0,0,fx,{\k90\fad(300,200)}{\k24}La {\k19}la {\k19}la {\k23}la
 Dialogue: 0,0:00:33.29,0:00:36.02,Zoey,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Locked {\k11}and {\k15}loa{\k12}ded, {\k12}I {\k13}was {\k30}born {\k12}for {\k32}this!
 Dialogue: 0,0:00:34.92,0:00:37.37,Zoey,,0,0,0,fx,{\k90\fad(300,200)}{\k12}There {\k11}ain't {\k15}no {\k13}point {\k9}in {\k14}a{\k28}voi{\k14}ding {\k19}it!
-Dialogue: 0,0:00:36.30,0:00:38.68,Zoey,,0,0,0,fx,{\k90\fad(300,200)}{\k12}AN{\k32}NOYED {\k9}A {\k15}BIT? {\k10}bu{\k10}reul {\k17}bi{\k23}chwo!
-Dialogue: 0,0:00:37.58,0:00:40.22,Zoey,,0,0,0,fx,{\k90\fad(300,200)}{\k22}da {\k12}bi{\k17}kyeo {\k22}ni {\k18}ap {\k7}gi{\k11}reul {\k22}bbaet{\k23}gyeo!
+Dialogue: 0,0:00:36.30,0:00:38.68,Zoey,,0,0,0,fx,{\k90\fad(300,200)}{\k12}AN{\k32}NOYED {\k9}A {\k15}BIT? {\k10\i1}bu{\k10}reul {\k17}bi{\k23}chwo!
+Dialogue: 0,0:00:37.58,0:00:40.22,Zoey,,0,0,0,fx,{\k90\fad(300,200)}{\k22\i1}da {\k12}bi{\k17}kyeo {\k22}ni {\k18}ap {\k7}gi{\k11}reul {\k22}bbaet{\k23}gyeo!
 Dialogue: 0,0:00:39.76,0:00:43.56,Rumi,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Knoc{\k18}king {\k36}you {\k38}out {\k20}like {\k19}a {\k37}lul{\k37}la{\k41}by!
 Dialogue: 0,0:00:42.75,0:00:46.65,Rumi,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Hear {\k36}that {\k40}sound {\k16}rin{\k20}ging {\k37}in {\k36}your {\k52}mind!
+Dialogue: 0,0:00:42.75,0:00:46.65,Zoey,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Hear {\k36}that {\k40}sound {\k16}rin{\k20}ging {\k37}in {\k36}your {\k52}mind!
 Dialogue: 0,0:00:45.79,0:00:48.71,HUNTR/X,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Bet{\k18}ter {\k37}sit {\k39}down {\k18}for {\k17}the {\k34}show!
 Dialogue: 0,0:00:47.61,0:00:50.71,HUNTR/X,,0,0,0,fx,{\k90\fad(300,200)}{\k44}'Cause {\k36}I'm {\k15}gon{\k23}na {\k35}show {\k47}you
 Dialogue: 0,0:00:49.87,0:00:52.49,HUNTR/X,,0,0,0,fx,{\k90\fad(300,200)}{\k23}How {\k18}it's {\k37}done, {\k38}done, {\k36}done!
@@ -134,8 +136,8 @@ Dialogue: 0,0:01:12.33,0:01:14.96,HUNTR/X,,0,0,0,fx,{\k90\fad(300,200)}{\k43}HUN
 Dialogue: 0,0:01:13.86,0:01:16.43,HUNTR/X,,0,0,0,fx,{\k90\fad(300,200)}{\k23}How {\k18}it's {\k39}done, {\k39}done, {\k28}done!
 Dialogue: 0,0:01:20.61,0:01:23.39,Rumi,,0,0,0,fx,{\k90\fad(300,200)}{\k71}Yuh, {\k24}some{\k10}thing {\k12}a{\k14}bout {\k12}when {\k13}you {\k12}come
 Dialogue: 0,0:01:22.29,0:01:24.87,Rumi,,0,0,0,fx,{\k90\fad(300,200)}{\k14}For {\k10}the {\k16}crown {\k11}that's {\k11}so {\k21}hum{\k9}b{\k16}ling, {\k40}ha?
-Dialogue: 0,0:01:24.00,0:01:26.52,Mira,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ga{\k14}pia{\k11}gi {\k16}wai {\k11}geu{\k13}rae? {\k12}meon{\k13}jeo {\k12}geon{\k12}deu{\k13}ryeo
-Dialogue: 0,0:01:25.42,0:01:27.74,Mira,,0,0,0,fx,{\k90\fad(300,200)}{\k13}wae? {\k8}i{\k16}je{\k13}ya {\k12}po{\k12}gi {\k14}hae, {\k34}WHAT?
+Dialogue: 0,0:01:24.00,0:01:26.52,Mira,,0,0,0,fx,{\k90\fad(300,200)}{\k15\i1}ga{\k14}pia{\k11}gi {\k16}wai {\k11}geu{\k13}rae? {\k12}meon{\k13}jeo {\k12}geon{\k12}deu{\k13}ryeo
+Dialogue: 0,0:01:25.42,0:01:27.74,Mira,,0,0,0,fx,{\k90\fad(300,200)}{\k13\i1}wae? {\k8}i{\k16}je{\k13}ya {\k12}po{\k12}gi {\k14}hae, {\k34\r}WHAT?
 Dialogue: 0,0:01:26.64,0:01:29.11,Zoey,,0,0,0,fx,{\k90\fad(300,200)}{\k17}No{\k10}thing {\k15}to {\k34}us {\k16}run {\k13}up, {\k11}you're {\k12}done {\k9}up!
 Dialogue: 0,0:01:28.01,0:01:30.28,Zoey,,0,0,0,fx,{\k90\fad(300,200)}{\k16}We {\k10}come {\k13}up {\k12}from {\k15}sun {\k12}up {\k12}to {\k15}sun{\k12}down
 Dialogue: 0,0:01:29.18,0:01:31.10,Zoey,,0,0,0,fx,{\k90\fad(300,200)}{\k13}So {\k11}come {\k14}out {\k12}to {\k32}play!
@@ -149,9 +151,11 @@ Dialogue: 0,0:01:42.01,0:01:44.62,Zoey,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Mir{\k
 Dialogue: 0,0:01:43.52,0:01:46.67,Zoey,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Who's {\k14}the {\k26}bad{\k18}dest? {\k31}Us? {\k25}Hel{\k64}lo!
 Dialogue: 0,0:01:45.78,0:01:49.54,Rumi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Knoc{\k20}king {\k36}you {\k37}out {\k19}like {\k20}a {\k32}lul{\k40}la{\k40}by!
 Dialogue: 0,0:01:48.74,0:01:52.50,Rumi,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Hear {\k35}that {\k41}sound {\k18}rin{\k18}ging {\k37}in {\k36}your {\k38}mind!
+Dialogue: 0,0:01:48.74,0:01:52.50,Zoey,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Hear {\k35}that {\k41}sound {\k18}rin{\k18}ging {\k37}in {\k36}your {\k38}mind!
 Dialogue: 0,0:01:51.79,0:01:54.69,HUNTR/X,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Bet{\k18}ter {\k37}sit {\k38}down {\k19}for {\k17}the {\k32}show!
-Dialogue: 0,0:01:53.63,0:01:59.82,HUNTR/X,,0,0,0,fx,{\k90\fad(300,200)}{\k44}'Cause {\k34}I'm {\k17}gon{\k18}na {\k37}show {\kf359}you
-Dialogue: 0,0:01:55.49,0:01:59.82,HUNTR/X - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k46}I'm {\k15}gon{\k16}na {\k40}show {\k36}you! {\k39}I'm {\k21}gon{\k17}na {\k38}show {\k55}you!
+Dialogue: 0,0:01:53.63,0:01:59.82,Mira,,0,0,0,fx,{\k90\fad(300,200)}{\k44}'Cause {\k34}I'm {\k17}gon{\k18}na {\k37}show {\kf359}you
+Dialogue: 0,0:01:55.49,0:01:58.12,Zoey,,0,0,0,fx,{\k90\fad(300,200)}{\k46}I'm {\k15}gon{\k16}na {\k40}show {\k36}you!
+Dialogue: 0,0:01:57.02,0:01:59.82,Rumi,,0,0,0,fx,{\k90\fad(300,200)}{\k39}I'm {\k21}gon{\k17}na {\k38}show {\k55}you!
 Dialogue: 0,0:01:58.87,0:02:01.51,HUNTR/X,,0,0,0,fx,{\k90\fad(300,200)}{\k23}How {\k18}it's {\k37}done, {\k38}done, {\k38}done!
 Dialogue: 0,0:02:00.41,0:02:04.07,Mira,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k17}don't {\k43}talk, {\k21}but {\k18}I {\k38}bite! {\k13}Full {\k24}of {\k31}ve{\k36}nom!
 Dialogue: 0,0:02:03.17,0:02:05.97,Mira,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Spit{\k16}tin' {\k48}facts! {\k15}You {\k18}know {\k33}that's
