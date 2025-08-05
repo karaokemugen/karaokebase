@@ -10,11 +10,11 @@ Original Timing: Hanaku
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: CANDY TUNE,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: CANDY TUNE,Arial,24,&H00FFFFFF,&H0034C7D5,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Rino,Arial,24,&H00FFFFFF,&H00DBDA24,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Mizuki,Arial,24,&H00FFFFFF,&H00EA453F,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Natsu,Arial,24,&H00FFFFFF,&H00006DED,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Nanako,Arial,24,&H00FFFFFF,&H00B6C733,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mizuki,Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Natsu,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Nanako,Arial,24,&H00FFFFFF,&H0057C573,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Bibian,Arial,24,&H00FFFFFF,&H009D5BFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Shizuka,Arial,24,&H00FFFFFF,&H00FF66CC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Kotomi,Arial,24,&H00FFFFFF,&H004747FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
@@ -23,6 +23,9 @@ Style: Choir,Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,-1,0,0,100,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,CANDY TUNE,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:04.50,CANDY TUNE,,0,0,170,style,{\k450}{\k0}{\rBibian}Bibian  {\rRino}Rino  {\rMizuki}Mizuki  {\rKotomi}Kotomi
+Dialogue: 0,0:00:00.00,0:00:04.50,CANDY TUNE,,0,0,170,style,{\k450}{\k0}{\rShizuka}Shizuka  {\rNanako}Nanako  {\rNatsu}Natsu
+Dialogue: 0,0:00:00.00,0:00:04.50,CANDY TUNE,,0,0,170,style,{\k450}{\k0}{\rCANDY TUNE}CANDY TUNE    {\rChoir}Choir
 Comment: 0,0:00:01.24,0:00:03.12,Bibian,,0,0,0,karaoke,{\k51}bai {\k19}no {\k21}bai {\k13}no {\k16}FIGH{\k18}T {\k16}bai {\k17}bai {\k17}FIGHT
 Comment: 0,0:00:03.12,0:00:03.99,Bibian,,0,0,0,karaoke,{\k18}BY {\k19}CAN{\k16}DY {\k34}TUNE
 Comment: 0,0:00:03.89,0:00:05.77,Choir,,0,0,0,karaoke,{\k51}bai {\k19}no {\k21}bai {\k13}no {\k16}FIGH{\k18}T {\k16}bai {\k17}bai {\k17}FIGHT
