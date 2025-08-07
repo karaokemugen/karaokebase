@@ -15,10 +15,13 @@ Style: Asahi,Arial,25,&H00FFFFFF,&H000001F3,&H00000000,&H00000000,-1,0,0,0,100,1
 Style: Fuyuko,Arial,25,&H00FFFFFF,&H0026E65C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Mei Izumi,Arial,25,&H00FFFFFF,&H00FF00FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Straylight Choir,Arial,24,&H00FFFFFF,&H00756ECC,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,10,10,80,1
+Style: COLOR CODE,Arial,20,&H0000B4FF,&H0000B4FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Straylight,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:04.00,COLOR CODE,,0,0,0,karaoke,{\c&H0001F3&}Asahi {\c&HFFFFFF&}- {\c&H26E65C&}Fuyuko {\c&HFFFFFF&}- {\c&HFF00FF&}Mei
+Comment: 0,0:00:00.00,0:00:04.00,COLOR CODE,,0,0,0,karaoke,{\c&H5148D2&}Straylight
 Comment: 0,0:00:23.21,0:00:27.61,Asahi,,0,0,0,karaoke,{\k17}ya{\k17}mi {\k17}wo {\k34}ki{\k16}ri{\k31}ki{\k34}za{\k37}mu {\k36}you {\k31}ni {\k18}ta{\k17}ka{\k16}bu{\k34}ru {\k17}o{\k35}mo{\k33}i
 Comment: 0,0:00:27.66,0:00:33.22,Asahi,,0,0,0,karaoke,{\k31}ran{\k29}han{\k20}sha {\k37}TO {\k29}THE {\kf127}STAGE{\kf27} {\k17}mi{\k20}se{\k16}tsu{\k30}ke{\k38}ru {\kf135}wa
 Comment: 0,0:00:33.99,0:00:36.66,Fuyuko,,0,0,0,karaoke,{\k20}me{\k17}za{\k15}su {\k33}mo{\k19}no {\k33}ga {\k34}a{\k33}ru {\k34}ka{\k29}ra
@@ -79,6 +82,8 @@ Comment: 0,0:03:28.61,0:03:29.78,Straylight Choir,,0,0,0,karaoke,{\k35}DANCE {\k
 Comment: 0,0:03:29.80,0:03:34.11,Straylight,,0,0,0,karaoke,{\k35}DAY {\k33}AF{\k34}TER {\k34}DAY {\k32}sa{\k21}ma{\k31}yot{\k33}te {\k17}mo {\k33}ta{\k35}do{\k32}ri{\k20}tsu{\k41}ku
 Comment: 0,0:03:34.34,0:03:38.58,Straylight,,0,0,0,karaoke,{\k19}ta{\k26}ka{\k25}ma{\k17}ru {\k50}ko{\k49}dou {\k33}ga {\k34}na{\k18}ri{\k34}hi{\k32}bi{\k19}te{\k68}ru
 Comment: 0,0:03:38.76,0:03:40.81,Straylight,,0,0,0,karaoke,{\k19}WA{\k16}N{\k16}DE{\k36}RING {\k29}DREAM {\k33}CHA{\k56}SER
+Dialogue: 0,0:00:00.00,0:00:04.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H0001F3&}Asahi {\c&HFFFFFF&}- {\c&H26E65C&}Fuyuko {\c&HFFFFFF&}- {\c&HFF00FF&}Mei
+Dialogue: 0,0:00:00.00,0:00:04.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H5148D2&}Straylight
 Dialogue: 0,0:00:22.31,0:00:27.81,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ya{\k17}mi {\k17}wo {\k34}ki{\k16}ri{\k31}ki{\k34}za{\k37}mu {\k36}you {\k31}ni {\k18}ta{\k17}ka{\k16}bu{\k34}ru {\k17}o{\k35}mo{\k33}i
 Dialogue: 0,0:00:26.76,0:00:33.42,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ran{\k29}han{\k20}sha {\k37}TO {\k29}THE {\kf127}STAGE{\kf27} {\k17}mi{\k20}se{\k16}tsu{\k30}ke{\k38}ru {\kf135}wa
 Dialogue: 0,0:00:33.09,0:00:36.86,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\k20}me{\k17}za{\k15}su {\k33}mo{\k19}no {\k33}ga {\k34}a{\k33}ru {\k34}ka{\k29}ra

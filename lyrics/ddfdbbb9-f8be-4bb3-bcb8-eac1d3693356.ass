@@ -10,7 +10,6 @@ YCbCr Matrix: TV.709
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Liella Choir,Arial,24,&H00FFFFFF,&H00A54A93,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
 Style: Kanon,Arial,24,&H00FFFFFF,&H00277FFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: Keke,Arial,24,&H00FFFFFF,&H00D4DD7D,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: Sumire,Arial,24,&H00FFFFFF,&H0066F474,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
@@ -23,10 +22,15 @@ Style: Kinako,Arial,24,&H00FFFFFF,&H003FECF7,&H00000000,&H00000000,-1,0,0,0,100,
 Style: Wien,Arial,24,&H00FFFFFF,&H00FD9DE4,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Tomari,Arial,24,&H00FFFFFF,&H00DBD068,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Liella UP,Arial,24,&H00FFFFFF,&H00D36BBF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Liella Choir,Arial,24,&H00FFFFFF,&H00A54A93,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: COLOR CODE,Arial,20,&H0000B4FF,&H0000B4FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Liella!,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:06.50,COLOR CODE,,0,0,0,karaoke,{\c&H3FECF7&}Kinako {\c&HFFFFFF&}- {\c&H3535FF&}Mei {\c&HFFFFFF&}- {\c&HAAD182&}Shiki {\c&HFFFFFF&}- {\c&HC451FF&}Natsumi {\c&HFFFFFF&}- {\c&HFD9DE4&}Margarete {\c&HFFFFFF&}- {\c&HDBD068&}Tomari
+Comment: 0,0:00:00.00,0:00:06.50,COLOR CODE,,0,0,0,karaoke,{\c&H277FFF&}Kanon {\c&HFFFFFF&}- {\c&HD4DD7D&}Keke {\c&HFFFFFF&}- {\c&H906EFF&}Chisato {\c&HFFFFFF&}- {\c&H66F474&}Sumire {\c&HFFFFFF&}- {\c&HFF7C4B&}Ren
+Comment: 0,0:00:00.00,0:00:06.50,COLOR CODE,,0,0,0,karaoke,{\c&HD36BBF&}Liella!
 Comment: 0,0:00:00.87,0:00:02.30,Liella Choir,,0,0,0,karaoke,{\k23}gen{\k19}kai {\k24}nan{\k23}ka {\k21}nai {\k33}ya
 Comment: 0,0:00:04.40,0:00:05.84,Liella Choir,,0,0,0,karaoke,{\k20}jou{\k24}shou {\k21}kan{\k23}jou {\k24}tou{\k32}rai
 Comment: 0,0:00:07.51,0:00:10.97,Sumire,,0,0,0,karaoke,{\k48}NOW {\k44}NOW {\k34}NOW {\k33}NOW {\k15}o{\k28}soi {\k23}ja{\k24}nai? {\k18}a{\k25}shi{\k21}ta {\k33}ja
@@ -88,6 +92,9 @@ Comment: 0,0:03:19.71,0:03:22.56,Liella UP,,0,0,0,karaoke,{\k26}son{\k20}nan {\k
 Comment: 0,0:03:23.06,0:03:26.58,Liella UP,,0,0,0,karaoke,{\k45}hei{\k43}jou{\k37}shin {\k32}no {\k45}ma{\k23}ma {\k21}no {\k13}a{\k10}su {\k33}wa {\k12}i{\k38}ya
 Comment: 0,0:03:26.83,0:03:33.23,Liella UP,,0,0,0,karaoke,{\k25}zut{\k22}to {\k22}ha{\k21}na{\k12}sa{\k23}nai {\k10}ko{\k23}no {\k33}ta{\k34}ka{\k21}na{\k43}ri {\k47}AH {\kf304}AH
 Comment: 0,0:03:36.80,0:03:40.87,Liella UP,,0,0,0,karaoke,{\kf407}Yeah
+Dialogue: 0,0:00:00.00,0:00:06.70,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H3FECF7&}Kinako {\c&HFFFFFF&}- {\c&H3535FF&}Mei {\c&HFFFFFF&}- {\c&HAAD182&}Shiki {\c&HFFFFFF&}- {\c&HC451FF&}Natsumi {\c&HFFFFFF&}- {\c&HFD9DE4&}Margarete {\c&HFFFFFF&}- {\c&HDBD068&}Tomari
+Dialogue: 0,0:00:00.00,0:00:06.70,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H277FFF&}Kanon {\c&HFFFFFF&}- {\c&HD4DD7D&}Keke {\c&HFFFFFF&}- {\c&H906EFF&}Chisato {\c&HFFFFFF&}- {\c&H66F474&}Sumire {\c&HFFFFFF&}- {\c&HFF7C4B&}Ren
+Dialogue: 0,0:00:00.00,0:00:06.70,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HD36BBF&}Liella!
 Dialogue: 0,0:00:00.00,0:00:02.50,Liella Choir,,0,0,0,fx,{\k87\fad(870,200)}{\k23}gen{\k19}kai {\k24}nan{\k23}ka {\k21}nai {\k33}ya
 Dialogue: 0,0:00:03.50,0:00:06.04,Liella Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}jou{\k24}shou {\k21}kan{\k23}jou {\k24}tou{\k32}rai
 Dialogue: 0,0:00:06.61,0:00:11.17,Sumire,,0,0,0,fx,{\k90\fad(300,200)}{\k48}NOW {\k44}NOW {\k34}NOW {\k33}NOW {\k15}o{\k28}soi {\k23}ja{\k24}nai? {\k18}a{\k25}shi{\k21}ta {\k33}ja

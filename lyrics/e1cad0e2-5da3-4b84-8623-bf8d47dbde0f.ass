@@ -11,7 +11,7 @@ Original Timing: Azurys
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Aqours UP,Arial,24,&H00FFFFFF,&H00E89F00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
-Style: Aqours DOWN,Arial,24,&H00FFFFFF,&H00E89F00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,0,0,20,1
+Style: Aqours Choir,Arial,24,&H00FFFFFF,&H00E89F00,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
 Style: You,Arial,24,&H00FFFFFF,&H00F9B949,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: Yoshiko,Arial,24,&H00FFFFFF,&H00898989,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: Ruby,Arial,24,&H00FFFFFF,&H00E475FB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
@@ -27,10 +27,14 @@ Style: Riko Left,Arial,24,&H00FFFFFF,&H00AC9EFF,&H00000000,&H00000000,-1,0,0,0,1
 Style: Kanan Right,Arial,24,&H00FFFFFF,&H00B7C127,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,9,15,15,20,1
 Style: Dia Left,Arial,24,&H00FFFFFF,&H003908DB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,7,15,15,20,1
 Style: Yoshiko Right,Arial,24,&H00FFFFFF,&H00898989,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,9,15,15,20,1
+Style: COLOR CODE,Arial,20,&H0000B4FF,&H0000B4FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Liyuu,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\kf90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Aqours UP,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\kf90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:07.00,COLOR CODE,,0,0,0,karaoke,{\c&HAEE813&}Kanan {\c&HFFFFFF&}- {\c&HEB58AE&}Mari {\c&HFFFFFF&}- {\c&H4C3BF2&}Dia
+Comment: 0,0:00:00.00,0:00:07.00,COLOR CODE,,0,0,0,karaoke,{\c&H4795FF&}Chika {\c&HFFFFFF&}- {\c&HF9B949&}You {\c&HFFFFFF&}- {\c&HAC9EFF&}Riko {\c&HFFFFFF&}- {\c&H10D0FF&}Hanamaru {\c&HFFFFFF&}- {\c&H898989&}Yoshiko {\c&HFFFFFF&}- {\c&HE475FB&}Ruby
+Comment: 0,0:00:00.00,0:00:07.00,COLOR CODE,,0,0,0,karaoke,{\c&HE89F00&}Aqours
 Comment: 0,0:00:09.85,0:00:12.76,Aqours UP,,0,0,0,karaoke,{\k35}HEL{\kf97}LO! {\k33}NEW {\kf126}WORLD!
 Comment: 0,0:00:14.34,0:00:19.13,Aqours UP,,0,0,0,karaoke,{\k36}ko{\k31}ko{\k30}ro {\k70}wa{\k30} {\k16}ki{\k14}bo{\k34}u {\k14}da{\k32}ra{\k13}ke {\kf159}sa
 Comment: 0,0:00:28.24,0:00:30.67,Chika,,0,0,0,karaoke,{\k23}ma{\k13}i{\k13}ni{\k31}chi {\k31}yo {\k19}ta{\k26}no{\k20}shi{\k31}ku {\k22}na{\k14}re
@@ -44,19 +48,19 @@ Comment: 0,0:00:46.94,0:00:49.21,You Right,,0,0,0,karaoke,{\k25}is{\kf85}sho {\k
 Comment: 0,0:00:49.73,0:00:54.58,Riko,,0,0,0,karaoke,{\k38}ki{\k19}mi {\k26}wo {\k29}shi{\k50}n{\k36}ji{\k35}ru{\k28} {\k31}{\rKanan}bo{\k19}ku {\k26}wo {\k35}shin{\k47}ji{\k31}te {\k35}yo
 Comment: 0,0:00:55.21,0:00:58.58,Riko Left,,0,0,0,karaoke,{\k33}kak{\k31}kou {\k27}yo {\k35}su{\k34}gi{\k28}ta {\k35}ka{\kf114}na?
 Comment: 0,0:00:55.21,0:00:58.58,Kanan Right,,0,0,0,karaoke,{\k33}kak{\k31}kou {\k27}yo {\k35}su{\k34}gi{\k28}ta {\k35}ka{\kf114}na?
-Comment: 0,0:00:57.37,0:00:59.44,Aqours DOWN,,0,0,0,karaoke,{\k50}(SUN∞{\k50}SHINE {\k18}E{\k17}VO{\k38}LU{\k34}TION)
+Comment: 0,0:00:57.37,0:00:59.44,Aqours Choir,,0,0,0,karaoke,{\k50}SUN∞{\k50}SHINE {\k18}E{\k17}VO{\k38}LU{\k34}TION
 Comment: 0,0:00:59.41,0:01:01.49,Riko Left,,0,0,0,karaoke,{\k28}de{\k25}mo {\k52}hon{\k47}tou {\k28}da {\k28}yo!
 Comment: 0,0:00:59.41,0:01:01.49,Kanan Right,,0,0,0,karaoke,{\k28}de{\k25}mo {\k52}hon{\k47}tou {\k28}da {\k28}yo!
 Comment: 0,0:01:01.87,0:01:02.68,Aqours UP,,0,0,0,karaoke,{\k35}FU{\k17}TURE {\k29}FLIGHT
 Comment: 0,0:01:02.74,0:01:04.15,Aqours UP,,0,0,0,karaoke,{\k32}do{\k16}ko{\k16}ma{\k10}de {\k21}to{\k28}bou {\k18}ka
-Comment: 0,0:01:04.18,0:01:04.64,Aqours DOWN,,0,0,0,karaoke,{\k29}(LET'S {\k17}FLY!)
+Comment: 0,0:01:04.18,0:01:04.64,Aqours Choir,,0,0,0,karaoke,{\k29}LET'S {\k17}FLY!
 Comment: 0,0:01:04.41,0:01:06.76,Aqours UP,,0,0,0,karaoke,{\k21}so{\k17}ra {\k17}ni {\k30}kai{\k31}chat{\k16}te {\k18}mi{\k10}te {\k25}yo {\k24}GO {\k26}SIGN
-Comment: 0,0:01:06.76,0:01:07.25,Aqours DOWN,,0,0,0,karaoke,{\k13}(A{\k13}qours {\k23}JET!)
+Comment: 0,0:01:06.76,0:01:07.25,Aqours Choir,,0,0,0,karaoke,{\k13}A{\k13}qours {\k23}JET!
 Comment: 0,0:01:07.32,0:01:10.05,Aqours UP,,0,0,0,karaoke,{\k19}yo{\k30}kan {\k18}ka{\k39}ra{\k23} {\k16}ke{\k33}tsu{\k18}i {\k13}de {\k17}mi{\k47}rai
 Comment: 0,0:01:10.37,0:01:12.40,Aqours UP,,0,0,0,karaoke,{\k19}ki{\k17}mi {\k26}to {\k19}ki{\k17}mi {\k23}to {\k19}su{\k18}su{\k45}mou!
 Comment: 0,0:01:12.16,0:01:12.88,Aqours UP,,0,0,0,karaoke,{\k29}FU{\k15}TURE {\k28}FLIGHT
 Comment: 0,0:01:12.93,0:01:14.40,Aqours UP,,0,0,0,karaoke,{\k33}do{\k15}ko{\k18}ma{\k11}de {\k19}mo {\k31}ton{\k20}de
-Comment: 0,0:01:14.38,0:01:14.91,Aqours DOWN,,0,0,0,karaoke,{\k29}(LET'S {\k24}FLY!)
+Comment: 0,0:01:14.38,0:01:14.91,Aqours Choir,,0,0,0,karaoke,{\k29}LET'S {\k24}FLY!
 Comment: 0,0:01:14.71,0:01:18.50,Aqours UP,,0,0,0,karaoke,{\k14}ko{\k18}re{\k14}ka{\k33}ra {\k19}do{\k13}n{\k14}na {\k15}ko{\k19}to {\k12}ga {\k31}ha{\k34}ji{\k16}ma{\k34}ru {\k31}no {\k62}ka
 Comment: 0,0:01:18.76,0:01:23.00,Aqours UP,,0,0,0,karaoke,{\k35}sou{\k34}zou {\k36}ko{\k27}e{\k32}ta {\kf99}na{\k31}ni{\kf130}ka
 Comment: 0,0:01:23.96,0:01:26.96,Aqours UP,,0,0,0,karaoke,{\k14}o{\k15}ko{\k31}rut{\k19}te{\k29}ba... {\k33}FU{\k14}TURE {\kf145}FLIGHT!!
@@ -70,18 +74,18 @@ Comment: 0,0:01:54.59,0:01:56.97,Dia Left,,0,0,0,karaoke,{\k30}kou{\k81}tei {\k1
 Comment: 0,0:01:54.59,0:01:56.97,Yoshiko Right,,0,0,0,karaoke,{\k30}kou{\k81}tei {\k17}no {\k17}ma{\kf93}hou
 Comment: 0,0:01:57.44,0:02:02.40,Hanamaru,,0,0,0,karaoke,{\k32}bo{\k19}ku {\k30}wa {\k32}shi{\k45}n{\k36}ji{\k28}ru{\k29} {\rMari}{\k36}ki{\k20}mi {\k29}wo {\k29}shin{\k51}ji{\k26}ru {\k54}yo
 Comment: 0,0:02:02.85,0:02:06.21,Ruby,,0,0,0,karaoke,{\k29}mou {\k36}ki{\k27}me{\k36}chat{\k31}ta {\k32}ka{\k32}ra {\kf113}ne
-Comment: 0,0:02:04.97,0:02:07.31,Aqours DOWN,,0,0,0,karaoke,{\k59}(SUN∞{\k53}SHINE {\k16}E{\k16}VO{\k38}LU{\k52}TION)
+Comment: 0,0:02:04.97,0:02:07.31,Aqours Choir,,0,0,0,karaoke,{\k59}SUN∞{\k53}SHINE {\k16}E{\k16}VO{\k38}LU{\k52}TION
 Comment: 0,0:02:07.06,0:02:11.75,Ruby,,0,0,0,karaoke,{\k30}ki{\k26}mi {\kf127}wa?{\k66} {\k35}{\rAqours UP}ki{\k25}mi {\k56}wa {\k36}dou{\k36}su{\k32}ru?
 Comment: 0,0:02:12.09,0:02:12.82,Aqours UP,,0,0,0,karaoke,{\k30}FU{\k17}TURE {\k26}SKY
 Comment: 0,0:02:12.88,0:02:14.39,Aqours UP,,0,0,0,karaoke,{\k38}yu{\k15}me{\k14}mi{\k15}te {\k17}to{\k28}bou {\k24}yo
-Comment: 0,0:02:14.34,0:02:14.83,Aqours DOWN,,0,0,0,karaoke,{\k30}(LET'S {\k19}FLY!)
+Comment: 0,0:02:14.34,0:02:14.83,Aqours Choir,,0,0,0,karaoke,{\k30}LET'S {\k19}FLY!
 Comment: 0,0:02:14.67,0:02:17.03,Aqours UP,,0,0,0,karaoke,{\k17}so{\k14}ra {\k19}wa {\k29}tei{\k33}in {\k15}ga {\k17}na{\k13}i{\k17}shi {\k32}mou {\k30}DASH
-Comment: 0,0:02:16.93,0:02:17.43,Aqours DOWN,,0,0,0,karaoke,{\k14}(A{\k13}qours {\k23}JET!)
+Comment: 0,0:02:16.93,0:02:17.43,Aqours Choir,,0,0,0,karaoke,{\k14}A{\k13}qours {\k23}JET!
 Comment: 0,0:02:17.55,0:02:20.31,Aqours UP,,0,0,0,karaoke,{\k13}a{\k35}shi{\k15}ta {\k37}no{\k29} {\k13}a{\k35}shi{\k14}ta {\k18}wa {\k14}mi{\k53}rai
 Comment: 0,0:02:20.56,0:02:22.64,You,,0,0,0,karaoke,{\k21}ki{\k15}mi {\k36}ga {\k11}i{\k17}re{\k32}ba {\k14}u{\k14}re{\k48}shii!
 Comment: 0,0:02:22.37,0:02:23.01,Aqours UP,,0,0,0,karaoke,{\k24}FU{\k15}TURE {\k25}SKY
 Comment: 0,0:02:23.11,0:02:24.61,Aqours UP,,0,0,0,karaoke,{\k36}yu{\k17}me{\k15}mi{\k13}ta{\k16}ra {\k33}ton{\k20}de
-Comment: 0,0:02:24.53,0:02:25.03,Aqours DOWN,,0,0,0,karaoke,{\k34}(LET'S {\k16}FLY!)
+Comment: 0,0:02:24.53,0:02:25.03,Aqours Choir,,0,0,0,karaoke,{\k34}LET'S {\k16}FLY!
 Comment: 0,0:02:24.91,0:02:28.72,Aqours UP,,0,0,0,karaoke,{\k15}ko{\k16}re{\k15}ka{\k31}ra {\k31}don{\k18}na {\k16}ko{\k16}to {\k19}de {\k30}o{\k30}do{\k16}ro{\k32}ku {\k33}no {\k63}ka
 Comment: 0,0:02:28.92,0:02:33.17,Aqours UP,,0,0,0,karaoke,{\k41}sou{\k37}zou {\k31}ko{\k30}e{\k28}ta {\kf98}na{\k35}ni{\kf125}ka
 Comment: 0,0:02:34.10,0:02:39.50,Aqours UP,,0,0,0,karaoke,{\k21}ma{\k19}chi{\k28}u{\k20}ke{\k28}ro... {\k31}FU{\k14}TURE {\kf379}SKY!!
@@ -97,19 +101,22 @@ Comment: 0,0:03:15.95,0:03:17.46,Mari,,0,0,0,karaoke,{\k37}mo{\k26}to{\k32}me {\
 Comment: 0,0:03:17.90,0:03:21.58,Ruby,,0,0,0,karaoke,{\k31}dek{\k14}ka{\k18}ku {\k32}no{\k26}zon{\kf247}jae!
 Comment: 0,0:03:23.61,0:03:24.39,Aqours UP,,0,0,0,karaoke,{\k29}FU{\k19}TURE {\k30}FLIGHT
 Comment: 0,0:03:24.45,0:03:25.88,Aqours UP,,0,0,0,karaoke,{\k27}do{\k17}ko{\k14}ma{\k16}de {\k18}to{\k34}bou {\k17}ka
-Comment: 0,0:03:25.81,0:03:26.42,Aqours DOWN,,0,0,0,karaoke,{\k36}(LET'S {\k25}FLY!)
+Comment: 0,0:03:25.81,0:03:26.42,Aqours Choir,,0,0,0,karaoke,{\k36}LET'S {\k25}FLY!
 Comment: 0,0:03:26.18,0:03:28.55,Aqours UP,,0,0,0,karaoke,{\k16}so{\k13}ra {\k18}ni {\k35}kai{\k27}chat{\k13}te {\k19}mi{\k13}te {\k21}yo {\k27}GO {\k35}SIGN
-Comment: 0,0:03:28.43,0:03:29.00,Aqours DOWN,,0,0,0,karaoke,{\k12}(A{\k19}qours {\k26}JET!)
+Comment: 0,0:03:28.43,0:03:29.00,Aqours Choir,,0,0,0,karaoke,{\k12}A{\k19}qours {\k26}JET!
 Comment: 0,0:03:29.00,0:03:31.86,Aqours UP,,0,0,0,karaoke,{\k22}yo{\k28}kan {\k17}ka{\k38}ra{\k27} {\k15}ke{\k34}tsu{\k16}i {\k15}de {\k16}mi{\k58}rai
 Comment: 0,0:03:32.06,0:03:34.10,Aqours UP,,0,0,0,karaoke,{\k18}ki{\k13}mi {\k33}to {\k17}ki{\k14}mi {\k25}to {\k19}su{\k20}su{\k45}mou!
 Comment: 0,0:03:33.82,0:03:34.54,Aqours UP,,0,0,0,karaoke,{\k28}FU{\k18}TURE {\k26}FLIGHT
 Comment: 0,0:03:34.62,0:03:36.17,Aqours UP,,0,0,0,karaoke,{\k31}do{\k18}ko{\k16}ma{\k14}de {\k17}mo {\k33}ton{\k26}de
-Comment: 0,0:03:36.04,0:03:36.54,Aqours DOWN,,0,0,0,karaoke,{\k34}(LET'S {\k16}FLY!)
+Comment: 0,0:03:36.04,0:03:36.54,Aqours Choir,,0,0,0,karaoke,{\k34}LET'S {\k16}FLY!
 Comment: 0,0:03:36.42,0:03:40.18,Aqours UP,,0,0,0,karaoke,{\k18}ko{\k14}re{\k15}ka{\k25}ra {\k33}don{\k19}na {\k15}ko{\k15}to {\k16}ga {\k31}ha{\k36}ji{\k16}ma{\k29}ru {\k32}no {\k62}ka
 Comment: 0,0:03:40.41,0:03:44.69,Aqours UP,,0,0,0,karaoke,{\k43}sou{\k35}zou {\k29}ko{\k33}e{\k27}ta {\kf103}na{\k29}ni{\kf129}ka
 Comment: 0,0:03:45.59,0:03:49.82,Aqours UP,,0,0,0,karaoke,{\k35}ma{\k35}chi{\k28}u{\k31}ke{\k26}ro {\kf102}so{\k28}ra {\kf138}wa
 Comment: 0,0:03:50.72,0:03:53.84,Aqours UP,,0,0,0,karaoke,{\k22}hi{\k14}ro{\k32}in {\k15}da{\k31}ze... {\k30}FU{\k15}TURE {\kf153}FLIGHT!!
 Comment: 0,0:03:55.81,0:04:00.03,Aqours UP,,0,0,0,karaoke,{\k22}mo{\k16}e{\k30}te {\k17}ki{\k26}ta {\k34}yo {\kf277}"FLIGHT!!"
+Dialogue: 0,0:00:00.00,0:00:07.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HAEE813&}Kanan {\c&HFFFFFF&}- {\c&HEB58AE&}Mari {\c&HFFFFFF&}- {\c&H4C3BF2&}Dia
+Dialogue: 0,0:00:00.00,0:00:07.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H4795FF&}Chika {\c&HFFFFFF&}- {\c&HF9B949&}You {\c&HFFFFFF&}- {\c&HAC9EFF&}Riko {\c&HFFFFFF&}- {\c&H10D0FF&}Hanamaru {\c&HFFFFFF&}- {\c&H898989&}Yoshiko {\c&HFFFFFF&}- {\c&HE475FB&}Ruby
+Dialogue: 0,0:00:00.00,0:00:07.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HE89F00&}Aqours
 Dialogue: 0,0:00:08.95,0:00:12.96,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k35}HEL{\kf97}LO! {\k33}NEW {\kf126}WORLD!
 Dialogue: 0,0:00:13.44,0:00:19.33,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k36}ko{\k31}ko{\k30}ro {\k70}wa{\k30} {\k16}ki{\k14}bo{\k34}u {\k14}da{\k32}ra{\k13}ke {\kf159}sa
 Dialogue: 0,0:00:27.34,0:00:30.87,Chika,,0,0,0,fx,{\kf90\fad(300,200)}{\k23}ma{\k13}i{\k13}ni{\k31}chi {\k31}yo {\k19}ta{\k26}no{\k20}shi{\k31}ku {\k22}na{\k14}re
@@ -123,19 +130,19 @@ Dialogue: 0,0:00:46.04,0:00:49.41,You Right,,0,0,0,fx,{\kf90\fad(300,200)}{\k25}
 Dialogue: 0,0:00:48.83,0:00:54.78,Riko,,0,0,0,fx,{\kf90\fad(300,200)}{\k38}ki{\k19}mi {\k26}wo {\k29}shi{\k50}n{\k36}ji{\k35}ru{\k28} {\k31}{\rKanan}bo{\k19}ku {\k26}wo {\k35}shin{\k47}ji{\k31}te {\k35}yo
 Dialogue: 0,0:00:54.31,0:00:58.78,Riko Left,,0,0,0,fx,{\kf90\fad(300,200)}{\k33}kak{\k31}kou {\k27}yo {\k35}su{\k34}gi{\k28}ta {\k35}ka{\kf114}na?
 Dialogue: 0,0:00:54.31,0:00:58.78,Kanan Right,,0,0,0,fx,{\kf90\fad(300,200)}{\k33}kak{\k31}kou {\k27}yo {\k35}su{\k34}gi{\k28}ta {\k35}ka{\kf114}na?
-Dialogue: 0,0:00:56.47,0:00:59.64,Aqours DOWN,,0,0,0,fx,{\kf90\fad(300,200)}{\k50}(SUN∞{\k50}SHINE {\k18}E{\k17}VO{\k38}LU{\k34}TION)
+Dialogue: 0,0:00:56.47,0:00:59.64,Aqours Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k50}SUN∞{\k50}SHINE {\k18}E{\k17}VO{\k38}LU{\k34}TION
 Dialogue: 0,0:00:58.51,0:01:01.69,Riko Left,,0,0,0,fx,{\kf90\fad(300,200)}{\k28}de{\k25}mo {\k52}hon{\k47}tou {\k28}da {\k28}yo!
 Dialogue: 0,0:00:58.51,0:01:01.69,Kanan Right,,0,0,0,fx,{\kf90\fad(300,200)}{\k28}de{\k25}mo {\k52}hon{\k47}tou {\k28}da {\k28}yo!
 Dialogue: 0,0:01:00.97,0:01:02.88,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k35}FU{\k17}TURE {\k29}FLIGHT
 Dialogue: 0,0:01:01.84,0:01:04.35,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k32}do{\k16}ko{\k16}ma{\k10}de {\k21}to{\k28}bou {\k18}ka
-Dialogue: 0,0:01:03.28,0:01:04.84,Aqours DOWN,,0,0,0,fx,{\kf90\fad(300,200)}{\k29}(LET'S {\k17}FLY!)
+Dialogue: 0,0:01:03.28,0:01:04.84,Aqours Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k29}LET'S {\k17}FLY!
 Dialogue: 0,0:01:03.51,0:01:06.96,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k21}so{\k17}ra {\k17}ni {\k30}kai{\k31}chat{\k16}te {\k18}mi{\k10}te {\k25}yo {\k24}GO {\k26}SIGN
-Dialogue: 0,0:01:05.86,0:01:07.45,Aqours DOWN,,0,0,0,fx,{\kf90\fad(300,200)}{\k13}(A{\k13}qours {\k23}JET!)
+Dialogue: 0,0:01:05.86,0:01:07.45,Aqours Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k13}A{\k13}qours {\k23}JET!
 Dialogue: 0,0:01:06.42,0:01:10.25,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k19}yo{\k30}kan {\k18}ka{\k39}ra{\k23} {\k16}ke{\k33}tsu{\k18}i {\k13}de {\k17}mi{\k47}rai
 Dialogue: 0,0:01:09.47,0:01:12.60,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k19}ki{\k17}mi {\k26}to {\k19}ki{\k17}mi {\k23}to {\k19}su{\k18}su{\k45}mou!
 Dialogue: 0,0:01:11.26,0:01:13.08,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k29}FU{\k15}TURE {\k28}FLIGHT
 Dialogue: 0,0:01:12.03,0:01:14.60,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k33}do{\k15}ko{\k18}ma{\k11}de {\k19}mo {\k31}ton{\k20}de
-Dialogue: 0,0:01:13.48,0:01:15.11,Aqours DOWN,,0,0,0,fx,{\kf90\fad(300,200)}{\k29}(LET'S {\k24}FLY!)
+Dialogue: 0,0:01:13.48,0:01:15.11,Aqours Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k29}LET'S {\k24}FLY!
 Dialogue: 0,0:01:13.81,0:01:18.70,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k14}ko{\k18}re{\k14}ka{\k33}ra {\k19}do{\k13}n{\k14}na {\k15}ko{\k19}to {\k12}ga {\k31}ha{\k34}ji{\k16}ma{\k34}ru {\k31}no {\k62}ka
 Dialogue: 0,0:01:17.86,0:01:23.20,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k35}sou{\k34}zou {\k36}ko{\k27}e{\k32}ta {\kf99}na{\k31}ni{\kf130}ka
 Dialogue: 0,0:01:23.06,0:01:27.16,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k14}o{\k15}ko{\k31}rut{\k19}te{\k29}ba... {\k33}FU{\k14}TURE {\kf145}FLIGHT!!
@@ -149,18 +156,18 @@ Dialogue: 0,0:01:53.69,0:01:57.17,Dia Left,,0,0,0,fx,{\kf90\fad(300,200)}{\k30}k
 Dialogue: 0,0:01:53.69,0:01:57.17,Yoshiko Right,,0,0,0,fx,{\kf90\fad(300,200)}{\k30}kou{\k81}tei {\k17}no {\k17}ma{\kf93}hou
 Dialogue: 0,0:01:56.54,0:02:02.60,Hanamaru,,0,0,0,fx,{\kf90\fad(300,200)}{\k32}bo{\k19}ku {\k30}wa {\k32}shi{\k45}n{\k36}ji{\k28}ru{\k29} {\rMari}{\k36}ki{\k20}mi {\k29}wo {\k29}shin{\k51}ji{\k26}ru {\k54}yo
 Dialogue: 0,0:02:01.95,0:02:06.41,Ruby,,0,0,0,fx,{\kf90\fad(300,200)}{\k29}mou {\k36}ki{\k27}me{\k36}chat{\k31}ta {\k32}ka{\k32}ra {\kf113}ne
-Dialogue: 0,0:02:04.07,0:02:07.51,Aqours DOWN,,0,0,0,fx,{\kf90\fad(300,200)}{\k59}(SUN∞{\k53}SHINE {\k16}E{\k16}VO{\k38}LU{\k52}TION)
+Dialogue: 0,0:02:04.07,0:02:07.51,Aqours Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k59}SUN∞{\k53}SHINE {\k16}E{\k16}VO{\k38}LU{\k52}TION
 Dialogue: 0,0:02:06.16,0:02:11.95,Ruby,,0,0,0,fx,{\kf90\fad(300,200)}{\k30}ki{\k26}mi {\kf127}wa?{\k66} {\k35}{\rAqours UP}ki{\k25}mi {\k56}wa {\k36}dou{\k36}su{\k32}ru?
 Dialogue: 0,0:02:11.19,0:02:13.02,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k30}FU{\k17}TURE {\k26}SKY
 Dialogue: 0,0:02:11.98,0:02:14.59,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k38}yu{\k15}me{\k14}mi{\k15}te {\k17}to{\k28}bou {\k24}yo
-Dialogue: 0,0:02:13.44,0:02:15.03,Aqours DOWN,,0,0,0,fx,{\kf90\fad(300,200)}{\k30}(LET'S {\k19}FLY!)
+Dialogue: 0,0:02:13.44,0:02:15.03,Aqours Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k30}LET'S {\k19}FLY!
 Dialogue: 0,0:02:13.77,0:02:17.23,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k17}so{\k14}ra {\k19}wa {\k29}tei{\k33}in {\k15}ga {\k17}na{\k13}i{\k17}shi {\k32}mou {\k30}DASH
-Dialogue: 0,0:02:16.03,0:02:17.63,Aqours DOWN,,0,0,0,fx,{\kf90\fad(300,200)}{\k14}(A{\k13}qours {\k23}JET!)
+Dialogue: 0,0:02:16.03,0:02:17.63,Aqours Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k14}A{\k13}qours {\k23}JET!
 Dialogue: 0,0:02:16.65,0:02:20.51,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k13}a{\k35}shi{\k15}ta {\k37}no{\k29} {\k13}a{\k35}shi{\k14}ta {\k18}wa {\k14}mi{\k53}rai
 Dialogue: 0,0:02:19.66,0:02:22.84,You,,0,0,0,fx,{\kf90\fad(300,200)}{\k21}ki{\k15}mi {\k36}ga {\k11}i{\k17}re{\k32}ba {\k14}u{\k14}re{\k48}shii!
 Dialogue: 0,0:02:21.47,0:02:23.21,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k24}FU{\k15}TURE {\k25}SKY
 Dialogue: 0,0:02:22.21,0:02:24.81,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k36}yu{\k17}me{\k15}mi{\k13}ta{\k16}ra {\k33}ton{\k20}de
-Dialogue: 0,0:02:23.63,0:02:25.23,Aqours DOWN,,0,0,0,fx,{\kf90\fad(300,200)}{\k34}(LET'S {\k16}FLY!)
+Dialogue: 0,0:02:23.63,0:02:25.23,Aqours Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k34}LET'S {\k16}FLY!
 Dialogue: 0,0:02:24.01,0:02:28.92,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k15}ko{\k16}re{\k15}ka{\k31}ra {\k31}don{\k18}na {\k16}ko{\k16}to {\k19}de {\k30}o{\k30}do{\k16}ro{\k32}ku {\k33}no {\k63}ka
 Dialogue: 0,0:02:28.02,0:02:33.37,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k41}sou{\k37}zou {\k31}ko{\k30}e{\k28}ta {\kf98}na{\k35}ni{\kf125}ka
 Dialogue: 0,0:02:33.20,0:02:39.70,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k21}ma{\k19}chi{\k28}u{\k20}ke{\k28}ro... {\k31}FU{\k14}TURE {\kf379}SKY!!
@@ -176,14 +183,14 @@ Dialogue: 0,0:03:15.05,0:03:17.66,Mari,,0,0,0,fx,{\kf90\fad(300,200)}{\k37}mo{\k
 Dialogue: 0,0:03:17.00,0:03:21.78,Ruby,,0,0,0,fx,{\kf90\fad(300,200)}{\k31}dek{\k14}ka{\k18}ku {\k32}no{\k26}zon{\kf247}jae!
 Dialogue: 0,0:03:22.71,0:03:24.59,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k29}FU{\k19}TURE {\k30}FLIGHT
 Dialogue: 0,0:03:23.55,0:03:26.08,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k27}do{\k17}ko{\k14}ma{\k16}de {\k18}to{\k34}bou {\k17}ka
-Dialogue: 0,0:03:24.91,0:03:26.62,Aqours DOWN,,0,0,0,fx,{\kf90\fad(300,200)}{\k36}(LET'S {\k25}FLY!)
+Dialogue: 0,0:03:24.91,0:03:26.62,Aqours Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k36}LET'S {\k25}FLY!
 Dialogue: 0,0:03:25.28,0:03:28.75,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k16}so{\k13}ra {\k18}ni {\k35}kai{\k27}chat{\k13}te {\k19}mi{\k13}te {\k21}yo {\k27}GO {\k35}SIGN
-Dialogue: 0,0:03:27.53,0:03:29.20,Aqours DOWN,,0,0,0,fx,{\kf90\fad(300,200)}{\k12}(A{\k19}qours {\k26}JET!)
+Dialogue: 0,0:03:27.53,0:03:29.20,Aqours Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k12}A{\k19}qours {\k26}JET!
 Dialogue: 0,0:03:28.10,0:03:32.06,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k22}yo{\k28}kan {\k17}ka{\k38}ra{\k27} {\k15}ke{\k34}tsu{\k16}i {\k15}de {\k16}mi{\k58}rai
 Dialogue: 0,0:03:31.16,0:03:34.30,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k18}ki{\k13}mi {\k33}to {\k17}ki{\k14}mi {\k25}to {\k19}su{\k20}su{\k45}mou!
 Dialogue: 0,0:03:32.92,0:03:34.74,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k28}FU{\k18}TURE {\k26}FLIGHT
 Dialogue: 0,0:03:33.72,0:03:36.37,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k31}do{\k18}ko{\k16}ma{\k14}de {\k17}mo {\k33}ton{\k26}de
-Dialogue: 0,0:03:35.14,0:03:36.74,Aqours DOWN,,0,0,0,fx,{\kf90\fad(300,200)}{\k34}(LET'S {\k16}FLY!)
+Dialogue: 0,0:03:35.14,0:03:36.74,Aqours Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k34}LET'S {\k16}FLY!
 Dialogue: 0,0:03:35.52,0:03:40.38,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k18}ko{\k14}re{\k15}ka{\k25}ra {\k33}don{\k19}na {\k15}ko{\k15}to {\k16}ga {\k31}ha{\k36}ji{\k16}ma{\k29}ru {\k32}no {\k62}ka
 Dialogue: 0,0:03:39.51,0:03:44.89,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k43}sou{\k35}zou {\k29}ko{\k33}e{\k27}ta {\kf103}na{\k29}ni{\kf129}ka
 Dialogue: 0,0:03:44.69,0:03:50.02,Aqours UP,,0,0,0,fx,{\kf90\fad(300,200)}{\k35}ma{\k35}chi{\k28}u{\k31}ke{\k26}ro {\kf102}so{\k28}ra {\kf138}wa

@@ -15,10 +15,13 @@ Style: CatChu!,Arial,24,&H00FFFFFF,&H00483FDB,&H00000000,&H00000000,-1,0,0,0,100
 Style: Sumire,Arial,24,&H00FFFFFF,&H0066F474,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: Mei,Arial,24,&H00FFFFFF,&H003535FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: COLOR CODE,Arial,20,&H0000B4FF,&H0000B4FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:04.00,COLOR CODE,,0,0,0,karaoke,{\c&H277FFF&}Kanon {\c&HFFFFFF&}- {\c&H66F474&}Sumire {\c&HFFFFFF&}- {\c&H3535FF&}Mei
+Comment: 0,0:00:00.00,0:00:04.00,COLOR CODE,,0,0,0,karaoke,{\c&H483FDB&}Catchu!
 Comment: 0,0:00:15.86,0:00:18.95,Sumire,,0,0,0,karaoke,{\k23}bo{\k14}ku {\k34}ja{\k21}na{\k70}kya {\k12}de{\k12}ki{\k28}na{\k33}i {\k21}ko{\k41}to
 Comment: 0,0:00:19.25,0:00:22.14,Sumire,,0,0,0,karaoke,{\k23}do{\k21}re {\k13}da{\k32}ke {\k24}a{\k43}run{\k45}da{\kf88}rou
 Comment: 0,0:00:22.81,0:00:26.10,Kanon,,0,0,0,karaoke,{\k15}ryo{\k11}u{\k21}te {\k12}no {\k31}yu{\k21}bi {\k74}ja {\k11}ta{\k10}ri{\k30}nai {\k33}ku{\k24}ra{\k53}i
@@ -36,7 +39,7 @@ Comment: 0,0:01:01.94,0:01:05.17,Mei,,0,0,0,karaoke,{\k29}hi{\k15}ra{\k38}kun{\k
 Comment: 0,0:01:05.36,0:01:09.15,Kanon,,0,0,0,karaoke,{\k12}to{\k12}ri{\k19}to{\k19}me {\k35}mo {\k28}na{\k50}ku {\k13}tsu{\k15}na{\k21}i{\k23}de {\k29}i{\k38}ko{\k65}u
 Comment: 0,0:01:09.38,0:01:13.67,Mei,,0,0,0,karaoke,{\k23}A{\k36}L{\k32}TER{\k45}NATE {\k12}o{\k12}wa{\k22}ra{\k22}na{\k33}i {\k35}yo {\k43}ka{\k18}ga{\k23}ya{\k73}ke
 Comment: 0,0:01:20.06,0:01:26.60,Sumire,,0,0,0,karaoke,{\k27}dou{\k27}se {\k11}hi{\k29}to {\k23}no {\k32}na{\k32}ga{\kf97}re{\k41} {\k23}ha{\k25}zu{\k21}re{\k28}te {\k40}shi{\k20}ma{\k44}u {\k45}na{\kf89}ra
-Comment: 0,0:01:26.12,0:01:29.08,Sample KM [Choir],,0,0,0,karaoke,{\k50}ki{\k42}mi {\k44}to {\kf160}aa
+Comment: 0,0:01:26.12,0:01:29.08,Sample KM [Choir],,0,0,0,karaoke,{\k50}ki{\k42}mi {\k44}to, {\kf160}ah
 Comment: 0,0:01:27.25,0:01:30.55,Sumire,,0,0,0,karaoke,{\k13}mo{\k10}ta{\k24}tsu{\k16}ku {\k32}yo{\k23}ri {\k64}mo {\k17}ha{\k11}shi{\k18}t{\k14}te {\k27}i{\k27}ta{\k34}i
 Comment: 0,0:01:30.91,0:01:33.65,Sumire,,0,0,0,karaoke,{\k24}ma{\k31}e {\k32}no {\k14}me{\k10}ri {\k29}no {\k33}TEM{\k25}PO {\k76}de
 Comment: 0,0:01:34.21,0:01:37.79,Kanon,,0,0,0,karaoke,{\k48}ki{\k20}mi {\k13}ga {\k13}ku{\k21}re{\k22}ta {\k15}mo{\k18}no {\k13}da {\k22}yo {\k23}ji{\k31}yuu {\k15}na {\k22}kan{\k20}jo{\k42}u
@@ -64,6 +67,8 @@ Comment: 0,0:03:03.78,0:03:06.86,CatChu!,,0,0,0,karaoke,{\k23}hi{\k23}ra{\k32}ku
 Comment: 0,0:03:07.12,0:03:10.90,CatChu!,,0,0,0,karaoke,{\k10}to{\k12}ri{\k25}to{\k23}me {\k36}mo {\k31}na{\k45}ku {\k13}tsu{\k12}na{\k21}i{\k22}de {\k32}i{\k30}ko{\k66}u
 Comment: 0,0:03:11.17,0:03:16.79,Sumire,,0,0,0,karaoke,{\k22}A{\k34}L{\k37}TER{\k45}NATE {\rCatChu!}{\k12}o{\k11}wa{\k22}ra{\k20}na{\k35}i {\k31}yo {\k43}ka{\k19}ga{\k25}ya{\kf206}ke
 Comment: 0,0:03:18.06,0:03:24.08,CatChu!,,0,0,0,karaoke,{\k52}WO {\kf130}OH{\k41} {\kf90}WO {\kf96}OH {\kf193}WO
+Dialogue: 0,0:00:00.00,0:00:04.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H277FFF&}Kanon {\c&HFFFFFF&}- {\c&H66F474&}Sumire {\c&HFFFFFF&}- {\c&H3535FF&}Mei
+Dialogue: 0,0:00:00.00,0:00:04.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H483FDB&}Catchu!
 Dialogue: 0,0:00:14.96,0:00:19.15,Sumire,,0,0,0,fx,{\k90\fad(300,200)}{\k23}bo{\k14}ku {\k34}ja{\k21}na{\k70}kya {\k12}de{\k12}ki{\k28}na{\k33}i {\k21}ko{\k41}to
 Dialogue: 0,0:00:18.35,0:00:22.34,Sumire,,0,0,0,fx,{\k90\fad(300,200)}{\k23}do{\k21}re {\k13}da{\k32}ke {\k24}a{\k43}run{\k45}da{\kf88}rou
 Dialogue: 0,0:00:21.91,0:00:26.30,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ryo{\k11}u{\k21}te {\k12}no {\k31}yu{\k21}bi {\k74}ja {\k11}ta{\k10}ri{\k30}nai {\k33}ku{\k24}ra{\k53}i
@@ -81,7 +86,7 @@ Dialogue: 0,0:01:01.04,0:01:05.37,Mei,,0,0,0,fx,{\k90\fad(300,200)}{\k29}hi{\k15
 Dialogue: 0,0:01:04.46,0:01:09.35,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k12}to{\k12}ri{\k19}to{\k19}me {\k35}mo {\k28}na{\k50}ku {\k13}tsu{\k15}na{\k21}i{\k23}de {\k29}i{\k38}ko{\k65}u
 Dialogue: 0,0:01:08.48,0:01:13.87,Mei,,0,0,0,fx,{\k90\fad(300,200)}{\k23}A{\k36}L{\k32}TER{\k45}NATE {\k12}o{\k12}wa{\k22}ra{\k22}na{\k33}i {\k35}yo {\k43}ka{\k18}ga{\k23}ya{\k73}ke
 Dialogue: 0,0:01:19.16,0:01:26.80,Sumire,,0,0,0,fx,{\k90\fad(300,200)}{\k27}dou{\k27}se {\k11}hi{\k29}to {\k23}no {\k32}na{\k32}ga{\kf97}re{\k41} {\k23}ha{\k25}zu{\k21}re{\k28}te {\k40}shi{\k20}ma{\k44}u {\k45}na{\kf89}ra
-Dialogue: 0,0:01:25.22,0:01:29.28,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k50}ki{\k42}mi {\k44}to {\kf160}aa
+Dialogue: 0,0:01:25.22,0:01:29.28,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k50}ki{\k42}mi {\k44}to, {\kf160}ah
 Dialogue: 0,0:01:26.35,0:01:30.75,Sumire,,0,0,0,fx,{\k90\fad(300,200)}{\k13}mo{\k10}ta{\k24}tsu{\k16}ku {\k32}yo{\k23}ri {\k64}mo {\k17}ha{\k11}shi{\k18}t{\k14}te {\k27}i{\k27}ta{\k34}i
 Dialogue: 0,0:01:30.01,0:01:33.85,Sumire,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ma{\k31}e {\k32}no {\k14}me{\k10}ri {\k29}no {\k33}TEM{\k25}PO {\k76}de
 Dialogue: 0,0:01:33.31,0:01:37.99,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k48}ki{\k20}mi {\k13}ga {\k13}ku{\k21}re{\k22}ta {\k15}mo{\k18}no {\k13}da {\k22}yo {\k23}ji{\k31}yuu {\k15}na {\k22}kan{\k20}jo{\k42}u
