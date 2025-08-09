@@ -5,7 +5,7 @@ WrapStyle: 0
 PlayResX: 0
 PlayResY: 0
 ScaledBorderAndShadow: yes
-YCbCr Matrix: PC.601
+YCbCr Matrix: TV.709
 Original Timing: Azurys
 
 [V4+ Styles]
@@ -14,10 +14,13 @@ Style: KALEIDOSCORE,Arial,24,&H00FFFFFF,&H00FF9E3A,&H00000000,&H00000000,-1,0,0,
 Style: Wien,Arial,24,&H00FFFFFF,&H00FD9DE4,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Keke,Arial,24,&H00FFFFFF,&H00E2CF5A,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: Ren,Arial,24,&H00FFFFFF,&H00FF7C4B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: COLOR CODE,Arial,20,&H0000B4FF,&H0000B4FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,KALEIDOSCORE,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:05.00,COLOR CODE,,0,0,0,karaoke,{\c&HE2CF5A&}Keke {\c&HFFFFFF&}- {\c&HFF7C4B&}Ren {\c&HFFFFFF&}- {\c&HFD9DE4&}Margarete
+Comment: 0,0:00:00.00,0:00:05.00,COLOR CODE,,0,0,0,karaoke,{\c&HFF9E3A&}KALEIDOSCORE
 Comment: 0,0:00:15.00,0:00:18.23,Ren,,0,0,0,karaoke,{\k20}to{\k25}me{\k10}no{\k33}na{\k68}ku{\k21} {\k21}a{\k22}te {\k10}do {\k32}na{\k61}ku
 Comment: 0,0:00:18.52,0:00:21.68,Ren,,0,0,0,karaoke,{\k20}wa{\k22}ki {\k15}a{\k36}ga{\k14}ru {\k27}o{\k20}mo{\k35}i {\k31}ga {\k46}a{\k50}ru
 Comment: 0,0:00:22.04,0:00:25.14,Keke,,0,0,0,karaoke,{\k27}ka{\k18}n{\k18}ta{\k26}n {\k59}ni{\k27} {\k25}ko{\k22}to{\k13}ba {\k29}ni {\k46}wa
@@ -62,6 +65,8 @@ Comment: 0,0:03:10.81,0:03:13.79,KALEIDOSCORE,,0,0,0,karaoke,{\k32}tat{\k28}ta {
 Comment: 0,0:03:14.13,0:03:17.43,Keke,,0,0,0,karaoke,{\k20}i{\k32}no{\k31}ri {\k23}tsu{\k36}zu{\k28}ke{\k23}te {\k13}i{\k22}i {\k18}de{\k15}su {\k69}ka?
 Comment: 0,0:03:18.05,0:03:22.22,Wien,,0,0,0,karaoke,{\k25}"o{\k22}ro{\k12}ka{\k32}de{\k22}na{\k20}kya {\k47}yu{\k21}me {\k22}wa {\k45}mi{\k23}re{\k21}na{\k18}i {\kf87}wa"
 Comment: 0,0:03:22.49,0:03:28.02,Ren,,0,0,0,karaoke,{\k22}mi{\k20}chi{\k48}bi{\k20}ka{\k24}re{\k17}ru {\k19}sa{\k23}sa{\k24}ya{\kf199}ki{\kf137}~
+Dialogue: 0,0:00:00.00,0:00:05.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HE2CF5A&}Keke {\c&HFFFFFF&}- {\c&HFF7C4B&}Ren {\c&HFFFFFF&}- {\c&HFD9DE4&}Margarete
+Dialogue: 0,0:00:00.00,0:00:05.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HFF9E3A&}KALEIDOSCORE
 Dialogue: 0,0:00:14.10,0:00:18.43,Ren,,0,0,0,fx,{\k90\fad(300,200)}{\k20}to{\k25}me{\k10}no{\k33}na{\k68}ku{\k21} {\k21}a{\k22}te {\k10}do {\k32}na{\k61}ku
 Dialogue: 0,0:00:17.62,0:00:21.88,Ren,,0,0,0,fx,{\k90\fad(300,200)}{\k20}wa{\k22}ki {\k15}a{\k36}ga{\k14}ru {\k27}o{\k20}mo{\k35}i {\k31}ga {\k46}a{\k50}ru
 Dialogue: 0,0:00:21.14,0:00:25.34,Keke,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ka{\k18}n{\k18}ta{\k26}n {\k59}ni{\k27} {\k25}ko{\k22}to{\k13}ba {\k29}ni {\k46}wa
