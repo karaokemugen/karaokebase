@@ -1,0 +1,21 @@
+﻿[Script Info]
+Title: Gingakei Made Tonde Ike!
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: Elliu
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:07.01,0:00:09.71,Sample KM [Up],,0,0,0,karaoke,{\k11}a{\k29}i{\k14}tsu {\k26}na{\k27}n{\k25}ka{\k26} {\k15}a{\k13}i{\k12}tsu {\k16}na{\k21}n{\k35}ka
+Comment: 0,0:00:11.23,0:00:14.37,Sample KM [Up],,0,0,0,karaoke,{\k36}gin{\k19}ga{\k24}kei {\k16}ma{\k30}de{\k33} {\k26}ton{\k12}de{\k15}kya {\k36}ii {\k17}no {\k50}ni
+Dialogue: 0,0:00:06.11,0:00:09.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}a{\k29}i{\k14}tsu {\k26}na{\k27}n{\k25}ka{\k26} {\k15}a{\k13}i{\k12}tsu {\k16}na{\k21}n{\k35}ka
+Dialogue: 0,0:00:10.33,0:00:14.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}gin{\k19}ga{\k24}kei {\k16}ma{\k30}de{\k33} {\k26}ton{\k12}de{\k15}kya {\k36}ii {\k17}no {\k50}ni
