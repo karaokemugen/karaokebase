@@ -1,0 +1,39 @@
+﻿[Script Info]
+Title: Linga Guli Guli ~ Tannhauser Vers.
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: Elliu
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,1,8,2,2,20,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.48,0:00:01.72,Sample KM [Up],,0,0,0,karaoke,{\k18}WAI {\k14}WAI {\k14}WAI {\k16}WAI {\k16}WAI {\k14}WAI {\k15}WAI {\k17}WAI
+Comment: 0,0:00:01.72,0:00:03.83,Sample KM [Up],,0,0,0,karaoke,{\k16}WAI {\k17}WAI {\k20}WAI {\k20}WAI {\k19}WAI {\k20}WAI {\k20}WAI {\k79}WAIT
+Comment: 0,0:00:04.07,0:00:08.21,Sample KM [Up],,0,0,0,karaoke,{\k27}lin{\k30}gan {\k12}go{\k15}li{\k14}go{\k15}li {\k27}go{\k29}li {\k28}wa{\k28}cha {\k28}lin{\k28}gan {\k55}go {\k28}lin{\k29}gan {\k21}go
+Comment: 0,0:00:08.12,0:00:08.78,Sample KM [Choir],,0,0,0,karaoke,{\k66}WAOUH
+Comment: 0,0:00:08.55,0:00:12.68,Sample KM [Up],,0,0,0,karaoke,{\k29}lin{\k28}gan {\k12}go{\k15}li{\k13}go{\k16}li {\k27}go{\k29}li {\k28}wa{\k28}cha {\k27}lin{\k29}gan {\k55}go {\k24}lin{\k33}gan {\k20}go
+Comment: 0,0:00:12.60,0:00:13.23,Sample KM [Choir],,0,0,0,karaoke,{\k29}COME {\k34}ON
+Comment: 0,0:00:13.04,0:00:17.16,Sample KM [Up],,0,0,0,karaoke,{\k27}lin{\k30}gan {\k12}go{\k15}li{\k14}go{\k15}li {\k25}go{\k28}li {\k30}wa{\k28}cha {\k22}lin{\k33}gan {\k57}go {\k25}lin{\k31}gan {\k20}go
+Comment: 0,0:00:17.10,0:00:17.72,Sample KM [Choir],,0,0,0,karaoke,{\k18}ha{\k12}chi{\k32}mi
+Comment: 0,0:00:17.52,0:00:21.65,Sample KM [Up],,0,0,0,karaoke,{\k27}lin{\k29}gan {\k14}go{\k14}li{\k14}go{\k13}li {\k28}go{\k28}li {\k30}wa{\k27}cha {\k27}lin{\k29}gan {\k55}go {\k28}lin{\k28}gan {\k22}go
+Comment: 0,0:00:21.74,0:00:23.06,Sample KM [Up],,0,0,0,karaoke,{\k6}EH {\k8}EH {\k15}EH {\k16}EH {\k10}EH {\k8}EH {\k9}EH {\k11}EH {\k16}EH {\k19}EH {\k14}EH
+Dialogue: 0,0:00:00.00,0:00:01.92,Sample KM [Up],,0,0,0,fx,{\k48\fad(480,200)}{\k18}WAI {\k14}WAI {\k14}WAI {\k16}WAI {\k16}WAI {\k14}WAI {\k15}WAI {\k17}WAI
+Dialogue: 0,0:00:00.82,0:00:04.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}WAI {\k17}WAI {\k20}WAI {\k20}WAI {\k19}WAI {\k20}WAI {\k20}WAI {\k79}WAIT
+Dialogue: 0,0:00:03.17,0:00:08.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}lin{\k30}gan {\k12}go{\k15}li{\k14}go{\k15}li {\k27}go{\k29}li {\k28}wa{\k28}cha {\k28}lin{\k28}gan {\k55}go {\k28}lin{\k29}gan {\k21}go
+Dialogue: 0,0:00:07.22,0:00:08.98,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k66}WAOUH
+Dialogue: 0,0:00:07.65,0:00:12.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}lin{\k28}gan {\k12}go{\k15}li{\k13}go{\k16}li {\k27}go{\k29}li {\k28}wa{\k28}cha {\k27}lin{\k29}gan {\k55}go {\k24}lin{\k33}gan {\k20}go
+Dialogue: 0,0:00:11.70,0:00:13.43,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}COME {\k34}ON
+Dialogue: 0,0:00:12.14,0:00:17.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}lin{\k30}gan {\k12}go{\k15}li{\k14}go{\k15}li {\k25}go{\k28}li {\k30}wa{\k28}cha {\k22}lin{\k33}gan {\k57}go {\k25}lin{\k31}gan {\k20}go
+Dialogue: 0,0:00:16.20,0:00:17.92,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}ha{\k12}chi{\k32}mi
+Dialogue: 0,0:00:16.62,0:00:21.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}lin{\k29}gan {\k14}go{\k14}li{\k14}go{\k13}li {\k28}go{\k28}li {\k30}wa{\k27}cha {\k27}lin{\k29}gan {\k55}go {\k28}lin{\k28}gan {\k22}go
+Dialogue: 0,0:00:20.84,0:00:23.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k6}EH {\k8}EH {\k15}EH {\k16}EH {\k10}EH {\k8}EH {\k9}EH {\k11}EH {\k16}EH {\k19}EH {\k14}EH
