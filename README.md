@@ -1,4 +1,4 @@
-# Karaoke Mugen's Karaoke database
+# Kara.moe's Karaoke database
 
 ![Badge](https://img.shields.io/github/last-commit/karaokemugen/karaokebase.svg)
 ![Badge](https://img.shields.io/github/tag/karaokemugen/karaokebase.svg?sort=date)
@@ -8,7 +8,7 @@
 [![Open Database License](https://img.shields.io/badge/License-ODbL-brightgreen)](./LICENSE_ODBL.md)
 [![Open Database Commons Attribution License](https://img.shields.io/badge/License-ODbC-brightgreen)](./LICENSE_ODBC.md)
 
-This is the git repository for the [Karaoke Mugen](http://karaokes.moe) karaoke database. It is to be used with the software found at the site linked just now, but you can also use it freely for your own purposes. See [our license](LICENSE.md) for more information.
+This is the git repository for a [Karaoke Mugen](http://karaokes.moe) karaoke database. It is to be used with the software found at the site linked just now, but you can also use it freely for your own purposes. See [our license](LICENSE.md) for more information.
 
 ## Format
 

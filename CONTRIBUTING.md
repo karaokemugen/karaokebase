@@ -8,7 +8,7 @@ There's a tutorial describing how to make one here :
 
 **Remember to follow this repository's karaoke making rules**
 
-* [See rules on the wiki](https://gitlab.com/karaokemugen/bases/karaokebase/-/wikis/rules)
+* [See rules on the wiki](https://gitlab.com/kara.moe/karaokebase/-/wikis/Rules)
 
 ## I already have some karaoke files, I would like to add them to this database
 
@@ -32,7 +32,7 @@ Database team members have write access to this git repository as well as to the
 
 The more we are, the faster we can achieve a fully completed database ~~and world domination through karaoke~~.
 
-[Let's talk about it on Discord!](https://karaokes.moe/discord) (in the #karaoke channel) We welcome everyone with open arms.
+[Let's talk about it on Discord!](https://discord.gg/VpyeJj9URJ) (in the #karaoke channel) We welcome everyone with open arms.
 
 Some karaokes need to be verified / retimed when they're clearly not in sync, for example. Sometimes we also change a time's style to meet our visibility standards (we remove special effects, weird, fantasy fonts, etc.)
 
@@ -40,7 +40,7 @@ If you don't feel like you can do that, we still need some karaokes to be tagged
 
 ## I need help
 
-Again, [come to the Discord server](https://karaokes.moe/discord)
+Again, [come to the Discord server](https://discord.gg/VpyeJj9URJ)
 
 And go to the #karaoke channel!
 

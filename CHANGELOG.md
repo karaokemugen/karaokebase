@@ -2193,7 +2193,7 @@ New songs : 419
 - JPN - Miku Hatsune, Teto Kasane - MV - Daidaidaidaidaikirai (Manos)
 - JPN - Miku Hatsune, Teto Kasane - MV - Daidaidaidaidaikirai \~ Off Vocal Vers (Manos)
 - JPN - Minna no Uta - IN - Mori no Chiisana Restaurant (NikoNikoD)
-- JPN - Nagi no Asukara - AUDIO OP1 - Lull \~Soshite Bokura Wa\~ \~ Full Off Vocal Vers (Karaoke Mugen, Currymalker)
+- JPN - Nagi no Asukara - AUDIO OP1 - Lull \~Soshite Bokura Wa\~ \~ Full Off Vocal Vers (Kara.moe, Currymalker)
 - JPN - Nanahira - MV - Viva Happy \~ Cover Vers (puyo)
 - JPN - Nanatsu no Taizai: Mokushiroku no Yonkishi - MV - Your Key (Soraya)
 - JPN - Neru Akita, Teto Kasane - MV - Zako (Manos)
@@ -7499,7 +7499,7 @@ New songs : 493
 - JPN - Monster Musume no Oishasan - MV - Yasashisa no Namae \~ Full Vers (Azurys)
 - JPN - Monster Strike the Movie Sora no Kanata - MOVIE ED - Kizunami (pecka)
 - JPN - Monsto Anime - ONA ED2 - Timer (pecka)
-- JPN - Musaigen no Phantom World - MV - Naked Dive \~ Full Vers (Karaoke Mugen, Nick421)
+- JPN - Musaigen no Phantom World - MV - Naked Dive \~ Full Vers (Kara.moe, Nick421)
 - JPN - My Deer Friend Nokotan - AMV - Shikairo Days - GaoGaiGar Vers (fabthehedgehog)
 - JPN - My Deer Friend Nokotan - ED - Shika Senbei no Uta (Louis Royer)
 - JPN - My Deer Friend Nokotan - IN - Kazoku ni Narou Yo, Hino de (NikoNikoD)
@@ -7508,12 +7508,12 @@ New songs : 493
 - JPN - My Deer Friend Nokotan - OP - Shikairo Days (Kmeuh)
 - JPN - My Hero Academia S7 - OP2 - Curtain Call (Hanaku)
 - JPN - Namu Amida Butsu! Rendai Utena - ED - Ruby (HayatoKurokami)
-- JPN - Nanatsu no Taizai - MV - 7 -seven- \~ Full Off Vocal Vers (Karaoke Mugen, Nick421)
+- JPN - Nanatsu no Taizai - MV - 7 -seven- \~ Full Off Vocal Vers (Kara.moe, Nick421)
 - JPN - Nanatsu no Taizai - MV - 7 -seven- \~ Full Vers (Nick421)
 - JPN - Nanatsu no Taizai Imashime no Fukkatsu - MV - Howling \~ Full Off Vocal Vers (Nick421, KuroSensei)
 - JPN - Nanatsu no Taizai Imashime no Fukkatsu - MV - Howling \~ Full Vers (Nick421, KuroSensei)
-- JPN - Naruto - MV - Re member \~ Full Off Vocal Vers (Karaoke Mugen, Nick421)
-- JPN - Naruto - MV - Re member \~ Full Vers (Karaoke Mugen, Nick421)
+- JPN - Naruto - MV - Re member \~ Full Off Vocal Vers (Kara.moe, Nick421)
+- JPN - Naruto - MV - Re member \~ Full Vers (Kara.moe, Nick421)
 - JPN - Naruto Shippuuden - MV - Niji no Sora \~ Full Off Vocal Vers (Subkei, Nick421)
 - JPN - Naruto Shippuuden - MV - Niji no Sora \~ Full Vers (Subkei, Nick421)
 - JPN - National Anthem of Japan - MV - Kimi ga yo (Gopa-san)
@@ -7550,8 +7550,8 @@ New songs : 493
 - JPN - Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken - AUDIO OP - Gift \~ Cover Full Off Vocal Vers (Kuro_Yuki_)
 - JPN - Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken - AUDIO OP - Gift \~ Cover Full Vers (Kuro_Yuki_)
 - JPN - Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken - MV - Kimi ni Todoke \~ Cover Full Off Vocal Vers (Kuro_Yuki_)
-- JPN - Persona \~Trinity Soul\~ - MV - WORD OF THE VOICE \~ Full Off Vocal Vers (Soramimi, Karaoke Mugen, Nick421)
-- JPN - Persona \~Trinity Soul\~ - MV - WORD OF THE VOICE \~ Full Vers (Soramimi, Karaoke Mugen, Nick421)
+- JPN - Persona \~Trinity Soul\~ - MV - WORD OF THE VOICE \~ Full Off Vocal Vers (Soramimi, Kara.moe, Nick421)
+- JPN - Persona \~Trinity Soul\~ - MV - WORD OF THE VOICE \~ Full Vers (Soramimi, Kara.moe, Nick421)
 - JPN - PriPri Chii-chan!! - ED2 - Fuwari, Korori, Karan, Koron (HayatoKurokami)
 - JPN - Project SEKAI Colorful Stage! feat. Hatsune Miku - GAME AUDIO - Charles \~ Cover Full Vers (puyo)
 - JPN - Project SEKAI Colorful Stage! feat. Hatsune Miku - GAME AUDIO - Charles \~ Short Vers (puyo)
@@ -7689,8 +7689,8 @@ New songs : 493
 - JPN - Yakuza Kiwami 2 - GAME XBOXONE AUDIO IN - Majima Kensetsu Shaka \~ Full Vers (ono3000)
 - JPN - Yoasobi Gurashi - ED - Heart Balance (Nemesise)
 - JPN - Yofukashi no Uta - IN - Losstime (fabthehedgehog, NikoNikoD)
-- JPN - Yoru no Yatterman - MV - Kyokugen Dreamer \~ Full Off Vocal Vers (Karaoke Mugen, Nick421)
-- JPN - Yoru no Yatterman - MV - Kyokugen Dreamer \~ Full Vers (Karaoke Mugen, Nick421)
+- JPN - Yoru no Yatterman - MV - Kyokugen Dreamer \~ Full Off Vocal Vers (Kara.moe, Nick421)
+- JPN - Yoru no Yatterman - MV - Kyokugen Dreamer \~ Full Vers (Kara.moe, Nick421)
 - JPN - Yowamushi Pedal Grande Road - ED2 - Eikou he no Ichibyou (HayatoKurokami)
 - JPN - Yozakura-san Chi no Daisakusen - ED2 - Kekkon Koushinkyoku (Louis Royer)
 - JPN - Yozakura-san Chi no Daisakusen - OP2 - Secret Operation (TenmaWorks)
@@ -8844,7 +8844,7 @@ New songs : 379
 - JPN - Horimiya piece - ED2 - Dokuro Ninja Konoha (Louis Royer)
 - JPN - Ikigusare - MV - Ochuusha Girl (Lasagna)
 - JPN - Jiisan Baasan Wakagaeru - OP - Kimi ga Ojiichan Atashi ga Obachan (NikoNikoD)
-- JPN - JoJo no Kimyou na Bouken (2012) - OP2 - BLOODY STREAM \~ Kana Vers (Karaoke Mugen, red5h4d0w)
+- JPN - JoJo no Kimyou na Bouken (2012) - OP2 - BLOODY STREAM \~ Kana Vers (Kara.moe, red5h4d0w)
 - JPN - KAFU - MV - Gekokujou \~ Alternative Vers (puyo)
 - JPN - KAFU, Miku Hatsune - MV - Hug \~ Alternative Vers (puyo)
 - JPN - KAITO, MEIKO - MV - 25-ji no Jounetsu \~ Alternative Full Vers (puyo)
@@ -9220,7 +9220,7 @@ New songs : 274
 - JPN - Cyber Troopers Virtual-On Force, maimai - GAME PS4 MV - Conquista Ciela \~ Short Vers (RapaFSR)
 - JPN - D4DJ All Mix - IN - Delightful Party (red5h4d0w)
 - JPN - Dosanko Gal wa Namaramenkoi - IN - Naramenkoi Gal (Elliu, NikoNikoD)
-- JPN - Dragon Ball GT - IN - Dan Dan Kokoro Hikareteku \~ Final Vers (Karaoke Mugen, Haiko)
+- JPN - Dragon Ball GT - IN - Dan Dan Kokoro Hikareteku \~ Final Vers (Kara.moe, Haiko)
 - JPN - Druaga no Tou The Sword of Uruk - OP - Questions question_mark (Louis Royer)
 - JPN - Ensemble Stars! - GAME MV - Absolute Perfection \~ Short Vers (Variabels)
 - JPN - Ensemble Stars! - GAME MV - Believe 4 leaves \~ Short Vers (Variabels)
@@ -10193,7 +10193,7 @@ New songs : 435
 - JPN - Kusuriya no Hitorigoto - OP2 - Ambivalent (NikoNikoD)
 - JPN - Kyuukyoku Sentai Da Dan Daan - GAME AMV - Tatakae! Da Dan Daan \~ Full Vers (RapaFSR)
 - JPN - Lapis Re LiGHTs - AMV - Watashi no Na wa, Hikari \~ Full Vers (red5h4d0w)
-- JPN - Len Kagamine, Miku Hatsune - MV - Himitsu \~Kuro no Chikai\~ (Karaoke Mugen, puyo)
+- JPN - Len Kagamine, Miku Hatsune - MV - Himitsu \~Kuro no Chikai\~ (Kara.moe, puyo)
 - JPN - Len Kagamine, Rin Kagamine - MV - Odo \~ Alternative Vers (Nodamin, puyo)
 - JPN - Link! Like! Love Live! - GAME AUDIO - Neraiuchi \~ Cover Short Vers (Xashy)
 - JPN - Link! Like! Love Live! - GAME AUDIO - Sobakasu \~ Cover Short Vers (Xashy)
@@ -10729,7 +10729,7 @@ New songs : 331
 - JPN - Luka Megurine - MV - Leia - Remind (red5h4d0w)
 - JPN - Luka Megurine - MV - Leia \~ Off Vocal Vers (red5h4d0w)
 - JPN - MISAMO - MV - Do not touch (pockydany)
-- JPN - MadLax - AUDIO IN - Nowhere \~ Full Vers (Karaoke Mugen)
+- JPN - MadLax - AUDIO IN - Nowhere \~ Full Vers (Kara.moe)
 - JPN - Mahou Shoujo Madoka Magica - MV - Magia \~ Full Off Vocal Vers (Soramimi)
 - JPN - Mahou Shoujo Madoka Magica - MV - Magia \~ Full Vers (Soramimi)
 - JPN - Makemon, Muse Dash - GAME SWITCH MV - Onegai! Konkon Oinari-sama \~ Full Vers (Juney2008)
@@ -11208,8 +11208,8 @@ New songs : 322
 - JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Machi \~ Short Vers (thau)
 - JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Momoiro no Kagi \~ Short Vers (puyo)
 - JPN - Project SEKAI COLORFUL STAGE! - GAME MV - Niccori^^Chousa-tai no Theme \~ Short Vers (puyo)
-- JPN - Rakudai Kishi no Cavalry - OP - Identity \~ 2nd Version \~ Alternative Vers (Karaoke Mugen, NikoNikoD)
-- JPN - Rakudai Kishi no Cavalry - OP - Identity \~ 3rd Version \~ Alternative Vers (Karaoke Mugen, NikoNikoD)
+- JPN - Rakudai Kishi no Cavalry - OP - Identity \~ 2nd Version \~ Alternative Vers (Kara.moe, NikoNikoD)
+- JPN - Rakudai Kishi no Cavalry - OP - Identity \~ 3rd Version \~ Alternative Vers (Kara.moe, NikoNikoD)
 - JPN - Saburou Kitajima - LIVE - Kita no Daichi (Gopa-san)
 - JPN - Sakura-sou no Pet na Kanojo - AUDIO ED1 - DAYS of DASH \~ Full Vers (NextFire)
 - JPN - Scott Pilgrim Takes Off - OP - bloom (Noctiflora)
@@ -12050,7 +12050,7 @@ New songs : 346
 - KOR - Suga - MV - Daechwita (Ylnoryn)
 - RUS - Arknights - GAME MV - Requiem (Alshkor)
 - UND - Odekake Kozame - ONA ED - Yorimichi (Gopa-san)
-- ZXX - Michiko to Hatchin - OP - Paraiso (Karaoke Mugen)
+- ZXX - Michiko to Hatchin - OP - Paraiso (Kara.moe)
 
 # August 2023
 
@@ -12562,7 +12562,7 @@ New songs : 344
 - FRE - OPcrotte - AUDIO STREAM - Supposite-moi (Deformer-Lua)
 - FRE - Pink Lily - MV - Quoicoubeh (Deformer-Lua)
 - FRE - Pipe Coquillette 23 - OT - Le dernier clip du Pipe Coquillette 23 (Deformer-Lua)
-- FRE - Pow Wow - MV - Le Chat (Karaoke Mugen)
+- FRE - Pow Wow - MV - Le Chat (Kara.moe)
 - GER - Sakura Taisen - AMV - Geki! Teikoku Kagekidan (Gopa-san)
 - GER - Shingeki no Kyojin - AUDIO IN - Bauklotze (Currymalker)
 - JPN - 18 40 \\~Futari Nara Yume mo Koi mo\\~ - MV - Himawari (Nodamin)
@@ -12605,7 +12605,7 @@ New songs : 344
 - JPN - Blue Reflection Ray - ED2 - fluoresce (IkuY)
 - JPN - Bocchi the Rock! - IN - Kita's Deliciousness Spell (Tatoon)
 - JPN - Bokurano - MV - Uninstall \\~ Full Off Vocal Vers (Soramimi)
-- JPN - CLAMP in Wonderland - MV - Anata Dake no Wonderland \\~ Off Vocal Vers (Karaoke Mugen)
+- JPN - CLAMP in Wonderland - MV - Anata Dake no Wonderland \\~ Off Vocal Vers (Kara.moe)
 - JPN - Cardcaptor Sakura - AUDIO OP1 - Catch you Catch me \\~ Full Off Vocal Vers (REL)
 - JPN - Chobits - AUDIO OP - Let Me Be With You \\~ Full Off Vocal Vers (Soramimi)
 - JPN - Choko - MV - Tanaka (Colgate)
@@ -12661,7 +12661,7 @@ New songs : 344
 - JPN - Kamikaze Kaitou Jeanne - OP1 - PIECE OF LOVE (NikoNikoD)
 - JPN - Kamikaze Kaitou Jeanne - OP2 - Dive into Shine (NikoNikoD)
 - JPN - Kaminaki Sekai no Kamisama Katsudou - OP - I wish (TenmaWorks)
-- JPN - Katekyou Hitman Reborn! - AMV - Sakura addiction \\~ Full Off Vocal Vers (Karaoke Mugen)
+- JPN - Katekyou Hitman Reborn! - AMV - Sakura addiction \\~ Full Off Vocal Vers (Kara.moe)
 - JPN - Ken Hirai - AUDIO - Pop Star \\~ Off Vocal Vers (RoyceThomas)
 - JPN - Ken Hirai - MV - Pop Star (RoyceThomas)
 - JPN - Kidou Tenshi Angelic Layer - AUDIO ED2 - Ameagari \\~ Full Off Vocal Vers (Soramimi)
@@ -12790,7 +12790,7 @@ New songs : 344
 - JPN - Touhou - AUDIO - Witchcraft Heptagram (HinamiYami)
 - JPN - Touhou - AUDIO - Yozora to Ningyou \\~ Full Vers (Gopa-san)
 - JPN - Touhou - GAME MV - Romantic Sanae Love (RoyceThomas)
-- JPN - Touhou - MV - Cirno's Perfect Math Class \\~ Off Vocal Vers (Karaoke Mugen)
+- JPN - Touhou - MV - Cirno's Perfect Math Class \\~ Off Vocal Vers (Kara.moe)
 - JPN - Touhou - MV - Contrivance (Touhou.net)
 - JPN - Touhou - MV - Dial Connected (Touhou.net)
 - JPN - Touhou - MV - Eirin's Clinic That People Queue Up For (Touhou.net)
@@ -14933,7 +14933,7 @@ New songs : 244
 - JPN - Gackpo Camui, KAITO - MV - Madness of Duke Venomania (Uwhipa)
 - JPN - Gackpo Camui, KAITO - MV - Sonzai Imagination (Uwhipa)
 - JPN - Hanyo no Yashahime - OP1 - NEW ERA (UniversJB)
-- JPN - Heartcatch PreCure! - OP - Alright! Heartcatch PreCure! \\~ Alternative Vers (meulahke, Karaoke Mugen)
+- JPN - Heartcatch PreCure! - OP - Alright! Heartcatch PreCure! \\~ Alternative Vers (meulahke, Kara.moe)
 - JPN - Himawari Honma - MV - Ninja Re Bang Bang \\~ Cover Vers (TheMio, Matigno)
 - JPN - Himitsu kessha holoX - MV - Jouya Repaint (yt2ass)
 - JPN - IRyS - MV - Moment of my life (yt2ass)
@@ -14949,8 +14949,8 @@ New songs : 244
 - JPN - Len Kagamine - MV - Ego Rock \\~ Full Off Vocal Vers (BeVox)
 - JPN - Len Kagamine - MV - Ego Rock \\~ Full Vers (BeVox)
 - JPN - Len Kagamine, MEIKO - MV - Akujiki Musume Conchita \\~Nanatsu no Tsumi to Batsu Vers. \\~ Alternative Vers (Uwhipa)
-- JPN - Love Live! School Idol Project - AUDIO - Bokura no Live Kimi to no Life \\~ Full Off Vocal Vers (Karaoke Mugen, TheMio)
-- JPN - Love Live! School Idol Project - LIVE - Bokura no Live Kimi to no Life \\~ Full Vers (Karaoke Mugen, TheMio)
+- JPN - Love Live! School Idol Project - AUDIO - Bokura no Live Kimi to no Life \\~ Full Off Vocal Vers (Kara.moe, TheMio)
+- JPN - Love Live! School Idol Project - LIVE - Bokura no Live Kimi to no Life \\~ Full Vers (Kara.moe, TheMio)
 - JPN - Love Live! School Idol Project - MV - Snow halation \\~ Hololive EN Vers. \\~ Cover Vers (fabthehedgehog)
 - JPN - Love Live! Superstar!! 2nd Season - AUDIO - Yuragu wa \\~ Full Vers (Sodachi)
 - JPN - Luka Megurine, Rin Kagamine - MV - Koshitantan (pecka)
@@ -15291,7 +15291,7 @@ New songs : 251
 - JPN - Mafumafu - MV - Vampire \\~ Cover Vers (Kaleidoscope)
 - JPN - Mahou Shoujo Ikusei Keikaku in Dreamland - PV - GIRLS GAME (Lasagna)
 - JPN - Mahou Shoujo Ikusei Keikaku in Dreamland - PV - GIRLS GAME \\~ Off Vocal Vers (Lasagna)
-- JPN - Mahou Shoujo Lyrical Nanoha StrikerS - MV - Pray \\~ Full Vers (Karaoke Mugen)
+- JPN - Mahou Shoujo Lyrical Nanoha StrikerS - MV - Pray \\~ Full Vers (Kara.moe)
 - JPN - Mamahaha no Tsurego ga Motokano datta - OP - Deneb to Spica (Demoto, TheMio)
 - JPN - Master Keaton - ED2 - Tameiki (Luchia)
 - JPN - Miketama - MV - Happy Halloween \\~ Cover Dance Vers (Atsuyas, MellohNi)
@@ -15577,7 +15577,7 @@ New songs : 164
 - JPN - Love Live! Superstar!! 2nd Season - IN - Mirai no Oto ga Kikoeru \\~ Short Vers (Sodachi)
 - JPN - MELTY BLOOD TYPE LUMINA - GAME SWITCH OP - Stack Black (Kubat)
 - JPN - Mafumafu - MV - Goodbye Sengen \\~ Cover Vers (Atsuyas, TheMio)
-- JPN - Makai Tenshi Djibril 4, Touhou - AMV - the first the last (Meikai Kenshi Sanmusu 4) (Karaoke Mugen)
+- JPN - Makai Tenshi Djibril 4, Touhou - AMV - the first the last (Meikai Kenshi Sanmusu 4) (Kara.moe)
 - JPN - Marudase Kintarou - MOVIE ED - Ai wa Muteki \\~ Full Vers (pecka)
 - JPN - Meitantei Conan - ED67 - Playmaker (UniversJB)
 - JPN - Meitantei Conan - OP6 - Girigiri Chop \\~ Alternative Vers (Currymalker, UniversJB)
@@ -15845,7 +15845,7 @@ New songs : 220
 - JPN - Love Live! Superstar!! 2nd Season - IN - Go!! Restart (Kaleidoscope)
 - JPN - MILGRAM - MV - Half \\~ Off Vocal Vers (Wazzzaaa)
 - JPN - MILGRAM The Second Trial - MV2 - Tear Drop (IkuY)
-- JPN - Mahouka Koukou no Rettousei - OP - Rising Hope \\~ Off Vocal Vers (Karaoke Mugen, TBK)
+- JPN - Mahouka Koukou no Rettousei - OP - Rising Hope \\~ Off Vocal Vers (Kara.moe, TBK)
 - JPN - Marudase Kintarou - MOVIE ED - Ai wa Muteki (pecka)
 - JPN - Meitantei Conan - OP56 - SPARKLE (UniversJB)
 - JPN - Miku Hatsune - AUDIO - Dandan Chikaku Naru (yt2ass)
@@ -17885,7 +17885,7 @@ New songs : 261
 - JPN - Akebi-chan no Sailor Fuku - OP - Hajimari no Setsuna (Kmeuh)
 - JPN - Aldnoah.Zero - MV - &Z \\~ Full Vers (Currymalker)
 - JPN - Aldnoah.Zero - MV - AZ \\~ Full Vers (Currymalker)
-- JPN - Aldnoah.Zero - MV - heavenly blue \\~ Full Vers (Karaoke Mugen)
+- JPN - Aldnoah.Zero - MV - heavenly blue \\~ Full Vers (Kara.moe)
 - JPN - Amelia Watson, Baelz Hakos, Fauna Ceres - MV - Ochame Kinou \\~ Hololive English Vers. \\~ Cover Vers (yt2ass)
 - JPN - Anya Melfissa - MV - Gira Gira \\~ Cover Vers (yt2ass)
 - JPN - Anya Melfissa - MV - Phony \\~ Cover Vers (BeVox)
@@ -18001,7 +18001,7 @@ New songs : 261
 - JPN - Shoujo Kageki Revue Starlight - LIVE - Star Divine Finale \\~ Short Vers (amoethyst)
 - JPN - Slow Loop - ED - Shuwa Shuwa (Nock)
 - JPN - Slow Loop - OP - Yajirushi (Nock)
-- JPN - Slow Step - OVA OP - Kimi ga Inakerya Frustration (Karaoke Mugen)
+- JPN - Slow Step - OVA OP - Kimi ga Inakerya Frustration (Kara.moe)
 - JPN - Sono Bisque Doll wa Koi wo Suru - ED - Koi no Yukue (meulahke)
 - JPN - Sono Bisque Doll wa Koi wo Suru - OP - Sansan Days (meulahke)
 - JPN - Sora Tokino - MV - Envy Baby \\~ Cover Vers (BeVox)
@@ -18083,7 +18083,7 @@ New songs : 261
 - KOR - TWICE - MV - TT (Subkei)
 - UND - Rosenthal Aki - MV - Shallys (Nodamin)
 - ZXX - Gun x Sword - OP - GUNxSWORD (Rinchama)
-- ZXX - Gunsmith Cats - OVA OP - Gunsmith Cats Theme (Karaoke Mugen)
+- ZXX - Gunsmith Cats - OVA OP - Gunsmith Cats Theme (Kara.moe)
 
 # December 2021
 
@@ -18314,7 +18314,7 @@ Contributors:
 - @Haiko
 - @Hydraxs
 - @Kaleidoscope
-- @Karaoke Mugen
+- @Kara.moe
 - @Kmeuh
 - @Kubat
 - @Lasagna
@@ -18414,7 +18414,7 @@ New songs : 100
 - JPN - Mieruko-chan - OP - Mienai kara ne! question_mark (@Geralt)
 - JPN - Mikagura Gakuen Kumikyoku - ED4 - Esoragoto SPIRAL (@Lasagna)
 - JPN - Miku Hatsune - MV - Teo (@Dysp)
-- JPN - One Piece - OP24 - We Are! \\~ 1000th Episode Vers (@Karaoke Mugen, @Pierre CAMILLI)
+- JPN - One Piece - OP24 - We Are! \\~ 1000th Episode Vers (@Kara.moe, @Pierre CAMILLI)
 - JPN - Ryuu to Sobakasu no Hime - MOVIE MV - U (@Kubat)
 - JPN - Sora Tokino - MV - Vampire \\~ Cover Vers (@Atsuyas)
 - JPN - Suisei Hoshimachi - MV - 3 12 (@Nodamin)
@@ -18845,7 +18845,7 @@ New songs : 86
 - ENG - Gura Gawr - AMV - REFLECT (@Aeden)
 - ENG - Initial D Fifth Stage - IN - The Top \\~ Full Vers (@Mutsui)
 - ENG - Initial D Fourth Stage - AUDIO IN - Let's go, come on! \\~ Full Vers (@Mutsui)
-- ENG - Kaiba - ED - Carry Me Away (@Karaoke Mugen)
+- ENG - Kaiba - ED - Carry Me Away (@Kara.moe)
 - ENG - Mars Red - ED - ON MY OWN (@Currymalker)
 - ENG - Mori Calliope, Suisei Hoshimachi - MV - GETCHA! \\~ Cover Vers (@Aeden)
 - ENG - Nyanners - OT - Chug Jug With You \\~ Cover Vers (@Elliu)
@@ -18946,7 +18946,7 @@ Contributors:
 - @Ion_Negatif
 - @JoeyTM
 - @Kaleidoscope
-- @Karaoke Mugen
+- @Kara.moe
 - @Kmeuh
 - @Koheitohikari
 - @Krokro
@@ -19005,7 +19005,7 @@ New songs : 83
 - JPN - Fate Grand Carnival - OVA OP - Super Affection (@fabthehedgehog)
 - JPN - Girls und Panzer - AMV - Senshadou Koushinkyoku (@Elliu)
 - JPN - Grappler Baki - OP - Ai Believe (@meulahke)
-- JPN - Hibike! Euphonium - MV - Dream Solister \\~ Full Vers (@Karaoke Mugen, @Pierre CAMILLI)
+- JPN - Hibike! Euphonium - MV - Dream Solister \\~ Full Vers (@Kara.moe, @Pierre CAMILLI)
 - JPN - Higurashi no Naku Koro ni Gou - OP - I believe what you said \\~ Alternative Vers (@Rinchama)
 - JPN - Higurashi no Naku Koro ni Sotsu - ED - Missing Promise (@Kmeuh)
 - JPN - Higurashi no Naku Koro ni Sotsu - OP - Analogy (@fabthehedgehog)
@@ -19436,7 +19436,7 @@ Contributors:
 - @Elliu
 - @Geralt
 - @Kaleidoscope
-- @Karaoke Mugen
+- @Kara.moe
 - @Kmeuh
 - @Koheitohikari
 - @Kubat
@@ -19575,7 +19575,7 @@ New songs : 116
 - JPN - Yuusha Ou GaoGaiGar FINAL Grand Glorious Gathering - OP - Yuusha-Ou Tanjou! \\~ Gathering Mythology Vers (@Colgate)
 - MUL - Touhou - MV - Bad Apple!! \\~ Cover Orchestra Vers (@leonekmi)
 - SPA - Megalo Box 2 Nomad - ED - El canto del colibri (@meulahke)
-- ZXX - Shadows House - OP - a hollow shadow (@Karaoke Mugen)
+- ZXX - Shadows House - OP - a hollow shadow (@Kara.moe)
 
 ## Fixed
 
@@ -21185,7 +21185,7 @@ Contributors:
 - @Dysp
 - @Eden
 - @Elliu
-- @Karaoke Mugen
+- @Kara.moe
 - @Kmeuh
 - @Kubat
 - @MaxaoH
@@ -21232,7 +21232,7 @@ New songs : 72
 - JPN - Digimon Adventure Last Evolution Kizuna - MOVIE ED - Hanareteite mo (@meulahke)
 - JPN - Digimon Adventure Last Evolution Kizuna - MOVIE IN - Sono Saki e (@Kmeuh)
 - JPN - Digimon Adventure Last Evolution Kizuna - MOVIE IN - brave heart \\~LAST EVOLUTION Version\\~ (@meulahke, @MaxaoH)
-- JPN - Digimon Adventure Last Evolution Kizuna - MOVIE OP - Butter-Fly (@meulahke, @Karaoke Mugen)
+- JPN - Digimon Adventure Last Evolution Kizuna - MOVIE OP - Butter-Fly (@meulahke, @Kara.moe)
 - JPN - Dragon Ball Z - IN - Unmei no hi \\~Tamashii VS Tamashii\\~ (@meulahke)
 - JPN - En'en no shouboutai Ni no Shou - OP2 - Torch of Liberty (@Dysp)
 - JPN - Fate Grand Order Cosmos in the Lostbelt - GAME OP2 - Yakudou (@Nyguita)
@@ -23198,7 +23198,7 @@ Contributors:
 - @Dysp
 - @ENSSAT-Japanim
 - @Elliu
-- @Karaoke Mugen
+- @Kara.moe
 - @Kmeuh
 - @Koheitohikari
 - @Kubat
@@ -23249,7 +23249,7 @@ New songs : 142
 - FRE - Pokemon The Johto Journeys - MV - Karaokemon \\~ La voix du sommeil (@Kmeuh)
 - FRE - Pokemon The Johto Journeys - MV - Karaokemon \\~ Toi et Moi et Pokemon (@Kmeuh)
 - FRE - Taz-Mania - OP - Come to Taz-Mania (@meulahke)
-- FRE - Touhou - REMIX MV - Histoire Millenaire \\~ Off Vocal Vers (@Karaoke Mugen)
+- FRE - Touhou - REMIX MV - Histoire Millenaire \\~ Off Vocal Vers (@Kara.moe)
 - FRE - Touhou - REMIX MV - Persephoneia \\~ Off Vocal Vers (@Touhoppai)
 - JPN - A3! - GAME PV - Monologue (@Nabashi)
 - JPN - ASIAN KUNG-FU GENERATION - AUDIO OT - 24-ji (@Shlaky)
@@ -23298,7 +23298,7 @@ New songs : 142
 - JPN - Kaguya-sama wa Kokurasetai question_mark Tensai-tachi no Ren'ai Zunousen - AUDIO OP - DADDY! DADDY! DO! \\~ Full vers (@Dysp)
 - JPN - Kaguya-sama wa Kokurasetai question_mark Tensai-tachi no Ren'ai Zunousen - ED - Kaze ni Fukarete (@Kmeuh)
 - JPN - Kaguya-sama wa Kokurasetai question_mark Tensai-tachi no Ren'ai Zunousen - OP1 - DADDY! DADDY! DO! (@Suryan)
-- JPN - Kekkai Sensen - MV - Sugar Song and Bitter Step (@meulahke, @Karaoke Mugen)
+- JPN - Kekkai Sensen - MV - Sugar Song and Bitter Step (@meulahke, @Kara.moe)
 - JPN - Kidou Butouden G Gundam - ED1 - Umi yori mo Fukaku (@meulahke)
 - JPN - Kidou Butouden G Gundam - ED2 - Kimi no Naka no Eien (@meulahke)
 - JPN - Kimi no Na wa. - COVER REMIX MOVIE AMV - Irony (@Elliu, @Bakaclub)
@@ -23387,7 +23387,7 @@ Contributors:
 - @Dysp
 - @ENSSAT-Japanim
 - @Elliu
-- @Karaoke Mugen
+- @Kara.moe
 - @Kmeuh
 - @Koheitohikari
 - @Krow
@@ -23423,7 +23423,7 @@ New songs : 156
 - ENG - Steins Gate 0 - PS3 PS4 PSV XBOXONE PC GAME ED - Gate of Steiner (@Kmeuh)
 - ENG - Tengen Toppa Gurren Lagann Parallel Works - OVA MV6 - Gattai Nante Kuso Kurae!! (@ENSSAT-Japanim)
 - FRE - Aishite Knight - AUDIO IN - Freeway (@leonekmi)
-- FRE - Chip'n Dale Rescue Rangers - OP - Tic & Tac, Rangers du Risque (@Karaoke Mugen)
+- FRE - Chip'n Dale Rescue Rangers - OP - Tic & Tac, Rangers du Risque (@Kara.moe)
 - FRE - Ermite Moderne - IN - Te voir pourrir en Enfer ! (@leonekmi)
 - FRE - La meteo de Gulli - OP - La meteo de Gulli (@luclu7)
 - FRE - MisterJDay,M. Connard - MV - Les analyses de pubs (@luclu7)
@@ -23737,7 +23737,7 @@ Contributors:
 - @Eden
 - @Elliu
 - @Joeri_sama
-- @Karaoke Mugen
+- @Kara.moe
 - @Kmeuh
 - @Koheitohikari
 - @MaxaoH
@@ -23768,7 +23768,7 @@ New songs : 111
 - ENG - Initial D Fifth Stage - AMV - GAS GAS GAS (@Ultra, @Bakaclub)
 - ENG - JoJo no Kimyou na Bouken (2012) - AMV - Overdrive (@MaxaoH)
 - ENG - Koukaku Kidoutai S.A.C. 2nd GIG - ED1 - Living Inside the Shell (@Soramimi)
-- ENG - Kung Fury - MOVIE MV - True Survivor (@Karaoke Mugen, @Aeden)
+- ENG - Kung Fury - MOVIE MV - True Survivor (@Kara.moe, @Aeden)
 - ENG - Promare - MOVIE AMV - Inferno (@meulahke)
 - ENG - Promare - MOVIE AMV - NEXUS \\~ Full Vers (@Sting, @Bakaclub)
 - ENG - Rick Astley - MV - Never Gonna Give You Up (@Tatoon, @Bakaclub)
@@ -23851,7 +23851,7 @@ New songs : 111
 - JPN - Nekopara (TV) - OP - Shiny Happy Days (@Elliu, @Bakaclub)
 - JPN - Oda Cinnamon Nobunaga - ED - Inu-sei wa Ichido Kiri (@Koheitohikari)
 - JPN - Pocket Monsters XY - OP3 - Getter Bang Bang (@Rejill)
-- JPN - Promare - MOVIE AMV - Rescue Fire (@Karaoke Mugen, @meulahke)
+- JPN - Promare - MOVIE AMV - Rescue Fire (@Kara.moe, @meulahke)
 - JPN - Saiki Kusuo no Psi-nan - ED1 - desu I LIKE YOU (@Rejill)
 - JPN - Sakura Taisen 3 Paris wa Moeteiru ka - PS2 PC GAME AMV - Geki! Teikoku Kagekidan III \\~ Full Vers (@Kmeuh)
 - JPN - Sakura Taisen 3 Paris wa Moeteiru ka - PS2 PC GAME AMV - Mihata no Moto ni \\~ Full Vers (@Kmeuh)
@@ -23870,10 +23870,10 @@ New songs : 111
 - JPN - Yorushika - MV - Tada Kimi ni Hare (@Bonta-kun)
 - JPN - Yu-Gi-Oh! VRAINS - ED4 - Glory (@Deformer-Lua, @Joeri_sama)
 - LAT - Guy Protheroe,Harriet Jay - OT - Dorime (@Nodamin)
-- RUS - Koukaku Kidoutai S.A.C. 2nd GIG - OP2 - Rise \\~ Experimental Vers (@Karaoke Mugen)
+- RUS - Koukaku Kidoutai S.A.C. 2nd GIG - OP2 - Rise \\~ Experimental Vers (@Kara.moe)
 - SPA - Miku Hatsune - AUDIO OT - MikuFiesta (@Dysp)
 - VIE - Min,Erik - MV - Ghen Cou Vy (@Bonta-kun)
-- ZXX - Ima Soko ni Iru Boku - OP - Ima, Soko ni Iru Boku (@Karaoke Mugen)
+- ZXX - Ima Soko ni Iru Boku - OP - Ima, Soko ni Iru Boku (@Kara.moe)
 
 ## Fixed
 
@@ -24543,7 +24543,7 @@ Contributors:
 - @Colgate
 - @Eden
 - @Elliu
-- @Karaoke Mugen
+- @Kara.moe
 - @Kmeuh
 - @Koheitohikari
 - @Krow
@@ -24590,7 +24590,7 @@ New songs : 137
 - ENG - Super Mario RPG - COVER AMV - Rawest Forest Reanimated (@meulahke)
 - ENG - Suzumiya Haruhi no Yuuutsu - AMV - Skittles (Candy Pop) (@Colgate, @Bakaclub)
 - ENG - The Lego Movie - MOVIE MV - Everything Is AWESOME!!! (@Soramimi)
-- FRE - Dorothee - MV - Les Neiges de l'Himalaya (@Karaoke Mugen)
+- FRE - Dorothee - MV - Les Neiges de l'Himalaya (@Kara.moe)
 - FRE - Franklin - OP - He c'est Franklin (@Phoko, @Bakaclub)
 - FRE - Manau - MV - La Tribu de Dana (@Elliu, @Bakaclub)
 - FRE - Mary Poppins - MOVIE IN - Supercalifragilisticexpialidocious (@Nodamin)
@@ -25057,7 +25057,7 @@ Contributors:
 - @Deformer-Lua
 - @Dysp
 - @Joeri_sama
-- @Karaoke Mugen
+- @Kara.moe
 - @Kmeuh
 - @LeMeow
 - @May
@@ -25151,7 +25151,7 @@ New songs : 84
 - JPN - Ore wo Suki nano wa Omae dake ka yo - OP - Pa Pa Pa (@meulahke)
 - JPN - Pocket Monsters (2019) - OP1 - 1.2.3 (@meulahke)
 - JPN - Shiritsu Berubara Gakuen \\~Versailles no Bara Re imagination\\~ - SWITCH GAME OP - Mikansei ACTOR (@Nabashi)
-- JPN - Soukou Akki Muramasa - PC GAME OP - MURAMASA \\~ Alternative Vers (@Karaoke Mugen)
+- JPN - Soukou Akki Muramasa - PC GAME OP - MURAMASA \\~ Alternative Vers (@Kara.moe)
 - JPN - Tales of The Abyss - MV - Karma \\~ Full Vers (@Soramimi)
 - JPN - Tales of Vesperia - MV - Kane wo Narashite \\~ Full Vers (@Soramimi)
 - JPN - Tenki no Ko - MOVIE MV - Grand Escape \\~ Full Vers (@Kmeuh)
@@ -25358,7 +25358,7 @@ Contributors:
 - @Hellayne
 - @Il Palazzo-sama
 - @Joffrey_A
-- @Karaoke Mugen
+- @Kara.moe
 - @Kmeuh
 - @Koheitohikari
 - @KuroSensei
@@ -25473,7 +25473,7 @@ New songs : 189
 - JPN - GUMI - MV - Mozaic Role \\~ Off Vocal Vers (@Neraste)
 - JPN - GUMI - MV - Yowamushi Mont Blanc \\~ Off Vocal Vers (@Rinchama)
 - JPN - Hawken - PS4 XBOXONE PC GAME AMV - only my railgun \\~ Off Vocal Full Vers (@Neraste)
-- JPN - Hime-chan no Ribbon - OP - Egao no Genki \\~ Alternative Vers (@Karaoke Mugen)
+- JPN - Hime-chan no Ribbon - OP - Egao no Genki \\~ Alternative Vers (@Kara.moe)
 - JPN - Hokuto no Ken - ED2 - Dry your tears (@meulahke)
 - JPN - Hypnosis Mic -Division Rap Battle- - MV - Shinogi (Dead Pools) (@Nabashi)
 - JPN - Hypnosis Mic -Division Rap Battle- - MV - Stella (@Nabashi)
@@ -25501,7 +25501,7 @@ New songs : 189
 - JPN - Miku Hatsune - MV - Electro Train \\~ Off Vocal Vers (@Neraste)
 - JPN - Miku Hatsune - MV - Melody Line \\~ Off Vocal Vers (@Neraste)
 - JPN - Miku Hatsune - MV - Rolling Girl \\~ Off Vocal Vers (@Kmeuh)
-- JPN - Miku Hatsune - MV - Sekiranun Graffiti \\~ Off Vocal Vers (@Karaoke Mugen)
+- JPN - Miku Hatsune - MV - Sekiranun Graffiti \\~ Off Vocal Vers (@Kara.moe)
 - JPN - Miku Hatsune - MV - Senbonzakura \\~ Off Vocal Vers (@Neraste)
 - JPN - Miku Hatsune,Luka Megurine - LIVE - Magnet \\~ Off Vocal Vers (@Ziassan)
 - JPN - Morning Musume - MV - Osaka Koi no Uta (@Touhoppai)

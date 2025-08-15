@@ -2,8 +2,6 @@
 
 The files in this repository are open-source but in different ways.
 
-_Note : Karaoke Mugen software are under other licenses, please refer to the `LICENSE` files of each repository for more information._
-
 ## Quick explanation
 
 - The database itself (`karaokes` and `tags` folder) is licensed upon the [Open Database License](./LICENSE_ODBL.md).
@@ -19,7 +17,7 @@ Read the entire document if you want to get more details.
 
 The database is a set of JSON files containing data about this karaoke collection. All these files (located in `karaokes` and `tags` folder) are the work of the contributors of this base.
 
-&copy; Karaoke Mugen **Data**base contributors 2017-2022 - The Karaoke Mugen **Data**base is made available under the Open Database License. Any rights in individual contents of the database are licensed under the Database Contents License. You should have received a copy of these licenses along with the database. If not, see https://opendatacommons.org/licenses/index.html
+&copy; Kara.moe **Data**base contributors - The Kara.moe **Data**base is made available under the Open Database License. Any rights in individual contents of the database are licensed under the Database Contents License. You should have received a copy of these licenses along with the database. If not, see https://opendatacommons.org/licenses/index.html
 
 ## Medias
 
@@ -33,7 +31,7 @@ All karaokes are property of their respective authors.
 
 The sync work is licensed under [Creative Commons CC-BY-SA 4.0](./LICENSE_CC-BY-SA-4.0.md) for karaokes created for this base. The lyrics **remain** the property of their respective right holders (songwriters and/or publishers).
 
-&copy; Karaoke Mugen Base contributors 2017-2022 - CC-BY-SA 4.0
+&copy; Kara.moe Base contributors - CC-BY-SA 4.0
 
 ### Imported karaokes
 
@@ -43,4 +41,4 @@ We try, as much as possible, to fill the `author` tag in the `.kara.json` files 
 
 ## Contact
 
-If you have questions about the license or wish to ask for a specific permission, feel free to [contact us](http://mugen.karaokes.moe/en/contact.html) or [open an issue](https://gitlab.com/karaokemugen/bases/karaokebase/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=)
+If you have questions about the license or wish to ask for a specific permission, feel free to [contact us](karamoebase@gmail.com) or [open an issue](https://gitlab.com/kara.moe/karaokebase/-/issues/new)
