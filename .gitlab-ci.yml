@@ -27,8 +27,6 @@ i18nUpdate:
   stage: deploy
   image: curlimages/curl
   interruptible: true
-  tags:
-    - $RUNNER_LINUX
   script:
     - curl -X POST -F "variables[FROM_BASE]=true" -F "token=$TRIGGER_I18N_TOKEN" -F "ref=main" "https://gitlab.com/api/v4/projects/59172300/trigger/pipeline"
   rules:
@@ -44,8 +42,6 @@ export:
   stage: deploy
   image: curlimages/curl
   interruptible: true
-  tags:
-    - $RUNNER_LINUX
   script:
     - "curl -f -X POST -H authorization:$KMSERVERAUTH https://kara.moe/api/update"
   only:
