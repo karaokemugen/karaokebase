@@ -1,22 +1,32 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Blocker Gundan IV Machine Blaster
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
-Collisions: Normal
+Original Timing: Krizou
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
-Dialogue: 1,0:0:8.63,0:0:16.43,Default,,0000,0000,0000,,{\k100}{\kf79}to{\kf21}do{\kf21}ro{\kf29}ku {\kf29}ra{\kf42}i{\kf25}me{\kf71}i {\kf21}{\kf33}a{\kf63}{\kf21}ra{\kf33}shi {\kf33}wo {\kf33}tsu{\kf33}i{\kf92}te
-Dialogue: 1,0:0:15.93,0:0:24.35,Default,,0000,0000,0000,,{\k100}{\kf21}yu{\kf46}ke! {\kf29}{\kf21}yu{\kf46}ke! {\kf29}{\kf17}yu{\kf21}ke {\kf25}yu{\kf42}ke {\kf38}{\kf21}yu{\kf46}ke! {\kf42}BLO{\kf121}CKER {\kf21}FO{\kf158}UR
-Dialogue: 1,0:0:23.73,0:0:31.94,Default,,0000,0000,0000,,{\k100}{\kf38}ki{\kf29}ta {\kf83}zo {\kf42}{\kf21}MO{\kf38}GU{\kf21}{\kf88}L {\kf29}{\kf21}ji{\kf25}go{\kf29}ku {\kf25}no {\kf54}ta{\kf50}i{\kf129}gun
-Dialogue: 1,0:0:31.61,0:0:40.20,Default,,0000,0000,0000,,{\k100}{\kf13}ma{\kf33}{\kf25}mo{\kf96}re {\kf33}{\kf21}bo{\kf54}ku{\kf25}ra {\kf71}no {\kf29}{\kf38}ma{\kf38}chi {\kf29}wo {\kf42}u{\kf54}mi {\kf158}wo
-Dialogue: 1,0:0:39.66,0:0:44.33,Default,,0000,0000,0000,,{\k100}{\kf21}mo{\kf42}e{\kf29}ru {\kf21}se{\kf25}i{\kf29}gi {\kf29}no {\kf29}e{\kf21}re{\kf21}pa{\kf29}su {\kf21}ko{\kf21}me{\kf29}te
-Dialogue: 1,0:0:43.54,0:0:48.21,Default,,0000,0000,0000,,{\k100}{\kf29}i{\kf38}ma {\kf29}da {\kf21}A{\kf25}TTA{\kf50}CK {\kf21}en{\kf25}ge{\kf21}tsu {\kf29}{\kf25}ka{\kf21}i{\kf33}ten
-Dialogue: 1,0:0:47.42,0:0:55.80,Default,,0000,0000,0000,,{\k100}{\kf13}ku{\kf33}{\kf21}da{\kf21}i{\kf67}te {\kf21}mi{\kf25}se{\kf46}ru {\kf125}ze {\kf21}{\kf42}a{\kf33}ku {\kf21}{\kf54}no {\kf46}ki{\kf150}ba
-Dialogue: 1,0:0:54.80,0:1:7.01,Default,,0000,0000,0000,,{\k100}{\kf42}BLO{\kf125}CKER {\kf21}{\kf54}gun{\kf171}dan {\kf29}{\kf25}MA{\kf58}CHINE {\kf25}B{\kf63}LAS{\kf509}TER
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:09.63,0:00:16.43,Default,,0,0,0,karaoke,{\k79}to{\k21}do{\k21}ro{\k29}ku {\k29}ra{\k42}i{\k25}me{\k92}i {\k96}a{\k21}ra{\k33}shi {\k33}wo {\k33}tsu{\k33}i{\k92}te
+Comment: 1,0:00:16.93,0:00:20.95,Default,,0,0,0,karaoke,{\k21}yu{\k75}ke! {\k21}yu{\k75}ke! {\k17}yu{\k21}ke {\k25}yu{\k80}ke {\k21}yu{\k46}ke!
+Comment: 1,0:00:20.95,0:00:24.35,Default,,0,0,0,karaoke,{\k42}BLO{\k121}CKER {\k21}FO{\k158}UR
+Comment: 1,0:00:24.73,0:00:31.94,Default,,0,0,0,karaoke,{\k38}ki{\k29}ta {\k125}zo {\k21}MO{\k59}GU{\k117}L {\k21}ji{\k25}go{\k29}ku {\k25}no {\k54}ta{\k50}i{\k129}gun
+Comment: 1,0:00:32.61,0:00:40.20,Default,,0,0,0,karaoke,{\k46}ma{\k25}mo{\k129}re {\k21}bo{\k54}ku{\k25}ra {\k100}no {\k38}ma{\k38}chi {\k29}wo {\k42}u{\k54}mi {\k158}wo
+Comment: 1,0:00:40.66,0:00:44.33,Default,,0,0,0,karaoke,{\k21}mo{\k42}e{\k29}ru {\k21}se{\k25}i{\k29}gi {\k29}no {\k29}e{\k21}re{\k21}pa{\k29}su {\k21}ko{\k21}me{\k29}te
+Comment: 1,0:00:44.54,0:00:48.21,Default,,0,0,0,karaoke,{\k29}i{\k38}ma {\k29}da {\k21}A{\k25}TTA{\k50}CK {\k21}en{\k25}ge{\k50}tsu {\k25}ka{\k21}i{\k33}ten
+Comment: 1,0:00:48.42,0:00:55.80,Default,,0,0,0,karaoke,{\k46}ku{\k21}da{\k21}i{\k67}te {\k21}mi{\k25}se{\k46}ru {\k146}ze {\k42}a{\k54}ku {\k54}no {\k46}ki{\k150}ba
+Comment: 1,0:00:55.80,0:01:07.01,Default,,0,0,0,karaoke,{\k42}BLO{\k146}CKER {\k54}gun{\k200}dan {\k25}MA{\k58}CHINE {\k25}B{\k63}LAS{\k509}TER
+Dialogue: 1,0:00:08.73,0:00:16.63,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k79}to{\k21}do{\k21}ro{\k29}ku {\k29}ra{\k42}i{\k25}me{\k92}i {\k96}a{\k21}ra{\k33}shi {\k33}wo {\k33}tsu{\k33}i{\k92}te
+Dialogue: 1,0:00:16.03,0:00:21.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}yu{\k75}ke! {\k21}yu{\k75}ke! {\k17}yu{\k21}ke {\k25}yu{\k80}ke {\k21}yu{\k46}ke!
+Dialogue: 1,0:00:20.05,0:00:24.55,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}BLO{\k121}CKER {\k21}FO{\k158}UR
+Dialogue: 1,0:00:23.83,0:00:32.14,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ki{\k29}ta {\k125}zo {\k21}MO{\k59}GU{\k117}L {\k21}ji{\k25}go{\k29}ku {\k25}no {\k54}ta{\k50}i{\k129}gun
+Dialogue: 1,0:00:31.71,0:00:40.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}ma{\k25}mo{\k129}re {\k21}bo{\k54}ku{\k25}ra {\k100}no {\k38}ma{\k38}chi {\k29}wo {\k42}u{\k54}mi {\k158}wo
+Dialogue: 1,0:00:39.76,0:00:44.53,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}mo{\k42}e{\k29}ru {\k21}se{\k25}i{\k29}gi {\k29}no {\k29}e{\k21}re{\k21}pa{\k29}su {\k21}ko{\k21}me{\k29}te
+Dialogue: 1,0:00:43.64,0:00:48.41,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}i{\k38}ma {\k29}da {\k21}A{\k25}TTA{\k50}CK {\k21}en{\k25}ge{\k50}tsu {\k25}ka{\k21}i{\k33}ten
+Dialogue: 1,0:00:47.52,0:00:56.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}ku{\k21}da{\k21}i{\k67}te {\k21}mi{\k25}se{\k46}ru {\k146}ze {\k42}a{\k54}ku {\k54}no {\k46}ki{\k150}ba
+Dialogue: 1,0:00:54.90,0:01:07.21,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}BLO{\k146}CKER {\k54}gun{\k200}dan {\k25}MA{\k58}CHINE {\k25}B{\k63}LAS{\k509}TER
