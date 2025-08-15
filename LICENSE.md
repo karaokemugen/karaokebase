@@ -37,7 +37,7 @@ The sync work is licensed under [Creative Commons CC-BY-SA 4.0](./LICENSE_CC-BY-
 
 We sometimes import karaokes from other repositories such as Bakaclub, Japan7, etc. All of them have differents licensing terms and **may not** be compatible with CC-BY-SA 4.0. Unfortunately, we don't have a clear way to flag imported karaokes yet.
 
-We try, as much as possible, to fill the `author` tag in the `.kara.json` files to credit the author of a karaoke. Some of them are under the "Karaoke Mugen" name simply because we are not sure of who created them. If you know, please submit a pull request or contact us.
+We try, as much as possible, to fill the `author` tag in the `.kara.json` files to credit the author of a karaoke. Some of them are under the "Kara.moe" name simply because we are not sure of who created them. If you know, please submit a pull request or contact us.
 
 ## Contact
 
