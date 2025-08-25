@@ -1,0 +1,37 @@
+﻿[Script Info]
+Title: Flanke, Schuss und Treffer
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:12.31,0:00:14.06,Sample KM [Up],,0,0,0,karaoke,{\k36}Kei{\k18}ner {\k36}kann {\k22}ihn {\k34}brem{\k29}sen
+Comment: 0,0:00:15.02,0:00:17.00,Sample KM [Up],,0,0,0,karaoke,{\k36}Kei{\k20}ner {\k35}macht {\k17}ihm {\k37}was {\k53}vor
+Comment: 0,0:00:18.08,0:00:19.95,Sample KM [Up],,0,0,0,karaoke,{\k20}Im{\k19}mer {\k18}der {\k33}rich{\k20}ti{\k17}ge {\k60}Schuss
+Comment: 0,0:00:20.78,0:00:22.84,Sample KM [Up],,0,0,0,karaoke,{\k20}Im{\k31}mer {\k24}zur {\k36}rich{\k18}ti{\k17}gen {\k60}Zeit
+Comment: 0,0:00:23.69,0:00:25.18,Sample KM [Up],,0,0,0,karaoke,{\k36}Su{\k37}per{\k37}fuß{\k39}ball
+Comment: 0,0:00:25.14,0:00:26.59,Sample KM [Choir],,0,0,0,karaoke,{\k36}Su{\k36}per{\k37}fuß{\k36}ball
+Comment: 0,0:00:26.59,0:00:28.05,Sample KM [Up],,0,0,0,karaoke,{\k37}Fai{\k36}rer {\k34}Fuß{\k39}ball
+Comment: 0,0:00:28.05,0:00:29.48,Sample KM [Choir],,0,0,0,karaoke,{\k35}Fai{\k36}rer {\k37}Fuß{\k35}ball
+Comment: 0,0:00:29.48,0:00:32.02,Sample KM [Up],,0,0,0,karaoke,{\k39}Er {\k21}ist {\k36}un{\k49}ser {\k32}Tor{\k20}schüt{\k18}zen{\k19}kö{\k20}nig
+Comment: 0,0:00:32.02,0:00:33.47,Sample KM [Up],,0,0,0,karaoke,{\k71}Und {\k74}Held
+Dialogue: 0,0:00:11.41,0:00:14.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Kei{\k18}ner {\k36}kann {\k22}ihn {\k34}brem{\k29}sen
+Dialogue: 0,0:00:14.12,0:00:17.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Kei{\k20}ner {\k35}macht {\k17}ihm {\k37}was {\k53}vor
+Dialogue: 0,0:00:17.18,0:00:20.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Im{\k19}mer {\k18}der {\k33}rich{\k20}ti{\k17}ge {\k60}Schuss
+Dialogue: 0,0:00:19.88,0:00:23.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Im{\k31}mer {\k24}zur {\k36}rich{\k18}ti{\k17}gen {\k60}Zeit
+Dialogue: 0,0:00:22.79,0:00:25.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Su{\k37}per{\k37}fuß{\k39}ball
+Dialogue: 0,0:00:24.24,0:00:26.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Su{\k36}per{\k37}fuß{\k36}ball
+Dialogue: 0,0:00:25.69,0:00:28.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Fai{\k36}rer {\k34}Fuß{\k39}ball
+Dialogue: 0,0:00:27.15,0:00:29.68,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Fai{\k36}rer {\k37}Fuß{\k35}ball
+Dialogue: 0,0:00:28.58,0:00:32.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Er {\k21}ist {\k36}un{\k49}ser {\k32}Tor{\k20}schüt{\k18}zen{\k19}kö{\k20}nig
+Dialogue: 0,0:00:31.12,0:00:33.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k71}Und {\k74}Held
